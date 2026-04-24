@@ -33,11 +33,11 @@
       </nav>
 
       <div class="sidebar-card profile">
-        <div class="avatar"></div>
+        <div class="avatar" data-profile-avatar></div>
         <div class="profile-copy">
-          <h3>Student Profile</h3>
-          <div class="muted">Your name, photo, and learner details will appear here after profile completion.</div>
-          <div class="profile-link"><a class="small-link" href="#">Complete Profile →</a></div>
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your name, photo, and learner details will appear here after profile completion.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile →</a></div>
         </div>
       </div>
 
@@ -82,7 +82,10 @@ Ancient Greek with Xenophon.
         <article class="card">
           <h3>Current Level</h3>
           <div class="level-box">
-            <div class="laurel"><strong>7</strong></div>
+            <div class="laurel">
+              <strong>7</strong>
+              <span class="laurel-label">Erudite</span>
+            </div>
             <div style="flex:1;">
               <div style="font-size:1.1rem;font-weight:700;">385 / 500 XP</div>
               <div class="xp-bar"><span></span></div>
@@ -216,11 +219,13 @@ Ancient Greek with Xenophon.
         <div class="quote-copy">
           <p class="greek">ὁ μὴ εἰδὼς τὴν αὑτοῦ δύναμιν ἀγνοεῖν ἑαυτόν.</p>
           <p class="english">“The man who doesn’t know his own ability is ignorant of himself.”</p>
-          <p class="source">Xenophon, <em>Memorabilia</em> 4.2.25</p>
+          <p class="source">– Xenophon, <em>Memorabilia</em> 4.2.25</p>
         </div>
+        <div class="quote-art" aria-hidden="true"></div>
       </section>
     </main>
   </div>
+  <script src="profile-data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

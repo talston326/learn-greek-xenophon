@@ -1,5 +1,9 @@
 const heroMessageEl = document.querySelector("[data-hero-message]");
 const progressTracker = document.querySelector("[data-progress-tracker]");
+const profileAvatarEl = document.querySelector("[data-profile-avatar]");
+const profileNameEl = document.querySelector("[data-profile-name]");
+const profileSummaryEl = document.querySelector("[data-profile-summary]");
+const profileLinkEl = document.querySelector("[data-profile-link]");
 
 if (heroMessageEl && progressTracker) {
   const completedLessons = Number(progressTracker.dataset.completedLessons || 0);
@@ -55,4 +59,35 @@ if (heroMessageEl && progressTracker) {
 
     heroMessageEl.appendChild(document.createTextNode(line));
   });
+}
+
+if (
+  window.profileStore &&
+  profileAvatarEl &&
+  profileNameEl &&
+  profileSummaryEl &&
+  profileLinkEl
+) {
+  const profile = window.profileStore.loadProfile();
+  const hasProfile = Boolean(profile.name || profile.summary || profile.photoDataUrl);
+
+  if (profile.photoDataUrl) {
+    profileAvatarEl.style.backgroundImage = `url("${profile.photoDataUrl}")`;
+    profileAvatarEl.classList.add("has-photo");
+  } else {
+    profileAvatarEl.style.backgroundImage = "";
+    profileAvatarEl.classList.remove("has-photo");
+  }
+
+  if (hasProfile) {
+    profileNameEl.textContent = profile.name || "Student Profile";
+    profileSummaryEl.textContent =
+      profile.summary || "Your dashboard profile is ready to review.";
+    profileLinkEl.textContent = "View Profile →";
+  } else {
+    profileNameEl.textContent = "Student Profile";
+    profileSummaryEl.textContent =
+      "Your name, photo, and learner details will appear here after profile completion.";
+    profileLinkEl.textContent = "Complete Profile →";
+  }
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile — Learn Greek with Xenophon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="profile-page">
+  <main class="profile-shell">
+    <a class="back-link" href="index.html">← Back to Dashboard</a>
+
+    <section class="profile-editor-card">
+      <div class="profile-page-heading">
+        <p class="eyebrow">Student Profile</p>
+        <h1>Profile Setup</h1>
+        <p class="profile-intro">Choose a photo from your desktop, preview it here, and save it so the dashboard card can display your profile.</p>
+      </div>
+
+      <div class="profile-editor-grid">
+        <div class="profile-photo-panel">
+          <div class="profile-photo-preview" data-profile-photo-preview aria-label="Profile photo preview"></div>
+          <label class="primary-button upload-button" for="profile-photo-input">Select Photo</label>
+          <input id="profile-photo-input" type="file" accept="image/*" data-profile-photo-input>
+          <button type="button" class="secondary-button" data-profile-photo-remove>Remove Photo</button>
+          <p class="field-help">Images are stored locally in this browser for this prototype.</p>
+        </div>
+
+        <form class="profile-form" data-profile-form>
+          <label class="field-label" for="profile-name">Student Name</label>
+          <input id="profile-name" class="text-field" type="text" placeholder="Enter your name" data-profile-name-input>
+
+          <label class="field-label" for="profile-summary">Profile Summary</label>
+          <input id="profile-summary" class="text-field" type="text" placeholder="Example: Level 7" data-profile-summary-input>
+
+          <div class="profile-actions">
+            <button type="submit" class="primary-button">Save Profile</button>
+            <button type="button" class="secondary-button" data-profile-reset>Reset Profile</button>
+          </div>
+
+          <p class="profile-status" data-profile-status></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="profile-data.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>
