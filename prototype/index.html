@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Greek with Xenophon — Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2026</div>
+      </div>
+
+      <nav class="nav">
+        <a href="#" class="active"><span class="icon">🏠</span>Dashboard</a>
+        <a href="#"><span class="icon">📖</span>Lessons</a>
+        <a href="#"><span class="icon">📄</span>Readings</a>
+        <a href="#"><span class="icon">Αα</span>Vocabulary</a>
+        <a href="#"><span class="icon">🏛️</span>Grammar</a>
+        <a href="#"><span class="icon">✏️</span>Exercises</a>
+        <a href="#"><span class="icon">🌀</span>Review</a>
+        <a href="#"><span class="icon">💬</span>Discussions</a>
+        <a href="#"><span class="icon">📁</span>Resources</a>
+        <a href="#"><span class="icon">📊</span>Grades</a>
+        <a href="#"><span class="icon">⚙️</span>Settings</a>
+      </nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar"></div>
+        <div class="profile-copy">
+          <h3>Student Profile</h3>
+          <div class="muted">Your name, photo, and learner details will appear here after profile completion.</div>
+          <div class="profile-link"><a class="small-link" href="#">Complete Profile →</a></div>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div style="display:flex; gap:12px; align-items:flex-start;">
+          <div style="width:42px;height:42px;border-radius:12px;background:var(--usc-garnet);color:#fff;display:grid;place-items:center;flex:0 0 auto;">🏛️</div>
+          <div>
+            <div class="muted" style="font-size:.98rem;">You are enrolled in</div>
+            <div style="font-size:1.22rem;font-weight:700;margin-top:4px;">GREK 110 J10</div>
+            <div class="muted" style="margin-top:4px;">Spring 2026</div>
+            <div style="margin-top:12px"><a class="small-link" href="#">Course Info →</a></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <h2>Χαῖρε, μαθητά!</h2>
+          <p data-hero-message data-course-name="GREK 110 J10">
+            Welcome back to GREK 110 J10.<br>
+            Keep up your excellent progress in learning 
+Ancient Greek with Xenophon.
+          </p>
+        </div>
+      </section>
+
+      <section class="grid-top">
+        <article class="card" data-progress-tracker data-completed-lessons="34" data-total-lessons="50">
+          <h3>Overall Progress</h3>
+          <div class="progress-wrap">
+            <div class="ring"></div>
+            <div>
+              <div style="font-size:1.55rem;font-weight:700;margin-bottom:6px;">Well done!</div>
+              <div class="muted" style="font-size:1.1rem;line-height:1.5;">You’ve completed<br>34 of 50 lessons.</div>
+              <a class="cta" href="#">View Progress <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Current Level</h3>
+          <div class="level-box">
+            <div class="laurel"><strong>7</strong></div>
+            <div style="flex:1;">
+              <div style="font-size:1.1rem;font-weight:700;">385 / 500 XP</div>
+              <div class="xp-bar"><span></span></div>
+              <div class="muted">Next Level: Sophos</div>
+              <a class="cta" href="#">See Rewards <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Weekly Goal</h3>
+          <div class="goal-wrap">
+            <div class="goal-thumb"></div>
+            <div>
+              <div style="font-size:1.5rem;font-weight:700;">4 / 5 lessons</div>
+              <div class="xp-bar" style="margin-top:12px;"><span style="width:80%"></span></div>
+              <div class="muted">1 lesson to go!</div>
+              <a class="cta" href="#">Edit Goal <span>→</span></a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="grid-main">
+        <article class="card path-card">
+          <h3>Your Learning Path</h3>
+          <div class="path">
+            <div class="step done">
+              <div class="step-dot">✓</div>
+              <div>
+                <h4>1. The Greek Alphabet</h4>
+                <p>Completed</p>
+              </div>
+            </div>
+            <div class="step done">
+              <div class="step-dot">✓</div>
+              <div>
+                <h4>2. Basic Pronouns & Greetings</h4>
+                <p>Completed</p>
+              </div>
+            </div>
+            <div class="step done">
+              <div class="step-dot">✓</div>
+              <div>
+                <h4>3. Present Tense – Active Voice</h4>
+                <p>Completed</p>
+              </div>
+            </div>
+            <div class="step current">
+              <div class="step-dot">🏛</div>
+              <div>
+                <h4>4. First Declension Nouns</h4>
+                <p>In Progress</p>
+              </div>
+              <button class="continue-btn">Continue Lesson</button>
+            </div>
+            <div class="step locked">
+              <div class="step-dot">🔒</div>
+              <div>
+                <h4>5. Adjectives: Agreement</h4>
+                <p>Locked</p>
+              </div>
+            </div>
+          </div>
+          <a class="cta" href="#" style="margin-top:22px;">View Full Curriculum <span>→</span></a>
+        </article>
+
+        <div style="display:grid; gap:18px;">
+          <article class="card">
+            <h3>Recent Activity</h3>
+            <div class="activity-list">
+              <div class="activity-item">
+                <div class="activity-icon book">📘</div>
+                <div>
+                  <h4>Completed: Xenophon, Memorabilia 1.2.20</h4>
+                  <p class="muted">Today</p>
+                </div>
+                <div class="xp">+60 XP</div>
+              </div>
+              <div class="activity-item">
+                <div class="activity-icon review">☰</div>
+                <div>
+                  <h4>Reviewed: Vocabulary Set 7</h4>
+                  <p class="muted">Yesterday</p>
+                </div>
+                <div class="xp">+20 XP</div>
+              </div>
+              <div class="activity-item">
+                <div class="activity-icon exercise">✎</div>
+                <div>
+                  <h4>Completed Exercise: Translation Drill 12</h4>
+                  <p class="muted">2 days ago</p>
+                </div>
+                <div class="xp">+25 XP</div>
+              </div>
+            </div>
+            <a class="cta" href="#">View All Activity <span>→</span></a>
+          </article>
+
+          <article class="card">
+            <h3>Achievements</h3>
+            <div class="achievement-row">
+              <div class="badge">
+                <div class="badge-icon b1">👣</div>
+                <div>First Steps</div>
+              </div>
+              <div class="badge">
+                <div class="badge-icon b2">❦</div>
+                <div>Word Collector</div>
+              </div>
+              <div class="badge">
+                <div class="badge-icon b3">🏛</div>
+                <div>Grammar Novice</div>
+              </div>
+              <div class="badge">
+                <div class="badge-icon b4">🦉</div>
+                <div>Diligent Learner</div>
+              </div>
+              <div class="badge">
+                <div class="badge-icon b5">🏆</div>
+                <div>Sophos</div>
+              </div>
+            </div>
+            <a class="cta" href="#">View All Achievements <span>→</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote">
+        <div class="quote-icon" aria-hidden="true"></div>
+        <div class="quote-copy">
+          <p class="greek">ὁ μὴ εἰδὼς τὴν αὑτοῦ δύναμιν ἀγνοεῖν ἑαυτόν.</p>
+          <p class="english">“The man who doesn’t know his own ability is ignorant of himself.”</p>
+          <p class="source">Xenophon, <em>Memorabilia</em> 4.2.25</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
