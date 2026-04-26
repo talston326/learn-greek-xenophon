@@ -588,6 +588,7 @@ const achievementListEl = document.querySelector("[data-achievement-list]");
 const lessonsListEl = document.querySelector("[data-lessons-list]");
 const lessonPageTitleEl = document.querySelector("[data-lesson-page-title]");
 const lessonPageSummaryEl = document.querySelector("[data-lesson-page-summary]");
+const liveCourseTitleEl = document.querySelector("[data-course-title-live]");
 const studentDashboardSections = document.querySelectorAll("[data-student-dashboard]");
 const professorDashboardEl = document.querySelector("[data-professor-dashboard]");
 
@@ -1101,6 +1102,26 @@ function renderLessonsPage(session) {
   });
 }
 
+async function renderLiveCourseTitle() {
+  if (!liveCourseTitleEl) {
+    return;
+  }
+
+  try {
+    const response = await fetch("/api/courses");
+    if (!response.ok) {
+      throw new Error("Courses request failed");
+    }
+
+    const data = await response.json();
+    const [course] = Array.isArray(data.courses) ? data.courses : [];
+    liveCourseTitleEl.textContent = course?.title || "Course details are unavailable right now.";
+  } catch (error) {
+    console.error("Unable to load courses", error);
+    liveCourseTitleEl.textContent = "Course details are unavailable right now.";
+  }
+}
+
 function setHeroMessage(lines) {
   if (!heroMessageEl) {
     return;
@@ -1514,3 +1535,4 @@ renderAlphabetTable();
 bindLessonAudio();
 bindExerciseChecks();
 bindSidebarToggle();
+renderLiveCourseTitle();
