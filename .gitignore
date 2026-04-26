@@ -1,4 +1,11 @@
 .DS_Store
-
 # Local Netlify folder
 .netlify
+.netlify/
+node_modules/
+.env
+.env.*
+!.env.example
+*.local
+*.swp
+prototype.backup.*/

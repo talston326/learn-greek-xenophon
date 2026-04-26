@@ -1203,8 +1203,13 @@ function renderProfessorDashboard() {
             <h3>Student Progress</h3>
             <p class="muted">Classroom overview for GREK 110 J10.</p>
           </div>
+          <div class="prof-scroll-hint" aria-hidden="true">
+            <span>←</span>
+            <span>Scroll</span>
+            <span>→</span>
+          </div>
         </div>
-        <div class="prof-table-wrap">
+        <div class="prof-table-wrap" tabindex="0" aria-label="Student progress table. Scroll horizontally to see all columns.">
           <table class="prof-table">
             <thead>
               <tr>

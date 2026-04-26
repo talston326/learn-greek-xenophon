@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "pg": "^8.20.0",
+    "@netlify/neon": "^0.1.2"
+  },
+  "scripts": {
+    "db:migrate": "node db/run-sql.mjs db/migrations/0001_xenophon_initial_schema.sql",
+    "db:seed": "node db/run-sql.mjs db/seeds/0001_minimal_development_seed.sql",
+    "db:verify": "node db/run-sql.mjs db/verify_schema.sql"
+  }
+}

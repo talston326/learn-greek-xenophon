@@ -1674,8 +1674,10 @@
 
     .prof-card-heading {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       gap: 14px;
+      align-items: flex-start;
       margin-bottom: 12px;
     }
 
@@ -1684,17 +1686,63 @@
       margin: 0;
     }
 
+    .prof-scroll-hint {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 30px;
+      border: 1px solid rgba(115,0,10,.16);
+      border-radius: 999px;
+      padding: 5px 10px;
+      background: rgba(250,246,240,.78);
+      color: #6f665f;
+      font-size: .76rem;
+      font-weight: 800;
+      line-height: 1;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
+    .prof-scroll-hint span:first-child,
+    .prof-scroll-hint span:last-child {
+      color: var(--usc-garnet);
+      font-size: .88rem;
+    }
+
     .prof-table-wrap {
       overflow-x: auto;
       border: 1px solid rgba(111,102,95,.14);
       border-radius: 16px;
-      background: rgba(255,253,251,.72);
+      background:
+        linear-gradient(90deg, rgba(255,253,251,.96), rgba(255,253,251,0)) left center / 34px 100% no-repeat local,
+        linear-gradient(270deg, rgba(255,253,251,.96), rgba(255,253,251,0)) right center / 34px 100% no-repeat local,
+        linear-gradient(90deg, rgba(74,59,50,.22), rgba(74,59,50,0)) left center / 16px 100% no-repeat scroll,
+        linear-gradient(270deg, rgba(74,59,50,.22), rgba(74,59,50,0)) right center / 16px 100% no-repeat scroll,
+        rgba(255,253,251,.72);
+      scrollbar-color: rgba(74,59,50,.55) rgba(111,102,95,.1);
+      scrollbar-width: thin;
+    }
+
+    .prof-table-wrap::-webkit-scrollbar {
+      height: 12px;
+    }
+
+    .prof-table-wrap::-webkit-scrollbar-track {
+      background: rgba(111,102,95,.1);
+      border-radius: 999px;
+    }
+
+    .prof-table-wrap::-webkit-scrollbar-thumb {
+      background: rgba(74,59,50,.52);
+      border: 3px solid rgba(255,253,251,.72);
+      border-radius: 999px;
     }
 
     .prof-table {
       width: 100%;
       min-width: 1060px;
-      border-collapse: collapse;
+      border-collapse: separate;
+      border-spacing: 0;
     }
 
     .prof-table th,
@@ -1712,6 +1760,22 @@
       text-transform: uppercase;
       letter-spacing: .06em;
       white-space: nowrap;
+    }
+
+    .prof-table th:first-child,
+    .prof-table td:first-child {
+      position: sticky;
+      left: 0;
+      z-index: 2;
+      min-width: 146px;
+      max-width: 190px;
+      background: #fffdfb;
+      box-shadow: 10px 0 16px -14px rgba(51,43,38,.68);
+    }
+
+    .prof-table th:first-child {
+      z-index: 3;
+      background: #f7f0ee;
     }
 
     .prof-table tr:last-child td {
