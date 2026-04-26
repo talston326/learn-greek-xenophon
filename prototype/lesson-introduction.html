@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Introduction - The Greek Alphabet</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2027</div>
+      </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+
+      <nav class="nav"></nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile -></a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="intro-lesson" id="lesson-start">
+        <header class="lesson-header">
+          <div>
+            <p class="eyebrow">Introduction</p>
+            <h2>The Greek Alphabet</h2>
+            <p>
+              Entering the world of Greek: historical context, alphabet, pronunciation, and the sounds
+              students need to read Greek aloud from the first day.
+            </p>
+            <div class="lesson-page-actions">
+              <a class="secondary-button" href="index.html">Dashboard</a>
+              <a class="secondary-button" href="lessons.html">All Lessons</a>
+            </div>
+          </div>
+          <div class="lesson-seal" aria-hidden="true">ΑΩ</div>
+        </header>
+
+        <div class="lesson-tabs" aria-label="Introduction lesson parts">
+          <a href="#intro-part-1">Part 1 · What is Ancient Greek?</a>
+          <a href="#intro-part-2">Part 2 · The Greek Alphabet</a>
+        </div>
+
+        <section class="lesson-part course-intro" id="intro-part-1">
+          <div class="part-copy">
+            <p class="eyebrow">Part 1</p>
+            <h3>What is Ancient Greek?</h3>
+            <p>
+              <em>Learn Ancient Greek with Xenophon</em> is a first course in Greek that treats language
+              as a way into character, action, custom, and judgment. Students will build the alphabet,
+              vocabulary, forms, syntax, and reading habits needed for Greek, while returning again and
+              again to Xenophon: soldier, student of Socrates, historian, estate manager, and writer of
+              clear practical prose.
+            </p>
+            <p>
+              The course will move from the smallest units of reading toward scenes of Ancient Greek life:
+              home, work, family, worship, friendship, leadership, courage, moderation, memory, and public
+              responsibility. Xenophon gives students a world where language and values meet. A word is
+              never merely a word; it belongs to a household, a conversation, a march, a courtroom, a farm,
+              a city, or an argument about how one ought to live.
+            </p>
+          </div>
+
+          <figure class="map-panel">
+            <img src="assets/ancient-greece-map.jpg" alt="Reference map of Ancient Greece, southern part, from William R. Shepherd's Historical Atlas">
+            <figcaption>
+              Ancient Greece reference map. William R. Shepherd, <em>Historical Atlas</em>, 1923;
+              Perry-Castaneda Library Map Collection, public domain.
+            </figcaption>
+          </figure>
+
+          <div class="values-grid" aria-label="Course themes">
+            <article>
+              <span>λόγος</span>
+              <strong>Language with purpose</strong>
+              <p>Forms, syntax, and vocabulary are learned as tools for reading real thought.</p>
+            </article>
+            <article>
+              <span>οἶκος</span>
+              <strong>Life in context</strong>
+              <p>Lessons begin with ordinary places and practices before moving into larger civic life.</p>
+            </article>
+            <article>
+              <span>ἀρετή</span>
+              <strong>Values under pressure</strong>
+              <p>Xenophon asks how courage, discipline, friendship, and judgment appear in action.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="lesson-part alphabet-intro" id="intro-part-2">
+          <div class="part-copy">
+            <p class="eyebrow">Part 2</p>
+            <h3>The Greek Alphabet</h3>
+            <p>
+              Greek has twenty-four letters. Students should learn each letter by sight, name, sound,
+              and example word, then practice the marks that change how a word is read: breathings,
+              accents, diphthongs, iota subscripts, and consonant combinations.
+            </p>
+          </div>
+
+          <div class="alphabet-table-wrap">
+            <table class="alphabet-table">
+              <thead>
+                <tr>
+                  <th>Letter</th>
+                  <th>Name</th>
+                  <th>Sound</th>
+                  <th>Example</th>
+                  <th>Hear</th>
+                </tr>
+              </thead>
+              <tbody data-alphabet-table></tbody>
+            </table>
+          </div>
+
+          <div class="sound-notes">
+            <article>
+              <h4>Vowels and Diphthongs</h4>
+              <p>Short and long vowels matter. Common diphthongs include αι, ει, οι, αυ, ευ, ου, υι, ηυ; pronounce them as paired sounds learned by practice.</p>
+            </article>
+            <article>
+              <h4>Breathings</h4>
+              <p>A rough breathing adds an initial h-sound: ὁ. A smooth breathing has no h-sound: ὁδός differs from ὀδός in the mark at the beginning.</p>
+            </article>
+            <article>
+              <h4>Iota Subscript</h4>
+              <p>ᾳ, ῃ, and ῳ preserve an older iota under a long vowel. It affects recognition and history more than normal classroom pronunciation.</p>
+            </article>
+            <article>
+              <h4>Consonant Groups</h4>
+              <p>γ before γ, κ, ξ, or χ sounds like ng. ξ equals κ + σ, ψ equals π + σ, and ζ is commonly taught as σ + δ or dz.</p>
+            </article>
+            <article>
+              <h4>Double Consonants</h4>
+              <p>Double letters are held or articulated distinctly: λλ, μμ, νν, ππ, ττ, and others help students see syllables and word formation.</p>
+            </article>
+            <article>
+              <h4>Accents</h4>
+              <p>Acute, grave, and circumflex accents mark pitch in ancient pronunciation and guide careful reading aloud in this course.</p>
+            </article>
+          </div>
+
+          <section class="exercise-panel" aria-labelledby="practice-title">
+            <div>
+              <p class="eyebrow">Practice</p>
+              <h3 id="practice-title">Alphabet Skills</h3>
+            </div>
+
+            <div class="exercise-grid">
+              <article class="exercise-card" data-exercise="letter-match">
+                <h4>1. Match the Letter</h4>
+                <p>Which letter is named <strong>theta</strong>?</p>
+                <div class="choice-row">
+                  <button type="button" data-answer="wrong">τ</button>
+                  <button type="button" data-answer="correct">θ</button>
+                  <button type="button" data-answer="wrong">φ</button>
+                </div>
+                <p class="exercise-feedback" aria-live="polite"></p>
+              </article>
+
+              <article class="exercise-card" data-exercise="breathing">
+                <h4>2. Read the Breathing</h4>
+                <p>Which word begins with an h-sound?</p>
+                <div class="choice-row">
+                  <button type="button" data-answer="correct">ὁ</button>
+                  <button type="button" data-answer="wrong">ὀ</button>
+                  <button type="button" data-answer="wrong">ο</button>
+                </div>
+                <p class="exercise-feedback" aria-live="polite"></p>
+              </article>
+
+              <article class="exercise-card" data-exercise="diphthong">
+                <h4>3. Find the Diphthong</h4>
+                <p>Which pair is a common Greek diphthong?</p>
+                <div class="choice-row">
+                  <button type="button" data-answer="wrong">αε</button>
+                  <button type="button" data-answer="correct">αι</button>
+                  <button type="button" data-answer="wrong">ηο</button>
+                </div>
+                <p class="exercise-feedback" aria-live="polite"></p>
+              </article>
+
+              <article class="exercise-card" data-exercise="combo">
+                <h4>4. Parse the Combination</h4>
+                <p>ξ is best learned as which consonant pair?</p>
+                <div class="choice-row">
+                  <button type="button" data-answer="correct">κ + σ</button>
+                  <button type="button" data-answer="wrong">π + σ</button>
+                  <button type="button" data-answer="wrong">τ + θ</button>
+                </div>
+                <p class="exercise-feedback" aria-live="polite"></p>
+              </article>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

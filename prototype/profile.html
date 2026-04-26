@@ -3,7 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <meta name="apple-mobile-web-app-title" content="Greek with Xenophon" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>Profile — Learn Greek with Xenophon</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="profile-page">
@@ -14,7 +21,7 @@
       <div class="profile-page-heading">
         <p class="eyebrow">Student Profile</p>
         <h1>Profile Setup</h1>
-        <p class="profile-intro">Choose a photo from your desktop, preview it here, and save it so the dashboard card can display your profile.</p>
+        <p class="profile-intro">Choose a photo from your desktop, preview it here, save profile details, and switch between the dashboard views assigned to your account.</p>
       </div>
 
       <div class="profile-editor-grid">
@@ -27,6 +34,12 @@
         </div>
 
         <form class="profile-form" data-profile-form>
+          <section class="profile-view-switcher" data-profile-view-switcher hidden>
+            <p class="eyebrow">Current View</p>
+            <div class="active-view" data-active-view>Student</div>
+            <div class="profile-role-options" data-profile-role-options></div>
+          </section>
+
           <label class="field-label" for="profile-name">Student Name</label>
           <input id="profile-name" class="text-field" type="text" placeholder="Enter your name" data-profile-name-input>
 

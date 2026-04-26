@@ -7,8 +7,67 @@ const profileForm = document.querySelector("[data-profile-form]");
 const profileNameInput = document.querySelector("[data-profile-name-input]");
 const profileSummaryInput = document.querySelector("[data-profile-summary-input]");
 const profileStatus = document.querySelector("[data-profile-status]");
+const profileViewSwitcher = document.querySelector("[data-profile-view-switcher]");
+const activeViewEl = document.querySelector("[data-active-view]");
+const profileRoleOptionsEl = document.querySelector("[data-profile-role-options]");
+
+const SESSION_STORAGE_KEY = "learn-greek-session";
+const ROLE_LABELS = {
+  administrator: "Administrator",
+  professor: "Professor",
+  student: "Student"
+};
 
 let draftProfile = profileStore ? profileStore.loadProfile() : null;
+
+function readSession() {
+  try {
+    const rawSession = window.localStorage.getItem(SESSION_STORAGE_KEY);
+    return rawSession ? JSON.parse(rawSession) : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function saveSession(session) {
+  window.localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
+}
+
+function activeProfileEmail() {
+  return readSession()?.email || "";
+}
+
+function renderRoleSwitcher() {
+  const session = readSession();
+
+  if (!session || !profileViewSwitcher || !profileRoleOptionsEl || !activeViewEl) {
+    return;
+  }
+
+  profileViewSwitcher.hidden = false;
+  activeViewEl.textContent = ROLE_LABELS[session.activeRole] || "Student";
+  profileRoleOptionsEl.textContent = "";
+
+  session.roles.forEach((role) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "role-toggle";
+    button.textContent = ROLE_LABELS[role] || role;
+
+    if (role === session.activeRole) {
+      button.classList.add("active");
+    }
+
+    button.addEventListener("click", () => {
+      const nextSession = { ...session, activeRole: role };
+      saveSession(nextSession);
+      profileStatus.textContent = `${ROLE_LABELS[role]} view selected. Return to the dashboard to use it.`;
+      renderRoleSwitcher();
+    });
+
+    profileRoleOptionsEl.appendChild(button);
+  });
+}
 
 function setPreviewPhoto(photoDataUrl) {
   if (!photoPreview) {
@@ -75,8 +134,10 @@ function readImageFile(file) {
 }
 
 if (draftProfile) {
+  draftProfile = profileStore.loadProfile(activeProfileEmail());
   renderProfileForm(draftProfile);
   profileStatus.textContent = "Update your profile and save when ready.";
+  renderRoleSwitcher();
 }
 
 photoInput?.addEventListener("change", async (event) => {
@@ -111,7 +172,7 @@ resetProfileButton?.addEventListener("click", () => {
   }
 
   draftProfile = { ...profileStore.defaultProfile };
-  profileStore.clearProfile();
+  profileStore.clearProfile(activeProfileEmail());
   photoInput.value = "";
   renderProfileForm(draftProfile);
   profileStatus.textContent = "Profile reset.";
@@ -126,6 +187,6 @@ profileForm?.addEventListener("submit", (event) => {
 
   draftProfile.name = profileNameInput.value.trim();
   draftProfile.summary = profileSummaryInput.value.trim();
-  draftProfile = profileStore.saveProfile(draftProfile);
+  draftProfile = profileStore.saveProfile(draftProfile, activeProfileEmail());
   profileStatus.textContent = "Profile saved. Return to the dashboard to see the updated card.";
 });

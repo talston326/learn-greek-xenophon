@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Lesson 4 - The Student and the Teacher</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2027</div>
+      </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+
+      <nav class="nav"></nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile -></a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="lesson-header" id="lesson-start">
+        <div>
+          <p class="eyebrow">Lesson 4</p>
+          <h2>The Student and the Teacher</h2>
+          <p>
+            Grammar focus: first declension nouns, agreement, and subject-object relationships.
+          </p>
+          <div class="lesson-page-actions">
+            <a class="secondary-button" href="index.html">Dashboard</a>
+            <a class="secondary-button" href="lessons.html">All Lessons</a>
+          </div>
+        </div>
+        <div class="lesson-seal" aria-hidden="true">α</div>
+      </section>
+    </main>
+  </div>
+
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

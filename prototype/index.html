@@ -3,10 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learn Greek with Xenophon — Dashboard</title>
+  <meta name="theme-color" content="#73000a" />
+  <meta name="apple-mobile-web-app-title" content="Greek with Xenophon" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Learn Greek with Xenophon</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="landing-active">
+  <main class="landing" data-landing>
+    <section class="landing-hero">
+      <div class="landing-copy">
+        <div class="landing-brand-row">
+          <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+          <div>
+            <p class="eyebrow">GREK 110 J10 · Department of Classics</p>
+            <p class="landing-term">Spring 2027</p>
+          </div>
+        </div>
+
+        <h1>Learn Ancient Greek with Xenophon</h1>
+        <p class="landing-lede">
+          A guided introduction to Ancient Greek through the voice of Xenophon:
+          steady grammar, living vocabulary, close reading, and progress you can see.
+        </p>
+
+        <div class="landing-actions">
+          <a class="primary-button" href="#login">Begin Study</a>
+          <a class="secondary-button" href="#xenophon-life">Meet Xenophon</a>
+        </div>
+      </div>
+
+      <section id="login" class="login-panel" aria-labelledby="login-title">
+        <div data-login-form-panel>
+          <p class="eyebrow">Course Access</p>
+          <h2 id="login-title">Sign in</h2>
+          <p class="login-intro">Use your course credentials to open the correct dashboard view.</p>
+
+          <form class="login-form" data-login-form>
+            <label class="field-label" for="login-email">Email</label>
+            <input id="login-email" class="text-field" type="email" autocomplete="username" required data-login-email>
+
+            <label class="field-label" for="login-password">Password</label>
+            <input id="login-password" class="text-field" type="password" autocomplete="current-password" required data-login-password>
+
+            <button class="primary-button" type="submit">Log In</button>
+            <p class="login-status" data-login-status aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="role-panel" data-role-panel hidden>
+          <p class="eyebrow">Choose View</p>
+          <h2 data-role-title>Select your dashboard</h2>
+          <p class="login-intro">Your account has more than one role. Choose the view you want to use now.</p>
+          <div class="role-options" data-role-options></div>
+          <button class="secondary-button" type="button" data-login-back>Use a different account</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="landing-section course-overview">
+      <div class="section-copy">
+        <p class="eyebrow">The Course</p>
+        <h2>Greek that grows from reading</h2>
+        <p>
+          This course introduces the alphabet, forms, syntax, vocabulary, and reading habits needed
+          for Ancient Greek. Each lesson connects grammar practice with passages and themes from
+          Xenophon, so students learn the language as a tool for interpretation.
+        </p>
+      </div>
+      <div class="overview-grid" aria-label="Course highlights">
+        <article>
+          <strong>Structured Path</strong>
+          <span>Alphabet, noun and verb systems, syntax, reading, and review.</span>
+        </article>
+        <article>
+          <strong>Visible Progress</strong>
+          <span>Lesson completion, vocabulary growth, exercises, and grades.</span>
+        </article>
+        <article>
+          <strong>Role-Based Views</strong>
+          <span>Students, professors, and administrators each see the tools they need.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="xenophon-life" class="landing-section xenophon-life">
+      <figure class="xenophon-art">
+        <img src="assets/xenophon-bust.jpg" alt="Marble bust of Xenophon of Athens">
+        <figcaption>Marble bust of Xenophon of Athens, Bibliotheca Alexandrina. Photo by Carole Raddato, CC BY-SA 2.0.</figcaption>
+      </figure>
+      <div class="section-copy">
+        <p class="eyebrow">The Life of Xenophon</p>
+        <h2>Soldier, student of Socrates, historian, teacher of practical wisdom</h2>
+        <p>
+          Xenophon lived in the late fifth and fourth centuries BCE, moving through worlds of
+          philosophy, war, exile, leadership, household management, and memory. Born into the world
+          of Classical Athens, he became a companion of Socrates and later joined the expedition of
+          Cyrus the Younger, marching with the Greek mercenaries whose retreat he narrates in the
+          <em>Anabasis</em>.
+        </p>
+        <p>
+          His writings include the <em>Anabasis</em>, <em>Memorabilia</em>, <em>Hellenica</em>,
+          <em>Oeconomicus</em>, <em>Cyropaedia</em>, and works on horsemanship, leadership, and
+          Spartan society. Across them, Xenophon asks practical questions: how should a person act
+          under pressure, how should a household be ordered, what makes a leader trustworthy, and how
+          does discipline become character?
+        </p>
+        <p>
+          Studying Greek with Xenophon means learning more than forms. It means learning how a Greek
+          sentence carries action, judgment, memory, command, friendship, and moral pressure across
+          the page.
+        </p>
+      </div>
+    </section>
+  </main>
+
   <div class="app">
     <aside class="sidebar">
       <div class="brand">
@@ -15,8 +130,13 @@
         <div class="dept">Department of Classics</div>
         <div class="course-code">GREK 110 J10</div>
         <div class="course-title">Learn Ancient Greek with Xenophon</div>
-        <div class="term">Spring 2026</div>
+        <div class="term">Spring 2027</div>
       </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
 
       <nav class="nav">
         <a href="#" class="active"><span class="icon">🏠</span>Dashboard</a>
@@ -38,6 +158,7 @@
           <h3 data-profile-name>Student Profile</h3>
           <div class="muted" data-profile-summary>Your name, photo, and learner details will appear here after profile completion.</div>
           <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile →</a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
         </div>
       </div>
 
@@ -47,7 +168,7 @@
           <div>
             <div class="muted" style="font-size:.98rem;">You are enrolled in</div>
             <div style="font-size:1.22rem;font-weight:700;margin-top:4px;">GREK 110 J10</div>
-            <div class="muted" style="margin-top:4px;">Spring 2026</div>
+            <div class="muted" style="margin-top:4px;">Spring 2027</div>
             <div style="margin-top:12px"><a class="small-link" href="#">Course Info →</a></div>
           </div>
         </div>
@@ -57,7 +178,8 @@
     <main class="main">
       <section class="hero">
         <div class="hero-copy">
-          <h2>Χαῖρε, μαθητά!</h2>
+          <p class="dashboard-context" data-dashboard-context>Student Dashboard</p>
+          <h2 data-dashboard-heading>Χαῖρε, μαθητά!</h2>
           <p data-hero-message data-course-name="GREK 110 J10">
             Welcome back to GREK 110 J10.<br>
             Keep up your excellent progress in learning 
@@ -66,162 +188,81 @@ Ancient Greek with Xenophon.
         </div>
       </section>
 
-      <section class="grid-top">
-        <article class="card" data-progress-tracker data-completed-lessons="34" data-total-lessons="50">
+      <section class="grid-top" data-student-dashboard>
+        <article class="card" data-progress-tracker>
           <h3>Overall Progress</h3>
           <div class="progress-wrap">
-            <div class="ring"></div>
+            <div class="ring" data-progress-ring></div>
             <div>
-              <div style="font-size:1.55rem;font-weight:700;margin-bottom:6px;">Well done!</div>
-              <div class="muted" style="font-size:1.1rem;line-height:1.5;">You’ve completed<br>34 of 50 lessons.</div>
-              <a class="cta" href="#">View Progress <span>→</span></a>
+              <div style="font-size:1.55rem;font-weight:700;margin-bottom:6px;" data-progress-heading>Ready to begin</div>
+              <div class="muted" style="font-size:1.1rem;line-height:1.5;" data-progress-summary>You’ve completed<br>0 of 50 lessons.</div>
+              <a class="cta" href="lessons.html">View Progress <span>→</span></a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card" data-level-card>
           <h3>Current Level</h3>
           <div class="level-box">
             <div class="laurel">
-              <strong>7</strong>
-              <span class="laurel-label">Erudite</span>
+              <strong data-current-level>0</strong>
+              <span class="laurel-label" data-current-level-label>Novice</span>
             </div>
             <div style="flex:1;">
-              <div style="font-size:1.1rem;font-weight:700;">385 / 500 XP</div>
-              <div class="xp-bar"><span></span></div>
-              <div class="muted">Next Level: Sophos</div>
+              <div class="xp-summary" data-xp-summary>
+                <span>Experience points toward next level</span>
+                <strong>0 / 100</strong>
+              </div>
+              <div class="xp-bar"><span data-xp-bar></span></div>
+              <div class="muted" data-next-level>Next Level: Apprentice</div>
               <a class="cta" href="#">See Rewards <span>→</span></a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card" data-weekly-goal-card>
           <h3>Weekly Goal</h3>
           <div class="goal-wrap">
             <div class="goal-thumb"></div>
             <div>
-              <div style="font-size:1.5rem;font-weight:700;">4 / 5 lessons</div>
-              <div class="xp-bar" style="margin-top:12px;"><span style="width:80%"></span></div>
-              <div class="muted">1 lesson to go!</div>
+              <div style="font-size:1.5rem;font-weight:700;" data-weekly-summary>0 / 5 lessons</div>
+              <div class="xp-bar" style="margin-top:12px;"><span data-weekly-bar></span></div>
+              <div class="muted" data-weekly-note>5 lessons to go.</div>
               <a class="cta" href="#">Edit Goal <span>→</span></a>
             </div>
           </div>
         </article>
       </section>
 
-      <section class="grid-main">
+      <section class="grid-main" data-student-dashboard>
         <article class="card path-card">
           <h3>Your Learning Path</h3>
-          <div class="path">
-            <div class="step done">
-              <div class="step-dot">✓</div>
-              <div>
-                <h4>1. The Greek Alphabet</h4>
-                <p>Completed</p>
-              </div>
-            </div>
-            <div class="step done">
-              <div class="step-dot">✓</div>
-              <div>
-                <h4>2. Basic Pronouns & Greetings</h4>
-                <p>Completed</p>
-              </div>
-            </div>
-            <div class="step done">
-              <div class="step-dot">✓</div>
-              <div>
-                <h4>3. Present Tense – Active Voice</h4>
-                <p>Completed</p>
-              </div>
-            </div>
-            <div class="step current">
-              <div class="step-dot">🏛</div>
-              <div>
-                <h4>4. First Declension Nouns</h4>
-                <p>In Progress</p>
-              </div>
-              <button class="continue-btn">Continue Lesson</button>
-            </div>
-            <div class="step locked">
-              <div class="step-dot">🔒</div>
-              <div>
-                <h4>5. Adjectives: Agreement</h4>
-                <p>Locked</p>
-              </div>
-            </div>
-          </div>
-          <a class="cta" href="#" style="margin-top:22px;">View Full Curriculum <span>→</span></a>
+          <div class="path" data-learning-path></div>
+          <a class="cta" href="lessons.html" style="margin-top:22px;">View Full Curriculum <span>→</span></a>
         </article>
 
         <div style="display:grid; gap:18px;">
           <article class="card">
             <h3>Recent Activity</h3>
-            <div class="activity-list">
-              <div class="activity-item">
-                <div class="activity-icon book">📘</div>
-                <div>
-                  <h4>Completed: Xenophon, Memorabilia 1.2.20</h4>
-                  <p class="muted">Today</p>
-                </div>
-                <div class="xp">+60 XP</div>
-              </div>
-              <div class="activity-item">
-                <div class="activity-icon review">☰</div>
-                <div>
-                  <h4>Reviewed: Vocabulary Set 7</h4>
-                  <p class="muted">Yesterday</p>
-                </div>
-                <div class="xp">+20 XP</div>
-              </div>
-              <div class="activity-item">
-                <div class="activity-icon exercise">✎</div>
-                <div>
-                  <h4>Completed Exercise: Translation Drill 12</h4>
-                  <p class="muted">2 days ago</p>
-                </div>
-                <div class="xp">+25 XP</div>
-              </div>
-            </div>
+            <div class="activity-list" data-activity-list></div>
             <a class="cta" href="#">View All Activity <span>→</span></a>
           </article>
 
           <article class="card">
             <h3>Achievements</h3>
-            <div class="achievement-row">
-              <div class="badge">
-                <div class="badge-icon b1">👣</div>
-                <div>First Steps</div>
-              </div>
-              <div class="badge">
-                <div class="badge-icon b2">❦</div>
-                <div>Word Collector</div>
-              </div>
-              <div class="badge">
-                <div class="badge-icon b3">🏛</div>
-                <div>Grammar Novice</div>
-              </div>
-              <div class="badge">
-                <div class="badge-icon b4">🦉</div>
-                <div>Diligent Learner</div>
-              </div>
-              <div class="badge">
-                <div class="badge-icon b5">🏆</div>
-                <div>Sophos</div>
-              </div>
-            </div>
+            <div class="achievement-row" data-achievement-list></div>
             <a class="cta" href="#">View All Achievements <span>→</span></a>
           </article>
         </div>
       </section>
 
-      <section class="quote">
-        <div class="quote-icon" aria-hidden="true"></div>
-        <div class="quote-copy">
-          <p class="greek">ὁ μὴ εἰδὼς τὴν αὑτοῦ δύναμιν ἀγνοεῖν ἑαυτόν.</p>
-          <p class="english">“The man who doesn’t know his own ability is ignorant of himself.”</p>
-          <p class="source">– Xenophon, <em>Memorabilia</em> 4.2.25</p>
-        </div>
-        <div class="quote-art" aria-hidden="true"></div>
+      <section class="professor-dashboard" data-professor-dashboard hidden></section>
+
+      <section class="quote" data-student-dashboard>
+        <img
+          src="assets/quote-banner.png"
+          alt="ὁ μὴ εἰδὼς τὴν αὑτοῦ δύναμιν ἀγνοεῖν ἑαυτόν. The man who doesn't know his own ability is ignorant of himself. Xenophon, Memorabilia 4.2.25"
+        >
       </section>
     </main>
   </div>

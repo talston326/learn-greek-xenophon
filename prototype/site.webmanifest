@@ -1,0 +1,22 @@
+{
+  "name": "Learn Ancient Greek with Xenophon",
+  "short_name": "Greek Xenophon",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f1ea",
+  "theme_color": "#73000a",
+  "icons": [
+    {
+      "src": "assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
