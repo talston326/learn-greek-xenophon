@@ -3,6 +3,13 @@
 
 _Last updated: 2026-04-18_
 
+## Recent additions
+
+### 2026-04-27 20:11 — Interactive Ancient Greek World Map
+Add a Maps section to the website navigation panel. This should take users to an interactive map of the Ancient Greek world, with zoomable regions including Attica, the Peloponnese, Boeotia, Asia Minor, and Greater Greece in southern Italy and Sicily. It should also support displaying or following the route of Xenophon’s March of the Ten Thousand.
+
+Tags: maps, geography, Xenophon, Anabasis, navigation, interactive-learning
+
 ---
 
 # 1. Course Structure & Pedagogy
@@ -163,7 +170,18 @@ Guideline:
 
 ---
 
-# 10. Long-Term Ideas
+# 10. Maps & Geography
+
+## Interactive Ancient Greek World Map
+- Add “Maps” to the navigation panel.
+- Provide an interactive map of the Ancient Greek world.
+- Allow zooming into Attica, the Peloponnese, Boeotia, Asia Minor, and Greater Greece.
+- Include the route of Xenophon’s March of the Ten Thousand.
+- Eventually link map points to relevant lessons, readings, vocabulary, and historical notes.
+
+---
+
+# 11. Long-Term Ideas
 
 - Internal flashcard system (replace Quizlet later)
 - AI-assisted parsing feedback
@@ -173,7 +191,7 @@ Guideline:
 
 ---
 
-# 11. Open Questions
+# 12. Open Questions
 
 - Which pronunciation system will be used?
 - How much Plato content should be included?
@@ -183,7 +201,79 @@ Guideline:
 
 ---
 
-# 12. Guiding Philosophy
+# 13. Virtue Framework (Curriculum Design Principle)
+
+## Core Concept: ἀρετή (Excellence)
+
+The course is ultimately organized around the Greek concept of **ἀρετή**, meaning excellence or the full realization of a thing’s nature or function.
+
+In this framework:
+- ἀρετή is not limited to moral virtue alone
+- It includes intellectual, practical, and social excellence
+- The four “cardinal virtues” represent key expressions of ἀρετή, but do not exhaust it
+
+---
+
+## The Four Core Modules (Cardinal Virtues)
+
+The primary course structure is based on four classical virtues:
+
+- σοφία (Wisdom) → knowing, inquiry, understanding
+- ἀνδρεία (Courage) → acting under fear, endurance, leadership
+- σωφροσύνη (Self-Control) → mastery of self, discipline, moderation
+- δικαιοσύνη (Justice) → right action within society, law, and moral responsibility
+
+These serve as the backbone of the curriculum.
+
+Important:
+→ These four virtues are a **subset of ἀρετή**, not the totality of it.
+
+---
+
+## Supporting Xenophontic Themes (Cross-Cutting Concepts)
+
+In addition to the four core virtues, the course incorporates additional themes drawn from Xenophon’s works. These appear across multiple modules rather than forming separate modules.
+
+Key themes include:
+
+- φιλία (Friendship, loyalty, group cohesion)
+- ἡγεμονία / ἡγεῖσθαι (Leadership and command)
+- οἰκονομία (Household management, practical life)
+- εὐσέβεια (Piety, relationship to the divine)
+- ἐλευθερία (Freedom, especially in contrast with non-Greek systems)
+- παιδεία (Education, formation of character)
+
+These themes:
+- Reinforce the core virtues
+- Provide cultural and social context
+- Reflect the breadth of Xenophon’s corpus
+
+---
+
+## Pedagogical Rationale
+
+This structure allows the course to:
+
+- Maintain a clear and simple high-level organization (four modules)
+- Expose students to a wide range of Greek thought and social life
+- Use Xenophon as a comprehensive source for multiple domains of experience
+- Integrate grammar learning with meaningful thematic content
+
+Each module is anchored in a primary Xenophontic text, while secondary texts and themes provide additional depth and variety.
+
+---
+
+## Design Principle
+
+Core virtues provide structure.  
+Supporting themes provide richness and realism.
+
+Goal:
+→ Teach not just the Greek language, but the Greek conception of human excellence (ἀρετή).
+
+---
+
+# 14. Guiding Philosophy
 
 - Learn Greek through use, not abstraction
 - Context reinforces memory

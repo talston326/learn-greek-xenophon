@@ -217,6 +217,167 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
   })
 );
 
+// Prototype mirror of the internal vocabulary_items + lesson_vocabulary data model.
+// Flashcards and mobile drills are generated from these rows, not from an external service.
+const COURSE_VOCABULARY = [
+  {
+    id: "vocab-logos-001",
+    lessonId: "intro-1",
+    sortOrder: 1,
+    lemma: "λόγος",
+    displayForm: "λόγος",
+    transliteration: "logos",
+    partOfSpeech: "noun",
+    gloss: "word, reason, account",
+    morphology: { gender: "masculine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 2, correctCount: 3, incorrectCount: 2 }
+  },
+  {
+    id: "vocab-oikos-001",
+    lessonId: "intro-1",
+    sortOrder: 2,
+    lemma: "οἶκος",
+    displayForm: "οἶκος",
+    transliteration: "oikos",
+    partOfSpeech: "noun",
+    gloss: "house, household",
+    morphology: { gender: "masculine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 3, correctCount: 5, incorrectCount: 1 }
+  },
+  {
+    id: "vocab-arete-001",
+    lessonId: "intro-1",
+    sortOrder: 3,
+    lemma: "ἀρετή",
+    displayForm: "ἀρετή",
+    transliteration: "arete",
+    partOfSpeech: "noun",
+    gloss: "excellence, virtue",
+    morphology: { gender: "feminine" },
+    audioUrl: null,
+    review: { dueToday: false, confidence: 4, correctCount: 6, incorrectCount: 1 }
+  },
+  {
+    id: "vocab-aner-001",
+    lessonId: "intro-2",
+    sortOrder: 1,
+    lemma: "ἀνήρ",
+    displayForm: "ἀνήρ",
+    transliteration: "aner",
+    partOfSpeech: "noun",
+    gloss: "man",
+    morphology: { gender: "masculine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 2, correctCount: 2, incorrectCount: 3 }
+  },
+  {
+    id: "vocab-theos-001",
+    lessonId: "intro-2",
+    sortOrder: 2,
+    lemma: "θεός",
+    displayForm: "θεός",
+    transliteration: "theos",
+    partOfSpeech: "noun",
+    gloss: "god",
+    morphology: { gender: "masculine" },
+    audioUrl: null,
+    review: { dueToday: false, confidence: 3, correctCount: 4, incorrectCount: 1 }
+  },
+  {
+    id: "vocab-odos-001",
+    lessonId: "intro-2",
+    sortOrder: 3,
+    lemma: "ὁδός",
+    displayForm: "ὁδός",
+    transliteration: "hodos",
+    partOfSpeech: "noun",
+    gloss: "road, way",
+    morphology: { gender: "feminine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 1, correctCount: 1, incorrectCount: 3 }
+  },
+  {
+    id: "vocab-sophia-001",
+    lessonId: "lesson-1",
+    sortOrder: 1,
+    lemma: "σοφία",
+    displayForm: "σοφία",
+    transliteration: "sophia",
+    partOfSpeech: "noun",
+    gloss: "wisdom",
+    morphology: { gender: "feminine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 3, correctCount: 4, incorrectCount: 2 }
+  },
+  {
+    id: "vocab-manthano-001",
+    lessonId: "lesson-1",
+    sortOrder: 2,
+    lemma: "μανθάνω",
+    displayForm: "μανθάνω",
+    transliteration: "manthano",
+    partOfSpeech: "verb",
+    gloss: "I learn",
+    morphology: { tense: "present", voice: "active" },
+    audioUrl: null,
+    review: { dueToday: false, confidence: 2, correctCount: 3, incorrectCount: 4 }
+  },
+  {
+    id: "vocab-didaskalos-001",
+    lessonId: "lesson-4",
+    sortOrder: 1,
+    lemma: "διδάσκαλος",
+    displayForm: "διδάσκαλος",
+    transliteration: "didaskalos",
+    partOfSpeech: "noun",
+    gloss: "teacher",
+    morphology: { gender: "masculine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 2, correctCount: 2, incorrectCount: 2 }
+  },
+  {
+    id: "vocab-mathetes-001",
+    lessonId: "lesson-4",
+    sortOrder: 2,
+    lemma: "μαθητής",
+    displayForm: "μαθητής",
+    transliteration: "mathetes",
+    partOfSpeech: "noun",
+    gloss: "student, learner",
+    morphology: { gender: "masculine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 1, correctCount: 1, incorrectCount: 4 }
+  },
+  {
+    id: "vocab-time-001",
+    lessonId: "lesson-4",
+    sortOrder: 3,
+    lemma: "τιμή",
+    displayForm: "τιμή",
+    transliteration: "time",
+    partOfSpeech: "noun",
+    gloss: "honor",
+    morphology: { gender: "feminine" },
+    audioUrl: null,
+    review: { dueToday: false, confidence: 4, correctCount: 6, incorrectCount: 1 }
+  },
+  {
+    id: "vocab-psyche-001",
+    lessonId: "lesson-4",
+    sortOrder: 4,
+    lemma: "ψυχή",
+    displayForm: "ψυχή",
+    transliteration: "psyche",
+    partOfSpeech: "noun",
+    gloss: "soul, life",
+    morphology: { gender: "feminine" },
+    audioUrl: null,
+    review: { dueToday: true, confidence: 2, correctCount: 2, incorrectCount: 3 }
+  }
+];
+
 const LEGACY_LESSON_IDS = {
   introduction: "intro-1",
   "lesson-1-home": "lesson-1",
@@ -560,6 +721,7 @@ const roleTitleEl = document.querySelector("[data-role-title]");
 const loginBackButton = document.querySelector("[data-login-back]");
 const logoutButton = document.querySelector("[data-logout]");
 const appShellEl = document.querySelector(".app");
+const mainEl = document.querySelector(".main");
 const sidebarToggleButton = document.querySelector("[data-sidebar-toggle]");
 const dashboardContextEl = document.querySelector("[data-dashboard-context]");
 const dashboardHeadingEl = document.querySelector("[data-dashboard-heading]");
@@ -591,6 +753,7 @@ const lessonPageSummaryEl = document.querySelector("[data-lesson-page-summary]")
 const liveCourseTitleEl = document.querySelector("[data-course-title-live]");
 const studentDashboardSections = document.querySelectorAll("[data-student-dashboard]");
 const professorDashboardEl = document.querySelector("[data-professor-dashboard]");
+let mobilePracticeEl = document.querySelector("[data-mobile-practice]");
 
 function normalizeEmail(email) {
   return email.trim().toLowerCase();
@@ -619,6 +782,243 @@ function getUserProgress(session) {
   }
 
   return findUserByEmail(session?.email)?.progress || COURSE_USERS[2].progress;
+}
+
+function getVocabularyItems() {
+  return [...COURSE_VOCABULARY].sort((first, second) => {
+    if (first.lessonId === second.lessonId) {
+      return first.sortOrder - second.sortOrder;
+    }
+
+    return first.lessonId.localeCompare(second.lessonId);
+  });
+}
+
+function getAccessibleVocabulary(progress) {
+  const currentLessonId = normalizeLessonId(progress.currentLessonId);
+  const currentIndex = COURSE_LESSONS.findIndex((lesson) => lesson.id === currentLessonId);
+  const lessonLimit = currentIndex >= 0 ? currentIndex + 1 : 1;
+  const accessibleLessonIds = new Set(
+    COURSE_LESSONS.slice(0, lessonLimit).map((lesson) => lesson.id)
+  );
+
+  getCompletedLessonIds(progress).forEach((lessonId) => accessibleLessonIds.add(lessonId));
+  accessibleLessonIds.add(currentLessonId);
+
+  const accessible = getVocabularyItems().filter((item) => accessibleLessonIds.has(item.lessonId));
+  return accessible.length ? accessible : getVocabularyItems().slice(0, 6);
+}
+
+function getVocabularyForLesson(lessonId, progress) {
+  const normalizedLessonId = normalizeLessonId(lessonId);
+  const lessonVocabulary = getVocabularyItems().filter((item) => item.lessonId === normalizedLessonId);
+
+  if (lessonVocabulary.length) {
+    return lessonVocabulary;
+  }
+
+  return getAccessibleVocabulary(progress).slice(0, 6);
+}
+
+function getTodayReviewVocabulary(progress) {
+  const reviewItems = getAccessibleVocabulary(progress).filter((item) => item.review?.dueToday);
+  return (reviewItems.length ? reviewItems : getAccessibleVocabulary(progress))
+    .sort((first, second) => (first.review?.confidence || 0) - (second.review?.confidence || 0))
+    .slice(0, 6);
+}
+
+function getWeakVocabulary(progress) {
+  const weakItems = getAccessibleVocabulary(progress).filter((item) => {
+    const review = item.review || {};
+    return (review.confidence || 0) <= 2 || (review.incorrectCount || 0) > (review.correctCount || 0);
+  });
+
+  return (weakItems.length ? weakItems : getTodayReviewVocabulary(progress)).slice(0, 5);
+}
+
+function getMobilePracticeShell() {
+  if (mobilePracticeEl || !mainEl) {
+    return mobilePracticeEl;
+  }
+
+  mobilePracticeEl = document.createElement("section");
+  mobilePracticeEl.className = "mobile-practice";
+  mobilePracticeEl.dataset.mobilePractice = "";
+  mobilePracticeEl.setAttribute("aria-label", "Mobile practice mode");
+  mainEl.appendChild(mobilePracticeEl);
+  return mobilePracticeEl;
+}
+
+function renderVocabularyCard(item, mode = "flashcard") {
+  const lesson = findLesson(item.lessonId);
+  const confidence = item.review?.confidence || 0;
+
+  return `
+    <article class="mobile-vocab-card" data-mobile-card>
+      <button class="mobile-card-face" type="button" data-mobile-card-toggle aria-pressed="false">
+        <span class="mobile-card-term">${item.displayForm}</span>
+        <span class="mobile-card-meta">${item.partOfSpeech || "vocabulary"} · ${lesson.number}</span>
+        <span class="mobile-card-answer">${item.gloss}</span>
+      </button>
+      <div class="mobile-card-actions">
+        <button class="audio-button" type="button" data-mobile-audio data-speak-text="${item.displayForm}" aria-label="Hear ${item.displayForm}">▶</button>
+        <span>${mode === "weak" ? `Confidence ${confidence}/5` : item.transliteration}</span>
+      </div>
+    </article>
+  `;
+}
+
+function renderAudioPracticeItem(item) {
+  return `
+    <button class="mobile-audio-row" type="button" data-mobile-audio data-speak-text="${item.displayForm}">
+      <span>${item.displayForm}</span>
+      <strong>${item.gloss}</strong>
+    </button>
+  `;
+}
+
+function renderQuickDrill(item, choices) {
+  return `
+    <article class="mobile-drill" data-mobile-drill>
+      <p>Choose the meaning of <strong>${item.displayForm}</strong>.</p>
+      <div class="mobile-drill-choices">
+        ${choices.map((choice) => `
+          <button type="button" data-mobile-drill-answer="${choice === item.gloss ? "correct" : "wrong"}">${choice}</button>
+        `).join("")}
+      </div>
+      <p class="mobile-drill-feedback" aria-live="polite"></p>
+    </article>
+  `;
+}
+
+function getDrillChoices(item, vocabulary) {
+  const distractors = vocabulary
+    .filter((candidate) => candidate.id !== item.id)
+    .map((candidate) => candidate.gloss)
+    .slice(0, 2);
+  const choices = [item.gloss, ...distractors];
+
+  return choices.sort((first, second) => first.localeCompare(second));
+}
+
+function bindMobilePracticeControls(shell) {
+  shell.querySelectorAll("[data-mobile-card-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const card = button.closest("[data-mobile-card]");
+      const isFlipped = card.classList.toggle("is-flipped");
+      button.setAttribute("aria-pressed", String(isFlipped));
+    });
+  });
+
+  shell.querySelectorAll("[data-mobile-audio]").forEach((button) => {
+    button.addEventListener("click", () => {
+      speakGreek(button.dataset.speakText);
+    });
+  });
+
+  shell.querySelectorAll("[data-mobile-drill]").forEach((drill) => {
+    const feedback = drill.querySelector(".mobile-drill-feedback");
+
+    drill.querySelectorAll("[data-mobile-drill-answer]").forEach((button) => {
+      button.addEventListener("click", () => {
+        drill.querySelectorAll("[data-mobile-drill-answer]").forEach((choice) => {
+          choice.classList.remove("is-correct", "is-wrong");
+        });
+
+        const isCorrect = button.dataset.mobileDrillAnswer === "correct";
+        button.classList.add(isCorrect ? "is-correct" : "is-wrong");
+
+        if (feedback) {
+          feedback.textContent = isCorrect ? "Correct." : "Review this one again.";
+        }
+      });
+    });
+  });
+}
+
+function renderMobilePractice(session) {
+  const shell = getMobilePracticeShell();
+
+  if (!shell) {
+    return;
+  }
+
+  const progress = getUserProgress(session);
+  const currentLesson = findLesson(progress.currentLessonId);
+  const reviewItems = getTodayReviewVocabulary(progress);
+  const lessonItems = getVocabularyForLesson(currentLesson.id, progress);
+  const weakItems = getWeakVocabulary(progress);
+  const audioItems = reviewItems.slice(0, 5);
+  const drillItems = weakItems.slice(0, 3);
+  const accessibleVocabulary = getAccessibleVocabulary(progress);
+
+  shell.innerHTML = `
+    <header class="mobile-practice-header">
+      <p class="dashboard-context">Practice Mode</p>
+      <h2>Quick Greek Review</h2>
+      <p>${currentLesson.number}: ${currentLesson.title}</p>
+    </header>
+
+    <nav class="mobile-tool-grid" aria-label="Mobile learning tools">
+      <a href="#mobile-today">Today’s Review</a>
+      <a href="#mobile-flashcards">Lesson Flashcards</a>
+      <a href="#mobile-weak">Weak Vocabulary</a>
+      <a href="#mobile-audio">Audio Practice</a>
+      <a href="#mobile-drills">Quick Drills</a>
+    </nav>
+
+    <section class="mobile-practice-panel" id="mobile-today">
+      <div class="mobile-panel-heading">
+        <p class="eyebrow">Today’s Review</p>
+        <h3>${reviewItems.length} cards due</h3>
+      </div>
+      <div class="mobile-card-stack">
+        ${reviewItems.map((item) => renderVocabularyCard(item)).join("")}
+      </div>
+    </section>
+
+    <section class="mobile-practice-panel" id="mobile-flashcards">
+      <div class="mobile-panel-heading">
+        <p class="eyebrow">Lesson Flashcards</p>
+        <h3>${currentLesson.title}</h3>
+      </div>
+      <div class="mobile-card-stack">
+        ${lessonItems.map((item) => renderVocabularyCard(item)).join("")}
+      </div>
+    </section>
+
+    <section class="mobile-practice-panel" id="mobile-weak">
+      <div class="mobile-panel-heading">
+        <p class="eyebrow">Weak Vocabulary</p>
+        <h3>Review fragile words first</h3>
+      </div>
+      <div class="mobile-card-stack">
+        ${weakItems.map((item) => renderVocabularyCard(item, "weak")).join("")}
+      </div>
+    </section>
+
+    <section class="mobile-practice-panel" id="mobile-audio">
+      <div class="mobile-panel-heading">
+        <p class="eyebrow">Audio Practice</p>
+        <h3>Listen and repeat</h3>
+      </div>
+      <div class="mobile-audio-list">
+        ${audioItems.map(renderAudioPracticeItem).join("")}
+      </div>
+    </section>
+
+    <section class="mobile-practice-panel" id="mobile-drills">
+      <div class="mobile-panel-heading">
+        <p class="eyebrow">Quick Drills</p>
+        <h3>Three short checks</h3>
+      </div>
+      <div class="mobile-drill-list">
+        ${drillItems.map((item) => renderQuickDrill(item, getDrillChoices(item, accessibleVocabulary))).join("")}
+      </div>
+    </section>
+  `;
+
+  bindMobilePracticeControls(shell);
 }
 
 function getContinueUrl(progress) {
@@ -1328,6 +1728,8 @@ function renderProfessorDashboard() {
 
 function renderDashboardView(session) {
   const isProfessor = session.activeRole === "professor";
+
+  renderMobilePractice(session);
 
   studentDashboardSections.forEach((section) => {
     section.hidden = isProfessor;

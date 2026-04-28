@@ -2203,6 +2203,233 @@
       font-weight: 700;
     }
 
+    .mobile-practice {
+      display: none;
+    }
+
+    .mobile-practice-header,
+    .mobile-practice-panel {
+      background: rgba(255,255,255,.86);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .mobile-practice-header {
+      border-radius: 0 0 22px 22px;
+      padding: 24px 18px 20px;
+      background:
+        linear-gradient(145deg, rgba(252,251,248,.98), rgba(246,238,226,.96)),
+        url('assets/quote-bg.png') right center / auto 110% no-repeat;
+    }
+
+    .mobile-practice-header h2 {
+      margin: 0 0 8px;
+      color: var(--usc-garnet);
+      font-size: 2.25rem;
+      line-height: 1.04;
+    }
+
+    .mobile-practice-header p:last-child {
+      margin: 0;
+      color: #3a332e;
+      line-height: 1.45;
+    }
+
+    .mobile-tool-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      padding: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: rgba(245,241,234,.94);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(115,0,10,.08);
+    }
+
+    .mobile-tool-grid a {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid rgba(115,0,10,.14);
+      border-radius: 14px;
+      background: rgba(255,255,255,.8);
+      color: #3c352f;
+      text-decoration: none;
+      font-size: .93rem;
+      font-weight: 800;
+      line-height: 1.15;
+      padding: 8px;
+    }
+
+    .mobile-practice-panel {
+      margin: 14px;
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .mobile-panel-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .mobile-panel-heading h3,
+    .mobile-panel-heading p {
+      margin: 0;
+    }
+
+    .mobile-panel-heading h3 {
+      color: #3a332e;
+      font-size: 1.12rem;
+      line-height: 1.18;
+      text-align: right;
+    }
+
+    .mobile-card-stack,
+    .mobile-audio-list,
+    .mobile-drill-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .mobile-vocab-card,
+    .mobile-drill {
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(250,246,240,.9), rgba(255,255,255,.78));
+      padding: 12px;
+    }
+
+    .mobile-card-face {
+      width: 100%;
+      min-height: 112px;
+      border: 0;
+      border-radius: 14px;
+      background: #fffdfb;
+      color: #251d18;
+      display: grid;
+      place-items: center;
+      gap: 4px;
+      padding: 14px;
+      font: inherit;
+      cursor: pointer;
+      box-shadow: inset 0 0 0 1px rgba(115,0,10,.08);
+    }
+
+    .mobile-card-term {
+      font-size: 2rem;
+      color: var(--usc-garnet);
+      line-height: 1;
+    }
+
+    .mobile-card-meta,
+    .mobile-card-answer,
+    .mobile-card-actions span {
+      color: var(--muted);
+      font-size: .86rem;
+      font-weight: 700;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    .mobile-card-answer {
+      display: none;
+      color: #3a332e;
+      font-size: 1.08rem;
+    }
+
+    .mobile-vocab-card.is-flipped .mobile-card-answer {
+      display: block;
+    }
+
+    .mobile-vocab-card.is-flipped .mobile-card-meta {
+      display: none;
+    }
+
+    .mobile-card-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .mobile-audio-row {
+      min-height: 58px;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 14px;
+      background: rgba(255,255,255,.82);
+      color: #332b26;
+      display: grid;
+      grid-template-columns: minmax(92px, auto) minmax(0, 1fr);
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      font: inherit;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .mobile-audio-row span {
+      color: var(--usc-garnet);
+      font-size: 1.35rem;
+      line-height: 1;
+    }
+
+    .mobile-audio-row strong {
+      font-size: .95rem;
+      line-height: 1.25;
+    }
+
+    .mobile-drill p {
+      margin: 0;
+      line-height: 1.45;
+    }
+
+    .mobile-drill-choices {
+      display: grid;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .mobile-drill-choices button {
+      min-height: 44px;
+      border: 1px solid rgba(115,0,10,.14);
+      border-radius: 12px;
+      background: rgba(255,255,255,.82);
+      color: #332b26;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 10px 12px;
+      text-align: left;
+    }
+
+    .mobile-drill-choices button.is-correct {
+      background: #5ca66a;
+      border-color: #5ca66a;
+      color: #fff;
+    }
+
+    .mobile-drill-choices button.is-wrong {
+      background: rgba(115,0,10,.1);
+      border-color: rgba(115,0,10,.25);
+      color: var(--usc-garnet);
+    }
+
+    .mobile-drill-feedback {
+      min-height: 22px;
+      color: var(--usc-garnet);
+      font-weight: 800;
+      margin-top: 8px;
+    }
+
     @media (max-width: 1280px) {
       .landing-hero { grid-template-columns: minmax(0, 1fr) minmax(320px, 390px); }
       .overview-grid { grid-template-columns: 1fr; }
@@ -2312,6 +2539,40 @@
       .sound-notes,
       .exercise-grid {
         grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 641px) and (max-width: 900px) {
+      .lesson-header,
+      .lesson-part,
+      .exercise-panel {
+        border-radius: 18px;
+      }
+
+      .lesson-header {
+        min-height: 210px;
+      }
+
+      .lesson-header h2 {
+        font-size: clamp(2.25rem, 7vw, 3.8rem);
+      }
+
+      .course-intro,
+      .grid-main {
+        grid-template-columns: 1fr;
+      }
+
+      .lesson-part {
+        padding: 22px;
+      }
+
+      .part-copy p,
+      .lesson-header p {
+        max-width: 68ch;
+      }
+
+      .map-panel img {
+        max-height: 420px;
       }
     }
 
@@ -2448,5 +2709,58 @@
       .profile-photo-preview {
         width: min(100%, 220px);
         height: min(100vw - 96px, 220px);
+      }
+      body.dashboard-active {
+        background: #f5f1ea;
+      }
+      body.dashboard-active .app,
+      body.dashboard-active .app.sidebar-collapsed {
+        display: block;
+        min-height: 100vh;
+      }
+      body.dashboard-active .sidebar {
+        display: none;
+      }
+      body.dashboard-active .main {
+        padding: 0;
+      }
+      body.dashboard-active .main > :not(.mobile-practice) {
+        display: none !important;
+      }
+      body.dashboard-active .mobile-practice {
+        display: block;
+        min-height: 100vh;
+        padding-bottom: 18px;
+      }
+      body.dashboard-active .lesson-header,
+      body.dashboard-active .lesson-part,
+      body.dashboard-active .exercise-panel,
+      body.dashboard-active .grid-top,
+      body.dashboard-active .grid-main,
+      body.dashboard-active .lessons-shell,
+      body.dashboard-active .professor-dashboard,
+      body.dashboard-active .quote {
+        display: none !important;
+      }
+      .mobile-tool-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .mobile-tool-grid a:first-child {
+        grid-column: 1 / -1;
+        background: var(--usc-garnet);
+        color: #fff;
+        border-color: var(--usc-garnet);
+      }
+      .mobile-panel-heading {
+        align-items: start;
+      }
+      .mobile-panel-heading h3 {
+        max-width: 52%;
+      }
+      .mobile-card-term {
+        font-size: clamp(1.7rem, 10vw, 2.2rem);
+      }
+      .mobile-audio-row {
+        grid-template-columns: 1fr;
       }
     }
