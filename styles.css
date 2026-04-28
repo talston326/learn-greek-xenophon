@@ -829,6 +829,90 @@
       background: #fff8e8;
     }
 
+    .map-library {
+      margin-top: 18px;
+      background: rgba(255,255,255,.84);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: clamp(16px, 2.6vw, 24px);
+    }
+
+    .map-library-heading {
+      margin-bottom: 16px;
+    }
+
+    .map-library-heading h3 {
+      margin: 0;
+      color: var(--usc-garnet);
+      font-size: clamp(1.55rem, 2.2vw, 2.2rem);
+      line-height: 1.1;
+    }
+
+    .map-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .reference-map-card {
+      overflow: hidden;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 8px;
+      background: #fffdfb;
+      min-height: 210px;
+      box-shadow: 0 8px 20px rgba(55, 38, 22, 0.06);
+    }
+
+    .reference-map-card a {
+      height: 100%;
+      display: grid;
+      grid-template-rows: minmax(160px, 1fr) auto;
+      color: #332b26;
+      text-decoration: none;
+    }
+
+    .reference-map-card img {
+      width: 100%;
+      height: 100%;
+      min-height: 160px;
+      object-fit: cover;
+      background: var(--stone);
+      border-bottom: 1px solid rgba(115,0,10,.1);
+    }
+
+    .reference-map-card span,
+    .reference-document-card strong {
+      display: block;
+      padding: 12px 14px;
+      font-size: 1.02rem;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .reference-document-card {
+      background: linear-gradient(145deg, rgba(253,248,239,.98) 0%, rgba(248,239,224,.94) 100%);
+    }
+
+    .reference-document-card a {
+      grid-template-rows: 1fr auto;
+      min-height: 210px;
+      padding: 18px;
+    }
+
+    .reference-document-card strong {
+      padding: 0;
+      color: var(--usc-garnet);
+      font-size: 1.25rem;
+      align-self: center;
+    }
+
+    .reference-document-card span {
+      padding: 12px 0 0;
+      color: var(--muted);
+      border-top: 1px solid rgba(115,0,10,.12);
+    }
+
     .intro-lesson {
       margin-top: 18px;
       display: grid;
@@ -2616,6 +2700,7 @@
       .prof-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .prof-summary-grid > :last-child { grid-column: 1 / -1; }
       .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .map-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .hero::before { background-size: auto 132%; }
       .hero-copy { width: min(100%, 520px); }
     }
@@ -2949,6 +3034,14 @@
         border-radius: 18px;
         margin-top: 14px;
         padding: 14px;
+      }
+      .map-library {
+        border-radius: 18px;
+        margin-top: 14px;
+        padding: 14px;
+      }
+      .map-card-grid {
+        grid-template-columns: 1fr;
       }
       .map-frame {
         min-height: 430px;
