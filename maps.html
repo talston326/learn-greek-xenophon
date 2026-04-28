@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Maps - Learn Greek with Xenophon</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active maps-page">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2027</div>
+      </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+
+      <nav class="nav"></nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile -></a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero map-hero">
+        <div class="hero-copy">
+          <p class="dashboard-context">Historical Reference</p>
+          <h2>Maps</h2>
+          <p>Explore the places that shape Greek history, geography, and Xenophon's world.</p>
+        </div>
+      </section>
+
+      <section class="map-shell" aria-labelledby="ancient-greece-map-title">
+        <div class="map-header">
+          <div>
+            <p class="dashboard-context">Ancient Greece</p>
+            <h3 id="ancient-greece-map-title">Interactive Reference Map</h3>
+          </div>
+          <div class="map-language-control" role="group" aria-label="Place name language">
+            <span>Place Names</span>
+            <button class="active" type="button" data-map-language="en" aria-pressed="true">English</button>
+            <button type="button" data-map-language="gr" aria-pressed="false">Greek</button>
+          </div>
+        </div>
+
+        <div class="map-frame">
+          <div id="ancient-greece-map" class="ancient-greece-map" data-cities-src="maps/source-data/cities.csv"></div>
+          <p class="map-status" data-map-status aria-live="polite">Loading places...</p>
+        </div>
+
+        <div class="map-legend" aria-label="Map legend">
+          <span><i class="major-city-dot"></i>Major cities</span>
+          <span><i class="regional-city-dot"></i>Regional cities appear when zoomed in</span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="maps.js"></script>
+</body>
+</html>

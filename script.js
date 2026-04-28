@@ -528,6 +528,7 @@ const ROLE_DASHBOARDS = {
       ["🏠", "Dashboard", "index.html"],
       ["🧑‍💼", "Users & Roles", "#"],
       ["📖", "Lessons", "lessons.html"],
+      ["🗺️", "Maps", "maps.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
       ["🗂️", "Course Content", "#"],
@@ -546,6 +547,7 @@ const ROLE_DASHBOARDS = {
       ["📊", "Progress", "#"],
       ["📝", "Submissions", "#"],
       ["📖", "Lessons", "lessons.html"],
+      ["🗺️", "Maps", "maps.html"],
       ["💬", "Discussions", "#"],
       ["⚙️", "Settings", "#"]
     ]
@@ -560,6 +562,7 @@ const ROLE_DASHBOARDS = {
     nav: [
       ["🏠", "Dashboard", "index.html"],
       ["📖", "Lessons", "lessons.html"],
+      ["🗺️", "Maps", "maps.html"],
       ["📄", "Readings", "#"],
       ["Αα", "Vocabulary", "#"],
       ["🏛️", "Grammar", "#"],
