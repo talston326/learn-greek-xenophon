@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { createHash } from "node:crypto";
 import { getStore } from "@netlify/blobs";
 import pg from "pg";

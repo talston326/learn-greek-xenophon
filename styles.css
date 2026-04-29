@@ -2028,7 +2028,8 @@
 
     .prof-table-wrap {
       max-height: 430px;
-      overflow: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
       border: 1px solid rgba(111,102,95,.14);
       border-radius: 16px;
       background:
@@ -2059,14 +2060,15 @@
 
     .prof-table {
       width: 100%;
-      min-width: 1060px;
+      min-width: 0;
+      table-layout: fixed;
       border-collapse: separate;
       border-spacing: 0;
     }
 
     .prof-table th,
     .prof-table td {
-      padding: 13px 14px;
+      padding: 12px 12px;
       border-bottom: 1px solid rgba(111,102,95,.14);
       text-align: left;
       vertical-align: middle;
@@ -2089,8 +2091,8 @@
       position: sticky;
       left: 0;
       z-index: 2;
-      min-width: 146px;
-      max-width: 190px;
+      width: 17%;
+      min-width: 0;
       background: #fffdfb;
       box-shadow: 10px 0 16px -14px rgba(51,43,38,.68);
     }
@@ -2104,12 +2106,90 @@
       border-bottom: 0;
     }
 
+    .prof-table th:nth-child(2),
+    .prof-table td:nth-child(2) {
+      width: 12%;
+    }
+
+    .prof-table th:nth-child(3),
+    .prof-table td:nth-child(3) {
+      width: 24%;
+    }
+
+    .prof-table th:nth-child(4),
+    .prof-table td:nth-child(4) {
+      width: 9%;
+    }
+
+    .prof-table th:nth-child(5),
+    .prof-table td:nth-child(5) {
+      width: 7%;
+    }
+
+    .prof-table th:nth-child(6),
+    .prof-table td:nth-child(6) {
+      width: 9%;
+    }
+
+    .prof-table th:nth-child(7),
+    .prof-table td:nth-child(7) {
+      width: 10%;
+    }
+
+    .prof-table th:nth-child(8),
+    .prof-table td:nth-child(8) {
+      width: 10%;
+    }
+
+    .prof-table td:nth-child(3) {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .prof-student-cell {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr);
+      gap: 9px;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .prof-student-cell strong {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      line-height: 1.08;
+    }
+
+    .prof-student-photo {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: inline-grid;
+      place-items: center;
+      border: 1px solid rgba(115,0,10,.16);
+      background: #f4eee6;
+      color: var(--usc-garnet);
+      font-size: .72rem;
+      font-weight: 900;
+      line-height: 1;
+      overflow: hidden;
+    }
+
+    .prof-student-photo.has-photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: transparent;
+      text-shadow: none;
+    }
+
     .prof-progress-cell {
       display: grid;
-      grid-template-columns: minmax(86px, 1fr) auto;
+      grid-template-columns: minmax(58px, 1fr) auto;
       gap: 8px;
       align-items: center;
-      min-width: 132px;
+      min-width: 0;
     }
 
     .prof-progress-cell strong {
@@ -2165,7 +2245,7 @@
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
-      min-width: 190px;
+      min-width: 0;
     }
 
     .prof-actions a,

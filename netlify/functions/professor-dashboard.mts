@@ -1,3 +1,4 @@
+import "dotenv/config";
 import pg from "pg";
 
 const { Client } = pg;
@@ -18,6 +19,7 @@ type StudentRow = {
   user_id: string;
   name: string;
   email: string;
+  photo_url: string | null;
   level_number: number | null;
   level_label: string | null;
   xp: number | null;
@@ -126,6 +128,7 @@ function buildStudents(rows: StudentRow[]) {
     return {
       name: row.name,
       email: row.email,
+      photoUrl: row.photo_url || "",
       progress,
       currentLessonId: row.current_lesson_slug || "intro-1",
       currentLesson: lessonTitle(row),
@@ -224,6 +227,7 @@ export default async (request: Request) => {
           u.id AS user_id,
           u.name,
           u.email::text AS email,
+          up.photo_url,
           sp.level_number,
           sp.level_label,
           sp.xp,
@@ -235,6 +239,7 @@ export default async (request: Request) => {
           latest_activity.last_activity_at
         FROM public.course_memberships cm
         JOIN public.users u ON u.id = cm.user_id
+        LEFT JOIN public.user_profiles up ON up.user_id = cm.user_id
         LEFT JOIN public.student_progress sp ON sp.course_id = cm.course_id AND sp.user_id = cm.user_id
         LEFT JOIN public.lessons current_lesson ON current_lesson.id = sp.current_lesson_id
         LEFT JOIN completed ON completed.user_id = cm.user_id

@@ -1792,6 +1792,33 @@ function renderProfessorProgressBar(percent) {
   `;
 }
 
+function studentInitials(name) {
+  return String(name || "Student")
+    .trim()
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => part.charAt(0).toUpperCase())
+    .join("") || "S";
+}
+
+function safeStyleUrl(value) {
+  return String(value || "").replace(/["\\\n\r]/g, "");
+}
+
+function renderProfessorStudentCell(student) {
+  const photoStyle = student.photoUrl
+    ? ` style="background-image: url('${safeStyleUrl(student.photoUrl)}')"`
+    : "";
+  const photoClass = student.photoUrl ? " has-photo" : "";
+
+  return `
+    <div class="prof-student-cell">
+      <span class="prof-student-photo${photoClass}"${photoStyle} aria-hidden="true">${studentInitials(student.name)}</span>
+      <strong>${student.name}</strong>
+    </div>
+  `;
+}
+
 function renderProfessorRows(items, rowClass, renderRow) {
   return items.map((item) => `<div class="${rowClass}">${renderRow(item)}</div>`).join("");
 }
@@ -1972,7 +1999,7 @@ function renderProfessorDashboard(data = activeProfessorDashboardData, state = {
                 <th>Progress</th>
                 <th>Current Lesson</th>
                 <th>Level</th>
-                <th>Average Grade</th>
+                <th>Avg Grade</th>
                 <th>Last Activity</th>
                 <th>Status</th>
                 <th>Actions</th>
@@ -1981,7 +2008,7 @@ function renderProfessorDashboard(data = activeProfessorDashboardData, state = {
             <tbody>
               ${data.students.length ? data.students.map((student) => `
                 <tr>
-                  <td><strong>${student.name}</strong></td>
+                  <td>${renderProfessorStudentCell(student)}</td>
                   <td>${renderProfessorProgressBar(student.progress)}</td>
                   <td>${student.currentLesson}</td>
                   <td>${student.level}</td>
@@ -1990,7 +2017,7 @@ function renderProfessorDashboard(data = activeProfessorDashboardData, state = {
                   <td><span class="status-badge ${statusClass(student.status)}">${student.status}</span></td>
                   <td>
                     <div class="prof-actions">
-                      <a href="#" data-view-student-dashboard="${student.email}">View Student Dashboard</a>
+                      <a href="#" data-view-student-dashboard="${student.email}">Dashboard</a>
                     </div>
                   </td>
                 </tr>
@@ -2148,13 +2175,7 @@ function renderProfileCard(session = readSession()) {
   const hasProfile = Boolean(profile.name || profile.summary || profile.photoUrl || profile.photoDataUrl);
   const photoUrl = profile.photoUrl || profile.photoDataUrl;
 
-  if (photoUrl) {
-    profileAvatarEl.style.backgroundImage = `url("${photoUrl}")`;
-    profileAvatarEl.classList.add("has-photo");
-  } else {
-    profileAvatarEl.style.backgroundImage = `url("${DEFAULT_PROFILE_PHOTO_URL}")`;
-    profileAvatarEl.classList.add("has-photo");
-  }
+  setProfileAvatar(photoUrl);
 
   if (session) {
     const assignedRoles = session.roles.map((role) => ROLE_LABELS[role]).join(", ");
@@ -2185,10 +2206,7 @@ function renderProfileCard(session = readSession()) {
         const remotePhotoUrl = remoteProfile.photoUrl || remoteProfile.photoDataUrl;
         const remoteHasProfile = Boolean(remoteProfile.name || remoteProfile.summary || remotePhotoUrl);
 
-        if (remotePhotoUrl) {
-          profileAvatarEl.style.backgroundImage = `url("${remotePhotoUrl}")`;
-          profileAvatarEl.classList.add("has-photo");
-        }
+        setProfileAvatar(remotePhotoUrl);
 
         if (remoteHasProfile) {
           profileNameEl.textContent = remoteProfile.name || session.name || getEmailPrefix(session.email);
@@ -2202,6 +2220,33 @@ function renderProfileCard(session = readSession()) {
         // Local profile data remains available when the API is not running.
       });
   }
+}
+
+function setProfileAvatar(photoUrl) {
+  const nextPhotoUrl = photoUrl || DEFAULT_PROFILE_PHOTO_URL;
+
+  if (!profileAvatarEl) {
+    return;
+  }
+
+  const image = new Image();
+
+  image.addEventListener("load", () => {
+    profileAvatarEl.style.backgroundImage = `url("${nextPhotoUrl}")`;
+    profileAvatarEl.classList.add("has-photo");
+  }, { once: true });
+
+  image.addEventListener("error", () => {
+    if (nextPhotoUrl === DEFAULT_PROFILE_PHOTO_URL) {
+      profileAvatarEl.style.backgroundImage = "";
+      profileAvatarEl.classList.remove("has-photo");
+      return;
+    }
+
+    setProfileAvatar("");
+  }, { once: true });
+
+  image.src = nextPhotoUrl;
 }
 
 function renderRoleChoices(user) {
