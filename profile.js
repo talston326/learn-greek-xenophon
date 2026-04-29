@@ -17,8 +17,13 @@ const ROLE_LABELS = {
   professor: "Professor",
   student: "Student"
 };
+const MAX_PROFILE_PHOTO_BYTES = 2 * 1024 * 1024;
+const ALLOWED_PROFILE_PHOTO_TYPES = ["image/jpeg", "image/png", "image/webp", "image/gif"];
 
 let draftProfile = profileStore ? profileStore.loadProfile() : null;
+let selectedPhotoFile = null;
+let removeSelectedPhoto = false;
+let previewObjectUrl = "";
 
 function readSession() {
   try {
@@ -69,13 +74,13 @@ function renderRoleSwitcher() {
   });
 }
 
-function setPreviewPhoto(photoDataUrl) {
+function setPreviewPhoto(photoUrl) {
   if (!photoPreview) {
     return;
   }
 
-  if (photoDataUrl) {
-    photoPreview.style.backgroundImage = `url("${photoDataUrl}")`;
+  if (photoUrl) {
+    photoPreview.style.backgroundImage = `url("${photoUrl}")`;
     photoPreview.classList.add("has-photo");
   } else {
     photoPreview.style.backgroundImage = "";
@@ -90,54 +95,32 @@ function renderProfileForm(profile) {
 
   profileNameInput.value = profile.name || "";
   profileSummaryInput.value = profile.summary || "";
-  setPreviewPhoto(profile.photoDataUrl || "");
+  setPreviewPhoto(profile.photoUrl || profile.photoDataUrl || "");
 }
 
-function readImageFile(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-
-    reader.onload = () => {
-      const image = new Image();
-
-      image.onload = () => {
-        const canvas = document.createElement("canvas");
-        const context = canvas.getContext("2d");
-        const cropSize = Math.min(image.width, image.height);
-        const startX = (image.width - cropSize) / 2;
-        const startY = (image.height - cropSize) / 2;
-
-        canvas.width = 320;
-        canvas.height = 320;
-        context.drawImage(
-          image,
-          startX,
-          startY,
-          cropSize,
-          cropSize,
-          0,
-          0,
-          canvas.width,
-          canvas.height
-        );
-
-        resolve(canvas.toDataURL("image/jpeg", 0.9));
-      };
-
-      image.onerror = reject;
-      image.src = reader.result;
-    };
-
-    reader.onerror = reject;
-    reader.readAsDataURL(file);
-  });
+function setProfileStatus(message) {
+  if (profileStatus) {
+    profileStatus.textContent = message;
+  }
 }
 
 if (draftProfile) {
-  draftProfile = profileStore.loadProfile(activeProfileEmail());
+  const email = activeProfileEmail();
+  draftProfile = profileStore.loadProfile(email);
   renderProfileForm(draftProfile);
-  profileStatus.textContent = "Update your profile and save when ready.";
+  setProfileStatus("Update your profile and save when ready.");
   renderRoleSwitcher();
+
+  if (email && profileStore.loadRemoteProfile) {
+    profileStore.loadRemoteProfile(email)
+      .then((profile) => {
+        draftProfile = profile;
+        renderProfileForm(draftProfile);
+      })
+      .catch(() => {
+        setProfileStatus("Local profile loaded. Start Netlify dev to sync with the database.");
+      });
+  }
 }
 
 photoInput?.addEventListener("change", async (event) => {
@@ -147,11 +130,27 @@ photoInput?.addEventListener("change", async (event) => {
   }
 
   try {
-    draftProfile.photoDataUrl = await readImageFile(nextFile);
-    setPreviewPhoto(draftProfile.photoDataUrl);
-    profileStatus.textContent = "Photo selected. Save profile to update the dashboard.";
+    if (!ALLOWED_PROFILE_PHOTO_TYPES.includes(nextFile.type)) {
+      throw new Error("Please choose a JPEG, PNG, WebP, or GIF image.");
+    }
+
+    if (nextFile.size > MAX_PROFILE_PHOTO_BYTES) {
+      throw new Error("Please choose an image smaller than 2 MB.");
+    }
+
+    if (previewObjectUrl) {
+      URL.revokeObjectURL(previewObjectUrl);
+    }
+
+    selectedPhotoFile = nextFile;
+    removeSelectedPhoto = false;
+    previewObjectUrl = URL.createObjectURL(nextFile);
+    setPreviewPhoto(previewObjectUrl);
+    setProfileStatus("Photo selected. Save profile to update the dashboard.");
   } catch (error) {
-    profileStatus.textContent = "The selected image could not be processed.";
+    selectedPhotoFile = null;
+    photoInput.value = "";
+    setProfileStatus(error.message || "The selected image could not be processed.");
   }
 });
 
@@ -161,24 +160,37 @@ removePhotoButton?.addEventListener("click", () => {
   }
 
   draftProfile.photoDataUrl = "";
+  draftProfile.photoUrl = "";
+  selectedPhotoFile = null;
+  removeSelectedPhoto = true;
   photoInput.value = "";
   setPreviewPhoto("");
-  profileStatus.textContent = "Photo removed. Save profile to apply the change.";
+  setProfileStatus("Photo removed. Save profile to apply the change.");
 });
 
-resetProfileButton?.addEventListener("click", () => {
+resetProfileButton?.addEventListener("click", async () => {
   if (!profileStore) {
     return;
   }
 
-  draftProfile = { ...profileStore.defaultProfile };
-  profileStore.clearProfile(activeProfileEmail());
-  photoInput.value = "";
-  renderProfileForm(draftProfile);
-  profileStatus.textContent = "Profile reset.";
+  try {
+    setProfileStatus("Resetting profile...");
+    const email = activeProfileEmail();
+    draftProfile = profileStore.clearRemoteProfile
+      ? await profileStore.clearRemoteProfile(email)
+      : { ...profileStore.defaultProfile };
+    profileStore.clearProfile(email);
+    selectedPhotoFile = null;
+    removeSelectedPhoto = false;
+    photoInput.value = "";
+    renderProfileForm(draftProfile);
+    setProfileStatus("Profile reset.");
+  } catch (error) {
+    setProfileStatus(error.message || "Profile could not be reset.");
+  }
 });
 
-profileForm?.addEventListener("submit", (event) => {
+profileForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   if (!profileStore || !draftProfile) {
@@ -187,6 +199,18 @@ profileForm?.addEventListener("submit", (event) => {
 
   draftProfile.name = profileNameInput.value.trim();
   draftProfile.summary = profileSummaryInput.value.trim();
-  draftProfile = profileStore.saveProfile(draftProfile, activeProfileEmail());
-  profileStatus.textContent = "Profile saved. Return to the dashboard to see the updated card.";
+
+  try {
+    setProfileStatus("Saving profile...");
+    draftProfile = profileStore.saveRemoteProfile
+      ? await profileStore.saveRemoteProfile(draftProfile, activeProfileEmail(), selectedPhotoFile, removeSelectedPhoto)
+      : profileStore.saveProfile(draftProfile, activeProfileEmail());
+    selectedPhotoFile = null;
+    removeSelectedPhoto = false;
+    photoInput.value = "";
+    renderProfileForm(draftProfile);
+    setProfileStatus("Profile saved. Return to the dashboard to see the updated card.");
+  } catch (error) {
+    setProfileStatus(error.message || "Profile could not be saved.");
+  }
 });

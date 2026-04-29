@@ -2,7 +2,6 @@ const COURSE_USERS = [
   {
     name: "Tom Alston",
     email: "tpalston@email.sc.edu",
-    password: "xenophon",
     roles: ["administrator", "professor", "student"],
     progress: {
       currentLessonId: "lesson-4",
@@ -44,7 +43,6 @@ const COURSE_USERS = [
   {
     name: "Mark Beck",
     email: "BECKMA@mailbox.sc.edu",
-    password: "xenophon",
     roles: ["professor", "student"],
     progress: {
       currentLessonId: "intro-1",
@@ -68,7 +66,6 @@ const COURSE_USERS = [
   {
     name: "John Doe",
     email: "JohnD@email.sc.edu",
-    password: "xenophon",
     roles: ["student"],
     progress: {
       currentLessonId: "intro-1",
@@ -762,14 +759,6 @@ function normalizeEmail(email) {
   return email.trim().toLowerCase();
 }
 
-function findCourseUser(email, password) {
-  return COURSE_USERS.find(
-    (user) =>
-      normalizeEmail(user.email) === normalizeEmail(email) &&
-      user.password === password
-  );
-}
-
 function findUserByEmail(email) {
   return COURSE_USERS.find((user) => normalizeEmail(user.email) === normalizeEmail(email || ""));
 }
@@ -780,6 +769,10 @@ function findLesson(lessonId) {
 }
 
 function getUserProgress(session) {
+  if (session?.progress) {
+    return session.progress;
+  }
+
   if (session?.previewProgress) {
     return session.previewProgress;
   }
@@ -1092,7 +1085,9 @@ function writeSession(user, activeRole) {
     name: user.name,
     email: user.email,
     roles: user.roles,
-    activeRole
+    activeRole,
+    progress: user.progress || null,
+    course: user.course || null
   };
 
   window.localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
@@ -1817,10 +1812,11 @@ function renderProfileCard(session = readSession()) {
   }
 
   const profile = window.profileStore.loadProfile(session?.email);
-  const hasProfile = Boolean(profile.name || profile.summary || profile.photoDataUrl);
+  const hasProfile = Boolean(profile.name || profile.summary || profile.photoUrl || profile.photoDataUrl);
+  const photoUrl = profile.photoUrl || profile.photoDataUrl;
 
-  if (profile.photoDataUrl) {
-    profileAvatarEl.style.backgroundImage = `url("${profile.photoDataUrl}")`;
+  if (photoUrl) {
+    profileAvatarEl.style.backgroundImage = `url("${photoUrl}")`;
     profileAvatarEl.classList.add("has-photo");
   } else {
     profileAvatarEl.style.backgroundImage = `url("${DEFAULT_PROFILE_PHOTO_URL}")`;
@@ -1846,6 +1842,29 @@ function renderProfileCard(session = readSession()) {
     profileSummaryEl.textContent =
       "Your name, photo, and learner details will appear here after profile completion.";
     profileLinkEl.textContent = "Complete Profile →";
+  }
+
+  if (session?.email && window.profileStore.loadRemoteProfile) {
+    window.profileStore.loadRemoteProfile(session.email)
+      .then((remoteProfile) => {
+        const remotePhotoUrl = remoteProfile.photoUrl || remoteProfile.photoDataUrl;
+        const remoteHasProfile = Boolean(remoteProfile.name || remoteProfile.summary || remotePhotoUrl);
+
+        if (remotePhotoUrl) {
+          profileAvatarEl.style.backgroundImage = `url("${remotePhotoUrl}")`;
+          profileAvatarEl.classList.add("has-photo");
+        }
+
+        if (remoteHasProfile) {
+          profileNameEl.textContent = remoteProfile.name || getEmailPrefix(session.email);
+          profileSummaryEl.textContent =
+            remoteProfile.summary || profileSummaryEl.textContent;
+          profileLinkEl.textContent = "View Profile →";
+        }
+      })
+      .catch(() => {
+        // Local profile data remains available when the API is not running.
+      });
   }
 }
 
@@ -1888,19 +1907,44 @@ function resetLoginPanel() {
 loginForm?.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const user = findCourseUser(loginEmailInput.value, loginPasswordInput.value);
+  loginStatusEl.textContent = "Signing in...";
 
-  if (!user) {
-    loginStatusEl.textContent = "Those credentials did not match a course user.";
-    return;
-  }
+  fetch("/api/login", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      email: loginEmailInput.value,
+      password: loginPasswordInput.value
+    })
+  })
+    .then(async (response) => {
+      const data = await response.json().catch(() => ({}));
 
-  if (user.roles.length === 1) {
-    showDashboard(writeSession(user, user.roles[0]));
-    return;
-  }
+      if (!response.ok) {
+        throw new Error(data.error || "Those credentials did not match a course user.");
+      }
 
-  renderRoleChoices(user);
+      return data.user;
+    })
+    .then((user) => {
+      if (!user?.roles?.length) {
+        throw new Error("This account has no assigned course role.");
+      }
+
+      loginPasswordInput.value = "";
+
+      if (user.roles.length === 1) {
+        showDashboard(writeSession(user, user.roles[0]));
+        return;
+      }
+
+      renderRoleChoices(user);
+    })
+    .catch((error) => {
+      loginStatusEl.textContent = error.message || "Sign in failed.";
+    });
 });
 
 loginBackButton?.addEventListener("click", () => {

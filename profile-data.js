@@ -4,7 +4,8 @@ const PROFILE_BY_USER_STORAGE_KEY = "learn-greek-profiles-by-user";
 const defaultProfile = {
   name: "",
   summary: "",
-  photoDataUrl: ""
+  photoDataUrl: "",
+  photoUrl: ""
 };
 
 function normalizeProfileEmail(email) {
@@ -82,6 +83,93 @@ function saveProfile(profile, email) {
   return nextProfile;
 }
 
+async function loadRemoteProfile(email) {
+  const profileKey = normalizeProfileEmail(email);
+
+  if (!profileKey) {
+    return loadProfile(email);
+  }
+
+  const response = await fetch(`/api/profile?email=${encodeURIComponent(profileKey)}`);
+
+  if (!response.ok) {
+    throw new Error("Profile could not be loaded.");
+  }
+
+  const data = await response.json();
+  const profile = {
+    ...defaultProfile,
+    ...data.profile
+  };
+
+  saveProfile(profile, profileKey);
+  return profile;
+}
+
+async function saveRemoteProfile(profile, email, photoFile, removePhoto = false) {
+  const profileKey = normalizeProfileEmail(email);
+
+  if (!profileKey) {
+    return saveProfile(profile, email);
+  }
+
+  const formData = new FormData();
+  formData.append("email", profileKey);
+  formData.append("name", profile.name || "");
+  formData.append("summary", profile.summary || "");
+  formData.append("removePhoto", removePhoto ? "true" : "false");
+
+  if (photoFile) {
+    formData.append("photo", photoFile);
+  }
+
+  const response = await fetch("/api/profile", {
+    method: "PUT",
+    body: formData
+  });
+
+  const data = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    throw new Error(data.error || "Profile could not be saved.");
+  }
+
+  const savedProfile = {
+    ...defaultProfile,
+    ...data.profile
+  };
+
+  saveProfile(savedProfile, profileKey);
+  return savedProfile;
+}
+
+async function clearRemoteProfile(email) {
+  const profileKey = normalizeProfileEmail(email);
+
+  if (!profileKey) {
+    clearProfile(email);
+    return { ...defaultProfile };
+  }
+
+  const response = await fetch(`/api/profile?email=${encodeURIComponent(profileKey)}`, {
+    method: "DELETE"
+  });
+
+  const data = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    throw new Error(data.error || "Profile could not be reset.");
+  }
+
+  const profile = {
+    ...defaultProfile,
+    ...data.profile
+  };
+
+  saveProfile(profile, profileKey);
+  return profile;
+}
+
 function clearProfile(email) {
   const profileKey = normalizeProfileEmail(email);
 
@@ -97,6 +185,9 @@ function clearProfile(email) {
 window.profileStore = {
   defaultProfile,
   loadProfile,
+  loadRemoteProfile,
   saveProfile,
+  saveRemoteProfile,
+  clearRemoteProfile,
   clearProfile
 };
