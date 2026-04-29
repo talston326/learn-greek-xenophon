@@ -1,9 +1,16 @@
 # ideas.md
 ## Project Ideas and Brainstorming Notes
 
-_Last updated: 2026-04-18_
+_Last updated: 2026-04-29_
 
 ## Recent additions
+
+### 2026-04-29 — Remotion Tutorial Video
+Use @Remotion to generate a polished tutorial video for the course. The video could introduce the dashboard, lessons, vocabulary practice, maps, progress tracking, and the overall learning workflow. Because Remotion renders video from React-style components, it could reuse course branding, map screenshots, lesson UI captures, Greek text, and scripted narration in a repeatable way.
+
+Tags: Remotion, tutorial-video, onboarding, multimedia, course-introduction
+
+---
 
 ### 2026-04-27 20:11 — Interactive Ancient Greek World Map
 Add a Maps section to the website navigation panel. This should take users to an interactive map of the Ancient Greek world, with zoomable regions including Attica, the Peloponnese, Boeotia, Asia Minor, and Greater Greece in southern Italy and Sicily. It should also support displaying or following the route of Xenophon’s March of the Ten Thousand.
@@ -123,6 +130,7 @@ Audio is a primary feature, not optional
 - Introductory unit (alphabet, pronunciation)
 - Cultural/history segments
 - “Interest feature” sections
+- Remotion-generated tutorial video introducing the course workflow, dashboard, lessons, vocabulary practice, maps, and progress tracking
 
 ## Avoid
 - Overuse in grammar instruction

@@ -9,3 +9,4 @@ node_modules/
 *.local
 *.swp
 prototype.backup.*/
+maps/source-data/relief/SR_HR.tif
