@@ -1927,7 +1927,7 @@
 
     .prof-main-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.35fr) minmax(300px, .65fr);
+      grid-template-columns: minmax(0, 1fr);
       gap: 18px;
       align-items: start;
     }
@@ -2186,6 +2186,7 @@
 
     .prof-side-panel {
       display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 18px;
     }
 
@@ -2770,6 +2771,7 @@
     @media (max-width: 1100px) {
       .grid-main { grid-template-columns: 1fr; }
       .prof-main-grid,
+      .prof-side-panel,
       .prof-bottom-grid {
         grid-template-columns: 1fr;
       }
