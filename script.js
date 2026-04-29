@@ -594,61 +594,217 @@ const PROFESSOR_DASHBOARD_DATA = {
     {
       name: "Tom Alston",
       email: "tpalston@email.sc.edu",
-      progress: 68,
-      currentLessonId: "lesson-12",
-      currentLesson: "Lesson 12 — The Examined Life",
+      progress: 61,
+      currentLessonId: "lesson-29",
+      currentLesson: "Lesson 29 — Working with Purpose",
       level: "Erudite",
-      levelNumber: 7,
+      levelNumber: 8,
       averageGrade: "91%",
       lastActivity: "Today",
       status: "Active"
     },
     {
+      name: "Mark Beck",
+      email: "BECKMA@mailbox.sc.edu",
+      progress: 69,
+      currentLessonId: "lesson-33",
+      currentLesson: "Lesson 33 — Training the Self",
+      level: "Erudite",
+      levelNumber: 9,
+      averageGrade: "93%",
+      lastActivity: "Today",
+      status: "Active"
+    },
+    {
+      name: "John Davis",
+      email: "jdavis@email.sc.edu",
+      progress: 20,
+      currentLessonId: "lesson-8",
+      currentLesson: "Lesson 8 — In the Agora",
+      level: "Apprentice",
+      levelNumber: 3,
+      averageGrade: "68%",
+      lastActivity: "6 days ago",
+      status: "Needs Attention"
+    },
+    {
       name: "Sarah Kim",
-      email: "sarah.kim@email.sc.edu",
-      progress: 42,
-      currentLessonId: "lesson-7",
-      currentLesson: "Lesson 7 — Examining Oneself",
-      level: "Novice",
-      levelNumber: 2,
+      email: "skim@email.sc.edu",
+      progress: 35,
+      currentLessonId: "lesson-16",
+      currentLesson: "Lesson 16 — If They Fight",
+      level: "Apprentice",
+      levelNumber: 5,
       averageGrade: "78%",
       lastActivity: "3 days ago",
       status: "At Risk"
     },
     {
-      name: "John Davis",
-      email: "john.davis@email.sc.edu",
-      progress: 35,
-      currentLessonId: "lesson-5",
-      currentLesson: "Lesson 5 — Learning Through Questioning",
-      level: "Novice",
-      levelNumber: 1,
-      averageGrade: "65%",
-      lastActivity: "6 days ago",
-      status: "Needs Attention"
-    },
-    {
       name: "Alex Chen",
-      email: "alex.chen@email.sc.edu",
-      progress: 80,
-      currentLessonId: "lesson-15",
-      currentLesson: "Lesson 15 — Hope and Expectation",
-      level: "Sophos",
-      levelNumber: 9,
+      email: "achen@email.sc.edu",
+      progress: 45,
+      currentLessonId: "lesson-21",
+      currentLesson: "Lesson 21 — The Army Without Leaders",
+      level: "Erudite",
+      levelNumber: 6,
       averageGrade: "94%",
       lastActivity: "Yesterday",
       status: "Active"
     },
     {
       name: "Maria Lopez",
-      email: "maria.lopez@email.sc.edu",
-      progress: 55,
-      currentLessonId: "lesson-9",
-      currentLesson: "Lesson 9 — Socrates Questions All",
-      level: "Apprentice",
-      levelNumber: 4,
+      email: "mlopez@email.sc.edu",
+      progress: 41,
+      currentLessonId: "lesson-19",
+      currentLesson: "Lesson 19 — Those Who Stand Firm",
+      level: "Erudite",
+      levelNumber: 6,
       averageGrade: "82%",
       lastActivity: "2 days ago",
+      status: "Active"
+    },
+    {
+      name: "Plato Aristocles",
+      email: "paristocles@email.sc.edu",
+      progress: 51,
+      currentLessonId: "lesson-24",
+      currentLesson: "Lesson 24 — Courage Under Fire",
+      level: "Erudite",
+      levelNumber: 7,
+      averageGrade: "95%",
+      lastActivity: "Today",
+      status: "Active"
+    },
+    {
+      name: "Achilles Homer",
+      email: "ahomer@email.sc.edu",
+      progress: 47,
+      currentLessonId: "lesson-22",
+      currentLesson: "Lesson 22 — Do Not Fear!",
+      level: "Erudite",
+      levelNumber: 7,
+      averageGrade: "89%",
+      lastActivity: "Yesterday",
+      status: "Active"
+    },
+    {
+      name: "Patroclus Homer",
+      email: "phomer@email.sc.edu",
+      progress: 39,
+      currentLessonId: "lesson-18",
+      currentLesson: "Lesson 18 — The Battle Begins",
+      level: "Apprentice",
+      levelNumber: 5,
+      averageGrade: "86%",
+      lastActivity: "2 days ago",
+      status: "Active"
+    },
+    {
+      name: "Thomas Clay",
+      email: "tclay@email.sc.edu",
+      progress: 37,
+      currentLessonId: "lesson-17",
+      currentLesson: "Lesson 17 — Fear and Courage",
+      level: "Apprentice",
+      levelNumber: 5,
+      averageGrade: "81%",
+      lastActivity: "4 days ago",
+      status: "At Risk"
+    },
+    {
+      name: "John Doe",
+      email: "jdoe@email.sc.edu",
+      progress: 27,
+      currentLessonId: "lesson-11",
+      currentLesson: "Lesson 11 — The Thinking Mind",
+      level: "Apprentice",
+      levelNumber: 4,
+      averageGrade: "79%",
+      lastActivity: "3 days ago",
+      status: "At Risk"
+    },
+    {
+      name: "Susan Doe",
+      email: "sdoe@email.sc.edu",
+      progress: 43,
+      currentLessonId: "lesson-20",
+      currentLesson: "Lesson 20 — Victory Won",
+      level: "Erudite",
+      levelNumber: 6,
+      averageGrade: "88%",
+      lastActivity: "Today",
+      status: "Active"
+    },
+    {
+      name: "Mary Contrary",
+      email: "mcontrary@email.sc.edu",
+      progress: 16,
+      currentLessonId: "lesson-6",
+      currentLesson: "Lesson 6 — The Search for Knowledge",
+      level: "Novice",
+      levelNumber: 2,
+      averageGrade: "72%",
+      lastActivity: "8 days ago",
+      status: "Needs Attention"
+    },
+    {
+      name: "Alexander Great",
+      email: "agreat@email.sc.edu",
+      progress: 49,
+      currentLessonId: "lesson-23",
+      currentLesson: "Lesson 23 — So Brave That...",
+      level: "Erudite",
+      levelNumber: 7,
+      averageGrade: "92%",
+      lastActivity: "Today",
+      status: "Active"
+    },
+    {
+      name: "Diogenes Laertius",
+      email: "dlaertius@email.sc.edu",
+      progress: 31,
+      currentLessonId: "lesson-14",
+      currentLesson: "Lesson 14 — Trust in Leadership",
+      level: "Apprentice",
+      levelNumber: 4,
+      averageGrade: "80%",
+      lastActivity: "4 days ago",
+      status: "At Risk"
+    },
+    {
+      name: "Alexandros Papadopoulos",
+      email: "apapadopoulos@email.sc.edu",
+      progress: 33,
+      currentLessonId: "lesson-15",
+      currentLesson: "Lesson 15 — Hope and Expectation",
+      level: "Apprentice",
+      levelNumber: 4,
+      averageGrade: "85%",
+      lastActivity: "2 days ago",
+      status: "Active"
+    },
+    {
+      name: "Dimitrios Georgiou",
+      email: "dgeorgiou@email.sc.edu",
+      progress: 29,
+      currentLessonId: "lesson-13",
+      currentLesson: "Lesson 13 — The General Leads",
+      level: "Apprentice",
+      levelNumber: 4,
+      averageGrade: "77%",
+      lastActivity: "5 days ago",
+      status: "At Risk"
+    },
+    {
+      name: "Nikolas Ioannidis",
+      email: "nioannidis@email.sc.edu",
+      progress: 43,
+      currentLessonId: "lesson-20",
+      currentLesson: "Lesson 20 — Victory Won",
+      level: "Erudite",
+      levelNumber: 6,
+      averageGrade: "90%",
+      lastActivity: "Yesterday",
       status: "Active"
     }
   ],
@@ -678,6 +834,9 @@ const PROFESSOR_DASHBOARD_DATA = {
     ["Below C", "1 student", 6]
   ]
 };
+
+let activeProfessorDashboardData = getProfessorDashboardPlaceholder();
+let professorDashboardLoadId = 0;
 
 const SESSION_STORAGE_KEY = "learn-greek-session";
 const SIDEBAR_STORAGE_KEY = "learn-greek-sidebar-collapsed";
@@ -1590,13 +1749,95 @@ function renderProfessorRows(items, rowClass, renderRow) {
   return items.map((item) => `<div class="${rowClass}">${renderRow(item)}</div>`).join("");
 }
 
-function renderProfessorDashboard() {
+function getProfessorDashboardPlaceholder() {
+  return {
+    overview: [
+      ["Total Students", "Loading"],
+      ["Active This Week", "Loading"],
+      ["Average Completion", "Loading"],
+      ["Average Grade", "Loading"]
+    ],
+    grading: [
+      ["Pending Submissions", "Loading"],
+      ["Needs Review", "Loading"],
+      ["Overdue", "Loading"]
+    ],
+    weeklyActivity: [
+      ["Lessons Completed This Week", "Loading"],
+      ["Average Completion", "Loading"],
+      ["Most Active Lesson", "Loading"]
+    ],
+    students: [],
+    attention: [],
+    submissions: [],
+    lessonProgress: [],
+    grades: []
+  };
+}
+
+function renderProfessorEmpty(message) {
+  return `<p class="empty-state">${message}</p>`;
+}
+
+async function loadProfessorDashboardData() {
+  const response = await fetch("/api/professor-dashboard");
+
+  if (!response.ok) {
+    const data = await response.json().catch(() => ({}));
+    throw new Error(data.error || "Professor dashboard data could not be loaded.");
+  }
+
+  return response.json();
+}
+
+function renderProfessorDashboard(data = activeProfessorDashboardData, state = {}) {
   if (!professorDashboardEl) {
     return;
   }
 
-  const data = PROFESSOR_DASHBOARD_DATA;
+  activeProfessorDashboardData = data;
+  const loadingMessage = state.loading ? `<p class="prof-data-status">Loading live course data...</p>` : "";
+  const errorMessage = state.error ? `<p class="prof-data-status error">${state.error}</p>` : "";
+  const submissions = data.submissions?.length
+    ? renderProfessorRows(data.submissions, "prof-submission-row", ([title, student, status]) => `
+      <div>
+        <strong>${title}</strong>
+        <p>${student}</p>
+      </div>
+      <span>${status}</span>
+    `)
+    : renderProfessorEmpty("No submissions yet.");
+  const attention = data.attention?.length
+    ? renderProfessorRows(data.attention, "prof-alert-row", ([name, reason]) => `
+      <div>
+        <strong>${name}</strong>
+        <p>${reason}</p>
+      </div>
+      <a href="#">View</a>
+    `)
+    : renderProfessorEmpty("No students currently need attention.");
+  const lessonProgress = data.lessonProgress?.length
+    ? renderProfessorRows(data.lessonProgress, "prof-distribution-row", ([label, detail, percent]) => `
+      <div class="prof-distribution-copy">
+        <strong>${label}</strong>
+        <span>${detail}</span>
+      </div>
+      ${renderProfessorProgressBar(percent)}
+    `)
+    : renderProfessorEmpty("Lesson progress will appear after the roster loads.");
+  const grades = data.grades?.length
+    ? renderProfessorRows(data.grades, "prof-distribution-row", ([label, detail, percent]) => `
+      <div class="prof-distribution-copy">
+        <strong>${label}</strong>
+        <span>${detail}</span>
+      </div>
+      ${renderProfessorProgressBar(percent)}
+    `)
+    : renderProfessorEmpty("Grade distribution will appear after the roster loads.");
+
   professorDashboardEl.innerHTML = `
+    ${loadingMessage}
+    ${errorMessage}
     <section class="prof-summary-grid" aria-label="Professor dashboard summary">
       <article class="card prof-summary-card">
         <h3>Class Overview</h3>
@@ -1620,15 +1861,15 @@ function renderProfessorDashboard() {
         <div class="prof-card-heading">
           <div>
             <h3>Student Progress</h3>
-            <p class="muted">Classroom overview for GREK 110 J10.</p>
+            <p class="muted">Live roster from course memberships and student progress.</p>
           </div>
           <div class="prof-scroll-hint" aria-hidden="true">
-            <span>←</span>
+            <span>↕</span>
             <span>Scroll</span>
             <span>→</span>
           </div>
         </div>
-        <div class="prof-table-wrap" tabindex="0" aria-label="Student progress table. Scroll horizontally to see all columns.">
+        <div class="prof-table-wrap" tabindex="0" aria-label="Student progress table. Scroll down and horizontally to see all students and columns.">
           <table class="prof-table">
             <thead>
               <tr>
@@ -1643,7 +1884,7 @@ function renderProfessorDashboard() {
               </tr>
             </thead>
             <tbody>
-              ${data.students.map((student) => `
+              ${data.students.length ? data.students.map((student) => `
                 <tr>
                   <td><strong>${student.name}</strong></td>
                   <td>${renderProfessorProgressBar(student.progress)}</td>
@@ -1658,7 +1899,11 @@ function renderProfessorDashboard() {
                     </div>
                   </td>
                 </tr>
-              `).join("")}
+              `).join("") : `
+                <tr>
+                  <td colspan="8">Loading student roster...</td>
+                </tr>
+              `}
             </tbody>
           </table>
         </div>
@@ -1667,28 +1912,12 @@ function renderProfessorDashboard() {
       <aside class="prof-side-panel" aria-label="Professor action panels">
         <article class="card">
           <h3>Students Needing Attention</h3>
-          <div class="prof-alert-list">
-            ${renderProfessorRows(data.attention, "prof-alert-row", ([name, reason]) => `
-              <div>
-                <strong>${name}</strong>
-                <p>${reason}</p>
-              </div>
-              <a href="#">View</a>
-            `)}
-          </div>
+          <div class="prof-alert-list">${attention}</div>
         </article>
 
         <article class="card">
           <h3>Recent Submissions</h3>
-          <div class="prof-submission-list">
-            ${renderProfessorRows(data.submissions, "prof-submission-row", ([title, student, status]) => `
-              <div>
-                <strong>${title}</strong>
-                <p>${student}</p>
-              </div>
-              <span>${status}</span>
-            `)}
-          </div>
+          <div class="prof-submission-list">${submissions}</div>
           <a class="cta" href="#">View All Submissions <span>→</span></a>
         </article>
       </aside>
@@ -1697,28 +1926,12 @@ function renderProfessorDashboard() {
     <section class="prof-bottom-grid">
       <article class="card">
         <h3>Lesson Progress Overview</h3>
-        <div class="prof-distribution-list">
-          ${renderProfessorRows(data.lessonProgress, "prof-distribution-row", ([label, detail, percent]) => `
-            <div class="prof-distribution-copy">
-              <strong>${label}</strong>
-              <span>${detail}</span>
-            </div>
-            ${renderProfessorProgressBar(percent)}
-          `)}
-        </div>
+        <div class="prof-distribution-list">${lessonProgress}</div>
       </article>
 
       <article class="card">
         <h3>Grade Distribution</h3>
-        <div class="prof-distribution-list">
-          ${renderProfessorRows(data.grades, "prof-distribution-row", ([label, detail, percent]) => `
-            <div class="prof-distribution-copy">
-              <strong>${label}</strong>
-              <span>${detail}</span>
-            </div>
-            ${renderProfessorProgressBar(percent)}
-          `)}
-        </div>
+        <div class="prof-distribution-list">${grades}</div>
       </article>
     </section>
   `;
@@ -1738,7 +1951,22 @@ function renderDashboardView(session) {
   }
 
   if (isProfessor) {
-    renderProfessorDashboard();
+    const loadId = professorDashboardLoadId + 1;
+    professorDashboardLoadId = loadId;
+    renderProfessorDashboard(getProfessorDashboardPlaceholder(), { loading: true });
+    loadProfessorDashboardData()
+      .then((data) => {
+        if (loadId === professorDashboardLoadId) {
+          renderProfessorDashboard(data);
+        }
+      })
+      .catch((error) => {
+        if (loadId === professorDashboardLoadId) {
+          renderProfessorDashboard(getProfessorDashboardPlaceholder(), {
+            error: error.message || "Professor dashboard data could not be loaded."
+          });
+        }
+      });
     return;
   }
 
@@ -1754,7 +1982,7 @@ professorDashboardEl?.addEventListener("click", (event) => {
 
   event.preventDefault();
 
-  const student = PROFESSOR_DASHBOARD_DATA.students.find(
+  const student = activeProfessorDashboardData.students.find(
     (candidate) => candidate.email === link.dataset.viewStudentDashboard
   );
 

@@ -1969,8 +1969,19 @@
       font-size: .88rem;
     }
 
+    .prof-data-status {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .prof-data-status.error {
+      color: var(--usc-garnet);
+    }
+
     .prof-table-wrap {
-      overflow-x: auto;
+      max-height: 430px;
+      overflow: auto;
       border: 1px solid rgba(111,102,95,.14);
       border-radius: 16px;
       background:
@@ -1984,6 +1995,7 @@
     }
 
     .prof-table-wrap::-webkit-scrollbar {
+      width: 12px;
       height: 12px;
     }
 
@@ -2014,6 +2026,9 @@
     }
 
     .prof-table th {
+      position: sticky;
+      top: 0;
+      z-index: 4;
       background: rgba(115,0,10,.06);
       color: #4a3b32;
       font-size: .8rem;
@@ -2034,7 +2049,7 @@
     }
 
     .prof-table th:first-child {
-      z-index: 3;
+      z-index: 5;
       background: #f7f0ee;
     }
 
