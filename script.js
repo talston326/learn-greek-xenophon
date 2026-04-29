@@ -509,7 +509,11 @@ function buildStudentPreviewSession(student) {
     roles: ["student"],
     activeRole: "student",
     previewProgress: buildPreviewProgress(student),
-    professorPreview: true
+    professorPreview: true,
+    viewedStudent: {
+      name: student.name,
+      email: student.email
+    }
   };
 }
 
@@ -1253,6 +1257,11 @@ function writeSession(user, activeRole) {
   return session;
 }
 
+function saveSession(session) {
+  window.localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
+  return session;
+}
+
 function clearSession() {
   window.localStorage.removeItem(SESSION_STORAGE_KEY);
 }
@@ -1694,21 +1703,35 @@ function setHeroMessage(lines) {
   });
 }
 
-function renderNav(roleConfig) {
+function renderNav(roleConfig, session = readSession()) {
   if (!sidebarNav || !roleConfig) {
     return;
   }
 
   sidebarNav.textContent = "";
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const navItems = roleConfig.nav.map((item, index) => {
+    if (session?.professorPreview && index === 0 && item[1] === "Dashboard") {
+      return [item[0], "Student Dashboard", item[2]];
+    }
 
-  roleConfig.nav.forEach(([icon, label, href], index) => {
+    return item;
+  });
+
+  if (session?.professorPreview) {
+    navItems.push(["↩", "Professor Dashboard", "#professor-dashboard-return", "returnProfessorDashboard"]);
+  }
+
+  navItems.forEach(([icon, label, href, action], index) => {
     const link = document.createElement("a");
     link.href = href || "#";
     link.title = label;
+    if (action) {
+      link.dataset.navAction = action;
+    }
     if (
-      href === currentPage ||
-      (currentPage === "index.html" && index === 0) ||
+      (!action && href === currentPage) ||
+      (!action && currentPage === "index.html" && index === 0) ||
       (currentPage.startsWith("lesson-") && href === "lessons.html")
     ) {
       link.classList.add("active");
@@ -1722,6 +1745,30 @@ function renderNav(roleConfig) {
     sidebarNav.appendChild(link);
   });
 }
+
+sidebarNav?.addEventListener("click", (event) => {
+  const link = event.target.closest("[data-nav-action]");
+
+  if (!link) {
+    return;
+  }
+
+  if (link.dataset.navAction === "returnProfessorDashboard") {
+    event.preventDefault();
+    returnToProfessorDashboard();
+  }
+});
+
+mainEl?.addEventListener("click", (event) => {
+  const link = event.target.closest("[data-preview-return]");
+
+  if (!link) {
+    return;
+  }
+
+  event.preventDefault();
+  returnToProfessorDashboard();
+});
 
 function statusClass(status) {
   return status.toLowerCase().replace(/\s+/g, "-");
@@ -1747,6 +1794,54 @@ function renderProfessorProgressBar(percent) {
 
 function renderProfessorRows(items, rowClass, renderRow) {
   return items.map((item) => `<div class="${rowClass}">${renderRow(item)}</div>`).join("");
+}
+
+function returnToProfessorDashboard() {
+  const session = readSession();
+  const professorSession = session?.professorReturnSession;
+
+  if (professorSession) {
+    saveSession(professorSession);
+    window.location.href = "index.html";
+  }
+}
+
+function renderPreviewContextBar(session) {
+  if (!mainEl) {
+    return;
+  }
+
+  const existingBar = mainEl.querySelector("[data-preview-context]");
+
+  if (!session?.professorPreview) {
+    existingBar?.remove();
+    return;
+  }
+
+  const studentName = session.viewedStudent?.name || session.name || "student";
+  const bar = existingBar || document.createElement("section");
+  bar.className = "preview-context-bar";
+  bar.dataset.previewContext = "";
+  bar.innerHTML = `
+    <div>
+      <strong>Viewing ${studentName}</strong>
+      <span>Student dashboard preview</span>
+    </div>
+    <nav aria-label="Preview navigation">
+      <a href="index.html">Student Dashboard</a>
+      <a href="lessons.html">Student Lessons</a>
+      <a href="#professor-dashboard-return" data-preview-return>Professor Dashboard</a>
+    </nav>
+  `;
+
+  if (!existingBar) {
+    const hero = mainEl.querySelector(".hero");
+    if (hero?.nextSibling) {
+      mainEl.insertBefore(bar, hero.nextSibling);
+    } else {
+      mainEl.prepend(bar);
+    }
+  }
 }
 
 function getProfessorDashboardPlaceholder() {
@@ -1990,7 +2085,16 @@ professorDashboardEl?.addEventListener("click", (event) => {
     return;
   }
 
-  showDashboard(buildStudentPreviewSession(student));
+  const currentSession = readSession();
+  const previewSession = {
+    ...buildStudentPreviewSession(student),
+    professorReturnSession:
+      currentSession?.activeRole === "professor"
+        ? currentSession
+        : currentSession?.professorReturnSession || null
+  };
+
+  showDashboard(saveSession(previewSession));
 });
 
 function showDashboard(session) {
@@ -2008,7 +2112,8 @@ function showDashboard(session) {
   }
 
   setHeroMessage(roleConfig.lines);
-  renderNav(roleConfig);
+  renderNav(roleConfig, session);
+  renderPreviewContextBar(session);
   renderDashboardView(session);
   renderLessonsPage(session);
 
@@ -2053,14 +2158,16 @@ function renderProfileCard(session = readSession()) {
 
   if (session) {
     const assignedRoles = session.roles.map((role) => ROLE_LABELS[role]).join(", ");
-    profileNameEl.textContent = profile.name || getEmailPrefix(session.email);
+    profileNameEl.textContent = profile.name || session.name || getEmailPrefix(session.email);
     profileSummaryEl.textContent =
-      profile.summary || `${ROLE_LABELS[session.activeRole]} view · ${assignedRoles}`;
-    profileLinkEl.textContent = hasProfile ? "View Profile →" : "Complete Profile →";
-    return;
-  }
-
-  if (hasProfile) {
+      profile.summary ||
+      (session.professorPreview
+        ? "Professor preview · Student progress"
+        : `${ROLE_LABELS[session.activeRole]} view · ${assignedRoles}`);
+    profileLinkEl.textContent = session.professorPreview
+      ? "View Student Profile →"
+      : hasProfile ? "View Profile →" : "Complete Profile →";
+  } else if (hasProfile) {
     profileNameEl.textContent = profile.name || "Student Profile";
     profileSummaryEl.textContent =
       profile.summary || "Your dashboard profile is ready to review.";
@@ -2084,10 +2191,11 @@ function renderProfileCard(session = readSession()) {
         }
 
         if (remoteHasProfile) {
-          profileNameEl.textContent = remoteProfile.name || getEmailPrefix(session.email);
+          profileNameEl.textContent = remoteProfile.name || session.name || getEmailPrefix(session.email);
           profileSummaryEl.textContent =
-            remoteProfile.summary || profileSummaryEl.textContent;
-          profileLinkEl.textContent = "View Profile →";
+            remoteProfile.summary ||
+            (session.professorPreview ? "Professor preview · Student progress" : profileSummaryEl.textContent);
+          profileLinkEl.textContent = session.professorPreview ? "View Student Profile →" : "View Profile →";
         }
       })
       .catch(() => {
