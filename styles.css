@@ -1105,7 +1105,7 @@
 
     .alphabet-table {
       width: 100%;
-      min-width: 760px;
+      min-width: 700px;
       border-collapse: collapse;
     }
 
@@ -1122,7 +1122,7 @@
       color: #4a3b32;
       font-size: .92rem;
       text-transform: uppercase;
-      letter-spacing: .06em;
+      letter-spacing: 0;
     }
 
     .alphabet-table tr:last-child td {
@@ -1146,10 +1146,51 @@
       color: var(--usc-garnet);
     }
 
+    .alphabet-name-stack {
+      display: inline-grid;
+      gap: 4px;
+      justify-items: start;
+    }
+
     .greek-example {
       font-size: 1.22rem;
       color: #251d18;
       white-space: nowrap;
+    }
+
+    .audio-text {
+      border: 0;
+      border-bottom: 1px dotted rgba(115,0,10,.45);
+      border-radius: 6px;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      line-height: 1.2;
+      padding: 2px 3px;
+      margin: -2px -3px;
+      cursor: pointer;
+      text-align: left;
+      transition: background .18s ease, border-color .18s ease, color .18s ease;
+    }
+
+    .audio-text:hover {
+      background: rgba(115,0,10,.07);
+      border-color: var(--usc-garnet);
+      color: var(--usc-garnet);
+    }
+
+    .audio-text:focus-visible {
+      outline: 3px solid rgba(115,0,10,.22);
+      outline-offset: 3px;
+    }
+
+    .audio-text-letter {
+      border-bottom: 0;
+    }
+
+    .audio-text-english-name {
+      color: var(--muted);
+      font-size: .9rem;
     }
 
     .audio-button {
@@ -3036,7 +3077,7 @@
         width: 100%;
       }
       .alphabet-table {
-        min-width: 680px;
+        min-width: 620px;
       }
       .hero::after {
         background:

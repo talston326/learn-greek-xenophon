@@ -847,31 +847,89 @@ const SIDEBAR_STORAGE_KEY = "learn-greek-sidebar-collapsed";
 const DEFAULT_PROFILE_PHOTO_URL = "assets/generic-profile.svg";
 
 const GREEK_ALPHABET = [
-  ["Α", "α", "ἄλφα", "a as in father or short a in top", "ἀνήρ", "man", "alpha"],
-  ["Β", "β", "βῆτα", "b", "βίος", "life", "beta"],
-  ["Γ", "γ", "γάμμα", "g; before γ, κ, ξ, χ it sounds like ng", "γῆ", "earth", "gamma"],
-  ["Δ", "δ", "δέλτα", "d", "δῶρον", "gift", "delta"],
-  ["Ε", "ε", "ἒ ψιλόν", "e as in get", "ἐγώ", "I", "epsilon"],
-  ["Ζ", "ζ", "z or sd/dz by classroom convention", "ζωή", "life", "zeta"],
-  ["Η", "η", "ἦτα", "long e", "ἡμέρα", "day", "eta"],
-  ["Θ", "θ", "θῆτα", "aspirated t", "θεός", "god", "theta"],
-  ["Ι", "ι", "ἰῶτα", "i as in machine, short or long", "ἰχθύς", "fish", "iota"],
-  ["Κ", "κ", "κάππα", "k without aspiration", "καλός", "beautiful", "kappa"],
-  ["Λ", "λ", "λάμβδα", "l", "λόγος", "word, reason", "lambda"],
-  ["Μ", "μ", "μῦ", "m", "μήτηρ", "mother", "mu"],
-  ["Ν", "ν", "νῦ", "n", "ναῦς", "ship", "nu"],
-  ["Ξ", "ξ", "ξῖ", "ks, like x in axe", "ξένος", "guest-friend, stranger", "xi"],
-  ["Ο", "ο", "ὂ μικρόν", "short o", "ὁδός", "road", "omicron"],
-  ["Π", "π", "πῖ", "p without aspiration", "παῖς", "child", "pi"],
-  ["Ρ", "ρ", "ῥῶ", "trilled r; initial rho takes rough breathing", "ῥήτωρ", "speaker", "rho"],
-  ["Σ", "σ, ς", "σίγμα", "s; final sigma ς ends a word", "σοφός", "wise", "sigma"],
-  ["Τ", "τ", "ταῦ", "t without aspiration", "τιμή", "honor", "tau"],
-  ["Υ", "υ", "ὖ ψιλόν", "u/y sound, as French tu", "ὕδωρ", "water", "upsilon"],
-  ["Φ", "φ", "φῖ", "aspirated p", "φίλος", "friend", "phi"],
-  ["Χ", "χ", "χῖ", "aspirated k", "χρόνος", "time", "chi"],
-  ["Ψ", "ψ", "ψῖ", "ps, as in lips", "ψυχή", "soul", "psi"],
-  ["Ω", "ω", "ὦ μέγα", "long o", "ὥρα", "season, hour", "omega"]
+  ["Α", "α", "ἄλφα", "Alpha", "a as in father or short a in top", "ἀγαθός", "good", "alpha", "agathos"],
+  ["Β", "β", "βῆτα", "Beta", "b", "βίος", "life", "beta", "bios"],
+  ["Γ", "γ", "γάμμα", "Gamma", "g; before γ, κ, ξ, χ it sounds like ng", "ἀγαθός", "good", "gamma", "agathos"],
+  ["Δ", "δ", "δέλτα", "Delta", "d", "δῶρον", "gift", "delta", "doron"],
+  ["Ε", "ε", "ἒ ψιλόν", "Epsilon", "e as in get", "ἄνεμος", "wind", "epsilon", "anemos"],
+  ["Ζ", "ζ", "ζῆτα", "Zeta", "z or sd/dz by classroom convention", "τράπεζα", "table", "zeta", "trapeza"],
+  ["Η", "η", "ἦτα", "Eta", "long e", "ἥλιος", "sun", "eta", "helios"],
+  ["Θ", "θ", "θῆτα", "Theta", "aspirated t", "ἀγαθός", "good", "theta", "agathos"],
+  ["Ι", "ι", "ἰῶτα", "Iota", "i as in machine, short or long", "βίος", "life", "iota", "bios"],
+  ["Κ", "κ", "κάππα", "Kappa", "k without aspiration", "νίκη", "victory", "kappa", "nike"],
+  ["Λ", "λ", "λάμβδα", "Lambda", "l", "ἥλιος", "sun", "lambda", "helios"],
+  ["Μ", "μ", "μῦ", "Mu", "m", "ἄνεμος", "wind", "mu", "anemos"],
+  ["Ν", "ν", "νῦ", "Nu", "n", "νίκη", "victory", "nu", "nike"],
+  ["Ξ", "ξ", "ξῖ", "Xi", "ks, like x in axe", "δόξα", "opinion", "xi", "doxa"],
+  ["Ο", "ο", "ὂ μικρόν", "Omicron", "short o", "βίος", "life", "omicron", "bios"],
+  ["Π", "π", "πῖ", "Pi", "p without aspiration", "τράπεζα", "table", "pi", "trapeza"],
+  ["Ρ", "ρ", "ῥῶ", "Rho", "trilled r; initial rho takes rough breathing", "χώρα", "land", "rho", "chora"],
+  ["Σ", "σ, ς", "σίγμα", "Sigma", "s; final sigma ς ends a word", "νόσος", "illness", "sigma", "nosos"],
+  ["Τ", "τ", "ταῦ", "Tau", "t without aspiration", "τιμή", "honor", "tau", "time"],
+  ["Υ", "υ", "ὖ ψιλόν", "Upsilon", "u/y sound, as French tu", "φυγή", "escape", "upsilon", "phyge"],
+  ["Φ", "φ", "φῖ", "Phi", "aspirated p", "φυγή", "escape", "phi", "phyge"],
+  ["Χ", "χ", "χῖ", "Chi", "aspirated k", "χώρα", "land", "chi", "chora"],
+  ["Ψ", "ψ", "ψῖ", "Psi", "ps, as in lips", "ψυχή", "soul", "psi", "psyche"],
+  ["Ω", "ω", "ὦ μέγα", "Omega", "long o", "χώρα", "land", "omega", "chora"]
 ];
+
+const ALPHABET_LETTER_AUDIO_SLUGS = new Set([
+  "alpha",
+  "beta",
+  "gamma",
+  "delta",
+  "zeta",
+  "eta",
+  "theta",
+  "iota",
+  "lambda",
+  "nu",
+  "omicron",
+  "pi",
+  "rho",
+  "tau",
+  "chi"
+]);
+
+const ALPHABET_NAME_AUDIO_SLUGS = new Set([
+  "alpha",
+  "beta",
+  "gamma",
+  "delta",
+  "epsilon",
+  "zeta",
+  "eta",
+  "theta",
+  "iota",
+  "kappa",
+  "lambda",
+  "mu",
+  "nu",
+  "xi",
+  "omicron",
+  "pi",
+  "rho",
+  "sigma",
+  "tau",
+  "upsilon",
+  "phi",
+  "chi",
+  "psi",
+  "omega"
+]);
+
+const ALPHABET_EXAMPLE_AUDIO_SLUGS = new Set([
+  "agathos",
+  "bios",
+  "doron",
+  "anemos",
+  "trapeza",
+  "helios",
+  "nike",
+  "doxa",
+  "chora",
+  "nosos"
+]);
 
 const loginForm = document.querySelector("[data-login-form]");
 const loginEmailInput = document.querySelector("[data-login-email]");
@@ -1327,6 +1385,10 @@ function speakGreek(text) {
   return true;
 }
 
+function renderAudioAttributes(audioSrc, speakText) {
+  return `${audioSrc ? `data-audio-src="${audioSrc}" ` : ""}data-speak-text="${speakText}"`;
+}
+
 function renderAlphabetTable() {
   if (!alphabetTableEl) {
     return;
@@ -1334,24 +1396,46 @@ function renderAlphabetTable() {
 
   alphabetTableEl.textContent = "";
 
-  GREEK_ALPHABET.forEach(([upper, lower, name, sound, example, gloss, slug]) => {
+  GREEK_ALPHABET.forEach(([upper, lower, greekName, englishName, sound, example, gloss, slug, exampleSlug]) => {
     const row = document.createElement("tr");
+    const hasLetterAudio = ALPHABET_LETTER_AUDIO_SLUGS.has(slug);
+    const letterAudioSrc = hasLetterAudio ? `assets/audio/alphabet/${slug}-letter.mp3` : "";
+    const nameAudioSrc = ALPHABET_NAME_AUDIO_SLUGS.has(slug) ? `assets/audio/alphabet/${slug}-name.mp3` : "";
+    const exampleAudioSrc = ALPHABET_EXAMPLE_AUDIO_SLUGS.has(exampleSlug) ? `assets/audio/alphabet/${exampleSlug}.mp3` : "";
+
     row.innerHTML = `
-      <td><span class="letter-pair"><strong>${upper}</strong><span>${lower}</span></span></td>
-      <td>${name}</td>
+      <td>
+        <button class="audio-text audio-text-letter letter-pair" type="button" ${renderAudioAttributes(letterAudioSrc, greekName)} aria-label="Hear ${englishName}, ${upper} ${lower}">
+          <strong>${upper}</strong><span>${lower}</span>
+        </button>
+      </td>
+      <td>
+        <span class="alphabet-name-stack">
+          <button class="audio-text audio-text-name" type="button" ${renderAudioAttributes(nameAudioSrc, greekName)} aria-label="Hear the Greek letter name ${greekName}">
+            ${greekName}
+          </button>
+          <button class="audio-text audio-text-english-name" type="button" ${renderAudioAttributes(nameAudioSrc, englishName)} aria-label="Hear the English letter name ${englishName}">
+            ${englishName}
+          </button>
+        </span>
+      </td>
       <td>${sound}</td>
-      <td><span class="greek-example">${example}</span> <span class="muted">(${gloss})</span></td>
-      <td><button class="audio-button" type="button" data-audio-src="assets/audio/alphabet/${slug}.mp3" data-speak-text="${example}" aria-label="Hear ${name} in ${example}">▶</button></td>
+      <td>
+        <button class="audio-text greek-example" type="button" ${renderAudioAttributes(exampleAudioSrc, example)} aria-label="Hear ${example}, ${gloss}">
+          ${example}
+        </button>
+        <span class="muted">(${gloss})</span>
+      </td>
     `;
     alphabetTableEl.appendChild(row);
   });
 }
 
 function bindLessonAudio() {
-  document.querySelectorAll("[data-speak-text]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const audioSrc = button.dataset.audioSrc;
-      const speakText = button.dataset.speakText;
+  document.querySelectorAll("[data-speak-text]").forEach((audioTrigger) => {
+    audioTrigger.addEventListener("click", () => {
+      const audioSrc = audioTrigger.dataset.audioSrc;
+      const speakText = audioTrigger.dataset.speakText;
 
       if (audioSrc) {
         const audio = new Audio(audioSrc);
