@@ -1005,6 +1005,7 @@ const UNIT0_SECTIONS = [
     title: "The Greek Alphabet",
     shortTitle: "Alphabet",
     description: "Begin with the letters themselves: form, name, sound, and one example word.",
+    intro: "The Greek letters are στοιχεῖα, the elements out of which Greek words are built. In this lesson, begin slowly: learn each uppercase and lowercase pair, listen for its classroom Attic sound, and connect it with one example word. Pay special attention to sigma, which appears as σ inside a word and ς at the end.",
     pageType: "learn",
     reference: "alphabet",
     skills: ["alphabet.letters", "alphabet.uppercase", "alphabet.lowercase", "alphabet.audio", "alphabet.final_sigma"],
@@ -1065,6 +1066,7 @@ const UNIT0_SECTIONS = [
     title: "Diphthongs",
     shortTitle: "Diphthongs",
     description: "Learn the common vowel combinations and their Attic classroom sounds.",
+    intro: "A diphthong is a pair of vowels read together as one sound unit. This lesson introduces the common Attic classroom values for αι, ει, οι, υι, αυ, ευ, ου, and ηυ, with examples you can hear and read aloud.",
     pageType: "learn",
     reference: "diphthongs",
     skills: ["diphthongs.recognition", "diphthongs.audio"],
@@ -1106,6 +1108,7 @@ const UNIT0_SECTIONS = [
     title: "Double Consonants and Combinations",
     shortTitle: "Consonants",
     description: "Learn consonant groups whose sound is not obvious from the first letter alone.",
+    intro: "Some consonant groups need to be recognized as units before the whole word will sound natural. This lesson focuses on gamma groups, ξ and ψ, ζ, and doubled consonants, with short examples to anchor each sound.",
     pageType: "learn",
     reference: "consonants",
     skills: ["consonants.gamma_groups", "consonants.double_consonants", "consonants.xi_psi"],
@@ -1451,28 +1454,8 @@ function renderUnit0ProgressStrip(progress = readUnit0Progress(), activeSectionI
     return;
   }
 
-  const stripSections = UNIT0_SECTIONS;
-  unit0ProgressStripEl.innerHTML = `
-    <label class="unit0-progress-select-label" for="unit0-progress-select">Unit 0 section</label>
-    <select id="unit0-progress-select" data-unit0-section-select>
-      ${stripSections.map((section) => `
-        <option value="${section.id}"${section.id === activeSectionId ? " selected" : ""}>${section.shortTitle}</option>
-      `).join("")}
-    </select>
-    <div class="unit0-progress-links">
-      ${stripSections.map((section) => {
-        const status = getUnit0SectionStatus(progress, section);
-        const activeClass = section.id === activeSectionId ? " is-active" : "";
-        const masteredClass = status === "Mastered" ? " is-mastered" : "";
-        return `<a class="${activeClass}${masteredClass}" href="${getUnit0SectionUrl(section)}">${section.shortTitle}</a>`;
-      }).join("")}
-    </div>
-  `;
-
-  const select = unit0ProgressStripEl.querySelector("[data-unit0-section-select]");
-  select?.addEventListener("change", () => {
-    window.location.hash = `unit0-${select.value || "letters"}`;
-  });
+  unit0ProgressStripEl.innerHTML = "";
+  unit0ProgressStripEl.hidden = true;
 }
 
 function renderUnit0OverallProgress(progress = readUnit0Progress()) {
@@ -1543,15 +1526,21 @@ function renderPracticeList(section) {
   `;
 }
 
+function renderUnit0Intro(section) {
+  if (!section.intro) {
+    return "";
+  }
+
+  return `
+    <section class="unit0-intro-panel">
+      <p>${section.intro}</p>
+    </section>
+  `;
+}
+
 function renderUnit0AlphabetReference() {
   return `
-    <section class="unit0-reference-panel" aria-labelledby="unit0-alphabet-reference-title">
-      <div class="unit0-reference-heading">
-        <div>
-          <p class="eyebrow">Reference</p>
-          <h4 id="unit0-alphabet-reference-title">Greek Letters, Sounds, and Examples</h4>
-        </div>
-      </div>
+    <section class="unit0-reference-panel" aria-label="Greek letters, sounds, and examples">
       <p class="alphabet-audio-note">
         <span class="audio-cue" aria-hidden="true">▶</span>
         Click a letter, name, sound, or example word to hear it. Audio-enabled text keeps the dotted underline.
@@ -1893,19 +1882,23 @@ function renderUnit0Section(sectionId) {
       <strong class="unit0-status ${statusClass(status)}">${status}</strong>
     </div>
 
-    <section class="unit0-learn-panel" aria-labelledby="unit0-learn-title">
-      <p class="eyebrow">Learn</p>
-      <h4 id="unit0-learn-title">Focus for ${section.number}</h4>
-      ${renderLearnList(section)}
-    </section>
+    ${section.pageType === "learn" ? renderUnit0Intro(section) : `
+      <section class="unit0-learn-panel" aria-labelledby="unit0-learn-title">
+        <p class="eyebrow">Learn</p>
+        <h4 id="unit0-learn-title">Focus for ${section.number}</h4>
+        ${renderLearnList(section)}
+      </section>
+    `}
 
     ${renderUnit0Reference(section)}
 
-    <section class="unit0-practice-panel" aria-labelledby="unit0-practice-title">
-      <p class="eyebrow">Practice</p>
-      <h4 id="unit0-practice-title">What you will practice</h4>
-      ${renderPracticeList(section)}
-    </section>
+    ${section.pageType === "learn" ? "" : `
+      <section class="unit0-practice-panel" aria-labelledby="unit0-practice-title">
+        <p class="eyebrow">Practice</p>
+        <h4 id="unit0-practice-title">What you will practice</h4>
+        ${renderPracticeList(section)}
+      </section>
+    `}
 
     ${section.keyboard ? renderUnit0Keyboard() : ""}
     ${section.pageType === "matching" ? renderUnit0MatchingBoard(section) : ""}
