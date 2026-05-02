@@ -10,7 +10,7 @@
   <link rel="manifest" href="site.webmanifest" />
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="dashboard-active">
+<body class="dashboard-active unit0-page">
   <div class="app">
     <aside class="sidebar">
       <div class="brand">
@@ -41,14 +41,14 @@
     </aside>
 
     <main class="main">
-      <section class="intro-lesson" id="lesson-start">
+      <section class="intro-lesson unit0-shell" id="lesson-start" data-unit0-app>
         <header class="lesson-header">
           <div>
-            <p class="eyebrow">Introduction</p>
+            <p class="eyebrow">Unit 0</p>
             <h2>The Greek Alphabet</h2>
             <p>
-              Entering the world of Greek: historical context, alphabet, pronunciation, and the sounds
-              students need to read Greek aloud from the first day.
+              Greek Alphabet & Reading Readiness. Before Xenophon can speak to us,
+              we must learn the signs by which Greek speaks.
             </p>
             <div class="lesson-page-actions">
               <a class="secondary-button" href="index.html">Dashboard</a>
@@ -58,169 +58,77 @@
           <div class="lesson-seal" aria-hidden="true">ΑΩ</div>
         </header>
 
-        <div class="lesson-tabs" aria-label="Introduction lesson parts">
-          <a href="#intro-part-1">Part 1 · What is Ancient Greek?</a>
-          <a href="#intro-part-2">Part 2 · The Greek Alphabet</a>
-        </div>
+        <nav class="unit0-progress-strip" data-unit0-progress-strip aria-label="Unit 0 sections"></nav>
 
-        <section class="lesson-part course-intro" id="intro-part-1">
-          <div class="part-copy">
-            <p class="eyebrow">Part 1</p>
-            <h3>What is Ancient Greek?</h3>
-            <p>
-              <em>Learn Ancient Greek with Xenophon</em> is a first course in Greek that treats language
-              as a way into character, action, custom, and judgment. Students will build the alphabet,
-              vocabulary, forms, syntax, and reading habits needed for Greek, while returning again and
-              again to Xenophon: soldier, student of Socrates, historian, estate manager, and writer of
-              clear practical prose.
-            </p>
-            <p>
-              The course will move from the smallest units of reading toward scenes of Ancient Greek life:
-              home, work, family, worship, friendship, leadership, courage, moderation, memory, and public
-              responsibility. Xenophon gives students a world where language and values meet. A word is
-              never merely a word; it belongs to a household, a conversation, a march, a courtroom, a farm,
-              a city, or an argument about how one ought to live.
-            </p>
-          </div>
+        <section class="lesson-part unit0-overview" id="intro-part-1" data-unit0-overview>
+          <div class="unit0-overview-grid">
+            <div class="part-copy">
+              <p class="eyebrow">στοιχεῖα</p>
+              <h3>Greek Alphabet & Reading Readiness</h3>
+              <p>
+                The Greek letters are στοιχεῖα, the elements or building blocks of reading.
+                This unit is an initiation into Greek signs, sounds, marks, typing, and early
+                decoding, so Lesson 1 can begin with confidence rather than guesswork.
+              </p>
+              <p>
+                <em>Learn Ancient Greek with Xenophon</em> treats language as a way into
+                character, action, custom, and judgment. Unit 0 begins with the smallest
+                readable signs and moves toward simple Greek words that already belong to
+                that larger world.
+              </p>
+            </div>
 
-          <figure class="map-panel">
-            <img src="assets/ancient-greece-map.jpg" alt="Reference map of Ancient Greece, southern part, from William R. Shepherd's Historical Atlas">
-            <figcaption>
-              Ancient Greece reference map. William R. Shepherd, <em>Historical Atlas</em>, 1923;
-              Perry-Castaneda Library Map Collection, public domain.
-            </figcaption>
-          </figure>
-
-          <div class="values-grid" aria-label="Course themes">
-            <article>
-              <span>λόγος</span>
-              <strong>Language with purpose</strong>
-              <p>Forms, syntax, and vocabulary are learned as tools for reading real thought.</p>
-            </article>
-            <article>
-              <span>οἶκος</span>
-              <strong>Life in context</strong>
-              <p>Lessons begin with ordinary places and practices before moving into larger civic life.</p>
-            </article>
-            <article>
-              <span>ἀρετή</span>
-              <strong>Values under pressure</strong>
-              <p>Xenophon asks how courage, discipline, friendship, and judgment appear in action.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="lesson-part alphabet-intro" id="intro-part-2">
-          <div class="part-copy">
-            <p class="eyebrow">Part 2</p>
-            <h3>The Greek Alphabet</h3>
-            <p>
-              Greek has twenty-four letters. Students should learn each letter by sight, name, sound,
-              and example word, then practice the marks that change how a word is read: breathings,
-              accents, diphthongs, iota subscripts, and consonant combinations.
-            </p>
+            <aside class="unit0-outcomes" aria-labelledby="unit0-outcomes-title">
+              <h4 id="unit0-outcomes-title">By the end of this unit, you will be able to...</h4>
+              <ul>
+                <li>recognize all Greek letters</li>
+                <li>match uppercase and lowercase forms</li>
+                <li>hear and identify letter sounds</li>
+                <li>recognize diphthongs and major consonant combinations</li>
+                <li>understand breathings, accents, and iota subscript</li>
+                <li>type polytonic Greek</li>
+                <li>read simple Greek words aloud</li>
+                <li>pass the Reading Readiness Check</li>
+              </ul>
+            </aside>
           </div>
 
           <p class="alphabet-audio-note">
-            Click a Greek letter, its Greek name, or its English name to hear the name of the letter.
-            Click the sound description to hear the letter’s pronunciation. Audio-enabled text is
-            marked with a dotted underline.
+            <span class="audio-cue" aria-hidden="true">▶</span>
+            Click Greek letters, names, sounds, or example words to hear them. Audio-enabled
+            text keeps the dotted underline convention and now also shows a small speaker cue.
           </p>
 
-          <div class="alphabet-table-wrap">
-            <table class="alphabet-table">
-              <thead>
-                <tr>
-                  <th>Letter</th>
-                  <th>Name</th>
-                  <th>Sound</th>
-                  <th>Example</th>
-                </tr>
-              </thead>
-              <tbody data-alphabet-table></tbody>
-            </table>
-          </div>
-
-          <div class="sound-notes">
-            <article>
-              <h4>Vowels and Diphthongs</h4>
-              <p>Short and long vowels matter. Common diphthongs include αι, ει, οι, αυ, ευ, ου, υι, ηυ; pronounce them as paired sounds learned by practice.</p>
-            </article>
-            <article>
-              <h4>Breathings</h4>
-              <p>A rough breathing adds an initial h-sound: ὁ. A smooth breathing has no h-sound: ὁδός differs from ὀδός in the mark at the beginning.</p>
-            </article>
-            <article>
-              <h4>Iota Subscript</h4>
-              <p>ᾳ, ῃ, and ῳ preserve an older iota under a long vowel. It affects recognition and history more than normal classroom pronunciation.</p>
-            </article>
-            <article>
-              <h4>Consonant Groups</h4>
-              <p>γ before γ, κ, ξ, or χ sounds like ng. ξ equals κ + σ, ψ equals π + σ, and ζ is commonly taught as σ + δ or dz.</p>
-            </article>
-            <article>
-              <h4>Double Consonants</h4>
-              <p>Double letters are held or articulated distinctly: λλ, μμ, νν, ππ, ττ, and others help students see syllables and word formation.</p>
-            </article>
-            <article>
-              <h4>Accents</h4>
-              <p>Acute, grave, and circumflex accents mark pitch in ancient pronunciation and guide careful reading aloud in this course.</p>
-            </article>
-          </div>
-
-          <section class="exercise-panel" aria-labelledby="practice-title">
-            <div>
-              <p class="eyebrow">Practice</p>
-              <h3 id="practice-title">Alphabet Skills</h3>
+          <details class="unit0-reference" open>
+            <summary>Reference Alphabet Table</summary>
+            <div class="alphabet-table-wrap">
+              <table class="alphabet-table">
+                <thead>
+                  <tr>
+                    <th>Letter</th>
+                    <th>Name</th>
+                    <th>Sound</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+                <tbody data-alphabet-table></tbody>
+              </table>
             </div>
+          </details>
 
-            <div class="exercise-grid">
-              <article class="exercise-card" data-exercise="letter-match">
-                <h4>1. Match the Letter</h4>
-                <p>Which letter is named <strong>theta</strong>?</p>
-                <div class="choice-row">
-                  <button type="button" data-answer="wrong">τ</button>
-                  <button type="button" data-answer="correct">θ</button>
-                  <button type="button" data-answer="wrong">φ</button>
-                </div>
-                <p class="exercise-feedback" aria-live="polite"></p>
-              </article>
-
-              <article class="exercise-card" data-exercise="breathing">
-                <h4>2. Read the Breathing</h4>
-                <p>Which word begins with an h-sound?</p>
-                <div class="choice-row">
-                  <button type="button" data-answer="correct">ὁ</button>
-                  <button type="button" data-answer="wrong">ὀ</button>
-                  <button type="button" data-answer="wrong">ο</button>
-                </div>
-                <p class="exercise-feedback" aria-live="polite"></p>
-              </article>
-
-              <article class="exercise-card" data-exercise="diphthong">
-                <h4>3. Find the Diphthong</h4>
-                <p>Which pair is a common Greek diphthong?</p>
-                <div class="choice-row">
-                  <button type="button" data-answer="wrong">αε</button>
-                  <button type="button" data-answer="correct">αι</button>
-                  <button type="button" data-answer="wrong">ηο</button>
-                </div>
-                <p class="exercise-feedback" aria-live="polite"></p>
-              </article>
-
-              <article class="exercise-card" data-exercise="combo">
-                <h4>4. Parse the Combination</h4>
-                <p>ξ is best learned as which consonant pair?</p>
-                <div class="choice-row">
-                  <button type="button" data-answer="correct">κ + σ</button>
-                  <button type="button" data-answer="wrong">π + σ</button>
-                  <button type="button" data-answer="wrong">τ + θ</button>
-                </div>
-                <p class="exercise-feedback" aria-live="polite"></p>
-              </article>
+          <section class="unit0-dashboard" aria-labelledby="unit0-sections-title">
+            <div class="unit0-section-heading">
+              <div>
+                <p class="eyebrow">Reading Path</p>
+                <h3 id="unit0-sections-title">Unit 0 Sections</h3>
+              </div>
+              <div class="module-progress unit0-overall-progress" data-unit0-overall-progress></div>
             </div>
+            <div class="unit0-card-grid" data-unit0-section-cards></div>
           </section>
         </section>
+
+        <section class="lesson-part unit0-section-view" id="intro-part-2" data-unit0-section-view hidden></section>
       </section>
     </main>
   </div>

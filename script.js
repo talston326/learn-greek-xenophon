@@ -95,23 +95,33 @@ const ROLE_LABELS = {
 };
 
 const LESSON_URLS = {
-  "intro-1": "lesson-introduction.html#intro-part-1",
-  "intro-2": "lesson-introduction.html#intro-part-2",
-  "intro-3": "lesson-introduction.html#intro-part-2",
+  "intro-1": "lesson-introduction.html",
   "lesson-4": "lesson-4-first-declension.html"
 };
 
 const COURSE_MODULES = [
   {
     id: "introduction",
-    label: "Introduction",
-    title: "The Greek Alphabet",
-    subtitle: "Entering the World of Greek",
+    label: "Unit 0",
+    title: "Greek Alphabet & Reading Readiness",
+    subtitle: "The στοιχεῖα of Greek reading",
     type: "intro",
     lessons: [
-      { id: "intro-1", title: "What is Ancient Greek?", grammar: "Alphabet overview, historical context", exerciseIds: ["orientation", "quiz"] },
-      { id: "intro-2", title: "The Greek Alphabet", grammar: "Letters, pronunciation, diphthongs", exerciseIds: ["letter-match", "breathing", "diphthong", "combo", "quiz"] },
-      { id: "intro-3", title: "Hearing and Speaking Greek", grammar: "Accent, syllables, phonetics", exerciseIds: ["phonetics", "quiz"] }
+      {
+        id: "intro-1",
+        title: "Greek Alphabet & Reading Readiness",
+        grammar: "Letters, pronunciation, breathings, accents, keyboarding, and early decoding",
+        exerciseIds: [
+          "alphabet.letters",
+          "diphthongs.recognition",
+          "consonants.gamma_groups",
+          "breathings.rough",
+          "accents.iota_subscript",
+          "keyboard.polytonic_basic",
+          "reading.early_decoding",
+          "reading.readiness_check"
+        ]
+      }
     ]
   },
   {
@@ -206,7 +216,7 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
       moduleLabel: module.label,
       moduleTitle: module.title,
       moduleType: module.type || "module",
-      number: numericLesson ? `Lesson ${numericLesson}` : `Intro ${introLesson || index + 1}`,
+      number: numericLesson ? `Lesson ${numericLesson}` : `Unit ${introLesson === "1" ? "0" : introLesson || index + 1}`,
       subtitle: lesson.grammar || module.description || module.subtitle,
       url: LESSON_URLS[lesson.id] || `lessons.html#${lesson.id}`,
       exerciseIds: lesson.exerciseIds || ["reading", "practice", "quiz"]
@@ -403,6 +413,15 @@ function getModuleLessons(module) {
 }
 
 function getModuleProgress(module, progress) {
+  if (module.id === "introduction") {
+    const overview = getUnit0Overview();
+    return {
+      completedCount: overview.percent === 100 ? 1 : 0,
+      totalCount: 1,
+      percent: overview.percent
+    };
+  }
+
   const lessons = getModuleLessons(module);
   const completedIds = getCompletedLessonIds(progress);
   const completedCount = lessons.filter((lesson) => completedIds.includes(lesson.id)).length;
@@ -430,6 +449,10 @@ function isLessonComplete(progress, lessonId) {
 
 function isLessonUnlocked(lesson, progress) {
   const lessonIndex = COURSE_LESSONS.findIndex((courseLesson) => courseLesson.id === lesson.id);
+
+  if (lesson.id === "lesson-1") {
+    return true;
+  }
 
   if (lessonIndex <= 0 || lesson.id === normalizeLessonId(progress.currentLessonId)) {
     return true;
@@ -930,6 +953,357 @@ const ALPHABET_EXAMPLE_AUDIO_SLUGS = new Set([
   "nosos"
 ]);
 
+// TODO: Move Unit 0 attempts and skill progress into the database progress model
+// once the backend assessment tables are ready for this granularity.
+// TODO: Expand these MVP question pools with larger authored banks before production use.
+const UNIT0_STORAGE_KEY = "xenophon-unit0-progress-v1";
+
+const UNIT0_SECTIONS = [
+  {
+    id: "orientation",
+    number: "0.1",
+    title: "What is Ancient Greek?",
+    shortTitle: "Orientation",
+    description: "Enter Greek as a language of signs, sound, memory, action, and judgment.",
+    skills: ["reading.early_decoding"],
+    learn: [
+      ["Greek as a reading world", "Ancient Greek carries history, custom, character, argument, and ordinary life."],
+      ["Xenophon as guide", "The course returns to Xenophon because his prose is practical, clear, and morally alert."],
+      ["στοιχεῖα", "The letters are the elements: the smallest signs by which Greek becomes readable."]
+    ],
+    practice: [
+      "Connect Greek words such as λόγος, οἶκος, and ἀρετή to the course themes.",
+      "Notice that Greek reading begins with form, sound, and context together."
+    ],
+    checkpoint: {
+      passing: 3,
+      total: 4,
+      questions: [
+        choiceQuestion("orientation-elements", "What are στοιχεῖα in this unit?", ["The elements or building blocks of reading", "A later verb tense", "A kind of punctuation"], "The elements or building blocks of reading", "στοιχεῖα are the letters and signs by which Greek becomes readable.", "reading.early_decoding"),
+        choiceQuestion("orientation-xenophon", "Why does this course keep returning to Xenophon?", ["His prose gives beginners a clear path into Greek life and thought", "He invented the Greek alphabet", "He wrote only grammar tables"], "His prose gives beginners a clear path into Greek life and thought", "Xenophon gives this course practical Greek in a living cultural world.", "reading.early_decoding"),
+        choiceQuestion("orientation-logos", "Which Greek word names speech, word, reason, or account?", ["λόγος", "οἶκος", "τιμή"], "λόγος", "λόγος is one of the course's first guiding words.", "reading.early_decoding", "λόγος"),
+        choiceQuestion("orientation-goal", "What is the goal of Unit 0?", ["Reading readiness before Lesson 1", "Full mastery of all Greek grammar", "Memorizing English derivatives"], "Reading readiness before Lesson 1", "Unit 0 prepares the signs, sounds, marks, and typing needed for Lesson 1.", "reading.early_decoding")
+      ]
+    }
+  },
+  {
+    id: "letters",
+    number: "0.2",
+    title: "The Greek Letters",
+    shortTitle: "Letters",
+    description: "Learn all 24 letters by sight, name, sound, case pair, and order.",
+    skills: ["alphabet.letters", "alphabet.uppercase", "alphabet.lowercase", "alphabet.order", "alphabet.audio", "alphabet.final_sigma"],
+    learn: [
+      ["Twenty-four letters", "Learn uppercase and lowercase forms together so inscriptions, titles, and normal text reinforce one another."],
+      ["Vowels and consonants", "Greek vowels are α, ε, η, ι, ο, υ, ω. The remaining letters are consonants."],
+      ["Final sigma", "Sigma is σ inside a word and ς at the end of a word."]
+    ],
+    practice: [
+      "Identify a letter by sight.",
+      "Match uppercase to lowercase.",
+      "Type uppercase and lowercase forms.",
+      "Click the letter you hear.",
+      "Put short letter sets in alphabetic order.",
+      "Distinguish confusable letters: ο/ω, ε/η, ν/υ, σ/ς, ξ/ζ, Η/Ν, Ο/Θ, Υ/Ψ."
+    ],
+    checkpoint: {
+      passing: 16,
+      total: 20,
+      questions: repeatQuestions([
+        choiceQuestion("letters-alpha", "Which lowercase letter is alpha?", ["α", "λ", "δ", "ο"], "α", "Correct: alpha is written α in lowercase.", "alphabet.lowercase", "α"),
+        choiceQuestion("letters-theta", "Which letter is named theta?", ["τ", "θ", "φ", "χ"], "θ", "Theta is θ. Tau is τ; phi is φ.", "alphabet.letters", "θῆτα"),
+        choiceQuestion("letters-omega", "Which letter is omega?", ["ο", "ω", "η", "υ"], "ω", "Not quite. Omega is written ω and is traditionally the long o.", "alphabet.letters", "ὦ μέγα"),
+        choiceQuestion("letters-upper-lower", "Match uppercase Ψ to its lowercase form.", ["ψ", "υ", "φ", "χ"], "ψ", "Ψ pairs with ψ. Upsilon is υ.", "alphabet.uppercase"),
+        choiceQuestion("letters-eta-nu", "Which lowercase form matches uppercase Η?", ["η", "ν", "υ", "ι"], "η", "Η is eta; Ν is nu.", "alphabet.uppercase"),
+        choiceQuestion("letters-audio-mu", "Click the letter you hear.", ["μ", "ν", "λ", "ρ"], "μ", "You heard mu, written μ.", "alphabet.audio", "μῦ"),
+        choiceQuestion("letters-audio-xi", "Click the letter you hear.", ["ζ", "ξ", "χ", "ψ"], "ξ", "Xi is ξ; zeta is ζ.", "alphabet.audio", "ξῖ"),
+        inputQuestion("letters-type-lower", "Type lowercase beta.", "β", "Beta is written β.", "alphabet.lowercase"),
+        inputQuestion("letters-type-upper", "Type uppercase delta.", "Δ", "Uppercase delta is Δ.", "alphabet.uppercase"),
+        inputQuestion("letters-final-sigma", "Type final sigma.", "ς", "Final sigma is ς, used at the end of a word.", "alphabet.final_sigma"),
+        choiceQuestion("letters-order", "Which sequence is in alphabetic order?", ["α β γ δ", "α γ β δ", "β α γ δ"], "α β γ δ", "The alphabet begins α, β, γ, δ.", "alphabet.order"),
+        choiceQuestion("letters-confuse", "Which pair contrasts omicron and omega?", ["ο / ω", "ε / η", "ν / υ", "ξ / ζ"], "ο / ω", "Omicron is ο; omega is ω.", "alphabet.letters")
+      ], 20)
+    }
+  },
+  {
+    id: "sounds",
+    number: "0.3",
+    title: "Sounds and Pronunciation",
+    shortTitle: "Sounds",
+    description: "Connect Greek symbols to the classroom pronunciation used in this course.",
+    skills: ["alphabet.audio", "alphabet.letters"],
+    learn: [
+      ["Course pronunciation", "This course uses a practical classroom pronunciation for reading aloud consistently."],
+      ["Stops and aspiration", "π, τ, κ are unaspirated stops; φ, θ, χ are their aspirated partners."],
+      ["Liquids and nasals", "λ, ρ, μ, ν carry familiar l, r, m, n values, with rho usually trilled or tapped."]
+    ],
+    practice: [
+      "Hear a letter and choose it.",
+      "Hear a word and choose the first letter.",
+      "Choose the correct sound description.",
+      "Compare minimal pairs without overloading historical phonology."
+    ],
+    checkpoint: {
+      passing: 12,
+      total: 15,
+      questions: repeatQuestions([
+        choiceQuestion("sounds-alpha", "Hear the sound and choose the letter.", ["α", "ε", "ο", "η"], "α", "Alpha is the a-sound used in ἀγαθός.", "alphabet.audio", "α"),
+        choiceQuestion("sounds-first-theos", "Which letter begins θεός?", ["τ", "θ", "φ", "χ"], "θ", "θεός begins with theta, an aspirated t.", "alphabet.audio", "θεός"),
+        choiceQuestion("sounds-phi", "Which description best fits φ?", ["aspirated p", "plain p", "plain t", "ks"], "aspirated p", "Phi is taught here as aspirated p.", "alphabet.audio", "φῖ"),
+        choiceQuestion("sounds-chi", "Which letter has the aspirated k sound?", ["κ", "χ", "ξ", "γ"], "χ", "Chi is the aspirated k; kappa is the plain k.", "alphabet.audio", "χῖ"),
+        choiceQuestion("sounds-nasal", "Which pair contains nasal consonants?", ["μ / ν", "π / τ", "φ / χ", "λ / ρ"], "μ / ν", "Mu and nu are the nasal consonants m and n.", "alphabet.letters"),
+        choiceQuestion("sounds-minimal", "Which word begins with an aspirated consonant?", ["θεός", "τιμή", "βίος", "λόγος"], "θεός", "θεός begins with θ, the aspirated partner of τ.", "alphabet.audio", "θεός")
+      ], 15)
+    }
+  },
+  {
+    id: "diphthongs",
+    number: "0.4",
+    title: "Vowels and Diphthongs",
+    shortTitle: "Diphthongs",
+    description: "Recognize, hear, build, and type common Greek vowel combinations.",
+    skills: ["diphthongs.recognition", "diphthongs.audio", "diphthongs.typing"],
+    learn: [
+      ["Simple vowels", "The simple vowels are α, ε, η, ι, ο, υ, ω."],
+      ["Common diphthongs", "Common diphthongs include αι, ει, οι, υι, αυ, ευ, ου, ηυ."],
+      ["Reading habit", "When two vowels work as a diphthong, read them as a learned pair."]
+    ],
+    practice: [
+      "Build a diphthong from letter tiles.",
+      "Find the diphthong in a word.",
+      "Hear a diphthong and type it.",
+      "Sort single vowel vs. diphthong.",
+      "Read short words such as οἶκος."
+    ],
+    checkpoint: {
+      passing: 12,
+      total: 15,
+      questions: repeatQuestions([
+        choiceQuestion("diph-find-oikos", "Click the diphthong in οἶκος.", ["οι", "ο", "κος", "ι"], "οι", "Correct. In οἶκος, οι is the diphthong.", "diphthongs.recognition", "οἶκος"),
+        inputQuestion("diph-type-ai", "Type the diphthong you hear: αι.", "αι", "αι is alpha plus iota.", "diphthongs.typing", "αι"),
+        choiceQuestion("diph-common-ou", "Which pair is a common Greek diphthong?", ["ου", "αε", "ηο", "οα"], "ου", "ου is a common diphthong.", "diphthongs.recognition", "οὐ"),
+        choiceQuestion("diph-sort", "Does παιδεία contain a diphthong?", ["Yes: αι", "No: only single vowels"], "Yes: αι", "παιδεία contains αι.", "diphthongs.recognition", "παιδεία"),
+        choiceQuestion("diph-audio-eu", "Hear the diphthong and choose it.", ["ευ", "ου", "αι", "οι"], "ευ", "You heard ευ.", "diphthongs.audio", "ευ"),
+        inputQuestion("diph-build-oi", "Build the diphthong from ο + ι.", "οι", "ο plus ι forms οι.", "diphthongs.typing")
+      ], 15)
+    }
+  },
+  {
+    id: "consonants",
+    number: "0.5",
+    title: "Consonant Groups",
+    shortTitle: "Consonants",
+    description: "Learn consonant combinations that do not behave transparently at first sight.",
+    skills: ["consonants.gamma_groups", "consonants.double_consonants", "consonants.xi_psi"],
+    learn: [
+      ["Gamma groups", "γ before γ, κ, χ, or ξ is read with an ng sound: γγ, γκ, γχ, γξ."],
+      ["Xi and psi", "ξ is best learned as κ + σ; ψ is best learned as π + σ."],
+      ["Zeta", "ζ receives different classroom explanations; this course flags the variation without making it a barrier."]
+    ],
+    practice: [
+      "Find the consonant group.",
+      "Choose the correct explanation.",
+      "Build ξ or ψ from components.",
+      "Compare γγ / γκ / γχ.",
+      "Read short syllable patterns."
+    ],
+    checkpoint: {
+      passing: 10,
+      total: 12,
+      questions: repeatQuestions([
+        choiceQuestion("cons-xi", "ξ is best understood as which consonant pair?", ["κ + σ", "π + σ", "τ + θ"], "κ + σ", "Correct. ξ is best learned as κ + σ.", "consonants.xi_psi", "ξ"),
+        choiceQuestion("cons-psi", "ψ is best understood as which consonant pair?", ["π + σ", "κ + σ", "β + δ"], "π + σ", "Correct. ψ is best learned as π + σ.", "consonants.xi_psi", "ψ"),
+        choiceQuestion("cons-gamma", "In ἄγγελος, γγ is read with what kind of sound?", ["ng-g", "plain g-g", "ks", "ps"], "ng-g", "Before another gamma, γ has an ng value.", "consonants.gamma_groups", "ἄγγελος"),
+        choiceQuestion("cons-group", "Which form contains a gamma group?", ["ἄγγελος", "λόγος", "τιμή", "βίος"], "ἄγγελος", "ἄγγελος contains γγ.", "consonants.gamma_groups", "ἄγγελος"),
+        choiceQuestion("cons-double", "Which pair is a double consonant?", ["λλ", "αι", "ου", "ει"], "λλ", "λλ is a doubled lambda.", "consonants.double_consonants"),
+        inputQuestion("cons-build-xi", "Build ξ from its component pair.", "κσ", "ξ represents κ + σ.", "consonants.xi_psi")
+      ], 12)
+    }
+  },
+  {
+    id: "breathings",
+    number: "0.6",
+    title: "Breathings",
+    shortTitle: "Breathings",
+    description: "Recognize smooth and rough breathings on initial vowels, diphthongs, and rho.",
+    skills: ["breathings.smooth", "breathings.rough", "breathings.placement"],
+    learn: [
+      ["Smooth breathing", "Smooth breathing marks no h-sound."],
+      ["Rough breathing", "Rough breathing adds an h-sound."],
+      ["Placement", "Breathings appear on initial vowels and diphthongs; in a diphthong, the mark sits over the second vowel."]
+    ],
+    practice: [
+      "Choose smooth or rough.",
+      "Find the word that begins with an h-sound.",
+      "Place the breathing over the correct vowel in a diphthong.",
+      "Correct a missing breathing.",
+      "Listen for h-sound or no h-sound."
+    ],
+    checkpoint: {
+      passing: 12,
+      total: 15,
+      questions: repeatQuestions([
+        choiceQuestion("breath-rough-ho", "Which word begins with an h-sound?", ["ὁδός", "οἶκος", "ἀρετή"], "ὁδός", "ὁδός has rough breathing and begins with h.", "breathings.rough", "ὁδός"),
+        choiceQuestion("breath-smooth-oikos", "What kind of breathing appears in οἶκος?", ["smooth", "rough", "none"], "smooth", "οἶκος has smooth breathing over the second vowel of the diphthong.", "breathings.smooth", "οἶκος"),
+        choiceQuestion("breath-placement", "Where does the breathing stand in initial αι?", ["over ι", "over α", "after both letters"], "over ι", "In a diphthong, the breathing is placed over the second vowel.", "breathings.placement", "αἰτία"),
+        choiceQuestion("breath-rho", "Which initial consonant normally takes rough breathing?", ["rho", "sigma", "beta", "lambda"], "rho", "Initial rho is written ῥ.", "breathings.rough", "ῥήτωρ"),
+        inputQuestion("breath-copy", "Copy this word exactly: ὅρος", "ὅρος", "Check the rough breathing and accent over omicron.", "breathings.rough"),
+        choiceQuestion("breath-find", "Find the breathing mark in αἰτία.", ["over ι", "over τ", "over α"], "over ι", "The smooth breathing is over the second vowel of αι.", "breathings.placement", "αἰτία")
+      ], 15)
+    }
+  },
+  {
+    id: "accents",
+    number: "0.7",
+    title: "Accents and Iota Subscript",
+    shortTitle: "Accents",
+    description: "Recognize accent marks, distinguish them from breathings, and copy iota subscript.",
+    skills: ["accents.acute", "accents.grave", "accents.circumflex", "accents.iota_subscript"],
+    learn: [
+      ["Three accents", "Greek uses acute, grave, and circumflex accents. Full accent theory comes later."],
+      ["Accent vs. breathing", "Breathings mark initial h-sound or no h-sound; accents mark the accented syllable."],
+      ["Iota subscript", "ᾳ, ῃ, and ῳ preserve an older iota under a long vowel."],
+      ["Later preview", "Some small words lean on the previous word and may affect accent. You will study this later."]
+    ],
+    practice: [
+      "Identify acute, grave, and circumflex.",
+      "Click the accented syllable.",
+      "Copy the word exactly.",
+      "Distinguish breathing from accent.",
+      "Find iota subscript.",
+      "Correct a malformed word."
+    ],
+    checkpoint: {
+      passing: 12,
+      total: 15,
+      questions: repeatQuestions([
+        choiceQuestion("accent-acute", "Which word has an acute accent?", ["λόγος", "τοῦ", "τὸ"], "λόγος", "λόγος has an acute accent over ο.", "accents.acute", "λόγος"),
+        choiceQuestion("accent-circ", "Which mark appears in οἶκος?", ["circumflex", "grave", "iota subscript"], "circumflex", "οἶκος has a circumflex over ι.", "accents.circumflex", "οἶκος"),
+        choiceQuestion("accent-grave", "Which word has a grave accent?", ["τὸ", "τό", "τοῦ"], "τὸ", "τὸ has a grave accent.", "accents.grave", "τὸ"),
+        choiceQuestion("accent-iota-sub", "Which form contains iota subscript?", ["ᾠδή", "οἶκος", "λόγος"], "ᾠδή", "ᾠδή begins with omega plus iota subscript.", "accents.iota_subscript", "ᾠδή"),
+        inputQuestion("accent-copy", "Copy this word exactly: λόγος", "λόγος", "The acute accent belongs over the first omicron.", "accents.acute"),
+        inputQuestion("accent-iota-copy", "Copy this word exactly: ᾠδή", "ᾠδή", "Look for the iota subscript under omega.", "accents.iota_subscript")
+      ], 15)
+    }
+  },
+  {
+    id: "keyboard",
+    number: "0.8",
+    title: "Polytonic Keyboard Lab",
+    shortTitle: "Keyboard",
+    description: "Practice typing Ancient Greek with platform guidance and an in-app keyboard.",
+    skills: ["keyboard.polytonic_basic", "keyboard.final_sigma", "keyboard.accents", "keyboard.breathings"],
+    learn: [
+      ["Mac", "System Settings → Keyboard → Input Sources → add Greek Polytonic. Use the menu bar or Control-Space to switch."],
+      ["Windows", "Settings → Time & language → Language & region → add Greek, then choose the polytonic keyboard if available."],
+      ["Final sigma", "Use ς at the end of a word and σ elsewhere."],
+      ["Marks", "Use your system keyboard or the in-app keyboard below for accents, breathings, and iota subscript."]
+    ],
+    practice: [
+      "Type α β γ δ ε.",
+      "Type Α Β Γ Δ Ε.",
+      "Type σ and ς correctly.",
+      "Copy λόγος, ἄνθρωπος, οἶκος, and ᾠδή.",
+      "Use Unicode-normalized checking so composed and decomposed Greek are treated fairly."
+    ],
+    keyboard: true,
+    checkpoint: {
+      passing: 8,
+      total: 10,
+      questions: [
+        inputQuestion("key-lower", "Type: α β γ δ ε", "α β γ δ ε", "These are the first five lowercase Greek letters.", "keyboard.polytonic_basic"),
+        inputQuestion("key-upper", "Type: Α Β Γ Δ Ε", "Α Β Γ Δ Ε", "These are the first five uppercase Greek letters.", "keyboard.polytonic_basic"),
+        inputQuestion("key-sigma", "Type sigma and final sigma with a space between them: σ ς", "σ ς", "Use σ inside words and ς at word-end.", "keyboard.final_sigma"),
+        inputQuestion("key-logos", "Copy exactly: λόγος", "λόγος", "Check the acute accent and final sigma.", "keyboard.accents"),
+        inputQuestion("key-anthropos", "Copy exactly: ἄνθρωπος", "ἄνθρωπος", "Check smooth breathing, acute accent, and final sigma.", "keyboard.breathings"),
+        inputQuestion("key-oikos", "Copy exactly: οἶκος", "οἶκος", "Check the smooth breathing and circumflex over the diphthong.", "keyboard.breathings"),
+        inputQuestion("key-ode", "Copy exactly: ᾠδή", "ᾠδή", "Check rough/smooth mark, iota subscript, and acute accent.", "keyboard.accents"),
+        inputQuestion("key-audio-word", "Type the word you hear: ψυχή", "ψυχή", "ψυχή has psi, upsilon, chi, eta, and an acute accent.", "keyboard.accents", "ψυχή"),
+        inputQuestion("key-final", "Copy exactly: θεός", "θεός", "θεός ends with final sigma.", "keyboard.final_sigma"),
+        inputQuestion("key-breath", "Copy exactly: ῥήτωρ", "ῥήτωρ", "Initial rho takes rough breathing.", "keyboard.breathings")
+      ]
+    }
+  },
+  {
+    id: "decoding",
+    number: "0.9",
+    title: "Early Decoding",
+    shortTitle: "Early Decoding",
+    description: "Read short, course-relevant Greek words before Lesson 1.",
+    skills: ["reading.early_decoding", "diphthongs.recognition", "breathings.rough", "accents.acute"],
+    learn: [
+      ["Small words, real habits", "A short Greek word can show letters, breathing, accent, syllables, and meaning all at once."],
+      ["Feature spotting", "Before translating, learn to notice diphthongs, breathings, accents, and final sigma."],
+      ["Reading aloud", "Click the words, listen, and then read them again yourself."]
+    ],
+    practice: [
+      "Click a word to hear it.",
+      "Find diphthong, breathing, and accent.",
+      "Copy a word exactly.",
+      "Match a word to meaning."
+    ],
+    checkpoint: {
+      passing: 10,
+      total: 12,
+      questions: repeatQuestions([
+        choiceQuestion("decode-logos", "Match λόγος to its meaning.", ["word, reason, account", "household", "gift"], "word, reason, account", "λόγος means word, reason, or account.", "reading.early_decoding", "λόγος"),
+        choiceQuestion("decode-oikos", "Which feature appears in οἶκος?", ["diphthong οι", "rough breathing", "iota subscript"], "diphthong οι", "οἶκος contains the diphthong οι.", "diphthongs.recognition", "οἶκος"),
+        choiceQuestion("decode-horse", "Match ἵππος to its meaning.", ["horse", "friend", "honor"], "horse", "ἵππος means horse.", "reading.early_decoding", "ἵππος"),
+        inputQuestion("decode-copy-arete", "Copy exactly: ἀρετή", "ἀρετή", "Check smooth breathing and the acute accent.", "reading.early_decoding"),
+        choiceQuestion("decode-breath", "Which word begins with rough breathing?", ["ἵππος", "ἀρετή", "οἶκος"], "ἵππος", "ἵππος begins with rough breathing and an h-sound.", "breathings.rough", "ἵππος"),
+        choiceQuestion("decode-meaning", "Match ψυχή to its meaning.", ["soul, life", "land", "honor"], "soul, life", "ψυχή means soul or life.", "reading.early_decoding", "ψυχή")
+      ], 12)
+    }
+  },
+  {
+    id: "readiness",
+    number: "0.10",
+    title: "Reading Readiness Check",
+    shortTitle: "Readiness Check",
+    description: "A final mixed check before Lesson 1, with retakes and review recommendations.",
+    skills: ["reading.early_decoding"],
+    learn: [
+      ["Soft gate", "The course recommends passing Unit 0 before Lesson 1, but the MVP does not absolutely block you."],
+      ["Review recommendations", "Missed skills generate targeted review links."],
+      ["Retakes allowed", "Practice again, retake the check, or continue to Lesson 1 with a clear recommendation."]
+    ],
+    practice: [
+      "Letter recognition.",
+      "Audio identification.",
+      "Typing Greek letters and forms.",
+      "Diphthongs, consonant groups, breathings, accents, and early word reading."
+    ],
+    finalCheck: true,
+    checkpoint: {
+      passing: 43,
+      total: 50,
+      questions: repeatQuestions([
+        choiceQuestion("ready-letter-alpha", "Letter recognition: choose alpha.", ["α", "ω", "η", "ν"], "α", "Alpha is α.", "alphabet.letters", "α"),
+        choiceQuestion("ready-audio-theta", "Audio identification: choose theta.", ["τ", "θ", "χ", "φ"], "θ", "Theta is θ.", "alphabet.audio", "θῆτα"),
+        inputQuestion("ready-type-beta", "Typing: type lowercase beta.", "β", "Beta is β.", "alphabet.lowercase"),
+        inputQuestion("ready-type-logos", "Typing: copy λόγος.", "λόγος", "Check the acute accent and final sigma.", "keyboard.accents"),
+        choiceQuestion("ready-diph", "Diphthong: identify the diphthong in οἶκος.", ["οι", "ο", "κος", "ι"], "οι", "οἶκος contains οι.", "diphthongs.recognition", "οἶκος"),
+        choiceQuestion("ready-consonants", "Consonant group: ξ equals what?", ["κ + σ", "π + σ", "γ + γ"], "κ + σ", "ξ is best learned as κ + σ.", "consonants.xi_psi", "ξ"),
+        choiceQuestion("ready-breath", "Breathing: which word begins with h-sound?", ["ὁδός", "οἶκος", "ἀρετή"], "ὁδός", "ὁδός has rough breathing.", "breathings.rough", "ὁδός"),
+        choiceQuestion("ready-accent", "Accent: which word has a circumflex?", ["οἶκος", "λόγος", "τὸ"], "οἶκος", "οἶκος has a circumflex.", "accents.circumflex", "οἶκος"),
+        choiceQuestion("ready-iota", "Iota subscript: choose the form with iota subscript.", ["ᾠδή", "ψυχή", "χώρα"], "ᾠδή", "ᾠδή contains iota subscript.", "accents.iota_subscript", "ᾠδή"),
+        choiceQuestion("ready-reading", "Early reading: match δῶρον.", ["gift", "friend", "land"], "gift", "δῶρον means gift.", "reading.early_decoding", "δῶρον")
+      ], 50)
+    }
+  }
+];
+
+const UNIT0_SECTION_ALIASES = {
+  "intro-part-1": "overview",
+  "intro-part-2": "overview"
+};
+
+const UNIT0_KEYBOARD_ROWS = [
+  ["α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι", "κ", "λ", "μ"],
+  ["ν", "ξ", "ο", "π", "ρ", "σ", "ς", "τ", "υ", "φ", "χ", "ψ", "ω"],
+  ["ά", "ὰ", "ᾶ", "ἀ", "ἁ", "ᾳ", "ῃ", "ῳ", "́", "̀", "͂", "̓", "̔", "ͅ"]
+];
+
 const loginForm = document.querySelector("[data-login-form]");
 const loginEmailInput = document.querySelector("[data-login-email]");
 const loginPasswordInput = document.querySelector("[data-login-password]");
@@ -961,6 +1335,12 @@ const profileNameEl = document.querySelector("[data-profile-name]");
 const profileSummaryEl = document.querySelector("[data-profile-summary]");
 const profileLinkEl = document.querySelector("[data-profile-link]");
 const alphabetTableEl = document.querySelector("[data-alphabet-table]");
+const unit0AppEl = document.querySelector("[data-unit0-app]");
+const unit0OverviewEl = document.querySelector("[data-unit0-overview]");
+const unit0SectionViewEl = document.querySelector("[data-unit0-section-view]");
+const unit0SectionCardsEl = document.querySelector("[data-unit0-section-cards]");
+const unit0ProgressStripEl = document.querySelector("[data-unit0-progress-strip]");
+const unit0OverallProgressEl = document.querySelector("[data-unit0-overall-progress]");
 const progressRingEl = document.querySelector("[data-progress-ring]");
 const progressHeadingEl = document.querySelector("[data-progress-heading]");
 const progressSummaryEl = document.querySelector("[data-progress-summary]");
@@ -989,6 +1369,699 @@ const liveCourseTitleEl = document.querySelector("[data-course-title-live]");
 const studentDashboardSections = document.querySelectorAll("[data-student-dashboard]");
 const professorDashboardEl = document.querySelector("[data-professor-dashboard]");
 let mobilePracticeEl = document.querySelector("[data-mobile-practice]");
+
+function choiceQuestion(id, prompt, choices, answer, explanation, skillId, audioText = "") {
+  return { id, type: "choice", prompt, choices, answer, explanation, skillId, audioText };
+}
+
+function inputQuestion(id, prompt, answer, explanation, skillId, audioText = "") {
+  return { id, type: "input", prompt, answer, explanation, skillId, audioText };
+}
+
+function repeatQuestions(questions, total) {
+  return Array.from({ length: total }, (_, index) => {
+    const source = questions[index % questions.length];
+    return {
+      ...source,
+      id: `${source.id}-${index + 1}`
+    };
+  });
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function normalizeGreekInput(value) {
+  return String(value || "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .normalize("NFC");
+}
+
+function normalizeForLettersOnly(value) {
+  return normalizeGreekInput(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f\u1AB0-\u1AFF]/g, "")
+    .normalize("NFC");
+}
+
+function readUnit0Progress() {
+  const base = {
+    sections: {},
+    skills: {},
+    updatedAt: null
+  };
+
+  try {
+    const stored = JSON.parse(window.localStorage.getItem(UNIT0_STORAGE_KEY) || "{}");
+    return {
+      ...base,
+      ...stored,
+      sections: { ...base.sections, ...(stored.sections || {}) },
+      skills: { ...base.skills, ...(stored.skills || {}) }
+    };
+  } catch (error) {
+    return base;
+  }
+}
+
+function writeUnit0Progress(progress) {
+  const nextProgress = {
+    ...progress,
+    updatedAt: new Date().toISOString()
+  };
+
+  try {
+    window.localStorage.setItem(UNIT0_STORAGE_KEY, JSON.stringify(nextProgress));
+  } catch (error) {
+    // Progress remains usable during the current page view even if storage is blocked.
+  }
+
+  return nextProgress;
+}
+
+function getUnit0SectionRecord(progress, sectionId) {
+  return progress.sections?.[sectionId] || {
+    attempts: 0,
+    score: 0,
+    total: 0,
+    passed: false,
+    viewed: false,
+    missedSkills: []
+  };
+}
+
+function getUnit0SectionStatus(progress, section) {
+  const record = getUnit0SectionRecord(progress, section.id);
+
+  if (record.passed) {
+    return "Mastered";
+  }
+
+  if (record.attempts > 0) {
+    return "Practice Needed";
+  }
+
+  if (record.viewed) {
+    return "In Progress";
+  }
+
+  return "Not Started";
+}
+
+function getUnit0CardAction(status, section) {
+  if (section.finalCheck && status === "Not Started") {
+    return "Begin Check";
+  }
+
+  if (status === "Mastered") {
+    return "Review";
+  }
+
+  if (status === "In Progress" || status === "Practice Needed") {
+    return "Continue";
+  }
+
+  return "Start";
+}
+
+function getUnit0Overview(progress = readUnit0Progress()) {
+  const mastered = UNIT0_SECTIONS.filter((section) => getUnit0SectionStatus(progress, section) === "Mastered");
+  const attempted = UNIT0_SECTIONS.filter((section) => {
+    const record = getUnit0SectionRecord(progress, section.id);
+    return record.viewed || record.attempts > 0 || record.passed;
+  });
+  const needsPractice = UNIT0_SECTIONS.filter((section) => getUnit0SectionStatus(progress, section) === "Practice Needed");
+  const nextSection = UNIT0_SECTIONS.find((section) => getUnit0SectionStatus(progress, section) !== "Mastered") || UNIT0_SECTIONS.at(-1);
+  const percent = Math.round((mastered.length / UNIT0_SECTIONS.length) * 100);
+
+  return { mastered, attempted, needsPractice, nextSection, percent };
+}
+
+function markUnit0SectionViewed(sectionId) {
+  const progress = readUnit0Progress();
+  const current = getUnit0SectionRecord(progress, sectionId);
+
+  progress.sections[sectionId] = {
+    ...current,
+    viewed: true
+  };
+
+  writeUnit0Progress(progress);
+}
+
+function recordUnit0Attempt(section, result) {
+  const progress = readUnit0Progress();
+  const current = getUnit0SectionRecord(progress, section.id);
+  const missedSkills = Object.entries(result.skillResults)
+    .filter(([, value]) => value.incorrect > 0)
+    .map(([skillId]) => skillId);
+
+  progress.sections[section.id] = {
+    ...current,
+    attempts: current.attempts + 1,
+    score: result.score,
+    total: result.total,
+    passed: result.passed,
+    viewed: true,
+    missedSkills
+  };
+
+  Object.entries(result.skillResults).forEach(([skillId, value]) => {
+    const previous = progress.skills[skillId] || { attempts: 0, correct: 0, incorrect: 0, status: "Not Started" };
+    const attempts = previous.attempts + value.correct + value.incorrect;
+    const correct = previous.correct + value.correct;
+    const incorrect = previous.incorrect + value.incorrect;
+    const recentScore = value.correct + value.incorrect
+      ? Math.round((value.correct / (value.correct + value.incorrect)) * 100)
+      : 0;
+
+    progress.skills[skillId] = {
+      attempts,
+      correct,
+      incorrect,
+      recentScore,
+      status: recentScore >= 85 ? "Mastered" : "Practice Needed"
+    };
+  });
+
+  return writeUnit0Progress(progress);
+}
+
+function getUnit0HashSectionId() {
+  const rawHash = window.location.hash.replace(/^#/, "");
+
+  if (!rawHash || UNIT0_SECTION_ALIASES[rawHash] === "overview") {
+    return "overview";
+  }
+
+  if (rawHash.startsWith("unit0-")) {
+    return rawHash.replace("unit0-", "");
+  }
+
+  return UNIT0_SECTIONS.some((section) => section.id === rawHash) ? rawHash : "overview";
+}
+
+function getUnit0SectionUrl(section) {
+  return `#unit0-${section.id}`;
+}
+
+function getSectionById(sectionId) {
+  return UNIT0_SECTIONS.find((section) => section.id === sectionId);
+}
+
+function renderUnit0ProgressStrip(progress = readUnit0Progress(), activeSectionId = "") {
+  if (!unit0ProgressStripEl) {
+    return;
+  }
+
+  const stripSections = UNIT0_SECTIONS.filter((section) => section.id !== "orientation");
+  unit0ProgressStripEl.innerHTML = `
+    <label class="unit0-progress-select-label" for="unit0-progress-select">Unit 0 section</label>
+    <select id="unit0-progress-select" data-unit0-section-select>
+      <option value="">Unit 0 Overview</option>
+      ${stripSections.map((section) => `
+        <option value="${section.id}"${section.id === activeSectionId ? " selected" : ""}>${section.shortTitle}</option>
+      `).join("")}
+    </select>
+    <div class="unit0-progress-links">
+      ${stripSections.map((section) => {
+        const status = getUnit0SectionStatus(progress, section);
+        const activeClass = section.id === activeSectionId ? " is-active" : "";
+        const masteredClass = status === "Mastered" ? " is-mastered" : "";
+        return `<a class="${activeClass}${masteredClass}" href="${getUnit0SectionUrl(section)}">${section.shortTitle}</a>`;
+      }).join("")}
+    </div>
+  `;
+
+  const select = unit0ProgressStripEl.querySelector("[data-unit0-section-select]");
+  select?.addEventListener("change", () => {
+    window.location.hash = select.value ? `unit0-${select.value}` : "";
+  });
+}
+
+function renderUnit0OverallProgress(progress = readUnit0Progress()) {
+  if (!unit0OverallProgressEl) {
+    return;
+  }
+
+  const overview = getUnit0Overview(progress);
+  unit0OverallProgressEl.innerHTML = `
+    <strong>${overview.percent}%</strong>
+    <span><i style="width:${overview.percent}%"></i></span>
+  `;
+  unit0OverallProgressEl.setAttribute("aria-label", `Unit 0 progress: ${overview.percent}% mastered`);
+}
+
+function renderUnit0Cards(progress = readUnit0Progress()) {
+  if (!unit0SectionCardsEl) {
+    return;
+  }
+
+  unit0SectionCardsEl.innerHTML = UNIT0_SECTIONS.map((section) => {
+    const status = getUnit0SectionStatus(progress, section);
+    const record = getUnit0SectionRecord(progress, section.id);
+    const action = getUnit0CardAction(status, section);
+    const scoreText = record.attempts > 0 ? `${record.score}/${record.total} most recent` : "No checkpoint attempt yet";
+
+    return `
+      <article class="unit0-card ${statusClass(status)}">
+        <div class="unit0-card-topline">
+          <span>${section.number}</span>
+          <strong class="unit0-status ${statusClass(status)}">${status}</strong>
+        </div>
+        <h4>${section.title}</h4>
+        <p>${section.description}</p>
+        <div class="unit0-card-meta">${scoreText}</div>
+        <a class="continue-btn" href="${getUnit0SectionUrl(section)}">${action}</a>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderUnit0Landing() {
+  if (!unit0AppEl) {
+    return;
+  }
+
+  const progress = readUnit0Progress();
+  unit0OverviewEl.hidden = false;
+  unit0SectionViewEl.hidden = true;
+  renderUnit0ProgressStrip(progress, "");
+  renderUnit0OverallProgress(progress);
+  renderUnit0Cards(progress);
+  applyGreekTextStyling(unit0OverviewEl);
+}
+
+function renderLearnList(section) {
+  return `
+    <div class="unit0-learn-grid">
+      ${section.learn.map(([title, copy]) => `
+        <article>
+          <h4>${title}</h4>
+          <p>${copy}</p>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderPracticeList(section) {
+  return `
+    <ul class="unit0-practice-list">
+      ${section.practice.map((item) => `<li>${item}</li>`).join("")}
+    </ul>
+  `;
+}
+
+function renderUnit0AudioButton(question) {
+  if (!question.audioText) {
+    return "";
+  }
+
+  return `
+    <button class="audio-button unit0-audio-button" type="button" ${renderAudioAttributes("", escapeHtml(question.audioText))} aria-label="Hear ${escapeHtml(question.audioText)}">
+      ▶
+    </button>
+  `;
+}
+
+function renderUnit0Question(question, index) {
+  const prompt = escapeHtml(question.prompt);
+  const audioButton = renderUnit0AudioButton(question);
+
+  if (question.type === "input") {
+    return `
+      <article class="unit0-question" data-unit0-question data-question-id="${question.id}" data-question-type="input" data-answer="${escapeHtml(question.answer)}" data-skill-id="${question.skillId}">
+        <div class="unit0-question-heading">
+          <span>${index + 1}</span>
+          ${audioButton}
+        </div>
+        <label for="unit0-answer-${question.id}">${prompt}</label>
+        <input id="unit0-answer-${question.id}" class="text-field greek-text unit0-answer-field" type="text" autocomplete="off" data-unit0-input lang="grc">
+        <p class="exercise-feedback" aria-live="polite"></p>
+      </article>
+    `;
+  }
+
+  return `
+    <article class="unit0-question" data-unit0-question data-question-id="${question.id}" data-question-type="choice" data-answer="${escapeHtml(question.answer)}" data-skill-id="${question.skillId}">
+      <div class="unit0-question-heading">
+        <span>${index + 1}</span>
+        ${audioButton}
+      </div>
+      <p>${prompt}</p>
+      <div class="choice-row" role="group" aria-label="${prompt}">
+        ${question.choices.map((choice) => `
+          <button type="button" data-unit0-choice="${escapeHtml(choice)}" aria-pressed="false">${escapeHtml(choice)}</button>
+        `).join("")}
+      </div>
+      <p class="exercise-feedback" aria-live="polite"></p>
+    </article>
+  `;
+}
+
+function renderUnit0Keyboard() {
+  return `
+    <section class="unit0-keyboard-lab" aria-labelledby="unit0-keyboard-title">
+      <div>
+        <p class="eyebrow">In-App Keyboard</p>
+        <h4 id="unit0-keyboard-title">Greek Polytonic Helper</h4>
+        <p>Click a key to insert it into the active answer field. Use your system keyboard whenever you can; this helper is here for practice and accessibility.</p>
+      </div>
+      <div class="unit0-keyboard" data-unit0-keyboard>
+        ${UNIT0_KEYBOARD_ROWS.map((row) => `
+          <div class="unit0-key-row">
+            ${row.map((key) => `<button type="button" class="greek-text" data-unit0-key="${escapeHtml(key)}" aria-label="Insert ${escapeHtml(key)}">${escapeHtml(key)}</button>`).join("")}
+          </div>
+        `).join("")}
+        <div class="unit0-key-row unit0-key-tools">
+          <button type="button" data-unit0-key-action="uppercase">Uppercase</button>
+          <button type="button" data-unit0-key-action="space">Space</button>
+          <button type="button" data-unit0-key-action="backspace">Backspace</button>
+          <button type="button" data-unit0-key-action="clear">Clear</button>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function renderUnit0Nav(section, passed = false) {
+  const index = UNIT0_SECTIONS.findIndex((candidate) => candidate.id === section.id);
+  const previous = UNIT0_SECTIONS[index - 1];
+  const next = UNIT0_SECTIONS[index + 1];
+
+  return `
+    <nav class="unit0-section-nav" aria-label="Unit 0 section navigation">
+      <a class="secondary-button" href="${previous ? getUnit0SectionUrl(previous) : "#"}">Back</a>
+      <a class="secondary-button" href="index.html">Save & Exit</a>
+      <button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>
+      ${next
+        ? `<a class="${passed ? "primary-button" : "secondary-button"}" href="${getUnit0SectionUrl(next)}">Next: ${next.shortTitle}</a>`
+        : `<a class="${passed ? "primary-button" : "secondary-button"}" href="lessons.html#lesson-1">Continue to Lesson 1</a>`}
+    </nav>
+  `;
+}
+
+function renderUnit0ReviewRecommendations(section, record) {
+  if (!section.finalCheck || !record.missedSkills?.length) {
+    return "";
+  }
+
+  const targets = UNIT0_SECTIONS.filter((candidate) =>
+    candidate.skills.some((skillId) => record.missedSkills.includes(skillId))
+  );
+  const uniqueTargets = [...new Map(targets.map((target) => [target.id, target])).values()].slice(0, 4);
+
+  if (!uniqueTargets.length) {
+    return "";
+  }
+
+  return `
+    <div class="unit0-review-actions">
+      ${uniqueTargets.map((target) => `<a class="secondary-button" href="${getUnit0SectionUrl(target)}">Review ${target.shortTitle}</a>`).join("")}
+      <button class="secondary-button" type="button" data-unit0-practice-again>Practice Missed Items</button>
+      <button class="secondary-button" type="button" data-unit0-retake>Retake Check</button>
+      <a class="primary-button" href="lessons.html#lesson-1">Continue to Lesson 1</a>
+    </div>
+  `;
+}
+
+function renderUnit0Section(sectionId) {
+  if (!unit0AppEl || !unit0SectionViewEl || !unit0OverviewEl) {
+    return;
+  }
+
+  const section = getSectionById(sectionId);
+  if (!section) {
+    renderUnit0Landing();
+    return;
+  }
+
+  markUnit0SectionViewed(section.id);
+  const progress = readUnit0Progress();
+  const record = getUnit0SectionRecord(progress, section.id);
+  const status = getUnit0SectionStatus(progress, section);
+  const questions = section.checkpoint.questions.slice(0, section.checkpoint.total);
+  const resultMessage = record.attempts
+    ? record.passed
+      ? section.finalCheck
+        ? "Excellent. You are ready for Lesson 1."
+        : `Passed: ${record.score}/${record.total}. Continue when ready.`
+      : section.finalCheck
+      ? `Almost there. Review these skills: ${(record.missedSkills || []).join(", ") || "mixed review"}.`
+      : `Practice needed: ${record.score}/${record.total}. Review the feedback, then try again.`
+    : "";
+
+  unit0OverviewEl.hidden = true;
+  unit0SectionViewEl.hidden = false;
+  renderUnit0ProgressStrip(progress, section.id);
+
+  unit0SectionViewEl.innerHTML = `
+    <div class="unit0-section-heading">
+      <div>
+        <p class="eyebrow">${section.number}</p>
+        <h3>${section.title}</h3>
+        <p>${section.description}</p>
+      </div>
+      <strong class="unit0-status ${statusClass(status)}">${status}</strong>
+    </div>
+
+    <section class="unit0-learn-panel" aria-labelledby="unit0-learn-title">
+      <p class="eyebrow">Learn</p>
+      <h4 id="unit0-learn-title">Focus for ${section.number}</h4>
+      ${renderLearnList(section)}
+    </section>
+
+    <section class="unit0-practice-panel" aria-labelledby="unit0-practice-title">
+      <p class="eyebrow">Practice</p>
+      <h4 id="unit0-practice-title">What you will practice</h4>
+      ${renderPracticeList(section)}
+    </section>
+
+    ${section.keyboard ? renderUnit0Keyboard() : ""}
+
+    <section class="unit0-checkpoint" aria-labelledby="unit0-checkpoint-title">
+      <div class="unit0-checkpoint-heading">
+        <div>
+          <p class="eyebrow">${section.finalCheck ? "Final Check" : "Checkpoint"}</p>
+          <h4 id="unit0-checkpoint-title">${section.checkpoint.total} questions · passing ${section.checkpoint.passing}/${section.checkpoint.total}</h4>
+        </div>
+        <button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>
+      </div>
+      <div class="unit0-question-list">
+        ${questions.map(renderUnit0Question).join("")}
+      </div>
+      <div class="unit0-submit-row">
+        <button class="primary-button" type="button" data-unit0-submit>Submit ${section.finalCheck ? "Reading Readiness Check" : "Checkpoint"}</button>
+        <p class="unit0-result" data-unit0-result aria-live="polite">${resultMessage}</p>
+      </div>
+      <div data-unit0-review-recommendations>${renderUnit0ReviewRecommendations(section, record)}</div>
+    </section>
+
+    ${renderUnit0Nav(section, record.passed)}
+  `;
+
+  bindUnit0SectionControls(unit0SectionViewEl, section);
+  bindLessonAudio(unit0SectionViewEl);
+  applyGreekTextStyling(unit0SectionViewEl);
+}
+
+function getUnit0AnswerValue(questionEl) {
+  if (questionEl.dataset.questionType === "input") {
+    return questionEl.querySelector("[data-unit0-input]")?.value || "";
+  }
+
+  return questionEl.querySelector("[data-unit0-choice].is-selected")?.dataset.unit0Choice || "";
+}
+
+function getTypingFeedback(expected, actual, fallback) {
+  const expectedNfc = normalizeGreekInput(expected);
+  const actualRaw = String(actual || "");
+  const actualNfc = normalizeGreekInput(actualRaw);
+
+  if (actualRaw !== actualRaw.trim()) {
+    return "Not quite. There is an extra space before or after the answer.";
+  }
+
+  if (normalizeForLettersOnly(expectedNfc) !== normalizeForLettersOnly(actualNfc)) {
+    if (expectedNfc.includes("ς") && actualNfc.includes("σ")) {
+      return "Not quite. Use final sigma ς at the end of the word.";
+    }
+
+    return "Not quite. Check the Greek letters first, then the marks.";
+  }
+
+  const expectedNfd = expectedNfc.normalize("NFD");
+  const actualNfd = actualNfc.normalize("NFD");
+  const hasAccent = /[\u0300\u0301\u0342]/;
+  const hasBreathing = /[\u0313\u0314]/;
+  const hasIotaSubscript = /\u0345/;
+
+  if (hasAccent.test(expectedNfd) && !hasAccent.test(actualNfd)) {
+    return "Not quite. The letters are right, but an accent is missing.";
+  }
+
+  if (hasBreathing.test(expectedNfd) && !hasBreathing.test(actualNfd)) {
+    return "Not quite. The letters are right, but a breathing mark is missing.";
+  }
+
+  if (hasIotaSubscript.test(expectedNfd) && !hasIotaSubscript.test(actualNfd)) {
+    return "Not quite. The iota subscript is missing.";
+  }
+
+  return fallback;
+}
+
+function evaluateUnit0Question(questionEl, section) {
+  const question = section.checkpoint.questions.find((candidate) => candidate.id === questionEl.dataset.questionId);
+  const expected = questionEl.dataset.answer || question?.answer || "";
+  const actual = getUnit0AnswerValue(questionEl);
+  const isCorrect = normalizeGreekInput(actual) === normalizeGreekInput(expected);
+  const feedback = questionEl.querySelector(".exercise-feedback");
+
+  questionEl.classList.toggle("is-correct", isCorrect);
+  questionEl.classList.toggle("is-wrong", !isCorrect);
+
+  if (feedback) {
+    feedback.textContent = isCorrect
+      ? `Correct. ${question?.explanation || ""}`.trim()
+      : questionEl.dataset.questionType === "input"
+      ? getTypingFeedback(expected, actual, question?.explanation || "Try this one again.")
+      : `Not quite. ${question?.explanation || "Review this point and try again."}`;
+  }
+
+  return {
+    isCorrect,
+    skillId: questionEl.dataset.skillId || question?.skillId || "reading.early_decoding"
+  };
+}
+
+function bindUnit0SectionControls(root, section) {
+  root.querySelectorAll("[data-unit0-choice]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const question = button.closest("[data-unit0-question]");
+      question.querySelectorAll("[data-unit0-choice]").forEach((choice) => {
+        choice.classList.remove("is-selected", "is-correct", "is-wrong");
+        choice.setAttribute("aria-pressed", "false");
+      });
+      button.classList.add("is-selected");
+      button.setAttribute("aria-pressed", "true");
+    });
+  });
+
+  root.querySelectorAll("[data-unit0-practice-again], [data-unit0-retake]").forEach((button) => {
+    button.addEventListener("click", () => renderUnit0Section(section.id));
+  });
+
+  root.querySelectorAll("[data-unit0-key]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const field = root.querySelector(".unit0-answer-field:focus") || root.querySelector(".unit0-answer-field");
+      if (!field) {
+        return;
+      }
+      const start = field.selectionStart ?? field.value.length;
+      const end = field.selectionEnd ?? field.value.length;
+      const key = button.dataset.unit0Key || "";
+      field.value = `${field.value.slice(0, start)}${key}${field.value.slice(end)}`.normalize("NFC");
+      field.focus();
+      field.setSelectionRange(start + key.length, start + key.length);
+    });
+  });
+
+  root.querySelectorAll("[data-unit0-key-action]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const field = root.querySelector(".unit0-answer-field:focus") || root.querySelector(".unit0-answer-field");
+      if (!field) {
+        return;
+      }
+
+      const action = button.dataset.unit0KeyAction;
+      if (action === "clear") {
+        field.value = "";
+      } else if (action === "backspace") {
+        field.value = field.value.slice(0, -1);
+      } else if (action === "space") {
+        field.value += " ";
+      } else if (action === "uppercase") {
+        field.value = field.value.toLocaleUpperCase("el-GR");
+      }
+
+      field.focus();
+    });
+  });
+
+  root.querySelector("[data-unit0-submit]")?.addEventListener("click", () => {
+    const questionEls = [...root.querySelectorAll("[data-unit0-question]")];
+    let score = 0;
+    const skillResults = {};
+
+    questionEls.forEach((questionEl) => {
+      const result = evaluateUnit0Question(questionEl, section);
+      if (result.isCorrect) {
+        score += 1;
+      }
+
+      skillResults[result.skillId] ||= { correct: 0, incorrect: 0 };
+      skillResults[result.skillId][result.isCorrect ? "correct" : "incorrect"] += 1;
+    });
+
+    const total = questionEls.length;
+    const passed = score >= section.checkpoint.passing;
+    const nextProgress = recordUnit0Attempt(section, { score, total, passed, skillResults });
+    const resultEl = root.querySelector("[data-unit0-result]");
+    const record = getUnit0SectionRecord(nextProgress, section.id);
+
+    if (resultEl) {
+      resultEl.textContent = passed
+        ? section.finalCheck
+          ? "Excellent. You are ready for Lesson 1."
+          : `Passed: ${score}/${total}. The Next button is ready.`
+        : section.finalCheck
+        ? `Almost there. Review these skills: ${record.missedSkills.join(", ") || "mixed review"}.`
+        : `Practice needed: ${score}/${total}. Read the feedback and try again.`;
+    }
+
+    const recommendations = root.querySelector("[data-unit0-review-recommendations]");
+    if (recommendations) {
+      recommendations.innerHTML = renderUnit0ReviewRecommendations(section, record);
+      recommendations.querySelectorAll("[data-unit0-practice-again], [data-unit0-retake]").forEach((button) => {
+        button.addEventListener("click", () => renderUnit0Section(section.id));
+      });
+    }
+
+    renderUnit0ProgressStrip(nextProgress, section.id);
+    renderUnit0OverallProgress(nextProgress);
+
+    const nav = root.querySelector(".unit0-section-nav");
+    if (nav) {
+      nav.outerHTML = renderUnit0Nav(section, passed);
+      root.querySelectorAll(".unit0-section-nav [data-unit0-practice-again]").forEach((button) => {
+        button.addEventListener("click", () => renderUnit0Section(section.id));
+      });
+    }
+  });
+}
+
+function renderUnit0FromLocation() {
+  if (!unit0AppEl) {
+    return;
+  }
+
+  const sectionId = getUnit0HashSectionId();
+  if (sectionId === "overview") {
+    renderUnit0Landing();
+    return;
+  }
+
+  renderUnit0Section(sectionId);
+}
 
 function normalizeEmail(email) {
   return window.xenophonAuth?.normalizeEmail
@@ -1257,6 +2330,11 @@ function renderMobilePractice(session) {
 function getContinueUrl(progress) {
   const lesson = findLesson(progress.currentLessonId);
 
+  if (lesson.id === "intro-1") {
+    const unit0Overview = getUnit0Overview();
+    return `lesson-introduction.html${getUnit0SectionUrl(unit0Overview.nextSection)}`;
+  }
+
   if (lesson.url.includes("#")) {
     return lesson.url;
   }
@@ -1265,6 +2343,17 @@ function getContinueUrl(progress) {
 }
 
 function getLessonStatus(lesson, progress) {
+  if (lesson.id === "intro-1") {
+    const overview = getUnit0Overview();
+    if (overview.percent === 100) {
+      return "completed";
+    }
+
+    if (overview.attempted.length > 0) {
+      return "in-progress";
+    }
+  }
+
   if (isLessonComplete(progress, lesson.id)) {
     return "completed";
   }
@@ -1494,8 +2583,13 @@ function renderAlphabetTable() {
   });
 }
 
-function bindLessonAudio() {
-  document.querySelectorAll("[data-speak-text]").forEach((audioTrigger) => {
+function bindLessonAudio(root = document) {
+  root.querySelectorAll("[data-speak-text]").forEach((audioTrigger) => {
+    if (audioTrigger.dataset.audioBound === "true") {
+      return;
+    }
+
+    audioTrigger.dataset.audioBound = "true";
     audioTrigger.addEventListener("click", () => {
       const audioSrc = audioTrigger.dataset.audioSrc;
       const speakText = audioTrigger.dataset.speakText;
@@ -1611,9 +2705,20 @@ function getPracticeCompletedCount(progress) {
 function renderStartSummary(session, progress) {
   const firstName = String(session?.name || "Student").trim().split(/\s+/)[0] || "Student";
   const currentLesson = findLesson(progress.currentLessonId);
-  const isAtBeginning = (progress.completedLessonsCount || 0) === 0;
+  const unit0Overview = getUnit0Overview();
+  const unit0Attempts = Object.values(readUnit0Progress().sections || {}).reduce(
+    (total, record) => total + (record.attempts || 0),
+    0
+  );
+  const isAtBeginning = (progress.completedLessonsCount || 0) === 0 || currentLesson.id === "intro-1";
+  const masteredText = unit0Overview.mastered.length
+    ? `Mastered: ${unit0Overview.mastered.map((section) => section.shortTitle).join(", ")}.`
+    : "Mastered: none yet.";
+  const needsPracticeText = unit0Overview.needsPractice.length
+    ? `Needs Practice: ${unit0Overview.needsPractice.map((section) => section.shortTitle).join(", ")}.`
+    : "Needs Practice: none flagged yet.";
   const nextStep = isAtBeginning
-    ? "Suggested next step: Begin with the Greek Alphabet."
+    ? `Suggested next step: ${unit0Overview.nextSection.number} ${unit0Overview.nextSection.title}.`
     : `Suggested next step: Continue ${currentLesson.number}. ${currentLesson.title}.`;
 
   if (startSummaryTitleEl) {
@@ -1621,8 +2726,8 @@ function renderStartSummary(session, progress) {
   }
 
   if (startSummaryLocationEl) {
-    startSummaryLocationEl.textContent = isAtBeginning
-      ? "Current location: Unit 0 — Greek Alphabet / Introduction"
+    startSummaryLocationEl.innerHTML = isAtBeginning
+      ? `Current location: Unit 0 — Greek Alphabet & Reading Readiness<br>Progress: ${unit0Overview.percent}%. ${masteredText} ${needsPracticeText}`
       : `Current location: ${currentLesson.number} — ${currentLesson.title}`;
   }
 
@@ -1635,7 +2740,7 @@ function renderStartSummary(session, progress) {
   }
 
   if (startPracticeEl) {
-    startPracticeEl.textContent = getPracticeCompletedCount(progress);
+    startPracticeEl.textContent = getPracticeCompletedCount(progress) + unit0Attempts;
   }
 
   if (startNextStepEl) {
@@ -1650,10 +2755,13 @@ function renderStartSummary(session, progress) {
 
 function createModuleHeader(module, progress, isDashboard = false) {
   const moduleProgress = getModuleProgress(module, progress);
+  const unit0Overview = module.id === "introduction" ? getUnit0Overview() : null;
   const moduleLine = module.subtitle || module.description || "";
   const moduleMeta = [
     module.primaryText,
-    `${moduleProgress.completedCount} of ${moduleProgress.totalCount} lessons complete`
+    unit0Overview
+      ? `${unit0Overview.mastered.length} of ${UNIT0_SECTIONS.length} sections mastered`
+      : `${moduleProgress.completedCount} of ${moduleProgress.totalCount} lessons complete`
   ].filter(Boolean);
   const header = document.createElement("div");
   header.className = isDashboard ? "path-module-header" : "lesson-module-header";
@@ -1837,7 +2945,10 @@ function renderLessonsPage(session) {
   }
 
   if (lessonPageSummaryEl) {
-    lessonPageSummaryEl.textContent = `Current lesson: ${currentLesson.number}. ${currentLesson.title}`;
+    const unit0Overview = getUnit0Overview();
+    lessonPageSummaryEl.textContent = currentLesson.id === "intro-1"
+      ? `Unit 0 progress: ${unit0Overview.percent}%. Next step: ${unit0Overview.nextSection.number} ${unit0Overview.nextSection.title}.`
+      : `Current lesson: ${currentLesson.number}. ${currentLesson.title}`;
   }
 
   lessonsListEl.textContent = "";
@@ -2662,6 +3773,8 @@ if (savedSession?.activeRole) {
   window.location.href = "index.html";
 }
 
+window.addEventListener("hashchange", renderUnit0FromLocation);
+renderUnit0FromLocation();
 renderProfileCard();
 renderAlphabetTable();
 bindLessonAudio();
