@@ -842,7 +842,6 @@ const PROFESSOR_DASHBOARD_DATA = {
 let activeProfessorDashboardData = getProfessorDashboardPlaceholder();
 let professorDashboardLoadId = 0;
 
-const SESSION_STORAGE_KEY = "learn-greek-session";
 const SIDEBAR_STORAGE_KEY = "learn-greek-sidebar-collapsed";
 const DEFAULT_PROFILE_PHOTO_URL = "assets/generic-profile.svg";
 
@@ -936,6 +935,14 @@ const loginEmailInput = document.querySelector("[data-login-email]");
 const loginPasswordInput = document.querySelector("[data-login-password]");
 const loginStatusEl = document.querySelector("[data-login-status]");
 const loginFormPanel = document.querySelector("[data-login-form-panel]");
+const registerForm = document.querySelector("[data-register-form]");
+const registerFirstNameInput = document.querySelector("[data-register-first-name]");
+const registerLastNameInput = document.querySelector("[data-register-last-name]");
+const registerEmailInput = document.querySelector("[data-register-email]");
+const registerPasswordInput = document.querySelector("[data-register-password]");
+const registerStatusEl = document.querySelector("[data-register-status]");
+const authTabs = document.querySelectorAll("[data-auth-tab]");
+const authOpenButtons = document.querySelectorAll("[data-auth-open]");
 const rolePanel = document.querySelector("[data-role-panel]");
 const roleOptionsEl = document.querySelector("[data-role-options]");
 const roleTitleEl = document.querySelector("[data-role-title]");
@@ -965,6 +972,13 @@ const nextLevelEl = document.querySelector("[data-next-level]");
 const weeklySummaryEl = document.querySelector("[data-weekly-summary]");
 const weeklyBarEl = document.querySelector("[data-weekly-bar]");
 const weeklyNoteEl = document.querySelector("[data-weekly-note]");
+const startSummaryTitleEl = document.querySelector("[data-start-summary-title]");
+const startSummaryLocationEl = document.querySelector("[data-start-summary-location]");
+const startLessonsEl = document.querySelector("[data-start-lessons]");
+const startVocabularyEl = document.querySelector("[data-start-vocabulary]");
+const startPracticeEl = document.querySelector("[data-start-practice]");
+const startNextStepEl = document.querySelector("[data-start-next-step]");
+const startCourseLinkEl = document.querySelector("[data-start-course-link]");
 const learningPathEl = document.querySelector("[data-learning-path]");
 const activityListEl = document.querySelector("[data-activity-list]");
 const achievementListEl = document.querySelector("[data-achievement-list]");
@@ -977,7 +991,9 @@ const professorDashboardEl = document.querySelector("[data-professor-dashboard]"
 let mobilePracticeEl = document.querySelector("[data-mobile-practice]");
 
 function normalizeEmail(email) {
-  return email.trim().toLowerCase();
+  return window.xenophonAuth?.normalizeEmail
+    ? window.xenophonAuth.normalizeEmail(email)
+    : String(email || "").trim().toLowerCase();
 }
 
 function findUserByEmail(email) {
@@ -1293,35 +1309,23 @@ function statusDot(status, lesson) {
 }
 
 function readSession() {
-  try {
-    const rawSession = window.localStorage.getItem(SESSION_STORAGE_KEY);
-    return rawSession ? JSON.parse(rawSession) : null;
-  } catch (error) {
-    return null;
-  }
+  return window.xenophonAuth?.readSession ? window.xenophonAuth.readSession() : null;
 }
 
 function writeSession(user, activeRole) {
-  const session = {
-    name: user.name,
-    email: user.email,
-    roles: user.roles,
-    activeRole,
-    progress: user.progress || null,
-    course: user.course || null
-  };
+  if (window.xenophonAuth?.writeSession) {
+    return window.xenophonAuth.writeSession(user, activeRole);
+  }
 
-  window.localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
-  return session;
+  return user;
 }
 
 function saveSession(session) {
-  window.localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
-  return session;
+  return window.xenophonAuth?.saveSession ? window.xenophonAuth.saveSession(session) : session;
 }
 
 function clearSession() {
-  window.localStorage.removeItem(SESSION_STORAGE_KEY);
+  window.xenophonAuth?.clearSession?.();
 }
 
 function readSidebarCollapsed() {
@@ -1389,6 +1393,61 @@ function renderAudioAttributes(audioSrc, speakText) {
   return `${audioSrc ? `data-audio-src="${audioSrc}" ` : ""}data-speak-text="${speakText}"`;
 }
 
+function applyGreekTextStyling(root = document.body) {
+  if (!root) {
+    return;
+  }
+
+  const greekPattern = /[\u0370-\u03FF\u1F00-\u1FFF]+/;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+
+      if (
+        !parent ||
+        parent.closest("script, style, textarea, input, .greek-text") ||
+        !greekPattern.test(node.nodeValue)
+      ) {
+        return NodeFilter.FILTER_REJECT;
+      }
+
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  const nodes = [];
+  let node = walker.nextNode();
+
+  while (node) {
+    nodes.push(node);
+    node = walker.nextNode();
+  }
+
+  nodes.forEach((textNode) => {
+    const fragment = document.createDocumentFragment();
+    const parts = textNode.nodeValue.split(/([\u0370-\u03FF\u1F00-\u1FFF]+)/g);
+
+    parts.forEach((part) => {
+      if (!part) {
+        return;
+      }
+
+      if (greekPattern.test(part)) {
+        const span = document.createElement("span");
+        span.className = "greek-text";
+        span.lang = "grc";
+        span.textContent = part;
+        fragment.appendChild(span);
+        return;
+      }
+
+      fragment.appendChild(document.createTextNode(part));
+    });
+
+    textNode.replaceWith(fragment);
+  });
+}
+
 function renderAlphabetTable() {
   if (!alphabetTableEl) {
     return;
@@ -1405,13 +1464,13 @@ function renderAlphabetTable() {
 
     row.innerHTML = `
       <td>
-        <button class="audio-text audio-text-letter letter-pair" type="button" ${renderAudioAttributes(letterAudioSrc, greekName)} aria-label="Hear ${englishName}, ${upper} ${lower}">
+        <button class="audio-text audio-text-letter letter-pair greek-text" type="button" ${renderAudioAttributes(nameAudioSrc, greekName)} aria-label="Hear the letter name ${englishName}, ${upper} ${lower}" lang="grc">
           <strong>${upper}</strong><span>${lower}</span>
         </button>
       </td>
       <td>
         <span class="alphabet-name-stack">
-          <button class="audio-text audio-text-name" type="button" ${renderAudioAttributes(nameAudioSrc, greekName)} aria-label="Hear the Greek letter name ${greekName}">
+          <button class="audio-text audio-text-name greek-text" type="button" ${renderAudioAttributes(nameAudioSrc, greekName)} aria-label="Hear the Greek letter name ${greekName}" lang="grc">
             ${greekName}
           </button>
           <button class="audio-text audio-text-english-name" type="button" ${renderAudioAttributes(nameAudioSrc, englishName)} aria-label="Hear the English letter name ${englishName}">
@@ -1419,9 +1478,13 @@ function renderAlphabetTable() {
           </button>
         </span>
       </td>
-      <td>${sound}</td>
       <td>
-        <button class="audio-text greek-example" type="button" ${renderAudioAttributes(exampleAudioSrc, example)} aria-label="Hear ${example}, ${gloss}">
+        <button class="audio-text audio-text-sound" type="button" ${renderAudioAttributes(letterAudioSrc, lower)} aria-label="Hear the letter sound for ${englishName}">
+          ${sound}
+        </button>
+      </td>
+      <td>
+        <button class="audio-text greek-example greek-text" type="button" ${renderAudioAttributes(exampleAudioSrc, example)} aria-label="Hear ${example}, ${gloss}" lang="grc">
           ${example}
         </button>
         <span class="muted">(${gloss})</span>
@@ -1531,6 +1594,57 @@ function renderProgressCards(progress) {
   if (weeklyNoteEl) {
     const remaining = Math.max(0, progress.weeklyGoal - progress.weeklyCompleted);
     weeklyNoteEl.textContent = remaining === 1 ? "1 lesson to go." : `${remaining} lessons to go.`;
+  }
+}
+
+function getPracticeCompletedCount(progress) {
+  if (typeof progress.practiceCompleted === "number") {
+    return progress.practiceCompleted;
+  }
+
+  return Object.values(progress.completedExercises || {}).reduce(
+    (total, exerciseIds) => total + (Array.isArray(exerciseIds) ? exerciseIds.length : 0),
+    0
+  );
+}
+
+function renderStartSummary(session, progress) {
+  const firstName = String(session?.name || "Student").trim().split(/\s+/)[0] || "Student";
+  const currentLesson = findLesson(progress.currentLessonId);
+  const isAtBeginning = (progress.completedLessonsCount || 0) === 0;
+  const nextStep = isAtBeginning
+    ? "Suggested next step: Begin with the Greek Alphabet."
+    : `Suggested next step: Continue ${currentLesson.number}. ${currentLesson.title}.`;
+
+  if (startSummaryTitleEl) {
+    startSummaryTitleEl.textContent = `Welcome, ${firstName}`;
+  }
+
+  if (startSummaryLocationEl) {
+    startSummaryLocationEl.textContent = isAtBeginning
+      ? "Current location: Unit 0 — Greek Alphabet / Introduction"
+      : `Current location: ${currentLesson.number} — ${currentLesson.title}`;
+  }
+
+  if (startLessonsEl) {
+    startLessonsEl.textContent = progress.completedLessonsCount || 0;
+  }
+
+  if (startVocabularyEl) {
+    startVocabularyEl.textContent = progress.vocabularyMastered || 0;
+  }
+
+  if (startPracticeEl) {
+    startPracticeEl.textContent = getPracticeCompletedCount(progress);
+  }
+
+  if (startNextStepEl) {
+    startNextStepEl.textContent = nextStep;
+  }
+
+  if (startCourseLinkEl) {
+    startCourseLinkEl.href = getContinueUrl(progress);
+    startCourseLinkEl.textContent = isAtBeginning ? "Begin Unit 0" : "Continue the Course";
   }
 }
 
@@ -1703,6 +1817,7 @@ function renderAchievements(progress) {
 
 function renderDashboardProgress(session) {
   const progress = getUserProgress(session);
+  renderStartSummary(session, progress);
   renderProgressCards(progress);
   renderLearningPath(progress);
   renderActivity(progress);
@@ -2242,6 +2357,7 @@ function showDashboard(session) {
   }
 
   renderProfileCard(session);
+  applyGreekTextStyling();
 }
 
 function renderProfileCard(session = readSession()) {
@@ -2367,48 +2483,149 @@ function resetLoginPanel() {
   if (loginStatusEl) {
     loginStatusEl.textContent = "";
   }
+
+  if (registerStatusEl) {
+    registerStatusEl.textContent = "";
+  }
 }
+
+function setAuthMode(mode, focusFirstField = false) {
+  const isRegister = mode === "register";
+
+  authTabs.forEach((tab) => {
+    const isActive = tab.dataset.authTab === mode;
+    tab.classList.toggle("is-active", isActive);
+    tab.setAttribute("aria-selected", String(isActive));
+  });
+
+  if (registerForm) {
+    registerForm.hidden = !isRegister;
+  }
+
+  if (loginForm) {
+    loginForm.hidden = isRegister;
+  }
+
+  if (loginStatusEl) {
+    loginStatusEl.textContent = "";
+  }
+
+  if (registerStatusEl) {
+    registerStatusEl.textContent = "";
+  }
+
+  if (!focusFirstField) {
+    return;
+  }
+
+  const target = isRegister ? registerFirstNameInput : loginEmailInput;
+  target?.focus();
+}
+
+function setAuthBusy(form, isBusy) {
+  form?.querySelectorAll("input, button").forEach((control) => {
+    control.disabled = isBusy;
+  });
+}
+
+function setFieldError(input, hasError) {
+  input?.setAttribute("aria-invalid", String(Boolean(hasError)));
+}
+
+function selectDefaultRole(user) {
+  return user.roles.includes("student") ? "student" : user.roles[0];
+}
+
+function handleAuthenticatedUser(user) {
+  if (!user?.roles?.length) {
+    throw new Error("This account has no assigned course role.");
+  }
+
+  if (user.roles.length === 1 || user.roles.includes("student")) {
+    showDashboard(writeSession(user, selectDefaultRole(user)));
+    return;
+  }
+
+  renderRoleChoices(user);
+}
+
+authTabs.forEach((tab) => {
+  tab.addEventListener("click", () => setAuthMode(tab.dataset.authTab, true));
+});
+
+authOpenButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const mode = button.dataset.authOpen || "register";
+    document.querySelector("#login")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    setAuthMode(mode, true);
+  });
+});
+
+registerForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const firstName = registerFirstNameInput.value.trim();
+  const lastName = registerLastNameInput.value.trim();
+  const email = normalizeEmail(registerEmailInput.value);
+  const password = registerPasswordInput.value;
+
+  setFieldError(registerFirstNameInput, !firstName);
+  setFieldError(registerLastNameInput, !lastName);
+  setFieldError(registerEmailInput, !email);
+  setFieldError(registerPasswordInput, !password);
+
+  if (!firstName || !lastName || !email || !password) {
+    registerStatusEl.textContent = "Please complete every registration field.";
+    return;
+  }
+
+  registerEmailInput.value = email;
+  registerStatusEl.textContent = "Creating your student account...";
+  setAuthBusy(registerForm, true);
+
+  window.xenophonAuth.registerStudent({ firstName, lastName, email, password })
+    .then((user) => {
+      registerPasswordInput.value = "";
+      handleAuthenticatedUser(user);
+    })
+    .catch((error) => {
+      registerStatusEl.textContent = error.message || "Registration failed.";
+      setFieldError(registerPasswordInput, error.message === window.xenophonAuth.DEV_CLASS_PASSWORD_MESSAGE);
+    })
+    .finally(() => {
+      setAuthBusy(registerForm, false);
+    });
+});
 
 loginForm?.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  const email = normalizeEmail(loginEmailInput.value);
+  const password = loginPasswordInput.value;
+
+  setFieldError(loginEmailInput, !email);
+  setFieldError(loginPasswordInput, !password);
+
+  if (!email || !password) {
+    loginStatusEl.textContent = "Email and password are required.";
+    return;
+  }
+
+  loginEmailInput.value = email;
   loginStatusEl.textContent = "Signing in...";
+  setAuthBusy(loginForm, true);
 
-  fetch("/api/login", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      email: loginEmailInput.value,
-      password: loginPasswordInput.value
-    })
-  })
-    .then(async (response) => {
-      const data = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        throw new Error(data.error || "Those credentials did not match a course user.");
-      }
-
-      return data.user;
-    })
+  window.xenophonAuth.loginStudent({ email, password })
     .then((user) => {
-      if (!user?.roles?.length) {
-        throw new Error("This account has no assigned course role.");
-      }
-
       loginPasswordInput.value = "";
-
-      if (user.roles.length === 1) {
-        showDashboard(writeSession(user, user.roles[0]));
-        return;
-      }
-
-      renderRoleChoices(user);
+      handleAuthenticatedUser(user);
     })
     .catch((error) => {
       loginStatusEl.textContent = error.message || "Sign in failed.";
+      setFieldError(loginPasswordInput, error.message === window.xenophonAuth.DEV_CLASS_PASSWORD_MESSAGE);
+    })
+    .finally(() => {
+      setAuthBusy(loginForm, false);
     });
 });
 
@@ -2426,6 +2643,7 @@ logoutButton?.addEventListener("click", () => {
   }
 
   resetLoginPanel();
+  setAuthMode("login");
   document.body.classList.remove("dashboard-active");
   document.body.classList.add("landing-active");
   loginEmailInput?.focus();
@@ -2450,3 +2668,4 @@ bindLessonAudio();
 bindExerciseChecks();
 bindSidebarToggle();
 renderLiveCourseTitle();
+applyGreekTextStyling();

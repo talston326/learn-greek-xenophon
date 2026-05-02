@@ -11,7 +11,6 @@ const profileViewSwitcher = document.querySelector("[data-profile-view-switcher]
 const activeViewEl = document.querySelector("[data-active-view]");
 const profileRoleOptionsEl = document.querySelector("[data-profile-role-options]");
 
-const SESSION_STORAGE_KEY = "learn-greek-session";
 const ROLE_LABELS = {
   administrator: "Administrator",
   professor: "Professor",
@@ -26,16 +25,11 @@ let removeSelectedPhoto = false;
 let previewObjectUrl = "";
 
 function readSession() {
-  try {
-    const rawSession = window.localStorage.getItem(SESSION_STORAGE_KEY);
-    return rawSession ? JSON.parse(rawSession) : null;
-  } catch (error) {
-    return null;
-  }
+  return window.xenophonAuth?.readSession ? window.xenophonAuth.readSession() : null;
 }
 
 function saveSession(session) {
-  window.localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
+  window.xenophonAuth?.saveSession?.(session);
 }
 
 function activeProfileEmail() {

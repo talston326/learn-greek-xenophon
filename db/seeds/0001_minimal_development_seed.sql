@@ -100,7 +100,7 @@ profile_rows AS (
 ),
 credential_rows AS (
   INSERT INTO public.user_credentials (user_id, password_hash, password_algorithm)
-  SELECT id, crypt('xenophon', gen_salt('bf', 10)), 'pgcrypto-bcrypt'
+  SELECT id, crypt('xeno', gen_salt('bf', 10)), 'development-class-password'
   FROM all_seed_users
   ON CONFLICT (user_id) DO UPDATE
   SET password_hash = EXCLUDED.password_hash,

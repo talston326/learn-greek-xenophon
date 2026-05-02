@@ -32,7 +32,8 @@
         </p>
 
         <div class="landing-actions">
-          <a class="primary-button" href="#login">Begin Study</a>
+          <button class="primary-button" type="button" data-auth-open="register">Register</button>
+          <button class="secondary-button" type="button" data-auth-open="login">Log In</button>
           <a class="secondary-button" href="#xenophon-life">Meet Xenophon</a>
         </div>
       </div>
@@ -40,18 +41,41 @@
       <section id="login" class="login-panel" aria-labelledby="login-title">
         <div data-login-form-panel>
           <p class="eyebrow">Course Access</p>
-          <h2 id="login-title">Sign in</h2>
-          <p class="login-intro">Use your course credentials to open the correct dashboard view.</p>
+          <h2 id="login-title">Start learning</h2>
+          <p class="login-intro">Register as a student or log in with your class email and development password.</p>
 
-          <form class="login-form" data-login-form>
+          <div class="auth-tabs" role="tablist" aria-label="Course access options">
+            <button class="auth-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="register-panel" id="register-tab" data-auth-tab="register">Register</button>
+            <button class="auth-tab" type="button" role="tab" aria-selected="false" aria-controls="login-panel" id="login-tab" data-auth-tab="login">Log In</button>
+          </div>
+
+          <form id="register-panel" class="login-form" role="tabpanel" aria-labelledby="register-tab" data-register-form>
+            <label class="field-label" for="register-first-name">First name</label>
+            <input id="register-first-name" class="text-field" type="text" autocomplete="given-name" required data-register-first-name>
+
+            <label class="field-label" for="register-last-name">Last name</label>
+            <input id="register-last-name" class="text-field" type="text" autocomplete="family-name" required data-register-last-name>
+
+            <label class="field-label" for="register-email">Email address</label>
+            <input id="register-email" class="text-field" type="email" autocomplete="email" required data-register-email>
+
+            <label class="field-label" for="register-password">Password</label>
+            <input id="register-password" class="text-field" type="password" autocomplete="new-password" required aria-describedby="register-help register-status" data-register-password>
+            <p id="register-help" class="field-help">Development class password: ask your instructor.</p>
+
+            <button class="primary-button" type="submit">Register</button>
+            <p id="register-status" class="login-status" data-register-status aria-live="polite"></p>
+          </form>
+
+          <form id="login-panel" class="login-form" role="tabpanel" aria-labelledby="login-tab" hidden data-login-form>
             <label class="field-label" for="login-email">Email</label>
             <input id="login-email" class="text-field" type="email" autocomplete="username" required data-login-email>
 
             <label class="field-label" for="login-password">Password</label>
-            <input id="login-password" class="text-field" type="password" autocomplete="current-password" required data-login-password>
+            <input id="login-password" class="text-field" type="password" autocomplete="current-password" required aria-describedby="login-status" data-login-password>
 
             <button class="primary-button" type="submit">Log In</button>
-            <p class="login-status" data-login-status aria-live="polite"></p>
+            <p id="login-status" class="login-status" data-login-status aria-live="polite"></p>
           </form>
         </div>
 
@@ -92,14 +116,34 @@
       </div>
     </section>
 
+    <section class="landing-section learn-section" aria-labelledby="learn-title">
+      <div class="section-copy">
+        <p class="eyebrow">What you will learn</p>
+        <h2 id="learn-title">The first tools for reading Ancient Greek</h2>
+        <p>
+          Students build from letters and sound toward real reading: vocabulary, grammar,
+          audio-supported pronunciation, guided passages, practice exercises, and progress tracking
+          that shows where to go next.
+        </p>
+      </div>
+      <div class="learn-list">
+        <article><strong>Greek alphabet and pronunciation</strong><span>Letters, breathings, diphthongs, and classroom pronunciation.</span></article>
+        <article><strong>Vocabulary</strong><span>Core words introduced in context and reinforced through review.</span></article>
+        <article><strong>Grammar</strong><span>Forms, syntax, and sentence habits that make Greek readable.</span></article>
+        <article><strong>Guided readings</strong><span>Short passages that connect language to Xenophon and Greek culture.</span></article>
+        <article><strong>Practice exercises</strong><span>Checks, drills, translation, parsing, and review work.</span></article>
+        <article><strong>Progress tracking</strong><span>A dashboard that starts at Unit 0 and follows each student’s path.</span></article>
+      </div>
+    </section>
+
     <section id="xenophon-life" class="landing-section xenophon-life">
       <figure class="xenophon-art">
         <img src="assets/xenophon-bust.jpg" alt="Marble bust of Xenophon of Athens">
         <figcaption>Marble bust of Xenophon of Athens, Bibliotheca Alexandrina. Photo by Carole Raddato, CC BY-SA 2.0.</figcaption>
       </figure>
       <div class="section-copy">
-        <p class="eyebrow">The Life of Xenophon</p>
-        <h2>Soldier, student of Socrates, historian, teacher of practical wisdom</h2>
+        <p class="eyebrow">Why Xenophon?</p>
+        <h2>Language, history, Socrates, leadership, ethics, and Greek society</h2>
         <p>
           Xenophon lived in the late fifth and fourth centuries BCE, moving through worlds of
           philosophy, war, exile, leadership, household management, and memory. Born into the world
@@ -116,8 +160,8 @@
         </p>
         <p>
           Studying Greek with Xenophon means learning more than forms. It means learning how a Greek
-          sentence carries action, judgment, memory, command, friendship, and moral pressure across
-          the page.
+          sentence carries action, judgment, memory, command, friendship, and moral pressure. His
+          prose gives beginners a clear path into Greek language and a vivid entry into Greek culture.
         </p>
       </div>
     </section>
@@ -186,6 +230,23 @@
             Keep up your excellent progress in learning 
 Ancient Greek with Xenophon.
           </p>
+        </div>
+      </section>
+
+      <section class="start-summary card" data-start-summary data-student-dashboard>
+        <div>
+          <p class="dashboard-context">Course: Learn Ancient Greek with Xenophon</p>
+          <h3 data-start-summary-title>Welcome to the beginning</h3>
+          <p data-start-summary-location>Current location: Unit 0 — Greek Alphabet / Introduction</p>
+        </div>
+        <dl class="start-metrics" aria-label="Beginning course progress">
+          <div><dt>Lessons completed</dt><dd data-start-lessons>0</dd></div>
+          <div><dt>Vocabulary mastered</dt><dd data-start-vocabulary>0</dd></div>
+          <div><dt>Practice completed</dt><dd data-start-practice>0</dd></div>
+        </dl>
+        <div class="start-action">
+          <p data-start-next-step>Suggested next step: Begin with the Greek Alphabet.</p>
+          <a class="primary-button" href="lesson-introduction.html#intro-part-1" data-start-course-link>Start the Course</a>
         </div>
       </section>
 
@@ -267,6 +328,7 @@ Ancient Greek with Xenophon.
       </section>
     </main>
   </div>
+  <script src="auth.js"></script>
   <script src="profile-data.js"></script>
   <script src="script.js"></script>
 </body>
