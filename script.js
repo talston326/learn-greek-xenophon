@@ -958,344 +958,161 @@ const ALPHABET_EXAMPLE_AUDIO_SLUGS = new Set([
 // TODO: Expand these MVP question pools with larger authored banks before production use.
 const UNIT0_STORAGE_KEY = "xenophon-unit0-progress-v1";
 
+const UNIT0_DIPHTHONGS = [
+  ["αι", "like ai in aisle in many classroom readings", "παιδεία", "education", "Listen for alpha + iota as one learned pair."],
+  ["ει", "long close e / ei by course convention", "εἰρήνη", "peace", "Often read as a long e sound in classroom Attic."],
+  ["οι", "oi as in oil", "οἶκος", "household", "The breathing or accent stands over the second vowel."],
+  ["υι", "ui, a close rounded glide", "υἱός", "son", "Less common, but important to recognize."],
+  ["αυ", "au, often with a clear u-glide", "αὐτός", "self", "Before some consonants, classroom traditions may shade the sound."],
+  ["ευ", "eu, e + u-glide", "εὖ", "well", "Read it as a pair rather than two unrelated vowels."],
+  ["ου", "long ou / oo", "οὐ", "not", "A very common diphthong; learn it early."],
+  ["ηυ", "long e + u-glide", "ηὕρον", "I found", "Less common, but it follows the same pairing habit."]
+];
+
+const UNIT0_CONSONANT_GROUPS = [
+  ["γγ", "ng-g", "ἄγγελος", "messenger", "Gamma before gamma has a nasal value."],
+  ["γκ", "ng-k", "ἀνάγκη", "necessity", "Gamma before kappa is read nasally."],
+  ["γχ", "ng-kh", "ἔλεγχος", "examination", "Gamma before chi is read nasally."],
+  ["γξ", "ng-ks", "σάλπιγξ", "trumpet", "Gamma before xi is read nasally."],
+  ["ξ", "ks = κ + σ", "δόξα", "opinion", "Learn xi as a compressed consonant pair."],
+  ["ψ", "ps = π + σ", "ψυχή", "soul, life", "Learn psi as a compressed consonant pair."],
+  ["ζ", "z / dz / sd by classroom convention", "τράπεζα", "table", "Explanations vary; recognize the letter and sound your course uses."],
+  ["λλ, μμ, νν, ππ, ττ", "doubled consonants", "ἵππος", "horse", "Double consonants help with syllables and word shape."]
+];
+
 const UNIT0_SECTIONS = [
   {
-    id: "orientation",
+    id: "letters",
     number: "0.1",
-    title: "What is Ancient Greek?",
-    shortTitle: "Orientation",
-    description: "Enter Greek as a language of signs, sound, memory, action, and judgment.",
-    skills: ["reading.early_decoding"],
+    title: "The Greek Alphabet",
+    shortTitle: "Alphabet",
+    description: "Begin with the letters themselves: form, name, sound, and one example word.",
+    pageType: "learn",
+    reference: "alphabet",
+    skills: ["alphabet.letters", "alphabet.uppercase", "alphabet.lowercase", "alphabet.audio", "alphabet.final_sigma"],
     learn: [
-      ["Greek as a reading world", "Ancient Greek carries history, custom, character, argument, and ordinary life."],
-      ["Xenophon as guide", "The course returns to Xenophon because his prose is practical, clear, and morally alert."],
-      ["στοιχεῖα", "The letters are the elements: the smallest signs by which Greek becomes readable."]
+      ["στοιχεῖα", "The Greek letters are the elements, the building blocks of reading."],
+      ["Uppercase and lowercase", "Learn the pair together: Α/α, Β/β, Γ/γ, and so on."],
+      ["Audio convention", "Clickable Greek text has a dotted underline and a small speaker cue. Use it to hear letter names, sounds, and example words."],
+      ["Final sigma", "Sigma has two lowercase forms: σ inside a word and ς at the end of a word."]
     ],
-    practice: [
-      "Connect Greek words such as λόγος, οἶκος, and ἀρετή to the course themes.",
-      "Notice that Greek reading begins with form, sound, and context together."
-    ],
+    practice: ["Read the table aloud.", "Click each letter and example word.", "Notice which letters are vowels and which are consonants."]
+  },
+  {
+    id: "letters-practice",
+    number: "0.2",
+    title: "Alphabet Practice",
+    shortTitle: "Alphabet Practice",
+    description: "Practice identifying letters, matching forms, and distinguishing common look-alikes.",
+    pageType: "practice",
+    skills: ["alphabet.letters", "alphabet.uppercase", "alphabet.lowercase", "alphabet.order", "alphabet.final_sigma"],
+    learn: [["Goal", "Build quick recognition before adding diphthongs and combinations."]],
+    practice: ["Choose the named letter.", "Match uppercase to lowercase.", "Identify final sigma.", "Work slowly enough to notice confusable letters."],
     checkpoint: {
-      passing: 3,
-      total: 4,
+      passing: 8,
+      total: 10,
       questions: [
-        choiceQuestion("orientation-elements", "What are στοιχεῖα in this unit?", ["The elements or building blocks of reading", "A later verb tense", "A kind of punctuation"], "The elements or building blocks of reading", "στοιχεῖα are the letters and signs by which Greek becomes readable.", "reading.early_decoding"),
-        choiceQuestion("orientation-xenophon", "Why does this course keep returning to Xenophon?", ["His prose gives beginners a clear path into Greek life and thought", "He invented the Greek alphabet", "He wrote only grammar tables"], "His prose gives beginners a clear path into Greek life and thought", "Xenophon gives this course practical Greek in a living cultural world.", "reading.early_decoding"),
-        choiceQuestion("orientation-logos", "Which Greek word names speech, word, reason, or account?", ["λόγος", "οἶκος", "τιμή"], "λόγος", "λόγος is one of the course's first guiding words.", "reading.early_decoding", "λόγος"),
-        choiceQuestion("orientation-goal", "What is the goal of Unit 0?", ["Reading readiness before Lesson 1", "Full mastery of all Greek grammar", "Memorizing English derivatives"], "Reading readiness before Lesson 1", "Unit 0 prepares the signs, sounds, marks, and typing needed for Lesson 1.", "reading.early_decoding")
+        choiceQuestion("letters-alpha", "Which lowercase letter is alpha?", ["α", "λ", "δ", "ο"], "α", "Alpha is written α in lowercase.", "alphabet.lowercase", "ἄλφα"),
+        choiceQuestion("letters-theta", "Which letter is theta?", ["τ", "θ", "φ", "χ"], "θ", "Theta is θ. Tau is τ; phi is φ.", "alphabet.letters", "θῆτα"),
+        choiceQuestion("letters-omega", "Which letter is omega?", ["ο", "ω", "η", "υ"], "ω", "Omega is written ω and is traditionally the long o.", "alphabet.letters", "ὦ μέγα"),
+        choiceQuestion("letters-eta", "Match uppercase Η to its lowercase form.", ["η", "ν", "υ", "ι"], "η", "Η is eta; Ν is nu.", "alphabet.uppercase"),
+        choiceQuestion("letters-psi", "Match uppercase Ψ to its lowercase form.", ["ψ", "υ", "φ", "χ"], "ψ", "Ψ pairs with ψ. Upsilon is υ.", "alphabet.uppercase"),
+        choiceQuestion("letters-final-sigma", "Which form is final sigma?", ["σ", "ς", "ζ", "ξ"], "ς", "Final sigma is ς, used at the end of a word.", "alphabet.final_sigma"),
+        choiceQuestion("letters-order", "Which sequence is in alphabetic order?", ["α β γ δ", "α γ β δ", "β α γ δ"], "α β γ δ", "The alphabet begins α, β, γ, δ.", "alphabet.order"),
+        choiceQuestion("letters-nu-upsilon", "Which pair contrasts nu and upsilon?", ["ν / υ", "ο / ω", "ε / η", "ξ / ζ"], "ν / υ", "Nu is ν; upsilon is υ.", "alphabet.letters"),
+        inputQuestion("letters-type-beta", "Type lowercase beta.", "β", "Beta is written β.", "alphabet.lowercase"),
+        inputQuestion("letters-type-delta", "Type uppercase delta.", "Δ", "Uppercase delta is Δ.", "alphabet.uppercase")
       ]
     }
   },
   {
-    id: "letters",
-    number: "0.2",
-    title: "The Greek Letters",
-    shortTitle: "Letters",
-    description: "Learn all 24 letters by sight, name, sound, case pair, and order.",
-    skills: ["alphabet.letters", "alphabet.uppercase", "alphabet.lowercase", "alphabet.order", "alphabet.audio", "alphabet.final_sigma"],
-    learn: [
-      ["Twenty-four letters", "Learn uppercase and lowercase forms together so inscriptions, titles, and normal text reinforce one another."],
-      ["Vowels and consonants", "Greek vowels are α, ε, η, ι, ο, υ, ω. The remaining letters are consonants."],
-      ["Final sigma", "Sigma is σ inside a word and ς at the end of a word."]
-    ],
-    practice: [
-      "Identify a letter by sight.",
-      "Match uppercase to lowercase.",
-      "Type uppercase and lowercase forms.",
-      "Click the letter you hear.",
-      "Put short letter sets in alphabetic order.",
-      "Distinguish confusable letters: ο/ω, ε/η, ν/υ, σ/ς, ξ/ζ, Η/Ν, Ο/Θ, Υ/Ψ."
-    ],
-    checkpoint: {
-      passing: 16,
-      total: 20,
-      questions: repeatQuestions([
-        choiceQuestion("letters-alpha", "Which lowercase letter is alpha?", ["α", "λ", "δ", "ο"], "α", "Correct: alpha is written α in lowercase.", "alphabet.lowercase", "α"),
-        choiceQuestion("letters-theta", "Which letter is named theta?", ["τ", "θ", "φ", "χ"], "θ", "Theta is θ. Tau is τ; phi is φ.", "alphabet.letters", "θῆτα"),
-        choiceQuestion("letters-omega", "Which letter is omega?", ["ο", "ω", "η", "υ"], "ω", "Not quite. Omega is written ω and is traditionally the long o.", "alphabet.letters", "ὦ μέγα"),
-        choiceQuestion("letters-upper-lower", "Match uppercase Ψ to its lowercase form.", ["ψ", "υ", "φ", "χ"], "ψ", "Ψ pairs with ψ. Upsilon is υ.", "alphabet.uppercase"),
-        choiceQuestion("letters-eta-nu", "Which lowercase form matches uppercase Η?", ["η", "ν", "υ", "ι"], "η", "Η is eta; Ν is nu.", "alphabet.uppercase"),
-        choiceQuestion("letters-audio-mu", "Click the letter you hear.", ["μ", "ν", "λ", "ρ"], "μ", "You heard mu, written μ.", "alphabet.audio", "μῦ"),
-        choiceQuestion("letters-audio-xi", "Click the letter you hear.", ["ζ", "ξ", "χ", "ψ"], "ξ", "Xi is ξ; zeta is ζ.", "alphabet.audio", "ξῖ"),
-        inputQuestion("letters-type-lower", "Type lowercase beta.", "β", "Beta is written β.", "alphabet.lowercase"),
-        inputQuestion("letters-type-upper", "Type uppercase delta.", "Δ", "Uppercase delta is Δ.", "alphabet.uppercase"),
-        inputQuestion("letters-final-sigma", "Type final sigma.", "ς", "Final sigma is ς, used at the end of a word.", "alphabet.final_sigma"),
-        choiceQuestion("letters-order", "Which sequence is in alphabetic order?", ["α β γ δ", "α γ β δ", "β α γ δ"], "α β γ δ", "The alphabet begins α, β, γ, δ.", "alphabet.order"),
-        choiceQuestion("letters-confuse", "Which pair contrasts omicron and omega?", ["ο / ω", "ε / η", "ν / υ", "ξ / ζ"], "ο / ω", "Omicron is ο; omega is ω.", "alphabet.letters")
-      ], 20)
-    }
-  },
-  {
-    id: "sounds",
-    number: "0.3",
-    title: "Sounds and Pronunciation",
-    shortTitle: "Sounds",
-    description: "Connect Greek symbols to the classroom pronunciation used in this course.",
-    skills: ["alphabet.audio", "alphabet.letters"],
-    learn: [
-      ["Course pronunciation", "This course uses a practical classroom pronunciation for reading aloud consistently."],
-      ["Stops and aspiration", "π, τ, κ are unaspirated stops; φ, θ, χ are their aspirated partners."],
-      ["Liquids and nasals", "λ, ρ, μ, ν carry familiar l, r, m, n values, with rho usually trilled or tapped."]
-    ],
-    practice: [
-      "Hear a letter and choose it.",
-      "Hear a word and choose the first letter.",
-      "Choose the correct sound description.",
-      "Compare minimal pairs without overloading historical phonology."
-    ],
-    checkpoint: {
-      passing: 12,
-      total: 15,
-      questions: repeatQuestions([
-        choiceQuestion("sounds-alpha", "Hear the sound and choose the letter.", ["α", "ε", "ο", "η"], "α", "Alpha is the a-sound used in ἀγαθός.", "alphabet.audio", "α"),
-        choiceQuestion("sounds-first-theos", "Which letter begins θεός?", ["τ", "θ", "φ", "χ"], "θ", "θεός begins with theta, an aspirated t.", "alphabet.audio", "θεός"),
-        choiceQuestion("sounds-phi", "Which description best fits φ?", ["aspirated p", "plain p", "plain t", "ks"], "aspirated p", "Phi is taught here as aspirated p.", "alphabet.audio", "φῖ"),
-        choiceQuestion("sounds-chi", "Which letter has the aspirated k sound?", ["κ", "χ", "ξ", "γ"], "χ", "Chi is the aspirated k; kappa is the plain k.", "alphabet.audio", "χῖ"),
-        choiceQuestion("sounds-nasal", "Which pair contains nasal consonants?", ["μ / ν", "π / τ", "φ / χ", "λ / ρ"], "μ / ν", "Mu and nu are the nasal consonants m and n.", "alphabet.letters"),
-        choiceQuestion("sounds-minimal", "Which word begins with an aspirated consonant?", ["θεός", "τιμή", "βίος", "λόγος"], "θεός", "θεός begins with θ, the aspirated partner of τ.", "alphabet.audio", "θεός")
-      ], 15)
-    }
-  },
-  {
     id: "diphthongs",
-    number: "0.4",
-    title: "Vowels and Diphthongs",
+    number: "0.3",
+    title: "Diphthongs",
     shortTitle: "Diphthongs",
-    description: "Recognize, hear, build, and type common Greek vowel combinations.",
-    skills: ["diphthongs.recognition", "diphthongs.audio", "diphthongs.typing"],
+    description: "Learn the common vowel combinations and their Attic classroom sounds.",
+    pageType: "learn",
+    reference: "diphthongs",
+    skills: ["diphthongs.recognition", "diphthongs.audio"],
     learn: [
-      ["Simple vowels", "The simple vowels are α, ε, η, ι, ο, υ, ω."],
-      ["Common diphthongs", "Common diphthongs include αι, ει, οι, υι, αυ, ευ, ου, ηυ."],
-      ["Reading habit", "When two vowels work as a diphthong, read them as a learned pair."]
+      ["What is a diphthong?", "A diphthong is a pair of vowels read together as one sound unit."],
+      ["Common pairs", "The common pairs are αι, ει, οι, υι, αυ, ευ, ου, ηυ."],
+      ["Marks on diphthongs", "If a breathing or accent belongs to an initial diphthong, it is written over the second vowel: οἶκος, αἰτία."]
     ],
-    practice: [
-      "Build a diphthong from letter tiles.",
-      "Find the diphthong in a word.",
-      "Hear a diphthong and type it.",
-      "Sort single vowel vs. diphthong.",
-      "Read short words such as οἶκος."
-    ],
+    practice: ["Read each pair aloud.", "Click the examples to hear them.", "Look for the pair inside the example word."]
+  },
+  {
+    id: "diphthongs-practice",
+    number: "0.4",
+    title: "Diphthong Practice",
+    shortTitle: "Diphthong Practice",
+    description: "Practice finding, hearing, and typing diphthongs in short Greek forms.",
+    pageType: "practice",
+    skills: ["diphthongs.recognition", "diphthongs.typing"],
+    learn: [["Goal", "See the vowel pair before you try to read the whole word."]],
+    practice: ["Find the diphthong in a word.", "Choose the correct pair.", "Type the pair you see or hear."],
     checkpoint: {
-      passing: 12,
-      total: 15,
-      questions: repeatQuestions([
-        choiceQuestion("diph-find-oikos", "Click the diphthong in οἶκος.", ["οι", "ο", "κος", "ι"], "οι", "Correct. In οἶκος, οι is the diphthong.", "diphthongs.recognition", "οἶκος"),
-        inputQuestion("diph-type-ai", "Type the diphthong you hear: αι.", "αι", "αι is alpha plus iota.", "diphthongs.typing", "αι"),
-        choiceQuestion("diph-common-ou", "Which pair is a common Greek diphthong?", ["ου", "αε", "ηο", "οα"], "ου", "ου is a common diphthong.", "diphthongs.recognition", "οὐ"),
-        choiceQuestion("diph-sort", "Does παιδεία contain a diphthong?", ["Yes: αι", "No: only single vowels"], "Yes: αι", "παιδεία contains αι.", "diphthongs.recognition", "παιδεία"),
-        choiceQuestion("diph-audio-eu", "Hear the diphthong and choose it.", ["ευ", "ου", "αι", "οι"], "ευ", "You heard ευ.", "diphthongs.audio", "ευ"),
-        inputQuestion("diph-build-oi", "Build the diphthong from ο + ι.", "οι", "ο plus ι forms οι.", "diphthongs.typing")
-      ], 15)
+      passing: 7,
+      total: 8,
+      questions: [
+        choiceQuestion("diph-oikos", "Click the diphthong in οἶκος.", ["οι", "ο", "κος", "ι"], "οι", "In οἶκος, οι is the diphthong.", "diphthongs.recognition", "οἶκος"),
+        choiceQuestion("diph-paideia", "Which diphthong appears in παιδεία?", ["αι", "ει", "οι", "ου"], "αι", "παιδεία contains αι.", "diphthongs.recognition", "παιδεία"),
+        choiceQuestion("diph-ou", "Which pair is commonly read as long ou / oo?", ["ου", "αυ", "ει", "υι"], "ου", "ου is a common diphthong, often read as long ou / oo.", "diphthongs.recognition", "οὐ"),
+        inputQuestion("diph-type-ai", "Type alpha + iota as a diphthong.", "αι", "αι is alpha plus iota.", "diphthongs.typing"),
+        inputQuestion("diph-type-oi", "Type the diphthong in οἶκος without accents or breathing.", "οι", "The vowel pair is οι.", "diphthongs.typing"),
+        choiceQuestion("diph-mark", "In an initial diphthong, where does the breathing stand?", ["over the second vowel", "over the first vowel", "after the word"], "over the second vowel", "In οἶκος and αἰτία, the mark is over the second vowel.", "diphthongs.recognition"),
+        choiceQuestion("diph-eu", "Which form contains ευ?", ["εὖ", "οὐ", "αἰτία", "οἶκος"], "εὖ", "εὖ contains ευ.", "diphthongs.recognition", "εὖ"),
+        choiceQuestion("diph-single", "Which is a single vowel, not a diphthong?", ["η", "αι", "ου", "ει"], "η", "η is a single vowel.", "diphthongs.recognition")
+      ]
     }
   },
   {
     id: "consonants",
     number: "0.5",
-    title: "Consonant Groups",
+    title: "Double Consonants and Combinations",
     shortTitle: "Consonants",
-    description: "Learn consonant combinations that do not behave transparently at first sight.",
+    description: "Learn consonant groups whose sound is not obvious from the first letter alone.",
+    pageType: "learn",
+    reference: "consonants",
     skills: ["consonants.gamma_groups", "consonants.double_consonants", "consonants.xi_psi"],
     learn: [
-      ["Gamma groups", "γ before γ, κ, χ, or ξ is read with an ng sound: γγ, γκ, γχ, γξ."],
+      ["Gamma groups", "γ before γ, κ, χ, or ξ has a nasal ng sound: γγ, γκ, γχ, γξ."],
       ["Xi and psi", "ξ is best learned as κ + σ; ψ is best learned as π + σ."],
-      ["Zeta", "ζ receives different classroom explanations; this course flags the variation without making it a barrier."]
+      ["Double consonants", "λλ, μμ, νν, ππ, ττ and similar groups help you see syllables and word shape."],
+      ["Zeta", "ζ is taught differently in different classrooms; this course marks the variation without making it a barrier."]
     ],
-    practice: [
-      "Find the consonant group.",
-      "Choose the correct explanation.",
-      "Build ξ or ψ from components.",
-      "Compare γγ / γκ / γχ.",
-      "Read short syllable patterns."
-    ],
-    checkpoint: {
-      passing: 10,
-      total: 12,
-      questions: repeatQuestions([
-        choiceQuestion("cons-xi", "ξ is best understood as which consonant pair?", ["κ + σ", "π + σ", "τ + θ"], "κ + σ", "Correct. ξ is best learned as κ + σ.", "consonants.xi_psi", "ξ"),
-        choiceQuestion("cons-psi", "ψ is best understood as which consonant pair?", ["π + σ", "κ + σ", "β + δ"], "π + σ", "Correct. ψ is best learned as π + σ.", "consonants.xi_psi", "ψ"),
-        choiceQuestion("cons-gamma", "In ἄγγελος, γγ is read with what kind of sound?", ["ng-g", "plain g-g", "ks", "ps"], "ng-g", "Before another gamma, γ has an ng value.", "consonants.gamma_groups", "ἄγγελος"),
-        choiceQuestion("cons-group", "Which form contains a gamma group?", ["ἄγγελος", "λόγος", "τιμή", "βίος"], "ἄγγελος", "ἄγγελος contains γγ.", "consonants.gamma_groups", "ἄγγελος"),
-        choiceQuestion("cons-double", "Which pair is a double consonant?", ["λλ", "αι", "ου", "ει"], "λλ", "λλ is a doubled lambda.", "consonants.double_consonants"),
-        inputQuestion("cons-build-xi", "Build ξ from its component pair.", "κσ", "ξ represents κ + σ.", "consonants.xi_psi")
-      ], 12)
-    }
+    practice: ["Read the group.", "Read the example word.", "Explain the combination in plain language."]
   },
   {
-    id: "breathings",
+    id: "consonants-practice",
     number: "0.6",
-    title: "Breathings",
-    shortTitle: "Breathings",
-    description: "Recognize smooth and rough breathings on initial vowels, diphthongs, and rho.",
-    skills: ["breathings.smooth", "breathings.rough", "breathings.placement"],
-    learn: [
-      ["Smooth breathing", "Smooth breathing marks no h-sound."],
-      ["Rough breathing", "Rough breathing adds an h-sound."],
-      ["Placement", "Breathings appear on initial vowels and diphthongs; in a diphthong, the mark sits over the second vowel."]
-    ],
-    practice: [
-      "Choose smooth or rough.",
-      "Find the word that begins with an h-sound.",
-      "Place the breathing over the correct vowel in a diphthong.",
-      "Correct a missing breathing.",
-      "Listen for h-sound or no h-sound."
-    ],
+    title: "Consonant Practice",
+    shortTitle: "Consonant Practice",
+    description: "Practice reading and explaining consonant combinations.",
+    pageType: "practice",
+    skills: ["consonants.gamma_groups", "consonants.double_consonants", "consonants.xi_psi"],
+    learn: [["Goal", "Recognize the group before trying to pronounce the whole word."]],
+    practice: ["Find the consonant group.", "Choose the correct explanation.", "Build ξ or ψ from components."],
     checkpoint: {
-      passing: 12,
-      total: 15,
-      questions: repeatQuestions([
-        choiceQuestion("breath-rough-ho", "Which word begins with an h-sound?", ["ὁδός", "οἶκος", "ἀρετή"], "ὁδός", "ὁδός has rough breathing and begins with h.", "breathings.rough", "ὁδός"),
-        choiceQuestion("breath-smooth-oikos", "What kind of breathing appears in οἶκος?", ["smooth", "rough", "none"], "smooth", "οἶκος has smooth breathing over the second vowel of the diphthong.", "breathings.smooth", "οἶκος"),
-        choiceQuestion("breath-placement", "Where does the breathing stand in initial αι?", ["over ι", "over α", "after both letters"], "over ι", "In a diphthong, the breathing is placed over the second vowel.", "breathings.placement", "αἰτία"),
-        choiceQuestion("breath-rho", "Which initial consonant normally takes rough breathing?", ["rho", "sigma", "beta", "lambda"], "rho", "Initial rho is written ῥ.", "breathings.rough", "ῥήτωρ"),
-        inputQuestion("breath-copy", "Copy this word exactly: ὅρος", "ὅρος", "Check the rough breathing and accent over omicron.", "breathings.rough"),
-        choiceQuestion("breath-find", "Find the breathing mark in αἰτία.", ["over ι", "over τ", "over α"], "over ι", "The smooth breathing is over the second vowel of αι.", "breathings.placement", "αἰτία")
-      ], 15)
-    }
-  },
-  {
-    id: "accents",
-    number: "0.7",
-    title: "Accents and Iota Subscript",
-    shortTitle: "Accents",
-    description: "Recognize accent marks, distinguish them from breathings, and copy iota subscript.",
-    skills: ["accents.acute", "accents.grave", "accents.circumflex", "accents.iota_subscript"],
-    learn: [
-      ["Three accents", "Greek uses acute, grave, and circumflex accents. Full accent theory comes later."],
-      ["Accent vs. breathing", "Breathings mark initial h-sound or no h-sound; accents mark the accented syllable."],
-      ["Iota subscript", "ᾳ, ῃ, and ῳ preserve an older iota under a long vowel."],
-      ["Later preview", "Some small words lean on the previous word and may affect accent. You will study this later."]
-    ],
-    practice: [
-      "Identify acute, grave, and circumflex.",
-      "Click the accented syllable.",
-      "Copy the word exactly.",
-      "Distinguish breathing from accent.",
-      "Find iota subscript.",
-      "Correct a malformed word."
-    ],
-    checkpoint: {
-      passing: 12,
-      total: 15,
-      questions: repeatQuestions([
-        choiceQuestion("accent-acute", "Which word has an acute accent?", ["λόγος", "τοῦ", "τὸ"], "λόγος", "λόγος has an acute accent over ο.", "accents.acute", "λόγος"),
-        choiceQuestion("accent-circ", "Which mark appears in οἶκος?", ["circumflex", "grave", "iota subscript"], "circumflex", "οἶκος has a circumflex over ι.", "accents.circumflex", "οἶκος"),
-        choiceQuestion("accent-grave", "Which word has a grave accent?", ["τὸ", "τό", "τοῦ"], "τὸ", "τὸ has a grave accent.", "accents.grave", "τὸ"),
-        choiceQuestion("accent-iota-sub", "Which form contains iota subscript?", ["ᾠδή", "οἶκος", "λόγος"], "ᾠδή", "ᾠδή begins with omega plus iota subscript.", "accents.iota_subscript", "ᾠδή"),
-        inputQuestion("accent-copy", "Copy this word exactly: λόγος", "λόγος", "The acute accent belongs over the first omicron.", "accents.acute"),
-        inputQuestion("accent-iota-copy", "Copy this word exactly: ᾠδή", "ᾠδή", "Look for the iota subscript under omega.", "accents.iota_subscript")
-      ], 15)
-    }
-  },
-  {
-    id: "keyboard",
-    number: "0.8",
-    title: "Polytonic Keyboard Lab",
-    shortTitle: "Keyboard",
-    description: "Practice typing Ancient Greek with platform guidance and an in-app keyboard.",
-    skills: ["keyboard.polytonic_basic", "keyboard.final_sigma", "keyboard.accents", "keyboard.breathings"],
-    learn: [
-      ["Mac", "System Settings → Keyboard → Input Sources → add Greek Polytonic. Use the menu bar or Control-Space to switch."],
-      ["Windows", "Settings → Time & language → Language & region → add Greek, then choose the polytonic keyboard if available."],
-      ["Final sigma", "Use ς at the end of a word and σ elsewhere."],
-      ["Marks", "Use your system keyboard or the in-app keyboard below for accents, breathings, and iota subscript."]
-    ],
-    practice: [
-      "Type α β γ δ ε.",
-      "Type Α Β Γ Δ Ε.",
-      "Type σ and ς correctly.",
-      "Copy λόγος, ἄνθρωπος, οἶκος, and ᾠδή.",
-      "Use Unicode-normalized checking so composed and decomposed Greek are treated fairly."
-    ],
-    keyboard: true,
-    checkpoint: {
-      passing: 8,
-      total: 10,
+      passing: 7,
+      total: 8,
       questions: [
-        inputQuestion("key-lower", "Type: α β γ δ ε", "α β γ δ ε", "These are the first five lowercase Greek letters.", "keyboard.polytonic_basic"),
-        inputQuestion("key-upper", "Type: Α Β Γ Δ Ε", "Α Β Γ Δ Ε", "These are the first five uppercase Greek letters.", "keyboard.polytonic_basic"),
-        inputQuestion("key-sigma", "Type sigma and final sigma with a space between them: σ ς", "σ ς", "Use σ inside words and ς at word-end.", "keyboard.final_sigma"),
-        inputQuestion("key-logos", "Copy exactly: λόγος", "λόγος", "Check the acute accent and final sigma.", "keyboard.accents"),
-        inputQuestion("key-anthropos", "Copy exactly: ἄνθρωπος", "ἄνθρωπος", "Check smooth breathing, acute accent, and final sigma.", "keyboard.breathings"),
-        inputQuestion("key-oikos", "Copy exactly: οἶκος", "οἶκος", "Check the smooth breathing and circumflex over the diphthong.", "keyboard.breathings"),
-        inputQuestion("key-ode", "Copy exactly: ᾠδή", "ᾠδή", "Check rough/smooth mark, iota subscript, and acute accent.", "keyboard.accents"),
-        inputQuestion("key-audio-word", "Type the word you hear: ψυχή", "ψυχή", "ψυχή has psi, upsilon, chi, eta, and an acute accent.", "keyboard.accents", "ψυχή"),
-        inputQuestion("key-final", "Copy exactly: θεός", "θεός", "θεός ends with final sigma.", "keyboard.final_sigma"),
-        inputQuestion("key-breath", "Copy exactly: ῥήτωρ", "ῥήτωρ", "Initial rho takes rough breathing.", "keyboard.breathings")
+        choiceQuestion("cons-xi", "ξ is best understood as which consonant pair?", ["κ + σ", "π + σ", "τ + θ"], "κ + σ", "ξ is best learned as κ + σ.", "consonants.xi_psi", "ξ"),
+        choiceQuestion("cons-psi", "ψ is best understood as which consonant pair?", ["π + σ", "κ + σ", "β + δ"], "π + σ", "ψ is best learned as π + σ.", "consonants.xi_psi", "ψ"),
+        choiceQuestion("cons-gamma", "In ἄγγελος, what group do you see?", ["γγ", "γκ", "γχ", "ξ"], "γγ", "ἄγγελος contains γγ, a gamma group.", "consonants.gamma_groups", "ἄγγελος"),
+        choiceQuestion("cons-ng", "γ before γ, κ, χ, or ξ is read with what value?", ["ng", "ps", "plain s", "silent"], "ng", "Gamma has a nasal ng value before these consonants.", "consonants.gamma_groups"),
+        choiceQuestion("cons-double", "Which pair is a double consonant?", ["λλ", "αι", "ου", "ει"], "λλ", "λλ is a doubled lambda.", "consonants.double_consonants"),
+        choiceQuestion("cons-hippos", "Which word has a double consonant?", ["ἵππος", "λόγος", "τιμή", "βίος"], "ἵππος", "ἵππος contains ππ.", "consonants.double_consonants", "ἵππος"),
+        inputQuestion("cons-build-xi", "Type the component pair represented by ξ, without spaces.", "κσ", "ξ represents κ + σ.", "consonants.xi_psi"),
+        inputQuestion("cons-build-psi", "Type the component pair represented by ψ, without spaces.", "πσ", "ψ represents π + σ.", "consonants.xi_psi")
       ]
-    }
-  },
-  {
-    id: "decoding",
-    number: "0.9",
-    title: "Early Decoding",
-    shortTitle: "Early Decoding",
-    description: "Read short, course-relevant Greek words before Lesson 1.",
-    skills: ["reading.early_decoding", "diphthongs.recognition", "breathings.rough", "accents.acute"],
-    learn: [
-      ["Small words, real habits", "A short Greek word can show letters, breathing, accent, syllables, and meaning all at once."],
-      ["Feature spotting", "Before translating, learn to notice diphthongs, breathings, accents, and final sigma."],
-      ["Reading aloud", "Click the words, listen, and then read them again yourself."]
-    ],
-    practice: [
-      "Click a word to hear it.",
-      "Find diphthong, breathing, and accent.",
-      "Copy a word exactly.",
-      "Match a word to meaning."
-    ],
-    checkpoint: {
-      passing: 10,
-      total: 12,
-      questions: repeatQuestions([
-        choiceQuestion("decode-logos", "Match λόγος to its meaning.", ["word, reason, account", "household", "gift"], "word, reason, account", "λόγος means word, reason, or account.", "reading.early_decoding", "λόγος"),
-        choiceQuestion("decode-oikos", "Which feature appears in οἶκος?", ["diphthong οι", "rough breathing", "iota subscript"], "diphthong οι", "οἶκος contains the diphthong οι.", "diphthongs.recognition", "οἶκος"),
-        choiceQuestion("decode-horse", "Match ἵππος to its meaning.", ["horse", "friend", "honor"], "horse", "ἵππος means horse.", "reading.early_decoding", "ἵππος"),
-        inputQuestion("decode-copy-arete", "Copy exactly: ἀρετή", "ἀρετή", "Check smooth breathing and the acute accent.", "reading.early_decoding"),
-        choiceQuestion("decode-breath", "Which word begins with rough breathing?", ["ἵππος", "ἀρετή", "οἶκος"], "ἵππος", "ἵππος begins with rough breathing and an h-sound.", "breathings.rough", "ἵππος"),
-        choiceQuestion("decode-meaning", "Match ψυχή to its meaning.", ["soul, life", "land", "honor"], "soul, life", "ψυχή means soul or life.", "reading.early_decoding", "ψυχή")
-      ], 12)
-    }
-  },
-  {
-    id: "readiness",
-    number: "0.10",
-    title: "Reading Readiness Check",
-    shortTitle: "Readiness Check",
-    description: "A final mixed check before Lesson 1, with retakes and review recommendations.",
-    skills: ["reading.early_decoding"],
-    learn: [
-      ["Soft gate", "The course recommends passing Unit 0 before Lesson 1, but the MVP does not absolutely block you."],
-      ["Review recommendations", "Missed skills generate targeted review links."],
-      ["Retakes allowed", "Practice again, retake the check, or continue to Lesson 1 with a clear recommendation."]
-    ],
-    practice: [
-      "Letter recognition.",
-      "Audio identification.",
-      "Typing Greek letters and forms.",
-      "Diphthongs, consonant groups, breathings, accents, and early word reading."
-    ],
-    finalCheck: true,
-    checkpoint: {
-      passing: 43,
-      total: 50,
-      questions: repeatQuestions([
-        choiceQuestion("ready-letter-alpha", "Letter recognition: choose alpha.", ["α", "ω", "η", "ν"], "α", "Alpha is α.", "alphabet.letters", "α"),
-        choiceQuestion("ready-audio-theta", "Audio identification: choose theta.", ["τ", "θ", "χ", "φ"], "θ", "Theta is θ.", "alphabet.audio", "θῆτα"),
-        inputQuestion("ready-type-beta", "Typing: type lowercase beta.", "β", "Beta is β.", "alphabet.lowercase"),
-        inputQuestion("ready-type-logos", "Typing: copy λόγος.", "λόγος", "Check the acute accent and final sigma.", "keyboard.accents"),
-        choiceQuestion("ready-diph", "Diphthong: identify the diphthong in οἶκος.", ["οι", "ο", "κος", "ι"], "οι", "οἶκος contains οι.", "diphthongs.recognition", "οἶκος"),
-        choiceQuestion("ready-consonants", "Consonant group: ξ equals what?", ["κ + σ", "π + σ", "γ + γ"], "κ + σ", "ξ is best learned as κ + σ.", "consonants.xi_psi", "ξ"),
-        choiceQuestion("ready-breath", "Breathing: which word begins with h-sound?", ["ὁδός", "οἶκος", "ἀρετή"], "ὁδός", "ὁδός has rough breathing.", "breathings.rough", "ὁδός"),
-        choiceQuestion("ready-accent", "Accent: which word has a circumflex?", ["οἶκος", "λόγος", "τὸ"], "οἶκος", "οἶκος has a circumflex.", "accents.circumflex", "οἶκος"),
-        choiceQuestion("ready-iota", "Iota subscript: choose the form with iota subscript.", ["ᾠδή", "ψυχή", "χώρα"], "ᾠδή", "ᾠδή contains iota subscript.", "accents.iota_subscript", "ᾠδή"),
-        choiceQuestion("ready-reading", "Early reading: match δῶρον.", ["gift", "friend", "land"], "gift", "δῶρον means gift.", "reading.early_decoding", "δῶρον")
-      ], 50)
     }
   }
 ];
 
 const UNIT0_SECTION_ALIASES = {
-  "intro-part-1": "overview",
-  "intro-part-2": "overview"
+  "intro-part-1": "letters",
+  "intro-part-2": "letters"
 };
 
 const UNIT0_KEYBOARD_ROWS = [
@@ -1464,6 +1281,10 @@ function getUnit0SectionStatus(progress, section) {
     return "Mastered";
   }
 
+  if (!section.checkpoint && record.viewed) {
+    return "Mastered";
+  }
+
   if (record.attempts > 0) {
     return "Practice Needed";
   }
@@ -1557,15 +1378,19 @@ function recordUnit0Attempt(section, result) {
 function getUnit0HashSectionId() {
   const rawHash = window.location.hash.replace(/^#/, "");
 
-  if (!rawHash || UNIT0_SECTION_ALIASES[rawHash] === "overview") {
-    return "overview";
+  if (!rawHash) {
+    return "letters";
+  }
+
+  if (UNIT0_SECTION_ALIASES[rawHash]) {
+    return UNIT0_SECTION_ALIASES[rawHash];
   }
 
   if (rawHash.startsWith("unit0-")) {
     return rawHash.replace("unit0-", "");
   }
 
-  return UNIT0_SECTIONS.some((section) => section.id === rawHash) ? rawHash : "overview";
+  return UNIT0_SECTIONS.some((section) => section.id === rawHash) ? rawHash : "letters";
 }
 
 function getUnit0SectionUrl(section) {
@@ -1581,11 +1406,10 @@ function renderUnit0ProgressStrip(progress = readUnit0Progress(), activeSectionI
     return;
   }
 
-  const stripSections = UNIT0_SECTIONS.filter((section) => section.id !== "orientation");
+  const stripSections = UNIT0_SECTIONS;
   unit0ProgressStripEl.innerHTML = `
     <label class="unit0-progress-select-label" for="unit0-progress-select">Unit 0 section</label>
     <select id="unit0-progress-select" data-unit0-section-select>
-      <option value="">Unit 0 Overview</option>
       ${stripSections.map((section) => `
         <option value="${section.id}"${section.id === activeSectionId ? " selected" : ""}>${section.shortTitle}</option>
       `).join("")}
@@ -1602,7 +1426,7 @@ function renderUnit0ProgressStrip(progress = readUnit0Progress(), activeSectionI
 
   const select = unit0ProgressStripEl.querySelector("[data-unit0-section-select]");
   select?.addEventListener("change", () => {
-    window.location.hash = select.value ? `unit0-${select.value}` : "";
+    window.location.hash = `unit0-${select.value || "letters"}`;
   });
 }
 
@@ -1650,13 +1474,7 @@ function renderUnit0Landing() {
     return;
   }
 
-  const progress = readUnit0Progress();
-  unit0OverviewEl.hidden = false;
-  unit0SectionViewEl.hidden = true;
-  renderUnit0ProgressStrip(progress, "");
-  renderUnit0OverallProgress(progress);
-  renderUnit0Cards(progress);
-  applyGreekTextStyling(unit0OverviewEl);
+  renderUnit0Section("letters");
 }
 
 function renderLearnList(section) {
@@ -1678,6 +1496,151 @@ function renderPracticeList(section) {
       ${section.practice.map((item) => `<li>${item}</li>`).join("")}
     </ul>
   `;
+}
+
+function renderUnit0AlphabetReference() {
+  return `
+    <section class="unit0-reference-panel" aria-labelledby="unit0-alphabet-reference-title">
+      <div class="unit0-reference-heading">
+        <div>
+          <p class="eyebrow">Reference</p>
+          <h4 id="unit0-alphabet-reference-title">Greek Letters, Sounds, and Examples</h4>
+        </div>
+      </div>
+      <p class="alphabet-audio-note">
+        <span class="audio-cue" aria-hidden="true">▶</span>
+        Click a letter, name, sound, or example word to hear it. Audio-enabled text keeps the dotted underline.
+      </p>
+      <div class="alphabet-table-wrap">
+        <table class="alphabet-table">
+          <thead>
+            <tr>
+              <th>Letter</th>
+              <th>Name</th>
+              <th>Sound</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${GREEK_ALPHABET.map(([upper, lower, greekName, englishName, sound, example, gloss, slug, exampleSlug]) => {
+              const letterAudioSrc = ALPHABET_LETTER_AUDIO_SLUGS.has(slug) ? `assets/audio/alphabet/${slug}-letter.mp3` : "";
+              const nameAudioSrc = ALPHABET_NAME_AUDIO_SLUGS.has(slug) ? `assets/audio/alphabet/${slug}-name.mp3` : "";
+              const exampleAudioSrc = ALPHABET_EXAMPLE_AUDIO_SLUGS.has(exampleSlug) ? `assets/audio/alphabet/${exampleSlug}.mp3` : "";
+
+              return `
+                <tr>
+                  <td>
+                    <button class="audio-text audio-text-letter letter-pair greek-text" type="button" ${renderAudioAttributes(nameAudioSrc, greekName)} aria-label="Hear ${englishName}, ${upper} ${lower}" lang="grc">
+                      <strong>${upper}</strong><span>${lower}</span>
+                    </button>
+                  </td>
+                  <td>
+                    <span class="alphabet-name-stack">
+                      <button class="audio-text audio-text-name greek-text" type="button" ${renderAudioAttributes(nameAudioSrc, greekName)} aria-label="Hear the Greek letter name ${greekName}" lang="grc">${greekName}</button>
+                      <button class="audio-text audio-text-english-name" type="button" ${renderAudioAttributes(nameAudioSrc, englishName)} aria-label="Hear the English letter name ${englishName}">${englishName}</button>
+                    </span>
+                  </td>
+                  <td>
+                    <button class="audio-text audio-text-sound" type="button" ${renderAudioAttributes(letterAudioSrc, lower)} aria-label="Hear the sound for ${englishName}">${sound}</button>
+                  </td>
+                  <td>
+                    <button class="audio-text greek-example greek-text" type="button" ${renderAudioAttributes(exampleAudioSrc, example)} aria-label="Hear ${example}, ${gloss}" lang="grc">${example}</button>
+                    <span class="muted">(${gloss})</span>
+                  </td>
+                </tr>
+              `;
+            }).join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function renderUnit0DiphthongReference() {
+  return `
+    <section class="unit0-reference-panel" aria-labelledby="unit0-diphthong-reference-title">
+      <div class="unit0-reference-heading">
+        <div>
+          <p class="eyebrow">Reference</p>
+          <h4 id="unit0-diphthong-reference-title">Attic Diphthong Sounds</h4>
+        </div>
+      </div>
+      <div class="unit0-reference-table-wrap">
+        <table class="unit0-reference-table">
+          <thead>
+            <tr>
+              <th>Diphthong</th>
+              <th>Course Sound</th>
+              <th>Example</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${UNIT0_DIPHTHONGS.map(([pair, sound, example, gloss, note]) => `
+              <tr>
+                <td><button class="audio-text greek-text unit0-reference-token" type="button" ${renderAudioAttributes("", pair)} lang="grc">${pair}</button></td>
+                <td>${sound}</td>
+                <td><button class="audio-text greek-text" type="button" ${renderAudioAttributes("", example)} lang="grc">${example}</button> <span class="muted">(${gloss})</span></td>
+                <td>${note}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function renderUnit0ConsonantReference() {
+  return `
+    <section class="unit0-reference-panel" aria-labelledby="unit0-consonant-reference-title">
+      <div class="unit0-reference-heading">
+        <div>
+          <p class="eyebrow">Reference</p>
+          <h4 id="unit0-consonant-reference-title">Double Consonants and Combinations</h4>
+        </div>
+      </div>
+      <div class="unit0-reference-table-wrap">
+        <table class="unit0-reference-table">
+          <thead>
+            <tr>
+              <th>Group</th>
+              <th>Sound / Explanation</th>
+              <th>Example</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${UNIT0_CONSONANT_GROUPS.map(([group, sound, example, gloss, note]) => `
+              <tr>
+                <td><button class="audio-text greek-text unit0-reference-token" type="button" ${renderAudioAttributes("", group)} lang="grc">${group}</button></td>
+                <td>${sound}</td>
+                <td><button class="audio-text greek-text" type="button" ${renderAudioAttributes("", example)} lang="grc">${example}</button> <span class="muted">(${gloss})</span></td>
+                <td>${note}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function renderUnit0Reference(section) {
+  if (section.reference === "alphabet") {
+    return renderUnit0AlphabetReference();
+  }
+
+  if (section.reference === "diphthongs") {
+    return renderUnit0DiphthongReference();
+  }
+
+  if (section.reference === "consonants") {
+    return renderUnit0ConsonantReference();
+  }
+
+  return "";
 }
 
 function renderUnit0AudioButton(question) {
@@ -1759,9 +1722,11 @@ function renderUnit0Nav(section, passed = false) {
 
   return `
     <nav class="unit0-section-nav" aria-label="Unit 0 section navigation">
-      <a class="secondary-button" href="${previous ? getUnit0SectionUrl(previous) : "#"}">Back</a>
-      <a class="secondary-button" href="index.html">Save & Exit</a>
-      <button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>
+      ${previous
+        ? `<a class="secondary-button" href="${getUnit0SectionUrl(previous)}">Previous: ${previous.shortTitle}</a>`
+        : `<span class="secondary-button unit0-nav-disabled" aria-disabled="true">Previous</span>`}
+      <a class="secondary-button" href="index.html">Dashboard</a>
+      ${section.pageType === "practice" ? `<button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>` : ""}
       ${next
         ? `<a class="${passed ? "primary-button" : "secondary-button"}" href="${getUnit0SectionUrl(next)}">Next: ${next.shortTitle}</a>`
         : `<a class="${passed ? "primary-button" : "secondary-button"}" href="lessons.html#lesson-1">Continue to Lesson 1</a>`}
@@ -1808,14 +1773,10 @@ function renderUnit0Section(sectionId) {
   const progress = readUnit0Progress();
   const record = getUnit0SectionRecord(progress, section.id);
   const status = getUnit0SectionStatus(progress, section);
-  const questions = section.checkpoint.questions.slice(0, section.checkpoint.total);
+  const questions = section.checkpoint?.questions.slice(0, section.checkpoint.total) || [];
   const resultMessage = record.attempts
     ? record.passed
-      ? section.finalCheck
-        ? "Excellent. You are ready for Lesson 1."
-        : `Passed: ${record.score}/${record.total}. Continue when ready.`
-      : section.finalCheck
-      ? `Almost there. Review these skills: ${(record.missedSkills || []).join(", ") || "mixed review"}.`
+      ? `Passed: ${record.score}/${record.total}. Continue when ready.`
       : `Practice needed: ${record.score}/${record.total}. Review the feedback, then try again.`
     : "";
 
@@ -1839,6 +1800,8 @@ function renderUnit0Section(sectionId) {
       ${renderLearnList(section)}
     </section>
 
+    ${renderUnit0Reference(section)}
+
     <section class="unit0-practice-panel" aria-labelledby="unit0-practice-title">
       <p class="eyebrow">Practice</p>
       <h4 id="unit0-practice-title">What you will practice</h4>
@@ -1847,23 +1810,25 @@ function renderUnit0Section(sectionId) {
 
     ${section.keyboard ? renderUnit0Keyboard() : ""}
 
-    <section class="unit0-checkpoint" aria-labelledby="unit0-checkpoint-title">
-      <div class="unit0-checkpoint-heading">
-        <div>
-          <p class="eyebrow">${section.finalCheck ? "Final Check" : "Checkpoint"}</p>
-          <h4 id="unit0-checkpoint-title">${section.checkpoint.total} questions · passing ${section.checkpoint.passing}/${section.checkpoint.total}</h4>
+    ${section.checkpoint ? `
+      <section class="unit0-checkpoint" aria-labelledby="unit0-checkpoint-title">
+        <div class="unit0-checkpoint-heading">
+          <div>
+            <p class="eyebrow">Exercises</p>
+            <h4 id="unit0-checkpoint-title">${section.checkpoint.total} questions · passing ${section.checkpoint.passing}/${section.checkpoint.total}</h4>
+          </div>
+          <button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>
         </div>
-        <button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>
-      </div>
-      <div class="unit0-question-list">
-        ${questions.map(renderUnit0Question).join("")}
-      </div>
-      <div class="unit0-submit-row">
-        <button class="primary-button" type="button" data-unit0-submit>Submit ${section.finalCheck ? "Reading Readiness Check" : "Checkpoint"}</button>
-        <p class="unit0-result" data-unit0-result aria-live="polite">${resultMessage}</p>
-      </div>
-      <div data-unit0-review-recommendations>${renderUnit0ReviewRecommendations(section, record)}</div>
-    </section>
+        <div class="unit0-question-list">
+          ${questions.map(renderUnit0Question).join("")}
+        </div>
+        <div class="unit0-submit-row">
+          <button class="primary-button" type="button" data-unit0-submit>Score Practice</button>
+          <p class="unit0-result" data-unit0-result aria-live="polite">${resultMessage}</p>
+        </div>
+        <div data-unit0-review-recommendations>${renderUnit0ReviewRecommendations(section, record)}</div>
+      </section>
+    ` : ""}
 
     ${renderUnit0Nav(section, record.passed)}
   `;
@@ -1953,6 +1918,8 @@ function bindUnit0SectionControls(root, section) {
       });
       button.classList.add("is-selected");
       button.setAttribute("aria-pressed", "true");
+      const result = evaluateUnit0Question(question, section);
+      button.classList.add(result.isCorrect ? "is-correct" : "is-wrong");
     });
   });
 
@@ -2331,8 +2298,7 @@ function getContinueUrl(progress) {
   const lesson = findLesson(progress.currentLessonId);
 
   if (lesson.id === "intro-1") {
-    const unit0Overview = getUnit0Overview();
-    return `lesson-introduction.html${getUnit0SectionUrl(unit0Overview.nextSection)}`;
+    return `lesson-introduction.html${getUnit0SectionUrl(getSectionById("letters"))}`;
   }
 
   if (lesson.url.includes("#")) {
