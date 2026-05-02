@@ -3471,6 +3471,7 @@
       opacity: 0;
       transform: scale(.92);
       pointer-events: none;
+      visibility: hidden;
     }
 
     .unit0-complete-prompt {

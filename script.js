@@ -2029,7 +2029,7 @@ function bindUnit0MatchingControls(root, section) {
 
   board.querySelectorAll("[data-unit0-match-tile]").forEach((tile) => {
     tile.addEventListener("click", () => {
-      if (tile.hidden || tile === selectedTile) {
+      if (tile.classList.contains("is-matched") || tile === selectedTile) {
         return;
       }
 
@@ -2059,8 +2059,10 @@ function bindUnit0MatchingControls(root, section) {
         matchedPairs += 1;
 
         setTimeout(() => {
-          firstTile.hidden = true;
-          secondTile.hidden = true;
+          firstTile.disabled = true;
+          secondTile.disabled = true;
+          firstTile.setAttribute("aria-hidden", "true");
+          secondTile.setAttribute("aria-hidden", "true");
           updateRemaining();
 
           if (matchedPairs === section.matchingPairs.length) {
