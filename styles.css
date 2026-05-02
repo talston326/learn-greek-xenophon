@@ -3400,6 +3400,108 @@
       background: rgba(255,247,239,.92);
     }
 
+    .unit0-matching-panel {
+      display: grid;
+      gap: 14px;
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 18px;
+      background: rgba(255,253,251,.72);
+      padding: 18px;
+    }
+
+    .unit0-matching-instructions {
+      margin: 0;
+      color: #443b35;
+      line-height: 1.48;
+    }
+
+    .unit0-matching-workspace {
+      min-height: 420px;
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 10px;
+      align-content: start;
+      border: 1px dashed rgba(115,0,10,.18);
+      border-radius: 18px;
+      background:
+        linear-gradient(180deg, rgba(250,246,240,.76), rgba(255,255,255,.62));
+      padding: 14px;
+    }
+
+    .unit0-match-tile {
+      min-height: 76px;
+      border: 1px solid rgba(115,0,10,.14);
+      border-radius: 14px;
+      background: rgba(255,255,255,.9);
+      color: #332b26;
+      font: inherit;
+      cursor: pointer;
+      box-shadow: 0 8px 18px rgba(55, 38, 22, 0.06);
+      transition: transform .16s ease, background .16s ease, border-color .16s ease, opacity .16s ease;
+    }
+
+    .unit0-match-tile span {
+      display: block;
+      color: var(--usc-garnet);
+      font-size: clamp(1.8rem, 3vw, 2.45rem);
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .unit0-match-tile:not(.greek-text) span {
+      color: #332b26;
+      font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+      text-transform: uppercase;
+      letter-spacing: .02em;
+    }
+
+    .unit0-match-tile:hover,
+    .unit0-match-tile.is-selected {
+      transform: translateY(-2px);
+      background: rgba(115,0,10,.07);
+      border-color: rgba(115,0,10,.34);
+    }
+
+    .unit0-match-tile.is-wrong {
+      background: rgba(115,0,10,.1);
+      border-color: rgba(115,0,10,.32);
+    }
+
+    .unit0-match-tile.is-matched {
+      opacity: 0;
+      transform: scale(.92);
+      pointer-events: none;
+    }
+
+    .unit0-complete-prompt {
+      display: grid;
+      gap: 8px;
+      border: 1px solid rgba(92,166,106,.3);
+      border-radius: 16px;
+      background: rgba(246,252,247,.92);
+      padding: 14px;
+    }
+
+    .unit0-complete-prompt[hidden] {
+      display: none;
+    }
+
+    .unit0-complete-prompt strong {
+      color: #2f6e3b;
+      font-size: 1.12rem;
+    }
+
+    .unit0-complete-prompt span {
+      color: #443b35;
+    }
+
+    .unit0-complete-prompt div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
     .unit0-question-heading {
       display: flex;
       align-items: center;
@@ -3429,9 +3531,21 @@
     }
 
     .unit0-answer-field {
-      margin-top: 10px;
       min-height: 48px;
       font-size: 1.3rem;
+    }
+
+    .unit0-input-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .unit0-input-row .secondary-button {
+      min-height: 48px;
+      white-space: nowrap;
     }
 
     .unit0-keyboard {
@@ -3657,6 +3771,9 @@
       .unit0-card-grid {
         grid-template-columns: 1fr;
       }
+      .unit0-matching-workspace {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
       .unit0-section-heading,
       .unit0-submit-row,
       .unit0-checkpoint-heading {
@@ -3778,7 +3895,20 @@
       .unit0-section-nav .primary-button,
       .unit0-review-actions .secondary-button,
       .unit0-review-actions .primary-button,
-      .unit0-submit-row .primary-button {
+      .unit0-submit-row .primary-button,
+      .unit0-input-row .secondary-button {
+        width: 100%;
+        justify-content: center;
+      }
+      .unit0-input-row {
+        grid-template-columns: 1fr;
+      }
+      .unit0-matching-workspace {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        min-height: 520px;
+      }
+      .unit0-complete-prompt .secondary-button,
+      .unit0-complete-prompt .primary-button {
         width: 100%;
         justify-content: center;
       }

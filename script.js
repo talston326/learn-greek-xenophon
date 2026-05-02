@@ -980,6 +980,24 @@ const UNIT0_CONSONANT_GROUPS = [
   ["λλ, μμ, νν, ππ, ττ", "doubled consonants", "ἵππος", "horse", "Double consonants help with syllables and word shape."]
 ];
 
+const UNIT0_ALPHABET_MATCHING_PAIRS = [
+  ["alpha", "alpha", "α", "Alpha"],
+  ["beta", "beta", "β", "Beta"],
+  ["gamma", "gamma", "γ", "Gamma"],
+  ["delta", "delta", "δ", "Delta"],
+  ["epsilon", "epsilon", "ε", "Epsilon"],
+  ["zeta", "zeta", "ζ", "Zeta"],
+  ["eta", "eta", "η", "Eta"],
+  ["theta", "theta", "θ", "Theta"],
+  ["iota", "iota", "ι", "Iota"],
+  ["kappa", "kappa", "κ", "Kappa"],
+  ["lambda", "lambda", "λ", "Lambda"],
+  ["mu", "mu", "μ", "Mu"],
+  ["nu", "nu", "ν", "Nu"],
+  ["xi", "xi", "ξ", "Xi"],
+  ["omicron", "omicron", "ο", "Omicron"]
+];
+
 const UNIT0_SECTIONS = [
   {
     id: "letters",
@@ -1026,8 +1044,24 @@ const UNIT0_SECTIONS = [
     }
   },
   {
-    id: "diphthongs",
+    id: "letters-matching",
     number: "0.3",
+    title: "Alphabet Matching",
+    shortTitle: "Matching",
+    description: "Match 15 scrambled letter names to their Greek letter forms.",
+    pageType: "matching",
+    skills: ["alphabet.letters", "alphabet.lowercase"],
+    learn: [["Goal", "Strengthen quick recognition by matching each letter name to its Greek form."]],
+    practice: [
+      "Click one tile, then click its matching tile.",
+      "Matched pairs disappear from the workspace.",
+      "Clear the board to continue to diphthongs."
+    ],
+    matchingPairs: UNIT0_ALPHABET_MATCHING_PAIRS
+  },
+  {
+    id: "diphthongs",
+    number: "0.4",
     title: "Diphthongs",
     shortTitle: "Diphthongs",
     description: "Learn the common vowel combinations and their Attic classroom sounds.",
@@ -1043,7 +1077,7 @@ const UNIT0_SECTIONS = [
   },
   {
     id: "diphthongs-practice",
-    number: "0.4",
+    number: "0.5",
     title: "Diphthong Practice",
     shortTitle: "Diphthong Practice",
     description: "Practice finding, hearing, and typing diphthongs in short Greek forms.",
@@ -1068,7 +1102,7 @@ const UNIT0_SECTIONS = [
   },
   {
     id: "consonants",
-    number: "0.5",
+    number: "0.6",
     title: "Double Consonants and Combinations",
     shortTitle: "Consonants",
     description: "Learn consonant groups whose sound is not obvious from the first letter alone.",
@@ -1085,7 +1119,7 @@ const UNIT0_SECTIONS = [
   },
   {
     id: "consonants-practice",
-    number: "0.6",
+    number: "0.7",
     title: "Consonant Practice",
     shortTitle: "Consonant Practice",
     description: "Practice reading and explaining consonant combinations.",
@@ -1205,6 +1239,17 @@ function repeatQuestions(questions, total) {
   });
 }
 
+function shuffleItems(items) {
+  const shuffled = [...items];
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+
+  return shuffled;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -1281,7 +1326,7 @@ function getUnit0SectionStatus(progress, section) {
     return "Mastered";
   }
 
-  if (!section.checkpoint && record.viewed) {
+  if (!section.checkpoint && section.pageType === "learn" && record.viewed) {
     return "Mastered";
   }
 
@@ -1667,7 +1712,10 @@ function renderUnit0Question(question, index) {
           ${audioButton}
         </div>
         <label for="unit0-answer-${question.id}">${prompt}</label>
-        <input id="unit0-answer-${question.id}" class="text-field greek-text unit0-answer-field" type="text" autocomplete="off" data-unit0-input lang="grc">
+        <div class="unit0-input-row">
+          <input id="unit0-answer-${question.id}" class="text-field greek-text unit0-answer-field" type="text" autocomplete="off" data-unit0-input lang="grc">
+          <button class="secondary-button" type="button" data-unit0-check-input>Check Answer</button>
+        </div>
         <p class="exercise-feedback" aria-live="polite"></p>
       </article>
     `;
@@ -1709,6 +1757,57 @@ function renderUnit0Keyboard() {
           <button type="button" data-unit0-key-action="space">Space</button>
           <button type="button" data-unit0-key-action="backspace">Backspace</button>
           <button type="button" data-unit0-key-action="clear">Clear</button>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function renderUnit0MatchingBoard(section) {
+  if (!section.matchingPairs?.length) {
+    return "";
+  }
+
+  const tiles = shuffleItems(section.matchingPairs.flatMap(([pairId, name, letter, label]) => [
+    { pairId, value: name, label: `${label} letter name`, side: "name", className: "" },
+    { pairId, value: letter, label: `${label} Greek letter`, side: "letter", className: "greek-text" }
+  ]));
+
+  return `
+    <section class="unit0-matching-panel" aria-labelledby="unit0-matching-title" data-unit0-matching>
+      <div class="unit0-checkpoint-heading">
+        <div>
+          <p class="eyebrow">Matching Practice</p>
+          <h4 id="unit0-matching-title">Match all ${section.matchingPairs.length} pairs</h4>
+        </div>
+        <button class="secondary-button" type="button" data-unit0-practice-again>Shuffle Again</button>
+      </div>
+      <p class="unit0-matching-instructions">
+        Click a letter name and its Greek letter. When two tiles match, they disappear.
+      </p>
+      <div class="unit0-matching-workspace" data-unit0-matching-workspace>
+        ${tiles.map((tile, index) => `
+          <button
+            class="unit0-match-tile ${tile.className}"
+            type="button"
+            data-unit0-match-tile
+            data-pair-id="${escapeHtml(tile.pairId)}"
+            data-tile-side="${escapeHtml(tile.side)}"
+            aria-label="${escapeHtml(tile.label)}"
+          >
+            <span>${escapeHtml(tile.value)}</span>
+          </button>
+        `).join("")}
+      </div>
+      <p class="unit0-result" data-unit0-matching-feedback aria-live="polite">
+        ${section.matchingPairs.length} pairs remaining.
+      </p>
+      <div class="unit0-complete-prompt" data-unit0-complete-prompt hidden>
+        <strong>All pairs matched.</strong>
+        <span>Continue to the next section or quit to the dashboard.</span>
+        <div>
+          <a class="primary-button" href="${getUnit0SectionUrl(UNIT0_SECTIONS[UNIT0_SECTIONS.findIndex((candidate) => candidate.id === section.id) + 1] || section)}">Continue</a>
+          <a class="secondary-button" href="index.html">Quit</a>
         </div>
       </div>
     </section>
@@ -1809,6 +1908,7 @@ function renderUnit0Section(sectionId) {
     </section>
 
     ${section.keyboard ? renderUnit0Keyboard() : ""}
+    ${section.pageType === "matching" ? renderUnit0MatchingBoard(section) : ""}
 
     ${section.checkpoint ? `
       <section class="unit0-checkpoint" aria-labelledby="unit0-checkpoint-title">
@@ -1908,7 +2008,110 @@ function evaluateUnit0Question(questionEl, section) {
   };
 }
 
+function bindUnit0MatchingControls(root, section) {
+  const board = root.querySelector("[data-unit0-matching]");
+  if (!board) {
+    return;
+  }
+
+  const feedback = board.querySelector("[data-unit0-matching-feedback]");
+  const prompt = board.querySelector("[data-unit0-complete-prompt]");
+  let selectedTile = null;
+  let matchedPairs = 0;
+  let attempts = 0;
+
+  const updateRemaining = () => {
+    const remaining = Math.max(0, (section.matchingPairs?.length || 0) - matchedPairs);
+    if (feedback) {
+      feedback.textContent = remaining === 1 ? "1 pair remaining." : `${remaining} pairs remaining.`;
+    }
+  };
+
+  board.querySelectorAll("[data-unit0-match-tile]").forEach((tile) => {
+    tile.addEventListener("click", () => {
+      if (tile.hidden || tile === selectedTile) {
+        return;
+      }
+
+      if (!selectedTile) {
+        selectedTile = tile;
+        tile.classList.add("is-selected");
+        tile.setAttribute("aria-pressed", "true");
+        if (feedback) {
+          feedback.textContent = "Now choose the matching letter.";
+        }
+        return;
+      }
+
+      attempts += 1;
+      const isMatch =
+        selectedTile.dataset.pairId === tile.dataset.pairId &&
+        selectedTile.dataset.tileSide !== tile.dataset.tileSide;
+
+      if (isMatch) {
+        const firstTile = selectedTile;
+        const secondTile = tile;
+        firstTile.classList.add("is-matched");
+        secondTile.classList.add("is-matched");
+        firstTile.setAttribute("aria-pressed", "false");
+        secondTile.setAttribute("aria-pressed", "false");
+        selectedTile = null;
+        matchedPairs += 1;
+
+        setTimeout(() => {
+          firstTile.hidden = true;
+          secondTile.hidden = true;
+          updateRemaining();
+
+          if (matchedPairs === section.matchingPairs.length) {
+            const skillResults = {
+              "alphabet.letters": { correct: matchedPairs, incorrect: Math.max(0, attempts - matchedPairs) },
+              "alphabet.lowercase": { correct: matchedPairs, incorrect: 0 }
+            };
+            recordUnit0Attempt(section, {
+              score: matchedPairs,
+              total: section.matchingPairs.length,
+              passed: true,
+              skillResults
+            });
+            renderUnit0ProgressStrip(readUnit0Progress(), section.id);
+            if (feedback) {
+              feedback.textContent = "Complete. All pairs matched.";
+            }
+            if (prompt) {
+              prompt.hidden = false;
+              prompt.querySelector("a")?.focus();
+            }
+          }
+        }, 180);
+        return;
+      }
+
+      tile.classList.add("is-wrong");
+      selectedTile.classList.add("is-wrong");
+      if (feedback) {
+        feedback.textContent = "Not a match. Try another pair.";
+      }
+
+      const firstTile = selectedTile;
+      setTimeout(() => {
+        tile.classList.remove("is-wrong");
+        firstTile.classList.remove("is-selected", "is-wrong");
+        firstTile.setAttribute("aria-pressed", "false");
+        if (selectedTile === firstTile) {
+          selectedTile = null;
+        }
+        updateRemaining();
+      }, 520);
+    });
+  });
+
+  updateRemaining();
+}
+
 function bindUnit0SectionControls(root, section) {
+  bindUnit0MatchingControls(root, section);
+
   root.querySelectorAll("[data-unit0-choice]").forEach((button) => {
     button.addEventListener("click", () => {
       const question = button.closest("[data-unit0-question]");
@@ -1920,6 +2123,25 @@ function bindUnit0SectionControls(root, section) {
       button.setAttribute("aria-pressed", "true");
       const result = evaluateUnit0Question(question, section);
       button.classList.add(result.isCorrect ? "is-correct" : "is-wrong");
+    });
+  });
+
+  root.querySelectorAll("[data-unit0-check-input]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const question = button.closest("[data-unit0-question]");
+      evaluateUnit0Question(question, section);
+    });
+  });
+
+  root.querySelectorAll("[data-unit0-input]").forEach((input) => {
+    input.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter") {
+        return;
+      }
+
+      event.preventDefault();
+      const question = input.closest("[data-unit0-question]");
+      evaluateUnit0Question(question, section);
     });
   });
 
