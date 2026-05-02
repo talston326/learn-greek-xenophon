@@ -2723,6 +2723,38 @@
       gap: 10px;
     }
 
+    .profile-account-panel {
+      display: grid;
+      gap: 10px;
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 18px;
+      background: rgba(255,255,255,.64);
+      padding: 16px;
+      margin-bottom: 8px;
+    }
+
+    .profile-account-panel h2 {
+      margin: 0;
+      color: #4a3b32;
+      font-size: 1.18rem;
+      line-height: 1.18;
+    }
+
+    .profile-password-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    .profile-password-row .secondary-button {
+      min-width: 178px;
+    }
+
+    .profile-password-help {
+      max-width: none;
+    }
+
     .profile-view-switcher {
       border: 1px solid rgba(115,0,10,.1);
       border-radius: 18px;
@@ -4008,6 +4040,9 @@
       .profile-photo-panel,
       .profile-form {
         padding: 18px;
+      }
+      .profile-password-row {
+        grid-template-columns: 1fr;
       }
       .profile-photo-preview {
         width: min(100%, 220px);

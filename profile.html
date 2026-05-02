@@ -40,8 +40,25 @@
             <div class="profile-role-options" data-profile-role-options></div>
           </section>
 
-          <label class="field-label" for="profile-name">Student Name</label>
-          <input id="profile-name" class="text-field" type="text" placeholder="Enter your name" data-profile-name-input>
+          <section class="profile-account-panel" aria-labelledby="profile-account-title">
+            <div>
+              <p class="eyebrow">Account</p>
+              <h2 id="profile-account-title">Student Account</h2>
+            </div>
+
+            <label class="field-label" for="profile-name">Student Name</label>
+            <input id="profile-name" class="text-field" type="text" placeholder="Enter your name" autocomplete="name" data-profile-name-input>
+
+            <label class="field-label" for="profile-email">Email Address</label>
+            <input id="profile-email" class="text-field" type="email" readonly data-profile-email-input>
+
+            <label class="field-label" for="profile-password">Password</label>
+            <div class="profile-password-row">
+              <input id="profile-password" class="text-field" type="text" autocomplete="off" data-profile-password-input>
+              <button type="button" class="secondary-button" data-profile-password-change>Change Password</button>
+            </div>
+            <p class="field-help profile-password-help">Visible for this development version.</p>
+          </section>
 
           <label class="field-label" for="profile-summary">Profile Summary</label>
           <input id="profile-summary" class="text-field" type="text" placeholder="Example: Level 7" data-profile-summary-input>

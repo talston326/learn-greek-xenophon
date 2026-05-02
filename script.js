@@ -1867,20 +1867,23 @@ function renderUnit0Section(sectionId) {
       ? `Passed: ${record.score}/${record.total}. Continue when ready.`
       : `Practice needed: ${record.score}/${record.total}. Review the feedback, then try again.`
     : "";
+  const showSectionHeading = section.id !== "letters";
 
   unit0OverviewEl.hidden = true;
   unit0SectionViewEl.hidden = false;
   renderUnit0ProgressStrip(progress, section.id);
 
   unit0SectionViewEl.innerHTML = `
-    <div class="unit0-section-heading">
-      <div>
-        <p class="eyebrow">${section.number}</p>
-        <h3>${section.title}</h3>
-        <p>${section.description}</p>
+    ${showSectionHeading ? `
+      <div class="unit0-section-heading">
+        <div>
+          <p class="eyebrow">${section.number}</p>
+          <h3>${section.title}</h3>
+          <p>${section.description}</p>
+        </div>
+        <strong class="unit0-status ${statusClass(status)}">${status}</strong>
       </div>
-      <strong class="unit0-status ${statusClass(status)}">${status}</strong>
-    </div>
+    ` : ""}
 
     ${section.pageType === "learn" ? renderUnit0Intro(section) : `
       <section class="unit0-learn-panel" aria-labelledby="unit0-learn-title">
@@ -3879,6 +3882,7 @@ registerForm?.addEventListener("submit", (event) => {
 
   window.xenophonAuth.registerStudent({ firstName, lastName, email, password })
     .then((user) => {
+      window.xenophonAuth.rememberVisiblePassword?.(email, password);
       registerPasswordInput.value = "";
       handleAuthenticatedUser(user);
     })
@@ -3911,6 +3915,7 @@ loginForm?.addEventListener("submit", (event) => {
 
   window.xenophonAuth.loginStudent({ email, password })
     .then((user) => {
+      window.xenophonAuth.rememberVisiblePassword?.(email, password);
       loginPasswordInput.value = "";
       handleAuthenticatedUser(user);
     })

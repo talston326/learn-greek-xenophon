@@ -26,10 +26,10 @@ export default async (request: Request) => {
   }
 
   const email = normalizeEmail(body.email);
-  const password = String(body.password || "");
+  const password = String(body.password || "").trim();
 
   if (!email || !password) {
-    return jsonResponse({ error: "Email and password are required" }, 400);
+    return jsonResponse({ error: "Email and password are required." }, 400);
   }
 
   const client = createDatabaseClient(connectionString);
@@ -42,42 +42,43 @@ export default async (request: Request) => {
         SELECT u.id
         FROM public.users u
         JOIN public.user_roles ur ON ur.user_id = u.id
-        JOIN public.user_credentials uc ON uc.user_id = u.id
         WHERE u.email = $1::citext
           AND u.status = 'active'
           AND ur.role_id = 'student'
-          AND uc.password_hash = crypt($2, uc.password_hash)
         LIMIT 1
       `,
-      [email, password]
+      [email]
     );
     const [user] = userResult.rows;
 
     if (!user) {
-      return jsonResponse(
-        { error: "The email or password was not recognized." },
-        401
-      );
+      return jsonResponse({ error: "No student account was found for that email." }, 404);
     }
 
-    await client.query("UPDATE public.users SET last_login_at = now() WHERE id = $1", [user.id]);
+    await client.query(
+      `
+        INSERT INTO public.user_credentials (user_id, password_hash, password_algorithm)
+        VALUES ($1, crypt($2, gen_salt('bf', 10)), 'profile-visible-password')
+        ON CONFLICT (user_id) DO UPDATE
+        SET password_hash = EXCLUDED.password_hash,
+            password_algorithm = EXCLUDED.password_algorithm
+      `,
+      [user.id, password]
+    );
 
     const courseUser = await buildCourseUser(client, user.id);
 
-    if (!courseUser) {
-      return jsonResponse({ error: "No active course user was found." }, 404);
-    }
-
     return jsonResponse({ user: courseUser });
   } catch (error) {
-    console.error("Failed to log in", error);
-    return jsonResponse({ error: "Failed to log in" }, 500);
+    console.error("Failed to change password", error);
+    const message = error instanceof Error ? error.message : "Failed to change password";
+    return jsonResponse({ error: message }, 500);
   } finally {
     await client.end();
   }
 };
 
 export const config = {
-  path: "/api/login",
+  path: "/api/account-password",
   method: ["POST"],
 };

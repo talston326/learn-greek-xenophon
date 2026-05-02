@@ -5,6 +5,9 @@ const removePhotoButton = document.querySelector("[data-profile-photo-remove]");
 const resetProfileButton = document.querySelector("[data-profile-reset]");
 const profileForm = document.querySelector("[data-profile-form]");
 const profileNameInput = document.querySelector("[data-profile-name-input]");
+const profileEmailInput = document.querySelector("[data-profile-email-input]");
+const profilePasswordInput = document.querySelector("[data-profile-password-input]");
+const changePasswordButton = document.querySelector("[data-profile-password-change]");
 const profileSummaryInput = document.querySelector("[data-profile-summary-input]");
 const profileStatus = document.querySelector("[data-profile-status]");
 const profileViewSwitcher = document.querySelector("[data-profile-view-switcher]");
@@ -34,6 +37,32 @@ function saveSession(session) {
 
 function activeProfileEmail() {
   return readSession()?.email || "";
+}
+
+function setButtonBusy(button, isBusy) {
+  if (!button) {
+    return;
+  }
+
+  button.disabled = isBusy;
+  button.setAttribute("aria-busy", isBusy ? "true" : "false");
+}
+
+function renderAccountFields(profile) {
+  const session = readSession();
+  const email = activeProfileEmail();
+
+  if (profileNameInput) {
+    profileNameInput.value = profile?.name || session?.name || "";
+  }
+
+  if (profileEmailInput) {
+    profileEmailInput.value = email;
+  }
+
+  if (profilePasswordInput) {
+    profilePasswordInput.value = window.xenophonAuth?.readVisiblePassword?.(email) || "";
+  }
 }
 
 function renderRoleSwitcher() {
@@ -87,7 +116,7 @@ function renderProfileForm(profile) {
     return;
   }
 
-  profileNameInput.value = profile.name || "";
+  renderAccountFields(profile);
   profileSummaryInput.value = profile.summary || "";
   setPreviewPhoto(profile.photoUrl || profile.photoDataUrl || "");
 }
@@ -181,6 +210,41 @@ resetProfileButton?.addEventListener("click", async () => {
     setProfileStatus("Profile reset.");
   } catch (error) {
     setProfileStatus(error.message || "Profile could not be reset.");
+  }
+});
+
+changePasswordButton?.addEventListener("click", async () => {
+  const email = activeProfileEmail();
+  const nextPassword = profilePasswordInput?.value.trim() || "";
+
+  if (!email) {
+    setProfileStatus("Log in before changing a password.");
+    return;
+  }
+
+  if (!nextPassword) {
+    profilePasswordInput?.setAttribute("aria-invalid", "true");
+    setProfileStatus("Enter a password before saving the change.");
+    return;
+  }
+
+  profilePasswordInput?.setAttribute("aria-invalid", "false");
+
+  try {
+    setButtonBusy(changePasswordButton, true);
+    setProfileStatus("Changing password...");
+
+    if (window.xenophonAuth?.changeStudentPassword) {
+      await window.xenophonAuth.changeStudentPassword({ email, password: nextPassword });
+    } else {
+      window.xenophonAuth?.rememberVisiblePassword?.(email, nextPassword);
+    }
+
+    setProfileStatus("Password updated. Use this password the next time you log in.");
+  } catch (error) {
+    setProfileStatus(error.message || "Password could not be changed.");
+  } finally {
+    setButtonBusy(changePasswordButton, false);
   }
 });
 
