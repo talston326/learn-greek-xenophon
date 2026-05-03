@@ -669,7 +669,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('assets/hero-bg.png') 88% center/auto 138% no-repeat;
+      background: url('assets/hero-bg.png') 44% center/auto 148% no-repeat;
       z-index: 0;
     }
 
@@ -678,7 +678,7 @@
       position: absolute;
       inset: 0;
       background:
-        linear-gradient(90deg, rgba(252,251,248,.98) 0%, rgba(252,251,248,.9) 22%, rgba(252,251,248,.58) 38%, rgba(252,251,248,.18) 54%, rgba(252,251,248,0) 70%),
+        linear-gradient(90deg, rgba(252,251,248,.94) 0%, rgba(252,251,248,.68) 18%, rgba(252,251,248,.22) 32%, rgba(252,251,248,.04) 46%, rgba(252,251,248,0) 56%),
         radial-gradient(circle at 82% 25%, rgba(255,255,255,.1), transparent 14%),
         radial-gradient(circle at 76% 35%, rgba(255,255,255,.06), transparent 18%);
       pointer-events: none;
@@ -2136,7 +2136,7 @@
       inset: 0;
       z-index: 0;
       background:
-        linear-gradient(90deg, rgba(255,253,248,.98) 0%, rgba(255,253,248,.92) 24%, rgba(255,253,248,.58) 38%, rgba(255,253,248,.18) 51%, rgba(255,253,248,0) 64%),
+        linear-gradient(90deg, rgba(255,253,248,.94) 0%, rgba(255,253,248,.76) 22%, rgba(255,253,248,.34) 36%, rgba(255,253,248,.08) 50%, rgba(255,253,248,0) 60%),
         linear-gradient(0deg, rgba(43,32,22,.12), rgba(43,32,22,0) 36%);
       pointer-events: none;
     }
@@ -3951,8 +3951,8 @@
         min-height: 250px;
       }
       .hero::before {
-        background-position: 84% center;
-        background-size: auto 126%;
+        background-position: 42% center;
+        background-size: auto 138%;
       }
       .hero-copy { width: min(100%, 500px); }
       .path-card::before { background-position: right bottom; }
@@ -4024,8 +4024,8 @@
         min-height: 280px;
       }
       .hero::before {
-        background-position: 82% center;
-        background-size: auto 120%;
+        background-position: 48% center;
+        background-size: auto 128%;
       }
       .hero-copy { width: min(100%, 68%); }
       .module-hero__content {
@@ -4238,7 +4238,7 @@
       }
       .hero::after {
         background:
-          linear-gradient(90deg, rgba(252,251,248,.98) 0%, rgba(252,251,248,.9) 34%, rgba(252,251,248,.58) 56%, rgba(252,251,248,.18) 78%, rgba(252,251,248,0) 100%),
+          linear-gradient(90deg, rgba(252,251,248,.94) 0%, rgba(252,251,248,.72) 28%, rgba(252,251,248,.32) 48%, rgba(252,251,248,.08) 68%, rgba(252,251,248,0) 88%),
           radial-gradient(circle at 82% 25%, rgba(255,255,255,.1), transparent 14%),
           radial-gradient(circle at 76% 35%, rgba(255,255,255,.06), transparent 18%);
       }
