@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Module III - Sophrosyne</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active module-page">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2027</div>
+      </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+
+      <nav class="nav"></nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile -></a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <article class="module-shell">
+        <header class="module-hero module-hero--sophrosyne" aria-labelledby="module-title">
+          <div class="module-hero__overlay" aria-hidden="true"></div>
+          <div class="module-hero__content">
+            <p class="module-hero__kicker">Module III</p>
+            <h1 id="module-title" class="module-hero__greek-title" lang="grc">Σωφροσύνη</h1>
+            <p class="module-hero__english-title">Self-Control and Discipline</p>
+            <p class="module-hero__subtitle">Self-mastery and the well-ordered life.</p>
+          </div>
+        </header>
+
+        <section class="module-intro" aria-labelledby="module-intro-title">
+          <h2 id="module-intro-title">Module III: <span lang="grc">Σωφροσύνη</span> —<br>Self-Control and Discipline</h2>
+          <p>
+            <span lang="grc">Σωφροσύνη</span> is one of the most important and difficult Greek virtues to translate. It can mean
+            self-control, moderation, sound-mindedness, discipline, or the ability to govern oneself. In this module, we will treat
+            <span lang="grc">σωφροσύνη</span> as the virtue of inner order: the capacity to desire rightly, act deliberately, and keep
+            appetite, ambition, anger, and pleasure under the guidance of reason.
+          </p>
+          <p>
+            Xenophon returns to this virtue again and again. His Socrates insists that no one can be truly free who is ruled by bodily
+            cravings or uncontrolled desires. In the <em>Oeconomicus</em>, Xenophon explores order and discipline through the management
+            of a household. In the <em>Cyropaedia</em>, he presents leaders who must train themselves before they can command others.
+            Self-control, for Xenophon, is not grim denial. It is what makes freedom, friendship, leadership, and learning possible.
+          </p>
+          <p>
+            This module will invite students to see grammar itself as a form of discipline. Greek asks the reader to attend carefully:
+            to endings, agreement, tense, case, and word order. That attention is part of the intellectual training of the course. As
+            students read about <span lang="grc">σωφροσύνη</span>, they will also practice it — slowing down, observing closely, and
+            bringing order to complexity.
+          </p>
+        </section>
+
+        <section class="module-texts" aria-labelledby="module-texts-title">
+          <div>
+            <h2 id="module-texts-title">Texts and Themes</h2>
+          </div>
+          <div>
+            <h3>Primary Xenophon Focus</h3>
+            <ul>
+              <li><em>Memorabilia</em></li>
+              <li><em>Oeconomicus</em></li>
+              <li><em>Cyropaedia</em></li>
+            </ul>
+            <h3>Themes</h3>
+            <ul>
+              <li>Self-mastery</li>
+              <li>Discipline and freedom</li>
+              <li>Desire and reason</li>
+              <li>Household order</li>
+              <li>Training the mind through careful attention</li>
+            </ul>
+          </div>
+        </section>
+
+        <nav class="module-next" aria-label="Module navigation">
+          <p>Ready to begin the first lesson in Module III?</p>
+          <!-- TODO: Replace with a standalone Module III Lesson 1 page if one is added later. -->
+          <a class="primary-button" href="lessons.html#lesson-25">Next: Begin Lesson 1</a>
+        </nav>
+      </article>
+    </main>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

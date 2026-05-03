@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Module I - Sophia</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active module-page">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2027</div>
+      </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+
+      <nav class="nav"></nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile -></a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <article class="module-shell">
+        <header class="module-hero module-hero--sophia" aria-labelledby="module-title">
+          <div class="module-hero__overlay" aria-hidden="true"></div>
+          <div class="module-hero__content">
+            <p class="module-hero__kicker">Module I</p>
+            <h1 id="module-title" class="module-hero__greek-title" lang="grc">Σοφία</h1>
+            <p class="module-hero__english-title">Wisdom and Socrates</p>
+            <p class="module-hero__subtitle">Learning, inquiry, and the examined life.</p>
+          </div>
+        </header>
+
+        <section class="module-intro" aria-labelledby="module-intro-title">
+          <h2 id="module-intro-title">Module I: <span lang="grc">Σοφία</span> —<br>Wisdom and Socrates</h2>
+          <p>
+            In this opening module, we begin with <span lang="grc">σοφία</span>, wisdom — not as a possession, but as a practice.
+            For Xenophon, wisdom is closely connected with Socrates, whose conversations teach that learning begins when a person
+            recognizes what he does not yet know. Socratic wisdom is not merely cleverness. It is the habit of asking better questions,
+            examining one's life, testing one's assumptions, and learning to distinguish appearance from reality.
+          </p>
+          <p>
+            Our readings will draw especially from Xenophon's <em>Memorabilia</em> and related Socratic writings. These texts present
+            Socrates as a teacher, questioner, moral guide, and sometimes a surprisingly practical advisor. Xenophon's Socrates is
+            interested not only in abstract philosophy, but in how a person should live: how to know oneself, how to recognize one's
+            own limits, how to become useful to friends and city, and how to cultivate sound judgment.
+          </p>
+          <p>
+            As you work through this module, you will begin reading Greek that is connected to real philosophical conversation. The
+            grammar and vocabulary are not separate from the ideas. Each new form you learn will help you approach Xenophon's Greek
+            more directly and see how language carries thought. By the end of this module, <span lang="grc">σοφία</span> should feel
+            less like a distant philosophical word and more like the beginning of a lifelong discipline: the disciplined love of learning.
+          </p>
+        </section>
+
+        <section class="module-texts" aria-labelledby="module-texts-title">
+          <div>
+            <h2 id="module-texts-title">Texts and Themes</h2>
+          </div>
+          <div>
+            <h3>Primary Xenophon Focus</h3>
+            <ul>
+              <li><em>Memorabilia</em></li>
+              <li><em>Apology</em></li>
+              <li><em>Symposium</em>, where useful for Socratic characterization</li>
+            </ul>
+            <h3>Themes</h3>
+            <ul>
+              <li>Socrates as teacher and questioner</li>
+              <li>Self-knowledge</li>
+              <li>Inquiry and examination</li>
+              <li>Wisdom as practical judgment</li>
+              <li>Learning how to learn</li>
+            </ul>
+          </div>
+        </section>
+
+        <nav class="module-next" aria-label="Module navigation">
+          <p>Ready to begin the first lesson in Module I?</p>
+          <!-- TODO: Replace with a standalone Lesson 1 page if one is added later. -->
+          <a class="primary-button" href="lessons.html#lesson-1">Next: Begin Lesson 1</a>
+        </nav>
+      </article>
+    </main>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

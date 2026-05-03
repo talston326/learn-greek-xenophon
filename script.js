@@ -129,6 +129,7 @@ const COURSE_MODULES = [
     label: "Module I",
     title: "σοφία (Wisdom and Socrates)",
     description: "Learning, inquiry, and the examined life",
+    introUrl: "module-1-sophia.html",
     lessons: [
       { id: "lesson-1", title: "Socrates Teaches", grammar: "Nominative singular, accusative singular, present active indicative" },
       { id: "lesson-2", title: "The Wise Man Knows Himself", grammar: "First and second declension nouns, definite article, εἰμί" },
@@ -148,7 +149,8 @@ const COURSE_MODULES = [
     id: "module-2",
     label: "Module II",
     title: "ἀνδρεία (Courage and Leadership)",
-    description: "Endurance, fear, and action in crisis",
+    description: "Endurance, fear, and leadership in action",
+    introUrl: "module-2-andreia.html",
     lessons: [
       { id: "lesson-13", title: "The General Leads", grammar: "Contract verbs (–έω, –άω, –όω), present system" },
       { id: "lesson-14", title: "Trust in Leadership", grammar: "Imperfect of contract verbs, repeated past action" },
@@ -168,7 +170,8 @@ const COURSE_MODULES = [
     id: "module-3",
     label: "Module III",
     title: "σωφροσύνη (Self-Control and Discipline)",
-    description: "Mastery of self, household, and desire",
+    description: "Self-mastery and the well-ordered life",
+    introUrl: "module-3-sophrosyne.html",
     lessons: [
       { id: "lesson-25", title: "Mastering Oneself", grammar: "Middle voice (present), reflexive meaning" },
       { id: "lesson-26", title: "Habits of Discipline", grammar: "Middle voice (imperfect & aorist)" },
@@ -188,7 +191,8 @@ const COURSE_MODULES = [
     id: "module-4",
     label: "Module IV",
     title: "δικαιοσύνη (Justice and the City)",
-    description: "Law, duty, and moral responsibility",
+    description: "Law, responsibility, and the just life",
+    introUrl: "module-4-dikaiosyne.html",
     lessons: [
       { id: "lesson-37", title: "Justice is the Greatest Good", grammar: "Predicate nouns, ὅτι clauses" },
       { id: "lesson-38", title: "They Say He is Just", grammar: "Indirect statement (ὅτι / ὡς)" },
@@ -3146,6 +3150,14 @@ function renderLessonsPage(session) {
     summary.appendChild(toggle);
     section.appendChild(summary);
 
+    if (module.introUrl) {
+      const introLink = document.createElement("a");
+      introLink.className = "module-intro-link";
+      introLink.href = module.introUrl;
+      introLink.textContent = `Open ${module.label} introduction`;
+      section.appendChild(introLink);
+    }
+
     const list = document.createElement("div");
     list.className = "module-lessons";
     moduleLessons.forEach((lesson) => list.appendChild(createLessonListItem(lesson, progress)));
@@ -3218,7 +3230,7 @@ function renderNav(roleConfig, session = readSession()) {
     if (
       (!action && href === currentPage) ||
       (!action && currentPage === "index.html" && index === 0) ||
-      (currentPage.startsWith("lesson-") && href === "lessons.html")
+      ((currentPage.startsWith("lesson-") || currentPage.startsWith("module-")) && href === "lessons.html")
     ) {
       link.classList.add("active");
     }
@@ -3943,10 +3955,13 @@ if (new URLSearchParams(window.location.search).has("login")) {
 }
 
 const savedSession = readSession();
+const isPublicModulePage = document.body.classList.contains("module-page");
 if (savedSession?.activeRole) {
   showDashboard(savedSession);
 } else if (heroMessageEl && progressTracker) {
   setHeroMessage(ROLE_DASHBOARDS.student.lines);
+} else if (isPublicModulePage) {
+  renderNav(ROLE_DASHBOARDS.student, null);
 } else if (!loginForm) {
   window.location.href = "index.html";
 }
