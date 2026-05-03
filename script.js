@@ -1024,6 +1024,7 @@ const UNIT0_SECTIONS = [
     shortTitle: "Alphabet Practice",
     description: "Practice identifying letters, matching forms, and distinguishing common look-alikes.",
     pageType: "practice",
+    exerciseLabel: "Exercise 1",
     skills: ["alphabet.letters", "alphabet.uppercase", "alphabet.lowercase", "alphabet.order", "alphabet.final_sigma"],
     learn: [["Goal", "Build quick recognition before adding diphthongs and combinations."]],
     practice: ["Choose the named letter.", "Match uppercase to lowercase.", "Identify final sigma.", "Work slowly enough to notice confusable letters."],
@@ -1051,6 +1052,7 @@ const UNIT0_SECTIONS = [
     shortTitle: "Matching",
     description: "Match 15 scrambled letter names to their Greek letter forms.",
     pageType: "matching",
+    exerciseLabel: "Exercise 2",
     skills: ["alphabet.letters", "alphabet.lowercase"],
     learn: [["Goal", "Strengthen quick recognition by matching each letter name to its Greek form."]],
     practice: [
@@ -1084,6 +1086,7 @@ const UNIT0_SECTIONS = [
     shortTitle: "Diphthong Practice",
     description: "Practice finding, hearing, and typing diphthongs in short Greek forms.",
     pageType: "practice",
+    exerciseLabel: "Exercise 1",
     skills: ["diphthongs.recognition", "diphthongs.typing"],
     learn: [["Goal", "See the vowel pair before you try to read the whole word."]],
     practice: ["Find the diphthong in a word.", "Choose the correct pair.", "Type the pair you see or hear."],
@@ -1127,6 +1130,7 @@ const UNIT0_SECTIONS = [
     shortTitle: "Consonant Practice",
     description: "Practice reading and explaining consonant combinations.",
     pageType: "practice",
+    exerciseLabel: "Exercise 1",
     skills: ["consonants.gamma_groups", "consonants.double_consonants", "consonants.xi_psi"],
     learn: [["Goal", "Recognize the group before trying to pronounce the whole word."]],
     practice: ["Find the consonant group.", "Choose the correct explanation.", "Build ξ or ψ from components."],
@@ -1766,7 +1770,7 @@ function renderUnit0MatchingBoard(section) {
     <section class="unit0-matching-panel" aria-labelledby="unit0-matching-title" data-unit0-matching>
       <div class="unit0-checkpoint-heading">
         <div>
-          <p class="eyebrow">Matching Practice</p>
+          <p class="eyebrow">${section.exerciseLabel || "Exercise"}</p>
           <h4 id="unit0-matching-title">Match all ${section.matchingPairs.length} pairs</h4>
         </div>
         <button class="secondary-button" type="button" data-unit0-practice-again>Shuffle Again</button>
@@ -1867,7 +1871,7 @@ function renderUnit0Section(sectionId) {
       ? `Passed: ${record.score}/${record.total}. Continue when ready.`
       : `Practice needed: ${record.score}/${record.total}. Review the feedback, then try again.`
     : "";
-  const showSectionHeading = section.id !== "letters";
+  const showSectionHeading = !["letters", "letters-matching"].includes(section.id);
 
   unit0OverviewEl.hidden = true;
   unit0SectionViewEl.hidden = false;
@@ -1885,23 +1889,9 @@ function renderUnit0Section(sectionId) {
       </div>
     ` : ""}
 
-    ${section.pageType === "learn" ? renderUnit0Intro(section) : `
-      <section class="unit0-learn-panel" aria-labelledby="unit0-learn-title">
-        <p class="eyebrow">Learn</p>
-        <h4 id="unit0-learn-title">Focus for ${section.number}</h4>
-        ${renderLearnList(section)}
-      </section>
-    `}
+    ${section.pageType === "learn" ? renderUnit0Intro(section) : ""}
 
     ${renderUnit0Reference(section)}
-
-    ${section.pageType === "learn" ? "" : `
-      <section class="unit0-practice-panel" aria-labelledby="unit0-practice-title">
-        <p class="eyebrow">Practice</p>
-        <h4 id="unit0-practice-title">What you will practice</h4>
-        ${renderPracticeList(section)}
-      </section>
-    `}
 
     ${section.keyboard ? renderUnit0Keyboard() : ""}
     ${section.pageType === "matching" ? renderUnit0MatchingBoard(section) : ""}
@@ -1910,7 +1900,7 @@ function renderUnit0Section(sectionId) {
       <section class="unit0-checkpoint" aria-labelledby="unit0-checkpoint-title">
         <div class="unit0-checkpoint-heading">
           <div>
-            <p class="eyebrow">Exercises</p>
+            <p class="eyebrow">${section.exerciseLabel || "Exercise"}</p>
             <h4 id="unit0-checkpoint-title">${section.checkpoint.total} questions · passing ${section.checkpoint.passing}/${section.checkpoint.total}</h4>
           </div>
           <button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>
