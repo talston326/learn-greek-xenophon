@@ -62,7 +62,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('assets/hero-bg.png') 7% center/auto 108% no-repeat;
+      background: url('assets/hero-banner-bg.png') center center/cover no-repeat;
       opacity: .95;
       z-index: 0;
     }
@@ -669,7 +669,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('assets/hero-bg.png') 44% center/auto 148% no-repeat;
+      background: url('assets/hero-banner-bg.png') center center/cover no-repeat;
       z-index: 0;
     }
 
@@ -3951,8 +3951,8 @@
         min-height: 250px;
       }
       .hero::before {
-        background-position: 42% center;
-        background-size: auto 138%;
+        background-position: center center;
+        background-size: cover;
       }
       .hero-copy { width: min(100%, 500px); }
       .path-card::before { background-position: right bottom; }
@@ -3971,8 +3971,8 @@
         align-items: stretch;
       }
       .landing-hero::before {
-        background-position: 70% top;
-        background-size: auto 58%;
+        background-position: center top;
+        background-size: cover;
       }
       .landing-hero::after {
         background:
@@ -4024,8 +4024,8 @@
         min-height: 280px;
       }
       .hero::before {
-        background-position: 48% center;
-        background-size: auto 128%;
+        background-position: center center;
+        background-size: cover;
       }
       .hero-copy { width: min(100%, 68%); }
       .module-hero__content {
