@@ -2125,9 +2125,10 @@
 
     .lesson-hero__title {
       margin-top: 8px;
-      font-size: clamp(2.2rem, 6vw, 5rem);
-      line-height: .98;
-      max-width: 700px;
+      font-size: clamp(1.55rem, 2.8vw, 2.65rem);
+      line-height: 1.12;
+      max-width: min(560px, 100%);
+      text-wrap: balance;
     }
 
     .lesson-caption {
@@ -2227,13 +2228,23 @@
 
     .vocab-document {
       display: grid;
-      gap: 16px;
-      margin-top: 18px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: clamp(20px, 4vw, 42px);
+      row-gap: 14px;
+      margin-top: 12px;
     }
 
     .vocab-group {
       display: grid;
-      gap: 8px;
+      gap: 5px;
+      align-content: start;
+    }
+
+    .vocab-group h3 {
+      margin: 0;
+      color: var(--usc-garnet);
+      font-size: 1.06rem;
+      line-height: 1.2;
     }
 
     .vocab-group ul {
@@ -2241,16 +2252,21 @@
       padding: 0;
       margin: 0;
       display: grid;
-      gap: 7px;
+      gap: 4px;
     }
 
     .vocab-group li {
       display: grid;
-      grid-template-columns: minmax(150px, .32fr) minmax(0, 1fr);
-      gap: 12px;
+      grid-template-columns: minmax(138px, .38fr) minmax(0, 1fr);
+      gap: 10px;
       align-items: baseline;
       color: #443b35;
-      line-height: 1.45;
+      font-size: 1.08rem;
+      line-height: 1.36;
+    }
+
+    .vocab-group li .greek-text {
+      font-size: 1.13em;
     }
 
     .greek-reading {
@@ -4839,6 +4855,10 @@
         min-height: 260px;
         border-radius: 18px;
       }
+      .lesson-hero__title {
+        font-size: clamp(1.42rem, 8vw, 2rem);
+        max-width: 92%;
+      }
       .lesson-hero::after {
         background: linear-gradient(180deg, rgba(28,18,12,.72), rgba(28,18,12,.22));
       }
@@ -4858,6 +4878,13 @@
       .grammar-examples p {
         grid-template-columns: 1fr;
         gap: 4px;
+      }
+      .vocab-document {
+        grid-template-columns: 1fr;
+        row-gap: 12px;
+      }
+      .vocab-group li {
+        font-size: 1.04rem;
       }
       .flashcard-card {
         min-height: 230px;

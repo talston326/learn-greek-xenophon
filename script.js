@@ -2329,6 +2329,11 @@ function getMobilePracticeShell() {
   return mobilePracticeEl;
 }
 
+function isMobilePracticeContext() {
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  return currentPage === "index.html";
+}
+
 function renderVocabularyCard(item, mode = "flashcard") {
   const lesson = findLesson(item.lessonId);
   const confidence = item.review?.confidence || 0;
@@ -2417,6 +2422,12 @@ function bindMobilePracticeControls(shell) {
 }
 
 function renderMobilePractice(session) {
+  if (!isMobilePracticeContext()) {
+    mobilePracticeEl?.remove();
+    mobilePracticeEl = null;
+    return;
+  }
+
   const shell = getMobilePracticeShell();
 
   if (!shell) {
