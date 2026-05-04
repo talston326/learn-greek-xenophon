@@ -62,7 +62,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('assets/hero-banner-bg.png') center top/cover no-repeat;
+      background: url('assets/hero-banner-bg.png') center center/cover no-repeat;
       opacity: .95;
       z-index: 0;
     }
@@ -656,8 +656,8 @@
       position: relative;
       overflow: hidden;
       border-radius: 30px;
-      min-height: 220px;
-      padding: 28px 32px;
+      min-height: clamp(300px, 18vw, 360px);
+      padding: 34px 36px;
       display: flex;
       align-items: center;
       background: linear-gradient(145deg, #fcfbf8 0%, #f7f1e8 100%);
@@ -669,7 +669,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('assets/hero-banner-bg.png') center top/cover no-repeat;
+      background: url('assets/hero-banner-bg.png') center 42%/cover no-repeat;
       z-index: 0;
     }
 
@@ -3927,7 +3927,7 @@
       .unit0-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .map-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .hero::before {
-        background-position: center top;
+        background-position: center 42%;
         background-size: cover;
       }
       .hero-copy { width: min(100%, 520px); }
@@ -3954,7 +3954,7 @@
         min-height: 250px;
       }
       .hero::before {
-        background-position: center top;
+        background-position: center 42%;
         background-size: cover;
       }
       .hero-copy { width: min(100%, 500px); }
@@ -3974,7 +3974,7 @@
         align-items: stretch;
       }
       .landing-hero::before {
-        background-position: center top;
+        background-position: center 42%;
         background-size: cover;
       }
       .landing-hero::after {
@@ -4027,7 +4027,7 @@
         min-height: 280px;
       }
       .hero::before {
-        background-position: center top;
+        background-position: center 42%;
         background-size: cover;
       }
       .hero-copy { width: min(100%, 68%); }
