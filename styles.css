@@ -802,10 +802,6 @@
       align-items: start;
     }
 
-    .map-hero {
-      min-height: 190px;
-    }
-
     .map-shell {
       margin-top: 18px;
       background: rgba(255,255,255,.84);
@@ -4392,9 +4388,6 @@
       body.dashboard-active.unit0-page .unit0-overview[hidden],
       body.dashboard-active.unit0-page .unit0-section-view[hidden] {
         display: none !important;
-      }
-      .maps-page .map-hero {
-        min-height: 190px;
       }
       .maps-page .hero-copy {
         width: min(100%, 88%);
