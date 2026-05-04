@@ -48,7 +48,7 @@
 
   function renderSampleNotice() {
     return lesson.sampleNotice
-      ? `<p class="lesson-sample-note">${escapeHtml(lesson.sampleNotice)}</p>`
+      ? `<p class="lesson-sample-note is-visible" data-demo-notice>${escapeHtml(lesson.sampleNotice)}</p>`
       : "";
   }
 
@@ -163,7 +163,10 @@
             ${section.examples?.length ? `
               <div class="grammar-examples">
                 ${section.examples.map((example) => `
-                  <p><span class="greek-text" lang="grc">${escapeHtml(example.greek)}</span><span>${escapeHtml(example.english)}</span></p>
+                  <article class="grammar-example">
+                    <p class="grammar-example__greek greek-text" lang="grc">${escapeHtml(example.greek)}</p>
+                    <p class="grammar-example__english">${escapeHtml(example.english)}</p>
+                  </article>
                 `).join("")}
               </div>
             ` : ""}
@@ -198,6 +201,10 @@
   function renderEnrichmentPage() {
     return `
       ${renderSampleNotice()}
+      <header class="lesson-page-heading">
+        <p class="eyebrow">Lesson ${lesson.number}</p>
+        <h1>Lesson Reflection and Review</h1>
+      </header>
       ${lesson.enrichment.slice(0, 2).map((section) => `
         <section class="lesson-section enrichment-panel">
           <p class="eyebrow">${escapeHtml(section.type)}</p>
@@ -205,11 +212,12 @@
           ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
         </section>
       `).join("")}
-      <section class="lesson-section gate-panel" aria-labelledby="lesson-quiz-heading">
+      <section class="lesson-section gate-panel lesson-quiz-panel" aria-labelledby="lesson-quiz-heading">
         <div class="lesson-section__header">
           <h2 id="lesson-quiz-heading">Final Lesson Quiz</h2>
           <a class="primary-button" href="${activityUrl("lesson-quiz", 3)}">Take Final Lesson Quiz</a>
         </div>
+        <p class="gate-description">Show that you can connect the reading, vocabulary, grammar, and reflection before moving on.</p>
         <p class="gate-message" data-gate-message="lesson-quiz"></p>
       </section>
       ${renderPageNav()}

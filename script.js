@@ -486,6 +486,24 @@ function getLessonHref(lesson, progress) {
   return lesson.url;
 }
 
+function getPageLessonContext() {
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+  if (currentPage !== "lesson.html" && currentPage !== "activity.html") {
+    return "";
+  }
+
+  const lessonParam = new URLSearchParams(window.location.search).get("lesson");
+  const lessonId = /^\d+$/.test(String(lessonParam || "")) ? `lesson-${lessonParam}` : normalizeLessonId(lessonParam);
+  const lesson = findLesson(lessonId);
+
+  if (!lesson) {
+    return "";
+  }
+
+  return `${lesson.moduleLabel} · ${lesson.number} · ${lesson.title}`;
+}
+
 function getEmailPrefix(email) {
   return String(email || "")
     .split("@")[0]
@@ -3689,8 +3707,10 @@ function renderProfileCard(session = readSession()) {
 
   if (session) {
     const assignedRoles = session.roles.map((role) => ROLE_LABELS[role]).join(", ");
+    const pageLessonContext = getPageLessonContext();
     profileNameEl.textContent = profile.name || session.name || getEmailPrefix(session.email);
     profileSummaryEl.textContent =
+      pageLessonContext ||
       profile.summary ||
       (session.professorPreview
         ? "Professor preview · Student progress"
@@ -3720,7 +3740,9 @@ function renderProfileCard(session = readSession()) {
 
         if (remoteHasProfile) {
           profileNameEl.textContent = remoteProfile.name || session.name || getEmailPrefix(session.email);
+          const pageLessonContext = getPageLessonContext();
           profileSummaryEl.textContent =
+            pageLessonContext ||
             remoteProfile.summary ||
             (session.professorPreview ? "Professor preview · Student progress" : profileSummaryEl.textContent);
           profileLinkEl.textContent = session.professorPreview ? "View Student Profile →" : "View Profile →";

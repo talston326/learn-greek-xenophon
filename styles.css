@@ -2125,9 +2125,9 @@
 
     .lesson-hero__title {
       margin-top: 8px;
-      font-size: clamp(1.55rem, 2.8vw, 2.65rem);
+      font-size: clamp(1.32rem, 2.15vw, 2.1rem);
       line-height: 1.12;
-      max-width: min(560px, 100%);
+      max-width: min(460px, 100%);
       text-wrap: balance;
     }
 
@@ -2148,6 +2148,15 @@
       color: #5b4521;
       padding: 10px 12px;
       font-weight: 700;
+    }
+
+    body:not(.show-demo-notices) .lesson-sample-note:not(.is-visible) {
+      display: none;
+    }
+
+    body.hide-demo-notices .lesson-sample-note,
+    body.hide-demo-notices .activity-header .muted {
+      display: none;
     }
 
     .lesson-reading-panel,
@@ -2209,7 +2218,7 @@
     .lesson-section h2,
     .activity-header h1,
     .flashcard-study h2 {
-      font-size: clamp(1.75rem, 3vw, 2.7rem);
+      font-size: clamp(1.58rem, 2.45vw, 2.35rem);
     }
 
     .lesson-section h3 {
@@ -2370,12 +2379,53 @@
       line-height: 1.12;
     }
 
+    .lesson-page-heading {
+      display: grid;
+      gap: 6px;
+      padding: 4px 6px 0;
+    }
+
+    .lesson-page-heading h1 {
+      margin: 0;
+      color: var(--usc-garnet);
+      font-size: clamp(1.75rem, 3vw, 2.8rem);
+      line-height: 1.08;
+    }
+
     .word-building-panel,
     .grammar-panel,
     .gate-panel,
     .enrichment-panel {
       display: grid;
       gap: 16px;
+    }
+
+    .word-building-panel {
+      background:
+        linear-gradient(145deg, rgba(255,252,245,.94), rgba(246,238,226,.88));
+      border-color: rgba(216,161,49,.28);
+      box-shadow: 0 14px 34px rgba(69,49,25,.08);
+    }
+
+    .gate-panel {
+      align-items: center;
+    }
+
+    .lesson-quiz-panel {
+      border-color: rgba(115,0,10,.18);
+      background:
+        linear-gradient(145deg, rgba(255,255,255,.92), rgba(250,246,240,.9));
+    }
+
+    .gate-panel .lesson-section__header {
+      width: 100%;
+    }
+
+    .gate-description {
+      max-width: 720px;
+      margin: -4px 0 0;
+      color: var(--muted);
+      font-weight: 700;
     }
 
     .lesson-markdown-block,
@@ -2386,19 +2436,35 @@
 
     .grammar-examples {
       display: grid;
-      gap: 8px;
-      margin-top: 12px;
+      gap: 10px;
+      margin-top: 14px;
     }
 
-    .grammar-examples p {
+    .grammar-example {
       margin: 0;
       display: grid;
-      grid-template-columns: minmax(180px, .4fr) minmax(0, 1fr);
-      gap: 14px;
+      gap: 5px;
       border: 1px solid rgba(115,0,10,.09);
       border-radius: 12px;
       background: rgba(250,246,240,.72);
-      padding: 10px 12px;
+      padding: 12px 14px;
+    }
+
+    .grammar-example__greek,
+    .grammar-example__english {
+      margin: 0;
+    }
+
+    .grammar-example__greek {
+      color: #2f2925;
+      font-size: clamp(1.18rem, 2vw, 1.45rem);
+      line-height: 1.45;
+    }
+
+    .grammar-example__english {
+      color: var(--muted);
+      font-size: .98rem;
+      line-height: 1.35;
     }
 
     .gate-message {
@@ -2436,6 +2502,14 @@
       margin-top: 4px;
     }
 
+    .activity-return-link {
+      color: var(--muted);
+      font-weight: 800;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(115,0,10,.24);
+      padding-bottom: 2px;
+    }
+
     .flashcard-mode,
     .flashcard-actions,
     .activity-submit-row {
@@ -2459,25 +2533,32 @@
     .flashcard-mode button.is-active {
       background: var(--usc-garnet);
       color: #fff;
+      box-shadow: inset 0 0 0 3px rgba(255,255,255,.24);
+    }
+
+    .flashcard-mode button.is-active::before {
+      content: "✓ ";
+      font-weight: 900;
     }
 
     .flashcard-study {
       display: grid;
       gap: 18px;
+      justify-items: center;
     }
 
     .flashcard-card {
-      width: min(100%, 740px);
-      min-height: 280px;
+      width: min(100%, 700px);
+      min-height: 320px;
       justify-self: center;
       display: grid;
       place-items: center;
       gap: 12px;
-      padding: clamp(22px, 5vw, 42px);
+      padding: clamp(28px, 5vw, 52px);
       border-radius: 22px;
       border: 1px solid rgba(115,0,10,.18);
       background: linear-gradient(145deg, rgba(253,248,239,.98), rgba(246,238,226,.96));
-      box-shadow: inset 0 0 0 1px rgba(255,255,255,.5), var(--shadow);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.6), 0 22px 48px rgba(62,42,28,.14);
       cursor: pointer;
       color: #342b25;
       font: inherit;
@@ -2493,16 +2574,55 @@
     }
 
     .flashcard-card__text {
-      font-size: clamp(2rem, 6vw, 4.2rem);
+      font-size: clamp(1.8rem, 5vw, 3.6rem);
       line-height: 1.15;
     }
 
     .flashcard-card__text:not(.greek-text) {
-      font-size: clamp(1.6rem, 4vw, 3.2rem);
+      font-size: clamp(1.45rem, 3.5vw, 2.75rem);
+    }
+
+    .flashcard-card.is-flipped .flashcard-card__label {
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .flashcard-card.is-flipped .flashcard-card__text {
+      font-size: clamp(1.9rem, 5.2vw, 3.8rem);
+    }
+
+    .flashcard-mode-note {
+      justify-self: stretch;
+      margin: -6px 0 0;
+      color: var(--muted);
+      font-size: .92rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .flashcard-progress {
+      width: min(100%, 700px);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 14px;
+      background: rgba(250,246,240,.72);
+      padding: 10px 12px;
     }
 
     .flashcard-actions {
       justify-content: center;
+      width: min(100%, 700px);
+    }
+
+    .flashcard-actions .primary-button,
+    .flashcard-actions .secondary-button {
+      min-width: min(220px, 100%);
+      min-height: 52px;
+      font-size: 1.08rem;
     }
 
     .quiz-form {
@@ -4913,7 +5033,7 @@
         border-radius: 18px;
       }
       .lesson-hero__title {
-        font-size: clamp(1.42rem, 8vw, 2rem);
+        font-size: clamp(1.24rem, 7vw, 1.72rem);
         max-width: 92%;
       }
       .lesson-hero::after {
@@ -4932,7 +5052,7 @@
       }
       .vocab-group li,
       .reading-gloss div,
-      .grammar-examples p {
+      .grammar-example {
         grid-template-columns: 1fr;
         gap: 4px;
       }

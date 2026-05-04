@@ -8,6 +8,8 @@
   let flashcards = [];
   let currentCardIndex = 0;
   let flashcardMode = "greek-english";
+  let flashcardSessionTotal = 0;
+  let reviewedInMode = 0;
 
   if (returnTo.includes("lesson.html") && params.has("page") && !returnTo.includes("page=")) {
     returnTo += `${returnTo.includes("?") ? "&" : "?"}page=${params.get("page")}`;
@@ -24,6 +26,19 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function renderStudyText(value, isGreek = false) {
+    const escaped = escapeHtml(value);
+
+    if (isGreek) {
+      return escaped;
+    }
+
+    return escaped.replace(
+      /([\u0370-\u03ff\u1f00-\u1fff][\u0370-\u03ff\u1f00-\u1fff\s·,.;:!?()\-]*)/g,
+      '<span class="greek-text" lang="grc">$1</span>'
+    );
   }
 
   function titleForActivity() {
@@ -45,7 +60,7 @@
           <h1>${escapeHtml(titleForActivity())}</h1>
           <p class="muted">${escapeHtml(lesson?.sampleNotice || "Reusable activity page")}</p>
         </div>
-        <a class="secondary-button" href="${escapeHtml(returnTo)}">Exit / Return to Lesson</a>
+        <a class="activity-return-link" href="${escapeHtml(returnTo)}">Exit / Return to Lesson</a>
       </header>
       ${content}
     `;
@@ -78,7 +93,12 @@
       ...card,
       id: `${activityType}-${index}`
     }));
+    if (activityType === "vocab-flashcards") {
+      flashcards.sort(() => Math.random() - 0.5);
+    }
     currentCardIndex = 0;
+    reviewedInMode = 0;
+    flashcardSessionTotal = flashcards.length;
   }
 
   function getCardSides(card) {
@@ -105,7 +125,7 @@
     if (!flashcards.length) {
       renderShell(`
         <section class="flashcard-study">
-          <h2>All cards are Known.</h2>
+          <h2>All cards are marked Know It.</h2>
           <p class="muted">This session is complete.</p>
           <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>
         </section>
@@ -115,27 +135,32 @@
 
     const card = flashcards[currentCardIndex] || flashcards[0];
     const sides = getCardSides(card);
+    const currentPosition = Math.min(reviewedInMode + 1, flashcardSessionTotal || flashcards.length);
     renderShell(`
       <section class="flashcard-study" aria-label="Flashcard study session">
         ${activityType === "vocab-flashcards" ? `
           <div class="flashcard-mode" role="group" aria-label="Vocabulary flashcard direction">
-            <button type="button" data-flashcard-mode="greek-english" class="${flashcardMode === "greek-english" ? "is-active" : ""}">Greek to English</button>
-            <button type="button" data-flashcard-mode="english-greek" class="${flashcardMode === "english-greek" ? "is-active" : ""}">English to Greek</button>
-            <button type="button" data-flashcard-mode="mixed" class="${flashcardMode === "mixed" ? "is-active" : ""}">Mixed</button>
+            <button type="button" data-flashcard-mode="greek-english" class="${flashcardMode === "greek-english" ? "is-active" : ""}" aria-pressed="${flashcardMode === "greek-english"}">Greek to English</button>
+            <button type="button" data-flashcard-mode="english-greek" class="${flashcardMode === "english-greek" ? "is-active" : ""}" aria-pressed="${flashcardMode === "english-greek"}">English to Greek</button>
+            <button type="button" data-flashcard-mode="mixed" class="${flashcardMode === "mixed" ? "is-active" : ""}" aria-pressed="${flashcardMode === "mixed"}">Mixed</button>
           </div>
+          <p class="flashcard-mode-note">Changing mode restarts and reshuffles this study session.</p>
         ` : ""}
+        <div class="flashcard-progress" aria-live="polite">
+          <span>Card ${currentPosition} of ${flashcardSessionTotal || flashcards.length}</span>
+          <span>Review pile: ${flashcards.length} card${flashcards.length === 1 ? "" : "s"}</span>
+        </div>
         <button class="flashcard-card ${flipped ? "is-flipped" : ""}" type="button" data-flashcard-flip aria-label="Flip flashcard">
           <span class="flashcard-card__label">${flipped ? "Answer" : "Prompt"}</span>
           <span class="flashcard-card__text ${flipped && sides.answerGreek ? "greek-text" : !flipped && sides.promptGreek ? "greek-text" : ""}" ${flipped && sides.answerGreek || !flipped && sides.promptGreek ? 'lang="grc"' : ""}>
-            ${escapeHtml(flipped ? sides.answer : sides.prompt)}
+            ${renderStudyText(flipped ? sides.answer : sides.prompt, flipped ? sides.answerGreek : sides.promptGreek)}
           </span>
           <span class="flashcard-card__hint">${flipped ? "Mark this card below." : "Click or tap to reveal the answer."}</span>
         </button>
-        <div class="flashcard-progress">${flashcards.length} card${flashcards.length === 1 ? "" : "s"} still learning</div>
         ${flipped ? `
           <div class="flashcard-actions">
-            <button class="secondary-button" type="button" data-flashcard-learning>Still Learning</button>
-            <button class="primary-button" type="button" data-flashcard-known>Known</button>
+            <button class="secondary-button" type="button" data-flashcard-learning>Review Again</button>
+            <button class="primary-button" type="button" data-flashcard-known>Know It</button>
           </div>
         ` : ""}
       </section>
@@ -147,6 +172,7 @@
     shell.querySelectorAll("[data-flashcard-mode]").forEach((button) => {
       button.addEventListener("click", () => {
         flashcardMode = button.dataset.flashcardMode;
+        normalizeFlashcards();
         renderFlashcardStudy(false);
       });
     });
@@ -157,12 +183,14 @@
 
     shell.querySelector("[data-flashcard-learning]")?.addEventListener("click", () => {
       delete flashcards[currentCardIndex].direction;
+      reviewedInMode += 1;
       currentCardIndex = (currentCardIndex + 1) % flashcards.length;
       renderFlashcardStudy(false);
     });
 
     shell.querySelector("[data-flashcard-known]")?.addEventListener("click", async () => {
       flashcards.splice(currentCardIndex, 1);
+      reviewedInMode += 1;
       if (currentCardIndex >= flashcards.length) {
         currentCardIndex = 0;
       }
