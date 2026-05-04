@@ -59,9 +59,9 @@
         <div class="lesson-hero__overlay">
           <p class="lesson-hero__kicker">Lesson ${lesson.number}</p>
           <h1 class="lesson-hero__title">${escapeHtml(lesson.title)}</h1>
+          <p class="lesson-hero__caption greek-text" lang="grc">${escapeHtml(lesson.banner.caption)}</p>
         </div>
       </header>
-      <p class="lesson-caption greek-text" lang="grc">${escapeHtml(lesson.banner.caption)}</p>
     `;
   }
 
@@ -78,7 +78,13 @@
               <h3>${escapeHtml(group.category)}</h3>
               <ul>
                 ${group.items.map((item) => `
-                  <li><span class="greek-text" lang="grc">${escapeHtml(item.greek)}</span> <span>${escapeHtml(item.english)}</span></li>
+                  <li>
+                    <span class="vocab-entry__term">
+                      <span class="greek-text" lang="grc">${escapeHtml(item.greek)}</span>
+                      ${item.audioUrl ? `<button class="vocab-audio-button" type="button" data-vocab-audio="${escapeHtml(item.audioUrl)}" aria-label="Hear ${escapeHtml(item.greek)}">Play audio</button>` : ""}
+                    </span>
+                    <span class="vocab-entry__gloss">${escapeHtml(item.english)}</span>
+                  </li>
                 `).join("")}
               </ul>
             </section>
@@ -261,8 +267,20 @@
     }
 
     updateGateControls();
+    bindVocabularyAudio();
     bindLessonNavigation();
     window.applyGreekTextStyling?.(shell);
+  }
+
+  function bindVocabularyAudio() {
+    shell.querySelectorAll("[data-vocab-audio]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const audio = new Audio(button.dataset.vocabAudio);
+        audio.play().catch((error) => {
+          console.warn("Vocabulary audio could not be played.", error);
+        });
+      });
+    });
   }
 
   function updateGateControls() {

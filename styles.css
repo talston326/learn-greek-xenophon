@@ -2075,9 +2075,9 @@
 
     .lesson-hero {
       position: relative;
-      min-height: clamp(240px, 34vw, 390px);
+      min-height: clamp(300px, 18vw, 360px);
       overflow: hidden;
-      border-radius: 22px;
+      border-radius: 30px;
       box-shadow: var(--shadow);
       border: 1px solid rgba(115,0,10,.14);
       background: #321f13;
@@ -2111,7 +2111,7 @@
 
     .lesson-hero__kicker,
     .lesson-hero__title,
-    .lesson-caption,
+    .lesson-hero__caption,
     .lesson-sample-note {
       margin: 0;
     }
@@ -2131,10 +2131,12 @@
       text-wrap: balance;
     }
 
-    .lesson-caption {
-      color: #4a3b32;
-      font-size: clamp(1.18rem, 2.2vw, 1.55rem);
-      padding: 0 6px;
+    .lesson-hero__caption {
+      margin-top: 12px;
+      color: rgba(255,255,255,.92);
+      font-size: clamp(1rem, 1.45vw, 1.28rem);
+      line-height: 1.35;
+      max-width: min(640px, 100%);
     }
 
     .lesson-sample-note {
@@ -2269,6 +2271,36 @@
       font-size: 1.13em;
     }
 
+    .vocab-entry__term {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .vocab-entry__gloss {
+      min-width: 0;
+    }
+
+    .vocab-audio-button {
+      width: 28px;
+      height: 28px;
+      border: 1px solid rgba(115,0,10,.18);
+      border-radius: 50%;
+      background: rgba(255,255,255,.82);
+      color: var(--usc-garnet);
+      font: 0/0 a;
+      cursor: pointer;
+      flex: 0 0 auto;
+    }
+
+    .vocab-audio-button::before {
+      content: "▶";
+      font-size: .78rem;
+      line-height: 1;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
     .greek-reading {
       display: grid;
       gap: 24px;
@@ -2283,19 +2315,33 @@
     }
 
     .reading-gloss {
-      display: grid;
-      gap: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px 16px;
       margin: 12px 0 0;
-      padding: 12px 14px;
-      border-left: 4px solid rgba(115,0,10,.24);
-      background: rgba(250,246,240,.72);
-      border-radius: 10px;
+      padding: 8px 0 0;
+      color: #5f534b;
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+
+    .reading-gloss::before,
+    .reading-gloss::after {
+      color: #321f13;
+      font-weight: 800;
+    }
+
+    .reading-gloss::before {
+      content: "[";
+    }
+
+    .reading-gloss::after {
+      content: "]";
     }
 
     .reading-gloss div {
-      display: grid;
-      grid-template-columns: minmax(130px, .28fr) minmax(0, 1fr);
-      gap: 10px;
+      display: inline-flex;
+      gap: 4px;
       align-items: baseline;
     }
 
@@ -2306,11 +2352,22 @@
 
     .reading-gloss dt {
       color: #321f13;
-      font-weight: 700;
+      font-weight: 800;
+    }
+
+    .reading-gloss dt::after {
+      content: ",";
     }
 
     .reading-gloss dd {
       color: #5f534b;
+    }
+
+    .word-building-panel .lesson-section__header h2,
+    .grammar-panel .lesson-section__header h2,
+    .gate-panel .lesson-section__header h2 {
+      font-size: clamp(1.45rem, 2vw, 2.05rem);
+      line-height: 1.12;
     }
 
     .word-building-panel,
