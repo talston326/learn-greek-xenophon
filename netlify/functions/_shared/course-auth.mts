@@ -26,6 +26,11 @@ type ActivityRow = {
   occurred_at: string;
 };
 
+type GateActivityRow = {
+  lesson_slug: string | null;
+  activity_type: string | null;
+};
+
 export function jsonResponse(body: unknown, status = 200) {
   return new Response(JSON.stringify(body), {
     status,
@@ -167,6 +172,20 @@ export async function buildProgress(
     [userId, courseId]
   );
 
+  const gateActivityResult = await client.query<GateActivityRow>(
+    `
+      SELECT DISTINCT
+        metadata->>'lessonSlug' AS lesson_slug,
+        metadata->>'activityType' AS activity_type
+      FROM public.activity_events
+      WHERE user_id = $1
+        AND course_id = $2
+        AND event_type IN ('exercise_completed', 'quiz_passed')
+        AND metadata->>'passed' = 'true'
+    `,
+    [userId, courseId]
+  );
+
   const achievementsResult = await client.query(
     `
       SELECT a.icon, a.class_name, a.label
@@ -212,6 +231,24 @@ export async function buildProgress(
   const totalLessonsCount = lessonsResult.rows.length || 51;
   const nextLevelXp = progress?.next_level_xp || 100;
   const completedExercises = buildCompletedExercises(completedLessons);
+  const passedQuizzes = new Set(completedLessons);
+
+  gateActivityResult.rows.forEach((row) => {
+    if (!row.lesson_slug || !row.activity_type) {
+      return;
+    }
+
+    if (row.activity_type === "lesson-quiz") {
+      passedQuizzes.add(row.lesson_slug);
+      return;
+    }
+
+    completedExercises[row.lesson_slug] ||= [];
+    if (!completedExercises[row.lesson_slug].includes(row.activity_type)) {
+      completedExercises[row.lesson_slug].push(row.activity_type);
+    }
+  });
+
   const practiceCompleted = Object.values(completedExercises).reduce(
     (total, exerciseIds) => total + exerciseIds.length,
     0
@@ -221,7 +258,7 @@ export async function buildProgress(
     currentLessonId,
     currentSegmentId: progress?.current_segment_slug || "lesson-start",
     completedLessons,
-    passedQuizzes: completedLessons,
+    passedQuizzes: Array.from(passedQuizzes),
     completedExercises,
     completedLessonsCount,
     totalLessonsCount,

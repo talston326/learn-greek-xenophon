@@ -96,7 +96,7 @@ const ROLE_LABELS = {
 
 const LESSON_URLS = {
   "intro-1": "lesson-introduction.html",
-  "lesson-4": "lesson-4-first-declension.html"
+  "lesson-4": "lesson.html?lesson=4&page=1"
 };
 
 const COURSE_MODULES = [
@@ -590,16 +590,9 @@ const ROLE_DASHBOARDS = {
     nav: [
       ["🏠", "Dashboard", "index.html"],
       ["📖", "Lessons", "lessons.html"],
+      ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
-      ["📄", "Readings", "#"],
-      ["Αα", "Vocabulary", "#"],
-      ["🏛️", "Grammar", "#"],
-      ["✏️", "Exercises", "#"],
-      ["🌀", "Review", "#"],
-      ["💬", "Discussions", "#"],
-      ["📁", "Resources", "#"],
-      ["📊", "Grades", "#"],
-      ["⚙️", "Settings", "#"]
+      ["👤", "Profile", "profile.html"]
     ]
   }
 };
@@ -2515,6 +2508,12 @@ function getContinueUrl(progress) {
     return `lesson-introduction.html${getUnit0SectionUrl(getSectionById("letters"))}`;
   }
 
+  if (lesson.id === "lesson-4") {
+    const segmentPageMatch = String(progress.currentSegmentId || "").match(/lesson-4-page-(\d+)/);
+    const page = segmentPageMatch ? Math.max(1, Math.min(3, Number(segmentPageMatch[1]))) : 1;
+    return `lesson.html?lesson=4&page=${page}`;
+  }
+
   if (lesson.url.includes("#")) {
     return lesson.url;
   }
@@ -3230,7 +3229,8 @@ function renderNav(roleConfig, session = readSession()) {
     if (
       (!action && href === currentPage) ||
       (!action && currentPage === "index.html" && index === 0) ||
-      ((currentPage.startsWith("lesson-") || currentPage.startsWith("module-")) && href === "lessons.html")
+      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
+      (currentPage === "activity.html" && href === "flashcards.html")
     ) {
       link.classList.add("active");
     }
