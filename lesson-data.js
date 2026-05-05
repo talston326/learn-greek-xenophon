@@ -19,31 +19,19 @@
           slug: "lesson-1-page-1",
           title: "Reading",
           template: "reading",
-          includeVocabulary: false
+          showTranslation: false
         },
         {
           page: 2,
           slug: "lesson-1-page-2",
-          title: "Vocabulary and Word Study",
-          template: "vocabulary"
+          title: "Language Study",
+          template: "grammar"
         },
         {
           page: 3,
           slug: "lesson-1-page-3",
-          title: "Socrates in the Agora",
+          title: "Greek World / Review / Quiz",
           template: "culture"
-        },
-        {
-          page: 4,
-          slug: "lesson-1-page-4",
-          title: "Grammar",
-          template: "grammar"
-        },
-        {
-          page: 5,
-          slug: "lesson-1-page-5",
-          title: "Final Quiz",
-          template: "quiz"
         }
       ],
       vocabulary: [
@@ -95,9 +83,6 @@
       ],
       reading: {
         title: "Ὁ Σωκράτης διδάσκει",
-        introduction: [
-          "In this first lesson, we meet Socrates in Athens. Socrates does not teach by writing books or giving formal lectures. He speaks with people, asks questions, and urges them to examine themselves. Xenophon, who later wrote about Socrates with admiration, appears here as a young student listening to the philosopher. The Greek in this lesson is adapted for beginners, but the theme is central to Xenophon’s portrait of Socrates: the good life begins with the care and education of the soul."
-        ],
         paragraphs: [
           {
             greek: "ὁ Σωκράτης Ἀθηναῖός ἐστιν. οἰκεῖ δὲ ἐν ταῖς Ἀθήναις καὶ πολλάκις ἐν τῇ ἀγορᾷ βαδίζει. οὐ γράφει βιβλίον, ἀλλὰ διδάσκει τὸν ἄνθρωπον καὶ τὸν νεανίαν. ὁ Ξενοφῶν νέος ἐστιν καὶ φιλεῖ τὴν σοφίαν. ὁρᾷ οὖν τὸν Σωκράτη καὶ ἀκούει τὸν λόγον. ὁ Σωκράτης λέγει· “ὁ καλὸς ἄνθρωπος οὐ μόνον σῶμα γυμνάζει, ἀλλὰ καὶ ψυχὴν παιδεύει. ἡ ἀρετὴ καλὴ ἐστιν, ἡ δὲ ἀδικία κακή.” ὁ Ξενοφῶν θαυμάζει καὶ χαίρει. “ὁ λόγος καλός ἐστιν,” λέγει. ὁ δὲ Σωκράτης μειδιᾷ καὶ πάλιν διδάσκει. ἀεὶ γὰρ ζητεῖ τὴν ἀλήθειαν καὶ τὸν μαθητὴν ἐγείρει.",
@@ -107,11 +92,12 @@
               { greek: "ταῖς Ἀθήναις", english: "Athens" },
               { greek: "πολλάκις", english: "often" },
               { greek: "ἀγορά, ἡ", english: "marketplace, agora" },
+              { greek: "τῇ ἀγορᾷ", english: "in the agora" },
               { greek: "οὐ", english: "not" },
               { greek: "ἀλλά", english: "but" },
               { greek: "καί", english: "and, also" },
-              { greek: "τόν / τήν / τό", english: "the; marks accusative singular" },
-              { greek: "ὁ / ἡ / τό", english: "the; marks nominative singular" },
+              { greek: "τόν / τήν / τό", english: "the; accusative singular forms" },
+              { greek: "ὁ / ἡ / τό", english: "the; nominative singular forms" },
               { greek: "δέ", english: "and, but" },
               { greek: "οὖν", english: "therefore, so" },
               { greek: "λόγος, ὁ", english: "word, speech, account, argument" },
@@ -119,55 +105,36 @@
               { greek: "πάλιν", english: "again" },
               { greek: "ἀεί", english: "always" },
               { greek: "γάρ", english: "for, because" },
-              { greek: "ἀδικία, ἡ", english: "injustice" },
-              { greek: "τῇ ἀγορᾷ", english: "in the agora" }
+              { greek: "ἀδικία, ἡ", english: "injustice" }
             ]
           }
         ],
         translation: "Socrates is an Athenian. He lives in Athens and often walks in the agora. He does not write a book, but teaches the man and the young man. Xenophon is young and loves wisdom. So he sees Socrates and listens to the speech. Socrates says, “The good man trains not only the body, but also educates the soul. Virtue is beautiful and good, but injustice is bad.” Xenophon is amazed and rejoices. “The speech is good,” he says. And Socrates smiles and teaches again. For he always seeks the truth and awakens the student."
       },
       wordStudy: {
-        label: "Word Builder: Learning Greek by Recognizing Families",
+        label: "Word Builder: φιλεῖ + σοφία",
         blocks: [
           {
-            title: "φιλεῖ and σοφία",
+            title: "Greek word families",
             body: [
-              "φιλεῖ means “he loves” and σοφία means “wisdom.” Together they point toward the idea behind φιλοσοφία, “love of wisdom.” This course will often help you recognize Greek word families."
+              "Greek often builds new ideas by combining familiar roots. In this lesson, φιλεῖ means “he loves,” and σοφία means “wisdom.” Together they point toward φιλοσοφία, “love of wisdom.”"
             ],
             display: [
               { greek: "φιλεῖ", english: "he loves" },
               { greek: "σοφία", english: "wisdom" },
-              { greek: "φιλοσοφία", english: "love of wisdom, philosophy" }
-            ]
-          },
-          {
-            title: "παιδεύει and μαθητής",
-            body: [
-              "Greek education is not merely memorizing facts. παιδεύει means “he educates” or “he trains,” and μαθητής means “student” or “learner.” In this lesson, Socrates teaches by awakening the student’s mind."
+              { greek: "φιλοσοφία", english: "love of wisdom, philosophy" },
+              { greek: "φιλόσοφος", english: "lover of wisdom, philosopher" },
+              { greek: "φίλος", english: "friend, dear one" },
+              { greek: "φιλέω", english: "I love" },
+              { greek: "σοφός", english: "wise" },
+              { greek: "σοφιστής", english: "sophist, teacher of wisdom or skill" }
             ],
-            display: [
-              { greek: "παιδεύει", english: "he educates, trains" },
-              { greek: "μαθητής", english: "student, learner" }
-            ]
-          },
-          {
-            title: "καλός and ἀρετή",
-            body: [
-              "καλός can mean beautiful, noble, good, or admirable depending on context. ἀρετή means virtue or excellence. Together these words introduce the moral vocabulary of Greek thought."
-            ],
-            display: [
-              { greek: "καλός", english: "beautiful, noble, good" },
-              { greek: "ἀρετή", english: "virtue, excellence" }
-            ]
-          },
-          {
-            title: "σῶμα and ψυχή",
-            body: [
-              "Socrates contrasts training the body with educating the soul. This pairing is important in Greek philosophy and in Xenophon’s portrait of Socrates."
-            ],
-            display: [
-              { greek: "σῶμα", english: "body" },
-              { greek: "ψυχή", english: "soul" }
+            connections: [
+              "philosophy",
+              "philosopher",
+              "philosophical",
+              "sophisticated",
+              "sophistry"
             ]
           }
         ]

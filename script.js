@@ -2572,7 +2572,7 @@ function getContinueUrl(progress) {
   if (templatedLessonMatch) {
     const lessonNumber = templatedLessonMatch[1];
     const segmentPageMatch = String(progress.currentSegmentId || "").match(new RegExp(`${lesson.id}-page-(\\d+)`));
-    const maxPage = lesson.id === "lesson-1" ? 5 : 3;
+    const maxPage = 3;
     const page = segmentPageMatch ? Math.max(1, Math.min(maxPage, Number(segmentPageMatch[1]))) : 1;
     return `lesson.html?lesson=${lessonNumber}&page=${page}`;
   }

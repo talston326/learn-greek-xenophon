@@ -141,7 +141,7 @@
             </div>
           `).join("")}
         </div>
-        ${lesson.reading.translation ? `
+        ${lesson.reading.translation && page.showTranslation !== false ? `
           <details class="translation-toggle">
             <summary>Show guided translation</summary>
             <p>${escapeHtml(lesson.reading.translation)}</p>
@@ -169,7 +169,6 @@
     return `
       ${renderHero()}
       ${renderSampleNotice()}
-      ${renderLessonOverview()}
       <div class="lesson-reading-panel">
         ${includeVocabulary ? renderVocabulary() : ""}
         ${renderReading()}
@@ -180,7 +179,7 @@
 
   function renderWordStudy() {
     return `
-      <section class="lesson-section word-building-panel" aria-labelledby="word-study-heading">
+      <section class="lesson-section word-building-panel ${lesson.wordStudy.blocks.length === 1 ? "word-building-panel--compact" : ""}" aria-labelledby="word-study-heading">
         <div class="lesson-section__header">
           <h2 id="word-study-heading">${escapeHtml(lesson.wordStudy.label)}</h2>
         </div>
@@ -197,6 +196,12 @@
                   </div>
                 `).join("")}
               </dl>
+            ` : ""}
+            ${block.connections?.length ? `
+              <div class="word-builder-connections">
+                <h4>English connections</h4>
+                <p>${block.connections.map((connection) => escapeHtml(connection)).join(", ")}</p>
+              </div>
             ` : ""}
           </div>
         `).join("")}
@@ -251,9 +256,7 @@
         <p class="eyebrow">Culture and History</p>
         <h1>${escapeHtml(culture.title || page.title)}</h1>
       </header>
-      <section class="lesson-section enrichment-panel culture-panel" aria-labelledby="culture-reading-heading">
-        <p class="eyebrow">Socratic Context</p>
-        <h2 id="culture-reading-heading">${escapeHtml(culture.title || "Cultural Reading")}</h2>
+      <section class="lesson-section enrichment-panel culture-panel">
         ${(culture.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
       </section>
       ${culture.questions?.length ? `
@@ -269,6 +272,7 @@
           </div>
         </section>
       ` : ""}
+      ${renderFinalQuizSection()}
       ${renderPageNav()}
     `;
   }
@@ -374,6 +378,28 @@
     `;
   }
 
+  function renderFinalQuizSection() {
+    const quiz = lesson.activities?.["lesson-quiz"];
+    if (!quiz) {
+      return "";
+    }
+
+    return `
+      <section class="lesson-section gate-panel lesson-quiz-panel" aria-labelledby="lesson-quiz-heading">
+        <div class="lesson-section__header">
+          <div>
+            <h2 id="lesson-quiz-heading">Final Quiz</h2>
+            <p class="quiz-subheading">Mastery Check</p>
+            <h3>${escapeHtml(quiz.title || "Lesson Quiz")}</h3>
+          </div>
+          <a class="primary-button" href="${activityUrl("lesson-quiz", page.page)}">Take Final Lesson Quiz</a>
+        </div>
+        <p class="gate-description">This quiz checks vocabulary, grammar, and reading comprehension.</p>
+        ${hasOpenLessonAccess() ? `<p class="gate-message" data-gate-message="lesson-quiz">Temporary build testing note: open access is enabled, but lesson completion still requires passing the quiz.</p>` : `<p class="gate-message" data-gate-message="lesson-quiz"></p>`}
+      </section>
+    `;
+  }
+
   function hasOpenLessonAccess() {
     return Boolean(window.xenophonOpenLessonAccess);
   }
@@ -417,7 +443,7 @@
       };
     }
 
-    if ((page.template === "quiz" || page.template === "enrichment") && lesson.activities?.["lesson-quiz"]) {
+    if ((page.template === "quiz" || page.template === "enrichment" || page.template === "culture") && lesson.activities?.["lesson-quiz"]) {
       return {
         type: "lesson-quiz",
         threshold: lesson.activities["lesson-quiz"].threshold,
@@ -535,6 +561,12 @@
             return;
           }
 
+          const quiz = lesson.activities?.["lesson-quiz"];
+          const quizPassed = !quiz || window.xenophonLessonProgress?.isActivityPassed(lesson.id, "lesson-quiz", quiz.threshold);
+          if (!quizPassed && hasOpenLessonAccess()) {
+            window.location.href = lesson.nextLesson.fallbackUrl;
+            return;
+          }
           await window.xenophonLessonProgress?.completeLesson({
             lessonSlug: lesson.id,
             nextLessonSlug: lesson.nextLesson.id,

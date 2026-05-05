@@ -2480,6 +2480,10 @@
       margin: 12px 0 0;
     }
 
+    .word-building-panel--compact .word-builder-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .word-builder-list div {
       display: grid;
       grid-template-columns: minmax(130px, .24fr) minmax(0, 1fr);
@@ -2507,11 +2511,46 @@
       line-height: 1.35;
     }
 
+    .word-builder-connections {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: baseline;
+      margin-top: 12px;
+      border-top: 1px solid rgba(111,102,95,.14);
+      padding-top: 10px;
+      color: #5f534b;
+    }
+
+    .word-builder-connections h4,
+    .word-builder-connections p {
+      margin: 0;
+    }
+
+    .word-builder-connections h4 {
+      color: var(--usc-garnet);
+      font-size: .92rem;
+    }
+
     .word-building-panel {
       background:
         linear-gradient(145deg, rgba(255,252,245,.94), rgba(246,238,226,.88));
       border-color: rgba(216,161,49,.28);
       box-shadow: 0 14px 34px rgba(69,49,25,.08);
+    }
+
+    .word-building-panel--compact {
+      gap: 12px;
+      padding-block: clamp(16px, 2.2vw, 24px);
+    }
+
+    .word-building-panel--compact .lesson-markdown-block {
+      padding-top: 12px;
+    }
+
+    .word-building-panel--compact .lesson-markdown-block p {
+      margin: 0;
+      max-width: 860px;
     }
 
     .gate-panel {
@@ -2522,6 +2561,13 @@
       border-color: rgba(115,0,10,.18);
       background:
         linear-gradient(145deg, rgba(255,255,255,.92), rgba(250,246,240,.9));
+    }
+
+    .quiz-subheading {
+      margin: 6px 0 4px;
+      color: var(--muted);
+      font-weight: 800;
+      line-height: 1.2;
     }
 
     .gate-panel .lesson-section__header {
@@ -5252,6 +5298,7 @@
       }
       .lesson-overview,
       .culture-question-list,
+      .word-building-panel--compact .word-builder-list,
       .word-builder-list div {
         grid-template-columns: 1fr;
       }
