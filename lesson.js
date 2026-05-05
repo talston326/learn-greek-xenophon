@@ -337,7 +337,7 @@
           <h2 id="grammar-exercises-heading">Grammar Exercises</h2>
           <a class="primary-button" href="${activityUrl("grammar-exercises", 2)}">Grammar Exercises</a>
         </div>
-        <p class="gate-message" data-gate-message="grammar-exercises"></p>
+        <p class="gate-message" data-gate-message="grammar-exercises">${hasOpenLessonAccess() ? "Open access is enabled during build testing; you may continue without passing this activity." : ""}</p>
       </section>
     `;
   }
@@ -367,11 +367,15 @@
           </div>
           <a class="primary-button" href="${activityUrl("lesson-quiz", page.page)}">Take Final Lesson Quiz</a>
         </div>
-        <p class="gate-description">This quiz checks vocabulary, grammar, and reading comprehension. Passing it unlocks the next lesson.</p>
+        <p class="gate-description">${hasOpenLessonAccess() ? "This quiz checks vocabulary, grammar, and reading comprehension. Open access is enabled during build testing, so you can continue without passing it." : "This quiz checks vocabulary, grammar, and reading comprehension. Passing it unlocks the next lesson."}</p>
         <p class="gate-message" data-gate-message="lesson-quiz"></p>
       </section>
       ${renderPageNav()}
     `;
+  }
+
+  function hasOpenLessonAccess() {
+    return Boolean(window.xenophonOpenLessonAccess);
   }
 
   function renderEnrichmentPage() {
@@ -393,14 +397,18 @@
           <h2 id="lesson-quiz-heading">Final Lesson Quiz</h2>
           <a class="primary-button" href="${activityUrl("lesson-quiz", 3)}">Take Final Lesson Quiz</a>
         </div>
-        <p class="gate-description">Show that you can connect the reading, vocabulary, grammar, and reflection before moving on.</p>
-        <p class="gate-message" data-gate-message="lesson-quiz"></p>
+        <p class="gate-description">${hasOpenLessonAccess() ? "Use this quiz to check the reading, vocabulary, grammar, and reflection. Open access is enabled during build testing, so you can continue without passing it." : "Show that you can connect the reading, vocabulary, grammar, and reflection before moving on."}</p>
+        <p class="gate-message" data-gate-message="lesson-quiz">${hasOpenLessonAccess() ? "Open access is enabled during build testing." : ""}</p>
       </section>
       ${renderPageNav()}
     `;
   }
 
   function getGateState() {
+    if (hasOpenLessonAccess()) {
+      return null;
+    }
+
     if (page.template === "grammar" && lesson.activities?.["grammar-exercises"]) {
       return {
         type: "grammar-exercises",

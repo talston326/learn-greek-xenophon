@@ -94,6 +94,9 @@ const ROLE_LABELS = {
   student: "Student"
 };
 
+const OPEN_LESSON_ACCESS_DURING_BUILD = true;
+window.xenophonOpenLessonAccess = OPEN_LESSON_ACCESS_DURING_BUILD;
+
 const LESSON_URLS = {
   "intro-1": "lesson-introduction.html",
   "lesson-1": "lesson.html?lesson=1&page=1",
@@ -476,6 +479,10 @@ function isLessonComplete(progress, lessonId) {
 }
 
 function isLessonUnlocked(lesson, progress) {
+  if (OPEN_LESSON_ACCESS_DURING_BUILD) {
+    return true;
+  }
+
   const lessonIndex = COURSE_LESSONS.findIndex((courseLesson) => courseLesson.id === lesson.id);
 
   if (lesson.id === "lesson-1") {
