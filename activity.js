@@ -58,7 +58,7 @@
         <div>
           <p class="eyebrow">Lesson ${escapeHtml(lesson?.number || "")}</p>
           <h1>${escapeHtml(titleForActivity())}</h1>
-          <p class="muted">${escapeHtml(lesson?.sampleNotice || "Reusable activity page")}</p>
+          <p class="muted">${escapeHtml(lesson?.sampleNotice || lesson?.scope || "Reusable activity page")}</p>
         </div>
         <a class="activity-return-link" href="${escapeHtml(returnTo)}">Exit / Return to Lesson</a>
       </header>

@@ -96,6 +96,7 @@ const ROLE_LABELS = {
 
 const LESSON_URLS = {
   "intro-1": "lesson-introduction.html",
+  "lesson-1": "lesson.html?lesson=1&page=1",
   "lesson-4": "lesson.html?lesson=4&page=1"
 };
 
@@ -131,7 +132,7 @@ const COURSE_MODULES = [
     description: "Learning, inquiry, and the examined life",
     introUrl: "module-1-sophia.html",
     lessons: [
-      { id: "lesson-1", title: "Socrates Teaches", grammar: "Nominative singular, accusative singular, present active indicative" },
+      { id: "lesson-1", title: "Socrates Teaches", grammar: "Nominative singular, accusative singular, present active indicative, definite article, noun/adjective agreement" },
       { id: "lesson-2", title: "The Wise Man Knows Himself", grammar: "First and second declension nouns, definite article, εἰμί" },
       { id: "lesson-3", title: "What is Wisdom?", grammar: "Present tense system, predicate nouns, basic sentence structure" },
       { id: "lesson-4", title: "The Student and the Teacher", grammar: "First declension nouns, agreement, subject–object relationships", exerciseIds: ["noun-endings", "agreement", "translation", "quiz"] },
@@ -309,32 +310,55 @@ const COURSE_VOCABULARY = [
     audioUrl: null,
     review: { dueToday: true, confidence: 1, correctCount: 1, incorrectCount: 3 }
   },
-  {
-    id: "vocab-sophia-001",
+  ...[
+    ["ἀκούει", "verb", "he/she/it hears, listens to", { tense: "present", voice: "active" }],
+    ["ἀλήθεια", "noun", "truth", { gender: "feminine" }],
+    ["ἄνθρωπος", "noun", "human being, man", { gender: "masculine" }],
+    ["ἀρετή", "noun", "virtue, excellence", { gender: "feminine" }],
+    ["βαδίζει", "verb", "he/she/it walks", { tense: "present", voice: "active" }],
+    ["βιβλίον", "noun", "book", { gender: "neuter" }],
+    ["γράφει", "verb", "he/she/it writes", { tense: "present", voice: "active" }],
+    ["γυμνάζει", "verb", "he/she/it trains, exercises", { tense: "present", voice: "active" }],
+    ["διδάσκει", "verb", "he/she/it teaches", { tense: "present", voice: "active" }],
+    ["ἐγείρει", "verb", "he/she/it awakens, rouses", { tense: "present", voice: "active" }],
+    ["ἐστιν", "verb", "he/she/it is", { tense: "present", voice: "active" }],
+    ["ζητεῖ", "verb", "he/she/it seeks", { tense: "present", voice: "active" }],
+    ["θαυμάζει", "verb", "he/she/it wonders, admires, is amazed", { tense: "present", voice: "active" }],
+    ["κακός, κακή, κακόν", "adjective", "bad", {}],
+    ["καλός, καλή, καλόν", "adjective", "beautiful, noble, good", {}],
+    ["λέγει", "verb", "he/she/it says, speaks", { tense: "present", voice: "active" }],
+    ["μαθητής", "noun", "student, learner", { gender: "masculine" }],
+    ["μειδιᾷ", "verb", "he/she/it smiles", { tense: "present", voice: "active" }],
+    ["νεανίας", "noun", "young man", { gender: "masculine" }],
+    ["νέος, νέα, νέον", "adjective", "young, new", {}],
+    ["οἰκεῖ", "verb", "he/she/it lives, dwells", { tense: "present", voice: "active" }],
+    ["ὁρᾷ", "verb", "he/she/it sees", { tense: "present", voice: "active" }],
+    ["παιδεύει", "verb", "he/she/it educates, trains", { tense: "present", voice: "active" }],
+    ["σοφία", "noun", "wisdom", { gender: "feminine" }],
+    ["Σωκράτης", "proper noun", "Socrates", { gender: "masculine" }],
+    ["σῶμα", "noun", "body", { gender: "neuter" }],
+    ["φιλεῖ", "verb", "he/she/it loves", { tense: "present", voice: "active" }],
+    ["χαίρει", "verb", "he/she/it rejoices, is glad", { tense: "present", voice: "active" }],
+    ["ψυχή", "noun", "soul", { gender: "feminine" }],
+    ["Ξενοφῶν", "proper noun", "Xenophon", { gender: "masculine" }]
+  ].map(([displayForm, partOfSpeech, gloss, morphology], index) => ({
+    id: `vocab-lesson-1-${String(index + 1).padStart(3, "0")}`,
     lessonId: "lesson-1",
-    sortOrder: 1,
-    lemma: "σοφία",
-    displayForm: "σοφία",
-    transliteration: "sophia",
-    partOfSpeech: "noun",
-    gloss: "wisdom",
-    morphology: { gender: "feminine" },
+    sortOrder: index + 1,
+    lemma: displayForm,
+    displayForm,
+    transliteration: "",
+    partOfSpeech,
+    gloss,
+    morphology,
     audioUrl: null,
-    review: { dueToday: true, confidence: 3, correctCount: 4, incorrectCount: 2 }
-  },
-  {
-    id: "vocab-manthano-001",
-    lessonId: "lesson-1",
-    sortOrder: 2,
-    lemma: "μανθάνω",
-    displayForm: "μανθάνω",
-    transliteration: "manthano",
-    partOfSpeech: "verb",
-    gloss: "I learn",
-    morphology: { tense: "present", voice: "active" },
-    audioUrl: null,
-    review: { dueToday: false, confidence: 2, correctCount: 3, incorrectCount: 4 }
-  },
+    review: {
+      dueToday: index < 8,
+      confidence: 1 + (index % 3),
+      correctCount: index % 4,
+      incorrectCount: (index + 2) % 5
+    }
+  })),
   {
     id: "vocab-didaskalos-001",
     lessonId: "lesson-4",
@@ -1836,7 +1860,7 @@ function renderUnit0Nav(section, passed = false) {
       ${section.pageType === "practice" ? `<button class="secondary-button" type="button" data-unit0-practice-again>Practice Again</button>` : ""}
       ${next
         ? `<a class="${passed ? "primary-button" : "secondary-button"}" href="${getUnit0SectionUrl(next)}">Next: ${next.shortTitle}</a>`
-        : `<a class="${passed ? "primary-button" : "secondary-button"}" href="lessons.html#lesson-1">Continue to Lesson 1</a>`}
+        : `<a class="${passed ? "primary-button" : "secondary-button"}" href="lesson.html?lesson=1&page=1">Continue to Lesson 1</a>`}
     </nav>
   `;
 }
@@ -1860,7 +1884,7 @@ function renderUnit0ReviewRecommendations(section, record) {
       ${uniqueTargets.map((target) => `<a class="secondary-button" href="${getUnit0SectionUrl(target)}">Review ${target.shortTitle}</a>`).join("")}
       <button class="secondary-button" type="button" data-unit0-practice-again>Practice Missed Items</button>
       <button class="secondary-button" type="button" data-unit0-retake>Retake Check</button>
-      <a class="primary-button" href="lessons.html#lesson-1">Continue to Lesson 1</a>
+      <a class="primary-button" href="lesson.html?lesson=1&page=1">Continue to Lesson 1</a>
     </div>
   `;
 }
@@ -2537,10 +2561,13 @@ function getContinueUrl(progress) {
     return `lesson-introduction.html${getUnit0SectionUrl(getSectionById("letters"))}`;
   }
 
-  if (lesson.id === "lesson-4") {
-    const segmentPageMatch = String(progress.currentSegmentId || "").match(/lesson-4-page-(\d+)/);
-    const page = segmentPageMatch ? Math.max(1, Math.min(3, Number(segmentPageMatch[1]))) : 1;
-    return `lesson.html?lesson=4&page=${page}`;
+  const templatedLessonMatch = lesson.id.match(/^lesson-(1|4)$/);
+  if (templatedLessonMatch) {
+    const lessonNumber = templatedLessonMatch[1];
+    const segmentPageMatch = String(progress.currentSegmentId || "").match(new RegExp(`${lesson.id}-page-(\\d+)`));
+    const maxPage = lesson.id === "lesson-1" ? 5 : 3;
+    const page = segmentPageMatch ? Math.max(1, Math.min(maxPage, Number(segmentPageMatch[1]))) : 1;
+    return `lesson.html?lesson=${lessonNumber}&page=${page}`;
   }
 
   if (lesson.url.includes("#")) {

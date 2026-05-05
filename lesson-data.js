@@ -1,5 +1,786 @@
 (function () {
   const LESSONS = {
+    "lesson-1": {
+      id: "lesson-1",
+      number: 1,
+      title: "Socrates Teaches",
+      greekTitle: "Ὁ Σωκράτης διδάσκει",
+      scope: "Nominative singular, accusative singular, present active indicative, definite article, basic noun/adjective agreement",
+      theme: "Socrates as teacher; Xenophon as student; the beginning of philosophical education",
+      module: "σοφία — Wisdom and Socrates",
+      banner: {
+        image: "assets/module-1-sophia-banner.jpeg",
+        alt: "A classical Athenian scene representing Socrates teaching in the agora",
+        caption: "ὁ Σωκράτης διδάσκει, ὁ δὲ Ξενοφῶν ἀκούει."
+      },
+      pages: [
+        {
+          page: 1,
+          slug: "lesson-1-page-1",
+          title: "Reading",
+          template: "reading",
+          includeVocabulary: false
+        },
+        {
+          page: 2,
+          slug: "lesson-1-page-2",
+          title: "Vocabulary and Word Study",
+          template: "vocabulary"
+        },
+        {
+          page: 3,
+          slug: "lesson-1-page-3",
+          title: "Socrates in the Agora",
+          template: "culture"
+        },
+        {
+          page: 4,
+          slug: "lesson-1-page-4",
+          title: "Grammar",
+          template: "grammar"
+        },
+        {
+          page: 5,
+          slug: "lesson-1-page-5",
+          title: "Final Quiz",
+          template: "quiz"
+        }
+      ],
+      vocabulary: [
+        {
+          category: "Verbs",
+          items: [
+            { greek: "ἀκούει", english: "he/she/it hears, listens to" },
+            { greek: "βαδίζει", english: "he/she/it walks" },
+            { greek: "γράφει", english: "he/she/it writes" },
+            { greek: "γυμνάζει", english: "he/she/it trains, exercises" },
+            { greek: "διδάσκει", english: "he/she/it teaches" },
+            { greek: "ἐγείρει", english: "he/she/it awakens, rouses" },
+            { greek: "ἐστιν", english: "he/she/it is" },
+            { greek: "ζητεῖ", english: "he/she/it seeks" },
+            { greek: "θαυμάζει", english: "he/she/it wonders, admires, is amazed" },
+            { greek: "λέγει", english: "he/she/it says, speaks" },
+            { greek: "μειδιᾷ", english: "he/she/it smiles" },
+            { greek: "οἰκεῖ", english: "he/she/it lives, dwells" },
+            { greek: "ὁρᾷ", english: "he/she/it sees" },
+            { greek: "παιδεύει", english: "he/she/it educates, trains" },
+            { greek: "φιλεῖ", english: "he/she/it loves" },
+            { greek: "χαίρει", english: "he/she/it rejoices, is glad" }
+          ]
+        },
+        {
+          category: "Nouns",
+          items: [
+            { greek: "ἀλήθεια, ἡ", english: "truth" },
+            { greek: "ἄνθρωπος, ὁ", english: "human being, man" },
+            { greek: "ἀρετή, ἡ", english: "virtue, excellence" },
+            { greek: "βιβλίον, τό", english: "book" },
+            { greek: "μαθητής, ὁ", english: "student, learner" },
+            { greek: "νεανίας, ὁ", english: "young man" },
+            { greek: "σοφία, ἡ", english: "wisdom" },
+            { greek: "Σωκράτης, ὁ", english: "Socrates" },
+            { greek: "σῶμα, τό", english: "body" },
+            { greek: "ψυχή, ἡ", english: "soul" },
+            { greek: "Ξενοφῶν, ὁ", english: "Xenophon" }
+          ]
+        },
+        {
+          category: "Adjectives",
+          items: [
+            { greek: "κακός, κακή, κακόν", english: "bad" },
+            { greek: "καλός, καλή, καλόν", english: "beautiful, noble, good" },
+            { greek: "νέος, νέα, νέον", english: "young, new" }
+          ]
+        }
+      ],
+      reading: {
+        title: "Ὁ Σωκράτης διδάσκει",
+        introduction: [
+          "In this first lesson, we meet Socrates in Athens. Socrates does not teach by writing books or giving formal lectures. He speaks with people, asks questions, and urges them to examine themselves. Xenophon, who later wrote about Socrates with admiration, appears here as a young student listening to the philosopher. The Greek in this lesson is adapted for beginners, but the theme is central to Xenophon’s portrait of Socrates: the good life begins with the care and education of the soul."
+        ],
+        paragraphs: [
+          {
+            greek: "ὁ Σωκράτης Ἀθηναῖός ἐστιν. οἰκεῖ δὲ ἐν ταῖς Ἀθήναις καὶ πολλάκις ἐν τῇ ἀγορᾷ βαδίζει. οὐ γράφει βιβλίον, ἀλλὰ διδάσκει τὸν ἄνθρωπον καὶ τὸν νεανίαν. ὁ Ξενοφῶν νέος ἐστιν καὶ φιλεῖ τὴν σοφίαν. ὁρᾷ οὖν τὸν Σωκράτη καὶ ἀκούει τὸν λόγον. ὁ Σωκράτης λέγει· “ὁ καλὸς ἄνθρωπος οὐ μόνον σῶμα γυμνάζει, ἀλλὰ καὶ ψυχὴν παιδεύει. ἡ ἀρετὴ καλὴ ἐστιν, ἡ δὲ ἀδικία κακή.” ὁ Ξενοφῶν θαυμάζει καὶ χαίρει. “ὁ λόγος καλός ἐστιν,” λέγει. ὁ δὲ Σωκράτης μειδιᾷ καὶ πάλιν διδάσκει. ἀεὶ γὰρ ζητεῖ τὴν ἀλήθειαν καὶ τὸν μαθητὴν ἐγείρει.",
+            gloss: [
+              { greek: "Ἀθηναῖος", english: "Athenian" },
+              { greek: "ἐν", english: "in" },
+              { greek: "ταῖς Ἀθήναις", english: "Athens" },
+              { greek: "πολλάκις", english: "often" },
+              { greek: "ἀγορά, ἡ", english: "marketplace, agora" },
+              { greek: "οὐ", english: "not" },
+              { greek: "ἀλλά", english: "but" },
+              { greek: "καί", english: "and, also" },
+              { greek: "τόν / τήν / τό", english: "the; marks accusative singular" },
+              { greek: "ὁ / ἡ / τό", english: "the; marks nominative singular" },
+              { greek: "δέ", english: "and, but" },
+              { greek: "οὖν", english: "therefore, so" },
+              { greek: "λόγος, ὁ", english: "word, speech, account, argument" },
+              { greek: "μόνον", english: "only" },
+              { greek: "πάλιν", english: "again" },
+              { greek: "ἀεί", english: "always" },
+              { greek: "γάρ", english: "for, because" },
+              { greek: "ἀδικία, ἡ", english: "injustice" },
+              { greek: "τῇ ἀγορᾷ", english: "in the agora" }
+            ]
+          }
+        ],
+        translation: "Socrates is an Athenian. He lives in Athens and often walks in the agora. He does not write a book, but teaches the man and the young man. Xenophon is young and loves wisdom. So he sees Socrates and listens to the speech. Socrates says, “The good man trains not only the body, but also educates the soul. Virtue is beautiful and good, but injustice is bad.” Xenophon is amazed and rejoices. “The speech is good,” he says. And Socrates smiles and teaches again. For he always seeks the truth and awakens the student."
+      },
+      wordStudy: {
+        label: "Word Builder: Learning Greek by Recognizing Families",
+        blocks: [
+          {
+            title: "φιλεῖ and σοφία",
+            body: [
+              "φιλεῖ means “he loves” and σοφία means “wisdom.” Together they point toward the idea behind φιλοσοφία, “love of wisdom.” This course will often help you recognize Greek word families."
+            ],
+            display: [
+              { greek: "φιλεῖ", english: "he loves" },
+              { greek: "σοφία", english: "wisdom" },
+              { greek: "φιλοσοφία", english: "love of wisdom, philosophy" }
+            ]
+          },
+          {
+            title: "παιδεύει and μαθητής",
+            body: [
+              "Greek education is not merely memorizing facts. παιδεύει means “he educates” or “he trains,” and μαθητής means “student” or “learner.” In this lesson, Socrates teaches by awakening the student’s mind."
+            ],
+            display: [
+              { greek: "παιδεύει", english: "he educates, trains" },
+              { greek: "μαθητής", english: "student, learner" }
+            ]
+          },
+          {
+            title: "καλός and ἀρετή",
+            body: [
+              "καλός can mean beautiful, noble, good, or admirable depending on context. ἀρετή means virtue or excellence. Together these words introduce the moral vocabulary of Greek thought."
+            ],
+            display: [
+              { greek: "καλός", english: "beautiful, noble, good" },
+              { greek: "ἀρετή", english: "virtue, excellence" }
+            ]
+          },
+          {
+            title: "σῶμα and ψυχή",
+            body: [
+              "Socrates contrasts training the body with educating the soul. This pairing is important in Greek philosophy and in Xenophon’s portrait of Socrates."
+            ],
+            display: [
+              { greek: "σῶμα", english: "body" },
+              { greek: "ψυχή", english: "soul" }
+            ]
+          }
+        ]
+      },
+      culture: {
+        title: "Socrates in the Agora",
+        body: [
+          "Socrates did not teach in a classroom in the modern sense. He moved through Athens, especially through public spaces such as the agora, speaking with citizens, craftsmen, politicians, poets, and young men. His method was conversational. Instead of simply giving answers, he asked questions. A person might claim to know what courage, justice, piety, or wisdom was. Socrates would then ask careful questions that exposed confusion, contradiction, or shallow thinking.",
+          "This method could be exciting, but it could also be uncomfortable. Socrates treated the soul as something that needed training, just as the body needed exercise. In Xenophon’s portrait, Socrates is not merely a clever debater. He is a moral teacher who wants his companions to become better, more disciplined, and more thoughtful human beings.",
+          "Xenophon admired Socrates deeply. In the Memorabilia, Xenophon presents Socrates as a man who benefited his friends by conversation, example, and moral seriousness. For this course, Socrates becomes the first guide into Greek because he represents the beginning of inquiry: What is the good life? What is virtue? How should a person train both body and soul?"
+        ],
+        questions: [
+          {
+            prompt: "Where did Socrates often speak with people in Athens?",
+            answer: "In public spaces such as the agora."
+          },
+          {
+            prompt: "How did Socrates usually teach?",
+            answer: "By conversation and questioning."
+          },
+          {
+            prompt: "Why is Socrates a fitting guide for the beginning of the course?",
+            answer: "Because he represents inquiry into wisdom, virtue, and the good life."
+          }
+        ]
+      },
+      grammar: {
+        intro: "Lesson 1 focuses on the smallest working pieces of Greek sentences: present active verbs, nouns in the nominative and accusative singular, articles, and basic agreement.",
+        sections: [
+          {
+            id: "verb-forms",
+            title: "1. Verb Forms: Stems and Endings",
+            body: [
+              "Greek verbs are built from a stem plus an ending. The stem carries the basic meaning of the verb. The ending gives grammatical information, such as person and number.",
+              "In this first lesson, several present active indicative verbs are third person singular. This means the verb describes what “he,” “she,” or “it” does now or generally does.",
+              "Many third person singular present active verbs end in -ει. Contract verbs may appear with endings such as -ᾷ or -εῖ."
+            ],
+            examples: [
+              { greek: "διδάσκει", english: "he teaches" },
+              { greek: "γράφει", english: "he writes" },
+              { greek: "βαδίζει", english: "he walks" },
+              { greek: "λέγει", english: "he says" },
+              { greek: "ζητεῖ", english: "he seeks" },
+              { greek: "φιλεῖ", english: "he loves" },
+              { greek: "χαίρει", english: "he rejoices" },
+              { greek: "γράφ-ει", english: "he writes" },
+              { greek: "διδάσκ-ει", english: "he teaches" },
+              { greek: "ζητ-εῖ", english: "he seeks" },
+              { greek: "ὁρ-ᾷ", english: "he sees" },
+              { greek: "μειδι-ᾷ", english: "he smiles" }
+            ],
+            exercises: [
+              "Practice A asks you to identify the verb in a short sentence.",
+              "Practice B matches Greek verbs to English meanings.",
+              "Practice C asks you to choose the correct translation."
+            ],
+            practiceTopic: "verb-forms"
+          },
+          {
+            id: "nouns-cases-agreement",
+            title: "2. Nouns: Genders, Stems, Endings, Cases, and Agreement",
+            body: [
+              "Greek nouns have gender, number, and case. In this lesson you meet masculine, feminine, and neuter nouns. You also meet two cases: nominative and accusative.",
+              "The nominative case is often used for the subject of the sentence. The accusative case is often used for the direct object of the verb.",
+              "Each Greek noun has a grammatical gender: masculine, feminine, or neuter. The article helps you recognize the gender.",
+              "Adjectives agree with nouns in gender, number, and case."
+            ],
+            examples: [
+              { greek: "ὁ Σωκράτης διδάσκει.", english: "Socrates teaches. ὁ Σωκράτης is nominative." },
+              { greek: "ὁ Ξενοφῶν χαίρει.", english: "Xenophon rejoices. ὁ Ξενοφῶν is nominative." },
+              { greek: "ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον.", english: "Socrates teaches the man. τὸν ἄνθρωπον is accusative." },
+              { greek: "ὁ Ξενοφῶν ἀκούει τὸν λόγον.", english: "Xenophon listens to the speech. τὸν λόγον is accusative." },
+              { greek: "ὁ ἄνθρωπος / ὁ μαθητής / ὁ νεανίας", english: "masculine nouns" },
+              { greek: "ἡ σοφία / ἡ ἀρετή / ἡ ψυχή / ἡ ἀλήθεια", english: "feminine nouns" },
+              { greek: "τὸ βιβλίον / τὸ σῶμα", english: "neuter nouns" },
+              { greek: "ὁ καλὸς ἄνθρωπος", english: "the good man" },
+              { greek: "ἡ καλὴ ἀρετή", english: "the noble virtue" },
+              { greek: "τὸ καλὸν σῶμα", english: "the beautiful body" }
+            ],
+            exercises: [
+              "Practice A asks whether a phrase is nominative or accusative.",
+              "Practice B matches nouns to gender.",
+              "Practice C asks you to choose the correct adjective agreement."
+            ],
+            practiceTopic: "nouns-cases-agreement"
+          },
+          {
+            id: "definite-article",
+            title: "3. Use of the Definite Article",
+            body: [
+              "Greek uses the definite article more often than English. The article usually means “the,” but it also gives important grammatical information.",
+              "The article helps show the gender, number, and case of the noun. In this lesson, focus on nominative singular and accusative singular forms."
+            ],
+            table: {
+              headers: ["Case", "Masculine", "Feminine", "Neuter"],
+              rows: [
+                ["Nominative", "ὁ", "ἡ", "τό"],
+                ["Accusative", "τόν", "τήν", "τό"]
+              ]
+            },
+            examples: [
+              { greek: "ὁ Σωκράτης", english: "Socrates as subject" },
+              { greek: "ὁ Ξενοφῶν", english: "Xenophon as subject" },
+              { greek: "ὁ λόγος", english: "the speech as subject" },
+              { greek: "τὸν Σωκράτη", english: "Socrates as direct object" },
+              { greek: "τὸν λόγον", english: "the speech as direct object" },
+              { greek: "τὴν σοφίαν", english: "wisdom as direct object" },
+              { greek: "τὴν ψυχήν", english: "the soul as direct object" },
+              { greek: "τὴν ἀλήθειαν", english: "the truth as direct object" },
+              { greek: "τὸ σῶμα", english: "the body" }
+            ],
+            exercises: [
+              "Practice A asks you to choose the correct article.",
+              "Practice B asks you to recognize the gender and case shown by the article."
+            ],
+            practiceTopic: "definite-article"
+          }
+        ]
+      },
+      enrichment: [],
+      activities: {
+        "vocab-practice": {
+          title: "Lesson 1 Vocabulary Practice",
+          questions: [
+            {
+              id: "vocab-practice-1",
+              type: "multiple_choice",
+              prompt: "What does ἀλήθεια mean?",
+              choices: [
+                { text: "truth", correct: true },
+                { text: "body", correct: false },
+                { text: "book", correct: false }
+              ]
+            },
+            {
+              id: "vocab-practice-2",
+              type: "multiple_choice",
+              prompt: "Which Greek word means “student, learner”?",
+              choices: [
+                { text: "μαθητής", correct: true },
+                { text: "βιβλίον", correct: false },
+                { text: "ἀγορά", correct: false }
+              ]
+            },
+            {
+              id: "vocab-practice-3",
+              type: "multiple_choice",
+              prompt: "What does ὁρᾷ mean?",
+              choices: [
+                { text: "he/she/it sees", correct: true },
+                { text: "he/she/it walks", correct: false },
+                { text: "he/she/it writes", correct: false }
+              ]
+            },
+            {
+              id: "vocab-practice-4",
+              type: "multiple_choice",
+              prompt: "Which pair means “body” and “soul”?",
+              choices: [
+                { text: "σῶμα and ψυχή", correct: true },
+                { text: "λόγος and βιβλίον", correct: false },
+                { text: "Σωκράτης and Ξενοφῶν", correct: false }
+              ]
+            }
+          ]
+        },
+        "grammar-flashcards": {
+          title: "Lesson 1 Grammar Flashcards",
+          cards: [
+            { prompt: "What does the nominative case often mark?", answer: "The subject of the sentence." },
+            { prompt: "What does the accusative case often mark?", answer: "The direct object of the verb." },
+            { prompt: "What does ὁ usually show?", answer: "Masculine nominative singular." },
+            { prompt: "What does τόν usually show?", answer: "Masculine accusative singular." },
+            { prompt: "What does adjective agreement compare?", answer: "Gender, number, and case." }
+          ]
+        },
+        "topic-practice": {
+          title: "Practice This Topic",
+          questions: [
+            {
+              id: "verb-forms-a-1",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Select the verb: ὁ Σωκράτης διδάσκει.",
+              choices: [
+                { text: "διδάσκει", correct: true },
+                { text: "ὁ Σωκράτης", correct: false },
+                { text: "ὁ", correct: false }
+              ]
+            },
+            {
+              id: "verb-forms-a-2",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Select the verb: ὁ Ξενοφῶν χαίρει.",
+              choices: [
+                { text: "χαίρει", correct: true },
+                { text: "Ξενοφῶν", correct: false },
+                { text: "ὁ", correct: false }
+              ]
+            },
+            {
+              id: "verb-forms-a-3",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Select the verb: ὁ ἄνθρωπος βαδίζει.",
+              choices: [
+                { text: "βαδίζει", correct: true },
+                { text: "ἄνθρωπος", correct: false },
+                { text: "ὁ", correct: false }
+              ]
+            },
+            {
+              id: "verb-forms-b-1",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Match διδάσκει to its meaning.",
+              choices: [
+                { text: "he teaches", correct: true },
+                { text: "he writes", correct: false },
+                { text: "he seeks", correct: false }
+              ]
+            },
+            {
+              id: "verb-forms-b-2",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Choose the correct translation: φιλεῖ.",
+              choices: [
+                { text: "he loves", correct: true },
+                { text: "he walks", correct: false },
+                { text: "he sees", correct: false }
+              ]
+            },
+            {
+              id: "verb-forms-c-1",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Choose the correct translation: ζητεῖ.",
+              choices: [
+                { text: "he teaches", correct: false },
+                { text: "he seeks", correct: true },
+                { text: "he writes", correct: false }
+              ]
+            },
+            {
+              id: "verb-forms-c-2",
+              topic: "verb-forms",
+              type: "multiple_choice",
+              prompt: "Choose the correct translation: λέγει.",
+              choices: [
+                { text: "he listens", correct: false },
+                { text: "he says", correct: true },
+                { text: "he awakens", correct: false }
+              ]
+            },
+            {
+              id: "nouns-cases-a-1",
+              topic: "nouns-cases-agreement",
+              type: "multiple_choice",
+              prompt: "In ὁ Σωκράτης διδάσκει, what case is ὁ Σωκράτης?",
+              choices: [
+                { text: "nominative", correct: true },
+                { text: "accusative", correct: false },
+                { text: "dative", correct: false }
+              ]
+            },
+            {
+              id: "nouns-cases-a-2",
+              topic: "nouns-cases-agreement",
+              type: "multiple_choice",
+              prompt: "In τὸν ἄνθρωπον διδάσκει, what case is τὸν ἄνθρωπον?",
+              choices: [
+                { text: "accusative", correct: true },
+                { text: "nominative", correct: false },
+                { text: "genitive", correct: false }
+              ]
+            },
+            {
+              id: "nouns-cases-b-1",
+              topic: "nouns-cases-agreement",
+              type: "multiple_choice",
+              prompt: "Match ἄνθρωπος to its gender.",
+              choices: [
+                { text: "masculine", correct: true },
+                { text: "feminine", correct: false },
+                { text: "neuter", correct: false }
+              ]
+            },
+            {
+              id: "nouns-cases-b-2",
+              topic: "nouns-cases-agreement",
+              type: "multiple_choice",
+              prompt: "Match σοφία to its gender.",
+              choices: [
+                { text: "feminine", correct: true },
+                { text: "masculine", correct: false },
+                { text: "neuter", correct: false }
+              ]
+            },
+            {
+              id: "nouns-cases-c-1",
+              topic: "nouns-cases-agreement",
+              type: "multiple_choice",
+              prompt: "Choose the correct agreement: ὁ ______ ἄνθρωπος.",
+              choices: [
+                { text: "καλός", correct: true },
+                { text: "καλή", correct: false },
+                { text: "καλόν", correct: false }
+              ]
+            },
+            {
+              id: "nouns-cases-c-2",
+              topic: "nouns-cases-agreement",
+              type: "multiple_choice",
+              prompt: "Choose the correct agreement: τὸ ______ σῶμα.",
+              choices: [
+                { text: "καλός", correct: false },
+                { text: "καλή", correct: false },
+                { text: "καλόν", correct: true }
+              ]
+            },
+            {
+              id: "article-a-1",
+              topic: "definite-article",
+              type: "multiple_choice",
+              prompt: "Choose the correct article: ____ Σωκράτης.",
+              choices: [
+                { text: "ὁ", correct: true },
+                { text: "ἡ", correct: false },
+                { text: "τό", correct: false }
+              ]
+            },
+            {
+              id: "article-a-2",
+              topic: "definite-article",
+              type: "multiple_choice",
+              prompt: "Choose the correct article: ____ σοφία.",
+              choices: [
+                { text: "ὁ", correct: false },
+                { text: "ἡ", correct: true },
+                { text: "τό", correct: false }
+              ]
+            },
+            {
+              id: "article-a-3",
+              topic: "definite-article",
+              type: "multiple_choice",
+              prompt: "Choose the correct article: ____ ἄνθρωπον.",
+              choices: [
+                { text: "τόν", correct: true },
+                { text: "τήν", correct: false },
+                { text: "τό", correct: false }
+              ]
+            },
+            {
+              id: "article-b-1",
+              topic: "definite-article",
+              type: "multiple_choice",
+              prompt: "What does ἡ show?",
+              choices: [
+                { text: "feminine nominative singular", correct: true },
+                { text: "masculine accusative singular", correct: false },
+                { text: "neuter plural", correct: false }
+              ]
+            },
+            {
+              id: "article-b-2",
+              topic: "definite-article",
+              type: "multiple_choice",
+              prompt: "What does τήν show?",
+              choices: [
+                { text: "feminine accusative singular", correct: true },
+                { text: "masculine nominative singular", correct: false },
+                { text: "neuter nominative or accusative singular", correct: false }
+              ]
+            }
+          ]
+        },
+        "grammar-exercises": {
+          title: "Lesson 1 Grammar Exercises",
+          threshold: 80,
+          questions: [
+            {
+              id: "grammar-ex-1",
+              type: "multiple_choice",
+              prompt: "Which word is the verb in ὁ Σωκράτης διδάσκει?",
+              choices: [
+                { text: "διδάσκει", correct: true },
+                { text: "Σωκράτης", correct: false },
+                { text: "ὁ", correct: false }
+              ]
+            },
+            {
+              id: "grammar-ex-2",
+              type: "multiple_choice",
+              prompt: "What case is τὸν λόγον?",
+              choices: [
+                { text: "accusative", correct: true },
+                { text: "nominative", correct: false },
+                { text: "dative", correct: false }
+              ]
+            },
+            {
+              id: "grammar-ex-3",
+              type: "multiple_choice",
+              prompt: "Which noun is neuter?",
+              choices: [
+                { text: "βιβλίον", correct: true },
+                { text: "σοφία", correct: false },
+                { text: "ἄνθρωπος", correct: false }
+              ]
+            },
+            {
+              id: "grammar-ex-4",
+              type: "multiple_choice",
+              prompt: "Which article is masculine accusative singular?",
+              choices: [
+                { text: "τόν", correct: true },
+                { text: "ὁ", correct: false },
+                { text: "ἡ", correct: false }
+              ]
+            },
+            {
+              id: "grammar-ex-5",
+              type: "multiple_choice",
+              prompt: "Choose the phrase with correct neuter agreement.",
+              choices: [
+                { text: "τὸ καλὸν σῶμα", correct: true },
+                { text: "τὸ καλός σῶμα", correct: false },
+                { text: "ἡ καλὴ σῶμα", correct: false }
+              ]
+            }
+          ]
+        },
+        "lesson-quiz": {
+          title: "Lesson 1 Quiz — Socrates Teaches",
+          threshold: 80,
+          questions: [
+            {
+              id: "lesson-quiz-1",
+              type: "multiple_choice",
+              prompt: "What does διδάσκει mean?",
+              choices: [
+                { text: "he teaches", correct: true },
+                { text: "he writes", correct: false },
+                { text: "he walks", correct: false },
+                { text: "he sees", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-2",
+              type: "multiple_choice",
+              prompt: "What does σοφία mean?",
+              choices: [
+                { text: "soul", correct: false },
+                { text: "wisdom", correct: true },
+                { text: "body", correct: false },
+                { text: "truth", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-3",
+              type: "multiple_choice",
+              prompt: "What does ὁ Σωκράτης mean?",
+              choices: [
+                { text: "Socrates as subject", correct: true },
+                { text: "Socrates as direct object", correct: false },
+                { text: "wisdom", correct: false },
+                { text: "the soul", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-4",
+              type: "multiple_choice",
+              prompt: "In the sentence ὁ Σωκράτης διδάσκει, what case is ὁ Σωκράτης?",
+              choices: [
+                { text: "nominative", correct: true },
+                { text: "accusative", correct: false },
+                { text: "genitive", correct: false },
+                { text: "dative", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-5",
+              type: "multiple_choice",
+              prompt: "In the phrase τὸν λόγον, what case is τὸν λόγον?",
+              choices: [
+                { text: "nominative", correct: false },
+                { text: "accusative", correct: true },
+                { text: "vocative", correct: false },
+                { text: "dative", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-6",
+              type: "multiple_choice",
+              prompt: "Which article is feminine nominative singular?",
+              choices: [
+                { text: "ὁ", correct: false },
+                { text: "ἡ", correct: true },
+                { text: "τό", correct: false },
+                { text: "τόν", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-7",
+              type: "multiple_choice",
+              prompt: "Which article is masculine accusative singular?",
+              choices: [
+                { text: "ὁ", correct: false },
+                { text: "ἡ", correct: false },
+                { text: "τόν", correct: true },
+                { text: "τήν", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-8",
+              type: "multiple_choice",
+              prompt: "Which phrase means “the good man”?",
+              choices: [
+                { text: "ἡ καλὴ ψυχή", correct: false },
+                { text: "τὸ καλὸν σῶμα", correct: false },
+                { text: "ὁ καλὸς ἄνθρωπος", correct: true },
+                { text: "τὴν καλὴν σοφίαν", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-9",
+              type: "multiple_choice",
+              prompt: "What does ψυχή mean?",
+              choices: [
+                { text: "body", correct: false },
+                { text: "soul", correct: true },
+                { text: "speech", correct: false },
+                { text: "book", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-10",
+              type: "multiple_choice",
+              prompt: "What does σῶμα mean?",
+              choices: [
+                { text: "body", correct: true },
+                { text: "truth", correct: false },
+                { text: "student", correct: false },
+                { text: "virtue", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-11",
+              type: "multiple_choice",
+              prompt: "In the passage, what does Socrates say the good man trains?",
+              choices: [
+                { text: "only the body", correct: false },
+                { text: "only the soul", correct: false },
+                { text: "both body and soul", correct: true },
+                { text: "neither body nor soul", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-12",
+              type: "multiple_choice",
+              prompt: "What does Xenophon do when he hears Socrates?",
+              choices: [
+                { text: "He writes a book immediately.", correct: false },
+                { text: "He ignores Socrates.", correct: false },
+                { text: "He is amazed and rejoices.", correct: true },
+                { text: "He leaves Athens.", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-13",
+              type: "multiple_choice",
+              prompt: "Which verb means “he seeks”?",
+              choices: [
+                { text: "ζητεῖ", correct: true },
+                { text: "λέγει", correct: false },
+                { text: "χαίρει", correct: false },
+                { text: "βαδίζει", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-14",
+              type: "multiple_choice",
+              prompt: "Which noun is neuter?",
+              choices: [
+                { text: "ἄνθρωπος", correct: false },
+                { text: "σοφία", correct: false },
+                { text: "βιβλίον", correct: true },
+                { text: "ψυχή", correct: false }
+              ]
+            },
+            {
+              id: "lesson-quiz-15",
+              type: "multiple_choice",
+              prompt: "What is the best translation of ἡ ἀρετὴ καλὴ ἐστιν?",
+              choices: [
+                { text: "Virtue is good/noble.", correct: true },
+                { text: "The body is bad.", correct: false },
+                { text: "Socrates teaches.", correct: false },
+                { text: "Xenophon walks.", correct: false }
+              ]
+            }
+          ]
+        }
+      },
+      nextLesson: {
+        id: "lesson-2",
+        title: "The Wise Man Knows Himself",
+        fallbackUrl: "lessons.html#lesson-2"
+      }
+    },
     "lesson-4": {
       id: "lesson-4",
       number: 4,
@@ -328,6 +1109,7 @@
   const ACTIVITY_LABELS = {
     "vocab-flashcards": "Vocabulary Flashcards",
     "grammar-flashcards": "Grammar Flashcards",
+    "vocab-practice": "Vocabulary Practice",
     "topic-practice": "Practice This Topic",
     "grammar-exercises": "Grammar Exercises",
     "lesson-quiz": "Final Lesson Quiz",

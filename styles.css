@@ -2150,6 +2150,44 @@
       font-weight: 700;
     }
 
+    .lesson-overview {
+      display: grid;
+      grid-template-columns: minmax(220px, .42fr) minmax(0, 1fr);
+      gap: clamp(18px, 3vw, 34px);
+      align-items: start;
+    }
+
+    .lesson-overview h2 {
+      margin-top: 6px;
+    }
+
+    .lesson-meta-list {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+    }
+
+    .lesson-meta-list div {
+      display: grid;
+      gap: 4px;
+      border-left: 3px solid rgba(115,0,10,.22);
+      padding-left: 14px;
+    }
+
+    .lesson-meta-list dt {
+      color: var(--usc-garnet);
+      font-size: .78rem;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .lesson-meta-list dd {
+      margin: 0;
+      color: #443b35;
+      line-height: 1.52;
+    }
+
     body:not(.show-demo-notices) .lesson-sample-note:not(.is-visible) {
       display: none;
     }
@@ -2233,8 +2271,24 @@
       line-height: 1.62;
     }
 
+    .lesson-introduction-copy {
+      margin-top: 12px;
+      max-width: 880px;
+    }
+
+    .lesson-introduction-copy p {
+      margin: 0;
+    }
+
     .lesson-flashcard-link {
       min-width: fit-content;
+    }
+
+    .lesson-button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
     }
 
     .vocab-document {
@@ -2372,6 +2426,26 @@
       color: #5f534b;
     }
 
+    .translation-toggle {
+      margin-top: 18px;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 14px;
+      background: rgba(250,246,240,.74);
+      padding: 12px 14px;
+    }
+
+    .translation-toggle summary {
+      color: var(--usc-garnet);
+      cursor: pointer;
+      font-weight: 900;
+    }
+
+    .translation-toggle p {
+      margin: 12px 0 0;
+      max-width: 900px;
+      color: #443b35;
+    }
+
     .word-building-panel .lesson-section__header h2,
     .grammar-panel .lesson-section__header h2,
     .gate-panel .lesson-section__header h2 {
@@ -2398,6 +2472,39 @@
     .enrichment-panel {
       display: grid;
       gap: 16px;
+    }
+
+    .word-builder-list {
+      display: grid;
+      gap: 8px;
+      margin: 12px 0 0;
+    }
+
+    .word-builder-list div {
+      display: grid;
+      grid-template-columns: minmax(130px, .24fr) minmax(0, 1fr);
+      gap: 12px;
+      align-items: baseline;
+      border: 1px solid rgba(115,0,10,.08);
+      border-radius: 12px;
+      background: rgba(255,255,255,.7);
+      padding: 10px 12px;
+    }
+
+    .word-builder-list dt,
+    .word-builder-list dd {
+      margin: 0;
+    }
+
+    .word-builder-list dt {
+      color: #2f2925;
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    .word-builder-list dd {
+      color: #5f534b;
+      line-height: 1.35;
     }
 
     .word-building-panel {
@@ -2465,6 +2572,110 @@
       color: var(--muted);
       font-size: .98rem;
       line-height: 1.35;
+    }
+
+    .grammar-table-wrap {
+      overflow-x: auto;
+      margin-top: 14px;
+    }
+
+    .grammar-table {
+      width: 100%;
+      min-width: 480px;
+      border-collapse: collapse;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 12px;
+      overflow: hidden;
+      background: rgba(255,255,255,.74);
+    }
+
+    .grammar-table th,
+    .grammar-table td {
+      border-bottom: 1px solid rgba(111,102,95,.14);
+      padding: 11px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .grammar-table thead th {
+      background: rgba(115,0,10,.08);
+      color: var(--usc-garnet);
+      font-size: .82rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .grammar-table tbody th {
+      color: #443b35;
+      font-weight: 900;
+    }
+
+    .grammar-table tbody td {
+      color: #2f2925;
+      font-size: 1.2rem;
+    }
+
+    .grammar-exercise-summary {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+      border-left: 3px solid rgba(216,161,49,.52);
+      padding-left: 14px;
+    }
+
+    .grammar-exercise-summary h4 {
+      margin: 0;
+      color: var(--usc-garnet);
+      font-size: 1rem;
+    }
+
+    .grammar-exercise-summary ul {
+      margin: 0;
+      padding-left: 18px;
+      color: #443b35;
+      line-height: 1.5;
+    }
+
+    .culture-panel {
+      background:
+        linear-gradient(145deg, rgba(255,255,255,.94), rgba(242,247,244,.9));
+      border-color: rgba(49,98,85,.2);
+    }
+
+    .culture-questions {
+      display: grid;
+      gap: 16px;
+    }
+
+    .culture-question-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .culture-question {
+      display: grid;
+      gap: 8px;
+      border: 1px solid rgba(115,0,10,.09);
+      border-radius: 12px;
+      background: rgba(250,246,240,.72);
+      padding: 14px;
+    }
+
+    .culture-question h3,
+    .culture-question p {
+      margin: 0;
+    }
+
+    .culture-question h3 {
+      color: var(--usc-garnet);
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+
+    .culture-question p {
+      color: #5f534b;
+      line-height: 1.45;
     }
 
     .gate-message {
@@ -5039,6 +5250,11 @@
       .lesson-hero::after {
         background: linear-gradient(180deg, rgba(28,18,12,.72), rgba(28,18,12,.22));
       }
+      .lesson-overview,
+      .culture-question-list,
+      .word-builder-list div {
+        grid-template-columns: 1fr;
+      }
       .lesson-section__header,
       .grammar-subsection__heading,
       .activity-header,
@@ -5059,6 +5275,11 @@
       .vocab-document {
         grid-template-columns: 1fr;
         row-gap: 12px;
+      }
+      .lesson-button-row .primary-button,
+      .lesson-button-row .secondary-button {
+        width: 100%;
+        justify-content: center;
       }
       .vocab-group li {
         font-size: 1.04rem;

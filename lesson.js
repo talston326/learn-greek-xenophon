@@ -1,8 +1,9 @@
 (function () {
   const shell = document.querySelector("[data-lesson-template]");
   const params = new URLSearchParams(window.location.search);
-  const lesson = window.xenophonLessonData?.getLesson(params.get("lesson") || "4");
-  const requestedPage = Math.max(1, Math.min(3, Number(params.get("page") || "1")));
+  const lesson = window.xenophonLessonData?.getLesson(params.get("lesson") || "1");
+  const maxPage = lesson?.pages?.length || 1;
+  const requestedPage = Math.max(1, Math.min(maxPage, Number(params.get("page") || "1")));
   const page = lesson?.pages.find((item) => item.page === requestedPage) || lesson?.pages[0];
 
   if (!shell) {
@@ -59,9 +60,38 @@
         <div class="lesson-hero__overlay">
           <p class="lesson-hero__kicker">Lesson ${lesson.number}</p>
           <h1 class="lesson-hero__title">${escapeHtml(lesson.title)}</h1>
-          <p class="lesson-hero__caption greek-text" lang="grc">${escapeHtml(lesson.banner.caption)}</p>
+          <p class="lesson-hero__caption greek-text" lang="grc">${escapeHtml(lesson.greekTitle || lesson.banner.caption)}</p>
         </div>
       </header>
+    `;
+  }
+
+  function renderLessonOverview() {
+    if (!lesson.scope && !lesson.theme && !lesson.module) {
+      return "";
+    }
+
+    return `
+      <section class="lesson-section lesson-overview" aria-labelledby="lesson-overview-heading">
+        <div>
+          <p class="eyebrow">${escapeHtml(lesson.module || `Lesson ${lesson.number}`)}</p>
+          <h2 id="lesson-overview-heading">${escapeHtml(lesson.greekTitle || lesson.title)}</h2>
+        </div>
+        <dl class="lesson-meta-list">
+          ${lesson.scope ? `
+            <div>
+              <dt>Scope</dt>
+              <dd>${escapeHtml(lesson.scope)}</dd>
+            </div>
+          ` : ""}
+          ${lesson.theme ? `
+            <div>
+              <dt>Theme</dt>
+              <dd>${escapeHtml(lesson.theme)}</dd>
+            </div>
+          ` : ""}
+        </dl>
+      </section>
     `;
   }
 
@@ -98,31 +128,50 @@
     return `
       <section class="lesson-section" aria-labelledby="lesson-reading-heading">
         <h2 id="lesson-reading-heading">${escapeHtml(lesson.reading.title)}</h2>
+        ${lesson.reading.introduction?.length ? `
+          <div class="lesson-introduction-copy">
+            ${lesson.reading.introduction.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+          </div>
+        ` : ""}
         <div class="greek-reading">
           ${lesson.reading.paragraphs.map((paragraph) => `
             <div class="reading-paragraph">
               <p class="greek-text" lang="grc">${escapeHtml(paragraph.greek)}</p>
-              <dl class="reading-gloss">
-                ${paragraph.gloss.map((entry) => `
-                  <div>
-                    <dt class="greek-text" lang="grc">${escapeHtml(entry.greek)}</dt>
-                    <dd>${escapeHtml(entry.english)}</dd>
-                  </div>
-                `).join("")}
-              </dl>
+              ${paragraph.gloss?.length ? renderGlossList(paragraph.gloss, "Reading Glosses") : ""}
             </div>
           `).join("")}
         </div>
+        ${lesson.reading.translation ? `
+          <details class="translation-toggle">
+            <summary>Show guided translation</summary>
+            <p>${escapeHtml(lesson.reading.translation)}</p>
+          </details>
+        ` : ""}
       </section>
     `;
   }
 
+  function renderGlossList(entries, label = "Glosses") {
+    return `
+      <dl class="reading-gloss" aria-label="${escapeHtml(label)}">
+        ${entries.map((entry) => `
+          <div>
+            <dt class="greek-text" lang="grc">${escapeHtml(entry.greek)}</dt>
+            <dd>${escapeHtml(entry.english)}</dd>
+          </div>
+        `).join("")}
+      </dl>
+    `;
+  }
+
   function renderReadingPage() {
+    const includeVocabulary = page.includeVocabulary !== false;
     return `
       ${renderHero()}
       ${renderSampleNotice()}
+      ${renderLessonOverview()}
       <div class="lesson-reading-panel">
-        ${renderVocabulary()}
+        ${includeVocabulary ? renderVocabulary() : ""}
         ${renderReading()}
       </div>
       ${renderPageNav()}
@@ -139,9 +188,88 @@
           <div class="lesson-markdown-block">
             <h3>${escapeHtml(block.title)}</h3>
             ${block.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+            ${block.display?.length ? `
+              <dl class="word-builder-list">
+                ${block.display.map((entry) => `
+                  <div>
+                    <dt class="greek-text" lang="grc">${escapeHtml(entry.greek)}</dt>
+                    <dd>${escapeHtml(entry.english)}</dd>
+                  </div>
+                `).join("")}
+              </dl>
+            ` : ""}
           </div>
         `).join("")}
       </section>
+    `;
+  }
+
+  function renderVocabularyPractice() {
+    const hasPractice = Boolean(lesson.activities?.["vocab-practice"]?.questions?.length);
+
+    return `
+      <section class="lesson-section gate-panel" aria-labelledby="vocabulary-practice-heading">
+        <div class="lesson-section__header">
+          <h2 id="vocabulary-practice-heading">Vocabulary Practice</h2>
+          <div class="lesson-button-row">
+            <a class="secondary-button" href="${activityUrl("vocab-flashcards", page.page)}">Vocabulary Flashcards</a>
+            ${hasPractice ? `<a class="primary-button" href="${activityUrl("vocab-practice", page.page)}">Practice Vocabulary</a>` : ""}
+          </div>
+        </div>
+        <p class="gate-description">Review the Lesson 1 vocabulary before you move into the cultural reading and grammar practice.</p>
+      </section>
+    `;
+  }
+
+  function renderVocabularyPage() {
+    return `
+      ${renderSampleNotice()}
+      <header class="lesson-page-heading">
+        <p class="eyebrow">Lesson ${lesson.number}</p>
+        <h1>${escapeHtml(page.title)}</h1>
+      </header>
+      ${renderVocabulary()}
+      ${lesson.reading.paragraphs[0]?.gloss?.length ? `
+        <section class="lesson-section" aria-labelledby="reading-gloss-heading">
+          <h2 id="reading-gloss-heading">Passage Glosses</h2>
+          <p class="gate-description">These words appear in the reading, but they are glossed here instead of treated as required vocabulary yet.</p>
+          ${renderGlossList(lesson.reading.paragraphs[0].gloss, "Passage words not in required vocabulary")}
+        </section>
+      ` : ""}
+      ${renderWordStudy()}
+      ${renderVocabularyPractice()}
+      ${renderPageNav()}
+    `;
+  }
+
+  function renderCulturePage() {
+    const culture = lesson.culture || {};
+
+    return `
+      ${renderSampleNotice()}
+      <header class="lesson-page-heading">
+        <p class="eyebrow">Culture and History</p>
+        <h1>${escapeHtml(culture.title || page.title)}</h1>
+      </header>
+      <section class="lesson-section enrichment-panel culture-panel" aria-labelledby="culture-reading-heading">
+        <p class="eyebrow">Socratic Context</p>
+        <h2 id="culture-reading-heading">${escapeHtml(culture.title || "Cultural Reading")}</h2>
+        ${(culture.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+      </section>
+      ${culture.questions?.length ? `
+        <section class="lesson-section culture-questions" aria-labelledby="culture-questions-heading">
+          <h2 id="culture-questions-heading">Comprehension and Reflection</h2>
+          <div class="culture-question-list">
+            ${culture.questions.map((question, index) => `
+              <article class="culture-question">
+                <h3>${index + 1}. ${escapeHtml(question.prompt)}</h3>
+                <p>${escapeHtml(question.answer)}</p>
+              </article>
+            `).join("")}
+          </div>
+        </section>
+      ` : ""}
+      ${renderPageNav()}
     `;
   }
 
@@ -170,6 +298,32 @@
                 `).join("")}
               </div>
             ` : ""}
+            ${section.table ? `
+              <div class="grammar-table-wrap">
+                <table class="grammar-table">
+                  <thead>
+                    <tr>
+                      ${section.table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${section.table.rows.map((row) => `
+                      <tr>
+                        ${row.map((cell, index) => `<${index === 0 ? "th" : "td"} ${index === 0 ? 'scope="row"' : 'class="greek-text" lang="grc"'}>${escapeHtml(cell)}</${index === 0 ? "th" : "td"}>`).join("")}
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            ` : ""}
+            ${section.exercises?.length ? `
+              <div class="grammar-exercise-summary">
+                <h4>Exercises</h4>
+                <ul>
+                  ${section.exercises.map((exercise) => `<li>${escapeHtml(exercise)}</li>`).join("")}
+                </ul>
+              </div>
+            ` : ""}
           </section>
         `).join("")}
       </section>
@@ -194,6 +348,28 @@
       ${renderWordStudy()}
       ${renderGrammar()}
       ${renderGrammarGate()}
+      ${renderPageNav()}
+    `;
+  }
+
+  function renderQuizPage() {
+    return `
+      ${renderSampleNotice()}
+      <header class="lesson-page-heading">
+        <p class="eyebrow">Lesson ${lesson.number}</p>
+        <h1>${escapeHtml(page.title)}</h1>
+      </header>
+      <section class="lesson-section gate-panel lesson-quiz-panel" aria-labelledby="lesson-quiz-heading">
+        <div class="lesson-section__header">
+          <div>
+            <p class="eyebrow">Mastery Check</p>
+            <h2 id="lesson-quiz-heading">${escapeHtml(lesson.activities["lesson-quiz"]?.title || "Final Lesson Quiz")}</h2>
+          </div>
+          <a class="primary-button" href="${activityUrl("lesson-quiz", page.page)}">Take Final Lesson Quiz</a>
+        </div>
+        <p class="gate-description">This quiz checks vocabulary, grammar, and reading comprehension. Passing it unlocks the next lesson.</p>
+        <p class="gate-message" data-gate-message="lesson-quiz"></p>
+      </section>
       ${renderPageNav()}
     `;
   }
@@ -225,7 +401,7 @@
   }
 
   function getGateState() {
-    if (page.page === 2) {
+    if (page.template === "grammar" && lesson.activities?.["grammar-exercises"]) {
       return {
         type: "grammar-exercises",
         threshold: lesson.activities["grammar-exercises"].threshold,
@@ -233,7 +409,7 @@
       };
     }
 
-    if (page.page === 3) {
+    if ((page.template === "quiz" || page.template === "enrichment") && lesson.activities?.["lesson-quiz"]) {
       return {
         type: "lesson-quiz",
         threshold: lesson.activities["lesson-quiz"].threshold,
@@ -248,11 +424,11 @@
     const previousPage = page.page - 1;
     const nextPage = page.page + 1;
     const gate = getGateState();
-    const nextLabel = page.page === 3 ? "Next Lesson" : "Next";
+    const nextLabel = page.page === lesson.pages.length ? "Next Lesson" : "Next";
     const previousHref = previousPage >= 1
       ? `lesson.html?lesson=${lesson.number}&page=${previousPage}`
       : "lessons.html";
-    const nextHref = nextPage <= 3
+    const nextHref = nextPage <= lesson.pages.length
       ? `lesson.html?lesson=${lesson.number}&page=${nextPage}`
       : lesson.nextLesson.fallbackUrl;
 
@@ -268,8 +444,14 @@
   function render() {
     if (page.template === "reading") {
       shell.innerHTML = renderReadingPage();
+    } else if (page.template === "vocabulary") {
+      shell.innerHTML = renderVocabularyPage();
+    } else if (page.template === "culture") {
+      shell.innerHTML = renderCulturePage();
     } else if (page.template === "grammar") {
       shell.innerHTML = renderGrammarPage();
+    } else if (page.template === "quiz") {
+      shell.innerHTML = renderQuizPage();
     } else {
       shell.innerHTML = renderEnrichmentPage();
     }
@@ -333,7 +515,7 @@
           link.setAttribute("aria-busy", "true");
           const nextPage = page.page + 1;
 
-          if (nextPage <= 3) {
+          if (nextPage <= lesson.pages.length) {
             const destination = lesson.pages.find((item) => item.page === nextPage);
             await window.xenophonLessonProgress?.markSegment({
               lessonSlug: lesson.id,
