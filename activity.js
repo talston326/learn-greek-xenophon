@@ -11,6 +11,7 @@
   let flashcardSessionTotal = 0;
   let reviewedInMode = 0;
   let topicPracticeOffset = 0;
+  let topicPracticeQuestions = [];
   const TOPIC_PRACTICE_BATCH_SIZE = 5;
 
   if (returnTo.includes("lesson.html") && params.has("page") && !returnTo.includes("page=")) {
@@ -242,8 +243,8 @@
       `Not quite. The correct answer is ${getCorrectChoice(question)?.text || "shown in the lesson notes"}.`;
   }
 
-  function shuffleChoices(choices) {
-    const shuffled = [...choices];
+  function shuffleItems(items) {
+    const shuffled = [...items];
 
     for (let index = shuffled.length - 1; index > 0; index -= 1) {
       const swapIndex = Math.floor(Math.random() * (index + 1));
@@ -253,6 +254,10 @@
     return shuffled;
   }
 
+  function shuffleChoices(choices) {
+    return shuffleItems(choices);
+  }
+
   function prepareTopicQuestion(question) {
     return {
       ...question,
@@ -260,8 +265,16 @@
     };
   }
 
+  function getTopicPracticeQuestions() {
+    if (!topicPracticeQuestions.length) {
+      topicPracticeQuestions = shuffleItems(getQuestions());
+    }
+
+    return topicPracticeQuestions;
+  }
+
   function renderTopicPractice() {
-    const questions = getQuestions();
+    const questions = getTopicPracticeQuestions();
 
     if (!questions.length) {
       renderUnavailable();
