@@ -166,6 +166,11 @@
       width: 100%;
     }
 
+    .developer-login-button {
+      width: 100%;
+      margin: -8px 0 16px;
+    }
+
     .login-status {
       min-height: 22px;
       margin: 4px 0 0;

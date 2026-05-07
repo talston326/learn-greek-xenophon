@@ -1213,6 +1213,7 @@ const loginEmailInput = document.querySelector("[data-login-email]");
 const loginPasswordInput = document.querySelector("[data-login-password]");
 const loginStatusEl = document.querySelector("[data-login-status]");
 const loginFormPanel = document.querySelector("[data-login-form-panel]");
+const quickDevLoginButton = document.querySelector("[data-quick-dev-login]");
 const registerForm = document.querySelector("[data-register-form]");
 const registerFirstNameInput = document.querySelector("[data-register-first-name]");
 const registerLastNameInput = document.querySelector("[data-register-last-name]");
@@ -3915,6 +3916,40 @@ function handleAuthenticatedUser(user) {
   renderRoleChoices(user);
 }
 
+function performLogin({ email, password, statusMessage = "Signing in..." }) {
+  setFieldError(loginEmailInput, !email);
+  setFieldError(loginPasswordInput, !password);
+
+  if (!email || !password) {
+    loginStatusEl.textContent = "Email and password are required.";
+    return;
+  }
+
+  loginEmailInput.value = email;
+  loginStatusEl.textContent = statusMessage;
+  setAuthBusy(loginForm, true);
+  if (quickDevLoginButton) {
+    quickDevLoginButton.disabled = true;
+  }
+
+  window.xenophonAuth.loginStudent({ email, password })
+    .then((user) => {
+      window.xenophonAuth.rememberVisiblePassword?.(email, password);
+      loginPasswordInput.value = "";
+      handleAuthenticatedUser(user);
+    })
+    .catch((error) => {
+      loginStatusEl.textContent = error.message || "Sign in failed.";
+      setFieldError(loginPasswordInput, error.message === window.xenophonAuth.DEV_CLASS_PASSWORD_MESSAGE);
+    })
+    .finally(() => {
+      setAuthBusy(loginForm, false);
+      if (quickDevLoginButton) {
+        quickDevLoginButton.disabled = false;
+      }
+    });
+}
+
 authTabs.forEach((tab) => {
   tab.addEventListener("click", () => setAuthMode(tab.dataset.authTab, true));
 });
@@ -3970,31 +4005,16 @@ loginForm?.addEventListener("submit", (event) => {
   const email = normalizeEmail(loginEmailInput.value);
   const password = loginPasswordInput.value;
 
-  setFieldError(loginEmailInput, !email);
-  setFieldError(loginPasswordInput, !password);
+  performLogin({ email, password });
+});
 
-  if (!email || !password) {
-    loginStatusEl.textContent = "Email and password are required.";
-    return;
-  }
-
-  loginEmailInput.value = email;
-  loginStatusEl.textContent = "Signing in...";
-  setAuthBusy(loginForm, true);
-
-  window.xenophonAuth.loginStudent({ email, password })
-    .then((user) => {
-      window.xenophonAuth.rememberVisiblePassword?.(email, password);
-      loginPasswordInput.value = "";
-      handleAuthenticatedUser(user);
-    })
-    .catch((error) => {
-      loginStatusEl.textContent = error.message || "Sign in failed.";
-      setFieldError(loginPasswordInput, error.message === window.xenophonAuth.DEV_CLASS_PASSWORD_MESSAGE);
-    })
-    .finally(() => {
-      setAuthBusy(loginForm, false);
-    });
+quickDevLoginButton?.addEventListener("click", () => {
+  setAuthMode("login");
+  performLogin({
+    email: "tpalston@email.sc.edu",
+    password: "xenophon",
+    statusMessage: "Signing in with the developer account..."
+  });
 });
 
 loginBackButton?.addEventListener("click", () => {
