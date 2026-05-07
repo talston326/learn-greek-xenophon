@@ -2706,27 +2706,6 @@
       font-size: 1.08em;
     }
 
-    .grammar-exercise-summary {
-      display: grid;
-      gap: 8px;
-      margin-top: 14px;
-      border-left: 3px solid rgba(216,161,49,.52);
-      padding-left: 14px;
-    }
-
-    .grammar-exercise-summary h4 {
-      margin: 0;
-      color: var(--usc-garnet);
-      font-size: 1rem;
-    }
-
-    .grammar-exercise-summary ul {
-      margin: 0;
-      padding-left: 18px;
-      color: #443b35;
-      line-height: 1.5;
-    }
-
     .culture-panel {
       background:
         linear-gradient(145deg, rgba(255,255,255,.94), rgba(242,247,244,.9));
@@ -2790,7 +2769,8 @@
     }
 
     .gated-next.is-disabled,
-    .primary-button[aria-disabled="true"] {
+    .primary-button[aria-disabled="true"],
+    .primary-button:disabled {
       opacity: .52;
       cursor: not-allowed;
       box-shadow: none;
@@ -2974,6 +2954,76 @@
       background: #fff;
       padding: 10px 12px;
       cursor: pointer;
+    }
+
+    .topic-practice-session,
+    .topic-practice-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .topic-practice-progress {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      color: #443b35;
+      font-weight: 800;
+    }
+
+    .topic-choice-status {
+      display: inline-grid;
+      width: 22px;
+      height: 22px;
+      flex: 0 0 22px;
+      place-items: center;
+      border: 1px solid rgba(111,102,95,.22);
+      border-radius: 6px;
+      color: transparent;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .quiz-choice-list label.is-correct {
+      border-color: rgba(45,121,74,.42);
+      background: rgba(236,248,240,.92);
+    }
+
+    .quiz-choice-list label.is-correct .topic-choice-status {
+      border-color: #2d794a;
+      background: #2d794a;
+      color: #fff;
+    }
+
+    .quiz-choice-list label.is-wrong {
+      border-color: rgba(166,48,45,.42);
+      background: rgba(252,239,237,.92);
+    }
+
+    .quiz-choice-list label.is-wrong .topic-choice-status {
+      border-color: #a6302d;
+      background: #a6302d;
+      color: #fff;
+    }
+
+    .topic-choice-feedback {
+      min-height: 1.35em;
+      margin: 10px 0 0;
+      color: #443b35;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .topic-choice-feedback.is-correct {
+      color: #2d794a;
+    }
+
+    .topic-choice-feedback.is-wrong {
+      color: #8f241f;
+    }
+
+    .topic-practice-actions {
+      justify-content: flex-end;
     }
 
     .activity-result {

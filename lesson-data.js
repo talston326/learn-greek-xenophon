@@ -1,4 +1,108 @@
 (function () {
+  const LESSON_1_VERBS = [
+    { greek: "ἀκούει", english: "he hears, listens to", stem: "ἀκου-", ending: "-ει" },
+    { greek: "βαδίζει", english: "he walks", stem: "βαδιζ-", ending: "-ει" },
+    { greek: "γράφει", english: "he writes", stem: "γραφ-", ending: "-ει" },
+    { greek: "γυμνάζει", english: "he trains, exercises", stem: "γυμναζ-", ending: "-ει" },
+    { greek: "διδάσκει", english: "he teaches", stem: "διδασκ-", ending: "-ει" },
+    { greek: "ἐγείρει", english: "he awakens, rouses", stem: "ἐγειρ-", ending: "-ει" },
+    { greek: "ἐστιν", english: "he is", wholeForm: true },
+    { greek: "ζητεῖ", english: "he seeks", wholeForm: true },
+    { greek: "θαυμάζει", english: "he wonders, admires, is amazed", stem: "θαυμαζ-", ending: "-ει" },
+    { greek: "λέγει", english: "he says, speaks", stem: "λεγ-", ending: "-ει" },
+    { greek: "μειδιᾷ", english: "he smiles", wholeForm: true },
+    { greek: "οἰκεῖ", english: "he lives, dwells", wholeForm: true },
+    { greek: "ὁρᾷ", english: "he sees", wholeForm: true },
+    { greek: "παιδεύει", english: "he educates, trains", stem: "παιδευ-", ending: "-ει" },
+    { greek: "φιλεῖ", english: "he loves", wholeForm: true },
+    { greek: "χαίρει", english: "he rejoices, is glad", stem: "χαιρ-", ending: "-ει" }
+  ];
+
+  function makeChoices(correctText, wrongTexts, explanation) {
+    return [
+      { text: correctText, correct: true, feedback: "Correct." },
+      ...wrongTexts.map((text) => ({
+        text,
+        correct: false,
+        feedback: explanation
+      }))
+    ];
+  }
+
+  function makeVerbMeaningQuestion(verb, index) {
+    const otherVerbs = LESSON_1_VERBS.filter((item) => item.greek !== verb.greek);
+    const distractors = [
+      otherVerbs[index % otherVerbs.length].english,
+      otherVerbs[(index + 5) % otherVerbs.length].english
+    ];
+
+    return {
+      id: `verb-forms-meaning-${index + 1}`,
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: `What does ${verb.greek} mean?`,
+      explanation: `${verb.greek} is the Lesson 1 verb form meaning “${verb.english}.”`,
+      choices: makeChoices(verb.english, distractors, `${verb.greek} means “${verb.english}.”`)
+    };
+  }
+
+  function makeVerbRecognitionQuestion(verb, index) {
+    const subjects = ["ὁ Σωκράτης", "ὁ Ξενοφῶν", "ὁ ἄνθρωπος", "ὁ μαθητής"];
+    const sentence = `${subjects[index % subjects.length]} ${verb.greek}.`;
+
+    return {
+      id: `verb-forms-recognition-${index + 1}`,
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: `Select the verb: ${sentence}`,
+      explanation: `${verb.greek} is the action word in the sentence.`,
+      choices: makeChoices(verb.greek, [subjects[index % subjects.length], "ὁ"], `${verb.greek} is the verb; the other choices are not the action word.`)
+    };
+  }
+
+  function makeVerbEndingQuestion(verb, index) {
+    const ending = verb.wholeForm ? "learn as a whole form for now" : verb.ending;
+
+    return {
+      id: `verb-forms-ending-${index + 1}`,
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: `How should you handle ${verb.greek} in Lesson 1?`,
+      explanation: verb.wholeForm
+        ? `${verb.greek} is one of the forms to learn as a complete vocabulary word for now.`
+        : `${verb.greek} is a third person singular present active form ending in ${verb.ending}.`,
+      choices: makeChoices(
+        ending,
+        verb.wholeForm ? ["identify a stem and -ει ending", "explain its vowel change now"] : ["learn as a whole form for now", "treat it as a noun"],
+        verb.wholeForm
+          ? `${verb.greek} should be learned as a whole form for now.`
+          : `${verb.greek} belongs with the common -ει third person singular forms in this lesson.`
+      )
+    };
+  }
+
+  function makeVerbStemQuestion(verb, index) {
+    return {
+      id: `verb-forms-stem-${index + 1}`,
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: `What stem is shown in ${verb.greek}?`,
+      explanation: `${verb.greek} can be read as ${verb.stem} plus ${verb.ending}.`,
+      choices: makeChoices(verb.stem, [verb.ending, `${verb.greek}-`], `${verb.stem} is the stem; ${verb.ending} is the ending.`)
+    };
+  }
+
+  function makeLesson1VerbMasteryQuestions() {
+    const meaning = LESSON_1_VERBS.map(makeVerbMeaningQuestion);
+    const recognition = LESSON_1_VERBS.map(makeVerbRecognitionQuestion);
+    const endings = LESSON_1_VERBS.map(makeVerbEndingQuestion);
+    const stems = LESSON_1_VERBS
+      .filter((verb) => !verb.wholeForm)
+      .map(makeVerbStemQuestion);
+
+    return [...meaning, ...recognition, ...endings, ...stems].slice(0, 50);
+  }
+
   const LESSONS = {
     "lesson-1": {
       id: "lesson-1",
@@ -320,83 +424,7 @@
         "topic-practice": {
           title: "Practice This Topic",
           questions: [
-            {
-              id: "verb-forms-a-1",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Select the verb: ὁ Σωκράτης διδάσκει.",
-              choices: [
-                { text: "διδάσκει", correct: true },
-                { text: "ὁ Σωκράτης", correct: false },
-                { text: "ὁ", correct: false }
-              ]
-            },
-            {
-              id: "verb-forms-a-2",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Select the verb: ὁ Ξενοφῶν χαίρει.",
-              choices: [
-                { text: "χαίρει", correct: true },
-                { text: "Ξενοφῶν", correct: false },
-                { text: "ὁ", correct: false }
-              ]
-            },
-            {
-              id: "verb-forms-a-3",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Select the verb: ὁ ἄνθρωπος βαδίζει.",
-              choices: [
-                { text: "βαδίζει", correct: true },
-                { text: "ἄνθρωπος", correct: false },
-                { text: "ὁ", correct: false }
-              ]
-            },
-            {
-              id: "verb-forms-b-1",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Match διδάσκει to its meaning.",
-              choices: [
-                { text: "he teaches", correct: true },
-                { text: "he writes", correct: false },
-                { text: "he seeks", correct: false }
-              ]
-            },
-            {
-              id: "verb-forms-b-2",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Choose the correct translation: φιλεῖ.",
-              choices: [
-                { text: "he loves", correct: true },
-                { text: "he walks", correct: false },
-                { text: "he sees", correct: false }
-              ]
-            },
-            {
-              id: "verb-forms-c-1",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Choose the correct translation: ζητεῖ.",
-              choices: [
-                { text: "he teaches", correct: false },
-                { text: "he seeks", correct: true },
-                { text: "he writes", correct: false }
-              ]
-            },
-            {
-              id: "verb-forms-c-2",
-              topic: "verb-forms",
-              type: "multiple_choice",
-              prompt: "Choose the correct translation: λέγει.",
-              choices: [
-                { text: "he listens", correct: false },
-                { text: "he says", correct: true },
-                { text: "he awakens", correct: false }
-              ]
-            },
+            ...makeLesson1VerbMasteryQuestions(),
             {
               id: "nouns-cases-a-1",
               topic: "nouns-cases-agreement",

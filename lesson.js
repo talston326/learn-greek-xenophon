@@ -361,14 +361,6 @@
                 `).join("")}
               </div>
             ` : ""}
-            ${section.exercises?.length ? `
-              <div class="grammar-exercise-summary">
-                <h4>Exercises</h4>
-                <ul>
-                  ${section.exercises.map((exercise) => `<li>${escapeHtml(exercise)}</li>`).join("")}
-                </ul>
-              </div>
-            ` : ""}
           </section>
         `).join("")}
       </section>

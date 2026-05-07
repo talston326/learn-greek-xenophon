@@ -10,6 +10,8 @@
   let flashcardMode = "greek-english";
   let flashcardSessionTotal = 0;
   let reviewedInMode = 0;
+  let topicPracticeOffset = 0;
+  const TOPIC_PRACTICE_BATCH_SIZE = 5;
 
   if (returnTo.includes("lesson.html") && params.has("page") && !returnTo.includes("page=")) {
     returnTo += `${returnTo.includes("?") ? "&" : "?"}page=${params.get("page")}`;
@@ -217,6 +219,136 @@
     return questions;
   }
 
+  function getCorrectChoice(question) {
+    return question.choices.find((choice) => choice.correct);
+  }
+
+  function getChoiceFeedback(question, choice) {
+    if (choice.correct) {
+      return choice.feedback || "Correct.";
+    }
+
+    return choice.feedback ||
+      question.explanation ||
+      `Not quite. The correct answer is ${getCorrectChoice(question)?.text || "shown in the lesson notes"}.`;
+  }
+
+  function renderTopicPractice() {
+    const questions = getQuestions();
+
+    if (!questions.length) {
+      renderUnavailable();
+      return;
+    }
+
+    const currentQuestions = questions.slice(topicPracticeOffset, topicPracticeOffset + TOPIC_PRACTICE_BATCH_SIZE);
+    const start = topicPracticeOffset + 1;
+    const end = topicPracticeOffset + currentQuestions.length;
+
+    renderShell(`
+      <section class="topic-practice-session" aria-label="Topic practice session">
+        <div class="topic-practice-progress" aria-live="polite">
+          <span>Questions ${start}-${end} of ${questions.length}</span>
+          <span>Answer each one correctly to continue.</span>
+        </div>
+        <div class="topic-practice-list">
+          ${currentQuestions.map((question, questionIndex) => `
+            <fieldset class="quiz-question topic-practice-question" data-topic-question="${questionIndex}">
+              <legend>${escapeHtml(question.prompt)}</legend>
+              <div class="quiz-choice-list">
+                ${question.choices.map((choice, choiceIndex) => `
+                  <label data-topic-choice="${choiceIndex}">
+                    <input type="radio" name="topic-question-${questionIndex}" value="${choiceIndex}">
+                    <span class="topic-choice-status" aria-hidden="true"></span>
+                    <span>${escapeHtml(choice.text)}</span>
+                  </label>
+                `).join("")}
+              </div>
+              <p class="topic-choice-feedback" data-topic-feedback aria-live="polite"></p>
+            </fieldset>
+          `).join("")}
+        </div>
+        <div class="activity-submit-row topic-practice-actions">
+          <a class="secondary-button" href="${escapeHtml(returnTo)}">Quit</a>
+          <button class="primary-button" type="button" data-topic-continue disabled>Continue</button>
+        </div>
+      </section>
+    `);
+    bindTopicPractice(currentQuestions, questions.length);
+  }
+
+  function updateTopicContinueState() {
+    const questions = [...shell.querySelectorAll("[data-topic-question]")];
+    const allCorrect = questions.length > 0 && questions.every((questionEl) => questionEl.dataset.correct === "true");
+    const continueButton = shell.querySelector("[data-topic-continue]");
+
+    if (continueButton) {
+      continueButton.disabled = !allCorrect;
+    }
+  }
+
+  function bindTopicPractice(currentQuestions, totalQuestions) {
+    shell.querySelectorAll("[data-topic-question]").forEach((questionEl) => {
+      const questionIndex = Number(questionEl.dataset.topicQuestion);
+      const question = currentQuestions[questionIndex];
+
+      questionEl.querySelectorAll("input[type='radio']").forEach((input) => {
+        input.addEventListener("change", () => {
+          const choiceIndex = Number(input.value);
+          const choice = question.choices[choiceIndex];
+          const feedback = questionEl.querySelector("[data-topic-feedback]");
+
+          questionEl.dataset.correct = String(Boolean(choice.correct));
+          questionEl.querySelectorAll("[data-topic-choice]").forEach((label) => {
+            label.classList.remove("is-correct", "is-wrong");
+            label.querySelector(".topic-choice-status").textContent = "";
+          });
+
+          const selectedLabel = questionEl.querySelector(`[data-topic-choice="${choiceIndex}"]`);
+          selectedLabel?.classList.add(choice.correct ? "is-correct" : "is-wrong");
+          const status = selectedLabel?.querySelector(".topic-choice-status");
+          if (status) {
+            status.textContent = choice.correct ? "✓" : "×";
+          }
+
+          if (feedback) {
+            feedback.textContent = getChoiceFeedback(question, choice);
+            feedback.classList.toggle("is-correct", Boolean(choice.correct));
+            feedback.classList.toggle("is-wrong", !choice.correct);
+          }
+
+          updateTopicContinueState();
+        });
+      });
+    });
+
+    shell.querySelector("[data-topic-continue]")?.addEventListener("click", async () => {
+      const nextOffset = topicPracticeOffset + TOPIC_PRACTICE_BATCH_SIZE;
+
+      if (nextOffset >= totalQuestions) {
+        await window.xenophonLessonProgress?.recordActivityResult({
+          lessonSlug: lesson.id,
+          activityType,
+          score: 100,
+          passed: true
+        });
+        renderShell(`
+          <section class="flashcard-study">
+            <h2>Topic practice complete.</h2>
+            <p class="muted">You answered all ${totalQuestions} questions correctly.</p>
+            <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>
+          </section>
+        `);
+        return;
+      }
+
+      topicPracticeOffset = nextOffset;
+      renderTopicPractice();
+    });
+
+    updateTopicContinueState();
+  }
+
   function renderQuiz() {
     const questions = getQuestions();
 
@@ -315,6 +447,11 @@
   if (activityType === "vocab-flashcards" || activityType === "grammar-flashcards") {
     normalizeFlashcards();
     renderFlashcardStudy(false);
+    return;
+  }
+
+  if (activityType === "topic-practice") {
+    renderTopicPractice();
     return;
   }
 
