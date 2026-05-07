@@ -1,5 +1,6 @@
 (function () {
   const LESSON_1_GRAMMAR_1_VERB_FORMS = [
+    // Group 1A — Verb meanings
     {
       id: "lesson-1-verb-forms-001",
       lesson: "lesson-1",
@@ -9,9 +10,9 @@
       target_form: "ἀκούει",
       lemma: "ἀκούω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it hears, listens to",
-      explanation: "ἀκούει is the Lesson 1 verb form meaning “he/she/it hears, listens to.”",
+      explanation: "ἀκούει means “he/she/it hears, listens to.”",
       choices: [
         {
           text: "he/she/it hears, listens to",
@@ -19,12 +20,12 @@
           feedback: "Correct. ἀκούει means “he/she/it hears, listens to.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it writes",
           correct: false,
           feedback: "No. ἀκούει means “he/she/it hears, listens to.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it walks",
           correct: false,
           feedback: "No. ἀκούει means “he/she/it hears, listens to.”"
         }
@@ -39,9 +40,9 @@
       target_form: "βαδίζει",
       lemma: "βαδίζω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it walks",
-      explanation: "βαδίζει is the Lesson 1 verb form meaning “he/she/it walks.”",
+      explanation: "βαδίζει means “he/she/it walks.”",
       choices: [
         {
           text: "he/she/it walks",
@@ -49,12 +50,12 @@
           feedback: "Correct. βαδίζει means “he/she/it walks.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it teaches",
           correct: false,
           feedback: "No. βαδίζει means “he/she/it walks.”"
         },
         {
-          text: "he/she/it teaches",
+          text: "he/she/it seeks",
           correct: false,
           feedback: "No. βαδίζει means “he/she/it walks.”"
         }
@@ -69,9 +70,9 @@
       target_form: "γράφει",
       lemma: "γράφω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it writes",
-      explanation: "γράφει is the Lesson 1 verb form meaning “he/she/it writes.”",
+      explanation: "γράφει means “he/she/it writes.”",
       choices: [
         {
           text: "he/she/it writes",
@@ -79,12 +80,12 @@
           feedback: "Correct. γράφει means “he/she/it writes.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it hears",
           correct: false,
           feedback: "No. γράφει means “he/she/it writes.”"
         },
         {
-          text: "he/she/it teaches",
+          text: "he/she/it sees",
           correct: false,
           feedback: "No. γράφει means “he/she/it writes.”"
         }
@@ -99,9 +100,9 @@
       target_form: "γυμνάζει",
       lemma: "γυμνάζω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it trains, exercises",
-      explanation: "γυμνάζει is the Lesson 1 verb form meaning “he/she/it trains, exercises.”",
+      explanation: "γυμνάζει means “he/she/it trains, exercises.”",
       choices: [
         {
           text: "he/she/it trains, exercises",
@@ -109,12 +110,12 @@
           feedback: "Correct. γυμνάζει means “he/she/it trains, exercises.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it says",
           correct: false,
           feedback: "No. γυμνάζει means “he/she/it trains, exercises.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it is glad",
           correct: false,
           feedback: "No. γυμνάζει means “he/she/it trains, exercises.”"
         }
@@ -129,9 +130,9 @@
       target_form: "διδάσκει",
       lemma: "διδάσκω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it teaches",
-      explanation: "διδάσκει is the Lesson 1 verb form meaning “he/she/it teaches.”",
+      explanation: "διδάσκει means “he/she/it teaches.”",
       choices: [
         {
           text: "he/she/it teaches",
@@ -144,7 +145,7 @@
           feedback: "No. διδάσκει means “he/she/it teaches.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it loves",
           correct: false,
           feedback: "No. διδάσκει means “he/she/it teaches.”"
         }
@@ -159,9 +160,9 @@
       target_form: "ἐγείρει",
       lemma: "ἐγείρω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it awakens, rouses",
-      explanation: "ἐγείρει is the Lesson 1 verb form meaning “he/she/it awakens, rouses.”",
+      explanation: "ἐγείρει means “he/she/it awakens, rouses.”",
       choices: [
         {
           text: "he/she/it awakens, rouses",
@@ -169,7 +170,7 @@
           feedback: "Correct. ἐγείρει means “he/she/it awakens, rouses.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it lives, dwells",
           correct: false,
           feedback: "No. ἐγείρει means “he/she/it awakens, rouses.”"
         },
@@ -188,10 +189,10 @@
       prompt: "What does ἐστιν mean?",
       target_form: "ἐστιν",
       lemma: "εἰμί",
-      parse: "3rd person singular present indicative of εἰμί",
-      skill: "vocabulary meaning",
+      parse: "3rd person singular present indicative",
+      skill: "verb meaning",
       answer: "he/she/it is",
-      explanation: "ἐστιν is the Lesson 1 verb form meaning “he/she/it is.”",
+      explanation: "ἐστιν means “he/she/it is.”",
       choices: [
         {
           text: "he/she/it is",
@@ -199,12 +200,12 @@
           feedback: "Correct. ἐστιν means “he/she/it is.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it seeks",
           correct: false,
           feedback: "No. ἐστιν means “he/she/it is.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it walks",
           correct: false,
           feedback: "No. ἐστιν means “he/she/it is.”"
         }
@@ -218,10 +219,10 @@
       prompt: "What does ζητεῖ mean?",
       target_form: "ζητεῖ",
       lemma: "ζητέω",
-      parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "verb meaning",
       answer: "he/she/it seeks",
-      explanation: "ζητεῖ is the Lesson 1 verb form meaning “he/she/it seeks.”",
+      explanation: "ζητεῖ means “he/she/it seeks.”",
       choices: [
         {
           text: "he/she/it seeks",
@@ -229,12 +230,12 @@
           feedback: "Correct. ζητεῖ means “he/she/it seeks.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it teaches",
           correct: false,
           feedback: "No. ζητεῖ means “he/she/it seeks.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it hears",
           correct: false,
           feedback: "No. ζητεῖ means “he/she/it seeks.”"
         }
@@ -249,9 +250,9 @@
       target_form: "θαυμάζει",
       lemma: "θαυμάζω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it wonders, admires, is amazed",
-      explanation: "θαυμάζει is the Lesson 1 verb form meaning “he/she/it wonders, admires, is amazed.”",
+      explanation: "θαυμάζει means “he/she/it wonders, admires, is amazed.”",
       choices: [
         {
           text: "he/she/it wonders, admires, is amazed",
@@ -259,12 +260,12 @@
           feedback: "Correct. θαυμάζει means “he/she/it wonders, admires, is amazed.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it writes",
           correct: false,
           feedback: "No. θαυμάζει means “he/she/it wonders, admires, is amazed.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it dwells",
           correct: false,
           feedback: "No. θαυμάζει means “he/she/it wonders, admires, is amazed.”"
         }
@@ -279,9 +280,9 @@
       target_form: "λέγει",
       lemma: "λέγω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it says, speaks",
-      explanation: "λέγει is the Lesson 1 verb form meaning “he/she/it says, speaks.”",
+      explanation: "λέγει means “he/she/it says, speaks.”",
       choices: [
         {
           text: "he/she/it says, speaks",
@@ -289,12 +290,12 @@
           feedback: "Correct. λέγει means “he/she/it says, speaks.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it smiles",
           correct: false,
           feedback: "No. λέγει means “he/she/it says, speaks.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it trains",
           correct: false,
           feedback: "No. λέγει means “he/she/it says, speaks.”"
         }
@@ -308,10 +309,10 @@
       prompt: "What does μειδιᾷ mean?",
       target_form: "μειδιᾷ",
       lemma: "μειδιάω",
-      parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "verb meaning",
       answer: "he/she/it smiles",
-      explanation: "μειδιᾷ is the Lesson 1 verb form meaning “he/she/it smiles.”",
+      explanation: "μειδιᾷ means “he/she/it smiles.”",
       choices: [
         {
           text: "he/she/it smiles",
@@ -319,12 +320,12 @@
           feedback: "Correct. μειδιᾷ means “he/she/it smiles.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it loves",
           correct: false,
           feedback: "No. μειδιᾷ means “he/she/it smiles.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it teaches",
           correct: false,
           feedback: "No. μειδιᾷ means “he/she/it smiles.”"
         }
@@ -338,10 +339,10 @@
       prompt: "What does οἰκεῖ mean?",
       target_form: "οἰκεῖ",
       lemma: "οἰκέω",
-      parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "verb meaning",
       answer: "he/she/it lives, dwells",
-      explanation: "οἰκεῖ is the Lesson 1 verb form meaning “he/she/it lives, dwells.”",
+      explanation: "οἰκεῖ means “he/she/it lives, dwells.”",
       choices: [
         {
           text: "he/she/it lives, dwells",
@@ -349,7 +350,7 @@
           feedback: "Correct. οἰκεῖ means “he/she/it lives, dwells.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it awakens",
           correct: false,
           feedback: "No. οἰκεῖ means “he/she/it lives, dwells.”"
         },
@@ -368,10 +369,10 @@
       prompt: "What does ὁρᾷ mean?",
       target_form: "ὁρᾷ",
       lemma: "ὁράω",
-      parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "verb meaning",
       answer: "he/she/it sees",
-      explanation: "ὁρᾷ is the Lesson 1 verb form meaning “he/she/it sees.”",
+      explanation: "ὁρᾷ means “he/she/it sees.”",
       choices: [
         {
           text: "he/she/it sees",
@@ -379,12 +380,12 @@
           feedback: "Correct. ὁρᾷ means “he/she/it sees.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it seeks",
           correct: false,
           feedback: "No. ὁρᾷ means “he/she/it sees.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it walks",
           correct: false,
           feedback: "No. ὁρᾷ means “he/she/it sees.”"
         }
@@ -399,9 +400,9 @@
       target_form: "παιδεύει",
       lemma: "παιδεύω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it educates, trains",
-      explanation: "παιδεύει is the Lesson 1 verb form meaning “he/she/it educates, trains.”",
+      explanation: "παιδεύει means “he/she/it educates, trains.”",
       choices: [
         {
           text: "he/she/it educates, trains",
@@ -409,12 +410,12 @@
           feedback: "Correct. παιδεύει means “he/she/it educates, trains.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it hears",
           correct: false,
           feedback: "No. παιδεύει means “he/she/it educates, trains.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it smiles",
           correct: false,
           feedback: "No. παιδεύει means “he/she/it educates, trains.”"
         }
@@ -428,10 +429,10 @@
       prompt: "What does φιλεῖ mean?",
       target_form: "φιλεῖ",
       lemma: "φιλέω",
-      parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "verb meaning",
       answer: "he/she/it loves",
-      explanation: "φιλεῖ is the Lesson 1 verb form meaning “he/she/it loves.”",
+      explanation: "φιλεῖ means “he/she/it loves.”",
       choices: [
         {
           text: "he/she/it loves",
@@ -439,12 +440,12 @@
           feedback: "Correct. φιλεῖ means “he/she/it loves.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it is",
           correct: false,
           feedback: "No. φιλεῖ means “he/she/it loves.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it walks",
           correct: false,
           feedback: "No. φιλεῖ means “he/she/it loves.”"
         }
@@ -459,9 +460,9 @@
       target_form: "χαίρει",
       lemma: "χαίρω",
       parse: "3rd person singular present active indicative",
-      skill: "vocabulary meaning",
+      skill: "verb meaning",
       answer: "he/she/it rejoices, is glad",
-      explanation: "χαίρει is the Lesson 1 verb form meaning “he/she/it rejoices, is glad.”",
+      explanation: "χαίρει means “he/she/it rejoices, is glad.”",
       choices: [
         {
           text: "he/she/it rejoices, is glad",
@@ -469,803 +470,25 @@
           feedback: "Correct. χαίρει means “he/she/it rejoices, is glad.”"
         },
         {
-          text: "he/she/it walks",
+          text: "he/she/it teaches",
           correct: false,
           feedback: "No. χαίρει means “he/she/it rejoices, is glad.”"
         },
         {
-          text: "he/she/it writes",
+          text: "he/she/it sees",
           correct: false,
           feedback: "No. χαίρει means “he/she/it rejoices, is glad.”"
         }
       ]
     },
+
+    // Group 1B — Recognizing the verb in a sentence
     {
       id: "lesson-1-verb-forms-017",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "What ending does ἀκούει have in Lesson 1?",
-      target_form: "ἀκούει",
-      lemma: "ἀκούω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "ἀκούει can be read as ἀκου- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-018",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does βαδίζει have in Lesson 1?",
-      target_form: "βαδίζει",
-      lemma: "βαδίζω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "βαδίζει can be read as βαδιζ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-019",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does γράφει have in Lesson 1?",
-      target_form: "γράφει",
-      lemma: "γράφω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "γράφει can be read as γραφ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-020",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does γυμνάζει have in Lesson 1?",
-      target_form: "γυμνάζει",
-      lemma: "γυμνάζω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "γυμνάζει can be read as γυμναζ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-021",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does διδάσκει have in Lesson 1?",
-      target_form: "διδάσκει",
-      lemma: "διδάσκω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "διδάσκει can be read as διδασκ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-022",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does ἐγείρει have in Lesson 1?",
-      target_form: "ἐγείρει",
-      lemma: "ἐγείρω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "ἐγείρει can be read as ἐγειρ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-023",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does θαυμάζει have in Lesson 1?",
-      target_form: "θαυμάζει",
-      lemma: "θαυμάζω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "θαυμάζει can be read as θαυμαζ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-024",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does λέγει have in Lesson 1?",
-      target_form: "λέγει",
-      lemma: "λέγω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "λέγει can be read as λεγ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-025",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does παιδεύει have in Lesson 1?",
-      target_form: "παιδεύει",
-      lemma: "παιδεύω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "παιδεύει can be read as παιδευ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-026",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What ending does χαίρει have in Lesson 1?",
-      target_form: "χαίρει",
-      lemma: "χαίρω",
-      parse: "3rd person singular present active indicative",
-      skill: "ending recognition",
-      answer: "-ει",
-      explanation: "χαίρει can be read as χαιρ- plus the 3rd person singular ending -ει.",
-      choices: [
-        {
-          text: "-ει",
-          correct: true,
-          feedback: "Correct. This is the 3rd person singular present active ending used in these forms."
-        },
-        {
-          text: "-ουσι",
-          correct: false,
-          feedback: "-ουσι is a 3rd person plural ending, not the ending in this form."
-        },
-        {
-          text: "-ειν",
-          correct: false,
-          feedback: "-ειν is an infinitive ending, not the ending in this form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-027",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "How should you treat ἐστιν in Lesson 1?",
-      target_form: "ἐστιν",
-      lemma: "εἰμί",
-      parse: "3rd person singular present indicative of εἰμί",
-      skill: "whole-form recognition",
-      answer: "learn as the complete form “is” for now",
-      explanation: "ἐστιν is a special Lesson 1 form. For now, learn it as a whole form meaning “is.”",
-      choices: [
-        {
-          text: "learn as the complete form “is” for now",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "as a regular -ει form with no further comment",
-          correct: false,
-          feedback: "No. ἐστιν needs to be learned as a special or form for now."
-        },
-        {
-          text: "as a noun form",
-          correct: false,
-          feedback: "No. ἐστιν is a verb form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-028",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "How should you treat ζητεῖ in Lesson 1?",
-      target_form: "ζητεῖ",
-      lemma: "ζητέω",
-      parse: "3rd person singular present active indicative",
-      skill: "whole-form recognition",
-      answer: "a form to learn as a whole for now",
-      explanation: "ζητεῖ is one of the Lesson 1 forms to learn as a whole for now. It means “seeks.”",
-      choices: [
-        {
-          text: "a form to learn as a whole for now",
-          correct: true,
-          feedback: "Correct. ζητεῖ is a form to learn as a whole for now."
-        },
-        {
-          text: "as a regular -ει form with no further comment",
-          correct: false,
-          feedback: "No. ζητεῖ needs to be learned as a special or form for now."
-        },
-        {
-          text: "as a noun form",
-          correct: false,
-          feedback: "No. ζητεῖ is a verb form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-029",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "How should you treat μειδιᾷ in Lesson 1?",
-      target_form: "μειδιᾷ",
-      lemma: "μειδιάω",
-      parse: "3rd person singular present active indicative",
-      skill: "whole-form recognition",
-      answer: "a form to learn as a whole for now",
-      explanation: "μειδιᾷ is one of the Lesson 1 forms to learn as a whole for now. It means “smiles.”",
-      choices: [
-        {
-          text: "a form to learn as a whole for now",
-          correct: true,
-          feedback: "Correct. μειδιᾷ is a form to learn as a whole for now."
-        },
-        {
-          text: "as a regular -ει form with no further comment",
-          correct: false,
-          feedback: "No. μειδιᾷ needs to be learned as a special or form for now."
-        },
-        {
-          text: "as a noun form",
-          correct: false,
-          feedback: "No. μειδιᾷ is a verb form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-030",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "How should you treat οἰκεῖ in Lesson 1?",
-      target_form: "οἰκεῖ",
-      lemma: "οἰκέω",
-      parse: "3rd person singular present active indicative",
-      skill: "whole-form recognition",
-      answer: "a form to learn as a whole for now",
-      explanation: "οἰκεῖ is one of the Lesson 1 forms to learn as a whole for now. It means “lives, dwells.”",
-      choices: [
-        {
-          text: "a form to learn as a whole for now",
-          correct: true,
-          feedback: "Correct. οἰκεῖ is a form to learn as a whole for now."
-        },
-        {
-          text: "as a regular -ει form with no further comment",
-          correct: false,
-          feedback: "No. οἰκεῖ needs to be learned as a special or form for now."
-        },
-        {
-          text: "as a noun form",
-          correct: false,
-          feedback: "No. οἰκεῖ is a verb form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-031",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "How should you treat ὁρᾷ in Lesson 1?",
-      target_form: "ὁρᾷ",
-      lemma: "ὁράω",
-      parse: "3rd person singular present active indicative",
-      skill: "whole-form recognition",
-      answer: "a form to learn as a whole for now",
-      explanation: "ὁρᾷ is one of the Lesson 1 forms to learn as a whole for now. It means “sees.”",
-      choices: [
-        {
-          text: "a form to learn as a whole for now",
-          correct: true,
-          feedback: "Correct. ὁρᾷ is a form to learn as a whole for now."
-        },
-        {
-          text: "as a regular -ει form with no further comment",
-          correct: false,
-          feedback: "No. ὁρᾷ needs to be learned as a special or form for now."
-        },
-        {
-          text: "as a noun form",
-          correct: false,
-          feedback: "No. ὁρᾷ is a verb form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-032",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "How should you treat φιλεῖ in Lesson 1?",
-      target_form: "φιλεῖ",
-      lemma: "φιλέω",
-      parse: "3rd person singular present active indicative",
-      skill: "whole-form recognition",
-      answer: "a form to learn as a whole for now",
-      explanation: "φιλεῖ is one of the Lesson 1 forms to learn as a whole for now. It means “loves.”",
-      choices: [
-        {
-          text: "a form to learn as a whole for now",
-          correct: true,
-          feedback: "Correct. φιλεῖ is a form to learn as a whole for now."
-        },
-        {
-          text: "as a regular -ει form with no further comment",
-          correct: false,
-          feedback: "No. φιλεῖ needs to be learned as a special or form for now."
-        },
-        {
-          text: "as a noun form",
-          correct: false,
-          feedback: "No. φιλεῖ is a verb form."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-033",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in ἀκούει?",
-      target_form: "ἀκούει",
-      lemma: "ἀκούω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "ἀκου-",
-      explanation: "ἀκούει can be read as ἀκου- plus -ει.",
-      choices: [
-        {
-          text: "ἀκου-",
-          correct: true,
-          feedback: "Correct. ἀκου- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "ἀκούει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-034",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in βαδίζει?",
-      target_form: "βαδίζει",
-      lemma: "βαδίζω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "βαδιζ-",
-      explanation: "βαδίζει can be read as βαδιζ- plus -ει.",
-      choices: [
-        {
-          text: "βαδιζ-",
-          correct: true,
-          feedback: "Correct. βαδιζ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "βαδίζει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-035",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in γράφει?",
-      target_form: "γράφει",
-      lemma: "γράφω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "γραφ-",
-      explanation: "γράφει can be read as γραφ- plus -ει.",
-      choices: [
-        {
-          text: "γραφ-",
-          correct: true,
-          feedback: "Correct. γραφ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "γράφει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-036",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in γυμνάζει?",
-      target_form: "γυμνάζει",
-      lemma: "γυμνάζω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "γυμναζ-",
-      explanation: "γυμνάζει can be read as γυμναζ- plus -ει.",
-      choices: [
-        {
-          text: "γυμναζ-",
-          correct: true,
-          feedback: "Correct. γυμναζ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "γυμνάζει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-037",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in διδάσκει?",
-      target_form: "διδάσκει",
-      lemma: "διδάσκω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "διδασκ-",
-      explanation: "διδάσκει can be read as διδασκ- plus -ει.",
-      choices: [
-        {
-          text: "διδασκ-",
-          correct: true,
-          feedback: "Correct. διδασκ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "διδάσκει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-038",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in ἐγείρει?",
-      target_form: "ἐγείρει",
-      lemma: "ἐγείρω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "ἐγειρ-",
-      explanation: "ἐγείρει can be read as ἐγειρ- plus -ει.",
-      choices: [
-        {
-          text: "ἐγειρ-",
-          correct: true,
-          feedback: "Correct. ἐγειρ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "ἐγείρει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-039",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in θαυμάζει?",
-      target_form: "θαυμάζει",
-      lemma: "θαυμάζω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "θαυμαζ-",
-      explanation: "θαυμάζει can be read as θαυμαζ- plus -ει.",
-      choices: [
-        {
-          text: "θαυμαζ-",
-          correct: true,
-          feedback: "Correct. θαυμαζ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "θαυμάζει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-040",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in λέγει?",
-      target_form: "λέγει",
-      lemma: "λέγω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "λεγ-",
-      explanation: "λέγει can be read as λεγ- plus -ει.",
-      choices: [
-        {
-          text: "λεγ-",
-          correct: true,
-          feedback: "Correct. λεγ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "λέγει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-041",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in παιδεύει?",
-      target_form: "παιδεύει",
-      lemma: "παιδεύω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "παιδευ-",
-      explanation: "παιδεύει can be read as παιδευ- plus -ει.",
-      choices: [
-        {
-          text: "παιδευ-",
-          correct: true,
-          feedback: "Correct. παιδευ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "παιδεύει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-042",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "What stem is shown in χαίρει?",
-      target_form: "χαίρει",
-      lemma: "χαίρω",
-      parse: "3rd person singular present active indicative",
-      skill: "stem recognition",
-      answer: "χαιρ-",
-      explanation: "χαίρει can be read as χαιρ- plus -ει.",
-      choices: [
-        {
-          text: "χαιρ-",
-          correct: true,
-          feedback: "Correct. χαιρ- is the stem shown before the ending."
-        },
-        {
-          text: "-ει",
-          correct: false,
-          feedback: "-ει is the ending, not the stem."
-        },
-        {
-          text: "χαίρει-",
-          correct: false,
-          feedback: "That is the whole form, not the stem by itself."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-verb-forms-043",
-      lesson: "lesson-1",
-      topic: "verb-forms",
-      type: "multiple_choice",
-      prompt: "Select the verb form: ὁ Σωκράτης διδάσκει.",
+      prompt: "Which word is the verb in ὁ Σωκράτης διδάσκει?",
       target_form: "διδάσκει",
       lemma: "διδάσκω",
       parse: "3rd person singular present active indicative",
@@ -1276,26 +499,26 @@
         {
           text: "διδάσκει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. διδάσκει is the verb form."
         },
         {
           text: "Σωκράτης",
           correct: false,
-          feedback: "No. Σωκράτης is a noun or proper name here; διδάσκει is the verb."
+          feedback: "No. Σωκράτης is the noun or name; διδάσκει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; διδάσκει is the verb."
+          feedback: "No. ὁ is the article; διδάσκει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-044",
+      id: "lesson-1-verb-forms-018",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ Ξενοφῶν βαδίζει.",
+      prompt: "Which word is the verb in ὁ Ξενοφῶν βαδίζει?",
       target_form: "βαδίζει",
       lemma: "βαδίζω",
       parse: "3rd person singular present active indicative",
@@ -1306,26 +529,26 @@
         {
           text: "βαδίζει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. βαδίζει is the verb form."
         },
         {
           text: "Ξενοφῶν",
           correct: false,
-          feedback: "No. Ξενοφῶν is a noun or proper name here; βαδίζει is the verb."
+          feedback: "No. Ξενοφῶν is the noun or name; βαδίζει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; βαδίζει is the verb."
+          feedback: "No. ὁ is the article; βαδίζει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-045",
+      id: "lesson-1-verb-forms-019",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ μαθητὴς γράφει.",
+      prompt: "Which word is the verb in ὁ μαθητὴς γράφει?",
       target_form: "γράφει",
       lemma: "γράφω",
       parse: "3rd person singular present active indicative",
@@ -1336,26 +559,26 @@
         {
           text: "γράφει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. γράφει is the verb form."
         },
         {
           text: "μαθητής",
           correct: false,
-          feedback: "No. μαθητής is a noun or proper name here; γράφει is the verb."
+          feedback: "No. μαθητής is the noun or name; γράφει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; γράφει is the verb."
+          feedback: "No. ὁ is the article; γράφει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-046",
+      id: "lesson-1-verb-forms-020",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ ἄνθρωπος χαίρει.",
+      prompt: "Which word is the verb in ὁ ἄνθρωπος χαίρει?",
       target_form: "χαίρει",
       lemma: "χαίρω",
       parse: "3rd person singular present active indicative",
@@ -1366,26 +589,26 @@
         {
           text: "χαίρει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. χαίρει is the verb form."
         },
         {
           text: "ἄνθρωπος",
           correct: false,
-          feedback: "No. ἄνθρωπος is a noun or proper name here; χαίρει is the verb."
+          feedback: "No. ἄνθρωπος is the noun or name; χαίρει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; χαίρει is the verb."
+          feedback: "No. ὁ is the article; χαίρει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-047",
+      id: "lesson-1-verb-forms-021",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ νεανίας γυμνάζει.",
+      prompt: "Which word is the verb in ὁ νεανίας γυμνάζει?",
       target_form: "γυμνάζει",
       lemma: "γυμνάζω",
       parse: "3rd person singular present active indicative",
@@ -1396,26 +619,26 @@
         {
           text: "γυμνάζει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. γυμνάζει is the verb form."
         },
         {
           text: "νεανίας",
           correct: false,
-          feedback: "No. νεανίας is a noun or proper name here; γυμνάζει is the verb."
+          feedback: "No. νεανίας is the noun or name; γυμνάζει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; γυμνάζει is the verb."
+          feedback: "No. ὁ is the article; γυμνάζει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-048",
+      id: "lesson-1-verb-forms-022",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ Σωκράτης λέγει.",
+      prompt: "Which word is the verb in ὁ Σωκράτης λέγει?",
       target_form: "λέγει",
       lemma: "λέγω",
       parse: "3rd person singular present active indicative",
@@ -1426,26 +649,26 @@
         {
           text: "λέγει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. λέγει is the verb form."
         },
         {
           text: "Σωκράτης",
           correct: false,
-          feedback: "No. Σωκράτης is a noun or proper name here; λέγει is the verb."
+          feedback: "No. Σωκράτης is the noun or name; λέγει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; λέγει is the verb."
+          feedback: "No. ὁ is the article; λέγει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-049",
+      id: "lesson-1-verb-forms-023",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ μαθητὴς ἀκούει.",
+      prompt: "Which word is the verb in ὁ μαθητὴς ἀκούει?",
       target_form: "ἀκούει",
       lemma: "ἀκούω",
       parse: "3rd person singular present active indicative",
@@ -1456,26 +679,26 @@
         {
           text: "ἀκούει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. ἀκούει is the verb form."
         },
         {
           text: "μαθητής",
           correct: false,
-          feedback: "No. μαθητής is a noun or proper name here; ἀκούει is the verb."
+          feedback: "No. μαθητής is the noun or name; ἀκούει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; ἀκούει is the verb."
+          feedback: "No. ὁ is the article; ἀκούει is the verb form."
         }
       ]
     },
     {
-      id: "lesson-1-verb-forms-050",
+      id: "lesson-1-verb-forms-024",
       lesson: "lesson-1",
       topic: "verb-forms",
       type: "multiple_choice",
-      prompt: "Select the verb form: ὁ Ξενοφῶν παιδεύει.",
+      prompt: "Which word is the verb in ὁ Ξενοφῶν παιδεύει?",
       target_form: "παιδεύει",
       lemma: "παιδεύω",
       parse: "3rd person singular present active indicative",
@@ -1486,23 +709,813 @@
         {
           text: "παιδεύει",
           correct: true,
-          feedback: "Correct. That is the verb form."
+          feedback: "Correct. παιδεύει is the verb form."
         },
         {
           text: "Ξενοφῶν",
           correct: false,
-          feedback: "No. Ξενοφῶν is a noun or proper name here; παιδεύει is the verb."
+          feedback: "No. Ξενοφῶν is the noun or name; παιδεύει is the verb form."
         },
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. ὁ is the article; παιδεύει is the verb."
+          feedback: "No. ὁ is the article; παιδεύει is the verb form."
         }
       ]
-    }
+    },
+
+    // Group 1C — What the -ει ending shows
+    {
+      id: "lesson-1-verb-forms-025",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which ending below marks 3rd person singular present active indicative?",
+      target_form: "-ει",
+      lemma: "",
+      parse: "3rd person singular present active indicative ending",
+      skill: "verb ending function",
+      answer: "-ει",
+      explanation: "The ending -ει commonly marks 3rd person singular present active indicative in the regular verb forms shown here.",
+      choices: [
+        {
+          text: "-ει",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ειν",
+          correct: false,
+          feedback: "The ending -ει commonly marks 3rd person singular present active indicative in the regular verb forms shown here."
+        },
+        {
+          text: "-ουσι",
+          correct: false,
+          feedback: "The ending -ει commonly marks 3rd person singular present active indicative in the regular verb forms shown here."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-026",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In γράφει, what does the ending -ει show?",
+      target_form: "γράφει",
+      lemma: "γράφω",
+      parse: "3rd person singular present active indicative",
+      skill: "ending function",
+      answer: "3rd person singular present active indicative",
+      explanation: "In γράφει, -ει shows 3rd person singular present active indicative.",
+      choices: [
+        {
+          text: "3rd person singular present active indicative",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "present active infinitive",
+          correct: false,
+          feedback: "In γράφει, -ει shows 3rd person singular present active indicative."
+        },
+        {
+          text: "3rd person plural present active indicative",
+          correct: false,
+          feedback: "In γράφει, -ει shows 3rd person singular present active indicative."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-027",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In λέγει, what does the ending -ει show?",
+      target_form: "λέγει",
+      lemma: "λέγω",
+      parse: "3rd person singular present active indicative",
+      skill: "ending function",
+      answer: "3rd person singular present active indicative",
+      explanation: "In λέγει, -ει shows 3rd person singular present active indicative.",
+      choices: [
+        {
+          text: "3rd person singular present active indicative",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "1st person singular present active indicative",
+          correct: false,
+          feedback: "In λέγει, -ει shows 3rd person singular present active indicative."
+        },
+        {
+          text: "3rd person plural present active indicative",
+          correct: false,
+          feedback: "In λέγει, -ει shows 3rd person singular present active indicative."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-028",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In διδάσκει, what does -ει show?",
+      target_form: "διδάσκει",
+      lemma: "διδάσκω",
+      parse: "3rd person singular present active indicative",
+      skill: "ending function",
+      answer: "3rd person singular present active indicative",
+      explanation: "In διδάσκει, -ει shows 3rd person singular present active indicative.",
+      choices: [
+        {
+          text: "3rd person singular present active indicative",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "accusative singular masculine",
+          correct: false,
+          feedback: "In διδάσκει, -ει shows 3rd person singular present active indicative."
+        },
+        {
+          text: "neuter nominative singular",
+          correct: false,
+          feedback: "In διδάσκει, -ει shows 3rd person singular present active indicative."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-029",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which form clearly shows the regular -ει ending?",
+      target_form: "ἀκούει",
+      lemma: "ἀκούω",
+      parse: "3rd person singular present active indicative",
+      skill: "regular -ει recognition",
+      answer: "ἀκούει",
+      explanation: "ἀκούει clearly shows the regular -ει ending.",
+      choices: [
+        {
+          text: "ἀκούει",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁρᾷ",
+          correct: false,
+          feedback: "ἀκούει clearly shows the regular -ει ending."
+        },
+        {
+          text: "ἐστιν",
+          correct: false,
+          feedback: "ἀκούει clearly shows the regular -ει ending."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-030",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which form clearly shows the regular -ει ending?",
+      target_form: "παιδεύει",
+      lemma: "παιδεύω",
+      parse: "3rd person singular present active indicative",
+      skill: "regular -ει recognition",
+      answer: "παιδεύει",
+      explanation: "παιδεύει clearly shows the regular -ει ending.",
+      choices: [
+        {
+          text: "παιδεύει",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "μειδιᾷ",
+          correct: false,
+          feedback: "παιδεύει clearly shows the regular -ει ending."
+        },
+        {
+          text: "ἐστιν",
+          correct: false,
+          feedback: "παιδεύει clearly shows the regular -ει ending."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-031",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which form clearly shows the regular -ει ending?",
+      target_form: "χαίρει",
+      lemma: "χαίρω",
+      parse: "3rd person singular present active indicative",
+      skill: "regular -ει recognition",
+      answer: "χαίρει",
+      explanation: "χαίρει clearly shows the regular -ει ending.",
+      choices: [
+        {
+          text: "χαίρει",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "φιλεῖ",
+          correct: false,
+          feedback: "χαίρει clearly shows the regular -ει ending."
+        },
+        {
+          text: "ὁρᾷ",
+          correct: false,
+          feedback: "χαίρει clearly shows the regular -ει ending."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-032",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which statement is true of γράφει?",
+      target_form: "γράφει",
+      lemma: "γράφω",
+      parse: "3rd person singular present active indicative",
+      skill: "verb form understanding",
+      answer: "It is a 3rd person singular present active verb form.",
+      explanation: "γράφει is a 3rd person singular present active verb form.",
+      choices: [
+        {
+          text: "It is a 3rd person singular present active verb form.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is an accusative noun.",
+          correct: false,
+          feedback: "γράφει is a 3rd person singular present active verb form."
+        },
+        {
+          text: "It is a definite article.",
+          correct: false,
+          feedback: "γράφει is a 3rd person singular present active verb form."
+        }
+      ]
+    },
+
+    // Group 1D — Stem + ending
+    {
+      id: "lesson-1-verb-forms-033",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In ἀκούει, which part is the stem?",
+      target_form: "ἀκούει",
+      lemma: "ἀκούω",
+      parse: "3rd person singular present active indicative",
+      skill: "stem recognition",
+      answer: "ἀκου-",
+      explanation: "ἀκούει can be divided into a stem and an ending; here the answer is ἀκου-.",
+      choices: [
+        {
+          text: "ἀκου-",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ει",
+          correct: false,
+          feedback: "ἀκούει can be divided into a stem and an ending; here the answer is ἀκου-."
+        },
+        {
+          text: "ἀκούει",
+          correct: false,
+          feedback: "ἀκούει can be divided into a stem and an ending; here the answer is ἀκου-."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-034",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In βαδίζει, which part is the stem?",
+      target_form: "βαδίζει",
+      lemma: "βαδίζω",
+      parse: "3rd person singular present active indicative",
+      skill: "stem recognition",
+      answer: "βαδιζ-",
+      explanation: "βαδίζει can be divided into a stem and an ending; here the answer is βαδιζ-.",
+      choices: [
+        {
+          text: "βαδιζ-",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ει",
+          correct: false,
+          feedback: "βαδίζει can be divided into a stem and an ending; here the answer is βαδιζ-."
+        },
+        {
+          text: "βαδίζει",
+          correct: false,
+          feedback: "βαδίζει can be divided into a stem and an ending; here the answer is βαδιζ-."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-035",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In γράφει, which part is the stem?",
+      target_form: "γράφει",
+      lemma: "γράφω",
+      parse: "3rd person singular present active indicative",
+      skill: "stem recognition",
+      answer: "γραφ-",
+      explanation: "γράφει can be divided into a stem and an ending; here the answer is γραφ-.",
+      choices: [
+        {
+          text: "γραφ-",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ει",
+          correct: false,
+          feedback: "γράφει can be divided into a stem and an ending; here the answer is γραφ-."
+        },
+        {
+          text: "γράφει",
+          correct: false,
+          feedback: "γράφει can be divided into a stem and an ending; here the answer is γραφ-."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-036",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In γυμνάζει, which part is the stem?",
+      target_form: "γυμνάζει",
+      lemma: "γυμνάζω",
+      parse: "3rd person singular present active indicative",
+      skill: "stem recognition",
+      answer: "γυμναζ-",
+      explanation: "γυμνάζει can be divided into a stem and an ending; here the answer is γυμναζ-.",
+      choices: [
+        {
+          text: "γυμναζ-",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ει",
+          correct: false,
+          feedback: "γυμνάζει can be divided into a stem and an ending; here the answer is γυμναζ-."
+        },
+        {
+          text: "γυμνάζει",
+          correct: false,
+          feedback: "γυμνάζει can be divided into a stem and an ending; here the answer is γυμναζ-."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-037",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In διδάσκει, which part is the stem?",
+      target_form: "διδάσκει",
+      lemma: "διδάσκω",
+      parse: "3rd person singular present active indicative",
+      skill: "stem recognition",
+      answer: "διδασκ-",
+      explanation: "διδάσκει can be divided into a stem and an ending; here the answer is διδασκ-.",
+      choices: [
+        {
+          text: "διδασκ-",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ει",
+          correct: false,
+          feedback: "διδάσκει can be divided into a stem and an ending; here the answer is διδασκ-."
+        },
+        {
+          text: "διδάσκει",
+          correct: false,
+          feedback: "διδάσκει can be divided into a stem and an ending; here the answer is διδασκ-."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-038",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In ἐγείρει, which part is the stem?",
+      target_form: "ἐγείρει",
+      lemma: "ἐγείρω",
+      parse: "3rd person singular present active indicative",
+      skill: "stem recognition",
+      answer: "ἐγειρ-",
+      explanation: "ἐγείρει can be divided into a stem and an ending; here the answer is ἐγειρ-.",
+      choices: [
+        {
+          text: "ἐγειρ-",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "-ει",
+          correct: false,
+          feedback: "ἐγείρει can be divided into a stem and an ending; here the answer is ἐγειρ-."
+        },
+        {
+          text: "ἐγείρει",
+          correct: false,
+          feedback: "ἐγείρει can be divided into a stem and an ending; here the answer is ἐγειρ-."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-039",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In λέγει, which part is the ending?",
+      target_form: "λέγει",
+      lemma: "λέγω",
+      parse: "3rd person singular present active indicative",
+      skill: "ending recognition",
+      answer: "-ει",
+      explanation: "λέγει can be divided into a stem and an ending; here the answer is -ει.",
+      choices: [
+        {
+          text: "-ει",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "λεγ-",
+          correct: false,
+          feedback: "λέγει can be divided into a stem and an ending; here the answer is -ει."
+        },
+        {
+          text: "λέγει",
+          correct: false,
+          feedback: "λέγει can be divided into a stem and an ending; here the answer is -ει."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-040",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "In παιδεύει, which part is the ending?",
+      target_form: "παιδεύει",
+      lemma: "παιδεύω",
+      parse: "3rd person singular present active indicative",
+      skill: "ending recognition",
+      answer: "-ει",
+      explanation: "παιδεύει can be divided into a stem and an ending; here the answer is -ει.",
+      choices: [
+        {
+          text: "-ει",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "παιδευ-",
+          correct: false,
+          feedback: "παιδεύει can be divided into a stem and an ending; here the answer is -ει."
+        },
+        {
+          text: "παιδεύει",
+          correct: false,
+          feedback: "παιδεύει can be divided into a stem and an ending; here the answer is -ει."
+        }
+      ]
+    },
+
+    // Group 1E — Contracted forms, without making students master contracts yet
+    {
+      id: "lesson-1-verb-forms-041",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Why does ζητεῖ not visibly end in regular -ει like γράφει?",
+      target_form: "ζητεῖ",
+      lemma: "ζητέω",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "contracted form awareness",
+      answer: "It is a contracted verb form.",
+      explanation: "ζητεῖ is a contracted 3rd person singular present active indicative form.",
+      choices: [
+        {
+          text: "It is a contracted verb form.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is a noun.",
+          correct: false,
+          feedback: "ζητεῖ is a contracted 3rd person singular present active indicative form."
+        },
+        {
+          text: "It is plural.",
+          correct: false,
+          feedback: "ζητεῖ is a contracted 3rd person singular present active indicative form."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-042",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Why does φιλεῖ not visibly end in regular -ει like γράφει?",
+      target_form: "φιλεῖ",
+      lemma: "φιλέω",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "contracted form awareness",
+      answer: "It is a contracted verb form.",
+      explanation: "φιλεῖ is a contracted 3rd person singular present active indicative form.",
+      choices: [
+        {
+          text: "It is a contracted verb form.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is an article.",
+          correct: false,
+          feedback: "φιλεῖ is a contracted 3rd person singular present active indicative form."
+        },
+        {
+          text: "It is accusative.",
+          correct: false,
+          feedback: "φιλεῖ is a contracted 3rd person singular present active indicative form."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-043",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Why does οἰκεῖ not visibly end in regular -ει like γράφει?",
+      target_form: "οἰκεῖ",
+      lemma: "οἰκέω",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "contracted form awareness",
+      answer: "It is a contracted verb form.",
+      explanation: "οἰκεῖ is a contracted 3rd person singular present active indicative form.",
+      choices: [
+        {
+          text: "It is a contracted verb form.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is a proper name.",
+          correct: false,
+          feedback: "οἰκεῖ is a contracted 3rd person singular present active indicative form."
+        },
+        {
+          text: "It is a noun ending.",
+          correct: false,
+          feedback: "οἰκεῖ is a contracted 3rd person singular present active indicative form."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-044",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Why does ὁρᾷ look different from γράφει?",
+      target_form: "ὁρᾷ",
+      lemma: "ὁράω",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "contracted form awareness",
+      answer: "It is a contracted verb form.",
+      explanation: "ὁρᾷ is a contracted 3rd person singular present active indicative form.",
+      choices: [
+        {
+          text: "It is a contracted verb form.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is a plural verb form.",
+          correct: false,
+          feedback: "ὁρᾷ is a contracted 3rd person singular present active indicative form."
+        },
+        {
+          text: "It is the article ὁ plus a noun.",
+          correct: false,
+          feedback: "ὁρᾷ is a contracted 3rd person singular present active indicative form."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-045",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which form is a contracted verb meaning “he/she/it sees”?",
+      target_form: "ὁρᾷ",
+      lemma: "ὁράω",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "contracted form awareness",
+      answer: "ὁρᾷ",
+      explanation: "ὁρᾷ is the contracted form meaning “he/she/it sees.”",
+      choices: [
+        {
+          text: "ὁρᾷ",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "γράφει",
+          correct: false,
+          feedback: "ὁρᾷ is the contracted form meaning “he/she/it sees.”"
+        },
+        {
+          text: "διδάσκει",
+          correct: false,
+          feedback: "ὁρᾷ is the contracted form meaning “he/she/it sees.”"
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-046",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which form is a contracted verb meaning “he/she/it loves”?",
+      target_form: "φιλεῖ",
+      lemma: "φιλέω",
+      parse: "3rd person singular present active indicative; contracted form",
+      skill: "contracted form awareness",
+      answer: "φιλεῖ",
+      explanation: "φιλεῖ is the contracted form meaning “he/she/it loves.”",
+      choices: [
+        {
+          text: "φιλεῖ",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "χαίρει",
+          correct: false,
+          feedback: "φιλεῖ is the contracted form meaning “he/she/it loves.”"
+        },
+        {
+          text: "γράφει",
+          correct: false,
+          feedback: "φιλεῖ is the contracted form meaning “he/she/it loves.”"
+        }
+      ]
+    },
+
+    // Group 1F — Reading small verb-centered meanings
+    {
+      id: "lesson-1-verb-forms-047",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which sentence means “Socrates teaches”?",
+      target_form: "ὁ Σωκράτης διδάσκει.",
+      lemma: "διδάσκω",
+      parse: "simple sentence with 3rd person singular verb",
+      skill: "sentence meaning",
+      answer: "ὁ Σωκράτης διδάσκει.",
+      explanation: "ὁ Σωκράτης διδάσκει. is the sentence that matches the English prompt.",
+      choices: [
+        {
+          text: "ὁ Σωκράτης διδάσκει.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁ Σωκράτης βαδίζει.",
+          correct: false,
+          feedback: "ὁ Σωκράτης διδάσκει. is the sentence that matches the English prompt."
+        },
+        {
+          text: "ὁ Σωκράτης χαίρει.",
+          correct: false,
+          feedback: "ὁ Σωκράτης διδάσκει. is the sentence that matches the English prompt."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-048",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which sentence means “Xenophon walks”?",
+      target_form: "ὁ Ξενοφῶν βαδίζει.",
+      lemma: "βαδίζω",
+      parse: "simple sentence with 3rd person singular verb",
+      skill: "sentence meaning",
+      answer: "ὁ Ξενοφῶν βαδίζει.",
+      explanation: "ὁ Ξενοφῶν βαδίζει. is the sentence that matches the English prompt.",
+      choices: [
+        {
+          text: "ὁ Ξενοφῶν βαδίζει.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁ Ξενοφῶν διδάσκει.",
+          correct: false,
+          feedback: "ὁ Ξενοφῶν βαδίζει. is the sentence that matches the English prompt."
+        },
+        {
+          text: "ὁ Ξενοφῶν φιλεῖ.",
+          correct: false,
+          feedback: "ὁ Ξενοφῶν βαδίζει. is the sentence that matches the English prompt."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-049",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which sentence means “the student writes”?",
+      target_form: "ὁ μαθητὴς γράφει.",
+      lemma: "γράφω",
+      parse: "simple sentence with 3rd person singular verb",
+      skill: "sentence meaning",
+      answer: "ὁ μαθητὴς γράφει.",
+      explanation: "ὁ μαθητὴς γράφει. is the sentence that matches the English prompt.",
+      choices: [
+        {
+          text: "ὁ μαθητὴς γράφει.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁ μαθητὴς ἀκούει.",
+          correct: false,
+          feedback: "ὁ μαθητὴς γράφει. is the sentence that matches the English prompt."
+        },
+        {
+          text: "ὁ μαθητὴς γυμνάζει.",
+          correct: false,
+          feedback: "ὁ μαθητὴς γράφει. is the sentence that matches the English prompt."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-verb-forms-050",
+      lesson: "lesson-1",
+      topic: "verb-forms",
+      type: "multiple_choice",
+      prompt: "Which sentence means “the person rejoices/is glad”?",
+      target_form: "ὁ ἄνθρωπος χαίρει.",
+      lemma: "χαίρω",
+      parse: "simple sentence with 3rd person singular verb",
+      skill: "sentence meaning",
+      answer: "ὁ ἄνθρωπος χαίρει.",
+      explanation: "ὁ ἄνθρωπος χαίρει. is the sentence that matches the English prompt.",
+      choices: [
+        {
+          text: "ὁ ἄνθρωπος χαίρει.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁ ἄνθρωπος ζητεῖ.",
+          correct: false,
+          feedback: "ὁ ἄνθρωπος χαίρει. is the sentence that matches the English prompt."
+        },
+        {
+          text: "ὁ ἄνθρωπος λέγει.",
+          correct: false,
+          feedback: "ὁ ἄνθρωπος χαίρει. is the sentence that matches the English prompt."
+        }
+      ]
+    },
+
   ];
 
   const LESSON_1_GRAMMAR_2_NOUNS_CASES_AGREEMENT = [
+    // Group 2A — Noun gender from article + noun
     {
       id: "lesson-1-nouns-cases-agreement-001",
       lesson: "lesson-1",
@@ -1524,12 +1537,12 @@
         {
           text: "masculine",
           correct: false,
-          feedback: "No. ἡ ἀλήθεια is feminine."
+          feedback: "ἡ ἀλήθεια is feminine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ἡ ἀλήθεια is feminine."
+          feedback: "ἡ ἀλήθεια is feminine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1554,12 +1567,12 @@
         {
           text: "feminine",
           correct: false,
-          feedback: "No. ὁ ἄνθρωπος is masculine."
+          feedback: "ὁ ἄνθρωπος is masculine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ὁ ἄνθρωπος is masculine."
+          feedback: "ὁ ἄνθρωπος is masculine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1584,12 +1597,12 @@
         {
           text: "masculine",
           correct: false,
-          feedback: "No. ἡ ἀρετή is feminine."
+          feedback: "ἡ ἀρετή is feminine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ἡ ἀρετή is feminine."
+          feedback: "ἡ ἀρετή is feminine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1614,12 +1627,12 @@
         {
           text: "masculine",
           correct: false,
-          feedback: "No. τὸ βιβλίον is neuter."
+          feedback: "τὸ βιβλίον is neuter; the article helps show the noun's gender."
         },
         {
           text: "feminine",
           correct: false,
-          feedback: "No. τὸ βιβλίον is neuter."
+          feedback: "τὸ βιβλίον is neuter; the article helps show the noun's gender."
         }
       ]
     },
@@ -1644,12 +1657,12 @@
         {
           text: "feminine",
           correct: false,
-          feedback: "No. ὁ μαθητής is masculine."
+          feedback: "ὁ μαθητής is masculine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ὁ μαθητής is masculine."
+          feedback: "ὁ μαθητής is masculine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1674,12 +1687,12 @@
         {
           text: "feminine",
           correct: false,
-          feedback: "No. ὁ νεανίας is masculine."
+          feedback: "ὁ νεανίας is masculine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ὁ νεανίας is masculine."
+          feedback: "ὁ νεανίας is masculine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1704,12 +1717,12 @@
         {
           text: "masculine",
           correct: false,
-          feedback: "No. ἡ σοφία is feminine."
+          feedback: "ἡ σοφία is feminine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ἡ σοφία is feminine."
+          feedback: "ἡ σοφία is feminine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1734,12 +1747,12 @@
         {
           text: "feminine",
           correct: false,
-          feedback: "No. ὁ Σωκράτης is masculine."
+          feedback: "ὁ Σωκράτης is masculine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ὁ Σωκράτης is masculine."
+          feedback: "ὁ Σωκράτης is masculine; the article helps show the noun's gender."
         }
       ]
     },
@@ -1764,12 +1777,12 @@
         {
           text: "masculine",
           correct: false,
-          feedback: "No. τὸ σῶμα is neuter."
+          feedback: "τὸ σῶμα is neuter; the article helps show the noun's gender."
         },
         {
           text: "feminine",
           correct: false,
-          feedback: "No. τὸ σῶμα is neuter."
+          feedback: "τὸ σῶμα is neuter; the article helps show the noun's gender."
         }
       ]
     },
@@ -1794,42 +1807,44 @@
         {
           text: "masculine",
           correct: false,
-          feedback: "No. ἡ ψυχή is feminine."
+          feedback: "ἡ ψυχή is feminine; the article helps show the noun's gender."
         },
         {
           text: "neuter",
           correct: false,
-          feedback: "No. ἡ ψυχή is feminine."
+          feedback: "ἡ ψυχή is feminine; the article helps show the noun's gender."
         }
       ]
     },
+
+    // Group 2B — Nominative and accusative in sentence context
     {
       id: "lesson-1-nouns-cases-agreement-011",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "What gender is ὁ Ξενοφῶν?",
-      target_form: "ὁ Ξενοφῶν",
-      lemma: "Ξενοφῶν",
-      parse: "nominative singular masculine",
-      skill: "gender recognition",
-      answer: "masculine",
-      explanation: "ὁ Ξενοφῶν is masculine; the article helps show the noun's gender.",
+      prompt: "In ἡ ἀλήθεια καλή ἐστιν, what case is ἡ ἀλήθεια?",
+      target_form: "ἡ ἀλήθεια",
+      lemma: "ἀλήθεια",
+      parse: "nominative singular feminine",
+      skill: "case recognition in context",
+      answer: "nominative",
+      explanation: "ἡ ἀλήθεια is nominative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "masculine",
+          text: "nominative",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "feminine",
+          text: "accusative",
           correct: false,
-          feedback: "No. ὁ Ξενοφῶν is masculine."
+          feedback: "ἡ ἀλήθεια is nominative in this sentence. The sentence context tells the case."
         },
         {
-          text: "neuter",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. ὁ Ξενοφῶν is masculine."
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -1838,28 +1853,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ἡ ἀλήθεια καλή ἐστιν., what case is ἡ ἀλήθεια?",
-      target_form: "ἡ ἀλήθεια",
+      prompt: "In ὁ Σωκράτης ζητεῖ τὴν ἀλήθειαν, what case is τὴν ἀλήθειαν?",
+      target_form: "τὴν ἀλήθειαν",
       lemma: "ἀλήθεια",
-      parse: "nominative singular feminine",
-      skill: "subject/complement case",
-      answer: "nominative",
-      explanation: "In this sentence, ἡ ἀλήθεια is nominative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      parse: "accusative singular feminine",
+      skill: "case recognition in context",
+      answer: "accusative",
+      explanation: "τὴν ἀλήθειαν is accusative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "nominative",
-          correct: true,
-          feedback: "Correct. ἡ ἀλήθεια is nominative here."
-        },
-        {
           text: "accusative",
-          correct: false,
-          feedback: "No. In this sentence, ἡ ἀλήθεια is nominative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "nominative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is nominative, not genitive."
+          feedback: "τὴν ἀλήθειαν is accusative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -1868,28 +1883,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης ζητεῖ τὴν ἀλήθειαν., what case is τὴν ἀλήθειαν?",
-      target_form: "τὴν ἀλήθειαν",
-      lemma: "ἀλήθεια",
-      parse: "accusative singular feminine",
-      skill: "object case",
-      answer: "accusative",
-      explanation: "In this sentence, τὴν ἀλήθειαν is accusative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      prompt: "In ὁ ἄνθρωπος χαίρει, what case is ὁ ἄνθρωπος?",
+      target_form: "ὁ ἄνθρωπος",
+      lemma: "ἄνθρωπος",
+      parse: "nominative singular masculine",
+      skill: "case recognition in context",
+      answer: "nominative",
+      explanation: "ὁ ἄνθρωπος is nominative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "accusative",
-          correct: true,
-          feedback: "Correct. τὴν ἀλήθειαν is accusative here."
-        },
-        {
           text: "nominative",
-          correct: false,
-          feedback: "No. In this sentence, τὴν ἀλήθειαν is accusative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "accusative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is accusative, not genitive."
+          feedback: "ὁ ἄνθρωπος is nominative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -1898,28 +1913,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ ἄνθρωπος χαίρει., what case is ὁ ἄνθρωπος?",
-      target_form: "ὁ ἄνθρωπος",
+      prompt: "In ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον, what case is τὸν ἄνθρωπον?",
+      target_form: "τὸν ἄνθρωπον",
       lemma: "ἄνθρωπος",
-      parse: "nominative singular masculine",
-      skill: "subject case",
-      answer: "nominative",
-      explanation: "In this sentence, ὁ ἄνθρωπος is nominative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      parse: "accusative singular masculine",
+      skill: "case recognition in context",
+      answer: "accusative",
+      explanation: "τὸν ἄνθρωπον is accusative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "nominative",
-          correct: true,
-          feedback: "Correct. ὁ ἄνθρωπος is nominative here."
-        },
-        {
           text: "accusative",
-          correct: false,
-          feedback: "No. In this sentence, ὁ ἄνθρωπος is nominative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "nominative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is nominative, not genitive."
+          feedback: "τὸν ἄνθρωπον is accusative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -1928,28 +1943,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον., what case is τὸν ἄνθρωπον?",
-      target_form: "τὸν ἄνθρωπον",
-      lemma: "ἄνθρωπος",
-      parse: "accusative singular masculine",
-      skill: "object case",
-      answer: "accusative",
-      explanation: "In this sentence, τὸν ἄνθρωπον is accusative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      prompt: "In ἡ ἀρετὴ καλή ἐστιν, what case is ἡ ἀρετή?",
+      target_form: "ἡ ἀρετή",
+      lemma: "ἀρετή",
+      parse: "nominative singular feminine",
+      skill: "case recognition in context",
+      answer: "nominative",
+      explanation: "ἡ ἀρετή is nominative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "accusative",
-          correct: true,
-          feedback: "Correct. τὸν ἄνθρωπον is accusative here."
-        },
-        {
           text: "nominative",
-          correct: false,
-          feedback: "No. In this sentence, τὸν ἄνθρωπον is accusative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "accusative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is accusative, not genitive."
+          feedback: "ἡ ἀρετή is nominative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -1958,28 +1973,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ἡ ἀρετὴ καλή ἐστιν., what case is ἡ ἀρετή?",
-      target_form: "ἡ ἀρετή",
+      prompt: "In ὁ νεανίας φιλεῖ τὴν ἀρετήν, what case is τὴν ἀρετήν?",
+      target_form: "τὴν ἀρετήν",
       lemma: "ἀρετή",
-      parse: "nominative singular feminine",
-      skill: "subject/complement case",
-      answer: "nominative",
-      explanation: "In this sentence, ἡ ἀρετή is nominative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      parse: "accusative singular feminine",
+      skill: "case recognition in context",
+      answer: "accusative",
+      explanation: "τὴν ἀρετήν is accusative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "nominative",
-          correct: true,
-          feedback: "Correct. ἡ ἀρετή is nominative here."
-        },
-        {
           text: "accusative",
-          correct: false,
-          feedback: "No. In this sentence, ἡ ἀρετή is nominative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "nominative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is nominative, not genitive."
+          feedback: "τὴν ἀρετήν is accusative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -1988,28 +2003,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ νεανίας φιλεῖ τὴν ἀρετήν., what case is τὴν ἀρετήν?",
-      target_form: "τὴν ἀρετήν",
-      lemma: "ἀρετή",
-      parse: "accusative singular feminine",
-      skill: "object case",
-      answer: "accusative",
-      explanation: "In this sentence, τὴν ἀρετήν is accusative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      prompt: "In τὸ βιβλίον καλόν ἐστιν, what case is τὸ βιβλίον?",
+      target_form: "τὸ βιβλίον",
+      lemma: "βιβλίον",
+      parse: "nominative singular neuter",
+      skill: "case recognition in context",
+      answer: "nominative",
+      explanation: "τὸ βιβλίον is nominative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "accusative",
-          correct: true,
-          feedback: "Correct. τὴν ἀρετήν is accusative here."
-        },
-        {
           text: "nominative",
-          correct: false,
-          feedback: "No. In this sentence, τὴν ἀρετήν is accusative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "accusative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is accusative, not genitive."
+          feedback: "τὸ βιβλίον is nominative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -2018,28 +2033,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In τὸ βιβλίον καλόν ἐστιν., what case is τὸ βιβλίον?",
+      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, what case is τὸ βιβλίον?",
       target_form: "τὸ βιβλίον",
       lemma: "βιβλίον",
-      parse: "nominative singular neuter",
-      skill: "neuter case in context",
-      answer: "nominative",
-      explanation: "In this sentence, τὸ βιβλίον is nominative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      parse: "accusative singular neuter",
+      skill: "case recognition in context",
+      answer: "accusative",
+      explanation: "τὸ βιβλίον is accusative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "nominative",
-          correct: true,
-          feedback: "Correct. τὸ βιβλίον is nominative here."
-        },
-        {
           text: "accusative",
-          correct: false,
-          feedback: "No. In this sentence, τὸ βιβλίον is nominative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "nominative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is nominative, not genitive."
+          feedback: "τὸ βιβλίον is accusative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -2048,28 +2063,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον., what case is τὸ βιβλίον?",
-      target_form: "τὸ βιβλίον",
-      lemma: "βιβλίον",
-      parse: "accusative singular neuter",
-      skill: "neuter case in context",
-      answer: "accusative",
-      explanation: "In this sentence, τὸ βιβλίον is accusative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      prompt: "In ὁ μαθητὴς ἀκούει, what case is ὁ μαθητής?",
+      target_form: "ὁ μαθητής",
+      lemma: "μαθητής",
+      parse: "nominative singular masculine",
+      skill: "case recognition in context",
+      answer: "nominative",
+      explanation: "ὁ μαθητής is nominative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "accusative",
-          correct: true,
-          feedback: "Correct. τὸ βιβλίον is accusative here."
-        },
-        {
           text: "nominative",
-          correct: false,
-          feedback: "No. In this sentence, τὸ βιβλίον is accusative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "accusative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is accusative, not genitive."
+          feedback: "ὁ μαθητής is nominative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -2078,28 +2093,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς ἀκούει., what case is ὁ μαθητής?",
-      target_form: "ὁ μαθητής",
+      prompt: "In ὁ Σωκράτης παιδεύει τὸν μαθητήν, what case is τὸν μαθητήν?",
+      target_form: "τὸν μαθητήν",
       lemma: "μαθητής",
-      parse: "nominative singular masculine",
-      skill: "subject case",
-      answer: "nominative",
-      explanation: "In this sentence, ὁ μαθητής is nominative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      parse: "accusative singular masculine",
+      skill: "case recognition in context",
+      answer: "accusative",
+      explanation: "τὸν μαθητήν is accusative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "nominative",
-          correct: true,
-          feedback: "Correct. ὁ μαθητής is nominative here."
-        },
-        {
           text: "accusative",
-          correct: false,
-          feedback: "No. In this sentence, ὁ μαθητής is nominative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "nominative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is nominative, not genitive."
+          feedback: "τὸν μαθητήν is accusative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -2108,28 +2123,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης παιδεύει τὸν μαθητήν., what case is τὸν μαθητήν?",
-      target_form: "τὸν μαθητήν",
-      lemma: "μαθητής",
-      parse: "accusative singular masculine",
-      skill: "object case",
-      answer: "accusative",
-      explanation: "In this sentence, τὸν μαθητήν is accusative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      prompt: "In τὸ σῶμα καλόν ἐστιν, what case is τὸ σῶμα?",
+      target_form: "τὸ σῶμα",
+      lemma: "σῶμα",
+      parse: "nominative singular neuter",
+      skill: "case recognition in context",
+      answer: "nominative",
+      explanation: "τὸ σῶμα is nominative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "accusative",
-          correct: true,
-          feedback: "Correct. τὸν μαθητήν is accusative here."
-        },
-        {
           text: "nominative",
-          correct: false,
-          feedback: "No. In this sentence, τὸν μαθητήν is accusative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "accusative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is accusative, not genitive."
+          feedback: "τὸ σῶμα is nominative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
@@ -2138,67 +2153,39 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In τὸ σῶμα καλόν ἐστιν., what case is τὸ σῶμα?",
+      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα, what case is τὸ σῶμα?",
       target_form: "τὸ σῶμα",
       lemma: "σῶμα",
-      parse: "nominative singular neuter",
-      skill: "neuter case in context",
-      answer: "nominative",
-      explanation: "In this sentence, τὸ σῶμα is nominative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
+      parse: "accusative singular neuter",
+      skill: "case recognition in context",
+      answer: "accusative",
+      explanation: "τὸ σῶμα is accusative in this sentence. The sentence context tells the case.",
       choices: [
         {
-          text: "nominative",
-          correct: true,
-          feedback: "Correct. τὸ σῶμα is nominative here."
-        },
-        {
           text: "accusative",
-          correct: false,
-          feedback: "No. In this sentence, τὸ σῶμα is nominative."
+          correct: true,
+          feedback: "Correct."
         },
         {
-          text: "genitive",
+          text: "nominative",
           correct: false,
-          feedback: "No. This Lesson 1 phrase is nominative, not genitive."
+          feedback: "τὸ σῶμα is accusative in this sentence. The sentence context tells the case."
+        },
+        {
+          text: "cannot tell from context",
+          correct: false,
+          feedback: "The context does show the case here."
         }
       ]
     },
+
+    // Group 2C — Subject and direct object
     {
       id: "lesson-1-nouns-cases-agreement-023",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα., what case is τὸ σῶμα?",
-      target_form: "τὸ σῶμα",
-      lemma: "σῶμα",
-      parse: "accusative singular neuter",
-      skill: "neuter case in context",
-      answer: "accusative",
-      explanation: "In this sentence, τὸ σῶμα is accusative. The sentence context tells the case, especially for neuter forms such as τὸ βιβλίον and τὸ σῶμα.",
-      choices: [
-        {
-          text: "accusative",
-          correct: true,
-          feedback: "Correct. τὸ σῶμα is accusative here."
-        },
-        {
-          text: "nominative",
-          correct: false,
-          feedback: "No. In this sentence, τὸ σῶμα is accusative."
-        },
-        {
-          text: "genitive",
-          correct: false,
-          feedback: "No. This Lesson 1 phrase is accusative, not genitive."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-nouns-cases-agreement-024",
-      lesson: "lesson-1",
-      topic: "nouns-cases-agreement",
-      type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης διδάσκει τὸν μαθητήν., what job does ὁ Σωκράτης have?",
+      prompt: "In ὁ Σωκράτης διδάσκει τὸν μαθητήν, what job does ὁ Σωκράτης have?",
       target_form: "ὁ Σωκράτης",
       lemma: "Σωκράτης",
       parse: "nominative singular masculine",
@@ -2214,21 +2201,21 @@
         {
           text: "direct object",
           correct: false,
-          feedback: "No. ὁ Σωκράτης is the subject."
+          feedback: "ὁ Σωκράτης is the subject in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. ὁ Σωκράτης is a noun phrase; it is the subject."
+          feedback: "No. ὁ Σωκράτης is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-025",
+      id: "lesson-1-nouns-cases-agreement-024",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης διδάσκει τὸν μαθητήν., what job does τὸν μαθητήν have?",
+      prompt: "In ὁ Σωκράτης διδάσκει τὸν μαθητήν, what job does τὸν μαθητήν have?",
       target_form: "τὸν μαθητήν",
       lemma: "μαθητής",
       parse: "accusative singular masculine",
@@ -2244,21 +2231,21 @@
         {
           text: "subject",
           correct: false,
-          feedback: "No. τὸν μαθητήν is the direct object."
+          feedback: "τὸν μαθητήν is the direct object in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. τὸν μαθητήν is a noun phrase; it is the direct object."
+          feedback: "No. τὸν μαθητήν is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-026",
+      id: "lesson-1-nouns-cases-agreement-025",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον., what job does ὁ μαθητής have?",
+      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, what job does ὁ μαθητής have?",
       target_form: "ὁ μαθητής",
       lemma: "μαθητής",
       parse: "nominative singular masculine",
@@ -2274,21 +2261,21 @@
         {
           text: "direct object",
           correct: false,
-          feedback: "No. ὁ μαθητής is the subject."
+          feedback: "ὁ μαθητής is the subject in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. ὁ μαθητής is a noun phrase; it is the subject."
+          feedback: "No. ὁ μαθητής is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-027",
+      id: "lesson-1-nouns-cases-agreement-026",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον., what job does τὸ βιβλίον have?",
+      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, what job does τὸ βιβλίον have?",
       target_form: "τὸ βιβλίον",
       lemma: "βιβλίον",
       parse: "accusative singular neuter",
@@ -2304,21 +2291,21 @@
         {
           text: "subject",
           correct: false,
-          feedback: "No. τὸ βιβλίον is the direct object."
+          feedback: "τὸ βιβλίον is the direct object in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. τὸ βιβλίον is a noun phrase; it is the direct object."
+          feedback: "No. τὸ βιβλίον is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-028",
+      id: "lesson-1-nouns-cases-agreement-027",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ νεανίας ζητεῖ τὴν σοφίαν., what job does ὁ νεανίας have?",
+      prompt: "In ὁ νεανίας ζητεῖ τὴν σοφίαν, what job does ὁ νεανίας have?",
       target_form: "ὁ νεανίας",
       lemma: "νεανίας",
       parse: "nominative singular masculine",
@@ -2334,21 +2321,21 @@
         {
           text: "direct object",
           correct: false,
-          feedback: "No. ὁ νεανίας is the subject."
+          feedback: "ὁ νεανίας is the subject in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. ὁ νεανίας is a noun phrase; it is the subject."
+          feedback: "No. ὁ νεανίας is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-029",
+      id: "lesson-1-nouns-cases-agreement-028",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ νεανίας ζητεῖ τὴν σοφίαν., what job does τὴν σοφίαν have?",
+      prompt: "In ὁ νεανίας ζητεῖ τὴν σοφίαν, what job does τὴν σοφίαν have?",
       target_form: "τὴν σοφίαν",
       lemma: "σοφία",
       parse: "accusative singular feminine",
@@ -2364,21 +2351,21 @@
         {
           text: "subject",
           correct: false,
-          feedback: "No. τὴν σοφίαν is the direct object."
+          feedback: "τὴν σοφίαν is the direct object in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. τὴν σοφίαν is a noun phrase; it is the direct object."
+          feedback: "No. τὴν σοφίαν is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-030",
+      id: "lesson-1-nouns-cases-agreement-029",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα., what job does ὁ ἄνθρωπος have?",
+      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα, what job does ὁ ἄνθρωπος have?",
       target_form: "ὁ ἄνθρωπος",
       lemma: "ἄνθρωπος",
       parse: "nominative singular masculine",
@@ -2394,21 +2381,21 @@
         {
           text: "direct object",
           correct: false,
-          feedback: "No. ὁ ἄνθρωπος is the subject."
+          feedback: "ὁ ἄνθρωπος is the subject in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. ὁ ἄνθρωπος is a noun phrase; it is the subject."
+          feedback: "No. ὁ ἄνθρωπος is a noun phrase, not the verb."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-031",
+      id: "lesson-1-nouns-cases-agreement-030",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα., what job does τὸ σῶμα have?",
+      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα, what job does τὸ σῶμα have?",
       target_form: "τὸ σῶμα",
       lemma: "σῶμα",
       parse: "accusative singular neuter",
@@ -2424,81 +2411,23 @@
         {
           text: "subject",
           correct: false,
-          feedback: "No. τὸ σῶμα is the direct object."
+          feedback: "τὸ σῶμα is the direct object in this sentence."
         },
         {
           text: "verb",
           correct: false,
-          feedback: "No. τὸ σῶμα is a noun phrase; it is the direct object."
+          feedback: "No. τὸ σῶμα is a noun phrase, not the verb."
         }
       ]
     },
+
+    // Group 2D — Adjective agreement
     {
-      id: "lesson-1-nouns-cases-agreement-032",
+      id: "lesson-1-nouns-cases-agreement-031",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ Ξενοφῶν φιλεῖ τὴν ἀλήθειαν., what job does ὁ Ξενοφῶν have?",
-      target_form: "ὁ Ξενοφῶν",
-      lemma: "Ξενοφῶν",
-      parse: "nominative singular masculine",
-      skill: "sentence role",
-      answer: "subject",
-      explanation: "ὁ Ξενοφῶν is the subject in this sentence.",
-      choices: [
-        {
-          text: "subject",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "direct object",
-          correct: false,
-          feedback: "No. ὁ Ξενοφῶν is the subject."
-        },
-        {
-          text: "verb",
-          correct: false,
-          feedback: "No. ὁ Ξενοφῶν is a noun phrase; it is the subject."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-nouns-cases-agreement-033",
-      lesson: "lesson-1",
-      topic: "nouns-cases-agreement",
-      type: "multiple_choice",
-      prompt: "In ὁ Ξενοφῶν φιλεῖ τὴν ἀλήθειαν., what job does τὴν ἀλήθειαν have?",
-      target_form: "τὴν ἀλήθειαν",
-      lemma: "ἀλήθεια",
-      parse: "accusative singular feminine",
-      skill: "sentence role",
-      answer: "direct object",
-      explanation: "τὴν ἀλήθειαν is the direct object in this sentence.",
-      choices: [
-        {
-          text: "direct object",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "subject",
-          correct: false,
-          feedback: "No. τὴν ἀλήθειαν is the direct object."
-        },
-        {
-          text: "verb",
-          correct: false,
-          feedback: "No. τὴν ἀλήθειαν is a noun phrase; it is the direct object."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-nouns-cases-agreement-034",
-      lesson: "lesson-1",
-      topic: "nouns-cases-agreement",
-      type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: ἡ ______ ἀλήθεια.",
+      prompt: "Choose the adjective that agrees: ἡ ______ ἀλήθεια.",
       target_form: "ἡ καλή ἀλήθεια",
       lemma: "ἀλήθεια",
       parse: "nominative singular feminine",
@@ -2514,21 +2443,21 @@
         {
           text: "καλός",
           correct: false,
-          feedback: "No. The agreeing form is καλή."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλή."
         },
         {
           text: "καλόν",
           correct: false,
-          feedback: "No. The agreeing form is καλή."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλή."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-035",
+      id: "lesson-1-nouns-cases-agreement-032",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: ὁ ______ ἄνθρωπος.",
+      prompt: "Choose the adjective that agrees: ὁ ______ ἄνθρωπος.",
       target_form: "ὁ καλός ἄνθρωπος",
       lemma: "ἄνθρωπος",
       parse: "nominative singular masculine",
@@ -2544,21 +2473,21 @@
         {
           text: "καλή",
           correct: false,
-          feedback: "No. The agreeing form is καλός."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλός."
         },
         {
           text: "καλόν",
           correct: false,
-          feedback: "No. The agreeing form is καλός."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλός."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-036",
+      id: "lesson-1-nouns-cases-agreement-033",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: τὸ ______ βιβλίον.",
+      prompt: "Choose the adjective that agrees: τὸ ______ βιβλίον.",
       target_form: "τὸ καλόν βιβλίον",
       lemma: "βιβλίον",
       parse: "nominative or accusative singular neuter",
@@ -2574,21 +2503,21 @@
         {
           text: "καλός",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         },
         {
           text: "καλή",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-037",
+      id: "lesson-1-nouns-cases-agreement-034",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: ὁ ______ μαθητής.",
+      prompt: "Choose the adjective that agrees: ὁ ______ μαθητής.",
       target_form: "ὁ καλός μαθητής",
       lemma: "μαθητής",
       parse: "nominative singular masculine",
@@ -2604,21 +2533,21 @@
         {
           text: "καλή",
           correct: false,
-          feedback: "No. The agreeing form is καλός."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλός."
         },
         {
           text: "καλόν",
           correct: false,
-          feedback: "No. The agreeing form is καλός."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλός."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-038",
+      id: "lesson-1-nouns-cases-agreement-035",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: ἡ ______ ψυχή.",
+      prompt: "Choose the adjective that agrees: ἡ ______ ψυχή.",
       target_form: "ἡ καλή ψυχή",
       lemma: "ψυχή",
       parse: "nominative singular feminine",
@@ -2634,21 +2563,21 @@
         {
           text: "καλός",
           correct: false,
-          feedback: "No. The agreeing form is καλή."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλή."
         },
         {
           text: "καλόν",
           correct: false,
-          feedback: "No. The agreeing form is καλή."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλή."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-039",
+      id: "lesson-1-nouns-cases-agreement-036",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: τὸν ______ ἄνθρωπον.",
+      prompt: "Choose the adjective that agrees: τὸν ______ ἄνθρωπον.",
       target_form: "τὸν καλόν ἄνθρωπον",
       lemma: "ἄνθρωπος",
       parse: "accusative singular masculine",
@@ -2664,21 +2593,21 @@
         {
           text: "καλός",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         },
         {
           text: "καλήν",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-040",
+      id: "lesson-1-nouns-cases-agreement-037",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: τὴν ______ ψυχήν.",
+      prompt: "Choose the adjective that agrees: τὴν ______ ψυχήν.",
       target_form: "τὴν καλήν ψυχήν",
       lemma: "ψυχή",
       parse: "accusative singular feminine",
@@ -2694,21 +2623,21 @@
         {
           text: "καλή",
           correct: false,
-          feedback: "No. The agreeing form is καλήν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλήν."
         },
         {
           text: "καλόν",
           correct: false,
-          feedback: "No. The agreeing form is καλήν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλήν."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-041",
+      id: "lesson-1-nouns-cases-agreement-038",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: τὸ ______ σῶμα.",
+      prompt: "Choose the adjective that agrees: τὸ ______ σῶμα.",
       target_form: "τὸ καλόν σῶμα",
       lemma: "σῶμα",
       parse: "nominative or accusative singular neuter",
@@ -2724,21 +2653,21 @@
         {
           text: "καλός",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         },
         {
           text: "καλή",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-042",
+      id: "lesson-1-nouns-cases-agreement-039",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: τὸν ______ μαθητήν.",
+      prompt: "Choose the adjective that agrees: τὸν ______ μαθητήν.",
       target_form: "τὸν καλόν μαθητήν",
       lemma: "μαθητής",
       parse: "accusative singular masculine",
@@ -2754,21 +2683,21 @@
         {
           text: "καλός",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         },
         {
           text: "καλήν",
           correct: false,
-          feedback: "No. The agreeing form is καλόν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλόν."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-043",
+      id: "lesson-1-nouns-cases-agreement-040",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Choose the agreeing adjective: τὴν ______ σοφίαν.",
+      prompt: "Choose the adjective that agrees: τὴν ______ σοφίαν.",
       target_form: "τὴν καλήν σοφίαν",
       lemma: "σοφία",
       parse: "accusative singular feminine",
@@ -2784,55 +2713,87 @@
         {
           text: "καλή",
           correct: false,
-          feedback: "No. The agreeing form is καλήν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλήν."
         },
         {
           text: "καλόν",
           correct: false,
-          feedback: "No. The agreeing form is καλήν."
+          feedback: "The adjective must agree with the noun in gender, number, and case; here the correct form is καλήν."
         }
       ]
     },
+
+    // Group 2E — Concept checks and phrase recognition
     {
-      id: "lesson-1-nouns-cases-agreement-044",
+      id: "lesson-1-nouns-cases-agreement-041",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Why can τὸ βιβλίον be tricky by itself?",
+      prompt: "By form alone, what case can τὸ βιβλίον be?",
       target_form: "τὸ βιβλίον",
       lemma: "βιβλίον",
       parse: "nominative or accusative singular neuter",
-      skill: "neuter case recognition",
-      answer: "because neuter nominative and accusative singular forms look the same",
-      explanation: "Neuter nominative and accusative singular forms often look the same, so context tells the case.",
+      skill: "concept check",
+      answer: "nominative or accusative",
+      explanation: "Neuter nominative and accusative singular forms look the same, so τὸ βιβλίον can be either by form alone.",
       choices: [
         {
-          text: "because neuter nominative and accusative singular forms look the same",
+          text: "nominative or accusative",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "because it is always masculine",
+          text: "only nominative",
           correct: false,
-          feedback: "Neuter nominative and accusative singular forms often look the same, so context tells the case."
+          feedback: "Neuter nominative and accusative singular forms look the same, so τὸ βιβλίον can be either by form alone."
         },
         {
-          text: "because it is always accusative",
+          text: "only accusative",
           correct: false,
-          feedback: "Neuter nominative and accusative singular forms often look the same, so context tells the case."
+          feedback: "Neuter nominative and accusative singular forms look the same, so τὸ βιβλίον can be either by form alone."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-045",
+      id: "lesson-1-nouns-cases-agreement-042",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Which phrase is accusative singular masculine?",
+      prompt: "By form alone, what case can τὸ σῶμα be?",
+      target_form: "τὸ σῶμα",
+      lemma: "σῶμα",
+      parse: "nominative or accusative singular neuter",
+      skill: "concept check",
+      answer: "nominative or accusative",
+      explanation: "Neuter nominative and accusative singular forms look the same, so τὸ σῶμα can be either by form alone.",
+      choices: [
+        {
+          text: "nominative or accusative",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "only nominative",
+          correct: false,
+          feedback: "Neuter nominative and accusative singular forms look the same, so τὸ σῶμα can be either by form alone."
+        },
+        {
+          text: "only accusative",
+          correct: false,
+          feedback: "Neuter nominative and accusative singular forms look the same, so τὸ σῶμα can be either by form alone."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-nouns-cases-agreement-043",
+      lesson: "lesson-1",
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: "Which phrase is masculine accusative singular?",
       target_form: "τὸν ἄνθρωπον",
       lemma: "ἄνθρωπος",
       parse: "accusative singular masculine",
-      skill: "case/gender recognition",
+      skill: "concept check",
       answer: "τὸν ἄνθρωπον",
       explanation: "τὸν ἄνθρωπον is masculine accusative singular.",
       choices: [
@@ -2847,22 +2808,22 @@
           feedback: "τὸν ἄνθρωπον is masculine accusative singular."
         },
         {
-          text: "τὴν ἀλήθειαν",
+          text: "ἡ ἀλήθεια",
           correct: false,
           feedback: "τὸν ἄνθρωπον is masculine accusative singular."
         }
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-046",
+      id: "lesson-1-nouns-cases-agreement-044",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Which phrase is nominative singular feminine?",
+      prompt: "Which phrase is feminine nominative singular?",
       target_form: "ἡ σοφία",
       lemma: "σοφία",
       parse: "nominative singular feminine",
-      skill: "case/gender recognition",
+      skill: "concept check",
       answer: "ἡ σοφία",
       explanation: "ἡ σοφία is feminine nominative singular.",
       choices: [
@@ -2884,15 +2845,15 @@
       ]
     },
     {
-      id: "lesson-1-nouns-cases-agreement-047",
+      id: "lesson-1-nouns-cases-agreement-045",
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Which phrase is accusative singular feminine?",
+      prompt: "Which phrase is feminine accusative singular?",
       target_form: "τὴν ψυχήν",
       lemma: "ψυχή",
       parse: "accusative singular feminine",
-      skill: "case/gender recognition",
+      skill: "concept check",
       answer: "τὴν ψυχήν",
       explanation: "τὴν ψυχήν is feminine accusative singular.",
       choices: [
@@ -2907,9 +2868,69 @@
           feedback: "τὴν ψυχήν is feminine accusative singular."
         },
         {
-          text: "τὸν μαθητήν",
+          text: "τὸ σῶμα",
           correct: false,
           feedback: "τὴν ψυχήν is feminine accusative singular."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-nouns-cases-agreement-046",
+      lesson: "lesson-1",
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: "Which phrase is masculine nominative singular?",
+      target_form: "ὁ μαθητής",
+      lemma: "μαθητής",
+      parse: "nominative singular masculine",
+      skill: "concept check",
+      answer: "ὁ μαθητής",
+      explanation: "ὁ μαθητής is masculine nominative singular.",
+      choices: [
+        {
+          text: "ὁ μαθητής",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "τὸν μαθητήν",
+          correct: false,
+          feedback: "ὁ μαθητής is masculine nominative singular."
+        },
+        {
+          text: "τὴν ἀρετήν",
+          correct: false,
+          feedback: "ὁ μαθητής is masculine nominative singular."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-nouns-cases-agreement-047",
+      lesson: "lesson-1",
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, why is τὸ βιβλίον accusative?",
+      target_form: "τὸ βιβλίον",
+      lemma: "βιβλίον",
+      parse: "accusative singular neuter",
+      skill: "concept check",
+      answer: "It is the direct object of γράφει.",
+      explanation: "τὸ βιβλίον receives the action of γράφει, so it is the direct object and accusative.",
+      choices: [
+        {
+          text: "It is the direct object of γράφει.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is the subject of γράφει.",
+          correct: false,
+          feedback: "τὸ βιβλίον receives the action of γράφει, so it is the direct object and accusative."
+        },
+        {
+          text: "It is masculine.",
+          correct: false,
+          feedback: "τὸ βιβλίον receives the action of γράφει, so it is the direct object and accusative."
         }
       ]
     },
@@ -2918,28 +2939,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "Which phrase could be either nominative or accusative singular neuter without more context?",
-      target_form: "τὸ σῶμα",
-      lemma: "σῶμα",
-      parse: "nominative or accusative singular neuter",
-      skill: "neuter case recognition",
-      answer: "τὸ σῶμα",
-      explanation: "τὸ σῶμα can be nominative or accusative singular neuter depending on context.",
+      prompt: "In τὸ βιβλίον καλόν ἐστιν, why is τὸ βιβλίον nominative?",
+      target_form: "τὸ βιβλίον",
+      lemma: "βιβλίον",
+      parse: "nominative singular neuter",
+      skill: "concept check",
+      answer: "It is the subject of ἐστιν.",
+      explanation: "τὸ βιβλίον is the subject of the sentence, so it is nominative.",
       choices: [
         {
-          text: "τὸ σῶμα",
+          text: "It is the subject of ἐστιν.",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "ὁ Σωκράτης",
+          text: "It is the direct object of ἐστιν.",
           correct: false,
-          feedback: "τὸ σῶμα can be nominative or accusative singular neuter depending on context."
+          feedback: "τὸ βιβλίον is the subject of the sentence, so it is nominative."
         },
         {
-          text: "τὴν ἀρετήν",
+          text: "It is masculine.",
           correct: false,
-          feedback: "τὸ σῶμα can be nominative or accusative singular neuter depending on context."
+          feedback: "τὸ βιβλίον is the subject of the sentence, so it is nominative."
         }
       ]
     },
@@ -2948,28 +2969,28 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, why is τὸ βιβλίον accusative?",
-      target_form: "τὸ βιβλίον",
-      lemma: "βιβλίον",
-      parse: "accusative singular neuter",
-      skill: "sentence role",
-      answer: "it is the direct object of γράφει",
-      explanation: "The student writes the book; τὸ βιβλίον receives the action and is the direct object.",
+      prompt: "What must an adjective agree with?",
+      target_form: "adjective agreement",
+      lemma: "",
+      parse: "agreement concept",
+      skill: "concept check",
+      answer: "the noun it describes",
+      explanation: "An adjective agrees with the noun it describes in gender, number, and case.",
       choices: [
         {
-          text: "it is the direct object of γράφει",
+          text: "the noun it describes",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "it is the subject of γράφει",
+          text: "only the verb",
           correct: false,
-          feedback: "The student writes the book; τὸ βιβλίον receives the action and is the direct object."
+          feedback: "An adjective agrees with the noun it describes in gender, number, and case."
         },
         {
-          text: "it is the article",
+          text: "only the first word in the sentence",
           correct: false,
-          feedback: "The student writes the book; τὸ βιβλίον receives the action and is the direct object."
+          feedback: "An adjective agrees with the noun it describes in gender, number, and case."
         }
       ]
     },
@@ -2978,34 +2999,36 @@
       lesson: "lesson-1",
       topic: "nouns-cases-agreement",
       type: "multiple_choice",
-      prompt: "In τὸ βιβλίον καλόν ἐστιν, why is τὸ βιβλίον nominative?",
-      target_form: "τὸ βιβλίον",
-      lemma: "βιβλίον",
-      parse: "nominative singular neuter",
-      skill: "sentence role",
-      answer: "it is the subject of ἐστιν",
-      explanation: "In this sentence, τὸ βιβλίον is the subject: the book is good.",
+      prompt: "In ἡ καλὴ ψυχή, why is καλή correct?",
+      target_form: "ἡ καλὴ ψυχή",
+      lemma: "ψυχή",
+      parse: "nominative singular feminine",
+      skill: "concept check",
+      answer: "It agrees with the feminine noun ψυχή.",
+      explanation: "καλή agrees with the feminine noun ψυχή.",
       choices: [
         {
-          text: "it is the subject of ἐστιν",
+          text: "It agrees with the feminine noun ψυχή.",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "it is the direct object of ἐστιν",
+          text: "It is masculine.",
           correct: false,
-          feedback: "In this sentence, τὸ βιβλίον is the subject: the book is good."
+          feedback: "καλή agrees with the feminine noun ψυχή."
         },
         {
-          text: "it is masculine",
+          text: "It is a verb ending.",
           correct: false,
-          feedback: "In this sentence, τὸ βιβλίον is the subject: the book is good."
+          feedback: "καλή agrees with the feminine noun ψυχή."
         }
       ]
-    }
+    },
+
   ];
 
   const LESSON_1_GRAMMAR_3_DEFINITE_ARTICLE = [
+    // Group 3A — Choosing nominative singular articles
     {
       id: "lesson-1-definite-article-001",
       lesson: "lesson-1",
@@ -3015,7 +3038,7 @@
       target_form: "ἡ ἀλήθεια",
       lemma: "ἀλήθεια",
       parse: "feminine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ἡ",
       explanation: "ἀλήθεια is feminine nominative singular here, so the article is ἡ.",
       choices: [
@@ -3027,12 +3050,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "ἀλήθεια is feminine nominative singular here, so the article is ἡ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "ἀλήθεια is feminine nominative singular here, so the article is ἡ."
         }
       ]
     },
@@ -3045,7 +3068,7 @@
       target_form: "ὁ ἄνθρωπος",
       lemma: "ἄνθρωπος",
       parse: "masculine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ὁ",
       explanation: "ἄνθρωπος is masculine nominative singular here, so the article is ὁ.",
       choices: [
@@ -3057,12 +3080,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "ἄνθρωπος is masculine nominative singular here, so the article is ὁ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "ἄνθρωπος is masculine nominative singular here, so the article is ὁ."
         }
       ]
     },
@@ -3075,7 +3098,7 @@
       target_form: "ἡ ἀρετή",
       lemma: "ἀρετή",
       parse: "feminine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ἡ",
       explanation: "ἀρετή is feminine nominative singular here, so the article is ἡ.",
       choices: [
@@ -3087,12 +3110,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "ἀρετή is feminine nominative singular here, so the article is ἡ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "ἀρετή is feminine nominative singular here, so the article is ἡ."
         }
       ]
     },
@@ -3105,7 +3128,7 @@
       target_form: "τὸ βιβλίον",
       lemma: "βιβλίον",
       parse: "neuter nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "τὸ",
       explanation: "βιβλίον is neuter nominative singular here, so the article is τὸ.",
       choices: [
@@ -3117,12 +3140,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "βιβλίον is neuter nominative singular here, so the article is τὸ."
         },
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "βιβλίον is neuter nominative singular here, so the article is τὸ."
         }
       ]
     },
@@ -3135,7 +3158,7 @@
       target_form: "ὁ μαθητής",
       lemma: "μαθητής",
       parse: "masculine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ὁ",
       explanation: "μαθητής is masculine nominative singular here, so the article is ὁ.",
       choices: [
@@ -3147,12 +3170,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "μαθητής is masculine nominative singular here, so the article is ὁ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "μαθητής is masculine nominative singular here, so the article is ὁ."
         }
       ]
     },
@@ -3165,7 +3188,7 @@
       target_form: "ὁ νεανίας",
       lemma: "νεανίας",
       parse: "masculine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ὁ",
       explanation: "νεανίας is masculine nominative singular here, so the article is ὁ.",
       choices: [
@@ -3177,12 +3200,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "νεανίας is masculine nominative singular here, so the article is ὁ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "νεανίας is masculine nominative singular here, so the article is ὁ."
         }
       ]
     },
@@ -3195,7 +3218,7 @@
       target_form: "ἡ σοφία",
       lemma: "σοφία",
       parse: "feminine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ἡ",
       explanation: "σοφία is feminine nominative singular here, so the article is ἡ.",
       choices: [
@@ -3207,12 +3230,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "σοφία is feminine nominative singular here, so the article is ἡ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "σοφία is feminine nominative singular here, so the article is ἡ."
         }
       ]
     },
@@ -3225,7 +3248,7 @@
       target_form: "ὁ Σωκράτης",
       lemma: "Σωκράτης",
       parse: "masculine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ὁ",
       explanation: "Σωκράτης is masculine nominative singular here, so the article is ὁ.",
       choices: [
@@ -3237,12 +3260,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "Σωκράτης is masculine nominative singular here, so the article is ὁ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "Σωκράτης is masculine nominative singular here, so the article is ὁ."
         }
       ]
     },
@@ -3255,7 +3278,7 @@
       target_form: "τὸ σῶμα",
       lemma: "σῶμα",
       parse: "neuter nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "τὸ",
       explanation: "σῶμα is neuter nominative singular here, so the article is τὸ.",
       choices: [
@@ -3267,12 +3290,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "σῶμα is neuter nominative singular here, so the article is τὸ."
         },
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "σῶμα is neuter nominative singular here, so the article is τὸ."
         }
       ]
     },
@@ -3285,7 +3308,7 @@
       target_form: "ἡ ψυχή",
       lemma: "ψυχή",
       parse: "feminine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ἡ",
       explanation: "ψυχή is feminine nominative singular here, so the article is ἡ.",
       choices: [
@@ -3297,12 +3320,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "ψυχή is feminine nominative singular here, so the article is ἡ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ἡ."
+          feedback: "ψυχή is feminine nominative singular here, so the article is ἡ."
         }
       ]
     },
@@ -3315,7 +3338,7 @@
       target_form: "ὁ Ξενοφῶν",
       lemma: "Ξενοφῶν",
       parse: "masculine nominative singular",
-      skill: "article selection",
+      skill: "nominative article selection",
       answer: "ὁ",
       explanation: "Ξενοφῶν is masculine nominative singular here, so the article is ὁ.",
       choices: [
@@ -3327,15 +3350,17 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "Ξενοφῶν is masculine nominative singular here, so the article is ὁ."
         },
         {
           text: "τὸ",
           correct: false,
-          feedback: "No. The correct article is ὁ."
+          feedback: "Ξενοφῶν is masculine nominative singular here, so the article is ὁ."
         }
       ]
     },
+
+    // Group 3B — Choosing accusative singular articles
     {
       id: "lesson-1-definite-article-012",
       lesson: "lesson-1",
@@ -3345,7 +3370,7 @@
       target_form: "τὴν ἀλήθειαν",
       lemma: "ἀλήθεια",
       parse: "feminine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὴν",
       explanation: "ἀλήθειαν is feminine accusative singular here, so the article is τὴν.",
       choices: [
@@ -3357,12 +3382,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "ἀλήθειαν is feminine accusative singular here, so the article is τὴν."
         },
         {
           text: "τὸν",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "ἀλήθειαν is feminine accusative singular here, so the article is τὴν."
         }
       ]
     },
@@ -3375,7 +3400,7 @@
       target_form: "τὸν ἄνθρωπον",
       lemma: "ἄνθρωπος",
       parse: "masculine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸν",
       explanation: "ἄνθρωπον is masculine accusative singular here, so the article is τὸν.",
       choices: [
@@ -3387,12 +3412,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "ἄνθρωπον is masculine accusative singular here, so the article is τὸν."
         },
         {
           text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "ἄνθρωπον is masculine accusative singular here, so the article is τὸν."
         }
       ]
     },
@@ -3405,7 +3430,7 @@
       target_form: "τὴν ἀρετήν",
       lemma: "ἀρετή",
       parse: "feminine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὴν",
       explanation: "ἀρετήν is feminine accusative singular here, so the article is τὴν.",
       choices: [
@@ -3417,12 +3442,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "ἀρετήν is feminine accusative singular here, so the article is τὴν."
         },
         {
           text: "τὸν",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "ἀρετήν is feminine accusative singular here, so the article is τὴν."
         }
       ]
     },
@@ -3435,7 +3460,7 @@
       target_form: "τὸ βιβλίον",
       lemma: "βιβλίον",
       parse: "neuter accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸ",
       explanation: "βιβλίον is neuter accusative singular here, so the article is τὸ.",
       choices: [
@@ -3447,12 +3472,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "βιβλίον is neuter accusative singular here, so the article is τὸ."
         },
         {
-          text: "ἡ",
+          text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "βιβλίον is neuter accusative singular here, so the article is τὸ."
         }
       ]
     },
@@ -3465,7 +3490,7 @@
       target_form: "τὸν μαθητήν",
       lemma: "μαθητής",
       parse: "masculine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸν",
       explanation: "μαθητήν is masculine accusative singular here, so the article is τὸν.",
       choices: [
@@ -3477,12 +3502,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "μαθητήν is masculine accusative singular here, so the article is τὸν."
         },
         {
           text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "μαθητήν is masculine accusative singular here, so the article is τὸν."
         }
       ]
     },
@@ -3495,7 +3520,7 @@
       target_form: "τὸν νεανίαν",
       lemma: "νεανίας",
       parse: "masculine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸν",
       explanation: "νεανίαν is masculine accusative singular here, so the article is τὸν.",
       choices: [
@@ -3507,12 +3532,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "νεανίαν is masculine accusative singular here, so the article is τὸν."
         },
         {
           text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "νεανίαν is masculine accusative singular here, so the article is τὸν."
         }
       ]
     },
@@ -3525,7 +3550,7 @@
       target_form: "τὴν σοφίαν",
       lemma: "σοφία",
       parse: "feminine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὴν",
       explanation: "σοφίαν is feminine accusative singular here, so the article is τὴν.",
       choices: [
@@ -3537,12 +3562,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "σοφίαν is feminine accusative singular here, so the article is τὴν."
         },
         {
           text: "τὸν",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "σοφίαν is feminine accusative singular here, so the article is τὴν."
         }
       ]
     },
@@ -3555,7 +3580,7 @@
       target_form: "τὸν Σωκράτη",
       lemma: "Σωκράτης",
       parse: "masculine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸν",
       explanation: "Σωκράτη is masculine accusative singular here, so the article is τὸν.",
       choices: [
@@ -3567,12 +3592,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "Σωκράτη is masculine accusative singular here, so the article is τὸν."
         },
         {
           text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "Σωκράτη is masculine accusative singular here, so the article is τὸν."
         }
       ]
     },
@@ -3585,7 +3610,7 @@
       target_form: "τὸ σῶμα",
       lemma: "σῶμα",
       parse: "neuter accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸ",
       explanation: "σῶμα is neuter accusative singular here, so the article is τὸ.",
       choices: [
@@ -3597,12 +3622,12 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "σῶμα is neuter accusative singular here, so the article is τὸ."
         },
         {
-          text: "ἡ",
+          text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸ."
+          feedback: "σῶμα is neuter accusative singular here, so the article is τὸ."
         }
       ]
     },
@@ -3615,7 +3640,7 @@
       target_form: "τὴν ψυχήν",
       lemma: "ψυχή",
       parse: "feminine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὴν",
       explanation: "ψυχήν is feminine accusative singular here, so the article is τὴν.",
       choices: [
@@ -3627,12 +3652,12 @@
         {
           text: "ἡ",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "ψυχήν is feminine accusative singular here, so the article is τὴν."
         },
         {
           text: "τὸν",
           correct: false,
-          feedback: "No. The correct article is τὴν."
+          feedback: "ψυχήν is feminine accusative singular here, so the article is τὴν."
         }
       ]
     },
@@ -3645,7 +3670,7 @@
       target_form: "τὸν Ξενοφῶντα",
       lemma: "Ξενοφῶν",
       parse: "masculine accusative singular",
-      skill: "article selection",
+      skill: "accusative article selection",
       answer: "τὸν",
       explanation: "Ξενοφῶντα is masculine accusative singular here, so the article is τὸν.",
       choices: [
@@ -3657,15 +3682,17 @@
         {
           text: "ὁ",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "Ξενοφῶντα is masculine accusative singular here, so the article is τὸν."
         },
         {
           text: "τὴν",
           correct: false,
-          feedback: "No. The correct article is τὸν."
+          feedback: "Ξενοφῶντα is masculine accusative singular here, so the article is τὸν."
         }
       ]
     },
+
+    // Group 3C — Parsing article forms
     {
       id: "lesson-1-definite-article-023",
       lesson: "lesson-1",
@@ -3687,12 +3714,12 @@
         {
           text: "feminine nominative singular",
           correct: false,
-          feedback: "No. ὁ shows masculine nominative singular."
+          feedback: "ὁ shows masculine nominative singular."
         },
         {
           text: "neuter nominative or accusative singular",
           correct: false,
-          feedback: "No. ὁ shows masculine nominative singular."
+          feedback: "ὁ shows masculine nominative singular."
         }
       ]
     },
@@ -3717,12 +3744,12 @@
         {
           text: "masculine nominative singular",
           correct: false,
-          feedback: "No. ἡ shows feminine nominative singular."
+          feedback: "ἡ shows feminine nominative singular."
         },
         {
           text: "neuter nominative or accusative singular",
           correct: false,
-          feedback: "No. ἡ shows feminine nominative singular."
+          feedback: "ἡ shows feminine nominative singular."
         }
       ]
     },
@@ -3731,7 +3758,7 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "What does τό show?",
+      prompt: "What does τό show by itself?",
       target_form: "τό",
       lemma: "τό",
       parse: "neuter nominative or accusative singular",
@@ -3745,14 +3772,14 @@
           feedback: "Correct."
         },
         {
-          text: "masculine nominative singular",
-          correct: false,
-          feedback: "No. τό shows neuter nominative or accusative singular."
-        },
-        {
           text: "masculine accusative singular",
           correct: false,
-          feedback: "No. τό shows neuter nominative or accusative singular."
+          feedback: "τό shows neuter nominative or accusative singular."
+        },
+        {
+          text: "feminine accusative singular",
+          correct: false,
+          feedback: "τό shows neuter nominative or accusative singular."
         }
       ]
     },
@@ -3761,7 +3788,7 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "What does τόν show?",
+      prompt: "What does τόν show by itself?",
       target_form: "τόν",
       lemma: "τόν",
       parse: "masculine accusative singular",
@@ -3777,12 +3804,12 @@
         {
           text: "masculine nominative singular",
           correct: false,
-          feedback: "No. τόν shows masculine accusative singular."
+          feedback: "τόν shows masculine accusative singular."
         },
         {
-          text: "neuter nominative or accusative singular",
+          text: "feminine nominative singular",
           correct: false,
-          feedback: "No. τόν shows masculine accusative singular."
+          feedback: "τόν shows masculine accusative singular."
         }
       ]
     },
@@ -3791,7 +3818,7 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "What does τήν show?",
+      prompt: "What does τήν show by itself?",
       target_form: "τήν",
       lemma: "τήν",
       parse: "feminine accusative singular",
@@ -3805,29 +3832,31 @@
           feedback: "Correct."
         },
         {
-          text: "masculine nominative singular",
+          text: "feminine nominative singular",
           correct: false,
-          feedback: "No. τήν shows feminine accusative singular."
+          feedback: "τήν shows feminine accusative singular."
         },
         {
-          text: "neuter nominative or accusative singular",
+          text: "masculine accusative singular",
           correct: false,
-          feedback: "No. τήν shows feminine accusative singular."
+          feedback: "τήν shows feminine accusative singular."
         }
       ]
     },
+
+    // Group 3D — Article case in sentence context
     {
       id: "lesson-1-definite-article-028",
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ἡ ἀλήθεια καλή ἐστιν., what case does the article ἡ show?",
+      prompt: "In ἡ ἀλήθεια καλή ἐστιν, what case does ἡ show?",
       target_form: "ἡ",
       lemma: "ἡ",
       parse: "feminine nominative singular",
       skill: "article case in context",
       answer: "nominative",
-      explanation: "In this sentence, ἡ shows nominative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, ἡ shows nominative.",
       choices: [
         {
           text: "nominative",
@@ -3837,12 +3866,12 @@
         {
           text: "accusative",
           correct: false,
-          feedback: "No. In this sentence, ἡ shows nominative."
+          feedback: "In this sentence, ἡ shows nominative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is nominative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -3851,13 +3880,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης ζητεῖ τὴν ἀλήθειαν., what case does the article τὴν show?",
+      prompt: "In ὁ Σωκράτης ζητεῖ τὴν ἀλήθειαν, what case does τὴν show?",
       target_form: "τὴν",
-      lemma: "τὴν",
+      lemma: "τήν",
       parse: "feminine accusative singular",
       skill: "article case in context",
       answer: "accusative",
-      explanation: "In this sentence, τὴν shows accusative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὴν shows accusative.",
       choices: [
         {
           text: "accusative",
@@ -3867,12 +3896,12 @@
         {
           text: "nominative",
           correct: false,
-          feedback: "No. In this sentence, τὴν shows accusative."
+          feedback: "In this sentence, τὴν shows accusative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is accusative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -3881,13 +3910,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ ἄνθρωπος χαίρει., what case does the article ὁ show?",
+      prompt: "In ὁ ἄνθρωπος χαίρει, what case does ὁ show?",
       target_form: "ὁ",
       lemma: "ὁ",
       parse: "masculine nominative singular",
       skill: "article case in context",
       answer: "nominative",
-      explanation: "In this sentence, ὁ shows nominative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, ὁ shows nominative.",
       choices: [
         {
           text: "nominative",
@@ -3897,12 +3926,12 @@
         {
           text: "accusative",
           correct: false,
-          feedback: "No. In this sentence, ὁ shows nominative."
+          feedback: "In this sentence, ὁ shows nominative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is nominative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -3911,13 +3940,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον., what case does the article τὸν show?",
+      prompt: "In ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον, what case does τὸν show?",
       target_form: "τὸν",
-      lemma: "τὸν",
+      lemma: "τόν",
       parse: "masculine accusative singular",
       skill: "article case in context",
       answer: "accusative",
-      explanation: "In this sentence, τὸν shows accusative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὸν shows accusative.",
       choices: [
         {
           text: "accusative",
@@ -3927,12 +3956,12 @@
         {
           text: "nominative",
           correct: false,
-          feedback: "No. In this sentence, τὸν shows accusative."
+          feedback: "In this sentence, τὸν shows accusative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is accusative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -3941,13 +3970,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In τὸ βιβλίον καλόν ἐστιν., what case does the article τὸ show?",
+      prompt: "In τὸ βιβλίον καλόν ἐστιν, what case does τὸ show?",
       target_form: "τὸ",
-      lemma: "τὸ",
+      lemma: "τό",
       parse: "neuter nominative singular in context",
       skill: "article case in context",
       answer: "nominative",
-      explanation: "In this sentence, τὸ shows nominative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὸ shows nominative.",
       choices: [
         {
           text: "nominative",
@@ -3957,12 +3986,12 @@
         {
           text: "accusative",
           correct: false,
-          feedback: "No. In this sentence, τὸ shows nominative."
+          feedback: "In this sentence, τὸ shows nominative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is nominative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -3971,13 +4000,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον., what case does the article τὸ show?",
+      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, what case does τὸ show?",
       target_form: "τὸ",
-      lemma: "τὸ",
+      lemma: "τό",
       parse: "neuter accusative singular in context",
       skill: "article case in context",
       answer: "accusative",
-      explanation: "In this sentence, τὸ shows accusative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὸ shows accusative.",
       choices: [
         {
           text: "accusative",
@@ -3987,12 +4016,12 @@
         {
           text: "nominative",
           correct: false,
-          feedback: "No. In this sentence, τὸ shows accusative."
+          feedback: "In this sentence, τὸ shows accusative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is accusative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -4001,13 +4030,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ἡ ψυχὴ καλή ἐστιν., what case does the article ἡ show?",
+      prompt: "In ἡ ψυχὴ καλή ἐστιν, what case does ἡ show?",
       target_form: "ἡ",
       lemma: "ἡ",
       parse: "feminine nominative singular",
       skill: "article case in context",
       answer: "nominative",
-      explanation: "In this sentence, ἡ shows nominative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, ἡ shows nominative.",
       choices: [
         {
           text: "nominative",
@@ -4017,12 +4046,12 @@
         {
           text: "accusative",
           correct: false,
-          feedback: "No. In this sentence, ἡ shows nominative."
+          feedback: "In this sentence, ἡ shows nominative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is nominative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -4031,13 +4060,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ νεανίας φιλεῖ τὴν σοφίαν., what case does the article τὴν show?",
+      prompt: "In ὁ νεανίας φιλεῖ τὴν σοφίαν, what case does τὴν show?",
       target_form: "τὴν",
-      lemma: "τὴν",
+      lemma: "τήν",
       parse: "feminine accusative singular",
       skill: "article case in context",
       answer: "accusative",
-      explanation: "In this sentence, τὴν shows accusative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὴν shows accusative.",
       choices: [
         {
           text: "accusative",
@@ -4047,12 +4076,12 @@
         {
           text: "nominative",
           correct: false,
-          feedback: "No. In this sentence, τὴν shows accusative."
+          feedback: "In this sentence, τὴν shows accusative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is accusative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -4061,13 +4090,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In τὸ σῶμα καλόν ἐστιν., what case does the article τὸ show?",
+      prompt: "In τὸ σῶμα καλόν ἐστιν, what case does τὸ show?",
       target_form: "τὸ",
-      lemma: "τὸ",
+      lemma: "τό",
       parse: "neuter nominative singular in context",
       skill: "article case in context",
       answer: "nominative",
-      explanation: "In this sentence, τὸ shows nominative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὸ shows nominative.",
       choices: [
         {
           text: "nominative",
@@ -4077,12 +4106,12 @@
         {
           text: "accusative",
           correct: false,
-          feedback: "No. In this sentence, τὸ shows nominative."
+          feedback: "In this sentence, τὸ shows nominative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is nominative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
@@ -4091,13 +4120,13 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα., what case does the article τὸ show?",
+      prompt: "In ὁ ἄνθρωπος γυμνάζει τὸ σῶμα, what case does τὸ show?",
       target_form: "τὸ",
-      lemma: "τὸ",
+      lemma: "τό",
       parse: "neuter accusative singular in context",
       skill: "article case in context",
       answer: "accusative",
-      explanation: "In this sentence, τὸ shows accusative. Context is especially important with neuter τὸ.",
+      explanation: "In this sentence, τὸ shows accusative.",
       choices: [
         {
           text: "accusative",
@@ -4107,265 +4136,27 @@
         {
           text: "nominative",
           correct: false,
-          feedback: "No. In this sentence, τὸ shows accusative."
+          feedback: "In this sentence, τὸ shows accusative."
         },
         {
-          text: "genitive",
+          text: "cannot tell from context",
           correct: false,
-          feedback: "No. This Lesson 1 article is accusative, not genitive."
+          feedback: "The sentence context does show the case here."
         }
       ]
     },
+
+    // Group 3E — Article contrasts and phrase recognition
     {
       id: "lesson-1-definite-article-038",
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "Which phrase is masculine nominative singular?",
-      target_form: "ὁ ἄνθρωπος",
-      lemma: "ἄνθρωπος",
-      parse: "masculine nominative singular",
-      skill: "article phrase recognition",
-      answer: "ὁ ἄνθρωπος",
-      explanation: "ὁ ἄνθρωπος is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "ὁ ἄνθρωπος",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "τὸν ἄνθρωπον",
-          correct: false,
-          feedback: "No. The correct choice is ὁ ἄνθρωπος."
-        },
-        {
-          text: "ἡ ἀλήθεια",
-          correct: false,
-          feedback: "No. The correct choice is ὁ ἄνθρωπος."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-039",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Which phrase is masculine accusative singular?",
-      target_form: "τὸν ἄνθρωπον",
-      lemma: "ἄνθρωπος",
-      parse: "masculine accusative singular",
-      skill: "article phrase recognition",
-      answer: "τὸν ἄνθρωπον",
-      explanation: "τὸν ἄνθρωπον is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "τὸν ἄνθρωπον",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "ὁ ἄνθρωπος",
-          correct: false,
-          feedback: "No. The correct choice is τὸν ἄνθρωπον."
-        },
-        {
-          text: "τὴν ἀλήθειαν",
-          correct: false,
-          feedback: "No. The correct choice is τὸν ἄνθρωπον."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-040",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Which phrase is feminine nominative singular?",
-      target_form: "ἡ ψυχή",
-      lemma: "ψυχή",
-      parse: "feminine nominative singular",
-      skill: "article phrase recognition",
-      answer: "ἡ ψυχή",
-      explanation: "ἡ ψυχή is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "ἡ ψυχή",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "τὴν ψυχήν",
-          correct: false,
-          feedback: "No. The correct choice is ἡ ψυχή."
-        },
-        {
-          text: "τὸ σῶμα",
-          correct: false,
-          feedback: "No. The correct choice is ἡ ψυχή."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-041",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Which phrase is feminine accusative singular?",
-      target_form: "τὴν ψυχήν",
-      lemma: "ψυχή",
-      parse: "feminine accusative singular",
-      skill: "article phrase recognition",
-      answer: "τὴν ψυχήν",
-      explanation: "τὴν ψυχήν is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "τὴν ψυχήν",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "ἡ ψυχή",
-          correct: false,
-          feedback: "No. The correct choice is τὴν ψυχήν."
-        },
-        {
-          text: "ὁ μαθητής",
-          correct: false,
-          feedback: "No. The correct choice is τὴν ψυχήν."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-042",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Which phrase is neuter nominative singular in context?",
-      target_form: "τὸ βιβλίον",
-      lemma: "βιβλίον",
-      parse: "neuter nominative singular",
-      skill: "article phrase recognition",
-      answer: "τὸ βιβλίον καλόν ἐστιν",
-      explanation: "τὸ βιβλίον καλόν ἐστιν is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "τὸ βιβλίον καλόν ἐστιν",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "ὁ μαθητὴς γράφει τὸ βιβλίον",
-          correct: false,
-          feedback: "No. The correct choice is τὸ βιβλίον καλόν ἐστιν."
-        },
-        {
-          text: "τὸν μαθητήν",
-          correct: false,
-          feedback: "No. The correct choice is τὸ βιβλίον καλόν ἐστιν."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-043",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Which phrase is neuter accusative singular in context?",
-      target_form: "τὸ σῶμα",
-      lemma: "σῶμα",
-      parse: "neuter accusative singular",
-      skill: "article phrase recognition",
-      answer: "ὁ ἄνθρωπος γυμνάζει τὸ σῶμα",
-      explanation: "ὁ ἄνθρωπος γυμνάζει τὸ σῶμα is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "ὁ ἄνθρωπος γυμνάζει τὸ σῶμα",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "τὸ σῶμα καλόν ἐστιν",
-          correct: false,
-          feedback: "No. The correct choice is ὁ ἄνθρωπος γυμνάζει τὸ σῶμα."
-        },
-        {
-          text: "ἡ σοφία",
-          correct: false,
-          feedback: "No. The correct choice is ὁ ἄνθρωπος γυμνάζει τὸ σῶμα."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-044",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Which phrase uses the accusative article?",
-      target_form: "τὴν σοφίαν",
-      lemma: "σοφία",
-      parse: "feminine accusative singular",
-      skill: "article phrase recognition",
-      answer: "τὴν σοφίαν",
-      explanation: "τὴν σοφίαν is the correct phrase for this article pattern.",
-      choices: [
-        {
-          text: "τὴν σοφίαν",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "ἡ σοφία",
-          correct: false,
-          feedback: "No. The correct choice is τὴν σοφίαν."
-        },
-        {
-          text: "ὁ Σωκράτης",
-          correct: false,
-          feedback: "No. The correct choice is τὴν σοφίαν."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-045",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
-      prompt: "Why can τὸ by itself show either nominative or accusative?",
-      target_form: "τὸ",
-      lemma: "ὁ",
-      parse: "neuter nominative or accusative singular",
-      skill: "article concept",
-      answer: "because neuter nominative and accusative singular articles have the same form",
-      explanation: "The neuter singular article τὸ can be nominative or accusative; context tells which case is being used.",
-      choices: [
-        {
-          text: "because neuter nominative and accusative singular articles have the same form",
-          correct: true,
-          feedback: "Correct."
-        },
-        {
-          text: "because τὸ is always masculine",
-          correct: false,
-          feedback: "The neuter singular article τὸ can be nominative or accusative; context tells which case is being used."
-        },
-        {
-          text: "because τὸ is always genitive",
-          correct: false,
-          feedback: "The neuter singular article τὸ can be nominative or accusative; context tells which case is being used."
-        }
-      ]
-    },
-    {
-      id: "lesson-1-definite-article-046",
-      lesson: "lesson-1",
-      topic: "definite-article",
-      type: "multiple_choice",
       prompt: "Which pair shows masculine nominative singular and masculine accusative singular?",
       target_form: "ὁ / τόν",
-      lemma: "ὁ",
-      parse: "masculine nominative and accusative singular",
-      skill: "article contrast",
+      lemma: "ὁ / τόν",
+      parse: "article contrast",
+      skill: "article contrast and phrase recognition",
       answer: "ὁ / τόν",
       explanation: "ὁ is masculine nominative singular; τόν is masculine accusative singular.",
       choices: [
@@ -4387,15 +4178,15 @@
       ]
     },
     {
-      id: "lesson-1-definite-article-047",
+      id: "lesson-1-definite-article-039",
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
       prompt: "Which pair shows feminine nominative singular and feminine accusative singular?",
       target_form: "ἡ / τήν",
-      lemma: "ἡ",
-      parse: "feminine nominative and accusative singular",
-      skill: "article contrast",
+      lemma: "ἡ / τήν",
+      parse: "article contrast",
+      skill: "article contrast and phrase recognition",
       answer: "ἡ / τήν",
       explanation: "ἡ is feminine nominative singular; τήν is feminine accusative singular.",
       choices: [
@@ -4417,7 +4208,189 @@
       ]
     },
     {
-      id: "lesson-1-definite-article-048",
+      id: "lesson-1-definite-article-040",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "Which phrase is masculine nominative singular?",
+      target_form: "ὁ ἄνθρωπος",
+      lemma: "ἄνθρωπος",
+      parse: "masculine nominative singular",
+      skill: "article contrast and phrase recognition",
+      answer: "ὁ ἄνθρωπος",
+      explanation: "ὁ ἄνθρωπος is masculine nominative singular.",
+      choices: [
+        {
+          text: "ὁ ἄνθρωπος",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "τὸν ἄνθρωπον",
+          correct: false,
+          feedback: "ὁ ἄνθρωπος is masculine nominative singular."
+        },
+        {
+          text: "ἡ ἀλήθεια",
+          correct: false,
+          feedback: "ὁ ἄνθρωπος is masculine nominative singular."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-041",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "Which phrase is masculine accusative singular?",
+      target_form: "τὸν ἄνθρωπον",
+      lemma: "ἄνθρωπος",
+      parse: "masculine accusative singular",
+      skill: "article contrast and phrase recognition",
+      answer: "τὸν ἄνθρωπον",
+      explanation: "τὸν ἄνθρωπον is masculine accusative singular.",
+      choices: [
+        {
+          text: "τὸν ἄνθρωπον",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁ ἄνθρωπος",
+          correct: false,
+          feedback: "τὸν ἄνθρωπον is masculine accusative singular."
+        },
+        {
+          text: "ἡ ἀλήθεια",
+          correct: false,
+          feedback: "τὸν ἄνθρωπον is masculine accusative singular."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-042",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "Which phrase is feminine nominative singular?",
+      target_form: "ἡ ψυχή",
+      lemma: "ψυχή",
+      parse: "feminine nominative singular",
+      skill: "article contrast and phrase recognition",
+      answer: "ἡ ψυχή",
+      explanation: "ἡ ψυχή is feminine nominative singular.",
+      choices: [
+        {
+          text: "ἡ ψυχή",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "τὴν ψυχήν",
+          correct: false,
+          feedback: "ἡ ψυχή is feminine nominative singular."
+        },
+        {
+          text: "τὸ σῶμα",
+          correct: false,
+          feedback: "ἡ ψυχή is feminine nominative singular."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-043",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "Which phrase is feminine accusative singular?",
+      target_form: "τὴν ψυχήν",
+      lemma: "ψυχή",
+      parse: "feminine accusative singular",
+      skill: "article contrast and phrase recognition",
+      answer: "τὴν ψυχήν",
+      explanation: "τὴν ψυχήν is feminine accusative singular.",
+      choices: [
+        {
+          text: "τὴν ψυχήν",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ἡ ψυχή",
+          correct: false,
+          feedback: "τὴν ψυχήν is feminine accusative singular."
+        },
+        {
+          text: "ὁ μαθητής",
+          correct: false,
+          feedback: "τὴν ψυχήν is feminine accusative singular."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-044",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "Which phrase uses a neuter article?",
+      target_form: "τὸ σῶμα",
+      lemma: "σῶμα",
+      parse: "neuter nominative or accusative singular",
+      skill: "article contrast and phrase recognition",
+      answer: "τὸ σῶμα",
+      explanation: "τὸ σῶμα uses the neuter article τὸ.",
+      choices: [
+        {
+          text: "τὸ σῶμα",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "ὁ Σωκράτης",
+          correct: false,
+          feedback: "τὸ σῶμα uses the neuter article τὸ."
+        },
+        {
+          text: "τὴν σοφίαν",
+          correct: false,
+          feedback: "τὸ σῶμα uses the neuter article τὸ."
+        }
+      ]
+    },
+
+    // Group 3F — Concept checks
+    {
+      id: "lesson-1-definite-article-045",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "Why can τὸ be nominative or accusative?",
+      target_form: "τὸ",
+      lemma: "τό",
+      parse: "neuter nominative or accusative singular",
+      skill: "article concept check",
+      answer: "Neuter nominative and accusative singular forms are the same.",
+      explanation: "The neuter singular article τὸ can be nominative or accusative; context tells which case is being used.",
+      choices: [
+        {
+          text: "Neuter nominative and accusative singular forms are the same.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "It is always masculine.",
+          correct: false,
+          feedback: "The neuter singular article τὸ can be nominative or accusative; context tells which case is being used."
+        },
+        {
+          text: "It is always plural.",
+          correct: false,
+          feedback: "The neuter singular article τὸ can be nominative or accusative; context tells which case is being used."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-046",
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
@@ -4425,24 +4398,84 @@
       target_form: "τὸ",
       lemma: "τό",
       parse: "neuter nominative singular in context",
-      skill: "article case in context",
-      answer: "because τὸ βιβλίον is the subject",
+      skill: "article concept check",
+      answer: "τὸ βιβλίον is the subject.",
       explanation: "In this sentence, τὸ βιβλίον is the subject, so τὸ is nominative.",
       choices: [
         {
-          text: "because τὸ βιβλίον is the subject",
+          text: "τὸ βιβλίον is the subject.",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "because τὸ βιβλίον is the direct object",
+          text: "τὸ βιβλίον is the direct object.",
           correct: false,
           feedback: "In this sentence, τὸ βιβλίον is the subject, so τὸ is nominative."
         },
         {
-          text: "because τὸ is masculine",
+          text: "τὸ is masculine.",
           correct: false,
           feedback: "In this sentence, τὸ βιβλίον is the subject, so τὸ is nominative."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-047",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, why is τὸ accusative?",
+      target_form: "τὸ",
+      lemma: "τό",
+      parse: "neuter accusative singular in context",
+      skill: "article concept check",
+      answer: "τὸ βιβλίον is the direct object.",
+      explanation: "In this sentence, τὸ βιβλίον is the direct object, so τὸ is accusative.",
+      choices: [
+        {
+          text: "τὸ βιβλίον is the direct object.",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "τὸ βιβλίον is the subject.",
+          correct: false,
+          feedback: "In this sentence, τὸ βιβλίον is the direct object, so τὸ is accusative."
+        },
+        {
+          text: "τὸ is feminine.",
+          correct: false,
+          feedback: "In this sentence, τὸ βιβλίον is the direct object, so τὸ is accusative."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-definite-article-048",
+      lesson: "lesson-1",
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: "What does the definite article help show?",
+      target_form: "definite article",
+      lemma: "ὁ",
+      parse: "article concept",
+      skill: "article concept check",
+      answer: "gender, number, and case",
+      explanation: "The Greek definite article helps show gender, number, and case.",
+      choices: [
+        {
+          text: "gender, number, and case",
+          correct: true,
+          feedback: "Correct."
+        },
+        {
+          text: "only the verb meaning",
+          correct: false,
+          feedback: "The Greek definite article helps show gender, number, and case."
+        },
+        {
+          text: "only whether a word is a proper name",
+          correct: false,
+          feedback: "The Greek definite article helps show gender, number, and case."
         }
       ]
     },
@@ -4451,28 +4484,28 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "In ὁ μαθητὴς γράφει τὸ βιβλίον, why is τὸ accusative?",
-      target_form: "τὸ",
-      lemma: "τό",
-      parse: "neuter accusative singular in context",
-      skill: "article case in context",
-      answer: "because τὸ βιβλίον is the direct object",
-      explanation: "In this sentence, τὸ βιβλίον receives the action of γράφει, so τὸ is accusative.",
+      prompt: "Which article would you expect with a masculine accusative singular noun?",
+      target_form: "τόν",
+      lemma: "τόν",
+      parse: "masculine accusative singular",
+      skill: "article concept check",
+      answer: "τόν",
+      explanation: "τόν is the masculine accusative singular article.",
       choices: [
         {
-          text: "because τὸ βιβλίον is the direct object",
+          text: "τόν",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "because τὸ βιβλίον is the subject",
+          text: "ὁ",
           correct: false,
-          feedback: "In this sentence, τὸ βιβλίον receives the action of γράφει, so τὸ is accusative."
+          feedback: "τόν is the masculine accusative singular article."
         },
         {
-          text: "because τὸ is feminine",
+          text: "ἡ",
           correct: false,
-          feedback: "In this sentence, τὸ βιβλίον receives the action of γράφει, so τὸ is accusative."
+          feedback: "τόν is the masculine accusative singular article."
         }
       ]
     },
@@ -4481,31 +4514,32 @@
       lesson: "lesson-1",
       topic: "definite-article",
       type: "multiple_choice",
-      prompt: "Which article would complete τὸν ______? Actually, what gender and case does τὸν already show?",
-      target_form: "τὸν",
-      lemma: "τόν",
-      parse: "masculine accusative singular",
-      skill: "article parsing",
-      answer: "masculine accusative singular",
-      explanation: "τὸν is the masculine accusative singular article.",
+      prompt: "Which article would you expect with a feminine accusative singular noun?",
+      target_form: "τήν",
+      lemma: "τήν",
+      parse: "feminine accusative singular",
+      skill: "article concept check",
+      answer: "τήν",
+      explanation: "τήν is the feminine accusative singular article.",
       choices: [
         {
-          text: "masculine accusative singular",
+          text: "τήν",
           correct: true,
           feedback: "Correct."
         },
         {
-          text: "feminine nominative singular",
+          text: "ἡ",
           correct: false,
-          feedback: "τὸν is the masculine accusative singular article."
+          feedback: "τήν is the feminine accusative singular article."
         },
         {
-          text: "neuter nominative singular",
+          text: "ὁ",
           correct: false,
-          feedback: "τὸν is the masculine accusative singular article."
+          feedback: "τήν is the feminine accusative singular article."
         }
       ]
-    }
+    },
+
   ];
 
   const LESSONS = {
