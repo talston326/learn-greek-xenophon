@@ -233,6 +233,24 @@
       `Not quite. The correct answer is ${getCorrectChoice(question)?.text || "shown in the lesson notes"}.`;
   }
 
+  function shuffleChoices(choices) {
+    const shuffled = [...choices];
+
+    for (let index = shuffled.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+    }
+
+    return shuffled;
+  }
+
+  function prepareTopicQuestion(question) {
+    return {
+      ...question,
+      choices: shuffleChoices(question.choices)
+    };
+  }
+
   function renderTopicPractice() {
     const questions = getQuestions();
 
@@ -241,7 +259,9 @@
       return;
     }
 
-    const currentQuestions = questions.slice(topicPracticeOffset, topicPracticeOffset + TOPIC_PRACTICE_BATCH_SIZE);
+    const currentQuestions = questions
+      .slice(topicPracticeOffset, topicPracticeOffset + TOPIC_PRACTICE_BATCH_SIZE)
+      .map(prepareTopicQuestion);
     const start = topicPracticeOffset + 1;
     const end = topicPracticeOffset + currentQuestions.length;
 
