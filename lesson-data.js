@@ -4713,7 +4713,7 @@
             body: [
               "Greek verbs are built from a stem plus an ending. The stem carries the basic meaning of the verb. The ending gives grammatical information. In this lesson, every verb in the reading is third person singular: it means “he,” “she,” or “it” does something.",
               "Many third person singular present active verbs in this lesson end in -ει: γράφει — he writes; διδάσκει — he teaches; βαδίζει — he walks; λέγει — he says; χαίρει — he rejoices.",
-              "Some verbs in this lesson have forms that look a little different: φιλεῖ — he loves; ζητεῖ — he seeks; ὁρᾷ — he sees; μειδιᾷ — he smiles. For now, learn these as complete verb forms. Later lessons will explain why some verbs change their vowel sounds and endings."
+              "Some verbs in this lesson have forms that look a little different: φιλεῖ — he loves; ζητεῖ — he seeks; ὁρᾷ — he sees; μειδιᾷ — he smiles. These are Contract verbs, and will be explained in a later lesson. For now, learn these as complete verb forms. Later lessons will explain why some verbs change their vowel sounds and endings."
             ],
             table: {
               headers: ["Verb Form", "Stem", "Ending", "Meaning"],
