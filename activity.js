@@ -48,6 +48,15 @@
       return "Activity unavailable";
     }
 
+    if (activityType === "topic-practice" && topic) {
+      const section = lesson.grammar?.sections?.find((item) => item.practiceTopic === topic || item.id === topic);
+      const topicTitle = section?.title?.replace(/^\d+\.\s*/, "");
+
+      if (topicTitle) {
+        return `Practice: ${topicTitle}`;
+      }
+    }
+
     return lesson.activities?.[activityType]?.title ||
       window.xenophonLessonData.activityLabels[activityType] ||
       "Lesson Activity";

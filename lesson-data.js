@@ -18,6 +18,34 @@
     { greek: "χαίρει", english: "he rejoices, is glad", stem: "χαιρ-", ending: "-ει" }
   ];
 
+  const LESSON_1_NOUNS = [
+    { base: "ἀλήθεια", nom: "ἡ ἀλήθεια", acc: "τὴν ἀλήθειαν", gender: "feminine", english: "truth" },
+    { base: "ἄνθρωπος", nom: "ὁ ἄνθρωπος", acc: "τὸν ἄνθρωπον", gender: "masculine", english: "human being, man" },
+    { base: "ἀρετή", nom: "ἡ ἀρετή", acc: "τὴν ἀρετήν", gender: "feminine", english: "virtue, excellence" },
+    { base: "βιβλίον", nom: "τὸ βιβλίον", acc: "τὸ βιβλίον", gender: "neuter", english: "book" },
+    { base: "μαθητής", nom: "ὁ μαθητής", acc: "τὸν μαθητήν", gender: "masculine", english: "student, learner" },
+    { base: "νεανίας", nom: "ὁ νεανίας", acc: "τὸν νεανίαν", gender: "masculine", english: "young man" },
+    { base: "σοφία", nom: "ἡ σοφία", acc: "τὴν σοφίαν", gender: "feminine", english: "wisdom" },
+    { base: "Σωκράτης", nom: "ὁ Σωκράτης", acc: "τὸν Σωκράτη", gender: "masculine", english: "Socrates" },
+    { base: "σῶμα", nom: "τὸ σῶμα", acc: "τὸ σῶμα", gender: "neuter", english: "body" },
+    { base: "ψυχή", nom: "ἡ ψυχή", acc: "τὴν ψυχήν", gender: "feminine", english: "soul" },
+    { base: "Ξενοφῶν", nom: "ὁ Ξενοφῶν", acc: "τὸν Ξενοφῶντα", gender: "masculine", english: "Xenophon" }
+  ];
+
+  const LESSON_1_ADJECTIVE_FORMS = {
+    masculine: "καλός",
+    feminine: "καλή",
+    neuter: "καλόν"
+  };
+
+  const LESSON_1_ARTICLES = [
+    { form: "ὁ", gender: "masculine", caseName: "nominative", number: "singular" },
+    { form: "ἡ", gender: "feminine", caseName: "nominative", number: "singular" },
+    { form: "τό", gender: "neuter", caseName: "nominative or accusative", number: "singular" },
+    { form: "τόν", gender: "masculine", caseName: "accusative", number: "singular" },
+    { form: "τήν", gender: "feminine", caseName: "accusative", number: "singular" }
+  ];
+
   function makeChoices(correctText, wrongTexts, explanation) {
     return [
       { text: correctText, correct: true, feedback: "Correct." },
@@ -101,6 +129,151 @@
       .map(makeVerbStemQuestion);
 
     return [...meaning, ...recognition, ...endings, ...stems].slice(0, 50);
+  }
+
+  function articleFor(noun, caseName) {
+    if (noun.gender === "neuter") {
+      return "τό";
+    }
+
+    if (noun.gender === "masculine") {
+      return caseName === "nominative" ? "ὁ" : "τόν";
+    }
+
+    return caseName === "nominative" ? "ἡ" : "τήν";
+  }
+
+  function makeNounGenderQuestion(noun, index) {
+    return {
+      id: `nouns-cases-gender-${index + 1}`,
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: `What gender is ${noun.nom}?`,
+      explanation: `${noun.nom} is ${noun.gender}; the article helps show the noun's gender.`,
+      choices: makeChoices(noun.gender, ["masculine", "feminine", "neuter"].filter((gender) => gender !== noun.gender), `${noun.nom} is ${noun.gender}.`)
+    };
+  }
+
+  function makeNounCaseQuestion(noun, caseName, index) {
+    const phrase = caseName === "nominative" ? noun.nom : noun.acc;
+
+    return {
+      id: `nouns-cases-${caseName}-${index + 1}`,
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: `What case is ${phrase}?`,
+      explanation: `${phrase} is ${caseName}; the article and ending help show its case.`,
+      choices: makeChoices(caseName, caseName === "nominative" ? ["accusative", "dative"] : ["nominative", "genitive"], `${phrase} is ${caseName}.`)
+    };
+  }
+
+  function makeNounRoleQuestion(noun, index) {
+    const isSubject = index % 2 === 0;
+    const phrase = isSubject ? noun.nom : noun.acc;
+    const sentence = isSubject ? `${phrase} χαίρει.` : `ὁ Σωκράτης διδάσκει ${phrase}.`;
+    const answer = isSubject ? "subject" : "direct object";
+
+    return {
+      id: `nouns-cases-role-${index + 1}`,
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: `In ${sentence}, what job does ${phrase} have?`,
+      explanation: isSubject
+        ? `${phrase} is nominative, so it is the subject.`
+        : `${phrase} is accusative, so it is the direct object.`,
+      choices: makeChoices(answer, answer === "subject" ? ["direct object", "article"] : ["subject", "verb"], `${phrase} is the ${answer}.`)
+    };
+  }
+
+  function makeAdjectiveAgreementQuestion(noun, index) {
+    const adjective = LESSON_1_ADJECTIVE_FORMS[noun.gender];
+
+    return {
+      id: `nouns-cases-agreement-${index + 1}`,
+      topic: "nouns-cases-agreement",
+      type: "multiple_choice",
+      prompt: `Choose the agreeing adjective: ${articleFor(noun, "nominative")} ______ ${noun.base}.`,
+      explanation: `The adjective must agree with ${noun.base}, which is ${noun.gender}.`,
+      choices: makeChoices(adjective, Object.values(LESSON_1_ADJECTIVE_FORMS).filter((form) => form !== adjective), `${noun.base} is ${noun.gender}, so the agreeing adjective is ${adjective}.`)
+    };
+  }
+
+  function makeLesson1NounMasteryQuestions() {
+    const gender = LESSON_1_NOUNS.map(makeNounGenderQuestion);
+    const nominative = LESSON_1_NOUNS.map((noun, index) => makeNounCaseQuestion(noun, "nominative", index));
+    const accusative = LESSON_1_NOUNS.map((noun, index) => makeNounCaseQuestion(noun, "accusative", index));
+    const roles = LESSON_1_NOUNS.map(makeNounRoleQuestion);
+    const agreement = LESSON_1_NOUNS.map(makeAdjectiveAgreementQuestion);
+
+    return [...gender, ...nominative, ...accusative, ...roles, ...agreement].slice(0, 50);
+  }
+
+  function makeArticleFillQuestion(noun, caseName, index) {
+    const form = articleFor(noun, caseName);
+    const nounForm = caseName === "nominative" ? noun.base : noun.acc.replace(/^(τὸν|τὴν|τὸ)\s+/, "");
+
+    return {
+      id: `article-fill-${caseName}-${index + 1}`,
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: `Choose the correct article: ____ ${nounForm}.`,
+      explanation: `${nounForm} is ${noun.gender} ${caseName} singular here, so the article is ${form}.`,
+      choices: makeChoices(form, LESSON_1_ARTICLES.map((article) => article.form).filter((article) => article !== form).slice(0, 2), `The correct article is ${form}.`)
+    };
+  }
+
+  function makeArticleParsingQuestion(article, index) {
+    const answer = `${article.gender} ${article.caseName} ${article.number}`;
+
+    return {
+      id: `article-parse-${index + 1}`,
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: `What does ${article.form} show?`,
+      explanation: `${article.form} shows ${answer}.`,
+      choices: makeChoices(answer, LESSON_1_ARTICLES.filter((item) => item.form !== article.form).slice(0, 2).map((item) => `${item.gender} ${item.caseName} ${item.number}`), `${article.form} shows ${answer}.`)
+    };
+  }
+
+  function makeArticleCaseQuestion(noun, caseName, index) {
+    const phrase = caseName === "nominative" ? noun.nom : noun.acc;
+
+    return {
+      id: `article-case-${caseName}-${index + 1}`,
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: `What case does the article show in ${phrase}?`,
+      explanation: `${phrase} uses the ${caseName} article.`,
+      choices: makeChoices(caseName, caseName === "nominative" ? ["accusative", "genitive"] : ["nominative", "dative"], `The article in ${phrase} is ${caseName}.`)
+    };
+  }
+
+  function makeArticlePhraseQuestion(noun, index) {
+    const useAccusative = index % 2 === 1;
+    const answer = useAccusative ? noun.acc : noun.nom;
+    const description = `${noun.gender} ${useAccusative ? "accusative" : "nominative"} singular`;
+    const wrongOne = useAccusative ? noun.nom : noun.acc;
+    const otherNoun = LESSON_1_NOUNS[(index + 3) % LESSON_1_NOUNS.length];
+
+    return {
+      id: `article-phrase-${index + 1}`,
+      topic: "definite-article",
+      type: "multiple_choice",
+      prompt: `Which phrase is ${description}?`,
+      explanation: `${answer} is ${description}.`,
+      choices: makeChoices(answer, [wrongOne, otherNoun.nom], `${answer} is the ${description} phrase.`)
+    };
+  }
+
+  function makeLesson1ArticleMasteryQuestions() {
+    const nominativeFill = LESSON_1_NOUNS.map((noun, index) => makeArticleFillQuestion(noun, "nominative", index));
+    const accusativeFill = LESSON_1_NOUNS.map((noun, index) => makeArticleFillQuestion(noun, "accusative", index));
+    const parsing = LESSON_1_ARTICLES.map(makeArticleParsingQuestion);
+    const nominativeCase = LESSON_1_NOUNS.map((noun, index) => makeArticleCaseQuestion(noun, "nominative", index));
+    const accusativeCase = LESSON_1_NOUNS.map((noun, index) => makeArticleCaseQuestion(noun, "accusative", index));
+    const phrases = LESSON_1_NOUNS.map(makeArticlePhraseQuestion);
+
+    return [...nominativeFill, ...accusativeFill, ...parsing, ...nominativeCase, ...accusativeCase, ...phrases].slice(0, 50);
   }
 
   const LESSONS = {
@@ -425,127 +598,8 @@
           title: "Practice This Topic",
           questions: [
             ...makeLesson1VerbMasteryQuestions(),
-            {
-              id: "nouns-cases-a-1",
-              topic: "nouns-cases-agreement",
-              type: "multiple_choice",
-              prompt: "In ὁ Σωκράτης διδάσκει, what case is ὁ Σωκράτης?",
-              choices: [
-                { text: "nominative", correct: true },
-                { text: "accusative", correct: false },
-                { text: "dative", correct: false }
-              ]
-            },
-            {
-              id: "nouns-cases-a-2",
-              topic: "nouns-cases-agreement",
-              type: "multiple_choice",
-              prompt: "In τὸν ἄνθρωπον διδάσκει, what case is τὸν ἄνθρωπον?",
-              choices: [
-                { text: "accusative", correct: true },
-                { text: "nominative", correct: false },
-                { text: "genitive", correct: false }
-              ]
-            },
-            {
-              id: "nouns-cases-b-1",
-              topic: "nouns-cases-agreement",
-              type: "multiple_choice",
-              prompt: "Match ἄνθρωπος to its gender.",
-              choices: [
-                { text: "masculine", correct: true },
-                { text: "feminine", correct: false },
-                { text: "neuter", correct: false }
-              ]
-            },
-            {
-              id: "nouns-cases-b-2",
-              topic: "nouns-cases-agreement",
-              type: "multiple_choice",
-              prompt: "Match σοφία to its gender.",
-              choices: [
-                { text: "feminine", correct: true },
-                { text: "masculine", correct: false },
-                { text: "neuter", correct: false }
-              ]
-            },
-            {
-              id: "nouns-cases-c-1",
-              topic: "nouns-cases-agreement",
-              type: "multiple_choice",
-              prompt: "Choose the correct agreement: ὁ ______ ἄνθρωπος.",
-              choices: [
-                { text: "καλός", correct: true },
-                { text: "καλή", correct: false },
-                { text: "καλόν", correct: false }
-              ]
-            },
-            {
-              id: "nouns-cases-c-2",
-              topic: "nouns-cases-agreement",
-              type: "multiple_choice",
-              prompt: "Choose the correct agreement: τὸ ______ σῶμα.",
-              choices: [
-                { text: "καλός", correct: false },
-                { text: "καλή", correct: false },
-                { text: "καλόν", correct: true }
-              ]
-            },
-            {
-              id: "article-a-1",
-              topic: "definite-article",
-              type: "multiple_choice",
-              prompt: "Choose the correct article: ____ Σωκράτης.",
-              choices: [
-                { text: "ὁ", correct: true },
-                { text: "ἡ", correct: false },
-                { text: "τό", correct: false }
-              ]
-            },
-            {
-              id: "article-a-2",
-              topic: "definite-article",
-              type: "multiple_choice",
-              prompt: "Choose the correct article: ____ σοφία.",
-              choices: [
-                { text: "ὁ", correct: false },
-                { text: "ἡ", correct: true },
-                { text: "τό", correct: false }
-              ]
-            },
-            {
-              id: "article-a-3",
-              topic: "definite-article",
-              type: "multiple_choice",
-              prompt: "Choose the correct article: ____ ἄνθρωπον.",
-              choices: [
-                { text: "τόν", correct: true },
-                { text: "τήν", correct: false },
-                { text: "τό", correct: false }
-              ]
-            },
-            {
-              id: "article-b-1",
-              topic: "definite-article",
-              type: "multiple_choice",
-              prompt: "What does ἡ show?",
-              choices: [
-                { text: "feminine nominative singular", correct: true },
-                { text: "masculine accusative singular", correct: false },
-                { text: "neuter plural", correct: false }
-              ]
-            },
-            {
-              id: "article-b-2",
-              topic: "definite-article",
-              type: "multiple_choice",
-              prompt: "What does τήν show?",
-              choices: [
-                { text: "feminine accusative singular", correct: true },
-                { text: "masculine nominative singular", correct: false },
-                { text: "neuter nominative or accusative singular", correct: false }
-              ]
-            }
+            ...makeLesson1NounMasteryQuestions(),
+            ...makeLesson1ArticleMasteryQuestions()
           ]
         },
         "grammar-exercises": {
