@@ -3023,7 +3023,7 @@
     }
 
     .topic-practice-actions {
-      justify-content: flex-end;
+      justify-content: flex-start;
     }
 
     .activity-result {

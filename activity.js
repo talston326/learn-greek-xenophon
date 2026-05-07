@@ -311,8 +311,8 @@
           `).join("")}
         </div>
         <div class="activity-submit-row topic-practice-actions">
-          <a class="secondary-button" href="${escapeHtml(returnTo)}">Quit</a>
           <button class="primary-button" type="button" data-topic-continue disabled>Continue</button>
+          <a class="secondary-button" href="${escapeHtml(returnTo)}">Quit</a>
         </div>
       </section>
     `);
@@ -386,6 +386,10 @@
 
       topicPracticeOffset = nextOffset;
       renderTopicPractice();
+      shell.querySelector("[data-topic-question]")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
     });
 
     updateTopicContinueState();
