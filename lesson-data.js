@@ -168,24 +168,30 @@
             id: "verb-forms",
             title: "1. Verb Forms: Stems and Endings",
             body: [
-              "Greek verbs are built from a stem plus an ending. The stem carries the basic meaning of the verb. The ending gives grammatical information, such as person and number.",
-              "In this first lesson, several present active indicative verbs are third person singular. This means the verb describes what “he,” “she,” or “it” does now or generally does.",
-              "Many third person singular present active verbs end in -ει. Contract verbs may appear with endings such as -ᾷ or -εῖ."
+              "Greek verbs are built from a stem plus an ending. The stem carries the basic meaning of the verb. The ending gives grammatical information. In this lesson, every verb in the reading is third person singular: it means “he,” “she,” or “it” does something.",
+              "Many third person singular present active verbs in this lesson end in -ει: γράφει — he writes; διδάσκει — he teaches; βαδίζει — he walks; λέγει — he says; χαίρει — he rejoices.",
+              "Some verbs in this lesson have forms that look a little different: φιλεῖ — he loves; ζητεῖ — he seeks; ὁρᾷ — he sees; μειδιᾷ — he smiles. For now, learn these as complete verb forms. Later lessons will explain why some verbs change their vowel sounds and endings."
             ],
-            examples: [
-              { greek: "διδάσκει", english: "he teaches" },
-              { greek: "γράφει", english: "he writes" },
-              { greek: "βαδίζει", english: "he walks" },
-              { greek: "λέγει", english: "he says" },
-              { greek: "ζητεῖ", english: "he seeks" },
-              { greek: "φιλεῖ", english: "he loves" },
-              { greek: "χαίρει", english: "he rejoices" },
-              { greek: "γράφ-ει", english: "he writes" },
-              { greek: "διδάσκ-ει", english: "he teaches" },
-              { greek: "ζητ-εῖ", english: "he seeks" },
-              { greek: "ὁρ-ᾷ", english: "he sees" },
-              { greek: "μειδι-ᾷ", english: "he smiles" }
-            ],
+            table: {
+              headers: ["Verb Form", "Stem", "Ending", "Meaning"],
+              greekColumns: [0, 1, 2],
+              rows: [
+                ["γράφει", "γραφ-", "-ει", "he writes"],
+                ["διδάσκει", "διδασκ-", "-ει", "he teaches"],
+                ["βαδίζει", "βαδιζ-", "-ει", "he walks"],
+                ["λέγει", "λεγ-", "-ει", "he says"],
+                ["χαίρει", "χαιρ-", "-ει", "he rejoices"]
+              ]
+            },
+            formList: {
+              title: "Learn as whole forms for now",
+              items: [
+                { greek: "φιλεῖ", english: "he loves" },
+                { greek: "ζητεῖ", english: "he seeks" },
+                { greek: "ὁρᾷ", english: "he sees" },
+                { greek: "μειδιᾷ", english: "he smiles" }
+              ]
+            },
             exercises: [
               "Practice A asks you to identify the verb in a short sentence.",
               "Practice B matches Greek verbs to English meanings.",

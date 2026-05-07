@@ -2673,6 +2673,39 @@
       font-size: 1.2rem;
     }
 
+    .grammar-form-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 12px;
+      background: rgba(250,246,240,.72);
+    }
+
+    .grammar-form-list h4 {
+      margin: 0;
+      color: var(--usc-garnet);
+      font-size: 1rem;
+    }
+
+    .grammar-form-list ul {
+      list-style: none;
+      display: grid;
+      gap: 5px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .grammar-form-list li {
+      color: #443b35;
+      line-height: 1.35;
+    }
+
+    .grammar-form-list .greek-text {
+      font-size: 1.08em;
+    }
+
     .grammar-exercise-summary {
       display: grid;
       gap: 8px;

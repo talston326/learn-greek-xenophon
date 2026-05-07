@@ -227,6 +227,62 @@
     `;
   }
 
+  function renderGrammarTable(section) {
+    if (!section.table) {
+      return "";
+    }
+
+    const greekColumns = Array.isArray(section.table.greekColumns)
+      ? new Set(section.table.greekColumns)
+      : null;
+
+    return `
+      <div class="grammar-table-wrap">
+        <table class="grammar-table">
+          <thead>
+            <tr>
+              ${section.table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
+            </tr>
+          </thead>
+          <tbody>
+            ${section.table.rows.map((row) => `
+              <tr>
+                ${row.map((cell, index) => {
+                  const tag = index === 0 ? "th" : "td";
+                  const isGreekCell = greekColumns ? greekColumns.has(index) : index > 0;
+                  const greekAttrs = isGreekCell ? 'class="greek-text" lang="grc"' : "";
+                  const scopeAttr = index === 0 ? 'scope="row"' : "";
+                  return `<${tag} ${[scopeAttr, greekAttrs].filter(Boolean).join(" ")}>${escapeHtml(cell)}</${tag}>`;
+                }).join("")}
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderGrammarFormList(section) {
+    if (!section.formList?.items?.length) {
+      return "";
+    }
+
+    return `
+      <div class="grammar-form-list">
+        <h4>${escapeHtml(section.formList.title || "Forms to learn")}</h4>
+        <ul>
+          ${section.formList.items.map((item) => `
+            <li>
+              <strong class="greek-text" lang="grc">${escapeHtml(item.greek)}</strong>
+              <span aria-hidden="true">—</span>
+              <span>${escapeHtml(item.english)}</span>
+            </li>
+          `).join("")}
+        </ul>
+      </div>
+    `;
+  }
+
   function renderVocabularyPage() {
     return `
       ${renderSampleNotice()}
@@ -293,6 +349,8 @@
               ${section.practiceTopic ? `<a class="secondary-button" href="${activityUrl("topic-practice", 2, section.practiceTopic)}">Practice This Topic</a>` : ""}
             </div>
             ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+            ${renderGrammarTable(section)}
+            ${renderGrammarFormList(section)}
             ${section.examples?.length ? `
               <div class="grammar-examples">
                 ${section.examples.map((example) => `
@@ -301,24 +359,6 @@
                     <p class="grammar-example__english">${escapeHtml(example.english)}</p>
                   </article>
                 `).join("")}
-              </div>
-            ` : ""}
-            ${section.table ? `
-              <div class="grammar-table-wrap">
-                <table class="grammar-table">
-                  <thead>
-                    <tr>
-                      ${section.table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    ${section.table.rows.map((row) => `
-                      <tr>
-                        ${row.map((cell, index) => `<${index === 0 ? "th" : "td"} ${index === 0 ? 'scope="row"' : 'class="greek-text" lang="grc"'}>${escapeHtml(cell)}</${index === 0 ? "th" : "td"}>`).join("")}
-                      </tr>
-                    `).join("")}
-                  </tbody>
-                </table>
               </div>
             ` : ""}
             ${section.exercises?.length ? `
