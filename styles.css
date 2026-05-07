@@ -2293,23 +2293,29 @@
 
     .vocab-document {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      column-gap: clamp(20px, 4vw, 42px);
-      row-gap: 14px;
-      margin-top: 12px;
+      gap: 10px;
+      margin-top: 8px;
+      padding: 14px 16px;
+      border-block: 1px solid rgba(115,0,10,.16);
+      background: rgba(255,252,245,.72);
     }
 
     .vocab-group {
       display: grid;
-      gap: 5px;
+      gap: 4px;
       align-content: start;
+    }
+
+    .vocab-group + .vocab-group {
+      padding-top: 8px;
+      border-top: 1px solid rgba(115,0,10,.1);
     }
 
     .vocab-group h3 {
       margin: 0;
       color: var(--usc-garnet);
-      font-size: 1.06rem;
-      line-height: 1.2;
+      font-size: .98rem;
+      line-height: 1.15;
     }
 
     .vocab-group ul {
@@ -2317,28 +2323,34 @@
       padding: 0;
       margin: 0;
       display: grid;
-      gap: 4px;
+      grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+      column-gap: 16px;
+      row-gap: 3px;
     }
 
     .vocab-group li {
-      display: grid;
-      grid-template-columns: minmax(138px, .38fr) minmax(0, 1fr);
-      gap: 10px;
+      display: inline;
       align-items: baseline;
       color: #443b35;
-      font-size: 1.08rem;
-      line-height: 1.36;
+      font-size: 1rem;
+      line-height: 1.28;
     }
 
     .vocab-group li .greek-text {
-      font-size: 1.13em;
+      font-size: 1.08em;
+      font-weight: 700;
     }
 
     .vocab-entry__term {
       display: inline-flex;
       align-items: baseline;
-      gap: 8px;
+      gap: 6px;
       min-width: 0;
+    }
+
+    .vocab-entry__dash {
+      color: #7f7167;
+      padding-inline: 4px;
     }
 
     .vocab-entry__gloss {

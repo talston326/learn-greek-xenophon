@@ -110,9 +110,10 @@
                 ${group.items.map((item) => `
                   <li>
                     <span class="vocab-entry__term">
-                      <span class="greek-text" lang="grc">${escapeHtml(item.greek)}</span>
+                      <strong class="greek-text" lang="grc">${escapeHtml(item.greek)}</strong>
                       ${item.audioUrl ? `<button class="vocab-audio-button" type="button" data-vocab-audio="${escapeHtml(item.audioUrl)}" aria-label="Hear ${escapeHtml(item.greek)}">Play audio</button>` : ""}
                     </span>
+                    <span class="vocab-entry__dash" aria-hidden="true">—</span>
                     <span class="vocab-entry__gloss">${escapeHtml(item.english)}</span>
                   </li>
                 `).join("")}

@@ -181,6 +181,16 @@ Reusable vocabulary entries.
 | created_at | timestamptz | Required |
 | updated_at | timestamptz | Required |
 
+For verbs, keep principal parts inside `morphology` at first rather than adding many verb-specific columns. Example:
+
+```json
+{
+  "principal_parts": ["λύω", "λύσω", "ἔλυσα", "λέλυκα", "λέλυμαι", "ἐλύθην"],
+  "verb_class": "omega",
+  "notes": "regular contract patterns not yet modeled"
+}
+```
+
 ### lesson_vocabulary
 
 Many-to-many link between lessons and vocabulary.
@@ -193,9 +203,85 @@ Many-to-many link between lessons and vocabulary.
 
 Primary key: lesson_id, vocabulary_item_id.
 
+### Proposed: vocabulary_forms
+
+Stores individual inflected forms connected back to reusable dictionary entries in `vocabulary_items`.
+
+This keeps `vocabulary_items` as the master lemma table and `lesson_vocabulary` as the lesson assignment table, while adding a practical place for forms students actually encounter or are taught. Do not attempt to generate every possible Ancient Greek form automatically yet.
+
+Example lookup path:
+
+```text
+λόγον -> vocabulary_forms -> vocabulary_items -> λόγος
+λύει -> vocabulary_forms -> vocabulary_items -> λύω -> principal parts / conjugation notes
+```
+
+| Column | Type | Notes |
+| --- | --- | --- |
+| id | uuid | Primary key |
+| vocabulary_item_id | uuid | Foreign key to vocabulary_items.id |
+| form | text | Required inflected form, for example λόγον or λύει |
+| parsing | text | Human-readable parsing, for example accusative singular masculine or 3rd person singular present active indicative |
+| grammatical_case | text | Nullable; Greek case value, useful for nouns, adjectives, pronouns, participles |
+| grammatical_number | text | Nullable; singular, dual, plural |
+| grammatical_gender | text | Nullable; masculine, feminine, neuter |
+| tense | text | Nullable; useful for verbs and participles |
+| voice | text | Nullable |
+| mood | text | Nullable |
+| person | integer | Nullable; 1, 2, or 3 |
+| degree | text | Nullable; positive, comparative, superlative |
+| morphology | jsonb | Optional structured details not covered by the common columns |
+| sort_order | integer | Nullable course-facing display order |
+| notes | text | Nullable instructor or dictionary notes |
+| created_at | timestamptz | Required |
+| updated_at | timestamptz | Required |
+
+Potential examples:
+
+```text
+vocabulary_items
+- lemma: λόγος
+- display_form: λόγος
+- gloss: word, speech, account, reason
+- part_of_speech: noun
+- morphology: { "gender": "masculine", "declension": "second" }
+
+vocabulary_forms
+- vocabulary_item_id: points back to λόγος
+- form: λόγον
+- parsing: accusative singular masculine
+- grammatical_case: accusative
+- grammatical_number: singular
+- grammatical_gender: masculine
+
+vocabulary_items
+- lemma: λύω
+- display_form: λύω
+- gloss: loosen, release
+- part_of_speech: verb
+- morphology: { "principal_parts": ["λύω", "λύσω", "ἔλυσα", "λέλυκα", "λέλυμαι", "ἐλύθην"], "verb_class": "omega" }
+
+vocabulary_forms
+- vocabulary_item_id: points back to λύω
+- form: λύει
+- parsing: 3rd person singular present active indicative
+- tense: present
+- voice: active
+- mood: indicative
+- person: 3
+- grammatical_number: singular
+```
+
+This table should support:
+
+- Dictionary lookup from an encountered form back to its lemma.
+- Parsing drills and morphology exercises using forms that have appeared in the course.
+- Noun, adjective, pronoun, participle, and verb forms without forcing every part of speech into a separate table immediately.
+- Future flashcard generation from `vocabulary_items`, `lesson_vocabulary`, and selected `vocabulary_forms`.
+
 ### Flashcards
 
-Do not create a separate flashcards table for static card content yet. Flashcard content should be generated from `vocabulary_items` linked to lessons through `lesson_vocabulary`. A separate flashcards table should only be considered later if the app needs custom student-created cards.
+Do not create a separate flashcards table for static card content yet. Flashcard content should be generated from `vocabulary_items` linked to lessons through `lesson_vocabulary`, and later may include selected forms from the proposed `vocabulary_forms` table. A separate flashcards table should only be considered later if the app needs custom student-created cards.
 
 Flashcards should be accessible in two places:
 
@@ -436,6 +522,9 @@ Most professor dashboard cards can be computed from the tables above, but a few 
 - lesson_segments(lesson_id, sort_order).
 - lesson_vocabulary(lesson_id, sort_order).
 - lesson_vocabulary(vocabulary_item_id).
+- vocabulary_forms(vocabulary_item_id, sort_order).
+- vocabulary_forms(form).
+- vocabulary_forms(form, vocabulary_item_id) unique or partial unique index after duplicate-form rules are defined.
 - exercises(lesson_id, sort_order).
 - lesson_progress(user_id, status).
 - lesson_progress(lesson_id, status).
@@ -456,9 +545,23 @@ Seed data should eventually include:
 - Modules: Introduction plus Modules I through IV.
 - Lessons: intro-1 through intro-3 and lesson-1 through lesson-48.
 - Vocabulary items and lesson_vocabulary links; generated flashcards and Quizlet-compatible exports should come from these rows rather than a static flashcards table.
+- Proposed vocabulary_forms rows for inflected forms actually introduced or encountered in lessons, linked back to vocabulary_items.
 - Exercise slugs already used by the app, including orientation, letter-match, breathing, diphthong, combo, phonetics, noun-endings, agreement, translation, reading, practice, and quiz.
 - Level labels currently displayed in the prototype, including Novice, Apprentice, Erudite, and Sophos.
 - Achievements currently displayed in the prototype, including First Steps, Word Collector, Grammar Novice, Diligent Learner, and Sophos.
+
+## Future Migration Summary
+
+No migration has been created yet. A future migration for the vocabulary morphology expansion would likely:
+
+- Create `public.vocabulary_forms` with a foreign key to `public.vocabulary_items(id)` and `ON DELETE CASCADE`.
+- Add common parsing columns for nominal and verbal forms: `grammatical_case`, `grammatical_number`, `grammatical_gender`, `tense`, `voice`, `mood`, `person`, and `degree`.
+- Include `parsing` for human-readable display and `morphology jsonb` for structured details that do not deserve dedicated columns yet.
+- Add `sort_order`, `notes`, `created_at`, and `updated_at`.
+- Add indexes for lookup by `vocabulary_item_id`, by `form`, and possibly by `(form, vocabulary_item_id)` after deciding how to handle duplicate surface forms.
+- Leave principal parts in `vocabulary_items.morphology` initially.
+- Leave `lesson_vocabulary` unchanged as the lesson assignment table.
+- Leave `flashcard_reviews` as student history only; static cards should still be generated from course vocabulary data.
 
 ## Open Questions
 
@@ -467,3 +570,4 @@ Seed data should eventually include:
 - Whether lesson content should live fully in Postgres, in Markdown files with database metadata, or in a hybrid model.
 - Whether professor gradebook data should be computed entirely from attempts or stored as snapshot rows for exports.
 - Whether student-visible progress should unlock strictly by quiz pass, lesson completion, professor release rules, or a mix.
+- Whether `vocabulary_forms` should eventually connect directly to lessons, or whether lesson-specific form exposure can be inferred from exercises, readings, and lesson content blocks.
