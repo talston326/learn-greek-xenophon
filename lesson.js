@@ -1,28 +1,67 @@
 (function () {
   const shell = document.querySelector("[data-lesson-template]");
   const params = new URLSearchParams(window.location.search);
-  const lesson = window.xenophonLessonData?.getLesson(params.get("lesson") || "1");
-  const maxPage = lesson?.pages?.length || 1;
-  const requestedPage = Math.max(1, Math.min(maxPage, Number(params.get("page") || "1")));
-  const page = lesson?.pages.find((item) => item.page === requestedPage) || lesson?.pages[0];
+  const requestedLesson = params.get("lesson") || "1";
+  const lessonSlug = window.xenophonLessonData?.normalizeLessonParam?.(requestedLesson) || normalizeLessonParam(requestedLesson);
+  let lesson = window.xenophonLessonData?.getLesson(requestedLesson);
+  let page = null;
+  let originalLessonForCancel = null;
+  let editStatus = "";
+  let isEditMode = false;
 
   if (!shell) {
     return;
   }
 
-  if (!lesson || !page) {
-    shell.innerHTML = `
-      <section class="lesson-section">
-        <p class="eyebrow">Lesson unavailable</p>
-        <h2>That lesson template is not ready yet.</h2>
-        <p class="muted">Return to the lessons list and choose an available lesson.</p>
-        <a class="secondary-button" href="lessons.html">All Lessons</a>
-      </section>
-    `;
-    return;
+  setActiveLesson(lesson);
+
+  function normalizeLessonParam(value) {
+    const raw = String(value || "1").trim().toLowerCase();
+    if (/^\d+$/.test(raw)) {
+      return `lesson-${raw}`;
+    }
+    return raw;
   }
 
-  document.title = `${lesson.title} - Learn Greek with Xenophon`;
+  function setActiveLesson(nextLesson) {
+    lesson = nextLesson || null;
+    const maxPage = lesson?.pages?.length || 1;
+    const requestedPage = Math.max(1, Math.min(maxPage, Number(params.get("page") || "1")));
+    page = lesson?.pages?.find((item) => item.page === requestedPage) || lesson?.pages?.[0] || null;
+
+    if (lesson?.title) {
+      document.title = `${lesson.title} - Learn Greek with Xenophon`;
+    }
+  }
+
+  function deepCopy(value) {
+    return JSON.parse(JSON.stringify(value));
+  }
+
+  function readSession() {
+    return window.xenophonAuth?.readSession?.() || null;
+  }
+
+  function isAdministrator() {
+    return Boolean(readSession()?.roles?.includes("administrator"));
+  }
+
+  async function loadLessonContentOverride() {
+    try {
+      const response = await fetch(`/api/lesson-content?slug=${encodeURIComponent(lessonSlug)}`);
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(data.error || "Lesson content override could not be loaded.");
+      }
+
+      if (data.hasOverride && data.content) {
+        setActiveLesson(data.content);
+      }
+    } catch (error) {
+      console.warn("Using static lesson-data.js fallback for lesson content.", error);
+    }
+  }
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -54,13 +93,15 @@
   }
 
   function renderHero() {
+    const bannerText = lesson.banner.text || lesson.greekTitle || lesson.banner.caption;
+
     return `
       <header class="lesson-hero">
         <img src="${escapeHtml(lesson.banner.image)}" alt="${escapeHtml(lesson.banner.alt)}">
         <div class="lesson-hero__overlay">
           <p class="lesson-hero__kicker">Lesson ${lesson.number}</p>
           <h1 class="lesson-hero__title">${escapeHtml(lesson.title)}</h1>
-          <p class="lesson-hero__caption greek-text" lang="grc">${escapeHtml(lesson.greekTitle || lesson.banner.caption)}</p>
+          <p class="lesson-hero__caption greek-text" lang="grc">${escapeHtml(bannerText)}</p>
         </div>
       </header>
     `;
@@ -437,6 +478,553 @@
     return Boolean(window.xenophonOpenLessonAccess);
   }
 
+  function renderAdminToolbar() {
+    if (!isAdministrator() || lesson?.id !== "lesson-1") {
+      return "";
+    }
+
+    return `
+      <section class="lesson-admin-toolbar" aria-label="Lesson administrator tools">
+        <div>
+          <p class="eyebrow">Administrator</p>
+          <h2>Lesson 1 Content Editor</h2>
+          ${editStatus ? `<p class="lesson-admin-status">${escapeHtml(editStatus)}</p>` : ""}
+        </div>
+        <div class="lesson-button-row">
+          ${isEditMode ? `
+            <button class="secondary-button" type="button" data-lesson-editor-action="cancel">Cancel</button>
+            <button class="primary-button" type="button" data-lesson-editor-action="save">Save</button>
+          ` : `
+            <button class="primary-button" type="button" data-lesson-editor-action="edit">Edit</button>
+          `}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderInput(label, name, value = "") {
+    return `
+      <label class="lesson-editor-field">
+        <span>${escapeHtml(label)}</span>
+        <input type="text" value="${escapeHtml(value)}" data-editor-field="${escapeHtml(name)}">
+      </label>
+    `;
+  }
+
+  function renderTextarea(label, name, value = "", rows = 5) {
+    return `
+      <label class="lesson-editor-field">
+        <span>${escapeHtml(label)}</span>
+        <textarea rows="${rows}" data-editor-field="${escapeHtml(name)}">${escapeHtml(value)}</textarea>
+      </label>
+    `;
+  }
+
+  function renderRemoveButton(label = "Remove") {
+    return `<button class="secondary-button lesson-editor-remove" type="button" data-lesson-editor-action="remove-row">${escapeHtml(label)}</button>`;
+  }
+
+  function joinParagraphs(value) {
+    return Array.isArray(value) ? value.join("\n\n") : "";
+  }
+
+  function joinLines(value) {
+    return Array.isArray(value) ? value.join("\n") : "";
+  }
+
+  function splitParagraphs(value) {
+    return String(value || "")
+      .split(/\n\s*\n/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  function splitLines(value) {
+    return String(value || "")
+      .split("\n")
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  function fieldValue(name, root = shell) {
+    return root.querySelector(`[data-editor-field="${name}"]`)?.value || "";
+  }
+
+  function renderVocabularyEditor() {
+    return `
+      <section class="lesson-editor-card" aria-labelledby="lesson-editor-vocabulary">
+        <div class="lesson-section__header">
+          <h3 id="lesson-editor-vocabulary">Vocabulary</h3>
+          <button class="secondary-button" type="button" data-lesson-editor-action="add-vocab-group">Add Group</button>
+        </div>
+        <div class="lesson-editor-list">
+          ${(lesson.vocabulary || []).map((group) => `
+            <section class="lesson-editor-group" data-editor-row="vocab-group">
+              <div class="lesson-section__header">
+                ${renderInput("Category", "vocab-category", group.category || "")}
+                ${renderRemoveButton("Remove Group")}
+              </div>
+              <div class="lesson-editor-table">
+                ${(group.items || []).map((item) => `
+                  <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="vocab-item">
+                    ${renderInput("Greek", "vocab-greek", item.greek || "")}
+                    ${renderInput("Gloss", "vocab-english", item.english || "")}
+                    ${renderRemoveButton("Remove")}
+                  </div>
+                `).join("")}
+              </div>
+              <button class="secondary-button" type="button" data-lesson-editor-action="add-vocab-item">Add Vocabulary Row</button>
+            </section>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderReadingEditor() {
+    return `
+      <section class="lesson-editor-card" aria-labelledby="lesson-editor-reading">
+        <div class="lesson-section__header">
+          <h3 id="lesson-editor-reading">Greek Text and Glosses</h3>
+          <button class="secondary-button" type="button" data-lesson-editor-action="add-reading-paragraph">Add Paragraph</button>
+        </div>
+        ${renderInput("Reading title", "reading-title", lesson.reading?.title || "")}
+        ${renderTextarea("Guided translation", "reading-translation", lesson.reading?.translation || "", 4)}
+        <div class="lesson-editor-list">
+          ${(lesson.reading?.paragraphs || []).map((paragraph, index) => `
+            <section class="lesson-editor-group" data-editor-row="reading-paragraph">
+              <div class="lesson-section__header">
+                <h4>Paragraph ${index + 1}</h4>
+                ${renderRemoveButton("Remove Paragraph")}
+              </div>
+              ${renderTextarea("Greek paragraph", "reading-greek", paragraph.greek || "", 7)}
+              <div class="lesson-section__header">
+                <h4>Glosses</h4>
+                <button class="secondary-button" type="button" data-lesson-editor-action="add-reading-gloss">Add Gloss</button>
+              </div>
+              <div class="lesson-editor-table">
+                ${(paragraph.gloss || []).map((entry) => `
+                  <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="reading-gloss">
+                    ${renderInput("Greek", "gloss-greek", entry.greek || "")}
+                    ${renderInput("Gloss", "gloss-english", entry.english || "")}
+                    ${renderRemoveButton("Remove")}
+                  </div>
+                `).join("")}
+              </div>
+            </section>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderPageOneEditor() {
+    const bannerText = lesson.banner?.text || lesson.greekTitle || lesson.banner?.caption || "";
+
+    return `
+      <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
+        <h2 id="lesson-editor-heading">Edit Page 1</h2>
+        <section class="lesson-editor-card">
+          <h3>Banner</h3>
+          ${renderInput("Banner image", "banner-image", lesson.banner?.image || "")}
+          ${renderTextarea("Banner text", "banner-text", bannerText, 3)}
+        </section>
+        ${renderVocabularyEditor()}
+        ${renderReadingEditor()}
+      </section>
+    `;
+  }
+
+  function renderWordStudyEditor() {
+    return `
+      <section class="lesson-editor-card" aria-labelledby="lesson-editor-word-study">
+        <div class="lesson-section__header">
+          <h3 id="lesson-editor-word-study">Word Study</h3>
+          <button class="secondary-button" type="button" data-lesson-editor-action="add-word-block">Add Block</button>
+        </div>
+        ${renderInput("Label", "word-label", lesson.wordStudy?.label || "")}
+        <div class="lesson-editor-list">
+          ${(lesson.wordStudy?.blocks || []).map((block) => `
+            <section class="lesson-editor-group" data-editor-row="word-block">
+              <div class="lesson-section__header">
+                ${renderInput("Block title", "word-title", block.title || "")}
+                ${renderRemoveButton("Remove Block")}
+              </div>
+              ${renderTextarea("Body paragraphs", "word-body", joinParagraphs(block.body), 5)}
+              <div class="lesson-section__header">
+                <h4>Display rows</h4>
+                <button class="secondary-button" type="button" data-lesson-editor-action="add-word-display">Add Display Row</button>
+              </div>
+              <div class="lesson-editor-table">
+                ${(block.display || []).map((entry) => `
+                  <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="word-display">
+                    ${renderInput("Greek", "word-display-greek", entry.greek || "")}
+                    ${renderInput("Gloss", "word-display-english", entry.english || "")}
+                    ${renderRemoveButton("Remove")}
+                  </div>
+                `).join("")}
+              </div>
+              ${renderTextarea("English connections, one per line", "word-connections", joinLines(block.connections), 4)}
+            </section>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderGrammarEditor() {
+    return `
+      <section class="lesson-editor-card" aria-labelledby="lesson-editor-grammar">
+        <div class="lesson-section__header">
+          <h3 id="lesson-editor-grammar">Grammar</h3>
+          <button class="secondary-button" type="button" data-lesson-editor-action="add-grammar-section">Add Section</button>
+        </div>
+        ${renderTextarea("Grammar intro", "grammar-intro", lesson.grammar?.intro || "", 4)}
+        <div class="lesson-editor-list">
+          ${(lesson.grammar?.sections || []).map((section) => `
+            <section class="lesson-editor-group" data-editor-row="grammar-section">
+              <div class="lesson-section__header">
+                ${renderInput("Section title", "grammar-title", section.title || "")}
+                ${renderRemoveButton("Remove Section")}
+              </div>
+              <div class="lesson-editor-row lesson-editor-row--two">
+                ${renderInput("Stable id", "grammar-id", section.id || "")}
+                ${renderInput("Practice topic", "grammar-practice-topic", section.practiceTopic || "")}
+              </div>
+              ${renderTextarea("Body paragraphs", "grammar-body", joinParagraphs(section.body), 6)}
+              ${renderTextarea("Table JSON", "grammar-table", section.table ? JSON.stringify(section.table, null, 2) : "", 6)}
+              ${renderTextarea("Form list JSON", "grammar-form-list", section.formList ? JSON.stringify(section.formList, null, 2) : "", 5)}
+              <div class="lesson-section__header">
+                <h4>Examples</h4>
+                <button class="secondary-button" type="button" data-lesson-editor-action="add-grammar-example">Add Example</button>
+              </div>
+              <div class="lesson-editor-table">
+                ${(section.examples || []).map((example) => `
+                  <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="grammar-example">
+                    ${renderTextarea("Greek", "grammar-example-greek", example.greek || "", 3)}
+                    ${renderTextarea("English", "grammar-example-english", example.english || "", 3)}
+                    ${renderRemoveButton("Remove")}
+                  </div>
+                `).join("")}
+              </div>
+            </section>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderPageTwoEditor() {
+    return `
+      <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
+        <h2 id="lesson-editor-heading">Edit Page 2</h2>
+        ${renderWordStudyEditor()}
+        ${renderGrammarEditor()}
+      </section>
+    `;
+  }
+
+  function renderPageThreeEditor() {
+    return `
+      <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
+        <h2 id="lesson-editor-heading">Edit Page 3</h2>
+        <section class="lesson-editor-card" aria-labelledby="lesson-editor-culture">
+          <div class="lesson-section__header">
+            <h3 id="lesson-editor-culture">Greek World / Context</h3>
+            <button class="secondary-button" type="button" data-lesson-editor-action="add-culture-question">Add Question</button>
+          </div>
+          ${renderInput("Culture title", "culture-title", lesson.culture?.title || "")}
+          ${renderTextarea("Body paragraphs", "culture-body", joinParagraphs(lesson.culture?.body), 8)}
+          <div class="lesson-editor-table">
+            ${(lesson.culture?.questions || []).map((question) => `
+              <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="culture-question">
+                ${renderTextarea("Prompt", "culture-prompt", question.prompt || "", 3)}
+                ${renderTextarea("Answer", "culture-answer", question.answer || "", 3)}
+                ${renderRemoveButton("Remove")}
+              </div>
+            `).join("")}
+          </div>
+        </section>
+      </section>
+    `;
+  }
+
+  function renderEditor() {
+    if (page?.template === "reading") {
+      return renderPageOneEditor();
+    }
+
+    if (page?.template === "grammar") {
+      return renderPageTwoEditor();
+    }
+
+    if (page?.template === "culture") {
+      return renderPageThreeEditor();
+    }
+
+    return `
+      <section class="lesson-section lesson-editor">
+        <h2>Editing is not enabled for this page yet.</h2>
+      </section>
+    `;
+  }
+
+  function parseJsonField(name, root, fallback) {
+    const raw = fieldValue(name, root).trim();
+
+    if (!raw) {
+      return fallback;
+    }
+
+    try {
+      return JSON.parse(raw);
+    } catch (error) {
+      throw new Error(`${name} must contain valid JSON.`);
+    }
+  }
+
+  function readEditedLessonFromForm() {
+    const draft = deepCopy(lesson);
+
+    if (page?.template === "reading") {
+      draft.banner ||= {};
+      draft.banner.image = fieldValue("banner-image");
+      draft.banner.text = fieldValue("banner-text");
+      draft.banner.caption = fieldValue("banner-text");
+      draft.vocabulary = Array.from(shell.querySelectorAll('[data-editor-row="vocab-group"]')).map((group) => ({
+        category: fieldValue("vocab-category", group),
+        items: Array.from(group.querySelectorAll('[data-editor-row="vocab-item"]')).map((item) => ({
+          greek: fieldValue("vocab-greek", item),
+          english: fieldValue("vocab-english", item),
+        })),
+      }));
+      draft.reading ||= {};
+      draft.reading.title = fieldValue("reading-title");
+      draft.reading.translation = fieldValue("reading-translation");
+      draft.reading.paragraphs = Array.from(shell.querySelectorAll('[data-editor-row="reading-paragraph"]')).map((paragraph) => ({
+        greek: fieldValue("reading-greek", paragraph),
+        gloss: Array.from(paragraph.querySelectorAll('[data-editor-row="reading-gloss"]')).map((entry) => ({
+          greek: fieldValue("gloss-greek", entry),
+          english: fieldValue("gloss-english", entry),
+        })),
+      }));
+    }
+
+    if (page?.template === "grammar") {
+      draft.wordStudy ||= {};
+      draft.wordStudy.label = fieldValue("word-label");
+      draft.wordStudy.blocks = Array.from(shell.querySelectorAll('[data-editor-row="word-block"]')).map((block) => ({
+        title: fieldValue("word-title", block),
+        body: splitParagraphs(fieldValue("word-body", block)),
+        display: Array.from(block.querySelectorAll('[data-editor-row="word-display"]')).map((entry) => ({
+          greek: fieldValue("word-display-greek", entry),
+          english: fieldValue("word-display-english", entry),
+        })),
+        connections: splitLines(fieldValue("word-connections", block)),
+      }));
+
+      draft.grammar ||= {};
+      draft.grammar.intro = fieldValue("grammar-intro");
+      draft.grammar.sections = Array.from(shell.querySelectorAll('[data-editor-row="grammar-section"]')).map((section) => {
+        const table = parseJsonField("grammar-table", section, undefined);
+        const formList = parseJsonField("grammar-form-list", section, undefined);
+        const nextSection = {
+          id: fieldValue("grammar-id", section),
+          title: fieldValue("grammar-title", section),
+          body: splitParagraphs(fieldValue("grammar-body", section)),
+          examples: Array.from(section.querySelectorAll('[data-editor-row="grammar-example"]')).map((example) => ({
+            greek: fieldValue("grammar-example-greek", example),
+            english: fieldValue("grammar-example-english", example),
+          })),
+          practiceTopic: fieldValue("grammar-practice-topic", section),
+        };
+
+        if (table) {
+          nextSection.table = table;
+        }
+
+        if (formList) {
+          nextSection.formList = formList;
+        }
+
+        return nextSection;
+      });
+    }
+
+    if (page?.template === "culture") {
+      draft.culture ||= {};
+      draft.culture.title = fieldValue("culture-title");
+      draft.culture.body = splitParagraphs(fieldValue("culture-body"));
+      draft.culture.questions = Array.from(shell.querySelectorAll('[data-editor-row="culture-question"]')).map((question) => ({
+        prompt: fieldValue("culture-prompt", question),
+        answer: fieldValue("culture-answer", question),
+      }));
+    }
+
+    return draft;
+  }
+
+  function getRowIndex(row, selector) {
+    return Array.from(shell.querySelectorAll(selector)).indexOf(row);
+  }
+
+  function mutateEditorDraft(action, button) {
+    const draft = readEditedLessonFromForm();
+
+    if (action === "add-vocab-group") {
+      draft.vocabulary ||= [];
+      draft.vocabulary.push({ category: "New Group", items: [{ greek: "", english: "" }] });
+    }
+
+    if (action === "add-vocab-item") {
+      const group = button.closest('[data-editor-row="vocab-group"]');
+      const index = getRowIndex(group, '[data-editor-row="vocab-group"]');
+      draft.vocabulary[index]?.items?.push({ greek: "", english: "" });
+    }
+
+    if (action === "add-reading-paragraph") {
+      draft.reading ||= {};
+      draft.reading.paragraphs ||= [];
+      draft.reading.paragraphs.push({ greek: "", gloss: [] });
+    }
+
+    if (action === "add-reading-gloss") {
+      const paragraph = button.closest('[data-editor-row="reading-paragraph"]');
+      const index = getRowIndex(paragraph, '[data-editor-row="reading-paragraph"]');
+      draft.reading.paragraphs[index].gloss ||= [];
+      draft.reading.paragraphs[index].gloss.push({ greek: "", english: "" });
+    }
+
+    if (action === "add-word-block") {
+      draft.wordStudy ||= {};
+      draft.wordStudy.blocks ||= [];
+      draft.wordStudy.blocks.push({ title: "New Word Study Block", body: [""], display: [], connections: [] });
+    }
+
+    if (action === "add-word-display") {
+      const block = button.closest('[data-editor-row="word-block"]');
+      const index = getRowIndex(block, '[data-editor-row="word-block"]');
+      draft.wordStudy.blocks[index].display ||= [];
+      draft.wordStudy.blocks[index].display.push({ greek: "", english: "" });
+    }
+
+    if (action === "add-grammar-section") {
+      draft.grammar ||= {};
+      draft.grammar.sections ||= [];
+      draft.grammar.sections.push({
+        id: "new-section",
+        title: "New Grammar Section",
+        body: [""],
+        examples: [],
+        practiceTopic: "",
+      });
+    }
+
+    if (action === "add-grammar-example") {
+      const section = button.closest('[data-editor-row="grammar-section"]');
+      const index = getRowIndex(section, '[data-editor-row="grammar-section"]');
+      draft.grammar.sections[index].examples ||= [];
+      draft.grammar.sections[index].examples.push({ greek: "", english: "" });
+    }
+
+    if (action === "add-culture-question") {
+      draft.culture ||= {};
+      draft.culture.questions ||= [];
+      draft.culture.questions.push({ prompt: "", answer: "" });
+    }
+
+    setActiveLesson(draft);
+    render();
+  }
+
+  async function saveEditedLesson() {
+    let draft;
+
+    try {
+      draft = readEditedLessonFromForm();
+    } catch (error) {
+      editStatus = error.message || "The lesson content could not be read.";
+      render();
+      return;
+    }
+
+    const session = readSession();
+
+    try {
+      const response = await fetch(`/api/admin/lesson-content?slug=${encodeURIComponent(lesson.id)}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          "x-xenophon-user-email": session?.email || "",
+        },
+        body: JSON.stringify({
+          email: session?.email || "",
+          content: draft,
+        }),
+      });
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(data.details?.join(" ") || data.error || "Lesson content could not be saved.");
+      }
+
+      setActiveLesson(data.content);
+      originalLessonForCancel = null;
+      isEditMode = false;
+      editStatus = `Saved Lesson 1 content override as version ${data.version}.`;
+      render();
+    } catch (error) {
+      editStatus = error.message || "Lesson content could not be saved.";
+      setActiveLesson(draft);
+      render();
+    }
+  }
+
+  function bindEditorControls() {
+    shell.querySelectorAll("[data-lesson-editor-action]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const action = button.dataset.lessonEditorAction;
+
+        if (action === "edit") {
+          originalLessonForCancel = deepCopy(lesson);
+          isEditMode = true;
+          editStatus = "";
+          render();
+          return;
+        }
+
+        if (action === "cancel") {
+          setActiveLesson(originalLessonForCancel);
+          originalLessonForCancel = null;
+          isEditMode = false;
+          editStatus = "Unsaved edits were discarded.";
+          render();
+          return;
+        }
+
+        if (action === "save") {
+          button.setAttribute("aria-busy", "true");
+          await saveEditedLesson();
+          return;
+        }
+
+        if (action === "remove-row") {
+          button.closest("[data-editor-row]")?.remove();
+          try {
+            setActiveLesson(readEditedLessonFromForm());
+            render();
+          } catch (error) {
+            editStatus = error.message || "That row could not be removed.";
+            render();
+          }
+          return;
+        }
+
+        mutateEditorDraft(action, button);
+      });
+    });
+  }
+
   function renderEnrichmentPage() {
     return `
       ${renderSampleNotice()}
@@ -521,23 +1109,45 @@
   }
 
   function render() {
-    if (page.template === "reading") {
-      shell.innerHTML = renderReadingPage();
-    } else if (page.template === "vocabulary") {
-      shell.innerHTML = renderVocabularyPage();
-    } else if (page.template === "culture") {
-      shell.innerHTML = renderCulturePage();
-    } else if (page.template === "grammar") {
-      shell.innerHTML = renderGrammarPage();
-    } else if (page.template === "quiz") {
-      shell.innerHTML = renderQuizPage();
-    } else {
-      shell.innerHTML = renderEnrichmentPage();
+    if (!lesson || !page) {
+      shell.innerHTML = `
+        <section class="lesson-section">
+          <p class="eyebrow">Lesson unavailable</p>
+          <h2>That lesson template is not ready yet.</h2>
+          <p class="muted">Return to the lessons list and choose an available lesson.</p>
+          <a class="secondary-button" href="lessons.html">All Lessons</a>
+        </section>
+      `;
+      return;
     }
 
-    updateGateControls();
-    bindVocabularyAudio();
-    bindLessonNavigation();
+    let content = "";
+
+    if (isEditMode) {
+      content = renderEditor();
+    } else if (page.template === "reading") {
+      content = renderReadingPage();
+    } else if (page.template === "vocabulary") {
+      content = renderVocabularyPage();
+    } else if (page.template === "culture") {
+      content = renderCulturePage();
+    } else if (page.template === "grammar") {
+      content = renderGrammarPage();
+    } else if (page.template === "quiz") {
+      content = renderQuizPage();
+    } else {
+      content = renderEnrichmentPage();
+    }
+
+    shell.innerHTML = `${renderAdminToolbar()}${content}`;
+
+    if (!isEditMode) {
+      updateGateControls();
+      bindVocabularyAudio();
+      bindLessonNavigation();
+    }
+
+    bindEditorControls();
     window.applyGreekTextStyling?.(shell);
   }
 
@@ -623,12 +1233,19 @@
     });
   }
 
-  render();
+  async function init() {
+    await loadLessonContentOverride();
+    render();
 
-  window.xenophonLessonProgress?.markSegment({
-    lessonSlug: lesson.id,
-    segmentSlug: page.slug,
-    page: page.page,
-    title: page.title
-  });
+    if (lesson && page) {
+      window.xenophonLessonProgress?.markSegment({
+        lessonSlug: lesson.id,
+        segmentSlug: page.slug,
+        page: page.page,
+        title: page.title
+      });
+    }
+  }
+
+  init();
 }());

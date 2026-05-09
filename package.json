@@ -6,7 +6,7 @@
     "pg": "^8.20.0"
   },
   "scripts": {
-    "db:migrate": "node db/run-sql.mjs db/migrations/0001_xenophon_initial_schema.sql && node db/run-sql.mjs db/migrations/0002_user_credentials.sql",
+    "db:migrate": "node db/run-sql.mjs db/migrations/0001_xenophon_initial_schema.sql && node db/run-sql.mjs db/migrations/0002_user_credentials.sql && node db/run-sql.mjs db/migrations/0003_lesson_content_overrides.sql",
     "db:seed": "node db/run-sql.mjs db/seeds/0001_minimal_development_seed.sql",
     "db:verify": "node db/run-sql.mjs db/verify_schema.sql",
     "db:verify:seed": "node db/run-sql.mjs db/verify_seed.sql"
