@@ -264,7 +264,7 @@
             ${hasPractice ? `<a class="primary-button" href="${activityUrl("vocab-practice", page.page)}">Practice Vocabulary</a>` : ""}
           </div>
         </div>
-        <p class="gate-description">Review the Lesson 1 vocabulary before you move into the cultural reading and grammar practice.</p>
+        <p class="gate-description">Review the lesson vocabulary before you move into the cultural reading and grammar practice.</p>
       </section>
     `;
   }
@@ -480,7 +480,7 @@
   }
 
   function renderAdminToolbar() {
-    if (!isAdministrator() || lesson?.id !== "lesson-1") {
+    if (!isAdministrator() || !lesson?.id) {
       return "";
     }
 
@@ -488,7 +488,7 @@
       <section class="lesson-admin-toolbar" aria-label="Lesson administrator tools">
         <div>
           <p class="eyebrow">Administrator</p>
-          <h2>Lesson 1 Content Editor</h2>
+          <h2>${escapeHtml(lesson.number ? `Lesson ${lesson.number}` : lesson.title)} Content Editor</h2>
           ${editStatus ? `<p class="lesson-admin-status">${escapeHtml(editStatus)}</p>` : ""}
         </div>
         <div class="lesson-button-row">
@@ -726,6 +726,10 @@
   }
 
   function renderPageThreeEditor() {
+    if (page?.template === "enrichment" && !lesson.culture) {
+      return renderEnrichmentEditor();
+    }
+
     return `
       <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
         <h2 id="lesson-editor-heading">Edit Page 3</h2>
@@ -736,12 +740,39 @@
           </div>
           ${renderInput("Culture title", "culture-title", lesson.culture?.title || "")}
           ${renderTextarea("Body paragraphs", "culture-body", joinParagraphs(lesson.culture?.body), 8)}
+          <h4>Comprehension and Reflection</h4>
           <div class="lesson-editor-table">
             ${(lesson.culture?.questions || []).map((question) => `
               <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="culture-question">
                 ${renderTextarea("Prompt", "culture-prompt", question.prompt || "", 3)}
                 ${renderTextarea("Answer", "culture-answer", question.answer || "", 3)}
                 ${renderRemoveButton("Remove")}
+              </div>
+            `).join("")}
+          </div>
+        </section>
+      </section>
+    `;
+  }
+
+  function renderEnrichmentEditor() {
+    return `
+      <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
+        <h2 id="lesson-editor-heading">Edit Page 3</h2>
+        <section class="lesson-editor-card" aria-labelledby="lesson-editor-enrichment">
+          <div class="lesson-section__header">
+            <h3 id="lesson-editor-enrichment">Enrichment and Reflection</h3>
+            <button class="secondary-button" type="button" data-lesson-editor-action="add-enrichment-section">Add Section</button>
+          </div>
+          <div class="lesson-editor-table">
+            ${(lesson.enrichment || []).map((section) => `
+              <div class="lesson-editor-group" data-editor-row="enrichment-section">
+                <div class="lesson-section__header">
+                  ${renderInput("Type", "enrichment-type", section.type || "")}
+                  ${renderRemoveButton("Remove Section")}
+                </div>
+                ${renderInput("Title", "enrichment-title", section.title || "")}
+                ${renderTextarea("Body paragraphs", "enrichment-body", joinParagraphs(section.body), 6)}
               </div>
             `).join("")}
           </div>
@@ -759,7 +790,7 @@
       return renderPageTwoEditor();
     }
 
-    if (page?.template === "culture") {
+    if (page?.template === "culture" || page?.template === "enrichment" || page?.page === 3) {
       return renderPageThreeEditor();
     }
 
@@ -852,13 +883,21 @@
       });
     }
 
-    if (page?.template === "culture") {
+    if (page?.template === "culture" || (page?.page === 3 && lesson.culture)) {
       draft.culture ||= {};
       draft.culture.title = fieldValue("culture-title");
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
       draft.culture.questions = Array.from(shell.querySelectorAll('[data-editor-row="culture-question"]')).map((question) => ({
         prompt: fieldValue("culture-prompt", question),
         answer: fieldValue("culture-answer", question),
+      }));
+    }
+
+    if (page?.template === "enrichment" && !lesson.culture) {
+      draft.enrichment = Array.from(shell.querySelectorAll('[data-editor-row="enrichment-section"]')).map((section) => ({
+        type: fieldValue("enrichment-type", section),
+        title: fieldValue("enrichment-title", section),
+        body: splitParagraphs(fieldValue("enrichment-body", section)),
       }));
     }
 
@@ -934,6 +973,11 @@
       draft.culture.questions.push({ prompt: "", answer: "" });
     }
 
+    if (action === "add-enrichment-section") {
+      draft.enrichment ||= [];
+      draft.enrichment.push({ type: "Enrichment", title: "New Section", body: [""] });
+    }
+
     setActiveLesson(draft);
     render();
   }
@@ -973,7 +1017,7 @@
       setActiveLesson(data.content);
       originalLessonForCancel = null;
       isEditMode = false;
-      editStatus = `Saved Lesson 1 content override as version ${data.version}.`;
+      editStatus = `Saved ${lesson.title || lesson.id} content override as version ${data.version}.`;
       render();
     } catch (error) {
       editStatus = error.message || "Lesson content could not be saved.";

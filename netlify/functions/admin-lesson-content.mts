@@ -213,6 +213,23 @@ function validateLessonContent(content: unknown): ValidationResult {
     }
   }
 
+  if (content.enrichment !== undefined) {
+    if (!Array.isArray(content.enrichment)) {
+      errors.push("enrichment must be an array.");
+    } else {
+      content.enrichment.forEach((section, sectionIndex) => {
+        if (!isRecord(section)) {
+          errors.push(`enrichment[${sectionIndex}] must be an object.`);
+          return;
+        }
+
+        validateString(section.type, `enrichment[${sectionIndex}].type`, errors);
+        validateString(section.title, `enrichment[${sectionIndex}].title`, errors);
+        validateStringArray(section.body, `enrichment[${sectionIndex}].body`, errors);
+      });
+    }
+  }
+
   return {
     valid: errors.length === 0,
     errors,
@@ -226,8 +243,8 @@ export default async (request: Request) => {
 
   const slug = normalizeLessonSlug(new URL(request.url).searchParams.get("slug"));
 
-  if (slug !== "lesson-1") {
-    return jsonResponse({ error: "Only Lesson 1 editable content is enabled in this first phase." }, 400);
+  if (!slug) {
+    return jsonResponse({ error: "Lesson slug is required." }, 400);
   }
 
   const connectionString = getConnectionString();
@@ -257,6 +274,10 @@ export default async (request: Request) => {
 
   if (!validation.valid) {
     return jsonResponse({ error: "Lesson content is malformed.", details: validation.errors }, 400);
+  }
+
+  if (isRecord(body.content) && body.content.id !== undefined && body.content.id !== slug) {
+    return jsonResponse({ error: "Lesson content id must match the requested lesson slug." }, 400);
   }
 
   const client = createDatabaseClient(connectionString);
