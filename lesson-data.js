@@ -4542,6 +4542,232 @@
 
   ];
 
+  const LESSON_STUB_MANIFEST = [
+    { number: 2, title: "The Wise Man Knows Himself", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "First and second declension nouns; definite article; εἰμί", greekPhrase: "ὁ ἀνὴρ σοφός ἐστιν. / ὁ σοφὸς ἀνὴρ ἑαυτὸν γιγνώσκει.", sourceAnchor: "Memorabilia 4.2.24–30", cultureLead: "This lesson will connect self-knowledge with Socrates' questions about what a person truly knows." },
+    { number: 3, title: "What is Wisdom?", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Present tense system; predicate nouns; basic sentence structure", greekPhrase: "τί ἐστι σοφία; / ὁ Σωκράτης λέγει ὅτι ἡ σοφία ἀγαθόν ἐστιν.", sourceAnchor: "Memorabilia 3.9.4–5", cultureLead: "This lesson will frame wisdom as a question Socrates asks in ordinary speech rather than an abstract slogan." },
+    { number: 5, title: "Learning Through Questioning", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Adjectives; agreement; attributive vs predicate position", greekPhrase: "ὁ Σωκράτης καλὸς καὶ σοφὸς ἐστιν. / ὁ δὲ μαθητὴς ἀγαθὸς γίγνεται.", sourceAnchor: "Memorabilia 4.6.1–15", cultureLead: "This lesson will use Socratic questioning to show how Greek adjectives describe, classify, and evaluate a person." },
+    { number: 6, title: "The Search for Knowledge", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Second declension nouns; prepositions with cases", greekPhrase: "οἱ ἄνδρες εἰς τὴν ἀγορὰν βαδίζουσιν. / ἐν τῇ ἀγορᾷ ὁ Σωκράτης λέγει.", sourceAnchor: "Memorabilia 1.1.16–19", cultureLead: "This lesson will place Socrates' search for knowledge in the public spaces of Athens." },
+    { number: 7, title: "Examining Oneself", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Middle/passive voice; present; reflexive sense", greekPhrase: "ὁ ἀνὴρ ἑαυτὸν παιδεύεται. / οἱ ἄνδρες ἐν τῇ πόλει παιδεύονται.", sourceAnchor: "Memorabilia 4.2.24–30", cultureLead: "This lesson will connect the middle voice with the Socratic habit of turning inquiry back upon oneself." },
+    { number: 8, title: "In the Agora", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Prepositions expanded; dative case introduction", greekPhrase: "ἐν τῇ ἀγορᾷ οἱ ἄνδρες τῷ Σωκράτει λέγουσιν. / ὁ δὲ Σωκράτης τοῖς ἀνθρώποις ἀποκρίνεται.", sourceAnchor: "Memorabilia 1.1.10", cultureLead: "This lesson will use the agora as the setting for dative forms, speech, and response." },
+    { number: 9, title: "Socrates Questions All", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Imperfect tense; past continuous action", greekPhrase: "ὁ Σωκράτης τοὺς ἄνδρας ἠρώτα. / οἱ δὲ ἄνδρες ἀπεκρίνοντο.", sourceAnchor: "Memorabilia 1.1.16", cultureLead: "This lesson will prepare a narrative view of Socrates' repeated questioning in Athens." },
+    { number: 10, title: "To Know and To Learn", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Infinitives; introductory; complementary infinitives", greekPhrase: "ὁ ἀνὴρ βούλεται σοφὸς εἶναι. / οἱ ἄνδρες μανθάνειν βούλονται.", sourceAnchor: "Memorabilia 4.5.1–12", cultureLead: "This lesson will treat learning and wanting to learn as actions that often require infinitive complements." },
+    { number: 11, title: "The Thinking Mind", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Participles; introductory; present active participle", greekPhrase: "ὁ ἀνὴρ ζητῶν τὴν ἀλήθειαν σοφὸς ἐστίν. / οἱ μανθάνοντες ἄνδρες βελτίους γίγνονται.", sourceAnchor: "Memorabilia 1.4.13–18", cultureLead: "This lesson will introduce participles through the image of people seeking, learning, and becoming better." },
+    { number: 12, title: "The Examined Life", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Module review; present; imperfect; infinitives; participles", greekPhrase: "ὁ Σωκράτης λέγει ὅτι ὁ ἀνεξέταστος βίος οὐ βιωτός ἐστιν.", sourceAnchor: "Memorabilia 4.2.24–30, with comparison to Plato, Apology 38a", cultureLead: "This review lesson will connect Xenophon's Socrates with the later famous formulation about the examined life.", note: "Present this famous formulation as Platonic comparison, not as Xenophon's wording." },
+    { number: 13, title: "The General Leads", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Contract verbs; –έω, –άω, –όω; present system", greekPhrase: "ὁ στρατηγὸς τοὺς στρατιώτας φιλεῖ καὶ τιμᾷ. / οἱ δὲ στρατιῶται αὐτὸν ἀκολουθοῦσιν.", sourceAnchor: "Anabasis 1.3.1–21", cultureLead: "This lesson will begin the Anabasis module with leadership, loyalty, and contract verb forms." },
+    { number: 14, title: "Trust in Leadership", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Imperfect of contract verbs; repeated past action", greekPhrase: "οἱ στρατιῶται τὸν στρατηγὸν ἐτίμων καὶ ἐφίλουν.", sourceAnchor: "Anabasis 1.3.15–21", cultureLead: "This lesson will use repeated past action to describe how soldiers responded to leaders over time." },
+    { number: 15, title: "Hope and Expectation", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Future tense; predictive statements", greekPhrase: "οἱ ἄνδρες νικήσουσιν, ἐὰν θαρρῶσιν.", sourceAnchor: "Anabasis 3.1.15–25", cultureLead: "This lesson will connect future forms with courage under uncertain conditions." },
+    { number: 16, title: "If They Fight", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Subjunctive mood; introductory; ἐάν clauses", greekPhrase: "ἐὰν οἱ στρατιῶται μάχωνται, νικῶσιν.", sourceAnchor: "Anabasis 3.1.35–44", cultureLead: "This lesson will introduce ἐάν clauses as a way to think through action before it happens." },
+    { number: 17, title: "Fear and Courage", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Infinitives expanded; verbs of fearing and fighting", greekPhrase: "οἱ μὲν φοβοῦνται, οἱ δὲ θαρροῦσι μάχεσθαι.", sourceAnchor: "Anabasis 3.1.11–14", cultureLead: "This lesson will contrast fear and confidence through infinitive constructions." },
+    { number: 18, title: "The Battle Begins", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Aorist tense; introductory; simple past action", greekPhrase: "οἱ ἄνδρες ἐμάχοντο καὶ ἐνίκησαν.", sourceAnchor: "Anabasis 1.8.18–29", cultureLead: "This lesson will reserve the first focused treatment of aorist narrative action in battle." },
+    { number: 19, title: "Those Who Stand Firm", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Present participles; descriptive action", greekPhrase: "οἱ θαρροῦντες ἄνδρες νικῶσιν. / οἱ δὲ φοβούμενοι φεύγουσιν.", sourceAnchor: "Anabasis 1.8.17–20", cultureLead: "This lesson will use participles to describe men acting with courage or fear." },
+    { number: 20, title: "Victory Won", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Aorist participles; sequence of action", greekPhrase: "οἱ ἄνδρες νικήσαντες τοὺς πολεμίους ἐδίωξαν.", sourceAnchor: "Anabasis 1.8.18–21", cultureLead: "This lesson will reserve space for sequencing action after victory." },
+    { number: 21, title: "The Army Without Leaders", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Integrated narrative; tense contrast; participles", greekPhrase: "οἱ στρατηγοὶ ἀπέθανον· / οἱ δὲ στρατιῶται ἐν κινδύνῳ ἦσαν.", sourceAnchor: "Anabasis 3.1.2–13", cultureLead: "This lesson will place tense contrast inside the crisis after the generals are lost." },
+    { number: 22, title: "Do Not Fear!", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Imperatives; commands; prohibition with μή", greekPhrase: "μὴ φοβεῖσθε, ὦ ἄνδρες· / θαρρεῖτε καὶ μάχεσθε.", sourceAnchor: "Anabasis 3.1.35–44", cultureLead: "This lesson will use commands and prohibitions to capture leadership speech in danger." },
+    { number: 23, title: "So Brave That…", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Result clauses; ὥστε + infinitive", greekPhrase: "οὕτως ἐθάρρησαν ὥστε νικῆσαι.", sourceAnchor: "Anabasis 4.3.20–29", cultureLead: "This lesson will prepare result clauses by asking what courage makes possible." },
+    { number: 24, title: "Courage Under Fire", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Module review; subjunctive; aorist; participles", greekPhrase: "οἱ ἄνδρες θαρρήσαντες ἐμάχοντο καὶ ἐνίκησαν.", sourceAnchor: "Anabasis 3.2.1–39", cultureLead: "This review lesson will gather the module's grammar around courage in sustained danger." },
+    { number: 25, title: "Mastering Oneself", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Middle voice; present; reflexive meaning", greekPhrase: "ὁ ἀνὴρ ἑαυτὸν σωφρονίζει.", sourceAnchor: "Memorabilia 1.5.1–6", cultureLead: "This lesson will begin the self-control module by linking grammar to self-mastery." },
+    { number: 26, title: "Habits of Discipline", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Middle voice; imperfect and aorist", greekPhrase: "ὁ ἀνὴρ ἑαυτὸν ἐσωφρόνιζε.", sourceAnchor: "Memorabilia 1.6.7–10", cultureLead: "This lesson will reserve space for describing discipline as a repeated and completed habit." },
+    { number: 27, title: "What Must Be Done", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Indirect statement; accusative + infinitive", greekPhrase: "δεῖ τοὺς ἄνδρας σωφρονεῖν.", sourceAnchor: "Memorabilia 4.5.1–12", cultureLead: "This lesson will use obligation and indirect statement to ask what self-controlled people must do." },
+    { number: 28, title: "The Desire to Live Well", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Complementary infinitives; expanded", greekPhrase: "οἱ ἄνδρες καλῶς ζῆν βούλονται.", sourceAnchor: "Oeconomicus 1.1–4", cultureLead: "This lesson will connect desire, household management, and the wish to live well." },
+    { number: 29, title: "Working with Purpose", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Purpose clauses; ἵνα + subjunctive", greekPhrase: "ὁ ἀνὴρ ἐργάζεται ἵνα εὖ ζῇ.", sourceAnchor: "Oeconomicus 7.1–10", cultureLead: "This lesson will reserve the place for purpose clauses in work, discipline, and household order." },
+    { number: 30, title: "Knowing Oneself", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Reflexive pronouns", greekPhrase: "ὁ σώφρων ἀνὴρ ἑαυτὸν γιγνώσκει.", sourceAnchor: "Memorabilia 4.2.24–30", cultureLead: "This lesson will return to self-knowledge through the grammar of reflexive pronouns." },
+    { number: 31, title: "If a Man is Self-Controlled", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Conditional sentences; simple conditions", greekPhrase: "εἰ ὁ ἀνὴρ σωφρονεῖ, εὐδαίμων ἐστίν.", sourceAnchor: "Memorabilia 1.5.1–6", cultureLead: "This lesson will use simple conditions to describe the consequences of self-control." },
+    { number: 32, title: "The Well-Ordered Household", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Integrated reading; purpose + infinitives", greekPhrase: "ὁ ἀνὴρ τὴν οἰκίαν καλῶς διοικεῖ.", sourceAnchor: "Oeconomicus 7.4–43", cultureLead: "This lesson will reserve a household-management reading that integrates purpose and infinitive structures." },
+    { number: 33, title: "Training the Self", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Middle participles", greekPhrase: "οἱ ἄνδρες ἑαυτοὺς παιδευόμενοι βελτίους γίγνονται.", sourceAnchor: "Cyropaedia 1.2.6–16", cultureLead: "This lesson will connect middle participles with training oneself into better habits." },
+    { number: 34, title: "Nothing in Excess", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Negation; moderation vocabulary", greekPhrase: "ὁ σώφρων οὐκ ἐσθίει πολὺ οὐδὲ πίνει.", sourceAnchor: "Memorabilia 1.6.5–10", cultureLead: "This lesson will reserve a compact treatment of negation and moderation vocabulary." },
+    { number: 35, title: "What is Self-Control?", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Dialogue structure; indirect discourse", greekPhrase: "τί ἐστι σωφροσύνη; / ἡ σωφροσύνη ἐστὶ τὸ ἑαυτὸν κρατεῖν.", sourceAnchor: "Memorabilia 4.5.1–12", cultureLead: "This lesson will reserve a dialogue-shaped exploration of self-control." },
+    { number: 36, title: "The Disciplined Life", module: "σωφροσύνη — Self-Control and Discipline", moduleTheme: "Self-Control and Discipline", bannerImage: "assets/module-3-sophrosyne-banner.jpeg", bannerAlt: "A disciplined household scene reserved for a self-control lesson banner", grammarFocus: "Module review; middle voice; infinitives; conditionals", greekPhrase: "ὁ σώφρων ἀνὴρ καλῶς ζῇ καὶ εὐδαίμων ἐστίν.", sourceAnchor: "Oeconomicus 11.1–25", cultureLead: "This review lesson will gather self-control, household order, and disciplined living." },
+    { number: 37, title: "Justice is the Greatest Good", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Predicate nouns; ὅτι clauses", greekPhrase: "ὁ Σωκράτης λέγει ὅτι ἡ δικαιοσύνη μέγιστον ἀγαθόν ἐστιν.", sourceAnchor: "Memorabilia 4.4.1–25", cultureLead: "This lesson will begin the justice module by joining predicate structure with Socratic claims about justice." },
+    { number: 38, title: "They Say He is Just", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Indirect statement; ὅτι / ὡς", greekPhrase: "οἱ ἄνδρες λέγουσιν ὅτι ὁ Σωκράτης δίκαιός ἐστιν.", sourceAnchor: "Memorabilia 1.1.1–5", cultureLead: "This lesson will reserve space for reported claims about Socrates' justice." },
+    { number: 39, title: "The Accusation", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Accusative + infinitive; reported speech", greekPhrase: "οἱ κατήγοροι λέγουσι τὸν Σωκράτη τοὺς νέους διαφθείρειν.", sourceAnchor: "Apology 10–11", cultureLead: "This lesson will prepare the grammar of accusation and reported speech in Xenophon's Apology." },
+    { number: 40, title: "Speaking the Truth", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Participles in argument", greekPhrase: "ὁ Σωκράτης ἀποκρινόμενος λέγει τὴν ἀλήθειαν.", sourceAnchor: "Apology 14–21", cultureLead: "This lesson will reserve a place for participles in the movement of argument and reply." },
+    { number: 41, title: "The Just Man", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Relative clauses; ὅς, ἥ, ὅ", greekPhrase: "ὁ ἀνὴρ ὃς τὰ δίκαια πράττει εὐδαίμων ἐστίν.", sourceAnchor: "Memorabilia 4.4.12–25", cultureLead: "This lesson will connect relative clauses with descriptions of the person who acts justly." },
+    { number: 42, title: "What is Justice?", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "μέν…δέ contrast; comparison structures", greekPhrase: "ὁ μὲν Σωκράτης λέγει ὅτι τὸ δίκαιον ἀγαθόν ἐστιν, / ὁ δὲ ζητεῖ τί ἐστι τὸ δίκαιον.", sourceAnchor: "Memorabilia 4.4.1–25; compare Plato, Republic 1.331c–336a", cultureLead: "This lesson will compare ways of asking about justice while keeping Xenophon as the main course anchor." },
+    { number: 43, title: "Law and Fear", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Verb complements; reinforcing structures", greekPhrase: "οἱ ἄνδρες τοὺς νόμους φοβοῦνται καὶ τιμῶσιν.", sourceAnchor: "Memorabilia 4.4.13–18", cultureLead: "This lesson will reserve space for law, reverence, fear, and the complements that complete those verbs." },
+    { number: 44, title: "If They Act Justly", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Future more vivid conditions", greekPhrase: "ἐὰν οἱ ἄνδρες τὰ δίκαια πράττωσιν, ἡ πόλις εὖ ἕξει.", sourceAnchor: "Cyropaedia 1.6.20–27", cultureLead: "This lesson will use future more vivid conditions to imagine justice as civic consequence." },
+    { number: 45, title: "The Defense of Socrates", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Negation; indirect discourse reinforcement", greekPhrase: "ὁ Σωκράτης λέγει ὅτι οὐκ ἀδικεῖ.", sourceAnchor: "Apology 1–9", cultureLead: "This lesson will reserve the grammatical frame for denial and defense." },
+    { number: 46, title: "Why They Are Angry", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Cause clauses; ὅτι / διότι", greekPhrase: "οἱ δικασταὶ ὀργίζονται, ὅτι οὐ φοβεῖται.", sourceAnchor: "Apology 24–26", cultureLead: "This lesson will reserve cause clauses for explaining anger in the trial narrative." },
+    { number: 47, title: "The Trial of Socrates", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Infinitives of obligation; complex reasoning", greekPhrase: "ὁ Σωκράτης μένει καὶ τὴν δίκην δέχεται.", sourceAnchor: "Apology 27–34", cultureLead: "This lesson will reserve space for the reasoning and obligation language around Socrates' trial." },
+    { number: 48, title: "Justice and the Soul", module: "δικαιοσύνη — Justice and the City", moduleTheme: "Justice and the City", bannerImage: "assets/module-4-dikaiosyne-banner.jpeg", bannerAlt: "A civic justice scene reserved for a justice lesson banner", grammarFocus: "Module review; advanced clauses; discourse", greekPhrase: "ὁ Σωκράτης λέγει ὅτι ὁ δίκαιος ἀνὴρ εὐδαίμων ἐστίν.", sourceAnchor: "Memorabilia 4.8.1–11 and Apology 32–34", cultureLead: "This final lesson stub will gather justice, happiness, the soul, and advanced discourse patterns." }
+  ];
+
+  function createStubQuestion(id, prompt, correctText) {
+    return {
+      id,
+      type: "multiple_choice",
+      prompt,
+      choices: [
+        { text: correctText, correct: true },
+        { text: "Full activity content will be added later.", correct: false },
+        { text: "Return to the lesson notes for the final authored version.", correct: false }
+      ]
+    };
+  }
+
+  function createLessonStub(config) {
+    const lessonId = `lesson-${config.number}`;
+    const nextNumber = config.number + 1;
+    const hasNextLesson = config.number < 48;
+    const sourceLine = `Source anchor: ${config.sourceAnchor}.`;
+    const cultureBody = [
+      sourceLine,
+      `${config.cultureLead} The final vocabulary, Greek reading, and polished historical commentary will be added in a later authoring pass.`,
+      config.note ? `Note: ${config.note}` : ""
+    ].filter(Boolean);
+
+    return {
+      id: lessonId,
+      number: config.number,
+      title: config.title,
+      greekTitle: config.greekPhrase,
+      scope: config.grammarFocus,
+      theme: `${config.moduleTheme}; source: ${config.sourceAnchor}`,
+      module: config.module,
+      banner: {
+        image: config.bannerImage,
+        alt: config.bannerAlt,
+        caption: config.greekPhrase
+      },
+      pages: [
+        {
+          page: 1,
+          slug: `${lessonId}-page-1`,
+          title: "Reading",
+          template: "reading",
+          showTranslation: false
+        },
+        {
+          page: 2,
+          slug: `${lessonId}-page-2`,
+          title: "Language Study",
+          template: "grammar"
+        },
+        {
+          page: 3,
+          slug: `${lessonId}-page-3`,
+          title: "Greek World / Review / Quiz",
+          template: "culture"
+        }
+      ],
+      vocabulary: [
+        {
+          category: "Vocabulary",
+          items: [
+            { greek: "Vocabulary will be added later.", english: "Course vocabulary placeholder" }
+          ]
+        }
+      ],
+      reading: {
+        title: "Greek Reading",
+        paragraphs: [
+          {
+            greek: "Greek reading passage will be added later.",
+            gloss: []
+          }
+        ],
+        translation: ""
+      },
+      wordStudy: {
+        label: "Word Builder",
+        blocks: [
+          {
+            title: "Word Builder",
+            body: [
+              "Word Builder content will be added later."
+            ]
+          }
+        ]
+      },
+      culture: {
+        title: `${config.title}: Source Preview`,
+        body: cultureBody,
+        questions: []
+      },
+      grammar: {
+        intro: "This lesson stub reserves the grammar structure and practice hooks for the full authored lesson.",
+        sections: [
+          {
+            id: "grammar-focus",
+            title: config.grammarFocus,
+            body: [
+              `Grammar focus: ${config.grammarFocus}.`,
+              "Explanatory grammar content, examples, and final exercises will be added later."
+            ],
+            examples: [
+              {
+                greek: config.greekPhrase,
+                english: "Banner sentence reserved from the curriculum manifest."
+              }
+            ],
+            practiceTopic: "grammar-focus"
+          }
+        ]
+      },
+      enrichment: [],
+      activities: {
+        "grammar-flashcards": {
+          title: `Lesson ${config.number} Grammar Flashcards`,
+          cards: [
+            {
+              prompt: "What is the grammar focus for this lesson?",
+              answer: config.grammarFocus
+            },
+            {
+              prompt: "What source anchor frames this lesson?",
+              answer: config.sourceAnchor
+            }
+          ]
+        },
+        "topic-practice": {
+          title: "Practice This Topic",
+          questions: [
+            {
+              ...createStubQuestion(
+                `${lessonId}-topic-practice-1`,
+                `Which grammar focus belongs to Lesson ${config.number}?`,
+                config.grammarFocus
+              ),
+              topic: "grammar-focus"
+            }
+          ]
+        },
+        "grammar-exercises": {
+          title: `Lesson ${config.number} Grammar Exercises`,
+          threshold: 0,
+          questions: [
+            createStubQuestion(
+              `${lessonId}-grammar-exercises-1`,
+              "This grammar exercise set is a placeholder. Which answer keeps the lesson moving for now?",
+              "Continue; final grammar exercises will be added later."
+            )
+          ]
+        },
+        "lesson-quiz": {
+          title: `Lesson ${config.number} Quiz — ${config.title}`,
+          threshold: 0,
+          questions: [
+            createStubQuestion(
+              `${lessonId}-lesson-quiz-1`,
+              `What is the source anchor for Lesson ${config.number}?`,
+              config.sourceAnchor
+            )
+          ]
+        }
+      },
+      nextLesson: hasNextLesson
+        ? {
+          id: `lesson-${nextNumber}`,
+          title: LESSON_STUB_MANIFEST.find((item) => item.number === nextNumber)?.title || `Lesson ${nextNumber}`,
+          fallbackUrl: `lesson.html?lesson=${nextNumber}&page=1`
+        }
+        : {
+          id: "",
+          title: "Course complete",
+          fallbackUrl: "lessons.html#lesson-48"
+        }
+    };
+  }
+
   const LESSONS = {
     "lesson-1": {
       id: "lesson-1",
@@ -5426,6 +5652,13 @@
       }
     }
   };
+
+  LESSON_STUB_MANIFEST.forEach((config) => {
+    const lessonId = `lesson-${config.number}`;
+    if (!LESSONS[lessonId]) {
+      LESSONS[lessonId] = createLessonStub(config);
+    }
+  });
 
   const ACTIVITY_LABELS = {
     "vocab-flashcards": "Vocabulary Flashcards",

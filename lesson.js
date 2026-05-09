@@ -491,13 +491,14 @@
     const previousPage = page.page - 1;
     const nextPage = page.page + 1;
     const gate = getGateState();
-    const nextLabel = page.page === lesson.pages.length ? "Next Lesson" : "Next";
+    const nextLessonUrl = getNextLessonUrl();
+    const nextLabel = page.page === lesson.pages.length ? (lesson.nextLesson?.id ? "Next Lesson" : "All Lessons") : "Next";
     const previousHref = previousPage >= 1
       ? `lesson.html?lesson=${lesson.number}&page=${previousPage}`
       : "lessons.html";
     const nextHref = nextPage <= lesson.pages.length
       ? `lesson.html?lesson=${lesson.number}&page=${nextPage}`
-      : lesson.nextLesson.fallbackUrl;
+      : nextLessonUrl;
 
     return `
       <nav class="lesson-page-nav" aria-label="Lesson page navigation">
@@ -506,6 +507,17 @@
         <a class="primary-button gated-next" href="${nextHref}" data-lesson-nav="next" ${gate ? `data-required-gate="${gate.type}" aria-disabled="true"` : ""}>${nextLabel}</a>
       </nav>
     `;
+  }
+
+  function getNextLessonUrl() {
+    const nextId = lesson.nextLesson?.id || "";
+    const nextLesson = nextId ? window.xenophonLessonData?.getLesson(nextId) : null;
+
+    if (nextLesson?.number) {
+      return `lesson.html?lesson=${nextLesson.number}&page=1`;
+    }
+
+    return lesson.nextLesson?.fallbackUrl || "lessons.html";
   }
 
   function render() {

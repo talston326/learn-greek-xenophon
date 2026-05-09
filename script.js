@@ -226,7 +226,7 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
       moduleType: module.type || "module",
       number: numericLesson ? `Lesson ${numericLesson}` : `Unit ${introLesson === "1" ? "0" : introLesson || index + 1}`,
       subtitle: lesson.grammar || module.description || module.subtitle,
-      url: LESSON_URLS[lesson.id] || `lessons.html#${lesson.id}`,
+      url: LESSON_URLS[lesson.id] || (numericLesson ? `lesson.html?lesson=${numericLesson}&page=1` : `lessons.html#${lesson.id}`),
       exerciseIds: lesson.exerciseIds || ["reading", "practice", "quiz"]
     };
   })
@@ -2569,7 +2569,7 @@ function getContinueUrl(progress) {
     return `lesson-introduction.html${getUnit0SectionUrl(getSectionById("letters"))}`;
   }
 
-  const templatedLessonMatch = lesson.id.match(/^lesson-(1|4)$/);
+  const templatedLessonMatch = lesson.id.match(/^lesson-(\d+)$/);
   if (templatedLessonMatch) {
     const lessonNumber = templatedLessonMatch[1];
     const segmentPageMatch = String(progress.currentSegmentId || "").match(new RegExp(`${lesson.id}-page-(\\d+)`));
