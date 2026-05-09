@@ -7,6 +7,7 @@ import {
 
 type LessonContentRequest = {
   email?: string;
+  activeRole?: string;
   content?: unknown;
   note?: string;
 };
@@ -250,6 +251,10 @@ export default async (request: Request) => {
     return jsonResponse({ error: "Administrator email is required." }, 401);
   }
 
+  if (body.activeRole !== "administrator") {
+    return jsonResponse({ error: "Administrator view is required to save lesson content." }, 403);
+  }
+
   if (!validation.valid) {
     return jsonResponse({ error: "Lesson content is malformed.", details: validation.errors }, 400);
   }
@@ -359,6 +364,16 @@ export default async (request: Request) => {
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);
+
+    if (error && typeof error === "object" && "code" in error && error.code === "42P01") {
+      return jsonResponse(
+        {
+          error: "Editable lesson content tables are missing. Run npm run db:migrate before saving lesson edits.",
+        },
+        500
+      );
+    }
+
     console.error("Failed to save lesson content", error);
     return jsonResponse({ error: "Failed to save lesson content" }, 500);
   } finally {

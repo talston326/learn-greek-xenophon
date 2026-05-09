@@ -43,7 +43,8 @@
   }
 
   function isAdministrator() {
-    return Boolean(readSession()?.roles?.includes("administrator"));
+    const session = readSession();
+    return session?.activeRole === "administrator" && Boolean(session.roles?.includes("administrator"));
   }
 
   async function loadLessonContentOverride() {
@@ -959,6 +960,7 @@
         },
         body: JSON.stringify({
           email: session?.email || "",
+          activeRole: session?.activeRole || "",
           content: draft,
         }),
       });
