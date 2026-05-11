@@ -418,6 +418,7 @@
               ${question.choices.map((choice, choiceIndex) => `
                 <label>
                   <input type="radio" name="question-${questionIndex}" value="${choiceIndex}" required>
+                  <span class="topic-choice-status" aria-hidden="true"></span>
                   <span>${escapeHtml(choice.text)}</span>
                 </label>
               `).join("")}
@@ -435,6 +436,39 @@
       </form>
     `);
     bindQuizForm(questions);
+  }
+
+  function revealQuizFeedback(form, questions) {
+    questions.forEach((question, questionIndex) => {
+      const selectedAnswer = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
+      const selectedIndex = selectedAnswer ? Number(selectedAnswer.value) : -1;
+
+      question.choices.forEach((choice, choiceIndex) => {
+        const input = form.querySelector(`input[name="question-${questionIndex}"][value="${choiceIndex}"]`);
+        const label = input?.closest("label");
+        const status = label?.querySelector(".topic-choice-status");
+
+        label?.classList.remove("is-correct", "is-wrong");
+        if (status) {
+          status.textContent = "";
+        }
+
+        if (choice.correct) {
+          label?.classList.add("is-correct");
+          if (status) {
+            status.textContent = "✓";
+          }
+          return;
+        }
+
+        if (choiceIndex === selectedIndex) {
+          label?.classList.add("is-wrong");
+          if (status) {
+            status.textContent = "×";
+          }
+        }
+      });
+    });
   }
 
   function bindQuizForm(questions) {
@@ -456,6 +490,8 @@
           correct += 1;
         }
       });
+
+      revealQuizFeedback(form, questions);
 
       const score = Math.round((correct / questions.length) * 100);
       const threshold = lesson.activities?.[activityType]?.threshold || 0;
@@ -479,8 +515,8 @@
 
       if (result) {
         result.innerHTML = passed
-          ? `Passed with ${score}%. <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>`
-          : `Score: ${score}%. Try again to reach ${threshold || 80}%.`;
+          ? `Passed with ${score}%. Review any marked answers below. <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>`
+          : `Score: ${score}%. Review the marked answers below, then try again to reach ${threshold || 80}%.`;
       }
     });
   }
