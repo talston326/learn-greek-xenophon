@@ -17,6 +17,8 @@ type ValidationResult = {
   errors: string[];
 };
 
+type DatabaseClient = ReturnType<typeof createDatabaseClient>;
+
 function normalizeLessonSlug(value: unknown) {
   const raw = String(value || "").trim().toLowerCase();
   return /^\d+$/.test(raw) ? `lesson-${raw}` : raw;
@@ -239,6 +241,93 @@ function validateLessonContent(content: unknown): ValidationResult {
   };
 }
 
+async function syncLessonVocabulary(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<number> {
+  if (!isRecord(content) || !Array.isArray(content.vocabulary)) {
+    return 0;
+  }
+
+  await client.query("DELETE FROM public.lesson_vocabulary WHERE lesson_id = $1", [lessonId]);
+
+  let sortOrder = 0;
+
+  for (const group of content.vocabulary) {
+    if (!isRecord(group) || !Array.isArray(group.items)) {
+      continue;
+    }
+
+    const category = typeof group.category === "string" ? group.category.trim() : null;
+
+    for (const item of group.items) {
+      if (!isRecord(item)) {
+        continue;
+      }
+
+      const greek = typeof item.greek === "string" ? item.greek.trim() : "";
+      const english = typeof item.english === "string" ? item.english.trim() : "";
+      const audioUrl = typeof item.audioUrl === "string" && item.audioUrl.trim() ? item.audioUrl.trim() : null;
+
+      if (!greek && !english) {
+        continue;
+      }
+
+      if (!greek || !english) {
+        throw new Error("Vocabulary rows saved to normalized tables must include both Greek and English text.");
+      }
+
+      const vocabularyItemResult = await client.query(
+        `
+          INSERT INTO public.vocabulary_items (
+            lemma,
+            display_form,
+            part_of_speech,
+            gloss,
+            morphology,
+            audio_url
+          )
+          VALUES ($1, $1, $2, $3, $4::jsonb, $5)
+          ON CONFLICT (lemma, display_form, gloss) DO UPDATE
+          SET audio_url = COALESCE(EXCLUDED.audio_url, public.vocabulary_items.audio_url),
+              updated_at = now()
+          RETURNING id
+        `,
+        [
+          greek,
+          category,
+          english,
+          JSON.stringify({
+            source: "lesson_content_override",
+            category,
+          }),
+          audioUrl,
+        ]
+      );
+      const vocabularyItemId = vocabularyItemResult.rows[0].id;
+
+      await client.query(
+        `
+          INSERT INTO public.lesson_vocabulary (
+            lesson_id,
+            vocabulary_item_id,
+            sort_order
+          )
+          VALUES ($1, $2, $3)
+          ON CONFLICT (lesson_id, vocabulary_item_id) DO UPDATE
+          SET sort_order = EXCLUDED.sort_order
+        `,
+        [lessonId, vocabularyItemId, sortOrder]
+      );
+
+      sortOrder += 1;
+    }
+  }
+
+  return sortOrder;
+}
+
 export default async (request: Request) => {
   if (request.method !== "PUT") {
     return jsonResponse({ error: "Method not allowed" }, 405);
@@ -375,6 +464,7 @@ export default async (request: Request) => {
       `,
       [lesson.id, JSON.stringify(body.content), nextVersion, user.id]
     );
+    const normalizedVocabularyCount = await syncLessonVocabulary(client, lesson.id, body.content);
 
     await client.query("COMMIT");
 
@@ -385,9 +475,14 @@ export default async (request: Request) => {
       content: saveResult.rows[0].content,
       version: saveResult.rows[0].version,
       updatedAt: saveResult.rows[0].updated_at,
+      normalizedVocabularyCount,
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);
+
+    if (error instanceof Error && error.message.startsWith("Vocabulary rows saved to normalized tables")) {
+      return jsonResponse({ error: error.message }, 400);
+    }
 
     if (error && typeof error === "object" && "code" in error && error.code === "42P01") {
       return jsonResponse(
