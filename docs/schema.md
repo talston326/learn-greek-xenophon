@@ -120,6 +120,7 @@ Stores the lesson path currently defined in `COURSE_MODULES`.
 | slug | text | Stable app identifier, for example lesson-4 or intro-2 |
 | number_label | text | Example: Lesson 4 or Intro 2 |
 | title | text | Required |
+| greek_title | text | Nullable normalized Greek lesson title |
 | grammar_focus | text | Nullable |
 | page_url | text | Current static page or future route |
 | sort_order | integer | Required |

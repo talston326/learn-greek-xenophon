@@ -328,6 +328,47 @@ async function syncLessonVocabulary(
   return sortOrder;
 }
 
+async function syncLessonTitles(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<{ title: string; greekTitle: string | null } | null> {
+  if (!isRecord(content)) {
+    return null;
+  }
+
+  const title = typeof content.title === "string" ? content.title.trim() : "";
+
+  if (!title) {
+    throw new Error("Lesson title saved to the lessons table must include English title text.");
+  }
+
+  const banner = isRecord(content.banner) ? content.banner : null;
+  const greekTitle =
+    typeof content.greekTitle === "string"
+      ? content.greekTitle.trim()
+      : typeof banner?.text === "string"
+        ? banner.text.trim()
+        : typeof banner?.caption === "string"
+          ? banner.caption.trim()
+          : "";
+
+  await client.query(
+    `
+      UPDATE public.lessons
+      SET title = $2,
+          greek_title = $3
+      WHERE id = $1
+    `,
+    [lessonId, title, greekTitle || null]
+  );
+
+  return {
+    title,
+    greekTitle: greekTitle || null,
+  };
+}
+
 export default async (request: Request) => {
   if (request.method !== "PUT") {
     return jsonResponse({ error: "Method not allowed" }, 405);
@@ -464,6 +505,7 @@ export default async (request: Request) => {
       `,
       [lesson.id, JSON.stringify(body.content), nextVersion, user.id]
     );
+    const normalizedTitles = await syncLessonTitles(client, lesson.id, body.content);
     const normalizedVocabularyCount = await syncLessonVocabulary(client, lesson.id, body.content);
 
     await client.query("COMMIT");
@@ -475,13 +517,27 @@ export default async (request: Request) => {
       content: saveResult.rows[0].content,
       version: saveResult.rows[0].version,
       updatedAt: saveResult.rows[0].updated_at,
+      normalizedTitles,
       normalizedVocabularyCount,
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);
 
+    if (error instanceof Error && error.message.startsWith("Lesson title saved to the lessons table")) {
+      return jsonResponse({ error: error.message }, 400);
+    }
+
     if (error instanceof Error && error.message.startsWith("Vocabulary rows saved to normalized tables")) {
       return jsonResponse({ error: error.message }, 400);
+    }
+
+    if (error && typeof error === "object" && "code" in error && error.code === "42703") {
+      return jsonResponse(
+        {
+          error: "The lessons.greek_title column is missing. Run npm run db:migrate before saving normalized lesson titles.",
+        },
+        500
+      );
     }
 
     if (error && typeof error === "object" && "code" in error && error.code === "42P01") {
