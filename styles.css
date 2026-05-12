@@ -2100,7 +2100,9 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(90deg, rgba(28,18,12,.78), rgba(28,18,12,.24) 48%, rgba(28,18,12,.08));
+      background:
+        linear-gradient(90deg, rgba(22,14,9,.82) 0%, rgba(22,14,9,.58) 20%, rgba(22,14,9,.2) 34%, rgba(22,14,9,0) 48%),
+        linear-gradient(180deg, rgba(22,14,9,.12) 0%, rgba(22,14,9,0) 34%);
       pointer-events: none;
     }
 
@@ -5546,7 +5548,7 @@
         max-width: 92%;
       }
       .lesson-hero::after {
-        background: linear-gradient(180deg, rgba(28,18,12,.72), rgba(28,18,12,.22));
+        background: linear-gradient(180deg, rgba(22,14,9,.68) 0%, rgba(22,14,9,.26) 58%, rgba(22,14,9,.08) 100%);
       }
       .lesson-overview,
       .culture-question-list,
