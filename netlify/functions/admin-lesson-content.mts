@@ -257,6 +257,9 @@ function validateLessonContent(content: unknown): ValidationResult {
       errors.push("culture must be an object.");
     } else {
       validateString(content.culture.title, "culture.title", errors);
+      validateString(content.culture.image, "culture.image", errors);
+      validateString(content.culture.imageUrl, "culture.imageUrl", errors);
+      validateString(content.culture.imageAlt, "culture.imageAlt", errors);
       validateStringArray(content.culture.body, "culture.body", errors);
 
       if (content.culture.questions !== undefined && !Array.isArray(content.culture.questions)) {
@@ -295,6 +298,85 @@ function validateLessonContent(content: unknown): ValidationResult {
   return {
     valid: errors.length === 0,
     errors,
+  };
+}
+
+async function syncLessonCulture(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<{
+  segmentId: string;
+  blockCount: number;
+} | null> {
+  if (!isRecord(content) || !isRecord(content.culture)) {
+    return null;
+  }
+
+  const culture = content.culture;
+  const title = optionalText(culture.title) || "Culture and History";
+  const bodyParagraphs = Array.isArray(culture.body)
+    ? culture.body.filter((paragraph): paragraph is string => typeof paragraph === "string" && Boolean(paragraph.trim()))
+    : [];
+  const bodyMarkdown = bodyParagraphs.map((paragraph) => paragraph.trim()).join("\n\n");
+  const image = optionalText(culture.image) || optionalText(culture.imageUrl);
+  const imageAlt = optionalText(culture.imageAlt);
+
+  const segmentResult = await client.query(
+    `
+      INSERT INTO public.lesson_segments (
+        lesson_id,
+        slug,
+        title,
+        body_markdown,
+        sort_order
+      )
+      VALUES ($1, 'culture', $2, $3, 3)
+      ON CONFLICT (lesson_id, slug) DO UPDATE
+      SET title = EXCLUDED.title,
+          body_markdown = EXCLUDED.body_markdown,
+          sort_order = EXCLUDED.sort_order
+      RETURNING id
+    `,
+    [lessonId, title, bodyMarkdown || null]
+  );
+  const segmentId = segmentResult.rows[0].id;
+
+  await client.query("DELETE FROM public.lesson_content_blocks WHERE segment_id = $1", [segmentId]);
+
+  const blockResult = await client.query(
+    `
+      INSERT INTO public.lesson_content_blocks (
+        segment_id,
+        block_type,
+        title,
+        body_markdown,
+        content,
+        sort_order
+      )
+      VALUES ($1, 'markdown', $2, $3, $4::jsonb, 0)
+      RETURNING id
+    `,
+    [
+      segmentId,
+      title,
+      bodyMarkdown || null,
+      JSON.stringify({
+        source: "lesson_content_override",
+        kind: "culture",
+        image: image
+          ? {
+              src: image,
+              alt: imageAlt || "",
+            }
+          : null,
+      }),
+    ]
+  );
+
+  return {
+    segmentId,
+    blockCount: blockResult.rowCount || 0,
   };
 }
 
@@ -664,6 +746,7 @@ export default async (request: Request) => {
     const normalizedTitles = await syncLessonTitles(client, lesson.id, body.content);
     const normalizedVocabularyCount = await syncLessonVocabulary(client, lesson.id, body.content);
     const normalizedReading = await syncLessonReading(client, lesson.id, body.content);
+    const normalizedCulture = await syncLessonCulture(client, lesson.id, body.content);
 
     await client.query("COMMIT");
 
@@ -677,6 +760,7 @@ export default async (request: Request) => {
       normalizedTitles,
       normalizedVocabularyCount,
       normalizedReading,
+      normalizedCulture,
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);

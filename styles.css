@@ -2717,6 +2717,18 @@
       border-color: rgba(49,98,85,.2);
     }
 
+    .culture-panel__figure {
+      margin: 0;
+    }
+
+    .culture-panel__figure img {
+      display: block;
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
     .culture-questions {
       display: grid;
       gap: 16px;

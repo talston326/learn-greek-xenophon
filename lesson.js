@@ -348,6 +348,7 @@
 
   function renderCulturePage() {
     const culture = lesson.culture || {};
+    const cultureImage = culture.image || culture.imageUrl;
 
     return `
       ${renderSampleNotice()}
@@ -356,6 +357,11 @@
         <h1>${escapeHtml(culture.title || page.title)}</h1>
       </header>
       <section class="lesson-section enrichment-panel culture-panel">
+        ${cultureImage ? `
+          <figure class="culture-panel__figure">
+            <img src="${escapeHtml(cultureImage)}" alt="${escapeHtml(culture.imageAlt || "")}">
+          </figure>
+        ` : ""}
         ${(culture.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
       </section>
       ${culture.questions?.length ? `
@@ -755,6 +761,10 @@
             <button class="secondary-button" type="button" data-lesson-editor-action="add-culture-question">Add Question</button>
           </div>
           ${renderInput("Culture title", "culture-title", lesson.culture?.title || "")}
+          <div class="lesson-editor-row lesson-editor-row--two">
+            ${renderInput("Image path or URL", "culture-image", lesson.culture?.image || lesson.culture?.imageUrl || "")}
+            ${renderInput("Image alt text", "culture-image-alt", lesson.culture?.imageAlt || "")}
+          </div>
           ${renderTextarea("Body paragraphs", "culture-body", joinParagraphs(lesson.culture?.body), 8)}
           <h4>Comprehension and Reflection</h4>
           <div class="lesson-editor-table">
@@ -913,6 +923,8 @@
     if (page?.template === "culture" || (page?.page === 3 && lesson.culture)) {
       draft.culture ||= {};
       draft.culture.title = fieldValue("culture-title");
+      draft.culture.image = fieldValue("culture-image");
+      draft.culture.imageAlt = fieldValue("culture-image-alt");
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
       draft.culture.questions = Array.from(shell.querySelectorAll('[data-editor-row="culture-question"]')).map((question) => ({
         prompt: fieldValue("culture-prompt", question),
