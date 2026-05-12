@@ -2491,19 +2491,17 @@
       gap: 16px;
     }
 
-    .enrichment-panel {
-      max-width: 980px;
-    }
-
     .enrichment-panel p,
     .culture-panel p {
-      max-width: 78ch;
+      max-width: none;
       font-size: 1.12rem;
       line-height: 1.68;
     }
 
-    .enrichment-panel h2 {
-      max-width: 18ch;
+    .lesson-rich-text::after {
+      content: "";
+      display: block;
+      clear: both;
     }
 
     .word-builder-list {
@@ -2732,18 +2730,44 @@
       border-color: rgba(49,98,85,.2);
     }
 
-    .culture-panel__figure {
+    .lesson-content-image {
+      margin: 0 0 16px;
+    }
+
+    .lesson-content-image--inline-left {
       float: left;
       width: min(34%, 280px);
       margin: 6px 24px 14px 0;
     }
 
-    .culture-panel__figure img {
+    .lesson-content-image--inline-right {
+      float: right;
+      width: min(34%, 280px);
+      margin: 6px 0 14px 24px;
+    }
+
+    .lesson-content-image--full-width {
+      width: 100%;
+      margin: 0 0 18px;
+    }
+
+    .lesson-content-image--centered-between {
+      clear: both;
+      width: min(70%, 540px);
+      margin: 20px auto;
+    }
+
+    .lesson-content-image img {
       display: block;
       width: 100%;
-      max-height: 280px;
+      max-height: 360px;
       object-fit: cover;
       border-radius: 12px;
+    }
+
+    .lesson-content-image--inline-left img,
+    .lesson-content-image--inline-right img {
+      max-height: 280px;
     }
 
     .culture-questions {
@@ -2866,6 +2890,7 @@
     }
 
     .lesson-editor-field input,
+    .lesson-editor-field select,
     .lesson-editor-field textarea {
       width: 100%;
       border: 1px solid rgba(115,0,10,.16);
@@ -5529,7 +5554,11 @@
       .word-builder-list div {
         grid-template-columns: 1fr;
       }
-      .culture-panel__figure {
+      .lesson-content-image,
+      .lesson-content-image--inline-left,
+      .lesson-content-image--inline-right,
+      .lesson-content-image--centered-between,
+      .lesson-content-image--full-width {
         float: none;
         width: 100%;
         margin: 0 0 12px;

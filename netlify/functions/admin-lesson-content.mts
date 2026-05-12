@@ -260,6 +260,7 @@ function validateLessonContent(content: unknown): ValidationResult {
       validateString(content.culture.image, "culture.image", errors);
       validateString(content.culture.imageUrl, "culture.imageUrl", errors);
       validateString(content.culture.imageAlt, "culture.imageAlt", errors);
+      validateString(content.culture.imagePlacement, "culture.imagePlacement", errors);
       validateStringArray(content.culture.body, "culture.body", errors);
 
       if (content.culture.questions !== undefined && !Array.isArray(content.culture.questions)) {
@@ -293,6 +294,7 @@ function validateLessonContent(content: unknown): ValidationResult {
         validateString(section.image, `enrichment[${sectionIndex}].image`, errors);
         validateString(section.imageUrl, `enrichment[${sectionIndex}].imageUrl`, errors);
         validateString(section.imageAlt, `enrichment[${sectionIndex}].imageAlt`, errors);
+        validateString(section.imagePlacement, `enrichment[${sectionIndex}].imagePlacement`, errors);
         validateStringArray(section.body, `enrichment[${sectionIndex}].body`, errors);
       });
     }
@@ -349,6 +351,7 @@ async function syncLessonEnrichment(
     const title = optionalText(section.title) || type;
     const image = optionalText(section.image) || optionalText(section.imageUrl);
     const imageAlt = optionalText(section.imageAlt);
+    const imagePlacement = optionalText(section.imagePlacement) || "inline-left";
     const bodyParagraphs = Array.isArray(section.body)
       ? section.body.filter((paragraph): paragraph is string => typeof paragraph === "string" && Boolean(paragraph.trim()))
       : [];
@@ -397,6 +400,7 @@ async function syncLessonEnrichment(
             ? {
                 src: image,
                 alt: imageAlt || "",
+                placement: imagePlacement,
               }
             : null,
         }),
@@ -431,6 +435,7 @@ async function syncLessonCulture(
   const bodyMarkdown = bodyParagraphs.map((paragraph) => paragraph.trim()).join("\n\n");
   const image = optionalText(culture.image) || optionalText(culture.imageUrl);
   const imageAlt = optionalText(culture.imageAlt);
+  const imagePlacement = optionalText(culture.imagePlacement) || "inline-left";
 
   const segmentResult = await client.query(
     `
@@ -478,6 +483,7 @@ async function syncLessonCulture(
           ? {
               src: image,
               alt: imageAlt || "",
+              placement: imagePlacement,
             }
           : null,
       }),

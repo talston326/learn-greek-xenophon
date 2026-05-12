@@ -3,6 +3,13 @@
   const params = new URLSearchParams(window.location.search);
   const requestedLesson = params.get("lesson") || "1";
   const lessonSlug = window.xenophonLessonData?.normalizeLessonParam?.(requestedLesson) || normalizeLessonParam(requestedLesson);
+  const IMAGE_PLACEMENT_OPTIONS = [
+    { value: "inline-left", label: "Inline left with text wrap" },
+    { value: "inline-right", label: "Inline right with text wrap" },
+    { value: "full-width", label: "Full-width above text" },
+    { value: "centered-between", label: "Centered between paragraphs" },
+    { value: "hidden", label: "Hide image" },
+  ];
   let lesson = window.xenophonLessonData?.getLesson(requestedLesson);
   let page = null;
   let originalLessonForCancel = null;
@@ -101,6 +108,42 @@
     }
 
     return raw;
+  }
+
+  function normalizeImagePlacement(value) {
+    const raw = String(value || "").trim();
+    return IMAGE_PLACEMENT_OPTIONS.some((option) => option.value === raw) ? raw : "inline-left";
+  }
+
+  function renderLessonImageFigure(image, alt = "", placement = "inline-left") {
+    const resolvedImage = resolveLessonImagePath(image);
+    const normalizedPlacement = normalizeImagePlacement(placement);
+
+    if (!resolvedImage || normalizedPlacement === "hidden") {
+      return "";
+    }
+
+    return `
+      <figure class="lesson-content-image lesson-content-image--${escapeHtml(normalizedPlacement)}">
+        <img src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(alt)}">
+      </figure>
+    `;
+  }
+
+  function renderParagraphsWithImage(paragraphs = [], image = "", alt = "", placement = "inline-left") {
+    const normalizedPlacement = normalizeImagePlacement(placement);
+    const imageMarkup = renderLessonImageFigure(image, alt, normalizedPlacement);
+    const body = Array.isArray(paragraphs) ? paragraphs : [];
+
+    if (!imageMarkup || normalizedPlacement !== "centered-between") {
+      return `${imageMarkup}${body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}`;
+    }
+
+    const [firstParagraph, ...remainingParagraphs] = body;
+    const firstMarkup = firstParagraph ? `<p>${escapeHtml(firstParagraph)}</p>` : "";
+    const remainingMarkup = remainingParagraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("");
+
+    return `${firstMarkup}${imageMarkup}${remainingMarkup}`;
   }
 
   function activityUrl(type, pageNumber, topic = "") {
@@ -378,7 +421,6 @@
 
   function renderCulturePage() {
     const culture = lesson.culture || {};
-    const cultureImage = resolveLessonImagePath(culture.image || culture.imageUrl);
 
     return `
       ${renderSampleNotice()}
@@ -387,12 +429,9 @@
         <h1>${escapeHtml(culture.title || page.title)}</h1>
       </header>
       <section class="lesson-section enrichment-panel culture-panel">
-        ${cultureImage ? `
-          <figure class="culture-panel__figure">
-            <img src="${escapeHtml(cultureImage)}" alt="${escapeHtml(culture.imageAlt || "")}">
-          </figure>
-        ` : ""}
-        ${(culture.body || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+        <div class="lesson-rich-text">
+          ${renderParagraphsWithImage(culture.body, culture.image || culture.imageUrl, culture.imageAlt, culture.imagePlacement)}
+        </div>
       </section>
       ${culture.questions?.length ? `
         <section class="lesson-section culture-questions" aria-labelledby="culture-questions-heading">
@@ -553,6 +592,19 @@
       <label class="lesson-editor-field">
         <span>${escapeHtml(label)}</span>
         <textarea rows="${rows}" data-editor-field="${escapeHtml(name)}">${escapeHtml(value)}</textarea>
+      </label>
+    `;
+  }
+
+  function renderSelect(label, name, value = "", options = []) {
+    return `
+      <label class="lesson-editor-field">
+        <span>${escapeHtml(label)}</span>
+        <select data-editor-field="${escapeHtml(name)}">
+          ${options.map((option) => `
+            <option value="${escapeHtml(option.value)}" ${option.value === value ? "selected" : ""}>${escapeHtml(option.label)}</option>
+          `).join("")}
+        </select>
       </label>
     `;
   }
@@ -795,6 +847,7 @@
             ${renderInput("Image path or URL", "culture-image", lesson.culture?.image || lesson.culture?.imageUrl || "")}
             ${renderInput("Image alt text", "culture-image-alt", lesson.culture?.imageAlt || "")}
           </div>
+          ${renderSelect("Image placement", "culture-image-placement", normalizeImagePlacement(lesson.culture?.imagePlacement), IMAGE_PLACEMENT_OPTIONS)}
           ${renderTextarea("Body paragraphs", "culture-body", joinParagraphs(lesson.culture?.body), 8)}
           <h4>Comprehension and Reflection</h4>
           <div class="lesson-editor-table">
@@ -833,6 +886,7 @@
                   ${renderInput("Image path or URL", "enrichment-image", section.image || section.imageUrl || "")}
                   ${renderInput("Image alt text", "enrichment-image-alt", section.imageAlt || "")}
                 </div>
+                ${renderSelect("Image placement", "enrichment-image-placement", normalizeImagePlacement(section.imagePlacement), IMAGE_PLACEMENT_OPTIONS)}
                 ${renderTextarea("Body paragraphs", "enrichment-body", joinParagraphs(section.body), 6)}
               </div>
             `).join("")}
@@ -959,6 +1013,7 @@
       draft.culture.title = fieldValue("culture-title");
       draft.culture.image = fieldValue("culture-image");
       draft.culture.imageAlt = fieldValue("culture-image-alt");
+      draft.culture.imagePlacement = fieldValue("culture-image-placement") || "inline-left";
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
       draft.culture.questions = Array.from(shell.querySelectorAll('[data-editor-row="culture-question"]')).map((question) => ({
         prompt: fieldValue("culture-prompt", question),
@@ -972,6 +1027,7 @@
         title: fieldValue("enrichment-title", section),
         image: fieldValue("enrichment-image", section),
         imageAlt: fieldValue("enrichment-image-alt", section),
+        imagePlacement: fieldValue("enrichment-image-placement", section) || "inline-left",
         body: splitParagraphs(fieldValue("enrichment-body", section)),
       }));
     }
@@ -1154,21 +1210,13 @@
         <h1>Lesson Reflection and Review</h1>
       </header>
       ${lesson.enrichment.slice(0, 2).map((section) => `
-        ${(() => {
-          const sectionImage = resolveLessonImagePath(section.image || section.imageUrl);
-          return `
         <section class="lesson-section enrichment-panel">
           <p class="eyebrow">${escapeHtml(section.type)}</p>
           <h2>${escapeHtml(section.title)}</h2>
-          ${sectionImage ? `
-            <figure class="culture-panel__figure">
-              <img src="${escapeHtml(sectionImage)}" alt="${escapeHtml(section.imageAlt || "")}">
-            </figure>
-          ` : ""}
-          ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+          <div class="lesson-rich-text">
+            ${renderParagraphsWithImage(section.body, section.image || section.imageUrl, section.imageAlt, section.imagePlacement)}
+          </div>
         </section>
-          `;
-        })()}
       `).join("")}
       <section class="lesson-section gate-panel lesson-quiz-panel" aria-labelledby="lesson-quiz-heading">
         <div class="lesson-section__header">
