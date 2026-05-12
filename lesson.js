@@ -551,6 +551,22 @@
     return root.querySelector(`[data-editor-field="${name}"]`)?.value || "";
   }
 
+  function hasEditorField(name, root = shell) {
+    return Boolean(root.querySelector(`[data-editor-field="${name}"]`));
+  }
+
+  function renderLessonTitleEditor() {
+    const greekTitle = lesson.greekTitle || lesson.banner?.text || lesson.banner?.caption || "";
+
+    return `
+      <section class="lesson-editor-card" aria-labelledby="lesson-editor-title">
+        <h3 id="lesson-editor-title">Lesson Title</h3>
+        ${renderInput("English title", "lesson-title", lesson.title || "")}
+        ${renderTextarea("Greek title / banner text", "lesson-greek-title", greekTitle, 3)}
+      </section>
+    `;
+  }
+
   function renderVocabularyEditor() {
     return `
       <section class="lesson-editor-card" aria-labelledby="lesson-editor-vocabulary">
@@ -620,15 +636,13 @@
   }
 
   function renderPageOneEditor() {
-    const bannerText = lesson.banner?.text || lesson.greekTitle || lesson.banner?.caption || "";
-
     return `
       <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
         <h2 id="lesson-editor-heading">Edit Page 1</h2>
+        ${renderLessonTitleEditor()}
         <section class="lesson-editor-card">
-          <h3>Banner</h3>
+          <h3>Banner Image</h3>
           ${renderInput("Banner image", "banner-image", lesson.banner?.image || "")}
-          ${renderTextarea("Banner text", "banner-text", bannerText, 3)}
         </section>
         ${renderVocabularyEditor()}
         ${renderReadingEditor()}
@@ -719,6 +733,7 @@
     return `
       <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
         <h2 id="lesson-editor-heading">Edit Page 2</h2>
+        ${renderLessonTitleEditor()}
         ${renderWordStudyEditor()}
         ${renderGrammarEditor()}
       </section>
@@ -733,6 +748,7 @@
     return `
       <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
         <h2 id="lesson-editor-heading">Edit Page 3</h2>
+        ${renderLessonTitleEditor()}
         <section class="lesson-editor-card" aria-labelledby="lesson-editor-culture">
           <div class="lesson-section__header">
             <h3 id="lesson-editor-culture">Greek World / Context</h3>
@@ -759,6 +775,7 @@
     return `
       <section class="lesson-section lesson-editor" aria-labelledby="lesson-editor-heading">
         <h2 id="lesson-editor-heading">Edit Page 3</h2>
+        ${renderLessonTitleEditor()}
         <section class="lesson-editor-card" aria-labelledby="lesson-editor-enrichment">
           <div class="lesson-section__header">
             <h3 id="lesson-editor-enrichment">Enrichment and Reflection</h3>
@@ -818,11 +835,21 @@
   function readEditedLessonFromForm() {
     const draft = deepCopy(lesson);
 
+    if (hasEditorField("lesson-title")) {
+      draft.title = fieldValue("lesson-title");
+    }
+
+    if (hasEditorField("lesson-greek-title")) {
+      const greekTitle = fieldValue("lesson-greek-title");
+      draft.greekTitle = greekTitle;
+      draft.banner ||= {};
+      draft.banner.text = greekTitle;
+      draft.banner.caption = greekTitle;
+    }
+
     if (page?.template === "reading") {
       draft.banner ||= {};
       draft.banner.image = fieldValue("banner-image");
-      draft.banner.text = fieldValue("banner-text");
-      draft.banner.caption = fieldValue("banner-text");
       draft.vocabulary = Array.from(shell.querySelectorAll('[data-editor-row="vocab-group"]')).map((group) => ({
         category: fieldValue("vocab-category", group),
         items: Array.from(group.querySelectorAll('[data-editor-row="vocab-item"]')).map((item) => ({

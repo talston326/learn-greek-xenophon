@@ -76,6 +76,9 @@ function validateLessonContent(content: unknown): ValidationResult {
     };
   }
 
+  validateString(content.title, "title", errors);
+  validateString(content.greekTitle, "greekTitle", errors);
+
   if (content.banner !== undefined) {
     if (!isRecord(content.banner)) {
       errors.push("banner must be an object.");
