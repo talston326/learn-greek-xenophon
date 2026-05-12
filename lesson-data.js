@@ -5332,7 +5332,6 @@
       id: "lesson-4",
       number: 4,
       title: "The Student and the Teacher",
-      sampleNotice: "Sample pilot content for the reusable lesson-template sprint.",
       banner: {
         image: "assets/module-1-sophia-banner.jpeg",
         alt: "A quiet classical study scene representing Socratic teaching and learning",
