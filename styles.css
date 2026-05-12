@@ -2491,6 +2491,21 @@
       gap: 16px;
     }
 
+    .enrichment-panel {
+      max-width: 980px;
+    }
+
+    .enrichment-panel p,
+    .culture-panel p {
+      max-width: 78ch;
+      font-size: 1.12rem;
+      line-height: 1.68;
+    }
+
+    .enrichment-panel h2 {
+      max-width: 18ch;
+    }
+
     .word-builder-list {
       display: grid;
       gap: 8px;
@@ -2719,8 +2734,8 @@
 
     .culture-panel__figure {
       float: left;
-      width: min(42%, 320px);
-      margin: 4px 20px 12px 0;
+      width: min(34%, 280px);
+      margin: 6px 24px 14px 0;
     }
 
     .culture-panel__figure img {
