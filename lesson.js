@@ -73,6 +73,36 @@
       .replaceAll("'", "&#039;");
   }
 
+  function resolveLessonImagePath(value) {
+    const raw = String(value || "").trim();
+
+    if (!raw) {
+      return "";
+    }
+
+    if (raw.startsWith("/asset/")) {
+      return `assets/${raw.slice("/asset/".length)}`;
+    }
+
+    if (raw.startsWith("/assets/")) {
+      return `assets/${raw.slice("/assets/".length)}`;
+    }
+
+    if (/^(https?:|data:|blob:|\/)/i.test(raw) || raw.startsWith("assets/") || raw.startsWith("maps/assets/")) {
+      return raw;
+    }
+
+    if (raw.startsWith("asset/")) {
+      return `assets/${raw.slice("asset/".length)}`;
+    }
+
+    if (!raw.includes("/")) {
+      return `assets/${raw}`;
+    }
+
+    return raw;
+  }
+
   function activityUrl(type, pageNumber, topic = "") {
     const query = new URLSearchParams({
       lesson: String(lesson.number),
@@ -348,7 +378,7 @@
 
   function renderCulturePage() {
     const culture = lesson.culture || {};
-    const cultureImage = culture.image || culture.imageUrl;
+    const cultureImage = resolveLessonImagePath(culture.image || culture.imageUrl);
 
     return `
       ${renderSampleNotice()}
@@ -1124,16 +1154,21 @@
         <h1>Lesson Reflection and Review</h1>
       </header>
       ${lesson.enrichment.slice(0, 2).map((section) => `
+        ${(() => {
+          const sectionImage = resolveLessonImagePath(section.image || section.imageUrl);
+          return `
         <section class="lesson-section enrichment-panel">
           <p class="eyebrow">${escapeHtml(section.type)}</p>
           <h2>${escapeHtml(section.title)}</h2>
-          ${section.image || section.imageUrl ? `
+          ${sectionImage ? `
             <figure class="culture-panel__figure">
-              <img src="${escapeHtml(section.image || section.imageUrl)}" alt="${escapeHtml(section.imageAlt || "")}">
+              <img src="${escapeHtml(sectionImage)}" alt="${escapeHtml(section.imageAlt || "")}">
             </figure>
           ` : ""}
           ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
         </section>
+          `;
+        })()}
       `).join("")}
       <section class="lesson-section gate-panel lesson-quiz-panel" aria-labelledby="lesson-quiz-heading">
         <div class="lesson-section__header">

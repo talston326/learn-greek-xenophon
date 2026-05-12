@@ -2718,13 +2718,15 @@
     }
 
     .culture-panel__figure {
-      margin: 0;
+      float: left;
+      width: min(42%, 320px);
+      margin: 4px 20px 12px 0;
     }
 
     .culture-panel__figure img {
       display: block;
       width: 100%;
-      max-height: 360px;
+      max-height: 280px;
       object-fit: cover;
       border-radius: 12px;
     }
@@ -5511,6 +5513,11 @@
       .word-building-panel--compact .word-builder-list,
       .word-builder-list div {
         grid-template-columns: 1fr;
+      }
+      .culture-panel__figure {
+        float: none;
+        width: 100%;
+        margin: 0 0 12px;
       }
       .lesson-section__header,
       .grammar-subsection__heading,
