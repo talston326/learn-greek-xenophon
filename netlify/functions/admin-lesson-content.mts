@@ -68,6 +68,61 @@ function validateGreekEnglishRows(value: unknown, path: string, errors: string[]
   });
 }
 
+function optionalText(value: unknown): string | null {
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
+function buildReadingNotesMarkdown(reading: Record<string, unknown>): string | null {
+  const sections: string[] = [];
+
+  if (Array.isArray(reading.introduction)) {
+    const introduction = reading.introduction
+      .filter((paragraph): paragraph is string => typeof paragraph === "string" && Boolean(paragraph.trim()))
+      .map((paragraph) => paragraph.trim())
+      .join("\n\n");
+
+    if (introduction) {
+      sections.push(`## Introduction\n\n${introduction}`);
+    }
+  }
+
+  if (Array.isArray(reading.paragraphs)) {
+    const glossSections = reading.paragraphs
+      .map((paragraph, paragraphIndex) => {
+        if (!isRecord(paragraph) || !Array.isArray(paragraph.gloss)) {
+          return "";
+        }
+
+        const rows = paragraph.gloss
+          .filter(isRecord)
+          .map((entry) => {
+            const greek = optionalText(entry.greek);
+            const english = optionalText(entry.english);
+
+            if (!greek && !english) {
+              return "";
+            }
+
+            if (greek && english) {
+              return `- **${greek}** - ${english}`;
+            }
+
+            return `- ${greek || english}`;
+          })
+          .filter(Boolean);
+
+        return rows.length ? `### Paragraph ${paragraphIndex + 1}\n\n${rows.join("\n")}` : "";
+      })
+      .filter(Boolean);
+
+    if (glossSections.length) {
+      sections.push(`## Glosses\n\n${glossSections.join("\n\n")}`);
+    }
+  }
+
+  return sections.length ? sections.join("\n\n") : null;
+}
+
 function validateLessonContent(content: unknown): ValidationResult {
   const errors: string[] = [];
 
@@ -129,6 +184,8 @@ function validateLessonContent(content: unknown): ValidationResult {
     } else {
       validateString(content.reading.title, "reading.title", errors);
       validateString(content.reading.translation, "reading.translation", errors);
+      validateString(content.reading.notesMarkdown, "reading.notesMarkdown", errors);
+      validateString(content.reading.sourceCitation, "reading.sourceCitation", errors);
 
       if (content.reading.paragraphs !== undefined && !Array.isArray(content.reading.paragraphs)) {
         errors.push("reading.paragraphs must be an array.");
@@ -328,6 +385,105 @@ async function syncLessonVocabulary(
   return sortOrder;
 }
 
+async function syncLessonReading(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<{
+  id: string;
+  title: string;
+  greekParagraphCount: number;
+} | null> {
+  if (!isRecord(content) || !isRecord(content.reading)) {
+    return null;
+  }
+
+  const reading = content.reading;
+  const title = optionalText(reading.title) || optionalText(content.title) || "Reading";
+  const paragraphs = Array.isArray(reading.paragraphs) ? reading.paragraphs : [];
+  const greekParagraphs = paragraphs
+    .filter(isRecord)
+    .map((paragraph) => optionalText(paragraph.greek))
+    .filter((paragraph): paragraph is string => Boolean(paragraph));
+  const greekText = greekParagraphs.length ? greekParagraphs.join("\n\n") : null;
+  const translation = optionalText(reading.translation);
+  const notesMarkdown = optionalText(reading.notesMarkdown) || buildReadingNotesMarkdown(reading);
+  const sourceCitation = optionalText(reading.sourceCitation);
+
+  const segmentResult = await client.query(
+    `
+      SELECT id
+      FROM public.lesson_segments
+      WHERE lesson_id = $1
+      ORDER BY sort_order, slug
+      LIMIT 1
+    `,
+    [lessonId]
+  );
+  const segmentId = segmentResult.rows[0]?.id || null;
+
+  const existingResult = await client.query(
+    `
+      SELECT id
+      FROM public.readings
+      WHERE lesson_id = $1
+      ORDER BY sort_order, id
+      LIMIT 1
+      FOR UPDATE
+    `,
+    [lessonId]
+  );
+  const existing = existingResult.rows[0];
+
+  if (existing) {
+    const updateResult = await client.query(
+      `
+        UPDATE public.readings
+        SET segment_id = $2,
+            title = $3,
+            greek_text = $4,
+            translation = $5,
+            notes_markdown = $6,
+            source_citation = $7,
+            sort_order = 0
+        WHERE id = $1
+        RETURNING id, title
+      `,
+      [existing.id, segmentId, title, greekText, translation, notesMarkdown, sourceCitation]
+    );
+
+    return {
+      id: updateResult.rows[0].id,
+      title: updateResult.rows[0].title,
+      greekParagraphCount: greekParagraphs.length,
+    };
+  }
+
+  const insertResult = await client.query(
+    `
+      INSERT INTO public.readings (
+        lesson_id,
+        segment_id,
+        title,
+        greek_text,
+        translation,
+        notes_markdown,
+        source_citation,
+        sort_order
+      )
+      VALUES ($1, $2, $3, $4, $5, $6, $7, 0)
+      RETURNING id, title
+    `,
+    [lessonId, segmentId, title, greekText, translation, notesMarkdown, sourceCitation]
+  );
+
+  return {
+    id: insertResult.rows[0].id,
+    title: insertResult.rows[0].title,
+    greekParagraphCount: greekParagraphs.length,
+  };
+}
+
 async function syncLessonTitles(
   client: DatabaseClient,
   lessonId: string,
@@ -507,6 +663,7 @@ export default async (request: Request) => {
     );
     const normalizedTitles = await syncLessonTitles(client, lesson.id, body.content);
     const normalizedVocabularyCount = await syncLessonVocabulary(client, lesson.id, body.content);
+    const normalizedReading = await syncLessonReading(client, lesson.id, body.content);
 
     await client.query("COMMIT");
 
@@ -519,6 +676,7 @@ export default async (request: Request) => {
       updatedAt: saveResult.rows[0].updated_at,
       normalizedTitles,
       normalizedVocabularyCount,
+      normalizedReading,
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);
