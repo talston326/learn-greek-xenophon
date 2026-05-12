@@ -290,6 +290,9 @@ function validateLessonContent(content: unknown): ValidationResult {
 
         validateString(section.type, `enrichment[${sectionIndex}].type`, errors);
         validateString(section.title, `enrichment[${sectionIndex}].title`, errors);
+        validateString(section.image, `enrichment[${sectionIndex}].image`, errors);
+        validateString(section.imageUrl, `enrichment[${sectionIndex}].imageUrl`, errors);
+        validateString(section.imageAlt, `enrichment[${sectionIndex}].imageAlt`, errors);
         validateStringArray(section.body, `enrichment[${sectionIndex}].body`, errors);
       });
     }
@@ -298,6 +301,113 @@ function validateLessonContent(content: unknown): ValidationResult {
   return {
     valid: errors.length === 0,
     errors,
+  };
+}
+
+async function syncLessonEnrichment(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<{
+  segmentCount: number;
+  blockCount: number;
+} | null> {
+  if (!isRecord(content) || !Array.isArray(content.enrichment)) {
+    return null;
+  }
+
+  const existingSegments = await client.query(
+    `
+      SELECT id
+      FROM public.lesson_segments
+      WHERE lesson_id = $1
+        AND slug LIKE 'enrichment-%'
+    `,
+    [lessonId]
+  );
+
+  if (existingSegments.rowCount) {
+    await client.query(
+      `
+        DELETE FROM public.lesson_segments
+        WHERE lesson_id = $1
+          AND slug LIKE 'enrichment-%'
+      `,
+      [lessonId]
+    );
+  }
+
+  let segmentCount = 0;
+  let blockCount = 0;
+
+  for (const [index, section] of content.enrichment.entries()) {
+    if (!isRecord(section)) {
+      continue;
+    }
+
+    const type = optionalText(section.type) || "Enrichment";
+    const title = optionalText(section.title) || type;
+    const image = optionalText(section.image) || optionalText(section.imageUrl);
+    const imageAlt = optionalText(section.imageAlt);
+    const bodyParagraphs = Array.isArray(section.body)
+      ? section.body.filter((paragraph): paragraph is string => typeof paragraph === "string" && Boolean(paragraph.trim()))
+      : [];
+    const bodyMarkdown = bodyParagraphs.map((paragraph) => paragraph.trim()).join("\n\n");
+    const sortOrder = 30 + index;
+
+    const segmentResult = await client.query(
+      `
+        INSERT INTO public.lesson_segments (
+          lesson_id,
+          slug,
+          title,
+          body_markdown,
+          sort_order
+        )
+        VALUES ($1, $2, $3, $4, $5)
+        RETURNING id
+      `,
+      [lessonId, `enrichment-${index + 1}`, title, bodyMarkdown || null, sortOrder]
+    );
+    const segmentId = segmentResult.rows[0].id;
+    segmentCount += 1;
+
+    const blockResult = await client.query(
+      `
+        INSERT INTO public.lesson_content_blocks (
+          segment_id,
+          block_type,
+          title,
+          body_markdown,
+          content,
+          sort_order
+        )
+        VALUES ($1, 'markdown', $2, $3, $4::jsonb, 0)
+        RETURNING id
+      `,
+      [
+        segmentId,
+        type,
+        bodyMarkdown || null,
+        JSON.stringify({
+          source: "lesson_content_override",
+          kind: "enrichment",
+          type,
+          image: image
+            ? {
+                src: image,
+                alt: imageAlt || "",
+              }
+            : null,
+        }),
+      ]
+    );
+    blockCount += blockResult.rowCount || 0;
+  }
+
+  return {
+    segmentCount,
+    blockCount,
   };
 }
 
@@ -747,6 +857,7 @@ export default async (request: Request) => {
     const normalizedVocabularyCount = await syncLessonVocabulary(client, lesson.id, body.content);
     const normalizedReading = await syncLessonReading(client, lesson.id, body.content);
     const normalizedCulture = await syncLessonCulture(client, lesson.id, body.content);
+    const normalizedEnrichment = await syncLessonEnrichment(client, lesson.id, body.content);
 
     await client.query("COMMIT");
 
@@ -761,6 +872,7 @@ export default async (request: Request) => {
       normalizedVocabularyCount,
       normalizedReading,
       normalizedCulture,
+      normalizedEnrichment,
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);

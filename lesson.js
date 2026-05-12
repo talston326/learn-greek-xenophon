@@ -799,6 +799,10 @@
                   ${renderRemoveButton("Remove Section")}
                 </div>
                 ${renderInput("Title", "enrichment-title", section.title || "")}
+                <div class="lesson-editor-row lesson-editor-row--two">
+                  ${renderInput("Image path or URL", "enrichment-image", section.image || section.imageUrl || "")}
+                  ${renderInput("Image alt text", "enrichment-image-alt", section.imageAlt || "")}
+                </div>
                 ${renderTextarea("Body paragraphs", "enrichment-body", joinParagraphs(section.body), 6)}
               </div>
             `).join("")}
@@ -936,6 +940,8 @@
       draft.enrichment = Array.from(shell.querySelectorAll('[data-editor-row="enrichment-section"]')).map((section) => ({
         type: fieldValue("enrichment-type", section),
         title: fieldValue("enrichment-title", section),
+        image: fieldValue("enrichment-image", section),
+        imageAlt: fieldValue("enrichment-image-alt", section),
         body: splitParagraphs(fieldValue("enrichment-body", section)),
       }));
     }
@@ -1121,6 +1127,11 @@
         <section class="lesson-section enrichment-panel">
           <p class="eyebrow">${escapeHtml(section.type)}</p>
           <h2>${escapeHtml(section.title)}</h2>
+          ${section.image || section.imageUrl ? `
+            <figure class="culture-panel__figure">
+              <img src="${escapeHtml(section.image || section.imageUrl)}" alt="${escapeHtml(section.imageAlt || "")}">
+            </figure>
+          ` : ""}
           ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
         </section>
       `).join("")}
