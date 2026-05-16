@@ -16,7 +16,6 @@
   let originalLessonForCancel = null;
   let editStatus = "";
   let isEditMode = false;
-  let loadedDraftVersion = null;
 
   if (!shell) {
     return;
@@ -97,36 +96,6 @@
       }
     } catch (error) {
       console.warn("Using static lesson-data.js fallback for lesson content.", error);
-    }
-  }
-
-  async function loadAdministratorDraft() {
-    const session = readSession();
-
-    if (!isAdministrator() || !session?.email) {
-      return;
-    }
-
-    try {
-      const draftUrl = `/api/admin/lesson-content?slug=${encodeURIComponent(lessonSlug)}&email=${encodeURIComponent(session.email)}&activeRole=${encodeURIComponent(session.activeRole || "")}`;
-      const response = await fetch(draftUrl, {
-        headers: {
-          "x-xenophon-user-email": session.email
-        }
-      });
-      const data = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        throw new Error(data.error || "Draft content could not be loaded.");
-      }
-
-      if (data.hasDraft && data.content) {
-        loadedDraftVersion = data.version || null;
-        setActiveLesson(mergeLessonContent(lesson, data.content));
-        editStatus = `Loaded draft version ${loadedDraftVersion}. Students still see the published lesson until you publish.`;
-      }
-    } catch (error) {
-      console.warn("No administrator draft was loaded.", error);
     }
   }
 
@@ -634,9 +603,7 @@
         <div class="lesson-button-row">
           ${isEditMode ? `
             <button class="secondary-button" type="button" data-lesson-editor-action="cancel">Cancel</button>
-            <button class="secondary-button" type="button" data-lesson-editor-action="preview-draft">Preview Draft</button>
-            <button class="secondary-button" type="button" data-lesson-editor-action="save-draft">Save Draft</button>
-            <button class="primary-button" type="button" data-lesson-editor-action="publish">Publish</button>
+            <button class="primary-button" type="button" data-lesson-editor-action="save">Save</button>
           ` : `
             <button class="primary-button" type="button" data-lesson-editor-action="edit">Edit</button>
           `}
@@ -1180,7 +1147,7 @@
     render();
   }
 
-  async function saveEditedLesson(action = "draft") {
+  async function saveEditedLesson() {
     let draft;
 
     try {
@@ -1203,7 +1170,7 @@
         body: JSON.stringify({
           email: session?.email || "",
           activeRole: session?.activeRole || "",
-          action,
+          action: "publish",
           content: draft,
         }),
       });
@@ -1217,12 +1184,9 @@
       }
 
       setActiveLesson(data.content);
-      loadedDraftVersion = action === "draft" ? data.version || loadedDraftVersion : null;
       originalLessonForCancel = null;
       isEditMode = false;
-      editStatus = action === "draft"
-        ? `Saved draft version ${data.version}. Students still see the published lesson.`
-        : `Published ${lesson.title || lesson.id} as version ${data.version}.`;
+      editStatus = `Saved ${lesson.title || lesson.id} and committed it to the database as version ${data.version}.`;
       render();
     } catch (error) {
       editStatus = error.message || "Lesson content could not be saved.";
@@ -1253,28 +1217,9 @@
           return;
         }
 
-        if (action === "preview-draft") {
-          try {
-            setActiveLesson(readEditedLessonFromForm());
-            isEditMode = false;
-            editStatus = "Previewing draft locally. Save Draft or Publish when ready.";
-            render();
-          } catch (error) {
-            editStatus = error.message || "The draft could not be previewed.";
-            render();
-          }
-          return;
-        }
-
-        if (action === "save-draft") {
+        if (action === "save") {
           button.setAttribute("aria-busy", "true");
-          await saveEditedLesson("draft");
-          return;
-        }
-
-        if (action === "publish") {
-          button.setAttribute("aria-busy", "true");
-          await saveEditedLesson("publish");
+          await saveEditedLesson();
           return;
         }
 
@@ -1507,7 +1452,6 @@
 
   async function init() {
     await loadPublishedLessonContent();
-    await loadAdministratorDraft();
     render();
 
     if (lesson && page) {
