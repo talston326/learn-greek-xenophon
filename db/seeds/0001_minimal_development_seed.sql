@@ -238,6 +238,111 @@ SET number_label = EXCLUDED.number_label,
     sort_order = EXCLUDED.sort_order,
     is_published = true;
 
+WITH placeholder_items AS (
+  SELECT id
+  FROM public.vocabulary_items
+  WHERE display_form = 'Vocabulary will be added later.'
+    AND gloss = 'Course vocabulary placeholder'
+)
+DELETE FROM public.lesson_vocabulary lv
+USING placeholder_items pi
+WHERE lv.vocabulary_item_id = pi.id;
+
+DELETE FROM public.vocabulary_items vi
+WHERE vi.display_form = 'Vocabulary will be added later.'
+  AND vi.gloss = 'Course vocabulary placeholder'
+  AND NOT EXISTS (
+    SELECT 1
+    FROM public.lesson_vocabulary lv
+    WHERE lv.vocabulary_item_id = vi.id
+  );
+
+WITH course AS (
+  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+),
+seed_vocabulary(lesson_slug, sort_order, category, display_form, gloss) AS (
+  VALUES
+    ('lesson-1', 1, 'Verbs', 'ἀκούει', 'he/she/it hears, listens to'),
+    ('lesson-1', 2, 'Verbs', 'βαδίζει', 'he/she/it walks'),
+    ('lesson-1', 3, 'Verbs', 'γράφει', 'he/she/it writes'),
+    ('lesson-1', 4, 'Verbs', 'γυμνάζει', 'he/she/it trains, exercises'),
+    ('lesson-1', 5, 'Verbs', 'διδάσκει', 'he/she/it teaches'),
+    ('lesson-1', 6, 'Verbs', 'ἐγείρει', 'he/she/it awakens, rouses'),
+    ('lesson-1', 7, 'Verbs', 'ἐστιν', 'he/she/it is'),
+    ('lesson-1', 8, 'Verbs', 'ζητεῖ', 'he/she/it seeks'),
+    ('lesson-1', 9, 'Verbs', 'θαυμάζει', 'he/she/it wonders, admires, is amazed'),
+    ('lesson-1', 10, 'Verbs', 'λέγει', 'he/she/it says, speaks'),
+    ('lesson-1', 11, 'Verbs', 'μειδιᾷ', 'he/she/it smiles'),
+    ('lesson-1', 12, 'Verbs', 'οἰκεῖ', 'he/she/it lives, dwells'),
+    ('lesson-1', 13, 'Verbs', 'ὁρᾷ', 'he/she/it sees'),
+    ('lesson-1', 14, 'Verbs', 'παιδεύει', 'he/she/it educates, trains'),
+    ('lesson-1', 15, 'Verbs', 'φιλεῖ', 'he/she/it loves'),
+    ('lesson-1', 16, 'Verbs', 'χαίρει', 'he/she/it rejoices, is glad'),
+    ('lesson-1', 17, 'Nouns', 'ἀλήθεια, ἡ', 'truth'),
+    ('lesson-1', 18, 'Nouns', 'ἄνθρωπος, ὁ', 'human being, man'),
+    ('lesson-1', 19, 'Nouns', 'ἀρετή, ἡ', 'virtue, excellence'),
+    ('lesson-1', 20, 'Nouns', 'βιβλίον, τό', 'book'),
+    ('lesson-1', 21, 'Nouns', 'μαθητής, ὁ', 'student, learner'),
+    ('lesson-1', 22, 'Nouns', 'νεανίας, ὁ', 'young man'),
+    ('lesson-1', 23, 'Nouns', 'σοφία, ἡ', 'wisdom'),
+    ('lesson-1', 24, 'Nouns', 'Σωκράτης, ὁ', 'Socrates'),
+    ('lesson-1', 25, 'Nouns', 'σῶμα, τό', 'body'),
+    ('lesson-1', 26, 'Nouns', 'ψυχή, ἡ', 'soul'),
+    ('lesson-1', 27, 'Nouns', 'Ξενοφῶν, ὁ', 'Xenophon'),
+    ('lesson-1', 28, 'Adjectives', 'κακός, κακή, κακόν', 'bad'),
+    ('lesson-1', 29, 'Adjectives', 'καλός, καλή, καλόν', 'beautiful, noble, good'),
+    ('lesson-1', 30, 'Adjectives', 'νέος, νέα, νέον', 'young, new'),
+    ('lesson-4', 1, 'Verbs', 'διδάσκει', 'teaches'),
+    ('lesson-4', 2, 'Verbs', 'μανθάνει', 'learns'),
+    ('lesson-4', 3, 'Verbs', 'γράφει', 'writes'),
+    ('lesson-4', 4, 'Nouns', 'ἡ παιδεία', 'education, training'),
+    ('lesson-4', 5, 'Nouns', 'ἡ τέχνη', 'skill, craft'),
+    ('lesson-4', 6, 'Nouns', 'ἡ γραφή', 'writing'),
+    ('lesson-4', 7, 'Adjectives', 'καλή', 'good, noble, beautiful'),
+    ('lesson-4', 8, 'Adjectives', 'σοφή', 'wise'),
+    ('lesson-4', 9, 'Prepositional Phrases', 'παρὰ τῷ διδασκάλῳ', 'beside / with the teacher'),
+    ('lesson-4', 10, 'Adverbs', 'καλῶς', 'well'),
+    ('lesson-4', 11, 'Conjunctions', 'καί', 'and, also'),
+    ('lesson-4', 12, 'Particles', 'δέ', 'and, but; marks a new step'),
+    ('lesson-4', 13, 'Proper Names and Adjectives', 'Ξενοφῶν', 'Xenophon'),
+    ('lesson-4', 14, 'Proper Names and Adjectives', 'Σωκρατικός', 'Socratic')
+),
+upserted_vocabulary AS (
+  INSERT INTO public.vocabulary_items (
+    lemma,
+    display_form,
+    part_of_speech,
+    gloss,
+    morphology
+  )
+  SELECT
+    display_form,
+    display_form,
+    category,
+    gloss,
+    jsonb_build_object(
+      'source', 'minimal_development_seed',
+      'category', category
+    )
+  FROM seed_vocabulary
+  ON CONFLICT (lemma, display_form, gloss) DO UPDATE
+  SET part_of_speech = EXCLUDED.part_of_speech,
+      morphology = EXCLUDED.morphology,
+      updated_at = now()
+  RETURNING id, display_form, gloss
+)
+INSERT INTO public.lesson_vocabulary (lesson_id, vocabulary_item_id, sort_order)
+SELECT l.id, uv.id, sv.sort_order
+FROM seed_vocabulary sv
+JOIN upserted_vocabulary uv
+  ON uv.display_form = sv.display_form
+ AND uv.gloss = sv.gloss
+JOIN course c ON true
+JOIN public.modules m ON m.course_id = c.id
+JOIN public.lessons l ON l.module_id = m.id AND l.slug = sv.lesson_slug
+ON CONFLICT (lesson_id, vocabulary_item_id) DO UPDATE
+SET sort_order = EXCLUDED.sort_order;
+
 WITH course AS (
   SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
 ),

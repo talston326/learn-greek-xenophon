@@ -4649,14 +4649,7 @@
           template: "culture"
         }
       ],
-      vocabulary: [
-        {
-          category: "Vocabulary",
-          items: [
-            { greek: "Vocabulary will be added later.", english: "Course vocabulary placeholder" }
-          ]
-        }
-      ],
+      vocabulary: [],
       reading: {
         title: "Greek Reading",
         paragraphs: [

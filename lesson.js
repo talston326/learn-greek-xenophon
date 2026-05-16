@@ -211,6 +211,12 @@
   }
 
   function renderVocabulary() {
+    const vocabularyGroups = (lesson.vocabulary || []).filter((group) => group.items?.length);
+
+    if (!vocabularyGroups.length) {
+      return "";
+    }
+
     return `
       <section class="lesson-section" aria-labelledby="lesson-vocabulary-heading">
         <div class="lesson-section__header">
@@ -218,7 +224,7 @@
           <a class="lesson-flashcard-link secondary-button" href="${activityUrl("vocab-flashcards", 1)}">Vocabulary Flashcards</a>
         </div>
         <div class="vocab-document">
-          ${lesson.vocabulary.map((group) => `
+          ${vocabularyGroups.map((group) => `
             <section class="vocab-group">
               <h3>${escapeHtml(group.category)}</h3>
               <ul>

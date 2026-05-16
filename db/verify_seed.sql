@@ -83,7 +83,16 @@ WHERE slug IN ('first-steps', 'word-collector', 'grammar-novice', 'diligent-lear
 UNION ALL
 SELECT 'levels', count(*)::text, '4'
 FROM public.levels levels
-JOIN course c ON c.id = levels.course_id;
+JOIN course c ON c.id = levels.course_id
+UNION ALL
+SELECT 'seed vocabulary links', count(*)::text, '44'
+FROM public.lesson_vocabulary lv
+JOIN public.vocabulary_items vi ON vi.id = lv.vocabulary_item_id
+JOIN public.lessons l ON l.id = lv.lesson_id
+JOIN public.modules m ON m.id = l.module_id
+JOIN course c ON c.id = m.course_id
+WHERE l.slug IN ('lesson-1', 'lesson-4')
+  AND vi.morphology->>'source' = 'minimal_development_seed';
 
 SELECT u.email::text, array_agg(ur.role_id ORDER BY CASE ur.role_id WHEN 'administrator' THEN 1 WHEN 'professor' THEN 2 WHEN 'student' THEN 3 ELSE 4 END) AS roles
 FROM public.users u
