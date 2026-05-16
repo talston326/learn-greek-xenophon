@@ -10,6 +10,7 @@ type LessonContentRequest = {
   activeRole?: string;
   content?: unknown;
   note?: string;
+  action?: "draft" | "publish";
 };
 
 type ValidationResult = {
@@ -18,6 +19,10 @@ type ValidationResult = {
 };
 
 type DatabaseClient = ReturnType<typeof createDatabaseClient>;
+
+type AuthenticatedAdmin = {
+  id: string;
+};
 
 function normalizeLessonSlug(value: unknown) {
   const raw = String(value || "").trim().toLowerCase();
@@ -121,6 +126,46 @@ function buildReadingNotesMarkdown(reading: Record<string, unknown>): string | n
   }
 
   return sections.length ? sections.join("\n\n") : null;
+}
+
+async function getAuthenticatedAdmin(
+  client: DatabaseClient,
+  email: string
+): Promise<AuthenticatedAdmin | null> {
+  const userResult = await client.query(
+    `
+      SELECT u.id
+      FROM public.users u
+      JOIN public.user_roles ur ON ur.user_id = u.id
+      WHERE u.email = $1::citext
+        AND u.status = 'active'
+        AND ur.role_id = 'administrator'
+      LIMIT 1
+    `,
+    [email]
+  );
+
+  return userResult.rows[0] || null;
+}
+
+async function getLessonBySlug(client: DatabaseClient, slug: string) {
+  const lessonResult = await client.query(
+    `
+      SELECT
+        l.id,
+        l.slug,
+        m.course_id,
+        m.sort_order AS module_sort_order,
+        l.sort_order AS lesson_sort_order
+      FROM public.lessons l
+      JOIN public.modules m ON m.id = l.module_id
+      WHERE l.slug = $1
+      LIMIT 1
+    `,
+    [slug]
+  );
+
+  return lessonResult.rows[0] || null;
 }
 
 function validateLessonContent(content: unknown): ValidationResult {
@@ -723,12 +768,225 @@ async function syncLessonTitles(
   };
 }
 
+async function syncLessonPages(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<number> {
+  if (!isRecord(content) || !Array.isArray(content.pages)) {
+    return 0;
+  }
+
+  let pageCount = 0;
+
+  for (const page of content.pages) {
+    if (!isRecord(page)) {
+      continue;
+    }
+
+    const pageNumber = typeof page.page === "number" ? page.page : pageCount + 1;
+    const slug = optionalText(page.slug) || `lesson-page-${pageNumber}`;
+    const title = optionalText(page.title) || `Page ${pageNumber}`;
+
+    await client.query(
+      `
+        INSERT INTO public.lesson_segments (
+          lesson_id,
+          slug,
+          title,
+          body_markdown,
+          sort_order
+        )
+        VALUES ($1, $2, $3, NULL, $4)
+        ON CONFLICT (lesson_id, slug) DO UPDATE
+        SET title = EXCLUDED.title,
+            sort_order = EXCLUDED.sort_order
+      `,
+      [lessonId, slug, title, pageNumber]
+    );
+
+    pageCount += 1;
+  }
+
+  return pageCount;
+}
+
+async function getPrimarySegmentId(client: DatabaseClient, lessonId: string, slug: string, title: string, sortOrder: number) {
+  const result = await client.query(
+    `
+      INSERT INTO public.lesson_segments (
+        lesson_id,
+        slug,
+        title,
+        body_markdown,
+        sort_order
+      )
+      VALUES ($1, $2, $3, NULL, $4)
+      ON CONFLICT (lesson_id, slug) DO UPDATE
+      SET title = EXCLUDED.title,
+          sort_order = EXCLUDED.sort_order
+      RETURNING id
+    `,
+    [lessonId, slug, title, sortOrder]
+  );
+
+  return result.rows[0].id;
+}
+
+async function syncLessonPublishedBlocks(
+  client: DatabaseClient,
+  lessonId: string,
+  content: unknown
+): Promise<number> {
+  if (!isRecord(content)) {
+    return 0;
+  }
+
+  const segmentId = await getPrimarySegmentId(client, lessonId, "published-structured-content", "Published Structured Content", 99);
+
+  await client.query(
+    `
+      DELETE FROM public.lesson_content_blocks
+      WHERE segment_id = $1
+        AND content->>'source' = 'lesson_publish'
+    `,
+    [segmentId]
+  );
+
+  const publishableBlocks: Array<{ kind: string; value: unknown; sortOrder: number }> = [
+    { kind: "reading", value: content.reading, sortOrder: 1 },
+    { kind: "wordStudy", value: content.wordStudy, sortOrder: 2 },
+    { kind: "grammar", value: content.grammar, sortOrder: 3 },
+    { kind: "culture", value: content.culture, sortOrder: 4 },
+    { kind: "enrichment", value: content.enrichment, sortOrder: 5 },
+    { kind: "activities", value: content.activities, sortOrder: 6 },
+  ].filter((block) => block.value !== undefined);
+
+  for (const block of publishableBlocks) {
+    await client.query(
+      `
+        INSERT INTO public.lesson_content_blocks (
+          segment_id,
+          block_type,
+          title,
+          body_markdown,
+          content,
+          sort_order
+        )
+        VALUES ($1, 'custom', $2, NULL, $3::jsonb, $4)
+      `,
+      [
+        segmentId,
+        block.kind,
+        JSON.stringify({
+          source: "lesson_publish",
+          kind: block.kind,
+          value: block.value,
+        }),
+        block.sortOrder,
+      ]
+    );
+  }
+
+  return publishableBlocks.length;
+}
+
+async function validateNoPriorVocabularyRepeats(
+  client: DatabaseClient,
+  lesson: {
+    id: string;
+    course_id: string;
+    module_sort_order: number;
+    lesson_sort_order: number;
+  },
+  content: unknown
+) {
+  if (!isRecord(content) || !Array.isArray(content.vocabulary)) {
+    return [];
+  }
+
+  const proposedForms = content.vocabulary.flatMap((group) => {
+    if (!isRecord(group) || !Array.isArray(group.items)) {
+      return [];
+    }
+
+    return group.items
+      .filter(isRecord)
+      .map((item) => (typeof item.greek === "string" ? item.greek.trim() : ""))
+      .filter(Boolean);
+  });
+
+  if (!proposedForms.length) {
+    return [];
+  }
+
+  const result = await client.query(
+    `
+      SELECT DISTINCT
+        vi.display_form AS greek,
+        vi.gloss AS english,
+        prior_l.number_label AS first_lesson,
+        prior_l.title AS first_lesson_title
+      FROM public.modules prior_m
+      JOIN public.lessons prior_l ON prior_l.module_id = prior_m.id
+      JOIN public.lesson_vocabulary lv ON lv.lesson_id = prior_l.id
+      JOIN public.vocabulary_items vi ON vi.id = lv.vocabulary_item_id
+      WHERE prior_m.course_id = $1
+        AND (prior_m.sort_order, prior_l.sort_order) < ($2, $3)
+        AND vi.display_form = ANY($4::text[])
+      ORDER BY vi.display_form, prior_l.number_label
+    `,
+    [lesson.course_id, lesson.module_sort_order, lesson.lesson_sort_order, proposedForms]
+  );
+
+  return result.rows;
+}
+
+async function saveDraft(
+  client: DatabaseClient,
+  lessonId: string,
+  userId: string,
+  content: unknown
+) {
+  const previous = await client.query(
+    `
+      SELECT version
+      FROM public.lesson_content_drafts
+      WHERE lesson_id = $1
+      FOR UPDATE
+    `,
+    [lessonId]
+  );
+  const nextVersion = previous.rows[0] ? Number(previous.rows[0].version) + 1 : 1;
+
+  const result = await client.query(
+    `
+      INSERT INTO public.lesson_content_drafts (
+        lesson_id,
+        content,
+        version,
+        updated_by_user_id
+      )
+      VALUES ($1, $2::jsonb, $3, $4)
+      ON CONFLICT (lesson_id) DO UPDATE
+      SET content = EXCLUDED.content,
+          version = EXCLUDED.version,
+          updated_by_user_id = EXCLUDED.updated_by_user_id
+      RETURNING content, version, updated_at
+    `,
+    [lessonId, JSON.stringify(content), nextVersion, userId]
+  );
+
+  return result.rows[0];
+}
+
 export default async (request: Request) => {
-  if (request.method !== "PUT") {
+  if (!["GET", "PUT"].includes(request.method)) {
     return jsonResponse({ error: "Method not allowed" }, 405);
   }
 
-  const slug = normalizeLessonSlug(new URL(request.url).searchParams.get("slug"));
+  const url = new URL(request.url);
+  const slug = normalizeLessonSlug(url.searchParams.get("slug"));
 
   if (!slug) {
     return jsonResponse({ error: "Lesson slug is required." }, 400);
@@ -740,31 +998,41 @@ export default async (request: Request) => {
     return jsonResponse({ error: "Database is not configured" }, 500);
   }
 
-  let body: LessonContentRequest;
+  let body: LessonContentRequest = {};
 
-  try {
-    body = await request.json();
-  } catch (error) {
-    return jsonResponse({ error: "Invalid JSON request" }, 400);
+  if (request.method === "PUT") {
+    try {
+      body = await request.json();
+    } catch (error) {
+      return jsonResponse({ error: "Invalid JSON request" }, 400);
+    }
   }
 
-  const email = normalizeEmail(body.email || request.headers.get("x-xenophon-user-email"));
-  const validation = validateLessonContent(body.content);
+  const email = normalizeEmail(
+    body.email ||
+      request.headers.get("x-xenophon-user-email") ||
+      url.searchParams.get("email")
+  );
+  const activeRole = body.activeRole || url.searchParams.get("activeRole") || "";
 
   if (!email) {
     return jsonResponse({ error: "Administrator email is required." }, 401);
   }
 
-  if (body.activeRole !== "administrator") {
-    return jsonResponse({ error: "Administrator view is required to save lesson content." }, 403);
+  if (activeRole !== "administrator") {
+    return jsonResponse({ error: "Administrator view is required for lesson content drafts." }, 403);
   }
 
-  if (!validation.valid) {
-    return jsonResponse({ error: "Lesson content is malformed.", details: validation.errors }, 400);
-  }
+  if (request.method === "PUT") {
+    const validation = validateLessonContent(body.content);
 
-  if (isRecord(body.content) && body.content.id !== undefined && body.content.id !== slug) {
-    return jsonResponse({ error: "Lesson content id must match the requested lesson slug." }, 400);
+    if (!validation.valid) {
+      return jsonResponse({ error: "Lesson content is malformed.", details: validation.errors }, 400);
+    }
+
+    if (isRecord(body.content) && body.content.id !== undefined && body.content.id !== slug) {
+      return jsonResponse({ error: "Lesson content id must match the requested lesson slug." }, 400);
+    }
   }
 
   const client = createDatabaseClient(connectionString);
@@ -773,39 +1041,72 @@ export default async (request: Request) => {
     await client.connect();
     await client.query("BEGIN");
 
-    const userResult = await client.query(
-      `
-        SELECT u.id
-        FROM public.users u
-        JOIN public.user_roles ur ON ur.user_id = u.id
-        WHERE u.email = $1::citext
-          AND u.status = 'active'
-          AND ur.role_id = 'administrator'
-        LIMIT 1
-      `,
-      [email]
-    );
-    const [user] = userResult.rows;
+    const user = await getAuthenticatedAdmin(client, email);
 
     if (!user) {
       await client.query("ROLLBACK");
       return jsonResponse({ error: "Administrator role is required." }, 403);
     }
 
-    const lessonResult = await client.query(
-      `
-        SELECT id, slug
-        FROM public.lessons
-        WHERE slug = $1
-        LIMIT 1
-      `,
-      [slug]
-    );
-    const [lesson] = lessonResult.rows;
+    const lesson = await getLessonBySlug(client, slug);
 
     if (!lesson) {
       await client.query("ROLLBACK");
       return jsonResponse({ error: "Lesson was not found." }, 404);
+    }
+
+    if (request.method === "GET") {
+      const draftResult = await client.query(
+        `
+          SELECT content, version, updated_at
+          FROM public.lesson_content_drafts
+          WHERE lesson_id = $1
+          LIMIT 1
+        `,
+        [lesson.id]
+      );
+      await client.query("COMMIT");
+
+      const draft = draftResult.rows[0];
+
+      return jsonResponse({
+        ok: true,
+        slug: lesson.slug,
+        hasDraft: Boolean(draft),
+        content: draft?.content || null,
+        version: draft?.version || null,
+        updatedAt: draft?.updated_at || null,
+      });
+    }
+
+    const action = body.action || "publish";
+
+    if (action === "draft") {
+      const draft = await saveDraft(client, lesson.id, user.id, body.content);
+      await client.query("COMMIT");
+
+      return jsonResponse({
+        ok: true,
+        slug: lesson.slug,
+        mode: "draft",
+        hasDraft: true,
+        content: draft.content,
+        version: draft.version,
+        updatedAt: draft.updated_at,
+      });
+    }
+
+    const duplicateVocabulary = await validateNoPriorVocabularyRepeats(client, lesson, body.content);
+
+    if (duplicateVocabulary.length) {
+      await client.query("ROLLBACK");
+      return jsonResponse(
+        {
+          error: "This lesson repeats vocabulary introduced in earlier lessons.",
+          duplicates: duplicateVocabulary,
+        },
+        409
+      );
     }
 
     const previousResult = await client.query(
@@ -837,7 +1138,7 @@ export default async (request: Request) => {
           JSON.stringify(previous.content),
           previous.version,
           user.id,
-          body.note || `Saved before version ${nextVersion}`,
+          body.note || `Published version ${nextVersion}`,
         ]
       );
     }
@@ -860,25 +1161,32 @@ export default async (request: Request) => {
       [lesson.id, JSON.stringify(body.content), nextVersion, user.id]
     );
     const normalizedTitles = await syncLessonTitles(client, lesson.id, body.content);
+    const normalizedPages = await syncLessonPages(client, lesson.id, body.content);
     const normalizedVocabularyCount = await syncLessonVocabulary(client, lesson.id, body.content);
     const normalizedReading = await syncLessonReading(client, lesson.id, body.content);
     const normalizedCulture = await syncLessonCulture(client, lesson.id, body.content);
     const normalizedEnrichment = await syncLessonEnrichment(client, lesson.id, body.content);
+    const normalizedStructuredBlocks = await syncLessonPublishedBlocks(client, lesson.id, body.content);
+
+    await client.query("DELETE FROM public.lesson_content_drafts WHERE lesson_id = $1", [lesson.id]);
 
     await client.query("COMMIT");
 
     return jsonResponse({
       ok: true,
       slug: lesson.slug,
+      mode: "published",
       hasOverride: true,
       content: saveResult.rows[0].content,
       version: saveResult.rows[0].version,
       updatedAt: saveResult.rows[0].updated_at,
       normalizedTitles,
+      normalizedPages,
       normalizedVocabularyCount,
       normalizedReading,
       normalizedCulture,
       normalizedEnrichment,
+      normalizedStructuredBlocks,
     });
   } catch (error) {
     await client.query("ROLLBACK").catch(() => undefined);
@@ -918,5 +1226,5 @@ export default async (request: Request) => {
 
 export const config = {
   path: "/api/admin/lesson-content",
-  method: ["PUT"],
+  method: ["GET", "PUT"],
 };
