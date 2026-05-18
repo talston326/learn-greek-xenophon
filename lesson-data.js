@@ -5676,7 +5676,7 @@
   }
 
   function getVocabularyCards(lesson) {
-    return lesson.vocabulary.flatMap((group) =>
+    return (lesson?.vocabulary || []).flatMap((group) =>
       group.items.map((item) => ({
         prompt: item.greek,
         answer: item.english,

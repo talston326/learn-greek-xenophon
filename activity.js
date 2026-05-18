@@ -1,7 +1,10 @@
 (function () {
   const shell = document.querySelector("[data-activity-shell]");
   const params = new URLSearchParams(window.location.search);
-  const lesson = window.xenophonLessonData?.getLesson(params.get("lesson") || "4");
+  const requestedLesson = params.get("lesson") || "4";
+  const lessonSlug = window.xenophonLessonData?.normalizeLessonParam?.(requestedLesson) || normalizeLessonParam(requestedLesson);
+  const staticLesson = window.xenophonLessonData?.getLesson(requestedLesson);
+  let lesson = staticLesson;
   const activityType = params.get("type") || "vocab-flashcards";
   const topic = params.get("topic") || "";
   let returnTo = params.get("returnTo") || `lesson.html?lesson=${lesson?.number || 4}&page=1`;
@@ -20,6 +23,62 @@
 
   if (!shell) {
     return;
+  }
+
+  function normalizeLessonParam(value) {
+    const raw = String(value || "4").trim().toLowerCase();
+    if (/^\d+$/.test(raw)) {
+      return `lesson-${raw}`;
+    }
+    return raw;
+  }
+
+  function deepCopy(value) {
+    return JSON.parse(JSON.stringify(value));
+  }
+
+  function mergeLessonContent(fallback, databaseContent) {
+    if (!databaseContent) {
+      return fallback;
+    }
+
+    if (!fallback) {
+      return databaseContent;
+    }
+
+    return {
+      ...deepCopy(fallback),
+      ...databaseContent,
+      banner: {
+        ...(fallback.banner || {}),
+        ...(databaseContent.banner || {})
+      },
+      reading: databaseContent.reading || fallback.reading,
+      wordStudy: databaseContent.wordStudy || fallback.wordStudy,
+      grammar: databaseContent.grammar || fallback.grammar,
+      culture: databaseContent.culture || fallback.culture,
+      enrichment: databaseContent.enrichment || fallback.enrichment,
+      activities: databaseContent.activities || fallback.activities,
+      pages: databaseContent.pages?.length ? databaseContent.pages : fallback.pages,
+      vocabulary: databaseContent.vocabulary !== undefined ? databaseContent.vocabulary : fallback.vocabulary
+    };
+  }
+
+  async function loadPublishedLessonContent() {
+    try {
+      const response = await fetch(`/api/lesson-content?slug=${encodeURIComponent(lessonSlug)}`);
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(data.error || "Lesson content could not be loaded.");
+      }
+
+      if (data.content) {
+        lesson = mergeLessonContent(staticLesson, data.content);
+      }
+    } catch (error) {
+      console.warn("Using static lesson-data.js fallback for activity content.", error);
+    }
   }
 
   function escapeHtml(value) {
@@ -84,6 +143,14 @@
       <section class="lesson-section">
         <h2>This activity is not available yet.</h2>
         <p class="muted">The reusable shell is ready, but this lesson does not have data for this activity type.</p>
+      </section>
+    `);
+  }
+
+  function renderLoading() {
+    renderShell(`
+      <section class="lesson-section">
+        <p class="muted">Loading activity...</p>
       </section>
     `);
   }
@@ -513,21 +580,28 @@
     });
   }
 
-  if (!lesson) {
-    renderUnavailable();
-    return;
+  async function initializeActivity() {
+    renderLoading();
+    await loadPublishedLessonContent();
+
+    if (!lesson) {
+      renderUnavailable();
+      return;
+    }
+
+    if (activityType === "vocab-flashcards" || activityType === "grammar-flashcards") {
+      normalizeFlashcards();
+      renderFlashcardStudy(false);
+      return;
+    }
+
+    if (activityType === "topic-practice") {
+      renderTopicPractice();
+      return;
+    }
+
+    renderQuiz();
   }
 
-  if (activityType === "vocab-flashcards" || activityType === "grammar-flashcards") {
-    normalizeFlashcards();
-    renderFlashcardStudy(false);
-    return;
-  }
-
-  if (activityType === "topic-practice") {
-    renderTopicPractice();
-    return;
-  }
-
-  renderQuiz();
+  initializeActivity();
 }());
