@@ -4181,29 +4181,29 @@
       position: absolute;
       z-index: 1000;
       display: grid;
-      gap: 12px;
-      width: min(960px, calc(100vw - 24px));
-      max-height: min(620px, calc(100vh - 32px));
+      gap: 8px;
+      width: min(680px, calc(100vw - 24px));
+      max-height: min(520px, calc(100vh - 32px));
+      overflow: auto;
       border: 1px solid rgba(115,0,10,.18);
       border-radius: 18px;
       background: rgba(255,253,251,.98);
       box-shadow: 0 22px 58px rgba(45,31,23,.22);
-      padding: 14px;
+      padding: 12px;
     }
 
     .greek-keyboard-popup.is-fixed-bottom {
       position: fixed;
       inset: auto 10px 10px;
       width: auto;
-      max-height: min(62vh, 620px);
+      max-height: min(54vh, 520px);
     }
 
     body.greek-keyboard-open .main {
       padding-bottom: calc(var(--greek-keyboard-offset, 0px) + 24px);
     }
 
-    .greek-keyboard-header,
-    .greek-keyboard-tools {
+    .greek-keyboard-header {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -4218,44 +4218,24 @@
       line-height: 1.2;
     }
 
-    .greek-keyboard-body {
-      display: grid;
-      gap: 14px;
-      overflow: auto;
-      padding-right: 4px;
-    }
-
-    .greek-keyboard-section {
-      display: grid;
-      gap: 8px;
-      border-top: 1px solid rgba(111,102,95,.14);
-      padding-top: 12px;
-    }
-
-    .greek-keyboard-section:first-child {
-      border-top: 0;
-      padding-top: 0;
-    }
-
-    .greek-keyboard-section h3,
-    .greek-keyboard-group p {
-      margin: 0;
-      color: #4a3b32;
-      font-size: .88rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: .02em;
-    }
-
-    .greek-keyboard-group {
-      display: grid;
-      gap: 6px;
-    }
-
     .greek-keyboard-row {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .greek-keyboard-letter-panel {
+      display: grid;
       gap: 6px;
+    }
+
+    .greek-keyboard-letter-row:nth-child(2) {
+      padding-inline: 14px;
+    }
+
+    .greek-keyboard-letter-row:nth-child(3) {
+      padding-inline: 42px;
     }
 
     .greek-keyboard-key,
@@ -4271,48 +4251,64 @@
     }
 
     .greek-keyboard-key {
-      min-width: 44px;
-      padding: 7px 10px;
-      font-size: 1.18rem;
+      width: clamp(34px, 8vw, 48px);
+      padding: 7px 8px;
+      font-size: 1.22rem;
       line-height: 1;
     }
 
     .greek-keyboard-key:hover,
-    .greek-keyboard-tool:hover {
+    .greek-keyboard-tool:hover,
+    .greek-keyboard-key.is-active,
+    .greek-keyboard-tool.is-active {
       border-color: rgba(115,0,10,.34);
       background: rgba(115,0,10,.07);
     }
 
     .greek-keyboard-mark {
-      display: inline-grid;
-      grid-template-columns: auto minmax(0, 1fr);
-      align-items: center;
-      gap: 6px;
-      min-width: 132px;
-      line-height: 1.1;
-      text-align: left;
-    }
-
-    .greek-keyboard-mark span:last-child {
-      font-size: .78rem;
-      font-weight: 800;
-    }
-
-    .greek-keyboard-mark-sample {
+      width: clamp(32px, 7vw, 42px);
+      min-height: 40px;
       color: var(--usc-garnet);
-      font-size: 1.28rem;
+      font-size: 1.08rem;
+    }
+
+    .greek-keyboard-mark.is-active,
+    .greek-keyboard-shift.is-active {
+      background: var(--usc-garnet);
+      color: #fff;
+      box-shadow: inset 0 0 0 3px rgba(255,255,255,.24);
+    }
+
+    .greek-keyboard-pending {
+      min-height: 24px;
+      margin: 0;
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 10px;
+      background: rgba(250,246,240,.74);
+      color: #4a3b32;
+      font-size: .9rem;
+      font-weight: 800;
+      line-height: 1.3;
+      padding: 5px 8px;
     }
 
     .greek-keyboard-tools {
       border-top: 1px solid rgba(111,102,95,.14);
-      padding-top: 12px;
-      justify-content: flex-start;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding-top: 8px;
     }
 
     .greek-keyboard-tool {
-      min-width: 112px;
-      padding: 10px 12px;
+      min-width: 78px;
+      padding: 10px;
       color: var(--usc-garnet);
+    }
+
+    .greek-keyboard-spacebar {
+      flex: 1 1 180px;
+      min-width: 140px;
     }
 
     .profile-actions {

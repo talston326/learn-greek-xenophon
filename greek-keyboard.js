@@ -2,176 +2,297 @@
   "use strict";
 
   /*
-    Reusable Ancient Greek keyboard.
+    Reusable Ancient Greek QWERTY-style keyboard.
     To enable it on future pages, load this file and add class="greek-input" to
     any input or textarea that should receive Greek text. Optional Show Keyboard
     buttons can use data-greek-keyboard-trigger in the same container as the field,
     or data-greek-keyboard-target="field-id" to point at a specific field.
   */
 
-  const LOWERCASE = "α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ψ ω".split(" ");
-  const UPPERCASE = "Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω".split(" ");
-  const PUNCTUATION = ["·", ";", ",", ".", "“", "”", "‘", "’"];
+  const KEY_ROWS = [
+    ["ς", "ε", "ρ", "τ", "υ", "θ", "ι", "ο", "π"],
+    ["α", "σ", "δ", "φ", "γ", "η", "ξ", "κ", "λ"],
+    ["ζ", "χ", "ψ", "ω", "β", "ν", "μ"]
+  ];
+  const PUNCTUATION = ["·", ";", ",", "."];
+  const VOWELS = new Set(["α", "ε", "η", "ι", "ο", "υ", "ω", "Α", "Ε", "Η", "Ι", "Ο", "Υ", "Ω"]);
+  const GREEK_NAMES = {
+    α: "alpha",
+    β: "beta",
+    γ: "gamma",
+    δ: "delta",
+    ε: "epsilon",
+    ζ: "zeta",
+    η: "eta",
+    θ: "theta",
+    ι: "iota",
+    κ: "kappa",
+    λ: "lambda",
+    μ: "mu",
+    ν: "nu",
+    ξ: "xi",
+    ο: "omicron",
+    π: "pi",
+    ρ: "rho",
+    σ: "sigma",
+    ς: "final sigma",
+    τ: "tau",
+    υ: "upsilon",
+    φ: "phi",
+    χ: "chi",
+    ψ: "psi",
+    ω: "omega"
+  };
 
   const DIACRITICS = [
-    { label: "Smooth breathing", value: "\u0313" },
-    { label: "Rough breathing", value: "\u0314" },
-    { label: "Acute", value: "\u0301" },
-    { label: "Grave", value: "\u0300" },
-    { label: "Circumflex", value: "\u0342" },
-    { label: "Diaeresis", value: "\u0308" },
-    { label: "Iota subscript", value: "\u0345" },
-    { label: "Macron", value: "\u0304" },
-    { label: "Breve", value: "\u0306" }
+    { id: "smooth", label: "smooth breathing", display: "᾿", combining: "\u0313" },
+    { id: "rough", label: "rough breathing", display: "῾", combining: "\u0314" },
+    { id: "acute", label: "acute", display: "´", combining: "\u0301" },
+    { id: "grave", label: "grave", display: "`", combining: "\u0300" },
+    { id: "circumflex", label: "circumflex", display: "῀", combining: "\u0342" },
+    { id: "diaeresis", label: "diaeresis", display: "¨", combining: "\u0308" },
+    { id: "iota", label: "iota subscript", display: "ͅ", combining: "\u0345" },
+    { id: "macron", label: "macron", display: "¯", combining: "\u0304" },
+    { id: "breve", label: "breve", display: "˘", combining: "\u0306" }
+  ];
+  const DIACRITIC_BY_ID = new Map(DIACRITICS.map((mark) => [mark.id, mark]));
+  const COMBINING_ORDER = [
+    "smooth",
+    "rough",
+    "diaeresis",
+    "acute",
+    "grave",
+    "circumflex",
+    "macron",
+    "breve",
+    "iota"
   ];
 
-  const COMMON_VOWELS = [
-    { label: "Alpha", values: ["ἀ", "ἁ", "ἄ", "ἅ", "ἂ", "ἃ", "ἆ", "ἇ"] },
-    { label: "Epsilon", values: ["ἐ", "ἑ", "ἔ", "ἕ", "ἒ", "ἓ"] },
-    { label: "Eta", values: ["ἠ", "ἡ", "ἤ", "ἥ", "ἢ", "ἣ", "ἦ", "ἧ", "ῃ", "ᾐ", "ᾑ", "ᾔ", "ᾕ", "ᾖ", "ᾗ"] },
-    { label: "Iota", values: ["ἰ", "ἱ", "ἴ", "ἵ", "ἲ", "ἳ", "ἶ", "ἷ", "ϊ", "ΐ", "ῒ", "ῗ"] },
-    { label: "Omicron", values: ["ὀ", "ὁ", "ὄ", "ὅ", "ὂ", "ὃ"] },
-    { label: "Upsilon", values: ["ὐ", "ὑ", "ὔ", "ὕ", "ὒ", "ὓ", "ὖ", "ὗ", "ϋ", "ΰ", "ῢ", "ῧ"] },
-    { label: "Omega", values: ["ὠ", "ὡ", "ὤ", "ὥ", "ὢ", "ὣ", "ὦ", "ὧ", "ῳ", "ᾠ", "ᾡ", "ᾤ", "ᾥ", "ᾦ", "ᾧ"] }
-  ];
-
-  const IOTA_SUBSCRIPT_FORMS = [
-    { label: "Alpha + iota", values: ["ᾳ", "ᾴ", "ᾲ", "ᾷ"] },
-    { label: "Eta + iota", values: ["ῃ", "ῄ", "ῂ", "ῇ"] },
-    { label: "Omega + iota", values: ["ῳ", "ῴ", "ῲ", "ῷ"] }
+  const COMPOSITION_BASES = ["α", "ε", "η", "ι", "ο", "υ", "ω", "Α", "Ε", "Η", "Ι", "Ο", "Υ", "Ω"];
+  const COMMON_MARK_GROUPS = [
+    [],
+    ["smooth"],
+    ["rough"],
+    ["acute"],
+    ["grave"],
+    ["circumflex"],
+    ["diaeresis"],
+    ["macron"],
+    ["breve"],
+    ["smooth", "acute"],
+    ["rough", "acute"],
+    ["smooth", "grave"],
+    ["rough", "grave"],
+    ["smooth", "circumflex"],
+    ["rough", "circumflex"],
+    ["iota"],
+    ["acute", "iota"],
+    ["grave", "iota"],
+    ["circumflex", "iota"],
+    ["smooth", "iota"],
+    ["rough", "iota"],
+    ["smooth", "acute", "iota"],
+    ["rough", "acute", "iota"],
+    ["smooth", "grave", "iota"],
+    ["rough", "grave", "iota"],
+    ["smooth", "circumflex", "iota"],
+    ["rough", "circumflex", "iota"],
+    ["diaeresis", "acute"],
+    ["diaeresis", "grave"],
+    ["diaeresis", "circumflex"]
   ];
 
   let activeField = null;
   let keyboard = null;
-  let body = null;
+  let pendingDisplay = null;
+  let pendingDiacritics = new Set();
+  let shiftActive = false;
 
   function isGreekField(element) {
     return Boolean(element?.matches?.("input.greek-input, textarea.greek-input"));
   }
 
-  function createCharacterButton(value, options = {}) {
+  function normalizeMarkIds(markIds) {
+    const markSet = new Set(markIds);
+    if (markSet.has("smooth") && markSet.has("rough")) {
+      markSet.delete("smooth");
+    }
+    if (markSet.has("acute") && markSet.has("grave")) {
+      markSet.delete("grave");
+    }
+    if (markSet.has("acute") && markSet.has("circumflex")) {
+      markSet.delete("circumflex");
+    }
+    if (markSet.has("grave") && markSet.has("circumflex")) {
+      markSet.delete("circumflex");
+    }
+    return COMBINING_ORDER.filter((id) => markSet.has(id));
+  }
+
+  function compositionKey(baseLetter, markIds) {
+    return `${baseLetter}|${normalizeMarkIds(markIds).join("+")}`;
+  }
+
+  function composeWithCombining(baseLetter, markIds) {
+    const marks = normalizeMarkIds(markIds)
+      .map((id) => DIACRITIC_BY_ID.get(id)?.combining || "")
+      .join("");
+    return `${baseLetter}${marks}`.normalize("NFC");
+  }
+
+  // This table is generated once from the common Ancient Greek combinations.
+  // composeGreekLetter checks it first, then falls back to NFC composition.
+  const PRECOMPOSED_MAP = (() => {
+    const table = new Map();
+    COMPOSITION_BASES.forEach((base) => {
+      COMMON_MARK_GROUPS.forEach((marks) => {
+        const composed = composeWithCombining(base, marks);
+        if ([...composed].length === 1) {
+          table.set(compositionKey(base, marks), composed);
+        }
+      });
+    });
+    return table;
+  })();
+
+  function composeGreekLetter(baseLetter, markIds) {
+    if (!markIds.length) {
+      return baseLetter;
+    }
+
+    const key = compositionKey(baseLetter, markIds);
+    return PRECOMPOSED_MAP.get(key) || composeWithCombining(baseLetter, markIds);
+  }
+
+  function createButton(className, label, text) {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = options.className || "greek-keyboard-key greek-text";
-    button.dataset.greekKeyboardValue = value;
-    button.setAttribute("aria-label", options.label || `Insert ${value}`);
-    button.textContent = value;
+    button.className = className;
+    button.setAttribute("aria-label", label);
+    button.textContent = text;
     return button;
   }
 
-  function createToolButton(label, action) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "greek-keyboard-tool";
+  function createLetterButton(letter) {
+    const button = createButton("greek-keyboard-key greek-keyboard-letter greek-text", letter, letter);
+    button.dataset.greekKeyboardLetter = letter;
+    return button;
+  }
+
+  function createDiacriticButton(mark) {
+    const button = createButton("greek-keyboard-key greek-keyboard-mark greek-text", mark.label, mark.display);
+    button.dataset.greekKeyboardDiacritic = mark.id;
+    button.setAttribute("aria-pressed", "false");
+    return button;
+  }
+
+  function createToolButton(label, action, className = "") {
+    const button = createButton(`greek-keyboard-tool ${className}`.trim(), label, label);
     button.dataset.greekKeyboardAction = action;
-    button.textContent = label;
     return button;
   }
 
-  function appendKeyRow(parent, values) {
+  function appendLetterRow(parent, rowLetters) {
     const row = document.createElement("div");
-    row.className = "greek-keyboard-row";
-    values.forEach((value) => row.appendChild(createCharacterButton(value)));
+    row.className = "greek-keyboard-row greek-keyboard-letter-row";
+    rowLetters.forEach((letter) => row.appendChild(createLetterButton(letter)));
     parent.appendChild(row);
-  }
-
-  function appendSection(parent, title, builder) {
-    const section = document.createElement("section");
-    section.className = "greek-keyboard-section";
-
-    const heading = document.createElement("h3");
-    heading.textContent = title;
-    section.appendChild(heading);
-
-    builder(section);
-    parent.appendChild(section);
   }
 
   function buildKeyboard() {
     keyboard = document.createElement("aside");
-    keyboard.className = "greek-keyboard-popup";
+    keyboard.className = "greek-keyboard-popup greek-keyboard-qwerty";
     keyboard.hidden = true;
     keyboard.setAttribute("aria-label", "Ancient Greek polytonic keyboard");
     keyboard.setAttribute("data-greek-keyboard", "");
 
     const header = document.createElement("div");
     header.className = "greek-keyboard-header";
-
     const title = document.createElement("h2");
     title.textContent = "Ancient Greek Keyboard";
     header.appendChild(title);
-    header.appendChild(createToolButton("Close", "close"));
+    header.appendChild(createToolButton("Hide Keyboard", "close"));
     keyboard.appendChild(header);
 
-    body = document.createElement("div");
-    body.className = "greek-keyboard-body";
+    const markRow = document.createElement("div");
+    markRow.className = "greek-keyboard-row greek-keyboard-mark-row";
+    DIACRITICS.forEach((mark) => markRow.appendChild(createDiacriticButton(mark)));
+    keyboard.appendChild(markRow);
 
-    appendSection(body, "Letters", (section) => {
-      appendKeyRow(section, LOWERCASE);
-      appendKeyRow(section, UPPERCASE);
+    pendingDisplay = document.createElement("p");
+    pendingDisplay.className = "greek-keyboard-pending";
+    pendingDisplay.setAttribute("aria-live", "polite");
+    keyboard.appendChild(pendingDisplay);
+
+    const letters = document.createElement("div");
+    letters.className = "greek-keyboard-letter-panel";
+    KEY_ROWS.forEach((row) => appendLetterRow(letters, row));
+    keyboard.appendChild(letters);
+
+    const punctuation = document.createElement("div");
+    punctuation.className = "greek-keyboard-row greek-keyboard-punctuation-row";
+    PUNCTUATION.forEach((mark) => {
+      const button = createButton("greek-keyboard-key greek-keyboard-punctuation greek-text", `Insert ${mark}`, mark);
+      button.dataset.greekKeyboardValue = mark;
+      punctuation.appendChild(button);
     });
-
-    appendSection(body, "Breathings and Accents", (section) => {
-      const row = document.createElement("div");
-      row.className = "greek-keyboard-row greek-keyboard-row--marks";
-      DIACRITICS.forEach((mark) => {
-        const button = createCharacterButton(mark.value, {
-          className: "greek-keyboard-key greek-keyboard-mark",
-          label: `Insert ${mark.label}`
-        });
-        button.innerHTML = `<span class="greek-keyboard-mark-sample greek-text">◌${mark.value}</span><span>${mark.label}</span>`;
-        row.appendChild(button);
-      });
-      section.appendChild(row);
-    });
-
-    appendSection(body, "Common Vowel Forms", (section) => {
-      COMMON_VOWELS.forEach((group) => {
-        const groupEl = document.createElement("div");
-        groupEl.className = "greek-keyboard-group";
-        const label = document.createElement("p");
-        label.textContent = group.label;
-        groupEl.appendChild(label);
-        appendKeyRow(groupEl, group.values);
-        section.appendChild(groupEl);
-      });
-    });
-
-    appendSection(body, "Iota Subscript Forms", (section) => {
-      IOTA_SUBSCRIPT_FORMS.forEach((group) => {
-        const groupEl = document.createElement("div");
-        groupEl.className = "greek-keyboard-group";
-        const label = document.createElement("p");
-        label.textContent = group.label;
-        groupEl.appendChild(label);
-        appendKeyRow(groupEl, group.values);
-        section.appendChild(groupEl);
-      });
-    });
-
-    appendSection(body, "Punctuation", (section) => appendKeyRow(section, PUNCTUATION));
-    keyboard.appendChild(body);
+    keyboard.appendChild(punctuation);
 
     const tools = document.createElement("div");
     tools.className = "greek-keyboard-tools";
-    tools.appendChild(createToolButton("Space", "space"));
+    tools.appendChild(createToolButton("Shift", "shift", "greek-keyboard-shift"));
     tools.appendChild(createToolButton("Backspace", "backspace"));
+    tools.appendChild(createToolButton("Space", "space", "greek-keyboard-spacebar"));
     tools.appendChild(createToolButton("Clear", "clear"));
-    tools.appendChild(createToolButton("Close keyboard", "close"));
+    tools.appendChild(createToolButton("Close", "close"));
     keyboard.appendChild(tools);
 
     keyboard.addEventListener("pointerdown", (event) => {
       event.preventDefault();
     });
-
     keyboard.addEventListener("click", handleKeyboardClick);
     document.body.appendChild(keyboard);
+    updateKeyboardState();
   }
 
   function ensureKeyboard() {
     if (!keyboard) {
       buildKeyboard();
     }
+  }
+
+  function updateKeyboardState() {
+    if (!keyboard) {
+      return;
+    }
+
+    keyboard.querySelectorAll("[data-greek-keyboard-letter]").forEach((button) => {
+      const baseLetter = button.dataset.greekKeyboardLetter || "";
+      const displayLetter = shiftActive ? baseLetter.toLocaleUpperCase("el-GR") : baseLetter;
+      const letterName = GREEK_NAMES[baseLetter] || displayLetter;
+      button.textContent = displayLetter;
+      button.setAttribute("aria-label", shiftActive ? `uppercase ${letterName}` : letterName);
+    });
+
+    keyboard.querySelectorAll("[data-greek-keyboard-diacritic]").forEach((button) => {
+      const markId = button.dataset.greekKeyboardDiacritic;
+      const isPending = pendingDiacritics.has(markId);
+      button.classList.toggle("is-active", isPending);
+      button.setAttribute("aria-pressed", String(isPending));
+    });
+
+    keyboard.querySelector("[data-greek-keyboard-action='shift']")?.classList.toggle("is-active", shiftActive);
+    keyboard.querySelector("[data-greek-keyboard-action='shift']")?.setAttribute("aria-pressed", String(shiftActive));
+
+    if (pendingDisplay) {
+      const labels = normalizeMarkIds(pendingDiacritics).map((id) => DIACRITIC_BY_ID.get(id)?.label).filter(Boolean);
+      pendingDisplay.textContent = labels.length ? `Pending: ${labels.join(" + ")}` : "Pending: none";
+    }
+  }
+
+  function clearPendingDiacritics() {
+    pendingDiacritics.clear();
+    updateKeyboardState();
   }
 
   function setFixedBottomMode(isFixed) {
@@ -213,7 +334,7 @@
       return;
     }
 
-    const width = Math.min(960, viewportWidth - 24);
+    const width = Math.min(680, viewportWidth - 24);
     const left = Math.min(Math.max(12, rect.left + window.scrollX), viewportWidth - width - 12 + window.scrollX);
     keyboard.style.width = `${width}px`;
     keyboard.style.left = `${left}px`;
@@ -229,6 +350,7 @@
     activeField = field;
     keyboard.hidden = false;
     keyboard.setAttribute("aria-hidden", "false");
+    updateKeyboardState();
     positionKeyboard();
   }
 
@@ -249,11 +371,30 @@
 
     const start = activeField.selectionStart ?? activeField.value.length;
     const end = activeField.selectionEnd ?? activeField.value.length;
-    activeField.value = `${activeField.value.slice(0, start)}${value}${activeField.value.slice(end)}`;
+    activeField.value = `${activeField.value.slice(0, start)}${value}${activeField.value.slice(end)}`.normalize("NFC");
     activeField.focus({ preventScroll: true });
     const nextPosition = start + value.length;
     activeField.setSelectionRange(nextPosition, nextPosition);
     activeField.dispatchEvent(new Event("input", { bubbles: true }));
+  }
+
+  function insertLetter(letter) {
+    const displayLetter = shiftActive ? letter.toLocaleUpperCase("el-GR") : letter;
+    const pendingMarks = normalizeMarkIds(pendingDiacritics);
+    const output = VOWELS.has(displayLetter)
+      ? composeGreekLetter(displayLetter, pendingMarks)
+      : composeGreekLetter(displayLetter, pendingMarks);
+
+    insertText(output);
+    pendingDiacritics.clear();
+
+    // Shift is intentionally one-shot, matching touch keyboards and preventing
+    // accidental uppercase runs during short answer entry.
+    if (shiftActive) {
+      shiftActive = false;
+    }
+
+    updateKeyboardState();
   }
 
   function backspace() {
@@ -286,7 +427,28 @@
     activeField.dispatchEvent(new Event("input", { bubbles: true }));
   }
 
+  function toggleDiacritic(markId) {
+    if (pendingDiacritics.has(markId)) {
+      pendingDiacritics.delete(markId);
+    } else {
+      pendingDiacritics.add(markId);
+    }
+    updateKeyboardState();
+  }
+
   function handleKeyboardClick(event) {
+    const letterButton = event.target.closest("[data-greek-keyboard-letter]");
+    if (letterButton) {
+      insertLetter(letterButton.dataset.greekKeyboardLetter || "");
+      return;
+    }
+
+    const markButton = event.target.closest("[data-greek-keyboard-diacritic]");
+    if (markButton) {
+      toggleDiacritic(markButton.dataset.greekKeyboardDiacritic);
+      return;
+    }
+
     const valueButton = event.target.closest("[data-greek-keyboard-value]");
     if (valueButton) {
       insertText(valueButton.dataset.greekKeyboardValue || "");
@@ -299,12 +461,17 @@
     }
 
     const action = actionButton.dataset.greekKeyboardAction;
-    if (action === "space") {
+    if (action === "shift") {
+      shiftActive = !shiftActive;
+      updateKeyboardState();
+    } else if (action === "space") {
       insertText(" ");
+      clearPendingDiacritics();
     } else if (action === "backspace") {
       backspace();
     } else if (action === "clear") {
       clearField();
+      clearPendingDiacritics();
     } else if (action === "close") {
       closeKeyboard();
       activeField?.focus({ preventScroll: true });
@@ -362,6 +529,7 @@
 
   window.xenophonGreekKeyboard = {
     show: showKeyboard,
-    close: closeKeyboard
+    close: closeKeyboard,
+    composeGreekLetter
   };
 }());
