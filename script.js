@@ -502,6 +502,10 @@ function getLessonActionLabel(lesson, status, progress) {
     return status === "begin" ? "Start Lesson" : "Continue Lesson";
   }
 
+  if (lesson.id === "intro-1" && status === "in-progress") {
+    return "Review";
+  }
+
   if (status === "completed") {
     return "Review";
   }
@@ -510,6 +514,12 @@ function getLessonActionLabel(lesson, status, progress) {
 }
 
 function getLessonHref(lesson, progress) {
+  if (lesson.id === "intro-1") {
+    const unit0Overview = getUnit0Overview();
+    const nextSection = unit0Overview.nextSection || getSectionById("letters");
+    return `lesson-introduction.html${getUnit0SectionUrl(nextSection)}`;
+  }
+
   if (lesson.id === normalizeLessonId(progress.currentLessonId)) {
     return getContinueUrl(progress);
   }
