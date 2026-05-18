@@ -14,7 +14,12 @@
     ["α", "σ", "δ", "φ", "γ", "η", "ξ", "κ", "λ"],
     ["ζ", "χ", "ψ", "ω", "β", "ν", "μ"]
   ];
-  const PUNCTUATION = ["·", ";", ",", "."];
+  const PUNCTUATION = [
+    { value: "·", label: "raised point" },
+    { value: ";", label: "question mark" },
+    { value: ",", label: "comma" },
+    { value: ".", label: "period" }
+  ];
   const VOWELS = new Set(["α", "ε", "η", "ι", "ο", "υ", "ω", "Α", "Ε", "Η", "Ι", "Ο", "Υ", "Ω"]);
   const GREEK_NAMES = {
     α: "alpha",
@@ -51,7 +56,7 @@
     { id: "grave", label: "grave", shortLabel: "Grave", display: "`", combining: "\u0300" },
     { id: "circumflex", label: "circumflex", shortLabel: "Circ.", display: "῀", combining: "\u0342" },
     { id: "diaeresis", label: "diaeresis", shortLabel: "Diaer.", display: "¨", combining: "\u0308" },
-    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "◌ͅ", combining: "\u0345" },
+    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "ͅ", combining: "\u0345" },
     { id: "macron", label: "macron", shortLabel: "Macron", display: "¯", combining: "\u0304" },
     { id: "breve", label: "breve", shortLabel: "Breve", display: "˘", combining: "\u0306" }
   ];
@@ -183,6 +188,7 @@
     const button = createButton("greek-keyboard-key greek-keyboard-mark", mark.label, "");
     button.dataset.greekKeyboardDiacritic = mark.id;
     button.setAttribute("aria-pressed", "false");
+    button.classList.toggle("greek-keyboard-mark--iota", mark.id === "iota");
     button.innerHTML = `
       <span class="greek-keyboard-mark-symbol greek-text" aria-hidden="true">${mark.display}</span>
       <span class="greek-keyboard-mark-label">${mark.shortLabel}</span>
@@ -236,8 +242,12 @@
     const punctuation = document.createElement("div");
     punctuation.className = "greek-keyboard-row greek-keyboard-punctuation-row";
     PUNCTUATION.forEach((mark) => {
-      const button = createButton("greek-keyboard-key greek-keyboard-punctuation greek-text", `Insert ${mark}`, mark);
-      button.dataset.greekKeyboardValue = mark;
+      const button = createButton("greek-keyboard-key greek-keyboard-punctuation", mark.label, "");
+      button.dataset.greekKeyboardValue = mark.value;
+      button.innerHTML = `
+        <span class="greek-keyboard-punctuation-symbol greek-text" aria-hidden="true">${mark.value}</span>
+        <span class="greek-keyboard-punctuation-label">${mark.label}</span>
+      `;
       punctuation.appendChild(button);
     });
     keyboard.appendChild(punctuation);
@@ -290,7 +300,7 @@
 
     if (pendingDisplay) {
       const labels = normalizeMarkIds(pendingDiacritics).map((id) => DIACRITIC_BY_ID.get(id)?.label).filter(Boolean);
-      pendingDisplay.textContent = labels.length ? `Pending: ${labels.join(" + ")}` : "Pending: none";
+      pendingDisplay.textContent = labels.length ? `Pending: ${labels.join(" + ")}` : "";
     }
   }
 

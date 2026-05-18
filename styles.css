@@ -4292,6 +4292,10 @@
       line-height: .8;
     }
 
+    .greek-keyboard-mark--iota .greek-keyboard-mark-symbol {
+      transform: translateY(-8px);
+    }
+
     .greek-keyboard-mark-label {
       color: #4a3b32;
       font-size: .72rem;
@@ -4324,6 +4328,34 @@
       font-weight: 800;
       line-height: 1.3;
       padding: 5px 8px;
+    }
+
+    .greek-keyboard-punctuation-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      width: 100%;
+    }
+
+    .greek-keyboard-punctuation {
+      min-height: 58px;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      place-items: center;
+      gap: 2px;
+    }
+
+    .greek-keyboard-punctuation-symbol {
+      font-size: 1.65rem;
+      line-height: 1;
+    }
+
+    .greek-keyboard-punctuation-label {
+      color: #4a3b32;
+      font-size: .72rem;
+      font-weight: 800;
+      line-height: 1.05;
+      text-align: center;
+      white-space: nowrap;
     }
 
     .greek-keyboard-tools {
