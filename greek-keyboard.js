@@ -51,7 +51,7 @@
     { id: "grave", label: "grave", shortLabel: "Grave", display: "`", combining: "\u0300" },
     { id: "circumflex", label: "circumflex", shortLabel: "Circ.", display: "῀", combining: "\u0342" },
     { id: "diaeresis", label: "diaeresis", shortLabel: "Diaer.", display: "¨", combining: "\u0308" },
-    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "ͅ", combining: "\u0345" },
+    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "◌ͅ", combining: "\u0345" },
     { id: "macron", label: "macron", shortLabel: "Macron", display: "¯", combining: "\u0304" },
     { id: "breve", label: "breve", shortLabel: "Breve", display: "˘", combining: "\u0306" }
   ];
@@ -338,7 +338,7 @@
       return;
     }
 
-    const width = Math.min(680, viewportWidth - 24);
+    const width = Math.min(1000, viewportWidth - 24);
     const left = Math.min(Math.max(12, rect.left + window.scrollX), viewportWidth - width - 12 + window.scrollX);
     keyboard.style.width = `${width}px`;
     keyboard.style.left = `${left}px`;
