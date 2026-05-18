@@ -14,6 +14,33 @@
     ["α", "σ", "δ", "φ", "γ", "η", "ξ", "κ", "λ"],
     ["ζ", "χ", "ψ", "ω", "β", "ν", "μ"]
   ];
+  const PHYSICAL_KEY_MAP = {
+    w: "ς",
+    e: "ε",
+    r: "ρ",
+    t: "τ",
+    y: "υ",
+    u: "θ",
+    i: "ι",
+    o: "ο",
+    p: "π",
+    a: "α",
+    s: "σ",
+    d: "δ",
+    f: "φ",
+    g: "γ",
+    h: "η",
+    j: "ξ",
+    k: "κ",
+    l: "λ",
+    z: "ζ",
+    x: "χ",
+    c: "ψ",
+    v: "ω",
+    b: "β",
+    n: "ν",
+    m: "μ"
+  };
   const PUNCTUATION = [
     { value: "·", label: "raised point" },
     { value: ";", label: "question mark" },
@@ -394,13 +421,7 @@
 
   function insertLetter(letter) {
     const displayLetter = shiftActive ? letter.toLocaleUpperCase("el-GR") : letter;
-    const pendingMarks = normalizeMarkIds(pendingDiacritics);
-    const output = VOWELS.has(displayLetter)
-      ? composeGreekLetter(displayLetter, pendingMarks)
-      : composeGreekLetter(displayLetter, pendingMarks);
-
-    insertText(output);
-    pendingDiacritics.clear();
+    insertComposedLetter(displayLetter);
 
     // Shift is intentionally one-shot, matching touch keyboards and preventing
     // accidental uppercase runs during short answer entry.
@@ -409,6 +430,22 @@
     }
 
     updateKeyboardState();
+  }
+
+  function insertPhysicalLetter(letter, forceUppercase = false) {
+    const displayLetter = forceUppercase ? letter.toLocaleUpperCase("el-GR") : letter;
+    insertComposedLetter(displayLetter);
+    updateKeyboardState();
+  }
+
+  function insertComposedLetter(displayLetter) {
+    const pendingMarks = normalizeMarkIds(pendingDiacritics);
+    const output = VOWELS.has(displayLetter)
+      ? composeGreekLetter(displayLetter, pendingMarks)
+      : composeGreekLetter(displayLetter, pendingMarks);
+
+    insertText(output);
+    pendingDiacritics.clear();
   }
 
   function backspace() {
@@ -538,7 +575,21 @@
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && keyboard && !keyboard.hidden) {
       closeKeyboard();
+      return;
     }
+
+    if (!isGreekField(event.target) || event.metaKey || event.ctrlKey || event.altKey) {
+      return;
+    }
+
+    const mappedLetter = PHYSICAL_KEY_MAP[event.key.toLowerCase()];
+    if (!mappedLetter) {
+      return;
+    }
+
+    event.preventDefault();
+    activeField = event.target;
+    insertPhysicalLetter(mappedLetter, event.shiftKey);
   });
 
   window.xenophonGreekKeyboard = {
