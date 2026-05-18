@@ -141,6 +141,7 @@
   let pendingDisplay = null;
   let pendingDiacritics = new Set();
   let shiftActive = false;
+  let keyboardPositionMode = null;
 
   function isGreekField(element) {
     return Boolean(element?.matches?.("input.greek-input, textarea.greek-input"));
@@ -385,7 +386,16 @@
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
     const keyboardHeight = keyboard.offsetHeight || 320;
-    const useFixedBottom = viewportWidth <= 1024 || rect.top < 12 || viewportHeight - rect.bottom < keyboardHeight + 16;
+
+    // Decide once per open/focus session. Recomputing this after our own
+    // scroll adjustment can make the panel flip between anchored and fixed.
+    if (!keyboardPositionMode) {
+      keyboardPositionMode = viewportWidth <= 1024 || rect.top < 12 || viewportHeight - rect.bottom < keyboardHeight + 16
+        ? "fixed"
+        : "anchored";
+    }
+
+    const useFixedBottom = keyboardPositionMode === "fixed";
 
     setFixedBottomMode(useFixedBottom);
 
@@ -418,9 +428,14 @@
     }
 
     ensureKeyboard();
+    const wasHidden = keyboard.hidden;
+    const fieldChanged = activeField !== field;
     activeField = field;
     keyboard.hidden = false;
     keyboard.setAttribute("aria-hidden", "false");
+    if (wasHidden || fieldChanged) {
+      keyboardPositionMode = null;
+    }
     updateKeyboardState();
     positionKeyboard();
   }
@@ -432,6 +447,7 @@
 
     keyboard.hidden = true;
     keyboard.setAttribute("aria-hidden", "true");
+    keyboardPositionMode = null;
     setFixedBottomMode(false);
   }
 
@@ -600,7 +616,10 @@
     }
   });
 
-  window.addEventListener("resize", positionKeyboard);
+  window.addEventListener("resize", () => {
+    keyboardPositionMode = null;
+    positionKeyboard();
+  });
   window.addEventListener("scroll", positionKeyboard, true);
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && keyboard && !keyboard.hidden) {
