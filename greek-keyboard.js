@@ -141,7 +141,8 @@
   let pendingDisplay = null;
   let pendingDiacritics = new Set();
   let shiftActive = false;
-  let keyboardPositionMode = null;
+  let keyboardDrag = null;
+  let keyboardUserPosition = null;
 
   function isGreekField(element) {
     return Boolean(element?.matches?.("input.greek-input, textarea.greek-input"));
@@ -255,6 +256,8 @@
 
     const header = document.createElement("div");
     header.className = "greek-keyboard-header";
+    header.dataset.greekKeyboardDragHandle = "";
+    header.setAttribute("title", "Drag to move keyboard");
     const title = document.createElement("h2");
     title.textContent = "Ancient Greek Keyboard";
     header.appendChild(title);
@@ -318,6 +321,7 @@
     keyboard.addEventListener("pointerdown", (event) => {
       event.preventDefault();
     });
+    keyboard.addEventListener("pointerdown", startKeyboardDrag);
     keyboard.addEventListener("click", handleKeyboardClick);
     document.body.appendChild(keyboard);
     updateKeyboardState();
@@ -366,15 +370,23 @@
     updateKeyboardState();
   }
 
-  function setFixedBottomMode(isFixed) {
-    keyboard.classList.toggle("is-fixed-bottom", isFixed);
-    document.body.classList.toggle("greek-keyboard-open", !keyboard.hidden && isFixed);
+  function clampKeyboardPosition(left, top) {
+    const margin = 12;
+    const rect = keyboard.getBoundingClientRect();
+    const maxLeft = Math.max(margin, window.innerWidth - rect.width - margin);
+    const maxTop = Math.max(margin, window.innerHeight - rect.height - margin);
 
-    if (isFixed && !keyboard.hidden) {
-      document.documentElement.style.setProperty("--greek-keyboard-offset", `${keyboard.offsetHeight}px`);
-    } else {
-      document.documentElement.style.removeProperty("--greek-keyboard-offset");
-    }
+    return {
+      left: Math.min(Math.max(margin, left), maxLeft),
+      top: Math.min(Math.max(margin, top), maxTop)
+    };
+  }
+
+  function setKeyboardPosition(left, top) {
+    const position = clampKeyboardPosition(left, top);
+    keyboard.style.left = `${position.left}px`;
+    keyboard.style.top = `${position.top}px`;
+    keyboard.style.width = "";
   }
 
   function positionKeyboard() {
@@ -382,44 +394,73 @@
       return;
     }
 
-    const rect = activeField.getBoundingClientRect();
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
-    const keyboardHeight = keyboard.offsetHeight || 320;
+    keyboard.classList.remove("is-fixed-bottom");
+    document.body.classList.remove("greek-keyboard-open");
+    document.documentElement.style.removeProperty("--greek-keyboard-offset");
 
-    // Decide once per open/focus session. Recomputing this after our own
-    // scroll adjustment can make the panel flip between anchored and fixed.
-    if (!keyboardPositionMode) {
-      keyboardPositionMode = viewportWidth <= 1024 || rect.top < 12 || viewportHeight - rect.bottom < keyboardHeight + 16
-        ? "fixed"
-        : "anchored";
-    }
-
-    const useFixedBottom = keyboardPositionMode === "fixed";
-
-    setFixedBottomMode(useFixedBottom);
-
-    if (useFixedBottom) {
-      keyboard.style.left = "";
-      keyboard.style.top = "";
-      keyboard.style.width = "";
-      const keyboardTop = viewportHeight - keyboard.offsetHeight - 10;
-      const freshRect = activeField.getBoundingClientRect();
-      const overlap = freshRect.bottom - keyboardTop + 18;
-
-      if (overlap > 0) {
-        window.scrollBy({ top: overlap, behavior: "auto" });
-      } else if (freshRect.top < 12) {
-        window.scrollBy({ top: freshRect.top - 12, behavior: "auto" });
-      }
+    if (keyboardUserPosition) {
+      setKeyboardPosition(keyboardUserPosition.left, keyboardUserPosition.top);
+      keyboardUserPosition = {
+        left: Number.parseFloat(keyboard.style.left) || keyboardUserPosition.left,
+        top: Number.parseFloat(keyboard.style.top) || keyboardUserPosition.top
+      };
       return;
     }
 
-    const width = Math.min(1280, viewportWidth - 24);
-    const left = Math.min(Math.max(12, rect.left + window.scrollX), viewportWidth - width - 12 + window.scrollX);
-    keyboard.style.width = `${width}px`;
-    keyboard.style.left = `${left}px`;
-    keyboard.style.top = `${rect.bottom + window.scrollY + 8}px`;
+    const rect = activeField.getBoundingClientRect();
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    const keyboardRect = keyboard.getBoundingClientRect();
+    const preferredLeft = Math.min(Math.max(12, rect.left), viewportWidth - keyboardRect.width - 12);
+    const belowTop = rect.bottom + 10;
+    const aboveTop = rect.top - keyboardRect.height - 10;
+    const preferredTop = belowTop + keyboardRect.height <= viewportHeight - 12
+      ? belowTop
+      : aboveTop >= 12
+        ? aboveTop
+        : viewportHeight - keyboardRect.height - 12;
+
+    setKeyboardPosition(preferredLeft, preferredTop);
+  }
+
+  function startKeyboardDrag(event) {
+    const handle = event.target.closest("[data-greek-keyboard-drag-handle]");
+    if (!handle || event.target.closest("button")) {
+      return;
+    }
+
+    const rect = keyboard.getBoundingClientRect();
+    keyboardDrag = {
+      pointerId: event.pointerId,
+      offsetX: event.clientX - rect.left,
+      offsetY: event.clientY - rect.top
+    };
+    keyboard.classList.add("is-dragging");
+    keyboard.setPointerCapture?.(event.pointerId);
+  }
+
+  function dragKeyboard(event) {
+    if (!keyboardDrag || event.pointerId !== keyboardDrag.pointerId) {
+      return;
+    }
+
+    const nextPosition = clampKeyboardPosition(
+      event.clientX - keyboardDrag.offsetX,
+      event.clientY - keyboardDrag.offsetY
+    );
+    keyboardUserPosition = nextPosition;
+    keyboard.style.left = `${nextPosition.left}px`;
+    keyboard.style.top = `${nextPosition.top}px`;
+  }
+
+  function stopKeyboardDrag(event) {
+    if (!keyboardDrag || event.pointerId !== keyboardDrag.pointerId) {
+      return;
+    }
+
+    keyboard.releasePointerCapture?.(event.pointerId);
+    keyboardDrag = null;
+    keyboard.classList.remove("is-dragging");
   }
 
   function showKeyboard(field) {
@@ -434,7 +475,7 @@
     keyboard.hidden = false;
     keyboard.setAttribute("aria-hidden", "false");
     if (wasHidden || fieldChanged) {
-      keyboardPositionMode = null;
+      keyboardUserPosition = null;
     }
     updateKeyboardState();
     positionKeyboard();
@@ -447,8 +488,11 @@
 
     keyboard.hidden = true;
     keyboard.setAttribute("aria-hidden", "true");
-    keyboardPositionMode = null;
-    setFixedBottomMode(false);
+    keyboardUserPosition = null;
+    keyboardDrag = null;
+    keyboard.classList.remove("is-dragging", "is-fixed-bottom");
+    document.body.classList.remove("greek-keyboard-open");
+    document.documentElement.style.removeProperty("--greek-keyboard-offset");
   }
 
   function insertText(value) {
@@ -617,10 +661,13 @@
   });
 
   window.addEventListener("resize", () => {
-    keyboardPositionMode = null;
+    keyboardUserPosition = null;
     positionKeyboard();
   });
   window.addEventListener("scroll", positionKeyboard, true);
+  window.addEventListener("pointermove", dragKeyboard);
+  window.addEventListener("pointerup", stopKeyboardDrag);
+  window.addEventListener("pointercancel", stopKeyboardDrag);
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && keyboard && !keyboard.hidden) {
       closeKeyboard();
