@@ -41,11 +41,12 @@
     n: "ν",
     m: "μ"
   };
+  const PHYSICAL_LABEL_BY_LETTER = new Map(Object.entries(PHYSICAL_KEY_MAP).map(([key, letter]) => [letter, key]));
   const PUNCTUATION = [
-    { value: "·", label: "raised point" },
-    { value: ";", label: "question mark" },
-    { value: ",", label: "comma" },
-    { value: ".", label: "period" }
+    { value: "·", label: "raised point", shortcut: "/" },
+    { value: ";", label: "question mark", shortcut: ";" },
+    { value: ",", label: "comma", shortcut: "," },
+    { value: ".", label: "period", shortcut: "." }
   ];
   const VOWELS = new Set(["α", "ε", "η", "ι", "ο", "υ", "ω", "Α", "Ε", "Η", "Ι", "Ο", "Υ", "Ω"]);
   const GREEK_NAMES = {
@@ -77,17 +78,18 @@
   };
 
   const DIACRITICS = [
-    { id: "smooth", label: "smooth breathing", shortLabel: "Smooth", display: "᾿", combining: "\u0313" },
-    { id: "rough", label: "rough breathing", shortLabel: "Rough", display: "῾", combining: "\u0314" },
-    { id: "acute", label: "acute", shortLabel: "Acute", display: "´", combining: "\u0301" },
-    { id: "grave", label: "grave", shortLabel: "Grave", display: "`", combining: "\u0300" },
-    { id: "circumflex", label: "circumflex", shortLabel: "Circ.", display: "῀", combining: "\u0342" },
-    { id: "diaeresis", label: "diaeresis", shortLabel: "Diaer.", display: "¨", combining: "\u0308" },
-    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "ͅ", combining: "\u0345" },
-    { id: "macron", label: "macron", shortLabel: "Macron", display: "¯", combining: "\u0304" },
-    { id: "breve", label: "breve", shortLabel: "Breve", display: "˘", combining: "\u0306" }
+    { id: "smooth", label: "smooth breathing", shortLabel: "Smooth", display: "᾿", combining: "\u0313", shortcut: "1" },
+    { id: "rough", label: "rough breathing", shortLabel: "Rough", display: "῾", combining: "\u0314", shortcut: "2" },
+    { id: "acute", label: "acute", shortLabel: "Acute", display: "´", combining: "\u0301", shortcut: "3" },
+    { id: "grave", label: "grave", shortLabel: "Grave", display: "`", combining: "\u0300", shortcut: "4" },
+    { id: "circumflex", label: "circumflex", shortLabel: "Circ.", display: "῀", combining: "\u0342", shortcut: "5" },
+    { id: "diaeresis", label: "diaeresis", shortLabel: "Diaer.", display: "¨", combining: "\u0308", shortcut: "6" },
+    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "ͅ", combining: "\u0345", shortcut: "7" },
+    { id: "macron", label: "macron", shortLabel: "Macron", display: "¯", combining: "\u0304", shortcut: "8" },
+    { id: "breve", label: "breve", shortLabel: "Breve", display: "˘", combining: "\u0306", shortcut: "9" }
   ];
   const DIACRITIC_BY_ID = new Map(DIACRITICS.map((mark) => [mark.id, mark]));
+  const DIACRITIC_SHORTCUT_MAP = new Map(DIACRITICS.map((mark) => [mark.shortcut, mark.id]));
   const COMBINING_ORDER = [
     "smooth",
     "rough",
@@ -206,8 +208,14 @@
   }
 
   function createLetterButton(letter) {
-    const button = createButton("greek-keyboard-key greek-keyboard-letter greek-text", letter, letter);
+    const keyLabel = PHYSICAL_LABEL_BY_LETTER.get(letter) || "";
+    const letterName = GREEK_NAMES[letter] || letter;
+    const button = createButton("greek-keyboard-key greek-keyboard-letter greek-text", `${letterName}, physical key ${keyLabel}`, "");
     button.dataset.greekKeyboardLetter = letter;
+    button.innerHTML = `
+      <span class="greek-keyboard-shortcut" aria-hidden="true">${keyLabel}</span>
+      <span class="greek-keyboard-letter-symbol" aria-hidden="true">${letter}</span>
+    `;
     return button;
   }
 
@@ -217,6 +225,7 @@
     button.setAttribute("aria-pressed", "false");
     button.classList.toggle("greek-keyboard-mark--iota", mark.id === "iota");
     button.innerHTML = `
+      <span class="greek-keyboard-shortcut" aria-hidden="true">${mark.shortcut}</span>
       <span class="greek-keyboard-mark-symbol greek-text" aria-hidden="true">${mark.display}</span>
       <span class="greek-keyboard-mark-label">${mark.shortLabel}</span>
     `;
@@ -272,6 +281,7 @@
       const button = createButton("greek-keyboard-key greek-keyboard-punctuation", mark.label, "");
       button.dataset.greekKeyboardValue = mark.value;
       button.innerHTML = `
+        <span class="greek-keyboard-shortcut" aria-hidden="true">${mark.shortcut}</span>
         <span class="greek-keyboard-punctuation-symbol greek-text" aria-hidden="true">${mark.value}</span>
         <span class="greek-keyboard-punctuation-label">${mark.label}</span>
       `;
@@ -287,6 +297,22 @@
     tools.appendChild(createToolButton("Clear", "clear"));
     tools.appendChild(createToolButton("Close", "close"));
     keyboard.appendChild(tools);
+
+    const help = document.createElement("p");
+    help.className = "greek-keyboard-help";
+    help.innerHTML = `
+      <span class="greek-keyboard-help-icon" aria-hidden="true">⌨</span>
+      <span>Physical Keyboard Shortcuts:</span>
+      <span aria-hidden="true">|</span>
+      <span>1–9 = diacritics</span>
+      <span aria-hidden="true">|</span>
+      <span>/ = raised point</span>
+      <span aria-hidden="true">|</span>
+      <span>QWERTY letters = Greek letters</span>
+      <span aria-hidden="true">|</span>
+      <span>Shift = uppercase</span>
+    `;
+    keyboard.appendChild(help);
 
     keyboard.addEventListener("pointerdown", (event) => {
       event.preventDefault();
@@ -311,7 +337,10 @@
       const baseLetter = button.dataset.greekKeyboardLetter || "";
       const displayLetter = shiftActive ? baseLetter.toLocaleUpperCase("el-GR") : baseLetter;
       const letterName = GREEK_NAMES[baseLetter] || displayLetter;
-      button.textContent = displayLetter;
+      const symbol = button.querySelector(".greek-keyboard-letter-symbol");
+      if (symbol) {
+        symbol.textContent = displayLetter;
+      }
       button.setAttribute("aria-label", shiftActive ? `uppercase ${letterName}` : letterName);
     });
 
@@ -355,7 +384,8 @@
     const rect = activeField.getBoundingClientRect();
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
-    const useFixedBottom = viewportWidth <= 1024 || rect.top < 12 || viewportHeight - rect.bottom < 280;
+    const keyboardHeight = keyboard.offsetHeight || 320;
+    const useFixedBottom = viewportWidth <= 1024 || rect.top < 12 || viewportHeight - rect.bottom < keyboardHeight + 16;
 
     setFixedBottomMode(useFixedBottom);
 
@@ -375,7 +405,7 @@
       return;
     }
 
-    const width = Math.min(1000, viewportWidth - 24);
+    const width = Math.min(1280, viewportWidth - 24);
     const left = Math.min(Math.max(12, rect.left + window.scrollX), viewportWidth - width - 12 + window.scrollX);
     keyboard.style.width = `${width}px`;
     keyboard.style.left = `${left}px`;
@@ -579,6 +609,22 @@
     }
 
     if (!isGreekField(event.target) || event.metaKey || event.ctrlKey || event.altKey) {
+      return;
+    }
+
+    const shortcutDiacritic = DIACRITIC_SHORTCUT_MAP.get(event.key);
+    if (shortcutDiacritic) {
+      event.preventDefault();
+      activeField = event.target;
+      ensureKeyboard();
+      toggleDiacritic(shortcutDiacritic);
+      return;
+    }
+
+    if (event.key === "/") {
+      event.preventDefault();
+      activeField = event.target;
+      insertText("·");
       return;
     }
 

@@ -1002,7 +1002,7 @@
     .map-card-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
+      gap: 10px;
     }
 
     .reference-map-card {
@@ -4181,19 +4181,19 @@
       position: absolute;
       z-index: 1000;
       display: grid;
-      gap: 8px;
-      width: min(1000px, calc(100vw - 24px));
+      gap: 14px;
+      width: min(1280px, calc(100vw - 24px));
       overflow: visible;
-      border: 1px solid rgba(115,0,10,.18);
-      border-radius: 18px;
-      background: rgba(255,253,251,.98);
-      box-shadow: 0 22px 58px rgba(45,31,23,.22);
-      padding: 12px;
+      border: 1px solid rgba(115,0,10,.2);
+      border-radius: 20px;
+      background: rgba(255,253,251,.99);
+      box-shadow: 0 24px 60px rgba(45,31,23,.22);
+      padding: 14px 20px 12px;
     }
 
     .greek-keyboard-popup.is-fixed-bottom {
       position: fixed;
-      inset: auto 10px 10px;
+      inset: auto 8px 8px;
       width: auto;
       max-height: none;
     }
@@ -4213,7 +4213,7 @@
     .greek-keyboard-header h2 {
       margin: 0;
       color: var(--usc-garnet);
-      font-size: 1.18rem;
+      font-size: clamp(1.35rem, 2vw, 1.75rem);
       line-height: 1.2;
     }
 
@@ -4221,18 +4221,27 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 5px;
+      gap: 10px;
+    }
+
+    .greek-keyboard-mark-row {
+      display: grid;
+      grid-template-columns: repeat(9, minmax(76px, 1fr));
+      gap: 10px;
+      width: min(920px, 100%);
+      justify-self: center;
     }
 
     .greek-keyboard-letter-panel {
       display: grid;
-      gap: 8px;
+      gap: 10px;
       width: 100%;
     }
 
     .greek-keyboard-letter-row {
       display: grid;
       grid-template-columns: repeat(9, minmax(0, 1fr));
+      gap: 12px;
       width: 100%;
     }
 
@@ -4248,21 +4257,29 @@
     .greek-keyboard-key,
     .greek-keyboard-tool {
       min-height: 44px;
-      border: 1px solid rgba(115,0,10,.16);
+      border: 1px solid rgba(115,0,10,.18);
       border-radius: 10px;
       background: rgba(255,255,255,.92);
       color: #332b26;
       font: inherit;
       font-weight: 800;
       cursor: pointer;
+      box-shadow: 0 1px 0 rgba(115,0,10,.04);
+      transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
     }
 
     .greek-keyboard-key {
       width: 100%;
-      min-height: 58px;
-      padding: 7px 8px;
-      font-size: 1.5rem;
+      min-height: 66px;
+      padding: 14px 12px 10px;
+      font-size: 1.7rem;
       line-height: 1;
+    }
+
+    .greek-keyboard-key:focus-visible,
+    .greek-keyboard-tool:focus-visible {
+      outline: 3px solid rgba(115,0,10,.28);
+      outline-offset: 2px;
     }
 
     .greek-keyboard-key:hover,
@@ -4274,16 +4291,16 @@
     }
 
     .greek-keyboard-mark {
-      width: auto;
-      min-width: 68px;
-      min-height: 76px;
+      position: relative;
+      min-width: 0;
+      min-height: 86px;
       display: grid;
-      grid-template-rows: minmax(42px, 1fr) auto;
+      grid-template-rows: 1fr auto;
       align-items: center;
       justify-items: center;
-      gap: 2px;
+      gap: 4px;
       color: var(--usc-garnet);
-      padding: 4px 7px 7px;
+      padding: 16px 8px 10px;
       line-height: 1;
     }
 
@@ -4298,7 +4315,7 @@
 
     .greek-keyboard-mark-label {
       color: #4a3b32;
-      font-size: .72rem;
+      font-size: .9rem;
       font-weight: 800;
       line-height: 1.05;
       text-align: center;
@@ -4313,31 +4330,56 @@
     }
 
     .greek-keyboard-mark.is-active .greek-keyboard-mark-label,
-    .greek-keyboard-mark.is-active .greek-keyboard-mark-symbol {
+    .greek-keyboard-mark.is-active .greek-keyboard-mark-symbol,
+    .greek-keyboard-mark.is-active .greek-keyboard-shortcut {
       color: #fff;
     }
 
     .greek-keyboard-pending {
-      min-height: 24px;
+      min-height: 28px;
       margin: 0;
-      border: 1px solid rgba(115,0,10,.1);
+      border: 1px solid rgba(115,0,10,.12);
       border-radius: 10px;
       background: rgba(250,246,240,.74);
-      color: #4a3b32;
-      font-size: .9rem;
+      color: #6d625c;
+      font-size: 1rem;
       font-weight: 800;
       line-height: 1.3;
-      padding: 5px 8px;
+      padding: 4px 12px;
+      text-align: center;
+    }
+
+    .greek-keyboard-letter,
+    .greek-keyboard-punctuation {
+      position: relative;
+    }
+
+    .greek-keyboard-shortcut {
+      position: absolute;
+      top: 10px;
+      left: 14px;
+      color: #746c67;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .greek-keyboard-letter-symbol {
+      display: block;
+      font-size: clamp(2.2rem, 3vw, 2.85rem);
+      line-height: 1;
     }
 
     .greek-keyboard-punctuation-row {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
       width: 100%;
     }
 
     .greek-keyboard-punctuation {
-      min-height: 58px;
+      min-height: 62px;
       display: grid;
       grid-template-rows: 1fr auto;
       place-items: center;
@@ -4345,13 +4387,13 @@
     }
 
     .greek-keyboard-punctuation-symbol {
-      font-size: 1.65rem;
+      font-size: 1.9rem;
       line-height: 1;
     }
 
     .greek-keyboard-punctuation-label {
       color: #4a3b32;
-      font-size: .72rem;
+      font-size: .9rem;
       font-weight: 800;
       line-height: 1.05;
       text-align: center;
@@ -4360,21 +4402,105 @@
 
     .greek-keyboard-tools {
       border-top: 1px solid rgba(111,102,95,.14);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      padding-top: 8px;
+      display: grid;
+      grid-template-columns: minmax(88px, .7fr) minmax(130px, 1.2fr) minmax(240px, 5fr) minmax(100px, .9fr) minmax(100px, .9fr);
+      gap: 10px;
+      padding-top: 10px;
     }
 
     .greek-keyboard-tool {
-      min-width: 78px;
-      padding: 10px;
+      min-width: 0;
+      padding: 10px 14px;
       color: var(--usc-garnet);
+      font-size: 1.05rem;
     }
 
     .greek-keyboard-spacebar {
-      flex: 1 1 180px;
       min-width: 140px;
+    }
+
+    .greek-keyboard-help {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      min-height: 34px;
+      margin: 0;
+      border: 1px solid rgba(115,0,10,.1);
+      border-radius: 12px;
+      background: rgba(250,246,240,.66);
+      color: #6d625c;
+      font-size: .98rem;
+      line-height: 1.25;
+      padding: 6px 12px;
+      text-align: center;
+    }
+
+    .greek-keyboard-help-icon {
+      color: var(--usc-garnet);
+      font-size: 1.45rem;
+      line-height: 1;
+    }
+
+    @media (max-width: 760px) {
+      .greek-keyboard-popup {
+        gap: 10px;
+        padding: 12px;
+      }
+
+      .greek-keyboard-mark-row {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .greek-keyboard-letter-row,
+      .greek-keyboard-letter-row:nth-child(3),
+      .greek-keyboard-punctuation-row,
+      .greek-keyboard-tools {
+        gap: 8px;
+      }
+
+      .greek-keyboard-key {
+        min-height: 60px;
+        padding: 12px 8px 8px;
+      }
+
+      .greek-keyboard-mark {
+        min-height: 78px;
+      }
+
+      .greek-keyboard-mark-symbol {
+        font-size: 2.8rem;
+      }
+
+      .greek-keyboard-letter-symbol {
+        font-size: 1.75rem;
+      }
+
+      .greek-keyboard-shortcut {
+        top: 7px;
+        left: 9px;
+        font-size: .82rem;
+      }
+
+      .greek-keyboard-punctuation {
+        min-height: 62px;
+      }
+
+      .greek-keyboard-tools {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .greek-keyboard-spacebar {
+        grid-column: 1 / -1;
+        order: 3;
+      }
+
+      .greek-keyboard-help {
+        font-size: .82rem;
+        gap: 8px;
+      }
     }
 
     .profile-actions {
