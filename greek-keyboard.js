@@ -45,15 +45,15 @@
   };
 
   const DIACRITICS = [
-    { id: "smooth", label: "smooth breathing", display: "᾿", combining: "\u0313" },
-    { id: "rough", label: "rough breathing", display: "῾", combining: "\u0314" },
-    { id: "acute", label: "acute", display: "´", combining: "\u0301" },
-    { id: "grave", label: "grave", display: "`", combining: "\u0300" },
-    { id: "circumflex", label: "circumflex", display: "῀", combining: "\u0342" },
-    { id: "diaeresis", label: "diaeresis", display: "¨", combining: "\u0308" },
-    { id: "iota", label: "iota subscript", display: "ͅ", combining: "\u0345" },
-    { id: "macron", label: "macron", display: "¯", combining: "\u0304" },
-    { id: "breve", label: "breve", display: "˘", combining: "\u0306" }
+    { id: "smooth", label: "smooth breathing", shortLabel: "Smooth", display: "᾿", combining: "\u0313" },
+    { id: "rough", label: "rough breathing", shortLabel: "Rough", display: "῾", combining: "\u0314" },
+    { id: "acute", label: "acute", shortLabel: "Acute", display: "´", combining: "\u0301" },
+    { id: "grave", label: "grave", shortLabel: "Grave", display: "`", combining: "\u0300" },
+    { id: "circumflex", label: "circumflex", shortLabel: "Circ.", display: "῀", combining: "\u0342" },
+    { id: "diaeresis", label: "diaeresis", shortLabel: "Diaer.", display: "¨", combining: "\u0308" },
+    { id: "iota", label: "iota subscript", shortLabel: "Iota sub.", display: "ͅ", combining: "\u0345" },
+    { id: "macron", label: "macron", shortLabel: "Macron", display: "¯", combining: "\u0304" },
+    { id: "breve", label: "breve", shortLabel: "Breve", display: "˘", combining: "\u0306" }
   ];
   const DIACRITIC_BY_ID = new Map(DIACRITICS.map((mark) => [mark.id, mark]));
   const COMBINING_ORDER = [
@@ -180,9 +180,13 @@
   }
 
   function createDiacriticButton(mark) {
-    const button = createButton("greek-keyboard-key greek-keyboard-mark greek-text", mark.label, mark.display);
+    const button = createButton("greek-keyboard-key greek-keyboard-mark", mark.label, "");
     button.dataset.greekKeyboardDiacritic = mark.id;
     button.setAttribute("aria-pressed", "false");
+    button.innerHTML = `
+      <span class="greek-keyboard-mark-symbol greek-text" aria-hidden="true">${mark.display}</span>
+      <span class="greek-keyboard-mark-label">${mark.shortLabel}</span>
+    `;
     return button;
   }
 
