@@ -1202,12 +1202,6 @@ const UNIT0_SECTION_ALIASES = {
   "intro-part-2": "letters"
 };
 
-const UNIT0_KEYBOARD_ROWS = [
-  ["α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι", "κ", "λ", "μ"],
-  ["ν", "ξ", "ο", "π", "ρ", "σ", "ς", "τ", "υ", "φ", "χ", "ψ", "ω"],
-  ["ά", "ὰ", "ᾶ", "ἀ", "ἁ", "ᾳ", "ῃ", "ῳ", "́", "̀", "͂", "̓", "̔", "ͅ"]
-];
-
 const loginForm = document.querySelector("[data-login-form]");
 const loginEmailInput = document.querySelector("[data-login-email]");
 const loginPasswordInput = document.querySelector("[data-login-password]");
@@ -1753,7 +1747,8 @@ function renderUnit0Question(question, index) {
         </div>
         <label for="unit0-answer-${question.id}">${prompt}</label>
         <div class="unit0-input-row">
-          <input id="unit0-answer-${question.id}" class="text-field greek-text unit0-answer-field" type="text" autocomplete="off" data-unit0-input lang="grc">
+          <input id="unit0-answer-${question.id}" class="text-field greek-text unit0-answer-field greek-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" data-unit0-input lang="grc">
+          <button class="secondary-button" type="button" data-greek-keyboard-trigger data-greek-keyboard-target="unit0-answer-${question.id}" aria-label="Show Ancient Greek keyboard for this answer">Show Keyboard</button>
           <button class="secondary-button" type="button" data-unit0-check-input>Check Answer</button>
         </div>
         <p class="exercise-feedback" aria-live="polite"></p>
@@ -1775,31 +1770,6 @@ function renderUnit0Question(question, index) {
       </div>
       <p class="exercise-feedback" aria-live="polite"></p>
     </article>
-  `;
-}
-
-function renderUnit0Keyboard() {
-  return `
-    <section class="unit0-keyboard-lab" aria-labelledby="unit0-keyboard-title">
-      <div>
-        <p class="eyebrow">In-App Keyboard</p>
-        <h4 id="unit0-keyboard-title">Greek Polytonic Helper</h4>
-        <p>Click a key to insert it into the active answer field. Use your system keyboard whenever you can; this helper is here for practice and accessibility.</p>
-      </div>
-      <div class="unit0-keyboard" data-unit0-keyboard>
-        ${UNIT0_KEYBOARD_ROWS.map((row) => `
-          <div class="unit0-key-row">
-            ${row.map((key) => `<button type="button" class="greek-text" data-unit0-key="${escapeHtml(key)}" aria-label="Insert ${escapeHtml(key)}">${escapeHtml(key)}</button>`).join("")}
-          </div>
-        `).join("")}
-        <div class="unit0-key-row unit0-key-tools">
-          <button type="button" data-unit0-key-action="uppercase">Uppercase</button>
-          <button type="button" data-unit0-key-action="space">Space</button>
-          <button type="button" data-unit0-key-action="backspace">Backspace</button>
-          <button type="button" data-unit0-key-action="clear">Clear</button>
-        </div>
-      </div>
-    </section>
   `;
 }
 
@@ -1940,7 +1910,6 @@ function renderUnit0Section(sectionId) {
 
     ${renderUnit0Reference(section)}
 
-    ${section.keyboard ? renderUnit0Keyboard() : ""}
     ${section.pageType === "matching" ? renderUnit0MatchingBoard(section) : ""}
 
     ${section.checkpoint ? `
@@ -2182,43 +2151,6 @@ function bindUnit0SectionControls(root, section) {
 
   root.querySelectorAll("[data-unit0-practice-again], [data-unit0-retake]").forEach((button) => {
     button.addEventListener("click", () => renderUnit0Section(section.id));
-  });
-
-  root.querySelectorAll("[data-unit0-key]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const field = root.querySelector(".unit0-answer-field:focus") || root.querySelector(".unit0-answer-field");
-      if (!field) {
-        return;
-      }
-      const start = field.selectionStart ?? field.value.length;
-      const end = field.selectionEnd ?? field.value.length;
-      const key = button.dataset.unit0Key || "";
-      field.value = `${field.value.slice(0, start)}${key}${field.value.slice(end)}`.normalize("NFC");
-      field.focus();
-      field.setSelectionRange(start + key.length, start + key.length);
-    });
-  });
-
-  root.querySelectorAll("[data-unit0-key-action]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const field = root.querySelector(".unit0-answer-field:focus") || root.querySelector(".unit0-answer-field");
-      if (!field) {
-        return;
-      }
-
-      const action = button.dataset.unit0KeyAction;
-      if (action === "clear") {
-        field.value = "";
-      } else if (action === "backspace") {
-        field.value = field.value.slice(0, -1);
-      } else if (action === "space") {
-        field.value += " ";
-      } else if (action === "uppercase") {
-        field.value = field.value.toLocaleUpperCase("el-GR");
-      }
-
-      field.focus();
-    });
   });
 
   root.querySelector("[data-unit0-submit]")?.addEventListener("click", () => {

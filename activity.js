@@ -429,7 +429,6 @@
           <button type="button">Translation builder placeholder</button>
         </div>
         <div class="activity-submit-row">
-          <button class="secondary-button" type="button" data-greek-keyboard-placeholder>Open Greek Keyboard</button>
           <button class="primary-button" type="submit">Submit</button>
         </div>
         <p class="activity-result" data-activity-result aria-live="polite"></p>
@@ -472,13 +471,6 @@
   }
 
   function bindQuizForm(questions) {
-    shell.querySelector("[data-greek-keyboard-placeholder]")?.addEventListener("click", () => {
-      const result = shell.querySelector("[data-activity-result]");
-      if (result) {
-        result.textContent = "Greek keyboard component placeholder for a later sprint.";
-      }
-    });
-
     shell.querySelector("[data-quiz-form]")?.addEventListener("submit", async (event) => {
       event.preventDefault();
       const form = event.currentTarget;
