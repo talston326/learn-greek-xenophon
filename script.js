@@ -1298,6 +1298,9 @@ const lessonPageSummaryEl = document.querySelector("[data-lesson-page-summary]")
 const liveCourseTitleEl = document.querySelector("[data-course-title-live]");
 const feedbackFormEl = document.querySelector("[data-feedback-form]");
 const feedbackStatusEl = document.querySelector("[data-feedback-status]");
+const courseIntroGreekInputEl = document.querySelector("[data-course-intro-greek-input]");
+const courseIntroCheckButton = document.querySelector("[data-course-intro-check]");
+const courseIntroFeedbackEl = document.querySelector("[data-course-intro-feedback]");
 const studentDashboardSections = document.querySelectorAll("[data-student-dashboard]");
 const professorDashboardEl = document.querySelector("[data-professor-dashboard]");
 let mobilePracticeEl = document.querySelector("[data-mobile-practice]");
@@ -3278,6 +3281,22 @@ async function submitFeedbackForm(event) {
   }
 }
 
+function checkCourseIntroGreekPractice() {
+  if (!courseIntroGreekInputEl || !courseIntroFeedbackEl) {
+    return;
+  }
+
+  const expected = "ὁ Σωκράτης ἐν τῇ ἀγορᾷ τοὺς νέους περὶ ἀρετῆς διδάσκει.";
+  const actual = normalizeGreekInput(courseIntroGreekInputEl.value);
+  const isCorrect = actual === normalizeGreekInput(expected);
+
+  courseIntroFeedbackEl.textContent = isCorrect
+    ? "Excellent. You have used Greek letters, accents, breathings, and iota subscript."
+    : "Not quite yet. Check the accents, breathings, and iota subscripts, then try again.";
+  courseIntroFeedbackEl.classList.toggle("is-success", isCorrect);
+  courseIntroFeedbackEl.classList.toggle("is-error", !isCorrect);
+}
+
 function setHeroMessage(lines) {
   if (!heroMessageEl) {
     return;
@@ -3984,6 +4003,13 @@ authTabs.forEach((tab) => {
 });
 
 feedbackFormEl?.addEventListener("submit", submitFeedbackForm);
+courseIntroCheckButton?.addEventListener("click", checkCourseIntroGreekPractice);
+courseIntroGreekInputEl?.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    checkCourseIntroGreekPractice();
+  }
+});
 
 authOpenButtons.forEach((button) => {
   button.addEventListener("click", () => {

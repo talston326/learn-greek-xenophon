@@ -1257,6 +1257,99 @@
       line-height: 1.5;
     }
 
+    .course-guide-block h4 {
+      margin: -2px 0 12px;
+      color: #5a473c;
+      font-size: 1.12rem;
+      line-height: 1.35;
+    }
+
+    .course-values {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .course-values div {
+      border: 1px solid rgba(115,0,10,.11);
+      border-radius: 14px;
+      background: rgba(250,246,240,.78);
+      padding: 14px 12px;
+    }
+
+    .course-values strong {
+      display: block;
+      color: var(--usc-garnet);
+      font-size: 1.4rem;
+      line-height: 1.2;
+    }
+
+    .course-values span,
+    .course-nav-list p {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .course-nav-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .course-nav-list p {
+      margin: 0;
+    }
+
+    .course-try-panel {
+      background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(250,246,240,.86));
+    }
+
+    .course-try-sentence {
+      margin: 18px 0 0;
+      padding: 16px;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 14px;
+      background: rgba(255,255,255,.78);
+      color: #2f2823;
+      font-size: clamp(1.2rem, 2vw, 1.5rem);
+      line-height: 1.55;
+    }
+
+    .course-try-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 10px;
+      align-items: end;
+      margin-top: 16px;
+    }
+
+    .course-try-row .field-label {
+      grid-column: 1 / -1;
+      margin: 0;
+    }
+
+    .course-try-row .text-field {
+      min-height: 48px;
+    }
+
+    .course-try-feedback {
+      min-height: 1.4em;
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .course-try-feedback.is-error {
+      color: var(--usc-garnet);
+    }
+
+    .course-try-feedback.is-success {
+      color: #376342;
+    }
+
     .course-guide-aside {
       position: sticky;
       top: 20px;
@@ -5617,7 +5710,11 @@
       }
       .main { padding: 16px; }
       .course-method-list,
-      .feedback-grid {
+      .feedback-grid,
+      .course-values {
+        grid-template-columns: 1fr;
+      }
+      .course-try-row {
         grid-template-columns: 1fr;
       }
       .hero {
