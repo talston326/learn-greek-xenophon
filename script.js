@@ -106,23 +106,6 @@ const LESSON_URLS = {
 
 const COURSE_MODULES = [
   {
-    id: "introduction",
-    label: "Introduction",
-    title: "How to Use This Course",
-    subtitle: "Why Xenophon, how the lessons work, and what to expect",
-    primaryText: "Start here",
-    type: "preface",
-    lessons: [
-      {
-        id: "course-introduction",
-        number: "Introduction",
-        title: "How to Use This Course",
-        grammar: "Course rationale, reading habits, vocabulary, flashcards, keyboarding, practice, tests, and feedback",
-        exerciseIds: ["orientation"]
-      }
-    ]
-  },
-  {
     id: "unit-0",
     label: "Unit 0",
     title: "Greek Alphabet & Reading Readiness",
@@ -632,6 +615,7 @@ const ROLE_DASHBOARDS = {
     nav: [
       ["🏠", "Dashboard", "index.html"],
       ["🧑‍💼", "Users & Roles", "#"],
+      ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["✉", "Feedback", "feedback.html"],
@@ -652,6 +636,7 @@ const ROLE_DASHBOARDS = {
       ["👥", "Students", "#"],
       ["📊", "Progress", "#"],
       ["📝", "Submissions", "#"],
+      ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["✉", "Feedback", "feedback.html"],
@@ -668,6 +653,7 @@ const ROLE_DASHBOARDS = {
     ],
     nav: [
       ["🏠", "Dashboard", "index.html"],
+      ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
@@ -3171,7 +3157,7 @@ function renderLessonsPage(session) {
     );
     const section = document.createElement("details");
     section.className = `lesson-module ${module.type === "intro" ? "intro-module" : ""}`;
-    section.open = module.type === "intro" || module.type === "preface" || hasCurrentLesson;
+    section.open = module.type === "intro" || hasCurrentLesson;
 
     const summary = document.createElement("summary");
     summary.appendChild(createModuleHeader(module, progress));
@@ -3341,7 +3327,7 @@ function renderNav(roleConfig, session = readSession()) {
     if (
       (!action && href === currentPage) ||
       (!action && currentPage === "index.html" && index === 0) ||
-      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-") || currentPage === "course-introduction.html") && href === "lessons.html") ||
+      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
       (currentPage === "activity.html" && href === "flashcards.html")
     ) {
       link.classList.add("active");

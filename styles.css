@@ -1260,11 +1260,13 @@
       line-height: 1.35;
     }
 
-    .course-values-graphic {
+    .course-values-graphic,
+    .course-guide-graphic {
       margin-top: 18px;
     }
 
-    .course-values-graphic img {
+    .course-values-graphic img,
+    .course-guide-graphic img {
       display: block;
       width: 100%;
       border: 1px solid rgba(115,0,10,.11);
@@ -1292,8 +1294,8 @@
       background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(250,246,240,.86));
     }
 
-    .course-guide-finish {
-      background: linear-gradient(180deg, rgba(250,246,240,.92), rgba(255,255,255,.84));
+    .course-guide-final-action {
+      margin-top: 4px;
     }
 
     .course-try-sentence {
