@@ -1219,9 +1219,16 @@
     .course-guide-block h3 {
       margin-top: 0;
       color: #352b25;
+      font-size: 1.55rem;
+      line-height: 1.25;
     }
 
-    .course-guide-block p,
+    .course-guide-block p {
+      color: var(--muted);
+      font-size: 1.12rem;
+      line-height: 1.68;
+    }
+
     .feedback-note {
       color: var(--muted);
       line-height: 1.58;
@@ -1250,13 +1257,13 @@
     .course-method-list p {
       margin-top: 8px;
       color: var(--muted);
-      line-height: 1.5;
+      line-height: 1.58;
     }
 
     .course-guide-block h4 {
       margin: -2px 0 12px;
       color: #5a473c;
-      font-size: 1.12rem;
+      font-size: 1.25rem;
       line-height: 1.35;
     }
 
