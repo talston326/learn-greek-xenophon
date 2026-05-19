@@ -3271,7 +3271,7 @@ async function submitFeedbackForm(event) {
   } catch (error) {
     console.error("Unable to send feedback", error);
     setFeedbackStatus(
-      "The feedback form could not be sent. Please email talston@email.sc.edu with the subject Feedback from Greek with Xenophon.",
+      "The feedback form could not be sent. Please email tpalston@email.sc.edu with the subject Feedback from Greek with Xenophon.",
       "error"
     );
     setFeedbackBusy(form, false);
