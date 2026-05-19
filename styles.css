@@ -1310,6 +1310,21 @@
       font-size: .94rem;
     }
 
+    .feedback-status {
+      min-height: 1.4em;
+      color: var(--muted);
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .feedback-status.is-error {
+      color: var(--usc-garnet);
+    }
+
+    .feedback-status.is-success {
+      color: #376342;
+    }
+
     .part-copy h3,
     .exercise-panel h3 {
       font-size: clamp(1.8rem, 3vw, 2.65rem);

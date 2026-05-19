@@ -1296,6 +1296,8 @@ const lessonsListEl = document.querySelector("[data-lessons-list]");
 const lessonPageTitleEl = document.querySelector("[data-lesson-page-title]");
 const lessonPageSummaryEl = document.querySelector("[data-lesson-page-summary]");
 const liveCourseTitleEl = document.querySelector("[data-course-title-live]");
+const feedbackFormEl = document.querySelector("[data-feedback-form]");
+const feedbackStatusEl = document.querySelector("[data-feedback-status]");
 const studentDashboardSections = document.querySelectorAll("[data-student-dashboard]");
 const professorDashboardEl = document.querySelector("[data-professor-dashboard]");
 let mobilePracticeEl = document.querySelector("[data-mobile-practice]");
@@ -3212,6 +3214,70 @@ async function renderLiveCourseTitle() {
   }
 }
 
+function setFeedbackStatus(message, type = "") {
+  if (!feedbackStatusEl) {
+    return;
+  }
+
+  feedbackStatusEl.textContent = message;
+  feedbackStatusEl.classList.toggle("is-error", type === "error");
+  feedbackStatusEl.classList.toggle("is-success", type === "success");
+}
+
+function setFeedbackBusy(form, isBusy) {
+  const submitButton = form?.querySelector('button[type="submit"]');
+
+  if (!submitButton) {
+    return;
+  }
+
+  if (!submitButton.dataset.readyLabel) {
+    submitButton.dataset.readyLabel = submitButton.textContent;
+  }
+
+  submitButton.disabled = isBusy;
+  submitButton.textContent = isBusy ? "Sending..." : submitButton.dataset.readyLabel;
+}
+
+async function submitFeedbackForm(event) {
+  event.preventDefault();
+
+  const form = event.currentTarget;
+  if (!form.reportValidity()) {
+    return;
+  }
+
+  const formData = new FormData(form);
+  if (!formData.get("form-name")) {
+    formData.set("form-name", form.getAttribute("name") || "course-feedback");
+  }
+
+  setFeedbackStatus("Sending feedback...");
+  setFeedbackBusy(form, true);
+
+  try {
+    const response = await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString()
+    });
+
+    if (!response.ok) {
+      throw new Error("Feedback request failed");
+    }
+
+    setFeedbackStatus("Feedback sent. Thank you.", "success");
+    window.location.href = form.getAttribute("action") || "feedback-thanks.html";
+  } catch (error) {
+    console.error("Unable to send feedback", error);
+    setFeedbackStatus(
+      "The feedback form could not be sent. Please email talston@email.sc.edu with the subject Feedback from Greek with Xenophon.",
+      "error"
+    );
+    setFeedbackBusy(form, false);
+  }
+}
+
 function setHeroMessage(lines) {
   if (!heroMessageEl) {
     return;
@@ -3916,6 +3982,8 @@ function performLogin({ email, password, statusMessage = "Signing in..." }) {
 authTabs.forEach((tab) => {
   tab.addEventListener("click", () => setAuthMode(tab.dataset.authTab, true));
 });
+
+feedbackFormEl?.addEventListener("submit", submitFeedbackForm);
 
 authOpenButtons.forEach((button) => {
   button.addEventListener("click", () => {
