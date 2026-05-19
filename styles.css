@@ -1198,7 +1198,7 @@
 
     .course-guide-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+      grid-template-columns: minmax(0, 1fr);
       gap: 18px;
       align-items: start;
     }
@@ -1208,8 +1208,7 @@
       gap: 14px;
     }
 
-    .course-guide-block,
-    .course-guide-aside {
+    .course-guide-block {
       border: 1px solid rgba(115,0,10,.1);
       border-radius: 18px;
       background: rgba(255,255,255,.84);
@@ -1217,14 +1216,12 @@
       padding: clamp(18px, 2.5vw, 24px);
     }
 
-    .course-guide-block h3,
-    .course-guide-aside h3 {
+    .course-guide-block h3 {
       margin-top: 0;
       color: #352b25;
     }
 
     .course-guide-block p,
-    .course-guide-aside li,
     .feedback-note {
       color: var(--muted);
       line-height: 1.58;
@@ -1246,7 +1243,6 @@
 
     .course-method-list h4,
     .course-method-list p,
-    .course-guide-aside ol,
     .feedback-form p {
       margin: 0;
     }
@@ -1264,28 +1260,18 @@
       line-height: 1.35;
     }
 
-    .course-values {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 10px;
+    .course-values-graphic {
       margin-top: 18px;
     }
 
-    .course-values div {
-      border: 1px solid rgba(115,0,10,.11);
-      border-radius: 14px;
-      background: rgba(250,246,240,.78);
-      padding: 14px 12px;
-    }
-
-    .course-values strong {
+    .course-values-graphic img {
       display: block;
-      color: var(--usc-garnet);
-      font-size: 1.4rem;
-      line-height: 1.2;
+      width: 100%;
+      border: 1px solid rgba(115,0,10,.11);
+      border-radius: 16px;
+      box-shadow: 0 10px 24px rgba(55,38,22,.1);
     }
 
-    .course-values span,
     .course-nav-list p {
       display: block;
       margin-top: 6px;
@@ -1304,6 +1290,10 @@
 
     .course-try-panel {
       background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(250,246,240,.86));
+    }
+
+    .course-guide-finish {
+      background: linear-gradient(180deg, rgba(250,246,240,.92), rgba(255,255,255,.84));
     }
 
     .course-try-sentence {
@@ -1348,17 +1338,6 @@
 
     .course-try-feedback.is-success {
       color: #376342;
-    }
-
-    .course-guide-aside {
-      position: sticky;
-      top: 20px;
-    }
-
-    .course-guide-aside ol {
-      display: grid;
-      gap: 10px;
-      padding-left: 22px;
     }
 
     .course-guide-actions,
@@ -5629,7 +5608,6 @@
       }
       .course-intro { grid-template-columns: 1fr; }
       .course-guide-layout { grid-template-columns: 1fr; }
-      .course-guide-aside { position: static; }
       .module-texts { grid-template-columns: 1fr; }
       .sound-notes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .unit0-overview-grid,
@@ -5710,8 +5688,7 @@
       }
       .main { padding: 16px; }
       .course-method-list,
-      .feedback-grid,
-      .course-values {
+      .feedback-grid {
         grid-template-columns: 1fr;
       }
       .course-try-row {
