@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Feedback - Learn Greek with Xenophon</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active feedback-page">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 110 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Spring 2027</div>
+      </div>
+
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+
+      <nav class="nav"></nav>
+
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile -></a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero feedback-hero">
+        <div class="hero-copy">
+          <p class="dashboard-context">Course Feedback</p>
+          <h2>Send Feedback</h2>
+          <p>
+            Share problems, questions, suggestions, confusing instructions, broken links,
+            typing issues, or anything else that would help improve the course.
+          </p>
+        </div>
+      </section>
+
+      <section class="feedback-shell">
+        <form class="feedback-form card" name="course-feedback" method="POST" action="/feedback-thanks" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="course-feedback">
+          <input type="hidden" name="subject" value="Feedback from Greek with Xenophon">
+          <p class="hidden-field">
+            <label>Do not fill this out: <input name="bot-field"></label>
+          </p>
+
+          <div class="feedback-grid">
+            <div>
+              <label class="field-label" for="feedback-name">Name</label>
+              <input class="text-field" id="feedback-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div>
+              <label class="field-label" for="feedback-email">Email</label>
+              <input class="text-field" id="feedback-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div>
+            <label class="field-label" for="feedback-kind">What kind of feedback is this?</label>
+            <select class="text-field" id="feedback-kind" name="kind" required>
+              <option value="">Choose one</option>
+              <option>Question</option>
+              <option>Problem or bug</option>
+              <option>Greek typing or keyboard issue</option>
+              <option>Lesson content</option>
+              <option>Practice or test feedback</option>
+              <option>Suggestion</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="field-label" for="feedback-page">Where did this happen?</label>
+            <input class="text-field" id="feedback-page" name="page" type="text" placeholder="Lesson, page, activity, or URL">
+          </div>
+
+          <div>
+            <label class="field-label" for="feedback-message">Message</label>
+            <textarea class="text-field feedback-message" id="feedback-message" name="message" rows="8" required></textarea>
+          </div>
+
+          <div class="feedback-actions">
+            <button class="primary-button" type="submit">Send Feedback</button>
+            <a class="secondary-button" href="mailto:talston@email.sc.edu?subject=Feedback%20from%20Greek%20with%20Xenophon">Email Directly</a>
+          </div>
+
+          <p class="feedback-note">
+            Feedback is collected for the course instructor. If the form is unavailable,
+            use Email Directly.
+          </p>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

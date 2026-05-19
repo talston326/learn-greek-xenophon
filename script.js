@@ -98,6 +98,7 @@ const OPEN_LESSON_ACCESS_DURING_BUILD = true;
 window.xenophonOpenLessonAccess = OPEN_LESSON_ACCESS_DURING_BUILD;
 
 const LESSON_URLS = {
+  "course-introduction": "course-introduction.html",
   "intro-1": "lesson-introduction.html",
   "lesson-1": "lesson.html?lesson=1&page=1",
   "lesson-4": "lesson.html?lesson=4&page=1"
@@ -106,6 +107,23 @@ const LESSON_URLS = {
 const COURSE_MODULES = [
   {
     id: "introduction",
+    label: "Introduction",
+    title: "How to Use This Course",
+    subtitle: "Why Xenophon, how the lessons work, and what to expect",
+    primaryText: "Start here",
+    type: "preface",
+    lessons: [
+      {
+        id: "course-introduction",
+        number: "Introduction",
+        title: "How to Use This Course",
+        grammar: "Course rationale, reading habits, vocabulary, flashcards, keyboarding, practice, tests, and feedback",
+        exerciseIds: ["orientation"]
+      }
+    ]
+  },
+  {
+    id: "unit-0",
     label: "Unit 0",
     title: "Greek Alphabet & Reading Readiness",
     subtitle: "The στοιχεῖα of Greek reading",
@@ -224,7 +242,7 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
       moduleLabel: module.label,
       moduleTitle: module.title,
       moduleType: module.type || "module",
-      number: numericLesson ? `Lesson ${numericLesson}` : `Unit ${introLesson === "1" ? "0" : introLesson || index + 1}`,
+      number: lesson.number || (numericLesson ? `Lesson ${numericLesson}` : `Unit ${introLesson === "1" ? "0" : introLesson || index + 1}`),
       subtitle: lesson.grammar || module.description || module.subtitle,
       url: LESSON_URLS[lesson.id] || (numericLesson ? `lesson.html?lesson=${numericLesson}&page=1` : `lessons.html#${lesson.id}`),
       exerciseIds: lesson.exerciseIds || ["reading", "practice", "quiz"]
@@ -444,7 +462,7 @@ function getModuleLessons(module) {
 }
 
 function getModuleProgress(module, progress) {
-  if (module.id === "introduction") {
+  if (module.id === "unit-0") {
     const overview = getUnit0Overview();
     return {
       completedCount: overview.percent === 100 ? 1 : 0,
@@ -616,6 +634,7 @@ const ROLE_DASHBOARDS = {
       ["🧑‍💼", "Users & Roles", "#"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
+      ["✉", "Feedback", "feedback.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
       ["🗂️", "Course Content", "#"],
@@ -635,6 +654,7 @@ const ROLE_DASHBOARDS = {
       ["📝", "Submissions", "#"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
+      ["✉", "Feedback", "feedback.html"],
       ["💬", "Discussions", "#"],
       ["⚙️", "Settings", "#"]
     ]
@@ -651,7 +671,8 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
-      ["👤", "Profile", "profile.html"]
+      ["👤", "Profile", "profile.html"],
+      ["✉", "Feedback", "feedback.html"]
     ]
   }
 };
@@ -2903,7 +2924,7 @@ function renderStartSummary(session, progress) {
     ? `Needs Practice: ${unit0Overview.needsPractice.map((section) => section.shortTitle).join(", ")}.`
     : "Needs Practice: none flagged yet.";
   const nextStep = isAtBeginning
-    ? `Suggested next step: ${unit0Overview.nextSection.number} ${unit0Overview.nextSection.title}.`
+    ? "Suggested next step: Read the course introduction, then begin Unit 0."
     : `Suggested next step: Continue ${currentLesson.number}. ${currentLesson.title}.`;
 
   if (startSummaryTitleEl) {
@@ -2912,7 +2933,7 @@ function renderStartSummary(session, progress) {
 
   if (startSummaryLocationEl) {
     startSummaryLocationEl.innerHTML = isAtBeginning
-      ? `Current location: Unit 0 — Greek Alphabet & Reading Readiness<br>Progress: ${unit0Overview.percent}%. ${masteredText} ${needsPracticeText}`
+      ? `Current location: Introduction, then Unit 0 — Greek Alphabet & Reading Readiness<br>Unit 0 progress: ${unit0Overview.percent}%. ${masteredText} ${needsPracticeText}`
       : `Current location: ${currentLesson.number} — ${currentLesson.title}`;
   }
 
@@ -2933,14 +2954,14 @@ function renderStartSummary(session, progress) {
   }
 
   if (startCourseLinkEl) {
-    startCourseLinkEl.href = getContinueUrl(progress);
-    startCourseLinkEl.textContent = isAtBeginning ? "Begin Unit 0" : "Continue the Course";
+    startCourseLinkEl.href = isAtBeginning ? "course-introduction.html" : getContinueUrl(progress);
+    startCourseLinkEl.textContent = isAtBeginning ? "Start with Introduction" : "Continue the Course";
   }
 }
 
 function createModuleHeader(module, progress, isDashboard = false) {
   const moduleProgress = getModuleProgress(module, progress);
-  const unit0Overview = module.id === "introduction" ? getUnit0Overview() : null;
+  const unit0Overview = module.id === "unit-0" ? getUnit0Overview() : null;
   const moduleLine = module.subtitle || module.description || "";
   const moduleMeta = [
     module.primaryText,
@@ -3145,7 +3166,7 @@ function renderLessonsPage(session) {
     );
     const section = document.createElement("details");
     section.className = `lesson-module ${module.type === "intro" ? "intro-module" : ""}`;
-    section.open = module.type === "intro" || hasCurrentLesson;
+    section.open = module.type === "intro" || module.type === "preface" || hasCurrentLesson;
 
     const summary = document.createElement("summary");
     summary.appendChild(createModuleHeader(module, progress));
@@ -3235,7 +3256,7 @@ function renderNav(roleConfig, session = readSession()) {
     if (
       (!action && href === currentPage) ||
       (!action && currentPage === "index.html" && index === 0) ||
-      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
+      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-") || currentPage === "course-introduction.html") && href === "lessons.html") ||
       (currentPage === "activity.html" && href === "flashcards.html")
     ) {
       link.classList.add("active");
