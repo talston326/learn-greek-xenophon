@@ -233,6 +233,122 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
   })
 );
 
+let lessonMetadataLoadPromise = null;
+let hasLiveLessonMetadata = false;
+
+function shouldUseLessonPageUrl(lessonId, pageUrl) {
+  return Boolean(pageUrl && (pageUrl.startsWith("lesson.html") || pageUrl.includes(`lesson=${lessonId.replace("lesson-", "")}`)));
+}
+
+function applyLessonMetadataCatalog(data) {
+  if (!data || !Array.isArray(data.modules)) {
+    return false;
+  }
+
+  let updated = false;
+
+  data.modules.forEach((liveModule) => {
+    const module = COURSE_MODULES.find((candidate) => candidate.id === liveModule.id);
+
+    if (!module) {
+      return;
+    }
+
+    if (liveModule.label) {
+      module.label = liveModule.label;
+    }
+
+    if (liveModule.title) {
+      module.title = liveModule.title;
+    }
+
+    if (liveModule.subtitle) {
+      module.subtitle = liveModule.subtitle;
+    }
+
+    if (liveModule.description) {
+      module.description = liveModule.description;
+    }
+
+    if (liveModule.type) {
+      module.type = liveModule.type;
+    }
+
+    (liveModule.lessons || []).forEach((liveLesson) => {
+      const lesson = COURSE_LESSONS.find((candidate) => candidate.id === liveLesson.id);
+      const moduleLesson = module.lessons.find((candidate) => candidate.id === liveLesson.id);
+
+      if (!lesson) {
+        return;
+      }
+
+      const title = typeof liveLesson.title === "string" && liveLesson.title.trim()
+        ? liveLesson.title.trim()
+        : lesson.title;
+      const grammar = typeof liveLesson.grammar === "string" && liveLesson.grammar.trim()
+        ? liveLesson.grammar.trim()
+        : lesson.grammar;
+      const number = typeof liveLesson.number === "string" && liveLesson.number.trim()
+        ? liveLesson.number.trim()
+        : lesson.number;
+      const url = shouldUseLessonPageUrl(liveLesson.id, liveLesson.pageUrl)
+        ? liveLesson.pageUrl
+        : lesson.url;
+
+      Object.assign(lesson, {
+        title,
+        grammar,
+        number,
+        subtitle: grammar || module.description || module.subtitle || lesson.subtitle,
+        moduleLabel: module.label,
+        moduleTitle: module.title,
+        moduleType: module.type || "module",
+        url
+      });
+
+      if (moduleLesson) {
+        Object.assign(moduleLesson, {
+          title,
+          grammar,
+          number,
+          subtitle: grammar || module.description || module.subtitle || moduleLesson.subtitle,
+          url
+        });
+      }
+
+      updated = true;
+    });
+  });
+
+  hasLiveLessonMetadata = updated;
+  return updated;
+}
+
+async function refreshLessonMetadataCatalog() {
+  if (lessonMetadataLoadPromise) {
+    return lessonMetadataLoadPromise;
+  }
+
+  lessonMetadataLoadPromise = fetch("/api/lesson-metadata")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Lesson metadata request failed");
+      }
+
+      return response.json();
+    })
+    .then((data) => applyLessonMetadataCatalog(data))
+    .catch((error) => {
+      console.error("Unable to load lesson metadata", error);
+      return false;
+    })
+    .finally(() => {
+      lessonMetadataLoadPromise = null;
+    });
+
+  return lessonMetadataLoadPromise;
+}
+
 // Prototype mirror of the internal vocabulary_items + lesson_vocabulary data model.
 // Flashcards and mobile drills are generated from these rows, not from an external service.
 const COURSE_VOCABULARY = [
@@ -3755,6 +3871,18 @@ function showDashboard(session) {
 
   renderProfileCard(session);
   applyGreekTextStyling();
+
+  refreshLessonMetadataCatalog().then((didUpdate) => {
+    if (!didUpdate && hasLiveLessonMetadata) {
+      return;
+    }
+
+    const latestSession = readSession() || session;
+    renderDashboardView(latestSession);
+    renderLessonsPage(latestSession);
+    renderProfileCard(latestSession);
+    applyGreekTextStyling();
+  });
 }
 
 function renderProfileCard(session = readSession()) {
