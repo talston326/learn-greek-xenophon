@@ -920,6 +920,22 @@ async function validateNoPriorVocabularyRepeats(
     return [];
   }
 
+  const existingResult = await client.query(
+    `
+      SELECT DISTINCT vi.display_form
+      FROM public.lesson_vocabulary lv
+      JOIN public.vocabulary_items vi ON vi.id = lv.vocabulary_item_id
+      WHERE lv.lesson_id = $1
+    `,
+    [lesson.id]
+  );
+  const existingForms = new Set(existingResult.rows.map((row) => row.display_form));
+  const newlyProposedForms = proposedForms.filter((form) => !existingForms.has(form));
+
+  if (!newlyProposedForms.length) {
+    return [];
+  }
+
   const result = await client.query(
     `
       SELECT DISTINCT
@@ -936,7 +952,7 @@ async function validateNoPriorVocabularyRepeats(
         AND vi.display_form = ANY($4::text[])
       ORDER BY vi.display_form, prior_l.number_label
     `,
-    [lesson.course_id, lesson.module_sort_order, lesson.lesson_sort_order, proposedForms]
+    [lesson.course_id, lesson.module_sort_order, lesson.lesson_sort_order, newlyProposedForms]
   );
 
   return result.rows;
