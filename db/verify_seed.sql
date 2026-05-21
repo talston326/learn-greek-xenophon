@@ -85,7 +85,7 @@ SELECT 'levels', count(*)::text, '4'
 FROM public.levels levels
 JOIN course c ON c.id = levels.course_id
 UNION ALL
-SELECT 'seed vocabulary links', count(*)::text, '44'
+SELECT 'seed vocabulary links', count(*)::text, '61'
 FROM public.lesson_vocabulary lv
 JOIN public.vocabulary_items vi ON vi.id = lv.vocabulary_item_id
 JOIN public.lessons l ON l.id = lv.lesson_id

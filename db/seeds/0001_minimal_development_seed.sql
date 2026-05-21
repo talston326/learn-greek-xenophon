@@ -262,36 +262,53 @@ WITH course AS (
 ),
 seed_vocabulary(lesson_slug, sort_order, category, display_form, gloss) AS (
   VALUES
-    ('lesson-1', 1, 'Verbs', 'ἀκούει', 'he/she/it hears, listens to'),
-    ('lesson-1', 2, 'Verbs', 'βαδίζει', 'he/she/it walks'),
-    ('lesson-1', 3, 'Verbs', 'γράφει', 'he/she/it writes'),
-    ('lesson-1', 4, 'Verbs', 'γυμνάζει', 'he/she/it trains, exercises'),
-    ('lesson-1', 5, 'Verbs', 'διδάσκει', 'he/she/it teaches'),
-    ('lesson-1', 6, 'Verbs', 'ἐγείρει', 'he/she/it awakens, rouses'),
-    ('lesson-1', 7, 'Verbs', 'ἐστιν', 'he/she/it is'),
-    ('lesson-1', 8, 'Verbs', 'ζητεῖ', 'he/she/it seeks'),
-    ('lesson-1', 9, 'Verbs', 'θαυμάζει', 'he/she/it wonders, admires, is amazed'),
-    ('lesson-1', 10, 'Verbs', 'λέγει', 'he/she/it says, speaks'),
-    ('lesson-1', 11, 'Verbs', 'μειδιᾷ', 'he/she/it smiles'),
-    ('lesson-1', 12, 'Verbs', 'οἰκεῖ', 'he/she/it lives, dwells'),
-    ('lesson-1', 13, 'Verbs', 'ὁρᾷ', 'he/she/it sees'),
-    ('lesson-1', 14, 'Verbs', 'παιδεύει', 'he/she/it educates, trains'),
-    ('lesson-1', 15, 'Verbs', 'φιλεῖ', 'he/she/it loves'),
-    ('lesson-1', 16, 'Verbs', 'χαίρει', 'he/she/it rejoices, is glad'),
-    ('lesson-1', 17, 'Nouns', 'ἀλήθεια, ἡ', 'truth'),
-    ('lesson-1', 18, 'Nouns', 'ἄνθρωπος, ὁ', 'human being, man'),
-    ('lesson-1', 19, 'Nouns', 'ἀρετή, ἡ', 'virtue, excellence'),
-    ('lesson-1', 20, 'Nouns', 'βιβλίον, τό', 'book'),
-    ('lesson-1', 21, 'Nouns', 'μαθητής, ὁ', 'student, learner'),
-    ('lesson-1', 22, 'Nouns', 'νεανίας, ὁ', 'young man'),
-    ('lesson-1', 23, 'Nouns', 'σοφία, ἡ', 'wisdom'),
-    ('lesson-1', 24, 'Nouns', 'Σωκράτης, ὁ', 'Socrates'),
-    ('lesson-1', 25, 'Nouns', 'σῶμα, τό', 'body'),
-    ('lesson-1', 26, 'Nouns', 'ψυχή, ἡ', 'soul'),
-    ('lesson-1', 27, 'Nouns', 'Ξενοφῶν, ὁ', 'Xenophon'),
-    ('lesson-1', 28, 'Adjectives', 'κακός, κακή, κακόν', 'bad'),
-    ('lesson-1', 29, 'Adjectives', 'καλός, καλή, καλόν', 'beautiful, noble, good'),
-    ('lesson-1', 30, 'Adjectives', 'νέος, νέα, νέον', 'young, new'),
+    ('lesson-1', 1, 'Verbs', 'ἄγει', 'leads'),
+    ('lesson-1', 2, 'Verbs', 'βαδίζει', 'walks'),
+    ('lesson-1', 3, 'Verbs', 'βλέπει', 'sees, looks'),
+    ('lesson-1', 4, 'Verbs', 'θεραπεύει', 'takes care of, tends'),
+    ('lesson-1', 5, 'Verbs', 'ἕπεται', 'follows'),
+    ('lesson-1', 6, 'Verbs', 'ἔχει', 'has'),
+    ('lesson-1', 7, 'Verbs', 'καλεῖ', 'calls'),
+    ('lesson-1', 8, 'Verbs', 'λέγει', 'says'),
+    ('lesson-1', 9, 'Verbs', 'μένει', 'remains, stays'),
+    ('lesson-1', 10, 'Verbs', 'οἰκεῖ', 'lives'),
+    ('lesson-1', 11, 'Verbs', 'ποιεῖ', 'does, makes'),
+    ('lesson-1', 12, 'Verbs', 'φέρει', 'carries'),
+    ('lesson-1', 13, 'Verbs', 'ὑλακτεῖ', 'barks'),
+    ('lesson-1', 14, 'Verbs', 'χαίρει', 'rejoices, is glad'),
+    ('lesson-1', 15, 'Nouns', 'ὁ ἀγρός', 'field'),
+    ('lesson-1', 16, 'Nouns', 'ὁ ἀνήρ', 'man, husband'),
+    ('lesson-1', 17, 'Nouns', 'αἱ Ἀθῆναι', 'Athens'),
+    ('lesson-1', 18, 'Nouns', 'ὁ δεσπότης', 'master'),
+    ('lesson-1', 19, 'Nouns', 'τὸ δεῖπνον', 'meal'),
+    ('lesson-1', 20, 'Nouns', 'ἡ θύρα', 'door'),
+    ('lesson-1', 21, 'Nouns', 'ὁ ἵππος', 'horse'),
+    ('lesson-1', 22, 'Nouns', 'ὁ ἱππεύς', 'cavalryman, horseman'),
+    ('lesson-1', 23, 'Nouns', 'τὸ ἱππικόν', 'cavalry'),
+    ('lesson-1', 24, 'Nouns', 'ὁ κύων', 'dog'),
+    ('lesson-1', 25, 'Nouns', 'ὁ λόφος', 'hill'),
+    ('lesson-1', 26, 'Nouns', 'ἡ μήτηρ', 'mother'),
+    ('lesson-1', 27, 'Nouns', 'ὁ νεανίας', 'young man'),
+    ('lesson-1', 28, 'Nouns', 'ὁ οἶκος', 'house'),
+    ('lesson-1', 29, 'Nouns', 'ὁ πατήρ', 'father'),
+    ('lesson-1', 30, 'Nouns', 'ὁ παῖς', 'child, boy'),
+    ('lesson-1', 31, 'Nouns', 'ὁ σῖτος', 'grain'),
+    ('lesson-1', 32, 'Nouns', 'ὁ υἱός', 'son'),
+    ('lesson-1', 33, 'Nouns', 'τὸ ὕδωρ', 'water'),
+    ('lesson-1', 34, 'Nouns', 'ὁ Ξενοφῶν', 'Xenophon'),
+    ('lesson-1', 35, 'Nouns', 'ὁ Γρύλλος', 'Gryllus'),
+    ('lesson-1', 36, 'Nouns', 'ἡ Ἐρχία', 'Erchia'),
+    ('lesson-1', 37, 'Adjectives', 'ἀγαθός', 'good'),
+    ('lesson-1', 38, 'Adjectives', 'Ἀθηναῖος', 'Athenian'),
+    ('lesson-1', 39, 'Adjectives', 'ἰσχυρός', 'strong'),
+    ('lesson-1', 40, 'Adjectives', 'καλός', 'beautiful, noble'),
+    ('lesson-1', 41, 'Adjectives', 'νέος', 'young'),
+    ('lesson-1', 42, 'Other', 'ἐν', 'in'),
+    ('lesson-1', 43, 'Other', 'ἐπί', 'on'),
+    ('lesson-1', 44, 'Other', 'εἶτα', 'then'),
+    ('lesson-1', 45, 'Other', 'οὐ', 'not'),
+    ('lesson-1', 46, 'Other', 'περί', 'around'),
+    ('lesson-1', 47, 'Other', 'πρός', 'toward, to'),
     ('lesson-4', 1, 'Verbs', 'διδάσκει', 'teaches'),
     ('lesson-4', 2, 'Verbs', 'μανθάνει', 'learns'),
     ('lesson-4', 3, 'Verbs', 'γράφει', 'writes'),
@@ -306,6 +323,23 @@ seed_vocabulary(lesson_slug, sort_order, category, display_form, gloss) AS (
     ('lesson-4', 12, 'Particles', 'δέ', 'and, but; marks a new step'),
     ('lesson-4', 13, 'Proper Names and Adjectives', 'Ξενοφῶν', 'Xenophon'),
     ('lesson-4', 14, 'Proper Names and Adjectives', 'Σωκρατικός', 'Socratic')
+),
+target_vocabulary_lessons AS (
+  SELECT DISTINCT l.id
+  FROM seed_vocabulary sv
+  JOIN course c ON true
+  JOIN public.modules m ON m.course_id = c.id
+  JOIN public.lessons l ON l.module_id = m.id AND l.slug = sv.lesson_slug
+),
+deleted_lesson_vocabulary AS (
+  DELETE FROM public.lesson_vocabulary lv
+  USING target_vocabulary_lessons tl
+  WHERE lv.lesson_id = tl.id
+  RETURNING lv.lesson_id
+),
+delete_complete AS (
+  SELECT count(*) AS deleted_rows
+  FROM deleted_lesson_vocabulary
 ),
 upserted_vocabulary AS (
   INSERT INTO public.vocabulary_items (
@@ -325,6 +359,8 @@ upserted_vocabulary AS (
       'category', category
     )
   FROM seed_vocabulary
+  CROSS JOIN delete_complete
+  WHERE true
   ON CONFLICT (lemma, display_form, gloss) DO UPDATE
   SET part_of_speech = EXCLUDED.part_of_speech,
       morphology = EXCLUDED.morphology,

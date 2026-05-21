@@ -4800,46 +4800,68 @@
         {
           category: "Verbs",
           items: [
-            { greek: "ἀκούει", english: "he/she/it hears, listens to" },
-            { greek: "βαδίζει", english: "he/she/it walks" },
-            { greek: "γράφει", english: "he/she/it writes" },
-            { greek: "γυμνάζει", english: "he/she/it trains, exercises" },
-            { greek: "διδάσκει", english: "he/she/it teaches" },
-            { greek: "ἐγείρει", english: "he/she/it awakens, rouses" },
-            { greek: "ἐστιν", english: "he/she/it is" },
-            { greek: "ζητεῖ", english: "he/she/it seeks" },
-            { greek: "θαυμάζει", english: "he/she/it wonders, admires, is amazed" },
-            { greek: "λέγει", english: "he/she/it says, speaks" },
-            { greek: "μειδιᾷ", english: "he/she/it smiles" },
-            { greek: "οἰκεῖ", english: "he/she/it lives, dwells" },
-            { greek: "ὁρᾷ", english: "he/she/it sees" },
-            { greek: "παιδεύει", english: "he/she/it educates, trains" },
-            { greek: "φιλεῖ", english: "he/she/it loves" },
-            { greek: "χαίρει", english: "he/she/it rejoices, is glad" }
+            { greek: "ἄγει", english: "leads" },
+            { greek: "βαδίζει", english: "walks" },
+            { greek: "βλέπει", english: "sees, looks" },
+            { greek: "θεραπεύει", english: "takes care of, tends" },
+            { greek: "ἕπεται", english: "follows" },
+            { greek: "ἔχει", english: "has" },
+            { greek: "καλεῖ", english: "calls" },
+            { greek: "λέγει", english: "says" },
+            { greek: "μένει", english: "remains, stays" },
+            { greek: "οἰκεῖ", english: "lives" },
+            { greek: "ποιεῖ", english: "does, makes" },
+            { greek: "φέρει", english: "carries" },
+            { greek: "ὑλακτεῖ", english: "barks" },
+            { greek: "χαίρει", english: "rejoices, is glad" }
           ]
         },
         {
           category: "Nouns",
           items: [
-            { greek: "ἀλήθεια, ἡ", english: "truth" },
-            { greek: "ἄνθρωπος, ὁ", english: "human being, man" },
-            { greek: "ἀρετή, ἡ", english: "virtue, excellence" },
-            { greek: "βιβλίον, τό", english: "book" },
-            { greek: "μαθητής, ὁ", english: "student, learner" },
-            { greek: "νεανίας, ὁ", english: "young man" },
-            { greek: "σοφία, ἡ", english: "wisdom" },
-            { greek: "Σωκράτης, ὁ", english: "Socrates" },
-            { greek: "σῶμα, τό", english: "body" },
-            { greek: "ψυχή, ἡ", english: "soul" },
-            { greek: "Ξενοφῶν, ὁ", english: "Xenophon" }
+            { greek: "ὁ ἀγρός", english: "field" },
+            { greek: "ὁ ἀνήρ", english: "man, husband" },
+            { greek: "αἱ Ἀθῆναι", english: "Athens" },
+            { greek: "ὁ δεσπότης", english: "master" },
+            { greek: "τὸ δεῖπνον", english: "meal" },
+            { greek: "ἡ θύρα", english: "door" },
+            { greek: "ὁ ἵππος", english: "horse" },
+            { greek: "ὁ ἱππεύς", english: "cavalryman, horseman" },
+            { greek: "τὸ ἱππικόν", english: "cavalry" },
+            { greek: "ὁ κύων", english: "dog" },
+            { greek: "ὁ λόφος", english: "hill" },
+            { greek: "ἡ μήτηρ", english: "mother" },
+            { greek: "ὁ νεανίας", english: "young man" },
+            { greek: "ὁ οἶκος", english: "house" },
+            { greek: "ὁ πατήρ", english: "father" },
+            { greek: "ὁ παῖς", english: "child, boy" },
+            { greek: "ὁ σῖτος", english: "grain" },
+            { greek: "ὁ υἱός", english: "son" },
+            { greek: "τὸ ὕδωρ", english: "water" },
+            { greek: "ὁ Ξενοφῶν", english: "Xenophon" },
+            { greek: "ὁ Γρύλλος", english: "Gryllus" },
+            { greek: "ἡ Ἐρχία", english: "Erchia" }
           ]
         },
         {
           category: "Adjectives",
           items: [
-            { greek: "κακός, κακή, κακόν", english: "bad" },
-            { greek: "καλός, καλή, καλόν", english: "beautiful, noble, good" },
-            { greek: "νέος, νέα, νέον", english: "young, new" }
+            { greek: "ἀγαθός", english: "good" },
+            { greek: "Ἀθηναῖος", english: "Athenian" },
+            { greek: "ἰσχυρός", english: "strong" },
+            { greek: "καλός", english: "beautiful, noble" },
+            { greek: "νέος", english: "young" }
+          ]
+        },
+        {
+          category: "Other",
+          items: [
+            { greek: "ἐν", english: "in" },
+            { greek: "ἐπί", english: "on" },
+            { greek: "εἶτα", english: "then" },
+            { greek: "οὐ", english: "not" },
+            { greek: "περί", english: "around" },
+            { greek: "πρός", english: "toward, to" }
           ]
         }
       ],
