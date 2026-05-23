@@ -669,6 +669,45 @@
       .filter(Boolean);
   }
 
+  function formatGreekEnglishBlock(items = []) {
+    return items
+      .filter((item) => item?.greek || item?.english)
+      .map((item) => `${item.greek || ""} — ${item.english || ""}`.trim())
+      .join("\n");
+  }
+
+  function parseCategoryLine(line) {
+    const match = String(line || "").match(/^cat(?:e(?:gory|tory)|gory)\s*:\s*(.+)$/i);
+    return match ? match[1].trim() : "";
+  }
+
+  function parseGreekEnglishBlock(value, label = "Vocabulary") {
+    return String(value || "")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .filter((line) => !parseCategoryLine(line))
+      .map((line, index) => {
+        const match = line.match(/^(.+?)\s+[—–-]\s+(.+)$/);
+
+        if (!match) {
+          throw new Error(`${label} line ${index + 1} must use the format Greek — definition.`);
+        }
+
+        return {
+          greek: match[1].trim(),
+          english: match[2].trim(),
+        };
+      });
+  }
+
+  function categoryFromGreekEnglishBlock(value) {
+    return String(value || "")
+      .split("\n")
+      .map(parseCategoryLine)
+      .find(Boolean) || "";
+  }
+
   function fieldValue(name, root = shell) {
     return root.querySelector(`[data-editor-field="${name}"]`)?.value || "";
   }
@@ -703,16 +742,7 @@
                 ${renderInput("Category", "vocab-category", group.category || "")}
                 ${renderRemoveButton("Remove Group")}
               </div>
-              <div class="lesson-editor-table">
-                ${(group.items || []).map((item) => `
-                  <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="vocab-item">
-                    ${renderInput("Greek", "vocab-greek", item.greek || "")}
-                    ${renderInput("Gloss", "vocab-english", item.english || "")}
-                    ${renderRemoveButton("Remove")}
-                  </div>
-                `).join("")}
-              </div>
-              <button class="secondary-button" type="button" data-lesson-editor-action="add-vocab-item">Add Vocabulary Row</button>
+              ${renderTextarea("Vocabulary lines", "vocab-block", formatGreekEnglishBlock(group.items), 8)}
             </section>
           `).join("")}
         </div>
@@ -737,19 +767,7 @@
                 ${renderRemoveButton("Remove Paragraph")}
               </div>
               ${renderTextarea("Greek paragraph", "reading-greek", paragraph.greek || "", 7)}
-              <div class="lesson-section__header">
-                <h4>Glosses</h4>
-                <button class="secondary-button" type="button" data-lesson-editor-action="add-reading-gloss">Add Gloss</button>
-              </div>
-              <div class="lesson-editor-table">
-                ${(paragraph.gloss || []).map((entry) => `
-                  <div class="lesson-editor-row lesson-editor-row--three" data-editor-row="reading-gloss">
-                    ${renderInput("Greek", "gloss-greek", entry.greek || "")}
-                    ${renderInput("Gloss", "gloss-english", entry.english || "")}
-                    ${renderRemoveButton("Remove")}
-                  </div>
-                `).join("")}
-              </div>
+              ${renderTextarea("Gloss lines", "reading-gloss-block", formatGreekEnglishBlock(paragraph.gloss), 5)}
             </section>
           `).join("")}
         </div>
@@ -982,22 +1000,23 @@
     if (page?.template === "reading") {
       draft.banner ||= {};
       draft.banner.image = fieldValue("banner-image");
-      draft.vocabulary = Array.from(shell.querySelectorAll('[data-editor-row="vocab-group"]')).map((group) => ({
-        category: fieldValue("vocab-category", group),
-        items: Array.from(group.querySelectorAll('[data-editor-row="vocab-item"]')).map((item) => ({
-          greek: fieldValue("vocab-greek", item),
-          english: fieldValue("vocab-english", item),
-        })),
-      }));
+      draft.vocabulary = Array.from(shell.querySelectorAll('[data-editor-row="vocab-group"]')).map((group) => {
+        const blockValue = fieldValue("vocab-block", group);
+        const fieldCategory = fieldValue("vocab-category", group);
+        const pastedCategory = categoryFromGreekEnglishBlock(blockValue);
+        const category = pastedCategory && (!fieldCategory || fieldCategory === "New Group") ? pastedCategory : fieldCategory;
+
+        return {
+          category,
+          items: parseGreekEnglishBlock(blockValue, category || "Vocabulary"),
+        };
+      });
       draft.reading ||= {};
       draft.reading.title = fieldValue("reading-title");
       draft.reading.translation = fieldValue("reading-translation");
       draft.reading.paragraphs = Array.from(shell.querySelectorAll('[data-editor-row="reading-paragraph"]')).map((paragraph) => ({
         greek: fieldValue("reading-greek", paragraph),
-        gloss: Array.from(paragraph.querySelectorAll('[data-editor-row="reading-gloss"]')).map((entry) => ({
-          greek: fieldValue("gloss-greek", entry),
-          english: fieldValue("gloss-english", entry),
-        })),
+        gloss: parseGreekEnglishBlock(fieldValue("reading-gloss-block", paragraph), "Gloss"),
       }));
     }
 
@@ -1078,26 +1097,13 @@
 
     if (action === "add-vocab-group") {
       draft.vocabulary ||= [];
-      draft.vocabulary.push({ category: "New Group", items: [{ greek: "", english: "" }] });
-    }
-
-    if (action === "add-vocab-item") {
-      const group = button.closest('[data-editor-row="vocab-group"]');
-      const index = getRowIndex(group, '[data-editor-row="vocab-group"]');
-      draft.vocabulary[index]?.items?.push({ greek: "", english: "" });
+      draft.vocabulary.push({ category: "New Group", items: [] });
     }
 
     if (action === "add-reading-paragraph") {
       draft.reading ||= {};
       draft.reading.paragraphs ||= [];
       draft.reading.paragraphs.push({ greek: "", gloss: [] });
-    }
-
-    if (action === "add-reading-gloss") {
-      const paragraph = button.closest('[data-editor-row="reading-paragraph"]');
-      const index = getRowIndex(paragraph, '[data-editor-row="reading-paragraph"]');
-      draft.reading.paragraphs[index].gloss ||= [];
-      draft.reading.paragraphs[index].gloss.push({ greek: "", english: "" });
     }
 
     if (action === "add-word-block") {
