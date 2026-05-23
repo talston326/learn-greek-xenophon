@@ -2737,7 +2737,7 @@
     .gate-panel,
     .enrichment-panel {
       display: grid;
-      gap: 16px;
+      gap: 18px;
     }
 
     .enrichment-panel p,
@@ -2755,8 +2755,8 @@
 
     .word-builder-list {
       display: grid;
-      gap: 8px;
-      margin: 12px 0 0;
+      gap: 12px;
+      margin: 16px 0 0;
     }
 
     .word-building-panel--compact .word-builder-list {
@@ -2765,13 +2765,13 @@
 
     .word-builder-list div {
       display: grid;
-      grid-template-columns: minmax(130px, .24fr) minmax(0, 1fr);
-      gap: 12px;
+      grid-template-columns: minmax(170px, .28fr) minmax(0, 1fr);
+      gap: 16px;
       align-items: baseline;
       border: 1px solid rgba(115,0,10,.08);
       border-radius: 12px;
       background: rgba(255,255,255,.7);
-      padding: 10px 12px;
+      padding: 14px 16px;
     }
 
     .word-builder-list dt,
@@ -2781,24 +2781,28 @@
 
     .word-builder-list dt {
       color: #2f2925;
-      font-size: 1.2rem;
+      font-size: 1.35rem;
       font-weight: 800;
+      line-height: 1.35;
     }
 
     .word-builder-list dd {
       color: #5f534b;
-      line-height: 1.35;
+      font-size: 1.12rem;
+      line-height: 1.55;
     }
 
     .word-builder-connections {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px 12px;
+      gap: 10px 14px;
       align-items: baseline;
-      margin-top: 12px;
+      margin-top: 16px;
       border-top: 1px solid rgba(111,102,95,.14);
-      padding-top: 10px;
+      padding-top: 12px;
       color: #5f534b;
+      font-size: 1.08rem;
+      line-height: 1.55;
     }
 
     .word-builder-connections h4,
@@ -2808,7 +2812,7 @@
 
     .word-builder-connections h4 {
       color: var(--usc-garnet);
-      font-size: .92rem;
+      font-size: 1rem;
     }
 
     .word-building-panel {
@@ -2830,6 +2834,8 @@
     .word-building-panel--compact .lesson-markdown-block p {
       margin: 0;
       max-width: 860px;
+      font-size: 1.12rem;
+      line-height: 1.65;
     }
 
     .gate-panel {
@@ -2863,7 +2869,14 @@
     .lesson-markdown-block,
     .grammar-subsection {
       border-top: 1px solid rgba(111,102,95,.16);
-      padding-top: 16px;
+      padding-top: 18px;
+    }
+
+    .word-building-panel .lesson-markdown-block p,
+    .grammar-panel > p,
+    .grammar-subsection > p {
+      font-size: 1.12rem;
+      line-height: 1.65;
     }
 
     .grammar-examples {
@@ -2872,14 +2885,31 @@
       margin-top: 14px;
     }
 
+    .grammar-subsection {
+      display: grid;
+      gap: 14px;
+    }
+
+    .grammar-subsection > p {
+      margin: 0;
+      max-width: 920px;
+    }
+
+    .grammar-subsection__heading .secondary-button,
+    .grammar-panel .lesson-flashcard-link {
+      font-size: 1rem;
+      line-height: 1.2;
+      padding: 12px 16px;
+    }
+
     .grammar-example {
       margin: 0;
       display: grid;
-      gap: 5px;
+      gap: 7px;
       border: 1px solid rgba(115,0,10,.09);
       border-radius: 12px;
       background: rgba(250,246,240,.72);
-      padding: 12px 14px;
+      padding: 14px 16px;
     }
 
     .grammar-example__greek,
@@ -2895,13 +2925,13 @@
 
     .grammar-example__english {
       color: var(--muted);
-      font-size: .98rem;
-      line-height: 1.35;
+      font-size: 1.08rem;
+      line-height: 1.55;
     }
 
     .grammar-table-wrap {
       overflow-x: auto;
-      margin-top: 14px;
+      margin-top: 4px;
     }
 
     .grammar-table {
@@ -2917,15 +2947,17 @@
     .grammar-table th,
     .grammar-table td {
       border-bottom: 1px solid rgba(111,102,95,.14);
-      padding: 11px 12px;
+      padding: 14px 16px;
       text-align: left;
       vertical-align: top;
+      font-size: 1.05rem;
+      line-height: 1.5;
     }
 
     .grammar-table thead th {
       background: rgba(115,0,10,.08);
       color: var(--usc-garnet);
-      font-size: .82rem;
+      font-size: 1rem;
       letter-spacing: .06em;
       text-transform: uppercase;
     }
@@ -2933,18 +2965,19 @@
     .grammar-table tbody th {
       color: #443b35;
       font-weight: 900;
+      font-size: 1.08rem;
     }
 
     .grammar-table tbody td {
       color: #2f2925;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
 
     .grammar-form-list {
       display: grid;
-      gap: 8px;
-      margin-top: 14px;
-      padding: 12px 14px;
+      gap: 10px;
+      margin-top: 4px;
+      padding: 14px 16px;
       border: 1px solid rgba(115,0,10,.1);
       border-radius: 12px;
       background: rgba(250,246,240,.72);
@@ -2953,24 +2986,25 @@
     .grammar-form-list h4 {
       margin: 0;
       color: var(--usc-garnet);
-      font-size: 1rem;
+      font-size: 1.08rem;
     }
 
     .grammar-form-list ul {
       list-style: none;
       display: grid;
-      gap: 5px;
+      gap: 8px;
       margin: 0;
       padding: 0;
     }
 
     .grammar-form-list li {
       color: #443b35;
-      line-height: 1.35;
+      font-size: 1.08rem;
+      line-height: 1.55;
     }
 
     .grammar-form-list .greek-text {
-      font-size: 1.08em;
+      font-size: 1.16em;
     }
 
     .culture-panel {
