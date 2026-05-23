@@ -350,7 +350,9 @@
             ${block.connections?.length ? `
               <div class="word-builder-connections">
                 <h4>English connections</h4>
-                <p>${block.connections.map((connection) => escapeHtml(connection)).join(", ")}</p>
+                <ul>
+                  ${block.connections.map((connection) => `<li>${escapeHtml(connection)}</li>`).join("")}
+                </ul>
               </div>
             ` : ""}
           </div>
