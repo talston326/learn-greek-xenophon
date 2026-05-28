@@ -658,6 +658,8 @@
     }
 
     .hero {
+      --hero-banner-position: center 42%;
+      --hero-banner-size: cover;
       position: relative;
       overflow: hidden;
       border-radius: 30px;
@@ -674,7 +676,10 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: url('assets/hero-banner-bg.png') center 42%/cover no-repeat;
+      background-image: url('assets/hero-banner-bg.png');
+      background-position: var(--hero-banner-position);
+      background-size: var(--hero-banner-size);
+      background-repeat: no-repeat;
       z-index: 0;
     }
 
@@ -693,7 +698,7 @@
     .hero-copy {
       position: relative;
       z-index: 2;
-      width: min(100%, 540px);
+      width: min(50%, 540px);
     }
 
     .hero h2 {
@@ -702,6 +707,9 @@
       line-height: 1.05;
       color: var(--usc-garnet);
       font-weight: 700;
+      text-shadow:
+        0 1px 2px rgba(255, 253, 248, .92),
+        0 0 14px rgba(255, 253, 248, .72);
     }
 
     .dashboard-context {
@@ -711,6 +719,9 @@
       text-transform: uppercase;
       letter-spacing: .08em;
       font-size: .78rem;
+      text-shadow:
+        0 1px 2px rgba(255, 253, 248, .9),
+        0 0 12px rgba(255, 253, 248, .68);
     }
 
     .hero p {
@@ -718,6 +729,9 @@
       font-size: 1.1rem;
       line-height: 1.55;
       color: #3a332e;
+      text-shadow:
+        0 1px 2px rgba(255, 253, 248, .9),
+        0 0 12px rgba(255, 253, 248, .68);
     }
 
     .grid-top,
@@ -1179,6 +1193,10 @@
         center 38% / cover no-repeat url('assets/xenophon-bust.jpg');
       color: #fff;
       border: 0;
+    }
+
+    .course-guide-hero > div:first-child {
+      max-width: min(50%, 720px);
     }
 
     .course-guide-hero .eyebrow,
@@ -2356,7 +2374,7 @@
       z-index: 1;
       left: clamp(18px, 4vw, 42px);
       top: clamp(18px, 4vw, 38px);
-      max-width: min(620px, calc(100% - 36px));
+      max-width: min(50%, 620px);
       color: #fff;
       text-shadow: 0 2px 18px rgba(0,0,0,.36);
     }
@@ -3562,7 +3580,7 @@
     .module-hero__content {
       position: relative;
       z-index: 1;
-      width: min(100%, 540px);
+      width: min(50%, 540px);
       padding: 28px 32px;
     }
 
@@ -5650,10 +5668,10 @@
       .unit0-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .map-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .hero::before {
-        background-position: center 42%;
-        background-size: cover;
+        background-position: var(--hero-banner-position);
+        background-size: var(--hero-banner-size);
       }
-      .hero-copy { width: min(100%, 520px); }
+      .hero-copy { width: min(50%, 520px); }
     }
 
     @media (max-width: 1100px) {
@@ -5678,10 +5696,10 @@
         min-height: 250px;
       }
       .hero::before {
-        background-position: center 42%;
-        background-size: cover;
+        background-position: var(--hero-banner-position);
+        background-size: var(--hero-banner-size);
       }
-      .hero-copy { width: min(100%, 500px); }
+      .hero-copy { width: min(50%, 500px); }
       .path-card::before { background-position: right bottom; }
       .current {
         align-items: flex-start;
@@ -5752,18 +5770,20 @@
         grid-template-columns: 1fr;
       }
       .hero {
+        --hero-banner-position: center center;
+        --hero-banner-size: contain;
         min-height: 280px;
       }
       .module-hero {
         min-height: 280px;
       }
       .hero::before {
-        background-position: center 42%;
-        background-size: cover;
+        background-position: var(--hero-banner-position);
+        background-size: var(--hero-banner-size);
       }
-      .hero-copy { width: min(100%, 68%); }
+      .hero-copy { width: min(50%, 500px); }
       .module-hero__content {
-        width: min(100%, 500px);
+        width: min(50%, 500px);
         padding: 28px 32px;
       }
       .module-hero__greek-title { font-size: 3.35rem; }
@@ -5869,13 +5889,15 @@
         min-height: 230px;
       }
       .hero {
+        --hero-banner-position: center center;
+        --hero-banner-size: contain;
         padding: 22px;
         min-height: 260px;
         align-items: flex-start;
       }
       .hero::before {
-        background-position: center top;
-        background-size: cover;
+        background-position: var(--hero-banner-position);
+        background-size: var(--hero-banner-size);
       }
       .feedback-page .hero::after {
         background:
@@ -5883,6 +5905,9 @@
       }
       .hero-copy {
         width: min(100%, 76%);
+      }
+      .course-guide-hero > div:first-child {
+        max-width: 100%;
       }
       .module-shell {
         padding: 14px;
@@ -6171,6 +6196,9 @@
       .lesson-hero {
         min-height: 260px;
         border-radius: 18px;
+      }
+      .lesson-hero__overlay {
+        max-width: calc(100% - 36px);
       }
       .lesson-hero__title {
         font-size: clamp(1.24rem, 7vw, 1.72rem);

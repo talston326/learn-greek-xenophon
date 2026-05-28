@@ -782,7 +782,8 @@ const ROLE_DASHBOARDS = {
     heading: "Χαῖρε, μαθητά!",
     lines: [
       "Welcome back to GREK 110 J10.",
-      "Keep up your excellent progress in learning Ancient Greek with Xenophon."
+      "Keep up your excellent progress in learning",
+      "Ancient Greek with Xenophon."
     ],
     nav: [
       ["🏠", "Dashboard", "index.html"],
