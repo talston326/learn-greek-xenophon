@@ -302,6 +302,7 @@ function completenessScore(row: DictionaryRow) {
     item.dictionary_form,
     item.definition,
     item.part_of_speech,
+    item.article,
     item.gender,
     item.genitive_form,
     item.feminine_form,
