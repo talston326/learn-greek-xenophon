@@ -52,6 +52,18 @@ function validateStringArray(value: unknown, path: string, errors: string[]) {
   value.forEach((item, index) => validateString(item, `${path}[${index}]`, errors));
 }
 
+function validateStringOrStringArray(value: unknown, path: string, errors: string[]) {
+  if (value === undefined) {
+    return;
+  }
+
+  if (typeof value === "string") {
+    return;
+  }
+
+  validateStringArray(value, path, errors);
+}
+
 function validateGreekEnglishRows(value: unknown, path: string, errors: string[]) {
   if (value === undefined) {
     return;
@@ -69,12 +81,37 @@ function validateGreekEnglishRows(value: unknown, path: string, errors: string[]
     }
 
     validateString(row.greek, `${path}[${index}].greek`, errors);
+    validateString(row.displayForm, `${path}[${index}].displayForm`, errors);
+    validateString(row.display_form, `${path}[${index}].display_form`, errors);
+    validateString(row.lemma, `${path}[${index}].lemma`, errors);
     validateString(row.english, `${path}[${index}].english`, errors);
+    validateString(row.partOfSpeech, `${path}[${index}].partOfSpeech`, errors);
+    validateString(row.part_of_speech, `${path}[${index}].part_of_speech`, errors);
   });
 }
 
 function optionalText(value: unknown): string | null {
   return typeof value === "string" && value.trim() ? value.trim() : null;
+}
+
+function optionalTextArray(value: unknown): string[] | null {
+  if (Array.isArray(value)) {
+    const values = value
+      .filter((item): item is string => typeof item === "string")
+      .map((item) => item.trim())
+      .filter(Boolean);
+    return values.length ? values : null;
+  }
+
+  if (typeof value === "string" && value.trim()) {
+    const values = value
+      .split(/\s*,\s*/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+    return values.length ? values : null;
+  }
+
+  return null;
 }
 
 function buildReadingNotesMarkdown(reading: Record<string, unknown>): string | null {
@@ -216,7 +253,25 @@ function validateLessonContent(content: unknown): ValidationResult {
           }
 
           validateString(item.greek, `vocabulary[${groupIndex}].items[${itemIndex}].greek`, errors);
+          validateString(item.displayForm, `vocabulary[${groupIndex}].items[${itemIndex}].displayForm`, errors);
+          validateString(item.display_form, `vocabulary[${groupIndex}].items[${itemIndex}].display_form`, errors);
+          validateString(item.lemma, `vocabulary[${groupIndex}].items[${itemIndex}].lemma`, errors);
           validateString(item.english, `vocabulary[${groupIndex}].items[${itemIndex}].english`, errors);
+          validateString(item.definition, `vocabulary[${groupIndex}].items[${itemIndex}].definition`, errors);
+          validateString(item.partOfSpeech, `vocabulary[${groupIndex}].items[${itemIndex}].partOfSpeech`, errors);
+          validateString(item.part_of_speech, `vocabulary[${groupIndex}].items[${itemIndex}].part_of_speech`, errors);
+          validateString(item.dictionaryForm, `vocabulary[${groupIndex}].items[${itemIndex}].dictionaryForm`, errors);
+          validateString(item.dictionary_form, `vocabulary[${groupIndex}].items[${itemIndex}].dictionary_form`, errors);
+          validateString(item.article, `vocabulary[${groupIndex}].items[${itemIndex}].article`, errors);
+          validateString(item.gender, `vocabulary[${groupIndex}].items[${itemIndex}].gender`, errors);
+          validateString(item.genitiveForm, `vocabulary[${groupIndex}].items[${itemIndex}].genitiveForm`, errors);
+          validateString(item.genitive_form, `vocabulary[${groupIndex}].items[${itemIndex}].genitive_form`, errors);
+          validateString(item.feminineForm, `vocabulary[${groupIndex}].items[${itemIndex}].feminineForm`, errors);
+          validateString(item.feminine_form, `vocabulary[${groupIndex}].items[${itemIndex}].feminine_form`, errors);
+          validateString(item.neuterForm, `vocabulary[${groupIndex}].items[${itemIndex}].neuterForm`, errors);
+          validateString(item.neuter_form, `vocabulary[${groupIndex}].items[${itemIndex}].neuter_form`, errors);
+          validateStringOrStringArray(item.principalParts, `vocabulary[${groupIndex}].items[${itemIndex}].principalParts`, errors);
+          validateStringOrStringArray(item.principal_parts, `vocabulary[${groupIndex}].items[${itemIndex}].principal_parts`, errors);
           validateString(item.audioUrl, `vocabulary[${groupIndex}].items[${itemIndex}].audioUrl`, errors);
         });
       });
@@ -566,15 +621,32 @@ async function syncLessonVocabulary(
         continue;
       }
 
-      const greek = typeof item.greek === "string" ? item.greek.trim() : "";
-      const english = typeof item.english === "string" ? item.english.trim() : "";
+      const displayForm =
+        optionalText(item.displayForm) ||
+        optionalText(item.display_form) ||
+        optionalText(item.greek) ||
+        "";
+      const lemma = optionalText(item.lemma) || displayForm;
+      const english = optionalText(item.definition) || optionalText(item.english) || "";
+      const gloss = optionalText(item.english) || english;
+      const partOfSpeech =
+        optionalText(item.partOfSpeech) ||
+        optionalText(item.part_of_speech) ||
+        category;
+      const dictionaryForm = optionalText(item.dictionaryForm) || optionalText(item.dictionary_form);
+      const principalParts = optionalTextArray(item.principalParts) || optionalTextArray(item.principal_parts);
+      const gender = optionalText(item.gender);
+      const genitiveForm = optionalText(item.genitiveForm) || optionalText(item.genitive_form);
+      const feminineForm = optionalText(item.feminineForm) || optionalText(item.feminine_form);
+      const neuterForm = optionalText(item.neuterForm) || optionalText(item.neuter_form);
+      const article = optionalText(item.article);
       const audioUrl = typeof item.audioUrl === "string" && item.audioUrl.trim() ? item.audioUrl.trim() : null;
 
-      if (!greek && !english) {
+      if (!displayForm && !english) {
         continue;
       }
 
-      if (!greek || !english) {
+      if (!displayForm || !english) {
         throw new Error("Vocabulary rows saved to normalized tables must include both Greek and English text.");
       }
 
@@ -586,23 +658,56 @@ async function syncLessonVocabulary(
             part_of_speech,
             gloss,
             morphology,
-            audio_url
+            audio_url,
+            dictionary_form,
+            principal_parts,
+            gender,
+            genitive_form,
+            feminine_form,
+            neuter_form,
+            definition,
+            article
           )
-          VALUES ($1, $1, $2, $3, $4::jsonb, $5)
+          VALUES ($1, $2, $3, $4, $5::jsonb, $6, $7, $8::text[], $9, $10, $11, $12, $13, $14)
           ON CONFLICT (lemma, display_form, gloss) DO UPDATE
           SET audio_url = COALESCE(EXCLUDED.audio_url, public.vocabulary_items.audio_url),
+              part_of_speech = COALESCE(EXCLUDED.part_of_speech, public.vocabulary_items.part_of_speech),
+              dictionary_form = COALESCE(EXCLUDED.dictionary_form, public.vocabulary_items.dictionary_form),
+              principal_parts = COALESCE(EXCLUDED.principal_parts, public.vocabulary_items.principal_parts),
+              gender = COALESCE(EXCLUDED.gender, public.vocabulary_items.gender),
+              genitive_form = COALESCE(EXCLUDED.genitive_form, public.vocabulary_items.genitive_form),
+              feminine_form = COALESCE(EXCLUDED.feminine_form, public.vocabulary_items.feminine_form),
+              neuter_form = COALESCE(EXCLUDED.neuter_form, public.vocabulary_items.neuter_form),
+              definition = COALESCE(EXCLUDED.definition, public.vocabulary_items.definition),
+              article = COALESCE(EXCLUDED.article, public.vocabulary_items.article),
+              morphology = public.vocabulary_items.morphology || EXCLUDED.morphology,
               updated_at = now()
           RETURNING id
         `,
         [
-          greek,
-          category,
-          english,
+          lemma,
+          displayForm,
+          partOfSpeech,
+          gloss,
           JSON.stringify({
             source: "lesson_content_override",
             category,
+            ...(dictionaryForm ? { dictionary_form: dictionaryForm } : {}),
+            ...(article ? { article } : {}),
+            ...(genitiveForm ? { genitive_form: genitiveForm } : {}),
+            ...(feminineForm ? { feminine_form: feminineForm } : {}),
+            ...(neuterForm ? { neuter_form: neuterForm } : {}),
+            ...(principalParts?.length ? { principal_parts: principalParts } : {}),
           }),
           audioUrl,
+          dictionaryForm,
+          principalParts,
+          gender,
+          genitiveForm,
+          feminineForm,
+          neuterForm,
+          english,
+          article,
         ]
       );
       const vocabularyItemId = vocabularyItemResult.rows[0].id;
@@ -668,6 +773,7 @@ async function syncReadingGlosses(
         optionalText(gloss.partOfSpeech) ||
         optionalText(gloss.part_of_speech) ||
         optionalText(gloss.category);
+      const sourceMorphology = isRecord(gloss.morphology) ? gloss.morphology : {};
 
       await client.query(
         `
@@ -693,6 +799,7 @@ async function syncReadingGlosses(
           displayForm,
           partOfSpeech,
           JSON.stringify({
+            ...sourceMorphology,
             source: "lesson_reading_gloss",
             paragraph: paragraphIndex + 1,
           }),

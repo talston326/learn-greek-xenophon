@@ -126,9 +126,18 @@ async function getVocabulary(client: DatabaseClient, lessonId: string) {
     `
       SELECT
         lv.sort_order,
+        vi.lemma,
         vi.display_form,
         vi.gloss,
         vi.part_of_speech,
+        vi.dictionary_form,
+        vi.principal_parts,
+        vi.gender,
+        vi.genitive_form,
+        vi.feminine_form,
+        vi.neuter_form,
+        vi.definition,
+        vi.article,
         vi.audio_url
       FROM public.lesson_vocabulary lv
       JOIN public.vocabulary_items vi ON vi.id = lv.vocabulary_item_id
@@ -145,7 +154,18 @@ async function getVocabulary(client: DatabaseClient, lessonId: string) {
     const items = groups.get(category) || [];
     items.push({
       greek: row.display_form,
+      displayForm: row.display_form,
+      lemma: row.lemma,
       english: row.gloss,
+      partOfSpeech: row.part_of_speech,
+      ...(row.dictionary_form ? { dictionaryForm: row.dictionary_form } : {}),
+      ...(row.principal_parts?.length ? { principalParts: row.principal_parts } : {}),
+      ...(row.gender ? { gender: row.gender } : {}),
+      ...(row.genitive_form ? { genitiveForm: row.genitive_form } : {}),
+      ...(row.feminine_form ? { feminineForm: row.feminine_form } : {}),
+      ...(row.neuter_form ? { neuterForm: row.neuter_form } : {}),
+      ...(row.definition ? { definition: row.definition } : {}),
+      ...(row.article ? { article: row.article } : {}),
       ...(row.audio_url ? { audioUrl: row.audio_url } : {}),
     });
     groups.set(category, items);

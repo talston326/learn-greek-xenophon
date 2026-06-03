@@ -3316,6 +3316,14 @@
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
     }
 
+    .lesson-editor-row--gloss {
+      grid-template-columns: minmax(160px, 1.1fr) minmax(140px, 1fr) minmax(160px, 1.1fr) minmax(130px, .8fr) auto;
+    }
+
+    .lesson-editor-subgroup {
+      background: rgba(255,255,255,.9);
+    }
+
     .lesson-editor-field {
       display: grid;
       gap: 6px;
@@ -6471,7 +6479,8 @@
         justify-content: center;
       }
       .lesson-editor-row--two,
-      .lesson-editor-row--three {
+      .lesson-editor-row--three,
+      .lesson-editor-row--gloss {
         grid-template-columns: 1fr;
       }
       .vocab-group li {

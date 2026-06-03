@@ -100,7 +100,7 @@
         group.entries.sort((a, b) => a.citation.localeCompare(b.citation, "el-GR"));
         group.searchText = normalizeForSearch([
           group.meaning,
-          ...group.entries.flatMap((entry) => [entry.citation, entry.definition, entry.lemma]),
+          ...group.entries.flatMap((entry) => [entry.citation, entry.definition, entry.lemma, ...(entry.forms || [])]),
         ].join(" "));
         return group;
       })
@@ -115,6 +115,7 @@
           entry.citation,
           entry.lemma,
           entry.definition,
+          ...(entry.forms || []),
           ...(entry.meanings || []),
         ].join(" ")),
       }))

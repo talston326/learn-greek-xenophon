@@ -678,6 +678,14 @@
       .join("\n");
   }
 
+  function joinPrincipalParts(value) {
+    if (Array.isArray(value)) {
+      return value.filter(Boolean).join(", ");
+    }
+
+    return value || "";
+  }
+
   function parseCategoryLine(line) {
     const match = String(line || "").match(/^cat(?:e(?:gory|tory)|gory)\s*:\s*(.+)$/i);
     return match ? match[1].trim() : "";
@@ -742,12 +750,48 @@
             <section class="lesson-editor-group" data-editor-row="vocab-group">
               <div class="lesson-section__header">
                 ${renderInput("Category", "vocab-category", group.category || "")}
-                ${renderRemoveButton("Remove Group")}
+                <div class="lesson-button-row">
+                  <button class="secondary-button" type="button" data-lesson-editor-action="add-vocab-item">Add Word</button>
+                  ${renderRemoveButton("Remove Group")}
+                </div>
               </div>
-              ${renderTextarea("Vocabulary lines", "vocab-block", formatGreekEnglishBlock(group.items), 8)}
+              <div class="lesson-editor-table">
+                ${(group.items || []).map((item) => renderVocabularyItemEditor(item)).join("")}
+              </div>
             </section>
           `).join("")}
         </div>
+      </section>
+    `;
+  }
+
+  function renderVocabularyItemEditor(item = {}) {
+    return `
+      <section class="lesson-editor-group lesson-editor-subgroup" data-editor-row="vocab-item">
+        <div class="lesson-section__header">
+          <h4 class="greek-text" lang="grc">${escapeHtml(item.displayForm || item.display_form || item.greek || item.lemma || "New word")}</h4>
+          ${renderRemoveButton("Remove Word")}
+        </div>
+        <div class="lesson-editor-row lesson-editor-row--three">
+          ${renderInput("Lesson display", "vocab-display-form", item.displayForm || item.display_form || item.greek || "")}
+          ${renderInput("Lemma", "vocab-lemma", item.lemma || item.displayForm || item.display_form || item.greek || "")}
+          ${renderInput("Part of speech", "vocab-part-of-speech", item.partOfSpeech || item.part_of_speech || "")}
+        </div>
+        <div class="lesson-editor-row lesson-editor-row--two">
+          ${renderInput("English gloss", "vocab-english", item.english || item.gloss || "")}
+          ${renderInput("Dictionary form", "vocab-dictionary-form", item.dictionaryForm || item.dictionary_form || "")}
+        </div>
+        <div class="lesson-editor-row lesson-editor-row--three">
+          ${renderInput("Article", "vocab-article", item.article || "")}
+          ${renderInput("Genitive", "vocab-genitive-form", item.genitiveForm || item.genitive_form || "")}
+          ${renderInput("Gender", "vocab-gender", item.gender || "")}
+        </div>
+        <div class="lesson-editor-row lesson-editor-row--three">
+          ${renderInput("Feminine", "vocab-feminine-form", item.feminineForm || item.feminine_form || "")}
+          ${renderInput("Neuter", "vocab-neuter-form", item.neuterForm || item.neuter_form || "")}
+          ${renderInput("Audio URL", "vocab-audio-url", item.audioUrl || item.audio_url || "")}
+        </div>
+        ${renderInput("Principal parts", "vocab-principal-parts", joinPrincipalParts(item.principalParts || item.principal_parts))}
       </section>
     `;
   }
@@ -766,14 +810,31 @@
             <section class="lesson-editor-group" data-editor-row="reading-paragraph">
               <div class="lesson-section__header">
                 <h4>Paragraph ${index + 1}</h4>
-                ${renderRemoveButton("Remove Paragraph")}
+                <div class="lesson-button-row">
+                  <button class="secondary-button" type="button" data-lesson-editor-action="add-gloss-row">Add Gloss</button>
+                  ${renderRemoveButton("Remove Paragraph")}
+                </div>
               </div>
               ${renderTextarea("Greek paragraph", "reading-greek", paragraph.greek || "", 7)}
-              ${renderTextarea("Gloss lines", "reading-gloss-block", formatGreekEnglishBlock(paragraph.gloss), 5)}
+              <div class="lesson-editor-table">
+                ${(paragraph.gloss || []).map((entry) => renderReadingGlossEditor(entry)).join("")}
+              </div>
             </section>
           `).join("")}
         </div>
       </section>
+    `;
+  }
+
+  function renderReadingGlossEditor(entry = {}) {
+    return `
+      <div class="lesson-editor-row lesson-editor-row--gloss" data-editor-row="reading-gloss">
+        ${renderInput("Greek/display", "reading-gloss-greek", entry.displayForm || entry.display_form || entry.greek || "")}
+        ${renderInput("Lemma", "reading-gloss-lemma", entry.lemma || "")}
+        ${renderInput("English", "reading-gloss-english", entry.english || "")}
+        ${renderInput("Part of speech", "reading-gloss-part-of-speech", entry.partOfSpeech || entry.part_of_speech || "")}
+        ${renderRemoveButton("Remove")}
+      </div>
     `;
   }
 
@@ -1003,14 +1064,31 @@
       draft.banner ||= {};
       draft.banner.image = fieldValue("banner-image");
       draft.vocabulary = Array.from(shell.querySelectorAll('[data-editor-row="vocab-group"]')).map((group) => {
-        const blockValue = fieldValue("vocab-block", group);
         const fieldCategory = fieldValue("vocab-category", group);
-        const pastedCategory = categoryFromGreekEnglishBlock(blockValue);
-        const category = pastedCategory && (!fieldCategory || fieldCategory === "New Group") ? pastedCategory : fieldCategory;
 
         return {
-          category,
-          items: parseGreekEnglishBlock(blockValue, category || "Vocabulary"),
+          category: fieldCategory,
+          items: Array.from(group.querySelectorAll('[data-editor-row="vocab-item"]')).map((item) => {
+            const displayForm = fieldValue("vocab-display-form", item);
+            const lemma = fieldValue("vocab-lemma", item);
+            const principalParts = splitLines(fieldValue("vocab-principal-parts", item).replaceAll(",", "\n"));
+
+            return {
+              greek: displayForm,
+              displayForm,
+              lemma,
+              english: fieldValue("vocab-english", item),
+              partOfSpeech: fieldValue("vocab-part-of-speech", item),
+              dictionaryForm: fieldValue("vocab-dictionary-form", item),
+              article: fieldValue("vocab-article", item),
+              genitiveForm: fieldValue("vocab-genitive-form", item),
+              gender: fieldValue("vocab-gender", item),
+              feminineForm: fieldValue("vocab-feminine-form", item),
+              neuterForm: fieldValue("vocab-neuter-form", item),
+              principalParts,
+              audioUrl: fieldValue("vocab-audio-url", item),
+            };
+          }).filter((item) => item.greek || item.english),
         };
       });
       draft.reading ||= {};
@@ -1018,7 +1096,13 @@
       draft.reading.translation = fieldValue("reading-translation");
       draft.reading.paragraphs = Array.from(shell.querySelectorAll('[data-editor-row="reading-paragraph"]')).map((paragraph) => ({
         greek: fieldValue("reading-greek", paragraph),
-        gloss: parseGreekEnglishBlock(fieldValue("reading-gloss-block", paragraph), "Gloss"),
+        gloss: Array.from(paragraph.querySelectorAll('[data-editor-row="reading-gloss"]')).map((entry) => ({
+          greek: fieldValue("reading-gloss-greek", entry),
+          displayForm: fieldValue("reading-gloss-greek", entry),
+          lemma: fieldValue("reading-gloss-lemma", entry),
+          english: fieldValue("reading-gloss-english", entry),
+          partOfSpeech: fieldValue("reading-gloss-part-of-speech", entry),
+        })).filter((entry) => entry.greek || entry.english),
       }));
     }
 
@@ -1102,10 +1186,41 @@
       draft.vocabulary.push({ category: "New Group", items: [] });
     }
 
+    if (action === "add-vocab-item") {
+      const group = button.closest('[data-editor-row="vocab-group"]');
+      const index = getRowIndex(group, '[data-editor-row="vocab-group"]');
+      draft.vocabulary ||= [];
+      draft.vocabulary[index] ||= { category: "New Group", items: [] };
+      draft.vocabulary[index].items ||= [];
+      draft.vocabulary[index].items.push({
+        greek: "",
+        displayForm: "",
+        lemma: "",
+        english: "",
+        partOfSpeech: draft.vocabulary[index].category || "",
+      });
+    }
+
     if (action === "add-reading-paragraph") {
       draft.reading ||= {};
       draft.reading.paragraphs ||= [];
       draft.reading.paragraphs.push({ greek: "", gloss: [] });
+    }
+
+    if (action === "add-gloss-row") {
+      const paragraph = button.closest('[data-editor-row="reading-paragraph"]');
+      const index = getRowIndex(paragraph, '[data-editor-row="reading-paragraph"]');
+      draft.reading ||= {};
+      draft.reading.paragraphs ||= [];
+      draft.reading.paragraphs[index] ||= { greek: "", gloss: [] };
+      draft.reading.paragraphs[index].gloss ||= [];
+      draft.reading.paragraphs[index].gloss.push({
+        greek: "",
+        displayForm: "",
+        lemma: "",
+        english: "",
+        partOfSpeech: "",
+      });
     }
 
     if (action === "add-word-block") {
