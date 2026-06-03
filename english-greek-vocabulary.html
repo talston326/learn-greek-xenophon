@@ -52,7 +52,10 @@
         <div class="dictionary-toolbar">
           <label class="search-control">
             <span>Search</span>
-            <input type="search" data-dictionary-search placeholder="English or Greek" autocomplete="off">
+            <span class="dictionary-search-row">
+              <input id="dictionary-search" class="greek-input" type="search" data-dictionary-search data-greek-keyboard-autoshow="false" data-greek-keyboard-physical="off" placeholder="English or Greek" autocomplete="off">
+              <button class="secondary-button dictionary-keyboard-button" type="button" data-greek-keyboard-trigger data-greek-keyboard-target="dictionary-search" aria-label="Show Ancient Greek keyboard for dictionary search">Greek Keyboard</button>
+            </span>
           </label>
           <div class="dictionary-count" data-dictionary-status aria-live="polite"></div>
         </div>
@@ -78,6 +81,7 @@
   <script src="auth.js"></script>
   <script src="profile-data.js"></script>
   <script src="script.js"></script>
+  <script src="greek-keyboard.js?v=qwerty-mockup-shortcuts"></script>
   <script src="dictionary.js"></script>
 </body>
 </html>

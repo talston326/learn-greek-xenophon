@@ -633,7 +633,10 @@
 
   document.addEventListener("focusin", (event) => {
     if (isGreekField(event.target)) {
-      showKeyboard(event.target);
+      activeField = event.target;
+      if (event.target.dataset.greekKeyboardAutoshow !== "false") {
+        showKeyboard(event.target);
+      }
     } else if (!keyboard?.contains(event.target)) {
       closeKeyboard();
     }
@@ -675,6 +678,10 @@
     }
 
     if (!isGreekField(event.target) || event.metaKey || event.ctrlKey || event.altKey) {
+      return;
+    }
+
+    if (event.target.dataset.greekKeyboardPhysical === "off") {
       return;
     }
 
