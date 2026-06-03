@@ -755,7 +755,9 @@ const ROLE_DASHBOARDS = {
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
       ["🗂️", "Course Content", "#"],
-      ["⚙️", "Site Settings", "#"]
+      ["⚙️", "Site Settings", "#"],
+      ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
+      ["E", "English \u2192 Greek Vocabulary", "english-greek-vocabulary.html"]
     ]
   },
   professor: {
@@ -774,7 +776,9 @@ const ROLE_DASHBOARDS = {
       ["🗺️", "Maps", "maps.html"],
       ["✉", "Feedback", "feedback.html"],
       ["💬", "Discussions", "#"],
-      ["⚙️", "Settings", "#"]
+      ["⚙️", "Settings", "#"],
+      ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
+      ["E", "English \u2192 Greek Vocabulary", "english-greek-vocabulary.html"]
     ]
   },
   student: {
@@ -792,7 +796,9 @@ const ROLE_DASHBOARDS = {
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
       ["👤", "Profile", "profile.html"],
-      ["✉", "Feedback", "feedback.html"]
+      ["✉", "Feedback", "feedback.html"],
+      ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
+      ["E", "English \u2192 Greek Vocabulary", "english-greek-vocabulary.html"]
     ]
   }
 };

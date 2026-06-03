@@ -638,6 +638,126 @@
       font-size: 1.05rem;
     }
 
+    .dictionary-hero {
+      min-height: 180px;
+    }
+
+    .dictionary-shell {
+      display: grid;
+      gap: 18px;
+      max-width: 1120px;
+    }
+
+    .dictionary-toolbar {
+      position: sticky;
+      top: 16px;
+      z-index: 8;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px;
+      background: rgba(253, 251, 247, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 10px 28px rgba(55, 38, 22, 0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .search-control {
+      display: grid;
+      gap: 6px;
+      width: min(100%, 460px);
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .search-control input {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid rgba(115, 0, 10, 0.22);
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-size: 1rem;
+      text-transform: none;
+    }
+
+    .search-control input:focus {
+      outline: 3px solid rgba(115, 0, 10, 0.14);
+      border-color: var(--usc-garnet);
+    }
+
+    .dictionary-count {
+      color: var(--muted);
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+
+    .dictionary-table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.82);
+      box-shadow: 0 14px 34px rgba(55, 38, 22, 0.06);
+    }
+
+    .dictionary-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+    }
+
+    .dictionary-table th,
+    .dictionary-table td {
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .dictionary-table th {
+      background: rgba(115, 0, 10, 0.06);
+      color: var(--usc-garnet);
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .dictionary-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .dictionary-greek {
+      color: #241a15;
+      font-family: "GFS Didot", "Times New Roman", serif;
+      font-size: 1.16rem;
+      line-height: 1.45;
+    }
+
+    .dictionary-greek-list {
+      display: grid;
+      gap: 7px;
+    }
+
+    .dictionary-lessons {
+      width: 22%;
+      color: var(--muted);
+    }
+
+    .dictionary-pagination {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      color: var(--muted);
+    }
+
     .small-link {
       color: var(--usc-garnet);
       font-weight: 700;
@@ -6090,6 +6210,80 @@
         width: min(100%, 220px);
         height: min(100vw - 96px, 220px);
       }
+      .dictionary-hero {
+        min-height: 170px;
+      }
+      .dictionary-toolbar {
+        top: 10px;
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .dictionary-count {
+        white-space: normal;
+      }
+      .dictionary-table {
+        min-width: 0;
+      }
+      .dictionary-table,
+      .dictionary-table tbody,
+      .dictionary-table tr,
+      .dictionary-table td {
+        display: block;
+        width: 100%;
+      }
+      .dictionary-table thead {
+        display: none;
+      }
+      .dictionary-table tr {
+        padding: 10px 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .dictionary-table tr:last-child {
+        border-bottom: 0;
+      }
+      .dictionary-table th,
+      .dictionary-table td {
+        border-bottom: 0;
+        padding: 6px 12px;
+      }
+      .dictionary-table td {
+        display: grid;
+        grid-template-columns: 112px minmax(0, 1fr);
+        gap: 12px;
+      }
+      .dictionary-table td::before {
+        color: var(--usc-garnet);
+        content: "";
+        font-family: var(--font-body);
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 1.5;
+        text-transform: uppercase;
+      }
+      .dictionary-shell[data-dictionary-mode="greek-english"] .dictionary-table td:nth-child(1)::before {
+        content: "Greek";
+      }
+      .dictionary-shell[data-dictionary-mode="greek-english"] .dictionary-table td:nth-child(2)::before {
+        content: "English";
+      }
+      .dictionary-shell[data-dictionary-mode="greek-english"] .dictionary-table td:nth-child(3)::before,
+      .dictionary-shell[data-dictionary-mode="english-greek"] .dictionary-table td:nth-child(3)::before {
+        content: "Lessons";
+      }
+      .dictionary-shell[data-dictionary-mode="english-greek"] .dictionary-table td:nth-child(1)::before {
+        content: "English";
+      }
+      .dictionary-shell[data-dictionary-mode="english-greek"] .dictionary-table td:nth-child(2)::before {
+        content: "Greek";
+      }
+      .dictionary-lessons {
+        width: 100%;
+      }
+      .dictionary-pagination {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
       body.dashboard-active {
         background: #f5f1ea;
       }
@@ -6108,7 +6302,8 @@
         padding: 16px;
       }
       body.dashboard-active.course-introduction-page .main,
-      body.dashboard-active.feedback-page .main {
+      body.dashboard-active.feedback-page .main,
+      body.dashboard-active.dictionary-page .main {
         padding: 16px;
       }
       body.dashboard-active .main > :not(.mobile-practice) {
@@ -6128,6 +6323,9 @@
       }
       body.dashboard-active.feedback-page .main > :not(.mobile-practice) {
         display: block !important;
+      }
+      body.dashboard-active.dictionary-page .main > :not(.mobile-practice) {
+        display: grid !important;
       }
       body.dashboard-active.lesson-template-page .main > :not(.mobile-practice),
       body.dashboard-active.activity-template-page .main > :not(.mobile-practice) {

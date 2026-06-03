@@ -628,6 +628,85 @@ async function syncLessonVocabulary(
   return sortOrder;
 }
 
+async function syncReadingGlosses(
+  client: DatabaseClient,
+  lessonId: string,
+  readingId: string,
+  reading: Record<string, unknown>
+): Promise<number> {
+  const tableResult = await client.query("SELECT to_regclass('public.reading_glosses') AS table_name");
+
+  if (!tableResult.rows[0]?.table_name) {
+    return 0;
+  }
+
+  await client.query("DELETE FROM public.reading_glosses WHERE lesson_id = $1", [lessonId]);
+
+  const paragraphs = Array.isArray(reading.paragraphs) ? reading.paragraphs : [];
+  let insertedCount = 0;
+
+  for (const [paragraphIndex, paragraph] of paragraphs.entries()) {
+    if (!isRecord(paragraph) || !Array.isArray(paragraph.gloss)) {
+      continue;
+    }
+
+    for (const [glossIndex, gloss] of paragraph.gloss.entries()) {
+      if (!isRecord(gloss)) {
+        continue;
+      }
+
+      const greek = optionalText(gloss.greek);
+      const english = optionalText(gloss.english);
+
+      if (!greek || !english) {
+        continue;
+      }
+
+      const lemma = optionalText(gloss.lemma) || greek;
+      const displayForm = optionalText(gloss.displayForm) || optionalText(gloss.display_form) || greek;
+      const partOfSpeech =
+        optionalText(gloss.partOfSpeech) ||
+        optionalText(gloss.part_of_speech) ||
+        optionalText(gloss.category);
+
+      await client.query(
+        `
+          INSERT INTO public.reading_glosses (
+            lesson_id,
+            reading_id,
+            greek,
+            english,
+            lemma,
+            display_form,
+            part_of_speech,
+            morphology,
+            sort_order
+          )
+          VALUES ($1, $2, $3, $4, $5, $6, $7, $8::jsonb, $9)
+        `,
+        [
+          lessonId,
+          readingId,
+          greek,
+          english,
+          lemma,
+          displayForm,
+          partOfSpeech,
+          JSON.stringify({
+            source: "lesson_reading_gloss",
+            paragraph: paragraphIndex + 1,
+          }),
+          paragraphIndex * 1000 + glossIndex,
+        ]
+      );
+
+      insertedCount += 1;
+    }
+  }
+
+  return insertedCount;
+}
+
 async function syncLessonReading(
   client: DatabaseClient,
   lessonId: string,
@@ -695,9 +774,12 @@ async function syncLessonReading(
       [existing.id, segmentId, title, greekText, translation, notesMarkdown, sourceCitation]
     );
 
+    const row = updateResult.rows[0];
+    await syncReadingGlosses(client, lessonId, row.id, reading);
+
     return {
-      id: updateResult.rows[0].id,
-      title: updateResult.rows[0].title,
+      id: row.id,
+      title: row.title,
       greekParagraphCount: greekParagraphs.length,
     };
   }
@@ -720,9 +802,12 @@ async function syncLessonReading(
     [lessonId, segmentId, title, greekText, translation, notesMarkdown, sourceCitation]
   );
 
+  const row = insertResult.rows[0];
+  await syncReadingGlosses(client, lessonId, row.id, reading);
+
   return {
-    id: insertResult.rows[0].id,
-    title: insertResult.rows[0].title,
+    id: row.id,
+    title: row.title,
     greekParagraphCount: greekParagraphs.length,
   };
 }
