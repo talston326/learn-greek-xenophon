@@ -681,7 +681,10 @@
       return;
     }
 
-    if (event.target.dataset.greekKeyboardPhysical === "off") {
+    const physicalKeyboardDisabled = event.target.dataset.greekKeyboardPhysical === "off";
+    const keyboardIsOpenForField = keyboard && !keyboard.hidden && activeField === event.target;
+
+    if (physicalKeyboardDisabled && !keyboardIsOpenForField) {
       return;
     }
 
