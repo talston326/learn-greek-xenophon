@@ -411,6 +411,15 @@
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
     const keyboardRect = keyboard.getBoundingClientRect();
+    const shouldPreferRight = activeField.dataset.greekKeyboardPlacement === "right";
+    const rightSideLeft = viewportWidth - keyboardRect.width - 28;
+    const rightSideHasRoom = rightSideLeft > rect.right + 14;
+
+    if (shouldPreferRight && rightSideHasRoom) {
+      setKeyboardPosition(rightSideLeft, rect.top);
+      return;
+    }
+
     const preferredLeft = Math.min(Math.max(12, rect.left), viewportWidth - keyboardRect.width - 12);
     const belowTop = rect.bottom + 10;
     const aboveTop = rect.top - keyboardRect.height - 10;
