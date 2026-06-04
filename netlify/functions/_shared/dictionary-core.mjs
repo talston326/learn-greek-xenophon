@@ -271,10 +271,6 @@ export function buildCitation(item) {
   const partOfSpeech = itemPartOfSpeech(item);
 
   if (partOfSpeech === "verb") {
-    const principalParts = itemPrincipalParts(item);
-    if (principalParts.length) {
-      return principalParts.join(", ");
-    }
     return dictionaryForm || lemma;
   }
 

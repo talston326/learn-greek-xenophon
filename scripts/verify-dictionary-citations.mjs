@@ -88,7 +88,16 @@ assert.equal(
     part_of_speech: "Verbs",
     principal_parts: ["γράφω", "γράψω", "ἔγραψα", "γέγραφα", "γέγραμμαι", "ἐγράφην"],
   }),
-  "γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην"
+  "γράφω"
+);
+
+assert.equal(
+  buildCitation({
+    lemma: "λύω",
+    display_form: "λύει",
+    part_of_speech: "Verbs",
+  }),
+  "λύω"
 );
 
 const entries = consolidateRows([
@@ -115,6 +124,7 @@ const entries = consolidateRows([
     part_of_speech: "Verbs",
     gloss: "walk; go",
     dictionary_form: "βαδίζω",
+    principal_parts: ["βαδίζω", "βαδιῶ"],
   }),
   row("gloss", {
     lemma: "ἰσχυρός",
@@ -134,6 +144,7 @@ assert.equal(entries.some((entry) => entry.lemma === "τὸ δεῖπνον πά
 assert.equal(entries.find((entry) => entry.lemma === "ἀλλά")?.citation, "ἀλλά");
 assert.equal(entries.find((entry) => entry.lemma === "βαδίζω")?.citation, "βαδίζω");
 assert.deepEqual(entries.find((entry) => entry.lemma === "βαδίζω")?.meanings, ["walk", "go"]);
+assert.equal(entries.find((entry) => entry.lemma === "βαδίζω")?.forms.includes("βαδιῶ"), true);
 assert.equal(entries.filter((entry) => entry.lemma === "ἰσχυρός").length, 1);
 assert.equal(entries.find((entry) => entry.lemma === "ἰσχυρός")?.citation, "ἰσχυρός, -ά, -όν");
 
