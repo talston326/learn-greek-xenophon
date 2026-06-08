@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import "dotenv/config";
 import { buildCitation, consolidateRows } from "../netlify/functions/_shared/dictionary-core.mjs";
 
 function row(source, item, lesson = "Lesson 1") {
@@ -111,6 +112,11 @@ const entries = consolidateRows([
     lemma: "ἀλλά / ἀλλ᾽",
     english: "but",
   }),
+  row("gloss", {
+    greek: "χαίρει",
+    lemma: "χαίρει",
+    english: "rejoices, is glad",
+  }),
   row("vocabulary", {
     lemma: "βαδίζω",
     display_form: "βαδίζει",
@@ -132,6 +138,12 @@ const entries = consolidateRows([
     english: "strong",
   }),
   row("vocabulary", {
+    lemma: "Vocabulary will be added later.",
+    display_form: "Vocabulary will be added later.",
+    part_of_speech: "Placeholder",
+    gloss: "Course vocabulary placeholder",
+  }),
+  row("vocabulary", {
     lemma: "ἰσχυρός",
     display_form: "ἰσχυρός",
     part_of_speech: "Adjectives",
@@ -141,11 +153,87 @@ const entries = consolidateRows([
 ]);
 
 assert.equal(entries.some((entry) => entry.lemma === "τὸ δεῖπνον πάρεστιν"), false);
-assert.equal(entries.find((entry) => entry.lemma === "ἀλλά")?.citation, "ἀλλά");
+assert.equal(entries.some((entry) => entry.lemma === "ἀλλά"), false);
+assert.equal(entries.some((entry) => entry.lemma === "χαίρει"), false);
+assert.equal(entries.some((entry) => entry.lemma === "Vocabulary will be added later."), false);
 assert.equal(entries.find((entry) => entry.lemma === "βαδίζω")?.citation, "βαδίζω");
 assert.deepEqual(entries.find((entry) => entry.lemma === "βαδίζω")?.meanings, ["walk", "go"]);
 assert.equal(entries.find((entry) => entry.lemma === "βαδίζω")?.forms.includes("βαδιῶ"), true);
 assert.equal(entries.filter((entry) => entry.lemma === "ἰσχυρός").length, 1);
 assert.equal(entries.find((entry) => entry.lemma === "ἰσχυρός")?.citation, "ἰσχυρός, -ά, -όν");
 
-console.log("Dictionary citation verification passed.");
+async function verifyLiveDictionary() {
+  if (!process.env.NETLIFY_DATABASE_URL && !process.env.DATABASE_URL) {
+    return {
+      skipped: true,
+      reason: "No database connection string is configured.",
+    };
+  }
+
+  const mod = await import("../netlify/functions/dictionary.mts");
+  const response = await mod.default(new Request("http://localhost/api/dictionary"));
+  assert.equal(response.status, 200);
+
+  const data = await response.json();
+  const liveEntries = Array.isArray(data.entries) ? data.entries : [];
+  const headwords = liveEntries.flatMap((entry) => [entry.lemma, entry.citation]);
+  const allFields = liveEntries.flatMap((entry) => [
+    entry.lemma,
+    entry.citation,
+    entry.definition,
+    ...(entry.forms || []),
+  ]);
+  const excluded = [
+    "ἄγε",
+    "ἐλθέ",
+    "αὐτοῦ",
+    "ἐλαῖαι",
+    "πολλοὶ",
+    "ὑλακτεῖ",
+    "χαίρει",
+    "τὸ δεῖπνον πάρεστιν",
+    "καλῶς ποιεῖς",
+  ];
+
+  excluded.forEach((value) => {
+    assert.equal(
+      headwords.some((entry) => entry === value),
+      false,
+      `${value} should not appear as a global dictionary headword`
+    );
+  });
+
+  assert.equal(
+    allFields.some((entry) => entry === "Vocabulary will be added later."),
+    false,
+    "Vocabulary will be added later. should not appear in the global dictionary"
+  );
+
+  const exactCitation = new Set(liveEntries.map((entry) => entry.citation));
+  [
+    "εἰμί",
+    "ἄγω",
+    "βλέπω",
+    "ἀγαθός, -ή, -όν",
+    "ἀγρός, ἀγροῦ, ὁ",
+    "Ξενοφῶν, Ξενοφῶντος, ὁ",
+    "σοφία, σοφίας, ἡ",
+  ].forEach((value) => {
+    assert.equal(exactCitation.has(value), true, `${value} should appear in the global dictionary`);
+  });
+
+  assert.equal(
+    liveEntries.some((entry) => /wisdon/i.test(`${entry.definition} ${entry.citation}`)),
+    false,
+    "The misspelling wisdon should not appear in the global dictionary"
+  );
+
+  return {
+    skipped: false,
+    entries: liveEntries.length,
+    source: data.source,
+  };
+}
+
+const live = await verifyLiveDictionary();
+console.log(`Dictionary citation verification passed.${live.skipped ? ` Live check skipped: ${live.reason}` : ` Live entries: ${live.entries}.`}`);

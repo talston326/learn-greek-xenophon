@@ -366,26 +366,6 @@ function sortLessons(lessons) {
   ));
 }
 
-function isPhraseGloss(row) {
-  if (row.source !== "gloss") {
-    return false;
-  }
-
-  const item = row.item;
-  const partOfSpeech = itemPartOfSpeech(item);
-  if (partOfSpeech === "phrase") {
-    return true;
-  }
-
-  const explicitLemma = text(item.lemma);
-  if (explicitLemma && !/\s/.test(explicitLemma) && !explicitLemma.includes("/")) {
-    return false;
-  }
-
-  const display = normalizeGreek(text(item.display_form) || text(item.displayForm) || text(item.greek) || explicitLemma);
-  return Boolean(display && /\s/.test(display) && !display.includes("/"));
-}
-
 function isInflectedEnglishMeaning(meaning) {
   return /^(he\/she\/it|he|she|it|you|they)\s+/i.test(meaning);
 }
@@ -396,11 +376,32 @@ function finalizeMeanings(meanings) {
   return nonInflected.length ? nonInflected : unique;
 }
 
+function isPlaceholderVocabulary(item) {
+  const values = [
+    item.lemma,
+    item.display_form,
+    item.displayForm,
+    item.greek,
+    item.gloss,
+    item.definition,
+    item.english,
+  ].map((value) => text(value).toLocaleLowerCase("en-US"));
+
+  return values.some((value) => (
+    value === "vocabulary will be added later." ||
+    value === "course vocabulary placeholder"
+  ));
+}
+
 export function consolidateRows(rows) {
   const entries = new Map();
 
   rows.forEach((row) => {
-    if (isPhraseGloss(row)) {
+    if (row.source !== "vocabulary") {
+      return;
+    }
+
+    if (isPlaceholderVocabulary(row.item)) {
       return;
     }
 

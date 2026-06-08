@@ -6,7 +6,7 @@
     "pg": "^8.20.0"
   },
   "scripts": {
-    "db:migrate": "node db/run-sql.mjs db/migrations/0001_xenophon_initial_schema.sql && node db/run-sql.mjs db/migrations/0002_user_credentials.sql && node db/run-sql.mjs db/migrations/0003_lesson_content_overrides.sql && node db/run-sql.mjs db/migrations/0004_lesson_greek_title.sql && node db/run-sql.mjs db/migrations/0005_lesson_content_drafts.sql && node db/run-sql.mjs db/migrations/0006_dictionary_glosses.sql && node db/run-sql.mjs db/migrations/0007_backfill_noun_dictionary_citations.sql && node db/run-sql.mjs db/migrations/0008_backfill_adjective_and_verb_dictionary_citations.sql",
+    "db:migrate": "node db/run-sql.mjs db/migrations/0001_xenophon_initial_schema.sql && node db/run-sql.mjs db/migrations/0002_user_credentials.sql && node db/run-sql.mjs db/migrations/0003_lesson_content_overrides.sql && node db/run-sql.mjs db/migrations/0004_lesson_greek_title.sql && node db/run-sql.mjs db/migrations/0005_lesson_content_drafts.sql && node db/run-sql.mjs db/migrations/0006_dictionary_glosses.sql && node db/run-sql.mjs db/migrations/0007_backfill_noun_dictionary_citations.sql && node db/run-sql.mjs db/migrations/0008_backfill_adjective_and_verb_dictionary_citations.sql && node db/run-sql.mjs db/migrations/0009_fix_wisdom_typo.sql",
     "db:seed": "node db/run-sql.mjs db/seeds/0001_minimal_development_seed.sql",
     "db:verify": "node db/run-sql.mjs db/verify_schema.sql",
     "db:verify:seed": "node db/run-sql.mjs db/verify_seed.sql",
