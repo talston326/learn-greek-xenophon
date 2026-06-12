@@ -3031,7 +3031,7 @@
     .word-building-panel .lesson-markdown-block p,
     .grammar-panel > p,
     .grammar-subsection > p {
-      font-size: 1.12rem;
+      font-size: 1.25rem;
       line-height: 1.65;
     }
 
@@ -3048,7 +3048,7 @@
 
     .grammar-subsection > p {
       margin: 0;
-      max-width: 920px;
+      max-width: none;
     }
 
     .grammar-subsection__heading .secondary-button,
