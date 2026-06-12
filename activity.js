@@ -46,19 +46,44 @@
       return databaseContent;
     }
 
+    function mergeById(fallbackItems = [], databaseItems = []) {
+      const merged = [...databaseItems];
+      const existingIds = new Set(merged.map((item) => item?.id || item?.type).filter(Boolean));
+
+      fallbackItems.forEach((item) => {
+        const itemId = item?.id || item?.type;
+        if (!itemId || !existingIds.has(itemId)) {
+          merged.push(item);
+        }
+      });
+
+      return merged;
+    }
+
     const fallbackActivities = fallback.activities || {};
     const databaseActivities = databaseContent.activities || {};
     const mergedActivities = Object.fromEntries(
       Object.entries({
         ...fallbackActivities,
         ...databaseActivities
-      }).map(([key, value]) => [
-        key,
-        {
-          ...(fallbackActivities[key] || {}),
-          ...(databaseActivities[key] || value || {})
-        }
-      ])
+      }).map(([key, value]) => {
+        const fallbackActivity = fallbackActivities[key] || {};
+        const databaseActivity = databaseActivities[key] || value || {};
+
+        return [
+          key,
+          {
+            ...fallbackActivity,
+            ...databaseActivity,
+            questions: Array.isArray(databaseActivity.questions)
+              ? mergeById(fallbackActivity.questions || [], databaseActivity.questions)
+              : fallbackActivity.questions,
+            modes: Array.isArray(databaseActivity.modes)
+              ? mergeById(fallbackActivity.modes || [], databaseActivity.modes)
+              : fallbackActivity.modes
+          }
+        ];
+      })
     );
 
     return {

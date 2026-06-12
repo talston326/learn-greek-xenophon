@@ -55,6 +55,61 @@
       return databaseContent;
     }
 
+    function mergeById(fallbackItems = [], databaseItems = []) {
+      const merged = [...databaseItems];
+      const existingIds = new Set(merged.map((item) => item?.id || item?.type).filter(Boolean));
+
+      fallbackItems.forEach((item) => {
+        const itemId = item?.id || item?.type;
+        if (!itemId || !existingIds.has(itemId)) {
+          merged.push(item);
+        }
+      });
+
+      return merged;
+    }
+
+    function mergeGrammarContent(fallbackGrammar, databaseGrammar) {
+      if (!databaseGrammar) {
+        return fallbackGrammar;
+      }
+
+      if (!fallbackGrammar) {
+        return databaseGrammar;
+      }
+
+      return {
+        ...fallbackGrammar,
+        ...databaseGrammar,
+        sections: Array.isArray(databaseGrammar.sections)
+          ? mergeById(fallbackGrammar.sections || [], databaseGrammar.sections)
+          : fallbackGrammar.sections
+      };
+    }
+
+    const fallbackActivities = fallback.activities || {};
+    const databaseActivities = databaseContent.activities || {};
+    const mergedActivities = Object.fromEntries(
+      Object.entries({
+        ...fallbackActivities,
+        ...databaseActivities
+      }).map(([key, value]) => {
+        const fallbackActivity = fallbackActivities[key] || {};
+        const databaseActivity = databaseActivities[key] || value || {};
+
+        return [
+          key,
+          {
+            ...fallbackActivity,
+            ...databaseActivity,
+            questions: Array.isArray(databaseActivity.questions)
+              ? mergeById(fallbackActivity.questions || [], databaseActivity.questions)
+              : fallbackActivity.questions
+          }
+        ];
+      })
+    );
+
     return {
       ...deepCopy(fallback),
       ...databaseContent,
@@ -64,10 +119,10 @@
       },
       reading: databaseContent.reading || fallback.reading,
       wordStudy: databaseContent.wordStudy || fallback.wordStudy,
-      grammar: databaseContent.grammar || fallback.grammar,
+      grammar: mergeGrammarContent(fallback.grammar, databaseContent.grammar),
       culture: databaseContent.culture || fallback.culture,
       enrichment: databaseContent.enrichment || fallback.enrichment,
-      activities: databaseContent.activities || fallback.activities,
+      activities: Object.keys(mergedActivities).length ? mergedActivities : fallback.activities,
       pages: databaseContent.pages?.length ? databaseContent.pages : fallback.pages,
       vocabulary: databaseContent.vocabulary !== undefined ? databaseContent.vocabulary : fallback.vocabulary
     };

@@ -4542,6 +4542,149 @@
 
   ];
 
+  const LESSON_1_GRAMMAR_5_SENTENCE_PARTS = [
+    {
+      id: "lesson-1-sentence-parts-001",
+      lesson: "lesson-1",
+      topic: "sentence-parts",
+      type: "multiple_choice",
+      prompt: "In ὁ Ξενοφῶν χαίρει, what is the subject?",
+      target_form: "ὁ Ξενοφῶν",
+      skill: "sentence function",
+      answer: "ὁ Ξενοφῶν",
+      explanation: "The subject is the person or thing performing the action. Here, Xenophon rejoices.",
+      choices: [
+        {
+          text: "ὁ Ξενοφῶν",
+          correct: true,
+          feedback: "Correct. Xenophon is performing the action."
+        },
+        {
+          text: "χαίρει",
+          correct: false,
+          feedback: "χαίρει is the verb. ὁ Ξενοφῶν is the subject."
+        },
+        {
+          text: "There is no subject",
+          correct: false,
+          feedback: "Greek often gives the subject as a nominative noun or name. Here it is ὁ Ξενοφῶν."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-sentence-parts-002",
+      lesson: "lesson-1",
+      topic: "sentence-parts",
+      type: "multiple_choice",
+      prompt: "In ὁ Ξενοφῶν νέος ἐστιν, what is the linking verb?",
+      target_form: "ἐστιν",
+      skill: "sentence function",
+      answer: "ἐστιν",
+      explanation: "ἐστιν means “is.” It links the subject with a description.",
+      choices: [
+        {
+          text: "ἐστιν",
+          correct: true,
+          feedback: "Correct. ἐστιν is the linking verb."
+        },
+        {
+          text: "νέος",
+          correct: false,
+          feedback: "νέος is the complement describing Xenophon."
+        },
+        {
+          text: "ὁ Ξενοφῶν",
+          correct: false,
+          feedback: "ὁ Ξενοφῶν is the subject."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-sentence-parts-003",
+      lesson: "lesson-1",
+      topic: "sentence-parts",
+      type: "multiple_choice",
+      prompt: "In ὁ Γρύλλος ἵππον ἔχει, what is the direct object?",
+      target_form: "ἵππον",
+      skill: "sentence function",
+      answer: "ἵππον",
+      explanation: "A direct object receives the action of a transitive verb. Gryllus has a horse.",
+      choices: [
+        {
+          text: "ἵππον",
+          correct: true,
+          feedback: "Correct. The horse receives the action of ἔχει."
+        },
+        {
+          text: "ὁ Γρύλλος",
+          correct: false,
+          feedback: "ὁ Γρύλλος is the subject."
+        },
+        {
+          text: "ἔχει",
+          correct: false,
+          feedback: "ἔχει is the transitive verb."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-sentence-parts-004",
+      lesson: "lesson-1",
+      topic: "sentence-parts",
+      type: "multiple_choice",
+      prompt: "Which label should you give θεραπεύει in ὁ Ξενοφῶν τὸν ἵππον θεραπεύει?",
+      target_form: "θεραπεύει",
+      skill: "sentence function",
+      answer: "TV",
+      explanation: "θεραπεύει is transitive here because it takes the direct object τὸν ἵππον.",
+      choices: [
+        {
+          text: "TV",
+          correct: true,
+          feedback: "Correct. θεραπεύει is a transitive verb."
+        },
+        {
+          text: "LV",
+          correct: false,
+          feedback: "A linking verb connects a subject with a complement. θεραπεύει expresses an action."
+        },
+        {
+          text: "IV",
+          correct: false,
+          feedback: "An intransitive verb does not take a direct object. Here τὸν ἵππον is the direct object."
+        }
+      ]
+    },
+    {
+      id: "lesson-1-sentence-parts-005",
+      lesson: "lesson-1",
+      topic: "sentence-parts",
+      type: "multiple_choice",
+      prompt: "Which sentence has an intransitive verb?",
+      target_form: "ὑλακτεῖ",
+      skill: "sentence function",
+      answer: "ὁ κύων ὑλακτεῖ.",
+      explanation: "ὑλακτεῖ means “barks.” The action simply happens; it does not take a direct object.",
+      choices: [
+        {
+          text: "ὁ κύων ὑλακτεῖ.",
+          correct: true,
+          feedback: "Correct. ὑλακτεῖ is intransitive."
+        },
+        {
+          text: "ὁ Γρύλλος ἵππον ἔχει.",
+          correct: false,
+          feedback: "ἔχει is transitive because it takes ἵππον as a direct object."
+        },
+        {
+          text: "ὁ Ξενοφῶν νέος ἐστιν.",
+          correct: false,
+          feedback: "ἐστιν is a linking verb."
+        }
+      ]
+    }
+  ];
+
   const LESSON_STUB_MANIFEST = [
     { number: 2, title: "The Wise Man Knows Himself", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "First and second declension nouns; definite article; εἰμί", greekPhrase: "ὁ ἀνὴρ σοφός ἐστιν. / ὁ σοφὸς ἀνὴρ ἑαυτὸν γιγνώσκει.", sourceAnchor: "Memorabilia 4.2.24–30", cultureLead: "This lesson will connect self-knowledge with Socrates' questions about what a person truly knows." },
     { number: 3, title: "What is Wisdom?", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Present tense system; predicate nouns; basic sentence structure", greekPhrase: "τί ἐστι σοφία; / ὁ Σωκράτης λέγει ὅτι ἡ σοφία ἀγαθόν ἐστιν.", sourceAnchor: "Memorabilia 3.9.4–5", cultureLead: "This lesson will frame wisdom as a question Socrates asks in ordinary speech rather than an abstract slogan." },
@@ -5041,6 +5184,74 @@
               "Practice B asks you to recognize the gender and case shown by the article."
             ],
             practiceTopic: "definite-article"
+          },
+          {
+            id: "sentence-parts",
+            title: "5. Identifying Sentence Parts",
+            body: [
+              "As you begin reading Greek, it is helpful to identify the job that each important word performs in a sentence. In later lessons, Greek word order will become more flexible, and recognizing these sentence parts will help you understand who is doing the action, what action is taking place, and who or what receives the action.",
+              "The subject is the person or thing performing the action or being described. In ὁ Ξενοφῶν χαίρει, Xenophon is the person performing the action, so ὁ Ξενοφῶν is the subject.",
+              "Some verbs do not express an action directed toward an object. Instead, they connect the subject with a description or identification. The most common linking verb in this lesson is ἐστιν, which means “is.”",
+              "In ὁ Ξενοφῶν νέος ἐστιν, the sentence tells us something about Xenophon. The adjective νέος describes him, so νέος is the complement and ἐστιν is the linking verb. A complement can be either an adjective or a noun.",
+              "A direct object receives the action of a verb. In ὁ Ξενοφῶν θεραπεύει τὸν ἵππον, the action is performed by Xenophon and received by the horse. In this lesson, direct objects are often in the accusative case.",
+              "A transitive verb takes a direct object. In ὁ Γρύλλος ἵππον ἔχει, the verb ἔχει acts on the direct object ἵππον.",
+              "An intransitive verb does not take a direct object. In ὁ κύων ὑλακτεῖ, the action simply happens; nothing receives the action.",
+              "When you work through the exercises below, ask three questions: Who is performing the action? Is the verb linking, transitive, or intransitive? Is there a direct object receiving the action?"
+            ],
+            table: {
+              headers: ["Label", "Name", "Job in the sentence"],
+              greekColumns: [],
+              rows: [
+                ["S", "Subject", "The person or thing performing the action or being described."],
+                ["C", "Complement", "A word that describes or identifies the subject after a linking verb."],
+                ["DO", "Direct Object", "The person or thing receiving the action of a verb."],
+                ["LV", "Linking Verb", "A verb, such as ἐστιν, that connects the subject with a complement."],
+                ["TV", "Transitive Verb", "A verb that takes a direct object."],
+                ["IV", "Intransitive Verb", "A verb that does not take a direct object."]
+              ]
+            },
+            examples: [
+              {
+                greek: "ὁ Ξενοφῶν χαίρει.",
+                english: "Xenophon rejoices. S = ὁ Ξενοφῶν."
+              },
+              {
+                greek: "ὁ Ξενοφῶν νέος ἐστιν.",
+                english: "Xenophon is young. S = ὁ Ξενοφῶν; C = νέος; LV = ἐστιν."
+              },
+              {
+                greek: "ὁ Γρύλλος υἱός ἐστιν.",
+                english: "Gryllus is a son. S = ὁ Γρύλλος; C = υἱός; LV = ἐστιν."
+              },
+              {
+                greek: "ὁ Ξενοφῶν θεραπεύει τὸν ἵππον.",
+                english: "Xenophon tends the horse. S = ὁ Ξενοφῶν; DO = τὸν ἵππον; TV = θεραπεύει."
+              },
+              {
+                greek: "ὁ κύων ὑλακτεῖ.",
+                english: "The dog barks. S = ὁ κύων; IV = ὑλακτεῖ."
+              },
+              {
+                greek: "ὁ Ξενοφῶν λύει τὸν ἵππον.",
+                english: "Xenophon unties the horse. S = ὁ Ξενοφῶν; TV = λύει; DO = τὸν ἵππον."
+              }
+            ],
+            formList: {
+              title: "Verb functions in Lesson 1",
+              items: [
+                { greek: "ἔχει", english: "has; transitive verb" },
+                { greek: "θεραπεύει", english: "tends; transitive verb" },
+                { greek: "καλεῖ", english: "calls; transitive verb" },
+                { greek: "φέρει", english: "carries; transitive verb" },
+                { greek: "λύει", english: "unties; transitive verb" },
+                { greek: "ἄγει", english: "leads; transitive verb" },
+                { greek: "χαίρει", english: "rejoices; intransitive verb" },
+                { greek: "βαδίζει", english: "walks; intransitive verb" },
+                { greek: "οἰκεῖ", english: "lives; intransitive verb" },
+                { greek: "ὑλακτεῖ", english: "barks; intransitive verb" }
+              ]
+            },
+            practiceTopic: "sentence-parts"
           }
         ]
       },
@@ -5106,7 +5317,8 @@
           questions: [
             ...LESSON_1_GRAMMAR_1_VERB_FORMS,
             ...LESSON_1_GRAMMAR_2_NOUNS_CASES_AGREEMENT,
-            ...LESSON_1_GRAMMAR_3_DEFINITE_ARTICLE
+            ...LESSON_1_GRAMMAR_3_DEFINITE_ARTICLE,
+            ...LESSON_1_GRAMMAR_5_SENTENCE_PARTS
           ]
         },
         "grammar-exercises": {
