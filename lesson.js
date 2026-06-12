@@ -139,7 +139,7 @@
         ...databaseGrammar,
         sections: Array.isArray(databaseGrammar.sections)
           ? mergeById(fallbackGrammar.sections || [], databaseGrammar.sections, {
-              getIdentity: (section) => section?.id || normalizeSectionTitle(section?.title),
+              getIdentity: (section) => normalizeSectionTitle(section?.title) || section?.id,
               mergeItem: (existing, incoming) => ({
                 ...existing,
                 ...incoming,
