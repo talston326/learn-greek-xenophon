@@ -46,6 +46,21 @@
       return databaseContent;
     }
 
+    const fallbackActivities = fallback.activities || {};
+    const databaseActivities = databaseContent.activities || {};
+    const mergedActivities = Object.fromEntries(
+      Object.entries({
+        ...fallbackActivities,
+        ...databaseActivities
+      }).map(([key, value]) => [
+        key,
+        {
+          ...(fallbackActivities[key] || {}),
+          ...(databaseActivities[key] || value || {})
+        }
+      ])
+    );
+
     return {
       ...deepCopy(fallback),
       ...databaseContent,
@@ -58,7 +73,7 @@
       grammar: databaseContent.grammar || fallback.grammar,
       culture: databaseContent.culture || fallback.culture,
       enrichment: databaseContent.enrichment || fallback.enrichment,
-      activities: databaseContent.activities || fallback.activities,
+      activities: Object.keys(mergedActivities).length ? mergedActivities : fallback.activities,
       pages: databaseContent.pages?.length ? databaseContent.pages : fallback.pages,
       vocabulary: databaseContent.vocabulary !== undefined ? databaseContent.vocabulary : fallback.vocabulary
     };
@@ -504,6 +519,273 @@
     bindQuizForm(questions);
   }
 
+  function getGrammarExerciseModes() {
+    const activity = lesson.activities?.["grammar-exercises"] || {};
+    return [
+      {
+        type: "multiple-choice",
+        title: "Multiple Choice",
+        questions: activity.questions || []
+      },
+      ...(activity.modes || [])
+    ];
+  }
+
+  function getActiveGrammarExerciseMode() {
+    const modes = getGrammarExerciseModes();
+    const requestedMode = params.get("mode") || "multiple-choice";
+    return modes.find((mode) => mode.type === requestedMode) || modes[0];
+  }
+
+  function renderGrammarExerciseModes(activeMode) {
+    const modes = getGrammarExerciseModes();
+    const futureModes = [
+      "Future-ready: matching",
+      "Future-ready: fill-in-the-blank",
+      "Future-ready: translation builder"
+    ];
+
+    return `
+      <div class="activity-question-types activity-question-types--buttons" role="group" aria-label="Grammar exercise modes">
+        ${modes.map((mode) => `
+          <button
+            type="button"
+            data-grammar-exercise-mode="${escapeHtml(mode.type)}"
+            class="${mode.type === activeMode.type ? "is-active" : ""}"
+            aria-pressed="${mode.type === activeMode.type}"
+          >
+            ${escapeHtml(mode.title)}
+          </button>
+        `).join("")}
+        ${futureModes.map((mode) => `<span>${escapeHtml(mode)}</span>`).join("")}
+      </div>
+    `;
+  }
+
+  function bindGrammarExerciseModeControls(activeMode) {
+    shell.querySelectorAll("[data-grammar-exercise-mode]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const nextMode = button.dataset.grammarExerciseMode;
+        if (!nextMode || nextMode === activeMode.type) {
+          return;
+        }
+
+        params.set("mode", nextMode);
+        const nextUrl = `${window.location.pathname}?${params.toString()}`;
+        window.history.replaceState({}, "", nextUrl);
+        renderGrammarExercises();
+      });
+    });
+  }
+
+  function normalizeLabelAnswer(value) {
+    const normalized = String(value || "").trim().toUpperCase();
+    return ["S", "C", "DO", "LV", "TV", "IV"].includes(normalized) ? normalized : "";
+  }
+
+  function renderSentenceLabeling(mode) {
+    const labels = mode.labels || [];
+    const items = mode.items || [];
+
+    if (!labels.length || !items.length) {
+      renderUnavailable();
+      return;
+    }
+
+    renderShell(`
+      <form class="quiz-form sentence-labeling-form" data-sentence-labeling-form>
+        ${renderGrammarExerciseModes(mode)}
+        <div class="sentence-labeling-intro">
+          <p>${escapeHtml(mode.instructions || "Label the function of each marked word or phrase.")}</p>
+          <dl class="sentence-labeling-key">
+            ${labels.map((label) => `
+              <div>
+                <dt>${escapeHtml(label.code)}</dt>
+                <dd>${escapeHtml(label.meaning)}</dd>
+              </div>
+            `).join("")}
+          </dl>
+        </div>
+        <div class="sentence-labeling-layout">
+          <div class="sentence-labeling-items">
+            ${items.map((item, itemIndex) => `
+              <fieldset class="quiz-question sentence-labeling-item">
+                <legend>Sentence ${itemIndex + 1}</legend>
+                <p class="sentence-labeling-full greek-text" lang="grc">${escapeHtml(item.sentence)}</p>
+                <div class="sentence-labeling-tokens">
+                  ${item.tokens.map((token, tokenIndex) => token.answer ? `
+                    <label class="sentence-label-token">
+                      <span class="sentence-label-input-wrap">
+                        <input
+                          type="text"
+                          name="sentence-label-${itemIndex}-${tokenIndex}"
+                          data-sentence-label-input
+                          data-answer="${escapeHtml(token.answer)}"
+                          maxlength="2"
+                          autocomplete="off"
+                          autocapitalize="characters"
+                          aria-label="Sentence ${itemIndex + 1}, label for ${escapeHtml(token.text)}"
+                        >
+                        <span class="sentence-label-status" aria-hidden="true"></span>
+                      </span>
+                      <span class="sentence-label-token__text greek-text" lang="grc">${escapeHtml(token.text)}</span>
+                      <span class="sentence-label-feedback" data-sentence-label-feedback aria-live="polite"></span>
+                    </label>
+                  ` : `
+                    <span class="sentence-label-token sentence-label-token--plain">
+                      <span class="sentence-label-token__text greek-text" lang="grc">${escapeHtml(token.text)}</span>
+                    </span>
+                  `).join("")}
+                </div>
+              </fieldset>
+            `).join("")}
+          </div>
+          <aside class="sentence-label-bank" aria-label="Sentence part label bank">
+            <h2>Label Bank</h2>
+            <div class="sentence-label-bank__buttons">
+              ${labels.map((label) => `
+                <button type="button" draggable="true" data-label-code="${escapeHtml(label.code)}">
+                  <strong>${escapeHtml(label.code)}</strong>
+                  <span>${escapeHtml(label.meaning)}</span>
+                </button>
+              `).join("")}
+            </div>
+          </aside>
+        </div>
+        <div class="activity-submit-row">
+          <button class="primary-button" type="submit">Submit</button>
+        </div>
+        <p class="activity-result" data-activity-result aria-live="polite"></p>
+      </form>
+    `);
+    bindGrammarExerciseModeControls(mode);
+    bindSentenceLabeling(mode);
+  }
+
+  function bindSentenceLabeling(mode) {
+    const form = shell.querySelector("[data-sentence-labeling-form]");
+    const inputs = [...shell.querySelectorAll("[data-sentence-label-input]")];
+    let activeInput = inputs[0] || null;
+
+    function fillInput(input, code) {
+      if (!input || !code) {
+        return;
+      }
+
+      input.value = code;
+      input.classList.remove("is-correct", "is-wrong");
+      input.focus();
+    }
+
+    inputs.forEach((input) => {
+      input.addEventListener("focus", () => {
+        activeInput = input;
+      });
+
+      input.addEventListener("input", () => {
+        input.value = input.value.toUpperCase();
+        input.classList.remove("is-correct", "is-wrong");
+        const token = input.closest(".sentence-label-token");
+        const feedback = token?.querySelector("[data-sentence-label-feedback]");
+        const status = token?.querySelector(".sentence-label-status");
+        if (feedback) {
+          feedback.textContent = "";
+        }
+        if (status) {
+          status.textContent = "";
+        }
+      });
+
+      input.addEventListener("dragover", (event) => {
+        event.preventDefault();
+      });
+
+      input.addEventListener("drop", (event) => {
+        event.preventDefault();
+        fillInput(input, normalizeLabelAnswer(event.dataTransfer?.getData("text/plain")));
+      });
+    });
+
+    shell.querySelectorAll("[data-label-code]").forEach((button) => {
+      button.addEventListener("dragstart", (event) => {
+        event.dataTransfer?.setData("text/plain", button.dataset.labelCode || "");
+      });
+
+      button.addEventListener("click", () => {
+        const code = normalizeLabelAnswer(button.dataset.labelCode);
+        const target = activeInput && !activeInput.disabled ? activeInput : inputs.find((input) => !input.value) || inputs[0];
+        shell.querySelectorAll("[data-label-code]").forEach((labelButton) => {
+          labelButton.classList.toggle("is-selected", labelButton === button);
+        });
+        fillInput(target, code);
+      });
+    });
+
+    form?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      let correct = 0;
+
+      inputs.forEach((input) => {
+        const answer = normalizeLabelAnswer(input.dataset.answer);
+        const submitted = normalizeLabelAnswer(input.value);
+        const token = input.closest(".sentence-label-token");
+        const feedback = token?.querySelector("[data-sentence-label-feedback]");
+        const status = token?.querySelector(".sentence-label-status");
+        const isCorrect = submitted === answer;
+
+        if (isCorrect) {
+          correct += 1;
+        }
+
+        input.classList.toggle("is-correct", isCorrect);
+        input.classList.toggle("is-wrong", !isCorrect);
+        if (status) {
+          status.textContent = isCorrect ? "✓" : "×";
+        }
+        if (feedback) {
+          feedback.textContent = isCorrect ? "Correct" : `Correct: ${answer}`;
+          feedback.classList.toggle("is-correct", isCorrect);
+          feedback.classList.toggle("is-wrong", !isCorrect);
+        }
+      });
+
+      const score = Math.round((correct / inputs.length) * 100);
+      const threshold = lesson.activities?.[activityType]?.threshold || 0;
+      const passed = threshold ? score >= threshold : true;
+      const result = shell.querySelector("[data-activity-result]");
+
+      await window.xenophonLessonProgress?.recordActivityResult({
+        lessonSlug: lesson.id,
+        activityType,
+        score,
+        passed
+      });
+
+      if (result) {
+        result.innerHTML = passed
+          ? `Passed with ${score}%. Review any marked answers above. <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>`
+          : `Score: ${score}%. Review the marked answers above, then try again to reach ${threshold || 80}%.`;
+      }
+    });
+  }
+
+  function renderGrammarExercises() {
+    const mode = getActiveGrammarExerciseMode();
+
+    if (mode.type === "sentence-labeling") {
+      renderSentenceLabeling(mode);
+      return;
+    }
+
+    renderQuiz();
+    const form = shell.querySelector("[data-quiz-form]");
+    const existingTypes = form?.querySelector(".activity-question-types");
+    if (existingTypes) {
+      existingTypes.outerHTML = renderGrammarExerciseModes(mode);
+      bindGrammarExerciseModeControls(mode);
+    }
+  }
+
   function revealQuizFeedback(form, questions) {
     questions.forEach((question, questionIndex) => {
       const selectedAnswer = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
@@ -597,6 +879,11 @@
 
     if (activityType === "topic-practice") {
       renderTopicPractice();
+      return;
+    }
+
+    if (activityType === "grammar-exercises") {
+      renderGrammarExercises();
       return;
     }
 

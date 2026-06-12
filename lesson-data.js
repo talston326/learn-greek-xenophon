@@ -5163,6 +5163,81 @@
                 { text: "ἡ καλὴ σῶμα", correct: false }
               ]
             }
+          ],
+          modes: [
+            {
+              type: "sentence-labeling",
+              title: "Label Sentence Parts",
+              instructions: "Label the function of each marked word or phrase.",
+              labels: [
+                { code: "S", meaning: "Subject" },
+                { code: "C", meaning: "Complement" },
+                { code: "DO", meaning: "Direct Object" },
+                { code: "LV", meaning: "Linking Verb" },
+                { code: "TV", meaning: "Transitive Verb" },
+                { code: "IV", meaning: "Intransitive Verb" }
+              ],
+              items: [
+                {
+                  sentence: "ὁ Ξενοφῶν νέος ἐστιν.",
+                  tokens: [
+                    { text: "ὁ Ξενοφῶν", answer: "S" },
+                    { text: "νέος", answer: "C" },
+                    { text: "ἐστιν", answer: "LV" }
+                  ]
+                },
+                {
+                  sentence: "ὁ οἶκος καλός ἐστιν.",
+                  tokens: [
+                    { text: "ὁ οἶκος", answer: "S" },
+                    { text: "καλός", answer: "C" },
+                    { text: "ἐστιν", answer: "LV" }
+                  ]
+                },
+                {
+                  sentence: "ὁ Γρύλλος ἵππον ἔχει.",
+                  tokens: [
+                    { text: "ὁ Γρύλλος", answer: "S" },
+                    { text: "ἵππον", answer: "DO" },
+                    { text: "ἔχει", answer: "TV" }
+                  ]
+                },
+                {
+                  sentence: "ὁ Ξενοφῶν τὸν ἵππον θεραπεύει.",
+                  tokens: [
+                    { text: "ὁ Ξενοφῶν", answer: "S" },
+                    { text: "τὸν ἵππον", answer: "DO" },
+                    { text: "θεραπεύει", answer: "TV" }
+                  ]
+                },
+                {
+                  sentence: "ἡ μήτηρ τὸν ἄνδρα καλεῖ.",
+                  tokens: [
+                    { text: "ἡ μήτηρ", answer: "S" },
+                    { text: "τὸν ἄνδρα", answer: "DO" },
+                    { text: "καλεῖ", answer: "TV" }
+                  ]
+                },
+                {
+                  sentence: "ὁ κύων ὑλακτεῖ.",
+                  tokens: [
+                    { text: "ὁ κύων", answer: "S" },
+                    { text: "ὑλακτεῖ", answer: "IV" }
+                  ]
+                },
+                {
+                  sentence: "ὁ Ξενοφῶν λύει τὸν ἵππον καὶ ἄγει αὐτὸν.",
+                  tokens: [
+                    { text: "ὁ Ξενοφῶν", answer: "S" },
+                    { text: "λύει", answer: "TV" },
+                    { text: "τὸν ἵππον", answer: "DO" },
+                    { text: "καὶ" },
+                    { text: "ἄγει", answer: "TV" },
+                    { text: "αὐτὸν", answer: "DO" }
+                  ]
+                }
+              ]
+            }
           ]
         },
         "lesson-quiz": {
