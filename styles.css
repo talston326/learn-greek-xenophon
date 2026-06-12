@@ -3090,6 +3090,19 @@
       margin-top: 4px;
     }
 
+    .grammar-table-wrap h4,
+    .grammar-table-note {
+      margin: 0 0 8px;
+      color: var(--usc-garnet);
+      font-size: 1.08rem;
+    }
+
+    .grammar-table-note {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
     .grammar-table {
       width: 100%;
       min-width: 480px;
@@ -3162,6 +3175,19 @@
 
     .grammar-form-list .greek-text {
       font-size: 1.16em;
+    }
+
+    .grammar-summary-panel {
+      display: grid;
+      gap: 12px;
+    }
+
+    .grammar-summary-panel ul {
+      margin: 0;
+      padding-left: 1.25rem;
+      color: #443b35;
+      font-size: 1.08rem;
+      line-height: 1.6;
     }
 
     .culture-panel {

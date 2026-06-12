@@ -5135,10 +5135,10 @@
               "In this lesson, subjects are usually in the nominative case, while direct objects are usually in the accusative case."
             ],
             examples: [
-              { greek: "ὁ Σωκράτης διδάσκει.", english: "Socrates teaches. ὁ Σωκράτης is nominative." },
+              { greek: "ὁ πατὴρ διδάσκει.", english: "The father teaches. ὁ πατήρ is nominative." },
               { greek: "ὁ Ξενοφῶν χαίρει.", english: "Xenophon rejoices. ὁ Ξενοφῶν is nominative." },
-              { greek: "ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον.", english: "Socrates teaches the man. τὸν ἄνθρωπον is accusative." },
-              { greek: "ὁ Ξενοφῶν ἀκούει τὸν λόγον.", english: "Xenophon listens to the speech. τὸν λόγον is accusative." }
+              { greek: "ὁ Ξενοφῶν θεραπεύει τὸν ἵππον.", english: "Xenophon tends the horse. τὸν ἵππον is accusative." },
+              { greek: "ὁ Γρύλλος ἵππον ἔχει.", english: "Gryllus has a horse. ἵππον is accusative." }
             ],
             exercises: [
               "Practice A asks whether a phrase is nominative or accusative.",
@@ -5154,12 +5154,12 @@
               "For now, focus on the article, noun, and adjective working together as a group."
             ],
             examples: [
-              { greek: "ὁ ἄνθρωπος / ὁ μαθητής / ὁ νεανίας", english: "masculine nouns" },
-              { greek: "ἡ σοφία / ἡ ἀρετή / ἡ ψυχή / ἡ ἀλήθεια", english: "feminine nouns" },
-              { greek: "τὸ βιβλίον / τὸ σῶμα", english: "neuter nouns" },
-              { greek: "ὁ καλὸς ἄνθρωπος", english: "the good man" },
-              { greek: "ἡ καλὴ ἀρετή", english: "the noble virtue" },
-              { greek: "τὸ καλὸν σῶμα", english: "the beautiful body" }
+              { greek: "ὁ πατήρ / ὁ ἵππος / ὁ κύων", english: "masculine nouns" },
+              { greek: "ἡ μήτηρ / ἡ οἰκία", english: "feminine nouns" },
+              { greek: "τὸ βιβλίον", english: "a neuter noun" },
+              { greek: "ὁ καλὸς ἵππος", english: "the beautiful horse" },
+              { greek: "ἡ καλὴ οἰκία", english: "the beautiful house" },
+              { greek: "τὸ καλὸν βιβλίον", english: "the beautiful book" }
             ],
             exercises: [
               "Practice C asks you to choose the correct adjective agreement."
@@ -5180,15 +5180,14 @@
               ]
             },
             examples: [
-              { greek: "ὁ Σωκράτης", english: "Socrates as subject" },
               { greek: "ὁ Ξενοφῶν", english: "Xenophon as subject" },
-              { greek: "ὁ λόγος", english: "the speech as subject" },
-              { greek: "τὸν Σωκράτη", english: "Socrates as direct object" },
-              { greek: "τὸν λόγον", english: "the speech as direct object" },
-              { greek: "τὴν σοφίαν", english: "wisdom as direct object" },
-              { greek: "τὴν ψυχήν", english: "the soul as direct object" },
-              { greek: "τὴν ἀλήθειαν", english: "the truth as direct object" },
-              { greek: "τὸ σῶμα", english: "the body" }
+              { greek: "ὁ Γρύλλος", english: "Gryllus as subject" },
+              { greek: "ὁ πατήρ", english: "the father as subject" },
+              { greek: "ἡ μήτηρ", english: "the mother as subject" },
+              { greek: "τὸ βιβλίον", english: "the book as subject or direct object" },
+              { greek: "τὸν Ξενοφῶντα", english: "Xenophon as direct object" },
+              { greek: "τὸν ἵππον", english: "the horse as direct object" },
+              { greek: "τὴν οἰκίαν", english: "the house as direct object" }
             ],
             exercises: [
               "Practice A asks you to choose the correct article.",
@@ -5253,24 +5252,50 @@
                 english: "Xenophon unties the horse. We can identify all the sentence parts: S = ὁ Ξενοφῶν; TV = λύει; DO = τὸν ἵππον."
               }
             ],
-            formList: {
-              title: "Verb functions in Lesson 1",
-              items: [
-                { greek: "ἔχει", english: "has; transitive verb" },
-                { greek: "θεραπεύει", english: "tends; transitive verb" },
-                { greek: "καλεῖ", english: "calls; transitive verb" },
-                { greek: "φέρει", english: "carries; transitive verb" },
-                { greek: "λύει", english: "unties; transitive verb" },
-                { greek: "ἄγει", english: "leads; transitive verb" },
-                { greek: "χαίρει", english: "rejoices; intransitive verb" },
-                { greek: "βαδίζει", english: "walks; intransitive verb" },
-                { greek: "οἰκεῖ", english: "lives; intransitive verb" },
-                { greek: "ὑλακτεῖ", english: "barks; intransitive verb" }
-              ]
-            },
+            tables: [
+              {
+                title: "Sentence Diagram",
+                headers: ["Label", "Word or phrase", "Function"],
+                greekColumns: [1],
+                rows: [
+                  ["[S]", "ὁ Ξενοφῶν", "Subject"],
+                  ["[TV]", "λύει", "Transitive Verb"],
+                  ["[DO]", "τὸν ἵππον", "Direct Object"]
+                ]
+              },
+              {
+                title: "Verb functions in Lesson 1",
+                headers: ["Verb", "Function"],
+                greekColumns: [0],
+                rows: [
+                  ["ἔχει", "TV"],
+                  ["θεραπεύει", "TV"],
+                  ["καλεῖ", "TV"],
+                  ["φέρει", "TV"],
+                  ["λύει", "TV"],
+                  ["ἄγει", "TV"],
+                  ["χαίρει", "IV"],
+                  ["βαδίζει", "IV"],
+                  ["οἰκεῖ", "IV"],
+                  ["ὑλακτεῖ", "IV"]
+                ],
+                note: "TV = Transitive Verb; IV = Intransitive Verb."
+              }
+            ],
             practiceTopic: "sentence-parts"
           }
-        ]
+        ],
+        summary: {
+          title: "Lesson 1 Grammar Summary",
+          items: [
+            "Subjects are usually nominative.",
+            "Direct objects are usually accusative.",
+            "Linking verbs connect a subject and complement.",
+            "Transitive verbs take direct objects.",
+            "Intransitive verbs do not take direct objects.",
+            "Adjectives agree with nouns in gender, number, and case."
+          ]
+        }
       },
       enrichment: [],
       activities: {

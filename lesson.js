@@ -56,10 +56,20 @@
     }
 
     function normalizeSectionTitle(value) {
-      return String(value || "")
+      const normalizedTitle = String(value || "")
         .replace(/^\s*\d+\.\s*/, "")
         .trim()
         .toLowerCase();
+
+      if (normalizedTitle.includes("nouns") && normalizedTitle.includes("cases") && normalizedTitle.includes("agreement")) {
+        return "nouns-cases-agreement";
+      }
+
+      if (normalizedTitle.includes("use of the definite article")) {
+        return "definite-article";
+      }
+
+      return normalizedTitle;
     }
 
     function mergeById(fallbackItems = [], databaseItems = [], options = {}) {
@@ -129,15 +139,16 @@
         ...databaseGrammar,
         sections: Array.isArray(databaseGrammar.sections)
           ? mergeById(fallbackGrammar.sections || [], databaseGrammar.sections, {
-              getIdentity: (section) => normalizeSectionTitle(section?.title) || section?.id,
+              getIdentity: (section) => section?.id || normalizeSectionTitle(section?.title),
               mergeItem: (existing, incoming) => ({
-                ...incoming,
                 ...existing,
-                body: existing.body?.length ? existing.body : incoming.body,
-                table: existing.table || incoming.table,
-                formList: existing.formList || incoming.formList,
-                examples: mergeExamples(existing.examples || [], incoming.examples || []),
-                practiceTopic: existing.practiceTopic || incoming.practiceTopic
+                ...incoming,
+                body: incoming.body?.length ? incoming.body : existing.body,
+                table: incoming.table || existing.table,
+                tables: incoming.tables || existing.tables,
+                formList: incoming.formList || existing.formList,
+                examples: mergeExamples(incoming.examples || [], existing.examples || []),
+                practiceTopic: incoming.practiceTopic || existing.practiceTopic
               })
             })
           : fallbackGrammar.sections
@@ -490,25 +501,26 @@
     `;
   }
 
-  function renderGrammarTable(section) {
-    if (!section.table) {
+  function renderGrammarTable(table) {
+    if (!table?.rows?.length) {
       return "";
     }
 
-    const greekColumns = Array.isArray(section.table.greekColumns)
-      ? new Set(section.table.greekColumns)
+    const greekColumns = Array.isArray(table.greekColumns)
+      ? new Set(table.greekColumns)
       : null;
 
     return `
       <div class="grammar-table-wrap">
+        ${table.title ? `<h4>${escapeHtml(table.title)}</h4>` : ""}
         <table class="grammar-table">
           <thead>
             <tr>
-              ${section.table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
+              ${table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
             </tr>
           </thead>
           <tbody>
-            ${section.table.rows.map((row) => `
+            ${table.rows.map((row) => `
               <tr>
                 ${row.map((cell, index) => {
                   const tag = index === 0 ? "th" : "td";
@@ -521,8 +533,17 @@
             `).join("")}
           </tbody>
         </table>
+        ${table.note ? `<p class="grammar-table-note">${escapeHtml(table.note)}</p>` : ""}
       </div>
     `;
+  }
+
+  function renderGrammarTables(section) {
+    return section.table ? renderGrammarTable(section.table) : "";
+  }
+
+  function renderGrammarExtraTables(section) {
+    return (Array.isArray(section.tables) ? section.tables : []).map(renderGrammarTable).join("");
   }
 
   function renderGrammarFormList(section) {
@@ -614,7 +635,7 @@
               ${section.practiceTopic ? `<a class="secondary-button" href="${activityUrl("topic-practice", 2, section.practiceTopic)}">Practice This Topic</a>` : ""}
             </div>
             ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
-            ${renderGrammarTable(section)}
+            ${renderGrammarTables(section)}
             ${renderGrammarFormList(section)}
             ${section.examples?.length ? `
               <div class="grammar-examples">
@@ -627,6 +648,7 @@
                 `).join("")}
               </div>
             ` : ""}
+            ${renderGrammarExtraTables(section)}
           </section>
         `).join("")}
       </section>
@@ -645,11 +667,29 @@
     `;
   }
 
+  function renderGrammarSummary() {
+    const summary = lesson.grammar?.summary;
+
+    if (!summary?.items?.length) {
+      return "";
+    }
+
+    return `
+      <section class="lesson-section grammar-summary-panel" aria-labelledby="lesson-grammar-summary-heading">
+        <h2 id="lesson-grammar-summary-heading">${escapeHtml(summary.title || "Grammar Summary")}</h2>
+        <ul>
+          ${summary.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+        </ul>
+      </section>
+    `;
+  }
+
   function renderGrammarPage() {
     return `
       ${renderSampleNotice()}
       ${renderWordStudy()}
       ${renderGrammar()}
+      ${renderGrammarSummary()}
       ${renderGrammarGate()}
       ${renderPageNav()}
     `;
