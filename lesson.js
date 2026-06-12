@@ -55,13 +55,42 @@
       return databaseContent;
     }
 
-    function mergeById(fallbackItems = [], databaseItems = []) {
-      const merged = [...databaseItems];
-      const existingIds = new Set(merged.map((item) => item?.id || item?.type).filter(Boolean));
+    function normalizeSectionTitle(value) {
+      return String(value || "")
+        .replace(/^\s*\d+\.\s*/, "")
+        .trim()
+        .toLowerCase();
+    }
+
+    function mergeById(fallbackItems = [], databaseItems = [], options = {}) {
+      const getIdentity = options.getIdentity || ((item) => item?.id || item?.type);
+      const mergeItem = options.mergeItem || ((existing) => existing);
+      const merged = [];
+      const existingIds = new Map();
+
+      databaseItems.forEach((item) => {
+        const itemId = getIdentity(item);
+        if (itemId && existingIds.has(itemId)) {
+          const existingIndex = existingIds.get(itemId);
+          merged[existingIndex] = mergeItem(merged[existingIndex], item);
+          return;
+        }
+
+        if (itemId) {
+          existingIds.set(itemId, merged.length);
+        }
+        merged.push(item);
+      });
 
       fallbackItems.forEach((item) => {
-        const itemId = item?.id || item?.type;
-        if (!itemId || !existingIds.has(itemId)) {
+        const itemId = getIdentity(item);
+        if (itemId && existingIds.has(itemId)) {
+          const existingIndex = existingIds.get(itemId);
+          merged[existingIndex] = mergeItem(merged[existingIndex], item);
+        } else {
+          if (itemId) {
+            existingIds.set(itemId, merged.length);
+          }
           merged.push(item);
         }
       });
@@ -78,11 +107,39 @@
         return databaseGrammar;
       }
 
+      function mergeExamples(existingExamples = [], incomingExamples = []) {
+        const merged = [...existingExamples];
+        const seen = new Set(
+          merged.map((example) => `${example?.title || ""}|${example?.greek || ""}|${example?.english || ""}`)
+        );
+
+        incomingExamples.forEach((example) => {
+          const key = `${example?.title || ""}|${example?.greek || ""}|${example?.english || ""}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            merged.push(example);
+          }
+        });
+
+        return merged;
+      }
+
       return {
         ...fallbackGrammar,
         ...databaseGrammar,
         sections: Array.isArray(databaseGrammar.sections)
-          ? mergeById(fallbackGrammar.sections || [], databaseGrammar.sections)
+          ? mergeById(fallbackGrammar.sections || [], databaseGrammar.sections, {
+              getIdentity: (section) => normalizeSectionTitle(section?.title) || section?.id,
+              mergeItem: (existing, incoming) => ({
+                ...incoming,
+                ...existing,
+                body: existing.body?.length ? existing.body : incoming.body,
+                table: existing.table || incoming.table,
+                formList: existing.formList || incoming.formList,
+                examples: mergeExamples(existing.examples || [], incoming.examples || []),
+                practiceTopic: existing.practiceTopic || incoming.practiceTopic
+              })
+            })
           : fallbackGrammar.sections
       };
     }
@@ -563,6 +620,7 @@
               <div class="grammar-examples">
                 ${section.examples.map((example) => `
                   <article class="grammar-example">
+                    ${example.title ? `<h4>${escapeHtml(example.title)}</h4>` : ""}
                     <p class="grammar-example__greek greek-text" lang="grc">${escapeHtml(example.greek)}</p>
                     <p class="grammar-example__english">${escapeHtml(example.english)}</p>
                   </article>

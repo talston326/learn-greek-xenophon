@@ -3139,6 +3139,7 @@
       background: rgba(250,246,240,.72);
     }
 
+    .grammar-example h4,
     .grammar-form-list h4 {
       margin: 0;
       color: var(--usc-garnet);

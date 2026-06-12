@@ -5128,18 +5128,32 @@
           },
           {
             id: "nouns-cases-agreement",
-            title: "2. Nouns: Genders, Stems, Endings, Cases, and Agreement",
+            title: "2. Nouns, Articles, Cases, and Agreement",
             body: [
               "Greek nouns have gender, number, and case. In this lesson you meet masculine, feminine, and neuter nouns. You also meet two cases: nominative and accusative.",
-              "The nominative case is often used for the subject of the sentence. The accusative case is often used for the direct object of the verb.",
-              "Each Greek noun has a grammatical gender: masculine, feminine, or neuter. The article helps you recognize the gender.",
-              "Adjectives agree with nouns in gender, number, and case."
+              "The article helps you recognize the gender and case of a noun. Forms such as ὁ, ἡ, and τό often point to the nominative case. Forms such as τόν and τήν often point to the accusative case.",
+              "In this lesson, subjects are usually in the nominative case, while direct objects are usually in the accusative case."
             ],
             examples: [
               { greek: "ὁ Σωκράτης διδάσκει.", english: "Socrates teaches. ὁ Σωκράτης is nominative." },
               { greek: "ὁ Ξενοφῶν χαίρει.", english: "Xenophon rejoices. ὁ Ξενοφῶν is nominative." },
               { greek: "ὁ Σωκράτης διδάσκει τὸν ἄνθρωπον.", english: "Socrates teaches the man. τὸν ἄνθρωπον is accusative." },
-              { greek: "ὁ Ξενοφῶν ἀκούει τὸν λόγον.", english: "Xenophon listens to the speech. τὸν λόγον is accusative." },
+              { greek: "ὁ Ξενοφῶν ἀκούει τὸν λόγον.", english: "Xenophon listens to the speech. τὸν λόγον is accusative." }
+            ],
+            exercises: [
+              "Practice A asks whether a phrase is nominative or accusative.",
+              "Practice B asks you to recognize gender and case from the article."
+            ],
+            practiceTopic: "nouns-cases-agreement"
+          },
+          {
+            id: "nouns-adjectives-agreement",
+            title: "3. Nouns and Adjectives Agreement",
+            body: [
+              "Adjectives describe nouns. In Greek, adjectives agree with nouns in gender, number, and case.",
+              "For now, focus on the article, noun, and adjective working together as a group."
+            ],
+            examples: [
               { greek: "ὁ ἄνθρωπος / ὁ μαθητής / ὁ νεανίας", english: "masculine nouns" },
               { greek: "ἡ σοφία / ἡ ἀρετή / ἡ ψυχή / ἡ ἀλήθεια", english: "feminine nouns" },
               { greek: "τὸ βιβλίον / τὸ σῶμα", english: "neuter nouns" },
@@ -5148,15 +5162,12 @@
               { greek: "τὸ καλὸν σῶμα", english: "the beautiful body" }
             ],
             exercises: [
-              "Practice A asks whether a phrase is nominative or accusative.",
-              "Practice B matches nouns to gender.",
               "Practice C asks you to choose the correct adjective agreement."
-            ],
-            practiceTopic: "nouns-cases-agreement"
+            ]
           },
           {
             id: "definite-article",
-            title: "3. Use of the Definite Article",
+            title: "4. Use of the Definite Article",
             body: [
               "Greek uses the definite article more often than English. The article usually means “the,” but it also gives important grammatical information.",
               "The article helps show the gender, number, and case of the noun. In this lesson, focus on nominative singular and accusative singular forms."
@@ -5190,12 +5201,7 @@
             title: "5. Identifying Sentence Parts",
             body: [
               "As you begin reading Greek, it is helpful to identify the job that each important word performs in a sentence. In later lessons, Greek word order will become more flexible, and recognizing these sentence parts will help you understand who is doing the action, what action is taking place, and who or what receives the action.",
-              "The subject is the person or thing performing the action or being described. In ὁ Ξενοφῶν χαίρει, Xenophon is the person performing the action, so ὁ Ξενοφῶν is the subject.",
-              "Some verbs do not express an action directed toward an object. Instead, they connect the subject with a description or identification. The most common linking verb in this lesson is ἐστιν, which means “is.”",
-              "In ὁ Ξενοφῶν νέος ἐστιν, the sentence tells us something about Xenophon. The adjective νέος describes him, so νέος is the complement and ἐστιν is the linking verb. A complement can be either an adjective or a noun.",
-              "A direct object receives the action of a verb. In ὁ Ξενοφῶν θεραπεύει τὸν ἵππον, the action is performed by Xenophon and received by the horse. In this lesson, direct objects are often in the accusative case.",
-              "A transitive verb takes a direct object. In ὁ Γρύλλος ἵππον ἔχει, the verb ἔχει acts on the direct object ἵππον.",
-              "An intransitive verb does not take a direct object. In ὁ κύων ὑλακτεῖ, the action simply happens; nothing receives the action.",
+              "In this lesson, subjects are usually in the nominative case, while direct objects are usually in the accusative case.",
               "When you work through the exercises below, ask three questions: Who is performing the action? Is the verb linking, transitive, or intransitive? Is there a direct object receiving the action?"
             ],
             table: {
@@ -5212,28 +5218,39 @@
             },
             examples: [
               {
+                title: "Subject (S)",
                 greek: "ὁ Ξενοφῶν χαίρει.",
-                english: "Xenophon rejoices. S = ὁ Ξενοφῶν."
+                english: "Xenophon rejoices. The subject is the person performing the action: S = ὁ Ξενοφῶν."
               },
               {
+                title: "Linking Verb (LV)",
                 greek: "ὁ Ξενοφῶν νέος ἐστιν.",
-                english: "Xenophon is young. S = ὁ Ξενοφῶν; C = νέος; LV = ἐστιν."
+                english: "Xenophon is young. The verb ἐστιν means “is” and links Xenophon with a description: LV = ἐστιν."
               },
               {
+                title: "Complement (C)",
                 greek: "ὁ Γρύλλος υἱός ἐστιν.",
-                english: "Gryllus is a son. S = ὁ Γρύλλος; C = υἱός; LV = ἐστιν."
+                english: "Gryllus is a son. The complement describes or identifies the subject after a linking verb: C = υἱός."
               },
               {
+                title: "Direct Object (DO)",
                 greek: "ὁ Ξενοφῶν θεραπεύει τὸν ἵππον.",
-                english: "Xenophon tends the horse. S = ὁ Ξενοφῶν; DO = τὸν ἵππον; TV = θεραπεύει."
+                english: "Xenophon tends the horse. The direct object receives the action: DO = τὸν ἵππον."
               },
               {
+                title: "Transitive Verb (TV)",
+                greek: "ὁ Γρύλλος ἵππον ἔχει.",
+                english: "Gryllus has a horse. A transitive verb takes a direct object: TV = ἔχει; DO = ἵππον."
+              },
+              {
+                title: "Intransitive Verb (IV)",
                 greek: "ὁ κύων ὑλακτεῖ.",
-                english: "The dog barks. S = ὁ κύων; IV = ὑλακτεῖ."
+                english: "The dog barks. An intransitive verb does not take a direct object: IV = ὑλακτεῖ."
               },
               {
+                title: "Complete Example",
                 greek: "ὁ Ξενοφῶν λύει τὸν ἵππον.",
-                english: "Xenophon unties the horse. S = ὁ Ξενοφῶν; TV = λύει; DO = τὸν ἵππον."
+                english: "Xenophon unties the horse. We can identify all the sentence parts: S = ὁ Ξενοφῶν; TV = λύει; DO = τὸν ἵππον."
               }
             ],
             formList: {
