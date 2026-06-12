@@ -5262,24 +5262,6 @@
                   ["[TV]", "λύει", "Transitive Verb"],
                   ["[DO]", "τὸν ἵππον", "Direct Object"]
                 ]
-              },
-              {
-                title: "Verb functions in Lesson 1",
-                headers: ["Verb", "Function"],
-                greekColumns: [0],
-                rows: [
-                  ["ἔχει", "TV"],
-                  ["θεραπεύει", "TV"],
-                  ["καλεῖ", "TV"],
-                  ["φέρει", "TV"],
-                  ["λύει", "TV"],
-                  ["ἄγει", "TV"],
-                  ["χαίρει", "IV"],
-                  ["βαδίζει", "IV"],
-                  ["οἰκεῖ", "IV"],
-                  ["ὑλακτεῖ", "IV"]
-                ],
-                note: "TV = Transitive Verb; IV = Intransitive Verb."
               }
             ],
             practiceTopic: "sentence-parts"
