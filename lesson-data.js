@@ -3027,6 +3027,145 @@
 
   ];
 
+  const LESSON_1_GRAMMAR_3_NOUN_ADJECTIVE_AGREEMENT = [
+    {
+      id: "lesson-1-noun-adjective-agreement-001",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "ὁ ἵππος ___ ἐστιν.",
+      target_form: "ὁ ἵππος",
+      parse: "masculine nominative singular",
+      skill: "adjective agreement",
+      answer: "καλός",
+      explanation: "ἵππος is masculine nominative singular, so the adjective is καλός.",
+      choices: [
+        { text: "καλός", correct: true, feedback: "ἵππος is masculine nominative singular, so the adjective is καλός." },
+        { text: "καλή", correct: false, feedback: "ἵππος is masculine nominative singular, so the adjective is καλός." },
+        { text: "καλόν", correct: false, feedback: "ἵππος is masculine nominative singular, so the adjective is καλός." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-002",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "ἡ οἰκία ___ ἐστιν.",
+      target_form: "ἡ οἰκία",
+      parse: "feminine nominative singular",
+      skill: "adjective agreement",
+      answer: "καλή",
+      explanation: "οἰκία is feminine nominative singular, so the adjective is καλή.",
+      choices: [
+        { text: "καλός", correct: false, feedback: "οἰκία is feminine nominative singular, so the adjective is καλή." },
+        { text: "καλή", correct: true, feedback: "οἰκία is feminine nominative singular, so the adjective is καλή." },
+        { text: "καλόν", correct: false, feedback: "οἰκία is feminine nominative singular, so the adjective is καλή." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-003",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "τὸ βιβλίον ___ ἐστιν.",
+      target_form: "τὸ βιβλίον",
+      parse: "neuter nominative singular",
+      skill: "adjective agreement",
+      answer: "καλόν",
+      explanation: "βιβλίον is neuter nominative singular, so the adjective is καλόν.",
+      choices: [
+        { text: "καλός", correct: false, feedback: "βιβλίον is neuter nominative singular, so the adjective is καλόν." },
+        { text: "καλή", correct: false, feedback: "βιβλίον is neuter nominative singular, so the adjective is καλόν." },
+        { text: "καλόν", correct: true, feedback: "βιβλίον is neuter nominative singular, so the adjective is καλόν." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-004",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "ὁ Ξενοφῶν ___ ἐστιν.",
+      target_form: "ὁ Ξενοφῶν",
+      parse: "masculine nominative singular",
+      skill: "adjective agreement",
+      answer: "νέος",
+      explanation: "Ξενοφῶν is masculine nominative singular, so the adjective is νέος.",
+      choices: [
+        { text: "νέος", correct: true, feedback: "Ξενοφῶν is masculine nominative singular, so the adjective is νέος." },
+        { text: "νέα", correct: false, feedback: "Ξενοφῶν is masculine nominative singular, so the adjective is νέος." },
+        { text: "νέον", correct: false, feedback: "Ξενοφῶν is masculine nominative singular, so the adjective is νέος." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-005",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "ἡ μήτηρ ___ ἐστιν.",
+      target_form: "ἡ μήτηρ",
+      parse: "feminine nominative singular",
+      skill: "adjective agreement",
+      answer: "καλή",
+      explanation: "μήτηρ is feminine nominative singular, so the adjective is καλή.",
+      choices: [
+        { text: "καλός", correct: false, feedback: "μήτηρ is feminine nominative singular, so the adjective is καλή." },
+        { text: "καλή", correct: true, feedback: "μήτηρ is feminine nominative singular, so the adjective is καλή." },
+        { text: "καλόν", correct: false, feedback: "μήτηρ is feminine nominative singular, so the adjective is καλή." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-006",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "ὁ πατήρ ___ ἐστιν.",
+      target_form: "ὁ πατήρ",
+      parse: "masculine nominative singular",
+      skill: "adjective agreement",
+      answer: "Ἀθηναῖος",
+      explanation: "πατήρ is masculine nominative singular, so the adjective is Ἀθηναῖος.",
+      choices: [
+        { text: "Ἀθηναῖος", correct: true, feedback: "πατήρ is masculine nominative singular, so the adjective is Ἀθηναῖος." },
+        { text: "Ἀθηναία", correct: false, feedback: "πατήρ is masculine nominative singular, so the adjective is Ἀθηναῖος." },
+        { text: "Ἀθηναῖον", correct: false, feedback: "πατήρ is masculine nominative singular, so the adjective is Ἀθηναῖος." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-007",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "τὸν ἵππον ___ θεραπεύει.",
+      target_form: "τὸν ἵππον",
+      parse: "masculine accusative singular",
+      skill: "adjective agreement",
+      answer: "καλόν",
+      explanation: "τὸν ἵππον is masculine accusative singular, so the adjective is καλόν.",
+      choices: [
+        { text: "καλός", correct: false, feedback: "τὸν ἵππον is masculine accusative singular, so the adjective is καλόν." },
+        { text: "καλή", correct: false, feedback: "τὸν ἵππον is masculine accusative singular, so the adjective is καλόν." },
+        { text: "καλόν", correct: true, feedback: "τὸν ἵππον is masculine accusative singular, so the adjective is καλόν." }
+      ]
+    },
+    {
+      id: "lesson-1-noun-adjective-agreement-008",
+      lesson: "lesson-1",
+      topic: "noun-adjective-agreement",
+      type: "multiple_choice",
+      prompt: "τὴν οἰκίαν ___ βλέπει.",
+      target_form: "τὴν οἰκίαν",
+      parse: "feminine accusative singular",
+      skill: "adjective agreement",
+      answer: "καλήν",
+      explanation: "τὴν οἰκίαν is feminine accusative singular, so the adjective is καλήν.",
+      choices: [
+        { text: "καλός", correct: false, feedback: "τὴν οἰκίαν is feminine accusative singular, so the adjective is καλήν." },
+        { text: "καλή", correct: false, feedback: "τὴν οἰκίαν is feminine accusative singular, so the adjective is καλήν." },
+        { text: "καλήν", correct: true, feedback: "τὴν οἰκίαν is feminine accusative singular, so the adjective is καλήν." }
+      ]
+    }
+  ];
+
   const LESSON_1_GRAMMAR_3_DEFINITE_ARTICLE = [
     // Group 3A — Choosing nominative singular articles
     {
@@ -5163,7 +5302,8 @@
             ],
             exercises: [
               "Practice C asks you to choose the correct adjective agreement."
-            ]
+            ],
+            practiceTopic: "noun-adjective-agreement"
           },
           {
             id: "definite-article",
@@ -5338,9 +5478,13 @@
         },
         "topic-practice": {
           title: "Practice This Topic",
+          topicInstructions: {
+            "noun-adjective-agreement": "Choose the adjective form that correctly agrees with the noun."
+          },
           questions: [
             ...LESSON_1_GRAMMAR_1_VERB_FORMS,
             ...LESSON_1_GRAMMAR_2_NOUNS_CASES_AGREEMENT,
+            ...LESSON_1_GRAMMAR_3_NOUN_ADJECTIVE_AGREEMENT,
             ...LESSON_1_GRAMMAR_3_DEFINITE_ARTICLE,
             ...LESSON_1_GRAMMAR_5_SENTENCE_PARTS
           ]

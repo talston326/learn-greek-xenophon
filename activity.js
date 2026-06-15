@@ -380,6 +380,14 @@
     return topicPracticeQuestions;
   }
 
+  function getTopicPracticeInstructions() {
+    const activity = lesson.activities?.[activityType];
+    if (activityType === "topic-practice" && topic) {
+      return activity?.topicInstructions?.[topic] || activity?.instructions || "Answer each one correctly to continue.";
+    }
+    return activity?.instructions || "Answer each one correctly to continue.";
+  }
+
   function renderTopicPractice() {
     const questions = getTopicPracticeQuestions();
 
@@ -398,7 +406,7 @@
       <section class="topic-practice-session" aria-label="Topic practice session">
         <div class="topic-practice-progress" aria-live="polite">
           <span>Questions ${start}-${end} of ${questions.length}</span>
-          <span>Answer each one correctly to continue.</span>
+          <span>${escapeHtml(getTopicPracticeInstructions())}</span>
         </div>
         <div class="topic-practice-list">
           ${currentQuestions.map((question, questionIndex) => `
