@@ -43,6 +43,17 @@ type ProgressMetricsRow = {
   progress_metrics: Record<string, unknown> | null;
 };
 
+type LessonTestGradeRow = {
+  lesson_slug: string;
+  lesson_label: string | null;
+  lesson_title: string;
+  score_percent: string | number;
+  points_earned: string | number | null;
+  points_possible: string | number | null;
+  attempt_number: number;
+  completed_at: string;
+};
+
 export function jsonResponse(body: unknown, status = 200) {
   return new Response(JSON.stringify(body), {
     status,
@@ -118,10 +129,10 @@ function nextLevelLabel(currentLabel?: string | null) {
   }
 
   if (currentLabel === "Apprentice") {
-    return "Erudite";
+    return "Student";
   }
 
-  return "Sophos";
+  return "Master of Greek";
 }
 
 export async function buildProgress(
@@ -246,6 +257,39 @@ export async function buildProgress(
     [userId, courseId]
   );
 
+  const lessonTestGradesResult = await client.query<LessonTestGradeRow>(
+    `
+      WITH ranked_grades AS (
+        SELECT
+          grades.*,
+          row_number() OVER (
+            PARTITION BY grades.lesson_id
+            ORDER BY grades.score_percent DESC, grades.completed_at DESC, grades.attempt_number DESC
+          ) AS grade_rank
+        FROM public.student_lesson_test_grades grades
+        WHERE grades.user_id = $1
+          AND grades.course_id = $2
+          AND grades.test_type = 'lesson-test'
+      )
+      SELECT
+        l.slug AS lesson_slug,
+        l.number_label AS lesson_label,
+        l.title AS lesson_title,
+        ranked_grades.score_percent,
+        ranked_grades.points_earned,
+        ranked_grades.points_possible,
+        ranked_grades.attempt_number,
+        ranked_grades.completed_at
+      FROM ranked_grades
+      JOIN public.lessons l ON l.id = ranked_grades.lesson_id
+      JOIN public.modules m ON m.id = l.module_id
+      WHERE ranked_grades.grade_rank = 1
+        AND m.course_id = $2
+      ORDER BY m.sort_order, l.sort_order
+    `,
+    [userId, courseId]
+  );
+
   const [progress] = progressResult.rows;
   const completedLessons = lessonProgressResult.rows
     .filter((row) => row.status === "completed")
@@ -277,8 +321,28 @@ export async function buildProgress(
     (total, exerciseIds) => total + exerciseIds.length,
     0
   );
-  const computedLevel = achievementTools.getLevelForXp(progress?.xp || 0);
-  const computedNextLevel = achievementTools.getNextLevelForXp(progress?.xp || 0);
+  const xp = progress?.xp || 0;
+  const computedLevel = achievementTools.getLevelForXp(xp);
+  const computedNextLevel = achievementTools.getNextLevelForXp(xp);
+  const maxLevelReached = computedNextLevel.number === computedLevel.number && xp >= computedLevel.xpRequired;
+  const lessonTestGrades = lessonTestGradesResult.rows.map((grade) => ({
+    lessonId: grade.lesson_slug,
+    lessonLabel: grade.lesson_label || grade.lesson_slug,
+    lessonTitle: grade.lesson_title,
+    testTitle: "Lesson Test",
+    scorePercent: Number(grade.score_percent),
+    pointsEarned: grade.points_earned == null ? null : Number(grade.points_earned),
+    pointsPossible: grade.points_possible == null ? null : Number(grade.points_possible),
+    attemptNumber: grade.attempt_number,
+    completedAt: grade.completed_at,
+  }));
+  const completedLessonTestsCount = lessonTestGrades.length;
+  const currentCourseGradePercent = completedLessonTestsCount
+    ? Math.round(
+        lessonTestGrades.reduce((sum, grade) => sum + grade.scorePercent, 0) /
+          completedLessonTestsCount
+      )
+    : null;
   const storedMetrics = progressMetricsResult.rows[0]?.progress_metrics || {};
   const earnedAtBySlug = Object.fromEntries(
     achievementsResult.rows.map((achievement) => [achievement.slug, achievement.earned_at])
@@ -296,6 +360,7 @@ export async function buildProgress(
     ),
     practiceSessions:
       Number((storedMetrics as { practiceSessions?: unknown }).practiceSessions) || practiceCompleted,
+    lessonTestsCompleted: completedLessonTestsCount,
     activityEvents:
       Number((storedMetrics as { activityEvents?: unknown }).activityEvents) || activitiesResult.rows.length,
     earnedAtBySlug,
@@ -315,11 +380,17 @@ export async function buildProgress(
     completedLessonsCount: displayCompletedLessonsCount,
     totalLessonsCount,
     completionPercent: displayCompletionPercent,
-    level: progress?.level_number || computedLevel.number,
-    levelLabel: progress?.level_label || computedLevel.label,
-    xp: progress?.xp || 0,
-    nextLevelXp: progress?.next_level_xp || computedNextLevel.xpRequired || nextLevelXp,
-    nextLevelLabel: computedNextLevel.label || nextLevelLabel(progress?.level_label),
+    level: computedLevel.number,
+    levelLabel: computedLevel.label,
+    xp,
+    nextLevelXp: maxLevelReached
+      ? Math.max(xp, computedLevel.xpRequired)
+      : computedNextLevel.xpRequired || nextLevelXp,
+    nextLevelLabel: maxLevelReached ? "" : computedNextLevel.label || nextLevelLabel(computedLevel.label),
+    maxLevelReached,
+    currentCourseGradePercent,
+    completedLessonTestsCount,
+    lessonTestGrades,
     weeklyCompleted: weeklyResult.rows[0]?.completed || 0,
     weeklyGoal: progress?.weekly_goal_lessons || 5,
     vocabularyMastered: progressMetrics.vocabularyMastered,
@@ -442,11 +513,11 @@ export async function initializeStudentAtCourseStart(
         weekly_goal_lessons,
         updated_at
       )
-      VALUES ($1, $2, $3, $4, 1, 'Novice', 0, 100, 5, now())
+      VALUES ($1, $2, $3, $4, 0, 'Novice', 0, 100, 5, now())
       ON CONFLICT (course_id, user_id) DO UPDATE
       SET current_lesson_id = EXCLUDED.current_lesson_id,
           current_segment_id = EXCLUDED.current_segment_id,
-          level_number = 1,
+          level_number = 0,
           level_label = 'Novice',
           xp = 0,
           next_level_xp = 100,

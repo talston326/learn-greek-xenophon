@@ -28,6 +28,8 @@ type StudentRow = {
   current_lesson_title: string | null;
   completed_lessons: number;
   total_lessons: number;
+  grade_percent: string | number | null;
+  grade_count: number;
   last_activity_at: string | null;
 };
 
@@ -78,20 +80,14 @@ function daysSince(value: string | null) {
   return Math.floor((Date.now() - new Date(value).getTime()) / 86400000);
 }
 
-function derivedAverageGrade(row: StudentRow) {
-  const xp = row.xp || 0;
-  const completion = row.total_lessons ? row.completed_lessons / row.total_lessons : 0;
-  return Math.min(98, Math.max(62, Math.round(68 + completion * 24 + Math.min(8, xp / 120))));
-}
-
-function studentStatus(row: StudentRow, grade: number) {
+function studentStatus(row: StudentRow, grade: number | null) {
   const inactiveDays = daysSince(row.last_activity_at);
 
-  if (inactiveDays >= 7 || grade < 70) {
+  if (inactiveDays >= 7 || (grade != null && grade < 70)) {
     return "Needs Attention";
   }
 
-  if (inactiveDays >= 3 || grade < 80) {
+  if (inactiveDays >= 3 || (grade != null && grade < 80)) {
     return "At Risk";
   }
 
@@ -120,7 +116,7 @@ function summarizeAttention(students: ReturnType<typeof buildStudents>) {
 
 function buildStudents(rows: StudentRow[]) {
   return rows.map((row) => {
-    const averageGradeNumber = derivedAverageGrade(row);
+    const averageGradeNumber = row.grade_percent == null ? null : Math.round(Number(row.grade_percent));
     const progress = row.total_lessons
       ? Math.round((row.completed_lessons / row.total_lessons) * 100)
       : 0;
@@ -134,7 +130,8 @@ function buildStudents(rows: StudentRow[]) {
       currentLesson: lessonTitle(row),
       level: row.level_label || "Novice",
       levelNumber: row.level_number || 0,
-      averageGrade: `${averageGradeNumber}%`,
+      averageGrade: averageGradeNumber == null ? "N/A" : `${averageGradeNumber}%`,
+      completedLessonTestsCount: row.grade_count || 0,
       lastActivity: relativeWhen(row.last_activity_at),
       status: studentStatus(row, averageGradeNumber),
     };
@@ -151,6 +148,9 @@ function summarizeGrades(students: ReturnType<typeof buildStudents>) {
 
   students.forEach((student) => {
     const grade = Number.parseInt(student.averageGrade, 10);
+    if (Number.isNaN(grade)) {
+      return;
+    }
     const bucket = buckets.find(([, , min, max]) => grade >= min && grade <= max);
 
     if (bucket) {
@@ -158,11 +158,18 @@ function summarizeGrades(students: ReturnType<typeof buildStudents>) {
     }
   });
 
-  return buckets.map(([label, count]) => [
+  const rows = buckets.map(([label, count]) => [
     label,
     `${count} ${count === 1 ? "student" : "students"}`,
     students.length ? Math.round((count / students.length) * 100) : 0,
   ]);
+  const noTests = students.filter((student) => student.averageGrade === "N/A").length;
+  rows.push([
+    "No tests yet",
+    `${noTests} ${noTests === 1 ? "student" : "students"}`,
+    students.length ? Math.round((noTests / students.length) * 100) : 0,
+  ]);
+  return rows;
 }
 
 export default async (request: Request) => {
@@ -222,6 +229,24 @@ export default async (request: Request) => {
           FROM public.activity_events
           WHERE course_id = $1
           GROUP BY user_id
+        ),
+        best_lesson_test_grades AS (
+          SELECT DISTINCT ON (grades.user_id, grades.lesson_id)
+            grades.user_id,
+            grades.lesson_id,
+            grades.score_percent
+          FROM public.student_lesson_test_grades grades
+          WHERE grades.course_id = $1
+            AND grades.test_type = 'lesson-test'
+          ORDER BY grades.user_id, grades.lesson_id, grades.score_percent DESC, grades.completed_at DESC, grades.attempt_number DESC
+        ),
+        grade_summary AS (
+          SELECT
+            user_id,
+            round(avg(score_percent)) AS grade_percent,
+            count(*)::int AS grade_count
+          FROM best_lesson_test_grades
+          GROUP BY user_id
         )
         SELECT
           u.id AS user_id,
@@ -236,6 +261,8 @@ export default async (request: Request) => {
           current_lesson.title AS current_lesson_title,
           coalesce(completed.count, 0)::int AS completed_lessons,
           total_lessons.count::int AS total_lessons,
+          grade_summary.grade_percent,
+          coalesce(grade_summary.grade_count, 0)::int AS grade_count,
           latest_activity.last_activity_at
         FROM public.course_memberships cm
         JOIN public.users u ON u.id = cm.user_id
@@ -244,6 +271,7 @@ export default async (request: Request) => {
         LEFT JOIN public.lessons current_lesson ON current_lesson.id = sp.current_lesson_id
         LEFT JOIN completed ON completed.user_id = cm.user_id
         LEFT JOIN latest_activity ON latest_activity.user_id = cm.user_id
+        LEFT JOIN grade_summary ON grade_summary.user_id = cm.user_id
         CROSS JOIN total_lessons
         WHERE cm.course_id = $1
           AND cm.enrollment_status = 'active'
@@ -257,9 +285,10 @@ export default async (request: Request) => {
     const averageCompletion = students.length
       ? Math.round(students.reduce((sum, student) => sum + student.progress, 0) / students.length)
       : 0;
-    const averageGrade = students.length
-      ? Math.round(students.reduce((sum, student) => sum + Number.parseInt(student.averageGrade, 10), 0) / students.length)
-      : 0;
+    const studentsWithGrades = students.filter((student) => student.averageGrade !== "N/A");
+    const averageGrade = studentsWithGrades.length
+      ? `${Math.round(studentsWithGrades.reduce((sum, student) => sum + Number.parseInt(student.averageGrade, 10), 0) / studentsWithGrades.length)}%`
+      : "N/A";
 
     const attemptsResult = await client.query(
       `
@@ -315,7 +344,7 @@ export default async (request: Request) => {
         ["Total Students", String(students.length)],
         ["Active This Week", String(activeThisWeek)],
         ["Average Completion", `${averageCompletion}%`],
-        ["Average Grade", `${averageGrade}%`],
+        ["Average Grade", averageGrade],
       ],
       grading: [
         ["Pending Submissions", String(pendingSubmissions)],

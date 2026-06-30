@@ -64,7 +64,15 @@ SET lemma = ma.lemma,
     ),
     updated_at = now()
 FROM matching_adjectives ma
-WHERE vi.id = ma.id;
+WHERE vi.id = ma.id
+  AND NOT EXISTS (
+    SELECT 1
+    FROM public.vocabulary_items existing
+    WHERE existing.id <> vi.id
+      AND existing.lemma IS NOT DISTINCT FROM ma.lemma
+      AND existing.display_form IS NOT DISTINCT FROM vi.display_form
+      AND existing.gloss IS NOT DISTINCT FROM vi.gloss
+  );
 
 WITH verb_citations(current_form, lemma, dictionary_form) AS (
   VALUES
@@ -136,6 +144,14 @@ SET lemma = mv.lemma,
     ),
     updated_at = now()
 FROM matching_verbs mv
-WHERE vi.id = mv.id;
+WHERE vi.id = mv.id
+  AND NOT EXISTS (
+    SELECT 1
+    FROM public.vocabulary_items existing
+    WHERE existing.id <> vi.id
+      AND existing.lemma IS NOT DISTINCT FROM mv.lemma
+      AND existing.display_form IS NOT DISTINCT FROM vi.display_form
+      AND existing.gloss IS NOT DISTINCT FROM vi.gloss
+  );
 
 COMMIT;

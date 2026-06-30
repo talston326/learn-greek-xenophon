@@ -10,15 +10,16 @@
   const AWARD_ASSET_BASE = "assets/awards/";
 
   const LEVEL_TABLE = [
-    { number: 1, label: "Novice", xpRequired: 0 },
-    { number: 2, label: "Apprentice", xpRequired: 100 },
-    { number: 3, label: "Student", xpRequired: 200 },
-    { number: 4, label: "Grammatikos", xpRequired: 300 },
-    { number: 5, label: "Reader", xpRequired: 450 },
-    { number: 6, label: "Scholar", xpRequired: 600 },
-    { number: 7, label: "Hellenist", xpRequired: 700 },
-    { number: 8, label: "Erudite", xpRequired: 750 },
-    { number: 9, label: "Sophos", xpRequired: 900 }
+    { number: 0, label: "Novice", xpRequired: 0 },
+    { number: 1, label: "Apprentice", xpRequired: 100 },
+    { number: 2, label: "Student", xpRequired: 200 },
+    { number: 3, label: "Reader", xpRequired: 350 },
+    { number: 4, label: "Grammarian", xpRequired: 550 },
+    { number: 5, label: "Scholar", xpRequired: 800 },
+    { number: 6, label: "Philologian", xpRequired: 1100 },
+    { number: 7, label: "Xenophontic Reader", xpRequired: 1450 },
+    { number: 8, label: "Companion of Socrates", xpRequired: 1850 },
+    { number: 9, label: "Master of Greek", xpRequired: 2300 }
   ];
 
   const ACHIEVEMENT_CATALOG = [

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Lesson Test Grades | Learn Greek with Xenophon</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-active">
+  <main class="grade-view-main" data-grade-page>
+    <section class="card">
+      <p class="dashboard-context">Student Grades</p>
+      <h1>Lesson Test Grades</h1>
+      <p class="muted">Signed in as <strong data-grade-student>Student</strong></p>
+      <div class="grade-summary-layout">
+        <div class="grade-value" data-grade-detail-value>Not available yet</div>
+        <div>
+          <h2>Current Course Grade</h2>
+          <p class="muted" data-grade-detail-note>Complete your first Lesson Test to receive a course grade.</p>
+          <a class="cta" href="index.html">Return to Dashboard <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Completed Lesson Tests</h2>
+      <p class="empty-state" data-grade-empty>Complete your first Lesson Test to receive a course grade.</p>
+      <table class="grade-table" aria-label="Completed Lesson Test Grades" data-grade-table>
+        <thead>
+          <tr>
+            <th>Lesson</th>
+            <th>Test</th>
+            <th>Score</th>
+            <th>Date Completed</th>
+            <th>Attempt</th>
+          </tr>
+        </thead>
+        <tbody data-grade-table-body></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="auth.js"></script>
+  <script src="profile-data.js"></script>
+  <script src="achievement-catalog.js"></script>
+  <script src="script.js?v=grades-dashboard"></script>
+</body>
+</html>

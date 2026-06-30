@@ -5,8 +5,8 @@ const achievementTools = window.xenophonAchievements || {
   computeEarnedAchievements: () => [],
   getLockedAchievements: () => [],
   resolveAchievementImagePath: (achievement) => achievement?.imagePath || "",
-  getLevelForXp: (xp) => ({ number: xp >= 900 ? 9 : xp >= 750 ? 8 : xp >= 100 ? 2 : 1, label: xp >= 900 ? "Sophos" : xp >= 750 ? "Erudite" : xp >= 100 ? "Apprentice" : "Novice", xpRequired: 0 }),
-  getNextLevelForXp: (xp) => ({ number: xp >= 900 ? 9 : xp >= 750 ? 9 : 2, label: xp >= 900 ? "Sophos" : xp >= 750 ? "Sophos" : "Apprentice", xpRequired: xp >= 900 ? xp : xp >= 750 ? 900 : 100 }),
+  getLevelForXp: (xp) => ({ number: xp >= 2300 ? 9 : xp >= 1850 ? 8 : xp >= 1450 ? 7 : xp >= 1100 ? 6 : xp >= 800 ? 5 : xp >= 550 ? 4 : xp >= 350 ? 3 : xp >= 200 ? 2 : xp >= 100 ? 1 : 0, label: xp >= 2300 ? "Master of Greek" : xp >= 1850 ? "Companion of Socrates" : xp >= 1450 ? "Xenophontic Reader" : xp >= 1100 ? "Philologian" : xp >= 800 ? "Scholar" : xp >= 550 ? "Grammarian" : xp >= 350 ? "Reader" : xp >= 200 ? "Student" : xp >= 100 ? "Apprentice" : "Novice", xpRequired: 0 }),
+  getNextLevelForXp: (xp) => ({ number: xp >= 2300 ? 9 : xp >= 1850 ? 9 : xp >= 1450 ? 8 : xp >= 1100 ? 7 : xp >= 800 ? 6 : xp >= 550 ? 5 : xp >= 350 ? 4 : xp >= 200 ? 3 : xp >= 100 ? 2 : 1, label: xp >= 2300 ? "Master of Greek" : xp >= 1850 ? "Master of Greek" : xp >= 1450 ? "Companion of Socrates" : xp >= 1100 ? "Xenophontic Reader" : xp >= 800 ? "Philologian" : xp >= 550 ? "Scholar" : xp >= 350 ? "Grammarian" : xp >= 200 ? "Reader" : xp >= 100 ? "Student" : "Apprentice", xpRequired: xp >= 2300 ? xp : xp >= 1850 ? 2300 : xp >= 1450 ? 1850 : xp >= 1100 ? 1450 : xp >= 800 ? 1100 : xp >= 550 ? 800 : xp >= 350 ? 550 : xp >= 200 ? 350 : xp >= 100 ? 200 : 100 }),
   normalizeProgressMetrics: (progress) => progress?.metrics || {}
 };
 
@@ -161,7 +161,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "new.student@example.edu",
     roles: ["student"],
     currentLessonId: "intro-1",
-    xp: 20,
+    xp: 0,
     weeklyGoal: 3,
     completedDisplayCount: 0,
     metrics: { startedUnit0: true, lessonsCompleted: 0, quizzesPassed: 0, vocabularySetsCompleted: 0, practiceSessions: 0, activityEvents: 1 },
@@ -172,7 +172,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "codex.student@example.edu",
     roles: ["student"],
     currentLessonId: "lesson-1",
-    xp: 80,
+    xp: 40,
     weeklyGoal: 3,
     metrics: { startedUnit0: true, lessonsCompleted: 1, quizzesPassed: 0, vocabularySetsCompleted: 0, practiceSessions: 0, activityEvents: 2 },
     summary: "Unit 0 complete; Lesson 1 starting"
@@ -182,7 +182,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "jdoe@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-2",
-    xp: 140,
+    xp: 120,
     weeklyGoal: 4,
     metrics: { quizzesPassed: 1, vocabularySetsCompleted: 1, vocabularyMastered: 18, practiceSessions: 1, activityEvents: 4 }
   },
@@ -191,7 +191,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "sdoe@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-3",
-    xp: 190,
+    xp: 205,
     weeklyGoal: 4,
     metrics: { quizzesPassed: 2, vocabularySetsCompleted: 2, vocabularyMastered: 32, practiceSessions: 3, translationExercisesPassed: 1, activityEvents: 5 }
   },
@@ -200,7 +200,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "mcontrary@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-4",
-    xp: 250,
+    xp: 300,
     weeklyGoal: 4,
     metrics: { quizzesPassed: 3, vocabularySetsCompleted: 3, vocabularyMastered: 44, practiceSessions: 5, translationExercisesPassed: 1, perfectScoreCount: 1, perfectQuizCount: 1, activityEvents: 7 }
   },
@@ -209,7 +209,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "skim@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-6",
-    xp: 340,
+    xp: 490,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 5, vocabularySetsCompleted: 5, vocabularyMastered: 70, practiceSessions: 7, translationExercisesPassed: 2, perfectScoreCount: 1, perfectQuizCount: 1, activityEvents: 9 }
   },
@@ -218,7 +218,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "jdavis@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-8",
-    xp: 430,
+    xp: 650,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 7, vocabularySetsCompleted: 7, vocabularyMastered: 88, practiceSessions: 9, streakDays: 7, translationExercisesPassed: 2, perfectScoreCount: 1, perfectQuizCount: 2, audioItemsCompleted: 7, audioLessonsCompleted: 4, activityEvents: 11 }
   },
@@ -227,7 +227,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "achen@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-10",
-    xp: 520,
+    xp: 800,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 9, vocabularySetsCompleted: 9, vocabularyMastered: 110, practiceSessions: 12, streakDays: 8, translationExercisesPassed: 3, perfectScoreCount: 1, perfectQuizCount: 3, audioItemsCompleted: 11, audioLessonsCompleted: 5, activityEvents: 14 }
   },
@@ -236,7 +236,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "mlopez@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-12",
-    xp: 610,
+    xp: 940,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 11, vocabularySetsCompleted: 11, vocabularyMastered: 128, practiceSessions: 16, streakDays: 9, translationExercisesPassed: 4, parsingExercisesPassed: 5, readingsCompleted: 10, perfectScoreCount: 1, perfectQuizCount: 4, audioItemsCompleted: 12, audioLessonsCompleted: 6, activityEvents: 18 }
   },
@@ -245,7 +245,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "tclay@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-13",
-    xp: 680,
+    xp: 1030,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 12, vocabularySetsCompleted: 12, vocabularyMastered: 142, practiceSessions: 18, streakDays: 7, translationExercisesPassed: 5, parsingExercisesPassed: 6, readingsCompleted: 12, perfectScoreCount: 2, perfectQuizCount: 5, audioItemsCompleted: 14, audioLessonsCompleted: 7, activityEvents: 20 }
   },
@@ -254,7 +254,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "nioannidis@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-15",
-    xp: 720,
+    xp: 1180,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 14, vocabularySetsCompleted: 14, vocabularyMastered: 160, practiceSessions: 22, streakDays: 8, translationExercisesPassed: 6, parsingExercisesPassed: 7, readingsCompleted: 13, perfectScoreCount: 2, perfectQuizCount: 6, audioItemsCompleted: 15, audioLessonsCompleted: 8, activityEvents: 24 }
   },
@@ -263,7 +263,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "phomer@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-18",
-    xp: 780,
+    xp: 1390,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 17, vocabularySetsCompleted: 17, vocabularyMastered: 178, practiceSessions: 24, streakDays: 9, translationExercisesPassed: 7, parsingExercisesPassed: 8, readingsCompleted: 15, perfectScoreCount: 2, perfectQuizCount: 7, audioItemsCompleted: 17, audioLessonsCompleted: 9, activityEvents: 27 }
   },
@@ -272,7 +272,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "ahomer@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-20",
-    xp: 845,
+    xp: 1550,
     weeklyGoal: 6,
     metrics: { quizzesPassed: 19, vocabularySetsCompleted: 19, vocabularyMastered: 195, practiceSessions: 27, streakDays: 10, translationExercisesPassed: 8, parsingExercisesPassed: 9, readingsCompleted: 17, perfectScoreCount: 2, perfectQuizCount: 8, audioItemsCompleted: 19, audioLessonsCompleted: 10, activityEvents: 30 }
   },
@@ -281,7 +281,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "dlaertius@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-23",
-    xp: 890,
+    xp: 1740,
     weeklyGoal: 6,
     metrics: { quizzesPassed: 22, vocabularySetsCompleted: 22, vocabularyMastered: 220, practiceSessions: 29, streakDays: 11, translationExercisesPassed: 9, parsingExercisesPassed: 10, readingsCompleted: 20, perfectScoreCount: 2, perfectQuizCount: 9, audioItemsCompleted: 21, audioLessonsCompleted: 11, activityEvents: 33 }
   },
@@ -290,7 +290,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "paristocles@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-25",
-    xp: 960,
+    xp: 1950,
     weeklyGoal: 6,
     metrics: { quizzesPassed: 24, vocabularySetsCompleted: 24, vocabularyMastered: 240, practiceSessions: 31, streakDays: 12, translationExercisesPassed: 10, parsingExercisesPassed: 11, readingsCompleted: 24, perfectScoreCount: 3, perfectQuizCount: 10, audioItemsCompleted: 24, audioLessonsCompleted: 12, activityEvents: 36 }
   },
@@ -299,7 +299,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "apapadopoulos@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-27",
-    xp: 1040,
+    xp: 2075,
     weeklyGoal: 6,
     metrics: { quizzesPassed: 26, vocabularySetsCompleted: 26, vocabularyMastered: 260, practiceSessions: 34, streakDays: 13, translationExercisesPassed: 11, parsingExercisesPassed: 12, readingsCompleted: 26, perfectScoreCount: 3, perfectQuizCount: 11, audioItemsCompleted: 26, audioLessonsCompleted: 13, activityEvents: 39 }
   },
@@ -308,7 +308,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "tpalston@email.sc.edu",
     roles: ["administrator", "professor", "student"],
     currentLessonId: "lesson-29",
-    xp: 760,
+    xp: 2050,
     weeklyGoal: 5,
     completedDisplayCount: 31,
     completionPercent: 61,
@@ -320,7 +320,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "BECKMA@mailbox.sc.edu",
     roles: ["professor", "student"],
     currentLessonId: "lesson-32",
-    xp: 840,
+    xp: 2220,
     weeklyGoal: 5,
     metrics: { quizzesPassed: 31, vocabularySetsCompleted: 31, vocabularyMastered: 215, practiceSessions: 26, streakDays: 8, translationExercisesPassed: 10, parsingExercisesPassed: 10, readingsCompleted: 21, perfectScoreCount: 2, perfectQuizCount: 8, audioItemsCompleted: 22, audioLessonsCompleted: 11, activityEvents: 32 },
     summary: "Module III · Lesson 32 · Purpose and infinitives"
@@ -330,7 +330,7 @@ const STUDENT_PROGRESS_PLAN = [
     email: "agreat@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-39",
-    xp: 1160,
+    xp: 2520,
     weeklyGoal: 6,
     metrics: { quizzesPassed: 38, vocabularySetsCompleted: 38, vocabularyMastered: 320, practiceSessions: 42, streakDays: 14, translationExercisesPassed: 16, parsingExercisesPassed: 16, readingsCompleted: 34, perfectScoreCount: 4, perfectQuizCount: 12, audioItemsCompleted: 34, audioLessonsCompleted: 17, activityEvents: 48 }
   },
@@ -339,13 +339,76 @@ const STUDENT_PROGRESS_PLAN = [
     email: "dgeorgiou@email.sc.edu",
     roles: ["student"],
     currentLessonId: "lesson-48",
-    xp: 1420,
+    xp: 3000,
     weeklyGoal: 6,
     courseComplete: true,
     metrics: { fullCourseCompleted: true, quizzesPassed: 48, vocabularySetsCompleted: 48, vocabularyMastered: 430, practiceSessions: 60, streakDays: 21, translationExercisesPassed: 24, parsingExercisesPassed: 24, readingsCompleted: 48, perfectScoreCount: 10, perfectQuizCount: 14, audioItemsCompleted: 60, audioLessonsCompleted: 30, activityEvents: 70 },
     summary: "Course complete"
   }
 ];
+
+const LESSON_TEST_GRADE_TARGETS = {
+  "new.student@example.edu": { testCount: 0, baseScore: 0, spreadSeed: 0 },
+  "codex.student@example.edu": { testCount: 0, baseScore: 0, spreadSeed: 0 },
+  "jdoe@email.sc.edu": { testCount: 1, baseScore: 78, spreadSeed: 1 },
+  "sdoe@email.sc.edu": { testCount: 3, baseScore: 84, spreadSeed: 2 },
+  "mcontrary@email.sc.edu": { testCount: 3, baseScore: 86, spreadSeed: 3 },
+  "skim@email.sc.edu": { testCount: 5, baseScore: 88, spreadSeed: 4 },
+  "jdavis@email.sc.edu": { testCount: 5, baseScore: 78, spreadSeed: 5 },
+  "achen@email.sc.edu": { testCount: 8, baseScore: 88, spreadSeed: 6 },
+  "mlopez@email.sc.edu": { testCount: 10, baseScore: 90, spreadSeed: 7 },
+  "tclay@email.sc.edu": { testCount: 11, baseScore: 84, spreadSeed: 8 },
+  "nioannidis@email.sc.edu": { testCount: 12, baseScore: 89, spreadSeed: 9 },
+  "phomer@email.sc.edu": { testCount: 15, baseScore: 86, spreadSeed: 10 },
+  "ahomer@email.sc.edu": { testCount: 17, baseScore: 91, spreadSeed: 11 },
+  "dlaertius@email.sc.edu": { testCount: 20, baseScore: 90, spreadSeed: 12 },
+  "paristocles@email.sc.edu": { testCount: 22, baseScore: 93, spreadSeed: 13 },
+  "apapadopoulos@email.sc.edu": { testCount: 24, baseScore: 91, spreadSeed: 14 },
+  "tpalston@email.sc.edu": { testCount: 28, baseScore: 88, spreadSeed: 15 },
+  "beckma@mailbox.sc.edu": { testCount: 31, baseScore: 94, spreadSeed: 16 },
+  "agreat@email.sc.edu": { testCount: 38, baseScore: 92, spreadSeed: 17 },
+  "dgeorgiou@email.sc.edu": { testCount: 48, baseScore: 95, spreadSeed: 18 }
+};
+
+function getLessonNumberFromId(lessonId) {
+  const match = String(lessonId || "").match(/^lesson-(\d+)$/);
+  return match ? Number.parseInt(match[1], 10) : null;
+}
+
+function clampScore(score) {
+  return Math.max(72, Math.min(97, score));
+}
+
+function buildLessonTestGradesForPlan(plan) {
+  const target = LESSON_TEST_GRADE_TARGETS[normalizeEmail(plan.email)];
+
+  if (!target?.testCount) {
+    return [];
+  }
+
+  return COURSE_LESSONS
+    .filter((lesson) => {
+      const lessonNumber = getLessonNumberFromId(lesson.id);
+      return lessonNumber != null && lessonNumber <= target.testCount;
+    })
+    .map((lesson) => {
+      const lessonNumber = getLessonNumberFromId(lesson.id);
+      const scorePercent = clampScore(target.baseScore + (((lessonNumber + target.spreadSeed) % 7) - 3));
+      const completedDate = new Date(Date.UTC(2027, 0, 15 + lessonNumber * 3 + (target.spreadSeed % 3)));
+
+      return {
+        lessonId: lesson.id,
+        lessonLabel: lesson.number,
+        lessonTitle: lesson.title,
+        testTitle: "Lesson Test",
+        scorePercent,
+        pointsEarned: scorePercent,
+        pointsPossible: 100,
+        attemptNumber: 1,
+        completedAt: completedDate.toISOString()
+      };
+    });
+}
 
 function getCompletedLessonIdsForPlan(plan) {
   const currentIndex = COURSE_LESSONS.findIndex((lesson) => lesson.id === plan.currentLessonId);
@@ -457,6 +520,12 @@ function buildProgressFromPlan(plan) {
   const completedLessons = getCompletedLessonIdsForPlan(plan);
   const level = achievementTools.getLevelForXp(plan.xp);
   const nextLevel = achievementTools.getNextLevelForXp(plan.xp);
+  const maxLevelReached = nextLevel.number === level.number && plan.xp >= level.xpRequired;
+  const lessonTestGrades = buildLessonTestGradesForPlan(plan);
+  const completedLessonTestsCount = lessonTestGrades.length;
+  const currentCourseGradePercent = completedLessonTestsCount
+    ? Math.round(lessonTestGrades.reduce((sum, grade) => sum + grade.scorePercent, 0) / completedLessonTestsCount)
+    : null;
   const metrics = {
     startedUnit0: true,
     lessonsCompleted: plan.completedDisplayCount ?? completedLessons.length,
@@ -476,6 +545,7 @@ function buildProgressFromPlan(plan) {
     fullCourseCompleted: Boolean(plan.courseComplete),
     ...plan.metrics
   };
+  metrics.lessonTestsCompleted = completedLessonTestsCount;
   const completedDisplayCount = plan.completedDisplayCount ?? completedLessons.length;
   const totalLessonsCount = COURSE_LESSONS.length;
   const completionPercent = typeof plan.completionPercent === "number"
@@ -493,8 +563,12 @@ function buildProgressFromPlan(plan) {
     level: level.number,
     levelLabel: level.label,
     xp: plan.xp,
-    nextLevelXp: nextLevel.xpRequired,
-    nextLevelLabel: nextLevel.label,
+    nextLevelXp: maxLevelReached ? Math.max(plan.xp, level.xpRequired) : nextLevel.xpRequired,
+    nextLevelLabel: maxLevelReached ? "" : nextLevel.label,
+    maxLevelReached,
+    currentCourseGradePercent,
+    completedLessonTestsCount,
+    lessonTestGrades,
     weeklyCompleted: Math.min(plan.weeklyGoal || 5, Math.max(0, Math.round(metrics.practiceSessions / 6))),
     weeklyGoal: plan.weeklyGoal || 5,
     vocabularyMastered: metrics.vocabularyMastered,
@@ -529,11 +603,11 @@ function buildProfessorDashboardFallback() {
     .map((user) => {
       const progress = user.progress;
       const currentLesson = findLesson(progress.currentLessonId);
-      const averageGrade = Math.min(99, Math.max(68, Math.round(72 + progress.completionPercent * 0.24 + progress.level)));
+      const averageGrade = progress.completedLessonTestsCount ? progress.currentCourseGradePercent : null;
       const inactiveDays = user.name === "New Student" ? 0 : Math.max(0, 8 - progress.weeklyCompleted);
-      const status = inactiveDays >= 7 || averageGrade < 70
+      const status = inactiveDays >= 7 || (averageGrade != null && averageGrade < 70)
         ? "Needs Attention"
-        : inactiveDays >= 4 || averageGrade < 80
+        : inactiveDays >= 4 || (averageGrade != null && averageGrade < 80)
         ? "At Risk"
         : "Active";
 
@@ -548,7 +622,8 @@ function buildProfessorDashboardFallback() {
           : `${currentLesson.number} — ${currentLesson.title}`,
         level: progress.levelLabel,
         levelNumber: progress.level,
-        averageGrade: `${averageGrade}%`,
+        averageGrade: averageGrade == null ? "N/A" : `${averageGrade}%`,
+        completedLessonTestsCount: progress.completedLessonTestsCount || 0,
         lastActivity: progress.recentActivity[0]?.when || "No activity",
         status
       };
@@ -557,9 +632,10 @@ function buildProfessorDashboardFallback() {
   const averageCompletion = students.length
     ? Math.round(students.reduce((sum, student) => sum + student.progress, 0) / students.length)
     : 0;
-  const averageGrade = students.length
-    ? Math.round(students.reduce((sum, student) => sum + Number.parseInt(student.averageGrade, 10), 0) / students.length)
-    : 0;
+  const studentsWithGrades = students.filter((student) => student.averageGrade !== "N/A");
+  const averageGrade = studentsWithGrades.length
+    ? `${Math.round(studentsWithGrades.reduce((sum, student) => sum + Number.parseInt(student.averageGrade, 10), 0) / studentsWithGrades.length)}%`
+    : "N/A";
   const activeThisWeek = students.filter((student) => student.lastActivity !== "No activity").length;
   const attention = students
     .filter((student) => student.status !== "Active")
@@ -582,6 +658,9 @@ function buildProfessorDashboardFallback() {
 
   students.forEach((student) => {
     const grade = Number.parseInt(student.averageGrade, 10);
+    if (Number.isNaN(grade)) {
+      return;
+    }
     const bucket = gradeBuckets.find(([, , min, max]) => grade >= min && grade <= max);
 
     if (bucket) {
@@ -594,7 +673,7 @@ function buildProfessorDashboardFallback() {
       ["Total Students", String(students.length)],
       ["Active This Week", String(activeThisWeek)],
       ["Average Completion", `${averageCompletion}%`],
-      ["Average Grade", `${averageGrade}%`]
+      ["Average Grade", averageGrade]
     ],
     grading: [
       ["Pending Submissions", "4"],
@@ -615,11 +694,18 @@ function buildProfessorDashboardFallback() {
       ["Vocabulary Set", "New Student", "Started"]
     ],
     lessonProgress,
-    grades: gradeBuckets.map(([label, count]) => [
+    grades: [
+      ...gradeBuckets.map(([label, count]) => [
       label,
       `${count} ${count === 1 ? "student" : "students"}`,
       students.length ? Math.round((count / students.length) * 100) : 0
-    ])
+      ]),
+      [
+        "No tests yet",
+        `${students.length - studentsWithGrades.length} ${students.length - studentsWithGrades.length === 1 ? "student" : "students"}`,
+        students.length ? Math.round(((students.length - studentsWithGrades.length) / students.length) * 100) : 0
+      ]
+    ]
   };
 }
 
@@ -1088,6 +1174,11 @@ function buildPreviewProgress(student) {
     .slice(0, Math.max(0, currentIndex))
     .map((lesson) => lesson.id);
   const completedLessonsCount = Math.round((student.progress / 100) * COURSE_LESSONS.length);
+  const xp = Math.round(student.progress * 25);
+  const level = achievementTools.getLevelForXp(xp);
+  const nextLevel = achievementTools.getNextLevelForXp(xp);
+  const maxLevelReached = nextLevel.number === level.number && xp >= level.xpRequired;
+  const gradePercent = Number.parseInt(student.averageGrade, 10);
 
   return {
     currentLessonId,
@@ -1098,11 +1189,15 @@ function buildPreviewProgress(student) {
     completedLessonsCount,
     totalLessonsCount: COURSE_LESSONS.length,
     completionPercent: student.progress,
-    level: student.levelNumber,
-    levelLabel: student.level,
-    xp: Math.round(student.progress * 5),
-    nextLevelXp: 500,
-    nextLevelLabel: student.level === "Sophos" ? "Philologos" : "Sophos",
+    level: level.number,
+    levelLabel: level.label,
+    xp,
+    nextLevelXp: maxLevelReached ? Math.max(xp, level.xpRequired) : nextLevel.xpRequired,
+    nextLevelLabel: maxLevelReached ? "" : nextLevel.label,
+    maxLevelReached,
+    currentCourseGradePercent: Number.isNaN(gradePercent) ? null : gradePercent,
+    completedLessonTestsCount: Number.isNaN(gradePercent) ? 0 : 1,
+    lessonTestGrades: [],
     weeklyCompleted: Math.max(0, Math.round(student.progress / 20)),
     weeklyGoal: 5,
     recentActivity: [
@@ -1801,9 +1896,9 @@ const currentLevelLabelEl = document.querySelector("[data-current-level-label]")
 const xpSummaryEl = document.querySelector("[data-xp-summary]");
 const xpBarEl = document.querySelector("[data-xp-bar]");
 const nextLevelEl = document.querySelector("[data-next-level]");
-const weeklySummaryEl = document.querySelector("[data-weekly-summary]");
-const weeklyBarEl = document.querySelector("[data-weekly-bar]");
-const weeklyNoteEl = document.querySelector("[data-weekly-note]");
+const courseGradeEl = document.querySelector("[data-course-grade]");
+const courseGradeNoteEl = document.querySelector("[data-course-grade-note]");
+const viewGradesLinkEl = document.querySelector("[data-view-grades-link]");
 const startSummaryTitleEl = document.querySelector("[data-start-summary-title]");
 const startSummaryLocationEl = document.querySelector("[data-start-summary-location]");
 const startLessonsEl = document.querySelector("[data-start-lessons]");
@@ -2814,6 +2909,12 @@ function hydrateProgress(progress = {}) {
     xp: progress.xp || 0,
     nextLevelXp: progress.nextLevelXp || nextLevel.xpRequired,
     nextLevelLabel: progress.nextLevelLabel || nextLevel.label,
+    maxLevelReached: Boolean(progress.maxLevelReached),
+    currentCourseGradePercent:
+      typeof progress.currentCourseGradePercent === "number" ? progress.currentCourseGradePercent : null,
+    completedLessonTestsCount:
+      typeof progress.completedLessonTestsCount === "number" ? progress.completedLessonTestsCount : 0,
+    lessonTestGrades: Array.isArray(progress.lessonTestGrades) ? progress.lessonTestGrades : [],
     weeklyCompleted: progress.weeklyCompleted || 0,
     weeklyGoal: progress.weeklyGoal || 5,
     vocabularyMastered: progress.vocabularyMastered || progress.metrics?.vocabularyMastered || 0,
@@ -3479,31 +3580,110 @@ function renderProgressCards(progress) {
   }
 
   if (xpSummaryEl) {
-    xpSummaryEl.innerHTML = `<span>Experience points toward next level</span><strong>${progress.xp} / ${progress.nextLevelXp}</strong>`;
+    xpSummaryEl.innerHTML = progress.maxLevelReached
+      ? `<span>Total experience points</span><strong>${progress.xp} XP</strong>`
+      : `<span>Experience points toward next level</span><strong>${progress.xp} / ${progress.nextLevelXp} XP</strong>`;
   }
 
   if (xpBarEl) {
-    const xpPercent = Math.min(100, Math.round((progress.xp / progress.nextLevelXp) * 100));
+    const xpPercent = progress.maxLevelReached
+      ? 100
+      : Math.min(100, Math.round((progress.xp / Math.max(1, progress.nextLevelXp)) * 100));
     xpBarEl.style.width = `${xpPercent}%`;
   }
 
   if (nextLevelEl) {
-    nextLevelEl.textContent = `Next Level: ${progress.nextLevelLabel}`;
+    nextLevelEl.textContent = progress.maxLevelReached
+      ? "Max Level Reached"
+      : `Next Level: ${progress.nextLevelLabel}`;
   }
 
-  if (weeklySummaryEl) {
-    weeklySummaryEl.textContent = `${progress.weeklyCompleted} / ${progress.weeklyGoal} lessons`;
+  if (courseGradeEl) {
+    courseGradeEl.textContent = progress.completedLessonTestsCount
+      ? `${progress.currentCourseGradePercent}%`
+      : "N/A";
   }
 
-  if (weeklyBarEl) {
-    const weeklyPercent = Math.min(100, Math.round((progress.weeklyCompleted / progress.weeklyGoal) * 100));
-    weeklyBarEl.style.width = `${weeklyPercent}%`;
+  if (courseGradeNoteEl) {
+    const completedCount = progress.completedLessonTestsCount || 0;
+    courseGradeNoteEl.textContent = completedCount
+      ? `Based on ${completedCount} lesson ${completedCount === 1 ? "test" : "tests"} completed`
+      : "Complete your first Lesson Test to receive a course grade.";
   }
 
-  if (weeklyNoteEl) {
-    const remaining = Math.max(0, progress.weeklyGoal - progress.weeklyCompleted);
-    weeklyNoteEl.textContent = remaining === 1 ? "1 lesson to go." : `${remaining} lessons to go.`;
+  if (viewGradesLinkEl) {
+    viewGradesLinkEl.href = "grades.html";
   }
+}
+
+function formatLessonTestDate(value) {
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return "Date unavailable";
+  }
+
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  });
+}
+
+function renderGradesPage(session) {
+  const gradePageEl = document.querySelector("[data-grade-page]");
+
+  if (!gradePageEl) {
+    return;
+  }
+
+  const progress = hydrateProgress(session?.progress || {});
+  const gradeList = progress.lessonTestGrades || [];
+  const studentNameEl = gradePageEl.querySelector("[data-grade-student]");
+  const gradeValueEl = gradePageEl.querySelector("[data-grade-detail-value]");
+  const gradeNoteEl = gradePageEl.querySelector("[data-grade-detail-note]");
+  const gradeTableEl = gradePageEl.querySelector("[data-grade-table]");
+  const gradeTableBodyEl = gradePageEl.querySelector("[data-grade-table-body]");
+  const gradeEmptyEl = gradePageEl.querySelector("[data-grade-empty]");
+
+  if (studentNameEl) {
+    studentNameEl.textContent = session?.name || "Student";
+  }
+
+  if (gradeValueEl) {
+    gradeValueEl.textContent = gradeList.length ? `${progress.currentCourseGradePercent}%` : "Not available yet";
+  }
+
+  if (gradeNoteEl) {
+    gradeNoteEl.textContent = gradeList.length
+      ? `Based on ${gradeList.length} completed lesson ${gradeList.length === 1 ? "test" : "tests"}`
+      : "Complete your first Lesson Test to receive a course grade.";
+  }
+
+  if (gradeEmptyEl) {
+    gradeEmptyEl.hidden = gradeList.length > 0;
+  }
+
+  if (gradeTableEl) {
+    gradeTableEl.hidden = gradeList.length === 0;
+  }
+
+  if (!gradeTableBodyEl) {
+    return;
+  }
+
+  gradeTableBodyEl.textContent = "";
+  gradeList.forEach((grade) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${grade.lessonLabel || grade.lessonId} — ${grade.lessonTitle}</td>
+      <td>${grade.testTitle || "Lesson Test"}</td>
+      <td><strong>${Math.round(Number(grade.scorePercent))}%</strong></td>
+      <td>${formatLessonTestDate(grade.completedAt)}</td>
+      <td>${grade.attemptNumber || 1}</td>
+    `;
+    gradeTableBodyEl.appendChild(row);
+  });
 }
 
 function getPracticeCompletedCount(progress) {
@@ -4968,6 +5148,7 @@ const savedSession = readSession();
 const isPublicModulePage = document.body.classList.contains("module-page");
 if (savedSession?.activeRole) {
   showDashboard(savedSession);
+  renderGradesPage(savedSession);
 } else if (heroMessageEl && progressTracker) {
   setHeroMessage(ROLE_DASHBOARDS.student.lines);
 } else if (isPublicModulePage) {

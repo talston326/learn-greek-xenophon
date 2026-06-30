@@ -83,7 +83,7 @@ SELECT 'achievements', count(*)::text, '21'
 FROM public.achievements
 WHERE tier IN ('bronze', 'silver', 'gold')
 UNION ALL
-SELECT 'levels', count(*)::text, '9'
+SELECT 'levels', count(*)::text, '10'
 FROM public.levels levels
 JOIN course c ON c.id = levels.course_id
 UNION ALL

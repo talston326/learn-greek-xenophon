@@ -59,26 +59,26 @@ CREATE TEMP TABLE seed_mock_students (
 
 INSERT INTO seed_mock_students (name, email, roles, current_lesson_slug, xp, weekly_goal_lessons, course_complete, metrics, summary)
 VALUES
-  ('New Student', 'new.student@example.edu', ARRAY['student'], 'intro-1', 20, 3, false, '{"startedUnit0":true,"lessonsCompleted":0,"quizzesPassed":0,"vocabularySetsCompleted":0,"practiceSessions":0,"activityEvents":1}'::jsonb, 'Unit 0 in progress'),
-  ('Codex Student', 'codex.student@example.edu', ARRAY['student'], 'lesson-1', 80, 3, false, '{"startedUnit0":true,"lessonsCompleted":1,"quizzesPassed":0,"vocabularySetsCompleted":0,"practiceSessions":0,"activityEvents":2}'::jsonb, 'Unit 0 complete; Lesson 1 starting'),
-  ('John Doe', 'jdoe@email.sc.edu', ARRAY['student'], 'lesson-2', 140, 4, false, '{"quizzesPassed":1,"vocabularySetsCompleted":1,"vocabularyMastered":18,"practiceSessions":1,"activityEvents":4}'::jsonb, 'Lesson 2 in progress'),
-  ('Susan Doe', 'sdoe@email.sc.edu', ARRAY['student'], 'lesson-3', 190, 4, false, '{"quizzesPassed":2,"vocabularySetsCompleted":2,"vocabularyMastered":32,"practiceSessions":3,"translationExercisesPassed":1,"activityEvents":5}'::jsonb, 'Lesson 3 in progress'),
-  ('Mary Contrary', 'mcontrary@email.sc.edu', ARRAY['student'], 'lesson-4', 250, 4, false, '{"quizzesPassed":3,"vocabularySetsCompleted":3,"vocabularyMastered":44,"practiceSessions":5,"translationExercisesPassed":1,"perfectScoreCount":1,"perfectQuizCount":1,"activityEvents":7}'::jsonb, 'Lesson 4 in progress'),
-  ('Sarah Kim', 'skim@email.sc.edu', ARRAY['student'], 'lesson-6', 340, 5, false, '{"quizzesPassed":5,"vocabularySetsCompleted":5,"vocabularyMastered":70,"practiceSessions":7,"translationExercisesPassed":2,"perfectScoreCount":1,"perfectQuizCount":1,"activityEvents":9}'::jsonb, 'Lesson 6 in progress'),
-  ('John Davis', 'jdavis@email.sc.edu', ARRAY['student'], 'lesson-8', 430, 5, false, '{"quizzesPassed":7,"vocabularySetsCompleted":7,"vocabularyMastered":88,"practiceSessions":9,"streakDays":7,"translationExercisesPassed":2,"perfectScoreCount":1,"perfectQuizCount":2,"audioItemsCompleted":7,"audioLessonsCompleted":4,"activityEvents":11}'::jsonb, 'Lesson 8 in progress'),
-  ('Alex Chen', 'achen@email.sc.edu', ARRAY['student'], 'lesson-10', 520, 5, false, '{"quizzesPassed":9,"vocabularySetsCompleted":9,"vocabularyMastered":110,"practiceSessions":12,"streakDays":8,"translationExercisesPassed":3,"perfectScoreCount":1,"perfectQuizCount":3,"audioItemsCompleted":11,"audioLessonsCompleted":5,"activityEvents":14}'::jsonb, 'Lesson 10 in progress'),
-  ('Maria Lopez', 'mlopez@email.sc.edu', ARRAY['student'], 'lesson-12', 610, 5, false, '{"quizzesPassed":11,"vocabularySetsCompleted":11,"vocabularyMastered":128,"practiceSessions":16,"streakDays":9,"translationExercisesPassed":4,"parsingExercisesPassed":5,"readingsCompleted":10,"perfectScoreCount":1,"perfectQuizCount":4,"audioItemsCompleted":12,"audioLessonsCompleted":6,"activityEvents":18}'::jsonb, 'Lesson 12 in progress'),
-  ('Thomas Clay', 'tclay@email.sc.edu', ARRAY['student'], 'lesson-13', 680, 5, false, '{"quizzesPassed":12,"vocabularySetsCompleted":12,"vocabularyMastered":142,"practiceSessions":18,"streakDays":7,"translationExercisesPassed":5,"parsingExercisesPassed":6,"readingsCompleted":12,"perfectScoreCount":2,"perfectQuizCount":5,"audioItemsCompleted":14,"audioLessonsCompleted":7,"activityEvents":20}'::jsonb, 'Module II starting'),
-  ('Nikolas Ioannidis', 'nioannidis@email.sc.edu', ARRAY['student'], 'lesson-15', 720, 5, false, '{"quizzesPassed":14,"vocabularySetsCompleted":14,"vocabularyMastered":160,"practiceSessions":22,"streakDays":8,"translationExercisesPassed":6,"parsingExercisesPassed":7,"readingsCompleted":13,"perfectScoreCount":2,"perfectQuizCount":6,"audioItemsCompleted":15,"audioLessonsCompleted":8,"activityEvents":24}'::jsonb, 'Lesson 15 in progress'),
-  ('Patroclus Homer', 'phomer@email.sc.edu', ARRAY['student'], 'lesson-18', 780, 5, false, '{"quizzesPassed":17,"vocabularySetsCompleted":17,"vocabularyMastered":178,"practiceSessions":24,"streakDays":9,"translationExercisesPassed":7,"parsingExercisesPassed":8,"readingsCompleted":15,"perfectScoreCount":2,"perfectQuizCount":7,"audioItemsCompleted":17,"audioLessonsCompleted":9,"activityEvents":27}'::jsonb, 'Lesson 18 in progress'),
-  ('Achilles Homer', 'ahomer@email.sc.edu', ARRAY['student'], 'lesson-20', 845, 6, false, '{"quizzesPassed":19,"vocabularySetsCompleted":19,"vocabularyMastered":195,"practiceSessions":27,"streakDays":10,"translationExercisesPassed":8,"parsingExercisesPassed":9,"readingsCompleted":17,"perfectScoreCount":2,"perfectQuizCount":8,"audioItemsCompleted":19,"audioLessonsCompleted":10,"activityEvents":30}'::jsonb, 'Lesson 20 in progress'),
-  ('Diogenes Laertius', 'dlaertius@email.sc.edu', ARRAY['student'], 'lesson-23', 890, 6, false, '{"quizzesPassed":22,"vocabularySetsCompleted":22,"vocabularyMastered":220,"practiceSessions":29,"streakDays":11,"translationExercisesPassed":9,"parsingExercisesPassed":10,"readingsCompleted":20,"perfectScoreCount":2,"perfectQuizCount":9,"audioItemsCompleted":21,"audioLessonsCompleted":11,"activityEvents":33}'::jsonb, 'Lesson 23 in progress'),
-  ('Plato Aristocles', 'paristocles@email.sc.edu', ARRAY['student'], 'lesson-25', 960, 6, false, '{"quizzesPassed":24,"vocabularySetsCompleted":24,"vocabularyMastered":240,"practiceSessions":31,"streakDays":12,"translationExercisesPassed":10,"parsingExercisesPassed":11,"readingsCompleted":24,"perfectScoreCount":3,"perfectQuizCount":10,"audioItemsCompleted":24,"audioLessonsCompleted":12,"activityEvents":36}'::jsonb, 'Module III starting'),
-  ('Alexandros Papadopoulos', 'apapadopoulos@email.sc.edu', ARRAY['student'], 'lesson-27', 1040, 6, false, '{"quizzesPassed":26,"vocabularySetsCompleted":26,"vocabularyMastered":260,"practiceSessions":34,"streakDays":13,"translationExercisesPassed":11,"parsingExercisesPassed":12,"readingsCompleted":26,"perfectScoreCount":3,"perfectQuizCount":11,"audioItemsCompleted":26,"audioLessonsCompleted":13,"activityEvents":39}'::jsonb, 'Lesson 27 in progress'),
-  ('Tom Alston', 'tpalston@email.sc.edu', ARRAY['administrator','professor','student'], 'lesson-29', 760, 5, false, '{"lessonsCompleted":31,"completionPercent":61,"quizzesPassed":28,"vocabularySetsCompleted":28,"vocabularyMastered":176,"practiceSessions":23,"streakDays":9,"translationExercisesPassed":9,"parsingExercisesPassed":9,"readingsCompleted":18,"perfectScoreCount":2,"perfectQuizCount":7,"audioItemsCompleted":18,"audioLessonsCompleted":9,"activityEvents":28}'::jsonb, 'Module III · Lesson 29 · Purpose clauses'),
-  ('Mark Beck', 'BECKMA@mailbox.sc.edu', ARRAY['professor','student'], 'lesson-32', 840, 5, false, '{"quizzesPassed":31,"vocabularySetsCompleted":31,"vocabularyMastered":215,"practiceSessions":26,"streakDays":8,"translationExercisesPassed":10,"parsingExercisesPassed":10,"readingsCompleted":21,"perfectScoreCount":2,"perfectQuizCount":8,"audioItemsCompleted":22,"audioLessonsCompleted":11,"activityEvents":32}'::jsonb, 'Module III · Lesson 32 · Purpose and infinitives'),
-  ('Alexander Great', 'agreat@email.sc.edu', ARRAY['student'], 'lesson-39', 1160, 6, false, '{"quizzesPassed":38,"vocabularySetsCompleted":38,"vocabularyMastered":320,"practiceSessions":42,"streakDays":14,"translationExercisesPassed":16,"parsingExercisesPassed":16,"readingsCompleted":34,"perfectScoreCount":4,"perfectQuizCount":12,"audioItemsCompleted":34,"audioLessonsCompleted":17,"activityEvents":48}'::jsonb, 'Module IV starting'),
-  ('Dimitrios Georgiou', 'dgeorgiou@email.sc.edu', ARRAY['student'], 'lesson-48', 1420, 6, true, '{"fullCourseCompleted":true,"quizzesPassed":48,"vocabularySetsCompleted":48,"vocabularyMastered":430,"practiceSessions":60,"streakDays":21,"translationExercisesPassed":24,"parsingExercisesPassed":24,"readingsCompleted":48,"perfectScoreCount":10,"perfectQuizCount":14,"audioItemsCompleted":60,"audioLessonsCompleted":30,"activityEvents":70}'::jsonb, 'Course complete');
+  ('New Student', 'new.student@example.edu', ARRAY['student'], 'intro-1', 0, 3, false, '{"startedUnit0":true,"lessonsCompleted":0,"quizzesPassed":0,"vocabularySetsCompleted":0,"practiceSessions":0,"activityEvents":1}'::jsonb, 'Unit 0 in progress'),
+  ('Codex Student', 'codex.student@example.edu', ARRAY['student'], 'lesson-1', 40, 3, false, '{"startedUnit0":true,"lessonsCompleted":1,"quizzesPassed":0,"vocabularySetsCompleted":0,"practiceSessions":0,"activityEvents":2}'::jsonb, 'Unit 0 complete; Lesson 1 starting'),
+  ('John Doe', 'jdoe@email.sc.edu', ARRAY['student'], 'lesson-2', 120, 4, false, '{"quizzesPassed":1,"vocabularySetsCompleted":1,"vocabularyMastered":18,"practiceSessions":1,"activityEvents":4}'::jsonb, 'Lesson 2 in progress'),
+  ('Susan Doe', 'sdoe@email.sc.edu', ARRAY['student'], 'lesson-3', 205, 4, false, '{"quizzesPassed":2,"vocabularySetsCompleted":2,"vocabularyMastered":32,"practiceSessions":3,"translationExercisesPassed":1,"activityEvents":5}'::jsonb, 'Lesson 3 in progress'),
+  ('Mary Contrary', 'mcontrary@email.sc.edu', ARRAY['student'], 'lesson-4', 300, 4, false, '{"quizzesPassed":3,"vocabularySetsCompleted":3,"vocabularyMastered":44,"practiceSessions":5,"translationExercisesPassed":1,"perfectScoreCount":1,"perfectQuizCount":1,"activityEvents":7}'::jsonb, 'Lesson 4 in progress'),
+  ('Sarah Kim', 'skim@email.sc.edu', ARRAY['student'], 'lesson-6', 490, 5, false, '{"quizzesPassed":5,"vocabularySetsCompleted":5,"vocabularyMastered":70,"practiceSessions":7,"translationExercisesPassed":2,"perfectScoreCount":1,"perfectQuizCount":1,"activityEvents":9}'::jsonb, 'Lesson 6 in progress'),
+  ('John Davis', 'jdavis@email.sc.edu', ARRAY['student'], 'lesson-8', 650, 5, false, '{"quizzesPassed":7,"vocabularySetsCompleted":7,"vocabularyMastered":88,"practiceSessions":9,"streakDays":7,"translationExercisesPassed":2,"perfectScoreCount":1,"perfectQuizCount":2,"audioItemsCompleted":7,"audioLessonsCompleted":4,"activityEvents":11}'::jsonb, 'Lesson 8 in progress'),
+  ('Alex Chen', 'achen@email.sc.edu', ARRAY['student'], 'lesson-10', 800, 5, false, '{"quizzesPassed":9,"vocabularySetsCompleted":9,"vocabularyMastered":110,"practiceSessions":12,"streakDays":8,"translationExercisesPassed":3,"perfectScoreCount":1,"perfectQuizCount":3,"audioItemsCompleted":11,"audioLessonsCompleted":5,"activityEvents":14}'::jsonb, 'Lesson 10 in progress'),
+  ('Maria Lopez', 'mlopez@email.sc.edu', ARRAY['student'], 'lesson-12', 940, 5, false, '{"quizzesPassed":11,"vocabularySetsCompleted":11,"vocabularyMastered":128,"practiceSessions":16,"streakDays":9,"translationExercisesPassed":4,"parsingExercisesPassed":5,"readingsCompleted":10,"perfectScoreCount":1,"perfectQuizCount":4,"audioItemsCompleted":12,"audioLessonsCompleted":6,"activityEvents":18}'::jsonb, 'Lesson 12 in progress'),
+  ('Thomas Clay', 'tclay@email.sc.edu', ARRAY['student'], 'lesson-13', 1030, 5, false, '{"quizzesPassed":12,"vocabularySetsCompleted":12,"vocabularyMastered":142,"practiceSessions":18,"streakDays":7,"translationExercisesPassed":5,"parsingExercisesPassed":6,"readingsCompleted":12,"perfectScoreCount":2,"perfectQuizCount":5,"audioItemsCompleted":14,"audioLessonsCompleted":7,"activityEvents":20}'::jsonb, 'Module II starting'),
+  ('Nikolas Ioannidis', 'nioannidis@email.sc.edu', ARRAY['student'], 'lesson-15', 1180, 5, false, '{"quizzesPassed":14,"vocabularySetsCompleted":14,"vocabularyMastered":160,"practiceSessions":22,"streakDays":8,"translationExercisesPassed":6,"parsingExercisesPassed":7,"readingsCompleted":13,"perfectScoreCount":2,"perfectQuizCount":6,"audioItemsCompleted":15,"audioLessonsCompleted":8,"activityEvents":24}'::jsonb, 'Lesson 15 in progress'),
+  ('Patroclus Homer', 'phomer@email.sc.edu', ARRAY['student'], 'lesson-18', 1390, 5, false, '{"quizzesPassed":17,"vocabularySetsCompleted":17,"vocabularyMastered":178,"practiceSessions":24,"streakDays":9,"translationExercisesPassed":7,"parsingExercisesPassed":8,"readingsCompleted":15,"perfectScoreCount":2,"perfectQuizCount":7,"audioItemsCompleted":17,"audioLessonsCompleted":9,"activityEvents":27}'::jsonb, 'Lesson 18 in progress'),
+  ('Achilles Homer', 'ahomer@email.sc.edu', ARRAY['student'], 'lesson-20', 1550, 6, false, '{"quizzesPassed":19,"vocabularySetsCompleted":19,"vocabularyMastered":195,"practiceSessions":27,"streakDays":10,"translationExercisesPassed":8,"parsingExercisesPassed":9,"readingsCompleted":17,"perfectScoreCount":2,"perfectQuizCount":8,"audioItemsCompleted":19,"audioLessonsCompleted":10,"activityEvents":30}'::jsonb, 'Lesson 20 in progress'),
+  ('Diogenes Laertius', 'dlaertius@email.sc.edu', ARRAY['student'], 'lesson-23', 1740, 6, false, '{"quizzesPassed":22,"vocabularySetsCompleted":22,"vocabularyMastered":220,"practiceSessions":29,"streakDays":11,"translationExercisesPassed":9,"parsingExercisesPassed":10,"readingsCompleted":20,"perfectScoreCount":2,"perfectQuizCount":9,"audioItemsCompleted":21,"audioLessonsCompleted":11,"activityEvents":33}'::jsonb, 'Lesson 23 in progress'),
+  ('Plato Aristocles', 'paristocles@email.sc.edu', ARRAY['student'], 'lesson-25', 1950, 6, false, '{"quizzesPassed":24,"vocabularySetsCompleted":24,"vocabularyMastered":240,"practiceSessions":31,"streakDays":12,"translationExercisesPassed":10,"parsingExercisesPassed":11,"readingsCompleted":24,"perfectScoreCount":3,"perfectQuizCount":10,"audioItemsCompleted":24,"audioLessonsCompleted":12,"activityEvents":36}'::jsonb, 'Module III starting'),
+  ('Alexandros Papadopoulos', 'apapadopoulos@email.sc.edu', ARRAY['student'], 'lesson-27', 2075, 6, false, '{"quizzesPassed":26,"vocabularySetsCompleted":26,"vocabularyMastered":260,"practiceSessions":34,"streakDays":13,"translationExercisesPassed":11,"parsingExercisesPassed":12,"readingsCompleted":26,"perfectScoreCount":3,"perfectQuizCount":11,"audioItemsCompleted":26,"audioLessonsCompleted":13,"activityEvents":39}'::jsonb, 'Lesson 27 in progress'),
+  ('Tom Alston', 'tpalston@email.sc.edu', ARRAY['administrator','professor','student'], 'lesson-29', 2050, 5, false, '{"lessonsCompleted":31,"completionPercent":61,"quizzesPassed":28,"vocabularySetsCompleted":28,"vocabularyMastered":176,"practiceSessions":23,"streakDays":9,"translationExercisesPassed":9,"parsingExercisesPassed":9,"readingsCompleted":18,"perfectScoreCount":2,"perfectQuizCount":7,"audioItemsCompleted":18,"audioLessonsCompleted":9,"activityEvents":28}'::jsonb, 'Module III · Lesson 29 · Purpose clauses'),
+  ('Mark Beck', 'BECKMA@mailbox.sc.edu', ARRAY['professor','student'], 'lesson-32', 2220, 5, false, '{"quizzesPassed":31,"vocabularySetsCompleted":31,"vocabularyMastered":215,"practiceSessions":26,"streakDays":8,"translationExercisesPassed":10,"parsingExercisesPassed":10,"readingsCompleted":21,"perfectScoreCount":2,"perfectQuizCount":8,"audioItemsCompleted":22,"audioLessonsCompleted":11,"activityEvents":32}'::jsonb, 'Module III · Lesson 32 · Purpose and infinitives'),
+  ('Alexander Great', 'agreat@email.sc.edu', ARRAY['student'], 'lesson-39', 2520, 6, false, '{"quizzesPassed":38,"vocabularySetsCompleted":38,"vocabularyMastered":320,"practiceSessions":42,"streakDays":14,"translationExercisesPassed":16,"parsingExercisesPassed":16,"readingsCompleted":34,"perfectScoreCount":4,"perfectQuizCount":12,"audioItemsCompleted":34,"audioLessonsCompleted":17,"activityEvents":48}'::jsonb, 'Module IV starting'),
+  ('Dimitrios Georgiou', 'dgeorgiou@email.sc.edu', ARRAY['student'], 'lesson-48', 3000, 6, true, '{"fullCourseCompleted":true,"quizzesPassed":48,"vocabularySetsCompleted":48,"vocabularyMastered":430,"practiceSessions":60,"streakDays":21,"translationExercisesPassed":24,"parsingExercisesPassed":24,"readingsCompleted":48,"perfectScoreCount":10,"perfectQuizCount":14,"audioItemsCompleted":60,"audioLessonsCompleted":30,"activityEvents":70}'::jsonb, 'Course complete');
 
 WITH seed_users(name, email, roles, current_lesson_slug, level_number, level_label, xp, next_level_xp, weekly_goal_lessons, summary) AS (
   SELECT
@@ -87,23 +87,25 @@ WITH seed_users(name, email, roles, current_lesson_slug, level_number, level_lab
     roles,
     current_lesson_slug,
     CASE
-      WHEN xp >= 900 THEN 9
-      WHEN xp >= 750 THEN 8
-      WHEN xp >= 700 THEN 7
-      WHEN xp >= 600 THEN 6
-      WHEN xp >= 450 THEN 5
-      WHEN xp >= 300 THEN 4
-      WHEN xp >= 200 THEN 3
-      WHEN xp >= 100 THEN 2
-      ELSE 1
+      WHEN xp >= 2300 THEN 9
+      WHEN xp >= 1850 THEN 8
+      WHEN xp >= 1450 THEN 7
+      WHEN xp >= 1100 THEN 6
+      WHEN xp >= 800 THEN 5
+      WHEN xp >= 550 THEN 4
+      WHEN xp >= 350 THEN 3
+      WHEN xp >= 200 THEN 2
+      WHEN xp >= 100 THEN 1
+      ELSE 0
     END AS level_number,
     CASE
-      WHEN xp >= 900 THEN 'Sophos'
-      WHEN xp >= 750 THEN 'Erudite'
-      WHEN xp >= 700 THEN 'Hellenist'
-      WHEN xp >= 600 THEN 'Scholar'
-      WHEN xp >= 450 THEN 'Reader'
-      WHEN xp >= 300 THEN 'Grammatikos'
+      WHEN xp >= 2300 THEN 'Master of Greek'
+      WHEN xp >= 1850 THEN 'Companion of Socrates'
+      WHEN xp >= 1450 THEN 'Xenophontic Reader'
+      WHEN xp >= 1100 THEN 'Philologian'
+      WHEN xp >= 800 THEN 'Scholar'
+      WHEN xp >= 550 THEN 'Grammarian'
+      WHEN xp >= 350 THEN 'Reader'
       WHEN xp >= 200 THEN 'Student'
       WHEN xp >= 100 THEN 'Apprentice'
       ELSE 'Novice'
@@ -112,13 +114,14 @@ WITH seed_users(name, email, roles, current_lesson_slug, level_number, level_lab
     CASE
       WHEN xp < 100 THEN 100
       WHEN xp < 200 THEN 200
-      WHEN xp < 300 THEN 300
-      WHEN xp < 450 THEN 450
-      WHEN xp < 600 THEN 600
-      WHEN xp < 700 THEN 700
-      WHEN xp < 750 THEN 750
-      WHEN xp < 900 THEN 900
-      ELSE GREATEST(xp, 900)
+      WHEN xp < 350 THEN 350
+      WHEN xp < 550 THEN 550
+      WHEN xp < 800 THEN 800
+      WHEN xp < 1100 THEN 1100
+      WHEN xp < 1450 THEN 1450
+      WHEN xp < 1850 THEN 1850
+      WHEN xp < 2300 THEN 2300
+      ELSE GREATEST(xp, 2300)
     END AS next_level_xp,
     weekly_goal_lessons,
     summary
@@ -482,15 +485,16 @@ WITH course AS (
 ),
 seed_levels(level_number, label, xp_required) AS (
   VALUES
-    (1, 'Novice', 0),
-    (2, 'Apprentice', 100),
-    (3, 'Student', 200),
-    (4, 'Grammatikos', 300),
-    (5, 'Reader', 450),
-    (6, 'Scholar', 600),
-    (7, 'Hellenist', 700),
-    (8, 'Erudite', 750),
-    (9, 'Sophos', 900)
+    (0, 'Novice', 0),
+    (1, 'Apprentice', 100),
+    (2, 'Student', 200),
+    (3, 'Reader', 350),
+    (4, 'Grammarian', 550),
+    (5, 'Scholar', 800),
+    (6, 'Philologian', 1100),
+    (7, 'Xenophontic Reader', 1450),
+    (8, 'Companion of Socrates', 1850),
+    (9, 'Master of Greek', 2300)
 )
 INSERT INTO public.levels (course_id, level_number, label, xp_required)
 SELECT course.id, seed_levels.level_number, seed_levels.label, seed_levels.xp_required
@@ -506,7 +510,7 @@ WITH course AS (
 DELETE FROM public.levels levels
 USING course
 WHERE levels.course_id = course.id
-  AND levels.level_number NOT BETWEEN 1 AND 9;
+  AND levels.level_number NOT BETWEEN 0 AND 9;
 
 WITH seed_achievements(slug, label, tier, sort_order, description, image_path, criteria, locked_description) AS (
   VALUES
@@ -551,23 +555,25 @@ WITH seed_users(email, current_lesson_slug, level_number, level_label, xp, next_
     email,
     current_lesson_slug,
     CASE
-      WHEN xp >= 900 THEN 9
-      WHEN xp >= 750 THEN 8
-      WHEN xp >= 700 THEN 7
-      WHEN xp >= 600 THEN 6
-      WHEN xp >= 450 THEN 5
-      WHEN xp >= 300 THEN 4
-      WHEN xp >= 200 THEN 3
-      WHEN xp >= 100 THEN 2
-      ELSE 1
+      WHEN xp >= 2300 THEN 9
+      WHEN xp >= 1850 THEN 8
+      WHEN xp >= 1450 THEN 7
+      WHEN xp >= 1100 THEN 6
+      WHEN xp >= 800 THEN 5
+      WHEN xp >= 550 THEN 4
+      WHEN xp >= 350 THEN 3
+      WHEN xp >= 200 THEN 2
+      WHEN xp >= 100 THEN 1
+      ELSE 0
     END AS level_number,
     CASE
-      WHEN xp >= 900 THEN 'Sophos'
-      WHEN xp >= 750 THEN 'Erudite'
-      WHEN xp >= 700 THEN 'Hellenist'
-      WHEN xp >= 600 THEN 'Scholar'
-      WHEN xp >= 450 THEN 'Reader'
-      WHEN xp >= 300 THEN 'Grammatikos'
+      WHEN xp >= 2300 THEN 'Master of Greek'
+      WHEN xp >= 1850 THEN 'Companion of Socrates'
+      WHEN xp >= 1450 THEN 'Xenophontic Reader'
+      WHEN xp >= 1100 THEN 'Philologian'
+      WHEN xp >= 800 THEN 'Scholar'
+      WHEN xp >= 550 THEN 'Grammarian'
+      WHEN xp >= 350 THEN 'Reader'
       WHEN xp >= 200 THEN 'Student'
       WHEN xp >= 100 THEN 'Apprentice'
       ELSE 'Novice'
@@ -576,13 +582,14 @@ WITH seed_users(email, current_lesson_slug, level_number, level_label, xp, next_
     CASE
       WHEN xp < 100 THEN 100
       WHEN xp < 200 THEN 200
-      WHEN xp < 300 THEN 300
-      WHEN xp < 450 THEN 450
-      WHEN xp < 600 THEN 600
-      WHEN xp < 700 THEN 700
-      WHEN xp < 750 THEN 750
-      WHEN xp < 900 THEN 900
-      ELSE GREATEST(xp, 900)
+      WHEN xp < 350 THEN 350
+      WHEN xp < 550 THEN 550
+      WHEN xp < 800 THEN 800
+      WHEN xp < 1100 THEN 1100
+      WHEN xp < 1450 THEN 1450
+      WHEN xp < 1850 THEN 1850
+      WHEN xp < 2300 THEN 2300
+      ELSE GREATEST(xp, 2300)
     END AS next_level_xp,
     weekly_goal_lessons
   FROM seed_mock_students
@@ -632,6 +639,104 @@ SET current_lesson_id = EXCLUDED.current_lesson_id,
     xp = EXCLUDED.xp,
     next_level_xp = EXCLUDED.next_level_xp,
     weekly_goal_lessons = EXCLUDED.weekly_goal_lessons,
+    updated_at = now();
+
+WITH course AS (
+  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+),
+grade_targets(email, test_count, base_score, spread_seed) AS (
+  VALUES
+    ('new.student@example.edu', 0, 0, 0),
+    ('codex.student@example.edu', 0, 0, 0),
+    ('jdoe@email.sc.edu', 1, 78, 1),
+    ('sdoe@email.sc.edu', 3, 84, 2),
+    ('mcontrary@email.sc.edu', 3, 86, 3),
+    ('skim@email.sc.edu', 5, 88, 4),
+    ('jdavis@email.sc.edu', 5, 78, 5),
+    ('achen@email.sc.edu', 8, 88, 6),
+    ('mlopez@email.sc.edu', 10, 90, 7),
+    ('tclay@email.sc.edu', 11, 84, 8),
+    ('nioannidis@email.sc.edu', 12, 89, 9),
+    ('phomer@email.sc.edu', 15, 86, 10),
+    ('ahomer@email.sc.edu', 17, 91, 11),
+    ('dlaertius@email.sc.edu', 20, 90, 12),
+    ('paristocles@email.sc.edu', 22, 93, 13),
+    ('apapadopoulos@email.sc.edu', 24, 91, 14),
+    ('tpalston@email.sc.edu', 28, 88, 15),
+    ('BECKMA@mailbox.sc.edu', 31, 94, 16),
+    ('agreat@email.sc.edu', 38, 92, 17),
+    ('dgeorgiou@email.sc.edu', 48, 95, 18)
+),
+seed_users AS (
+  SELECT u.id AS user_id, course.id AS course_id, grade_targets.*
+  FROM grade_targets
+  JOIN public.users u ON u.email = grade_targets.email::citext
+  JOIN course ON true
+),
+deleted AS (
+  DELETE FROM public.student_lesson_test_grades grades
+  USING seed_users
+  WHERE grades.course_id = seed_users.course_id
+    AND grades.user_id = seed_users.user_id
+    AND grades.test_type = 'lesson-test'
+  RETURNING grades.id
+),
+ordered_lessons AS (
+  SELECT
+    l.id AS lesson_id,
+    substring(l.slug from 'lesson-([0-9]+)')::int AS lesson_number
+  FROM public.lessons l
+  JOIN public.modules m ON m.id = l.module_id
+  JOIN course ON course.id = m.course_id
+  WHERE l.slug ~ '^lesson-[0-9]+$'
+),
+grade_rows AS (
+  SELECT
+    seed_users.course_id,
+    seed_users.user_id,
+    ordered_lessons.lesson_id,
+    GREATEST(
+      72,
+      LEAST(
+        97,
+        seed_users.base_score + (((ordered_lessons.lesson_number + seed_users.spread_seed) % 7) - 3)
+      )
+    )::numeric(5,2) AS score_percent,
+    ordered_lessons.lesson_number,
+    seed_users.spread_seed
+  FROM seed_users
+  JOIN ordered_lessons ON ordered_lessons.lesson_number <= seed_users.test_count
+  WHERE seed_users.test_count > 0
+)
+INSERT INTO public.student_lesson_test_grades (
+  course_id,
+  user_id,
+  lesson_id,
+  test_type,
+  score_percent,
+  points_earned,
+  points_possible,
+  attempt_number,
+  completed_at,
+  updated_at
+)
+SELECT
+  course_id,
+  user_id,
+  lesson_id,
+  'lesson-test',
+  score_percent,
+  score_percent,
+  100,
+  1,
+  ('2027-01-15'::date + ((lesson_number * 3 + (spread_seed % 3))::int))::timestamptz,
+  now()
+FROM grade_rows
+ON CONFLICT (user_id, lesson_id, test_type, attempt_number) DO UPDATE
+SET score_percent = EXCLUDED.score_percent,
+    points_earned = EXCLUDED.points_earned,
+    points_possible = EXCLUDED.points_possible,
+    completed_at = EXCLUDED.completed_at,
     updated_at = now();
 
 WITH seed_users(email, current_lesson_slug, xp, course_complete) AS (
