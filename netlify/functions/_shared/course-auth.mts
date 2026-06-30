@@ -1,7 +1,10 @@
 import "dotenv/config";
+import { createRequire } from "node:module";
 import pg from "pg";
 
 const { Client } = pg;
+const require = createRequire(import.meta.url);
+const achievementTools = require("../../../achievement-catalog.js");
 
 export const DEV_CLASS_PASSWORD = "xeno";
 export const DEV_CLASS_PASSWORD_MESSAGE =
@@ -29,6 +32,15 @@ type ActivityRow = {
 type GateActivityRow = {
   lesson_slug: string | null;
   activity_type: string | null;
+};
+
+type AchievementEarnedRow = {
+  slug: string;
+  earned_at: string;
+};
+
+type ProgressMetricsRow = {
+  progress_metrics: Record<string, unknown> | null;
 };
 
 export function jsonResponse(body: unknown, status = 200) {
@@ -186,15 +198,27 @@ export async function buildProgress(
     [userId, courseId]
   );
 
-  const achievementsResult = await client.query(
+  const achievementsResult = await client.query<AchievementEarnedRow>(
     `
-      SELECT a.icon, a.class_name, a.label
+      SELECT a.slug, ua.earned_at
       FROM public.user_achievements ua
       JOIN public.achievements a ON a.id = ua.achievement_id
       WHERE ua.user_id = $1
         AND ua.course_id = $2
       ORDER BY ua.earned_at, a.label
-      LIMIT 5
+    `,
+    [userId, courseId]
+  );
+
+  const progressMetricsResult = await client.query<ProgressMetricsRow>(
+    `
+      SELECT metadata->'progressMetrics' AS progress_metrics
+      FROM public.activity_events
+      WHERE user_id = $1
+        AND course_id = $2
+        AND metadata ? 'progressMetrics'
+      ORDER BY occurred_at DESC
+      LIMIT 1
     `,
     [userId, courseId]
   );
@@ -253,6 +277,37 @@ export async function buildProgress(
     (total, exerciseIds) => total + exerciseIds.length,
     0
   );
+  const computedLevel = achievementTools.getLevelForXp(progress?.xp || 0);
+  const computedNextLevel = achievementTools.getNextLevelForXp(progress?.xp || 0);
+  const storedMetrics = progressMetricsResult.rows[0]?.progress_metrics || {};
+  const earnedAtBySlug = Object.fromEntries(
+    achievementsResult.rows.map((achievement) => [achievement.slug, achievement.earned_at])
+  );
+  const progressMetrics = {
+    ...storedMetrics,
+    completedLessons,
+    lessonsCompleted:
+      Number((storedMetrics as { lessonsCompleted?: unknown }).lessonsCompleted) || completedLessonsCount,
+    quizzesPassed:
+      Number((storedMetrics as { quizzesPassed?: unknown }).quizzesPassed) || passedQuizzes.size,
+    vocabularyMastered: Math.max(
+      vocabularyMasteredResult.rows[0]?.mastered || 0,
+      Number((storedMetrics as { vocabularyMastered?: unknown }).vocabularyMastered) || 0
+    ),
+    practiceSessions:
+      Number((storedMetrics as { practiceSessions?: unknown }).practiceSessions) || practiceCompleted,
+    activityEvents:
+      Number((storedMetrics as { activityEvents?: unknown }).activityEvents) || activitiesResult.rows.length,
+    earnedAtBySlug,
+  };
+  const earnedAchievements = achievementTools.computeEarnedAchievements(progressMetrics);
+  const lockedAchievements = achievementTools.getLockedAchievements(progressMetrics);
+  const achievementCatalog = achievementTools.getAchievementCatalog();
+  const displayCompletedLessonsCount =
+    Number((storedMetrics as { lessonsCompleted?: unknown }).lessonsCompleted) || completedLessonsCount;
+  const displayCompletionPercent =
+    Number((storedMetrics as { completionPercent?: unknown }).completionPercent) ||
+    Math.round((displayCompletedLessonsCount / totalLessonsCount) * 100);
 
   return {
     currentLessonId,
@@ -260,29 +315,28 @@ export async function buildProgress(
     completedLessons,
     passedQuizzes: Array.from(passedQuizzes),
     completedExercises,
-    completedLessonsCount,
+    completedLessonsCount: displayCompletedLessonsCount,
     totalLessonsCount,
-    completionPercent: Math.round((completedLessonsCount / totalLessonsCount) * 100),
-    level: progress?.level_number || 0,
-    levelLabel: progress?.level_label || "Novice",
+    completionPercent: displayCompletionPercent,
+    level: progress?.level_number || computedLevel.number,
+    levelLabel: progress?.level_label || computedLevel.label,
     xp: progress?.xp || 0,
-    nextLevelXp,
-    nextLevelLabel: nextLevelLabel(progress?.level_label),
+    nextLevelXp: progress?.next_level_xp || computedNextLevel.xpRequired || nextLevelXp,
+    nextLevelLabel: computedNextLevel.label || nextLevelLabel(progress?.level_label),
     weeklyCompleted: weeklyResult.rows[0]?.completed || 0,
     weeklyGoal: progress?.weekly_goal_lessons || 5,
-    vocabularyMastered: vocabularyMasteredResult.rows[0]?.mastered || 0,
-    practiceCompleted,
+    vocabularyMastered: progressMetrics.vocabularyMastered,
+    practiceCompleted: progressMetrics.practiceSessions,
     recentActivity: activitiesResult.rows.map((activity) => ({
       ...activityIcon(activity.event_type),
       title: activity.title,
       when: relativeWhen(activity.occurred_at),
       xp: activity.xp_delta,
     })),
-    achievements: achievementsResult.rows.map((achievement) => ({
-      icon: achievement.icon || "",
-      className: achievement.class_name || "",
-      label: achievement.label,
-    })),
+    metrics: progressMetrics,
+    achievements: earnedAchievements,
+    lockedAchievements,
+    achievementCatalog,
   };
 }
 
@@ -391,11 +445,11 @@ export async function initializeStudentAtCourseStart(
         weekly_goal_lessons,
         updated_at
       )
-      VALUES ($1, $2, $3, $4, 0, 'Novice', 0, 100, 5, now())
+      VALUES ($1, $2, $3, $4, 1, 'Novice', 0, 100, 5, now())
       ON CONFLICT (course_id, user_id) DO UPDATE
       SET current_lesson_id = EXCLUDED.current_lesson_id,
           current_segment_id = EXCLUDED.current_segment_id,
-          level_number = 0,
+          level_number = 1,
           level_label = 'Novice',
           xp = 0,
           next_level_xp = 100,

@@ -45,26 +45,84 @@ SET title = EXCLUDED.title,
     institution = EXCLUDED.institution,
     department = EXCLUDED.department;
 
+CREATE TEMP TABLE seed_mock_students (
+  name text NOT NULL,
+  email citext NOT NULL,
+  roles text[] NOT NULL,
+  current_lesson_slug text NOT NULL,
+  xp integer NOT NULL,
+  weekly_goal_lessons integer NOT NULL,
+  course_complete boolean NOT NULL DEFAULT false,
+  metrics jsonb NOT NULL DEFAULT '{}'::jsonb,
+  summary text
+) ON COMMIT DROP;
+
+INSERT INTO seed_mock_students (name, email, roles, current_lesson_slug, xp, weekly_goal_lessons, course_complete, metrics, summary)
+VALUES
+  ('New Student', 'new.student@example.edu', ARRAY['student'], 'intro-1', 20, 3, false, '{"startedUnit0":true,"lessonsCompleted":0,"quizzesPassed":0,"vocabularySetsCompleted":0,"practiceSessions":0,"activityEvents":1}'::jsonb, 'Unit 0 in progress'),
+  ('Codex Student', 'codex.student@example.edu', ARRAY['student'], 'lesson-1', 80, 3, false, '{"startedUnit0":true,"lessonsCompleted":1,"quizzesPassed":0,"vocabularySetsCompleted":0,"practiceSessions":0,"activityEvents":2}'::jsonb, 'Unit 0 complete; Lesson 1 starting'),
+  ('John Doe', 'jdoe@email.sc.edu', ARRAY['student'], 'lesson-2', 140, 4, false, '{"quizzesPassed":1,"vocabularySetsCompleted":1,"vocabularyMastered":18,"practiceSessions":1,"activityEvents":4}'::jsonb, 'Lesson 2 in progress'),
+  ('Susan Doe', 'sdoe@email.sc.edu', ARRAY['student'], 'lesson-3', 190, 4, false, '{"quizzesPassed":2,"vocabularySetsCompleted":2,"vocabularyMastered":32,"practiceSessions":3,"translationExercisesPassed":1,"activityEvents":5}'::jsonb, 'Lesson 3 in progress'),
+  ('Mary Contrary', 'mcontrary@email.sc.edu', ARRAY['student'], 'lesson-4', 250, 4, false, '{"quizzesPassed":3,"vocabularySetsCompleted":3,"vocabularyMastered":44,"practiceSessions":5,"translationExercisesPassed":1,"perfectScoreCount":1,"perfectQuizCount":1,"activityEvents":7}'::jsonb, 'Lesson 4 in progress'),
+  ('Sarah Kim', 'skim@email.sc.edu', ARRAY['student'], 'lesson-6', 340, 5, false, '{"quizzesPassed":5,"vocabularySetsCompleted":5,"vocabularyMastered":70,"practiceSessions":7,"translationExercisesPassed":2,"perfectScoreCount":1,"perfectQuizCount":1,"activityEvents":9}'::jsonb, 'Lesson 6 in progress'),
+  ('John Davis', 'jdavis@email.sc.edu', ARRAY['student'], 'lesson-8', 430, 5, false, '{"quizzesPassed":7,"vocabularySetsCompleted":7,"vocabularyMastered":88,"practiceSessions":9,"streakDays":7,"translationExercisesPassed":2,"perfectScoreCount":1,"perfectQuizCount":2,"audioItemsCompleted":7,"audioLessonsCompleted":4,"activityEvents":11}'::jsonb, 'Lesson 8 in progress'),
+  ('Alex Chen', 'achen@email.sc.edu', ARRAY['student'], 'lesson-10', 520, 5, false, '{"quizzesPassed":9,"vocabularySetsCompleted":9,"vocabularyMastered":110,"practiceSessions":12,"streakDays":8,"translationExercisesPassed":3,"perfectScoreCount":1,"perfectQuizCount":3,"audioItemsCompleted":11,"audioLessonsCompleted":5,"activityEvents":14}'::jsonb, 'Lesson 10 in progress'),
+  ('Maria Lopez', 'mlopez@email.sc.edu', ARRAY['student'], 'lesson-12', 610, 5, false, '{"quizzesPassed":11,"vocabularySetsCompleted":11,"vocabularyMastered":128,"practiceSessions":16,"streakDays":9,"translationExercisesPassed":4,"parsingExercisesPassed":5,"readingsCompleted":10,"perfectScoreCount":1,"perfectQuizCount":4,"audioItemsCompleted":12,"audioLessonsCompleted":6,"activityEvents":18}'::jsonb, 'Lesson 12 in progress'),
+  ('Thomas Clay', 'tclay@email.sc.edu', ARRAY['student'], 'lesson-13', 680, 5, false, '{"quizzesPassed":12,"vocabularySetsCompleted":12,"vocabularyMastered":142,"practiceSessions":18,"streakDays":7,"translationExercisesPassed":5,"parsingExercisesPassed":6,"readingsCompleted":12,"perfectScoreCount":2,"perfectQuizCount":5,"audioItemsCompleted":14,"audioLessonsCompleted":7,"activityEvents":20}'::jsonb, 'Module II starting'),
+  ('Nikolas Ioannidis', 'nioannidis@email.sc.edu', ARRAY['student'], 'lesson-15', 720, 5, false, '{"quizzesPassed":14,"vocabularySetsCompleted":14,"vocabularyMastered":160,"practiceSessions":22,"streakDays":8,"translationExercisesPassed":6,"parsingExercisesPassed":7,"readingsCompleted":13,"perfectScoreCount":2,"perfectQuizCount":6,"audioItemsCompleted":15,"audioLessonsCompleted":8,"activityEvents":24}'::jsonb, 'Lesson 15 in progress'),
+  ('Patroclus Homer', 'phomer@email.sc.edu', ARRAY['student'], 'lesson-18', 780, 5, false, '{"quizzesPassed":17,"vocabularySetsCompleted":17,"vocabularyMastered":178,"practiceSessions":24,"streakDays":9,"translationExercisesPassed":7,"parsingExercisesPassed":8,"readingsCompleted":15,"perfectScoreCount":2,"perfectQuizCount":7,"audioItemsCompleted":17,"audioLessonsCompleted":9,"activityEvents":27}'::jsonb, 'Lesson 18 in progress'),
+  ('Achilles Homer', 'ahomer@email.sc.edu', ARRAY['student'], 'lesson-20', 845, 6, false, '{"quizzesPassed":19,"vocabularySetsCompleted":19,"vocabularyMastered":195,"practiceSessions":27,"streakDays":10,"translationExercisesPassed":8,"parsingExercisesPassed":9,"readingsCompleted":17,"perfectScoreCount":2,"perfectQuizCount":8,"audioItemsCompleted":19,"audioLessonsCompleted":10,"activityEvents":30}'::jsonb, 'Lesson 20 in progress'),
+  ('Diogenes Laertius', 'dlaertius@email.sc.edu', ARRAY['student'], 'lesson-23', 890, 6, false, '{"quizzesPassed":22,"vocabularySetsCompleted":22,"vocabularyMastered":220,"practiceSessions":29,"streakDays":11,"translationExercisesPassed":9,"parsingExercisesPassed":10,"readingsCompleted":20,"perfectScoreCount":2,"perfectQuizCount":9,"audioItemsCompleted":21,"audioLessonsCompleted":11,"activityEvents":33}'::jsonb, 'Lesson 23 in progress'),
+  ('Plato Aristocles', 'paristocles@email.sc.edu', ARRAY['student'], 'lesson-25', 960, 6, false, '{"quizzesPassed":24,"vocabularySetsCompleted":24,"vocabularyMastered":240,"practiceSessions":31,"streakDays":12,"translationExercisesPassed":10,"parsingExercisesPassed":11,"readingsCompleted":24,"perfectScoreCount":3,"perfectQuizCount":10,"audioItemsCompleted":24,"audioLessonsCompleted":12,"activityEvents":36}'::jsonb, 'Module III starting'),
+  ('Alexandros Papadopoulos', 'apapadopoulos@email.sc.edu', ARRAY['student'], 'lesson-27', 1040, 6, false, '{"quizzesPassed":26,"vocabularySetsCompleted":26,"vocabularyMastered":260,"practiceSessions":34,"streakDays":13,"translationExercisesPassed":11,"parsingExercisesPassed":12,"readingsCompleted":26,"perfectScoreCount":3,"perfectQuizCount":11,"audioItemsCompleted":26,"audioLessonsCompleted":13,"activityEvents":39}'::jsonb, 'Lesson 27 in progress'),
+  ('Tom Alston', 'tpalston@email.sc.edu', ARRAY['administrator','professor','student'], 'lesson-29', 760, 5, false, '{"lessonsCompleted":31,"completionPercent":61,"quizzesPassed":28,"vocabularySetsCompleted":28,"vocabularyMastered":176,"practiceSessions":23,"streakDays":9,"translationExercisesPassed":9,"parsingExercisesPassed":9,"readingsCompleted":18,"perfectScoreCount":2,"perfectQuizCount":7,"audioItemsCompleted":18,"audioLessonsCompleted":9,"activityEvents":28}'::jsonb, 'Module III · Lesson 29 · Purpose clauses'),
+  ('Mark Beck', 'BECKMA@mailbox.sc.edu', ARRAY['professor','student'], 'lesson-32', 840, 5, false, '{"quizzesPassed":31,"vocabularySetsCompleted":31,"vocabularyMastered":215,"practiceSessions":26,"streakDays":8,"translationExercisesPassed":10,"parsingExercisesPassed":10,"readingsCompleted":21,"perfectScoreCount":2,"perfectQuizCount":8,"audioItemsCompleted":22,"audioLessonsCompleted":11,"activityEvents":32}'::jsonb, 'Module III · Lesson 32 · Purpose and infinitives'),
+  ('Alexander Great', 'agreat@email.sc.edu', ARRAY['student'], 'lesson-39', 1160, 6, false, '{"quizzesPassed":38,"vocabularySetsCompleted":38,"vocabularyMastered":320,"practiceSessions":42,"streakDays":14,"translationExercisesPassed":16,"parsingExercisesPassed":16,"readingsCompleted":34,"perfectScoreCount":4,"perfectQuizCount":12,"audioItemsCompleted":34,"audioLessonsCompleted":17,"activityEvents":48}'::jsonb, 'Module IV starting'),
+  ('Dimitrios Georgiou', 'dgeorgiou@email.sc.edu', ARRAY['student'], 'lesson-48', 1420, 6, true, '{"fullCourseCompleted":true,"quizzesPassed":48,"vocabularySetsCompleted":48,"vocabularyMastered":430,"practiceSessions":60,"streakDays":21,"translationExercisesPassed":24,"parsingExercisesPassed":24,"readingsCompleted":48,"perfectScoreCount":10,"perfectQuizCount":14,"audioItemsCompleted":60,"audioLessonsCompleted":30,"activityEvents":70}'::jsonb, 'Course complete');
+
 WITH seed_users(name, email, roles, current_lesson_slug, level_number, level_label, xp, next_level_xp, weekly_goal_lessons, summary) AS (
-  VALUES
-    ('Tom Alston', 'tpalston@email.sc.edu', ARRAY['administrator','professor','student'], 'lesson-29', 8, 'Erudite', 760, 900, 5, 'Module III · Lesson 29 · Purpose clauses'),
-    ('Mark Beck', 'BECKMA@mailbox.sc.edu', ARRAY['professor','student'], 'lesson-33', 9, 'Erudite', 835, 900, 4, 'Module III · Lesson 33 · Middle participles'),
-    ('John Davis', 'jdavis@email.sc.edu', ARRAY['student'], 'lesson-8', 3, 'Apprentice', 245, 300, 4, 'Module I · Lesson 8 · Dative case'),
-    ('Sarah Kim', 'skim@email.sc.edu', ARRAY['student'], 'lesson-16', 5, 'Apprentice', 410, 500, 5, 'Module II · Lesson 16 · Subjunctive mood'),
-    ('Alex Chen', 'achen@email.sc.edu', ARRAY['student'], 'lesson-21', 6, 'Erudite', 565, 700, 6, 'Module II · Lesson 21 · Integrated narrative'),
-    ('Maria Lopez', 'mlopez@email.sc.edu', ARRAY['student'], 'lesson-19', 6, 'Erudite', 520, 700, 5, 'Module II · Lesson 19 · Present participles'),
-    ('Plato Aristocles', 'paristocles@email.sc.edu', ARRAY['student'], 'lesson-24', 7, 'Erudite', 640, 700, 6, 'Module II · Lesson 24 · Courage review'),
-    ('Achilles Homer', 'ahomer@email.sc.edu', ARRAY['student'], 'lesson-22', 7, 'Erudite', 610, 700, 5, 'Module II · Lesson 22 · Imperatives'),
-    ('Patroclus Homer', 'phomer@email.sc.edu', ARRAY['student'], 'lesson-18', 5, 'Apprentice', 455, 500, 5, 'Module II · Lesson 18 · Aorist tense'),
-    ('Thomas Clay', 'tclay@email.sc.edu', ARRAY['student'], 'lesson-17', 5, 'Apprentice', 430, 500, 4, 'Module II · Lesson 17 · Fear and courage'),
-    ('John Doe', 'jdoe@email.sc.edu', ARRAY['student'], 'lesson-11', 4, 'Apprentice', 330, 500, 4, 'Module I · Lesson 11 · Participles'),
-    ('Susan Doe', 'sdoe@email.sc.edu', ARRAY['student'], 'lesson-20', 6, 'Erudite', 540, 700, 5, 'Module II · Lesson 20 · Aorist participles'),
-    ('Mary Contrary', 'mcontrary@email.sc.edu', ARRAY['student'], 'lesson-6', 2, 'Novice', 185, 300, 3, 'Module I · Lesson 6 · Second declension'),
-    ('Alexander Great', 'agreat@email.sc.edu', ARRAY['student'], 'lesson-23', 7, 'Erudite', 625, 700, 6, 'Module II · Lesson 23 · Result clauses'),
-    ('Diogenes Laertius', 'dlaertius@email.sc.edu', ARRAY['student'], 'lesson-14', 4, 'Apprentice', 365, 500, 5, 'Module II · Lesson 14 · Trust in leadership'),
-    ('Alexandros Papadopoulos', 'apapadopoulos@email.sc.edu', ARRAY['student'], 'lesson-15', 4, 'Apprentice', 390, 500, 5, 'Module II · Lesson 15 · Future tense'),
-    ('Dimitrios Georgiou', 'dgeorgiou@email.sc.edu', ARRAY['student'], 'lesson-13', 4, 'Apprentice', 350, 500, 4, 'Module II · Lesson 13 · Contract verbs'),
-    ('Nikolas Ioannidis', 'nioannidis@email.sc.edu', ARRAY['student'], 'lesson-20', 6, 'Erudite', 555, 700, 6, 'Module II · Lesson 20 · Victory won')
+  SELECT
+    name,
+    email,
+    roles,
+    current_lesson_slug,
+    CASE
+      WHEN xp >= 900 THEN 9
+      WHEN xp >= 750 THEN 8
+      WHEN xp >= 700 THEN 7
+      WHEN xp >= 600 THEN 6
+      WHEN xp >= 450 THEN 5
+      WHEN xp >= 300 THEN 4
+      WHEN xp >= 200 THEN 3
+      WHEN xp >= 100 THEN 2
+      ELSE 1
+    END AS level_number,
+    CASE
+      WHEN xp >= 900 THEN 'Sophos'
+      WHEN xp >= 750 THEN 'Erudite'
+      WHEN xp >= 700 THEN 'Hellenist'
+      WHEN xp >= 600 THEN 'Scholar'
+      WHEN xp >= 450 THEN 'Reader'
+      WHEN xp >= 300 THEN 'Grammatikos'
+      WHEN xp >= 200 THEN 'Student'
+      WHEN xp >= 100 THEN 'Apprentice'
+      ELSE 'Novice'
+    END AS level_label,
+    xp,
+    CASE
+      WHEN xp < 100 THEN 100
+      WHEN xp < 200 THEN 200
+      WHEN xp < 300 THEN 300
+      WHEN xp < 450 THEN 450
+      WHEN xp < 600 THEN 600
+      WHEN xp < 700 THEN 700
+      WHEN xp < 750 THEN 750
+      WHEN xp < 900 THEN 900
+      ELSE GREATEST(xp, 900)
+    END AS next_level_xp,
+    weekly_goal_lessons,
+    summary
+  FROM seed_mock_students
 ),
 upserted_users AS (
   INSERT INTO public.users (email, name, status, last_login_at)
@@ -114,26 +172,31 @@ CROSS JOIN all_seed_users
 ON CONFLICT (course_id, user_id) DO UPDATE
 SET enrollment_status = 'active';
 
+WITH course AS (
+  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+),
+canonical_seed_users AS (
+  SELECT email FROM seed_mock_students
+),
+duplicate_mock_users AS (
+  SELECT u.id
+  FROM public.users u
+  WHERE u.name IN ('New Student', 'Codex Student')
+    AND NOT EXISTS (
+      SELECT 1
+      FROM canonical_seed_users csu
+      WHERE csu.email = u.email
+    )
+)
+UPDATE public.course_memberships cm
+SET enrollment_status = 'dropped'
+FROM course c, duplicate_mock_users dmu
+WHERE cm.course_id = c.id
+  AND cm.user_id = dmu.id;
+
 WITH seed_users(email, roles) AS (
-  VALUES
-    ('tpalston@email.sc.edu', ARRAY['administrator','professor','student']),
-    ('BECKMA@mailbox.sc.edu', ARRAY['professor','student']),
-    ('jdavis@email.sc.edu', ARRAY['student']),
-    ('skim@email.sc.edu', ARRAY['student']),
-    ('achen@email.sc.edu', ARRAY['student']),
-    ('mlopez@email.sc.edu', ARRAY['student']),
-    ('paristocles@email.sc.edu', ARRAY['student']),
-    ('ahomer@email.sc.edu', ARRAY['student']),
-    ('phomer@email.sc.edu', ARRAY['student']),
-    ('tclay@email.sc.edu', ARRAY['student']),
-    ('jdoe@email.sc.edu', ARRAY['student']),
-    ('sdoe@email.sc.edu', ARRAY['student']),
-    ('mcontrary@email.sc.edu', ARRAY['student']),
-    ('agreat@email.sc.edu', ARRAY['student']),
-    ('dlaertius@email.sc.edu', ARRAY['student']),
-    ('apapadopoulos@email.sc.edu', ARRAY['student']),
-    ('dgeorgiou@email.sc.edu', ARRAY['student']),
-    ('nioannidis@email.sc.edu', ARRAY['student'])
+  SELECT email, roles
+  FROM seed_mock_students
 ),
 seed_user_rows AS (
   SELECT u.id, su.roles
@@ -174,8 +237,6 @@ WITH course AS (
 seed_lessons(module_slug, slug, number_label, title, grammar_focus, page_url, sort_order) AS (
   VALUES
     ('intro', 'intro-1', 'Intro 1', 'What is Ancient Greek?', 'Alphabet overview, historical context', 'lesson-introduction.html#intro-part-1', 1),
-    ('intro', 'intro-2', 'Intro 2', 'The Greek Alphabet', 'Letters, pronunciation, diphthongs', 'lesson-introduction.html#intro-part-2', 2),
-    ('intro', 'intro-3', 'Intro 3', 'Hearing and Speaking Greek', 'Accent, syllables, phonetics', 'lesson-introduction.html#intro-part-3', 3),
     ('module-1', 'lesson-1', 'Lesson 1', 'Socrates Teaches', 'Nominative singular, accusative singular, present active indicative', 'lessons.html#lesson-1', 1),
     ('module-1', 'lesson-2', 'Lesson 2', 'The Wise Man Knows Himself', 'First and second declension nouns, definite article, εἰμί', 'lessons.html#lesson-2', 2),
     ('module-1', 'lesson-3', 'Lesson 3', 'What is Wisdom?', 'Present tense system, predicate nouns, basic sentence structure', 'lessons.html#lesson-3', 3),
@@ -237,6 +298,21 @@ SET number_label = EXCLUDED.number_label,
     page_url = EXCLUDED.page_url,
     sort_order = EXCLUDED.sort_order,
     is_published = true;
+
+WITH course AS (
+  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+),
+obsolete_intro_lessons AS (
+  SELECT l.id
+  FROM public.lessons l
+  JOIN public.modules m ON m.id = l.module_id
+  JOIN course c ON c.id = m.course_id
+  WHERE m.slug = 'intro'
+    AND l.slug IN ('intro-2', 'intro-3')
+)
+DELETE FROM public.lessons l
+USING obsolete_intro_lessons oil
+WHERE l.id = oil.id;
 
 WITH placeholder_items AS (
   SELECT id
@@ -392,10 +468,6 @@ seed_segments AS (
   SELECT id AS lesson_id, 'lesson-start' AS slug, title AS title, 1 AS sort_order FROM course_lessons
   UNION ALL
   SELECT id, 'intro-part-1', 'Orientation', 2 FROM course_lessons WHERE slug = 'intro-1'
-  UNION ALL
-  SELECT id, 'intro-part-2', 'Alphabet Practice', 2 FROM course_lessons WHERE slug = 'intro-2'
-  UNION ALL
-  SELECT id, 'intro-part-3', 'Sound Practice', 2 FROM course_lessons WHERE slug = 'intro-3'
 )
 INSERT INTO public.lesson_segments (lesson_id, slug, title, body_markdown, sort_order)
 SELECT lesson_id, slug, title, 'Seeded lesson segment for dashboard and progress testing.', sort_order
@@ -410,10 +482,15 @@ WITH course AS (
 ),
 seed_levels(level_number, label, xp_required) AS (
   VALUES
-    (0, 'Novice', 0),
-    (3, 'Apprentice', 300),
-    (6, 'Erudite', 500),
-    (10, 'Sophos', 900)
+    (1, 'Novice', 0),
+    (2, 'Apprentice', 100),
+    (3, 'Student', 200),
+    (4, 'Grammatikos', 300),
+    (5, 'Reader', 450),
+    (6, 'Scholar', 600),
+    (7, 'Hellenist', 700),
+    (8, 'Erudite', 750),
+    (9, 'Sophos', 900)
 )
 INSERT INTO public.levels (course_id, level_number, label, xp_required)
 SELECT course.id, seed_levels.level_number, seed_levels.label, seed_levels.xp_required
@@ -423,44 +500,92 @@ ON CONFLICT (course_id, level_number) DO UPDATE
 SET label = EXCLUDED.label,
     xp_required = EXCLUDED.xp_required;
 
-WITH seed_achievements(slug, label, description, icon, class_name, criteria) AS (
-  VALUES
-    ('first-steps', 'First Steps', 'Complete the introduction and begin the course path.', '👣', 'b1', '{"completed_lessons": 1}'::jsonb),
-    ('word-collector', 'Word Collector', 'Build a growing store of Greek vocabulary.', '', 'b2 wreath-badge', '{"vocabulary_reviews": 20}'::jsonb),
-    ('grammar-novice', 'Grammar Novice', 'Complete early noun and verb practice.', '🏛', 'b3', '{"completed_lessons": 6}'::jsonb),
-    ('diligent-learner', 'Diligent Learner', 'Stay active across the week.', '🦉', 'b4 owl-badge', '{"weekly_activity_days": 4}'::jsonb),
-    ('sophos', 'Sophos', 'Reach the advanced prototype achievement tier.', '🏆', 'b5', '{"xp": 700}'::jsonb)
+WITH course AS (
+  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
 )
-INSERT INTO public.achievements (slug, label, description, icon, class_name, criteria)
-SELECT slug, label, description, icon, class_name, criteria
+DELETE FROM public.levels levels
+USING course
+WHERE levels.course_id = course.id
+  AND levels.level_number NOT BETWEEN 1 AND 9;
+
+WITH seed_achievements(slug, label, tier, sort_order, description, image_path, criteria, locked_description) AS (
+  VALUES
+    ('first-steps', 'First Steps', 'bronze', 1, 'Started the course path and took the first step into Greek.', 'assets/awards/Bronze-1-First-Steps.png', '{"startedUnit0":true}'::jsonb, 'Start Unit 0 or complete any course activity.'),
+    ('first-lesson', 'First Lesson', 'bronze', 2, 'Completed the first lesson-unit.', 'assets/awards/Bronze-2-First-Lesson.png', '{"lessonsCompleted":1}'::jsonb, 'Complete at least one lesson-unit.'),
+    ('first-quiz', 'First Quiz', 'bronze', 3, 'Passed the first quiz.', 'assets/awards/Bronze-3-First-Quiz.png', '{"quizzesPassed":1}'::jsonb, 'Pass one quiz.'),
+    ('first-vocabulary-set', 'First Vocabulary Set', 'bronze', 4, 'Completed a first vocabulary set.', 'assets/awards/Bronze-4-First-Vocabulary-Set.png', '{"vocabularySetsCompleted":1}'::jsonb, 'Complete or master one lesson vocabulary set.'),
+    ('first-practice-session', 'First Practice Session', 'bronze', 5, 'Completed a first practice session.', 'assets/awards/Bronze-5-First-Practice-Session.png', '{"practiceSessions":1}'::jsonb, 'Complete one practice session.'),
+    ('five-lessons-completed', 'Five Lessons Completed', 'bronze', 6, 'Completed five lesson-units.', 'assets/awards/Bronze-6-Five-Lessons-Completed.png', '{"lessonsCompleted":5}'::jsonb, 'Complete five lesson-units.'),
+    ('seven-day-streak', 'Seven-Day Streak', 'bronze', 7, 'Built a seven-day Greek study streak.', 'assets/awards/Bronze-7-Seven-Day-Streak.png', '{"streakDays":7}'::jsonb, 'Study for seven days in a row.'),
+    ('first-perfect-score', 'First Perfect Score', 'bronze', 8, 'Earned a first perfect quiz or activity score.', 'assets/awards/Bronze-8-First-Perfect-Score.png', '{"perfectScoreCount":1}'::jsonb, 'Earn one perfect score.'),
+    ('one-hundred-words-mastered', '100 Words Mastered', 'silver', 1, 'Mastered one hundred Greek vocabulary words.', 'assets/awards/Silver-1-100-Words-Mastered.png', '{"vocabularyMastered":100}'::jsonb, 'Master 100 vocabulary words.'),
+    ('first-translation', 'First Translation', 'silver', 2, 'Passed a first translation exercise.', 'assets/awards/Silver-2-First-Translation.png', '{"translationExercisesPassed":1}'::jsonb, 'Pass one translation exercise.'),
+    ('parsing-apprentice', 'Parsing Apprentice', 'silver', 3, 'Passed five parsing exercises.', 'assets/awards/Silver-3-Parsing-Apprentice.png', '{"parsingExercisesPassed":5}'::jsonb, 'Pass five parsing exercises.'),
+    ('reader-of-greek', 'Reader of Greek', 'silver', 4, 'Completed sustained Greek reading work.', 'assets/awards/Silver-4-Reader-of-Greek.png', '{"readingsCompleted":10,"moduleCompleted":"module-1"}'::jsonb, 'Complete ten readings or finish Module I.'),
+    ('audio-explorer', 'Audio Explorer', 'silver', 5, 'Completed repeated audio and pronunciation work.', 'assets/awards/Silver-5-Audio-Explorer.png', '{"audioItemsCompleted":10,"audioLessonsCompleted":5}'::jsonb, 'Complete ten audio items or audio work for five lessons.'),
+    ('twenty-practice-sessions', '20 Practice Sessions', 'silver', 6, 'Completed twenty practice sessions.', 'assets/awards/Silver-6-20-practice-sessions.png', '{"practiceSessions":20}'::jsonb, 'Complete twenty practice sessions.'),
+    ('ten-perfect-quizzes', '10 Perfect Quizzes', 'silver', 7, 'Earned ten perfect quiz scores.', 'assets/awards/Silver-7-10-Perfect-Quizzes.png', '{"perfectQuizCount":10}'::jsonb, 'Earn ten perfect quiz scores.'),
+    ('friend-of-athena', 'Friend of Athena', 'silver', 8, 'Joined wisdom with steady practice.', 'assets/awards/Silver-8-Friend-of-Athena.png', '{"moduleCompleted":"module-1","streakDays":7,"practiceSessionsAlternative":20}'::jsonb, 'Finish Module I with a seven-day streak, or complete twenty practice sessions.'),
+    ('wisdom', 'Wisdom', 'gold', 1, 'Completed Module I, Wisdom and Socrates.', 'assets/awards/Gold-1-Wisdom.png', '{"moduleCompleted":"module-1"}'::jsonb, 'Complete Lessons 1-12.'),
+    ('courage', 'Courage', 'gold', 2, 'Completed Module II, Courage and Leadership.', 'assets/awards/Gold-2-Courage.png', '{"moduleCompleted":"module-2"}'::jsonb, 'Complete Lessons 13-24.'),
+    ('self-control', 'Self-Control', 'gold', 3, 'Completed Module III, Self-Control and Discipline.', 'assets/awards/Gold-3-Self-Control.png', '{"moduleCompleted":"module-3"}'::jsonb, 'Complete Lessons 25-36.'),
+    ('justice', 'Justice', 'gold', 4, 'Completed Module IV, Justice and the City/Soul.', 'assets/awards/Gold-4-Justice.png', '{"moduleCompleted":"module-4"}'::jsonb, 'Complete Lessons 37-48.'),
+    ('student-of-socrates', 'Student of Socrates', 'gold', 5, 'Completed the full course through Lesson 48.', 'assets/awards/Gold-5-Student-of-Socrates.png', '{"fullCourseCompleted":true}'::jsonb, 'Complete the full course through Lesson 48.')
+)
+INSERT INTO public.achievements (slug, label, description, icon, class_name, criteria, tier, sort_order, image_path, locked_description)
+SELECT slug, label, description, '', '', criteria, tier, sort_order, image_path, locked_description
 FROM seed_achievements
 ON CONFLICT (slug) DO UPDATE
 SET label = EXCLUDED.label,
     description = EXCLUDED.description,
     icon = EXCLUDED.icon,
     class_name = EXCLUDED.class_name,
-    criteria = EXCLUDED.criteria;
+    criteria = EXCLUDED.criteria,
+    tier = EXCLUDED.tier,
+    sort_order = EXCLUDED.sort_order,
+    image_path = EXCLUDED.image_path,
+    locked_description = EXCLUDED.locked_description;
 
 WITH seed_users(email, current_lesson_slug, level_number, level_label, xp, next_level_xp, weekly_goal_lessons) AS (
-  VALUES
-    ('tpalston@email.sc.edu', 'lesson-29', 8, 'Erudite', 760, 900, 5),
-    ('BECKMA@mailbox.sc.edu', 'lesson-33', 9, 'Erudite', 835, 900, 4),
-    ('jdavis@email.sc.edu', 'lesson-8', 3, 'Apprentice', 245, 300, 4),
-    ('skim@email.sc.edu', 'lesson-16', 5, 'Apprentice', 410, 500, 5),
-    ('achen@email.sc.edu', 'lesson-21', 6, 'Erudite', 565, 700, 6),
-    ('mlopez@email.sc.edu', 'lesson-19', 6, 'Erudite', 520, 700, 5),
-    ('paristocles@email.sc.edu', 'lesson-24', 7, 'Erudite', 640, 700, 6),
-    ('ahomer@email.sc.edu', 'lesson-22', 7, 'Erudite', 610, 700, 5),
-    ('phomer@email.sc.edu', 'lesson-18', 5, 'Apprentice', 455, 500, 5),
-    ('tclay@email.sc.edu', 'lesson-17', 5, 'Apprentice', 430, 500, 4),
-    ('jdoe@email.sc.edu', 'lesson-11', 4, 'Apprentice', 330, 500, 4),
-    ('sdoe@email.sc.edu', 'lesson-20', 6, 'Erudite', 540, 700, 5),
-    ('mcontrary@email.sc.edu', 'lesson-6', 2, 'Novice', 185, 300, 3),
-    ('agreat@email.sc.edu', 'lesson-23', 7, 'Erudite', 625, 700, 6),
-    ('dlaertius@email.sc.edu', 'lesson-14', 4, 'Apprentice', 365, 500, 5),
-    ('apapadopoulos@email.sc.edu', 'lesson-15', 4, 'Apprentice', 390, 500, 5),
-    ('dgeorgiou@email.sc.edu', 'lesson-13', 4, 'Apprentice', 350, 500, 4),
-    ('nioannidis@email.sc.edu', 'lesson-20', 6, 'Erudite', 555, 700, 6)
+  SELECT
+    email,
+    current_lesson_slug,
+    CASE
+      WHEN xp >= 900 THEN 9
+      WHEN xp >= 750 THEN 8
+      WHEN xp >= 700 THEN 7
+      WHEN xp >= 600 THEN 6
+      WHEN xp >= 450 THEN 5
+      WHEN xp >= 300 THEN 4
+      WHEN xp >= 200 THEN 3
+      WHEN xp >= 100 THEN 2
+      ELSE 1
+    END AS level_number,
+    CASE
+      WHEN xp >= 900 THEN 'Sophos'
+      WHEN xp >= 750 THEN 'Erudite'
+      WHEN xp >= 700 THEN 'Hellenist'
+      WHEN xp >= 600 THEN 'Scholar'
+      WHEN xp >= 450 THEN 'Reader'
+      WHEN xp >= 300 THEN 'Grammatikos'
+      WHEN xp >= 200 THEN 'Student'
+      WHEN xp >= 100 THEN 'Apprentice'
+      ELSE 'Novice'
+    END AS level_label,
+    xp,
+    CASE
+      WHEN xp < 100 THEN 100
+      WHEN xp < 200 THEN 200
+      WHEN xp < 300 THEN 300
+      WHEN xp < 450 THEN 450
+      WHEN xp < 600 THEN 600
+      WHEN xp < 700 THEN 700
+      WHEN xp < 750 THEN 750
+      WHEN xp < 900 THEN 900
+      ELSE GREATEST(xp, 900)
+    END AS next_level_xp,
+    weekly_goal_lessons
+  FROM seed_mock_students
 ),
 course AS (
   SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
@@ -509,26 +634,9 @@ SET current_lesson_id = EXCLUDED.current_lesson_id,
     weekly_goal_lessons = EXCLUDED.weekly_goal_lessons,
     updated_at = now();
 
-WITH seed_users(email, current_lesson_slug, xp) AS (
-  VALUES
-    ('tpalston@email.sc.edu', 'lesson-29', 760),
-    ('BECKMA@mailbox.sc.edu', 'lesson-33', 835),
-    ('jdavis@email.sc.edu', 'lesson-8', 245),
-    ('skim@email.sc.edu', 'lesson-16', 410),
-    ('achen@email.sc.edu', 'lesson-21', 565),
-    ('mlopez@email.sc.edu', 'lesson-19', 520),
-    ('paristocles@email.sc.edu', 'lesson-24', 640),
-    ('ahomer@email.sc.edu', 'lesson-22', 610),
-    ('phomer@email.sc.edu', 'lesson-18', 455),
-    ('tclay@email.sc.edu', 'lesson-17', 430),
-    ('jdoe@email.sc.edu', 'lesson-11', 330),
-    ('sdoe@email.sc.edu', 'lesson-20', 540),
-    ('mcontrary@email.sc.edu', 'lesson-6', 185),
-    ('agreat@email.sc.edu', 'lesson-23', 625),
-    ('dlaertius@email.sc.edu', 'lesson-14', 365),
-    ('apapadopoulos@email.sc.edu', 'lesson-15', 390),
-    ('dgeorgiou@email.sc.edu', 'lesson-13', 350),
-    ('nioannidis@email.sc.edu', 'lesson-20', 555)
+WITH seed_users(email, current_lesson_slug, xp, course_complete) AS (
+  SELECT email, current_lesson_slug, xp, course_complete
+  FROM seed_mock_students
 ),
 course AS (
   SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
@@ -540,7 +648,7 @@ ordered_lessons AS (
   JOIN course c ON c.id = m.course_id
 ),
 user_targets AS (
-  SELECT u.id AS user_id, su.email, su.xp, ol.lesson_index AS current_index
+  SELECT u.id AS user_id, su.email, su.xp, su.course_complete, ol.lesson_index AS current_index
   FROM seed_users su
   JOIN public.users u ON u.email = su.email::citext
   JOIN ordered_lessons ol ON ol.slug = su.current_lesson_slug
@@ -550,14 +658,15 @@ lesson_rows AS (
     ut.user_id,
     ol.id AS lesson_id,
     CASE
+      WHEN ut.course_complete AND ol.lesson_index <= ut.current_index THEN 'completed'
       WHEN ol.lesson_index < ut.current_index THEN 'completed'
       WHEN ol.lesson_index = ut.current_index THEN 'in_progress'
       WHEN ol.lesson_index = ut.current_index + 1 THEN 'available'
       ELSE 'locked'
     END AS status,
     CASE WHEN ol.lesson_index <= ut.current_index THEN now() - ((ut.current_index - ol.lesson_index + 2)::text || ' days')::interval END AS started_at,
-    CASE WHEN ol.lesson_index < ut.current_index THEN now() - ((ut.current_index - ol.lesson_index + 1)::text || ' days')::interval END AS completed_at,
-    CASE WHEN ol.lesson_index < ut.current_index THEN 20 + ((ol.lesson_index + ut.xp) % 16) ELSE 0 END AS xp_awarded
+    CASE WHEN ol.lesson_index < ut.current_index OR (ut.course_complete AND ol.lesson_index <= ut.current_index) THEN now() - ((ut.current_index - ol.lesson_index + 1)::text || ' days')::interval END AS completed_at,
+    CASE WHEN ol.lesson_index < ut.current_index OR (ut.course_complete AND ol.lesson_index <= ut.current_index) THEN 20 + ((ol.lesson_index + ut.xp) % 16) ELSE 0 END AS xp_awarded
   FROM user_targets ut
   CROSS JOIN ordered_lessons ol
 )
@@ -573,109 +682,165 @@ SET status = EXCLUDED.status,
 WITH course AS (
   SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
 ),
-seed_users(email, current_lesson_slug, xp) AS (
-  VALUES
-    ('tpalston@email.sc.edu', 'lesson-29', 760),
-    ('BECKMA@mailbox.sc.edu', 'lesson-33', 835),
-    ('jdavis@email.sc.edu', 'lesson-8', 245),
-    ('skim@email.sc.edu', 'lesson-16', 410),
-    ('achen@email.sc.edu', 'lesson-21', 565),
-    ('mlopez@email.sc.edu', 'lesson-19', 520),
-    ('paristocles@email.sc.edu', 'lesson-24', 640),
-    ('ahomer@email.sc.edu', 'lesson-22', 610),
-    ('phomer@email.sc.edu', 'lesson-18', 455),
-    ('tclay@email.sc.edu', 'lesson-17', 430),
-    ('jdoe@email.sc.edu', 'lesson-11', 330),
-    ('sdoe@email.sc.edu', 'lesson-20', 540),
-    ('mcontrary@email.sc.edu', 'lesson-6', 185),
-    ('agreat@email.sc.edu', 'lesson-23', 625),
-    ('dlaertius@email.sc.edu', 'lesson-14', 365),
-    ('apapadopoulos@email.sc.edu', 'lesson-15', 390),
-    ('dgeorgiou@email.sc.edu', 'lesson-13', 350),
-    ('nioannidis@email.sc.edu', 'lesson-20', 555)
-),
 target_users AS (
-  SELECT u.id AS user_id, u.name, su.email, su.current_lesson_slug, su.xp, course.id AS course_id, row_number() OVER (ORDER BY su.email) AS user_offset
-  FROM seed_users su
-  JOIN public.users u ON u.email = su.email::citext
+  SELECT u.id AS user_id, u.name, sms.email, sms.current_lesson_slug, sms.xp, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
+  FROM seed_mock_students sms
+  JOIN public.users u ON u.email = sms.email::citext
   CROSS JOIN course
 )
 DELETE FROM public.activity_events ae
 USING target_users tu
 WHERE ae.user_id = tu.user_id
   AND ae.course_id = tu.course_id
-  AND ae.metadata->>'seed_key' = 'xenophon-test-data-v1';
+  AND ae.metadata->>'seed_key' IN ('xenophon-test-data-v1', 'xenophon-awards-v1');
 
 WITH course AS (
   SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
 ),
-seed_users(email, current_lesson_slug, xp) AS (
-  VALUES
-    ('tpalston@email.sc.edu', 'lesson-29', 760),
-    ('BECKMA@mailbox.sc.edu', 'lesson-33', 835),
-    ('jdavis@email.sc.edu', 'lesson-8', 245),
-    ('skim@email.sc.edu', 'lesson-16', 410),
-    ('achen@email.sc.edu', 'lesson-21', 565),
-    ('mlopez@email.sc.edu', 'lesson-19', 520),
-    ('paristocles@email.sc.edu', 'lesson-24', 640),
-    ('ahomer@email.sc.edu', 'lesson-22', 610),
-    ('phomer@email.sc.edu', 'lesson-18', 455),
-    ('tclay@email.sc.edu', 'lesson-17', 430),
-    ('jdoe@email.sc.edu', 'lesson-11', 330),
-    ('sdoe@email.sc.edu', 'lesson-20', 540),
-    ('mcontrary@email.sc.edu', 'lesson-6', 185),
-    ('agreat@email.sc.edu', 'lesson-23', 625),
-    ('dlaertius@email.sc.edu', 'lesson-14', 365),
-    ('apapadopoulos@email.sc.edu', 'lesson-15', 390),
-    ('dgeorgiou@email.sc.edu', 'lesson-13', 350),
-    ('nioannidis@email.sc.edu', 'lesson-20', 555)
-),
 target_users AS (
-  SELECT u.id AS user_id, u.name, su.email, su.current_lesson_slug, su.xp, course.id AS course_id, row_number() OVER (ORDER BY su.email) AS user_offset
-  FROM seed_users su
-  JOIN public.users u ON u.email = su.email::citext
+  SELECT u.id AS user_id, u.name, sms.email, sms.current_lesson_slug, sms.xp, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
+  FROM seed_mock_students sms
+  JOIN public.users u ON u.email = sms.email::citext
   CROSS JOIN course
 ),
 events AS (
-  SELECT user_id, course_id, 'lesson_completed' AS event_type, 'Completed: ' || current_lesson_slug AS title, 35 AS xp_delta, now() - ((user_offset % 5 + 1)::text || ' hours')::interval AS occurred_at FROM target_users
+  SELECT
+    user_id,
+    course_id,
+    'custom' AS event_type,
+    CASE WHEN current_lesson_slug = 'intro-1' THEN 'Started Unit 0' ELSE 'Progress snapshot: ' || current_lesson_slug END AS title,
+    CASE WHEN current_lesson_slug = 'intro-1' THEN 20 ELSE 0 END AS xp_delta,
+    jsonb_build_object(
+      'seed_key', 'xenophon-awards-v1',
+      'progressMetrics', metrics || jsonb_build_object('startedUnit0', true)
+    ) AS metadata,
+    now() - ((user_offset % 5 + 1)::text || ' hours')::interval AS occurred_at
+  FROM target_users
   UNION ALL
-  SELECT user_id, course_id, 'exercise_completed', 'Completed Exercise: morphology practice', 20, now() - ((user_offset % 6 + 1)::text || ' days')::interval FROM target_users
+  SELECT user_id, course_id, 'lesson_completed', 'Completed lesson-units: ' || COALESCE((metrics->>'lessonsCompleted')::int, 0), 35, jsonb_build_object('seed_key','xenophon-awards-v1','lessonSlug',current_lesson_slug), now() - ((user_offset % 5 + 1)::text || ' days')::interval
+  FROM target_users
+  WHERE COALESCE((metrics->>'lessonsCompleted')::int, 0) > 0
   UNION ALL
-  SELECT user_id, course_id, 'quiz_passed', 'Passed Quiz: ' || current_lesson_slug, 30, now() - ((user_offset % 9 + 2)::text || ' days')::interval FROM target_users
+  SELECT user_id, course_id, 'exercise_completed', 'Completed Exercise: translation drill', 25, jsonb_build_object('seed_key','xenophon-awards-v1','lessonSlug',current_lesson_slug,'activityType','translation','passed',true), now() - ((user_offset % 6 + 2)::text || ' days')::interval
+  FROM target_users
+  WHERE COALESCE((metrics->>'translationExercisesPassed')::int, 0) > 0
   UNION ALL
-  SELECT user_id, course_id, 'review_completed', 'Reviewed vocabulary set', 15, now() - ((user_offset % 4 + 1)::text || ' days')::interval FROM target_users WHERE xp >= 300
+  SELECT user_id, course_id, 'quiz_passed', 'Passed Quiz: ' || current_lesson_slug, 30, jsonb_build_object('seed_key','xenophon-awards-v1','lessonSlug',current_lesson_slug,'activityType','lesson-quiz','passed',true,'perfect',COALESCE((metrics->>'perfectQuizCount')::int, 0) > 0), now() - ((user_offset % 7 + 2)::text || ' days')::interval
+  FROM target_users
+  WHERE COALESCE((metrics->>'quizzesPassed')::int, 0) > 0
   UNION ALL
-  SELECT user_id, course_id, 'profile_updated', 'Updated learner profile', 0, now() - ((user_offset % 11 + 1)::text || ' days')::interval FROM target_users WHERE user_offset % 3 = 0
+  SELECT user_id, course_id, 'review_completed', 'Reviewed vocabulary set', 15, jsonb_build_object('seed_key','xenophon-awards-v1','lessonSlug',current_lesson_slug,'activityType','vocabulary-set','passed',true), now() - ((user_offset % 4 + 1)::text || ' days')::interval
+  FROM target_users
+  WHERE COALESCE((metrics->>'vocabularySetsCompleted')::int, 0) > 0
+  UNION ALL
+  SELECT user_id, course_id, 'exercise_completed', 'Completed Exercise: parsing practice', 20, jsonb_build_object('seed_key','xenophon-awards-v1','lessonSlug',current_lesson_slug,'activityType','parsing','passed',true), now() - ((user_offset % 8 + 3)::text || ' days')::interval
+  FROM target_users
+  WHERE COALESCE((metrics->>'parsingExercisesPassed')::int, 0) > 0
 )
 INSERT INTO public.activity_events (user_id, course_id, event_type, title, xp_delta, metadata, occurred_at)
-SELECT user_id, course_id, event_type, title, xp_delta, '{"seed_key":"xenophon-test-data-v1"}'::jsonb, occurred_at
+SELECT user_id, course_id, event_type, title, xp_delta, metadata, occurred_at
 FROM events;
 
 WITH course AS (
   SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
 ),
+target_users AS (
+  SELECT u.id AS user_id, sms.email, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
+  FROM seed_mock_students sms
+  JOIN public.users u ON u.email = sms.email::citext
+  CROSS JOIN course
+)
+DELETE FROM public.user_achievements ua
+USING target_users tu
+WHERE ua.user_id = tu.user_id
+  AND ua.course_id = tu.course_id;
+
+WITH course AS (
+  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+),
+target_users AS (
+  SELECT u.id AS user_id, sms.email, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
+  FROM seed_mock_students sms
+  JOIN public.users u ON u.email = sms.email::citext
+  CROSS JOIN course
+),
+completed_lesson_numbers AS (
+  SELECT
+    tu.user_id,
+    tu.course_id,
+    substring(l.slug from 'lesson-([0-9]+)')::int AS lesson_number
+  FROM target_users tu
+  JOIN public.lesson_progress lp ON lp.user_id = tu.user_id AND lp.status = 'completed'
+  JOIN public.lessons l ON l.id = lp.lesson_id
+  WHERE l.slug ~ '^lesson-[0-9]+$'
+),
 progress AS (
-  SELECT sp.user_id, sp.course_id, sp.xp, count(lp.*) FILTER (WHERE lp.status = 'completed') AS completed_lessons
-  FROM public.student_progress sp
-  JOIN course c ON c.id = sp.course_id
-  LEFT JOIN public.lesson_progress lp ON lp.user_id = sp.user_id AND lp.status = 'completed'
-  GROUP BY sp.user_id, sp.course_id, sp.xp
+  SELECT
+    tu.user_id,
+    tu.course_id,
+    tu.user_offset,
+    tu.metrics,
+    COALESCE((tu.metrics->>'lessonsCompleted')::int, count(cln.lesson_number)::int) AS lessons_completed,
+    bool_and(cln.lesson_number IS NOT NULL) FILTER (WHERE needed.lesson_number BETWEEN 1 AND 12) AS module_1_complete,
+    bool_and(cln.lesson_number IS NOT NULL) FILTER (WHERE needed.lesson_number BETWEEN 13 AND 24) AS module_2_complete,
+    bool_and(cln.lesson_number IS NOT NULL) FILTER (WHERE needed.lesson_number BETWEEN 25 AND 36) AS module_3_complete,
+    bool_and(cln.lesson_number IS NOT NULL) FILTER (WHERE needed.lesson_number BETWEEN 37 AND 48) AS module_4_complete
+  FROM target_users tu
+  CROSS JOIN generate_series(1, 48) AS needed(lesson_number)
+  LEFT JOIN completed_lesson_numbers cln
+    ON cln.user_id = tu.user_id
+   AND cln.course_id = tu.course_id
+   AND cln.lesson_number = needed.lesson_number
+  GROUP BY tu.user_id, tu.course_id, tu.user_offset, tu.metrics
 ),
 earned AS (
-  SELECT user_id, course_id, 'first-steps' AS slug FROM progress WHERE completed_lessons >= 1
+  SELECT user_id, course_id, user_offset, 'first-steps' AS slug FROM progress WHERE COALESCE((metrics->>'startedUnit0')::boolean, true)
   UNION ALL
-  SELECT user_id, course_id, 'word-collector' FROM progress WHERE completed_lessons >= 8
+  SELECT user_id, course_id, user_offset, 'first-lesson' FROM progress WHERE lessons_completed >= 1
   UNION ALL
-  SELECT user_id, course_id, 'grammar-novice' FROM progress WHERE completed_lessons >= 10
+  SELECT user_id, course_id, user_offset, 'first-quiz' FROM progress WHERE COALESCE((metrics->>'quizzesPassed')::int, 0) >= 1
   UNION ALL
-  SELECT user_id, course_id, 'diligent-learner' FROM progress WHERE xp >= 400
+  SELECT user_id, course_id, user_offset, 'first-vocabulary-set' FROM progress WHERE COALESCE((metrics->>'vocabularySetsCompleted')::int, 0) >= 1
   UNION ALL
-  SELECT user_id, course_id, 'sophos' FROM progress WHERE xp >= 700
+  SELECT user_id, course_id, user_offset, 'first-practice-session' FROM progress WHERE COALESCE((metrics->>'practiceSessions')::int, 0) >= 1
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'five-lessons-completed' FROM progress WHERE lessons_completed >= 5
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'seven-day-streak' FROM progress WHERE COALESCE((metrics->>'streakDays')::int, 0) >= 7
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'first-perfect-score' FROM progress WHERE COALESCE((metrics->>'perfectScoreCount')::int, COALESCE((metrics->>'perfectQuizCount')::int, 0)) >= 1
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'one-hundred-words-mastered' FROM progress WHERE COALESCE((metrics->>'vocabularyMastered')::int, 0) >= 100
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'first-translation' FROM progress WHERE COALESCE((metrics->>'translationExercisesPassed')::int, 0) >= 1
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'parsing-apprentice' FROM progress WHERE COALESCE((metrics->>'parsingExercisesPassed')::int, 0) >= 5
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'reader-of-greek' FROM progress WHERE COALESCE((metrics->>'readingsCompleted')::int, 0) >= 10 OR COALESCE(module_1_complete, false)
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'audio-explorer' FROM progress WHERE COALESCE((metrics->>'audioItemsCompleted')::int, 0) >= 10 OR COALESCE((metrics->>'audioLessonsCompleted')::int, 0) >= 5
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'twenty-practice-sessions' FROM progress WHERE COALESCE((metrics->>'practiceSessions')::int, 0) >= 20
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'ten-perfect-quizzes' FROM progress WHERE COALESCE((metrics->>'perfectQuizCount')::int, 0) >= 10
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'friend-of-athena' FROM progress WHERE (COALESCE(module_1_complete, false) AND COALESCE((metrics->>'streakDays')::int, 0) >= 7) OR COALESCE((metrics->>'practiceSessions')::int, 0) >= 20
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'wisdom' FROM progress WHERE COALESCE(module_1_complete, false)
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'courage' FROM progress WHERE COALESCE(module_2_complete, false)
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'self-control' FROM progress WHERE COALESCE(module_3_complete, false)
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'justice' FROM progress WHERE COALESCE(module_4_complete, false)
+  UNION ALL
+  SELECT user_id, course_id, user_offset, 'student-of-socrates' FROM progress WHERE COALESCE((metrics->>'fullCourseCompleted')::boolean, false) OR COALESCE(module_4_complete, false)
 )
 INSERT INTO public.user_achievements (user_id, achievement_id, course_id, earned_at)
-SELECT earned.user_id, achievements.id, earned.course_id, now() - '1 day'::interval
+SELECT earned.user_id, achievements.id, earned.course_id, now() - ((earned.user_offset + achievements.sort_order)::text || ' days')::interval
 FROM earned
 JOIN public.achievements ON achievements.slug = earned.slug
-ON CONFLICT (user_id, achievement_id, course_id) DO NOTHING;
+ON CONFLICT (user_id, achievement_id, course_id) DO UPDATE
+SET earned_at = EXCLUDED.earned_at;
 
 COMMIT;

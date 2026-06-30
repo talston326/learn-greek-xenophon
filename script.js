@@ -1,92 +1,14 @@
-const COURSE_USERS = [
-  {
-    name: "Tom Alston",
-    email: "tpalston@email.sc.edu",
-    roles: ["administrator", "professor", "student"],
-    progress: {
-      currentLessonId: "lesson-4",
-      currentSegmentId: "lesson-start",
-      completedLessons: ["intro-1", "intro-2", "intro-3", "lesson-1", "lesson-2", "lesson-3"],
-      passedQuizzes: ["intro-1", "intro-2", "intro-3", "lesson-1", "lesson-2", "lesson-3"],
-      completedExercises: {
-        "intro-1": ["orientation", "quiz"],
-        "intro-2": ["letter-match", "breathing", "diphthong", "combo", "quiz"],
-        "intro-3": ["phonetics", "quiz"],
-        "lesson-1": ["vocabulary", "reading", "quiz"],
-        "lesson-2": ["forms", "translation", "quiz"],
-        "lesson-3": ["parsing", "composition", "quiz"],
-        "lesson-4": ["noun-endings"]
-      },
-      completedLessonsCount: 6,
-      totalLessonsCount: 51,
-      level: 7,
-      levelLabel: "Erudite",
-      xp: 385,
-      nextLevelXp: 500,
-      nextLevelLabel: "Sophos",
-      weeklyCompleted: 4,
-      weeklyGoal: 5,
-      recentActivity: [
-        { icon: "📘", type: "book", title: "Completed: Xenophon, Memorabilia 1.2.20", when: "Today", xp: 60 },
-        { icon: "☰", type: "review", title: "Reviewed: Vocabulary Set 7", when: "Yesterday", xp: 20 },
-        { icon: "✎", type: "exercise", title: "Completed Exercise: Translation Drill 12", when: "2 days ago", xp: 25 }
-      ],
-      achievements: [
-        { icon: "👣", className: "b1", label: "First Steps" },
-        { icon: "", className: "b2 wreath-badge", label: "Word Collector" },
-        { icon: "🏛", className: "b3", label: "Grammar Novice" },
-        { icon: "🦉", className: "b4 owl-badge", label: "Diligent Learner" },
-        { icon: "🏆", className: "b5", label: "Sophos" }
-      ]
-    }
-  },
-  {
-    name: "Mark Beck",
-    email: "BECKMA@mailbox.sc.edu",
-    roles: ["professor", "student"],
-    progress: {
-      currentLessonId: "intro-1",
-      currentSegmentId: "intro-part-1",
-      completedLessons: [],
-      passedQuizzes: [],
-      completedExercises: {},
-      completedLessonsCount: 0,
-      totalLessonsCount: 51,
-      level: 0,
-      levelLabel: "Novice",
-      xp: 0,
-      nextLevelXp: 100,
-      nextLevelLabel: "Apprentice",
-      weeklyCompleted: 0,
-      weeklyGoal: 5,
-      recentActivity: [],
-      achievements: []
-    }
-  },
-  {
-    name: "John Doe",
-    email: "JohnD@email.sc.edu",
-    roles: ["student"],
-    progress: {
-      currentLessonId: "intro-1",
-      currentSegmentId: "intro-part-1",
-      completedLessons: [],
-      passedQuizzes: [],
-      completedExercises: {},
-      completedLessonsCount: 0,
-      totalLessonsCount: 51,
-      level: 0,
-      levelLabel: "Novice",
-      xp: 0,
-      nextLevelXp: 100,
-      nextLevelLabel: "Apprentice",
-      weeklyCompleted: 0,
-      weeklyGoal: 5,
-      recentActivity: [],
-      achievements: []
-    }
-  }
-];
+const COURSE_USERS = [];
+
+const achievementTools = window.xenophonAchievements || {
+  getAchievementCatalog: () => [],
+  computeEarnedAchievements: () => [],
+  getLockedAchievements: () => [],
+  resolveAchievementImagePath: (achievement) => achievement?.imagePath || "",
+  getLevelForXp: (xp) => ({ number: xp >= 900 ? 9 : xp >= 750 ? 8 : xp >= 100 ? 2 : 1, label: xp >= 900 ? "Sophos" : xp >= 750 ? "Erudite" : xp >= 100 ? "Apprentice" : "Novice", xpRequired: 0 }),
+  getNextLevelForXp: (xp) => ({ number: xp >= 900 ? 9 : xp >= 750 ? 9 : 2, label: xp >= 900 ? "Sophos" : xp >= 750 ? "Sophos" : "Apprentice", xpRequired: xp >= 900 ? xp : xp >= 750 ? 900 : 100 }),
+  normalizeProgressMetrics: (progress) => progress?.metrics || {}
+};
 
 const ROLE_LABELS = {
   administrator: "Administrator",
@@ -232,6 +154,474 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
     };
   })
 );
+
+const STUDENT_PROGRESS_PLAN = [
+  {
+    name: "New Student",
+    email: "new.student@example.edu",
+    roles: ["student"],
+    currentLessonId: "intro-1",
+    xp: 20,
+    weeklyGoal: 3,
+    completedDisplayCount: 0,
+    metrics: { startedUnit0: true, lessonsCompleted: 0, quizzesPassed: 0, vocabularySetsCompleted: 0, practiceSessions: 0, activityEvents: 1 },
+    summary: "Unit 0 in progress"
+  },
+  {
+    name: "Codex Student",
+    email: "codex.student@example.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-1",
+    xp: 80,
+    weeklyGoal: 3,
+    metrics: { startedUnit0: true, lessonsCompleted: 1, quizzesPassed: 0, vocabularySetsCompleted: 0, practiceSessions: 0, activityEvents: 2 },
+    summary: "Unit 0 complete; Lesson 1 starting"
+  },
+  {
+    name: "John Doe",
+    email: "jdoe@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-2",
+    xp: 140,
+    weeklyGoal: 4,
+    metrics: { quizzesPassed: 1, vocabularySetsCompleted: 1, vocabularyMastered: 18, practiceSessions: 1, activityEvents: 4 }
+  },
+  {
+    name: "Susan Doe",
+    email: "sdoe@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-3",
+    xp: 190,
+    weeklyGoal: 4,
+    metrics: { quizzesPassed: 2, vocabularySetsCompleted: 2, vocabularyMastered: 32, practiceSessions: 3, translationExercisesPassed: 1, activityEvents: 5 }
+  },
+  {
+    name: "Mary Contrary",
+    email: "mcontrary@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-4",
+    xp: 250,
+    weeklyGoal: 4,
+    metrics: { quizzesPassed: 3, vocabularySetsCompleted: 3, vocabularyMastered: 44, practiceSessions: 5, translationExercisesPassed: 1, perfectScoreCount: 1, perfectQuizCount: 1, activityEvents: 7 }
+  },
+  {
+    name: "Sarah Kim",
+    email: "skim@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-6",
+    xp: 340,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 5, vocabularySetsCompleted: 5, vocabularyMastered: 70, practiceSessions: 7, translationExercisesPassed: 2, perfectScoreCount: 1, perfectQuizCount: 1, activityEvents: 9 }
+  },
+  {
+    name: "John Davis",
+    email: "jdavis@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-8",
+    xp: 430,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 7, vocabularySetsCompleted: 7, vocabularyMastered: 88, practiceSessions: 9, streakDays: 7, translationExercisesPassed: 2, perfectScoreCount: 1, perfectQuizCount: 2, audioItemsCompleted: 7, audioLessonsCompleted: 4, activityEvents: 11 }
+  },
+  {
+    name: "Alex Chen",
+    email: "achen@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-10",
+    xp: 520,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 9, vocabularySetsCompleted: 9, vocabularyMastered: 110, practiceSessions: 12, streakDays: 8, translationExercisesPassed: 3, perfectScoreCount: 1, perfectQuizCount: 3, audioItemsCompleted: 11, audioLessonsCompleted: 5, activityEvents: 14 }
+  },
+  {
+    name: "Maria Lopez",
+    email: "mlopez@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-12",
+    xp: 610,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 11, vocabularySetsCompleted: 11, vocabularyMastered: 128, practiceSessions: 16, streakDays: 9, translationExercisesPassed: 4, parsingExercisesPassed: 5, readingsCompleted: 10, perfectScoreCount: 1, perfectQuizCount: 4, audioItemsCompleted: 12, audioLessonsCompleted: 6, activityEvents: 18 }
+  },
+  {
+    name: "Thomas Clay",
+    email: "tclay@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-13",
+    xp: 680,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 12, vocabularySetsCompleted: 12, vocabularyMastered: 142, practiceSessions: 18, streakDays: 7, translationExercisesPassed: 5, parsingExercisesPassed: 6, readingsCompleted: 12, perfectScoreCount: 2, perfectQuizCount: 5, audioItemsCompleted: 14, audioLessonsCompleted: 7, activityEvents: 20 }
+  },
+  {
+    name: "Nikolas Ioannidis",
+    email: "nioannidis@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-15",
+    xp: 720,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 14, vocabularySetsCompleted: 14, vocabularyMastered: 160, practiceSessions: 22, streakDays: 8, translationExercisesPassed: 6, parsingExercisesPassed: 7, readingsCompleted: 13, perfectScoreCount: 2, perfectQuizCount: 6, audioItemsCompleted: 15, audioLessonsCompleted: 8, activityEvents: 24 }
+  },
+  {
+    name: "Patroclus Homer",
+    email: "phomer@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-18",
+    xp: 780,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 17, vocabularySetsCompleted: 17, vocabularyMastered: 178, practiceSessions: 24, streakDays: 9, translationExercisesPassed: 7, parsingExercisesPassed: 8, readingsCompleted: 15, perfectScoreCount: 2, perfectQuizCount: 7, audioItemsCompleted: 17, audioLessonsCompleted: 9, activityEvents: 27 }
+  },
+  {
+    name: "Achilles Homer",
+    email: "ahomer@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-20",
+    xp: 845,
+    weeklyGoal: 6,
+    metrics: { quizzesPassed: 19, vocabularySetsCompleted: 19, vocabularyMastered: 195, practiceSessions: 27, streakDays: 10, translationExercisesPassed: 8, parsingExercisesPassed: 9, readingsCompleted: 17, perfectScoreCount: 2, perfectQuizCount: 8, audioItemsCompleted: 19, audioLessonsCompleted: 10, activityEvents: 30 }
+  },
+  {
+    name: "Diogenes Laertius",
+    email: "dlaertius@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-23",
+    xp: 890,
+    weeklyGoal: 6,
+    metrics: { quizzesPassed: 22, vocabularySetsCompleted: 22, vocabularyMastered: 220, practiceSessions: 29, streakDays: 11, translationExercisesPassed: 9, parsingExercisesPassed: 10, readingsCompleted: 20, perfectScoreCount: 2, perfectQuizCount: 9, audioItemsCompleted: 21, audioLessonsCompleted: 11, activityEvents: 33 }
+  },
+  {
+    name: "Plato Aristocles",
+    email: "paristocles@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-25",
+    xp: 960,
+    weeklyGoal: 6,
+    metrics: { quizzesPassed: 24, vocabularySetsCompleted: 24, vocabularyMastered: 240, practiceSessions: 31, streakDays: 12, translationExercisesPassed: 10, parsingExercisesPassed: 11, readingsCompleted: 24, perfectScoreCount: 3, perfectQuizCount: 10, audioItemsCompleted: 24, audioLessonsCompleted: 12, activityEvents: 36 }
+  },
+  {
+    name: "Alexandros Papadopoulos",
+    email: "apapadopoulos@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-27",
+    xp: 1040,
+    weeklyGoal: 6,
+    metrics: { quizzesPassed: 26, vocabularySetsCompleted: 26, vocabularyMastered: 260, practiceSessions: 34, streakDays: 13, translationExercisesPassed: 11, parsingExercisesPassed: 12, readingsCompleted: 26, perfectScoreCount: 3, perfectQuizCount: 11, audioItemsCompleted: 26, audioLessonsCompleted: 13, activityEvents: 39 }
+  },
+  {
+    name: "Tom Alston",
+    email: "tpalston@email.sc.edu",
+    roles: ["administrator", "professor", "student"],
+    currentLessonId: "lesson-29",
+    xp: 760,
+    weeklyGoal: 5,
+    completedDisplayCount: 31,
+    completionPercent: 61,
+    metrics: { lessonsCompleted: 31, quizzesPassed: 28, vocabularySetsCompleted: 28, vocabularyMastered: 176, practiceSessions: 23, streakDays: 9, translationExercisesPassed: 9, parsingExercisesPassed: 9, readingsCompleted: 18, perfectScoreCount: 2, perfectQuizCount: 7, audioItemsCompleted: 18, audioLessonsCompleted: 9, activityEvents: 28 },
+    summary: "Module III · Lesson 29 · Purpose clauses"
+  },
+  {
+    name: "Mark Beck",
+    email: "BECKMA@mailbox.sc.edu",
+    roles: ["professor", "student"],
+    currentLessonId: "lesson-32",
+    xp: 840,
+    weeklyGoal: 5,
+    metrics: { quizzesPassed: 31, vocabularySetsCompleted: 31, vocabularyMastered: 215, practiceSessions: 26, streakDays: 8, translationExercisesPassed: 10, parsingExercisesPassed: 10, readingsCompleted: 21, perfectScoreCount: 2, perfectQuizCount: 8, audioItemsCompleted: 22, audioLessonsCompleted: 11, activityEvents: 32 },
+    summary: "Module III · Lesson 32 · Purpose and infinitives"
+  },
+  {
+    name: "Alexander Great",
+    email: "agreat@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-39",
+    xp: 1160,
+    weeklyGoal: 6,
+    metrics: { quizzesPassed: 38, vocabularySetsCompleted: 38, vocabularyMastered: 320, practiceSessions: 42, streakDays: 14, translationExercisesPassed: 16, parsingExercisesPassed: 16, readingsCompleted: 34, perfectScoreCount: 4, perfectQuizCount: 12, audioItemsCompleted: 34, audioLessonsCompleted: 17, activityEvents: 48 }
+  },
+  {
+    name: "Dimitrios Georgiou",
+    email: "dgeorgiou@email.sc.edu",
+    roles: ["student"],
+    currentLessonId: "lesson-48",
+    xp: 1420,
+    weeklyGoal: 6,
+    courseComplete: true,
+    metrics: { fullCourseCompleted: true, quizzesPassed: 48, vocabularySetsCompleted: 48, vocabularyMastered: 430, practiceSessions: 60, streakDays: 21, translationExercisesPassed: 24, parsingExercisesPassed: 24, readingsCompleted: 48, perfectScoreCount: 10, perfectQuizCount: 14, audioItemsCompleted: 60, audioLessonsCompleted: 30, activityEvents: 70 },
+    summary: "Course complete"
+  }
+];
+
+function getCompletedLessonIdsForPlan(plan) {
+  const currentIndex = COURSE_LESSONS.findIndex((lesson) => lesson.id === plan.currentLessonId);
+
+  if (plan.courseComplete) {
+    return COURSE_LESSONS.map((lesson) => lesson.id);
+  }
+
+  return COURSE_LESSONS
+    .slice(0, Math.max(0, currentIndex))
+    .map((lesson) => lesson.id);
+}
+
+function buildCompletedExercisesForPlan(completedLessons, currentLessonId, metrics) {
+  const completedSet = new Set(completedLessons);
+  const exercises = {};
+
+  COURSE_LESSONS.forEach((lesson) => {
+    if (completedSet.has(lesson.id)) {
+      exercises[lesson.id] = lesson.exerciseIds;
+    }
+  });
+
+  if (metrics.practiceSessions > 0 && !completedSet.has(currentLessonId)) {
+    const currentLesson = COURSE_LESSONS.find((lesson) => lesson.id === currentLessonId) || COURSE_LESSONS[0];
+    exercises[currentLessonId] = currentLesson.exerciseIds.slice(0, 1);
+  }
+
+  return exercises;
+}
+
+function buildRecentActivityForPlan(plan, progress, metrics) {
+  const currentLesson = COURSE_LESSONS.find((lesson) => lesson.id === plan.currentLessonId) || COURSE_LESSONS[0];
+  const activities = [
+    {
+      icon: "📘",
+      type: "book",
+      title: plan.courseComplete
+        ? "Completed: Lesson 48 — Justice and the Soul"
+        : `Current: ${currentLesson.number} — ${currentLesson.title}`,
+      when: "Today",
+      xp: plan.courseComplete ? 60 : 20
+    }
+  ];
+
+  if (metrics.quizzesPassed > 0) {
+    activities.push({
+      icon: "✓",
+      type: "exercise",
+      title: `Passed Quiz: ${currentLesson.number}`,
+      when: "Yesterday",
+      xp: 30
+    });
+  }
+
+  if (metrics.vocabularySetsCompleted > 0) {
+    activities.push({
+      icon: "☰",
+      type: "review",
+      title: `Reviewed vocabulary set ${Math.max(1, Math.min(metrics.vocabularySetsCompleted, 48))}`,
+      when: "2 days ago",
+      xp: 15
+    });
+  }
+
+  if (metrics.translationExercisesPassed > 0) {
+    activities.push({
+      icon: "✎",
+      type: "exercise",
+      title: "Completed Exercise: translation drill",
+      when: "3 days ago",
+      xp: 25
+    });
+  }
+
+  if (metrics.streakDays >= 7) {
+    activities.push({
+      icon: "•",
+      type: "book",
+      title: `${metrics.streakDays}-day study streak active`,
+      when: "This week",
+      xp: 10
+    });
+  }
+
+  return activities.slice(0, 5);
+}
+
+function decorateAchievements(progress) {
+  const earned = achievementTools.computeEarnedAchievements(progress);
+  const earnedAtBySlug = {};
+
+  earned.forEach((achievement, index) => {
+    const earnedDate = new Date(Date.UTC(2027, 0, 15 + index));
+    earnedAtBySlug[achievement.slug] = earnedDate.toISOString();
+  });
+
+  progress.metrics = {
+    ...progress.metrics,
+    earnedAtBySlug
+  };
+  progress.achievements = achievementTools.computeEarnedAchievements(progress);
+  progress.lockedAchievements = achievementTools.getLockedAchievements(progress);
+  progress.achievementCatalog = achievementTools.getAchievementCatalog();
+  return progress;
+}
+
+function buildProgressFromPlan(plan) {
+  const completedLessons = getCompletedLessonIdsForPlan(plan);
+  const level = achievementTools.getLevelForXp(plan.xp);
+  const nextLevel = achievementTools.getNextLevelForXp(plan.xp);
+  const metrics = {
+    startedUnit0: true,
+    lessonsCompleted: plan.completedDisplayCount ?? completedLessons.length,
+    quizzesPassed: 0,
+    vocabularySetsCompleted: 0,
+    vocabularyMastered: 0,
+    practiceSessions: 0,
+    streakDays: 0,
+    perfectScoreCount: 0,
+    perfectQuizCount: 0,
+    translationExercisesPassed: 0,
+    parsingExercisesPassed: 0,
+    readingsCompleted: 0,
+    audioItemsCompleted: 0,
+    audioLessonsCompleted: 0,
+    activityEvents: 1,
+    fullCourseCompleted: Boolean(plan.courseComplete),
+    ...plan.metrics
+  };
+  const completedDisplayCount = plan.completedDisplayCount ?? completedLessons.length;
+  const totalLessonsCount = COURSE_LESSONS.length;
+  const completionPercent = typeof plan.completionPercent === "number"
+    ? plan.completionPercent
+    : Math.round((completedDisplayCount / totalLessonsCount) * 100);
+  const progress = {
+    currentLessonId: plan.currentLessonId,
+    currentSegmentId: plan.currentLessonId === "intro-1" ? "intro-part-1" : "lesson-start",
+    completedLessons,
+    passedQuizzes: completedLessons.filter((lessonId) => lessonId.startsWith("lesson-")).slice(0, metrics.quizzesPassed),
+    completedExercises: buildCompletedExercisesForPlan(completedLessons, plan.currentLessonId, metrics),
+    completedLessonsCount: completedDisplayCount,
+    totalLessonsCount,
+    completionPercent,
+    level: level.number,
+    levelLabel: level.label,
+    xp: plan.xp,
+    nextLevelXp: nextLevel.xpRequired,
+    nextLevelLabel: nextLevel.label,
+    weeklyCompleted: Math.min(plan.weeklyGoal || 5, Math.max(0, Math.round(metrics.practiceSessions / 6))),
+    weeklyGoal: plan.weeklyGoal || 5,
+    vocabularyMastered: metrics.vocabularyMastered,
+    practiceCompleted: metrics.practiceSessions,
+    fullCourseCompleted: Boolean(plan.courseComplete),
+    metrics
+  };
+
+  progress.recentActivity = buildRecentActivityForPlan(plan, progress, metrics);
+
+  return decorateAchievements(progress);
+}
+
+function buildMockCourseUsers() {
+  return STUDENT_PROGRESS_PLAN.map((plan) => ({
+    name: plan.name,
+    email: plan.email,
+    roles: plan.roles,
+    progress: buildProgressFromPlan(plan),
+    course: {
+      code: "GREK 110 J10",
+      title: "Learn Ancient Greek with Xenophon",
+      term: "Spring 2027"
+    }
+  }));
+}
+
+COURSE_USERS.push(...buildMockCourseUsers());
+
+function buildProfessorDashboardFallback() {
+  const students = COURSE_USERS
+    .map((user) => {
+      const progress = user.progress;
+      const currentLesson = findLesson(progress.currentLessonId);
+      const averageGrade = Math.min(99, Math.max(68, Math.round(72 + progress.completionPercent * 0.24 + progress.level)));
+      const inactiveDays = user.name === "New Student" ? 0 : Math.max(0, 8 - progress.weeklyCompleted);
+      const status = inactiveDays >= 7 || averageGrade < 70
+        ? "Needs Attention"
+        : inactiveDays >= 4 || averageGrade < 80
+        ? "At Risk"
+        : "Active";
+
+      return {
+        name: user.name,
+        email: user.email,
+        photoUrl: "",
+        progress: progress.completionPercent,
+        currentLessonId: progress.currentLessonId,
+        currentLesson: progress.fullCourseCompleted
+          ? "Course complete"
+          : `${currentLesson.number} — ${currentLesson.title}`,
+        level: progress.levelLabel,
+        levelNumber: progress.level,
+        averageGrade: `${averageGrade}%`,
+        lastActivity: progress.recentActivity[0]?.when || "No activity",
+        status
+      };
+    })
+    .sort((first, second) => first.name.localeCompare(second.name));
+  const averageCompletion = students.length
+    ? Math.round(students.reduce((sum, student) => sum + student.progress, 0) / students.length)
+    : 0;
+  const averageGrade = students.length
+    ? Math.round(students.reduce((sum, student) => sum + Number.parseInt(student.averageGrade, 10), 0) / students.length)
+    : 0;
+  const activeThisWeek = students.filter((student) => student.lastActivity !== "No activity").length;
+  const attention = students
+    .filter((student) => student.status !== "Active")
+    .slice(0, 5)
+    .map((student) => [student.name, `${student.lastActivity}; ${student.status.toLowerCase()}`]);
+  const lessonProgress = COURSE_LESSONS.slice(0, 6).map((lesson) => {
+    const completed = COURSE_USERS.filter((user) => user.progress.completedLessons.includes(lesson.id)).length;
+    return [
+      lesson.number,
+      `${completed} completed`,
+      students.length ? Math.round((completed / students.length) * 100) : 0
+    ];
+  });
+  const gradeBuckets = [
+    ["A range", 0, 90, 100],
+    ["B range", 0, 80, 89],
+    ["C range", 0, 70, 79],
+    ["Below C", 0, 0, 69]
+  ];
+
+  students.forEach((student) => {
+    const grade = Number.parseInt(student.averageGrade, 10);
+    const bucket = gradeBuckets.find(([, , min, max]) => grade >= min && grade <= max);
+
+    if (bucket) {
+      bucket[1] += 1;
+    }
+  });
+
+  return {
+    overview: [
+      ["Total Students", String(students.length)],
+      ["Active This Week", String(activeThisWeek)],
+      ["Average Completion", `${averageCompletion}%`],
+      ["Average Grade", `${averageGrade}%`]
+    ],
+    grading: [
+      ["Pending Submissions", "4"],
+      ["Needs Review", "3"],
+      ["Overdue", String(students.filter((student) => student.status === "Needs Attention").length)]
+    ],
+    weeklyActivity: [
+      ["Lessons Completed This Week", String(COURSE_USERS.reduce((sum, user) => sum + user.progress.weeklyCompleted, 0))],
+      ["Average Completion", `${averageCompletion}%`],
+      ["Most Active Lesson", students.find((student) => student.status === "Active")?.currentLesson || "No activity yet"]
+    ],
+    students,
+    attention,
+    submissions: [
+      ["Translation Drill", "Tom Alston", "Needs Review"],
+      ["Lesson Quiz", "Dimitrios Georgiou", "100%"],
+      ["Parsing Exercise", "Alexander Great", "96%"],
+      ["Vocabulary Set", "New Student", "Started"]
+    ],
+    lessonProgress,
+    grades: gradeBuckets.map(([label, count]) => [
+      label,
+      `${count} ${count === 1 ? "student" : "students"}`,
+      students.length ? Math.round((count / students.length) * 100) : 0
+    ])
+  };
+}
 
 let lessonMetadataLoadPromise = null;
 let hasLiveLessonMetadata = false;
@@ -686,6 +1076,12 @@ function getEmailPrefix(email) {
 }
 
 function buildPreviewProgress(student) {
+  const seededUser = findUserByEmail(student.email);
+
+  if (seededUser?.progress) {
+    return seededUser.progress;
+  }
+
   const currentLessonId = normalizeLessonId(student.currentLessonId);
   const currentIndex = COURSE_LESSONS.findIndex((lesson) => lesson.id === currentLessonId);
   const completedLessons = COURSE_LESSONS
@@ -2396,16 +2792,98 @@ function findLesson(lessonId) {
   return COURSE_LESSONS.find((lesson) => lesson.id === normalizedId) || COURSE_LESSONS[0];
 }
 
+function hydrateProgress(progress = {}) {
+  const completedLessons = Array.isArray(progress.completedLessons) ? progress.completedLessons : [];
+  const level = achievementTools.getLevelForXp(progress.xp || 0);
+  const nextLevel = achievementTools.getNextLevelForXp(progress.xp || 0);
+  const hydrated = {
+    currentLessonId: progress.currentLessonId || "intro-1",
+    currentSegmentId: progress.currentSegmentId || "lesson-start",
+    completedLessons,
+    passedQuizzes: Array.isArray(progress.passedQuizzes) ? progress.passedQuizzes : [],
+    completedExercises: progress.completedExercises || {},
+    completedLessonsCount: typeof progress.completedLessonsCount === "number" ? progress.completedLessonsCount : completedLessons.length,
+    totalLessonsCount: typeof progress.totalLessonsCount === "number" ? progress.totalLessonsCount : COURSE_LESSONS.length,
+    completionPercent: typeof progress.completionPercent === "number"
+      ? progress.completionPercent
+      : COURSE_LESSONS.length
+      ? Math.round((completedLessons.length / COURSE_LESSONS.length) * 100)
+      : 0,
+    level: progress.level || level.number,
+    levelLabel: progress.levelLabel || level.label,
+    xp: progress.xp || 0,
+    nextLevelXp: progress.nextLevelXp || nextLevel.xpRequired,
+    nextLevelLabel: progress.nextLevelLabel || nextLevel.label,
+    weeklyCompleted: progress.weeklyCompleted || 0,
+    weeklyGoal: progress.weeklyGoal || 5,
+    vocabularyMastered: progress.vocabularyMastered || progress.metrics?.vocabularyMastered || 0,
+    practiceCompleted: progress.practiceCompleted || progress.metrics?.practiceSessions || 0,
+    recentActivity: Array.isArray(progress.recentActivity) ? progress.recentActivity : [],
+    metrics: progress.metrics || {},
+    fullCourseCompleted: Boolean(progress.fullCourseCompleted || progress.metrics?.fullCourseCompleted)
+  };
+
+  const catalog = achievementTools.getAchievementCatalog();
+  const legacyAchievementAliases = new Map([
+    ["Grammar Novice", "parsing-apprentice"],
+    ["Diligent Learner", "seven-day-streak"],
+    ["Word Collector", "one-hundred-words-mastered"],
+    ["Sophos", ""]
+  ]);
+  const computedEarned = achievementTools.computeEarnedAchievements(hydrated);
+  const earnedFromPayload = Array.isArray(progress.achievements) && progress.achievements.length
+    ? progress.achievements
+      .map((achievement) => {
+        const aliasSlug = legacyAchievementAliases.get(achievement.label);
+        const canonical = catalog.find((item) =>
+          item.slug === achievement.slug ||
+          item.slug === aliasSlug ||
+          item.label === achievement.label
+        );
+
+        if (!canonical) {
+          return null;
+        }
+
+        return {
+          ...canonical,
+          earnedAt: achievement.earnedAt || null,
+          imagePath: achievement.imagePath || achievementTools.resolveAchievementImagePath(canonical),
+          earned: true
+        };
+      })
+      .filter(Boolean)
+    : [];
+  const earnedBySlug = new Map(computedEarned.map((achievement) => [achievement.slug, achievement]));
+
+  earnedFromPayload.forEach((achievement) => {
+    earnedBySlug.set(achievement.slug, {
+      ...earnedBySlug.get(achievement.slug),
+      ...achievement
+    });
+  });
+
+  hydrated.achievements = Array.from(earnedBySlug.values());
+  hydrated.lockedAchievements = Array.isArray(progress.lockedAchievements)
+    ? progress.lockedAchievements
+    : achievementTools.getLockedAchievements(hydrated);
+  hydrated.achievementCatalog = Array.isArray(progress.achievementCatalog)
+    ? progress.achievementCatalog
+    : catalog;
+
+  return hydrated;
+}
+
 function getUserProgress(session) {
   if (session?.progress) {
-    return session.progress;
+    return hydrateProgress(session.progress);
   }
 
   if (session?.previewProgress) {
-    return session.previewProgress;
+    return hydrateProgress(session.previewProgress);
   }
 
-  return findUserByEmail(session?.email)?.progress || COURSE_USERS[2].progress;
+  return hydrateProgress(findUserByEmail(session?.email)?.progress || COURSE_USERS[2].progress);
 }
 
 function getVocabularyItems() {
@@ -3065,7 +3543,7 @@ function renderStartSummary(session, progress) {
   if (startSummaryLocationEl) {
     startSummaryLocationEl.innerHTML = isAtBeginning
       ? `Current location: Introduction, then Unit 0 — Greek Alphabet & Reading Readiness<br>Unit 0 progress: ${unit0Overview.percent}%. ${masteredText} ${needsPracticeText}`
-      : `Current location: ${currentLesson.number} — ${currentLesson.title}`;
+      : `Current location: ${currentLesson.moduleLabel} · ${currentLesson.number} — ${currentLesson.title}<br>${currentLesson.grammar || currentLesson.subtitle}`;
   }
 
   if (startLessonsEl) {
@@ -3234,6 +3712,192 @@ function renderActivity(progress) {
   });
 }
 
+function formatAchievementDate(value) {
+  if (!value) {
+    return "";
+  }
+
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  });
+}
+
+function canonicalAchievement(achievement) {
+  const catalog = achievementTools.getAchievementCatalog();
+  const bySlug = catalog.find((item) => item.slug === achievement.slug);
+  const byLabel = catalog.find((item) => item.label === achievement.label);
+  return {
+    ...(bySlug || byLabel || achievement),
+    ...achievement
+  };
+}
+
+function renderAchievementImage(achievement, className = "achievement-icon") {
+  const resolved = canonicalAchievement(achievement);
+  const imagePath = resolved.imagePath || achievementTools.resolveAchievementImagePath(resolved);
+  const altText = `${resolved.label} achievement badge`;
+
+  return `
+    <span class="${className}">
+      <img src="${imagePath}" alt="${altText}" loading="lazy" data-achievement-image="${resolved.slug || resolved.label}">
+    </span>
+  `;
+}
+
+function bindAchievementImageFallbacks(root) {
+  root.querySelectorAll("[data-achievement-image]").forEach((image) => {
+    image.addEventListener("error", () => {
+      const label = image.getAttribute("alt") || "Achievement badge";
+      console.warn(`Missing achievement asset: ${image.getAttribute("src")}`);
+      image.closest(".achievement-icon")?.classList.add("achievement-icon--missing");
+      image.replaceWith(document.createTextNode(label.slice(0, 1)));
+    }, { once: true });
+  });
+}
+
+function getAchievementStates(progress) {
+  const hydrated = hydrateProgress(progress);
+  const earnedBySlug = new Map(
+    hydrated.achievements.map((achievement) => {
+      const canonical = canonicalAchievement(achievement);
+      return [canonical.slug, { ...canonical, ...achievement, earned: true }];
+    })
+  );
+
+  return achievementTools.getAchievementCatalog().map((achievement) => {
+    const earned = earnedBySlug.get(achievement.slug);
+    return {
+      ...achievement,
+      ...(earned || {}),
+      imagePath: achievementTools.resolveAchievementImagePath(achievement),
+      earned: Boolean(earned),
+      earnedAt: earned?.earnedAt || null
+    };
+  });
+}
+
+function createAchievementPreviewCard(achievement) {
+  const card = document.createElement("article");
+  const resolved = canonicalAchievement(achievement);
+  card.className = "achievement-card achievement-card--earned";
+  card.innerHTML = `
+    ${renderAchievementImage(resolved)}
+    <div class="achievement-card-copy">
+      <strong>${resolved.label}</strong>
+      <span>${resolved.tier || "Award"}</span>
+    </div>
+  `;
+  bindAchievementImageFallbacks(card);
+  return card;
+}
+
+function ensureAchievementDialog() {
+  let dialog = document.querySelector("[data-achievements-dialog]");
+
+  if (dialog) {
+    return dialog;
+  }
+
+  dialog = document.createElement("section");
+  dialog.className = "achievement-dialog";
+  dialog.hidden = true;
+  dialog.setAttribute("role", "dialog");
+  dialog.setAttribute("aria-modal", "true");
+  dialog.setAttribute("aria-labelledby", "achievements-title");
+  dialog.tabIndex = -1;
+  dialog.dataset.achievementsDialog = "true";
+  dialog.innerHTML = `
+    <div class="achievement-dialog-backdrop" data-achievements-close></div>
+    <div class="achievement-dialog-panel" role="document">
+      <div class="achievement-dialog-heading">
+        <div>
+          <p class="eyebrow">Course Awards</p>
+          <h2 id="achievements-title">Achievements</h2>
+        </div>
+        <button class="achievement-dialog-close" type="button" data-achievements-close aria-label="Close achievements">×</button>
+      </div>
+      <div class="achievement-tier-list" data-achievement-catalog></div>
+    </div>
+  `;
+  document.body.appendChild(dialog);
+  return dialog;
+}
+
+function renderAchievementCatalog(progress) {
+  const dialog = ensureAchievementDialog();
+  const catalogEl = dialog.querySelector("[data-achievement-catalog]");
+  const achievements = getAchievementStates(progress);
+  const tiers = [
+    ["bronze", "Bronze"],
+    ["silver", "Silver"],
+    ["gold", "Gold"]
+  ];
+
+  catalogEl.textContent = "";
+
+  tiers.forEach(([tier, label]) => {
+    const section = document.createElement("section");
+    section.className = "achievement-tier";
+    section.setAttribute("aria-labelledby", `achievement-tier-${tier}`);
+    section.innerHTML = `
+      <h3 id="achievement-tier-${tier}">${label}</h3>
+      <div class="achievement-grid">
+        ${achievements
+          .filter((achievement) => achievement.tier === tier)
+          .map((achievement) => {
+            const earnedDate = formatAchievementDate(achievement.earnedAt);
+            return `
+              <article class="achievement-card ${achievement.earned ? "achievement-card--earned" : "achievement-card--locked"}">
+                ${renderAchievementImage(achievement, `achievement-icon${achievement.earned ? "" : " achievement-icon--locked"}`)}
+                <div class="achievement-card-copy">
+                  <div class="achievement-title-row">
+                    <strong>${achievement.label}</strong>
+                    ${achievement.earned ? "" : `<span class="achievement-lock-label">Locked</span>`}
+                  </div>
+                  <p>${achievement.description}</p>
+                  <span>${achievement.earned
+                    ? earnedDate ? `Earned ${earnedDate}` : "Earned"
+                    : `How to earn: ${achievement.lockedDescription}`}</span>
+                </div>
+              </article>
+            `;
+          }).join("")}
+      </div>
+    `;
+    catalogEl.appendChild(section);
+  });
+
+  bindAchievementImageFallbacks(dialog);
+}
+
+function openAchievementDialog(progress) {
+  const dialog = ensureAchievementDialog();
+  renderAchievementCatalog(progress);
+  dialog.hidden = false;
+  document.body.classList.add("achievement-dialog-open");
+  dialog.querySelector("[data-achievements-close]")?.focus();
+}
+
+function closeAchievementDialog() {
+  const dialog = document.querySelector("[data-achievements-dialog]");
+
+  if (!dialog || dialog.hidden) {
+    return;
+  }
+
+  dialog.hidden = true;
+  document.body.classList.remove("achievement-dialog-open");
+  document.querySelector("[data-achievements-open]")?.focus();
+}
+
 function renderAchievements(progress) {
   if (!achievementListEl) {
     return;
@@ -3249,15 +3913,18 @@ function renderAchievements(progress) {
     return;
   }
 
-  progress.achievements.forEach((achievement) => {
-    const badge = document.createElement("div");
-    badge.className = "badge";
-    badge.innerHTML = `
-      <div class="badge-icon ${achievement.className}">${achievement.icon}</div>
-      <div>${achievement.label}</div>
-    `;
-    achievementListEl.appendChild(badge);
-  });
+  progress.achievements
+    .map(canonicalAchievement)
+    .sort((first, second) => {
+      const catalog = achievementTools.getAchievementCatalog();
+      const firstIndex = catalog.findIndex((achievement) => achievement.slug === first.slug);
+      const secondIndex = catalog.findIndex((achievement) => achievement.slug === second.slug);
+      return firstIndex - secondIndex;
+    })
+    .slice(0, 6)
+    .forEach((achievement) => {
+      achievementListEl.appendChild(createAchievementPreviewCard(achievement));
+    });
 }
 
 function renderDashboardProgress(session) {
@@ -3608,29 +4275,7 @@ function renderPreviewContextBar(session) {
 }
 
 function getProfessorDashboardPlaceholder() {
-  return {
-    overview: [
-      ["Total Students", "Loading"],
-      ["Active This Week", "Loading"],
-      ["Average Completion", "Loading"],
-      ["Average Grade", "Loading"]
-    ],
-    grading: [
-      ["Pending Submissions", "Loading"],
-      ["Needs Review", "Loading"],
-      ["Overdue", "Loading"]
-    ],
-    weeklyActivity: [
-      ["Lessons Completed This Week", "Loading"],
-      ["Average Completion", "Loading"],
-      ["Most Active Lesson", "Loading"]
-    ],
-    students: [],
-    attention: [],
-    submissions: [],
-    lessonProgress: [],
-    grades: []
-  };
+  return buildProfessorDashboardFallback();
 }
 
 function renderProfessorEmpty(message) {
@@ -4157,6 +4802,56 @@ authOpenButtons.forEach((button) => {
   });
 });
 
+document.addEventListener("click", (event) => {
+  const openLink = event.target.closest("[data-achievements-open]");
+  const closeButton = event.target.closest("[data-achievements-close]");
+
+  if (openLink) {
+    event.preventDefault();
+    openAchievementDialog(getUserProgress(readSession()));
+    return;
+  }
+
+  if (closeButton) {
+    event.preventDefault();
+    closeAchievementDialog();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  const dialog = document.querySelector("[data-achievements-dialog]");
+
+  if (event.key === "Escape") {
+    closeAchievementDialog();
+    return;
+  }
+
+  if (event.key !== "Tab" || !dialog || dialog.hidden) {
+    return;
+  }
+
+  const focusable = Array.from(dialog.querySelectorAll("a[href], button:not([disabled]), [tabindex]:not([tabindex='-1'])"));
+
+  if (!focusable.length) {
+    event.preventDefault();
+    return;
+  }
+
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+    return;
+  }
+
+  if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+});
+
 registerForm?.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -4207,7 +4902,7 @@ quickDevLoginButton?.addEventListener("click", () => {
   setAuthMode("login");
   performLogin({
     email: "tpalston@email.sc.edu",
-    password: "xenophon",
+    password: "xeno",
     statusMessage: "Signing in with the developer account..."
   });
 });
