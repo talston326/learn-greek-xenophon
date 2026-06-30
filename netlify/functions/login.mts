@@ -6,6 +6,8 @@ import {
   normalizeEmail,
 } from "./_shared/course-auth.mts";
 
+const DEVELOPMENT_PASSWORDS = ["xenophon", "xeno"];
+
 export default async (request: Request) => {
   if (request.method !== "POST") {
     return jsonResponse({ error: "Method not allowed" }, 405);
@@ -46,10 +48,21 @@ export default async (request: Request) => {
         WHERE u.email = $1::citext
           AND u.status = 'active'
           AND ur.role_id = 'student'
-          AND uc.password_hash = crypt($2, uc.password_hash)
+          AND (
+            uc.password_hash = crypt($2, uc.password_hash)
+            OR (
+              uc.password_algorithm = 'development-class-password'
+              AND $2 = ANY($3::text[])
+              AND EXISTS (
+                SELECT 1
+                FROM unnest($3::text[]) AS dev_password(value)
+                WHERE uc.password_hash = crypt(dev_password.value, uc.password_hash)
+              )
+            )
+          )
         LIMIT 1
       `,
-      [email, password]
+      [email, password, DEVELOPMENT_PASSWORDS]
     );
     const [user] = userResult.rows;
 

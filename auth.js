@@ -1,7 +1,7 @@
 (function () {
   const SESSION_STORAGE_KEY = "learn-greek-session";
   const ACCOUNT_PASSWORD_STORAGE_KEY = "learn-greek-visible-passwords";
-  const DEV_CLASS_PASSWORD = "xeno";
+  const DEV_CLASS_PASSWORD = "xenophon";
   const DEV_CLASS_PASSWORD_MESSAGE =
     "For this development version, please use the class password provided by the instructor.";
 
