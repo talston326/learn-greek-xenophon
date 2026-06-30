@@ -286,8 +286,8 @@ export async function buildProgress(
   const progressMetrics = {
     ...storedMetrics,
     completedLessons,
-    lessonsCompleted:
-      Number((storedMetrics as { lessonsCompleted?: unknown }).lessonsCompleted) || completedLessonsCount,
+    lessonsCompleted: completedLessonsCount,
+    completionPercent: Math.round((completedLessonsCount / totalLessonsCount) * 100),
     quizzesPassed:
       Number((storedMetrics as { quizzesPassed?: unknown }).quizzesPassed) || passedQuizzes.size,
     vocabularyMastered: Math.max(
@@ -303,11 +303,8 @@ export async function buildProgress(
   const earnedAchievements = achievementTools.computeEarnedAchievements(progressMetrics);
   const lockedAchievements = achievementTools.getLockedAchievements(progressMetrics);
   const achievementCatalog = achievementTools.getAchievementCatalog();
-  const displayCompletedLessonsCount =
-    Number((storedMetrics as { lessonsCompleted?: unknown }).lessonsCompleted) || completedLessonsCount;
-  const displayCompletionPercent =
-    Number((storedMetrics as { completionPercent?: unknown }).completionPercent) ||
-    Math.round((displayCompletedLessonsCount / totalLessonsCount) * 100);
+  const displayCompletedLessonsCount = completedLessonsCount;
+  const displayCompletionPercent = progressMetrics.completionPercent;
 
   return {
     currentLessonId,
