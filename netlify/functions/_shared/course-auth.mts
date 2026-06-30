@@ -6,7 +6,7 @@ const { Client } = pg;
 const require = createRequire(import.meta.url);
 const achievementTools = require("../../../achievement-catalog.js");
 
-export const DEV_CLASS_PASSWORD = "xeno";
+export const DEV_CLASS_PASSWORD = "xenophon";
 export const DEV_CLASS_PASSWORD_MESSAGE =
   "For this development version, please use the class password provided by the instructor.";
 
