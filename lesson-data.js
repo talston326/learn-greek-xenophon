@@ -5047,15 +5047,15 @@
     "lesson-1": {
       id: "lesson-1",
       number: 1,
-      title: "Socrates Teaches",
-      greekTitle: "Ὁ Σωκράτης διδάσκει",
+      title: "Xenophon at Home",
+      greekTitle: "Ὁ Ξενοφῶν ἐν τῷ οἴκῳ",
       scope: "Nominative singular, accusative singular, present active indicative, definite article, basic noun/adjective agreement",
-      theme: "Socrates as teacher; Xenophon as student; the beginning of philosophical education",
+      theme: "Young Xenophon at home with Gryllus, his mother, and the horse",
       module: "σοφία — Wisdom and Socrates",
       banner: {
         image: "assets/module-1-sophia-banner.jpeg",
-        alt: "A classical Athenian scene representing Socrates teaching in the agora",
-        caption: "ὁ Σωκράτης διδάσκει, ὁ δὲ Ξενοφῶν ἀκούει."
+        alt: "A classical Greek household scene with Xenophon and a horse",
+        caption: "ὁ Ξενοφῶν τὸν ἵππον θεραπεύει."
       },
       pages: [
         {
@@ -5148,34 +5148,60 @@
         }
       ],
       reading: {
-        title: "Ὁ Σωκράτης διδάσκει",
+        title: "Ὁ Ξενοφῶν ἐν τῷ οἴκῳ",
         paragraphs: [
           {
-            greek: "ὁ Σωκράτης Ἀθηναῖός ἐστιν. οἰκεῖ δὲ ἐν ταῖς Ἀθήναις καὶ πολλάκις ἐν τῇ ἀγορᾷ βαδίζει. οὐ γράφει βιβλίον, ἀλλὰ διδάσκει τὸν ἄνθρωπον καὶ τὸν νεανίαν. ὁ Ξενοφῶν νέος ἐστιν καὶ φιλεῖ τὴν σοφίαν. ὁρᾷ οὖν τὸν Σωκράτη καὶ ἀκούει τὸν λόγον. ὁ Σωκράτης λέγει· “ὁ καλὸς ἄνθρωπος οὐ μόνον σῶμα γυμνάζει, ἀλλὰ καὶ ψυχὴν παιδεύει. ἡ ἀρετὴ καλὴ ἐστιν, ἡ δὲ ἀδικία κακή.” ὁ Ξενοφῶν θαυμάζει καὶ χαίρει. “ὁ λόγος καλός ἐστιν,” λέγει. ὁ δὲ Σωκράτης μειδιᾷ καὶ πάλιν διδάσκει. ἀεὶ γὰρ ζητεῖ τὴν ἀλήθειαν καὶ τὸν μαθητὴν ἐγείρει.",
+            greek: "ὁ Ξενοφῶν νέος ἐστιν. οἰκεῖ δὲ οὐκ ἐν ταῖς Ἀθήναις, ἀλλὰ ἐν τῇ Ἐρχίᾳ. ὁ οἶκος ἐπὶ λόφου ἐστίν. καλός ἐστιν ὁ οἶκος, καὶ ἐλαῖαι περὶ τὸν οἶκόν εἰσιν. ὁ Γρύλλος πατὴρ αὐτοῦ ἐστιν. Ἀθηναῖος ἱππεύς ἐστιν· ἐν γὰρ τῷ ἱππικῷ τῶν Ἀθηναίων ἐστίν. ἔχει οὖν ἵππον καλὸν καὶ ἰσχυρόν. ὁ Ξενοφῶν τὸν ἵππον θεραπεύει. φέρει ὕδωρ καὶ σῖτον πρὸς τὸν ἵππον. ὁ Γρύλλος βλέπει πρὸς τὸν υἱὸν καὶ λέγει· “καλῶς ποιεῖς, ὦ παῖ. ὁ ἀγαθὸς ἱππεὺς τὸν ἵππον θεραπεύει.”",
             gloss: [
-              { greek: "Ἀθηναῖος", english: "Athenian" },
+              { greek: "οὐκ ... ἀλλά", english: "not ... but" },
               { greek: "ἐν", english: "in" },
-              { greek: "ταῖς Ἀθήναις", english: "Athens" },
-              { greek: "πολλάκις", english: "often" },
-              { greek: "ἀγορά, ἡ", english: "marketplace, agora" },
-              { greek: "τῇ ἀγορᾷ", english: "in the agora" },
-              { greek: "οὐ", english: "not" },
-              { greek: "ἀλλά", english: "but" },
-              { greek: "καί", english: "and, also" },
-              { greek: "τόν / τήν / τό", english: "the; accusative singular forms" },
+              { greek: "Ἐρχία", english: "Erchia" },
+              { greek: "ἐπί", english: "on" },
+              { greek: "λόφος, ὁ", english: "hill" },
+              { greek: "περί", english: "around" },
+              { greek: "Γρύλλος, ὁ", english: "Gryllus" },
+              { greek: "πατήρ, ὁ", english: "father" },
+              { greek: "Ἀθηναῖος ἱππεύς", english: "Athenian horseman" },
+              { greek: "ἵππος, ὁ", english: "horse" },
+              { greek: "ἰσχυρός", english: "strong" },
+              { greek: "θεραπεύει", english: "tends, takes care of" },
+              { greek: "ὕδωρ, τό", english: "water" },
+              { greek: "σῖτος, ὁ", english: "grain" },
+              { greek: "πρός", english: "toward, to" },
+              { greek: "υἱός, ὁ", english: "son" },
+              { greek: "καλῶς ποιεῖς", english: "you are doing well" },
+              { greek: "ὦ παῖ", english: "O child, boy" },
               { greek: "ὁ / ἡ / τό", english: "the; nominative singular forms" },
-              { greek: "δέ", english: "and, but" },
-              { greek: "οὖν", english: "therefore, so" },
-              { greek: "λόγος, ὁ", english: "word, speech, account, argument" },
-              { greek: "μόνον", english: "only" },
-              { greek: "πάλιν", english: "again" },
-              { greek: "ἀεί", english: "always" },
-              { greek: "γάρ", english: "for, because" },
-              { greek: "ἀδικία, ἡ", english: "injustice" }
+              { greek: "τόν / τήν / τό", english: "the; accusative singular forms" }
+            ]
+          },
+          {
+            greek: "ἡ μήτηρ ἐν τῇ θύρᾳ μένει καὶ τὸν ἄνδρα καλεῖ· “ἐλθὲ δεῦρο, ὦ Γρύλλε. τὸ δεῖπνον πάρεστιν.” καλεῖ δὲ καὶ τὸν Ξενοφῶντα· “ἐλθὲ καὶ σύ, ὦ παῖ.” ὁ δὲ πατὴρ λέγει τῷ υἱῷ· “ἄγε τὸν ἵππον πρὸς τὸν ἀγρόν, εἶτα ἐλθέ.” ὁ μὲν οὖν Γρύλλος πρὸς τὴν θύραν βαδίζει. ὁ δὲ Ξενοφῶν λύει τὸν ἵππον καὶ ἄγει αὐτὸν πρὸς τὸν ἀγρόν. τὸν κύνα καλεῖ. ὁ κύων ὑλακτεῖ καὶ ἕπεται. τέλος δὲ ὁ νεανίας πρὸς τὸν οἶκον βαδίζει καὶ χαίρει.",
+            gloss: [
+              { greek: "μήτηρ, ἡ", english: "mother" },
+              { greek: "θύρα, ἡ", english: "door" },
+              { greek: "μένει", english: "stays, remains" },
+              { greek: "ἀνήρ, ὁ", english: "man, husband" },
+              { greek: "καλεῖ", english: "calls" },
+              { greek: "δεῦρο", english: "here" },
+              { greek: "τὸ δεῖπνον πάρεστιν", english: "dinner is ready" },
+              { greek: "Ξενοφῶντα", english: "Xenophon, accusative" },
+              { greek: "ἄγε", english: "lead!" },
+              { greek: "ἀγρός, ὁ", english: "field" },
+              { greek: "εἶτα", english: "then" },
+              { greek: "βαδίζει", english: "walks" },
+              { greek: "λύει", english: "unties" },
+              { greek: "ἄγει", english: "leads" },
+              { greek: "κύων, ὁ", english: "dog" },
+              { greek: "ὑλακτεῖ", english: "barks" },
+              { greek: "ἕπεται", english: "follows" },
+              { greek: "χαίρει", english: "rejoices" },
+              { greek: "ὁ / ἡ / τό", english: "the; nominative singular forms" },
+              { greek: "τόν / τήν / τό", english: "the; accusative singular forms" }
             ]
           }
         ],
-        translation: "Socrates is an Athenian. He lives in Athens and often walks in the agora. He does not write a book, but teaches the man and the young man. Xenophon is young and loves wisdom. So he sees Socrates and listens to the speech. Socrates says, “The good man trains not only the body, but also educates the soul. Virtue is beautiful and good, but injustice is bad.” Xenophon is amazed and rejoices. “The speech is good,” he says. And Socrates smiles and teaches again. For he always seeks the truth and awakens the student."
+        translation: "Xenophon is young. He does not live in Athens, but in Erchia. The house is on a hill. The house is beautiful, and olive trees are around the house. Gryllus is his father. He is an Athenian horseman, for he is in the cavalry of the Athenians. Therefore he has a beautiful and strong horse. Xenophon tends the horse. He carries water and grain to the horse. Gryllus looks toward his son and says, “You are doing well, boy. The good horseman tends the horse.”\n\nThe mother stays in the doorway and calls her husband: “Come here, Gryllus. Dinner is ready.” She also calls Xenophon: “Come too, boy.” The father says to his son, “Lead the horse to the field, then come.” So Gryllus walks toward the door. Xenophon unties the horse and leads it toward the field. He calls the dog. The dog barks and follows. Finally the young man walks toward the house and rejoices."
       },
       wordStudy: {
         label: "Word Builder: φιλεῖ + σοφία",
@@ -5621,7 +5647,7 @@
           ]
         },
         "lesson-quiz": {
-          title: "Lesson 1 Quiz — Socrates Teaches",
+          title: "Lesson 1 Quiz — Xenophon at Home",
           threshold: 80,
           questions: [
             {

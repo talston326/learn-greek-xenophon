@@ -240,7 +240,7 @@ WITH course AS (
 seed_lessons(module_slug, slug, number_label, title, grammar_focus, page_url, sort_order) AS (
   VALUES
     ('intro', 'intro-1', 'Intro 1', 'What is Ancient Greek?', 'Alphabet overview, historical context', 'lesson-introduction.html#intro-part-1', 1),
-    ('module-1', 'lesson-1', 'Lesson 1', 'Socrates Teaches', 'Nominative singular, accusative singular, present active indicative', 'lessons.html#lesson-1', 1),
+    ('module-1', 'lesson-1', 'Lesson 1', 'Xenophon at Home', 'Nominative singular, accusative singular, present active indicative, definite article, basic noun/adjective agreement', 'lessons.html#lesson-1', 1),
     ('module-1', 'lesson-2', 'Lesson 2', 'The Wise Man Knows Himself', 'First and second declension nouns, definite article, εἰμί', 'lessons.html#lesson-2', 2),
     ('module-1', 'lesson-3', 'Lesson 3', 'What is Wisdom?', 'Present tense system, predicate nouns, basic sentence structure', 'lessons.html#lesson-3', 3),
     ('module-1', 'lesson-4', 'Lesson 4', 'The Student and the Teacher', 'First declension nouns, agreement, subject-object relationships', 'lesson-4-first-declension.html', 4),
