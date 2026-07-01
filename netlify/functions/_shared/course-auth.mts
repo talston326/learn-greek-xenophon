@@ -1,10 +1,8 @@
 import "dotenv/config";
-import { createRequire } from "node:module";
+import achievementTools from "../../../achievement-catalog.js";
 import pg from "pg";
 
 const { Client } = pg;
-const require = createRequire(import.meta.url);
-const achievementTools = require("../../../achievement-catalog.js");
 
 export const DEV_CLASS_PASSWORD = "xenophon";
 export const DEV_CLASS_PASSWORD_MESSAGE =

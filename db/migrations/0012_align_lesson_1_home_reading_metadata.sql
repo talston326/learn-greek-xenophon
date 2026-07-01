@@ -8,6 +8,29 @@ SET title = 'Xenophon at Home',
     grammar_focus = 'Nominative singular, accusative singular, present active indicative, definite article, basic noun/adjective agreement'
 WHERE slug = 'lesson-1';
 
+WITH lesson AS (
+  SELECT id FROM public.lessons WHERE slug = 'lesson-1'
+)
+UPDATE public.lesson_content_overrides o
+SET content = jsonb_set(
+    jsonb_set(
+      jsonb_set(
+        jsonb_set(o.content, '{banner,image}', to_jsonb('assets/lesson-1-banner.png?v=xenophon-home-20260701'::text), true),
+        '{banner,alt}',
+        to_jsonb('A classical Greek household scene with Xenophon, Gryllus, a horse, and his mother at home'::text),
+        true
+      ),
+      '{banner,text}',
+      to_jsonb('Ὁ Ξενοφῶν ἐν τῷ οἴκῳ'::text),
+      true
+    ),
+    '{banner,caption}',
+    to_jsonb('ὁ Ξενοφῶν τὸν ἵππον θεραπεύει.'::text),
+    true
+  )
+FROM lesson
+WHERE o.lesson_id = lesson.id;
+
 CREATE TEMP TABLE lesson_1_home_reading_alignment AS
 SELECT
   $translation$Xenophon is young. He does not live in Athens, but in Erchia. The house is on a hill. The house is beautiful, and olive trees are around the house. Gryllus is his father. He is an Athenian horseman, for he is in the cavalry of the Athenians. Therefore he has a beautiful and strong horse. Xenophon tends the horse. He carries water and grain to the horse. Gryllus looks toward his son and says, “You are doing well, boy. The good horseman tends the horse.”

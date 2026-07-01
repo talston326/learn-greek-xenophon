@@ -5053,7 +5053,7 @@
       theme: "Young Xenophon at home with Gryllus, his mother, and the horse",
       module: "σοφία — Wisdom and Socrates",
       banner: {
-        image: "assets/module-1-sophia-banner.jpeg",
+        image: "assets/lesson-1-banner.png?v=xenophon-home-20260701",
         alt: "A classical Greek household scene with Xenophon and a horse",
         caption: "ὁ Ξενοφῶν τὸν ἵππον θεραπεύει."
       },
