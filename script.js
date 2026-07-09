@@ -1242,6 +1242,7 @@ const ROLE_DASHBOARDS = {
       ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
+      ["📁", "Resources", "resources.html"],
       ["✉", "Feedback", "feedback.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
@@ -1265,6 +1266,7 @@ const ROLE_DASHBOARDS = {
       ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
+      ["📁", "Resources", "resources.html"],
       ["✉", "Feedback", "feedback.html"],
       ["💬", "Discussions", "#"],
       ["⚙️", "Settings", "#"],
@@ -1286,6 +1288,7 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
+      ["📁", "Resources", "resources.html"],
       ["👤", "Profile", "profile.html"],
       ["✉", "Feedback", "feedback.html"],
       ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
@@ -2924,6 +2927,42 @@ function hydrateProgress(progress = {}) {
     fullCourseCompleted: Boolean(progress.fullCourseCompleted || progress.metrics?.fullCourseCompleted)
   };
 
+  const principalPartsSummary = window.xenophonPrincipalPartsProgress?.getSummary?.();
+
+  if (principalPartsSummary?.hasActivity) {
+    const metrics = {
+      ...hydrated.metrics
+    };
+    const practiceSessions = Number(metrics.practiceSessions || hydrated.practiceCompleted || 0);
+    const activityEvents = Number(metrics.activityEvents || hydrated.recentActivity.length || 0);
+    const perfectScoreCount = Number(metrics.perfectScoreCount || 0);
+
+    metrics.practiceSessions = practiceSessions + principalPartsSummary.practiceSessions;
+    metrics.activityEvents = activityEvents + principalPartsSummary.recentActivity.length;
+    metrics.perfectScoreCount = perfectScoreCount + principalPartsSummary.perfectSessions;
+    metrics.principalPartsIntroViewed = principalPartsSummary.viewedIntro;
+    metrics.principalPartsVerbsStudied = principalPartsSummary.studiedVerbCount;
+    metrics.principalPartsPracticeSessions = principalPartsSummary.practiceSessions;
+    metrics.principalPartsPerfectSessions = principalPartsSummary.perfectSessions;
+    metrics.principalPartsIrregularCorrectCount = principalPartsSummary.irregularCorrectCount;
+
+    hydrated.metrics = metrics;
+    hydrated.practiceCompleted = metrics.practiceSessions;
+    hydrated.xp += principalPartsSummary.xp;
+    hydrated.recentActivity = [
+      ...principalPartsSummary.recentActivity,
+      ...hydrated.recentActivity
+    ].slice(0, 5);
+
+    const resourceLevel = achievementTools.getLevelForXp(hydrated.xp);
+    const resourceNextLevel = achievementTools.getNextLevelForXp(hydrated.xp);
+    hydrated.level = resourceLevel.number;
+    hydrated.levelLabel = resourceLevel.label;
+    hydrated.nextLevelXp = resourceNextLevel.xpRequired;
+    hydrated.nextLevelLabel = resourceNextLevel.number === resourceLevel.number ? "" : resourceNextLevel.label;
+    hydrated.maxLevelReached = resourceNextLevel.number === resourceLevel.number && hydrated.xp >= resourceLevel.xpRequired;
+  }
+
   const catalog = achievementTools.getAchievementCatalog();
   const legacyAchievementAliases = new Map([
     ["Grammar Novice", "parsing-apprentice"],
@@ -4315,7 +4354,8 @@ function renderNav(roleConfig, session = readSession()) {
       (!action && href === currentPage) ||
       (!action && currentPage === "index.html" && index === 0) ||
       ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
-      (currentPage === "activity.html" && href === "flashcards.html")
+      (currentPage === "activity.html" && href === "flashcards.html") ||
+      ((currentPage === "resources.html" || currentPage.startsWith("principal-parts")) && href === "resources.html")
     ) {
       link.classList.add("active");
     }

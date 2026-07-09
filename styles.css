@@ -3952,6 +3952,167 @@
       margin-left: 10px;
     }
 
+    .resources-grid,
+    .principal-parts-shell {
+      display: grid;
+      gap: 18px;
+    }
+
+    .resources-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      align-items: start;
+    }
+
+    .resource-card {
+      min-height: 100%;
+    }
+
+    .principal-parts-hero {
+      --hero-banner-position: center 38%;
+    }
+
+    .principal-parts-copy {
+      max-width: 900px;
+    }
+
+    .principal-parts-actions,
+    .principal-parts-practice-actions,
+    .principal-parts-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .principal-parts-links {
+      margin-top: 14px;
+    }
+
+    .principal-parts-table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .principal-parts-table {
+      width: 100%;
+      min-width: 860px;
+      border-collapse: collapse;
+    }
+
+    .principal-parts-table--single {
+      min-width: 620px;
+    }
+
+    .principal-parts-table th,
+    .principal-parts-table td {
+      border-bottom: 1px solid rgba(111,102,95,.16);
+      border-right: 1px solid rgba(111,102,95,.12);
+      padding: 13px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .principal-parts-table th:last-child,
+    .principal-parts-table td:last-child {
+      border-right: 0;
+    }
+
+    .principal-parts-table tr:last-child th,
+    .principal-parts-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .principal-parts-table thead th {
+      background: rgba(115,0,10,.08);
+      color: var(--usc-garnet);
+      font-size: .92rem;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .principal-parts-table tbody th {
+      width: 130px;
+      background: rgba(250,246,240,.56);
+    }
+
+    .principal-parts-verb-link {
+      color: var(--usc-garnet);
+      font-size: 1.12rem;
+      font-weight: 800;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .principal-parts-form {
+      display: block;
+      color: #2e2824;
+      font-size: 1.12rem;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .principal-parts-translation {
+      display: block;
+      color: #5f5650;
+      font-size: .92rem;
+      font-style: italic;
+      line-height: 1.35;
+      margin-top: 4px;
+    }
+
+    .principal-parts-empty {
+      color: #8a7e74;
+      font-weight: 800;
+    }
+
+    .principal-parts-verb-study .lesson-section__header {
+      align-items: flex-start;
+    }
+
+    .principal-parts-score {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      color: #443b35;
+      font-weight: 800;
+      margin: 12px 0;
+    }
+
+    .principal-parts-score span {
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 12px;
+      background: rgba(250,246,240,.74);
+      padding: 8px 12px;
+    }
+
+    .principal-parts-prompt {
+      display: grid;
+      place-items: center;
+      min-height: 132px;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 16px;
+      background: linear-gradient(145deg, rgba(255,255,255,.96), rgba(250,246,240,.82));
+      color: var(--usc-garnet);
+      font-size: clamp(2.4rem, 7vw, 5.2rem);
+      font-weight: 800;
+      margin: 18px 0;
+      padding: 18px;
+      text-align: center;
+    }
+
+    .principal-parts-practice-card form {
+      display: grid;
+      gap: 14px;
+    }
+
+    .principal-parts-question-group legend {
+      font-size: 1.05rem;
+    }
+
     .translation-builder {
       border: 1px dashed rgba(115,0,10,.25);
       border-radius: 14px;
@@ -6866,6 +7027,67 @@
         justify-content: center;
         flex-wrap: wrap;
       }
+      .resources-grid {
+        grid-template-columns: 1fr;
+      }
+      .principal-parts-actions,
+      .principal-parts-practice-actions,
+      .principal-parts-links {
+        width: 100%;
+      }
+      .principal-parts-actions .primary-button,
+      .principal-parts-actions .secondary-button,
+      .principal-parts-practice-actions .primary-button,
+      .principal-parts-practice-actions .secondary-button {
+        width: 100%;
+      }
+      .principal-parts-table-wrap {
+        border: 0;
+        background: transparent;
+        overflow: visible;
+      }
+      .principal-parts-table,
+      .principal-parts-table tbody,
+      .principal-parts-table tr,
+      .principal-parts-table th,
+      .principal-parts-table td {
+        display: block;
+        width: 100%;
+        min-width: 0;
+      }
+      .principal-parts-table thead {
+        display: none;
+      }
+      .principal-parts-table tr {
+        border: 1px solid rgba(115,0,10,.12);
+        border-radius: 16px;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(55,38,22,.08);
+        margin-bottom: 12px;
+        overflow: hidden;
+      }
+      .principal-parts-table tbody th,
+      .principal-parts-table td {
+        border-right: 0;
+        border-bottom: 1px solid rgba(111,102,95,.14);
+        padding: 12px;
+      }
+      .principal-parts-table tbody th {
+        background: rgba(115,0,10,.08);
+        color: var(--usc-garnet);
+      }
+      .principal-parts-table td::before {
+        content: attr(data-label);
+        display: block;
+        color: #756a62;
+        font-size: .78rem;
+        font-weight: 800;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+      }
+      .principal-parts-prompt {
+        min-height: 104px;
+      }
       body.dashboard-active {
         background: #f5f1ea;
       }
@@ -6885,7 +7107,9 @@
       }
       body.dashboard-active.course-introduction-page .main,
       body.dashboard-active.feedback-page .main,
-      body.dashboard-active.dictionary-page .main {
+      body.dashboard-active.dictionary-page .main,
+      body.dashboard-active.resources-page .main,
+      body.dashboard-active.principal-parts-page .main {
         padding: 16px;
       }
       body.dashboard-active .main > :not(.mobile-practice) {
@@ -6907,6 +7131,10 @@
         display: block !important;
       }
       body.dashboard-active.dictionary-page .main > :not(.mobile-practice) {
+        display: grid !important;
+      }
+      body.dashboard-active.resources-page .main > :not(.mobile-practice),
+      body.dashboard-active.principal-parts-page .main > :not(.mobile-practice) {
         display: grid !important;
       }
       body.dashboard-active.lesson-template-page .main > :not(.mobile-practice),

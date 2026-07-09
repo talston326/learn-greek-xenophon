@@ -104,6 +104,16 @@
       lockedDescription: "Earn one perfect score."
     },
     {
+      slug: "principal-parts-beginner",
+      label: "Principal Parts Beginner",
+      tier: "bronze",
+      sortOrder: 9,
+      description: "Completed a first Principal Parts practice session.",
+      imageFilename: "Bronze-5-First-Practice-Session.png",
+      criteria: { principalPartsPracticeSessions: 1 },
+      lockedDescription: "Complete one Principal Parts practice session."
+    },
+    {
       slug: "one-hundred-words-mastered",
       label: "100 Words Mastered",
       tier: "silver",
@@ -134,6 +144,16 @@
       lockedDescription: "Pass five parsing exercises."
     },
     {
+      slug: "verb-scholar",
+      label: "Verb Scholar",
+      tier: "silver",
+      sortOrder: 3.5,
+      description: "Studied all listed Principal Parts verbs.",
+      imageFilename: "Silver-3-Parsing-Apprentice.png",
+      criteria: { principalPartsVerbsStudied: 11 },
+      lockedDescription: "Open every Principal Parts verb study page."
+    },
+    {
       slug: "reader-of-greek",
       label: "Reader of Greek",
       tier: "silver",
@@ -162,6 +182,16 @@
       imageFilename: "Silver-6-20-practice-sessions.png",
       criteria: { practiceSessions: 20 },
       lockedDescription: "Complete twenty practice sessions."
+    },
+    {
+      slug: "irregular-verb-hunter",
+      label: "Irregular Verb Hunter",
+      tier: "silver",
+      sortOrder: 6.5,
+      description: "Correctly identified forms from the main irregular Principal Parts verbs.",
+      imageFilename: "Silver-6-20-practice-sessions.png",
+      criteria: { principalPartsIrregularCorrectCount: 7 },
+      lockedDescription: "Correctly identify forms from seven irregular Principal Parts verbs."
     },
     {
       slug: "ten-perfect-quizzes",
@@ -233,6 +263,16 @@
       imageFilename: "Gold-5-Student-of-Socrates.png",
       criteria: { fullCourseCompleted: true },
       lockedDescription: "Complete the full course through Lesson 48."
+    },
+    {
+      slug: "principal-parts-master",
+      label: "Principal Parts Master",
+      tier: "gold",
+      sortOrder: 6,
+      description: "Scored 100% on a Principal Parts practice session.",
+      imageFilename: "Gold-5-Student-of-Socrates.png",
+      criteria: { principalPartsPerfectSessions: 1 },
+      lockedDescription: "Earn a perfect Principal Parts practice score."
     }
   ];
 
@@ -366,6 +406,11 @@
       readingsCompleted: toNumber(progress.metrics?.readingsCompleted ?? progress.readingsCompleted, 0),
       audioItemsCompleted: toNumber(progress.metrics?.audioItemsCompleted ?? progress.audioItemsCompleted, 0),
       audioLessonsCompleted: toNumber(progress.metrics?.audioLessonsCompleted ?? progress.audioLessonsCompleted, 0),
+      principalPartsIntroViewed: Boolean(progress.metrics?.principalPartsIntroViewed ?? progress.principalPartsIntroViewed),
+      principalPartsVerbsStudied: toNumber(progress.metrics?.principalPartsVerbsStudied ?? progress.principalPartsVerbsStudied, 0),
+      principalPartsPracticeSessions: toNumber(progress.metrics?.principalPartsPracticeSessions ?? progress.principalPartsPracticeSessions, 0),
+      principalPartsPerfectSessions: toNumber(progress.metrics?.principalPartsPerfectSessions ?? progress.principalPartsPerfectSessions, 0),
+      principalPartsIrregularCorrectCount: toNumber(progress.metrics?.principalPartsIrregularCorrectCount ?? progress.principalPartsIrregularCorrectCount, 0),
       activityEvents: toNumber(progress.metrics?.activityEvents ?? progress.activityEvents ?? progress.recentActivity?.length, 0),
       fullCourseCompleted: Boolean(
         progress.metrics?.fullCourseCompleted ||
@@ -401,18 +446,24 @@
         return metrics.streakDays >= 7;
       case "first-perfect-score":
         return metrics.perfectScoreCount >= 1 || metrics.perfectQuizCount >= 1;
+      case "principal-parts-beginner":
+        return metrics.principalPartsPracticeSessions >= 1;
       case "one-hundred-words-mastered":
         return metrics.vocabularyMastered >= 100;
       case "first-translation":
         return metrics.translationExercisesPassed >= 1;
       case "parsing-apprentice":
         return metrics.parsingExercisesPassed >= 5;
+      case "verb-scholar":
+        return metrics.principalPartsVerbsStudied >= 11;
       case "reader-of-greek":
         return metrics.readingsCompleted >= 10 || metrics.completedModules.includes("module-1");
       case "audio-explorer":
         return metrics.audioItemsCompleted >= 10 || metrics.audioLessonsCompleted >= 5;
       case "twenty-practice-sessions":
         return metrics.practiceSessions >= 20;
+      case "irregular-verb-hunter":
+        return metrics.principalPartsIrregularCorrectCount >= 7;
       case "ten-perfect-quizzes":
         return metrics.perfectQuizCount >= 10;
       case "friend-of-athena":
@@ -429,6 +480,8 @@
         return metrics.completedModules.includes("module-4");
       case "student-of-socrates":
         return metrics.fullCourseCompleted;
+      case "principal-parts-master":
+        return metrics.principalPartsPerfectSessions >= 1;
       default:
         return false;
     }

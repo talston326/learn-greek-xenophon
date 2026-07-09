@@ -219,7 +219,26 @@ WCAG 2.1 compliance
 
 ---
 
-# 12. Technology Stack (Proposed)
+# 12. Principal Parts Resource
+
+Principal Parts are integrated as a course resource rather than a standalone mini-site.
+
+## Files
+- `principal-parts-data.js` contains the reusable verb data, categories, forms, translations, notes, and lesson references.
+- `resources.html` is the left-navigation Resources doorway.
+- `principal-parts.html`, `principal-parts-verb.html`, and `principal-parts-practice.html` render the introduction/table, individual verb study view, and randomized practice from the shared data file.
+- `principal-parts-progress.js` records local resource activity for the current user profile.
+
+## Adding Verbs
+Add one verb object to `principal-parts-data.js` with `verbId`, `lemma`, `displayLemma`, `meaning`, `dictionaryMeaning`, `principalParts`, optional `notes`, optional `lessonReferences`, and `irregular` when it should count toward irregular-verb achievements. The table, study route, and practice pool update from that source.
+
+## XP and Progress
+Viewing the Principal Parts resource earns 5 XP once. Studying a verb earns 2 XP once per verb. Completing a five-question practice session earns 8 XP plus 3 XP per correct answer, with a 10 XP perfect-session bonus. Dashboard hydration folds this local resource activity into XP, practice count, recent activity, and achievement calculation.
+
+## Achievements and Assets
+Principal Parts achievements are defined in `achievement-catalog.js`: Principal Parts Beginner, Verb Scholar, Principal Parts Master, and Irregular Verb Hunter. They currently reuse existing course badge images as placeholders; custom badge art can replace those `imageFilename` values later.
+
+# 13. Technology Stack (Proposed)
 
 ## Frontend
 - HTML / CSS / JavaScript  
@@ -236,7 +255,7 @@ WCAG 2.1 compliance
 
 ---
 
-# 13. MVP (Minimum Viable Product)
+# 14. MVP (Minimum Viable Product)
 
 ## Deliverables
 - 4–6 complete lessons  
@@ -249,7 +268,7 @@ WCAG 2.1 compliance
 
 ---
 
-# 14. Development Plan
+# 15. Development Plan
 
 ## Phase 1
 - Define structure  
@@ -270,7 +289,7 @@ WCAG 2.1 compliance
 
 ---
 
-# 15. Future Enhancements
+# 16. Future Enhancements
 
 - Expanded curriculum  
 - Additional authors  
@@ -280,7 +299,7 @@ WCAG 2.1 compliance
 
 ---
 
-# 16. Educational Philosophy
+# 17. Educational Philosophy
 
 This project emphasizes:
 - Learning through context  
@@ -290,7 +309,7 @@ This project emphasizes:
 
 ---
 
-# 17. Open Questions
+# 18. Open Questions
 
 - Which pronunciation system will be used?  
 - How much Plato content should be included?  
@@ -300,6 +319,6 @@ This project emphasizes:
 
 ---
 
-# 18. Notes / Iteration Log
+# 19. Notes / Iteration Log
 
 (Use this section to track ideas, changes, and decisions as the project evolves.)
