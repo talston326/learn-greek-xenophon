@@ -516,7 +516,7 @@
         <table class="grammar-table">
           <thead>
             <tr>
-              ${table.headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}
+              ${table.headers.map((header) => `<th scope="col">${escapeHtml(header)}</th>`).join("")}
             </tr>
           </thead>
           <tbody>

@@ -538,6 +538,7 @@
                 </label>
               `).join("")}
             </div>
+            <p class="topic-choice-feedback" data-quiz-feedback="${questionIndex}" aria-live="polite"></p>
           </fieldset>
         `).join("")}
         <div class="translation-builder" hidden data-translation-builder-placeholder>
@@ -839,16 +840,24 @@
           if (status) {
             status.textContent = "✓";
           }
-          return;
         }
 
-        if (choiceIndex === selectedIndex) {
+        if (!choice.correct && choiceIndex === selectedIndex) {
           label?.classList.add("is-wrong");
           if (status) {
             status.textContent = "×";
           }
         }
       });
+
+      const feedback = form.querySelector(`[data-quiz-feedback="${questionIndex}"]`);
+      const selectedChoice = question.choices[selectedIndex];
+      const isCorrect = Boolean(selectedChoice?.correct);
+      if (feedback && selectedChoice) {
+        feedback.textContent = getChoiceFeedback(question, selectedChoice);
+        feedback.classList.toggle("is-correct", isCorrect);
+        feedback.classList.toggle("is-wrong", !isCorrect);
+      }
     });
   }
 

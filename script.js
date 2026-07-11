@@ -59,7 +59,7 @@ const COURSE_MODULES = [
     introUrl: "module-1-sophia.html",
     lessons: [
       { id: "lesson-1", title: "Xenophon at Home", grammar: "Nominative singular, accusative singular, present active indicative, definite article, noun/adjective agreement" },
-      { id: "lesson-2", title: "The Wise Man Knows Himself", grammar: "First and second declension nouns, definite article, εἰμί" },
+      { id: "lesson-2", title: "The Household of Xenophon", grammar: "Second-declension nouns, adjective agreement, possessive genitives, εἰμί, simple prepositions" },
       { id: "lesson-3", title: "What is Wisdom?", grammar: "Present tense system, predicate nouns, basic sentence structure" },
       { id: "lesson-4", title: "The Student and the Teacher", grammar: "First declension nouns, agreement, subject–object relationships", exerciseIds: ["noun-endings", "agreement", "translation", "quiz"] },
       { id: "lesson-5", title: "Learning Through Questioning", grammar: "Adjectives, agreement, attributive vs predicate position" },

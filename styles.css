@@ -3053,14 +3053,16 @@
       padding: 0;
       margin: 0;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 430px), 1fr));
       column-gap: 28px;
       row-gap: 8px;
     }
 
     .vocab-group li {
-      display: inline;
+      display: flex;
+      flex-wrap: wrap;
       align-items: baseline;
+      min-width: 0;
       color: #443b35;
       font-size: 2rem;
       line-height: 1.28;
@@ -3084,7 +3086,10 @@
     }
 
     .vocab-entry__gloss {
+      flex: 1 1 12rem;
       min-width: 0;
+      max-width: 100%;
+      overflow-wrap: anywhere;
     }
 
     .vocab-audio-button {
@@ -7449,6 +7454,8 @@
       .flashcards-index {
         margin-top: 0;
         padding: 14px;
+        max-width: 100vw;
+        overflow-x: hidden;
       }
       .lesson-hero {
         min-height: 260px;
@@ -7500,9 +7507,21 @@
       .vocab-document {
         grid-template-columns: 1fr;
         row-gap: 12px;
+        max-width: 100%;
       }
       .vocab-group ul {
         grid-template-columns: 1fr;
+        max-width: 100%;
+      }
+      .vocab-document {
+        padding: 16px;
+      }
+      .vocab-group li {
+        max-width: 100%;
+        font-size: 1.18rem;
+      }
+      .vocab-entry__gloss {
+        flex-basis: 100%;
       }
       .lesson-button-row .primary-button,
       .lesson-button-row .secondary-button {
@@ -7515,7 +7534,7 @@
         grid-template-columns: 1fr;
       }
       .vocab-group li {
-        font-size: 2rem;
+        font-size: 1.18rem;
       }
       .flashcard-card {
         min-height: 230px;
