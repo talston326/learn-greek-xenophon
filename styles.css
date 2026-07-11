@@ -8,6 +8,7 @@
       --border: #dfd7cb;
       --text: #2e2824;
       --muted: #6f665f;
+      --reading-gloss-color: #1d4ed8;
       --shadow: 0 10px 28px rgba(55, 38, 22, 0.12);
       --radius: 22px;
     }
@@ -3132,14 +3133,14 @@
       gap: 10px 28px;
       margin: 18px 0 0;
       padding: 12px 0 0;
-      color: #5f534b;
+      color: var(--reading-gloss-color);
       font-size: 2rem;
       line-height: 1.45;
     }
 
     .reading-gloss::before,
     .reading-gloss::after {
-      color: #321f13;
+      color: var(--reading-gloss-color);
       font-weight: 800;
     }
 
@@ -3163,7 +3164,7 @@
     }
 
     .reading-gloss dt {
-      color: #321f13;
+      color: var(--reading-gloss-color);
       font-weight: 800;
     }
 
@@ -3172,7 +3173,7 @@
     }
 
     .reading-gloss dd {
-      color: #5f534b;
+      color: var(--reading-gloss-color);
     }
 
     .translation-toggle {

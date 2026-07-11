@@ -13,6 +13,7 @@
     "verify:dictionary": "node scripts/verify-dictionary-citations.mjs",
     "verify:awards": "node scripts/verify-award-assets.mjs",
     "verify:forms": "node scripts/verify-forms.mjs",
+    "verify:glosses": "node scripts/verify-reading-gloss-style.mjs",
     "verify:lesson2": "node scripts/verify-lesson-2.mjs",
     "verify:lesson3": "node scripts/verify-lesson-3.mjs"
   }
