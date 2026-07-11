@@ -567,6 +567,24 @@
     `;
   }
 
+  function renderGrammarChecks(section) {
+    if (!section.checks?.length) {
+      return "";
+    }
+
+    return `
+      <div class="grammar-checks">
+        <h4>Check Your Understanding</h4>
+        ${section.checks.map((check) => `
+          <details class="grammar-check">
+            <summary>${escapeHtml(check.prompt)}</summary>
+            <p>${escapeHtml(check.answer)}</p>
+          </details>
+        `).join("")}
+      </div>
+    `;
+  }
+
   function renderVocabularyPage() {
     return `
       ${renderSampleNotice()}
@@ -637,6 +655,7 @@
             ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
             ${renderGrammarTables(section)}
             ${renderGrammarFormList(section)}
+            ${renderGrammarChecks(section)}
             ${section.examples?.length ? `
               <div class="grammar-examples">
                 ${section.examples.map((example) => `

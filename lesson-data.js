@@ -4826,7 +4826,7 @@
 
   const LESSON_STUB_MANIFEST = [
     { number: 2, title: "The Household of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian household and farm scene reserved for a Xenophon lesson banner", grammarFocus: "Second-declension nouns, adjective agreement, possessive genitives, εἰμί, and simple prepositions", greekPhrase: "Ἡ οἰκία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household setting with simple grammar for possession, place, movement, and work." },
-    { number: 3, title: "What is Wisdom?", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Present tense system; predicate nouns; basic sentence structure", greekPhrase: "τί ἐστι σοφία; / ὁ Σωκράτης λέγει ὅτι ἡ σοφία ἀγαθόν ἐστιν.", sourceAnchor: "Memorabilia 3.9.4–5", cultureLead: "This lesson will frame wisdom as a question Socrates asks in ordinary speech rather than an abstract slogan." },
+    { number: 3, title: "The Education of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian education scene with a young student and teacher", grammarFocus: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, and demonstratives", greekPhrase: "Ἡ παιδεία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household responsibilities with early Athenian education." },
     { number: 5, title: "Learning Through Questioning", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Adjectives; agreement; attributive vs predicate position", greekPhrase: "ὁ Σωκράτης καλὸς καὶ σοφὸς ἐστιν. / ὁ δὲ μαθητὴς ἀγαθὸς γίγνεται.", sourceAnchor: "Memorabilia 4.6.1–15", cultureLead: "This lesson will use Socratic questioning to show how Greek adjectives describe, classify, and evaluate a person." },
     { number: 6, title: "The Search for Knowledge", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Second declension nouns; prepositions with cases", greekPhrase: "οἱ ἄνδρες εἰς τὴν ἀγορὰν βαδίζουσιν. / ἐν τῇ ἀγορᾷ ὁ Σωκράτης λέγει.", sourceAnchor: "Memorabilia 1.1.16–19", cultureLead: "This lesson will place Socrates' search for knowledge in the public spaces of Athens." },
     { number: 7, title: "Examining Oneself", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Middle/passive voice; present; reflexive sense", greekPhrase: "ὁ ἀνὴρ ἑαυτὸν παιδεύεται. / οἱ ἄνδρες ἐν τῇ πόλει παιδεύονται.", sourceAnchor: "Memorabilia 4.2.24–30", cultureLead: "This lesson will connect the middle voice with the Socratic habit of turning inquiry back upon oneself." },
@@ -5750,8 +5750,509 @@ After the work, Xenophon returns to the house. His mother prepares dinner. His f
     },
     nextLesson: {
       id: "lesson-3",
-      title: "What is Wisdom?",
+      title: "The Education of Xenophon",
       fallbackUrl: "lesson.html?lesson=3&page=1"
+    }
+  };
+
+  const LESSON_3_READING_TRANSLATION = `Xenophon lives in his father’s house. His father and mother love the boy and want to educate him.
+
+His father leads Xenophon to the farm. There the boy tends the horse and leads the donkey. His father orders the boy to carry water and guard the garden.
+
+“This horse is beautiful,” says his father, “but that donkey is small. I want you to tend the animals.”
+
+Xenophon listens to his father and does the work. He tends the horse, carries water, and brings firewood into the house.
+
+In the house, his mother oversees the work of the household servants. The female servants prepare the bread and weave the garments. His mother orders these women to do their work well.
+
+“This servant prepares the bread,” says his mother, “but that one weaves the garment.”
+
+After his chores, Xenophon washes himself and eats. Then the attendant leads him to school.
+
+At school Xenophon is educated by the teacher. The teacher writes letters and orders the boy to write. Xenophon looks at the letters and learns.
+
+The teacher reads Homer aloud. Xenophon wants to learn the verses and read well. The teacher is pleased because the boy loves to learn.
+
+This teacher teaches letters, but that teacher teaches music. The boys learn their letters, listen to music, and recite the words of Homer.
+
+Xenophon is young, but he wants to become wise.`;
+
+  function lesson3Choice(text, correct, feedback) {
+    return { text, correct, feedback };
+  }
+
+  function lesson3Question(id, topic, category, prompt, choices) {
+    return { id, topic, category, type: "multiple_choice", prompt, choices };
+  }
+
+  function lesson3Mc(id, topic, category, prompt, correct, wrong, feedback) {
+    return lesson3Question(id, topic, category, prompt, [
+      lesson3Choice(correct, true, feedback || "Correct."),
+      ...wrong.map((text) => lesson3Choice(text, false, feedback || "Review the lesson explanation and try the form again."))
+    ]);
+  }
+
+  const LESSON_3_TOPIC_PRACTICE = [
+    ...[
+      ["lesson-3-verbs-1", "γράφει", "he, she, or it writes"],
+      ["lesson-3-verbs-2", "γράφουσιν", "they write"],
+      ["lesson-3-verbs-3", "μανθάνει", "he, she, or it learns"],
+      ["lesson-3-verbs-4", "μανθάνουσιν", "they learn"],
+      ["lesson-3-verbs-5", "θεραπεύει", "he, she, or it tends"],
+      ["lesson-3-verbs-6", "θεραπεύουσιν", "they tend"],
+      ["lesson-3-verbs-7", "βούλεται", "he, she, or it wants"],
+      ["lesson-3-verbs-8", "βούλονται", "they want"],
+      ["lesson-3-verbs-9", "παιδεύεται", "he, she, or it is educated"],
+      ["lesson-3-verbs-10", "παιδεύονται", "they are educated"]
+    ].map(([id, form, meaning]) => lesson3Mc(
+      id,
+      "third-person-present-verbs",
+      "Third-person verbs",
+      `What does ${form} mean?`,
+      meaning,
+      ["to write", "I learn", "you carry"],
+      form.endsWith("ουσιν") || form.endsWith("ονται")
+        ? "Correct. This is a third-person plural form."
+        : "Correct. This is a third-person singular form."
+    )),
+    lesson3Mc("lesson-3-verbs-11", "third-person-present-verbs", "Third-person verbs", "Complete: ὁ διδάσκαλος γράμματα ___.", "γράφει", ["γράφουσιν", "γράφειν", "γράφονται"], "ὁ διδάσκαλος is singular. A third-person singular active verb commonly ends in -ει: γράφει."),
+    lesson3Mc("lesson-3-verbs-12", "third-person-present-verbs", "Third-person verbs", "Complete: οἱ παῖδες τὰ γράμματα ___.", "μανθάνουσιν", ["μανθάνει", "μανθάνειν", "μανθάνεται"], "οἱ παῖδες is plural, so use μανθάνουσιν."),
+    lesson3Mc("lesson-3-verbs-13", "third-person-present-verbs", "Third-person verbs", "Complete: ἡ μήτηρ τὰ ἔργα ___.", "σκοπεῖ", ["σκοποῦσιν", "σκοπεῖν", "σκοποῦνται"], "ἡ μήτηρ is singular, so use σκοπεῖ."),
+    lesson3Mc("lesson-3-verbs-14", "third-person-present-verbs", "Third-person verbs", "Complete: αἱ δοῦλαι τοὺς πέπλους ___.", "ὑφαίνουσιν", ["ὑφαίνει", "ὑφαίνειν", "ὑφαίνεται"], "αἱ δοῦλαι is plural, so use ὑφαίνουσιν."),
+    lesson3Mc("lesson-3-verbs-15", "third-person-present-verbs", "Third-person verbs", "Complete: ὁ Ξενοφῶν ___ μανθάνειν.", "βούλεται", ["βούλονται", "βούλεσθαι", "βούλει"], "ὁ Ξενοφῶν is singular; βούλεται is followed by the infinitive μανθάνειν."),
+
+    lesson3Mc("lesson-3-objects-1", "accusative-direct-objects", "Accusative direct objects", "Identify the direct object: ὁ Ξενοφῶν τὸν ἵππον θεραπεύει.", "τὸν ἵππον", ["ὁ Ξενοφῶν", "θεραπεύει", "no direct object"], "The horse receives the action, so Greek uses the accusative: τὸν ἵππον."),
+    lesson3Mc("lesson-3-objects-2", "accusative-direct-objects", "Accusative direct objects", "Identify the direct object: ὁ πατὴρ τὸν παῖδα κελεύει.", "τὸν παῖδα", ["ὁ πατήρ", "κελεύει", "no direct object"], "τὸν παῖδα receives the command and is accusative."),
+    lesson3Mc("lesson-3-objects-3", "accusative-direct-objects", "Accusative direct objects", "Identify the direct object: ἡ μήτηρ τὰ ἔργα σκοπεῖ.", "τὰ ἔργα", ["ἡ μήτηρ", "σκοπεῖ", "τῇ μητρί"], "τὰ ἔργα receives the action of σκοπεῖ."),
+    lesson3Mc("lesson-3-objects-4", "accusative-direct-objects", "Accusative direct objects", "Identify the direct object: ὁ διδάσκαλος γράμματα γράφει.", "γράμματα", ["ὁ διδάσκαλος", "γράφει", "no direct object"], "γράμματα are what the teacher writes."),
+    lesson3Mc("lesson-3-objects-5", "accusative-direct-objects", "Accusative direct objects", "Identify the direct object: αἱ δοῦλαι τοὺς πέπλους ὑφαίνουσιν.", "τοὺς πέπλους", ["αἱ δοῦλαι", "ὑφαίνουσιν", "τοῖς πέπλοις"], "τοὺς πέπλους are woven, so they are accusative direct object."),
+    lesson3Mc("lesson-3-objects-6", "accusative-direct-objects", "Accusative direct objects", "Choose the case of τὸν Ξενοφῶντα in ὁ παιδαγωγὸς τὸν Ξενοφῶντα ἄγει.", "accusative", ["nominative", "genitive", "dative"], "τὸν Ξενοφῶντα is the person led."),
+    lesson3Mc("lesson-3-objects-7", "accusative-direct-objects", "Accusative direct objects", "In ὁ Ξενοφῶν ξύλα κομίζει, what is the direct object?", "ξύλα", ["ὁ Ξενοφῶν", "κομίζει", "no direct object"], "ξύλα are what Xenophon brings."),
+    lesson3Mc("lesson-3-objects-8", "accusative-direct-objects", "Accusative direct objects", "Identify the direct object: οἱ παῖδες τὴν μουσικὴν ἀκούουσιν.", "τὴν μουσικήν", ["οἱ παῖδες", "ἀκούουσιν", "τῇ μουσικῇ"], "τὴν μουσικήν is what the boys hear."),
+
+    ...[
+      ["lesson-3-infinitives-1", "γράφειν", "to write"],
+      ["lesson-3-infinitives-2", "φέρειν", "to carry"],
+      ["lesson-3-infinitives-3", "μανθάνειν", "to learn"],
+      ["lesson-3-infinitives-4", "θεραπεύειν", "to tend"],
+      ["lesson-3-infinitives-5", "φυλάσσειν", "to guard"],
+      ["lesson-3-infinitives-6", "παιδεύειν", "to educate"],
+      ["lesson-3-infinitives-7", "ποιεῖν", "to do; make"]
+    ].map(([id, form, meaning]) => lesson3Mc(id, "simple-infinitive-expressions", "Infinitives", `What does ${form} mean?`, meaning, ["he writes", "they learn", "he is educated"], "Correct. This infinitive expresses “to do” the action.")),
+    lesson3Mc("lesson-3-infinitives-8", "simple-infinitive-expressions", "Infinitives", "Complete: ὁ Ξενοφῶν βούλεται ___.", "μανθάνειν", ["μανθάνει", "μανθάνουσιν", "μανθάνεται"], "βούλεται is followed here by an infinitive expressing what Xenophon wants to do: μανθάνειν."),
+    lesson3Mc("lesson-3-infinitives-9", "simple-infinitive-expressions", "Infinitives", "Complete: ὁ πατὴρ κελεύει τὸν παῖδα ὕδωρ ___.", "φέρειν", ["φέρει", "φέρουσιν", "φέρεται"], "The commanded action is expressed by the infinitive φέρειν."),
+    lesson3Mc("lesson-3-infinitives-10", "simple-infinitive-expressions", "Infinitives", "Complete: ἡ μήτηρ κελεύει τὰς δούλας τὸν ἄρτον ___.", "παρασκευάζειν", ["παρασκευάζει", "παρασκευάζουσιν", "παρασκευάζεται"], "The infinitive παρασκευάζειν expresses the commanded action."),
+    lesson3Mc("lesson-3-infinitives-11", "simple-infinitive-expressions", "Infinitives", "Complete: ὁ διδάσκαλος κελεύει τὸν Ξενοφῶντα ___.", "γράφειν", ["γράφει", "γράφουσιν", "γράφεται"], "After κελεύει, γράφειν expresses what Xenophon is ordered to do."),
+    lesson3Mc("lesson-3-infinitives-12", "simple-infinitive-expressions", "Infinitives", "Complete: οἱ γονεῖς τὸν παῖδα ___ βούλονται.", "παιδεύειν", ["παιδεύει", "παιδεύουσιν", "παιδεύεται"], "βούλονται takes an infinitive: παιδεύειν."),
+
+    lesson3Mc("lesson-3-middle-1", "present-middle-and-passive", "Middle and passive forms", "Classify γράφει.", "present active", ["present middle", "present passive", "infinitive"], "γράφει is active: he, she, or it writes."),
+    lesson3Mc("lesson-3-middle-2", "present-middle-and-passive", "Middle and passive forms", "Classify βούλεται.", "present middle", ["present active", "present passive only", "infinitive"], "βούλεται uses the middle ending -εται and means wants."),
+    lesson3Mc("lesson-3-middle-3", "present-middle-and-passive", "Middle and passive forms", "What does λούεται mean here?", "he washes himself", ["they wash themselves", "he writes", "to wash"], "λούεται is present middle: he washes himself."),
+    lesson3Mc("lesson-3-middle-4", "present-middle-and-passive", "Middle and passive forms", "Translate: ὁ παῖς παιδεύεται ὑπὸ τοῦ διδασκάλου.", "The boy is educated by the teacher.", ["The boy educates the teacher.", "The teacher wants the boy.", "The boy writes to the teacher."], "παιδεύεται is passive; ὑπὸ τοῦ διδασκάλου identifies the agent."),
+    lesson3Mc("lesson-3-middle-5", "present-middle-and-passive", "Middle and passive forms", "Which form is third-person plural middle/passive?", "βούλονται", ["βούλεται", "βούλει", "βούλεσθαι"], "The plural middle/passive ending is -ονται."),
+    lesson3Mc("lesson-3-middle-6", "present-middle-and-passive", "Middle and passive forms", "Translate: ὁ πατὴρ ἐργάζεται.", "The father works.", ["The father is worked.", "The fathers work.", "The father writes."], "Some middle forms, such as ἐργάζεται, have active English meanings."),
+    lesson3Mc("lesson-3-middle-7", "present-middle-and-passive", "Middle and passive forms", "Translate: οἱ παῖδες παιδεύονται.", "The boys are educated.", ["The boy is educated.", "The boys educate.", "The boys write."], "παιδεύονται is third-person plural passive."),
+    lesson3Mc("lesson-3-middle-8", "present-middle-and-passive", "Middle and passive forms", "Classify φέρουσιν.", "present active", ["present middle", "present passive", "infinitive"], "φέρουσιν is active: they carry."),
+
+    lesson3Mc("lesson-3-demonstratives-1", "demonstratives", "Demonstratives and comprehension", "Choose the agreeing form: ___ ὁ ἵππος.", "οὗτος", ["αὕτη", "τοῦτο", "οὗτοι"], "ἵππος is masculine nominative singular, so use οὗτος."),
+    lesson3Mc("lesson-3-demonstratives-2", "demonstratives", "Demonstratives and comprehension", "Choose the agreeing form: ___ ἡ δούλη.", "αὕτη", ["οὗτος", "τοῦτο", "οὗτοι"], "δούλη is feminine, so the demonstrative must also be feminine: αὕτη ἡ δούλη."),
+    lesson3Mc("lesson-3-demonstratives-3", "demonstratives", "Demonstratives and comprehension", "Choose the agreeing form: ___ τὸ ζῷον.", "τοῦτο", ["οὗτος", "αὕτη", "οὗτοι"], "ζῷον is neuter nominative or accusative singular, so use τοῦτο."),
+    lesson3Mc("lesson-3-demonstratives-4", "demonstratives", "Demonstratives and comprehension", "Choose the phrase meaning “that donkey.”", "ἐκεῖνος ὁ ὄνος", ["ἐκείνη ὁ ὄνος", "ἐκεῖνο ὁ ὄνος", "ἐκεῖνοι ὁ ὄνος"], "ὄνος is masculine here, so use ἐκεῖνος."),
+    lesson3Mc("lesson-3-demonstratives-5", "demonstratives", "Demonstratives and comprehension", "Choose the phrase meaning “that house.”", "ἐκείνη ἡ οἰκία", ["ἐκεῖνος ἡ οἰκία", "ἐκεῖνο ἡ οἰκία", "ἐκεῖνοι ἡ οἰκία"], "οἰκία is feminine, so use ἐκείνη."),
+    lesson3Mc("lesson-3-demonstratives-6", "demonstratives", "Demonstratives and comprehension", "Change to accusative: οὗτος ὁ ἵππος.", "τοῦτον τὸν ἵππον", ["οὗτος ὁ ἵππος", "ταύτην τὴν ἵππον", "τοῦτο τὸν ἵππον"], "Masculine accusative singular is τοῦτον τὸν ἵππον."),
+    lesson3Mc("lesson-3-demonstratives-7", "demonstratives", "Demonstratives and comprehension", "Change to accusative: αὕτη ἡ δούλη.", "ταύτην τὴν δούλην", ["αὕτη ἡ δούλη", "τοῦτον τὸν δούλην", "τοῦτο τὴν δούλην"], "Feminine accusative singular is ταύτην τὴν δούλην."),
+    lesson3Mc("lesson-3-demonstratives-8", "demonstratives", "Demonstratives and comprehension", "Change to accusative: τοῦτο τὸ ζῷον.", "τοῦτο τὸ ζῷον", ["τοῦτον τὸν ζῷον", "ταύτην τὴν ζῷον", "οὗτος ὁ ζῷον"], "Neuter nominative and accusative forms are normally the same."),
+    lesson3Mc("lesson-3-demonstratives-9", "demonstratives", "Demonstratives and comprehension", "Change to accusative: ἐκεῖνος ὁ διδάσκαλος.", "ἐκεῖνον τὸν διδάσκαλον", ["ἐκεῖνος ὁ διδάσκαλος", "ἐκείνην τὴν διδάσκαλον", "ἐκεῖνο τὸ διδάσκαλον"], "Masculine accusative singular is ἐκεῖνον τὸν διδάσκαλον."),
+    lesson3Mc("lesson-3-demonstratives-10", "demonstratives", "Demonstratives and comprehension", "Change to accusative: ἐκείνη ἡ οἰκία.", "ἐκείνην τὴν οἰκίαν", ["ἐκεῖνον τὸν οἰκίαν", "ἐκείνη ἡ οἰκία", "ἐκεῖνο τὸ οἰκίαν"], "Feminine accusative singular is ἐκείνην τὴν οἰκίαν."),
+
+    lesson3Mc("lesson-3-reading-1", "reading-comprehension", "Demonstratives and comprehension", "ποῦ ὁ Ξενοφῶν οἰκεῖ; (Where does Xenophon live?)", "ἐν τῇ οἰκίᾳ τοῦ πατρός", ["ἐν τῷ διδασκαλείῳ", "ἐν τῷ γυμνασίῳ", "ἐν τῇ ἀγορᾷ"], "Correct. Xenophon lives in his father’s house."),
+    lesson3Mc("lesson-3-reading-2", "reading-comprehension", "Demonstratives and comprehension", "τί βούλονται ὁ πατὴρ καὶ ἡ μήτηρ; (What do his parents want?)", "τὸν παῖδα παιδεύειν", ["τὸν ἵππον φέρειν", "τὸν ἄρτον ὑφαίνειν", "τὴν μουσικὴν παρασκευάζειν"], "They want to educate the boy."),
+    lesson3Mc("lesson-3-reading-3", "reading-comprehension", "Demonstratives and comprehension", "ποῦ ὁ πατὴρ τὸν Ξενοφῶντα ἄγει; (Where does his father lead Xenophon?)", "εἰς τὸν ἀγρόν", ["εἰς τὸ διδασκαλεῖον", "εἰς τὴν ἀγοράν", "πρὸς τὸν Ὅμηρον"], "His father leads him to the farm."),
+    lesson3Mc("lesson-3-reading-4", "reading-comprehension", "Demonstratives and comprehension", "τίνα ζῷα ὁ Ξενοφῶν θεραπεύει; (Which animals does Xenophon tend?)", "τὸν ἵππον καὶ τὸν ὄνον", ["τὸν κύνα καὶ τὸν ἵππον", "τὰ γράμματα", "τοὺς πέπλους"], "The reading mentions the horse and donkey."),
+    lesson3Mc("lesson-3-reading-5", "reading-comprehension", "Demonstratives and comprehension", "τί ὁ πατὴρ κελεύει τὸν παῖδα φέρειν; (What does the father order the boy to carry?)", "ὕδωρ", ["ἄρτον", "μουσικήν", "πέπλους"], "The father orders him to carry water."),
+    lesson3Mc("lesson-3-reading-6", "reading-comprehension", "Demonstratives and comprehension", "τί αἱ δοῦλαι παρασκευάζουσιν; (What do the servants prepare?)", "τὸν ἄρτον", ["τοὺς πέπλους", "τὰ ζῷα", "τὰ γράμματα"], "The servants prepare bread."),
+    lesson3Mc("lesson-3-reading-7", "reading-comprehension", "Demonstratives and comprehension", "τί αἱ δοῦλαι ὑφαίνουσιν; (What do the servants weave?)", "τοὺς πέπλους", ["τὸν ἄρτον", "τὸν ὄνον", "τὰ γράμματα"], "The servants weave garments."),
+    lesson3Mc("lesson-3-reading-8", "reading-comprehension", "Demonstratives and comprehension", "τίς τὸν Ξενοφῶντα εἰς τὸ διδασκαλεῖον ἄγει; (Who leads Xenophon to school?)", "ὁ παιδαγωγός", ["ὁ πατήρ", "ἡ μήτηρ", "ὁ Ὅμηρος"], "The παιδαγωγός leads him to school."),
+    lesson3Mc("lesson-3-reading-9", "reading-comprehension", "Demonstratives and comprehension", "ὑπὸ τίνος ὁ Ξενοφῶν παιδεύεται; (By whom is Xenophon educated?)", "ὑπὸ τοῦ διδασκάλου", ["ὑπὸ τοῦ ἵππου", "ὑπὸ τῆς οἰκίας", "ὑπὸ τῶν ζῴων"], "He is educated by the teacher."),
+    lesson3Mc("lesson-3-reading-10", "reading-comprehension", "Demonstratives and comprehension", "τί βούλεται ὁ Ξενοφῶν μανθάνειν; (What does Xenophon want to learn?)", "τὰ ἔπη", ["τὸν ὄνον", "τὴν οἰκίαν", "τὸν ἄρτον"], "He wants to learn the verses."),
+    lesson3Mc("lesson-3-reading-11", "reading-comprehension", "Demonstratives and comprehension", "τί διδάσκει οὗτος ὁ διδάσκαλος; (What does this teacher teach?)", "γράμματα", ["μουσικήν", "ἄρτον", "ζῷα"], "This teacher teaches letters."),
+    lesson3Mc("lesson-3-reading-12", "reading-comprehension", "Demonstratives and comprehension", "τί διδάσκει ἐκεῖνος ὁ διδάσκαλος; (What does that teacher teach?)", "μουσικήν", ["γράμματα", "ὕδωρ", "πέπλους"], "That teacher teaches music."),
+    lesson3Mc("lesson-3-reading-13", "reading-comprehension", "Demonstratives and comprehension", "τί βούλεται ὁ Ξενοφῶν γενέσθαι; (What does Xenophon want to become?)", "σοφός", ["γεωργός", "δοῦλος", "ὄνος"], "Xenophon wants to become wise."),
+
+    lesson3Mc("lesson-3-translation-1", "translation", "Translation", "Translate: ὁ πατὴρ τὸν παῖδα κελεύει.", "The father orders the boy.", ["The boy orders the father.", "The father carries the boy.", "The boy wants the father."], "τὸν παῖδα is the direct object of κελεύει."),
+    lesson3Mc("lesson-3-translation-2", "translation", "Translation", "Translate: ὁ Ξενοφῶν τὸν ἵππον θεραπεύει.", "Xenophon tends the horse.", ["The horse tends Xenophon.", "Xenophon carries the horse.", "The horse is educated."], "τὸν ἵππον receives the action."),
+    lesson3Mc("lesson-3-translation-3", "translation", "Translation", "Translate: αἱ δοῦλαι τοὺς πέπλους ὑφαίνουσιν.", "The female servants weave the garments.", ["The garments weave the servants.", "The servants prepare bread.", "The boys learn garments."], "αἱ δοῦλαι is plural subject; τοὺς πέπλους is direct object."),
+    lesson3Mc("lesson-3-translation-4", "translation", "Translation", "Translate: ἡ μήτηρ ταύτας τὰ ἔργα ποιεῖν κελεύει.", "The mother orders these women to do the work.", ["These mothers do the work.", "The work orders the mother.", "The mother wants to become wise."], "ταύτας receives the command; ποιεῖν is the commanded action."),
+    lesson3Mc("lesson-3-translation-5", "translation", "Translation", "Translate: ὁ Ξενοφῶν βούλεται γράφειν.", "Xenophon wants to write.", ["Xenophon writes.", "Xenophon is written.", "Xenophon orders writing."], "βούλεται is followed by the infinitive γράφειν."),
+    lesson3Mc("lesson-3-translation-6", "translation", "Translation", "Translate: ὁ παῖς ὑπὸ τοῦ διδασκάλου παιδεύεται.", "The boy is educated by the teacher.", ["The boy educates the teacher.", "The teacher wants the boy.", "The boy teaches letters."], "παιδεύεται is passive; ὑπό marks the agent."),
+    lesson3Mc("lesson-3-translation-7", "translation", "Translation", "Translate: οὗτος ὁ διδάσκαλος γράμματα διδάσκει.", "This teacher teaches letters.", ["That teacher teaches music.", "This boy writes letters.", "These teachers teach."], "οὗτος ὁ διδάσκαλος means this teacher."),
+    lesson3Mc("lesson-3-translation-8", "translation", "Translation", "Translate: ἐκείνη ἡ δούλη τὸν ἄρτον παρασκευάζει.", "That female servant prepares the bread.", ["This servant weaves the garment.", "That teacher prepares bread.", "The bread prepares the servant."], "ἐκείνη ἡ δούλη means that female servant."),
+    lesson3Mc("lesson-3-translation-9", "translation", "Translation", "Greek for: The teacher educates the boy.", "ὁ διδάσκαλος τὸν παῖδα παιδεύει.", ["ὁ παῖς τὸν διδάσκαλον παιδεύει.", "ὁ διδάσκαλος τὸν παῖδα παιδεύεται.", "ὁ διδάσκαλος τὸν παῖδα μανθάνει."], "The boy is the direct object: τὸν παῖδα."),
+    lesson3Mc("lesson-3-translation-10", "translation", "Translation", "Greek for: The boy wants to learn.", "ὁ παῖς βούλεται μανθάνειν.", ["ὁ παῖς μανθάνει βούλεται.", "ὁ παῖς βούλονται μανθάνειν.", "ὁ παῖς μανθάνουσιν."], "βούλεται takes the infinitive μανθάνειν."),
+    lesson3Mc("lesson-3-translation-11", "translation", "Translation", "Greek for: The father orders Xenophon to carry water.", "ὁ πατὴρ κελεύει τὸν Ξενοφῶντα ὕδωρ φέρειν.", ["ὁ Ξενοφῶν κελεύει τὸν πατέρα ὕδωρ φέρειν.", "ὁ πατὴρ φέρει τὸν Ξενοφῶντα.", "ὁ πατὴρ βούλεται ὕδωρ."], "τὸν Ξενοφῶντα receives the command; φέρειν is the infinitive."),
+    lesson3Mc("lesson-3-translation-12", "translation", "Translation", "Greek for: These female servants weave the garments.", "αὗται αἱ δοῦλαι τοὺς πέπλους ὑφαίνουσιν.", ["οὗτοι αἱ δοῦλαι τοὺς πέπλους ὑφαίνουσιν.", "αὕτη ἡ δούλη τοὺς πέπλους ὑφαίνει.", "αὗται αἱ δοῦλαι τὸν ἄρτον παρασκευάζουσιν."], "αὗται agrees with plural feminine αἱ δοῦλαι."),
+    lesson3Mc("lesson-3-translation-13", "translation", "Translation", "Greek for: That teacher teaches music.", "ἐκεῖνος ὁ διδάσκαλος μουσικὴν διδάσκει.", ["ἐκείνη ὁ διδάσκαλος μουσικὴν διδάσκει.", "οὗτος ὁ διδάσκαλος γράμματα διδάσκει.", "ἐκεῖνος ὁ διδάσκαλος μουσικὴν μανθάνει."], "διδάσκαλος is masculine singular, so use ἐκεῖνος."),
+    lesson3Mc("lesson-3-translation-14", "translation", "Translation", "Greek for: Xenophon is educated by the teacher.", "ὁ Ξενοφῶν ὑπὸ τοῦ διδασκάλου παιδεύεται.", ["ὁ Ξενοφῶν τὸν διδάσκαλον παιδεύει.", "ὁ διδάσκαλος ὑπὸ τοῦ Ξενοφῶντος παιδεύεται.", "ὁ Ξενοφῶν βούλεται παιδεύειν."], "Use passive παιδεύεται with ὑπὸ τοῦ διδασκάλου.")
+  ];
+
+  const LESSON_3_TEST_QUESTIONS = [
+    lesson3Question("lesson-3-test-1", "lesson-test", "Third-person verbs", "What is the subject implied by γράφει?", [lesson3Choice("I", false, "γράφει is not first person."), lesson3Choice("you", false, "γράφει is not second person."), lesson3Choice("he, she, or it", true, "Correct. γράφει is third-person singular."), lesson3Choice("they", false, "They would use a plural form such as γράφουσιν.")]),
+    lesson3Question("lesson-3-test-2", "lesson-test", "Third-person verbs", "Which verb means “they learn”?", [lesson3Choice("μανθάνει", false, "μανθάνει is singular."), lesson3Choice("μανθάνουσιν", true, "Correct. -ουσιν marks third-person plural active."), lesson3Choice("μανθάνειν", false, "μανθάνειν is an infinitive."), lesson3Choice("μανθάνεται", false, "This is middle/passive, not the active plural.")]),
+    lesson3Question("lesson-3-test-3", "lesson-test", "Third-person verbs", "Complete: οἱ παῖδες γράμματα ___.", [lesson3Choice("μανθάνει", false, "οἱ παῖδες is plural."), lesson3Choice("μανθάνουσιν", true, "Correct. Use the plural verb with οἱ παῖδες."), lesson3Choice("μανθάνειν", false, "The sentence needs a finite verb."), lesson3Choice("μανθάνεται", false, "This is singular middle/passive.")]),
+    lesson3Question("lesson-3-test-4", "lesson-test", "Third-person verbs", "Complete: ἡ μήτηρ τὰ ἔργα ___.", [lesson3Choice("σκοπεῖ", true, "Correct. ἡ μήτηρ is singular."), lesson3Choice("σκοποῦσιν", false, "That is plural."), lesson3Choice("σκοπεῖν", false, "That is an infinitive."), lesson3Choice("σκοποῦνται", false, "That is plural middle/passive.")]),
+    lesson3Question("lesson-3-test-5", "lesson-test", "Accusative direct objects", "Identify the direct object: ὁ Ξενοφῶν τὸν ἵππον θεραπεύει.", [lesson3Choice("ὁ Ξενοφῶν", false, "This is the subject."), lesson3Choice("τὸν ἵππον", true, "Correct. The horse receives the action."), lesson3Choice("θεραπεύει", false, "This is the verb."), lesson3Choice("no direct object", false, "The sentence has a direct object.")]),
+    lesson3Question("lesson-3-test-6", "lesson-test", "Accusative direct objects", "Complete: ὁ διδάσκαλος ___ παιδεύει.", [lesson3Choice("ὁ παῖς", false, "That is nominative."), lesson3Choice("τοῦ παιδός", false, "That is genitive."), lesson3Choice("τὸν παῖδα", true, "Correct. The boy is the direct object."), lesson3Choice("τῷ παιδί", false, "That is dative.")]),
+    lesson3Question("lesson-3-test-7", "lesson-test", "Accusative direct objects", "Identify the direct object: αἱ δοῦλαι τοὺς πέπλους ὑφαίνουσιν.", [lesson3Choice("αἱ δοῦλαι", false, "This is the subject."), lesson3Choice("τοὺς πέπλους", true, "Correct. The garments are woven."), lesson3Choice("ὑφαίνουσιν", false, "This is the verb."), lesson3Choice("αἱ", false, "This is part of the subject phrase.")]),
+    lesson3Question("lesson-3-test-8", "lesson-test", "Accusative direct objects", "Choose the accusative phrase.", [lesson3Choice("ὁ καλὸς ἵππος", false, "This is nominative."), lesson3Choice("τοῦ καλοῦ ἵππου", false, "This is genitive."), lesson3Choice("τὸν καλὸν ἵππον", true, "Correct. τὸν and -ον mark masculine accusative singular."), lesson3Choice("τῷ καλῷ ἵππῳ", false, "This is dative.")]),
+    lesson3Question("lesson-3-test-9", "lesson-test", "Infinitives", "Which form means “to write”?", [lesson3Choice("γράφει", false, "This is he/she/it writes."), lesson3Choice("γράφουσιν", false, "This is they write."), lesson3Choice("γράφειν", true, "Correct. -ειν marks the infinitive here."), lesson3Choice("γράφεται", false, "This is middle/passive.")]),
+    lesson3Question("lesson-3-test-10", "lesson-test", "Infinitives", "Complete: ὁ Ξενοφῶν βούλεται ___.", [lesson3Choice("μανθάνει", false, "Use an infinitive after βούλεται."), lesson3Choice("μανθάνουσιν", false, "This is plural finite."), lesson3Choice("μανθάνειν", true, "Correct. βούλεται takes the infinitive."), lesson3Choice("μανθάνεται", false, "This is middle/passive.")]),
+    lesson3Question("lesson-3-test-11", "lesson-test", "Infinitives", "Translate: ὁ πατὴρ κελεύει τὸν παῖδα ὕδωρ φέρειν.", [lesson3Choice("The boy orders his father to carry water.", false, "The subject is ὁ πατήρ."), lesson3Choice("The father orders the boy to carry water.", true, "Correct."), lesson3Choice("The father carries water for the boy.", false, "φέρειν is the commanded action."), lesson3Choice("The boy wants to carry water.", false, "The verb is κελεύει, not βούλεται.")]),
+    lesson3Question("lesson-3-test-12", "lesson-test", "Infinitives", "In the preceding sentence, which word expresses the commanded action?", [lesson3Choice("πατήρ", false, "This names the father."), lesson3Choice("κελεύει", false, "This is the ordering verb."), lesson3Choice("παῖδα", false, "This is the person commanded."), lesson3Choice("φέρειν", true, "Correct. φέρειν is the infinitive action.")]),
+    lesson3Question("lesson-3-test-13", "lesson-test", "Middle and passive forms", "What does λούεται mean here?", [lesson3Choice("he washes himself", true, "Correct. λούεται is middle here."), lesson3Choice("he washes another person", false, "That would be active in meaning."), lesson3Choice("they wash themselves", false, "That would be plural."), lesson3Choice("to wash", false, "This is not an infinitive.")]),
+    lesson3Question("lesson-3-test-14", "lesson-test", "Middle and passive forms", "Translate: ὁ Ξενοφῶν παιδεύεται.", [lesson3Choice("Xenophon educates.", false, "That would be active."), lesson3Choice("Xenophon is educated.", true, "Correct. παιδεύεται is passive here."), lesson3Choice("Xenophon wants to educate.", false, "That would use βούλεται."), lesson3Choice("Xenophon educates them.", false, "The verb is not active transitive here.")]),
+    lesson3Question("lesson-3-test-15", "lesson-test", "Middle and passive forms", "Which form is third-person plural middle/passive?", [lesson3Choice("βούλεται", false, "This is singular."), lesson3Choice("βούλονται", true, "Correct. -ονται marks third-person plural middle/passive."), lesson3Choice("βούλει", false, "This is not the requested form."), lesson3Choice("βούλεσθαι", false, "This is an infinitive.")]),
+    lesson3Question("lesson-3-test-16", "lesson-test", "Middle and passive forms", "Which sentence is passive?", [lesson3Choice("ὁ διδάσκαλος τὸν παῖδα παιδεύει.", false, "This is active."), lesson3Choice("ὁ παῖς τὸν ἵππον θεραπεύει.", false, "This is active."), lesson3Choice("ὁ παῖς ὑπὸ τοῦ διδασκάλου παιδεύεται.", true, "Correct. παιδεύεται is passive and ὑπό marks the agent."), lesson3Choice("ὁ παῖς γράμματα γράφει.", false, "This is active.")]),
+    lesson3Question("lesson-3-test-17", "lesson-test", "Demonstratives and comprehension", "Choose the correct demonstrative: ___ ἡ δούλη.", [lesson3Choice("οὗτος", false, "This is masculine."), lesson3Choice("αὕτη", true, "Correct. δούλη is feminine."), lesson3Choice("τοῦτο", false, "This is neuter."), lesson3Choice("οὗτοι", false, "This is plural masculine.")]),
+    lesson3Question("lesson-3-test-18", "lesson-test", "Demonstratives and comprehension", "Choose the phrase meaning “that teacher.”", [lesson3Choice("ἐκεῖνος ὁ διδάσκαλος", true, "Correct. διδάσκαλος is masculine singular."), lesson3Choice("ἐκείνη ὁ διδάσκαλος", false, "The demonstrative is feminine."), lesson3Choice("ἐκεῖνο ὁ διδάσκαλος", false, "The demonstrative is neuter."), lesson3Choice("ἐκεῖνον ὁ διδάσκαλος", false, "This mixes accusative demonstrative with nominative article.")]),
+    lesson3Question("lesson-3-test-19", "lesson-test", "Demonstratives and comprehension", "According to the reading, who takes Xenophon to school?", [lesson3Choice("his father", false, "His father takes him to the farm."), lesson3Choice("his mother", false, "His mother oversees the household."), lesson3Choice("the παιδαγωγός", true, "Correct. The παιδαγωγός leads him to school."), lesson3Choice("the music teacher", false, "The music teacher teaches music.")]),
+    lesson3Question("lesson-3-test-20", "lesson-test", "Demonstratives and comprehension", "What does Xenophon want to become?", [lesson3Choice("a farmer", false, "The final sentence says σοφὸς."), lesson3Choice("a teacher", false, "The final sentence says σοφὸς."), lesson3Choice("rich", false, "The reading does not say this."), lesson3Choice("wise", true, "Correct. σοφὸς γενέσθαι βούλεται.")])
+  ];
+
+  const LESSON_3 = {
+    id: "lesson-3",
+    number: 3,
+    title: "The Education of Xenophon",
+    greekTitle: "Ἡ παιδεία τοῦ Ξενοφῶντος",
+    scope: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, and demonstratives",
+    theme: "Xenophon’s education, chores, household duties, and early school life",
+    module: "σοφία — Wisdom and Socrates",
+    banner: {
+      image: "assets/module-1-sophia-banner.jpeg",
+      alt: "A classical Athenian education scene with a young student and teacher",
+      text: "Ἡ παιδεία τοῦ Ξενοφῶντος",
+      caption: "ὁ Ξενοφῶν βούλεται τὰ ἔπη μανθάνειν."
+    },
+    pages: [
+      { page: 1, slug: "lesson-3-page-1", title: "Reading", template: "reading", showTranslation: false },
+      { page: 2, slug: "lesson-3-page-2", title: "Language Study", template: "grammar" },
+      { page: 3, slug: "lesson-3-page-3", title: "Greek World / Review / Test", template: "culture" }
+    ],
+    vocabulary: [
+      {
+        category: "Proper Names",
+        items: [
+          { greek: "Ὅμηρος, ὁ", english: "Homer", status: "proper name", dictionaryForm: "Ὅμηρος, Ὁμήρου, ὁ" }
+        ]
+      },
+      {
+        category: "New Required Vocabulary",
+        items: [
+          { greek: "ἀκούω", english: "hear; listen to", status: "new required vocabulary", principalParts: ["ἀκούω", "ἀκούσομαι", "ἤκουσα", "ἀκήκοα"] },
+          { greek: "ἀναγιγνώσκω", english: "read; read aloud", status: "new required vocabulary", principalParts: ["ἀναγιγνώσκω", "ἀναγνώσομαι", "ἀνέγνων", "ἀνέγνωκα"] },
+          { greek: "βλέπω", english: "see; look at", status: "new required vocabulary", principalParts: ["βλέπω", "βλέψω", "ἔβλεψα"] },
+          { greek: "βούλομαι", english: "wish; want", status: "new required vocabulary", principalParts: ["βούλομαι", "βουλήσομαι"] },
+          { greek: "γενέσθαι", english: "to become", status: "new required vocabulary", dictionaryForm: "γίγνομαι" },
+          { greek: "γράμμα, τό", english: "letter; written character", status: "new required vocabulary", dictionaryForm: "γράμμα, γράμματος, τό" },
+          { greek: "γράφω", english: "write", status: "new required vocabulary", principalParts: ["γράφω", "γράψω", "ἔγραψα", "γέγραφα", "γέγραμμαι", "ἐγράφην"] },
+          { greek: "διδάσκαλος, ὁ", english: "teacher", status: "new required vocabulary", dictionaryForm: "διδάσκαλος, διδασκάλου, ὁ" },
+          { greek: "διδασκαλεῖον, τό", english: "school", status: "new required vocabulary", dictionaryForm: "διδασκαλεῖον, διδασκαλείου, τό" },
+          { greek: "διδάσκω", english: "teach", status: "new required vocabulary", principalParts: ["διδάσκω", "διδάξω", "ἐδίδαξα", "δεδίδαχα"] },
+          { greek: "ἐκεῖ", english: "there", status: "new required vocabulary" },
+          { greek: "ἐκεῖνος, ἐκείνη, ἐκεῖνο", english: "that", status: "new required vocabulary", dictionaryForm: "ἐκεῖνος, ἐκείνη, ἐκεῖνο" },
+          { greek: "ἔπος, τό", english: "word; verse; epic verse", status: "new required vocabulary", dictionaryForm: "ἔπος, ἔπους, τό" },
+          { greek: "ἐσθίω", english: "eat", status: "new required vocabulary", principalParts: ["ἐσθίω", "ἔδομαι", "ἔφαγον", "ἐδήδοκα"] },
+          { greek: "θεραπεύω", english: "tend; care for", status: "new required vocabulary", principalParts: ["θεραπεύω", "θεραπεύσω", "ἐθεράπευσα", "τεθεράπευκα"] },
+          { greek: "κομίζω", english: "carry; bring", status: "new required vocabulary", principalParts: ["κομίζω", "κομιῶ", "ἐκόμισα", "κεκόμικα"] },
+          { greek: "λούομαι", english: "wash oneself; bathe", status: "new required vocabulary", principalParts: ["λούομαι", "λούσομαι", "ἐλουσάμην", "λέλουμαι"] },
+          { greek: "μανθάνω", english: "learn", status: "new required vocabulary", principalParts: ["μανθάνω", "μαθήσομαι", "ἔμαθον", "μεμάθηκα"] },
+          { greek: "μουσική, ἡ", english: "music", status: "new required vocabulary", dictionaryForm: "μουσική, μουσικῆς, ἡ" },
+          { greek: "νέος, νέα, νέον", english: "young", status: "new required vocabulary", dictionaryForm: "νέος, νέα, νέον" },
+          { greek: "οὗτος, αὕτη, τοῦτο", english: "this", status: "new required vocabulary", dictionaryForm: "οὗτος, αὕτη, τοῦτο" },
+          { greek: "παιδαγωγός, ὁ", english: "attendant who escorts and supervises a boy", status: "new required vocabulary", dictionaryForm: "παιδαγωγός, παιδαγωγοῦ, ὁ" },
+          { greek: "παιδεύω", english: "educate; train", status: "new required vocabulary", principalParts: ["παιδεύω", "παιδεύσω", "ἐπαίδευσα", "πεπαίδευκα", "πεπαίδευμαι", "ἐπαιδεύθην"] },
+          { greek: "ποιέω", english: "do; make", status: "new required vocabulary", principalParts: ["ποιέω", "ποιήσω", "ἐποίησα", "πεποίηκα", "πεποίημαι", "ἐποιήθην"] },
+          { greek: "σκοπέω", english: "examine; oversee", status: "new required vocabulary", principalParts: ["σκοπέω", "σκέψομαι", "ἐσκεψάμην"] },
+          { greek: "σοφός, σοφή, σοφόν", english: "wise", status: "new required vocabulary", dictionaryForm: "σοφός, σοφή, σοφόν" },
+          { greek: "ζῷον, τό", english: "animal", status: "new required vocabulary", dictionaryForm: "ζῷον, ζῴου, τό" }
+        ]
+      },
+      {
+        category: "Review Vocabulary",
+        items: [
+          { greek: "ἀγρός, ὁ", english: "field; farm", status: "review vocabulary", dictionaryForm: "ἀγρός, ἀγροῦ, ὁ" },
+          { greek: "ἄρτος, ὁ", english: "bread", status: "review vocabulary", dictionaryForm: "ἄρτος, ἄρτου, ὁ" },
+          { greek: "δοῦλος, ὁ", english: "male slave; male household servant", status: "review vocabulary", dictionaryForm: "δοῦλος, δούλου, ὁ" },
+          { greek: "δούλη, ἡ", english: "female slave; female household servant", status: "review vocabulary", dictionaryForm: "δούλη, δούλης, ἡ" },
+          { greek: "ἔργον, τό", english: "work; task", status: "review vocabulary", dictionaryForm: "ἔργον, ἔργου, τό" },
+          { greek: "ἵππος, ὁ", english: "horse", status: "review vocabulary", dictionaryForm: "ἵππος, ἵππου, ὁ" },
+          { greek: "κελεύω", english: "order; command; instruct", status: "review vocabulary", principalParts: ["κελεύω", "κελεύσω", "ἐκέλευσα", "κεκέλευκα"] },
+          { greek: "κῆπος, ὁ", english: "garden", status: "review vocabulary", dictionaryForm: "κῆπος, κήπου, ὁ" },
+          { greek: "μήτηρ, ἡ", english: "mother", status: "review vocabulary", dictionaryForm: "μήτηρ, μητρός, ἡ" },
+          { greek: "οἰκία, ἡ", english: "house", status: "review vocabulary", dictionaryForm: "οἰκία, οἰκίας, ἡ" },
+          { greek: "ὄνος, ὁ/ἡ", english: "donkey", status: "review vocabulary", dictionaryForm: "ὄνος, ὄνου, ὁ/ἡ" },
+          { greek: "παῖς, ὁ/ἡ", english: "child; boy; girl", status: "review vocabulary", dictionaryForm: "παῖς, παιδός, ὁ/ἡ" },
+          { greek: "πατήρ, ὁ", english: "father", status: "review vocabulary", dictionaryForm: "πατήρ, πατρός, ὁ" },
+          { greek: "πέπλος, ὁ", english: "robe; garment", status: "review vocabulary", dictionaryForm: "πέπλος, πέπλου, ὁ" },
+          { greek: "παρασκευάζω", english: "prepare", status: "review vocabulary", principalParts: ["παρασκευάζω", "παρασκευάσω", "παρεσκεύασα", "παρεσκεύακα"] },
+          { greek: "ὕδωρ, τό", english: "water", status: "review vocabulary", dictionaryForm: "ὕδωρ, ὕδατος, τό" },
+          { greek: "ὑφαίνω", english: "weave", status: "review vocabulary", principalParts: ["ὑφαίνω", "ὑφανῶ", "ὕφηνα"] },
+          { greek: "φέρω", english: "carry; bring", status: "review vocabulary", principalParts: ["φέρω", "οἴσω", "ἤνεγκα", "ἐνήνοχα", "ἐνήνεγμαι", "ἠνέχθην"] },
+          { greek: "φιλέω", english: "love; be fond of", status: "review vocabulary", principalParts: ["φιλέω", "φιλήσω", "ἐφίλησα", "πεφίληκα", "πεφίλημαι", "ἐφιλήθην"] },
+          { greek: "φυλάσσω", english: "guard; watch over", status: "review vocabulary", principalParts: ["φυλάσσω", "φυλάξω", "ἐφύλαξα", "πεφύλαχα", "πεφύλαγμαι", "ἐφυλάχθην"] },
+          { greek: "ξύλον, τό", english: "wood; piece of firewood", status: "review vocabulary", dictionaryForm: "ξύλον, ξύλου, τό" }
+        ]
+      }
+    ],
+    reading: {
+      title: "Ἡ παιδεία τοῦ Ξενοφῶντος",
+      paragraphs: [
+        { greek: "Ὁ Ξενοφῶν ἐν τῇ οἰκίᾳ τοῦ πατρὸς οἰκεῖ. ὁ πατὴρ καὶ ἡ μήτηρ τὸν παῖδα φιλοῦσιν καὶ παιδεύειν βούλονται.", gloss: [
+          { greek: "τὸν παῖδα", english: "Accusative singular; direct object of φιλοῦσιν." },
+          { greek: "παιδεύειν βούλονται", english: "“They want to educate.” The infinitive παιδεύειν completes the meaning of βούλονται." }
+        ] },
+        { greek: "ὁ πατὴρ τὸν Ξενοφῶντα εἰς τὸν ἀγρὸν ἄγει. ἐκεῖ ὁ παῖς τὸν ἵππον θεραπεύει καὶ τὸν ὄνον ἄγει. ὁ πατὴρ κελεύει τὸν παῖδα ὕδωρ φέρειν καὶ τὸν κῆπον φυλάσσειν.", gloss: [
+          { greek: "τὸν Ξενοφῶντα", english: "Accusative singular; direct object of ἄγει." },
+          { greek: "κελεύει τὸν παῖδα ὕδωρ φέρειν", english: "“He orders the boy to carry water.” τὸν παῖδα is the person receiving the command; φέρειν is the commanded action." }
+        ] },
+        { greek: "«οὗτος ὁ ἵππος καλός ἐστιν,» λέγει ὁ πατήρ· «ἐκεῖνος δὲ ὁ ὄνος μικρός ἐστιν. βούλομαι σε τὰ ζῷα θεραπεύειν.»", gloss: [
+          { greek: "οὗτος ὁ ἵππος", english: "“This horse.” The demonstrative and noun agree in gender, number, and case." },
+          { greek: "ἐκεῖνος ὁ ὄνος", english: "“That donkey.” The demonstrative agrees with ὄνος." },
+          { greek: "σε", english: "Accusative singular “you,” functioning as the subject of θεραπεύειν after βούλομαι." }
+        ] },
+        { greek: "ὁ Ξενοφῶν τὸν πατέρα ἀκούει καὶ τὸ ἔργον ποιεῖ. τὸν ἵππον θεραπεύει, ὕδωρ φέρει, καὶ ξύλα εἰς τὴν οἰκίαν κομίζει." },
+        { greek: "ἐν δὲ τῇ οἰκίᾳ ἡ μήτηρ τὰ ἔργα τῶν δούλων σκοπεῖ. αἱ δοῦλαι τὸν ἄρτον παρασκευάζουσιν καὶ τοὺς πέπλους ὑφαίνουσιν. ἡ μήτηρ κελεύει ταύτας τὰ ἔργα καλῶς ποιεῖν.", gloss: [
+          { greek: "ταύτας", english: "Feminine accusative plural of οὗτος; refers to the female servants." }
+        ] },
+        { greek: "«αὕτη ἡ δούλη τὸν ἄρτον παρασκευάζει,» λέγει ἡ μήτηρ· «ἐκείνη δὲ τὸν πέπλον ὑφαίνει.»" },
+        { greek: "μετὰ τὰ ἔργα ὁ Ξενοφῶν λούεται καὶ ἐσθίει. ἔπειτα ὁ παιδαγωγὸς αὐτὸν εἰς τὸ διδασκαλεῖον ἄγει.", gloss: [
+          { greek: "λούεται", english: "Present middle: “he washes himself” or “he bathes.”" }
+        ] },
+        { greek: "ἐν τῷ διδασκαλείῳ ὁ Ξενοφῶν ὑπὸ τοῦ διδασκάλου παιδεύεται. ὁ διδάσκαλος γράμματα γράφει καὶ τὸν παῖδα κελεύει γράφειν. ὁ Ξενοφῶν τὰ γράμματα βλέπει καὶ μανθάνει.", gloss: [
+          { greek: "παιδεύεται", english: "Present passive: “he is educated.”" },
+          { greek: "ὑπὸ τοῦ διδασκάλου", english: "“By the teacher.” This identifies the agent of a passive verb." }
+        ] },
+        { greek: "ὁ διδάσκαλος τὸν Ὅμηρον ἀναγιγνώσκει. ὁ Ξενοφῶν βούλεται τὰ ἔπη μανθάνειν καὶ καλῶς ἀναγιγνώσκειν. ὁ διδάσκαλος χαίρει, ὅτι ὁ παῖς φιλεῖ μανθάνειν." },
+        { greek: "οὗτος μὲν ὁ διδάσκαλος γράμματα διδάσκει· ἐκεῖνος δὲ ὁ διδάσκαλος μουσικὴν διδάσκει. οἱ παῖδες τὰ γράμματα μανθάνουσιν, τὴν μουσικὴν ἀκούουσιν, καὶ τοὺς τοῦ Ὁμήρου λόγους λέγουσιν." },
+        { greek: "ὁ Ξενοφῶν νέος ἐστίν, ἀλλὰ σοφὸς γενέσθαι βούλεται.", gloss: [
+          { greek: "σοφὸς γενέσθαι βούλεται", english: "“He wants to become wise.” Treat γενέσθαι as a vocabulary form here; the aorist system comes later." }
+        ] }
+      ],
+      translation: LESSON_3_READING_TRANSLATION,
+      notesMarkdown: "The household and school scenes are plausible reconstructions for beginning Greek, not documented incidents from Xenophon’s childhood."
+    },
+    wordStudy: {
+      label: "Learning Objectives",
+      blocks: [
+        {
+          title: "By the end of Lesson 3",
+          body: [
+            "You should be able to recognize third-person singular and plural present verbs, identify accusative direct objects, understand simple infinitive expressions, recognize introductory present middle and passive forms, identify and translate οὗτος and ἐκεῖνος, and read a short continuous narrative about Xenophon’s education and responsibilities."
+          ],
+          display: [
+            { greek: "γράφει / γράφουσιν", english: "he writes / they write" },
+            { greek: "τὸν ἵππον", english: "accusative direct object" },
+            { greek: "μανθάνειν", english: "to learn" },
+            { greek: "παιδεύεται", english: "he is educated" },
+            { greek: "οὗτος / ἐκεῖνος", english: "this / that" }
+          ]
+        }
+      ]
+    },
+    culture: {
+      title: "The Education of an Athenian Boy",
+      body: [
+        "A boy from a prosperous Athenian family was normally educated outside the home by several adults. A παιδαγωγός, often an enslaved household attendant, accompanied him to school and supervised his behavior. One teacher taught reading, writing, and poetry, while another might teach music. Physical training took place under a separate instructor at the palaestra or gymnasium.",
+        "Homer occupied a central place in Greek education. Boys learned passages from the Iliad and Odyssey, recited poetry aloud, and absorbed examples of courage, leadership, honor, anger, loyalty, and self-control.",
+        "The household scenes in this lesson are plausible reconstructions rather than documented incidents from Xenophon’s childhood. They are consistent with the agricultural and educational world of a prosperous Athenian family. Xenophon later showed sustained interest in education, household management, horses, farming, leadership, and moral training."
+      ],
+      questions: [
+        { prompt: "What did a παιδαγωγός do?", answer: "He accompanied a boy to school and supervised his behavior." },
+        { prompt: "Why was Homer central to education?", answer: "Boys recited Homeric poetry and absorbed examples of courage, leadership, honor, loyalty, and self-control." },
+        { prompt: "Are the scenes from Xenophon’s childhood documented?", answer: "No. They are plausible reconstructions, not established biographical incidents." }
+      ]
+    },
+    grammar: {
+      intro: "Lesson 3 builds on the household narrative with third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, and demonstratives.",
+      sections: [
+        {
+          id: "third-person-present-verbs",
+          title: "1. Third-Person Present Verbs",
+          body: [
+            "Third-person verbs describe what he, she, it, or they do.",
+            "A common third-person singular active ending is -ει. A common third-person plural active ending is -ουσι(ν)."
+          ],
+          tables: [
+            { title: "Third-person singular", headers: ["Greek", "Meaning"], greekColumns: [0], rows: [["γράφει", "he, she, or it writes"], ["φέρει", "he, she, or it carries"], ["φυλάσσει", "he, she, or it guards"], ["μανθάνει", "he, she, or it learns"], ["κελεύει", "he, she, or it orders"], ["ἐστίν", "he, she, or it is"]] },
+            { title: "Third-person plural", headers: ["Greek", "Meaning"], greekColumns: [0], rows: [["γράφουσιν", "they write"], ["φέρουσιν", "they carry"], ["φυλάσσουσιν", "they guard"], ["μανθάνουσιν", "they learn"], ["κελεύουσιν", "they order"], ["εἰσίν", "they are"]] },
+            { title: "Singular and plural comparison", headers: ["Singular", "Plural"], greekColumns: [0, 1], rows: [["ὁ παῖς γράφει.", "οἱ παῖδες γράφουσιν."]] }
+          ],
+          examples: [
+            { greek: "ὁ πατὴρ τὸν παῖδα κελεύει.", english: "The father orders the boy." },
+            { greek: "αἱ δοῦλαι τοὺς πέπλους ὑφαίνουσιν.", english: "The female servants weave the garments." },
+            { greek: "ὁ διδάσκαλος γράμματα γράφει.", english: "The teacher writes letters." },
+            { greek: "οἱ παῖδες τὰ γράμματα μανθάνουσιν.", english: "The boys learn letters." }
+          ],
+          checks: [{ prompt: "Which ending usually marks a third-person plural active verb in this lesson?", answer: "-ουσι(ν), as in μανθάνουσιν." }],
+          practiceTopic: "third-person-present-verbs"
+        },
+        {
+          id: "accusative-direct-objects",
+          title: "2. Accusative Direct Objects",
+          body: [
+            "The direct object receives the action of the verb.",
+            "In ὁ Ξενοφῶν φέρει τὸ ὕδωρ, the subject is ὁ Ξενοφῶν, the verb is φέρει, and the direct object is τὸ ὕδωρ.",
+            "The nominative and accusative forms of neuter nouns are normally identical."
+          ],
+          tables: [
+            { title: "Masculine examples", headers: ["Nominative", "Accusative"], greekColumns: [0, 1], rows: [["ὁ ἵππος", "τὸν ἵππον"], ["ὁ ὄνος", "τὸν ὄνον"], ["ὁ κῆπος", "τὸν κῆπον"], ["ὁ διδάσκαλος", "τὸν διδάσκαλον"]] },
+            { title: "Neuter examples", headers: ["Nominative", "Accusative"], greekColumns: [0, 1], rows: [["τὸ ἔργον", "τὸ ἔργον"], ["τὸ γράμμα", "τὸ γράμμα"], ["τὸ ζῷον", "τὸ ζῷον"]] },
+            { title: "Plural direct objects", headers: ["Phrase", "Meaning"], greekColumns: [0], rows: [["τὰ γράμματα", "letters"], ["τὰ ἔργα", "works / tasks"], ["τοὺς πέπλους", "garments"], ["τοὺς λόγους", "words / speeches"]] }
+          ],
+          examples: [
+            { greek: "ὁ πατὴρ τὸν Ξενοφῶντα ἄγει.", english: "The father leads Xenophon." },
+            { greek: "ὁ παῖς τὸν ἵππον θεραπεύει.", english: "The boy tends the horse." },
+            { greek: "ἡ μήτηρ τὰ ἔργα σκοπεῖ.", english: "The mother oversees the work." },
+            { greek: "ὁ διδάσκαλος τὸν Ὅμηρον ἀναγιγνώσκει.", english: "The teacher reads Homer aloud." }
+          ],
+          checks: [{ prompt: "In ὁ παῖς τὸν ἵππον θεραπεύει, what receives the action?", answer: "τὸν ἵππον receives the action and is the accusative direct object." }],
+          practiceTopic: "accusative-direct-objects"
+        },
+        {
+          id: "simple-infinitive-expressions",
+          title: "3. Simple Infinitive Expressions",
+          body: [
+            "The infinitive expresses “to do something.” A common present active infinitive ending is -ειν.",
+            "Contract verbs may appear in contracted form, such as ποιεῖν.",
+            "After κελεύω, the person receiving the command is accusative, and the infinitive expresses the commanded action."
+          ],
+          table: { title: "Present active infinitives", headers: ["Verb", "Infinitive", "Meaning"], greekColumns: [0, 1], rows: [["γράφω", "γράφειν", "to write"], ["φέρω", "φέρειν", "to carry"], ["φυλάσσω", "φυλάσσειν", "to guard"], ["μανθάνω", "μανθάνειν", "to learn"], ["θεραπεύω", "θεραπεύειν", "to tend"], ["παιδεύω", "παιδεύειν", "to educate"], ["ποιέω", "ποιεῖν", "to do; make"]] },
+          examples: [
+            { greek: "ὁ Ξενοφῶν βούλεται μανθάνειν.", english: "Xenophon wants to learn." },
+            { greek: "οἱ γονεῖς τὸν παῖδα παιδεύειν βούλονται.", english: "The parents want to educate the boy." },
+            { greek: "ὁ πατὴρ κελεύει τὸν παῖδα ὕδωρ φέρειν.", english: "The father orders the boy to carry water." },
+            { greek: "ἡ μήτηρ κελεύει τὰς δούλας τὸν ἄρτον παρασκευάζειν.", english: "The mother orders the female servants to prepare bread." }
+          ],
+          checks: [{ prompt: "In βούλεται μανθάνειν, what does μανθάνειν do?", answer: "It is the infinitive that completes the idea: he wants to learn." }],
+          practiceTopic: "simple-infinitive-expressions"
+        },
+        {
+          id: "present-middle-and-passive",
+          title: "4. Present Middle and Passive",
+          body: [
+            "Introductory third-person middle/passive endings are -εται in the singular and -ονται in the plural.",
+            "In the middle voice, the subject may act upon or for himself. Some verbs use middle forms but have active English meanings.",
+            "In the passive voice, the subject receives the action."
+          ],
+          tables: [
+            { title: "Middle/passive endings", headers: ["Person", "Singular", "Plural"], greekColumns: [1, 2], rows: [["third person", "-εται", "-ονται"]] },
+            { title: "Forms to recognize", headers: ["Greek", "Meaning"], greekColumns: [0], rows: [["λούεται", "he or she washes himself or herself"], ["ἐργάζεται", "he or she works"], ["βούλεται", "he or she wishes"], ["παιδεύεται", "he or she is educated"], ["λούονται", "they wash themselves"], ["ἐργάζονται", "they work"], ["βούλονται", "they wish"], ["παιδεύονται", "they are educated"]] }
+          ],
+          examples: [
+            { greek: "ὁ Ξενοφῶν λούεται.", english: "Xenophon washes himself." },
+            { greek: "ὁ πατὴρ ἐργάζεται.", english: "The father works." },
+            { greek: "ὁ Ξενοφῶν βούλεται μανθάνειν.", english: "Xenophon wants to learn." },
+            { greek: "ὁ διδάσκαλος παιδεύει τὸν Ξενοφῶντα.", english: "The teacher educates Xenophon." },
+            { greek: "ὁ Ξενοφῶν παιδεύεται ὑπὸ τοῦ διδασκάλου.", english: "Xenophon is educated by the teacher." }
+          ],
+          checks: [{ prompt: "Which sentence is passive: παιδεύει τὸν παῖδα or ὁ παῖς παιδεύεται?", answer: "ὁ παῖς παιδεύεται is passive: the boy receives the education." }],
+          practiceTopic: "present-middle-and-passive"
+        },
+        {
+          id: "demonstratives",
+          title: "5. Demonstratives",
+          body: [
+            "οὗτος, αὕτη, τοῦτο means “this” or “these.” ἐκεῖνος, ἐκείνη, ἐκεῖνο means “that” or “those.”",
+            "Demonstratives agree with their nouns in gender, number, and case.",
+            "The standard attributive pattern places the demonstrative outside the article-noun group: οὗτος ὁ παῖς."
+          ],
+          tables: [
+            { title: "οὗτος, αὕτη, τοῦτο: singular", headers: ["Gender", "Nominative Singular", "Accusative Singular"], greekColumns: [1, 2], rows: [["masculine", "οὗτος", "τοῦτον"], ["feminine", "αὕτη", "ταύτην"], ["neuter", "τοῦτο", "τοῦτο"]] },
+            { title: "οὗτος, αὕτη, τοῦτο: plural", headers: ["Gender", "Nominative Plural", "Accusative Plural"], greekColumns: [1, 2], rows: [["masculine", "οὗτοι", "τούτους"], ["feminine", "αὗται", "ταύτας"], ["neuter", "ταῦτα", "ταῦτα"]] },
+            { title: "ἐκεῖνος, ἐκείνη, ἐκεῖνο: singular", headers: ["Gender", "Nominative Singular", "Accusative Singular"], greekColumns: [1, 2], rows: [["masculine", "ἐκεῖνος", "ἐκεῖνον"], ["feminine", "ἐκείνη", "ἐκείνην"], ["neuter", "ἐκεῖνο", "ἐκεῖνο"]] },
+            { title: "ἐκεῖνος, ἐκείνη, ἐκεῖνο: plural", headers: ["Gender", "Nominative Plural", "Accusative Plural"], greekColumns: [1, 2], rows: [["masculine", "ἐκεῖνοι", "ἐκείνους"], ["feminine", "ἐκεῖναι", "ἐκείνας"], ["neuter", "ἐκεῖνα", "ἐκεῖνα"]] }
+          ],
+          examples: [
+            { greek: "οὗτος ὁ παῖς", english: "this boy" },
+            { greek: "αὕτη ἡ οἰκία", english: "this house" },
+            { greek: "ἐκεῖνος ὁ ἵππος", english: "that horse" },
+            { greek: "ἐκείνη ἡ δούλη", english: "that female servant" },
+            { greek: "οὗτος ὁ διδάσκαλος", english: "this teacher" },
+            { greek: "ταύτην τὴν οἰκίαν", english: "this house as direct object" },
+            { greek: "ἐκεῖνα τὰ ζῷα", english: "those animals" },
+            { greek: "ἐκείνας τὰς δούλας", english: "those female servants as direct object" }
+          ],
+          checks: [{ prompt: "Why is αὕτη correct in αὕτη ἡ δούλη?", answer: "δούλη is feminine nominative singular, so the demonstrative must also be feminine nominative singular." }],
+          practiceTopic: "demonstratives"
+        }
+      ],
+      summary: {
+        title: "Lesson 3 Grammar Summary",
+        items: [
+          "Third-person singular active forms often end in -ει.",
+          "Third-person plural active forms often end in -ουσι(ν).",
+          "The accusative marks the direct object.",
+          "Infinitives in -ειν can complete βούλομαι or express the action commanded by κελεύω.",
+          "Middle/passive forms use -εται and -ονται.",
+          "Demonstratives agree with their nouns in gender, number, and case."
+        ]
+      }
+    },
+    enrichment: [],
+    activities: {
+      "vocab-practice": {
+        title: "Lesson 3 Vocabulary Practice",
+        questions: LESSON_3_TOPIC_PRACTICE.filter((question) => ["third-person-present-verbs", "simple-infinitive-expressions", "demonstratives"].includes(question.topic)).slice(0, 12)
+      },
+      "grammar-flashcards": {
+        title: "Lesson 3 Grammar Flashcards",
+        cards: [
+          { prompt: "What does -ει often mark?", answer: "Third-person singular present active." },
+          { prompt: "What does -ουσι(ν) often mark?", answer: "Third-person plural present active." },
+          { prompt: "What does the accusative direct object do?", answer: "It receives the action of the verb." },
+          { prompt: "What does an infinitive express?", answer: "To do something." },
+          { prompt: "What does -εται mark in Lesson 3?", answer: "Third-person singular middle/passive." },
+          { prompt: "How do demonstratives agree?", answer: "In gender, number, and case." }
+        ]
+      },
+      "topic-practice": {
+        title: "Lesson 3 Repeatable Practice",
+        topicInstructions: {
+          "third-person-present-verbs": "Recognize singular and plural third-person present verbs.",
+          "accusative-direct-objects": "Identify direct objects and choose accusative forms.",
+          "simple-infinitive-expressions": "Match and complete infinitive expressions.",
+          "present-middle-and-passive": "Classify and translate introductory middle/passive forms.",
+          "demonstratives": "Choose agreeing demonstratives and transform forms.",
+          "reading-comprehension": "Answer supported comprehension questions from the reading.",
+          "translation": "Translate short sentences using Lesson 3 vocabulary and grammar."
+        },
+        questions: LESSON_3_TOPIC_PRACTICE
+      },
+      "grammar-exercises": {
+        title: "Lesson 3 Grammar Exercises",
+        threshold: 80,
+        questions: LESSON_3_TOPIC_PRACTICE.filter((question) => ["third-person-present-verbs", "accusative-direct-objects", "simple-infinitive-expressions", "present-middle-and-passive", "demonstratives"].includes(question.topic)).slice(0, 30)
+      },
+      "lesson-quiz": {
+        title: "Lesson 3 Test — The Education of Xenophon",
+        threshold: 70,
+        masteryScore: 85,
+        pointsPossible: 100,
+        pointsPerQuestion: 5,
+        randomizeChoices: true,
+        categoryFeedback: {
+          "Third-person verbs": "Review singular -ει versus plural -ουσι(ν).",
+          "Accusative direct objects": "Review how the accusative marks the person or thing receiving the action.",
+          "Infinitives": "Review infinitives in -ειν, especially after βούλομαι and κελεύω.",
+          "Middle and passive forms": "Review -εται and -ονται, and contrast παιδεύει with παιδεύεται.",
+          "Demonstratives and comprehension": "Review demonstrative agreement in gender, number, and case."
+        },
+        questions: LESSON_3_TEST_QUESTIONS
+      }
+    },
+    nextLesson: {
+      id: "lesson-4",
+      title: "The Student and the Teacher",
+      fallbackUrl: "lesson.html?lesson=4&page=1"
     }
   };
 
@@ -6537,6 +7038,7 @@ After the work, Xenophon returns to the house. His mother prepares dinner. His f
       }
     },
     "lesson-2": LESSON_2,
+    "lesson-3": LESSON_3,
     "lesson-4": {
       id: "lesson-4",
       number: 4,

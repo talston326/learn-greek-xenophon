@@ -87,7 +87,7 @@ SELECT 'levels', count(*)::text, '10'
 FROM public.levels levels
 JOIN course c ON c.id = levels.course_id
 UNION ALL
-SELECT 'seed vocabulary links', count(*)::text, '95'
+SELECT 'seed vocabulary links', count(*)::text, '144'
 FROM public.lesson_vocabulary lv
 JOIN public.vocabulary_items vi ON vi.id = lv.vocabulary_item_id
 JOIN public.lessons l ON l.id = lv.lesson_id
@@ -100,6 +100,9 @@ WHERE (
   OR (
     l.slug = 'lesson-2'
     AND vi.morphology->>'source' IN ('minimal_development_seed', 'lesson_2_household_migration')
+  )
+  OR (
+    l.slug = 'lesson-3'
   );
 
 SELECT u.email::text, array_agg(ur.role_id ORDER BY CASE ur.role_id WHEN 'administrator' THEN 1 WHEN 'professor' THEN 2 WHEN 'student' THEN 3 ELSE 4 END) AS roles

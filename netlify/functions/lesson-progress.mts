@@ -15,6 +15,9 @@ type LessonProgressRequest = {
   page?: number;
   activityType?: string;
   score?: number;
+  pointsEarned?: number;
+  pointsPossible?: number;
+  categoryScores?: Array<Record<string, unknown>>;
   passed?: boolean;
   nextLessonSlug?: string;
   advanceToNext?: boolean;
@@ -173,6 +176,8 @@ export default async (request: Request) => {
 
     if (action === "activity_passed") {
       const score = Number.isFinite(Number(body.score)) ? Number(body.score) : null;
+      const pointsEarned = Number.isFinite(Number(body.pointsEarned)) ? Number(body.pointsEarned) : score;
+      const pointsPossible = Number.isFinite(Number(body.pointsPossible)) ? Number(body.pointsPossible) : 100;
       const passed = Boolean(body.passed);
 
       await client.query(
@@ -194,9 +199,52 @@ export default async (request: Request) => {
             activityType: body.activityType,
             score,
             passed,
+            pointsEarned,
+            pointsPossible,
+            categoryScores: Array.isArray(body.categoryScores) ? body.categoryScores : [],
           }),
         ]
       );
+
+      if (body.activityType === "lesson-quiz" && score != null) {
+        const attemptResult = await client.query(
+          `
+            SELECT COALESCE(max(attempt_number), 0) + 1 AS next_attempt
+            FROM public.student_lesson_test_grades
+            WHERE course_id = $1
+              AND user_id = $2
+              AND lesson_id = $3
+              AND test_type = 'lesson-test'
+          `,
+          [user.course_id, user.user_id, lesson.id]
+        );
+        const attemptNumber = Number(attemptResult.rows[0]?.next_attempt || 1);
+
+        await client.query(
+          `
+            INSERT INTO public.student_lesson_test_grades (
+              course_id,
+              user_id,
+              lesson_id,
+              test_type,
+              score_percent,
+              points_earned,
+              points_possible,
+              attempt_number,
+              completed_at,
+              updated_at
+            )
+            VALUES ($1, $2, $3, 'lesson-test', $4, $5, $6, $7, now(), now())
+            ON CONFLICT (user_id, lesson_id, test_type, attempt_number) DO UPDATE
+            SET score_percent = EXCLUDED.score_percent,
+                points_earned = EXCLUDED.points_earned,
+                points_possible = EXCLUDED.points_possible,
+                completed_at = EXCLUDED.completed_at,
+                updated_at = now()
+          `,
+          [user.course_id, user.user_id, lesson.id, score, pointsEarned, pointsPossible, attemptNumber]
+        );
+      }
     }
 
     if (action === "complete_lesson") {

@@ -336,6 +336,20 @@
     return questions;
   }
 
+  function prepareQuestions() {
+    const activity = lesson.activities?.[activityType] || {};
+    const questions = getQuestions();
+
+    if (!activity.randomizeChoices) {
+      return questions;
+    }
+
+    return questions.map((question) => ({
+      ...question,
+      choices: shuffleItems(question.choices || [])
+    }));
+  }
+
   function getCorrectChoice(question) {
     return question.choices.find((choice) => choice.correct);
   }
@@ -511,7 +525,7 @@
   }
 
   function renderQuiz() {
-    const questions = getQuestions();
+    const questions = prepareQuestions();
 
     if (!questions.length) {
       renderUnavailable();
@@ -867,10 +881,26 @@
       const form = event.currentTarget;
       let correct = 0;
 
+      const categoryStats = new Map();
+
       questions.forEach((question, questionIndex) => {
         const answer = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
-        if (answer && question.choices[Number(answer.value)]?.correct) {
+        const isCorrect = Boolean(answer && question.choices[Number(answer.value)]?.correct);
+        const category = question.category || "Uncategorized";
+
+        if (isCorrect) {
           correct += 1;
+        }
+
+        if (question.category) {
+          const stats = categoryStats.get(category) || {
+            category,
+            correct: 0,
+            total: 0
+          };
+          stats.correct += isCorrect ? 1 : 0;
+          stats.total += 1;
+          categoryStats.set(category, stats);
         }
       });
 
@@ -880,12 +910,22 @@
       const threshold = lesson.activities?.[activityType]?.threshold || 0;
       const passed = threshold ? score >= threshold : true;
       const result = shell.querySelector("[data-activity-result]");
+      const activity = lesson.activities?.[activityType] || {};
+      const pointsPossible = activity.pointsPossible || activity.maxScore || questions.length;
+      const pointsEarned = Math.round((correct / questions.length) * pointsPossible);
+      const categoryScores = Array.from(categoryStats.values()).map((stats) => ({
+        ...stats,
+        percent: Math.round((stats.correct / stats.total) * 100)
+      }));
 
       await window.xenophonLessonProgress?.recordActivityResult({
         lessonSlug: lesson.id,
         activityType,
         score,
-        passed
+        passed,
+        pointsEarned,
+        pointsPossible,
+        categoryScores
       });
 
       if (passed && activityType === "lesson-quiz") {
@@ -897,11 +937,38 @@
       }
 
       if (result) {
+        const categoryFeedback = renderCategoryFeedback(activity, categoryScores);
         result.innerHTML = passed
-          ? `Passed with ${score}%. Review any marked answers below. <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>`
-          : `Score: ${score}%. Review the marked answers below, then try again to reach ${threshold || 80}%.`;
+          ? `Passed with ${score}% (${pointsEarned}/${pointsPossible} points). Review any marked answers below. <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>${categoryFeedback}`
+          : `Score: ${score}% (${pointsEarned}/${pointsPossible} points). Review the marked answers below, then try again to reach ${threshold || 80}%.${categoryFeedback}`;
       }
     });
+  }
+
+  function renderCategoryFeedback(activity, categoryScores) {
+    if (!activity?.categoryFeedback || !categoryScores.length) {
+      return "";
+    }
+
+    const rows = categoryScores.map((stats) => {
+      const message = stats.percent < 70
+        ? activity.categoryFeedback[stats.category] || "Review this category before trying again."
+        : "On track.";
+      return `
+        <li>
+          <strong>${escapeHtml(stats.category)}</strong>
+          <span>${stats.correct}/${stats.total} (${stats.percent}%)</span>
+          <span>${escapeHtml(message)}</span>
+        </li>
+      `;
+    }).join("");
+
+    return `
+      <div class="category-feedback" aria-label="Category performance">
+        <h2>Category Feedback</h2>
+        <ul>${rows}</ul>
+      </div>
+    `;
   }
 
   async function initializeActivity() {

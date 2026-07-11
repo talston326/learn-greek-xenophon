@@ -124,12 +124,15 @@
     }
   }
 
-  async function recordActivityResult({ lessonSlug, activityType, score, passed }) {
+  async function recordActivityResult({ lessonSlug, activityType, score, passed, pointsEarned, pointsPossible, categoryScores }) {
     updateLessonFallback(lessonSlug, (lessonState) => {
       lessonState.gates ||= {};
       lessonState.gates[activityType] = {
         score,
         passed,
+        ...(pointsEarned != null ? { pointsEarned } : {}),
+        ...(pointsPossible != null ? { pointsPossible } : {}),
+        ...(categoryScores?.length ? { categoryScores } : {}),
         completedAt: new Date().toISOString()
       };
     });
@@ -153,7 +156,10 @@
         lessonSlug,
         activityType,
         score,
-        passed
+        passed,
+        pointsEarned,
+        pointsPossible,
+        categoryScores
       });
     } catch (error) {
       console.warn("Using local activity progress fallback.", error);
