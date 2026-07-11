@@ -509,6 +509,39 @@
       font-size: 18px;
     }
 
+    .nav-group {
+      display: grid;
+      gap: 6px;
+      margin: 2px 0;
+    }
+
+    .nav-group-heading {
+      padding: 4px 16px 2px;
+      color: var(--muted);
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .nav-group-items {
+      display: grid;
+      gap: 5px;
+    }
+
+    .nav a.nav-child-link {
+      margin-left: 18px;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: .94rem;
+    }
+
+    .nav a.nav-child-link .icon {
+      width: 14px;
+      font-size: 13px;
+      color: var(--gold);
+    }
+
     .app.sidebar-collapsed .sidebar {
       padding: 18px 10px;
       align-items: center;
@@ -560,6 +593,30 @@
     .app.sidebar-collapsed .nav .icon {
       width: auto;
       font-size: 19px;
+    }
+
+    .app.sidebar-collapsed .nav-group-heading {
+      display: none;
+    }
+
+    .app.sidebar-collapsed .nav-group,
+    .app.sidebar-collapsed .nav-group-items {
+      width: 100%;
+      place-items: center;
+    }
+
+    .app.sidebar-collapsed .nav a.nav-child-link {
+      margin-left: 0;
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      justify-content: center;
+      font-size: 0;
+    }
+
+    .app.sidebar-collapsed .nav a.nav-child-link .icon {
+      width: auto;
+      font-size: 18px;
     }
 
     .sidebar-card {
@@ -4054,6 +4111,178 @@
       line-height: 1.25;
     }
 
+    .forms-hero {
+      --hero-banner-position: center 42%;
+    }
+
+    .forms-shell {
+      display: grid;
+      gap: 18px;
+    }
+
+    .forms-intro p,
+    .forms-paradigm-intro p {
+      max-width: 920px;
+    }
+
+    .forms-card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .forms-card {
+      min-height: 118px;
+      display: grid;
+      align-content: start;
+      gap: 8px;
+      padding: 16px;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 8px;
+      background: rgba(255,255,255,.72);
+      color: var(--text);
+      text-decoration: none;
+      transition: .18s ease;
+    }
+
+    .forms-card:hover,
+    .forms-card:focus-visible {
+      border-color: rgba(115,0,10,.28);
+      background: #fff;
+      box-shadow: 0 8px 20px rgba(55, 38, 22, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .forms-card__title {
+      color: var(--usc-garnet);
+      font-size: 1.12rem;
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .forms-card__description,
+    .forms-headword__gloss,
+    .forms-section-lemma span:not(.greek-text) {
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .forms-headword-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .forms-headword {
+      display: grid;
+      gap: 4px;
+      min-width: min(100%, 180px);
+      padding: 12px 14px;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 8px;
+      background: rgba(250,246,240,.74);
+    }
+
+    .forms-headword__form,
+    .forms-section-lemma .greek-text,
+    .forms-greek-form {
+      color: #2e2824;
+      font-size: 1.16rem;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .forms-note-list {
+      display: grid;
+      gap: 8px;
+      max-width: 980px;
+      margin-top: 14px;
+      color: var(--muted);
+      font-weight: 700;
+      line-height: 1.55;
+    }
+
+    .forms-note-list p {
+      margin: 0;
+    }
+
+    .forms-table-stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .forms-table-region {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid rgba(115,0,10,.12);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .forms-table {
+      width: 100%;
+      min-width: 560px;
+      border-collapse: collapse;
+    }
+
+    .forms-table caption {
+      padding: 12px 14px;
+      background: rgba(250,246,240,.76);
+      color: var(--usc-garnet);
+      font-weight: 900;
+      text-align: left;
+    }
+
+    .forms-table th,
+    .forms-table td {
+      border-top: 1px solid rgba(111,102,95,.14);
+      border-right: 1px solid rgba(111,102,95,.12);
+      padding: 13px 14px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.45;
+    }
+
+    .forms-table th:last-child,
+    .forms-table td:last-child {
+      border-right: 0;
+    }
+
+    .forms-table thead th {
+      background: rgba(115,0,10,.08);
+      color: var(--usc-garnet);
+      font-size: .9rem;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .forms-table tbody th {
+      width: 160px;
+      background: rgba(250,246,240,.56);
+      color: #443b35;
+      font-weight: 900;
+    }
+
+    .forms-source {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .forms-source p {
+      margin: 0;
+    }
+
+    .forms-adjacent-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
     .principal-parts-translation {
       display: block;
       color: #5f5650;
@@ -7085,6 +7314,24 @@
         margin-bottom: 4px;
         text-transform: uppercase;
       }
+      .forms-card-grid {
+        grid-template-columns: 1fr;
+      }
+      .forms-source {
+        display: grid;
+        align-items: start;
+      }
+      .forms-adjacent-nav,
+      .forms-adjacent-nav .primary-button,
+      .forms-adjacent-nav .secondary-button {
+        width: 100%;
+      }
+      .forms-table-region {
+        border-radius: 12px;
+      }
+      .forms-table {
+        min-width: 560px;
+      }
       .principal-parts-prompt {
         min-height: 104px;
       }
@@ -7108,6 +7355,7 @@
       body.dashboard-active.course-introduction-page .main,
       body.dashboard-active.feedback-page .main,
       body.dashboard-active.dictionary-page .main,
+      body.dashboard-active.forms-page .main,
       body.dashboard-active.resources-page .main,
       body.dashboard-active.principal-parts-page .main {
         padding: 16px;
@@ -7133,6 +7381,7 @@
       body.dashboard-active.dictionary-page .main > :not(.mobile-practice) {
         display: grid !important;
       }
+      body.dashboard-active.forms-page .main > :not(.mobile-practice),
       body.dashboard-active.resources-page .main > :not(.mobile-practice),
       body.dashboard-active.principal-parts-page .main > :not(.mobile-practice) {
         display: grid !important;

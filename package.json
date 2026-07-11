@@ -11,6 +11,7 @@
     "db:verify": "node db/run-sql.mjs db/verify_schema.sql",
     "db:verify:seed": "node db/run-sql.mjs db/verify_seed.sql",
     "verify:dictionary": "node scripts/verify-dictionary-citations.mjs",
-    "verify:awards": "node scripts/verify-award-assets.mjs"
+    "verify:awards": "node scripts/verify-award-assets.mjs",
+    "verify:forms": "node scripts/verify-forms.mjs"
   }
 }

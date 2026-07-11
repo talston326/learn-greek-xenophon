@@ -155,6 +155,8 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
   })
 );
 
+const FORMS_NAV_ITEMS = window.xenophonForms?.getNavigationItems?.() || [];
+
 const STUDENT_PROGRESS_PLAN = [
   {
     name: "New Student",
@@ -1243,6 +1245,7 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
+      { type: "group", heading: "FORMS", items: FORMS_NAV_ITEMS },
       ["✉", "Feedback", "feedback.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
@@ -1267,6 +1270,7 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
+      { type: "group", heading: "FORMS", items: FORMS_NAV_ITEMS },
       ["✉", "Feedback", "feedback.html"],
       ["💬", "Discussions", "#"],
       ["⚙️", "Settings", "#"],
@@ -1289,6 +1293,7 @@ const ROLE_DASHBOARDS = {
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
+      { type: "group", heading: "FORMS", items: FORMS_NAV_ITEMS },
       ["👤", "Profile", "profile.html"],
       ["✉", "Feedback", "feedback.html"],
       ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
@@ -4331,7 +4336,60 @@ function renderNav(roleConfig, session = readSession()) {
 
   sidebarNav.textContent = "";
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const formsPages = new Set(FORMS_NAV_ITEMS.map((item) => item.href));
+  const getNavActiveState = (href, index) => {
+    if (!href || href === "#") {
+      return "";
+    }
+
+    if (href === currentPage || (currentPage === "index.html" && index === 0)) {
+      return "page";
+    }
+
+    if (
+      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
+      (currentPage === "activity.html" && href === "flashcards.html") ||
+      ((currentPage === "resources.html" || currentPage.startsWith("principal-parts") || formsPages.has(currentPage)) && href === "resources.html")
+    ) {
+      return "section";
+    }
+
+    return "";
+  };
+
+  const renderNavLink = ({ icon, label, href, action, index, child = false }) => {
+    const link = document.createElement("a");
+    link.href = href || "#";
+    link.title = label;
+    if (child) {
+      link.classList.add("nav-child-link");
+    }
+    if (action) {
+      link.dataset.navAction = action;
+    }
+
+    const activeState = !action ? getNavActiveState(href, index) : "";
+    if (activeState) {
+      link.classList.add("active");
+    }
+    if (activeState === "page") {
+      link.setAttribute("aria-current", "page");
+    }
+
+    const iconEl = document.createElement("span");
+    iconEl.className = "icon";
+    iconEl.textContent = icon || "";
+    iconEl.setAttribute("aria-hidden", "true");
+    link.appendChild(iconEl);
+    link.appendChild(document.createTextNode(label));
+    return link;
+  };
+
   const navItems = roleConfig.nav.map((item, index) => {
+    if (!Array.isArray(item)) {
+      return item;
+    }
+
     if (session?.professorPreview && index === 0 && item[1] === "Dashboard") {
       return [item[0], "Student Dashboard", item[2]];
     }
@@ -4343,29 +4401,43 @@ function renderNav(roleConfig, session = readSession()) {
     navItems.push(["↩", "Professor Dashboard", "#professor-dashboard-return", "returnProfessorDashboard"]);
   }
 
-  navItems.forEach(([icon, label, href, action], index) => {
-    const link = document.createElement("a");
-    link.href = href || "#";
-    link.title = label;
-    if (action) {
-      link.dataset.navAction = action;
-    }
-    if (
-      (!action && href === currentPage) ||
-      (!action && currentPage === "index.html" && index === 0) ||
-      ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
-      (currentPage === "activity.html" && href === "flashcards.html") ||
-      ((currentPage === "resources.html" || currentPage.startsWith("principal-parts")) && href === "resources.html")
-    ) {
-      link.classList.add("active");
+  navItems.forEach((item, index) => {
+    if (!Array.isArray(item) && item?.type === "group") {
+      const childItems = Array.isArray(item.items) ? item.items : [];
+
+      if (!childItems.length) {
+        return;
+      }
+
+      const group = document.createElement("div");
+      group.className = "nav-group";
+      group.dataset.navGroup = item.heading;
+
+      const heading = document.createElement("div");
+      heading.className = "nav-group-heading";
+      heading.textContent = item.heading;
+      group.appendChild(heading);
+
+      const childList = document.createElement("div");
+      childList.className = "nav-group-items";
+
+      childItems.forEach((child) => {
+        childList.appendChild(renderNavLink({
+          icon: child.icon || "•",
+          label: child.label,
+          href: child.href,
+          index,
+          child: true
+        }));
+      });
+
+      group.appendChild(childList);
+      sidebarNav.appendChild(group);
+      return;
     }
 
-    const iconEl = document.createElement("span");
-    iconEl.className = "icon";
-    iconEl.textContent = icon;
-    link.appendChild(iconEl);
-    link.appendChild(document.createTextNode(label));
-    sidebarNav.appendChild(link);
+    const [icon, label, href, action] = item;
+    sidebarNav.appendChild(renderNavLink({ icon, label, href, action, index }));
   });
 }
 
