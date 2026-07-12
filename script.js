@@ -155,8 +155,6 @@ const COURSE_LESSONS = COURSE_MODULES.flatMap((module) =>
   })
 );
 
-const FORMS_NAV_ITEMS = window.xenophonForms?.getNavigationItems?.() || [];
-
 const STUDENT_PROGRESS_PLAN = [
   {
     name: "New Student",
@@ -1245,14 +1243,11 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
-      { type: "group", heading: "FORMS", items: FORMS_NAV_ITEMS },
       ["✉", "Feedback", "feedback.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
       ["🗂️", "Course Content", "#"],
-      ["⚙️", "Site Settings", "#"],
-      ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
-      ["E", "English \u2192 Greek Vocabulary", "english-greek-vocabulary.html"]
+      ["⚙️", "Site Settings", "#"]
     ]
   },
   professor: {
@@ -1270,12 +1265,9 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
-      { type: "group", heading: "FORMS", items: FORMS_NAV_ITEMS },
       ["✉", "Feedback", "feedback.html"],
       ["💬", "Discussions", "#"],
-      ["⚙️", "Settings", "#"],
-      ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
-      ["E", "English \u2192 Greek Vocabulary", "english-greek-vocabulary.html"]
+      ["⚙️", "Settings", "#"]
     ]
   },
   student: {
@@ -1293,11 +1285,8 @@ const ROLE_DASHBOARDS = {
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
-      { type: "group", heading: "FORMS", items: FORMS_NAV_ITEMS },
       ["👤", "Profile", "profile.html"],
-      ["✉", "Feedback", "feedback.html"],
-      ["G", "Greek \u2192 English Vocabulary", "greek-english-vocabulary.html"],
-      ["E", "English \u2192 Greek Vocabulary", "english-greek-vocabulary.html"]
+      ["✉", "Feedback", "feedback.html"]
     ]
   }
 };
@@ -4336,7 +4325,12 @@ function renderNav(roleConfig, session = readSession()) {
 
   sidebarNav.textContent = "";
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
-  const formsPages = new Set(FORMS_NAV_ITEMS.map((item) => item.href));
+  const isResourcePage =
+    currentPage === "resources.html" ||
+    currentPage.startsWith("principal-parts") ||
+    currentPage.startsWith("forms") ||
+    currentPage === "greek-english-vocabulary.html" ||
+    currentPage === "english-greek-vocabulary.html";
   const getNavActiveState = (href, index) => {
     if (!href || href === "#") {
       return "";
@@ -4349,7 +4343,7 @@ function renderNav(roleConfig, session = readSession()) {
     if (
       ((currentPage.startsWith("lesson-") || currentPage === "lesson.html" || currentPage.startsWith("module-")) && href === "lessons.html") ||
       (currentPage === "activity.html" && href === "flashcards.html") ||
-      ((currentPage === "resources.html" || currentPage.startsWith("principal-parts") || formsPages.has(currentPage)) && href === "resources.html")
+      (isResourcePage && href === "resources.html")
     ) {
       return "section";
     }
@@ -4357,13 +4351,10 @@ function renderNav(roleConfig, session = readSession()) {
     return "";
   };
 
-  const renderNavLink = ({ icon, label, href, action, index, child = false }) => {
+  const renderNavLink = ({ icon, label, href, action, index }) => {
     const link = document.createElement("a");
     link.href = href || "#";
     link.title = label;
-    if (child) {
-      link.classList.add("nav-child-link");
-    }
     if (action) {
       link.dataset.navAction = action;
     }
@@ -4402,40 +4393,6 @@ function renderNav(roleConfig, session = readSession()) {
   }
 
   navItems.forEach((item, index) => {
-    if (!Array.isArray(item) && item?.type === "group") {
-      const childItems = Array.isArray(item.items) ? item.items : [];
-
-      if (!childItems.length) {
-        return;
-      }
-
-      const group = document.createElement("div");
-      group.className = "nav-group";
-      group.dataset.navGroup = item.heading;
-
-      const heading = document.createElement("div");
-      heading.className = "nav-group-heading";
-      heading.textContent = item.heading;
-      group.appendChild(heading);
-
-      const childList = document.createElement("div");
-      childList.className = "nav-group-items";
-
-      childItems.forEach((child) => {
-        childList.appendChild(renderNavLink({
-          icon: child.icon || "•",
-          label: child.label,
-          href: child.href,
-          index,
-          child: true
-        }));
-      });
-
-      group.appendChild(childList);
-      sidebarNav.appendChild(group);
-      return;
-    }
-
     const [icon, label, href, action] = item;
     sidebarNav.appendChild(renderNavLink({ icon, label, href, action, index }));
   });

@@ -49,12 +49,20 @@ assert.equal(navLabels[0], "All Forms");
 ].forEach((label) => assert.ok(navLabels.includes(label), `${label} should be in Forms navigation`));
 
 const scriptJs = await readFile(path.join(rootDir, "script.js"), "utf8");
-assert.match(scriptJs, /heading: "FORMS"/, "FORMS group should be configured in the sidebar nav");
+assert.doesNotMatch(scriptJs, /FORMS_NAV_ITEMS/, "Forms navigation data should not be loaded for the sidebar");
+assert.doesNotMatch(scriptJs, /heading: "FORMS"/, "FORMS group should not be configured in the sidebar nav");
+assert.doesNotMatch(scriptJs, /nav-child-link/, "Sidebar should not render nested Forms child links");
+assert.doesNotMatch(scriptJs, /Greek \\u2192 English Vocabulary/, "Dictionary pages should not be top-level sidebar items");
 assert.match(scriptJs, /aria-current", "page"/, "active exact links should receive aria-current=\"page\"");
-assert.match(scriptJs, /nav-child-link/, "Forms child links should use the child-link sidebar class");
+assert.match(scriptJs, /currentPage\.startsWith\("forms"\)/, "Resources nav should remain active for Forms pages");
+assert.match(scriptJs, /currentPage\.startsWith\("principal-parts"\)/, "Resources nav should remain active for Principal Parts pages");
+assert.match(scriptJs, /currentPage === "greek-english-vocabulary\.html"/, "Resources nav should remain active for Greek-English dictionary pages");
+assert.match(scriptJs, /currentPage === "english-greek-vocabulary\.html"/, "Resources nav should remain active for English-Greek dictionary pages");
 
 const resourcesHtml = await readFile(path.join(rootDir, "resources.html"), "utf8");
+assert.match(resourcesHtml, /<h2>Principal Parts<\/h2>/, "Resources page should link to Principal Parts");
 assert.match(resourcesHtml, /<h2>Forms<\/h2>/, "Resources page should link to Forms");
+assert.match(resourcesHtml, /<h2>Greek and English Dictionaries<\/h2>/, "Resources page should link to Dictionaries");
 
 for (const item of navigationItems) {
   assert.match(item.href, /^forms(-[a-z]+)*\.html$/, `${item.label} should use the current root-level HTML route convention`);
