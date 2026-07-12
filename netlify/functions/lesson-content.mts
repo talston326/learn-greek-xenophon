@@ -184,7 +184,7 @@ function splitParagraphs(value: string | null) {
 async function getReading(client: DatabaseClient, lessonId: string) {
   const result = await client.query(
     `
-      SELECT title, greek_text, translation, notes_markdown, source_citation
+      SELECT id, title, greek_text, translation, notes_markdown, source_citation
       FROM public.readings
       WHERE lesson_id = $1
       ORDER BY sort_order, id
@@ -198,9 +198,40 @@ async function getReading(client: DatabaseClient, lessonId: string) {
     return null;
   }
 
+  const paragraphs = splitParagraphs(reading.greek_text).map((greek) => ({ greek, gloss: [] as Array<Record<string, unknown>> }));
+  const glossResult = await client.query(
+    `
+      SELECT greek, english, lemma, display_form, part_of_speech, morphology, sort_order
+      FROM public.reading_glosses
+      WHERE lesson_id = $1
+        AND reading_id = $2
+      ORDER BY sort_order, id
+    `,
+    [lessonId, reading.id]
+  );
+  const glossStride = glossResult.rows.some((row) => Number(row.sort_order || 0) >= 1000) ? 1000 : 100;
+
+  glossResult.rows.forEach((row) => {
+    const paragraphIndex = Math.floor(Number(row.sort_order || 0) / glossStride);
+    const paragraph = paragraphs[paragraphIndex];
+
+    if (!paragraph) {
+      return;
+    }
+
+    paragraph.gloss.push({
+      greek: row.greek,
+      english: row.english,
+      ...(row.lemma ? { lemma: row.lemma } : {}),
+      ...(row.display_form ? { displayForm: row.display_form } : {}),
+      ...(row.part_of_speech ? { partOfSpeech: row.part_of_speech } : {}),
+      ...(isRecord(row.morphology) ? { morphology: row.morphology } : {}),
+    });
+  });
+
   return {
     title: reading.title,
-    paragraphs: splitParagraphs(reading.greek_text).map((greek) => ({ greek, gloss: [] })),
+    paragraphs,
     translation: reading.translation || "",
     notesMarkdown: reading.notes_markdown || "",
     sourceCitation: reading.source_citation || "",
@@ -266,6 +297,9 @@ export default async (request: Request) => {
     const vocabulary = await getVocabulary(client, lesson.id);
     const reading = await getReading(client, lesson.id);
     const publishedBlocks = await getPublishedBlocks(client, lesson.id);
+    const legacyReading = isRecord(legacyContent) && isRecord(legacyContent.reading)
+      ? legacyContent.reading
+      : null;
 
     const assembled = mergeContent(legacyContent, {
       id: lesson.slug,
@@ -276,7 +310,7 @@ export default async (request: Request) => {
       module: `${lesson.module_label} · ${lesson.module_title}`,
       pages,
       vocabulary: vocabulary.length ? vocabulary : undefined,
-      reading: publishedBlocks.get("reading") || reading || undefined,
+      reading: legacyReading || publishedBlocks.get("reading") || reading || undefined,
       wordStudy: publishedBlocks.get("wordStudy") || undefined,
       grammar: publishedBlocks.get("grammar") || undefined,
       culture: publishedBlocks.get("culture") || undefined,

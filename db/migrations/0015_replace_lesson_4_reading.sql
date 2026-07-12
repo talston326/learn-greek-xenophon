@@ -15,8 +15,8 @@ SELECT
   "theme": "Young Xenophon helps Gryllus prepare horse and cavalry equipment before military service.",
   "module": "Module 1: Growing Up in Classical Athens",
   "banner": {
-    "placeholder": "Illustration placeholder: Young Xenophon brushing his father's horse while Gryllus prepares his cavalry equipment in the courtyard of their home.",
-    "alt": "Illustration placeholder for young Xenophon brushing his father's horse while Gryllus prepares cavalry equipment",
+    "image": "assets/lesson-4-banner.png",
+    "alt": "Young Xenophon brushing his father's horse while Gryllus prepares cavalry equipment in the courtyard",
     "caption": "Ἡ Παρασκευὴ πρὸ τῆς πορείας"
   },
   "pages": [

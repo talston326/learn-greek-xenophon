@@ -71,7 +71,8 @@ assert.notEqual(lesson.pages[0].showTranslation, false, "Lesson 4 translation sh
 assert.equal(lesson.reading.title, "Ἡ Παρασκευὴ πρὸ τῆς πορείας");
 assert.equal(lesson.reading.paragraphs.map((paragraph) => paragraph.greek).join("\n\n"), expectedGreek);
 assert.ok(lesson.reading.translation.includes("It is early morning."), "Lesson 4 should include the approved English translation");
-assert.ok(lesson.banner.placeholder.includes("Young Xenophon brushing his father's horse"), "Lesson 4 should reserve the requested illustration space");
+assert.equal(lesson.banner.image, "assets/lesson-4-banner.png", "Lesson 4 should use the committed banner image");
+assert.ok(lesson.banner.alt.includes("Young Xenophon brushing his father's horse"), "Lesson 4 banner should describe the requested image");
 assert.equal(lesson.activities && Object.keys(lesson.activities).length, 0, "Lesson 4 should not add grammar, practice, quiz, or assessment activities");
 
 flattenStrings(lesson, "lesson-4", assertGreekNfc);
@@ -157,10 +158,15 @@ assert.match(scriptJs, /The Preparation Before the March/, "Course navigation me
 const packageJson = await readFile(path.join(rootDir, "package.json"), "utf8");
 assert.match(packageJson, /0015_replace_lesson_4_reading\.sql/, "db:migrate should include the Lesson 4 reading migration");
 
+const lessonContentFunction = await readFile(path.join(rootDir, "netlify/functions/lesson-content.mts"), "utf8");
+assert.match(lessonContentFunction, /public\.reading_glosses/, "Lesson content API should preserve stored paragraph glosses");
+assert.match(lessonContentFunction, /paragraph\.gloss\.push/, "Lesson content API should attach glosses to reading paragraphs");
+
 const migration = await readFile(path.join(rootDir, "db/migrations/0015_replace_lesson_4_reading.sql"), "utf8");
 assert.match(migration, /lesson_4_reading_payload/, "Lesson 4 migration should define the reading payload");
 assert.match(migration, /lesson_4_vocabulary/, "Lesson 4 migration should define vocabulary associations");
 assert.match(migration, /Πρωΐ ἐστιν\./, "Lesson 4 migration should include the exact reading");
+assert.match(migration, /assets\/lesson-4-banner\.png/, "Lesson 4 migration should publish the banner image");
 assert.match(migration, /lesson_content_overrides/, "Lesson 4 migration should publish the content override");
 assert.doesNotMatch(migration, /public\.exercises|public\.quizzes|quiz_questions|student_lesson_test_grades|lesson_progress|student_progress/i, "Lesson 4 reading migration should not touch practice, quiz, grade, or progress tables");
 
