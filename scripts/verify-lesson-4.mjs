@@ -96,20 +96,48 @@ cards.forEach((card) => {
 
 const glosses = lesson.reading.paragraphs.flatMap((paragraph) => paragraph.gloss || []);
 [
+  "μέλλει ... ἀπιέναι",
+  "πρῶτον μὲν ... εἶτα δὲ",
+  "λαμβάνει",
+  "παρὰ τῷ πατρί",
+  "ἵσταται",
+  "θαυμάζει",
+  "βοήθει μοι",
+  "οὖν",
+  "βοηθεῖ",
+  "λαμπρὸς γίνεται",
+  "τῷ πατρί",
+  "δίδωσιν αὐτῷ",
+  "τέλος",
+  "πάντα ἕτοιμά",
+  "πρὸ τῆς οἰκίας",
+  "παρὰ τῇ θύρᾳ",
+  "γίνου",
+  "γίγνεται",
+  "ἀπέρχεται",
+  "λέγει ὅτι",
+  "καὶ αὐτός",
+  "τῇ Ἀθήνῃ",
+  "ὠφέλιμος εἶναι",
+].forEach((greek) => assert.ok(glosses.some((gloss) => gloss.greek === greek), `${greek} should be glossed as Lesson 4 support`));
+
+[
   "ἐν τῇ αὐλῇ",
   "ἱππεύς",
-  "μέλλει ... ἀπιέναι",
   "τὸ κράνος",
   "τὸν θώρακα",
+  "θεωρεῖ",
   "τὴν ἀσπίδα",
   "τὴν λόγχην",
+  "δεῦρο",
   "προθύμως",
   "ψήχει",
   "καθαίρει",
   "ὁ χαλκός",
   "ἐπὶ τὸν ἵππον ἀναβαίνει",
   "ἐπιμελὴς",
-].forEach((greek) => assert.ok(glosses.some((gloss) => gloss.greek === greek), `${greek} should be glossed`));
+  "καλῶς ποιεῖς",
+].forEach((greek) => assert.ok(!glosses.some((gloss) => gloss.greek === greek), `${greek} should not be duplicated in paragraph glosses`));
 
 const lessonJs = await readFile(path.join(rootDir, "lesson.js"), "utf8");
 assert.match(lessonJs, /lesson-hero__placeholder/, "Lesson renderer should support an illustration placeholder");

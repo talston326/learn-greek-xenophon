@@ -72,49 +72,56 @@ SELECT
         "greek": "Πρωΐ ἐστιν. ὁ Γρύλλος ἐν τῇ αὐλῇ ἕστηκεν. ὁ γὰρ πατὴρ τοῦ Ξενοφῶντος ἱππεύς ἐστι καὶ μέλλει ἐκ τῆς οἰκίας ἀπιέναι. πρῶτον μὲν σκοπεῖ τὸν ἵππον· εἶτα δὲ τὸ κράνος καὶ τὸν θώρακα θεωρεῖ. μετὰ ταῦτα τὴν ἀσπίδα καὶ τὴν λόγχην λαμβάνει. πάντα καλὰ καὶ ἕτοιμά ἐστιν. ὁ δὲ Ξενοφῶν παρὰ τῷ πατρὶ ἵσταται καὶ σιγῇ βλέπει. ὁ γὰρ παῖς τὸν πατέρα θαυμάζει.",
         "gloss": [
           { "greek": "Πρωΐ", "english": "early in the morning" },
-          { "greek": "ἐν τῇ αὐλῇ", "english": "in the courtyard" },
           { "greek": "ἕστηκεν", "english": "stands; has taken his stand" },
-          { "greek": "ἱππεύς", "english": "cavalryman" },
           { "greek": "μέλλει ... ἀπιέναι", "english": "is about to go away" },
-          { "greek": "τὸ κράνος", "english": "the helmet" },
-          { "greek": "τὸν θώρακα", "english": "the cuirass" },
-          { "greek": "θεωρεῖ", "english": "inspects" },
-          { "greek": "τὴν ἀσπίδα", "english": "the shield" },
-          { "greek": "τὴν λόγχην", "english": "the spear" },
+          { "greek": "πρῶτον μὲν ... εἶτα δὲ", "english": "first ... and then" },
+          { "greek": "μετὰ ταῦτα", "english": "after this" },
+          { "greek": "λαμβάνει", "english": "takes, takes up" },
+          { "greek": "πάντα", "english": "everything, all things" },
           { "greek": "ἕτοιμά", "english": "ready" },
-          { "greek": "σιγῇ", "english": "silently" }
+          { "greek": "παρὰ τῷ πατρί", "english": "beside his father" },
+          { "greek": "ἵσταται", "english": "stands" },
+          { "greek": "σιγῇ", "english": "silently" },
+          { "greek": "θαυμάζει", "english": "admires; is amazed at" }
         ]
       },
       {
         "greek": "ὁ δὲ Γρύλλος πρὸς τὸν παῖδα λέγει· «ὦ Ξενοφῶν, δεῦρο καὶ βοήθει μοι.» ὁ οὖν Ξενοφῶν προθύμως βοηθεῖ. πρῶτον μὲν ψήχει τὸν ἵππον, εἶτα δὲ καθαίρει τὸ κράνος. ὁ χαλκὸς τοῦ κράνους λαμπρὸς γίνεται. μετὰ ταῦτα φέρει τὴν λόγχην τῷ πατρί καὶ δίδωσιν αὐτῷ. ὁ δὲ πατὴρ τὸν θώρακα λαμβάνει καὶ πάλιν πάντα σκοπεῖ. τέλος δὲ λέγει· «καλῶς ποιεῖς, ὦ Ξενοφῶν.»",
         "gloss": [
-          { "greek": "δεῦρο", "english": "come here" },
           { "greek": "βοήθει μοι", "english": "help me" },
-          { "greek": "προθύμως", "english": "eagerly, willingly" },
-          { "greek": "ψήχει", "english": "brushes, grooms" },
-          { "greek": "καθαίρει", "english": "cleans" },
-          { "greek": "ὁ χαλκός", "english": "the bronze" },
+          { "greek": "οὖν", "english": "so, therefore" },
+          { "greek": "βοηθεῖ", "english": "helps" },
+          { "greek": "πρῶτον μὲν ... εἶτα δὲ", "english": "first ... and then" },
           { "greek": "λαμπρὸς γίνεται", "english": "becomes bright" },
+          { "greek": "μετὰ ταῦτα", "english": "after this" },
+          { "greek": "τῷ πατρί", "english": "to his father" },
           { "greek": "δίδωσιν αὐτῷ", "english": "gives it to him" },
+          { "greek": "λαμβάνει", "english": "takes, takes up" },
           { "greek": "πάλιν", "english": "again" },
-          { "greek": "καλῶς ποιεῖς", "english": "you are doing well" }
+          { "greek": "πάντα", "english": "everything, all things" },
+          { "greek": "τέλος", "english": "finally" }
         ]
       },
       {
         "greek": "ἤδη πάντα ἕτοιμά ἐστιν. ὁ Γρύλλος τὸν ἵππον ἄγει πρὸ τῆς οἰκίας καὶ ἐπὶ τὸν ἵππον ἀναβαίνει. ὁ δὲ Ξενοφῶν παρὰ τῇ θύρᾳ ἵσταται καὶ τὸν πατέρα βλέπει. ὁ πατὴρ πρὸς τὸν παῖδα χαίρων βλέπει καὶ λέγει· «ἐπιμελὴς γίνου, ὦ παῖ· οὕτω γὰρ ἀγαθὸς ἀνήρ γίγνεται.» εἶτα ἀπέρχεται. ὁ δὲ Ξενοφῶν πολὺν χρόνον τὸν πατέρα βλέπει, καὶ ἐν τῇ καρδίᾳ λέγει ὅτι καὶ αὐτὸς ποτὲ βούλεται τῇ Ἀθήνῃ ὠφέλιμος εἶναι.",
         "gloss": [
           { "greek": "ἤδη", "english": "already, now" },
+          { "greek": "πάντα ἕτοιμά", "english": "everything is ready" },
           { "greek": "πρὸ τῆς οἰκίας", "english": "in front of the house" },
-          { "greek": "ἐπὶ τὸν ἵππον ἀναβαίνει", "english": "mounts the horse" },
           { "greek": "παρὰ τῇ θύρᾳ", "english": "beside the door" },
+          { "greek": "ἵσταται", "english": "stands" },
           { "greek": "χαίρων", "english": "gladly; with a pleased look" },
-          { "greek": "ἐπιμελὴς", "english": "careful, diligent" },
           { "greek": "γίνου", "english": "become; be" },
           { "greek": "οὕτω", "english": "in this way, thus" },
+          { "greek": "γίγνεται", "english": "comes to be, becomes" },
+          { "greek": "ἀπέρχεται", "english": "departs, goes away" },
           { "greek": "πολὺν χρόνον", "english": "for a long time" },
           { "greek": "ἐν τῇ καρδίᾳ", "english": "in his heart" },
+          { "greek": "λέγει ὅτι", "english": "says that" },
+          { "greek": "καὶ αὐτός", "english": "he himself too" },
           { "greek": "ποτὲ", "english": "someday" },
-          { "greek": "τῇ Ἀθήνῃ ὠφέλιμος εἶναι", "english": "to be useful to Athens" }
+          { "greek": "τῇ Ἀθήνῃ", "english": "to or for Athens" },
+          { "greek": "ὠφέλιμος εἶναι", "english": "to be useful" }
         ]
       }
     ],
