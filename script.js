@@ -61,7 +61,7 @@ const COURSE_MODULES = [
       { id: "lesson-1", title: "Xenophon at Home", grammar: "Nominative singular, accusative singular, present active indicative, definite article, noun/adjective agreement" },
       { id: "lesson-2", title: "The Household of Xenophon", grammar: "Second-declension nouns, adjective agreement, possessive genitives, εἰμί, simple prepositions" },
       { id: "lesson-3", title: "The Education of Xenophon", grammar: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, demonstratives" },
-      { id: "lesson-4", title: "The Student and the Teacher", grammar: "First declension nouns, agreement, subject–object relationships", exerciseIds: ["noun-endings", "agreement", "translation", "quiz"] },
+      { id: "lesson-4", title: "The Preparation Before the March", grammar: "Singular noun cases, singular adjective agreement, possessive genitive, and natural case usage", exerciseIds: ["reading"] },
       { id: "lesson-5", title: "Learning Through Questioning", grammar: "Adjectives, agreement, attributive vs predicate position" },
       { id: "lesson-6", title: "The Search for Knowledge", grammar: "Second declension nouns, prepositions with cases" },
       { id: "lesson-7", title: "Examining Oneself", grammar: "Middle/passive voice (present), reflexive sense" },

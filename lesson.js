@@ -318,11 +318,17 @@
   }
 
   function renderHero() {
-    const bannerText = lesson.banner.text || lesson.greekTitle || lesson.banner.caption;
+    const banner = lesson.banner || {};
+    const bannerText = banner.text || lesson.greekTitle || banner.caption;
+    const imageMarkup = banner.placeholder
+      ? `<div class="lesson-hero__placeholder" role="img" aria-label="${escapeHtml(banner.alt || banner.placeholder)}">
+          <span>${escapeHtml(banner.placeholder)}</span>
+        </div>`
+      : `<img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt)}">`;
 
     return `
       <header class="lesson-hero">
-        <img src="${escapeHtml(lesson.banner.image)}" alt="${escapeHtml(lesson.banner.alt)}">
+        ${imageMarkup}
         <div class="lesson-hero__overlay">
           <p class="lesson-hero__kicker">Lesson ${lesson.number}</p>
           <h1 class="lesson-hero__title">${escapeHtml(lesson.title)}</h1>
@@ -384,6 +390,7 @@
                     <span class="vocab-entry__term">
                       <strong class="greek-text" lang="grc">${escapeHtml(item.greek)}</strong>
                       ${item.audioUrl ? `<button class="vocab-audio-button" type="button" data-vocab-audio="${escapeHtml(item.audioUrl)}" aria-label="Hear ${escapeHtml(item.greek)}">Play audio</button>` : ""}
+                      ${!item.audioUrl && item.audioPlaceholder ? `<button class="vocab-audio-button vocab-audio-button--placeholder" type="button" disabled aria-label="Audio pending for ${escapeHtml(item.greek)}">Audio pending</button>` : ""}
                     </span>
                     <span class="vocab-entry__dash" aria-hidden="true">—</span>
                     <span class="vocab-entry__gloss">${escapeHtml(item.english)}</span>
@@ -401,6 +408,9 @@
     return `
       <section class="lesson-section" aria-labelledby="lesson-reading-heading">
         <h2 id="lesson-reading-heading">${escapeHtml(lesson.reading.title)}</h2>
+        ${lesson.reading.audioPlaceholder ? `
+          <p class="reading-audio-placeholder" aria-label="Reading audio status">${escapeHtml(lesson.reading.audioPlaceholder)}</p>
+        ` : ""}
         ${lesson.reading.introduction?.length ? `
           <div class="lesson-introduction-copy">
             ${lesson.reading.introduction.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
@@ -416,8 +426,8 @@
         </div>
         ${lesson.reading.translation && page.showTranslation !== false ? `
           <details class="translation-toggle">
-            <summary>Show guided translation</summary>
-            <p>${escapeHtml(lesson.reading.translation)}</p>
+            <summary>Show Translation</summary>
+            ${String(lesson.reading.translation).split(/\n\s*\n/).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
           </details>
         ` : ""}
       </section>
@@ -442,6 +452,12 @@
     return `
       ${renderHero()}
       ${renderSampleNotice()}
+      ${lesson.reading?.showQuickActions ? `
+        <div class="lesson-page-actions lesson-reading-actions" aria-label="Reading tools">
+          <a class="secondary-button" href="#lesson-vocabulary-heading">Vocabulary</a>
+          <a class="secondary-button" href="${activityUrl("vocab-flashcards", 1)}">Flashcards</a>
+        </div>
+      ` : ""}
       <div class="lesson-reading-panel">
         ${includeVocabulary ? renderVocabulary() : ""}
         ${renderReading()}
@@ -1591,22 +1607,35 @@
     const previousPage = page.page - 1;
     const nextPage = page.page + 1;
     const gate = getGateState();
+    const previousLessonUrl = getPreviousLessonUrl();
     const nextLessonUrl = getNextLessonUrl();
+    const previousLabel = previousPage >= 1 ? "Previous" : previousLessonUrl ? "Previous Lesson" : "All Lessons";
     const nextLabel = page.page === lesson.pages.length ? (lesson.nextLesson?.id ? "Next Lesson" : "All Lessons") : "Next";
     const previousHref = previousPage >= 1
       ? `lesson.html?lesson=${lesson.number}&page=${previousPage}`
-      : "lessons.html";
+      : previousLessonUrl || "lessons.html";
     const nextHref = nextPage <= lesson.pages.length
       ? `lesson.html?lesson=${lesson.number}&page=${nextPage}`
       : nextLessonUrl;
 
     return `
       <nav class="lesson-page-nav" aria-label="Lesson page navigation">
-        <a class="secondary-button" href="${previousHref}" data-lesson-nav="previous">${page.page === 1 ? "All Lessons" : "Previous"}</a>
+        <a class="secondary-button" href="${previousHref}" data-lesson-nav="previous">${previousLabel}</a>
         <div class="lesson-page-nav__status">Page ${page.page} of ${lesson.pages.length}</div>
         <a class="primary-button gated-next" href="${nextHref}" data-lesson-nav="next" ${gate ? `data-required-gate="${gate.type}" aria-disabled="true"` : ""}>${nextLabel}</a>
       </nav>
     `;
+  }
+
+  function getPreviousLessonUrl() {
+    const previousId = lesson.previousLesson?.id || "";
+    const previousLesson = previousId ? window.xenophonLessonData?.getLesson(previousId) : null;
+
+    if (previousLesson?.number) {
+      return `lesson.html?lesson=${previousLesson.number}&page=1`;
+    }
+
+    return lesson.previousLesson?.fallbackUrl || "";
   }
 
   function getNextLessonUrl() {

@@ -103,6 +103,10 @@ WHERE (
   )
   OR (
     l.slug = 'lesson-3'
+  )
+  OR (
+    l.slug = 'lesson-4'
+    AND vi.morphology->>'source' = 'lesson_4_reading_migration'
   );
 
 SELECT u.email::text, array_agg(ur.role_id ORDER BY CASE ur.role_id WHEN 'administrator' THEN 1 WHEN 'professor' THEN 2 WHEN 'student' THEN 3 ELSE 4 END) AS roles

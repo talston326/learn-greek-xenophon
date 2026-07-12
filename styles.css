@@ -2763,6 +2763,25 @@
       display: block;
     }
 
+    .lesson-hero__placeholder {
+      display: grid;
+      min-height: inherit;
+      place-items: center;
+      padding: clamp(24px, 5vw, 56px);
+      background:
+        linear-gradient(135deg, rgba(115,0,10,.82), rgba(31,41,55,.9)),
+        repeating-linear-gradient(45deg, rgba(255,255,255,.08) 0 1px, transparent 1px 18px);
+      color: rgba(255,255,255,.82);
+      text-align: right;
+    }
+
+    .lesson-hero__placeholder span {
+      width: min(46%, 520px);
+      margin-left: auto;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
     .lesson-hero::after {
       content: "";
       position: absolute;
@@ -3055,10 +3074,37 @@
       font-family: Georgia, "Times New Roman", serif;
     }
 
+    .vocab-audio-button--placeholder {
+      opacity: .55;
+      cursor: not-allowed;
+    }
+
+    .vocab-audio-button--placeholder::before {
+      content: "…";
+    }
+
     .greek-reading {
       display: grid;
       gap: 24px;
       margin-top: 18px;
+    }
+
+    .lesson-reading-actions {
+      margin-top: 0;
+    }
+
+    .reading-audio-placeholder {
+      display: inline-flex;
+      width: fit-content;
+      max-width: 100%;
+      margin: 0 0 16px;
+      border: 1px dashed rgba(115,0,10,.28);
+      border-radius: 999px;
+      background: rgba(250,246,240,.76);
+      color: #5e4d43;
+      font-size: .92rem;
+      font-weight: 800;
+      padding: 7px 11px;
     }
 
     .reading-paragraph > p {
