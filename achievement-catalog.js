@@ -29,7 +29,7 @@
       tier: "bronze",
       sortOrder: 1,
       description: "Started the course path and took the first step into Greek.",
-      imageFilename: "Bronze-1-First-Steps.png",
+      imageFilename: "Bronze-1-First-Steps.webp",
       criteria: { startedUnit0: true },
       lockedDescription: "Start Unit 0 or complete any course activity."
     },
@@ -39,7 +39,7 @@
       tier: "bronze",
       sortOrder: 2,
       description: "Completed the first lesson-unit.",
-      imageFilename: "Bronze-2-First-Lesson.png",
+      imageFilename: "Bronze-2-First-Lesson.webp",
       criteria: { lessonsCompleted: 1 },
       lockedDescription: "Complete at least one lesson-unit."
     },
@@ -49,7 +49,7 @@
       tier: "bronze",
       sortOrder: 3,
       description: "Passed the first quiz.",
-      imageFilename: "Bronze-3-First-Quiz.png",
+      imageFilename: "Bronze-3-First-Quiz.webp",
       criteria: { quizzesPassed: 1 },
       lockedDescription: "Pass one quiz."
     },
@@ -59,7 +59,7 @@
       tier: "bronze",
       sortOrder: 4,
       description: "Completed a first vocabulary set.",
-      imageFilename: "Bronze-4-First-Vocabulary-Set.png",
+      imageFilename: "Bronze-4-First-Vocabulary-Set.webp",
       criteria: { vocabularySetsCompleted: 1 },
       lockedDescription: "Complete or master one lesson vocabulary set."
     },
@@ -69,7 +69,7 @@
       tier: "bronze",
       sortOrder: 5,
       description: "Completed a first practice session.",
-      imageFilename: "Bronze-5-First-Practice-Session.png",
+      imageFilename: "Bronze-5-First-Practice-Session.webp",
       criteria: { practiceSessions: 1 },
       lockedDescription: "Complete one practice session."
     },
@@ -79,7 +79,7 @@
       tier: "bronze",
       sortOrder: 6,
       description: "Completed five lesson-units.",
-      imageFilename: "Bronze-6-Five-Lessons-Completed.png",
+      imageFilename: "Bronze-6-Five-Lessons-Completed.webp",
       criteria: { lessonsCompleted: 5 },
       lockedDescription: "Complete five lesson-units."
     },
@@ -89,7 +89,7 @@
       tier: "bronze",
       sortOrder: 7,
       description: "Built a seven-day Greek study streak.",
-      imageFilename: "Bronze-7-Seven-Day-Streak.png",
+      imageFilename: "Bronze-7-Seven-Day-Streak.webp",
       criteria: { streakDays: 7 },
       lockedDescription: "Study for seven days in a row."
     },
@@ -99,7 +99,7 @@
       tier: "bronze",
       sortOrder: 8,
       description: "Earned a first perfect quiz or activity score.",
-      imageFilename: "Bronze-8-First-Perfect-Score.png",
+      imageFilename: "Bronze-8-First-Perfect-Score.webp",
       criteria: { perfectScoreCount: 1 },
       lockedDescription: "Earn one perfect score."
     },
@@ -109,7 +109,7 @@
       tier: "bronze",
       sortOrder: 9,
       description: "Completed a first Principal Parts practice session.",
-      imageFilename: "Bronze-5-First-Practice-Session.png",
+      imageFilename: "Bronze-5-First-Practice-Session.webp",
       criteria: { principalPartsPracticeSessions: 1 },
       lockedDescription: "Complete one Principal Parts practice session."
     },
@@ -119,7 +119,7 @@
       tier: "silver",
       sortOrder: 1,
       description: "Mastered one hundred Greek vocabulary words.",
-      imageFilename: "Silver-1-100-Words-Mastered.png",
+      imageFilename: "Silver-1-100-Words-Mastered.webp",
       criteria: { vocabularyMastered: 100 },
       lockedDescription: "Master 100 vocabulary words."
     },
@@ -129,7 +129,7 @@
       tier: "silver",
       sortOrder: 2,
       description: "Passed a first translation exercise.",
-      imageFilename: "Silver-2-First-Translation.png",
+      imageFilename: "Silver-2-First-Translation.webp",
       criteria: { translationExercisesPassed: 1 },
       lockedDescription: "Pass one translation exercise."
     },
@@ -139,7 +139,7 @@
       tier: "silver",
       sortOrder: 3,
       description: "Passed five parsing exercises.",
-      imageFilename: "Silver-3-Parsing-Apprentice.png",
+      imageFilename: "Silver-3-Parsing-Apprentice.webp",
       criteria: { parsingExercisesPassed: 5 },
       lockedDescription: "Pass five parsing exercises."
     },
@@ -149,7 +149,7 @@
       tier: "silver",
       sortOrder: 3.5,
       description: "Studied all listed Principal Parts verbs.",
-      imageFilename: "Silver-3-Parsing-Apprentice.png",
+      imageFilename: "Silver-3-Parsing-Apprentice.webp",
       criteria: { principalPartsVerbsStudied: 11 },
       lockedDescription: "Open every Principal Parts verb study page."
     },
@@ -159,7 +159,7 @@
       tier: "silver",
       sortOrder: 4,
       description: "Completed sustained Greek reading work.",
-      imageFilename: "Silver-4-Reader-of-Greek.png",
+      imageFilename: "Silver-4-Reader-of-Greek.webp",
       criteria: { readingsCompleted: 10, moduleCompleted: "module-1" },
       lockedDescription: "Complete ten readings or finish Module I."
     },
@@ -169,7 +169,7 @@
       tier: "silver",
       sortOrder: 5,
       description: "Completed repeated audio and pronunciation work.",
-      imageFilename: "Silver-5-Audio-Explorer.png",
+      imageFilename: "Silver-5-Audio-Explorer.webp",
       criteria: { audioItemsCompleted: 10, audioLessonsCompleted: 5 },
       lockedDescription: "Complete ten audio items or audio work for five lessons."
     },
@@ -179,7 +179,7 @@
       tier: "silver",
       sortOrder: 6,
       description: "Completed twenty practice sessions.",
-      imageFilename: "Silver-6-20-practice-sessions.png",
+      imageFilename: "Silver-6-20-practice-sessions.webp",
       criteria: { practiceSessions: 20 },
       lockedDescription: "Complete twenty practice sessions."
     },
@@ -189,7 +189,7 @@
       tier: "silver",
       sortOrder: 6.5,
       description: "Correctly identified forms from the main irregular Principal Parts verbs.",
-      imageFilename: "Silver-6-20-practice-sessions.png",
+      imageFilename: "Silver-6-20-practice-sessions.webp",
       criteria: { principalPartsIrregularCorrectCount: 7 },
       lockedDescription: "Correctly identify forms from seven irregular Principal Parts verbs."
     },
@@ -199,7 +199,7 @@
       tier: "silver",
       sortOrder: 7,
       description: "Earned ten perfect quiz scores.",
-      imageFilename: "Silver-7-10-Perfect-Quizzes.png",
+      imageFilename: "Silver-7-10-Perfect-Quizzes.webp",
       sourceFilename: "Silver-7-10-Perfect-Quzzes.png",
       criteria: { perfectQuizCount: 10 },
       lockedDescription: "Earn ten perfect quiz scores."
@@ -210,7 +210,7 @@
       tier: "silver",
       sortOrder: 8,
       description: "Joined wisdom with steady practice.",
-      imageFilename: "Silver-8-Friend-of-Athena.png",
+      imageFilename: "Silver-8-Friend-of-Athena.webp",
       criteria: { moduleCompleted: "module-1", streakDays: 7, practiceSessionsAlternative: 20 },
       lockedDescription: "Finish Module I with a seven-day streak, or complete twenty practice sessions."
     },
@@ -220,7 +220,7 @@
       tier: "gold",
       sortOrder: 1,
       description: "Completed Module I, Wisdom and Socrates.",
-      imageFilename: "Gold-1-Wisdom.png",
+      imageFilename: "Gold-1-Wisdom.webp",
       criteria: { moduleCompleted: "module-1" },
       lockedDescription: "Complete Lessons 1-12."
     },
@@ -230,7 +230,7 @@
       tier: "gold",
       sortOrder: 2,
       description: "Completed Module II, Courage and Leadership.",
-      imageFilename: "Gold-2-Courage.png",
+      imageFilename: "Gold-2-Courage.webp",
       criteria: { moduleCompleted: "module-2" },
       lockedDescription: "Complete Lessons 13-24."
     },
@@ -240,7 +240,7 @@
       tier: "gold",
       sortOrder: 3,
       description: "Completed Module III, Self-Control and Discipline.",
-      imageFilename: "Gold-3-Self-Control.png",
+      imageFilename: "Gold-3-Self-Control.webp",
       criteria: { moduleCompleted: "module-3" },
       lockedDescription: "Complete Lessons 25-36."
     },
@@ -250,7 +250,7 @@
       tier: "gold",
       sortOrder: 4,
       description: "Completed Module IV, Justice and the City/Soul.",
-      imageFilename: "Gold-4-Justice.png",
+      imageFilename: "Gold-4-Justice.webp",
       criteria: { moduleCompleted: "module-4" },
       lockedDescription: "Complete Lessons 37-48."
     },
@@ -260,7 +260,7 @@
       tier: "gold",
       sortOrder: 5,
       description: "Completed the full course through Lesson 48.",
-      imageFilename: "Gold-5-Student-of-Socrates.png",
+      imageFilename: "Gold-5-Student-of-Socrates.webp",
       criteria: { fullCourseCompleted: true },
       lockedDescription: "Complete the full course through Lesson 48."
     },
@@ -270,7 +270,7 @@
       tier: "gold",
       sortOrder: 6,
       description: "Scored 100% on a Principal Parts practice session.",
-      imageFilename: "Gold-5-Student-of-Socrates.png",
+      imageFilename: "Gold-5-Student-of-Socrates.webp",
       criteria: { principalPartsPerfectSessions: 1 },
       lockedDescription: "Earn a perfect Principal Parts practice score."
     }

@@ -3955,12 +3955,14 @@ function canonicalAchievement(achievement) {
 
 function renderAchievementImage(achievement, className = "achievement-icon") {
   const resolved = canonicalAchievement(achievement);
-  const imagePath = resolved.imagePath || achievementTools.resolveAchievementImagePath(resolved);
+  const imagePath = resolved.imageFilename
+    ? achievementTools.resolveAchievementImagePath(resolved)
+    : resolved.imagePath;
   const altText = `${resolved.label} achievement badge`;
 
   return `
     <span class="${className}">
-      <img src="${imagePath}" alt="${altText}" loading="lazy" data-achievement-image="${resolved.slug || resolved.label}">
+      <img src="${imagePath}" alt="${altText}" width="72" height="72" loading="lazy" decoding="async" data-achievement-image="${resolved.slug || resolved.label}">
     </span>
   `;
 }
