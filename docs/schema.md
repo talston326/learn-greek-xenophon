@@ -1,6 +1,6 @@
 # Proposed Schema: Learn Ancient Greek with Xenophon
 
-Status: proposal only. This document describes a future Neon/Postgres data model for the app. It does not create tables, migrations, seed data, or application code changes.
+Status: evolving implementation guide. Core tables now exist in migrations; sections labeled as proposed or future remain design guidance rather than deployed schema.
 
 ## Design Goals
 
@@ -60,6 +60,19 @@ Editable profile details currently stored in localStorage.
 | photo_url | text | Nullable, preferred over storing data URLs in the DB |
 | created_at | timestamptz | Required |
 | updated_at | timestamptz | Required |
+
+### user_notebook_notes (implemented)
+
+Private English or Ancient Greek notes saved from the Notebook page.
+
+| Column | Type | Notes |
+| --- | --- | --- |
+| id | uuid | Primary key |
+| user_id | uuid | Required foreign key to users.id; notes are deleted with the user |
+| title | text | Required, maximum 160 characters, unique per user without regard to case |
+| body | text | Required, defaults to an empty note, maximum 100,000 characters |
+| created_at | timestamptz | Required |
+| updated_at | timestamptz | Required and maintained by the shared update trigger |
 
 ## Course Structure
 
@@ -517,6 +530,8 @@ Most professor dashboard cards can be computed from the tables above, but a few 
 ## Suggested Indexes
 
 - users.email unique index.
+- user_notebook_notes(user_id, lower(title)) unique index.
+- user_notebook_notes(user_id, updated_at desc).
 - modules(course_id, sort_order).
 - lessons(module_id, sort_order).
 - lessons(module_id, slug) unique index.

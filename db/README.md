@@ -5,6 +5,7 @@ This folder contains reviewable SQL for the development/prototype Netlify DB dat
 ## Files
 
 - `migrations/0001_xenophon_initial_schema.sql` creates the initial Postgres schema.
+- `migrations/0017_user_notebook_notes.sql` adds private user-scoped notebook notes with title, body, timestamps, and per-user title uniqueness.
 - `seeds/0001_minimal_development_seed.sql` adds the idempotent GREK 110 J10 development course data: roles, 18 users, hashed prototype credentials, memberships, modules, lessons, lesson segments, progress, activity, levels, and achievements.
 - `verify_schema.sql` lists the public tables after migration.
 - `verify_seed.sql` checks the seeded course counts and a few representative role/progress rows.
@@ -74,6 +75,10 @@ Run the app through Netlify dev when testing login and profile uploads locally s
 ```bash
 npx netlify dev
 ```
+
+## Student Notebook
+
+Notebook notes are stored in `public.user_notebook_notes` and linked directly to `public.users`. The `/api/notebook-notes` Netlify Function lists, creates, updates, and deletes only rows belonging to the selected signed-in user. Titles are unique per user without regard to letter case, and note bodies can contain English and Unicode polytonic Greek.
 
 ## Verify
 

@@ -1243,6 +1243,7 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
+      ["📓", "Notebook", "notebook.html"],
       ["✉", "Feedback", "feedback.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
@@ -1265,6 +1266,7 @@ const ROLE_DASHBOARDS = {
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
+      ["📓", "Notebook", "notebook.html"],
       ["✉", "Feedback", "feedback.html"],
       ["💬", "Discussions", "#"],
       ["⚙️", "Settings", "#"]
@@ -1285,6 +1287,7 @@ const ROLE_DASHBOARDS = {
       ["Αα", "Flashcards", "flashcards.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
+      ["📓", "Notebook", "notebook.html"],
       ["👤", "Profile", "profile.html"],
       ["✉", "Feedback", "feedback.html"]
     ]
@@ -4388,7 +4391,7 @@ function renderNav(roleConfig, session = readSession()) {
     }
 
     return item;
-  });
+  }).filter((item) => !(session?.professorPreview && item?.[1] === "Notebook"));
 
   if (session?.professorPreview) {
     navItems.push(["↩", "Professor Dashboard", "#professor-dashboard-return", "returnProfessorDashboard"]);

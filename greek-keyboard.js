@@ -390,7 +390,7 @@
   }
 
   function positionKeyboard() {
-    if (!activeField || keyboard.hidden) {
+    if (!activeField || !keyboard || keyboard.hidden) {
       return;
     }
 
