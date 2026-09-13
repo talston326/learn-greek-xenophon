@@ -1438,6 +1438,20 @@
       box-shadow: 0 10px 24px rgba(55,38,22,.1);
     }
 
+    .course-values-graphic {
+      width: 100%;
+      max-width: 1536px;
+      margin: 18px auto;
+    }
+
+    .course-values-graphic img {
+      /* Preserve all four modules when the surrounding layout changes size. */
+      height: auto;
+      max-height: none;
+      aspect-ratio: 3 / 2;
+      object-fit: contain;
+    }
+
     .course-nav-list p {
       display: block;
       margin-top: 6px;
