@@ -11,6 +11,11 @@
       --reading-gloss-color: #1d4ed8;
       --shadow: 0 10px 28px rgba(55, 38, 22, 0.12);
       --radius: 22px;
+      --study-body-size: 1.25rem;
+      --study-example-size: 1.375rem;
+      --study-prompt-size: 1.5rem;
+      --study-line-height: 1.65;
+      --font-greek: "Times New Roman", "Noto Serif Greek", "Noto Serif", serif;
     }
 
     * { box-sizing: border-box; }
@@ -34,7 +39,7 @@
     }
 
     .greek-text {
-      font-family: "Times New Roman", "Noto Serif", "Noto Serif Greek", serif;
+      font-family: var(--font-greek);
       font-variant-ligatures: normal;
     }
 
@@ -3455,13 +3460,13 @@
 
     .grammar-table tbody th {
       color: #443b35;
-      font-weight: 900;
-      font-size: 1.08rem;
+      font-weight: 600;
+      font-size: var(--study-example-size);
     }
 
     .grammar-table tbody td {
       color: #2f2925;
-      font-size: 1.25rem;
+      font-size: var(--study-example-size);
     }
 
     .grammar-form-list {
@@ -3932,6 +3937,7 @@
     }
 
     .quiz-question {
+      min-width: 0;
       border: 1px solid rgba(115,0,10,.12);
       border-radius: 16px;
       background: rgba(250,246,240,.52);
@@ -3940,14 +3946,17 @@
 
     .quiz-question legend {
       padding: 0 6px;
-      font-size: 1.15rem;
+      max-width: 100%;
+      font-size: var(--study-prompt-size);
       font-weight: 800;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
     }
 
     .quiz-choice-list {
       display: grid;
-      gap: 8px;
-      margin-top: 12px;
+      gap: 12px;
+      margin-top: 16px;
     }
 
     .quiz-choice-list label {
@@ -3957,14 +3966,27 @@
       border: 1px solid rgba(111,102,95,.16);
       border-radius: 12px;
       background: #fff;
-      padding: 10px 12px;
+      padding: 14px 16px;
+      font-size: var(--study-example-size);
+      line-height: 1.5;
+      overflow-wrap: anywhere;
       cursor: pointer;
+    }
+
+    .quiz-choice-list label > span:last-child {
+      min-width: 0;
+    }
+
+    .quiz-choice-list input[type="radio"],
+    .quiz-choice-list .topic-choice-status {
+      flex-shrink: 0;
+      margin-top: .3em;
     }
 
     .topic-practice-session,
     .topic-practice-list {
       display: grid;
-      gap: 16px;
+      gap: 24px;
     }
 
     .topic-practice-progress {
@@ -7956,6 +7978,86 @@
 
     .notebook-editor-meta span:last-child {
       flex: 0 0 auto;
+    }
+
+    /* Shared study typography. Keep reading passages and flashcards at their
+       existing larger sizes; use one scale for explanations and exercises. */
+    .lesson-template-page .lesson-section,
+    .activity-template-page [data-activity-shell],
+    .grammar-check,
+    .forms-note-list,
+    .principal-parts-copy {
+      font-size: var(--study-body-size);
+      line-height: var(--study-line-height);
+    }
+
+    .lesson-introduction-copy p,
+    .word-building-panel .lesson-markdown-block p,
+    .grammar-panel > p,
+    .grammar-subsection > p,
+    .enrichment-panel p,
+    .culture-panel p,
+    .grammar-example__english,
+    .word-builder-list dd,
+    .word-builder-connections,
+    .grammar-form-list li,
+    .grammar-summary-panel ul,
+    .topic-choice-feedback,
+    .sentence-labeling-full,
+    .category-feedback {
+      font-size: var(--study-body-size);
+      line-height: var(--study-line-height);
+    }
+
+    .grammar-example__greek,
+    .grammar-form-list .greek-text,
+    .word-builder-list dt,
+    .forms-table tbody th,
+    .forms-table tbody td,
+    .principal-parts-form,
+    .principal-parts-verb-link,
+    .sentence-label-token__text {
+      font-size: var(--study-example-size);
+      line-height: 1.55;
+    }
+
+    .grammar-table tbody th,
+    .grammar-table tbody td {
+      line-height: 1.55;
+      padding: 16px;
+    }
+
+    .grammar-table thead th,
+    .forms-table thead th,
+    .principal-parts-table thead th,
+    .principal-parts-translation,
+    .grammar-table-note {
+      font-size: 1.125rem;
+      line-height: 1.5;
+    }
+
+    .grammar-subsection,
+    .grammar-examples,
+    .grammar-checks {
+      gap: 18px;
+    }
+
+    .grammar-example {
+      gap: 10px;
+      padding: 16px 18px;
+    }
+
+    .activity-header > div {
+      min-width: 0;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 760px) {
+      .vocab-group li {
+        font-size: var(--study-example-size);
+        line-height: 1.55;
+      }
     }
 
     .notebook-actions {
