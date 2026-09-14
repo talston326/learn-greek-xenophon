@@ -205,6 +205,12 @@
     return session?.activeRole === "administrator" && Boolean(session.roles?.includes("administrator"));
   }
 
+  function isStaffView() {
+    const session = readSession();
+    return ["professor", "administrator"].includes(session?.activeRole)
+      && Boolean(session.roles?.includes(session.activeRole));
+  }
+
   async function loadPublishedLessonContent() {
     try {
       const response = await fetch(`/api/lesson-content?slug=${encodeURIComponent(lessonSlug)}`);
@@ -405,6 +411,8 @@
   }
 
   function renderReading() {
+    const translation = String(lesson.reading.translation || "").trim();
+    const showTranslation = isStaffView() || (translation && page.showTranslation !== false);
     return `
       <section class="lesson-section" aria-labelledby="lesson-reading-heading">
         <h2 id="lesson-reading-heading">${escapeHtml(lesson.reading.title)}</h2>
@@ -424,10 +432,12 @@
             </div>
           `).join("")}
         </div>
-        ${lesson.reading.translation && page.showTranslation !== false ? `
+        ${showTranslation ? `
           <details class="translation-toggle">
-            <summary>Show Translation</summary>
-            ${String(lesson.reading.translation).split(/\n\s*\n/).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+            <summary>Show English Translation</summary>
+            ${translation
+              ? translation.split(/\n\s*\n/).map((paragraph) => `<p lang="en">${escapeHtml(paragraph)}</p>`).join("")
+              : "<p>An English translation has not been added for this reading yet.</p>"}
           </details>
         ` : ""}
       </section>
