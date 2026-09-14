@@ -66,7 +66,7 @@ const lesson = lessonData.getLesson("lesson-4");
 assert.ok(lesson, "Lesson 4 should be defined");
 assert.equal(lesson.title, "Gryllus Rides to War");
 assert.equal(lesson.greekTitle, "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται");
-assert.equal(lesson.pages.length, 1, "Lesson 4 should expose only the Reading page for this build");
+assert.equal(lesson.pages.length, 3, "Lesson 4 should expose Reading, Language Study, and Culture");
 assert.equal(lesson.pages[0].template, "reading");
 assert.notEqual(lesson.pages[0].showTranslation, false, "Lesson 4 translation should be available behind the reveal control");
 assert.equal(lesson.reading.title, "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται");
@@ -74,7 +74,8 @@ assert.equal(lesson.reading.paragraphs.map((paragraph) => paragraph.greek).join(
 assert.ok(lesson.reading.translation.includes("It is early morning."), "Lesson 4 should include the approved English translation");
 assert.equal(lesson.banner.image, "assets/lesson-4-banner.png", "Lesson 4 should use the committed banner image");
 assert.ok(lesson.banner.alt.includes("Young Xenophon polishing his father's helmet"), "Lesson 4 banner should describe the requested image");
-assert.equal(lesson.activities && Object.keys(lesson.activities).length, 0, "Lesson 4 should not add grammar, practice, quiz, or assessment activities");
+assert.ok(lesson.activities["grammar-exercises"], "Lesson 4 should include Language Study exercises");
+assert.ok(lesson.activities["lesson-quiz"], "Page 3 should include the final quiz");
 
 flattenStrings(lesson, "lesson-4", assertGreekNfc);
 
@@ -143,7 +144,7 @@ const glosses = lesson.reading.paragraphs.flatMap((paragraph) => paragraph.gloss
 
 const lessonJs = await readFile(path.join(rootDir, "lesson.js"), "utf8");
 assert.match(lessonJs, /lesson-hero__placeholder/, "Lesson renderer should support an illustration placeholder");
-assert.match(lessonJs, /Show Translation/, "Lesson renderer should keep translation behind a reveal control");
+assert.match(lessonJs, /Show (?:English )?Translation/, "Lesson renderer should keep translation behind a reveal control");
 assert.match(lessonJs, /reading-audio-placeholder/, "Lesson renderer should support reading audio placeholders");
 assert.match(lessonJs, /vocab-audio-button--placeholder/, "Lesson renderer should support vocabulary audio placeholders");
 assert.match(lessonJs, /getPreviousLessonUrl/, "Lesson renderer should support previous lesson navigation");

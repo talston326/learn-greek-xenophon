@@ -6256,6 +6256,2801 @@ Xenophon is young, but he wants to become wise.`;
     }
   };
 
+  const LESSON_4_LANGUAGE_STUDY = {
+    "wordStudy": {
+      "label": "Word Study — Reading a Word’s Family and Forms",
+      "blocks": [
+        {
+          "title": "From the horse to the cavalryman",
+          "practiceTopic": "word-study",
+          "body": [
+            "ἵππος means horse; ἱππεύς means horseman or cavalryman. They are related words, but ἱππεύς is not a case form of ἵππος. In contrast, ἵππου and ἵππῳ are forms of the same noun ἵππος.",
+            "A noun’s dictionary entry normally supplies its nominative singular, genitive singular, and article. In λόγχη, λόγχης, ἡ, the article tells you the noun is feminine. The genitive helps identify its pattern. For θώραξ, θώρακος, ὁ, it reveals θωρακ-; recognize this relationship without memorizing the whole declension.",
+            "Keep the reading’s required vocabulary list. The models on this page also review familiar words such as ἵππος, δεῖπνον, and καλός. A glossed narrative form is help for reading, not an additional paradigm to learn."
+          ],
+          "display": [
+            {
+              "greek": "ἵππος → ἱππεύς",
+              "english": "horse → cavalryman: related words"
+            },
+            {
+              "greek": "ἵππος → ἵππου → ἵππῳ",
+              "english": "horse → of the horse → to/for the horse: case forms"
+            },
+            {
+              "greek": "λόγχη, λόγχης, ἡ",
+              "english": "spear; feminine noun"
+            },
+            {
+              "greek": "θώραξ, θώρακος, ὁ",
+              "english": "cuirass; masculine noun; θωρακ- appears in its forms"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar": {
+      "intro": "Use Gryllus’s preparations to connect case forms with meaning. Work through the short accent foundation first, then apply it to nouns, adjectives, and supplied regular verb forms. Return to the reading whenever an example needs context.",
+      "objectives": [
+        "Read a noun’s dictionary entry and distinguish a related word from an inflected form.",
+        "Identify acute, grave, and circumflex accents, syllable position, and long or short vowel sounds.",
+        "Recognize and select all singular cases of the article and the supplied noun models.",
+        "Match articles and καλός adjectives to singular nouns in gender and case.",
+        "Explain subject, complement, object, owner, recipient, location, destination, and direct address in supported sentences.",
+        "Choose correctly accented singular noun and adjective forms using persistent accent rules.",
+        "Explain recessive accents in the supplied regular verb forms."
+      ],
+      "sections": [
+        {
+          "id": "accent-foundations",
+          "title": "1. Accent Foundations",
+          "body": [
+            "Accents are part of a Greek word’s spelling. Read the accent with the word and keep it when copying a form. Ancient accents indicated pitch; in our reading practice, give the accented syllable a clear emphasis.",
+            "The last syllable is the ultima, the next-to-last is the penult, and the third from the end is the antepenult. In πό-λε-μος, these are μος, λε, and πό. A diphthong normally counts as one vowel sound; its accent is written on the second letter, as in οἶκος.",
+            "ε and ο are short; η and ω are long. α, ι, and υ can be either, so learn their quantity with the word when needed. Diphthongs are normally long. The ῳ in Γρύλλῳ has a long ω and an iota subscript: the small ι is not an accent.",
+            "An acute can mark any of the last three syllables. A circumflex marks a long vowel or diphthong on the last or next-to-last syllable. A grave replaces a final acute when another ordinary word follows without a pause: χαλκός becomes χαλκὸς in ὁ χαλκὸς τοῦ κράνους. Before a pause, retain the acute. Enclitics have special behavior, to be studied later.",
+            "Breathing marks are different from accents. Compare the rough breathing in ἵππος with the smooth breathing in ἀσπίς. Neither changes the noun’s case."
+          ],
+          "practiceTopic": "accent-foundations",
+          "table": {
+            "title": "Recognize the marks",
+            "headers": [
+              "Mark",
+              "Example",
+              "What to notice"
+            ],
+            "rows": [
+              [
+                "Acute",
+                "χαλκός",
+                "Rising stroke over the accented vowel"
+              ],
+              [
+                "Grave",
+                "χαλκὸς τοῦ κράνους",
+                "Falling stroke on the final syllable"
+              ],
+              [
+                "Circumflex",
+                "οἶκος",
+                "Curved mark over a long vowel sound"
+              ],
+              [
+                "Iota subscript",
+                "τῷ Γρύλλῳ",
+                "Small iota below the vowel; not an accent"
+              ]
+            ],
+            "greekColumns": [
+              1
+            ]
+          },
+          "checks": [
+            {
+              "prompt": "Which syllable is accented in πόλεμος?",
+              "answer": "The antepenult: πό-, the third syllable from the end."
+            }
+          ]
+        },
+        {
+          "id": "singular-case-forms",
+          "title": "2. Articles and Nouns: All Singular Cases",
+          "body": [
+            "Case identifies a noun’s role in its sentence. Nominative usually marks the subject; accusative commonly marks a direct object; genitive can mark an owner; dative can mark a recipient or a location after a preposition; vocative addresses someone directly.",
+            "Learn the singular patterns below as groups: article plus noun. The endings change even though the person or thing remains the same. There is no vocative form of the article; ὦ often introduces an address.",
+            "ἵππος and δεῖπνον are familiar second-declension models. λόγχη supplies one regular feminine model from the reading. This is a first look at its singular forms; the full range of feminine declensions comes later. Neuter nominative, accusative, and vocative forms are identical.",
+            "In the story, Γρύλλος changes to Γρύλλου, Γρύλλῳ, Γρύλλον, and Γρύλλε. Forms such as πατρός, πατρί, θώρακα, and κράνους belong to other patterns. Use their supplied meanings to identify case functions; you are not expected to produce their complete declensions here."
+          ],
+          "practiceTopic": "singular-case-forms",
+          "table": {
+            "title": "Singular models",
+            "headers": [
+              "Case",
+              "Masculine: horse",
+              "Feminine: spear",
+              "Neuter: dinner"
+            ],
+            "rows": [
+              [
+                "Nominative",
+                "ὁ ἵππος",
+                "ἡ λόγχη",
+                "τὸ δεῖπνον"
+              ],
+              [
+                "Accusative",
+                "τὸν ἵππον",
+                "τὴν λόγχην",
+                "τὸ δεῖπνον"
+              ],
+              [
+                "Genitive",
+                "τοῦ ἵππου",
+                "τῆς λόγχης",
+                "τοῦ δείπνου"
+              ],
+              [
+                "Dative",
+                "τῷ ἵππῳ",
+                "τῇ λόγχῃ",
+                "τῷ δείπνῳ"
+              ],
+              [
+                "Vocative",
+                "ὦ ἵππε",
+                "ὦ λόγχη",
+                "ὦ δεῖπνον"
+              ]
+            ],
+            "greekColumns": [
+              1,
+              2,
+              3
+            ]
+          },
+          "checks": [
+            {
+              "prompt": "Why is ὦ Γρύλλε different from ὁ Γρύλλος?",
+              "answer": "ὦ Γρύλλε addresses Gryllus. ὁ Γρύλλος names him as a nominative subject."
+            }
+          ]
+        },
+        {
+          "id": "singular-agreement",
+          "title": "3. Article, Adjective, and Noun Agreement",
+          "body": [
+            "An adjective agrees with its noun in gender, number, and case. The article also matches these features. Start by identifying the noun’s job, then choose the agreeing article and adjective.",
+            "Use καλός, καλή, καλόν (beautiful) with the three singular noun models. Agreement means matching grammatical features, not necessarily having identical endings: τὸ καλὸν δεῖπνον is neuter even though the article ends differently.",
+            "Compare ὁ καλὸς ἵππος (the beautiful horse as subject) and τὸν καλὸν ἵππον (the beautiful horse as object). To express “of the beautiful horse,” change the entire group to τοῦ καλοῦ ἵππου.",
+            "ἐπιμελής in the reading belongs to a different adjective pattern. Learn its meaning “diligent” now; use καλός for the required form-building exercises."
+          ],
+          "practiceTopic": "singular-agreement",
+          "table": {
+            "title": "Agreement throughout the singular",
+            "headers": [
+              "Case",
+              "Masculine",
+              "Feminine",
+              "Neuter"
+            ],
+            "rows": [
+              [
+                "Nominative",
+                "ὁ καλὸς ἵππος",
+                "ἡ καλὴ λόγχη",
+                "τὸ καλὸν δεῖπνον"
+              ],
+              [
+                "Accusative",
+                "τὸν καλὸν ἵππον",
+                "τὴν καλὴν λόγχην",
+                "τὸ καλὸν δεῖπνον"
+              ],
+              [
+                "Genitive",
+                "τοῦ καλοῦ ἵππου",
+                "τῆς καλῆς λόγχης",
+                "τοῦ καλοῦ δείπνου"
+              ],
+              [
+                "Dative",
+                "τῷ καλῷ ἵππῳ",
+                "τῇ καλῇ λόγχῃ",
+                "τῷ καλῷ δείπνῳ"
+              ],
+              [
+                "Vocative",
+                "ὦ καλὲ ἵππε",
+                "ὦ καλὴ λόγχη",
+                "ὦ καλὸν δεῖπνον"
+              ]
+            ],
+            "greekColumns": [
+              1,
+              2,
+              3
+            ]
+          },
+          "checks": [
+            {
+              "prompt": "What must change when ἡ καλὴ λόγχη becomes a direct object?",
+              "answer": "All three words take accusative singular forms: τὴν καλὴν λόγχην."
+            }
+          ]
+        },
+        {
+          "id": "case-uses",
+          "title": "4. Case Functions in Gryllus’s Departure",
+          "body": [
+            "Read a sentence by finding its verb, then asking who acts, what is affected, to whom or for whom, and whose thing it is. Greek case endings answer these questions even when the word order changes.",
+            "In ὁ Ξενοφῶν φέρει τὴν λόγχην τῷ Γρύλλῳ, Xenophon carries the spear to Gryllus: nominative subject, accusative object, dative recipient. In τὴν λόγχην τοῦ Γρύλλου, the genitive identifies the owner of the spear.",
+            "A nominative can also name or describe the subject after a linking verb: ὁ Γρύλλος ἱππεύς ἐστιν means Gryllus is a cavalryman. ἱππεύς describes Gryllus; it is not a direct object.",
+            "Prepositions also govern cases. In this reading, ἐν + dative gives a location, εἰς + accusative a destination, and πρό + genitive a position in front of something. Learn each preposition with its case. A dative does not always mean “to” or “for.”",
+            "The full story includes additional constructions. Use the reading glosses for ἕστηκεν, χαίρων, γίνου, and the infinitive expressions. These forms support comprehension but are not new paradigms to memorize for this exercise set."
+          ],
+          "practiceTopic": "case-uses",
+          "table": {
+            "title": "Read the case in context",
+            "headers": [
+              "Phrase",
+              "Function",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "ὁ Γρύλλος",
+                "Nominative subject",
+                "Gryllus performs the action"
+              ],
+              [
+                "τὴν λόγχην",
+                "Accusative object",
+                "the spear being carried"
+              ],
+              [
+                "τοῦ Γρύλλου",
+                "Possessive genitive",
+                "of Gryllus / Gryllus’s"
+              ],
+              [
+                "τῷ Γρύλλῳ",
+                "Dative recipient",
+                "to or for Gryllus"
+              ],
+              [
+                "ἐν τῇ αὐλῇ",
+                "Dative after ἐν",
+                "in the courtyard"
+              ],
+              [
+                "εἰς τὸν πόλεμον",
+                "Accusative after εἰς",
+                "to war"
+              ],
+              [
+                "πρὸ τῆς οἰκίας",
+                "Genitive after πρό",
+                "in front of the house"
+              ],
+              [
+                "ὦ Γρύλλε",
+                "Vocative address",
+                "Gryllus!"
+              ]
+            ],
+            "greekColumns": [
+              0
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ Ξενοφῶν φέρει τὴν λόγχην τοῦ Γρύλλου.",
+              "english": "Xenophon carries Gryllus’s spear. The genitive names the owner, not the person carrying it."
+            }
+          ],
+          "checks": [
+            {
+              "prompt": "In ἐν τῇ αὐλῇ, is the courtyard a recipient?",
+              "answer": "No. The dative follows ἐν and indicates location: in the courtyard."
+            }
+          ]
+        },
+        {
+          "id": "persistent-accents",
+          "title": "5. Persistent Accents of Nouns and Adjectives",
+          "body": [
+            "Learn a noun or adjective with its dictionary accent. When its ending changes, the accent generally tries to stay on the same vowel or diphthong. This is persistent accentuation.",
+            "The ending can force an adjustment. With a long ultima, an acute cannot remain on the antepenult and a circumflex cannot remain on the penult. Thus δεῖπνον has a circumflex, but δείπνου has an acute: -ου is long.",
+            "πόλεμος keeps its accent as far back as possible: πόλεμον, but πολέμου and πολέμῳ. The long final vowel sound forces the accent from the antepenult to the penult. ἵππος keeps its acute in ἵππου because its accented vowel is short and already on the penult.",
+            "For first- and second-declension nouns and adjectives accented on the final syllable, the genitive and dative use a circumflex: καλός → καλοῦ, καλῷ; καλή → καλῆς, καλῇ; χαλκός → χαλκοῦ, χαλκῷ. Practice these supplied models, not unfamiliar declensions."
+          ],
+          "practiceTopic": "persistent-accents",
+          "table": {
+            "title": "Watch the ending and the accent",
+            "headers": [
+              "Nominative",
+              "Genitive",
+              "Dative"
+            ],
+            "rows": [
+              [
+                "δεῖπνον",
+                "δείπνου",
+                "δείπνῳ"
+              ],
+              [
+                "πόλεμος",
+                "πολέμου",
+                "πολέμῳ"
+              ],
+              [
+                "ἵππος",
+                "ἵππου",
+                "ἵππῳ"
+              ],
+              [
+                "χαλκός",
+                "χαλκοῦ",
+                "χαλκῷ"
+              ],
+              [
+                "καλή",
+                "καλῆς",
+                "καλῇ"
+              ]
+            ],
+            "greekColumns": [
+              0,
+              1,
+              2
+            ]
+          },
+          "checks": [
+            {
+              "prompt": "Why does δεῖπνον become δείπνου rather than δεῖπνου?",
+              "answer": "The long ultima -ου prevents a circumflex on the penult; the accent becomes acute."
+            }
+          ]
+        },
+        {
+          "id": "recessive-accents",
+          "title": "6. Recessive Accents of Regular Verbs",
+          "body": [
+            "Most regular finite verb forms have recessive accent: the accent goes as far toward the beginning as the rules permit. This differs from a noun, whose starting accent must be learned with the word.",
+            "With three or more syllables and a short ultima, a regular recessive form takes an acute on the antepenult. In μάνθανε (“learn!”), the final ε is short, so the accent can move back to μάν-. This command is supplied only to illustrate its accent; forming commands will be taught in Lesson 5.",
+            "With a long ultima, the accent can go back only to the penult: μανθάνει (“he learns”) ends in the long diphthong ει. In a two-syllable form, an accented long penult takes a circumflex before a short ultima, but an acute before a long ultima: ψῆχε (“brush!”) and ψήχει (“he brushes”).",
+            "Apply these rules to the regular forms supplied here. Contracted verbs such as θεωρεῖ, infinitives, participles, and irregular forms require additional rules. Recognize their printed accents without trying to derive them yet."
+          ],
+          "practiceTopic": "recessive-accents",
+          "table": {
+            "title": "Supplied forms: explain their accents",
+            "headers": [
+              "Form",
+              "Meaning",
+              "Accent reason"
+            ],
+            "rows": [
+              [
+                "μάνθανε",
+                "learn! (supplied command)",
+                "Short final ε allows antepenult acute"
+              ],
+              [
+                "μανθάνει",
+                "he learns",
+                "Long final ει limits accent to penult"
+              ],
+              [
+                "ψῆχε",
+                "brush! (supplied command)",
+                "Long accented penult + short ultima"
+              ],
+              [
+                "ψήχει",
+                "he brushes",
+                "Long ultima prevents penult circumflex"
+              ],
+              [
+                "φέρει",
+                "he carries",
+                "Short penult takes acute"
+              ]
+            ],
+            "greekColumns": [
+              0
+            ]
+          },
+          "checks": [
+            {
+              "prompt": "Which matters for the accent difference between μάνθανε and μανθάνει?",
+              "answer": "The length of the final vowel sound: short ε versus long ει."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "title": "Ready for the Required Exercises",
+        "items": [
+          "Use the singular article and noun models to identify or select a case.",
+          "Change the article and adjective along with the noun.",
+          "Separate an owner from a recipient, and a location from a destination.",
+          "Check the ending before choosing an accent.",
+          "Answer all 28 required questions. A score of at least 80% (23 correct) completes this exercise set. Review feedback and retry if needed."
+        ]
+      }
+    },
+    "activities": {
+      "grammar-flashcards": {
+        "title": "Lesson 4 Grammar Flashcards",
+        "cards": [
+          {
+            "prompt": "Five singular cases",
+            "answer": "Nominative, accusative, genitive, dative, vocative."
+          },
+          {
+            "prompt": "What agrees with a noun?",
+            "answer": "Its article and adjective: gender, number, case."
+          },
+          {
+            "prompt": "Genitive use",
+            "answer": "Possession: τοῦ Γρύλλου, of Gryllus."
+          },
+          {
+            "prompt": "Dative recipient",
+            "answer": "τῷ Γρύλλῳ, to or for Gryllus."
+          },
+          {
+            "prompt": "Vocative of Γρύλλος",
+            "answer": "ὦ Γρύλλε"
+          },
+          {
+            "prompt": "The three accents",
+            "answer": "Acute, grave, circumflex."
+          },
+          {
+            "prompt": "Long ultima and accent",
+            "answer": "No antepenult acute; no penult circumflex."
+          },
+          {
+            "prompt": "Persistent accent",
+            "answer": "Keep the noun’s learned accent where the rules permit."
+          },
+          {
+            "prompt": "Recessive accent",
+            "answer": "Move back as far as the rules permit in regular finite verbs."
+          },
+          {
+            "prompt": "δεῖπνον: genitive and dative",
+            "answer": "δείπνου, δείπνῳ"
+          },
+          {
+            "prompt": "πόλεμος: genitive and dative",
+            "answer": "πολέμου, πολέμῳ"
+          },
+          {
+            "prompt": "Word family or case form?",
+            "answer": "ἱππεύς is related to ἵππος; ἵππου is a case form of ἵππος."
+          }
+        ]
+      },
+      "topic-practice": {
+        "title": "Lesson 4 Topic Practice",
+        "topicInstructions": {
+          "word-study": "Practice word study. Choose an answer, read the feedback, and correct each item before continuing.",
+          "accent-foundations": "Practice accent foundations. Choose an answer, read the feedback, and correct each item before continuing.",
+          "singular-case-forms": "Practice articles and nouns: all singular cases. Choose an answer, read the feedback, and correct each item before continuing.",
+          "singular-agreement": "Practice article, adjective, and noun agreement. Choose an answer, read the feedback, and correct each item before continuing.",
+          "case-uses": "Practice case functions in gryllus’s departure. Choose an answer, read the feedback, and correct each item before continuing.",
+          "persistent-accents": "Practice persistent accents of nouns and adjectives. Choose an answer, read the feedback, and correct each item before continuing.",
+          "recessive-accents": "Practice recessive accents of regular verbs. Choose an answer, read the feedback, and correct each item before continuing."
+        },
+        "questions": [
+          {
+            "id": "lesson-4-word-study-1",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "What does ἡ tell you in λόγχη, λόγχης, ἡ?",
+            "choices": [
+              {
+                "text": "The noun is feminine.",
+                "correct": true,
+                "feedback": "Correct. The article in the dictionary entry identifies gender."
+              },
+              {
+                "text": "The noun is plural.",
+                "correct": false,
+                "feedback": "Review: The article in the dictionary entry identifies gender."
+              },
+              {
+                "text": "The noun is a verb.",
+                "correct": false,
+                "feedback": "Review: The article in the dictionary entry identifies gender."
+              },
+              {
+                "text": "The noun is accusative.",
+                "correct": false,
+                "feedback": "Review: The article in the dictionary entry identifies gender."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-word-study-2",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "Which is a case form of ἵππος?",
+            "choices": [
+              {
+                "text": "ἱππεύς",
+                "correct": false,
+                "feedback": "Review: ἵππου is the genitive of ἵππος."
+              },
+              {
+                "text": "λόγχη",
+                "correct": false,
+                "feedback": "Review: ἵππου is the genitive of ἵππος."
+              },
+              {
+                "text": "ψήχει",
+                "correct": false,
+                "feedback": "Review: ἵππου is the genitive of ἵππος."
+              },
+              {
+                "text": "ἵππου",
+                "correct": true,
+                "feedback": "Correct. ἵππου is the genitive of ἵππος."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-word-study-3",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "What is the relationship between ἵππος and ἱππεύς?",
+            "choices": [
+              {
+                "text": "Nominative and dative of one noun.",
+                "correct": false,
+                "feedback": "Review: They share a word family but are distinct nouns."
+              },
+              {
+                "text": "An adjective and its adverb.",
+                "correct": false,
+                "feedback": "Review: They share a word family but are distinct nouns."
+              },
+              {
+                "text": "Related words: horse and cavalryman.",
+                "correct": true,
+                "feedback": "Correct. They share a word family but are distinct nouns."
+              },
+              {
+                "text": "Singular and plural of one noun.",
+                "correct": false,
+                "feedback": "Review: They share a word family but are distinct nouns."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-word-study-4",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "Which part of θώραξ, θώρακος, ὁ is the genitive singular?",
+            "choices": [
+              {
+                "text": "θώραξ, θώρακος together",
+                "correct": false,
+                "feedback": "Review: The second noun form is the genitive."
+              },
+              {
+                "text": "θώρακος",
+                "correct": true,
+                "feedback": "Correct. The second noun form is the genitive."
+              },
+              {
+                "text": "θώραξ",
+                "correct": false,
+                "feedback": "Review: The second noun form is the genitive."
+              },
+              {
+                "text": "ὁ",
+                "correct": false,
+                "feedback": "Review: The second noun form is the genitive."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-1",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "Which mark appears over the final vowel in χαλκός?",
+            "choices": [
+              {
+                "text": "Acute",
+                "correct": true,
+                "feedback": "Correct. The rising stroke is an acute accent."
+              },
+              {
+                "text": "Grave",
+                "correct": false,
+                "feedback": "Review: The rising stroke is an acute accent."
+              },
+              {
+                "text": "Circumflex",
+                "correct": false,
+                "feedback": "Review: The rising stroke is an acute accent."
+              },
+              {
+                "text": "Iota subscript",
+                "correct": false,
+                "feedback": "Review: The rising stroke is an acute accent."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-2",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "What is the ultima of πό-λε-μος?",
+            "choices": [
+              {
+                "text": "πό",
+                "correct": false,
+                "feedback": "Review: The ultima is the last syllable."
+              },
+              {
+                "text": "λε",
+                "correct": false,
+                "feedback": "Review: The ultima is the last syllable."
+              },
+              {
+                "text": "πό-λε",
+                "correct": false,
+                "feedback": "Review: The ultima is the last syllable."
+              },
+              {
+                "text": "μος",
+                "correct": true,
+                "feedback": "Correct. The ultima is the last syllable."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-3",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "Which vowel is always long?",
+            "choices": [
+              {
+                "text": "ο",
+                "correct": false,
+                "feedback": "Review: ω is long; ε and ο are short; α varies."
+              },
+              {
+                "text": "Every α",
+                "correct": false,
+                "feedback": "Review: ω is long; ε and ο are short; α varies."
+              },
+              {
+                "text": "ω",
+                "correct": true,
+                "feedback": "Correct. ω is long; ε and ο are short; α varies."
+              },
+              {
+                "text": "ε",
+                "correct": false,
+                "feedback": "Review: ω is long; ε and ο are short; α varies."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-4",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "Why does χαλκός appear as χαλκὸς τοῦ κράνους?",
+            "choices": [
+              {
+                "text": "Its breathing changes.",
+                "correct": false,
+                "feedback": "Review: A final acute normally changes to grave in this context."
+              },
+              {
+                "text": "Its final acute becomes grave before the following ordinary word.",
+                "correct": true,
+                "feedback": "Correct. A final acute normally changes to grave in this context."
+              },
+              {
+                "text": "It changes to the accusative.",
+                "correct": false,
+                "feedback": "Review: A final acute normally changes to grave in this context."
+              },
+              {
+                "text": "Its number becomes plural.",
+                "correct": false,
+                "feedback": "Review: A final acute normally changes to grave in this context."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-1",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Choose the genitive singular of ὁ ἵππος.",
+            "choices": [
+              {
+                "text": "τοῦ ἵππου",
+                "correct": true,
+                "feedback": "Correct. The masculine genitive singular is τοῦ ἵππου."
+              },
+              {
+                "text": "τὸν ἵππον",
+                "correct": false,
+                "feedback": "Review: The masculine genitive singular is τοῦ ἵππου."
+              },
+              {
+                "text": "τῷ ἵππῳ",
+                "correct": false,
+                "feedback": "Review: The masculine genitive singular is τοῦ ἵππου."
+              },
+              {
+                "text": "ὦ ἵππε",
+                "correct": false,
+                "feedback": "Review: The masculine genitive singular is τοῦ ἵππου."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-2",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Choose the dative singular of ἡ λόγχη.",
+            "choices": [
+              {
+                "text": "τὴν λόγχην",
+                "correct": false,
+                "feedback": "Review: The feminine dative singular is τῇ λόγχῃ."
+              },
+              {
+                "text": "τῆς λόγχης",
+                "correct": false,
+                "feedback": "Review: The feminine dative singular is τῇ λόγχῃ."
+              },
+              {
+                "text": "ἡ λόγχη",
+                "correct": false,
+                "feedback": "Review: The feminine dative singular is τῇ λόγχῃ."
+              },
+              {
+                "text": "τῇ λόγχῃ",
+                "correct": true,
+                "feedback": "Correct. The feminine dative singular is τῇ λόγχῃ."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-3",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Which form directly addresses Gryllus?",
+            "choices": [
+              {
+                "text": "τοῦ Γρύλλου",
+                "correct": false,
+                "feedback": "Review: Direct address uses the vocative."
+              },
+              {
+                "text": "τῷ Γρύλλῳ",
+                "correct": false,
+                "feedback": "Review: Direct address uses the vocative."
+              },
+              {
+                "text": "ὦ Γρύλλε",
+                "correct": true,
+                "feedback": "Correct. Direct address uses the vocative."
+              },
+              {
+                "text": "ὁ Γρύλλος",
+                "correct": false,
+                "feedback": "Review: Direct address uses the vocative."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-4",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Choose the accusative singular of τὸ δεῖπνον.",
+            "choices": [
+              {
+                "text": "τὸν δεῖπνον",
+                "correct": false,
+                "feedback": "Review: Neuter nominative and accusative forms are identical."
+              },
+              {
+                "text": "τὸ δεῖπνον",
+                "correct": true,
+                "feedback": "Correct. Neuter nominative and accusative forms are identical."
+              },
+              {
+                "text": "τοῦ δείπνου",
+                "correct": false,
+                "feedback": "Review: Neuter nominative and accusative forms are identical."
+              },
+              {
+                "text": "τῷ δείπνῳ",
+                "correct": false,
+                "feedback": "Review: Neuter nominative and accusative forms are identical."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-1",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Complete: τὴν ___ λόγχην (the beautiful spear).",
+            "choices": [
+              {
+                "text": "καλήν",
+                "correct": true,
+                "feedback": "Correct. λόγχην requires feminine accusative singular καλήν; in the phrase it is καλὴν."
+              },
+              {
+                "text": "καλός",
+                "correct": false,
+                "feedback": "Review: λόγχην requires feminine accusative singular καλήν; in the phrase it is καλὴν."
+              },
+              {
+                "text": "καλόν",
+                "correct": false,
+                "feedback": "Review: λόγχην requires feminine accusative singular καλήν; in the phrase it is καλὴν."
+              },
+              {
+                "text": "καλῇ",
+                "correct": false,
+                "feedback": "Review: λόγχην requires feminine accusative singular καλήν; in the phrase it is καλὴν."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-2",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Choose “of the beautiful horse.”",
+            "choices": [
+              {
+                "text": "τοῦ καλὸν ἵππου",
+                "correct": false,
+                "feedback": "Review: All three words must be genitive singular masculine."
+              },
+              {
+                "text": "τὸν καλὸν ἵππον",
+                "correct": false,
+                "feedback": "Review: All three words must be genitive singular masculine."
+              },
+              {
+                "text": "τῷ καλῷ ἵππῳ",
+                "correct": false,
+                "feedback": "Review: All three words must be genitive singular masculine."
+              },
+              {
+                "text": "τοῦ καλοῦ ἵππου",
+                "correct": true,
+                "feedback": "Correct. All three words must be genitive singular masculine."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-3",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Choose the agreeing feminine dative group.",
+            "choices": [
+              {
+                "text": "τῆς καλῆς λόγχης",
+                "correct": false,
+                "feedback": "Review: Article, adjective, and noun agree in feminine dative singular."
+              },
+              {
+                "text": "τῷ καλῷ λόγχῃ",
+                "correct": false,
+                "feedback": "Review: Article, adjective, and noun agree in feminine dative singular."
+              },
+              {
+                "text": "τῇ καλῇ λόγχῃ",
+                "correct": true,
+                "feedback": "Correct. Article, adjective, and noun agree in feminine dative singular."
+              },
+              {
+                "text": "τῇ καλὸν λόγχῃ",
+                "correct": false,
+                "feedback": "Review: Article, adjective, and noun agree in feminine dative singular."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-4",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Choose “the beautiful dinner” as subject.",
+            "choices": [
+              {
+                "text": "τὸν καλὸν δεῖπνον",
+                "correct": false,
+                "feedback": "Review: δεῖπνον is neuter nominative singular here."
+              },
+              {
+                "text": "τὸ καλὸν δεῖπνον",
+                "correct": true,
+                "feedback": "Correct. δεῖπνον is neuter nominative singular here."
+              },
+              {
+                "text": "ὁ καλὸς δεῖπνον",
+                "correct": false,
+                "feedback": "Review: δεῖπνον is neuter nominative singular here."
+              },
+              {
+                "text": "ἡ καλὴ δεῖπνον",
+                "correct": false,
+                "feedback": "Review: δεῖπνον is neuter nominative singular here."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-1",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "In ὁ Ξενοφῶν φέρει τὴν λόγχην, which phrase is the direct object?",
+            "choices": [
+              {
+                "text": "τὴν λόγχην",
+                "correct": true,
+                "feedback": "Correct. The spear is what Xenophon carries."
+              },
+              {
+                "text": "ὁ Ξενοφῶν",
+                "correct": false,
+                "feedback": "Review: The spear is what Xenophon carries."
+              },
+              {
+                "text": "φέρει",
+                "correct": false,
+                "feedback": "Review: The spear is what Xenophon carries."
+              },
+              {
+                "text": "The sentence has no object.",
+                "correct": false,
+                "feedback": "Review: The spear is what Xenophon carries."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-2",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "What does τοῦ Γρύλλου express in τὴν λόγχην τοῦ Γρύλλου?",
+            "choices": [
+              {
+                "text": "The recipient of the spear.",
+                "correct": false,
+                "feedback": "Review: The genitive names the owner."
+              },
+              {
+                "text": "The person addressed.",
+                "correct": false,
+                "feedback": "Review: The genitive names the owner."
+              },
+              {
+                "text": "The location of the spear.",
+                "correct": false,
+                "feedback": "Review: The genitive names the owner."
+              },
+              {
+                "text": "The owner of the spear.",
+                "correct": true,
+                "feedback": "Correct. The genitive names the owner."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-3",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "What does ἐν τῇ αὐλῇ express?",
+            "choices": [
+              {
+                "text": "Owner: of the courtyard.",
+                "correct": false,
+                "feedback": "Review: ἐν takes the dative for location here."
+              },
+              {
+                "text": "Address: O courtyard!",
+                "correct": false,
+                "feedback": "Review: ἐν takes the dative for location here."
+              },
+              {
+                "text": "Location: in the courtyard.",
+                "correct": true,
+                "feedback": "Correct. ἐν takes the dative for location here."
+              },
+              {
+                "text": "Recipient: to the courtyard.",
+                "correct": false,
+                "feedback": "Review: ἐν takes the dative for location here."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-4",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "In ὁ Γρύλλος ἱππεύς ἐστιν, what is the job of ἱππεύς?",
+            "choices": [
+              {
+                "text": "Vocative address.",
+                "correct": false,
+                "feedback": "Review: With “is,” the nominative complement identifies the subject."
+              },
+              {
+                "text": "Nominative complement describing Gryllus.",
+                "correct": true,
+                "feedback": "Correct. With “is,” the nominative complement identifies the subject."
+              },
+              {
+                "text": "Accusative direct object.",
+                "correct": false,
+                "feedback": "Review: With “is,” the nominative complement identifies the subject."
+              },
+              {
+                "text": "Genitive owner.",
+                "correct": false,
+                "feedback": "Review: With “is,” the nominative complement identifies the subject."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-1",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Choose the correctly accented genitive of δεῖπνον.",
+            "choices": [
+              {
+                "text": "δείπνου",
+                "correct": true,
+                "feedback": "Correct. Long -ου prevents a circumflex on the penult."
+              },
+              {
+                "text": "δεῖπνου",
+                "correct": false,
+                "feedback": "Review: Long -ου prevents a circumflex on the penult."
+              },
+              {
+                "text": "δειπνοῦ",
+                "correct": false,
+                "feedback": "Review: Long -ου prevents a circumflex on the penult."
+              },
+              {
+                "text": "δείπνον",
+                "correct": false,
+                "feedback": "Review: Long -ου prevents a circumflex on the penult."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-2",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Choose the correctly accented genitive of πόλεμος.",
+            "choices": [
+              {
+                "text": "πόλεμου",
+                "correct": false,
+                "feedback": "Review: Long -ου forces the accent off the antepenult."
+              },
+              {
+                "text": "πολεμοῦ",
+                "correct": false,
+                "feedback": "Review: Long -ου forces the accent off the antepenult."
+              },
+              {
+                "text": "πολέμον",
+                "correct": false,
+                "feedback": "Review: Long -ου forces the accent off the antepenult."
+              },
+              {
+                "text": "πολέμου",
+                "correct": true,
+                "feedback": "Correct. Long -ου forces the accent off the antepenult."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-3",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Choose the genitive of χαλκός.",
+            "choices": [
+              {
+                "text": "χαλκού",
+                "correct": false,
+                "feedback": "Review: This final-accented second-declension noun has a circumflex in the genitive."
+              },
+              {
+                "text": "χαλκῷ",
+                "correct": false,
+                "feedback": "Review: This final-accented second-declension noun has a circumflex in the genitive."
+              },
+              {
+                "text": "χαλκοῦ",
+                "correct": true,
+                "feedback": "Correct. This final-accented second-declension noun has a circumflex in the genitive."
+              },
+              {
+                "text": "χάλκου",
+                "correct": false,
+                "feedback": "Review: This final-accented second-declension noun has a circumflex in the genitive."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-4",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "What does persistent accent try to do?",
+            "choices": [
+              {
+                "text": "Always become a grave.",
+                "correct": false,
+                "feedback": "Review: The noun’s learned accent normally persists, subject to the ending."
+              },
+              {
+                "text": "Stay on the same vowel or diphthong when the rules allow.",
+                "correct": true,
+                "feedback": "Correct. The noun’s learned accent normally persists, subject to the ending."
+              },
+              {
+                "text": "Always move to the first syllable.",
+                "correct": false,
+                "feedback": "Review: The noun’s learned accent normally persists, subject to the ending."
+              },
+              {
+                "text": "Always disappear in the genitive.",
+                "correct": false,
+                "feedback": "Review: The noun’s learned accent normally persists, subject to the ending."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-1",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "In μάνθανε, what allows an acute on the antepenult?",
+            "choices": [
+              {
+                "text": "The short final ε.",
+                "correct": true,
+                "feedback": "Correct. Short ultima permits recessive accent on the antepenult."
+              },
+              {
+                "text": "A long final ει.",
+                "correct": false,
+                "feedback": "Review: Short ultima permits recessive accent on the antepenult."
+              },
+              {
+                "text": "The noun’s gender.",
+                "correct": false,
+                "feedback": "Review: Short ultima permits recessive accent on the antepenult."
+              },
+              {
+                "text": "A genitive ending.",
+                "correct": false,
+                "feedback": "Review: Short ultima permits recessive accent on the antepenult."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-2",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Why is the accent on the penult in μανθάνει?",
+            "choices": [
+              {
+                "text": "The form is a noun.",
+                "correct": false,
+                "feedback": "Review: Long ultima prevents an antepenult accent."
+              },
+              {
+                "text": "The final ε is short.",
+                "correct": false,
+                "feedback": "Review: Long ultima prevents an antepenult accent."
+              },
+              {
+                "text": "All Greek accents fall on the penult.",
+                "correct": false,
+                "feedback": "Review: Long ultima prevents an antepenult accent."
+              },
+              {
+                "text": "The final ει is long.",
+                "correct": true,
+                "feedback": "Correct. Long ultima prevents an antepenult accent."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-3",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Which supplied form has the correct accent for “brush!”?",
+            "choices": [
+              {
+                "text": "ψηχέ",
+                "correct": false,
+                "feedback": "Review: A long accented penult before a short ultima takes circumflex."
+              },
+              {
+                "text": "ψηχὲ",
+                "correct": false,
+                "feedback": "Review: A long accented penult before a short ultima takes circumflex."
+              },
+              {
+                "text": "ψῆχε",
+                "correct": true,
+                "feedback": "Correct. A long accented penult before a short ultima takes circumflex."
+              },
+              {
+                "text": "ψήχε",
+                "correct": false,
+                "feedback": "Review: A long accented penult before a short ultima takes circumflex."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-4",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Should you derive θεωρεῖ using only today’s simple recessive rules?",
+            "choices": [
+              {
+                "text": "No; it is a noun.",
+                "correct": false,
+                "feedback": "Review: θεωρεῖ is contracted; learn the printed form for now."
+              },
+              {
+                "text": "No; contracted forms need additional rules.",
+                "correct": true,
+                "feedback": "Correct. θεωρεῖ is contracted; learn the printed form for now."
+              },
+              {
+                "text": "Yes; it is always unaccented.",
+                "correct": false,
+                "feedback": "Review: θεωρεῖ is contracted; learn the printed form for now."
+              },
+              {
+                "text": "Yes; all forms behave identically.",
+                "correct": false,
+                "feedback": "Review: θεωρεῖ is contracted; learn the printed form for now."
+              }
+            ]
+          }
+        ]
+      },
+      "grammar-exercises": {
+        "title": "Lesson 4 Required Grammar Exercises",
+        "required": true,
+        "requireAllAnswers": true,
+        "threshold": 80,
+        "randomizeChoices": true,
+        "instructions": "Answer all 28 questions covering word study and the six grammar topics. Earn at least 80% (23 correct) to complete the exercises. You may review the page and retry.",
+        "categoryFeedback": {
+          "Word study": "Review word study and repeat its topic practice.",
+          "Accent Foundations": "Review accent foundations and repeat its topic practice.",
+          "Articles and Nouns: All Singular Cases": "Review articles and nouns: all singular cases and repeat its topic practice.",
+          "Article, Adjective, and Noun Agreement": "Review article, adjective, and noun agreement and repeat its topic practice.",
+          "Case Functions in Gryllus’s Departure": "Review case functions in gryllus’s departure and repeat its topic practice.",
+          "Persistent Accents of Nouns and Adjectives": "Review persistent accents of nouns and adjectives and repeat its topic practice.",
+          "Recessive Accents of Regular Verbs": "Review recessive accents of regular verbs and repeat its topic practice."
+        },
+        "questions": [
+          {
+            "id": "lesson-4-word-study-5",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "Which entry identifies a feminine spear?",
+            "choices": [
+              {
+                "text": "λόγχη, λόγχης, ἡ",
+                "correct": true,
+                "feedback": "Correct. λόγχη means spear; ἡ marks feminine gender."
+              },
+              {
+                "text": "ἵππος, ἵππου, ὁ",
+                "correct": false,
+                "feedback": "Review: λόγχη means spear; ἡ marks feminine gender."
+              },
+              {
+                "text": "δεῖπνον, δείπνου, τό",
+                "correct": false,
+                "feedback": "Review: λόγχη means spear; ἡ marks feminine gender."
+              },
+              {
+                "text": "θώραξ, θώρακος, ὁ",
+                "correct": false,
+                "feedback": "Review: λόγχη means spear; ἡ marks feminine gender."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-word-study-6",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "Which pair consists of two forms of the SAME noun?",
+            "choices": [
+              {
+                "text": "ἵππος and ἱππεύς",
+                "correct": false,
+                "feedback": "Review: The dative ἵππῳ and nominative ἵππος belong to one noun."
+              },
+              {
+                "text": "λόγχη and θώραξ",
+                "correct": false,
+                "feedback": "Review: The dative ἵππῳ and nominative ἵππος belong to one noun."
+              },
+              {
+                "text": "καλός and δεῖπνον",
+                "correct": false,
+                "feedback": "Review: The dative ἵππῳ and nominative ἵππος belong to one noun."
+              },
+              {
+                "text": "ἵππος and ἵππῳ",
+                "correct": true,
+                "feedback": "Correct. The dative ἵππῳ and nominative ἵππος belong to one noun."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-word-study-7",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "Why learn the genitive θώρακος with θώραξ?",
+            "choices": [
+              {
+                "text": "It turns the noun into a verb.",
+                "correct": false,
+                "feedback": "Review: The genitive reveals θωρακ- and helps identify the noun’s inflection."
+              },
+              {
+                "text": "It always identifies a feminine noun.",
+                "correct": false,
+                "feedback": "Review: The genitive reveals θωρακ- and helps identify the noun’s inflection."
+              },
+              {
+                "text": "It helps reveal the noun’s stem and pattern.",
+                "correct": true,
+                "feedback": "Correct. The genitive reveals θωρακ- and helps identify the noun’s inflection."
+              },
+              {
+                "text": "It supplies the plural translation.",
+                "correct": false,
+                "feedback": "Review: The genitive reveals θωρακ- and helps identify the noun’s inflection."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-word-study-8",
+            "type": "multiple-choice",
+            "topic": "word-study",
+            "category": "Word study",
+            "prompt": "In a dictionary entry, what does ὁ indicate?",
+            "choices": [
+              {
+                "text": "An infinitive.",
+                "correct": false,
+                "feedback": "Review: The dictionary article indicates gender."
+              },
+              {
+                "text": "Masculine gender.",
+                "correct": true,
+                "feedback": "Correct. The dictionary article indicates gender."
+              },
+              {
+                "text": "Accusative case.",
+                "correct": false,
+                "feedback": "Review: The dictionary article indicates gender."
+              },
+              {
+                "text": "Plural number.",
+                "correct": false,
+                "feedback": "Review: The dictionary article indicates gender."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-5",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "Which word has a circumflex?",
+            "choices": [
+              {
+                "text": "οἶκος",
+                "correct": true,
+                "feedback": "Correct. The curved accent in οἶκος is a circumflex."
+              },
+              {
+                "text": "ἵππος",
+                "correct": false,
+                "feedback": "Review: The curved accent in οἶκος is a circumflex."
+              },
+              {
+                "text": "χαλκός",
+                "correct": false,
+                "feedback": "Review: The curved accent in οἶκος is a circumflex."
+              },
+              {
+                "text": "χαλκὸς",
+                "correct": false,
+                "feedback": "Review: The curved accent in οἶκος is a circumflex."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-6",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "Which syllable is the penult of πό-λε-μος?",
+            "choices": [
+              {
+                "text": "πό",
+                "correct": false,
+                "feedback": "Review: The penult is next to last."
+              },
+              {
+                "text": "μος",
+                "correct": false,
+                "feedback": "Review: The penult is next to last."
+              },
+              {
+                "text": "All three syllables",
+                "correct": false,
+                "feedback": "Review: The penult is next to last."
+              },
+              {
+                "text": "λε",
+                "correct": true,
+                "feedback": "Correct. The penult is next to last."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-7",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "What is the small mark below ω in Γρύλλῳ?",
+            "choices": [
+              {
+                "text": "Grave accent",
+                "correct": false,
+                "feedback": "Review: The subscript ι is not an accent."
+              },
+              {
+                "text": "Rough breathing",
+                "correct": false,
+                "feedback": "Review: The subscript ι is not an accent."
+              },
+              {
+                "text": "Iota subscript",
+                "correct": true,
+                "feedback": "Correct. The subscript ι is not an accent."
+              },
+              {
+                "text": "Acute accent",
+                "correct": false,
+                "feedback": "Review: The subscript ι is not an accent."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-accent-foundations-8",
+            "type": "multiple-choice",
+            "topic": "accent-foundations",
+            "category": "Accent Foundations",
+            "prompt": "Which pair contains two always-short vowels?",
+            "choices": [
+              {
+                "text": "υ and η",
+                "correct": false,
+                "feedback": "Review: ε and ο are always short."
+              },
+              {
+                "text": "ε and ο",
+                "correct": true,
+                "feedback": "Correct. ε and ο are always short."
+              },
+              {
+                "text": "η and ω",
+                "correct": false,
+                "feedback": "Review: ε and ο are always short."
+              },
+              {
+                "text": "α and ι",
+                "correct": false,
+                "feedback": "Review: ε and ο are always short."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-5",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Choose the accusative singular of ἡ λόγχη.",
+            "choices": [
+              {
+                "text": "τὴν λόγχην",
+                "correct": true,
+                "feedback": "Correct. The direct-object form is τὴν λόγχην."
+              },
+              {
+                "text": "τῆς λόγχης",
+                "correct": false,
+                "feedback": "Review: The direct-object form is τὴν λόγχην."
+              },
+              {
+                "text": "τῇ λόγχῃ",
+                "correct": false,
+                "feedback": "Review: The direct-object form is τὴν λόγχην."
+              },
+              {
+                "text": "ἡ λόγχη",
+                "correct": false,
+                "feedback": "Review: The direct-object form is τὴν λόγχην."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-6",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Choose the dative singular of ὁ ἵππος.",
+            "choices": [
+              {
+                "text": "τοῦ ἵππου",
+                "correct": false,
+                "feedback": "Review: τῷ and -ῳ mark the dative singular here."
+              },
+              {
+                "text": "τὸν ἵππον",
+                "correct": false,
+                "feedback": "Review: τῷ and -ῳ mark the dative singular here."
+              },
+              {
+                "text": "ὁ ἵππος",
+                "correct": false,
+                "feedback": "Review: τῷ and -ῳ mark the dative singular here."
+              },
+              {
+                "text": "τῷ ἵππῳ",
+                "correct": true,
+                "feedback": "Correct. τῷ and -ῳ mark the dative singular here."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-7",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Which form is the genitive singular of τὸ δεῖπνον?",
+            "choices": [
+              {
+                "text": "τῷ δείπνῳ",
+                "correct": false,
+                "feedback": "Review: The genitive is τοῦ δείπνου."
+              },
+              {
+                "text": "ὦ δεῖπνον",
+                "correct": false,
+                "feedback": "Review: The genitive is τοῦ δείπνου."
+              },
+              {
+                "text": "τοῦ δείπνου",
+                "correct": true,
+                "feedback": "Correct. The genitive is τοῦ δείπνου."
+              },
+              {
+                "text": "τὸ δεῖπνον",
+                "correct": false,
+                "feedback": "Review: The genitive is τοῦ δείπνου."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-case-forms-8",
+            "type": "multiple-choice",
+            "topic": "singular-case-forms",
+            "category": "Articles and Nouns: All Singular Cases",
+            "prompt": "Choose the nominative singular meaning “the horse.”",
+            "choices": [
+              {
+                "text": "ὦ ἵππε",
+                "correct": false,
+                "feedback": "Review: ὁ ἵππος is the nominative form."
+              },
+              {
+                "text": "ὁ ἵππος",
+                "correct": true,
+                "feedback": "Correct. ὁ ἵππος is the nominative form."
+              },
+              {
+                "text": "τὸν ἵππον",
+                "correct": false,
+                "feedback": "Review: ὁ ἵππος is the nominative form."
+              },
+              {
+                "text": "τοῦ ἵππου",
+                "correct": false,
+                "feedback": "Review: ὁ ἵππος is the nominative form."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-5",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Choose “the beautiful horse” as direct object.",
+            "choices": [
+              {
+                "text": "τὸν καλὸν ἵππον",
+                "correct": true,
+                "feedback": "Correct. A masculine singular direct object uses τὸν καλὸν ἵππον."
+              },
+              {
+                "text": "ὁ καλὸς ἵππος",
+                "correct": false,
+                "feedback": "Review: A masculine singular direct object uses τὸν καλὸν ἵππον."
+              },
+              {
+                "text": "τὸν καλὴν ἵππον",
+                "correct": false,
+                "feedback": "Review: A masculine singular direct object uses τὸν καλὸν ἵππον."
+              },
+              {
+                "text": "τῷ καλῷ ἵππῳ",
+                "correct": false,
+                "feedback": "Review: A masculine singular direct object uses τὸν καλὸν ἵππον."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-6",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Choose “of the beautiful spear.”",
+            "choices": [
+              {
+                "text": "τῆς καλοῦ λόγχης",
+                "correct": false,
+                "feedback": "Review: Feminine genitive singular requires τῆς καλῆς λόγχης."
+              },
+              {
+                "text": "τὴν καλὴν λόγχην",
+                "correct": false,
+                "feedback": "Review: Feminine genitive singular requires τῆς καλῆς λόγχης."
+              },
+              {
+                "text": "τῇ καλῇ λόγχῃ",
+                "correct": false,
+                "feedback": "Review: Feminine genitive singular requires τῆς καλῆς λόγχης."
+              },
+              {
+                "text": "τῆς καλῆς λόγχης",
+                "correct": true,
+                "feedback": "Correct. Feminine genitive singular requires τῆς καλῆς λόγχης."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-7",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "Complete the dative group: τῷ ___ δείπνῳ.",
+            "choices": [
+              {
+                "text": "καλόν",
+                "correct": false,
+                "feedback": "Review: The adjective must be neuter dative singular καλῷ."
+              },
+              {
+                "text": "καλήν",
+                "correct": false,
+                "feedback": "Review: The adjective must be neuter dative singular καλῷ."
+              },
+              {
+                "text": "καλῷ",
+                "correct": true,
+                "feedback": "Correct. The adjective must be neuter dative singular καλῷ."
+              },
+              {
+                "text": "καλοῦ",
+                "correct": false,
+                "feedback": "Review: The adjective must be neuter dative singular καλῷ."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-singular-agreement-8",
+            "type": "multiple-choice",
+            "topic": "singular-agreement",
+            "category": "Article, Adjective, and Noun Agreement",
+            "prompt": "What three features must an adjective share with its noun?",
+            "choices": [
+              {
+                "text": "Word order, breathing, and syllables.",
+                "correct": false,
+                "feedback": "Review: Agreement concerns gender, number, and case."
+              },
+              {
+                "text": "Gender, number, and case.",
+                "correct": true,
+                "feedback": "Correct. Agreement concerns gender, number, and case."
+              },
+              {
+                "text": "Accent, first letter, and length.",
+                "correct": false,
+                "feedback": "Review: Agreement concerns gender, number, and case."
+              },
+              {
+                "text": "Tense, voice, and mood.",
+                "correct": false,
+                "feedback": "Review: Agreement concerns gender, number, and case."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-5",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "Translate: ὁ Ξενοφῶν φέρει τὴν λόγχην τῷ Γρύλλῳ.",
+            "choices": [
+              {
+                "text": "Xenophon carries the spear to Gryllus.",
+                "correct": true,
+                "feedback": "Correct. τῷ Γρύλλῳ is the recipient; ὁ Ξενοφῶν is the subject."
+              },
+              {
+                "text": "Gryllus carries the spear to Xenophon.",
+                "correct": false,
+                "feedback": "Review: τῷ Γρύλλῳ is the recipient; ὁ Ξενοφῶν is the subject."
+              },
+              {
+                "text": "Xenophon carries Gryllus’s spear.",
+                "correct": false,
+                "feedback": "Review: τῷ Γρύλλῳ is the recipient; ὁ Ξενοφῶν is the subject."
+              },
+              {
+                "text": "The spear carries Xenophon to Gryllus.",
+                "correct": false,
+                "feedback": "Review: τῷ Γρύλλῳ is the recipient; ὁ Ξενοφῶν is the subject."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-6",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "Which case follows εἰς in εἰς τὸν πόλεμον?",
+            "choices": [
+              {
+                "text": "Nominative",
+                "correct": false,
+                "feedback": "Review: εἰς takes the accusative for a destination."
+              },
+              {
+                "text": "Genitive",
+                "correct": false,
+                "feedback": "Review: εἰς takes the accusative for a destination."
+              },
+              {
+                "text": "Vocative",
+                "correct": false,
+                "feedback": "Review: εἰς takes the accusative for a destination."
+              },
+              {
+                "text": "Accusative",
+                "correct": true,
+                "feedback": "Correct. εἰς takes the accusative for a destination."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-7",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "What is the function of ὦ Γρύλλε?",
+            "choices": [
+              {
+                "text": "Recipient",
+                "correct": false,
+                "feedback": "Review: The vocative addresses Gryllus."
+              },
+              {
+                "text": "Direct object",
+                "correct": false,
+                "feedback": "Review: The vocative addresses Gryllus."
+              },
+              {
+                "text": "Direct address",
+                "correct": true,
+                "feedback": "Correct. The vocative addresses Gryllus."
+              },
+              {
+                "text": "Possession",
+                "correct": false,
+                "feedback": "Review: The vocative addresses Gryllus."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-case-uses-8",
+            "type": "multiple-choice",
+            "topic": "case-uses",
+            "category": "Case Functions in Gryllus’s Departure",
+            "prompt": "Translate: πρὸ τῆς οἰκίας.",
+            "choices": [
+              {
+                "text": "The house as subject.",
+                "correct": false,
+                "feedback": "Review: πρό with the genitive means in front of here."
+              },
+              {
+                "text": "In front of the house.",
+                "correct": true,
+                "feedback": "Correct. πρό with the genitive means in front of here."
+              },
+              {
+                "text": "Into the house.",
+                "correct": false,
+                "feedback": "Review: πρό with the genitive means in front of here."
+              },
+              {
+                "text": "To the house.",
+                "correct": false,
+                "feedback": "Review: πρό with the genitive means in front of here."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-5",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Choose the correctly accented dative of πόλεμος.",
+            "choices": [
+              {
+                "text": "πολέμῳ",
+                "correct": true,
+                "feedback": "Correct. Long -ῳ prevents an antepenult acute."
+              },
+              {
+                "text": "πόλεμῳ",
+                "correct": false,
+                "feedback": "Review: Long -ῳ prevents an antepenult acute."
+              },
+              {
+                "text": "πολεμῷ",
+                "correct": false,
+                "feedback": "Review: Long -ῳ prevents an antepenult acute."
+              },
+              {
+                "text": "πολέμου",
+                "correct": false,
+                "feedback": "Review: Long -ῳ prevents an antepenult acute."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-6",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Choose the correctly accented dative of δεῖπνον.",
+            "choices": [
+              {
+                "text": "δεῖπνῳ",
+                "correct": false,
+                "feedback": "Review: The long ultima changes the penult circumflex to acute."
+              },
+              {
+                "text": "δειπνῷ",
+                "correct": false,
+                "feedback": "Review: The long ultima changes the penult circumflex to acute."
+              },
+              {
+                "text": "δείπνου",
+                "correct": false,
+                "feedback": "Review: The long ultima changes the penult circumflex to acute."
+              },
+              {
+                "text": "δείπνῳ",
+                "correct": true,
+                "feedback": "Correct. The long ultima changes the penult circumflex to acute."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-7",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Choose the genitive feminine of καλή.",
+            "choices": [
+              {
+                "text": "καλής",
+                "correct": false,
+                "feedback": "Review: The genitive of this final-accented feminine adjective has a circumflex."
+              },
+              {
+                "text": "καλήν",
+                "correct": false,
+                "feedback": "Review: The genitive of this final-accented feminine adjective has a circumflex."
+              },
+              {
+                "text": "καλῆς",
+                "correct": true,
+                "feedback": "Correct. The genitive of this final-accented feminine adjective has a circumflex."
+              },
+              {
+                "text": "κάλης",
+                "correct": false,
+                "feedback": "Review: The genitive of this final-accented feminine adjective has a circumflex."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-persistent-accents-8",
+            "type": "multiple-choice",
+            "topic": "persistent-accents",
+            "category": "Persistent Accents of Nouns and Adjectives",
+            "prompt": "Why can ἵππου keep its acute on ἵπ-?",
+            "choices": [
+              {
+                "text": "The noun becomes plural.",
+                "correct": false,
+                "feedback": "Review: A short accented penult takes acute even when the ultima is long."
+              },
+              {
+                "text": "Its accent is on a short penult.",
+                "correct": true,
+                "feedback": "Correct. A short accented penult takes acute even when the ultima is long."
+              },
+              {
+                "text": "Every genitive has a short ultima.",
+                "correct": false,
+                "feedback": "Review: A short accented penult takes acute even when the ultima is long."
+              },
+              {
+                "text": "Every noun accent moves to the end.",
+                "correct": false,
+                "feedback": "Review: A short accented penult takes acute even when the ultima is long."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-5",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Choose the correctly accented supplied form meaning “learn!”",
+            "choices": [
+              {
+                "text": "μάνθανε",
+                "correct": true,
+                "feedback": "Correct. Short final ε permits acute on the antepenult."
+              },
+              {
+                "text": "μανθάνε",
+                "correct": false,
+                "feedback": "Review: Short final ε permits acute on the antepenult."
+              },
+              {
+                "text": "μανθανέ",
+                "correct": false,
+                "feedback": "Review: Short final ε permits acute on the antepenult."
+              },
+              {
+                "text": "μανθᾶνε",
+                "correct": false,
+                "feedback": "Review: Short final ε permits acute on the antepenult."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-6",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Choose the correctly accented supplied form meaning “he learns.”",
+            "choices": [
+              {
+                "text": "μάνθανει",
+                "correct": false,
+                "feedback": "Review: Long ει restricts the accent to the penult."
+              },
+              {
+                "text": "μανθανεῖ",
+                "correct": false,
+                "feedback": "Review: Long ει restricts the accent to the penult."
+              },
+              {
+                "text": "μανθᾶνει",
+                "correct": false,
+                "feedback": "Review: Long ει restricts the accent to the penult."
+              },
+              {
+                "text": "μανθάνει",
+                "correct": true,
+                "feedback": "Correct. Long ει restricts the accent to the penult."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-7",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Why does ψήχει have acute rather than circumflex on its penult?",
+            "choices": [
+              {
+                "text": "It is a genitive noun.",
+                "correct": false,
+                "feedback": "Review: A long ultima forbids a penult circumflex."
+              },
+              {
+                "text": "All accents before ει disappear.",
+                "correct": false,
+                "feedback": "Review: A long ultima forbids a penult circumflex."
+              },
+              {
+                "text": "Its ultima ει is long.",
+                "correct": true,
+                "feedback": "Correct. A long ultima forbids a penult circumflex."
+              },
+              {
+                "text": "Its ultima is short.",
+                "correct": false,
+                "feedback": "Review: A long ultima forbids a penult circumflex."
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-recessive-accents-8",
+            "type": "multiple-choice",
+            "topic": "recessive-accents",
+            "category": "Recessive Accents of Regular Verbs",
+            "prompt": "Which description matches recessive accent in regular finite verbs?",
+            "choices": [
+              {
+                "text": "It changes the verb’s subject.",
+                "correct": false,
+                "feedback": "Review: Recessive accent goes back as far as allowed."
+              },
+              {
+                "text": "It moves as far back as the accent rules allow.",
+                "correct": true,
+                "feedback": "Correct. Recessive accent goes back as far as allowed."
+              },
+              {
+                "text": "It always stays where the dictionary noun has it.",
+                "correct": false,
+                "feedback": "Review: Recessive accent goes back as far as allowed."
+              },
+              {
+                "text": "It always falls on the ultima.",
+                "correct": false,
+                "feedback": "Review: Recessive accent goes back as far as allowed."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  };
+
+  const LESSON_4_CULTURE_QUIZ = {
+  "culture": {
+    "title": "The Horsemen of Athens: Wealth, Training, and Duty",
+    "image": "assets/lesson-4-cavalry-inspection-original.png",
+    "imagePlacement": "inline-right",
+    "imageAlt": "An official examines a bay horse’s foreleg while a cavalryman holds the reins and young Xenophon watches; other horsemen wait nearby.",
+    "imageCaption": "An imagined Athenian cavalry inspection. This artistic reconstruction is not a documentary view of ancient Athens.",
+    "body": [
+      "In our reading, Gryllus prepares to ride to war while Xenophon helps with the horse and equipment. A Greek cavalryman was an ἱππεύς; the plural is ἱππεῖς. Older translations sometimes call these men “knights,” but “cavalrymen” is clearer: they were not medieval knights receiving a title of nobility.",
+      "A suitable horse required substantial resources. Its owner needed to obtain it, feed it, provide shelter, and arrange daily care and training. Horse ownership therefore suggested prosperity. Xenophon is generally understood to have come from a wealthy family in Erchia, in rural Attica. Our household setting is consistent with that background, but the particular scene of his father departing for war is an imagined episode. The Athenian wealth class called hippeis and actual service in the cavalry should not be treated as exactly the same thing.",
+      "Money alone did not make a useful cavalryman. A rider needed skill, and his horse needed to be healthy, responsive, and fit for service. Public support also helped maintain the force. Aristotle’s later fourth-century account describes the Council inspecting cavalry horses and considering whether enrolled men were physically able to serve. It also mentions a feeding allowance that could be withheld when a horse was neglected. These arrangements show that cavalry service involved public oversight as well as private resources; we should not assume every detail was identical in Xenophon’s childhood.",
+      "The small tasks in the reading matter. Brushing the horse, tending its needs, and checking equipment connect everyday work with readiness for service. Xenophon later wrote On Horsemanship and On the Cavalry Commander. His advice emphasizes understanding and training horses, as well as the responsibilities of leadership. Caring for an animal is part of preparing to rely on it.",
+      "Xenophon probably served in the Athenian cavalry as a young man, although the details are uncertain. His role with the Ten Thousand was broader. In his Anabasis, he says that he originally accompanied Cyrus’s expedition without serving as a general, captain, or ordinary soldier. After the loss of the army’s senior commanders, he became one of its elected generals. During the retreat, a small cavalry troop of fifty men was formed under Lycius, not Xenophon. It is therefore misleading to describe Xenophon’s main role with the Ten Thousand simply as “a cavalryman.”",
+      "The lesson brings together wealth, responsibility, and useful work. The family’s resources make horse ownership plausible; Xenophon’s willingness to help gives those resources a practical purpose. Read the childhood story as a historical reconstruction, and distinguish it from the events Xenophon describes in his own writings."
+    ],
+    "questions": [
+      {
+        "prompt": "Why did keeping a cavalry horse suggest prosperity?",
+        "answer": "A horse required money, feed, shelter, daily care, and training. Those demands favored households with substantial resources."
+      },
+      {
+        "prompt": "Why was wealth alone insufficient for cavalry service?",
+        "answer": "The rider needed skill and physical ability, and the horse had to be healthy, responsive, and fit for service."
+      },
+      {
+        "prompt": "Was Xenophon simply the cavalry commander of the Ten Thousand?",
+        "answer": "No. He became one of the army’s generals. The fifty-man cavalry troop formed during the retreat was commanded by Lycius."
+      },
+      {
+        "prompt": "Which part of our story is a reconstruction?",
+        "answer": "The specific childhood episode in which Xenophon helps Gryllus prepare to depart. A prosperous family background is plausible, but this event is not documented."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Reread Gryllus’s preparations and identify what Xenophon does to help.",
+        "Review the meanings of the required vocabulary and how to read a noun’s dictionary entry.",
+        "Use the singular case and agreement tables: subject, direct object, owner, recipient, and direct address.",
+        "Review accent marks, persistent noun accents, and recessive accents in the supplied regular verb forms.",
+        "Distinguish cavalry service, Xenophon’s generalship, and the invented details of our childhood narrative."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Aristotle, Athenian Constitution 49: cavalry inspection and support",
+        "url": "https://www.teseopress.com/athenianconstitution/chapter/part-49/"
+      },
+      {
+        "title": "Xenophon, Anabasis 3.1 and 3.3: his role and the cavalry troop",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:abo:tlg,0032,006:3"
+      },
+      {
+        "title": "Xenophon, On Horsemanship: horse care and training",
+        "url": "https://www.gutenberg.org/files/1176/1176-h/1176-h.htm"
+      },
+      {
+        "title": "John W. I. Lee: Xenophon’s background and military autobiography",
+        "url": "https://www.history.ucsb.edu/wp-content/uploads/histpublications/files/00067-lee_2005.pdf"
+      }
+    ],
+    "excerpt": {
+      "title": "Xenophon’s Own Words: Handle Horses Calmly",
+      "citation": "On Horsemanship 6.13",
+      "url": "https://eulogikon.org/works/xenophon-athens-horsemanship-ezq-ac",
+      "greek": "τὸ δὲ μήποτε σὺν ὀργῇ ἵππῳ προσφέρεσθαι, ἓν τοῦτο καὶ δίδαγμα καὶ ἔθισμα πρὸς ἵππον ἄριστον. ἀπρονόητον γὰρ ἡ ὀργή, ὥστε πολλάκις ἐξεργάζεται ὧν μεταμέλειν ἀνάγκη.",
+      "translation": "Never deal with a horse in anger: this is the single best lesson and habit in handling a horse. Anger is thoughtless, and often makes a person do things they must regret.",
+      "note": "English translation prepared for this lesson. This is an authentic passage from Xenophon, with grammar beyond our current level. Use the translation to understand his advice; you are not expected to analyze every form. Notice ἵππῳ (horse, dative singular) and ἡ ὀργή (anger)."
+    }
+  },
+  "activities": {
+    "lesson-quiz": {
+      "title": "Lesson 4 Final Quiz — Gryllus Rides to War",
+      "required": true,
+      "requireAllAnswers": true,
+      "threshold": 80,
+      "masteryScore": 90,
+      "pointsPossible": 100,
+      "pointsPerQuestion": 5,
+      "randomizeChoices": true,
+      "instructions": "Answer all 20 questions. Each is worth 5 points. Score at least 80% (16 correct) to pass and complete Lesson 4. Review feedback and retry if needed.",
+      "categoryFeedback": {
+        "Reading and vocabulary": "Review reading and vocabulary in Lesson 4 before trying again.",
+        "Word study": "Review word study in Lesson 4 before trying again.",
+        "Accent foundations": "Review accent foundations in Lesson 4 before trying again.",
+        "Singular cases": "Review singular cases in Lesson 4 before trying again.",
+        "Agreement": "Review agreement in Lesson 4 before trying again.",
+        "Case functions": "Review case functions in Lesson 4 before trying again.",
+        "Persistent accents": "Review persistent accents in Lesson 4 before trying again.",
+        "Recessive accents": "Review recessive accents in Lesson 4 before trying again.",
+        "Culture and history": "Review culture and history in Lesson 4 before trying again."
+      },
+      "questions": [
+        {
+          "id": "lesson-4-final-01",
+          "type": "multiple-choice",
+          "category": "Reading and vocabulary",
+          "prompt": "What is Gryllus preparing to do in the reading?",
+          "choices": [
+            {
+              "text": "Ride to war.",
+              "correct": true,
+              "feedback": "Correct. Gryllus prepares his horse and equipment for departure to war."
+            },
+            {
+              "text": "Go to school.",
+              "correct": false,
+              "feedback": "Review: Gryllus prepares his horse and equipment for departure to war."
+            },
+            {
+              "text": "Sell the family house.",
+              "correct": false,
+              "feedback": "Review: Gryllus prepares his horse and equipment for departure to war."
+            },
+            {
+              "text": "Become a music teacher.",
+              "correct": false,
+              "feedback": "Review: Gryllus prepares his horse and equipment for departure to war."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-02",
+          "type": "multiple-choice",
+          "category": "Reading and vocabulary",
+          "prompt": "Which task does Xenophon perform for the horse?",
+          "choices": [
+            {
+              "text": "He sells it.",
+              "correct": false,
+              "feedback": "Review: ψήχει describes Xenophon brushing the horse."
+            },
+            {
+              "text": "He teaches it to weave.",
+              "correct": false,
+              "feedback": "Review: ψήχει describes Xenophon brushing the horse."
+            },
+            {
+              "text": "He takes it to school.",
+              "correct": false,
+              "feedback": "Review: ψήχει describes Xenophon brushing the horse."
+            },
+            {
+              "text": "He brushes it.",
+              "correct": true,
+              "feedback": "Correct. ψήχει describes Xenophon brushing the horse."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-03",
+          "type": "multiple-choice",
+          "category": "Reading and vocabulary",
+          "prompt": "What does ἐπιμελής mean in Gryllus’s advice?",
+          "choices": [
+            {
+              "text": "Silent.",
+              "correct": false,
+              "feedback": "Review: Gryllus urges the boy to be diligent."
+            },
+            {
+              "text": "Young.",
+              "correct": false,
+              "feedback": "Review: Gryllus urges the boy to be diligent."
+            },
+            {
+              "text": "Diligent; careful.",
+              "correct": true,
+              "feedback": "Correct. Gryllus urges the boy to be diligent."
+            },
+            {
+              "text": "Wealthy.",
+              "correct": false,
+              "feedback": "Review: Gryllus urges the boy to be diligent."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-04",
+          "type": "multiple-choice",
+          "category": "Word study",
+          "prompt": "In χαλκός, χαλκοῦ, ὁ, what information do the second form and the article supply?",
+          "choices": [
+            {
+              "text": "A verb ending and its tense.",
+              "correct": false,
+              "feedback": "Review: The dictionary entry gives nominative, genitive, and article."
+            },
+            {
+              "text": "Genitive singular and masculine gender.",
+              "correct": true,
+              "feedback": "Correct. The dictionary entry gives nominative, genitive, and article."
+            },
+            {
+              "text": "Accusative singular and feminine gender.",
+              "correct": false,
+              "feedback": "Review: The dictionary entry gives nominative, genitive, and article."
+            },
+            {
+              "text": "Plural form and neuter gender.",
+              "correct": false,
+              "feedback": "Review: The dictionary entry gives nominative, genitive, and article."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-05",
+          "type": "multiple-choice",
+          "category": "Accent foundations",
+          "prompt": "In the supplied phrase ὁ χαλκὸς τοῦ κράνους, which accent is on χαλκὸς?",
+          "choices": [
+            {
+              "text": "Grave.",
+              "correct": true,
+              "feedback": "Correct. The final acute of χαλκός becomes grave before the following ordinary word."
+            },
+            {
+              "text": "Acute.",
+              "correct": false,
+              "feedback": "Review: The final acute of χαλκός becomes grave before the following ordinary word."
+            },
+            {
+              "text": "Circumflex.",
+              "correct": false,
+              "feedback": "Review: The final acute of χαλκός becomes grave before the following ordinary word."
+            },
+            {
+              "text": "There is no accent.",
+              "correct": false,
+              "feedback": "Review: The final acute of χαλκός becomes grave before the following ordinary word."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-06",
+          "type": "multiple-choice",
+          "category": "Accent foundations",
+          "prompt": "An acute may normally appear on which syllables?",
+          "choices": [
+            {
+              "text": "Only the final syllable.",
+              "correct": false,
+              "feedback": "Review: The acute is limited to the ultima, penult, or antepenult."
+            },
+            {
+              "text": "Any syllable, however far from the end.",
+              "correct": false,
+              "feedback": "Review: The acute is limited to the ultima, penult, or antepenult."
+            },
+            {
+              "text": "Only a syllable with a long vowel.",
+              "correct": false,
+              "feedback": "Review: The acute is limited to the ultima, penult, or antepenult."
+            },
+            {
+              "text": "One of the last three syllables.",
+              "correct": true,
+              "feedback": "Correct. The acute is limited to the ultima, penult, or antepenult."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-07",
+          "type": "multiple-choice",
+          "category": "Singular cases",
+          "prompt": "Which phrase means “of the spear”?",
+          "choices": [
+            {
+              "text": "τῇ λόγχῃ",
+              "correct": false,
+              "feedback": "Review: The genitive singular is τῆς λόγχης."
+            },
+            {
+              "text": "ἡ λόγχη",
+              "correct": false,
+              "feedback": "Review: The genitive singular is τῆς λόγχης."
+            },
+            {
+              "text": "τῆς λόγχης",
+              "correct": true,
+              "feedback": "Correct. The genitive singular is τῆς λόγχης."
+            },
+            {
+              "text": "τὴν λόγχην",
+              "correct": false,
+              "feedback": "Review: The genitive singular is τῆς λόγχης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-08",
+          "type": "multiple-choice",
+          "category": "Singular cases",
+          "prompt": "Select the form that addresses the horse directly.",
+          "choices": [
+            {
+              "text": "τὸν ἵππον",
+              "correct": false,
+              "feedback": "Review: Direct address uses the vocative, without the article."
+            },
+            {
+              "text": "ὦ ἵππε",
+              "correct": true,
+              "feedback": "Correct. Direct address uses the vocative, without the article."
+            },
+            {
+              "text": "ὁ ἵππος",
+              "correct": false,
+              "feedback": "Review: Direct address uses the vocative, without the article."
+            },
+            {
+              "text": "τοῦ ἵππου",
+              "correct": false,
+              "feedback": "Review: Direct address uses the vocative, without the article."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-09",
+          "type": "multiple-choice",
+          "category": "Agreement",
+          "prompt": "Choose the correctly agreeing phrase for “to/for the beautiful horse.”",
+          "choices": [
+            {
+              "text": "τῷ καλῷ ἵππῳ",
+              "correct": true,
+              "feedback": "Correct. All three words must be masculine dative singular."
+            },
+            {
+              "text": "τῷ καλῇ ἵππῳ",
+              "correct": false,
+              "feedback": "Review: All three words must be masculine dative singular."
+            },
+            {
+              "text": "τοῦ καλοῦ ἵππου",
+              "correct": false,
+              "feedback": "Review: All three words must be masculine dative singular."
+            },
+            {
+              "text": "τὸν καλὸν ἵππον",
+              "correct": false,
+              "feedback": "Review: All three words must be masculine dative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-10",
+          "type": "multiple-choice",
+          "category": "Agreement",
+          "prompt": "Which phrase correctly makes “the beautiful spear” the subject?",
+          "choices": [
+            {
+              "text": "ὁ καλὸς λόγχη",
+              "correct": false,
+              "feedback": "Review: The subject phrase is feminine nominative singular."
+            },
+            {
+              "text": "ἡ καλὸν λόγχη",
+              "correct": false,
+              "feedback": "Review: The subject phrase is feminine nominative singular."
+            },
+            {
+              "text": "τὴν καλὴν λόγχην",
+              "correct": false,
+              "feedback": "Review: The subject phrase is feminine nominative singular."
+            },
+            {
+              "text": "ἡ καλὴ λόγχη",
+              "correct": true,
+              "feedback": "Correct. The subject phrase is feminine nominative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-11",
+          "type": "multiple-choice",
+          "category": "Case functions",
+          "prompt": "In ὁ Γρύλλος τὸν ἵππον ἄγει, what does τὸν ἵππον do?",
+          "choices": [
+            {
+              "text": "Names the owner of Gryllus.",
+              "correct": false,
+              "feedback": "Review: The accusative marks the horse as the direct object."
+            },
+            {
+              "text": "Addresses the horse directly.",
+              "correct": false,
+              "feedback": "Review: The accusative marks the horse as the direct object."
+            },
+            {
+              "text": "Names the direct object being led.",
+              "correct": true,
+              "feedback": "Correct. The accusative marks the horse as the direct object."
+            },
+            {
+              "text": "Names the person doing the leading.",
+              "correct": false,
+              "feedback": "Review: The accusative marks the horse as the direct object."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-12",
+          "type": "multiple-choice",
+          "category": "Case functions",
+          "prompt": "In τὴν λόγχην τοῦ πατρός, what does τοῦ πατρός identify?",
+          "choices": [
+            {
+              "text": "The person being addressed.",
+              "correct": false,
+              "feedback": "Review: The genitive expresses possession: the father’s spear."
+            },
+            {
+              "text": "The owner of the spear.",
+              "correct": true,
+              "feedback": "Correct. The genitive expresses possession: the father’s spear."
+            },
+            {
+              "text": "The destination of the spear.",
+              "correct": false,
+              "feedback": "Review: The genitive expresses possession: the father’s spear."
+            },
+            {
+              "text": "The spear as subject.",
+              "correct": false,
+              "feedback": "Review: The genitive expresses possession: the father’s spear."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-13",
+          "type": "multiple-choice",
+          "category": "Persistent accents",
+          "prompt": "Which pair correctly shows the nominative and genitive of “dinner”?",
+          "choices": [
+            {
+              "text": "δεῖπνον — δείπνου",
+              "correct": true,
+              "feedback": "Correct. The long genitive ultima -ου prevents a penult circumflex."
+            },
+            {
+              "text": "δεῖπνον — δεῖπνου",
+              "correct": false,
+              "feedback": "Review: The long genitive ultima -ου prevents a penult circumflex."
+            },
+            {
+              "text": "δεῖπνον — δειπνοῦ",
+              "correct": false,
+              "feedback": "Review: The long genitive ultima -ου prevents a penult circumflex."
+            },
+            {
+              "text": "δείπνον — δεῖπνου",
+              "correct": false,
+              "feedback": "Review: The long genitive ultima -ου prevents a penult circumflex."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-14",
+          "type": "multiple-choice",
+          "category": "Persistent accents",
+          "prompt": "What explains πόλεμος changing to πολέμου?",
+          "choices": [
+            {
+              "text": "Every genitive has a final circumflex.",
+              "correct": false,
+              "feedback": "Review: Persistent accent adjusts when the long ending restricts its position."
+            },
+            {
+              "text": "A masculine noun must lose its accent.",
+              "correct": false,
+              "feedback": "Review: Persistent accent adjusts when the long ending restricts its position."
+            },
+            {
+              "text": "The noun changes to the plural.",
+              "correct": false,
+              "feedback": "Review: Persistent accent adjusts when the long ending restricts its position."
+            },
+            {
+              "text": "Long -ου prevents the acute from remaining on the antepenult.",
+              "correct": true,
+              "feedback": "Correct. Persistent accent adjusts when the long ending restricts its position."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-15",
+          "type": "multiple-choice",
+          "category": "Recessive accents",
+          "prompt": "Compare the supplied forms μάνθανε and μανθάνει. Which explanation is correct?",
+          "choices": [
+            {
+              "text": "Both final vowel sounds are short.",
+              "correct": false,
+              "feedback": "Review: The length of the ultima controls how far a recessive accent can go."
+            },
+            {
+              "text": "Both words must have a circumflex.",
+              "correct": false,
+              "feedback": "Review: The length of the ultima controls how far a recessive accent can go."
+            },
+            {
+              "text": "Short final ε allows the accent farther back than long ει.",
+              "correct": true,
+              "feedback": "Correct. The length of the ultima controls how far a recessive accent can go."
+            },
+            {
+              "text": "The accent marks different noun cases.",
+              "correct": false,
+              "feedback": "Review: The length of the ultima controls how far a recessive accent can go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-16",
+          "type": "multiple-choice",
+          "category": "Recessive accents",
+          "prompt": "Which pair correctly illustrates a long accented penult before a short versus long ultima?",
+          "choices": [
+            {
+              "text": "ψῆχε — ψηχεῖ",
+              "correct": false,
+              "feedback": "Review: The supplied ψῆχε has a short ultima; ψήχει has a long one."
+            },
+            {
+              "text": "ψῆχε — ψήχει",
+              "correct": true,
+              "feedback": "Correct. The supplied ψῆχε has a short ultima; ψήχει has a long one."
+            },
+            {
+              "text": "ψήχε — ψῆχει",
+              "correct": false,
+              "feedback": "Review: The supplied ψῆχε has a short ultima; ψήχει has a long one."
+            },
+            {
+              "text": "ψηχέ — ψῆχει",
+              "correct": false,
+              "feedback": "Review: The supplied ψῆχε has a short ultima; ψήχει has a long one."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-17",
+          "type": "multiple-choice",
+          "category": "Culture and history",
+          "prompt": "Which expense helps explain the connection between cavalry and wealth?",
+          "choices": [
+            {
+              "text": "Obtaining and maintaining a suitable horse.",
+              "correct": true,
+              "feedback": "Correct. Horses needed substantial resources for care and training."
+            },
+            {
+              "text": "Purchasing a medieval title.",
+              "correct": false,
+              "feedback": "Review: Horses needed substantial resources for care and training."
+            },
+            {
+              "text": "Paying to join the Ten Thousand as a child.",
+              "correct": false,
+              "feedback": "Review: Horses needed substantial resources for care and training."
+            },
+            {
+              "text": "Building a private temple before every ride.",
+              "correct": false,
+              "feedback": "Review: Horses needed substantial resources for care and training."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-18",
+          "type": "multiple-choice",
+          "category": "Culture and history",
+          "prompt": "What did the public inspections described by Aristotle help establish?",
+          "choices": [
+            {
+              "text": "Whether every rider was a hereditary noble.",
+              "correct": false,
+              "feedback": "Review: The Council examined the fitness of mounts and the ability of enrolled men."
+            },
+            {
+              "text": "Whether every Athenian owned a horse.",
+              "correct": false,
+              "feedback": "Review: The Council examined the fitness of mounts and the ability of enrolled men."
+            },
+            {
+              "text": "Whether a boy had memorized Homer.",
+              "correct": false,
+              "feedback": "Review: The Council examined the fitness of mounts and the ability of enrolled men."
+            },
+            {
+              "text": "Whether horses were suitable and men were able to serve.",
+              "correct": true,
+              "feedback": "Correct. The Council examined the fitness of mounts and the ability of enrolled men."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-19",
+          "type": "multiple-choice",
+          "category": "Culture and history",
+          "prompt": "Which statement correctly distinguishes Xenophon and Lycius?",
+          "choices": [
+            {
+              "text": "Both were medieval knights.",
+              "correct": false,
+              "feedback": "Review: Anabasis distinguishes Xenophon’s generalship from Lycius’s cavalry command."
+            },
+            {
+              "text": "Neither accompanied the Greek army.",
+              "correct": false,
+              "feedback": "Review: Anabasis distinguishes Xenophon’s generalship from Lycius’s cavalry command."
+            },
+            {
+              "text": "Xenophon became a general; Lycius led the small cavalry troop formed during the retreat.",
+              "correct": true,
+              "feedback": "Correct. Anabasis distinguishes Xenophon’s generalship from Lycius’s cavalry command."
+            },
+            {
+              "text": "Xenophon led that troop and Lycius wrote Anabasis.",
+              "correct": false,
+              "feedback": "Review: Anabasis distinguishes Xenophon’s generalship from Lycius’s cavalry command."
+            }
+          ]
+        },
+        {
+          "id": "lesson-4-final-20",
+          "type": "multiple-choice",
+          "category": "Culture and history",
+          "prompt": "How should we describe young Xenophon helping Gryllus depart?",
+          "choices": [
+            {
+              "text": "A scene from a medieval chronicle.",
+              "correct": false,
+              "feedback": "Review: The lesson uses historical reconstruction and distinguishes it from documented events."
+            },
+            {
+              "text": "A plausible invented scene, not a documented childhood event.",
+              "correct": true,
+              "feedback": "Correct. The lesson uses historical reconstruction and distinguishes it from documented events."
+            },
+            {
+              "text": "An eyewitness account written by the boy.",
+              "correct": false,
+              "feedback": "Review: The lesson uses historical reconstruction and distinguishes it from documented events."
+            },
+            {
+              "text": "Proof of every detail of Gryllus’s military service.",
+              "correct": false,
+              "feedback": "Review: The lesson uses historical reconstruction and distinguishes it from documented events."
+            }
+          ]
+        }
+      ]
+    }
+  }
+};
+
   const LESSONS = {
     "lesson-1": {
       id: "lesson-1",
@@ -7058,7 +9853,9 @@ Xenophon is young, but he wants to become wise.`;
           slug: "lesson-4-page-1",
           title: "Reading",
           template: "reading"
-        }
+        },
+        { page: 2, slug: "lesson-4-page-2", title: "Language Study", template: "grammar" },
+        { page: 3, slug: "lesson-4-page-3", title: "Culture and History / Final Quiz", template: "culture" }
       ],
       vocabulary: [
         {
@@ -7163,7 +9960,9 @@ Xenophon is young, but he wants to become wise.`;
         translation: "It is early morning. Gryllus is standing in the courtyard. Xenophon’s father is a cavalryman and is about to go to war. First he examines the horse; then he inspects the helmet and the cuirass. After this he takes up the shield and the spear. Xenophon stands beside his father and watches silently, for the boy admires his father.\n\nHis mother prepares bread for Gryllus. Gryllus says to the boy, “Xenophon, come here and help me.” So Xenophon helps eagerly. First he brushes the horse, and then he cleans the helmet and his father’s cuirass. The bronze of the helmet becomes bright. His mother brings the bread to Gryllus, and Xenophon carries the spear to his father and gives it to him. His father takes the cuirass and again examines everything. Finally he says, “You are doing well, Xenophon.”\n\nNow everything is ready. Gryllus leads the horse in front of the house and mounts the horse. His mother stands beside the door and says, “Farewell, Gryllus.” Xenophon stands beside his mother and looks at his father. His father looks happily toward the boy and says, “Be diligent, child; for in this way a good man comes to be.” Then he departs. Xenophon looks at his father for a long time, and in his heart he says that he too someday wants to be useful to Athens.",
         notesMarkdown: "This reading is a plausible reconstruction for language learning, not a documented incident from Xenophon’s childhood."
       },
-      activities: {},
+      ...LESSON_4_LANGUAGE_STUDY,
+      culture: LESSON_4_CULTURE_QUIZ.culture,
+      activities: { ...LESSON_4_LANGUAGE_STUDY.activities, ...LESSON_4_CULTURE_QUIZ.activities },
       previousLesson: {
         id: "lesson-3",
         title: "The Education of Xenophon",

@@ -534,15 +534,18 @@
 
     renderShell(`
       <form class="quiz-form" data-quiz-form>
+        ${lesson.activities?.[activityType]?.instructions ? `<p>${escapeHtml(lesson.activities[activityType].instructions)}</p>` : ""}
         <div class="activity-question-types">
           <span>Multiple choice</span>
+          ${!lesson.activities?.[activityType]?.required ? `
           <span>Future-ready: matching</span>
           <span>Future-ready: fill-in-the-blank</span>
           <span>Future-ready: translation builder</span>
+          ` : ""}
         </div>
         ${questions.map((question, questionIndex) => `
           <fieldset class="quiz-question">
-            <legend>${escapeHtml(question.prompt)}</legend>
+            <legend>${lesson.activities?.[activityType]?.required ? `${questionIndex + 1}. ` : ""}${escapeHtml(question.prompt)}</legend>
             <div class="quiz-choice-list">
               ${question.choices.map((choice, choiceIndex) => `
                 <label>
@@ -587,7 +590,7 @@
 
   function renderGrammarExerciseModes(activeMode) {
     const modes = getGrammarExerciseModes();
-    const futureModes = [
+    const futureModes = lesson.activities?.["grammar-exercises"]?.required ? [] : [
       "Future-ready: matching",
       "Future-ready: fill-in-the-blank",
       "Future-ready: translation builder"
@@ -879,6 +882,15 @@
     shell.querySelector("[data-quiz-form]")?.addEventListener("submit", async (event) => {
       event.preventDefault();
       const form = event.currentTarget;
+      if (lesson.activities?.[activityType]?.requireAllAnswers && questions.some((_, index) => !form.querySelector(`input[name="question-${index}"]:checked`))) {
+        const result = shell.querySelector("[data-activity-result]");
+        if (result) result.textContent = activityType === "lesson-quiz"
+          ? "Answer every question before submitting the final quiz."
+          : "Answer every question before submitting the required exercises.";
+        const missingIndex = questions.findIndex((_, index) => !form.querySelector(`input[name="question-${index}"]:checked`));
+        form.querySelector(`input[name="question-${missingIndex}"]`)?.focus();
+        return;
+      }
       let correct = 0;
 
       const categoryStats = new Map();

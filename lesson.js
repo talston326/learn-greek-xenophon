@@ -272,7 +272,7 @@
     return IMAGE_PLACEMENT_OPTIONS.some((option) => option.value === raw) ? raw : "inline-left";
   }
 
-  function renderLessonImageFigure(image, alt = "", placement = "inline-left") {
+  function renderLessonImageFigure(image, alt = "", placement = "inline-left", caption = "") {
     const resolvedImage = resolveLessonImagePath(image);
     const normalizedPlacement = normalizeImagePlacement(placement);
 
@@ -283,13 +283,14 @@
     return `
       <figure class="lesson-content-image lesson-content-image--${escapeHtml(normalizedPlacement)}">
         <img src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(alt)}">
+        ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
       </figure>
     `;
   }
 
-  function renderParagraphsWithImage(paragraphs = [], image = "", alt = "", placement = "inline-left") {
+  function renderParagraphsWithImage(paragraphs = [], image = "", alt = "", placement = "inline-left", caption = "") {
     const normalizedPlacement = normalizeImagePlacement(placement);
-    const imageMarkup = renderLessonImageFigure(image, alt, normalizedPlacement);
+    const imageMarkup = renderLessonImageFigure(image, alt, normalizedPlacement, caption);
     const body = Array.isArray(paragraphs) ? paragraphs : [];
 
     if (!imageMarkup || normalizedPlacement !== "centered-between") {
@@ -485,6 +486,7 @@
         ${lesson.wordStudy.blocks.map((block) => `
           <div class="lesson-markdown-block">
             <h3>${escapeHtml(block.title)}</h3>
+            ${block.practiceTopic ? `<a class="secondary-button" href="${activityUrl("topic-practice", 2, block.practiceTopic)}">Practice Word Study</a>` : ""}
             ${block.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
             ${block.display?.length ? `
               <dl class="word-builder-list">
@@ -643,9 +645,17 @@
       </header>
       <section class="lesson-section enrichment-panel culture-panel">
         <div class="lesson-rich-text">
-          ${renderParagraphsWithImage(culture.body, culture.image || culture.imageUrl, culture.imageAlt, culture.imagePlacement)}
+          ${renderParagraphsWithImage(culture.body, culture.image || culture.imageUrl, culture.imageAlt, culture.imagePlacement, culture.imageCaption)}
         </div>
+        ${culture.sources?.length ? `<details class="culture-sources"><summary>Sources and Further Reading</summary><ul>${culture.sources.filter((source) => /^https:\/\//.test(source.url)).map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a></li>`).join("")}</ul></details>` : ""}
       </section>
+      ${culture.excerpt?.greek ? `<section class="lesson-section culture-excerpt" aria-labelledby="culture-excerpt-heading">
+        <h2 id="culture-excerpt-heading">${escapeHtml(culture.excerpt.title || "Xenophon’s Own Words")}</h2>
+        <p>${/^https:\/\//.test(culture.excerpt.url || "") ? `<a href="${escapeHtml(culture.excerpt.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(culture.excerpt.citation)}</a>` : escapeHtml(culture.excerpt.citation || "")}</p>
+        <h3>Greek</h3><blockquote lang="grc">${escapeHtml(culture.excerpt.greek)}</blockquote>
+        <h3>English Translation</h3><p lang="en">${escapeHtml(culture.excerpt.translation || "")}</p>
+        <p class="muted">${escapeHtml(culture.excerpt.note || "")}</p>
+      </section>` : ""}
       ${culture.questions?.length ? `
         <section class="lesson-section culture-questions" aria-labelledby="culture-questions-heading">
           <h2 id="culture-questions-heading">Comprehension and Reflection</h2>
@@ -659,6 +669,7 @@
           </div>
         </section>
       ` : ""}
+      ${culture.review?.items?.length ? `<section class="lesson-section"><h2>${escapeHtml(culture.review.title || "Lesson Review")}</h2><ul>${culture.review.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul><div class="lesson-button-row"><a class="secondary-button" href="lesson.html?lesson=${lesson.number}&page=1">Review Reading</a><a class="secondary-button" href="lesson.html?lesson=${lesson.number}&page=2">Review Language Study</a></div></section>` : ""}
       ${renderFinalQuizSection()}
       ${renderPageNav()}
     `;
@@ -701,13 +712,15 @@
   }
 
   function renderGrammarGate() {
+    const activity = lesson.activities?.["grammar-exercises"];
     return `
       <section class="lesson-section gate-panel" aria-labelledby="grammar-exercises-heading">
         <div class="lesson-section__header">
           <h2 id="grammar-exercises-heading">Grammar Exercises</h2>
           <a class="primary-button" href="${activityUrl("grammar-exercises", 2)}">Grammar Exercises</a>
         </div>
-        <p class="gate-message" data-gate-message="grammar-exercises">${hasOpenLessonAccess() ? "Open access is enabled during build testing; you may continue without passing this activity." : ""}</p>
+        ${activity?.instructions ? `<p>${escapeHtml(activity.instructions)}</p>` : ""}
+        <p class="gate-message" data-gate-message="grammar-exercises">${hasOpenLessonAccess() && !activity?.required ? "Open access is enabled during build testing; you may continue without passing this activity." : ""}</p>
       </section>
     `;
   }
@@ -732,7 +745,18 @@
   function renderGrammarPage() {
     return `
       ${renderSampleNotice()}
+      <header class="lesson-page-heading">
+        <p class="eyebrow">Lesson ${lesson.number}</p>
+        <h1>${escapeHtml(page.title)}</h1>
+      </header>
       ${renderWordStudy()}
+      ${lesson.grammar?.objectives?.length ? `
+        <section class="lesson-section" aria-labelledby="lesson-objectives-heading">
+          <h2 id="lesson-objectives-heading">Learning Objectives</h2>
+          <p>By the end of this page, you should be able to:</p>
+          <ul>${lesson.grammar.objectives.map((objective) => `<li>${escapeHtml(objective)}</li>`).join("")}</ul>
+        </section>
+      ` : ""}
       ${renderGrammar()}
       ${renderGrammarSummary()}
       ${renderGrammarGate()}
@@ -779,7 +803,8 @@
           <a class="primary-button" href="${activityUrl("lesson-quiz", page.page)}">Take Final Lesson Quiz</a>
         </div>
         <p class="gate-description">This quiz checks vocabulary, grammar, and reading comprehension.</p>
-        ${hasOpenLessonAccess() ? `<p class="gate-message" data-gate-message="lesson-quiz">Temporary build testing note: open access is enabled, but lesson completion still requires passing the quiz.</p>` : `<p class="gate-message" data-gate-message="lesson-quiz"></p>`}
+        ${quiz.instructions ? `<p>${escapeHtml(quiz.instructions)}</p>` : ""}
+        ${hasOpenLessonAccess() && !quiz.required ? `<p class="gate-message" data-gate-message="lesson-quiz">Temporary build testing note: open access is enabled, but lesson completion still requires passing the quiz.</p>` : `<p class="gate-message" data-gate-message="lesson-quiz"></p>`}
       </section>
     `;
   }
@@ -1067,6 +1092,7 @@
                 ${renderRemoveButton("Remove Block")}
               </div>
               ${renderTextarea("Body paragraphs", "word-body", joinParagraphs(block.body), 5)}
+              ${renderInput("Practice topic", "word-practice-topic", block.practiceTopic || "")}
               <div class="lesson-section__header">
                 <h4>Display rows</h4>
                 <button class="secondary-button" type="button" data-lesson-editor-action="add-word-display">Add Display Row</button>
@@ -1096,6 +1122,7 @@
           <button class="secondary-button" type="button" data-lesson-editor-action="add-grammar-section">Add Section</button>
         </div>
         ${renderTextarea("Grammar intro", "grammar-intro", lesson.grammar?.intro || "", 4)}
+        ${renderTextarea("Learning objectives, one per line", "grammar-objectives", joinLines(lesson.grammar?.objectives), 7)}
         <div class="lesson-editor-list">
           ${(lesson.grammar?.sections || []).map((section) => `
             <section class="lesson-editor-group" data-editor-row="grammar-section">
@@ -1156,6 +1183,7 @@
             <button class="secondary-button" type="button" data-lesson-editor-action="add-culture-question">Add Question</button>
           </div>
           ${renderInput("Culture title", "culture-title", lesson.culture?.title || "")}
+          ${renderInput("Image caption", "culture-image-caption", lesson.culture?.imageCaption || "")}
           <div class="lesson-editor-row lesson-editor-row--two">
             ${renderInput("Image path or URL", "culture-image", lesson.culture?.image || lesson.culture?.imageUrl || "")}
             ${renderInput("Image alt text", "culture-image-alt", lesson.culture?.imageAlt || "")}
@@ -1309,6 +1337,7 @@
       draft.wordStudy.label = fieldValue("word-label");
       draft.wordStudy.blocks = Array.from(shell.querySelectorAll('[data-editor-row="word-block"]')).map((block) => ({
         title: fieldValue("word-title", block),
+        practiceTopic: fieldValue("word-practice-topic", block),
         body: splitParagraphs(fieldValue("word-body", block)),
         display: Array.from(block.querySelectorAll('[data-editor-row="word-display"]')).map((entry) => ({
           greek: fieldValue("word-display-greek", entry),
@@ -1319,10 +1348,12 @@
 
       draft.grammar ||= {};
       draft.grammar.intro = fieldValue("grammar-intro");
+      draft.grammar.objectives = splitLines(fieldValue("grammar-objectives"));
       draft.grammar.sections = Array.from(shell.querySelectorAll('[data-editor-row="grammar-section"]')).map((section) => {
         const table = parseJsonField("grammar-table", section, undefined);
         const formList = parseJsonField("grammar-form-list", section, undefined);
         const nextSection = {
+          ...deepCopy((lesson.grammar?.sections || []).find((item) => item.id === fieldValue("grammar-id", section)) || {}),
           id: fieldValue("grammar-id", section),
           title: fieldValue("grammar-title", section),
           body: splitParagraphs(fieldValue("grammar-body", section)),
@@ -1332,6 +1363,9 @@
           })),
           practiceTopic: fieldValue("grammar-practice-topic", section),
         };
+
+        delete nextSection.table;
+        delete nextSection.formList;
 
         if (table) {
           nextSection.table = table;
@@ -1350,6 +1384,7 @@
       draft.culture.title = fieldValue("culture-title");
       draft.culture.image = fieldValue("culture-image");
       draft.culture.imageAlt = fieldValue("culture-image-alt");
+      draft.culture.imageCaption = fieldValue("culture-image-caption");
       draft.culture.imagePlacement = fieldValue("culture-image-placement") || "inline-left";
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
       draft.culture.questions = Array.from(shell.querySelectorAll('[data-editor-row="culture-question"]')).map((question) => ({
@@ -1590,6 +1625,14 @@
   }
 
   function getGateState() {
+    if (["culture", "quiz"].includes(page.template) && lesson.activities?.["lesson-quiz"]?.required && !isStaffView()) {
+      const threshold = lesson.activities["lesson-quiz"].threshold || 80;
+      return { type: "lesson-quiz", threshold, message: `Pass the final lesson quiz with ${threshold}% or higher to complete this lesson and continue.` };
+    }
+    if (page.template === "grammar" && lesson.activities?.["grammar-exercises"]?.required && !isStaffView()) {
+      const threshold = lesson.activities["grammar-exercises"].threshold || 80;
+      return { type: "grammar-exercises", threshold, message: `Complete all Grammar Exercises with ${threshold}% or higher to continue.` };
+    }
     if (hasOpenLessonAccess()) {
       return null;
     }
