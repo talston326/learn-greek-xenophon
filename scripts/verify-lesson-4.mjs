@@ -6,11 +6,11 @@ import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-const expectedGreek = `Πρωΐ ἐστιν. ὁ Γρύλλος ἐν τῇ αὐλῇ ἕστηκεν. ὁ γὰρ πατὴρ τοῦ Ξενοφῶντος ἱππεύς ἐστι καὶ μέλλει ἐκ τῆς οἰκίας ἀπιέναι. πρῶτον μὲν σκοπεῖ τὸν ἵππον· εἶτα δὲ τὸ κράνος καὶ τὸν θώρακα θεωρεῖ. μετὰ ταῦτα τὴν ἀσπίδα καὶ τὴν λόγχην λαμβάνει. πάντα καλὰ καὶ ἕτοιμά ἐστιν. ὁ δὲ Ξενοφῶν παρὰ τῷ πατρὶ ἵσταται καὶ σιγῇ βλέπει. ὁ γὰρ παῖς τὸν πατέρα θαυμάζει.
+const expectedGreek = `Πρωΐ ἐστιν. ὁ Γρύλλος ἐν τῇ αὐλῇ ἕστηκεν. ὁ γὰρ πατὴρ τοῦ Ξενοφῶντος ἱππεύς ἐστι καὶ μέλλει εἰς τὸν πόλεμον ἀπιέναι. πρῶτον μὲν σκοπεῖ τὸν ἵππον· εἶτα δὲ τὸ κράνος καὶ τὸν θώρακα θεωρεῖ. μετὰ ταῦτα τὴν ἀσπίδα καὶ τὴν λόγχην λαμβάνει. ὁ δὲ Ξενοφῶν παρὰ τῷ πατρὶ ἵσταται καὶ σιγῇ βλέπει. ὁ γὰρ παῖς τὸν πατέρα θαυμάζει.
 
-ὁ δὲ Γρύλλος πρὸς τὸν παῖδα λέγει· «ὦ Ξενοφῶν, δεῦρο καὶ βοήθει μοι.» ὁ οὖν Ξενοφῶν προθύμως βοηθεῖ. πρῶτον μὲν ψήχει τὸν ἵππον, εἶτα δὲ καθαίρει τὸ κράνος. ὁ χαλκὸς τοῦ κράνους λαμπρὸς γίνεται. μετὰ ταῦτα φέρει τὴν λόγχην τῷ πατρί καὶ δίδωσιν αὐτῷ. ὁ δὲ πατὴρ τὸν θώρακα λαμβάνει καὶ πάλιν πάντα σκοπεῖ. τέλος δὲ λέγει· «καλῶς ποιεῖς, ὦ Ξενοφῶν.»
+ἡ δὲ μήτηρ τῷ Γρύλλῳ τὸν ἄρτον παρασκευάζει. ὁ δὲ Γρύλλος πρὸς τὸν παῖδα λέγει· «ὦ Ξενοφῶν, δεῦρο καὶ βοήθει μοι.» ὁ οὖν Ξενοφῶν προθύμως βοηθεῖ. πρῶτον μὲν ψήχει τὸν ἵππον, εἶτα δὲ καθαίρει τὸ κράνος καὶ τὸν θώρακα τοῦ πατρός. ὁ χαλκὸς τοῦ κράνους λαμπρὸς γίνεται. ἡ μὲν μήτηρ φέρει τὸν ἄρτον τῷ Γρύλλῳ, ὁ δὲ Ξενοφῶν φέρει τὴν λόγχην τῷ πατρί καὶ δίδωσιν αὐτῷ. ὁ δὲ πατὴρ τὸν θώρακα λαμβάνει καὶ πάλιν πάντα σκοπεῖ. τέλος δὲ λέγει· «καλῶς ποιεῖς, ὦ Ξενοφῶν.»
 
-ἤδη πάντα ἕτοιμά ἐστιν. ὁ Γρύλλος τὸν ἵππον ἄγει πρὸ τῆς οἰκίας καὶ ἐπὶ τὸν ἵππον ἀναβαίνει. ὁ δὲ Ξενοφῶν παρὰ τῇ θύρᾳ ἵσταται καὶ τὸν πατέρα βλέπει. ὁ πατὴρ πρὸς τὸν παῖδα χαίρων βλέπει καὶ λέγει· «ἐπιμελὴς γίνου, ὦ παῖ· οὕτω γὰρ ἀγαθὸς ἀνήρ γίγνεται.» εἶτα ἀπέρχεται. ὁ δὲ Ξενοφῶν πολὺν χρόνον τὸν πατέρα βλέπει, καὶ ἐν τῇ καρδίᾳ λέγει ὅτι καὶ αὐτὸς ποτὲ βούλεται τῇ Ἀθήνῃ ὠφέλιμος εἶναι.`;
+ἤδη πάντα ἕτοιμά ἐστιν. ὁ Γρύλλος τὸν ἵππον ἄγει πρὸ τῆς οἰκίας καὶ ἐπὶ τὸν ἵππον ἀναβαίνει. ἡ μήτηρ παρὰ τῇ θύρᾳ ἵσταται καὶ λέγει· «χαῖρε, ὦ Γρύλλε.» ὁ δὲ Ξενοφῶν παρὰ τῇ μητρὶ ἵσταται καὶ τὸν πατέρα βλέπει. ὁ πατὴρ πρὸς τὸν παῖδα χαίρων βλέπει καὶ λέγει· «ἐπιμελὴς γίνου, ὦ παῖ· οὕτω γὰρ ἀγαθὸς ἀνήρ γίγνεται.» εἶτα ἀπέρχεται. ὁ δὲ Ξενοφῶν πολὺν χρόνον τὸν πατέρα βλέπει, καὶ ἐν τῇ καρδίᾳ λέγει ὅτι καὶ αὐτὸς ποτὲ βούλεται ταῖς Ἀθήναις ὠφέλιμος εἶναι.`;
 
 const expectedVocabulary = [
   "ὁ ἱππεύς",
@@ -20,6 +20,7 @@ const expectedVocabulary = [
   "ἡ ἀσπίς",
   "ἡ αὐλή",
   "ὁ χαλκός",
+  "ὁ πόλεμος",
   "θεωρέω",
   "ψήχω",
   "καθαίρω",
@@ -63,16 +64,16 @@ const lessonData = loadLessonData(lessonDataJs);
 const lesson = lessonData.getLesson("lesson-4");
 
 assert.ok(lesson, "Lesson 4 should be defined");
-assert.equal(lesson.title, "The Preparation Before the March");
-assert.equal(lesson.greekTitle, "Ἡ Παρασκευὴ πρὸ τῆς πορείας");
+assert.equal(lesson.title, "Gryllus Rides to War");
+assert.equal(lesson.greekTitle, "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται");
 assert.equal(lesson.pages.length, 1, "Lesson 4 should expose only the Reading page for this build");
 assert.equal(lesson.pages[0].template, "reading");
 assert.notEqual(lesson.pages[0].showTranslation, false, "Lesson 4 translation should be available behind the reveal control");
-assert.equal(lesson.reading.title, "Ἡ Παρασκευὴ πρὸ τῆς πορείας");
+assert.equal(lesson.reading.title, "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται");
 assert.equal(lesson.reading.paragraphs.map((paragraph) => paragraph.greek).join("\n\n"), expectedGreek);
 assert.ok(lesson.reading.translation.includes("It is early morning."), "Lesson 4 should include the approved English translation");
 assert.equal(lesson.banner.image, "assets/lesson-4-banner.png", "Lesson 4 should use the committed banner image");
-assert.ok(lesson.banner.alt.includes("Young Xenophon brushing his father's horse"), "Lesson 4 banner should describe the requested image");
+assert.ok(lesson.banner.alt.includes("Young Xenophon polishing his father's helmet"), "Lesson 4 banner should describe the requested image");
 assert.equal(lesson.activities && Object.keys(lesson.activities).length, 0, "Lesson 4 should not add grammar, practice, quiz, or assessment activities");
 
 flattenStrings(lesson, "lesson-4", assertGreekNfc);
@@ -118,7 +119,7 @@ const glosses = lesson.reading.paragraphs.flatMap((paragraph) => paragraph.gloss
   "ἀπέρχεται",
   "λέγει ὅτι",
   "καὶ αὐτός",
-  "τῇ Ἀθήνῃ",
+  "ταῖς Ἀθήναις",
   "ὠφέλιμος εἶναι",
 ].forEach((greek) => assert.ok(glosses.some((gloss) => gloss.greek === greek), `${greek} should be glossed as Lesson 4 support`));
 
@@ -153,7 +154,7 @@ assert.match(styles, /\.lesson-hero__placeholder/, "Placeholder should have shar
 assert.match(styles, /\.reading-audio-placeholder/, "Reading audio placeholder should be styled");
 
 const scriptJs = await readFile(path.join(rootDir, "script.js"), "utf8");
-assert.match(scriptJs, /The Preparation Before the March/, "Course navigation metadata should use the new Lesson 4 title");
+assert.match(scriptJs, /Gryllus Rides to War/, "Course navigation metadata should use the new Lesson 4 title");
 
 const packageJson = await readFile(path.join(rootDir, "package.json"), "utf8");
 assert.match(packageJson, /0015_replace_lesson_4_reading\.sql/, "db:migrate should include the Lesson 4 reading migration");
@@ -168,6 +169,15 @@ assert.match(migration, /lesson_4_vocabulary/, "Lesson 4 migration should define
 assert.match(migration, /Πρωΐ ἐστιν\./, "Lesson 4 migration should include the exact reading");
 assert.match(migration, /assets\/lesson-4-banner\.png/, "Lesson 4 migration should publish the banner image");
 assert.match(migration, /lesson_content_overrides/, "Lesson 4 migration should publish the content override");
+const migrationContent = JSON.parse(migration.match(/\$json\$([\s\S]*?)\$json\$/)[1]);
+assert.equal(JSON.stringify(migrationContent.reading), JSON.stringify(lesson.reading), "Database reading, translation, and glosses should match the local lesson");
+assert.equal(migrationContent.title, lesson.title);
+assert.equal(migrationContent.greekTitle, lesson.greekTitle);
+assert.equal(JSON.stringify(migrationContent.banner), JSON.stringify(lesson.banner));
+assert.equal(migration.match(/\$greek\$([\s\S]*?)\$greek\$/)[1], expectedGreek, "Normalized database reading should match the lesson");
+assert.equal(migration.match(/\$translation\$([\s\S]*?)\$translation\$/)[1], lesson.reading.translation);
+assert.equal(JSON.stringify(migrationContent.vocabulary.flatMap((group) => group.items.map((item) => item.greek))), JSON.stringify(expectedVocabulary));
+assert.equal(lessonData.getLesson("lesson-3").nextLesson.title, lesson.title, "Previous lesson navigation should use the revised title");
 assert.doesNotMatch(migration, /public\.exercises|public\.quizzes|quiz_questions|student_lesson_test_grades|lesson_progress|student_progress/i, "Lesson 4 reading migration should not touch practice, quiz, grade, or progress tables");
 
 console.log(`Verified Lesson 4 reading page with ${lesson.reading.paragraphs.length} paragraphs, ${glosses.length} glosses, and ${cards.length} vocabulary flashcards.`);

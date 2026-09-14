@@ -5420,7 +5420,7 @@ SELECT
   },
   "nextLesson": {
     "id": "lesson-4",
-    "title": "The Student and the Teacher",
+    "title": "Gryllus Rides to War",
     "fallbackUrl": "lesson.html?lesson=4&page=1"
   }
 }$content$::jsonb AS content,

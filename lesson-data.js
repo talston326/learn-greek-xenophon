@@ -6251,7 +6251,7 @@ Xenophon is young, but he wants to become wise.`;
     },
     nextLesson: {
       id: "lesson-4",
-      title: "The Preparation Before the March",
+      title: "Gryllus Rides to War",
       fallbackUrl: "lesson.html?lesson=4&page=1"
     }
   };
@@ -7042,15 +7042,15 @@ Xenophon is young, but he wants to become wise.`;
     "lesson-4": {
       id: "lesson-4",
       number: 4,
-      title: "The Preparation Before the March",
-      greekTitle: "Ἡ Παρασκευὴ πρὸ τῆς πορείας",
+      title: "Gryllus Rides to War",
+      greekTitle: "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται",
       scope: "Singular noun cases, singular adjective agreement, possessive genitive, and natural case usage in narrative",
-      theme: "Young Xenophon helps Gryllus prepare horse and cavalry equipment before military service.",
+      theme: "Xenophon and his mother help Gryllus prepare to ride to war as an Athenian cavalryman.",
       module: "Module 1: Growing Up in Classical Athens",
       banner: {
         image: "assets/lesson-4-banner.png",
-        alt: "Young Xenophon brushing his father's horse while Gryllus prepares cavalry equipment in the courtyard",
-        caption: "Ἡ Παρασκευὴ πρὸ τῆς πορείας"
+        alt: "Young Xenophon polishing his father's helmet beside a cuirass while Gryllus tends the horse and his wife stands in the doorway",
+        caption: "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται"
       },
       pages: [
         {
@@ -7070,7 +7070,8 @@ Xenophon is young, but he wants to become wise.`;
             { greek: "ἡ λόγχη", english: "spear", status: "new required vocabulary", dictionaryForm: "λόγχη, λόγχης, ἡ", audioPlaceholder: true, spacedRepetition: { box: 1, intervalDays: 0, ease: 2.5 } },
             { greek: "ἡ ἀσπίς", english: "shield", status: "new required vocabulary", dictionaryForm: "ἀσπίς, ἀσπίδος, ἡ", audioPlaceholder: true, spacedRepetition: { box: 1, intervalDays: 0, ease: 2.5 } },
             { greek: "ἡ αὐλή", english: "courtyard", status: "new required vocabulary", dictionaryForm: "αὐλή, αὐλῆς, ἡ", audioPlaceholder: true, spacedRepetition: { box: 1, intervalDays: 0, ease: 2.5 } },
-            { greek: "ὁ χαλκός", english: "bronze", status: "new required vocabulary", dictionaryForm: "χαλκός, χαλκοῦ, ὁ", audioPlaceholder: true, spacedRepetition: { box: 1, intervalDays: 0, ease: 2.5 } }
+            { greek: "ὁ χαλκός", english: "bronze", status: "new required vocabulary", dictionaryForm: "χαλκός, χαλκοῦ, ὁ", audioPlaceholder: true, spacedRepetition: { box: 1, intervalDays: 0, ease: 2.5 } },
+            { greek: "ὁ πόλεμος", english: "war", status: "new required vocabulary", dictionaryForm: "πόλεμος, πολέμου, ὁ", audioPlaceholder: true, spacedRepetition: { box: 1, intervalDays: 0, ease: 2.5 } }
           ]
         },
         {
@@ -7097,12 +7098,12 @@ Xenophon is young, but he wants to become wise.`;
         }
       ],
       reading: {
-        title: "Ἡ Παρασκευὴ πρὸ τῆς πορείας",
+        title: "Ὁ ἱππεὺς Γρύλλος εἰς τὸν πόλεμον ἀπέρχεται",
         showQuickActions: true,
         audioPlaceholder: "Reading audio placeholder",
         paragraphs: [
           {
-            greek: "Πρωΐ ἐστιν. ὁ Γρύλλος ἐν τῇ αὐλῇ ἕστηκεν. ὁ γὰρ πατὴρ τοῦ Ξενοφῶντος ἱππεύς ἐστι καὶ μέλλει ἐκ τῆς οἰκίας ἀπιέναι. πρῶτον μὲν σκοπεῖ τὸν ἵππον· εἶτα δὲ τὸ κράνος καὶ τὸν θώρακα θεωρεῖ. μετὰ ταῦτα τὴν ἀσπίδα καὶ τὴν λόγχην λαμβάνει. πάντα καλὰ καὶ ἕτοιμά ἐστιν. ὁ δὲ Ξενοφῶν παρὰ τῷ πατρὶ ἵσταται καὶ σιγῇ βλέπει. ὁ γὰρ παῖς τὸν πατέρα θαυμάζει.",
+            greek: "Πρωΐ ἐστιν. ὁ Γρύλλος ἐν τῇ αὐλῇ ἕστηκεν. ὁ γὰρ πατὴρ τοῦ Ξενοφῶντος ἱππεύς ἐστι καὶ μέλλει εἰς τὸν πόλεμον ἀπιέναι. πρῶτον μὲν σκοπεῖ τὸν ἵππον· εἶτα δὲ τὸ κράνος καὶ τὸν θώρακα θεωρεῖ. μετὰ ταῦτα τὴν ἀσπίδα καὶ τὴν λόγχην λαμβάνει. ὁ δὲ Ξενοφῶν παρὰ τῷ πατρὶ ἵσταται καὶ σιγῇ βλέπει. ὁ γὰρ παῖς τὸν πατέρα θαυμάζει.",
             gloss: [
               { greek: "Πρωΐ", english: "early in the morning" },
               { greek: "ἕστηκεν", english: "stands; has taken his stand" },
@@ -7110,8 +7111,6 @@ Xenophon is young, but he wants to become wise.`;
               { greek: "πρῶτον μὲν ... εἶτα δὲ", english: "first ... and then" },
               { greek: "μετὰ ταῦτα", english: "after this" },
               { greek: "λαμβάνει", english: "takes, takes up" },
-              { greek: "πάντα", english: "everything, all things" },
-              { greek: "ἕτοιμά", english: "ready" },
               { greek: "παρὰ τῷ πατρί", english: "beside his father" },
               { greek: "ἵσταται", english: "stands" },
               { greek: "σιγῇ", english: "silently" },
@@ -7119,14 +7118,15 @@ Xenophon is young, but he wants to become wise.`;
             ]
           },
           {
-            greek: "ὁ δὲ Γρύλλος πρὸς τὸν παῖδα λέγει· «ὦ Ξενοφῶν, δεῦρο καὶ βοήθει μοι.» ὁ οὖν Ξενοφῶν προθύμως βοηθεῖ. πρῶτον μὲν ψήχει τὸν ἵππον, εἶτα δὲ καθαίρει τὸ κράνος. ὁ χαλκὸς τοῦ κράνους λαμπρὸς γίνεται. μετὰ ταῦτα φέρει τὴν λόγχην τῷ πατρί καὶ δίδωσιν αὐτῷ. ὁ δὲ πατὴρ τὸν θώρακα λαμβάνει καὶ πάλιν πάντα σκοπεῖ. τέλος δὲ λέγει· «καλῶς ποιεῖς, ὦ Ξενοφῶν.»",
+            greek: "ἡ δὲ μήτηρ τῷ Γρύλλῳ τὸν ἄρτον παρασκευάζει. ὁ δὲ Γρύλλος πρὸς τὸν παῖδα λέγει· «ὦ Ξενοφῶν, δεῦρο καὶ βοήθει μοι.» ὁ οὖν Ξενοφῶν προθύμως βοηθεῖ. πρῶτον μὲν ψήχει τὸν ἵππον, εἶτα δὲ καθαίρει τὸ κράνος καὶ τὸν θώρακα τοῦ πατρός. ὁ χαλκὸς τοῦ κράνους λαμπρὸς γίνεται. ἡ μὲν μήτηρ φέρει τὸν ἄρτον τῷ Γρύλλῳ, ὁ δὲ Ξενοφῶν φέρει τὴν λόγχην τῷ πατρί καὶ δίδωσιν αὐτῷ. ὁ δὲ πατὴρ τὸν θώρακα λαμβάνει καὶ πάλιν πάντα σκοπεῖ. τέλος δὲ λέγει· «καλῶς ποιεῖς, ὦ Ξενοφῶν.»",
             gloss: [
+              { greek: "τῷ Γρύλλῳ", english: "for or to Gryllus" },
+              { greek: "ἡ μὲν μήτηρ … ὁ δὲ Ξενοφῶν", english: "the mother … and Xenophon" },
               { greek: "βοήθει μοι", english: "help me" },
               { greek: "οὖν", english: "so, therefore" },
               { greek: "βοηθεῖ", english: "helps" },
               { greek: "πρῶτον μὲν ... εἶτα δὲ", english: "first ... and then" },
               { greek: "λαμπρὸς γίνεται", english: "becomes bright" },
-              { greek: "μετὰ ταῦτα", english: "after this" },
               { greek: "τῷ πατρί", english: "to his father" },
               { greek: "δίδωσιν αὐτῷ", english: "gives it to him" },
               { greek: "λαμβάνει", english: "takes, takes up" },
@@ -7136,11 +7136,13 @@ Xenophon is young, but he wants to become wise.`;
             ]
           },
           {
-            greek: "ἤδη πάντα ἕτοιμά ἐστιν. ὁ Γρύλλος τὸν ἵππον ἄγει πρὸ τῆς οἰκίας καὶ ἐπὶ τὸν ἵππον ἀναβαίνει. ὁ δὲ Ξενοφῶν παρὰ τῇ θύρᾳ ἵσταται καὶ τὸν πατέρα βλέπει. ὁ πατὴρ πρὸς τὸν παῖδα χαίρων βλέπει καὶ λέγει· «ἐπιμελὴς γίνου, ὦ παῖ· οὕτω γὰρ ἀγαθὸς ἀνήρ γίγνεται.» εἶτα ἀπέρχεται. ὁ δὲ Ξενοφῶν πολὺν χρόνον τὸν πατέρα βλέπει, καὶ ἐν τῇ καρδίᾳ λέγει ὅτι καὶ αὐτὸς ποτὲ βούλεται τῇ Ἀθήνῃ ὠφέλιμος εἶναι.",
+            greek: "ἤδη πάντα ἕτοιμά ἐστιν. ὁ Γρύλλος τὸν ἵππον ἄγει πρὸ τῆς οἰκίας καὶ ἐπὶ τὸν ἵππον ἀναβαίνει. ἡ μήτηρ παρὰ τῇ θύρᾳ ἵσταται καὶ λέγει· «χαῖρε, ὦ Γρύλλε.» ὁ δὲ Ξενοφῶν παρὰ τῇ μητρὶ ἵσταται καὶ τὸν πατέρα βλέπει. ὁ πατὴρ πρὸς τὸν παῖδα χαίρων βλέπει καὶ λέγει· «ἐπιμελὴς γίνου, ὦ παῖ· οὕτω γὰρ ἀγαθὸς ἀνήρ γίγνεται.» εἶτα ἀπέρχεται. ὁ δὲ Ξενοφῶν πολὺν χρόνον τὸν πατέρα βλέπει, καὶ ἐν τῇ καρδίᾳ λέγει ὅτι καὶ αὐτὸς ποτὲ βούλεται ταῖς Ἀθήναις ὠφέλιμος εἶναι.",
             gloss: [
               { greek: "ἤδη", english: "already, now" },
               { greek: "πάντα ἕτοιμά", english: "everything is ready" },
               { greek: "πρὸ τῆς οἰκίας", english: "in front of the house" },
+              { greek: "χαῖρε", english: "farewell" },
+              { greek: "παρὰ τῇ μητρί", english: "beside his mother" },
               { greek: "παρὰ τῇ θύρᾳ", english: "beside the door" },
               { greek: "ἵσταται", english: "stands" },
               { greek: "χαίρων", english: "gladly; with a pleased look" },
@@ -7153,12 +7155,12 @@ Xenophon is young, but he wants to become wise.`;
               { greek: "λέγει ὅτι", english: "says that" },
               { greek: "καὶ αὐτός", english: "he himself too" },
               { greek: "ποτὲ", english: "someday" },
-              { greek: "τῇ Ἀθήνῃ", english: "to or for Athens" },
+              { greek: "ταῖς Ἀθήναις", english: "to or for Athens" },
               { greek: "ὠφέλιμος εἶναι", english: "to be useful" }
             ]
           }
         ],
-        translation: "It is early morning. Gryllus is standing in the courtyard. Xenophon’s father is a cavalryman and is about to leave the house. First he examines the horse; then he inspects the helmet and the cuirass. After this he takes up the shield and the spear. Everything is fine and ready. Xenophon stands beside his father and watches silently, for the boy admires his father.\n\nGryllus says to the boy, “Xenophon, come here and help me.” So Xenophon helps eagerly. First he brushes the horse, and then he cleans the helmet. The bronze of the helmet becomes bright. After this he carries the spear to his father and gives it to him. His father takes the cuirass and again examines everything. Finally he says, “You are doing well, Xenophon.”\n\nNow everything is ready. Gryllus leads the horse in front of the house and mounts the horse. Xenophon stands beside the door and looks at his father. His father looks happily toward the boy and says, “Be diligent, child; for in this way a good man comes to be.” Then he departs. Xenophon looks at his father for a long time, and in his heart he says that he too someday wants to be useful to Athens.",
+        translation: "It is early morning. Gryllus is standing in the courtyard. Xenophon’s father is a cavalryman and is about to go to war. First he examines the horse; then he inspects the helmet and the cuirass. After this he takes up the shield and the spear. Xenophon stands beside his father and watches silently, for the boy admires his father.\n\nHis mother prepares bread for Gryllus. Gryllus says to the boy, “Xenophon, come here and help me.” So Xenophon helps eagerly. First he brushes the horse, and then he cleans the helmet and his father’s cuirass. The bronze of the helmet becomes bright. His mother brings the bread to Gryllus, and Xenophon carries the spear to his father and gives it to him. His father takes the cuirass and again examines everything. Finally he says, “You are doing well, Xenophon.”\n\nNow everything is ready. Gryllus leads the horse in front of the house and mounts the horse. His mother stands beside the door and says, “Farewell, Gryllus.” Xenophon stands beside his mother and looks at his father. His father looks happily toward the boy and says, “Be diligent, child; for in this way a good man comes to be.” Then he departs. Xenophon looks at his father for a long time, and in his heart he says that he too someday wants to be useful to Athens.",
         notesMarkdown: "This reading is a plausible reconstruction for language learning, not a documented incident from Xenophon’s childhood."
       },
       activities: {},
