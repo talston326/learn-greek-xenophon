@@ -8,7 +8,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="maps/atlas/course.css" />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="dashboard-active maps-page">
@@ -50,28 +50,15 @@
         </div>
       </section>
 
-      <section class="map-shell" aria-labelledby="ancient-greece-map-title">
+      <section class="map-shell atlas-shell" aria-labelledby="ancient-greece-map-title">
         <div class="map-header">
           <div>
             <p class="dashboard-context">Ancient Greece</p>
-            <h3 id="ancient-greece-map-title">Interactive Reference Map</h3>
+            <h3 id="ancient-greece-map-title">A Reading Atlas</h3>
           </div>
-          <div class="map-language-control" role="group" aria-label="Place name language">
-            <span>Place Names</span>
-            <button class="active" type="button" data-map-language="en" aria-pressed="true">English</button>
-            <button type="button" data-map-language="gr" aria-pressed="false">Greek</button>
-          </div>
+          <a class="small-link atlas-open-link" href="maps/atlas/index.html" target="_blank" rel="noopener">Open full map ↗</a>
         </div>
-
-        <div class="map-frame">
-          <div id="ancient-greece-map" class="ancient-greece-map" data-cities-src="maps/source-data/cities.csv"></div>
-          <p class="map-status" data-map-status aria-live="polite">Loading places...</p>
-        </div>
-
-        <div class="map-legend" aria-label="Map legend">
-          <span><i class="major-city-dot"></i>Major cities</span>
-          <span><i class="regional-city-dot"></i>Regional cities appear when zoomed in</span>
-        </div>
+        <iframe class="course-atlas" src="maps/atlas/index.html" title="Ancient Greece reading atlas with English and Greek place names" allow="clipboard-write; fullscreen" allowfullscreen></iframe>
       </section>
 
       <section class="map-library" aria-labelledby="reference-maps-title">
@@ -124,7 +111,5 @@
   <script src="profile-data.js"></script>
   <script src="forms-data.js"></script>
   <script src="script.js"></script>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="maps.js"></script>
 </body>
 </html>
