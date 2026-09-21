@@ -692,10 +692,10 @@ svg.leaflet-image-layer.leaflet-interactive path {
 <header><div class="brand"><div class="emblem" aria-hidden="true">Ξ</div><div><div class="eyebrow">Learn Greek with Xenophon</div><h1>Ancient Greece</h1></div></div><div class="head-actions"><div class="language" role="group" aria-label="Place-name language"><button id="lang-en" aria-pressed="true">English</button><button id="lang-gr" aria-pressed="false" lang="grc">Ἑλληνικά</button></div><button id="about-open" class="plain">About this atlas</button></div></header>
 <main><aside aria-label="Explore the atlas"><div class="eyebrow">A reading atlas · 480–323 BCE</div><h2>Follow the places.<br>Read the histories.</h2><p class="intro">Explore the Greek world of Thucydides and Xenophon. Zoom closer to reveal smaller settlements and sites.</p><div class="search-wrap"><input id="search" type="search" aria-label="Search places in English or Greek" placeholder="Find Athens, Ἀθῆναι…" autocomplete="off"><button id="clear-search" aria-label="Clear search">×</button></div><p class="search-help">Search either language, with or without accents.</p><div id="results" aria-label="Search results"></div><div id="detail" class="hidden" aria-live="polite"></div>
 <div class="section"><h3 class="section-title">Explore a region</h3><div class="regions"><button data-region="home">Whole map ↗</button><button data-region="attica">Attica</button><button data-region="peloponnese">Peloponnese</button><button data-region="north">Northern Greece</button><button data-region="ionia">Ionia</button><button data-region="hellespont">Hellespont</button><button data-region="crete">Crete</button><button data-region="sicily">Sicily ↗</button></div></div>
-<div class="section"><h3 class="section-title">On the map</h3><label class="check"><input id="settlement" type="checkbox" checked><span><i class="legend-dot"></i> Cities & settlements</span></label><label class="check"><input id="landscape" type="checkbox" checked><span><i class="legend-dot landscape-dot"></i> Islands & natural features</span></label><label class="check"><input id="site" type="checkbox" checked><span><i class="legend-dot site-dot"></i> Sanctuaries & other sites</span></label><label class="check"><input id="rough" type="checkbox" checked><span>Include approximate locations ◌</span></label><label class="check"><input id="greek-only" type="checkbox"><span>Only places with Greek names</span></label><label class="check"><input id="relief" type="checkbox" checked><span>Shaded relief</span></label><label class="check"><input id="dense" type="checkbox"><span>More labels</span></label><div id="coverage" class="status"></div></div>
+<div class="section"><h3 class="section-title">On the map</h3><label class="check"><input id="settlement" type="checkbox" checked><span><i class="legend-dot"></i> Cities & settlements</span></label><label class="check"><input id="landscape" type="checkbox" checked><span><i class="legend-dot landscape-dot"></i> Islands & natural features</span></label><label class="check"><input id="site" type="checkbox" checked><span><i class="legend-dot site-dot"></i> Sanctuaries & other sites</span></label><label class="check"><input id="rough" type="checkbox" checked><span>Include approximate locations ◌</span></label><label class="check"><input id="greek-only" type="checkbox"><span>Only places with Greek names</span></label><label class="check"><input id="relief" type="checkbox" checked><span>Shaded relief</span></label><label class="check"><input id="detail-terrain" type="checkbox" checked><span>Detailed terrain (online)</span></label><div id="terrain-status" class="status" aria-live="polite"></div><label class="check"><input id="dense" type="checkbox"><span>More labels</span></label><div id="coverage" class="status"></div></div>
 <div class="hint">Drag to explore. Scroll or use + / − to zoom. Select a place to see its source.</div><div class="section"><details><summary>Sources & coverage</summary><p id="source-summary"></p><p>This is a geographical reading aid, not yet an exhaustive index of every place in the two histories. Inclusion is based on a Pleiades name dated to overlap 480–323 BCE.</p><p>Greek labels use attested ancient forms and the earlier project list. Some attested forms are inflected. Where a Greek name is unavailable, the English / romanized name remains, marked †.</p><p>Modern generalized coastlines; ancient harbours and shorelines can differ. Hollow dots mark approximate representative positions.</p><p><a href="https://pleiades.stoa.org/" target="_blank" rel="noopener">Pleiades</a> · <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a></p></details><button id="print-map" class="subtle-button">Print this view</button> · <button id="copy-view" class="subtle-button">Copy view link</button></div></aside>
 <section id="map-shell" aria-label="Interactive map of Ancient Greece"><button id="mobile-menu" class="plain" aria-expanded="false">☰ Explore</button><div id="map" aria-label="Map. Use arrow keys to pan and plus or minus to zoom." tabindex="0"></div><div class="map-topline"><strong id="view-title">The Greek world</strong><br><span id="map-status" aria-live="polite"></span></div><div class="map-caption" id="caption">Aegean · mainland Greece · western Asia Minor</div><div class="compass" aria-hidden="true">N<span>↑</span></div><div id="toast" class="hidden" role="status"></div></section></main>
-<dialog id="about"><div class="eyebrow">Ancient Greece · A reading atlas</div><h2>A map that unfolds as you read.</h2><p id="about-count"></p><p>The Home view covers mainland Greece, the Aegean, Crete, and western Asia Minor. Sicily is included as an extra region for the western campaigns.</p><p><strong>Historical scope:</strong> this edition is a broad Classical-period gazetteer. It is not yet a passage-by-passage concordance to Thucydides and the <em>Hellenica</em>. A dated ancient name does not by itself prove a mention in either work.</p><p><strong>Greek names:</strong> attested ancient Greek where available; established spellings from your original city list for its entries. A † means a Greek form is missing. Use “Only places with Greek names” for a fully Greek-labelled place layer.</p><p><strong>Geography:</strong> Natural Earth relief and generalized modern coastlines. Close zoom adds place detail; it does not turn this into a surveyed archaeological plan. Approximate gazetteer positions are shown as hollow dots.</p><p>Data snapshot: 18 September 2026. Pleiades contributors, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>; Natural Earth, public domain; Leaflet, BSD-2-Clause. The supplied reference PDF is not embedded or redistributed.</p><div class="dialog-actions"><button id="about-close" class="plain">Return to the map</button></div></dialog>
+<dialog id="about"><div class="eyebrow">Ancient Greece · A reading atlas</div><h2>A map that unfolds as you read.</h2><p id="about-count"></p><p>The Home view covers mainland Greece, the Aegean, Crete, and western Asia Minor. Sicily is included as an extra region for the western campaigns.</p><p><strong>Historical scope:</strong> this edition is a broad Classical-period gazetteer. It is not yet a passage-by-passage concordance to Thucydides and the <em>Hellenica</em>. A dated ancient name does not by itself prove a mention in either work.</p><p><strong>Greek names:</strong> attested ancient Greek where available; established spellings from your original city list for its entries. A † means a Greek form is missing. Use “Only places with Greek names” for a fully Greek-labelled place layer.</p><p><strong>Geography:</strong> Detailed shaded terrain loads online as you zoom in, with embedded Natural Earth relief as a fallback when offline. Coastlines are generalized modern outlines. Close zoom adds landscape and place detail; it does not turn this into a surveyed archaeological plan. Approximate gazetteer positions are shown as hollow dots.</p><p><strong>Terrain sources:</strong> <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank" rel="noopener">Mapzen Terrain Tiles on AWS</a>, accessed 21 September 2026. Europe terrain produced using Copernicus data and information funded by the European Union — EU-DEM layers; SRTM and GMTED2010 courtesy of the U.S. Geological Survey; ETOPO1 courtesy of NOAA. Elevations are rendered here as shaded relief. <a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md" target="_blank" rel="noopener">Full source credits</a>.</p><p>Data snapshot: 18 September 2026. Pleiades contributors, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>; Natural Earth, public domain; Leaflet, BSD-2-Clause. The supplied reference PDF is not embedded or redistributed.</p><div class="dialog-actions"><button id="about-close" class="plain">Return to the map</button></div></dialog>
 <script>/* @preserve
  * Leaflet 1.9.4, a JS library for interactive maps. https://leafletjs.com
  * (c) 2010-2023 Vladimir Agafonkin, (c) 2010-2011 CloudMade
@@ -715,6 +715,66 @@ map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank
 map.createPane('landBase').style.zIndex=220;map.createPane('reliefPane').style.zIndex=230;map.createPane('coastPane').style.zIndex=240;
 L.geoJSON(LAND,{pane:'landBase',interactive:false,style:{fillColor:'#e9e7d3',fillOpacity:1,color:'#719ca7',weight:.65}}).addTo(map);
 const relief=L.imageOverlay(RELIEF,[[32,12],[44,33]],{pane:'reliefPane',opacity:.94,interactive:false}).addTo(map);
+// Detailed elevation tiles cover the embedded relief only after successful rendering.
+map.createPane('detailPane').style.zIndex=235;
+const terrainCredit='<a href="https://registry.opendata.aws/terrain-tiles/" target="_blank" rel="noopener">Terrain: Mapzen / AWS</a>';
+const terrainPolygons=LAND.geometry.coordinates.map(poly=>poly.map(ring=>ring.map(([lon,lat])=>L.CRS.EPSG3857.latLngToPoint(L.latLng(lat,lon),0))));
+const DetailTerrain=L.GridLayer.extend({
+ createTile(coords,done){
+  const tile=document.createElement('canvas');tile.width=tile.height=256;
+  const img=new Image();img.crossOrigin='anonymous';let finished=false;
+  const finish=(ok)=>{if(finished)return;finished=true;clearTimeout(timer);img.onload=img.onerror=null;tile.dataset.terrain=ok?'detail':'fallback';if(!ok)tile.getContext('2d').clearRect(0,0,256,256);done(null,tile)};
+  const timer=setTimeout(()=>{finish(false);img.src=''},12000);
+  tile.cancelTerrain=()=>{finish(false);img.src=''};
+  img.onerror=()=>finish(false);
+  img.onload=()=>{try{
+   const ctx=tile.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0);
+   const raw=ctx.getImageData(0,0,256,256),h=new Float32Array(65536);
+   for(let i=0;i<h.length;i++){const k=i*4;h[i]=raw.data[k]*256+raw.data[k+1]+raw.data[k+2]/256-32768}
+   const out=ctx.createImageData(256,256),scale=2**coords.z;
+   for(let y=0;y<256;y++){
+    const lat=map.unproject([coords.x*256+128,coords.y*256+y],coords.z).lat;
+    const meters=40075016.686*Math.cos(lat*Math.PI/180)/(256*scale);
+    for(let x=0;x<256;x++){
+     const i=y*256+x,k=i*4;
+     const dx=(h[y*256+Math.min(255,x+1)]-h[y*256+Math.max(0,x-1)])/(meters*(x===0||x===255?1:2));
+     const dy=(h[Math.min(255,y+1)*256+x]-h[Math.max(0,y-1)*256+x])/(meters*(y===0||y===255?1:2));
+     // Northwest light, moderate slope exaggeration, and the atlas's warm palette.
+     const sx=dx*1.6,sy=dy*1.6,light=(.5*sx+.5*sy+.7071)/Math.sqrt(1+sx*sx+sy*sy);
+     const shade=Math.max(.53,Math.min(1.12,.66+.48*light));
+     const height=Math.max(0,Math.min(1,h[i]/2400));
+     out.data[k]=(233-20*height)*shade;out.data[k+1]=(231-24*height)*shade;out.data[k+2]=(211-25*height)*shade;out.data[k+3]=255;
+    }
+   }
+   ctx.putImageData(out,0,0);
+   ctx.globalCompositeOperation='destination-in';ctx.beginPath();
+   for(const poly of terrainPolygons)for(const ring of poly){ring.forEach((p,i)=>{const x=p.x*scale-coords.x*256,y=p.y*scale-coords.y*256;i?ctx.lineTo(x,y):ctx.moveTo(x,y)});ctx.closePath()}
+   ctx.fill('evenodd');ctx.globalCompositeOperation='destination-over';ctx.fillStyle='#b1cfd8';ctx.fillRect(0,0,256,256);ctx.globalCompositeOperation='source-over';
+   finish(true);
+  }catch{finish(false)}};
+  img.src=`https://s3.amazonaws.com/elevation-tiles-prod/terrarium/${coords.z}/${coords.x}/${coords.y}.png`;
+  return tile;
+ }
+});
+const detailedTerrain=new DetailTerrain({pane:'detailPane',minZoom:7,maxZoom:12,maxNativeZoom:12,tileSize:256,noWrap:true,bounds:[[32,12],[44,33]],keepBuffer:1,updateWhenIdle:true,attribution:terrainCredit});
+detailedTerrain.on('tileunload',e=>e.tile.cancelTerrain?.());
+function updateTerrainStatus(){
+ const active=$('relief').checked&&$('detail-terrain').checked;
+ const tiles=Object.values(detailedTerrain._tiles||{}).filter(t=>t.current);
+ const failed=tiles.some(t=>t.el.dataset.terrain==='fallback');
+ $('terrain-status').textContent=!$('relief').checked?'Relief hidden':!active?'Offline relief':map.getZoom()<6.5?'Detailed terrain appears as you zoom in':detailedTerrain.isLoading()?'Loading detailed terrain…':failed?'Some terrain unavailable · offline relief beneath':tiles.some(t=>t.el.dataset.terrain==='detail')?'Detailed terrain':'Offline relief';
+}
+function syncTerrain(){
+ const shaded=$('relief').checked,detail=shaded&&$('detail-terrain').checked;
+ shaded?relief.addTo(map):map.removeLayer(relief);
+ detail?detailedTerrain.addTo(map):map.removeLayer(detailedTerrain);
+ updateTerrainStatus();
+}
+detailedTerrain.on('loading load tileload',updateTerrainStatus);
+map.on('zoomend',updateTerrainStatus);
+window.addEventListener('online',()=>{if(map.hasLayer(detailedTerrain))detailedTerrain.redraw()});
+$('detail-terrain').onchange=syncTerrain;
+syncTerrain();
 L.geoJSON(LAND,{pane:'coastPane',interactive:false,style:{fill:false,color:'#638c94',weight:.6,opacity:.65}}).addTo(map);
 const seaLabels=[['AEGEAN SEA','ΑΙΓΑΙΟΝ ΠΕΛΑΓΟΣ',38.3,25.25],['IONIAN SEA','ΙΟΝΙΟΝ ΠΕΛΑΓΟΣ',37.4,19.8],['SEA OF CRETE','ΚΡΗΤΙΚΟΝ ΠΕΛΑΓΟΣ',35.95,25.2],['PROPONTIS','ΠΡΟΠΟΝΤΙΣ',40.67,28],['THRACE','ΘΡΑΚΗ',41.1,25.3],['THESSALY','ΘΕΣΣΑΛΙΑ',39.62,22.2],['MACEDONIA','ΜΑΚΕΔΟΝΙΑ',40.85,22.65],['LYDIA','ΛΥΔΙΑ',38.45,28.5]];
 const CanvasAtlas=L.Layer.extend({onAdd(m){this._map=m;this.canvas=L.DomUtil.create('canvas','atlas-canvas');m.getPanes().overlayPane.appendChild(this.canvas);m.on('moveend zoomend resize',this.draw,this);m.on('zoomstart',this.hide,this);this.draw()},hide(){this.canvas.style.visibility='hidden'},onRemove(m){m.off('moveend zoomend resize',this.draw,this);m.off('zoomstart',this.hide,this);this.canvas.remove()},draw(){if(!this._map._loaded)return;this.canvas.style.visibility='visible';const size=map.getSize(),ratio=devicePixelRatio||1,c=this.canvas;L.DomUtil.setPosition(c,map.containerPointToLayerPoint([0,0]));c.width=size.x*ratio;c.height=size.y*ratio;c.style.width=size.x+'px';c.style.height=size.y+'px';const ctx=c.getContext('2d');ctx.scale(ratio,ratio);const zoom=map.getZoom(),bounds=map.getBounds(),dense=$('dense').checked;
@@ -762,7 +822,7 @@ function search(){const q=fold($('search').value.trim());$('results').replaceChi
 $('search').addEventListener('input',search);$('search').addEventListener('keydown',e=>{if(e.key==='Enter'&&found.length){e.preventDefault();choose(found[0])}if(e.key==='Escape'){$('search').value='';search()}if(e.key==='ArrowDown'){$('results').querySelector('button')?.focus();e.preventDefault()}});$('clear-search').onclick=()=>{$('search').value='';search();$('search').focus()};
 for(const b of document.querySelectorAll('[data-region]'))b.onclick=()=>home(b.dataset.region);
 for(const id of ['settlement','site','landscape','rough','greek-only','dense'])$(id).onchange=()=>atlas.draw();
-$('relief').onchange=()=>{$('relief').checked?relief.addTo(map):map.removeLayer(relief)};
+$('relief').onchange=syncTerrain;
 $('coverage').textContent=`${PLACES.length.toLocaleString()} places · ${greekCount.toLocaleString()} with Greek names`;
 $('source-summary').textContent=`${PLACES.length.toLocaleString()} mapped places across the wider study area, including Sicily; ${greekCount.toLocaleString()} have Greek display forms. Pleiades snapshot: 18 September 2026.`;
 $('about-count').textContent=`This edition contains ${PLACES.length.toLocaleString()} mapped places, with ${greekCount.toLocaleString()} ancient Greek display names. English mode uses familiar English names for the main cities and scholarly romanizations elsewhere.`;
