@@ -1,0 +1,3205 @@
+{
+  "id": "lesson-5",
+  "number": 5,
+  "title": "An Unexpected Question",
+  "greekTitle": "Ὁ Ξενοφῶν καὶ ὁ Σωκράτης",
+  "scope": "Present active third-person plurals, singular and plural commands, infinitives; review of singular persons and proclitics",
+  "theme": "A blocked lane, a helpful bread seller, and a question that changes Xenophon’s direction.",
+  "module": "Module 1: Growing Up in Classical Athens",
+  "contentRevision": "lesson-5-first-meeting-v1",
+  "banner": {
+    "image": "assets/lesson-5-banner.png",
+    "alt": "Socrates extends his walking stick across a narrow Athenian lane as young Xenophon stops to listen.",
+    "caption": "ἕπου τοίνυν καὶ μάνθανε."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-5-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-5-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Nouns",
+      "items": [
+        {
+          "greek": "ὁ στενωπός",
+          "lemma": "στενωπός",
+          "english": "narrow lane",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "στενωπός, στενωποῦ, ὁ"
+        },
+        {
+          "greek": "ἡ βακτηρία",
+          "lemma": "βακτηρία",
+          "english": "walking stick, staff",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "βακτηρία, βακτηρίας, ἡ"
+        },
+        {
+          "greek": "ὁ ἔμπορος",
+          "lemma": "ἔμπορος",
+          "english": "merchant",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "ἔμπορος, ἐμπόρου, ὁ"
+        },
+        {
+          "greek": "ὁ ἄρτος",
+          "lemma": "ἄρτος",
+          "english": "bread, loaf",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "ἄρτος, ἄρτου, ὁ"
+        },
+        {
+          "greek": "ὁ οἶνος",
+          "lemma": "οἶνος",
+          "english": "wine",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "οἶνος, οἴνου, ὁ"
+        },
+        {
+          "greek": "ἡ ἀγορά",
+          "lemma": "ἀγορά",
+          "english": "marketplace",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "ἀγορά, ἀγορᾶς, ἡ"
+        },
+        {
+          "greek": "ἡ σοφία",
+          "lemma": "σοφία",
+          "english": "wisdom",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "σοφία, σοφίας, ἡ"
+        },
+        {
+          "greek": "ὁ φίλος",
+          "lemma": "φίλος",
+          "english": "friend",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "φίλος, φίλου, ὁ"
+        }
+      ]
+    },
+    {
+      "category": "Verbs",
+      "items": [
+        {
+          "greek": "ἐθέλω",
+          "lemma": "ἐθέλω",
+          "english": "wish, want (+ infinitive)",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σπεύδω",
+          "lemma": "σπεύδω",
+          "english": "hurry",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐκτείνω",
+          "lemma": "ἐκτείνω",
+          "english": "stretch out",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κωλύω",
+          "lemma": "κωλύω",
+          "english": "hinder, block",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μένω",
+          "lemma": "μένω",
+          "english": "stay, wait",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "γιγνώσκω",
+          "lemma": "γιγνώσκω",
+          "english": "know, recognize",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μανθάνω",
+          "lemma": "μανθάνω",
+          "english": "learn",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λαμβάνω",
+          "lemma": "λαμβάνω",
+          "english": "take, get",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Adjective and adverbs",
+      "items": [
+        {
+          "greek": "στενός",
+          "lemma": "στενός",
+          "english": "narrow",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "στενός, στενή, στενόν"
+        },
+        {
+          "greek": "καλός",
+          "lemma": "καλός",
+          "english": "beautiful, fine, noble",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "καλός, καλή, καλόν"
+        },
+        {
+          "greek": "ἀγαθός",
+          "lemma": "ἀγαθός",
+          "english": "good",
+          "status": "required vocabulary",
+          "audioPlaceholder": true,
+          "dictionaryForm": "ἀγαθός, ἀγαθή, ἀγαθόν"
+        },
+        {
+          "greek": "ποῦ",
+          "lemma": "ποῦ",
+          "english": "where?",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐκεῖ",
+          "lemma": "ἐκεῖ",
+          "english": "there",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πάλιν",
+          "lemma": "πάλιν",
+          "english": "again",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οὐκέτι",
+          "lemma": "οὐκέτι",
+          "english": "no longer",
+          "status": "required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review vocabulary",
+      "items": [
+        {
+          "greek": "βαδίζω",
+          "lemma": "βαδίζω",
+          "english": "walk",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λέγω",
+          "lemma": "λέγω",
+          "english": "say, speak",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀκούω",
+          "lemma": "ἀκούω",
+          "english": "hear, listen to",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βλέπω",
+          "lemma": "βλέπω",
+          "english": "see, look at",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φέρω",
+          "lemma": "φέρω",
+          "english": "carry, bring",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἔχω",
+          "lemma": "ἔχω",
+          "english": "have, hold",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ Ξενοφῶν καὶ ὁ Σωκράτης",
+    "showQuickActions": true,
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon knows where to find bread. Socrates has a different question. Read the conversation aloud, noticing when a speaker addresses one person or several.",
+      "An original fictional retelling inspired by Diogenes Laertius, Lives of Eminent Philosophers 2.48. The narrow lane, staff, questions, and final invitation come from the ancient anecdote. The bread seller, companions, and expanded dialogue are invented. This is beginner Greek composed for the course, not a quotation of Xenophon.",
+      "Learn the vocabulary below; the blue glosses supply other words, phrases, and forms. Plural nouns, contracted and middle verbs, irregular names, and τὸ μανθάνειν are supported reading exposure, not new paradigms to memorize."
+    ],
+    "paragraphs": [
+      {
+        "greek": "ὁ Ξενοφῶν διὰ στενωποῦ βαδίζει. ἐθέλει εἰς τὴν ἀγορὰν σπεύδειν· ἄρτον γὰρ ἐθέλει λαμβάνειν. ἐν τῇ ἀγορᾷ οἱ ἔμποροι λέγουσι καὶ οἱ ἄνθρωποι ἀκούουσιν. οἱ μὲν ἄρτον φέρουσιν, οἱ δὲ οἶνον. ὁ δὲ Ξενοφῶν λέγει· «καλὸν μὲν τὸ μανθάνειν, ἀγαθὸς δὲ καὶ ὁ ἄρτος.»",
+        "gloss": [
+          {
+            "greek": "διὰ στενωποῦ",
+            "english": "through a narrow lane; διά + genitive"
+          },
+          {
+            "greek": "εἰς τὴν ἀγοράν",
+            "english": "to the marketplace"
+          },
+          {
+            "greek": "ἐν τῇ ἀγορᾷ",
+            "english": "in the marketplace"
+          },
+          {
+            "greek": "οἱ ἔμποροι",
+            "english": "the merchants; supplied nominative plural"
+          },
+          {
+            "greek": "οἱ ἄνθρωποι",
+            "english": "the people; supplied nominative plural"
+          },
+          {
+            "greek": "οἱ μὲν … οἱ δὲ",
+            "english": "some … others"
+          },
+          {
+            "greek": "τὸ μανθάνειν",
+            "english": "learning; article + infinitive, supported exposure only"
+          }
+        ]
+      },
+      {
+        "greek": "ἐν δὲ τῷ στενωπῷ ὁ Σωκράτης τὸν Ξενοφῶντα βλέπει. τὴν βακτηρίαν ἐκτείνει καὶ κωλύει τὸν νεανίαν. ὁ Ξενοφῶν μένει καὶ θαυμάζει. ἡ μὲν βακτηρία μακρά ἐστιν, ὁ δὲ στενωπὸς στενός. «ὦ φίλε,» λέγει ὁ Ξενοφῶν, «τί ποιεῖς; ἐθέλω βαδίζειν, ἀλλὰ σὺ κωλύεις.»",
+        "gloss": [
+          {
+            "greek": "τὸν Ξενοφῶντα",
+            "english": "Xenophon; accusative of Ξενοφῶν"
+          },
+          {
+            "greek": "τὸν νεανίαν",
+            "english": "the young man"
+          },
+          {
+            "greek": "θαυμάζει",
+            "english": "is surprised"
+          },
+          {
+            "greek": "μακρά",
+            "english": "long; feminine singular"
+          },
+          {
+            "greek": "τί ποιεῖς;",
+            "english": "what are you doing?"
+          },
+          {
+            "greek": "σύ",
+            "english": "you; emphatic subject pronoun"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ δὲ Σωκράτης λέγει· «μὴ σπεῦδε· μένε καὶ ἄκουε. ποῦ οἱ ἄνθρωποι ἄρτον λαμβάνουσιν;» ὁ Ξενοφῶν λέγει· «ἐν τῇ ἀγορᾷ. ἐκεῖ ἡ ἀρτοπῶλις ἄρτον παρασκευάζει. καλὸν ἄρτον ἔχει.» ὁ δὲ Σωκράτης πάλιν λέγει· «ποῦ δὲ οἶνον; ποῦ δὲ ὑποδήματα;» ὁ Ξενοφῶν ταχέως λέγει· «καὶ ταῦτα ἐν τῇ ἀγορᾷ· ἐγὼ γὰρ τὴν ἀγορὰν γιγνώσκω.»",
+        "gloss": [
+          {
+            "greek": "ἡ ἀρτοπῶλις",
+            "english": "the female bread seller"
+          },
+          {
+            "greek": "παρασκευάζει",
+            "english": "prepares"
+          },
+          {
+            "greek": "ὑποδήματα",
+            "english": "shoes; supplied accusative plural"
+          },
+          {
+            "greek": "ταχέως",
+            "english": "quickly"
+          },
+          {
+            "greek": "καὶ ταῦτα",
+            "english": "those things too"
+          },
+          {
+            "greek": "ἐγώ",
+            "english": "I; emphatic subject pronoun"
+          },
+          {
+            "greek": "ἐν τῇ ἀγορᾷ",
+            "english": "in the marketplace"
+          },
+          {
+            "greek": "οἱ ἄνθρωποι",
+            "english": "the people; supplied nominative plural"
+          }
+        ]
+      },
+      {
+        "greek": "ἡ δὲ ἀρτοπῶλις παρὰ τῇ θύρᾳ ἀκούει καὶ λέγει· «καλῶς λέγεις, ὦ νεανία· δεῦρο, λάμβανε ἄρτον.» ὁ δὲ Σωκράτης οὐ τὴν βακτηρίαν καταβάλλει, ἀλλὰ πάλιν λέγει· «ποῦ δὲ καλοὶ καὶ ἀγαθοὶ γίγνονται οἱ ἄνθρωποι;» ὁ Ξενοφῶν οὐκέτι ταχέως λέγει. βλέπει μὲν τὴν ἀγορὰν, βλέπει δὲ τὴν βακτηρίαν· ἔπειτα σιγᾷ.",
+        "gloss": [
+          {
+            "greek": "ἡ ἀρτοπῶλις",
+            "english": "the female bread seller"
+          },
+          {
+            "greek": "παρὰ τῇ θύρᾳ",
+            "english": "beside the door"
+          },
+          {
+            "greek": "καλῶς",
+            "english": "well"
+          },
+          {
+            "greek": "ὦ νεανία",
+            "english": "young man!; vocative"
+          },
+          {
+            "greek": "δεῦρο",
+            "english": "come here!"
+          },
+          {
+            "greek": "καταβάλλει",
+            "english": "lowers, puts down"
+          },
+          {
+            "greek": "καλοὶ καὶ ἀγαθοὶ γίγνονται οἱ ἄνθρωποι",
+            "english": "people become good and honorable; supplied plural adjectives and middle verb"
+          },
+          {
+            "greek": "ταχέως",
+            "english": "quickly"
+          },
+          {
+            "greek": "μέν … δέ",
+            "english": "here: first … then"
+          },
+          {
+            "greek": "ἔπειτα",
+            "english": "then"
+          },
+          {
+            "greek": "σιγᾷ",
+            "english": "is silent; a contracted verb, supplied for reading"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Σωκράτης λέγει· «ἄρτον μὲν γιγνώσκεις, οἶνον δὲ γιγνώσκεις· σοφίαν δὲ ζητεῖς;» ὁ Ξενοφῶν λέγει· «ἐθέλω μανθάνειν, ὦ Σώκρατες, ἀλλὰ νῦν οὐκ οἶδα.» ἡ δὲ ἀρτοπῶλις λέγει· «ἄρτον ἔχω· σοφίαν δὲ οὐκ ἔχω. τὸν ἄρτον λάμβανε, τοῦ δὲ Σωκράτους ἄκουε.» ὁ Σωκράτης μειδιᾷ.",
+        "gloss": [
+          {
+            "greek": "ζητεῖς",
+            "english": "you seek; a contracted verb, supplied for reading"
+          },
+          {
+            "greek": "ὦ Σώκρατες",
+            "english": "Socrates!; vocative"
+          },
+          {
+            "greek": "νῦν",
+            "english": "now, at present"
+          },
+          {
+            "greek": "οὐκ οἶδα",
+            "english": "I do not know; learn as a supplied expression"
+          },
+          {
+            "greek": "ἡ ἀρτοπῶλις",
+            "english": "the female bread seller"
+          },
+          {
+            "greek": "τοῦ Σωκράτους",
+            "english": "to Socrates; genitive of the person listened to after ἀκούω"
+          },
+          {
+            "greek": "μειδιᾷ",
+            "english": "smiles; supplied contracted verb"
+          }
+        ]
+      },
+      {
+        "greek": "οἱ δὲ φίλοι τοῦ Σωκράτους προσέρχονται καὶ μένουσιν. ὁ Σωκράτης λέγει· «ἀκούετε, ὦ φίλοι· μὴ σπεύδετε. ὁ νεανίας ἐθέλει μανθάνειν.» οἱ φίλοι τὸν Ξενοφῶντα βλέπουσι καὶ λέγουσιν· «φέρε τὸν ἄρτον καὶ βάδιζε.» ὁ δὲ Ξενοφῶν λέγει· «ἆρα οἱ φίλοι σοφίαν ἐθέλουσι μανθάνειν ἢ ἄρτον ἐσθίειν;»",
+        "gloss": [
+          {
+            "greek": "οἱ φίλοι",
+            "english": "the friends; supplied nominative plural"
+          },
+          {
+            "greek": "τοῦ Σωκράτους",
+            "english": "of Socrates; genitive"
+          },
+          {
+            "greek": "προσέρχονται",
+            "english": "approach; supplied middle-form verb"
+          },
+          {
+            "greek": "ὦ φίλοι",
+            "english": "friends!; supplied vocative plural"
+          },
+          {
+            "greek": "ὁ νεανίας",
+            "english": "the young man"
+          },
+          {
+            "greek": "τὸν Ξενοφῶντα",
+            "english": "Xenophon; accusative"
+          },
+          {
+            "greek": "ἆρα … ἢ …;",
+            "english": "introduces a question with alternatives: … or …?"
+          },
+          {
+            "greek": "ἐσθίειν",
+            "english": "to eat"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Σωκράτης τὴν βακτηρίαν καταβάλλει καὶ λέγει· «ἕπου τοίνυν καὶ μάνθανε.» ὁ δὲ Ξενοφῶν λαμβάνει τὸν ἄρτον καὶ σὺν τῷ Σωκράτει βαδίζει. οἱ φίλοι βαδίζουσι καὶ διαλέγονται. ἡ δὲ ἀρτοπῶλις λέγει· «μανθάνετε, ὦ φίλοι· ἀλλὰ καὶ τὸν ἄρτον φέρετε.» ὁ Ξενοφῶν τὸν ἄρτον φέρει· ἤδη δὲ ἐθέλει οὐ μόνον ἐσθίειν ἀλλὰ καὶ μανθάνειν.",
+        "gloss": [
+          {
+            "greek": "καταβάλλει",
+            "english": "lowers, puts down"
+          },
+          {
+            "greek": "ἕπου τοίνυν",
+            "english": "then follow [me]; ἕπου is an irregular middle command, supplied only"
+          },
+          {
+            "greek": "σὺν τῷ Σωκράτει",
+            "english": "with Socrates; σύν + dative"
+          },
+          {
+            "greek": "οἱ φίλοι",
+            "english": "the friends; supplied nominative plural"
+          },
+          {
+            "greek": "διαλέγονται",
+            "english": "converse; supplied middle-form verb"
+          },
+          {
+            "greek": "ἡ ἀρτοπῶλις",
+            "english": "the female bread seller"
+          },
+          {
+            "greek": "ὦ φίλοι",
+            "english": "friends!; supplied vocative plural"
+          },
+          {
+            "greek": "ἤδη",
+            "english": "now, already"
+          },
+          {
+            "greek": "οὐ μόνον … ἀλλὰ καὶ",
+            "english": "not only … but also"
+          },
+          {
+            "greek": "ἐσθίειν",
+            "english": "to eat"
+          }
+        ]
+      }
+    ],
+    "translation": "Xenophon walks through a narrow lane. He wants to hurry to the marketplace, for he wants to get bread. In the marketplace the merchants speak and the people listen. Some carry bread, others wine. Xenophon says, “Learning is fine, but bread is good too.”\n\nIn the lane Socrates sees Xenophon. He stretches out his staff and blocks the young man. Xenophon stops and is surprised. The staff is long, and the lane is narrow. “My friend,” says Xenophon, “what are you doing? I want to walk, but you are blocking the way.”\n\nSocrates says, “Do not hurry. Stay and listen. Where do people get bread?” Xenophon says, “In the marketplace. The bread seller prepares bread there. She has good bread.” Socrates asks again, “And where do they get wine? And shoes?” Xenophon replies quickly, “Those too are in the marketplace, for I know the marketplace.”\n\nThe bread seller listens beside the door and says, “You speak well, young man. Come here; take some bread.” But Socrates does not lower his staff. Instead he asks again, “And where do people become good and honorable?” Xenophon no longer replies quickly. He looks at the marketplace, then at the staff; then he falls silent.\n\nSocrates says, “You know bread, and you know wine; but do you seek wisdom?” Xenophon says, “I want to learn, Socrates, but at present I do not know.” The bread seller says, “I have bread; I do not have wisdom. Take the bread, and listen to Socrates.” Socrates smiles.\n\nSocrates’ friends approach and stop. Socrates says, “Listen, friends; do not hurry. The young man wants to learn.” The friends look at Xenophon and say, “Bring the bread and walk along.” Xenophon says, “Do the friends want to learn wisdom or eat bread?”\n\nSocrates lowers his staff and says, “Then follow me and learn.” Xenophon takes the bread and walks with Socrates. The friends walk and converse. The bread seller says, “Learn, friends—but take the bread along too.” Xenophon carries the bread; now he wants not only to eat but also to learn.",
+    "notesMarkdown": "Fictional course-authored adaptation of Diogenes Laertius 2.48; not Xenophon’s own prose. The exact invitation ἕπου τοίνυν καὶ μάνθανε is retained.",
+    "sourceCitation": "Diogenes Laertius, Lives of Eminent Philosophers 2.48. https://www.hs-augsburg.de/~harsch/graeca/Chronologia/S_ante04/Xenophon/xen_diog.html"
+  },
+  "wordStudy": {
+    "label": "Word Study — One Verb, Several Jobs",
+    "blocks": [
+      {
+        "title": "From μανθάνω to μάνθανε",
+        "practiceTopic": "word-study",
+        "body": [
+          "The dictionary gives μανθάνω, I learn. Keep its present stem μανθαν- in view as the ending changes: μανθάνει, μανθάνουσιν, μάνθανε, μανθάνειν. These are forms of one verb, not four separate vocabulary words.",
+          "A noun entry supplies its gender and genitive: ἡ βακτηρία → βακτηρία, βακτηρίας, ἡ. Learn this word for the story; a full survey of first-declension variants comes later.",
+          "Learn both meaning and construction: ἐθέλω is regularly followed here by an infinitive. Say the pair aloud: ἐθέλω μανθάνειν."
+        ],
+        "display": [
+          {
+            "greek": "μανθάνει",
+            "english": "he / she learns: statement"
+          },
+          {
+            "greek": "μανθάνουσιν",
+            "english": "they learn: statement"
+          },
+          {
+            "greek": "μάνθανε",
+            "english": "learn!: command to one"
+          },
+          {
+            "greek": "μανθάνειν",
+            "english": "to learn: infinitive"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Use the changing speakers and listeners to read verb endings. Review singular forms first, then move to groups, commands, and wanting to do something.",
+    "objectives": [
+      "Recognize a present stem across indicative, imperative, and infinitive forms.",
+      "Identify first-, second-, and third-person singular present active forms.",
+      "Recognize and form regular third-person plural presents in -ουσι(ν), including movable nu.",
+      "Give regular present active commands to one or several people and negate them with μή.",
+      "Use a regular present active infinitive after ἐθέλω without changing it for person or number.",
+      "Recognize proclitics and choose οὐ, οὐκ, or οὐχ in supplied phrases.",
+      "Apply familiar accent rules to the new verb forms and distinguish required grammar from glossed exposure."
+    ],
+    "sections": [
+      {
+        "id": "singular-review",
+        "title": "1. Who Is Speaking? Singular Verb Review",
+        "practiceTopic": "singular-review",
+        "body": [
+          "An indicative verb makes a statement or asks a question. In the present active of regular -ω verbs, -ω marks I, -εις marks you (one person), and -ει marks he, she, or it. Greek often leaves out a subject pronoun because the ending supplies the person.",
+          "In the dialogue, λέγω means I say, λέγεις means you say, and λέγει means he or she says. The bread seller speaks too: her verb has the same third-person ending as Socrates’ verb. Gender does not change this ending.",
+          "Present forms can be translated I carry, I am carrying, or I do carry as the context requires. Identify the ending before guessing the speaker."
+        ],
+        "table": {
+          "title": "Who Is Speaking? Singular Verb Review",
+          "headers": [
+            "Greek",
+            "Person",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "φέρω",
+              "First singular",
+              "I carry"
+            ],
+            [
+              "φέρεις",
+              "Second singular",
+              "You carry"
+            ],
+            [
+              "φέρει",
+              "Third singular",
+              "He / she / it carries"
+            ]
+          ],
+          "greekColumns": [
+            0
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "In γιγνώσκεις, who knows?",
+            "answer": "You, one person: -εις is second-person singular."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ἡ ἀρτοπῶλις λέγει.",
+            "english": "The bread seller speaks. The noun is supplied; λέγει has a third-person singular ending."
+          }
+        ]
+      },
+      {
+        "id": "third-plural",
+        "title": "2. From One Person to Several: -ουσι(ν)",
+        "practiceTopic": "third-plural",
+        "body": [
+          "The third-person plural present active ending is -ουσι(ν): they. Compare λέγει (he or she speaks) with λέγουσι or λέγουσιν (they speak). Add the ending to the present stem: λεγ- + ουσι → λέγουσι.",
+          "The final ν is called movable nu. It is commonly used before a vowel or at a pause; it can also occur before a consonant. Both forms have the same meaning and person. Do not confuse movable nu with a new tense or a noun ending.",
+          "The reading supplies οἱ φίλοι, οἱ ἔμποροι, and οἱ ἄνθρωποι as plural subjects. Recognize these groups for comprehension; full plural noun and article paradigms belong to Lesson 6.",
+          "Keep the regular verb’s recessive accent as far back as permitted. Compare λαμβάνει with λαμβάνουσιν and μανθάνει with μανθάνουσιν."
+        ],
+        "table": {
+          "title": "From One Person to Several: -ουσι(ν)",
+          "headers": [
+            "Greek",
+            "Contrast",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "λέγει → λέγουσι(ν)",
+              "one speaker → several",
+              "speaks → speak"
+            ],
+            [
+              "φέρει → φέρουσι(ν)",
+              "one carrier → several",
+              "carries → carry"
+            ],
+            [
+              "μένει → μένουσι(ν)",
+              "one person → several",
+              "stays → stay"
+            ],
+            [
+              "λαμβάνει → λαμβάνουσι(ν)",
+              "one person → several",
+              "takes → take"
+            ]
+          ],
+          "greekColumns": [
+            0
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Does the final ν in λέγουσιν change the subject?",
+            "answer": "No. Both λέγουσι and λέγουσιν mean they speak."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "οἱ φίλοι τὸν Ξενοφῶντα βλέπουσιν.",
+            "english": "The friends look at Xenophon. The plural subject goes with βλέπουσιν."
+          }
+        ]
+      },
+      {
+        "id": "commands",
+        "title": "3. Stay and Listen: Commands to One or More",
+        "practiceTopic": "commands",
+        "body": [
+          "An imperative tells someone to do something. For the regular present active, use stem + -ε to address one person, and stem + -ετε to address more than one. There is normally no expressed subject.",
+          "Socrates says μένε καὶ ἄκουε to Xenophon: stay and listen. He says ἀκούετε to his friends: listen, all of you. A vocative may identify the audience: ὦ φίλοι is supplied as friends!.",
+          "Use μή with these commands to say do not: μὴ σπεῦδε to one person; μὴ σπεύδετε to several. A statement normally uses οὐ instead: οὐ σπεύδει, he does not hurry.",
+          "The -ετε form can also be an indicative meaning you (plural) do something. Here the direct appeal to the listeners makes it a command; the complete indicative paradigm comes in Lesson 7.",
+          "The source’s ἕπου (follow!) is a middle imperative. Recognize the supplied expression here; do not build a middle-voice paradigm yet. Regular μάνθανε is our model for the second half of the invitation."
+        ],
+        "table": {
+          "title": "Stay and Listen: Commands to One or More",
+          "headers": [
+            "Greek",
+            "Audience",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "μένε / μένετε",
+              "one / several",
+              "Stay!"
+            ],
+            [
+              "ἄκουε / ἀκούετε",
+              "one / several",
+              "Listen!"
+            ],
+            [
+              "λάμβανε / λαμβάνετε",
+              "one / several",
+              "Take!"
+            ],
+            [
+              "μάνθανε / μανθάνετε",
+              "one / several",
+              "Learn!"
+            ],
+            [
+              "μὴ σπεῦδε / μὴ σπεύδετε",
+              "one / several",
+              "Do not hurry!"
+            ]
+          ],
+          "greekColumns": [
+            0
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Why does ἄκουε change to ἀκούετε?",
+            "answer": "The ending changes from singular -ε to plural -ετε; the recessive accent also moves as far back as the longer form permits."
+          }
+        ]
+      },
+      {
+        "id": "infinitives",
+        "title": "4. Wanting to Learn: Present Active Infinitives",
+        "practiceTopic": "infinitives",
+        "body": [
+          "An infinitive names an action without marking a person or number. In these regular verbs its ending is -ειν: μανθάνειν, to learn; φέρειν, to carry. It is not an imperative.",
+          "After ἐθέλω, the infinitive completes the idea: ἐθέλω μανθάνειν means I want to learn. Change the finite verb for the subject; leave the infinitive unchanged: ἐθέλει μανθάνειν, he or she wants to learn; ἐθέλουσι μανθάνειν, they want to learn.",
+          "In these examples the person wanting and the person doing the infinitive’s action are the same. We are not yet studying infinitives with a separate accusative subject or complex indirect speech.",
+          "The -ειν ending has a long diphthong. Compare μάνθανε, learn!, with μανθάνειν, to learn: the accent cannot remain on the antepenult before the long final syllable.",
+          "τὸ μανθάνειν in the first paragraph means learning. That article-plus-infinitive construction is supplied exposure only, not an additional assessed objective."
+        ],
+        "table": {
+          "title": "Wanting to Learn: Present Active Infinitives",
+          "headers": [
+            "Greek",
+            "Construction",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ἐθέλω μανθάνειν",
+              "I want + infinitive",
+              "I want to learn"
+            ],
+            [
+              "ἐθέλεις μανθάνειν",
+              "you want + infinitive",
+              "You want to learn"
+            ],
+            [
+              "ἐθέλει μανθάνειν",
+              "he / she wants + infinitive",
+              "He / she wants to learn"
+            ],
+            [
+              "ἐθέλουσι μανθάνειν",
+              "they want + infinitive",
+              "They want to learn"
+            ],
+            [
+              "μάνθανε / μανθάνειν",
+              "command / infinitive",
+              "Learn! / to learn"
+            ]
+          ],
+          "greekColumns": [
+            0
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Which word changes in “I want to learn” → “they want to learn”?",
+            "answer": "ἐθέλω changes to ἐθέλουσι(ν). μανθάνειν stays unchanged."
+          }
+        ]
+      },
+      {
+        "id": "proclitics",
+        "title": "5. Small Words: Proclitics and Negatives",
+        "practiceTopic": "proclitics",
+        "body": [
+          "A proclitic normally has no accent of its own and leans forward onto the following word. Review these ten: ὁ, ἡ, οἱ, αἱ; ἐν, εἰς, ἐκ (ἐξ); εἰ, ὡς; οὐ (οὐκ, οὐχ). The unfamiliar items are recognition examples, not a requirement to use new clause constructions.",
+          "Only the four article forms listed above are proclitic. Do not remove accents from other forms: τό, τόν, τῷ, and τῆς retain their own accents.",
+          "Use οὐ before a consonant, οὐκ before a vowel with smooth breathing, and οὐχ before a vowel with rough breathing: οὐ λέγει, οὐκ ἀκούει, οὐχ ὁ φίλος. At the end of a clause or when standing alone, the negative can be accented οὔ.",
+          "μή, the negative used with our commands, is not a proclitic. Its acute becomes grave before another word in continuous text: μὴ σπεῦδε. This reviews the accent rule from Lesson 4.",
+          "Keep breathing marks: ὁ and οἱ have rough breathing, while οὐ and ἐν have smooth breathing. Lack of an accent does not mean lack of a breathing mark."
+        ],
+        "table": {
+          "title": "Small Words: Proclitics and Negatives",
+          "headers": [
+            "Greek",
+            "Use",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ὁ φίλος",
+              "proclitic article",
+              "the friend"
+            ],
+            [
+              "ἐν τῷ στενωπῷ",
+              "proclitic preposition",
+              "in the lane"
+            ],
+            [
+              "οὐ λέγει",
+              "negative before consonant",
+              "he / she does not speak"
+            ],
+            [
+              "οὐκ ἀκούει",
+              "negative before smooth-breathed vowel",
+              "he / she does not listen"
+            ],
+            [
+              "οὐχ ὁ φίλος",
+              "negative before rough breathing",
+              "not the friend"
+            ],
+            [
+              "μὴ σπεῦδε",
+              "negative command; μή has an accent",
+              "Do not hurry!"
+            ]
+          ],
+          "greekColumns": [
+            0
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Why is there no accent on ὁ but an accent on τόν?",
+            "answer": "ὁ is one of the four proclitic article forms; τόν is not."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Statement: λέγει, he / she speaks; λέγουσι(ν), they speak.",
+        "Command: λέγε, speak! (one); λέγετε, speak! (several).",
+        "Infinitive: λέγειν, to speak; ἐθέλω λέγειν, I want to speak.",
+        "Negative statement: οὐ λέγει. Negative command: μὴ λέγε.",
+        "Full plural noun paradigms and middle/contracted verb paradigms are for later lessons."
+      ]
+    }
+  },
+  "activities": {
+    "topic-practice": {
+      "title": "Lesson 5: Practice This Topic",
+      "questions": [
+        {
+          "id": "lesson-5-word-study-1",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "Which dictionary verb gives μανθάνουσιν?",
+          "choices": [
+            {
+              "text": "μανθάνω",
+              "correct": true,
+              "feedback": "Correct. μανθαν- is the present stem of μανθάνω."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "Review: μανθαν- is the present stem of μανθάνω."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: μανθαν- is the present stem of μανθάνω."
+            },
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: μανθαν- is the present stem of μανθάνω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-word-study-2",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "Which form belongs to the same verb as φέρει?",
+          "choices": [
+            {
+              "text": "μένειν",
+              "correct": false,
+              "feedback": "Review: φερ- is retained in φέρειν."
+            },
+            {
+              "text": "λέγειν",
+              "correct": false,
+              "feedback": "Review: φερ- is retained in φέρειν."
+            },
+            {
+              "text": "σπεύδειν",
+              "correct": false,
+              "feedback": "Review: φερ- is retained in φέρειν."
+            },
+            {
+              "text": "φέρειν",
+              "correct": true,
+              "feedback": "Correct. φερ- is retained in φέρειν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-word-study-3",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "What does the article in βακτηρία, βακτηρίας, ἡ tell you?",
+          "choices": [
+            {
+              "text": "The word is a verb.",
+              "correct": false,
+              "feedback": "Review: The dictionary article identifies grammatical gender."
+            },
+            {
+              "text": "The word is a command.",
+              "correct": false,
+              "feedback": "Review: The dictionary article identifies grammatical gender."
+            },
+            {
+              "text": "The noun is feminine.",
+              "correct": true,
+              "feedback": "Correct. The dictionary article identifies grammatical gender."
+            },
+            {
+              "text": "The noun is plural.",
+              "correct": false,
+              "feedback": "Review: The dictionary article identifies grammatical gender."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-word-study-4",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "Which expression pairs wanting with an action?",
+          "choices": [
+            {
+              "text": "ἐθέλω μανθάνουσιν",
+              "correct": false,
+              "feedback": "Review: ἐθέλω takes an infinitive in this construction."
+            },
+            {
+              "text": "ἐθέλω μανθάνειν",
+              "correct": true,
+              "feedback": "Correct. ἐθέλω takes an infinitive in this construction."
+            },
+            {
+              "text": "ἐθέλω μάνθανε",
+              "correct": false,
+              "feedback": "Review: ἐθέλω takes an infinitive in this construction."
+            },
+            {
+              "text": "ἐθέλω μανθάνει",
+              "correct": false,
+              "feedback": "Review: ἐθέλω takes an infinitive in this construction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-1",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Translate φέρω.",
+          "choices": [
+            {
+              "text": "I carry.",
+              "correct": true,
+              "feedback": "Correct. -ω marks first-person singular."
+            },
+            {
+              "text": "You carry.",
+              "correct": false,
+              "feedback": "Review: -ω marks first-person singular."
+            },
+            {
+              "text": "She carries.",
+              "correct": false,
+              "feedback": "Review: -ω marks first-person singular."
+            },
+            {
+              "text": "They carry.",
+              "correct": false,
+              "feedback": "Review: -ω marks first-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-2",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Who speaks in λέγεις?",
+          "choices": [
+            {
+              "text": "I.",
+              "correct": false,
+              "feedback": "Review: -εις marks second-person singular."
+            },
+            {
+              "text": "He or she.",
+              "correct": false,
+              "feedback": "Review: -εις marks second-person singular."
+            },
+            {
+              "text": "They.",
+              "correct": false,
+              "feedback": "Review: -εις marks second-person singular."
+            },
+            {
+              "text": "You, one person.",
+              "correct": true,
+              "feedback": "Correct. -εις marks second-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-3",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Complete: ἡ ἀρτοπῶλις ___ (speaks).",
+          "choices": [
+            {
+              "text": "λέγεις",
+              "correct": false,
+              "feedback": "Review: A single bread seller takes the third-person singular."
+            },
+            {
+              "text": "λέγουσιν",
+              "correct": false,
+              "feedback": "Review: A single bread seller takes the third-person singular."
+            },
+            {
+              "text": "λέγει",
+              "correct": true,
+              "feedback": "Correct. A single bread seller takes the third-person singular."
+            },
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: A single bread seller takes the third-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-4",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Why can λέγω stand without ἐγώ?",
+          "choices": [
+            {
+              "text": "All verbs have an implied we.",
+              "correct": false,
+              "feedback": "Review: The personal ending supplies the subject person."
+            },
+            {
+              "text": "The ending already marks I.",
+              "correct": true,
+              "feedback": "Correct. The personal ending supplies the subject person."
+            },
+            {
+              "text": "Greek has no pronouns.",
+              "correct": false,
+              "feedback": "Review: The personal ending supplies the subject person."
+            },
+            {
+              "text": "λέγω means they speak.",
+              "correct": false,
+              "feedback": "Review: The personal ending supplies the subject person."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-1",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Change λέγει to “they speak.”",
+          "choices": [
+            {
+              "text": "λέγουσιν",
+              "correct": true,
+              "feedback": "Correct. The third-person plural ending is -ουσι(ν)."
+            },
+            {
+              "text": "λέγεις",
+              "correct": false,
+              "feedback": "Review: The third-person plural ending is -ουσι(ν)."
+            },
+            {
+              "text": "λέγε",
+              "correct": false,
+              "feedback": "Review: The third-person plural ending is -ουσι(ν)."
+            },
+            {
+              "text": "λέγειν",
+              "correct": false,
+              "feedback": "Review: The third-person plural ending is -ουσι(ν)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-2",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Translate μένουσιν.",
+          "choices": [
+            {
+              "text": "He stays.",
+              "correct": false,
+              "feedback": "Review: -ουσιν marks third-person plural."
+            },
+            {
+              "text": "Stay!, to one",
+              "correct": false,
+              "feedback": "Review: -ουσιν marks third-person plural."
+            },
+            {
+              "text": "To stay.",
+              "correct": false,
+              "feedback": "Review: -ουσιν marks third-person plural."
+            },
+            {
+              "text": "They stay.",
+              "correct": true,
+              "feedback": "Correct. -ουσιν marks third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-3",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Does φέρουσιν mean something different from φέρουσι?",
+          "choices": [
+            {
+              "text": "Yes; one means I carry.",
+              "correct": false,
+              "feedback": "Review: The optional final ν does not change meaning."
+            },
+            {
+              "text": "Yes; one is a command.",
+              "correct": false,
+              "feedback": "Review: The optional final ν does not change meaning."
+            },
+            {
+              "text": "No; both mean they carry.",
+              "correct": true,
+              "feedback": "Correct. The optional final ν does not change meaning."
+            },
+            {
+              "text": "Yes; only one is present.",
+              "correct": false,
+              "feedback": "Review: The optional final ν does not change meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-4",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Complete: οἱ φίλοι ___ (look).",
+          "choices": [
+            {
+              "text": "βλέπω",
+              "correct": false,
+              "feedback": "Review: The supplied subject means the friends, so use a plural verb."
+            },
+            {
+              "text": "βλέπουσιν",
+              "correct": true,
+              "feedback": "Correct. The supplied subject means the friends, so use a plural verb."
+            },
+            {
+              "text": "βλέπει",
+              "correct": false,
+              "feedback": "Review: The supplied subject means the friends, so use a plural verb."
+            },
+            {
+              "text": "βλέπεις",
+              "correct": false,
+              "feedback": "Review: The supplied subject means the friends, so use a plural verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-1",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Tell one person: “Stay!”",
+          "choices": [
+            {
+              "text": "μένε",
+              "correct": true,
+              "feedback": "Correct. A singular present active command ends in -ε."
+            },
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "Review: A singular present active command ends in -ε."
+            },
+            {
+              "text": "μένουσιν",
+              "correct": false,
+              "feedback": "Review: A singular present active command ends in -ε."
+            },
+            {
+              "text": "μένειν",
+              "correct": false,
+              "feedback": "Review: A singular present active command ends in -ε."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-2",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Tell several people: “Listen!”",
+          "choices": [
+            {
+              "text": "ἄκουε",
+              "correct": false,
+              "feedback": "Review: The plural command ends in -ετε."
+            },
+            {
+              "text": "ἀκούει",
+              "correct": false,
+              "feedback": "Review: The plural command ends in -ετε."
+            },
+            {
+              "text": "ἀκούειν",
+              "correct": false,
+              "feedback": "Review: The plural command ends in -ετε."
+            },
+            {
+              "text": "ἀκούετε",
+              "correct": true,
+              "feedback": "Correct. The plural command ends in -ετε."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-3",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Tell one person: “Do not hurry!”",
+          "choices": [
+            {
+              "text": "μὴ σπεύδει",
+              "correct": false,
+              "feedback": "Review: Use μή plus a singular imperative."
+            },
+            {
+              "text": "οὐ σπεύδουσιν",
+              "correct": false,
+              "feedback": "Review: Use μή plus a singular imperative."
+            },
+            {
+              "text": "μὴ σπεῦδε",
+              "correct": true,
+              "feedback": "Correct. Use μή plus a singular imperative."
+            },
+            {
+              "text": "οὐ σπεῦδε",
+              "correct": false,
+              "feedback": "Review: Use μή plus a singular imperative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-4",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Which form addresses several learners?",
+          "choices": [
+            {
+              "text": "μανθάνει",
+              "correct": false,
+              "feedback": "Review: -ετε is the plural imperative ending in this appeal."
+            },
+            {
+              "text": "μανθάνετε",
+              "correct": true,
+              "feedback": "Correct. -ετε is the plural imperative ending in this appeal."
+            },
+            {
+              "text": "μάνθανε",
+              "correct": false,
+              "feedback": "Review: -ετε is the plural imperative ending in this appeal."
+            },
+            {
+              "text": "μανθάνειν",
+              "correct": false,
+              "feedback": "Review: -ετε is the plural imperative ending in this appeal."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-1",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Choose “to learn.”",
+          "choices": [
+            {
+              "text": "μανθάνειν",
+              "correct": true,
+              "feedback": "Correct. The regular infinitive ends in -ειν."
+            },
+            {
+              "text": "μάνθανε",
+              "correct": false,
+              "feedback": "Review: The regular infinitive ends in -ειν."
+            },
+            {
+              "text": "μανθάνει",
+              "correct": false,
+              "feedback": "Review: The regular infinitive ends in -ειν."
+            },
+            {
+              "text": "μανθάνουσιν",
+              "correct": false,
+              "feedback": "Review: The regular infinitive ends in -ειν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-2",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Complete “I want to carry”: ἐθέλω ___.",
+          "choices": [
+            {
+              "text": "φέρε",
+              "correct": false,
+              "feedback": "Review: An infinitive completes ἐθέλω here."
+            },
+            {
+              "text": "φέρει",
+              "correct": false,
+              "feedback": "Review: An infinitive completes ἐθέλω here."
+            },
+            {
+              "text": "φέρουσιν",
+              "correct": false,
+              "feedback": "Review: An infinitive completes ἐθέλω here."
+            },
+            {
+              "text": "φέρειν",
+              "correct": true,
+              "feedback": "Correct. An infinitive completes ἐθέλω here."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-3",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Translate ἐθέλει μανθάνειν.",
+          "choices": [
+            {
+              "text": "Learn!, to one",
+              "correct": false,
+              "feedback": "Review: ἐθέλει supplies the subject person; μανθάνειν names the action."
+            },
+            {
+              "text": "He or she teaches.",
+              "correct": false,
+              "feedback": "Review: ἐθέλει supplies the subject person; μανθάνειν names the action."
+            },
+            {
+              "text": "He or she wants to learn.",
+              "correct": true,
+              "feedback": "Correct. ἐθέλει supplies the subject person; μανθάνειν names the action."
+            },
+            {
+              "text": "They want to learn.",
+              "correct": false,
+              "feedback": "Review: ἐθέλει supplies the subject person; μανθάνειν names the action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-4",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Why does μανθάνειν stay unchanged after ἐθέλουσιν?",
+          "choices": [
+            {
+              "text": "It is a noun in the dative.",
+              "correct": false,
+              "feedback": "Review: The infinitive does not inflect for person and number."
+            },
+            {
+              "text": "It has no person or number ending.",
+              "correct": true,
+              "feedback": "Correct. The infinitive does not inflect for person and number."
+            },
+            {
+              "text": "It is always plural.",
+              "correct": false,
+              "feedback": "Review: The infinitive does not inflect for person and number."
+            },
+            {
+              "text": "It is a command.",
+              "correct": false,
+              "feedback": "Review: The infinitive does not inflect for person and number."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-1",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Which article is normally unaccented?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": true,
+              "feedback": "Correct. ὁ is a proclitic."
+            },
+            {
+              "text": "τόν",
+              "correct": false,
+              "feedback": "Review: ὁ is a proclitic."
+            },
+            {
+              "text": "τῷ",
+              "correct": false,
+              "feedback": "Review: ὁ is a proclitic."
+            },
+            {
+              "text": "τῆς",
+              "correct": false,
+              "feedback": "Review: ὁ is a proclitic."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-2",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Complete “he does not listen”: ___ ἀκούει.",
+          "choices": [
+            {
+              "text": "οὐχ",
+              "correct": false,
+              "feedback": "Review: ἀκούει begins with a smooth-breathed vowel."
+            },
+            {
+              "text": "οὐ",
+              "correct": false,
+              "feedback": "Review: ἀκούει begins with a smooth-breathed vowel."
+            },
+            {
+              "text": "μή",
+              "correct": false,
+              "feedback": "Review: ἀκούει begins with a smooth-breathed vowel."
+            },
+            {
+              "text": "οὐκ",
+              "correct": true,
+              "feedback": "Correct. ἀκούει begins with a smooth-breathed vowel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-3",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Complete “not the friend”: ___ ὁ φίλος.",
+          "choices": [
+            {
+              "text": "οὐ",
+              "correct": false,
+              "feedback": "Review: ὁ has rough breathing, so use οὐχ."
+            },
+            {
+              "text": "μην",
+              "correct": false,
+              "feedback": "Review: ὁ has rough breathing, so use οὐχ."
+            },
+            {
+              "text": "οὐχ",
+              "correct": true,
+              "feedback": "Correct. ὁ has rough breathing, so use οὐχ."
+            },
+            {
+              "text": "οὐκ",
+              "correct": false,
+              "feedback": "Review: ὁ has rough breathing, so use οὐχ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-4",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Which word is not a proclitic?",
+          "choices": [
+            {
+              "text": "εἰς",
+              "correct": false,
+              "feedback": "Review: μή has its own accent; it becomes μὴ before another word."
+            },
+            {
+              "text": "μή",
+              "correct": true,
+              "feedback": "Correct. μή has its own accent; it becomes μὴ before another word."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: μή has its own accent; it becomes μὴ before another word."
+            },
+            {
+              "text": "ἐν",
+              "correct": false,
+              "feedback": "Review: μή has its own accent; it becomes μὴ before another word."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 5 Grammar Exercises",
+      "description": "Apply the taught forms. Glossed middle verbs and full plural noun paradigms are not tested.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "questions": [
+        {
+          "id": "lesson-5-word-study-5",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "Which is the present stem shared by μένει and μένουσιν?",
+          "choices": [
+            {
+              "text": "μεν-",
+              "correct": true,
+              "feedback": "Correct. Removing the present endings leaves μεν-."
+            },
+            {
+              "text": "μενου-",
+              "correct": false,
+              "feedback": "Review: Removing the present endings leaves μεν-."
+            },
+            {
+              "text": "μενει-",
+              "correct": false,
+              "feedback": "Review: Removing the present endings leaves μεν-."
+            },
+            {
+              "text": "με-",
+              "correct": false,
+              "feedback": "Review: Removing the present endings leaves μεν-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-word-study-6",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "Which pair contains forms of a single verb?",
+          "choices": [
+            {
+              "text": "λαμβάνει / μανθάνει",
+              "correct": false,
+              "feedback": "Review: The present stem λαμβαν- is shared."
+            },
+            {
+              "text": "μένει / λέγει",
+              "correct": false,
+              "feedback": "Review: The present stem λαμβαν- is shared."
+            },
+            {
+              "text": "φέρει / βλέπει",
+              "correct": false,
+              "feedback": "Review: The present stem λαμβαν- is shared."
+            },
+            {
+              "text": "λαμβάνει / λαμβάνειν",
+              "correct": true,
+              "feedback": "Correct. The present stem λαμβαν- is shared."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-word-study-7",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "In στενωπός, στενωποῦ, ὁ, which form supplies the genitive?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: The second form in this entry is the genitive singular."
+            },
+            {
+              "text": "All three forms",
+              "correct": false,
+              "feedback": "Review: The second form in this entry is the genitive singular."
+            },
+            {
+              "text": "στενωποῦ",
+              "correct": true,
+              "feedback": "Correct. The second form in this entry is the genitive singular."
+            },
+            {
+              "text": "στενωπός",
+              "correct": false,
+              "feedback": "Review: The second form in this entry is the genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-word-study-8",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Word Study",
+          "prompt": "What remains unchanged in μανθάνει, μανθάνουσιν, μανθάνειν?",
+          "choices": [
+            {
+              "text": "The mood.",
+              "correct": false,
+              "feedback": "Review: The endings change while the stem remains recognizable."
+            },
+            {
+              "text": "The present stem μανθαν-.",
+              "correct": true,
+              "feedback": "Correct. The endings change while the stem remains recognizable."
+            },
+            {
+              "text": "The ending.",
+              "correct": false,
+              "feedback": "Review: The endings change while the stem remains recognizable."
+            },
+            {
+              "text": "The person.",
+              "correct": false,
+              "feedback": "Review: The endings change while the stem remains recognizable."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-5",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Translate βλέπεις.",
+          "choices": [
+            {
+              "text": "You see.",
+              "correct": true,
+              "feedback": "Correct. -εις marks second-person singular."
+            },
+            {
+              "text": "I see.",
+              "correct": false,
+              "feedback": "Review: -εις marks second-person singular."
+            },
+            {
+              "text": "They see.",
+              "correct": false,
+              "feedback": "Review: -εις marks second-person singular."
+            },
+            {
+              "text": "See!, addressed to several",
+              "correct": false,
+              "feedback": "Review: -εις marks second-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-6",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Choose “I want.”",
+          "choices": [
+            {
+              "text": "ἐθέλεις",
+              "correct": false,
+              "feedback": "Review: -ω marks the speaker, I."
+            },
+            {
+              "text": "ἐθέλει",
+              "correct": false,
+              "feedback": "Review: -ω marks the speaker, I."
+            },
+            {
+              "text": "ἐθέλουσιν",
+              "correct": false,
+              "feedback": "Review: -ω marks the speaker, I."
+            },
+            {
+              "text": "ἐθέλω",
+              "correct": true,
+              "feedback": "Correct. -ω marks the speaker, I."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-7",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "In ὁ Σωκράτης μένει, why does the verb end in -ει?",
+          "choices": [
+            {
+              "text": "The verb is an infinitive.",
+              "correct": false,
+              "feedback": "Review: The ending agrees with the singular subject."
+            },
+            {
+              "text": "The sentence is a command.",
+              "correct": false,
+              "feedback": "Review: The ending agrees with the singular subject."
+            },
+            {
+              "text": "Socrates is a third-person singular subject.",
+              "correct": true,
+              "feedback": "Correct. The ending agrees with the singular subject."
+            },
+            {
+              "text": "Socrates is a plural subject.",
+              "correct": false,
+              "feedback": "Review: The ending agrees with the singular subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-singular-review-8",
+          "type": "multiple-choice",
+          "topic": "singular-review",
+          "category": "Singular Review",
+          "prompt": "Choose “she takes.”",
+          "choices": [
+            {
+              "text": "λαμβάνουσιν",
+              "correct": false,
+              "feedback": "Review: Third-person singular -ει works for both he and she."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": true,
+              "feedback": "Correct. Third-person singular -ει works for both he and she."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: Third-person singular -ει works for both he and she."
+            },
+            {
+              "text": "λαμβάνεις",
+              "correct": false,
+              "feedback": "Review: Third-person singular -ει works for both he and she."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-5",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Choose “they get.”",
+          "choices": [
+            {
+              "text": "λαμβάνουσιν",
+              "correct": true,
+              "feedback": "Correct. -ουσιν marks the third-person plural."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": false,
+              "feedback": "Review: -ουσιν marks the third-person plural."
+            },
+            {
+              "text": "λαμβάνεις",
+              "correct": false,
+              "feedback": "Review: -ουσιν marks the third-person plural."
+            },
+            {
+              "text": "λάμβανε",
+              "correct": false,
+              "feedback": "Review: -ουσιν marks the third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-6",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Change φέρει to match οἱ ἔμποροι (the merchants).",
+          "choices": [
+            {
+              "text": "φέρεις",
+              "correct": false,
+              "feedback": "Review: Several merchants require the plural verb."
+            },
+            {
+              "text": "φέρω",
+              "correct": false,
+              "feedback": "Review: Several merchants require the plural verb."
+            },
+            {
+              "text": "φέρειν",
+              "correct": false,
+              "feedback": "Review: Several merchants require the plural verb."
+            },
+            {
+              "text": "φέρουσιν",
+              "correct": true,
+              "feedback": "Correct. Several merchants require the plural verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-7",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "What does the final ν in μανθάνουσιν represent?",
+          "choices": [
+            {
+              "text": "A past-tense marker.",
+              "correct": false,
+              "feedback": "Review: Movable nu may appear after -ουσι without changing the person."
+            },
+            {
+              "text": "A singular subject.",
+              "correct": false,
+              "feedback": "Review: Movable nu may appear after -ουσι without changing the person."
+            },
+            {
+              "text": "Movable nu.",
+              "correct": true,
+              "feedback": "Correct. Movable nu may appear after -ουσι without changing the person."
+            },
+            {
+              "text": "An accusative noun ending.",
+              "correct": false,
+              "feedback": "Review: Movable nu may appear after -ουσι without changing the person."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-third-plural-8",
+          "type": "multiple-choice",
+          "topic": "third-plural",
+          "category": "Third Plural",
+          "prompt": "Select the correctly accented “they learn.”",
+          "choices": [
+            {
+              "text": "μανθανουσίν",
+              "correct": false,
+              "feedback": "Review: The regular recessive accent goes back to the antepenult: θά."
+            },
+            {
+              "text": "μανθάνουσιν",
+              "correct": true,
+              "feedback": "Correct. The regular recessive accent goes back to the antepenult: θά."
+            },
+            {
+              "text": "μάνθανουσιν",
+              "correct": false,
+              "feedback": "Review: The regular recessive accent goes back to the antepenult: θά."
+            },
+            {
+              "text": "μανθανοῦσιν",
+              "correct": false,
+              "feedback": "Review: The regular recessive accent goes back to the antepenult: θά."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-5",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Tell one person: “Take!”",
+          "choices": [
+            {
+              "text": "λάμβανε",
+              "correct": true,
+              "feedback": "Correct. The command uses -ε, not -ει or -ειν."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": false,
+              "feedback": "Review: The command uses -ε, not -ει or -ειν."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Review: The command uses -ε, not -ει or -ειν."
+            },
+            {
+              "text": "λαμβάνουσιν",
+              "correct": false,
+              "feedback": "Review: The command uses -ε, not -ει or -ειν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-6",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Tell several people: “Bring the bread!”",
+          "choices": [
+            {
+              "text": "φέρε τὸν ἄρτον",
+              "correct": false,
+              "feedback": "Review: Use φέρετε to address several people."
+            },
+            {
+              "text": "φέρουσι τὸν ἄρτον",
+              "correct": false,
+              "feedback": "Review: Use φέρετε to address several people."
+            },
+            {
+              "text": "φέρειν τὸν ἄρτον",
+              "correct": false,
+              "feedback": "Review: Use φέρετε to address several people."
+            },
+            {
+              "text": "φέρετε τὸν ἄρτον",
+              "correct": true,
+              "feedback": "Correct. Use φέρετε to address several people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-7",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Choose a negative command addressed to several people.",
+          "choices": [
+            {
+              "text": "μὴ σπεῦδε",
+              "correct": false,
+              "feedback": "Review: μή and the plural imperative -ετε form this command."
+            },
+            {
+              "text": "οὐ σπεύδει",
+              "correct": false,
+              "feedback": "Review: μή and the plural imperative -ετε form this command."
+            },
+            {
+              "text": "μὴ σπεύδετε",
+              "correct": true,
+              "feedback": "Correct. μή and the plural imperative -ετε form this command."
+            },
+            {
+              "text": "οὐ σπεύδουσιν",
+              "correct": false,
+              "feedback": "Review: μή and the plural imperative -ετε form this command."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-commands-8",
+          "type": "multiple-choice",
+          "topic": "commands",
+          "category": "Commands",
+          "prompt": "Distinguish ἄκουε from ἀκούετε in the direct appeals.",
+          "choices": [
+            {
+              "text": "Infinitive / noun.",
+              "correct": false,
+              "feedback": "Review: Both are commands here; the number of listeners changes."
+            },
+            {
+              "text": "One listener / several listeners.",
+              "correct": true,
+              "feedback": "Correct. Both are commands here; the number of listeners changes."
+            },
+            {
+              "text": "Past / future.",
+              "correct": false,
+              "feedback": "Review: Both are commands here; the number of listeners changes."
+            },
+            {
+              "text": "They listen / I listen.",
+              "correct": false,
+              "feedback": "Review: Both are commands here; the number of listeners changes."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-5",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Choose “they want to walk.”",
+          "choices": [
+            {
+              "text": "ἐθέλουσι βαδίζειν",
+              "correct": true,
+              "feedback": "Correct. The finite verb is plural; the infinitive remains βαδίζειν."
+            },
+            {
+              "text": "ἐθέλει βαδίζειν",
+              "correct": false,
+              "feedback": "Review: The finite verb is plural; the infinitive remains βαδίζειν."
+            },
+            {
+              "text": "ἐθέλουσι βάδιζε",
+              "correct": false,
+              "feedback": "Review: The finite verb is plural; the infinitive remains βαδίζειν."
+            },
+            {
+              "text": "ἐθέλω βαδίζειν",
+              "correct": false,
+              "feedback": "Review: The finite verb is plural; the infinitive remains βαδίζειν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-6",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Choose “to wait.”",
+          "choices": [
+            {
+              "text": "μένε",
+              "correct": false,
+              "feedback": "Review: -ειν marks the present active infinitive."
+            },
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "Review: -ειν marks the present active infinitive."
+            },
+            {
+              "text": "μένουσιν",
+              "correct": false,
+              "feedback": "Review: -ειν marks the present active infinitive."
+            },
+            {
+              "text": "μένειν",
+              "correct": true,
+              "feedback": "Correct. -ειν marks the present active infinitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-7",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Which word is finite in ἐθέλεις ἀκούειν?",
+          "choices": [
+            {
+              "text": "Both words",
+              "correct": false,
+              "feedback": "Review: ἐθέλεις has a second-person singular ending."
+            },
+            {
+              "text": "Neither word",
+              "correct": false,
+              "feedback": "Review: ἐθέλεις has a second-person singular ending."
+            },
+            {
+              "text": "ἐθέλεις",
+              "correct": true,
+              "feedback": "Correct. ἐθέλεις has a second-person singular ending."
+            },
+            {
+              "text": "ἀκούειν",
+              "correct": false,
+              "feedback": "Review: ἐθέλεις has a second-person singular ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-infinitives-8",
+          "type": "multiple-choice",
+          "topic": "infinitives",
+          "category": "Infinitives",
+          "prompt": "Why is μανθάνειν accented later than μάνθανε?",
+          "choices": [
+            {
+              "text": "The stem changes to another verb.",
+              "correct": false,
+              "feedback": "Review: A long ultima prevents an acute on the antepenult."
+            },
+            {
+              "text": "Its long final -ειν prevents an antepenult accent.",
+              "correct": true,
+              "feedback": "Correct. A long ultima prevents an acute on the antepenult."
+            },
+            {
+              "text": "Infinitives have no accents.",
+              "correct": false,
+              "feedback": "Review: A long ultima prevents an acute on the antepenult."
+            },
+            {
+              "text": "The verb becomes plural.",
+              "correct": false,
+              "feedback": "Review: A long ultima prevents an acute on the antepenult."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-5",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Complete “she does not speak”: ___ λέγει.",
+          "choices": [
+            {
+              "text": "οὐ",
+              "correct": true,
+              "feedback": "Correct. λέγει begins with a consonant."
+            },
+            {
+              "text": "οὐκ",
+              "correct": false,
+              "feedback": "Review: λέγει begins with a consonant."
+            },
+            {
+              "text": "οὐχ",
+              "correct": false,
+              "feedback": "Review: λέγει begins with a consonant."
+            },
+            {
+              "text": "μή",
+              "correct": false,
+              "feedback": "Review: λέγει begins with a consonant."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-6",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Which group contains only proclitics?",
+          "choices": [
+            {
+              "text": "τόν, τῷ, τῆς",
+              "correct": false,
+              "feedback": "Review: These article forms and ἐν are proclitics."
+            },
+            {
+              "text": "μή, ποῦ, πάλιν",
+              "correct": false,
+              "feedback": "Review: These article forms and ἐν are proclitics."
+            },
+            {
+              "text": "καί, δέ, γάρ",
+              "correct": false,
+              "feedback": "Review: These article forms and ἐν are proclitics."
+            },
+            {
+              "text": "ὁ, ἡ, ἐν",
+              "correct": true,
+              "feedback": "Correct. These article forms and ἐν are proclitics."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-7",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Which spelling retains the correct breathing and accent?",
+          "choices": [
+            {
+              "text": "ὅ φίλος",
+              "correct": false,
+              "feedback": "Review: The article has rough breathing and normally no accent."
+            },
+            {
+              "text": "ο φίλος",
+              "correct": false,
+              "feedback": "Review: The article has rough breathing and normally no accent."
+            },
+            {
+              "text": "ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct. The article has rough breathing and normally no accent."
+            },
+            {
+              "text": "ό φίλος",
+              "correct": false,
+              "feedback": "Review: The article has rough breathing and normally no accent."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-proclitics-8",
+          "type": "multiple-choice",
+          "topic": "proclitics",
+          "category": "Proclitics",
+          "prompt": "Why is τόν accented while ὁ is not?",
+          "choices": [
+            {
+              "text": "All Greek accents are optional.",
+              "correct": false,
+              "feedback": "Review: ὁ, ἡ, οἱ, and αἱ are the four proclitic article forms."
+            },
+            {
+              "text": "Only certain article forms are proclitic.",
+              "correct": true,
+              "feedback": "Correct. ὁ, ἡ, οἱ, and αἱ are the four proclitic article forms."
+            },
+            {
+              "text": "Every accusative has a circumflex.",
+              "correct": false,
+              "feedback": "Review: ὁ, ἡ, οἱ, and αἱ are the four proclitic article forms."
+            },
+            {
+              "text": "ὁ is not an article.",
+              "correct": false,
+              "feedback": "Review: ὁ, ἡ, οἱ, and αἱ are the four proclitic article forms."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 5 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "λέγω / λέγεις / λέγει",
+          "answer": "I speak / you speak / he or she speaks"
+        },
+        {
+          "prompt": "λέγουσι(ν)",
+          "answer": "they speak: third-person plural"
+        },
+        {
+          "prompt": "Movable nu",
+          "answer": "Optional final ν in forms such as λέγουσιν; it does not change the meaning."
+        },
+        {
+          "prompt": "μένε / μένετε",
+          "answer": "Stay! to one / to several"
+        },
+        {
+          "prompt": "ἄκουε / ἀκούετε",
+          "answer": "Listen! to one / to several"
+        },
+        {
+          "prompt": "μὴ σπεῦδε",
+          "answer": "Do not hurry! to one"
+        },
+        {
+          "prompt": "μὴ σπεύδετε",
+          "answer": "Do not hurry! to several"
+        },
+        {
+          "prompt": "μανθάνειν",
+          "answer": "to learn: present active infinitive"
+        },
+        {
+          "prompt": "ἐθέλουσι μανθάνειν",
+          "answer": "They want to learn; the infinitive has no person or number."
+        },
+        {
+          "prompt": "μάνθανε / μανθάνειν",
+          "answer": "Learn! / to learn; long -ειν changes the possible accent position."
+        },
+        {
+          "prompt": "οὐ / οὐκ / οὐχ",
+          "answer": "Before consonant / smooth-breathed vowel / rough-breathed vowel"
+        },
+        {
+          "prompt": "Proclitic articles",
+          "answer": "ὁ, ἡ, οἱ, αἱ"
+        },
+        {
+          "prompt": "ἐν / εἰς / ἐκ (ἐξ)",
+          "answer": "Proclitic prepositions; learn each with its case."
+        },
+        {
+          "prompt": "ἕπου τοίνυν",
+          "answer": "Then follow! Supplied middle command; not a paradigm to memorize yet."
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 5 Vocabulary Practice",
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "lesson-5-vocabulary-1",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ στενωπός mean?",
+          "choices": [
+            {
+              "text": "narrow lane",
+              "correct": true,
+              "feedback": "Correct. ὁ στενωπός means narrow lane."
+            },
+            {
+              "text": "walking stick, staff",
+              "correct": false,
+              "feedback": "Review: ὁ στενωπός means narrow lane."
+            },
+            {
+              "text": "bread, loaf",
+              "correct": false,
+              "feedback": "Review: ὁ στενωπός means narrow lane."
+            },
+            {
+              "text": "marketplace",
+              "correct": false,
+              "feedback": "Review: ὁ στενωπός means narrow lane."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-2",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βακτηρία mean?",
+          "choices": [
+            {
+              "text": "merchant",
+              "correct": false,
+              "feedback": "Review: ἡ βακτηρία means walking stick, staff."
+            },
+            {
+              "text": "wine",
+              "correct": false,
+              "feedback": "Review: ἡ βακτηρία means walking stick, staff."
+            },
+            {
+              "text": "wisdom",
+              "correct": false,
+              "feedback": "Review: ἡ βακτηρία means walking stick, staff."
+            },
+            {
+              "text": "walking stick, staff",
+              "correct": true,
+              "feedback": "Correct. ἡ βακτηρία means walking stick, staff."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-3",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἔμπορος mean?",
+          "choices": [
+            {
+              "text": "marketplace",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος means merchant."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος means merchant."
+            },
+            {
+              "text": "merchant",
+              "correct": true,
+              "feedback": "Correct. ὁ ἔμπορος means merchant."
+            },
+            {
+              "text": "bread, loaf",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος means merchant."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-4",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἄρτος mean?",
+          "choices": [
+            {
+              "text": "wish, want (+ infinitive)",
+              "correct": false,
+              "feedback": "Review: ὁ ἄρτος means bread, loaf."
+            },
+            {
+              "text": "bread, loaf",
+              "correct": true,
+              "feedback": "Correct. ὁ ἄρτος means bread, loaf."
+            },
+            {
+              "text": "wine",
+              "correct": false,
+              "feedback": "Review: ὁ ἄρτος means bread, loaf."
+            },
+            {
+              "text": "wisdom",
+              "correct": false,
+              "feedback": "Review: ὁ ἄρτος means bread, loaf."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-5",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ οἶνος mean?",
+          "choices": [
+            {
+              "text": "wine",
+              "correct": true,
+              "feedback": "Correct. ὁ οἶνος means wine."
+            },
+            {
+              "text": "marketplace",
+              "correct": false,
+              "feedback": "Review: ὁ οἶνος means wine."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: ὁ οἶνος means wine."
+            },
+            {
+              "text": "hurry",
+              "correct": false,
+              "feedback": "Review: ὁ οἶνος means wine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-6",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀγορά mean?",
+          "choices": [
+            {
+              "text": "wisdom",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά means marketplace."
+            },
+            {
+              "text": "wish, want (+ infinitive)",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά means marketplace."
+            },
+            {
+              "text": "stretch out",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά means marketplace."
+            },
+            {
+              "text": "marketplace",
+              "correct": true,
+              "feedback": "Correct. ἡ ἀγορά means marketplace."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-7",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ σοφία mean?",
+          "choices": [
+            {
+              "text": "hurry",
+              "correct": false,
+              "feedback": "Review: ἡ σοφία means wisdom."
+            },
+            {
+              "text": "hinder, block",
+              "correct": false,
+              "feedback": "Review: ἡ σοφία means wisdom."
+            },
+            {
+              "text": "wisdom",
+              "correct": true,
+              "feedback": "Correct. ἡ σοφία means wisdom."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: ἡ σοφία means wisdom."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-8",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ φίλος mean?",
+          "choices": [
+            {
+              "text": "stay, wait",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            },
+            {
+              "text": "friend",
+              "correct": true,
+              "feedback": "Correct. ὁ φίλος means friend."
+            },
+            {
+              "text": "wish, want (+ infinitive)",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            },
+            {
+              "text": "stretch out",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-9",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἐθέλω mean?",
+          "choices": [
+            {
+              "text": "wish, want (+ infinitive)",
+              "correct": true,
+              "feedback": "Correct. ἐθέλω means wish, want (+ infinitive)."
+            },
+            {
+              "text": "hurry",
+              "correct": false,
+              "feedback": "Review: ἐθέλω means wish, want (+ infinitive)."
+            },
+            {
+              "text": "hinder, block",
+              "correct": false,
+              "feedback": "Review: ἐθέλω means wish, want (+ infinitive)."
+            },
+            {
+              "text": "know, recognize",
+              "correct": false,
+              "feedback": "Review: ἐθέλω means wish, want (+ infinitive)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-10",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does σπεύδω mean?",
+          "choices": [
+            {
+              "text": "stretch out",
+              "correct": false,
+              "feedback": "Review: σπεύδω means hurry."
+            },
+            {
+              "text": "stay, wait",
+              "correct": false,
+              "feedback": "Review: σπεύδω means hurry."
+            },
+            {
+              "text": "learn",
+              "correct": false,
+              "feedback": "Review: σπεύδω means hurry."
+            },
+            {
+              "text": "hurry",
+              "correct": true,
+              "feedback": "Correct. σπεύδω means hurry."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-11",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἐκτείνω mean?",
+          "choices": [
+            {
+              "text": "know, recognize",
+              "correct": false,
+              "feedback": "Review: ἐκτείνω means stretch out."
+            },
+            {
+              "text": "take, get",
+              "correct": false,
+              "feedback": "Review: ἐκτείνω means stretch out."
+            },
+            {
+              "text": "stretch out",
+              "correct": true,
+              "feedback": "Correct. ἐκτείνω means stretch out."
+            },
+            {
+              "text": "hinder, block",
+              "correct": false,
+              "feedback": "Review: ἐκτείνω means stretch out."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-12",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does κωλύω mean?",
+          "choices": [
+            {
+              "text": "narrow",
+              "correct": false,
+              "feedback": "Review: κωλύω means hinder, block."
+            },
+            {
+              "text": "hinder, block",
+              "correct": true,
+              "feedback": "Correct. κωλύω means hinder, block."
+            },
+            {
+              "text": "stay, wait",
+              "correct": false,
+              "feedback": "Review: κωλύω means hinder, block."
+            },
+            {
+              "text": "learn",
+              "correct": false,
+              "feedback": "Review: κωλύω means hinder, block."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-13",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does μένω mean?",
+          "choices": [
+            {
+              "text": "stay, wait",
+              "correct": true,
+              "feedback": "Correct. μένω means stay, wait."
+            },
+            {
+              "text": "know, recognize",
+              "correct": false,
+              "feedback": "Review: μένω means stay, wait."
+            },
+            {
+              "text": "take, get",
+              "correct": false,
+              "feedback": "Review: μένω means stay, wait."
+            },
+            {
+              "text": "beautiful, fine, noble",
+              "correct": false,
+              "feedback": "Review: μένω means stay, wait."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-14",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does γιγνώσκω mean?",
+          "choices": [
+            {
+              "text": "learn",
+              "correct": false,
+              "feedback": "Review: γιγνώσκω means know, recognize."
+            },
+            {
+              "text": "narrow",
+              "correct": false,
+              "feedback": "Review: γιγνώσκω means know, recognize."
+            },
+            {
+              "text": "good",
+              "correct": false,
+              "feedback": "Review: γιγνώσκω means know, recognize."
+            },
+            {
+              "text": "know, recognize",
+              "correct": true,
+              "feedback": "Correct. γιγνώσκω means know, recognize."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-15",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does μανθάνω mean?",
+          "choices": [
+            {
+              "text": "beautiful, fine, noble",
+              "correct": false,
+              "feedback": "Review: μανθάνω means learn."
+            },
+            {
+              "text": "where?",
+              "correct": false,
+              "feedback": "Review: μανθάνω means learn."
+            },
+            {
+              "text": "learn",
+              "correct": true,
+              "feedback": "Correct. μανθάνω means learn."
+            },
+            {
+              "text": "take, get",
+              "correct": false,
+              "feedback": "Review: μανθάνω means learn."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-16",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λαμβάνω mean?",
+          "choices": [
+            {
+              "text": "there",
+              "correct": false,
+              "feedback": "Review: λαμβάνω means take, get."
+            },
+            {
+              "text": "take, get",
+              "correct": true,
+              "feedback": "Correct. λαμβάνω means take, get."
+            },
+            {
+              "text": "narrow",
+              "correct": false,
+              "feedback": "Review: λαμβάνω means take, get."
+            },
+            {
+              "text": "good",
+              "correct": false,
+              "feedback": "Review: λαμβάνω means take, get."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-17",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does στενός mean?",
+          "choices": [
+            {
+              "text": "narrow",
+              "correct": true,
+              "feedback": "Correct. στενός means narrow."
+            },
+            {
+              "text": "beautiful, fine, noble",
+              "correct": false,
+              "feedback": "Review: στενός means narrow."
+            },
+            {
+              "text": "where?",
+              "correct": false,
+              "feedback": "Review: στενός means narrow."
+            },
+            {
+              "text": "again",
+              "correct": false,
+              "feedback": "Review: στενός means narrow."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-18",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does καλός mean?",
+          "choices": [
+            {
+              "text": "good",
+              "correct": false,
+              "feedback": "Review: καλός means beautiful, fine, noble."
+            },
+            {
+              "text": "there",
+              "correct": false,
+              "feedback": "Review: καλός means beautiful, fine, noble."
+            },
+            {
+              "text": "no longer",
+              "correct": false,
+              "feedback": "Review: καλός means beautiful, fine, noble."
+            },
+            {
+              "text": "beautiful, fine, noble",
+              "correct": true,
+              "feedback": "Correct. καλός means beautiful, fine, noble."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-19",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἀγαθός mean?",
+          "choices": [
+            {
+              "text": "again",
+              "correct": false,
+              "feedback": "Review: ἀγαθός means good."
+            },
+            {
+              "text": "walk",
+              "correct": false,
+              "feedback": "Review: ἀγαθός means good."
+            },
+            {
+              "text": "good",
+              "correct": true,
+              "feedback": "Correct. ἀγαθός means good."
+            },
+            {
+              "text": "where?",
+              "correct": false,
+              "feedback": "Review: ἀγαθός means good."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-20",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ποῦ mean?",
+          "choices": [
+            {
+              "text": "say, speak",
+              "correct": false,
+              "feedback": "Review: ποῦ means where?."
+            },
+            {
+              "text": "where?",
+              "correct": true,
+              "feedback": "Correct. ποῦ means where?."
+            },
+            {
+              "text": "there",
+              "correct": false,
+              "feedback": "Review: ποῦ means where?."
+            },
+            {
+              "text": "no longer",
+              "correct": false,
+              "feedback": "Review: ποῦ means where?."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-21",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἐκεῖ mean?",
+          "choices": [
+            {
+              "text": "there",
+              "correct": true,
+              "feedback": "Correct. ἐκεῖ means there."
+            },
+            {
+              "text": "again",
+              "correct": false,
+              "feedback": "Review: ἐκεῖ means there."
+            },
+            {
+              "text": "walk",
+              "correct": false,
+              "feedback": "Review: ἐκεῖ means there."
+            },
+            {
+              "text": "hear, listen to",
+              "correct": false,
+              "feedback": "Review: ἐκεῖ means there."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-22",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πάλιν mean?",
+          "choices": [
+            {
+              "text": "no longer",
+              "correct": false,
+              "feedback": "Review: πάλιν means again."
+            },
+            {
+              "text": "say, speak",
+              "correct": false,
+              "feedback": "Review: πάλιν means again."
+            },
+            {
+              "text": "see, look at",
+              "correct": false,
+              "feedback": "Review: πάλιν means again."
+            },
+            {
+              "text": "again",
+              "correct": true,
+              "feedback": "Correct. πάλιν means again."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-23",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does οὐκέτι mean?",
+          "choices": [
+            {
+              "text": "hear, listen to",
+              "correct": false,
+              "feedback": "Review: οὐκέτι means no longer."
+            },
+            {
+              "text": "carry, bring",
+              "correct": false,
+              "feedback": "Review: οὐκέτι means no longer."
+            },
+            {
+              "text": "no longer",
+              "correct": true,
+              "feedback": "Correct. οὐκέτι means no longer."
+            },
+            {
+              "text": "walk",
+              "correct": false,
+              "feedback": "Review: οὐκέτι means no longer."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-24",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does βαδίζω mean?",
+          "choices": [
+            {
+              "text": "have, hold",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk."
+            },
+            {
+              "text": "walk",
+              "correct": true,
+              "feedback": "Correct. βαδίζω means walk."
+            },
+            {
+              "text": "say, speak",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk."
+            },
+            {
+              "text": "see, look at",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-25",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λέγω mean?",
+          "choices": [
+            {
+              "text": "say, speak",
+              "correct": true,
+              "feedback": "Correct. λέγω means say, speak."
+            },
+            {
+              "text": "hear, listen to",
+              "correct": false,
+              "feedback": "Review: λέγω means say, speak."
+            },
+            {
+              "text": "carry, bring",
+              "correct": false,
+              "feedback": "Review: λέγω means say, speak."
+            },
+            {
+              "text": "narrow lane",
+              "correct": false,
+              "feedback": "Review: λέγω means say, speak."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-26",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἀκούω mean?",
+          "choices": [
+            {
+              "text": "see, look at",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen to."
+            },
+            {
+              "text": "have, hold",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen to."
+            },
+            {
+              "text": "walking stick, staff",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen to."
+            },
+            {
+              "text": "hear, listen to",
+              "correct": true,
+              "feedback": "Correct. ἀκούω means hear, listen to."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-27",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does βλέπω mean?",
+          "choices": [
+            {
+              "text": "narrow lane",
+              "correct": false,
+              "feedback": "Review: βλέπω means see, look at."
+            },
+            {
+              "text": "merchant",
+              "correct": false,
+              "feedback": "Review: βλέπω means see, look at."
+            },
+            {
+              "text": "see, look at",
+              "correct": true,
+              "feedback": "Correct. βλέπω means see, look at."
+            },
+            {
+              "text": "carry, bring",
+              "correct": false,
+              "feedback": "Review: βλέπω means see, look at."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-28",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does φέρω mean?",
+          "choices": [
+            {
+              "text": "bread, loaf",
+              "correct": false,
+              "feedback": "Review: φέρω means carry, bring."
+            },
+            {
+              "text": "carry, bring",
+              "correct": true,
+              "feedback": "Correct. φέρω means carry, bring."
+            },
+            {
+              "text": "have, hold",
+              "correct": false,
+              "feedback": "Review: φέρω means carry, bring."
+            },
+            {
+              "text": "walking stick, staff",
+              "correct": false,
+              "feedback": "Review: φέρω means carry, bring."
+            }
+          ]
+        },
+        {
+          "id": "lesson-5-vocabulary-29",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἔχω mean?",
+          "choices": [
+            {
+              "text": "have, hold",
+              "correct": true,
+              "feedback": "Correct. ἔχω means have, hold."
+            },
+            {
+              "text": "narrow lane",
+              "correct": false,
+              "feedback": "Review: ἔχω means have, hold."
+            },
+            {
+              "text": "merchant",
+              "correct": false,
+              "feedback": "Review: ἔχω means have, hold."
+            },
+            {
+              "text": "wine",
+              "correct": false,
+              "feedback": "Review: ἔχω means have, hold."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-4",
+    "title": "Gryllus Rides to War",
+    "fallbackUrl": "lesson.html?lesson=4&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-6",
+    "title": "The Search for Knowledge",
+    "fallbackUrl": "lesson.html?lesson=6&page=1"
+  }
+}

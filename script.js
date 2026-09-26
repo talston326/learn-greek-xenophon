@@ -62,7 +62,7 @@ const COURSE_MODULES = [
       { id: "lesson-2", title: "The Household of Xenophon", grammar: "Second-declension nouns, adjective agreement, possessive genitives, εἰμί, simple prepositions" },
       { id: "lesson-3", title: "The Education of Xenophon", grammar: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, demonstratives" },
       { id: "lesson-4", title: "Gryllus Rides to War", grammar: "Singular noun cases, singular adjective agreement, possessive genitive, and natural case usage", exerciseIds: ["reading"] },
-      { id: "lesson-5", title: "Learning Through Questioning", grammar: "Adjectives, agreement, attributive vs predicate position" },
+      { id: "lesson-5", title: "An Unexpected Question", grammar: "Third-person plurals, singular and plural commands, infinitives; singular-person and proclitic review" },
       { id: "lesson-6", title: "The Search for Knowledge", grammar: "Second declension nouns, prepositions with cases" },
       { id: "lesson-7", title: "Examining Oneself", grammar: "Middle/passive voice (present), reflexive sense" },
       { id: "lesson-8", title: "In the Agora", grammar: "Prepositions expanded, dative case introduction" },
