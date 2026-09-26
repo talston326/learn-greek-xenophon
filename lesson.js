@@ -636,9 +636,16 @@
 
   function renderCulturePage() {
     const culture = lesson.culture || {};
+    const cultureBanner = culture.banner || {};
+    const culturePlan = culture.plan || {};
+    const planImage = resolveLessonImagePath(culturePlan.image);
 
     return `
       ${renderSampleNotice()}
+      ${cultureBanner.image ? `<figure class="lesson-culture-banner">
+        <img src="${escapeHtml(resolveLessonImagePath(cultureBanner.image))}" alt="${escapeHtml(cultureBanner.alt || "")}">
+        ${cultureBanner.caption ? `<figcaption>${escapeHtml(cultureBanner.caption)}</figcaption>` : ""}
+      </figure>` : ""}
       <header class="lesson-page-heading">
         <p class="eyebrow">Culture and History</p>
         <h1>${escapeHtml(culture.title || page.title)}</h1>
@@ -647,6 +654,12 @@
         <div class="lesson-rich-text">
           ${renderParagraphsWithImage(culture.body, culture.image || culture.imageUrl, culture.imageAlt, culture.imagePlacement, culture.imageCaption)}
         </div>
+        ${culturePlan.title ? `<figure class="culture-plan">
+          <h2>${escapeHtml(culturePlan.title)}</h2>
+          ${planImage ? `<img src="${escapeHtml(planImage)}" alt="${escapeHtml(culturePlan.alt || culturePlan.title)}">` : `<div class="culture-plan__placeholder" role="note">${escapeHtml(culturePlan.placeholder || "Plan image to be added.")}</div>`}
+          ${culturePlan.caption ? `<figcaption>${escapeHtml(culturePlan.caption)}</figcaption>` : ""}
+          ${culturePlan.credit ? `<p class="culture-plan__credit">${escapeHtml(culturePlan.credit)}${/^https:\/\//.test(culturePlan.sourceUrl || "") ? ` <a href="${escapeHtml(culturePlan.sourceUrl)}" target="_blank" rel="noopener noreferrer">Map source</a>.` : ""}${/^https:\/\//.test(culturePlan.licenseUrl || "") ? ` <a href="${escapeHtml(culturePlan.licenseUrl)}" target="_blank" rel="noopener noreferrer">License</a>.` : ""}</p>` : ""}
+        </figure>` : ""}
         ${culture.sources?.length ? `<details class="culture-sources"><summary>Sources and Further Reading</summary><ul>${culture.sources.filter((source) => /^https:\/\//.test(source.url)).map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a></li>`).join("")}</ul></details>` : ""}
       </section>
       ${culture.excerpt?.greek ? `<section class="lesson-section culture-excerpt" aria-labelledby="culture-excerpt-heading">
@@ -1185,6 +1198,12 @@
             <button class="secondary-button" type="button" data-lesson-editor-action="add-culture-question">Add Question</button>
           </div>
           ${renderInput("Culture title", "culture-title", lesson.culture?.title || "")}
+          <h4>Page banner</h4>
+          <div class="lesson-editor-row lesson-editor-row--two">
+            ${renderInput("Banner image path or URL", "culture-banner-image", lesson.culture?.banner?.image || "")}
+            ${renderInput("Banner alt text", "culture-banner-alt", lesson.culture?.banner?.alt || "")}
+          </div>
+          ${renderInput("Banner caption", "culture-banner-caption", lesson.culture?.banner?.caption || "")}
           ${renderInput("Image caption", "culture-image-caption", lesson.culture?.imageCaption || "")}
           <div class="lesson-editor-row lesson-editor-row--two">
             ${renderInput("Image path or URL", "culture-image", lesson.culture?.image || lesson.culture?.imageUrl || "")}
@@ -1192,6 +1211,19 @@
           </div>
           ${renderSelect("Image placement", "culture-image-placement", normalizeImagePlacement(lesson.culture?.imagePlacement), IMAGE_PLACEMENT_OPTIONS)}
           ${renderTextarea("Body paragraphs", "culture-body", joinParagraphs(lesson.culture?.body), 8)}
+          <h4>Plan</h4>
+          ${renderInput("Plan title", "culture-plan-title", lesson.culture?.plan?.title || "")}
+          <div class="lesson-editor-row lesson-editor-row--two">
+            ${renderInput("Plan image path or URL", "culture-plan-image", lesson.culture?.plan?.image || "")}
+            ${renderInput("Plan alt text", "culture-plan-alt", lesson.culture?.plan?.alt || "")}
+          </div>
+          ${renderInput("Plan placeholder", "culture-plan-placeholder", lesson.culture?.plan?.placeholder || "")}
+          ${renderInput("Plan caption", "culture-plan-caption", lesson.culture?.plan?.caption || "")}
+          ${renderInput("Plan credit", "culture-plan-credit", lesson.culture?.plan?.credit || "")}
+          <div class="lesson-editor-row lesson-editor-row--two">
+            ${renderInput("Plan source URL", "culture-plan-source", lesson.culture?.plan?.sourceUrl || "")}
+            ${renderInput("Plan license URL", "culture-plan-license", lesson.culture?.plan?.licenseUrl || "")}
+          </div>
           <h4>Comprehension and Reflection</h4>
           <div class="lesson-editor-table">
             ${(lesson.culture?.questions || []).map((question) => `
@@ -1384,11 +1416,26 @@
     if (page?.template === "culture" || (page?.page === 3 && lesson.culture)) {
       draft.culture ||= {};
       draft.culture.title = fieldValue("culture-title");
+      draft.culture.banner = {
+        image: fieldValue("culture-banner-image"),
+        alt: fieldValue("culture-banner-alt"),
+        caption: fieldValue("culture-banner-caption"),
+      };
       draft.culture.image = fieldValue("culture-image");
       draft.culture.imageAlt = fieldValue("culture-image-alt");
       draft.culture.imageCaption = fieldValue("culture-image-caption");
       draft.culture.imagePlacement = fieldValue("culture-image-placement") || "inline-left";
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
+      draft.culture.plan = {
+        title: fieldValue("culture-plan-title"),
+        image: fieldValue("culture-plan-image"),
+        alt: fieldValue("culture-plan-alt"),
+        placeholder: fieldValue("culture-plan-placeholder"),
+        caption: fieldValue("culture-plan-caption"),
+        credit: fieldValue("culture-plan-credit"),
+        sourceUrl: fieldValue("culture-plan-source"),
+        licenseUrl: fieldValue("culture-plan-license"),
+      };
       draft.culture.questions = Array.from(shell.querySelectorAll('[data-editor-row="culture-question"]')).map((question) => ({
         prompt: fieldValue("culture-prompt", question),
         answer: fieldValue("culture-answer", question),

@@ -9059,7 +9059,7 @@ Xenophon is young, but he wants to become wise.`;
   "scope": "Present active third-person plurals, singular and plural commands, infinitives; review of singular persons and proclitics",
   "theme": "A blocked lane, a helpful bread seller, and a question that changes Xenophon’s direction.",
   "module": "Module 1: Growing Up in Classical Athens",
-  "contentRevision": "lesson-5-practice-rounds-v2",
+  "contentRevision": "lesson-5-agora-culture-v1",
   "banner": {
     "image": "assets/lesson-5-banner.png",
     "alt": "Socrates extends his walking stick across a narrow Athenian lane as young Xenophon stops to listen.",
@@ -9078,6 +9078,12 @@ Xenophon is young, but he wants to become wise.`;
       "slug": "lesson-5-page-2",
       "title": "Language Study",
       "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-5-page-3",
+      "title": "The Athens Agora",
+      "template": "culture"
     }
   ],
   "vocabulary": [
@@ -21050,6 +21056,53 @@ Xenophon is young, but he wants to become wise.`;
     "id": "lesson-6",
     "title": "The Search for Knowledge",
     "fallbackUrl": "lesson.html?lesson=6&page=1"
+  },
+  "culture": {
+    "title": "The Athens Agora",
+    "banner": {
+      "image": "assets/lesson-5-agora-banner.png",
+      "alt": "Artist’s reconstruction of a busy Classical Athenian agora, with market stalls, walkers, colonnades, and the Acropolis beyond.",
+      "caption": "Artist’s reconstruction of the Athenian Agora in the Classical period."
+    },
+    "body": [
+      "Imagine following Xenophon out of the narrow lane and into the wide open space below the Acropolis. Voices rise from the stalls: someone asks the price of bread, a seller calls out to a customer, and neighbors stop to exchange news. This is the agora. The Greek word ἀγορά can mean both a gathering place and a marketplace, and in Athens it was the busy center of daily public life.",
+      "Trade was only one reason to come. Athenians bought food and household goods, met friends, heard announcements, and passed the workshops and shops around the square. Covered colonnades called stoas offered places to walk and talk out of the sun. The Panathenaic Way crossed the agora on its route toward the Acropolis; during the city’s great festival for Athena, a procession traveled along it. Altars and shrines made religion part of this same public landscape.",
+      "Government was close at hand. On the western side stood the Bouleuterion, where the Council of Five Hundred prepared business for the city, and the round Tholos, used by council members on duty. Public notices and monuments helped citizens see what their city valued and decided. The larger citizen Assembly usually met on the Pnyx hill, not in the agora, but the square remained a place where politics, law, and ordinary conversation met.",
+      "The people moving through this space did not all have the same rights. Adult male citizens held formal political power; women, resident foreigners, and enslaved people also formed part of Athens’s working and social life. A trip through the agora might therefore reveal both the energy of the city and the limits of its democracy.",
+      "For Socrates, a crowded place was also a place to ask questions. Xenophon later wrote that Socrates could be seen in the marketplace when it was full, speaking where others could listen (Memorabilia 1.1.10). That detail helps us picture why a conversation about bread could lead toward a larger question: where should someone go to learn how to live well? The bread seller in our reading is invented, but the agora was a real setting in which commerce and inquiry could meet."
+    ],
+    "plan": {
+      "title": "Plan of the Classical Athenian Agora",
+      "image": "assets/lesson-5-agora-plan.svg",
+      "alt": "Numbered plan of the Classical Athenian Agora, showing the Panathenaic Way crossing the square and civic buildings grouped along its western side.",
+      "placeholder": "Plan image to be added here.",
+      "caption": "Map key: 7 Bouleuterion; 13 New Bouleuterion; 14 Tholos; 11 Painted Stoa; 12 Temple of Hephaistos. The Panathenaic Way crosses the square diagonally.",
+      "credit": "Unmodified plan by Tomisti (2016), Wikimedia Commons, CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plan_Agora_of_Athens_Classical_colored.svg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "sources": [
+      {
+        "title": "American School of Classical Studies at Athens: Athenian Agora",
+        "url": "https://www.ascsa.edu.gr/excavations/athenian-agora"
+      },
+      {
+        "title": "American School of Classical Studies at Athens: An Ancient Shopping Center",
+        "url": "https://www.ascsa.edu.gr/publications/book/?i=9780876616352"
+      },
+      {
+        "title": "Xenophon, Memorabilia 1.1.10 (Perseus Digital Library)",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Mem.+1.1.10"
+      },
+      {
+        "title": "American School of Classical Studies at Athens: Women in the Athenian Agora",
+        "url": "https://www.ascsa.edu.gr/uploads/media/WomenInTheAthenianAgora.pdf"
+      },
+      {
+        "title": "Tomisti: Plan of the Classical Athenian Agora (CC BY-SA 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:Plan_Agora_of_Athens_Classical_colored.svg"
+      }
+    ]
   }
 };
 
