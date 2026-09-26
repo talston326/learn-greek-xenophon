@@ -73,16 +73,27 @@ DECLARE
     ]
   }
 }$json$::jsonb;
+  expected_preview jsonb := $preview${"title":"Learning Through Questioning: Source Preview","body":["Source anchor: Memorabilia 4.6.1–15.","This lesson will use Socratic questioning to show how Greek adjectives describe, classify, and evaluate a person. The final vocabulary, Greek reading, and polished historical commentary will be added in a later authoring pass."],"questions":[]}$preview$::jsonb;
   lesson_id_value uuid;
   old_content jsonb;
+  old_block_culture jsonb;
   old_version integer;
+  updated_blocks integer;
 BEGIN
   SELECT id INTO STRICT lesson_id_value FROM public.lessons WHERE slug = 'lesson-5' FOR UPDATE;
   SELECT content, version INTO STRICT old_content, old_version
   FROM public.lesson_content_overrides WHERE lesson_id = lesson_id_value FOR UPDATE;
+  SELECT b.content->'value' INTO old_block_culture
+  FROM public.lesson_content_blocks b
+  JOIN public.lesson_segments s ON s.id = b.segment_id
+  WHERE s.lesson_id = lesson_id_value
+    AND b.content->>'source' = 'lesson_publish'
+    AND b.content->>'kind' = 'culture'
+  FOR UPDATE OF b;
   IF old_content->>'contentRevision' = patch->>'contentRevision' THEN
     IF old_content->'pages' IS DISTINCT FROM patch->'pages'
-       OR old_content->'culture' IS DISTINCT FROM patch->'culture' THEN
+       OR old_content->'culture' IS DISTINCT FROM patch->'culture'
+       OR old_block_culture IS DISTINCT FROM patch->'culture' THEN
       RAISE EXCEPTION 'Lesson 5 Agora revision matches but page content differs; review before publishing';
     END IF;
     RETURN;
@@ -90,7 +101,8 @@ BEGIN
   IF old_content->>'contentRevision' IS DISTINCT FROM 'lesson-5-practice-rounds-v2'
      OR old_version < 3
      OR jsonb_array_length(old_content->'pages') <> 2
-     OR old_content ? 'culture' THEN
+     OR old_content->'culture' IS DISTINCT FROM expected_preview
+     OR old_block_culture IS DISTINCT FROM expected_preview THEN
     RAISE EXCEPTION 'Lesson 5 published content changed after Agora authoring; review before publishing';
   END IF;
   INSERT INTO public.lesson_content_versions (lesson_id, content, version, note)
@@ -98,6 +110,16 @@ BEGIN
   UPDATE public.lesson_content_overrides
   SET content = old_content || patch, version = old_version + 1, updated_at = now()
   WHERE lesson_id = lesson_id_value;
+  UPDATE public.lesson_content_blocks b
+  SET content = jsonb_set(b.content, '{value}', patch->'culture'), updated_at = now()
+  FROM public.lesson_segments s
+  WHERE b.segment_id = s.id AND s.lesson_id = lesson_id_value
+    AND b.content->>'source' = 'lesson_publish'
+    AND b.content->>'kind' = 'culture';
+  GET DIAGNOSTICS updated_blocks = ROW_COUNT;
+  IF updated_blocks <> 1 THEN
+    RAISE EXCEPTION 'Expected one Lesson 5 published culture block; found %', updated_blocks;
+  END IF;
 END
 $lesson5agora$;
 COMMIT;

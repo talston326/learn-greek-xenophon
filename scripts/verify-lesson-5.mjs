@@ -80,6 +80,7 @@ assert.doesNotMatch(practiceMigration,/(?:UPDATE|DELETE FROM) public\.(?:users|l
 const agoraMigration=read('db/migrations/0023_lesson_5_agora_culture.sql');
 assert.deepEqual(JSON.parse(agoraMigration.match(/\$json\$([\s\S]*?)\$json\$/)[1]),{contentRevision,pages:payload.pages,culture});
 assert.match(agoraMigration,/INSERT INTO public\.lesson_content_versions/);
+assert.match(agoraMigration,/UPDATE public\.lesson_content_blocks/);
 assert.doesNotMatch(agoraMigration,/(?:UPDATE|DELETE FROM) public\.(?:users|lesson_progress|student_progress|lesson_content_drafts)/);
 const serialized=JSON.stringify(payload);
 assert.equal(serialized,serialized.normalize('NFC'));
