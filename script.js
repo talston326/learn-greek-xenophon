@@ -4988,9 +4988,18 @@ function selectDefaultRole(user) {
   return user.roles.includes("student") ? "student" : user.roles[0];
 }
 
-function handleAuthenticatedUser(user) {
+function handleAuthenticatedUser(user, preferredRole = null) {
   if (!user?.roles?.length) {
     throw new Error("This account has no assigned course role.");
+  }
+
+  if (preferredRole) {
+    if (!user.roles.includes(preferredRole)) {
+      throw new Error(`This account does not have ${ROLE_LABELS[preferredRole] || preferredRole} access.`);
+    }
+
+    showDashboard(writeSession(user, preferredRole));
+    return;
   }
 
   if (user.roles.length === 1 || user.roles.includes("student")) {
@@ -5025,7 +5034,7 @@ function getDevelopmentFallbackUser(email, password) {
   };
 }
 
-function performLogin({ email, password, statusMessage = "Signing in..." }) {
+function performLogin({ email, password, statusMessage = "Signing in...", preferredRole = null }) {
   setFieldError(loginEmailInput, !email);
   setFieldError(loginPasswordInput, !password);
 
@@ -5045,7 +5054,7 @@ function performLogin({ email, password, statusMessage = "Signing in..." }) {
     .then((user) => {
       window.xenophonAuth.rememberVisiblePassword?.(email, password);
       loginPasswordInput.value = "";
-      handleAuthenticatedUser(user);
+      handleAuthenticatedUser(user, preferredRole);
     })
     .catch((error) => {
       const fallbackUser = getDevelopmentFallbackUser(email, password);
@@ -5053,7 +5062,7 @@ function performLogin({ email, password, statusMessage = "Signing in..." }) {
       if (fallbackUser) {
         window.xenophonAuth.rememberVisiblePassword?.(email, password);
         loginPasswordInput.value = "";
-        handleAuthenticatedUser(fallbackUser);
+        handleAuthenticatedUser(fallbackUser, preferredRole);
         return;
       }
 
@@ -5190,7 +5199,8 @@ quickDevLoginButton?.addEventListener("click", () => {
   performLogin({
     email: "tpalston@email.sc.edu",
     password: window.xenophonAuth?.DEV_CLASS_PASSWORD || "xenophon",
-    statusMessage: "Signing in with the developer account..."
+    statusMessage: "Signing in with the developer account...",
+    preferredRole: "administrator"
   });
 });
 
