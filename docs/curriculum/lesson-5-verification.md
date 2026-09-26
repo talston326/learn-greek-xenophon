@@ -1,29 +1,16 @@
-# Lesson 5 verification — 17 September 2026
+# Lesson 5 verification — 26 September 2026
 
-## Implemented locally
+## Content
 
-- Two authored pages: Reading and Language Study.
-- 329 Greek words in seven paragraphs, compared with 222 words in Lesson 4 (whitespace token counts).
-- 29 vocabulary entries/cards, 57 paragraph glosses, 14 grammar cards.
-- Six practice topics (word study plus five grammar sections), 24 practice questions, 24 distinct grammar assessment questions, and 29 vocabulary questions.
-- Existing Lesson 5 banner reused unchanged. Reading translation retains staff-only reveal behavior.
-- No recorded reading audio; explicitly marked as not yet recorded.
+- Two authored pages: Reading and Language Study, with the existing Xenophon and Socrates story and banner preserved.
+- Six optional grammar and word-study practice topics, each with 50 questions in five rounds of 10. Each question gives immediate feedback and must be corrected before continuing. Students may stop at any point.
+- Optional vocabulary practice has 50 questions in five rounds of 10, with the same stop control.
+- A distinct, required 30-question final Quiz covers the six practice topics and reading. Students must answer every question and score at least 80% to proceed from Lesson 5.
+- Quiz passes carry a revision identifier. Earlier Lesson 5 completions and quiz attempts do not satisfy the new final Quiz gate. The progress API checks for the revisioned pass before recording completion.
 
-## Passed checks
+## Source and publication
 
-- `verify:lesson5`, `verify:lesson4`, `verify:lesson4-language`, `verify:lesson4-culture`, `verify:glosses`.
-- JavaScript syntax checks and `git diff --check`.
-- Real application browser UI at desktop 1440 × 1000 and mobile 390 × 844. Local API response supplied the authored payload; live progress writes were intercepted.
-- Both pages under student, professor, and administrator sessions; staff translation visibility; seven reading paragraphs; five grammar tables; all practice links.
-- Vocabulary and grammar card flips and Know It actions; English-to-Greek vocabulary mode.
-- Required-answer validation, 100% assessment scoring, and persistence of the grammar gate after navigation.
-- No page-level JavaScript errors or mobile horizontal overflow.
-- Database migration applied twice to isolated Neon branch `br-rough-king-amc554ef`: 2 pages, 29 canonical vocabulary links, 57 glosses, one archived former reading, unchanged override version on the second run. Branch expires at 2026-09-17 23:57:05 UTC.
-
-## Separate existing issue
-
-The read-only production dictionary test fails because `ὑλακτεῖ` appears as a global dictionary headword. No Lesson 5 changes were applied to production, and no dictionary implementation was changed in this task.
-
-## Delivery state
-
-Local edits are uncommitted. The production database migration and site deployment have not been run. The migration preserves the prior published Lesson 5 draft in revision history when applied; a review copy is also saved beside this report as `previous-published-lesson-5.json`. No synced project sources were modified.
+- `content/lessons/lesson-5.json` and `lesson-data.js` contain the same authored payload.
+- Migration `0021_lesson_5_practice_rounds_and_final_quiz.sql` updates published activities and the content revision, archives the previous published version, and leaves the reading and learner progress tables intact.
+- `scripts/build-lesson-5-practice.mjs` regenerates the question banks, static fallback, and migration from the original Lesson 5 content.
+- Run `npm run verify:lesson5` for structural and content checks.

@@ -124,12 +124,25 @@
     }
   }
 
-  async function recordActivityResult({ lessonSlug, activityType, score, passed, pointsEarned, pointsPossible, categoryScores }) {
+  async function recordActivityResult({ lessonSlug, activityType, activityRevision, score, passed, pointsEarned, pointsPossible, categoryScores }) {
+    let savedRevisionedQuiz = null;
+    if (activityType === "lesson-quiz" && activityRevision) {
+      try {
+        savedRevisionedQuiz = await postProgress({
+          action: "activity_passed", lessonSlug, activityType, activityRevision,
+          score, passed, pointsEarned, pointsPossible, categoryScores
+        });
+      } catch (error) {
+        console.warn("The final quiz result could not be saved.", error);
+        return null;
+      }
+    }
     updateLessonFallback(lessonSlug, (lessonState) => {
       lessonState.gates ||= {};
       lessonState.gates[activityType] = {
         score,
         passed,
+        ...(activityRevision ? { activityRevision } : {}),
         ...(pointsEarned != null ? { pointsEarned } : {}),
         ...(pointsPossible != null ? { pointsPossible } : {}),
         ...(categoryScores?.length ? { categoryScores } : {}),
@@ -147,14 +160,21 @@
 
       if (passed && activityType === "lesson-quiz") {
         progress.passedQuizzes = Array.from(new Set([...(progress.passedQuizzes || []), lessonSlug]));
+        if (activityRevision) {
+          progress.passedQuizRevisions ||= {};
+          progress.passedQuizRevisions[lessonSlug] = Array.from(new Set([...(progress.passedQuizRevisions[lessonSlug] || []), activityRevision]));
+        }
       }
     });
+
+    if (savedRevisionedQuiz) return savedRevisionedQuiz;
 
     try {
       return await postProgress({
         action: "activity_passed",
         lessonSlug,
         activityType,
+        activityRevision,
         score,
         passed,
         pointsEarned,
@@ -167,7 +187,16 @@
     }
   }
 
-  async function completeLesson({ lessonSlug, nextLessonSlug, advanceToNext = false }) {
+  async function completeLesson({ lessonSlug, nextLessonSlug, advanceToNext = false, requireServer = false }) {
+    let savedCompletion = null;
+    if (requireServer) {
+      try {
+        savedCompletion = await postProgress({ action: "complete_lesson", lessonSlug, nextLessonSlug, advanceToNext });
+      } catch (error) {
+        console.warn("Lesson completion could not be saved.", error);
+        return null;
+      }
+    }
     updateLessonFallback(lessonSlug, (lessonState) => {
       lessonState.completed = true;
       lessonState.completedAt = new Date().toISOString();
@@ -181,6 +210,8 @@
         progress.currentSegmentId = "lesson-start";
       }
     });
+
+    if (savedCompletion) return savedCompletion;
 
     try {
       return await postProgress({
@@ -199,15 +230,18 @@
     return readLessonFallback(lessonSlug)?.gates?.[activityType] || null;
   }
 
-  function isActivityPassed(lessonSlug, activityType, threshold = 80) {
+  function isActivityPassed(lessonSlug, activityType, threshold = 80, activityRevision) {
     const result = getActivityResult(lessonSlug, activityType);
-    if (result?.passed && Number(result.score || 0) >= threshold) {
+    if (result?.passed && Number(result.score || 0) >= threshold && (!activityRevision || result.activityRevision === activityRevision)) {
       return true;
     }
 
     const progress = readSession()?.progress || {};
 
     if (activityType === "lesson-quiz") {
+      if (activityRevision) {
+        return Boolean((progress.passedQuizRevisions?.[lessonSlug] || []).includes(activityRevision));
+      }
       return (
         (progress.passedQuizzes || []).includes(lessonSlug) ||
         (progress.completedLessons || []).includes(lessonSlug)

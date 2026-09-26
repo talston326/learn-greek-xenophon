@@ -30,6 +30,7 @@ type ActivityRow = {
 type GateActivityRow = {
   lesson_slug: string | null;
   activity_type: string | null;
+  activity_revision: string | null;
 };
 
 type AchievementEarnedRow = {
@@ -197,7 +198,8 @@ export async function buildProgress(
     `
       SELECT DISTINCT
         metadata->>'lessonSlug' AS lesson_slug,
-        metadata->>'activityType' AS activity_type
+        metadata->>'activityType' AS activity_type,
+        metadata->>'activityRevision' AS activity_revision
       FROM public.activity_events
       WHERE user_id = $1
         AND course_id = $2
@@ -298,6 +300,7 @@ export async function buildProgress(
   const nextLevelXp = progress?.next_level_xp || 100;
   const completedExercises = buildCompletedExercises(completedLessons);
   const passedQuizzes = new Set(completedLessons);
+  const passedQuizRevisions: Record<string, string[]> = {};
 
   gateActivityResult.rows.forEach((row) => {
     if (!row.lesson_slug || !row.activity_type) {
@@ -306,6 +309,12 @@ export async function buildProgress(
 
     if (row.activity_type === "lesson-quiz") {
       passedQuizzes.add(row.lesson_slug);
+      if (row.activity_revision) {
+        passedQuizRevisions[row.lesson_slug] ||= [];
+        if (!passedQuizRevisions[row.lesson_slug].includes(row.activity_revision)) {
+          passedQuizRevisions[row.lesson_slug].push(row.activity_revision);
+        }
+      }
       return;
     }
 
@@ -374,6 +383,7 @@ export async function buildProgress(
     currentSegmentId: progress?.current_segment_slug || "lesson-start",
     completedLessons,
     passedQuizzes: Array.from(passedQuizzes),
+    passedQuizRevisions,
     completedExercises,
     completedLessonsCount: displayCompletedLessonsCount,
     totalLessonsCount,

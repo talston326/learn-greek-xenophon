@@ -15,7 +15,7 @@
   let reviewedInMode = 0;
   let topicPracticeOffset = 0;
   let topicPracticeQuestions = [];
-  const TOPIC_PRACTICE_BATCH_SIZE = 5;
+  const DEFAULT_PRACTICE_BATCH_SIZE = 10;
 
   if (returnTo.includes("lesson.html") && params.has("page") && !returnTo.includes("page=")) {
     returnTo += `${returnTo.includes("?") ? "&" : "?"}page=${params.get("page")}`;
@@ -149,7 +149,8 @@
     }
 
     if (activityType === "topic-practice" && topic) {
-      const section = lesson.grammar?.sections?.find((item) => item.practiceTopic === topic || item.id === topic);
+      const section = [...(lesson.wordStudy?.blocks || []), ...(lesson.grammar?.sections || [])]
+        .find((item) => item.practiceTopic === topic || item.id === topic);
       const topicTitle = section?.title?.replace(/^\d+\.\s*/, "");
 
       if (topicTitle) {
@@ -410,8 +411,9 @@
       return;
     }
 
+    const batchSize = Number(lesson.activities?.[activityType]?.roundSize) || DEFAULT_PRACTICE_BATCH_SIZE;
     const currentQuestions = questions
-      .slice(topicPracticeOffset, topicPracticeOffset + TOPIC_PRACTICE_BATCH_SIZE)
+      .slice(topicPracticeOffset, topicPracticeOffset + batchSize)
       .map(prepareTopicQuestion);
     const start = topicPracticeOffset + 1;
     const end = topicPracticeOffset + currentQuestions.length;
@@ -419,7 +421,7 @@
     renderShell(`
       <section class="topic-practice-session" aria-label="Topic practice session">
         <div class="topic-practice-progress" aria-live="polite">
-          <span>Questions ${start}-${end} of ${questions.length}</span>
+          <span>Round ${Math.floor(topicPracticeOffset / batchSize) + 1} of ${Math.ceil(questions.length / batchSize)} · Questions ${start}-${end} of ${questions.length}</span>
           <span>${escapeHtml(getTopicPracticeInstructions())}</span>
         </div>
         <div class="topic-practice-list">
@@ -440,12 +442,12 @@
           `).join("")}
         </div>
         <div class="activity-submit-row topic-practice-actions">
-          <button class="primary-button" type="button" data-topic-continue disabled>Continue</button>
-          <a class="secondary-button" href="${escapeHtml(returnTo)}">Quit</a>
+          <button class="primary-button" type="button" data-topic-continue disabled>${end >= questions.length ? "Finish practice" : "Continue practice"}</button>
+          <a class="secondary-button" href="${escapeHtml(returnTo)}">Stop practice and return to lesson</a>
         </div>
       </section>
     `);
-    bindTopicPractice(currentQuestions, questions.length);
+    bindTopicPractice(currentQuestions, questions.length, batchSize);
   }
 
   function updateTopicContinueState() {
@@ -458,7 +460,7 @@
     }
   }
 
-  function bindTopicPractice(currentQuestions, totalQuestions) {
+  function bindTopicPractice(currentQuestions, totalQuestions, batchSize) {
     shell.querySelectorAll("[data-topic-question]").forEach((questionEl) => {
       const questionIndex = Number(questionEl.dataset.topicQuestion);
       const question = currentQuestions[questionIndex];
@@ -494,7 +496,7 @@
     });
 
     shell.querySelector("[data-topic-continue]")?.addEventListener("click", async () => {
-      const nextOffset = topicPracticeOffset + TOPIC_PRACTICE_BATCH_SIZE;
+      const nextOffset = topicPracticeOffset + batchSize;
 
       if (nextOffset >= totalQuestions) {
         await window.xenophonLessonProgress?.recordActivityResult({
@@ -505,7 +507,7 @@
         });
         renderShell(`
           <section class="flashcard-study">
-            <h2>Topic practice complete.</h2>
+            <h2>Practice complete.</h2>
             <p class="muted">You answered all ${totalQuestions} questions correctly.</p>
             <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>
           </section>
@@ -808,6 +810,7 @@
       await window.xenophonLessonProgress?.recordActivityResult({
         lessonSlug: lesson.id,
         activityType,
+        activityRevision: lesson.activities?.[activityType]?.revision,
         score,
         passed
       });
@@ -930,22 +933,32 @@
         percent: Math.round((stats.correct / stats.total) * 100)
       }));
 
-      await window.xenophonLessonProgress?.recordActivityResult({
+      const savedResult = await window.xenophonLessonProgress?.recordActivityResult({
         lessonSlug: lesson.id,
         activityType,
+        activityRevision: activity.revision,
         score,
         passed,
         pointsEarned,
         pointsPossible,
         categoryScores
       });
+      if (activityType === "lesson-quiz" && activity.revision && !savedResult) {
+        if (result) result.textContent = "The quiz result could not be saved. Please submit again when connected.";
+        return;
+      }
 
       if (passed && activityType === "lesson-quiz") {
-        await window.xenophonLessonProgress?.completeLesson({
+        const savedCompletion = await window.xenophonLessonProgress?.completeLesson({
           lessonSlug: lesson.id,
           nextLessonSlug: lesson.nextLesson.id,
-          advanceToNext: false
+          advanceToNext: false,
+          requireServer: Boolean(activity.revision)
         });
+        if (activity.revision && !savedCompletion) {
+          if (result) result.textContent = "Your quiz passed, but lesson completion could not be saved. Please try again when connected.";
+          return;
+        }
       }
 
       if (result) {
@@ -998,7 +1011,7 @@
       return;
     }
 
-    if (activityType === "topic-practice") {
+    if (activityType === "topic-practice" || lesson.activities?.[activityType]?.practiceMode === "rounds") {
       renderTopicPractice();
       return;
     }

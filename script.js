@@ -1089,6 +1089,16 @@ function isLessonComplete(progress, lessonId) {
 }
 
 function isLessonUnlocked(lesson, progress) {
+  const lessonNumber = Number(lesson.id.match(/^lesson-(\d+)$/)?.[1] || 0);
+  if (lessonNumber >= 6) {
+    const session = readSession();
+    const isStaff = ["administrator", "professor"].includes(session?.activeRole)
+      && (session?.roles || []).includes(session.activeRole);
+    const passedCurrentQuiz = (progress.passedQuizRevisions?.["lesson-5"] || []).includes("lesson-5-final-quiz-v1");
+    const alreadyBeyondLessonFive = Number(String(progress.currentLessonId || "").match(/^lesson-(\d+)$/)?.[1] || 0) >= 6
+      || (progress.completedLessons || []).some((id) => Number(String(id).match(/^lesson-(\d+)$/)?.[1] || 0) >= 6);
+    if (!isStaff && !passedCurrentQuiz && !alreadyBeyondLessonFive) return false;
+  }
   if (OPEN_LESSON_ACCESS_DURING_BUILD) {
     return true;
   }
@@ -2896,6 +2906,7 @@ function hydrateProgress(progress = {}) {
     currentSegmentId: progress.currentSegmentId || "lesson-start",
     completedLessons,
     passedQuizzes: Array.isArray(progress.passedQuizzes) ? progress.passedQuizzes : [],
+    passedQuizRevisions: progress.passedQuizRevisions || {},
     completedExercises: progress.completedExercises || {},
     completedLessonsCount: typeof progress.completedLessonsCount === "number" ? progress.completedLessonsCount : completedLessons.length,
     totalLessonsCount: typeof progress.totalLessonsCount === "number" ? progress.totalLessonsCount : COURSE_LESSONS.length,

@@ -14,6 +14,7 @@ type LessonProgressRequest = {
   segmentTitle?: string;
   page?: number;
   activityType?: string;
+  activityRevision?: string;
   score?: number;
   pointsEarned?: number;
   pointsPossible?: number;
@@ -197,6 +198,7 @@ export default async (request: Request) => {
             lessonSlug,
             lessonId: lesson.id,
             activityType: body.activityType,
+            activityRevision: body.activityRevision,
             score,
             passed,
             pointsEarned,
@@ -248,6 +250,30 @@ export default async (request: Request) => {
     }
 
     if (action === "complete_lesson") {
+      const quizRequirement = await client.query(
+        `SELECT content->'activities'->'lesson-quiz'->>'revision' AS revision,
+                (content->'activities'->'lesson-quiz'->>'threshold')::integer AS threshold
+         FROM public.lesson_content_overrides WHERE lesson_id = $1`,
+        [lesson.id]
+      );
+      const requiredRevision = quizRequirement.rows[0]?.revision;
+      if (requiredRevision) {
+        const passedQuiz = await client.query(
+          `SELECT 1 FROM public.activity_events
+           WHERE user_id = $1 AND course_id = $2 AND event_type = 'quiz_passed'
+             AND metadata->>'lessonSlug' = $3
+             AND metadata->>'activityType' = 'lesson-quiz'
+             AND metadata->>'activityRevision' = $4
+             AND metadata->>'passed' = 'true'
+             AND (metadata->>'score')::numeric >= $5
+           LIMIT 1`,
+          [user.user_id, user.course_id, lessonSlug, requiredRevision, quizRequirement.rows[0]?.threshold || 80]
+        );
+        if (!passedQuiz.rowCount) {
+          await client.query("ROLLBACK");
+          return jsonResponse({ error: "Pass the current final lesson quiz before continuing." }, 403);
+        }
+      }
       await client.query(
         `
           INSERT INTO public.lesson_progress (user_id, lesson_id, status, started_at, completed_at, xp_awarded)

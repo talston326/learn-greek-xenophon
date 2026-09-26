@@ -713,6 +713,7 @@
 
   function renderGrammarGate() {
     const activity = lesson.activities?.["grammar-exercises"];
+    if (!activity) return "";
     return `
       <section class="lesson-section gate-panel" aria-labelledby="grammar-exercises-heading">
         <div class="lesson-section__header">
@@ -760,6 +761,7 @@
       ${renderGrammar()}
       ${renderGrammarSummary()}
       ${renderGrammarGate()}
+      ${page.page === lesson.pages.length ? renderFinalQuizSection() : ""}
       ${renderPageNav()}
     `;
   }
@@ -1625,9 +1627,14 @@
   }
 
   function getGateState() {
+    if (page.page === lesson.pages.length && page.template === "grammar" && lesson.activities?.["lesson-quiz"]?.required && !isStaffView()) {
+      const quiz = lesson.activities["lesson-quiz"];
+      const threshold = quiz.threshold || 80;
+      return { type: "lesson-quiz", threshold, revision: quiz.revision, message: `Pass the final lesson quiz with ${threshold}% or higher to complete this lesson and continue.` };
+    }
     if (["culture", "quiz"].includes(page.template) && lesson.activities?.["lesson-quiz"]?.required && !isStaffView()) {
       const threshold = lesson.activities["lesson-quiz"].threshold || 80;
-      return { type: "lesson-quiz", threshold, message: `Pass the final lesson quiz with ${threshold}% or higher to complete this lesson and continue.` };
+      return { type: "lesson-quiz", threshold, revision: lesson.activities["lesson-quiz"].revision, message: `Pass the final lesson quiz with ${threshold}% or higher to complete this lesson and continue.` };
     }
     if (page.template === "grammar" && lesson.activities?.["grammar-exercises"]?.required && !isStaffView()) {
       const threshold = lesson.activities["grammar-exercises"].threshold || 80;
@@ -1763,7 +1770,7 @@
     }
 
     const result = window.xenophonLessonProgress?.getActivityResult(lesson.id, gate.type);
-    const passed = window.xenophonLessonProgress?.isActivityPassed(lesson.id, gate.type, gate.threshold);
+    const passed = window.xenophonLessonProgress?.isActivityPassed(lesson.id, gate.type, gate.threshold, gate.revision);
     const nextLink = shell.querySelector(`[data-required-gate="${gate.type}"]`);
     const message = shell.querySelector(`[data-gate-message="${gate.type}"]`);
 
@@ -1785,7 +1792,7 @@
         const requiredGate = link.dataset.requiredGate;
         if (requiredGate) {
           const gate = getGateState();
-          const passed = window.xenophonLessonProgress?.isActivityPassed(lesson.id, requiredGate, gate?.threshold || 80);
+          const passed = window.xenophonLessonProgress?.isActivityPassed(lesson.id, requiredGate, gate?.threshold || 80, gate?.revision);
           if (!passed) {
             event.preventDefault();
             updateGateControls();
@@ -1811,16 +1818,23 @@
           }
 
           const quiz = lesson.activities?.["lesson-quiz"];
-          const quizPassed = !quiz || window.xenophonLessonProgress?.isActivityPassed(lesson.id, "lesson-quiz", quiz.threshold);
+          const quizPassed = !quiz || window.xenophonLessonProgress?.isActivityPassed(lesson.id, "lesson-quiz", quiz.threshold, quiz.revision);
           if (!quizPassed && hasOpenLessonAccess()) {
             window.location.href = lesson.nextLesson.fallbackUrl;
             return;
           }
-          await window.xenophonLessonProgress?.completeLesson({
+          const savedCompletion = await window.xenophonLessonProgress?.completeLesson({
             lessonSlug: lesson.id,
             nextLessonSlug: lesson.nextLesson.id,
-            advanceToNext: true
+            advanceToNext: true,
+            requireServer: Boolean(quiz?.revision)
           });
+          if (quiz?.revision && !savedCompletion) {
+            link.removeAttribute("aria-busy");
+            const message = shell.querySelector('[data-gate-message="lesson-quiz"]');
+            if (message) message.textContent = "Progress could not be saved. Please try again when connected.";
+            return;
+          }
           window.location.href = lesson.nextLesson.fallbackUrl;
         }
       });
@@ -1829,6 +1843,16 @@
 
   async function init() {
     await loadPublishedLessonContent();
+    if (lesson?.number >= 6 && !isStaffView()) {
+      const progress = readSession()?.progress || {};
+      const passedCurrentQuiz = (progress.passedQuizRevisions?.["lesson-5"] || []).includes("lesson-5-final-quiz-v1");
+      const alreadyBeyondLessonFive = Number(String(progress.currentLessonId || "").match(/^lesson-(\d+)$/)?.[1] || 0) >= 6
+        || (progress.completedLessons || []).some((id) => Number(String(id).match(/^lesson-(\d+)$/)?.[1] || 0) >= 6);
+      if (!passedCurrentQuiz && !alreadyBeyondLessonFive) {
+        window.location.replace("lesson.html?lesson=5&page=2");
+        return;
+      }
+    }
     render();
 
     if (lesson && page) {
