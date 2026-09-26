@@ -341,7 +341,7 @@
     const activity = lesson.activities?.[activityType] || {};
     const questions = getQuestions();
 
-    if (!activity.randomizeChoices) {
+    if (!activity.randomizeChoices && !activity.revision) {
       return questions;
     }
 
