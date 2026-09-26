@@ -81,9 +81,9 @@ Private English or Ancient Greek notes saved from the Notebook page.
 | Column | Type | Notes |
 | --- | --- | --- |
 | id | uuid | Primary key |
-| code | text | Example: GREK 110 J10 |
+| code | text | Example: GREK 120 J10 |
 | title | text | Learn Ancient Greek with Xenophon |
-| term | text | Example: Spring 2027 |
+| term | text | Example: Fall 2027 |
 | institution | text | Example: University of South Carolina |
 | department | text | Example: Department of Classics |
 | created_at | timestamptz | Required |
@@ -556,7 +556,7 @@ Most professor dashboard cards can be computed from the tables above, but a few 
 
 Seed data should eventually include:
 
-- One course: GREK 110 J10, Learn Ancient Greek with Xenophon, Spring 2027.
+- One course: GREK 120 J10, Learn Ancient Greek with Xenophon, Fall 2027.
 - Roles: administrator, professor, student.
 - Modules: Introduction plus Modules I through IV.
 - Lessons: intro-1 through intro-3 and lesson-1 through lesson-48.

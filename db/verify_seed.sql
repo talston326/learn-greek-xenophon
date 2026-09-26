@@ -1,8 +1,8 @@
 WITH course AS (
   SELECT id
   FROM public.courses
-  WHERE code = 'GREK 110 J10'
-    AND term = 'Spring 2027'
+  WHERE code = 'GREK 120 J10'
+    AND term = 'Fall 2027'
 ),
 seed_users AS (
   SELECT unnest(ARRAY[
@@ -35,8 +35,8 @@ seed_user_rows AS (
 )
 SELECT 'courses' AS check_name, count(*)::text AS actual, '1' AS expected
 FROM public.courses
-WHERE code = 'GREK 110 J10'
-  AND term = 'Spring 2027'
+WHERE code = 'GREK 120 J10'
+  AND term = 'Fall 2027'
 UNION ALL
 SELECT 'roles', count(*)::text, '3'
 FROM public.roles
@@ -124,8 +124,8 @@ ORDER BY u.email;
 WITH course AS (
   SELECT id
   FROM public.courses
-  WHERE code = 'GREK 110 J10'
-    AND term = 'Spring 2027'
+  WHERE code = 'GREK 120 J10'
+    AND term = 'Fall 2027'
 ),
 seed_users AS (
   SELECT unnest(ARRAY[
@@ -167,8 +167,8 @@ ORDER BY sp.xp DESC, u.name;
 WITH course AS (
   SELECT id
   FROM public.courses
-  WHERE code = 'GREK 110 J10'
-    AND term = 'Spring 2027'
+  WHERE code = 'GREK 120 J10'
+    AND term = 'Fall 2027'
 ),
 seed_users AS (
   SELECT unnest(ARRAY[

@@ -184,8 +184,8 @@ export default async (request: Request) => {
   }
 
   const url = new URL(request.url);
-  const courseCode = url.searchParams.get("courseCode") || "GREK 110 J10";
-  const term = url.searchParams.get("term") || "Spring 2027";
+  const courseCode = url.searchParams.get("courseCode") || "GREK 120 J10";
+  const term = url.searchParams.get("term") || "Fall 2027";
   const client = new Client({ connectionString });
 
   try {

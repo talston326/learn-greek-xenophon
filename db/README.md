@@ -6,7 +6,8 @@ This folder contains reviewable SQL for the development/prototype Netlify DB dat
 
 - `migrations/0001_xenophon_initial_schema.sql` creates the initial Postgres schema.
 - `migrations/0017_user_notebook_notes.sql` adds private user-scoped notebook notes with title, body, timestamps, and per-user title uniqueness.
-- `seeds/0001_minimal_development_seed.sql` adds the idempotent GREK 110 J10 development course data: roles, 18 users, hashed prototype credentials, memberships, modules, lessons, lesson segments, progress, activity, levels, and achievements.
+- `migrations/0022_rename_course_for_fall_2027.sql` updates the existing course code and term in place, preserving memberships and progress.
+- `seeds/0001_minimal_development_seed.sql` adds the idempotent GREK 120 J10 development course data: roles, 18 users, hashed prototype credentials, memberships, modules, lessons, lesson segments, progress, activity, levels, and achievements.
 - `verify_schema.sql` lists the public tables after migration.
 - `verify_seed.sql` checks the seeded course counts and a few representative role/progress rows.
 
@@ -110,7 +111,7 @@ npm run db:verify:seed
 Or run these SQL checks in Neon:
 
 ```sql
-select count(*) from public.courses where code = 'GREK 110 J10' and term = 'Spring 2027';
+select count(*) from public.courses where code = 'GREK 120 J10' and term = 'Fall 2027';
 select count(*) from public.roles where id in ('administrator', 'professor', 'student');
 select count(*) from public.users where email in (
   'tpalston@email.sc.edu',
@@ -133,11 +134,11 @@ select count(*) from public.users where email in (
   'nioannidis@email.sc.edu'
 );
 select role_id, count(*) from public.user_roles group by role_id order by role_id;
-select count(*) from public.course_memberships cm join public.courses c on c.id = cm.course_id where c.code = 'GREK 110 J10' and c.term = 'Spring 2027' and cm.enrollment_status = 'active';
-select count(*) from public.student_progress sp join public.courses c on c.id = sp.course_id where c.code = 'GREK 110 J10' and c.term = 'Spring 2027';
+select count(*) from public.course_memberships cm join public.courses c on c.id = cm.course_id where c.code = 'GREK 120 J10' and c.term = 'Fall 2027' and cm.enrollment_status = 'active';
+select count(*) from public.student_progress sp join public.courses c on c.id = sp.course_id where c.code = 'GREK 120 J10' and c.term = 'Fall 2027';
 select count(*) from public.lesson_progress lp join public.users u on u.id = lp.user_id where u.email in ('tpalston@email.sc.edu', 'BECKMA@mailbox.sc.edu', 'jdavis@email.sc.edu', 'skim@email.sc.edu', 'achen@email.sc.edu', 'mlopez@email.sc.edu', 'paristocles@email.sc.edu', 'ahomer@email.sc.edu', 'phomer@email.sc.edu', 'tclay@email.sc.edu', 'jdoe@email.sc.edu', 'sdoe@email.sc.edu', 'mcontrary@email.sc.edu', 'agreat@email.sc.edu', 'dlaertius@email.sc.edu', 'apapadopoulos@email.sc.edu', 'dgeorgiou@email.sc.edu', 'nioannidis@email.sc.edu');
-select count(*) from public.activity_events ae join public.courses c on c.id = ae.course_id where c.code = 'GREK 110 J10' and c.term = 'Spring 2027';
-select u.name, l.slug as current_lesson, sp.level_number, sp.level_label, sp.xp from public.student_progress sp join public.users u on u.id = sp.user_id join public.lessons l on l.id = sp.current_lesson_id join public.courses c on c.id = sp.course_id where c.code = 'GREK 110 J10' and c.term = 'Spring 2027' order by sp.xp desc;
+select count(*) from public.activity_events ae join public.courses c on c.id = ae.course_id where c.code = 'GREK 120 J10' and c.term = 'Fall 2027';
+select u.name, l.slug as current_lesson, sp.level_number, sp.level_label, sp.xp from public.student_progress sp join public.users u on u.id = sp.user_id join public.lessons l on l.id = sp.current_lesson_id join public.courses c on c.id = sp.course_id where c.code = 'GREK 120 J10' and c.term = 'Fall 2027' order by sp.xp desc;
 ```
 
 Confirm key extensions:

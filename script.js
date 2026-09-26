@@ -589,9 +589,9 @@ function buildMockCourseUsers() {
     roles: plan.roles,
     progress: buildProgressFromPlan(plan),
     course: {
-      code: "GREK 110 J10",
+      code: "GREK 120 J10",
       title: "Learn Ancient Greek with Xenophon",
-      term: "Spring 2027"
+      term: "Fall 2027"
     }
   }));
 }
@@ -1243,7 +1243,7 @@ const ROLE_DASHBOARDS = {
     context: "Administrator Dashboard",
     heading: "Χαῖρε, διοικητά!",
     lines: [
-      "Manage GREK 110 J10.",
+      "Manage GREK 120 J10.",
       "Review course structure, lessons, users, and site settings."
     ],
     nav: [
@@ -1286,7 +1286,7 @@ const ROLE_DASHBOARDS = {
     context: "Student Dashboard",
     heading: "Χαῖρε, μαθητά!",
     lines: [
-      "Welcome back to GREK 110 J10.",
+      "Welcome back to GREK 120 J10.",
       "Keep up your excellent progress in learning",
       "Ancient Greek with Xenophon."
     ],
@@ -5038,9 +5038,9 @@ function getDevelopmentFallbackUser(email, password) {
     ...user,
     progress: hydrateProgress(user.progress),
     course: user.course || {
-      code: "GREK 110 J10",
+      code: "GREK 120 J10",
       title: "Learn Ancient Greek with Xenophon",
-      term: "Spring 2027"
+      term: "Fall 2027"
     }
   };
 }

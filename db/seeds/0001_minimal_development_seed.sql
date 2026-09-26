@@ -1,5 +1,5 @@
 -- Idempotent realistic seed data for Learn Ancient Greek with Xenophon.
--- Creates the Spring 2027 GREK 110 J10 course, course users, roles,
+-- Creates the Fall 2027 GREK 120 J10 course, course users, roles,
 -- curriculum structure, progress, activity, levels, and achievements.
 
 BEGIN;
@@ -34,9 +34,9 @@ INSERT INTO public.courses (
 )
 VALUES (
   '11111111-1111-4111-8111-111111111111',
-  'GREK 110 J10',
+  'GREK 120 J10',
   'Learn Ancient Greek with Xenophon',
-  'Spring 2027',
+  'Fall 2027',
   'University of South Carolina',
   'Department of Classics'
 )
@@ -142,7 +142,7 @@ all_seed_users AS (
   JOIN upserted_users u ON u.email = su.email::citext
 ),
 course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 role_rows AS (
   INSERT INTO public.user_roles (user_id, role_id)
@@ -176,7 +176,7 @@ ON CONFLICT (course_id, user_id) DO UPDATE
 SET enrollment_status = 'active';
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 canonical_seed_users AS (
   SELECT email FROM seed_mock_students
@@ -212,7 +212,7 @@ WHERE ur.user_id = sur.id
   AND NOT (ur.role_id = ANY(sur.roles));
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 seed_modules(slug, label, title, subtitle, description, module_type, sort_order) AS (
   VALUES
@@ -235,7 +235,7 @@ SET label = EXCLUDED.label,
     sort_order = EXCLUDED.sort_order;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 seed_lessons(module_slug, slug, number_label, title, grammar_focus, page_url, sort_order) AS (
   VALUES
@@ -303,7 +303,7 @@ SET number_label = EXCLUDED.number_label,
     is_published = true;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 obsolete_intro_lessons AS (
   SELECT l.id
@@ -337,7 +337,7 @@ WHERE vi.display_form = 'Vocabulary will be added later.'
   );
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 seed_vocabulary(lesson_slug, sort_order, category, display_form, gloss) AS (
   VALUES
@@ -542,7 +542,7 @@ ON CONFLICT (lesson_id, vocabulary_item_id) DO UPDATE
 SET sort_order = EXCLUDED.sort_order;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 course_lessons AS (
   SELECT l.id, l.slug, l.title
@@ -564,7 +564,7 @@ SET title = EXCLUDED.title,
     sort_order = EXCLUDED.sort_order;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 seed_levels(level_number, label, xp_required) AS (
   VALUES
@@ -588,7 +588,7 @@ SET label = EXCLUDED.label,
     xp_required = EXCLUDED.xp_required;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 )
 DELETE FROM public.levels levels
 USING course
@@ -678,7 +678,7 @@ WITH seed_users(email, current_lesson_slug, level_number, level_label, xp, next_
   FROM seed_mock_students
 ),
 course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 ordered_lessons AS (
   SELECT l.id, l.slug, row_number() OVER (ORDER BY m.sort_order, l.sort_order) AS lesson_index
@@ -725,7 +725,7 @@ SET current_lesson_id = EXCLUDED.current_lesson_id,
     updated_at = now();
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 grade_targets(email, test_count, base_score, spread_seed) AS (
   VALUES
@@ -827,7 +827,7 @@ WITH seed_users(email, current_lesson_slug, xp, course_complete) AS (
   FROM seed_mock_students
 ),
 course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 ordered_lessons AS (
   SELECT l.id, l.slug, row_number() OVER (ORDER BY m.sort_order, l.sort_order) AS lesson_index
@@ -868,7 +868,7 @@ SET status = EXCLUDED.status,
     xp_awarded = EXCLUDED.xp_awarded;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 target_users AS (
   SELECT u.id AS user_id, u.name, sms.email, sms.current_lesson_slug, sms.xp, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
@@ -883,7 +883,7 @@ WHERE ae.user_id = tu.user_id
   AND ae.metadata->>'seed_key' IN ('xenophon-test-data-v1', 'xenophon-awards-v1');
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 target_users AS (
   SELECT u.id AS user_id, u.name, sms.email, sms.current_lesson_slug, sms.xp, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
@@ -930,7 +930,7 @@ SELECT user_id, course_id, event_type, title, xp_delta, metadata, occurred_at
 FROM events;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 target_users AS (
   SELECT u.id AS user_id, sms.email, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset
@@ -944,7 +944,7 @@ WHERE ua.user_id = tu.user_id
   AND ua.course_id = tu.course_id;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 target_users AS (
   SELECT u.id AS user_id, sms.email, sms.metrics, course.id AS course_id, row_number() OVER (ORDER BY sms.email) AS user_offset

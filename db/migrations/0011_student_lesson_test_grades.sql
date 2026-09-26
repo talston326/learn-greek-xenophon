@@ -32,7 +32,7 @@ CREATE INDEX IF NOT EXISTS idx_student_lesson_test_grades_user_course
   ON public.student_lesson_test_grades(course_id, user_id, completed_at DESC);
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 seed_levels(level_number, label, xp_required) AS (
   VALUES
@@ -56,7 +56,7 @@ SET label = EXCLUDED.label,
     xp_required = EXCLUDED.xp_required;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 seed_progress(email, xp) AS (
   VALUES
@@ -120,7 +120,7 @@ WHERE sp.course_id = resolved.course_id
   AND sp.user_id = resolved.user_id;
 
 WITH course AS (
-  SELECT id FROM public.courses WHERE code = 'GREK 110 J10' AND term = 'Spring 2027'
+  SELECT id FROM public.courses WHERE code = 'GREK 120 J10' AND term = 'Fall 2027'
 ),
 grade_targets(email, test_count, base_score, spread_seed) AS (
   VALUES

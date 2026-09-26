@@ -10,8 +10,8 @@ import {
   requireDevClassPassword,
 } from "./_shared/course-auth.mts";
 
-const COURSE_CODE = "GREK 110 J10";
-const COURSE_TERM = "Spring 2027";
+const COURSE_CODE = "GREK 120 J10";
+const COURSE_TERM = "Fall 2027";
 
 function isLikelyEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
