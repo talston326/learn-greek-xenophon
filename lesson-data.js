@@ -4834,7 +4834,7 @@
     { number: 9, title: "What Makes a Good Friend?", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-9-symposium-banner.png", bannerAlt: "Socrates and four companions recline in an Athenian symposium room", grammarFocus: "Alpha-contract verbs, accent, and elision", greekPhrase: "Τίς ἐστι φίλος ἀγαθός;", sourceAnchor: "Xenophon, Memorabilia 2.6; Symposium 1.3–4", cultureLead: "Friendship and conversation after dinner in the Greek symposium." },
     { number: 10, title: "The Letter from Proxenus", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-10-letter-banner.png", bannerAlt: "A bearded Xenophon studies Proxenus’s letter while speaking with Socrates", grammarFocus: "Pronouns, possession, demonstratives, and adjective placement", greekPhrase: "Τὸ παρὰ Προξένου γράμμα", sourceAnchor: "Xenophon, Anabasis 2.1.10 and 3.1.4–5", cultureLead: "Theban guest friendship and paid military service after the Peloponnesian War." },
     { number: 11, title: "The Question at Delphi", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-11-delphi-banner-v2.png", bannerAlt: "Xenophon approaches the terraced Sanctuary of Apollo at Delphi", grammarFocus: "Present middle forms and common deponents", greekPhrase: "Τὸ ἐν Δελφοῖς ἐρώτημα", sourceAnchor: "Xenophon, Anabasis 3.1.5–6", cultureLead: "Delphi as a Panhellenic sanctuary and Croesus of Lydia as a consulter from beyond Greece." },
-    { number: 12, title: "The Examined Life", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Module review; present; imperfect; infinitives; participles", greekPhrase: "ὁ Σωκράτης λέγει ὅτι ὁ ἀνεξέταστος βίος οὐ βιωτός ἐστιν.", sourceAnchor: "Memorabilia 4.2.24–30, with comparison to Plato, Apology 38a", cultureLead: "This review lesson will connect Xenophon's Socrates with the later famous formulation about the examined life.", note: "Present this famous formulation as Platonic comparison, not as Xenophon's wording." },
+    { number: 12, title: "The Question He Did Not Ask", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-12-socrates-banner.png", bannerAlt: "Socrates speaking with Xenophon after Delphi", grammarFocus: "Middle meanings, datives, prepositions, and cumulative Module 1 review", greekPhrase: "Τὸ ἐρώτημα ὃ οὐκ ἠρώτα", sourceAnchor: "Xenophon, Anabasis 3.1.7–8", cultureLead: "From Socrates’ question to Sardis and the march inland." },
     { number: 13, title: "The General Leads", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Contract verbs; –έω, –άω, –όω; present system", greekPhrase: "ὁ στρατηγὸς τοὺς στρατιώτας φιλεῖ καὶ τιμᾷ. / οἱ δὲ στρατιῶται αὐτὸν ἀκολουθοῦσιν.", sourceAnchor: "Anabasis 1.3.1–21", cultureLead: "This lesson will begin the Anabasis module with leadership, loyalty, and contract verb forms." },
     { number: 14, title: "Trust in Leadership", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Imperfect of contract verbs; repeated past action", greekPhrase: "οἱ στρατιῶται τὸν στρατηγὸν ἐτίμων καὶ ἐφίλουν.", sourceAnchor: "Anabasis 1.3.15–21", cultureLead: "This lesson will use repeated past action to describe how soldiers responded to leaders over time." },
     { number: 15, title: "Hope and Expectation", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Future tense; predictive statements", greekPhrase: "οἱ ἄνδρες νικήσουσιν, ἐὰν θαρρῶσιν.", sourceAnchor: "Anabasis 3.1.15–25", cultureLead: "This lesson will connect future forms with courage under uncertain conditions." },
@@ -57179,6 +57179,4467 @@ Xenophon is young, but he wants to become wise.`;
   }
 };
   // END GENERATED LESSON 11
+
+  // BEGIN GENERATED LESSON 12
+  LESSONS["lesson-12"] = {
+  "id": "lesson-12",
+  "number": 12,
+  "title": "The Question He Did Not Ask",
+  "greekTitle": "Τὸ ἐρώτημα ὃ οὐκ ἠρώτα",
+  "scope": "Middle meanings, datives, prepositions, and cumulative Module 1 review",
+  "theme": "Socrates asks whether Xenophon should go before asking how to go well",
+  "module": "σοφία — Wisdom and Socrates",
+  "banner": {
+    "image": "assets/lesson-12-socrates-banner.png",
+    "alt": "Educational reconstruction of Socrates speaking with Xenophon after the consultation at Delphi",
+    "caption": "Socrates questions Xenophon after his return from Delphi. The conversation’s central point comes from Xenophon, Anabasis 3.1.7."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-12-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-12-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-12-page-3",
+      "title": "Toward the March of the Ten Thousand",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Questions and choices",
+      "items": [
+        {
+          "greek": "πότερον",
+          "english": "whether",
+          "dictionaryForm": "πότερον",
+          "status": "required vocabulary",
+          "lemma": "πότερον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λῷον",
+          "english": "better, more advantageous",
+          "dictionaryForm": "λῷον",
+          "status": "required vocabulary",
+          "lemma": "λῷον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μένω",
+          "english": "stay, remain",
+          "dictionaryForm": "μένω",
+          "status": "required vocabulary",
+          "lemma": "μένω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πυνθάνομαι",
+          "english": "ask, inquire",
+          "dictionaryForm": "πυνθάνομαι",
+          "status": "required vocabulary",
+          "lemma": "πυνθάνομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κρίνω",
+          "english": "decide, judge",
+          "dictionaryForm": "κρίνω",
+          "status": "required vocabulary",
+          "lemma": "κρίνω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὅπως",
+          "english": "how",
+          "dictionaryForm": "ὅπως",
+          "status": "required vocabulary",
+          "lemma": "ὅπως",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κάλλιστα",
+          "english": "as well as possible",
+          "dictionaryForm": "κάλλιστα",
+          "status": "required vocabulary",
+          "lemma": "κάλλιστα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μαντεία",
+          "english": "oracular response",
+          "dictionaryForm": "μαντεία, μαντείας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "μαντεία",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Action and journey",
+      "items": [
+        {
+          "greek": "χρή",
+          "english": "one must",
+          "dictionaryForm": "χρή",
+          "status": "required vocabulary",
+          "lemma": "χρή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ποιέω",
+          "english": "do, make",
+          "dictionaryForm": "ποιέω",
+          "status": "required vocabulary",
+          "lemma": "ποιέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κελεύω",
+          "english": "order, instruct",
+          "dictionaryForm": "κελεύω",
+          "status": "required vocabulary",
+          "lemma": "κελεύω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "θύω",
+          "english": "sacrifice",
+          "dictionaryForm": "θύω",
+          "status": "required vocabulary",
+          "lemma": "θύω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πορεύομαι",
+          "english": "travel, go",
+          "dictionaryForm": "πορεύομαι",
+          "status": "required vocabulary",
+          "lemma": "πορεύομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σύν",
+          "english": "with (+ dative)",
+          "dictionaryForm": "σύν",
+          "status": "required vocabulary",
+          "lemma": "σύν",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πρός",
+          "english": "toward (+ accusative)",
+          "dictionaryForm": "πρός",
+          "status": "required vocabulary",
+          "lemma": "πρός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὁδός",
+          "english": "road, journey",
+          "dictionaryForm": "ὁδός, ὁδοῦ, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ὁδός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἱ Σάρδεις",
+          "english": "Sardis",
+          "dictionaryForm": "Σάρδεις, Σάρδεων, αἱ",
+          "status": "reading vocabulary",
+          "lemma": "αἱ Σάρδεις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁρμάω",
+          "english": "set out",
+          "dictionaryForm": "ὁρμάω",
+          "status": "reading vocabulary",
+          "lemma": "ὁρμάω",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τὸ ἐρώτημα ὃ οὐκ ἠρώτα",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon has returned from Delphi with Apollo’s instruction. Read for the difference between “whether to go” and “how to travel as well as possible.”",
+      "Source note: Paragraphs 2–7 reproduce the substance and much of the Greek of Xenophon, Anabasis 3.1.7–8, divided into shorter units and with modern punctuation. Paragraphs 1 and 8 are simple connective adaptations. The banner scene and any implied spoken exchange beyond Xenophon’s reported words are adaptations; the ancient account reports Socrates’ reproach and advice, not a transcript of an extended dialogue.",
+      "The original passage includes aorists, optatives, and participles beyond Module 1. Blue glosses explain each of these. Focus on the decision, the datives and prepositions, and the middle forms you already know."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Ξενοφῶν πάλιν εἰς τὰς Ἀθήνας ἔρχεται. ὁ δὲ Σωκράτης περὶ τῆς μαντείας ἀκούει.",
+        "gloss": [
+          {
+            "greek": "πάλιν",
+            "english": "back, again"
+          },
+          {
+            "greek": "εἰς τὰς Ἀθήνας",
+            "english": "to Athens"
+          },
+          {
+            "greek": "ἔρχεται",
+            "english": "comes; a middle-form verb"
+          },
+          {
+            "greek": "ὁ δὲ Σωκράτης",
+            "english": "Socrates, in turn"
+          },
+          {
+            "greek": "περὶ τῆς μαντείας",
+            "english": "about the oracle’s response"
+          },
+          {
+            "greek": "ἀκούει",
+            "english": "he hears"
+          }
+        ]
+      },
+      {
+        "greek": "ἐπεὶ δὲ πάλιν ἦλθε, λέγει τὴν μαντείαν τῷ Σωκράτει.",
+        "gloss": [
+          {
+            "greek": "ἐπεὶ",
+            "english": "when"
+          },
+          {
+            "greek": "πάλιν ἦλθε",
+            "english": "he returned; aorist of ἔρχομαι"
+          },
+          {
+            "greek": "λέγει",
+            "english": "he reports"
+          },
+          {
+            "greek": "τὴν μαντείαν",
+            "english": "the oracle’s response"
+          },
+          {
+            "greek": "τῷ Σωκράτει",
+            "english": "to Socrates; dative recipient"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ δ᾽ ἀκούσας ᾐτιᾶτο αὐτὸν ὅτι οὐ τοῦτο πρῶτον ἠρώτα· πότερον λῷον εἴη αὐτῷ πορεύεσθαι ἢ μένειν;",
+        "gloss": [
+          {
+            "greek": "ὁ δ᾽",
+            "english": "Socrates, in turn"
+          },
+          {
+            "greek": "ἀκούσας",
+            "english": "after hearing; aorist participle"
+          },
+          {
+            "greek": "ᾐτιᾶτο αὐτὸν",
+            "english": "he reproached him; past middle form"
+          },
+          {
+            "greek": "ὅτι",
+            "english": "because"
+          },
+          {
+            "greek": "οὐ τοῦτο πρῶτον ἠρώτα",
+            "english": "he had not asked this first"
+          },
+          {
+            "greek": "πότερον",
+            "english": "whether"
+          },
+          {
+            "greek": "ἢ",
+            "english": "or"
+          },
+          {
+            "greek": "λῷον εἴη",
+            "english": "it would be better; optative"
+          },
+          {
+            "greek": "αὐτῷ",
+            "english": "for him; dative of interest"
+          },
+          {
+            "greek": "πορεύεσθαι ἢ μένειν",
+            "english": "to travel or to stay; infinitives"
+          }
+        ]
+      },
+      {
+        "greek": "ἀλλ᾽ αὐτὸς κρίνας ἰτέον εἶναι τοῦτ᾽ ἐπυνθάνετο· ὅπως ἂν κάλλιστα πορευθείη.",
+        "gloss": [
+          {
+            "greek": "ἀλλ᾽",
+            "english": "but, instead"
+          },
+          {
+            "greek": "αὐτὸς κρίνας",
+            "english": "having decided himself; aorist participle"
+          },
+          {
+            "greek": "ἰτέον εἶναι",
+            "english": "that he must go; necessity construction"
+          },
+          {
+            "greek": "τοῦτ᾽ ἐπυνθάνετο",
+            "english": "he asked this; past middle form"
+          },
+          {
+            "greek": "ὅπως ἂν",
+            "english": "how he might; introduces an indirect question"
+          },
+          {
+            "greek": "κάλλιστα",
+            "english": "as well as possible"
+          },
+          {
+            "greek": "πορευθείη",
+            "english": "he might travel; aorist optative"
+          }
+        ]
+      },
+      {
+        "greek": "ἐπεὶ μέντοι οὕτως ἤρου, ταῦτ᾽, ἔφη, χρὴ ποιεῖν ὅσα ὁ θεὸς ἐκέλευσεν.",
+        "gloss": [
+          {
+            "greek": "ἐπεὶ μέντοι",
+            "english": "nevertheless, since"
+          },
+          {
+            "greek": "οὕτως ἤρου",
+            "english": "you asked in this way; aorist middle"
+          },
+          {
+            "greek": "ταῦτ᾽",
+            "english": "these things"
+          },
+          {
+            "greek": "ἔφη",
+            "english": "he said; past of φημί"
+          },
+          {
+            "greek": "χρὴ ποιεῖν",
+            "english": "one must do"
+          },
+          {
+            "greek": "ὅσα",
+            "english": "all that, whatever"
+          },
+          {
+            "greek": "ὁ θεὸς ἐκέλευσεν",
+            "english": "the god instructed; aorist"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ μὲν δὴ Ξενοφῶν οὕτω θυσάμενος οἷς ἀνεῖλεν ὁ θεὸς ἐξέπλει,",
+        "gloss": [
+          {
+            "greek": "ὁ μὲν δὴ Ξενοφῶν",
+            "english": "Xenophon, then"
+          },
+          {
+            "greek": "οὕτω θυσάμενος",
+            "english": "having sacrificed in this way; aorist middle participle"
+          },
+          {
+            "greek": "οἷς",
+            "english": "to those gods; dative plural"
+          },
+          {
+            "greek": "ἀνεῖλεν ὁ θεὸς",
+            "english": "the god directed; aorist"
+          },
+          {
+            "greek": "ἐξέπλει",
+            "english": "he sailed away; imperfect"
+          }
+        ]
+      },
+      {
+        "greek": "καὶ καταλαμβάνει ἐν Σάρδεσι Πρόξενον καὶ Κῦρον μέλλοντας ἤδη ὁρμᾶν τὴν ἄνω ὁδόν, καὶ συνεστάθη Κύρῳ.",
+        "gloss": [
+          {
+            "greek": "καταλαμβάνει",
+            "english": "he finds, catches up with"
+          },
+          {
+            "greek": "ἐν Σάρδεσι",
+            "english": "at Sardis; place dative"
+          },
+          {
+            "greek": "Πρόξενον καὶ Κῦρον",
+            "english": "Proxenus and Cyrus; direct objects"
+          },
+          {
+            "greek": "μέλλοντας ἤδη ὁρμᾶν",
+            "english": "already about to set out"
+          },
+          {
+            "greek": "τὴν ἄνω ὁδόν",
+            "english": "the journey inland, literally the upper road"
+          },
+          {
+            "greek": "συνεστάθη Κύρῳ",
+            "english": "he was introduced to Cyrus; dative of person"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ξενοφῶν οὖν σὺν τῷ Προξένῳ πρὸς Κῦρον πορεύεται. ἡ ἄνω ὁδὸς ἤδη ἄρχεται.",
+        "gloss": [
+          {
+            "greek": "Ὁ Ξενοφῶν οὖν",
+            "english": "so Xenophon"
+          },
+          {
+            "greek": "σὺν τῷ Προξένῳ",
+            "english": "with Proxenus; σύν + dative"
+          },
+          {
+            "greek": "πρὸς Κῦρον",
+            "english": "toward Cyrus; πρός + accusative"
+          },
+          {
+            "greek": "πορεύεται",
+            "english": "travels; present middle"
+          },
+          {
+            "greek": "ἡ ἄνω ὁδὸς",
+            "english": "the inland journey"
+          },
+          {
+            "greek": "ἤδη ἄρχεται",
+            "english": "is now beginning; middle form"
+          }
+        ]
+      }
+    ],
+    "translation": "Xenophon comes back to Athens. Socrates hears about the oracle.\n\nWhen he had returned, he reports the oracle’s response to Socrates.\n\nAfter hearing him, Socrates reproached him because he had not first asked this: was it better for him to go or to stay?\n\nInstead, having decided himself that he must go, he asked this: how he might travel as well as possible.\n\nNevertheless, since you asked in this way, he said, you must do what the god instructed.\n\nXenophon, then, sacrificed as the god had directed and sailed away.\n\nHe finds Proxenus and Cyrus at Sardis already about to set out on the journey inland, and he is introduced to Cyrus.\n\nSo Xenophon travels with Proxenus toward Cyrus. The journey inland is now beginning.",
+    "sourceCitation": "Xenophon, Anabasis 3.1.7–8. https://www.tha.de/~harsch/graeca/Chronologia/S_ante04/Xenophon/xen_ana3.html",
+    "notesMarkdown": "The source says Xenophon reported the oracle to Socrates; Socrates faulted him for asking how to go well before asking whether going or staying was better. Socrates then told him to do what Apollo had instructed. Xenophon sacrificed accordingly, sailed, found Proxenus and Cyrus at Sardis, and was introduced to Cyrus. The source does not name the gods in this passage."
+  },
+  "wordStudy": {
+    "label": "Word Study — The Question Before the Journey",
+    "blocks": [
+      {
+        "title": "Whether, or how?",
+        "practiceTopic": "word-study",
+        "body": [
+          "πότερον … ἢ sets out a choice: “whether … or.” Socrates says the first question should have been whether it was better to travel or to stay. ὅπως asks “how.” Xenophon had already decided to go and asked how to make that journey most successfully.",
+          "πορεύεσθαι is “to travel,” a middle infinitive. μένειν is “to stay,” an active infinitive. ἐπυνθάνετο, “he was asking,” belongs to πυνθάνομαι, a verb with middle forms and an active English meaning.",
+          "Xenophon’s account ends with ἐν Σάρδεσι, “at Sardis,” and the pair Πρόξενον καὶ Κῦρον. Proxenus and Cyrus are the people he finds; the journey of the army is about to begin."
+        ],
+        "display": [
+          {
+            "greek": "πότερον … ἢ",
+            "english": "whether … or"
+          },
+          {
+            "greek": "πορεύεσθαι ἢ μένειν",
+            "english": "to go or to stay"
+          },
+          {
+            "greek": "ὅπως ἂν κάλλιστα",
+            "english": "how as well as possible"
+          },
+          {
+            "greek": "τῷ Σωκράτει",
+            "english": "to Socrates"
+          },
+          {
+            "greek": "ἐν Σάρδεσι",
+            "english": "at Sardis"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Use the final episode to bring Module 1 together. Translate the source with its glosses, then practice the middle, the dative, prepositions, and familiar verbs and nouns.",
+    "objectives": [
+      "Explain the choice marked by πότερον … ἢ and the different question introduced by ὅπως.",
+      "Read middle forms by meaning and identify their person and number.",
+      "Recognize a dative recipient, a dative after σύν or ἐν, and a dative of interest.",
+      "Choose cases after εἰς, πρός, ἐν, and σύν.",
+      "Review the active present, infinitives, noun agreement, and reading comprehension from Module 1."
+    ],
+    "sections": [
+      {
+        "id": "choice",
+        "title": "1. Whether to Go or How to Go",
+        "practiceTopic": "choice",
+        "body": [
+          "πότερον … ἢ frames two alternatives. Here they are πορεύεσθαι, “to travel,” and μένειν, “to stay.”",
+          "ὅπως asks how an action may happen. Xenophon asked how to travel κάλλιστα, “as well as possible,” after deciding to go.",
+          "The source’s λῷον εἴη and πορευθείη are advanced forms. Use the blue glosses to read their meanings; you do not need to produce these forms."
+        ],
+        "table": {
+          "title": "The two questions",
+          "headers": [
+            "Greek",
+            "Meaning",
+            "Role"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "πότερον … ἢ",
+              "whether … or",
+              "the choice"
+            ],
+            [
+              "πορεύεσθαι ἢ μένειν",
+              "to travel or stay",
+              "the alternatives"
+            ],
+            [
+              "ὅπως ἂν κάλλιστα",
+              "how as well as possible",
+              "the method"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Which question did Socrates say should come first?",
+            "answer": "Whether it was better to travel or stay."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "πότερον πορεύεσθαι ἢ μένειν;",
+            "english": "Whether to travel or to stay?"
+          }
+        ]
+      },
+      {
+        "id": "middle",
+        "title": "2. Middle Forms and Meanings",
+        "practiceTopic": "middle",
+        "body": [
+          "The present middle forms of πορεύομαι and πυνθάνομαι have active English meanings: “I travel” and “I ask.”",
+          "In the source, ἐπυνθάνετο is a past middle form, “he was asking”; ἤρου is an aorist middle, “you asked.” Both are glossed reading exposure.",
+          "The familiar present forms still matter: πορεύομαι, πορεύεται, πορεύονται; πυνθάνομαι, πυνθάνεται, πυνθάνονται."
+        ],
+        "table": {
+          "title": "Meaning over mechanical voice",
+          "headers": [
+            "Form",
+            "Person",
+            "Meaning"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "πορεύομαι",
+              "first singular",
+              "I travel"
+            ],
+            [
+              "πορεύεται",
+              "third singular",
+              "he or she travels"
+            ],
+            [
+              "πυνθάνομαι",
+              "first singular",
+              "I ask"
+            ],
+            [
+              "ἐπυνθάνετο",
+              "third singular, past",
+              "he was asking"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Does πορεύεται mean “he is traveled”?",
+            "answer": "No. It means “he travels.”"
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ὁ Ξενοφῶν πορεύεται.",
+            "english": "Xenophon travels."
+          }
+        ]
+      },
+      {
+        "id": "dative",
+        "title": "3. The Dative: To, For, With, and At",
+        "practiceTopic": "dative",
+        "body": [
+          "τῷ Σωκράτει tells who receives Xenophon’s report: “to Socrates.”",
+          "αὐτῷ in λῷον εἴη αὐτῷ means “better for him.” The dative can show whose interest is involved.",
+          "Prepositions also call for a dative: σὺν τῷ Προξένῳ means “with Proxenus,” while ἐν Σάρδεσι means “at Sardis.”"
+        ],
+        "table": {
+          "title": "Four datives in the episode",
+          "headers": [
+            "Phrase",
+            "Meaning",
+            "Use"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "τῷ Σωκράτει",
+              "to Socrates",
+              "recipient"
+            ],
+            [
+              "αὐτῷ",
+              "for him",
+              "interest"
+            ],
+            [
+              "σὺν τῷ Προξένῳ",
+              "with Proxenus",
+              "after σύν"
+            ],
+            [
+              "ἐν Σάρδεσι",
+              "at Sardis",
+              "after ἐν"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Why is Προξένῳ dative after σύν?",
+            "answer": "σύν takes the dative and means “with.”"
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ὁ Ξενοφῶν λέγει τῷ Σωκράτει.",
+            "english": "Xenophon tells Socrates."
+          }
+        ]
+      },
+      {
+        "id": "prepositions",
+        "title": "4. Prepositions and Direction",
+        "practiceTopic": "prepositions",
+        "body": [
+          "εἰς and πρός with the accusative point toward a destination: εἰς τὰς Ἀθήνας, “to Athens,” and πρὸς Κῦρον, “toward Cyrus.”",
+          "ἐν with the dative marks location: ἐν Σάρδεσι, “at Sardis.” σύν with the dative marks accompaniment: σὺν τῷ Προξένῳ, “with Proxenus.”",
+          "Distinguish travel to a place from being in that place. The case helps you see the difference."
+        ],
+        "table": {
+          "title": "Movement and location",
+          "headers": [
+            "Phrase",
+            "Case",
+            "Meaning"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "εἰς τὰς Ἀθήνας",
+              "accusative",
+              "to Athens"
+            ],
+            [
+              "πρὸς Κῦρον",
+              "accusative",
+              "toward Cyrus"
+            ],
+            [
+              "ἐν Σάρδεσι",
+              "dative",
+              "at Sardis"
+            ],
+            [
+              "σὺν τῷ Προξένῳ",
+              "dative",
+              "with Proxenus"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Which phrase means “at Sardis”?",
+            "answer": "ἐν Σάρδεσι."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "πορεύεται πρὸς Κῦρον σὺν τῷ Προξένῳ.",
+            "english": "He travels toward Cyrus with Proxenus."
+          }
+        ]
+      },
+      {
+        "id": "module-review",
+        "title": "5. Module 1 Review",
+        "practiceTopic": "module-review",
+        "body": [
+          "In λέγει τὴν μαντείαν τῷ Σωκράτει, λέγει is present active, τὴν μαντείαν is the direct object, and τῷ Σωκράτει is the recipient.",
+          "The infinitives πορεύεσθαι and μένειν name the two possible actions. Compare active μένω and middle πορεύομαι.",
+          "Review noun and adjective agreement, familiar present endings, plural forms, and the earlier stories from Xenophon’s household through Proxenus’ invitation and Delphi."
+        ],
+        "table": {
+          "title": "A cumulative sentence",
+          "headers": [
+            "Element",
+            "Form",
+            "Job"
+          ],
+          "greekColumns": [
+            1
+          ],
+          "rows": [
+            [
+              "subject",
+              "ὁ Ξενοφῶν",
+              "who acts"
+            ],
+            [
+              "verb",
+              "λέγει",
+              "what he does"
+            ],
+            [
+              "object",
+              "τὴν μαντείαν",
+              "what he reports"
+            ],
+            [
+              "recipient",
+              "τῷ Σωκράτει",
+              "to whom"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "What does τὴν μαντείαν do in the sentence?",
+            "answer": "It is the direct object of λέγει."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ὁ Ξενοφῶν λέγει τὴν μαντείαν τῷ Σωκράτει.",
+            "english": "Xenophon reports the oracle to Socrates."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Socrates says the prior question was whether going or staying was better; Xenophon asked how to travel best.",
+        "A middle form can have an active English meaning; translate the verb, not the ending alone.",
+        "Datives name recipients, interests, accompaniment after σύν, and location after ἐν.",
+        "εἰς and πρός with the accusative point toward a destination.",
+        "The source ends at Sardis, where Proxenus and Cyrus are preparing to set out."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Toward the March of the Ten Thousand",
+    "banner": {
+      "image": "assets/lesson-12-army-forward.png",
+      "display": "full",
+      "alt": "Educational reconstruction of Xenophon looking toward a gathering Greek army on the road inland",
+      "caption": "A forward-looking reconstruction: Xenophon joins Proxenus and Cyrus as the inland expedition is about to move. This is the bridge into the March of the Ten Thousand.",
+      "credit": "Original digital illustration generated for Learn Greek with Xenophon."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Sardis: the end of this lesson, the start of the march",
+        "body": [
+          "Xenophon says he found Proxenus and Cyrus at Sardis just as they were about to begin τὴν ἄνω ὁδόν, “the journey inland.” He was introduced to Cyrus there. The episode closes with action rather than a further oracle: he had sacrificed according to Apollo’s instruction and had left for the expedition.",
+          "Sardis was the point at which Xenophon’s personal decision met Cyrus’ assembled force. The image looks ahead to the army, but the reading ends with Xenophon’s arrival and introduction, exactly where Anabasis 3.1.8 leaves this scene."
+        ]
+      },
+      {
+        "title": "The question that follows him",
+        "body": [
+          "Socrates’ criticism concerns the order of Xenophon’s questions. Asking how to travel well assumes a decision to travel. Asking whether to travel leaves that decision open. The difference is the lesson’s central reading problem.",
+          "The next module follows the expedition and the Greek soldiers later known as the Ten Thousand. Keep the distinction between what Xenophon reports here and what the later narrative will reveal: at this moment, Proxenus and Cyrus are preparing to set out."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Where did Xenophon find Proxenus and Cyrus?",
+        "answer": "At Sardis."
+      },
+      {
+        "prompt": "What did the men at Sardis prepare to do?",
+        "answer": "Set out on the journey inland."
+      },
+      {
+        "prompt": "What action did Xenophon take before he left?",
+        "answer": "He sacrificed as Apollo had instructed."
+      },
+      {
+        "prompt": "What question did Socrates think should come first?",
+        "answer": "Whether it was better to go or stay."
+      }
+    ],
+    "review": {
+      "title": "Module 1 closes",
+      "items": [
+        "Read the contrast between πότερον … ἢ and ὅπως.",
+        "Explain the datives τῷ Σωκράτει, σὺν τῷ Προξένῳ, and ἐν Σάρδεσι.",
+        "Follow the sequence: oracle reported, Socrates’ response, sacrifices, departure, Sardis."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 3.1.4–8 (Greek text)",
+        "url": "https://www.tha.de/~harsch/graeca/Chronologia/S_ante04/Xenophon/xen_ana3.html"
+      },
+      {
+        "title": "Xenophon, Anabasis Book 3 (Perseus English)",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 12 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "πότερον",
+          "answer": "whether"
+        },
+        {
+          "prompt": "λῷον",
+          "answer": "better, more advantageous"
+        },
+        {
+          "prompt": "μένω",
+          "answer": "stay, remain"
+        },
+        {
+          "prompt": "πυνθάνομαι",
+          "answer": "ask, inquire"
+        },
+        {
+          "prompt": "κρίνω",
+          "answer": "decide, judge"
+        },
+        {
+          "prompt": "ὅπως",
+          "answer": "how"
+        },
+        {
+          "prompt": "κάλλιστα",
+          "answer": "as well as possible"
+        },
+        {
+          "prompt": "ἡ μαντεία",
+          "answer": "oracular response"
+        },
+        {
+          "prompt": "χρή",
+          "answer": "one must"
+        },
+        {
+          "prompt": "ποιέω",
+          "answer": "do, make"
+        },
+        {
+          "prompt": "κελεύω",
+          "answer": "order, instruct"
+        },
+        {
+          "prompt": "θύω",
+          "answer": "sacrifice"
+        },
+        {
+          "prompt": "πορεύομαι",
+          "answer": "travel, go"
+        },
+        {
+          "prompt": "σύν",
+          "answer": "with (+ dative)"
+        },
+        {
+          "prompt": "πρός",
+          "answer": "toward (+ accusative)"
+        },
+        {
+          "prompt": "ἡ ὁδός",
+          "answer": "road, journey"
+        },
+        {
+          "prompt": "αἱ Σάρδεις",
+          "answer": "Sardis"
+        },
+        {
+          "prompt": "ὁρμάω",
+          "answer": "set out"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 12 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Practice the required words in short rounds.",
+      "questions": [
+        {
+          "id": "lesson-12-vocab-1-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πότερον mean?",
+          "choices": [
+            {
+              "text": "as well as possible",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "whether",
+              "correct": true,
+              "feedback": "Correct: πότερον means whether."
+            },
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "decide, judge",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-1-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “whether”?",
+          "choices": [
+            {
+              "text": "ἡ μαντεία",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "πότερον",
+              "correct": true,
+              "feedback": "Correct: πότερον means whether."
+            },
+            {
+              "text": "πυνθάνομαι",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "ὅπως",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-2-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λῷον mean?",
+          "choices": [
+            {
+              "text": "how",
+              "correct": false,
+              "feedback": "Review: λῷον means better, more advantageous."
+            },
+            {
+              "text": "oracular response",
+              "correct": false,
+              "feedback": "Review: λῷον means better, more advantageous."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": true,
+              "feedback": "Correct: λῷον means better, more advantageous."
+            },
+            {
+              "text": "ask, inquire",
+              "correct": false,
+              "feedback": "Review: λῷον means better, more advantageous."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-2-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “better, more advantageous”?",
+          "choices": [
+            {
+              "text": "κάλλιστα",
+              "correct": false,
+              "feedback": "Review: λῷον means better, more advantageous."
+            },
+            {
+              "text": "χρή",
+              "correct": false,
+              "feedback": "Review: λῷον means better, more advantageous."
+            },
+            {
+              "text": "λῷον",
+              "correct": true,
+              "feedback": "Correct: λῷον means better, more advantageous."
+            },
+            {
+              "text": "κρίνω",
+              "correct": false,
+              "feedback": "Review: λῷον means better, more advantageous."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-3-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does μένω mean?",
+          "choices": [
+            {
+              "text": "decide, judge",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "as well as possible",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "one must",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "stay, remain",
+              "correct": true,
+              "feedback": "Correct: μένω means stay, remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-3-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “stay, remain”?",
+          "choices": [
+            {
+              "text": "ὅπως",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "ἡ μαντεία",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "μένω",
+              "correct": true,
+              "feedback": "Correct: μένω means stay, remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-4-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πυνθάνομαι mean?",
+          "choices": [
+            {
+              "text": "ask, inquire",
+              "correct": true,
+              "feedback": "Correct: πυνθάνομαι means ask, inquire."
+            },
+            {
+              "text": "how",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask, inquire."
+            },
+            {
+              "text": "oracular response",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask, inquire."
+            },
+            {
+              "text": "do, make",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask, inquire."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-4-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “ask, inquire”?",
+          "choices": [
+            {
+              "text": "πυνθάνομαι",
+              "correct": true,
+              "feedback": "Correct: πυνθάνομαι means ask, inquire."
+            },
+            {
+              "text": "κάλλιστα",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask, inquire."
+            },
+            {
+              "text": "χρή",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask, inquire."
+            },
+            {
+              "text": "κελεύω",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask, inquire."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-5-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does κρίνω mean?",
+          "choices": [
+            {
+              "text": "order, instruct",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            },
+            {
+              "text": "decide, judge",
+              "correct": true,
+              "feedback": "Correct: κρίνω means decide, judge."
+            },
+            {
+              "text": "as well as possible",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            },
+            {
+              "text": "one must",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-5-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “decide, judge”?",
+          "choices": [
+            {
+              "text": "θύω",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            },
+            {
+              "text": "κρίνω",
+              "correct": true,
+              "feedback": "Correct: κρίνω means decide, judge."
+            },
+            {
+              "text": "ἡ μαντεία",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            },
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-6-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὅπως mean?",
+          "choices": [
+            {
+              "text": "do, make",
+              "correct": false,
+              "feedback": "Review: ὅπως means how."
+            },
+            {
+              "text": "sacrifice",
+              "correct": false,
+              "feedback": "Review: ὅπως means how."
+            },
+            {
+              "text": "how",
+              "correct": true,
+              "feedback": "Correct: ὅπως means how."
+            },
+            {
+              "text": "oracular response",
+              "correct": false,
+              "feedback": "Review: ὅπως means how."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-6-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “how”?",
+          "choices": [
+            {
+              "text": "κελεύω",
+              "correct": false,
+              "feedback": "Review: ὅπως means how."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ὅπως means how."
+            },
+            {
+              "text": "ὅπως",
+              "correct": true,
+              "feedback": "Correct: ὅπως means how."
+            },
+            {
+              "text": "χρή",
+              "correct": false,
+              "feedback": "Review: ὅπως means how."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-7-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does κάλλιστα mean?",
+          "choices": [
+            {
+              "text": "one must",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "order, instruct",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "travel, go",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "as well as possible",
+              "correct": true,
+              "feedback": "Correct: κάλλιστα means as well as possible."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-7-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “as well as possible”?",
+          "choices": [
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "θύω",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "σύν",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "κάλλιστα",
+              "correct": true,
+              "feedback": "Correct: κάλλιστα means as well as possible."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-8-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μαντεία mean?",
+          "choices": [
+            {
+              "text": "oracular response",
+              "correct": true,
+              "feedback": "Correct: ἡ μαντεία means oracular response."
+            },
+            {
+              "text": "do, make",
+              "correct": false,
+              "feedback": "Review: ἡ μαντεία means oracular response."
+            },
+            {
+              "text": "sacrifice",
+              "correct": false,
+              "feedback": "Review: ἡ μαντεία means oracular response."
+            },
+            {
+              "text": "with (+ dative)",
+              "correct": false,
+              "feedback": "Review: ἡ μαντεία means oracular response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-8-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “oracular response”?",
+          "choices": [
+            {
+              "text": "ἡ μαντεία",
+              "correct": true,
+              "feedback": "Correct: ἡ μαντεία means oracular response."
+            },
+            {
+              "text": "κελεύω",
+              "correct": false,
+              "feedback": "Review: ἡ μαντεία means oracular response."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ἡ μαντεία means oracular response."
+            },
+            {
+              "text": "πρός",
+              "correct": false,
+              "feedback": "Review: ἡ μαντεία means oracular response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-9-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does χρή mean?",
+          "choices": [
+            {
+              "text": "toward (+ accusative)",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            },
+            {
+              "text": "one must",
+              "correct": true,
+              "feedback": "Correct: χρή means one must."
+            },
+            {
+              "text": "order, instruct",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            },
+            {
+              "text": "travel, go",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-9-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “one must”?",
+          "choices": [
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            },
+            {
+              "text": "χρή",
+              "correct": true,
+              "feedback": "Correct: χρή means one must."
+            },
+            {
+              "text": "θύω",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            },
+            {
+              "text": "σύν",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-10-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ποιέω mean?",
+          "choices": [
+            {
+              "text": "with (+ dative)",
+              "correct": false,
+              "feedback": "Review: ποιέω means do, make."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: ποιέω means do, make."
+            },
+            {
+              "text": "do, make",
+              "correct": true,
+              "feedback": "Correct: ποιέω means do, make."
+            },
+            {
+              "text": "sacrifice",
+              "correct": false,
+              "feedback": "Review: ποιέω means do, make."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-10-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “do, make”?",
+          "choices": [
+            {
+              "text": "πρός",
+              "correct": false,
+              "feedback": "Review: ποιέω means do, make."
+            },
+            {
+              "text": "πότερον",
+              "correct": false,
+              "feedback": "Review: ποιέω means do, make."
+            },
+            {
+              "text": "ποιέω",
+              "correct": true,
+              "feedback": "Correct: ποιέω means do, make."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ποιέω means do, make."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-11-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does κελεύω mean?",
+          "choices": [
+            {
+              "text": "travel, go",
+              "correct": false,
+              "feedback": "Review: κελεύω means order, instruct."
+            },
+            {
+              "text": "toward (+ accusative)",
+              "correct": false,
+              "feedback": "Review: κελεύω means order, instruct."
+            },
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: κελεύω means order, instruct."
+            },
+            {
+              "text": "order, instruct",
+              "correct": true,
+              "feedback": "Correct: κελεύω means order, instruct."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-11-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “order, instruct”?",
+          "choices": [
+            {
+              "text": "σύν",
+              "correct": false,
+              "feedback": "Review: κελεύω means order, instruct."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: κελεύω means order, instruct."
+            },
+            {
+              "text": "λῷον",
+              "correct": false,
+              "feedback": "Review: κελεύω means order, instruct."
+            },
+            {
+              "text": "κελεύω",
+              "correct": true,
+              "feedback": "Correct: κελεύω means order, instruct."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-12-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does θύω mean?",
+          "choices": [
+            {
+              "text": "sacrifice",
+              "correct": true,
+              "feedback": "Correct: θύω means sacrifice."
+            },
+            {
+              "text": "with (+ dative)",
+              "correct": false,
+              "feedback": "Review: θύω means sacrifice."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: θύω means sacrifice."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: θύω means sacrifice."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-12-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “sacrifice”?",
+          "choices": [
+            {
+              "text": "θύω",
+              "correct": true,
+              "feedback": "Correct: θύω means sacrifice."
+            },
+            {
+              "text": "πρός",
+              "correct": false,
+              "feedback": "Review: θύω means sacrifice."
+            },
+            {
+              "text": "πότερον",
+              "correct": false,
+              "feedback": "Review: θύω means sacrifice."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "Review: θύω means sacrifice."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-13-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "travel, go",
+              "correct": true,
+              "feedback": "Correct: πορεύομαι means travel, go."
+            },
+            {
+              "text": "toward (+ accusative)",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-13-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “travel, go”?",
+          "choices": [
+            {
+              "text": "πυνθάνομαι",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": true,
+              "feedback": "Correct: πορεύομαι means travel, go."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "λῷον",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-14-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does σύν mean?",
+          "choices": [
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: σύν means with (+ dative)."
+            },
+            {
+              "text": "ask, inquire",
+              "correct": false,
+              "feedback": "Review: σύν means with (+ dative)."
+            },
+            {
+              "text": "with (+ dative)",
+              "correct": true,
+              "feedback": "Correct: σύν means with (+ dative)."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: σύν means with (+ dative)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-14-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “with (+ dative)”?",
+          "choices": [
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "Review: σύν means with (+ dative)."
+            },
+            {
+              "text": "κρίνω",
+              "correct": false,
+              "feedback": "Review: σύν means with (+ dative)."
+            },
+            {
+              "text": "σύν",
+              "correct": true,
+              "feedback": "Correct: σύν means with (+ dative)."
+            },
+            {
+              "text": "πότερον",
+              "correct": false,
+              "feedback": "Review: σύν means with (+ dative)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-15-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πρός mean?",
+          "choices": [
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "decide, judge",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "toward (+ accusative)",
+              "correct": true,
+              "feedback": "Correct: πρός means toward (+ accusative)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-15-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “toward (+ accusative)”?",
+          "choices": [
+            {
+              "text": "λῷον",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "πυνθάνομαι",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "ὅπως",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "πρός",
+              "correct": true,
+              "feedback": "Correct: πρός means toward (+ accusative)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-16-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὁδός mean?",
+          "choices": [
+            {
+              "text": "road, journey",
+              "correct": true,
+              "feedback": "Correct: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "ask, inquire",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "how",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-vocab-16-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “road, journey”?",
+          "choices": [
+            {
+              "text": "ἡ ὁδός",
+              "correct": true,
+              "feedback": "Correct: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "κρίνω",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "κάλλιστα",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 12 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "πότερον … ἢ",
+          "answer": "whether … or"
+        },
+        {
+          "prompt": "ὅπως",
+          "answer": "how"
+        },
+        {
+          "prompt": "τῷ Σωκράτει",
+          "answer": "to Socrates"
+        },
+        {
+          "prompt": "σὺν τῷ Προξένῳ",
+          "answer": "with Proxenus"
+        },
+        {
+          "prompt": "ἐν Σάρδεσι",
+          "answer": "at Sardis"
+        },
+        {
+          "prompt": "πορεύεσθαι",
+          "answer": "to travel"
+        },
+        {
+          "prompt": "μένειν",
+          "answer": "to stay"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 12 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 6,
+      "instructions": "Practice this topic, then return to the reading.",
+      "questions": [
+        {
+          "id": "lesson-12-practice-001",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What contrast does πότερον … ἢ introduce?",
+          "choices": [
+            {
+              "text": "with … in",
+              "correct": false,
+              "feedback": "Review: πότερον … ἢ marks alternatives."
+            },
+            {
+              "text": "whether … or",
+              "correct": true,
+              "feedback": "Correct: πότερον … ἢ marks alternatives."
+            },
+            {
+              "text": "because … therefore",
+              "correct": false,
+              "feedback": "Review: πότερον … ἢ marks alternatives."
+            },
+            {
+              "text": "from … to",
+              "correct": false,
+              "feedback": "Review: πότερον … ἢ marks alternatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-002",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does μένειν mean?",
+          "choices": [
+            {
+              "text": "to ask",
+              "correct": false,
+              "feedback": "Review: μένειν means to stay."
+            },
+            {
+              "text": "to sacrifice",
+              "correct": false,
+              "feedback": "Review: μένειν means to stay."
+            },
+            {
+              "text": "to stay",
+              "correct": true,
+              "feedback": "Correct: μένειν means to stay."
+            },
+            {
+              "text": "to travel",
+              "correct": false,
+              "feedback": "Review: μένειν means to stay."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-003",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does πορεύεσθαι mean?",
+          "choices": [
+            {
+              "text": "to remain",
+              "correct": false,
+              "feedback": "Review: πορεύεσθαι means to travel."
+            },
+            {
+              "text": "to report",
+              "correct": false,
+              "feedback": "Review: πορεύεσθαι means to travel."
+            },
+            {
+              "text": "to meet",
+              "correct": false,
+              "feedback": "Review: πορεύεσθαι means to travel."
+            },
+            {
+              "text": "to travel",
+              "correct": true,
+              "feedback": "Correct: πορεύεσθαι means to travel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-004",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does κάλλιστα mean here?",
+          "choices": [
+            {
+              "text": "as well as possible",
+              "correct": true,
+              "feedback": "Correct: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "much later",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "with a friend",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            },
+            {
+              "text": "to Athens",
+              "correct": false,
+              "feedback": "Review: κάλλιστα means as well as possible."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-005",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What is ἡ μαντεία?",
+          "choices": [
+            {
+              "text": "the army",
+              "correct": false,
+              "feedback": "Review: μαντεία is an oracle’s response."
+            },
+            {
+              "text": "the oracle’s response",
+              "correct": true,
+              "feedback": "Correct: μαντεία is an oracle’s response."
+            },
+            {
+              "text": "the road",
+              "correct": false,
+              "feedback": "Review: μαντεία is an oracle’s response."
+            },
+            {
+              "text": "the letter",
+              "correct": false,
+              "feedback": "Review: μαντεία is an oracle’s response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-006",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does χρὴ ποιεῖν mean?",
+          "choices": [
+            {
+              "text": "one must remain",
+              "correct": false,
+              "feedback": "Review: χρὴ ποιεῖν means one must do."
+            },
+            {
+              "text": "one must return",
+              "correct": false,
+              "feedback": "Review: χρὴ ποιεῖν means one must do."
+            },
+            {
+              "text": "one must do",
+              "correct": true,
+              "feedback": "Correct: χρὴ ποιεῖν means one must do."
+            },
+            {
+              "text": "one must ask",
+              "correct": false,
+              "feedback": "Review: χρὴ ποιεῖν means one must do."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-007",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does ὅπως introduce?",
+          "choices": [
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: ὅπως introduces how."
+            },
+            {
+              "text": "with whom",
+              "correct": false,
+              "feedback": "Review: ὅπως introduces how."
+            },
+            {
+              "text": "from where",
+              "correct": false,
+              "feedback": "Review: ὅπως introduces how."
+            },
+            {
+              "text": "how",
+              "correct": true,
+              "feedback": "Correct: ὅπως introduces how."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-008",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does πυνθάνομαι mean?",
+          "choices": [
+            {
+              "text": "I ask or inquire",
+              "correct": true,
+              "feedback": "Correct: πυνθάνομαι means ask or inquire."
+            },
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask or inquire."
+            },
+            {
+              "text": "I sacrifice",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask or inquire."
+            },
+            {
+              "text": "I stay",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means ask or inquire."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-009",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "Which question should Xenophon have asked first?",
+          "choices": [
+            {
+              "text": "where to meet Proxenus",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "whether to go or stay",
+              "correct": true,
+              "feedback": "Correct: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "how quickly to sail",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "which ship to hire",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-010",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "What had Xenophon already decided?",
+          "choices": [
+            {
+              "text": "to return from Sardis",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            },
+            {
+              "text": "to refuse Proxenus",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            },
+            {
+              "text": "to go",
+              "correct": true,
+              "feedback": "Correct: He had already decided to go."
+            },
+            {
+              "text": "to stay",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-011",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "Which pair names the alternatives?",
+          "choices": [
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "πορεύεσθαι ἢ μένειν",
+              "correct": true,
+              "feedback": "Correct: The infinitives mean to travel or to stay."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-012",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "What did his actual question ask?",
+          "choices": [
+            {
+              "text": "how to travel best",
+              "correct": true,
+              "feedback": "Correct: He asked how to make the journey best."
+            },
+            {
+              "text": "whether to stay in Athens",
+              "correct": false,
+              "feedback": "Review: He asked how to make the journey best."
+            },
+            {
+              "text": "who wrote the letter",
+              "correct": false,
+              "feedback": "Review: He asked how to make the journey best."
+            },
+            {
+              "text": "why Cyrus was king",
+              "correct": false,
+              "feedback": "Review: He asked how to make the journey best."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-013",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "Which word means “whether”?",
+          "choices": [
+            {
+              "text": "ἐν",
+              "correct": false,
+              "feedback": "Review: πότερον opens the choice."
+            },
+            {
+              "text": "πότερον",
+              "correct": true,
+              "feedback": "Correct: πότερον opens the choice."
+            },
+            {
+              "text": "ὅπως",
+              "correct": false,
+              "feedback": "Review: πότερον opens the choice."
+            },
+            {
+              "text": "σύν",
+              "correct": false,
+              "feedback": "Review: πότερον opens the choice."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-014",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "Which word means “how”?",
+          "choices": [
+            {
+              "text": "ἢ",
+              "correct": false,
+              "feedback": "Review: ὅπως asks how."
+            },
+            {
+              "text": "οἷς",
+              "correct": false,
+              "feedback": "Review: ὅπως asks how."
+            },
+            {
+              "text": "ὅπως",
+              "correct": true,
+              "feedback": "Correct: ὅπως asks how."
+            },
+            {
+              "text": "πότερον",
+              "correct": false,
+              "feedback": "Review: ὅπως asks how."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-015",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does πορεύεται mean?",
+          "choices": [
+            {
+              "text": "he is traveled",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "they travel",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "he travels",
+              "correct": true,
+              "feedback": "Correct: πορεύεται means he travels."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-016",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "I travel",
+              "correct": true,
+              "feedback": "Correct: -ομαι marks first singular."
+            },
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            },
+            {
+              "text": "we travel",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            },
+            {
+              "text": "they travel",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-017",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does πορεύονται mean?",
+          "choices": [
+            {
+              "text": "you travel",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "they travel",
+              "correct": true,
+              "feedback": "Correct: -ονται marks third plural."
+            },
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-018",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does ἐπυνθάνετο mean in the gloss?",
+          "choices": [
+            {
+              "text": "they asked",
+              "correct": false,
+              "feedback": "Review: The past middle has active meaning."
+            },
+            {
+              "text": "I inquire",
+              "correct": false,
+              "feedback": "Review: The past middle has active meaning."
+            },
+            {
+              "text": "he was asking",
+              "correct": true,
+              "feedback": "Correct: The past middle has active meaning."
+            },
+            {
+              "text": "he was asked",
+              "correct": false,
+              "feedback": "Review: The past middle has active meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-019",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does ἤρου mean in the gloss?",
+          "choices": [
+            {
+              "text": "he went",
+              "correct": false,
+              "feedback": "Review: The source uses ἤρου for you asked."
+            },
+            {
+              "text": "they sacrificed",
+              "correct": false,
+              "feedback": "Review: The source uses ἤρου for you asked."
+            },
+            {
+              "text": "I asked",
+              "correct": false,
+              "feedback": "Review: The source uses ἤρου for you asked."
+            },
+            {
+              "text": "you asked",
+              "correct": true,
+              "feedback": "Correct: The source uses ἤρου for you asked."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-020",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "Which verb uses middle forms to mean “I inquire”?",
+          "choices": [
+            {
+              "text": "πυνθάνομαι",
+              "correct": true,
+              "feedback": "Correct: πυνθάνομαι means I inquire."
+            },
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means I inquire."
+            },
+            {
+              "text": "θύω",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means I inquire."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "Review: πυνθάνομαι means I inquire."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-021",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What is τῷ Σωκράτει in λέγει τὴν μαντείαν τῷ Σωκράτει?",
+          "choices": [
+            {
+              "text": "place",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "recipient",
+              "correct": true,
+              "feedback": "Correct: Socrates receives the report."
+            },
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-022",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What does σὺν τῷ Προξένῳ mean?",
+          "choices": [
+            {
+              "text": "from Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            },
+            {
+              "text": "about Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            },
+            {
+              "text": "with Proxenus",
+              "correct": true,
+              "feedback": "Correct: σύν takes a dative and means with."
+            },
+            {
+              "text": "toward Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-023",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What does ἐν Σάρδεσι mean?",
+          "choices": [
+            {
+              "text": "toward Sardis",
+              "correct": false,
+              "feedback": "Review: ἐν plus dative marks location."
+            },
+            {
+              "text": "from Sardis",
+              "correct": false,
+              "feedback": "Review: ἐν plus dative marks location."
+            },
+            {
+              "text": "with Sardis",
+              "correct": false,
+              "feedback": "Review: ἐν plus dative marks location."
+            },
+            {
+              "text": "at Sardis",
+              "correct": true,
+              "feedback": "Correct: ἐν plus dative marks location."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-024",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What does αὐτῷ mean after λῷον εἴη?",
+          "choices": [
+            {
+              "text": "for him",
+              "correct": true,
+              "feedback": "Correct: The dative shows whose interest is involved."
+            },
+            {
+              "text": "toward him",
+              "correct": false,
+              "feedback": "Review: The dative shows whose interest is involved."
+            },
+            {
+              "text": "him as object",
+              "correct": false,
+              "feedback": "Review: The dative shows whose interest is involved."
+            },
+            {
+              "text": "from him",
+              "correct": false,
+              "feedback": "Review: The dative shows whose interest is involved."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-025",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "Which case follows σύν here?",
+          "choices": [
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: σύν takes the dative."
+            },
+            {
+              "text": "dative",
+              "correct": true,
+              "feedback": "Correct: σύν takes the dative."
+            },
+            {
+              "text": "accusative",
+              "correct": false,
+              "feedback": "Review: σύν takes the dative."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: σύν takes the dative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-026",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "Which case is Σάρδεσι?",
+          "choices": [
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: Σάρδεσι is dative plural."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: Σάρδεσι is dative plural."
+            },
+            {
+              "text": "dative",
+              "correct": true,
+              "feedback": "Correct: Σάρδεσι is dative plural."
+            },
+            {
+              "text": "accusative",
+              "correct": false,
+              "feedback": "Review: Σάρδεσι is dative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-027",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase means “to Athens”?",
+          "choices": [
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": true,
+              "feedback": "Correct: εἰς with accusative marks movement to."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-028",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase means “toward Cyrus”?",
+          "choices": [
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": true,
+              "feedback": "Correct: πρός with accusative points toward."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            },
+            {
+              "text": "περὶ τῆς μαντείας",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-029",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase marks location?",
+          "choices": [
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: ἐν with dative marks location."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": true,
+              "feedback": "Correct: ἐν with dative marks location."
+            },
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": false,
+              "feedback": "Review: ἐν with dative marks location."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: ἐν with dative marks location."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-030",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase marks accompaniment?",
+          "choices": [
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": false,
+              "feedback": "Review: σύν means with."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: σύν means with."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": true,
+              "feedback": "Correct: σύν means with."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: σύν means with."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-031",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which case follows εἰς?",
+          "choices": [
+            {
+              "text": "dative",
+              "correct": false,
+              "feedback": "Review: εἰς takes the accusative."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: εἰς takes the accusative."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: εἰς takes the accusative."
+            },
+            {
+              "text": "accusative",
+              "correct": true,
+              "feedback": "Correct: εἰς takes the accusative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-032",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which case follows ἐν?",
+          "choices": [
+            {
+              "text": "dative",
+              "correct": true,
+              "feedback": "Correct: ἐν takes the dative."
+            },
+            {
+              "text": "accusative",
+              "correct": false,
+              "feedback": "Review: ἐν takes the dative."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: ἐν takes the dative."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: ἐν takes the dative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-033",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "What is the direct object of λέγει?",
+          "choices": [
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "τὴν μαντείαν",
+              "correct": true,
+              "feedback": "Correct: He reports the oracle’s response."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-034",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "What is the subject of λέγει?",
+          "choices": [
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            },
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": true,
+              "feedback": "Correct: Xenophon is the one reporting."
+            },
+            {
+              "text": "τὴν μαντείαν",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-035",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "Which verb is present active?",
+          "choices": [
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: λέγει is present active."
+            },
+            {
+              "text": "πυνθάνεται",
+              "correct": false,
+              "feedback": "Review: λέγει is present active."
+            },
+            {
+              "text": "ἔρχεται",
+              "correct": false,
+              "feedback": "Review: λέγει is present active."
+            },
+            {
+              "text": "λέγει",
+              "correct": true,
+              "feedback": "Correct: λέγει is present active."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-036",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "Which is an active infinitive?",
+          "choices": [
+            {
+              "text": "μένειν",
+              "correct": true,
+              "feedback": "Correct: μένειν is an active infinitive."
+            },
+            {
+              "text": "πορεύεσθαι",
+              "correct": false,
+              "feedback": "Review: μένειν is an active infinitive."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: μένειν is an active infinitive."
+            },
+            {
+              "text": "πυνθάνομαι",
+              "correct": false,
+              "feedback": "Review: μένειν is an active infinitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-037",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "Which is a middle infinitive?",
+          "choices": [
+            {
+              "text": "θύω",
+              "correct": false,
+              "feedback": "Review: πορεύεσθαι is a middle infinitive."
+            },
+            {
+              "text": "πορεύεσθαι",
+              "correct": true,
+              "feedback": "Correct: πορεύεσθαι is a middle infinitive."
+            },
+            {
+              "text": "μένειν",
+              "correct": false,
+              "feedback": "Review: πορεύεσθαι is a middle infinitive."
+            },
+            {
+              "text": "λέγει",
+              "correct": false,
+              "feedback": "Review: πορεύεσθαι is a middle infinitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-practice-038",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "What happened before Xenophon sailed?",
+          "choices": [
+            {
+              "text": "the army returned home",
+              "correct": false,
+              "feedback": "Review: Xenophon sacrificed as instructed."
+            },
+            {
+              "text": "Socrates went to Sardis",
+              "correct": false,
+              "feedback": "Review: Xenophon sacrificed as instructed."
+            },
+            {
+              "text": "he sacrificed as directed",
+              "correct": true,
+              "feedback": "Correct: Xenophon sacrificed as instructed."
+            },
+            {
+              "text": "he met Cyrus at Athens",
+              "correct": false,
+              "feedback": "Review: Xenophon sacrificed as instructed."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 12 Grammar Exercises",
+      "description": "Required cumulative Module 1 grammar check",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-12-grammar-v1",
+      "instructions": "Answer all 20 questions and score at least 80% to continue.",
+      "questions": [
+        {
+          "id": "lesson-12-grammar-01",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "Which question should Xenophon have asked first?",
+          "choices": [
+            {
+              "text": "where to meet Proxenus",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "whether to go or stay",
+              "correct": true,
+              "feedback": "Correct: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "how quickly to sail",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "which ship to hire",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-02",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "What had Xenophon already decided?",
+          "choices": [
+            {
+              "text": "to return from Sardis",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            },
+            {
+              "text": "to refuse Proxenus",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            },
+            {
+              "text": "to go",
+              "correct": true,
+              "feedback": "Correct: He had already decided to go."
+            },
+            {
+              "text": "to stay",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-03",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "Which pair names the alternatives?",
+          "choices": [
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "πορεύεσθαι ἢ μένειν",
+              "correct": true,
+              "feedback": "Correct: The infinitives mean to travel or to stay."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-04",
+          "type": "multiple-choice",
+          "topic": "choice",
+          "category": "Grammar",
+          "prompt": "What did his actual question ask?",
+          "choices": [
+            {
+              "text": "how to travel best",
+              "correct": true,
+              "feedback": "Correct: He asked how to make the journey best."
+            },
+            {
+              "text": "whether to stay in Athens",
+              "correct": false,
+              "feedback": "Review: He asked how to make the journey best."
+            },
+            {
+              "text": "who wrote the letter",
+              "correct": false,
+              "feedback": "Review: He asked how to make the journey best."
+            },
+            {
+              "text": "why Cyrus was king",
+              "correct": false,
+              "feedback": "Review: He asked how to make the journey best."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-05",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does πορεύεται mean?",
+          "choices": [
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "he travels",
+              "correct": true,
+              "feedback": "Correct: πορεύεται means he travels."
+            },
+            {
+              "text": "he is traveled",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "they travel",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-06",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "we travel",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            },
+            {
+              "text": "they travel",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            },
+            {
+              "text": "I travel",
+              "correct": true,
+              "feedback": "Correct: -ομαι marks first singular."
+            },
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-07",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does πορεύονται mean?",
+          "choices": [
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "you travel",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "they travel",
+              "correct": true,
+              "feedback": "Correct: -ονται marks third plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-08",
+          "type": "multiple-choice",
+          "topic": "middle",
+          "category": "Grammar",
+          "prompt": "What does ἐπυνθάνετο mean in the gloss?",
+          "choices": [
+            {
+              "text": "he was asking",
+              "correct": true,
+              "feedback": "Correct: The past middle has active meaning."
+            },
+            {
+              "text": "he was asked",
+              "correct": false,
+              "feedback": "Review: The past middle has active meaning."
+            },
+            {
+              "text": "they asked",
+              "correct": false,
+              "feedback": "Review: The past middle has active meaning."
+            },
+            {
+              "text": "I inquire",
+              "correct": false,
+              "feedback": "Review: The past middle has active meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-09",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What is τῷ Σωκράτει in λέγει τὴν μαντείαν τῷ Σωκράτει?",
+          "choices": [
+            {
+              "text": "place",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "recipient",
+              "correct": true,
+              "feedback": "Correct: Socrates receives the report."
+            },
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-10",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What does σὺν τῷ Προξένῳ mean?",
+          "choices": [
+            {
+              "text": "from Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            },
+            {
+              "text": "about Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            },
+            {
+              "text": "with Proxenus",
+              "correct": true,
+              "feedback": "Correct: σύν takes a dative and means with."
+            },
+            {
+              "text": "toward Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-11",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What does ἐν Σάρδεσι mean?",
+          "choices": [
+            {
+              "text": "toward Sardis",
+              "correct": false,
+              "feedback": "Review: ἐν plus dative marks location."
+            },
+            {
+              "text": "from Sardis",
+              "correct": false,
+              "feedback": "Review: ἐν plus dative marks location."
+            },
+            {
+              "text": "with Sardis",
+              "correct": false,
+              "feedback": "Review: ἐν plus dative marks location."
+            },
+            {
+              "text": "at Sardis",
+              "correct": true,
+              "feedback": "Correct: ἐν plus dative marks location."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-12",
+          "type": "multiple-choice",
+          "topic": "dative",
+          "category": "Grammar",
+          "prompt": "What does αὐτῷ mean after λῷον εἴη?",
+          "choices": [
+            {
+              "text": "for him",
+              "correct": true,
+              "feedback": "Correct: The dative shows whose interest is involved."
+            },
+            {
+              "text": "toward him",
+              "correct": false,
+              "feedback": "Review: The dative shows whose interest is involved."
+            },
+            {
+              "text": "him as object",
+              "correct": false,
+              "feedback": "Review: The dative shows whose interest is involved."
+            },
+            {
+              "text": "from him",
+              "correct": false,
+              "feedback": "Review: The dative shows whose interest is involved."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-13",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase means “to Athens”?",
+          "choices": [
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": true,
+              "feedback": "Correct: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-14",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase means “toward Cyrus”?",
+          "choices": [
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            },
+            {
+              "text": "περὶ τῆς μαντείας",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": true,
+              "feedback": "Correct: πρός with accusative points toward."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-15",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase marks location?",
+          "choices": [
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": false,
+              "feedback": "Review: ἐν with dative marks location."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: ἐν with dative marks location."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: ἐν with dative marks location."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": true,
+              "feedback": "Correct: ἐν with dative marks location."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-16",
+          "type": "multiple-choice",
+          "topic": "prepositions",
+          "category": "Grammar",
+          "prompt": "Which phrase marks accompaniment?",
+          "choices": [
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": true,
+              "feedback": "Correct: σύν means with."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: σύν means with."
+            },
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": false,
+              "feedback": "Review: σύν means with."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: σύν means with."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-17",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "What is the direct object of λέγει?",
+          "choices": [
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "τὴν μαντείαν",
+              "correct": true,
+              "feedback": "Correct: He reports the oracle’s response."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-18",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "What is the subject of λέγει?",
+          "choices": [
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            },
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": true,
+              "feedback": "Correct: Xenophon is the one reporting."
+            },
+            {
+              "text": "τὴν μαντείαν",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-19",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "Which verb is present active?",
+          "choices": [
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: λέγει is present active."
+            },
+            {
+              "text": "πυνθάνεται",
+              "correct": false,
+              "feedback": "Review: λέγει is present active."
+            },
+            {
+              "text": "ἔρχεται",
+              "correct": false,
+              "feedback": "Review: λέγει is present active."
+            },
+            {
+              "text": "λέγει",
+              "correct": true,
+              "feedback": "Correct: λέγει is present active."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-grammar-20",
+          "type": "multiple-choice",
+          "topic": "module-review",
+          "category": "Grammar",
+          "prompt": "Which is an active infinitive?",
+          "choices": [
+            {
+              "text": "μένειν",
+              "correct": true,
+              "feedback": "Correct: μένειν is an active infinitive."
+            },
+            {
+              "text": "πορεύεσθαι",
+              "correct": false,
+              "feedback": "Review: μένειν is an active infinitive."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: μένειν is an active infinitive."
+            },
+            {
+              "text": "πυνθάνομαι",
+              "correct": false,
+              "feedback": "Review: μένειν is an active infinitive."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 12 Final Quiz — The Question He Did Not Ask",
+      "description": "Reading, vocabulary, grammar, and the road to Sardis",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-12-final-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions. Score at least 80% to complete Module 1.",
+      "questions": [
+        {
+          "id": "lesson-12-final-01",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "To whom does Xenophon report the oracle?",
+          "choices": [
+            {
+              "text": "Apollo",
+              "correct": false,
+              "feedback": "Review: He reports it to Socrates."
+            },
+            {
+              "text": "Socrates",
+              "correct": true,
+              "feedback": "Correct: He reports it to Socrates."
+            },
+            {
+              "text": "Proxenus",
+              "correct": false,
+              "feedback": "Review: He reports it to Socrates."
+            },
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: He reports it to Socrates."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-02",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What did Socrates fault?",
+          "choices": [
+            {
+              "text": "the number of sacrifices",
+              "correct": false,
+              "feedback": "Review: He faulted the unasked prior question."
+            },
+            {
+              "text": "the words of the priestess",
+              "correct": false,
+              "feedback": "Review: He faulted the unasked prior question."
+            },
+            {
+              "text": "the question Xenophon failed to ask first",
+              "correct": true,
+              "feedback": "Correct: He faulted the unasked prior question."
+            },
+            {
+              "text": "the length of the road",
+              "correct": false,
+              "feedback": "Review: He faulted the unasked prior question."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-03",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What choice should Xenophon have put first?",
+          "choices": [
+            {
+              "text": "whether to bring a horse",
+              "correct": false,
+              "feedback": "Review: The first question was going versus staying."
+            },
+            {
+              "text": "whether to visit Sardis first",
+              "correct": false,
+              "feedback": "Review: The first question was going versus staying."
+            },
+            {
+              "text": "whether to write home",
+              "correct": false,
+              "feedback": "Review: The first question was going versus staying."
+            },
+            {
+              "text": "whether to go or stay",
+              "correct": true,
+              "feedback": "Correct: The first question was going versus staying."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-04",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What had Xenophon already decided?",
+          "choices": [
+            {
+              "text": "to go",
+              "correct": true,
+              "feedback": "Correct: He had decided to go."
+            },
+            {
+              "text": "to remain in Athens",
+              "correct": false,
+              "feedback": "Review: He had decided to go."
+            },
+            {
+              "text": "to reject the oracle",
+              "correct": false,
+              "feedback": "Review: He had decided to go."
+            },
+            {
+              "text": "to join a fleet",
+              "correct": false,
+              "feedback": "Review: He had decided to go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-05",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What did Socrates tell him after hearing the report?",
+          "choices": [
+            {
+              "text": "bring Cyrus to Athens",
+              "correct": false,
+              "feedback": "Review: Socrates told him to obey the god’s instruction."
+            },
+            {
+              "text": "do what the god instructed",
+              "correct": true,
+              "feedback": "Correct: Socrates told him to obey the god’s instruction."
+            },
+            {
+              "text": "ask a second oracle",
+              "correct": false,
+              "feedback": "Review: Socrates told him to obey the god’s instruction."
+            },
+            {
+              "text": "stay in Delphi",
+              "correct": false,
+              "feedback": "Review: Socrates told him to obey the god’s instruction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-06",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where did Xenophon find Proxenus and Cyrus?",
+          "choices": [
+            {
+              "text": "at Athens",
+              "correct": false,
+              "feedback": "Review: He found them at Sardis."
+            },
+            {
+              "text": "at Eleusis",
+              "correct": false,
+              "feedback": "Review: He found them at Sardis."
+            },
+            {
+              "text": "at Sardis",
+              "correct": true,
+              "feedback": "Correct: He found them at Sardis."
+            },
+            {
+              "text": "at Delphi",
+              "correct": false,
+              "feedback": "Review: He found them at Sardis."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-07",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πότερον mean?",
+          "choices": [
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "ask, inquire",
+              "correct": false,
+              "feedback": "Review: πότερον means whether."
+            },
+            {
+              "text": "whether",
+              "correct": true,
+              "feedback": "Correct: πότερον means whether."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-08",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does μένω mean?",
+          "choices": [
+            {
+              "text": "stay, remain",
+              "correct": true,
+              "feedback": "Correct: μένω means stay, remain."
+            },
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            },
+            {
+              "text": "ask, inquire",
+              "correct": false,
+              "feedback": "Review: μένω means stay, remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-09",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κρίνω mean?",
+          "choices": [
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            },
+            {
+              "text": "decide, judge",
+              "correct": true,
+              "feedback": "Correct: κρίνω means decide, judge."
+            },
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: κρίνω means decide, judge."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does χρή mean?",
+          "choices": [
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            },
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            },
+            {
+              "text": "one must",
+              "correct": true,
+              "feedback": "Correct: χρή means one must."
+            },
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: χρή means one must."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: πορεύομαι means travel, go."
+            },
+            {
+              "text": "travel, go",
+              "correct": true,
+              "feedback": "Correct: πορεύομαι means travel, go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πρός mean?",
+          "choices": [
+            {
+              "text": "toward (+ accusative)",
+              "correct": true,
+              "feedback": "Correct: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "whether",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "better, more advantageous",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            },
+            {
+              "text": "stay, remain",
+              "correct": false,
+              "feedback": "Review: πρός means toward (+ accusative)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which question should Xenophon have asked first?",
+          "choices": [
+            {
+              "text": "where to meet Proxenus",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "whether to go or stay",
+              "correct": true,
+              "feedback": "Correct: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "how quickly to sail",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            },
+            {
+              "text": "which ship to hire",
+              "correct": false,
+              "feedback": "Review: Socrates faults the missing prior decision."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What had Xenophon already decided?",
+          "choices": [
+            {
+              "text": "to return from Sardis",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            },
+            {
+              "text": "to refuse Proxenus",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            },
+            {
+              "text": "to go",
+              "correct": true,
+              "feedback": "Correct: He had already decided to go."
+            },
+            {
+              "text": "to stay",
+              "correct": false,
+              "feedback": "Review: He had already decided to go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which pair names the alternatives?",
+          "choices": [
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: The infinitives mean to travel or to stay."
+            },
+            {
+              "text": "πορεύεσθαι ἢ μένειν",
+              "correct": true,
+              "feedback": "Correct: The infinitives mean to travel or to stay."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does πορεύεται mean?",
+          "choices": [
+            {
+              "text": "he travels",
+              "correct": true,
+              "feedback": "Correct: πορεύεται means he travels."
+            },
+            {
+              "text": "he is traveled",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "they travel",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            },
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: πορεύεται means he travels."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "they travel",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            },
+            {
+              "text": "I travel",
+              "correct": true,
+              "feedback": "Correct: -ομαι marks first singular."
+            },
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            },
+            {
+              "text": "we travel",
+              "correct": false,
+              "feedback": "Review: -ομαι marks first singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does πορεύονται mean?",
+          "choices": [
+            {
+              "text": "I travel",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "you travel",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            },
+            {
+              "text": "they travel",
+              "correct": true,
+              "feedback": "Correct: -ονται marks third plural."
+            },
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: -ονται marks third plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is τῷ Σωκράτει in λέγει τὴν μαντείαν τῷ Σωκράτει?",
+          "choices": [
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "place",
+              "correct": false,
+              "feedback": "Review: Socrates receives the report."
+            },
+            {
+              "text": "recipient",
+              "correct": true,
+              "feedback": "Correct: Socrates receives the report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does σὺν τῷ Προξένῳ mean?",
+          "choices": [
+            {
+              "text": "with Proxenus",
+              "correct": true,
+              "feedback": "Correct: σύν takes a dative and means with."
+            },
+            {
+              "text": "toward Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            },
+            {
+              "text": "from Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            },
+            {
+              "text": "about Proxenus",
+              "correct": false,
+              "feedback": "Review: σύν takes a dative and means with."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which phrase means “to Athens”?",
+          "choices": [
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "εἰς τὰς Ἀθήνας",
+              "correct": true,
+              "feedback": "Correct: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            },
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: εἰς with accusative marks movement to."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which phrase means “toward Cyrus”?",
+          "choices": [
+            {
+              "text": "σὺν τῷ Προξένῳ",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            },
+            {
+              "text": "περὶ τῆς μαντείας",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": true,
+              "feedback": "Correct: πρός with accusative points toward."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: πρός with accusative points toward."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the direct object of λέγει?",
+          "choices": [
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "ἐν Σάρδεσι",
+              "correct": false,
+              "feedback": "Review: He reports the oracle’s response."
+            },
+            {
+              "text": "τὴν μαντείαν",
+              "correct": true,
+              "feedback": "Correct: He reports the oracle’s response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the subject of λέγει?",
+          "choices": [
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": true,
+              "feedback": "Correct: Xenophon is the one reporting."
+            },
+            {
+              "text": "τὴν μαντείαν",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            },
+            {
+              "text": "τῷ Σωκράτει",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            },
+            {
+              "text": "πρὸς Κῦρον",
+              "correct": false,
+              "feedback": "Review: Xenophon is the one reporting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What journey were Proxenus and Cyrus about to begin?",
+          "choices": [
+            {
+              "text": "a procession to Eleusis",
+              "correct": false,
+              "feedback": "Review: They were about to set out inland."
+            },
+            {
+              "text": "the journey inland",
+              "correct": true,
+              "feedback": "Correct: They were about to set out inland."
+            },
+            {
+              "text": "the return to Athens",
+              "correct": false,
+              "feedback": "Review: They were about to set out inland."
+            },
+            {
+              "text": "a voyage to Delphi",
+              "correct": false,
+              "feedback": "Review: They were about to set out inland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Whom was Xenophon introduced to at Sardis?",
+          "choices": [
+            {
+              "text": "Apollo",
+              "correct": false,
+              "feedback": "Review: He was introduced to Cyrus."
+            },
+            {
+              "text": "Aristarchus",
+              "correct": false,
+              "feedback": "Review: He was introduced to Cyrus."
+            },
+            {
+              "text": "Cyrus",
+              "correct": true,
+              "feedback": "Correct: He was introduced to Cyrus."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Review: He was introduced to Cyrus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which comes first in the source sequence?",
+          "choices": [
+            {
+              "text": "the meeting at Sardis",
+              "correct": false,
+              "feedback": "Review: The report comes before the journey."
+            },
+            {
+              "text": "the introduction to Cyrus",
+              "correct": false,
+              "feedback": "Review: The report comes before the journey."
+            },
+            {
+              "text": "the inland march",
+              "correct": false,
+              "feedback": "Review: The report comes before the journey."
+            },
+            {
+              "text": "the report to Socrates",
+              "correct": true,
+              "feedback": "Correct: The report comes before the journey."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the final image point toward?",
+          "choices": [
+            {
+              "text": "the army and inland expedition",
+              "correct": true,
+              "feedback": "Correct: It points toward the expedition."
+            },
+            {
+              "text": "Xenophon’s childhood school",
+              "correct": false,
+              "feedback": "Review: It points toward the expedition."
+            },
+            {
+              "text": "the procession to Eleusis",
+              "correct": false,
+              "feedback": "Review: It points toward the expedition."
+            },
+            {
+              "text": "a return to the oracle",
+              "correct": false,
+              "feedback": "Review: It points toward the expedition."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What did Xenophon do before sailing?",
+          "choices": [
+            {
+              "text": "asked whether to stay",
+              "correct": false,
+              "feedback": "Review: He sacrificed according to the god’s direction."
+            },
+            {
+              "text": "sacrificed as directed",
+              "correct": true,
+              "feedback": "Correct: He sacrificed according to the god’s direction."
+            },
+            {
+              "text": "met Cyrus in Athens",
+              "correct": false,
+              "feedback": "Review: He sacrificed according to the god’s direction."
+            },
+            {
+              "text": "became a general",
+              "correct": false,
+              "feedback": "Review: He sacrificed according to the god’s direction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-12-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which detail is reported at the end of Anabasis 3.1.8?",
+          "choices": [
+            {
+              "text": "Apollo names Cyrus king",
+              "correct": false,
+              "feedback": "Review: Xenophon reaches Sardis and meets them."
+            },
+            {
+              "text": "the army reaches the sea",
+              "correct": false,
+              "feedback": "Review: Xenophon reaches Sardis and meets them."
+            },
+            {
+              "text": "Xenophon meets Proxenus and Cyrus at Sardis",
+              "correct": true,
+              "feedback": "Correct: Xenophon reaches Sardis and meets them."
+            },
+            {
+              "text": "Socrates accompanies the army",
+              "correct": false,
+              "feedback": "Review: Xenophon reaches Sardis and meets them."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nextLesson": {
+    "id": "lesson-13",
+    "title": "The General Leads",
+    "fallbackUrl": "lesson.html?lesson=13&page=1"
+  },
+  "contentRevision": "lesson-12-socrates-response-v1",
+  "previousLesson": {
+    "id": "lesson-11",
+    "title": "The Question at Delphi",
+    "fallbackUrl": "lesson.html?lesson=11&page=1"
+  }
+};
+  // END GENERATED LESSON 12
 
   const ACTIVITY_LABELS = {
     "vocab-flashcards": "Vocabulary Flashcards",

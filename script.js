@@ -69,7 +69,7 @@ const COURSE_MODULES = [
       { id: "lesson-9", title: "What Makes a Good Friend?", grammar: "Alpha-contract verbs and elision" },
       { id: "lesson-10", title: "To Know and To Learn", grammar: "Infinitives (intro), complementary infinitives" },
       { id: "lesson-11", title: "The Question at Delphi", grammar: "Present middle forms and common deponents" },
-      { id: "lesson-12", title: "The Examined Life", grammar: "Module review: present, imperfect, infinitives, participles" }
+      { id: "lesson-12", title: "The Question He Did Not Ask", grammar: "Middle meanings, datives, prepositions, and cumulative Module 1 review" }
     ]
   },
   {

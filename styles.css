@@ -7633,19 +7633,26 @@
       .lesson-hero::after {
         background: linear-gradient(180deg, rgba(22,14,9,.68) 0%, rgba(22,14,9,.26) 58%, rgba(22,14,9,.08) 100%);
       }
-      .lesson-hero--lesson-8 {
+      .lesson-hero--lesson-8,
+      .lesson-hero--lesson-12 {
         display: flex;
         flex-direction: column;
       }
-      .lesson-hero--lesson-8 img {
+      .lesson-hero--lesson-8 img,
+      .lesson-hero--lesson-12 img {
         height: 240px;
         min-height: 0;
         object-position: 52% center;
       }
-      .lesson-hero--lesson-8::after {
+      .lesson-hero--lesson-12 img {
+        object-position: 70% center;
+      }
+      .lesson-hero--lesson-8::after,
+      .lesson-hero--lesson-12::after {
         display: none;
       }
-      .lesson-hero--lesson-8 .lesson-hero__overlay {
+      .lesson-hero--lesson-8 .lesson-hero__overlay,
+      .lesson-hero--lesson-12 .lesson-hero__overlay {
         position: static;
         max-width: none;
         padding: 18px;
