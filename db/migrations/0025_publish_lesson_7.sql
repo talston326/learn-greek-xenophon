@@ -5227,7 +5227,7 @@ DECLARE
 BEGIN
   SELECT id INTO STRICT lesson_id_value FROM public.lessons WHERE slug='lesson-7' FOR UPDATE;
   SELECT content,version INTO old_content,old_version FROM public.lesson_content_overrides WHERE lesson_id=lesson_id_value FOR UPDATE;
-  IF old_content->>'contentRevision' = patch->>'contentRevision' THEN RETURN; END IF;
+  IF old_content->>'contentRevision' IN (patch->>'contentRevision', 'lesson-7-eleusis-visuals-v2') THEN RETURN; END IF;
   IF old_content IS NOT NULL AND (old_version IS DISTINCT FROM 1 OR md5(old_content::text) IS DISTINCT FROM 'ec9f634b7f73783e480d5de8d083520a') THEN
     RAISE EXCEPTION 'Lesson 7 content has changed; review before replacing';
   END IF;

@@ -4829,7 +4829,7 @@
     { number: 3, title: "The Education of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian education scene with a young student and teacher", grammarFocus: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, and demonstratives", greekPhrase: "Ἡ παιδεία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household responsibilities with early Athenian education." },
     { number: 5, title: "An Unexpected Question", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-5-banner.png", bannerAlt: "Socrates stops Xenophon in a narrow lane", grammarFocus: "Third-person plurals; commands; infinitives", greekPhrase: "ἕπου τοίνυν καὶ μάνθανε.", sourceAnchor: "Diogenes Laertius 2.48", cultureLead: "An ancient anecdote about the beginning of Xenophon’s association with Socrates." },
     { number: 6, title: "Strength of Body and Mind", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-6-banner-v3.png", bannerAlt: "Seated Socrates speaks with the slight-framed Epigenes while Xenophon and Clinias stand nearby; unclothed wrestling and pankration pairs train behind a low wall", grammarFocus: "Plural article, adjective, and noun cases; shifting accents", greekPhrase: "Ὁ Σωκράτης καὶ ὁ Ἐπιγένης ἐν τῷ γυμνασίῳ", sourceAnchor: "Xenophon, Memorabilia 3.12.1–8", cultureLead: "This lesson will connect bodily training, care for friends and city, and the work of the mind." },
-    { number: 7, title: "The Road to Eleusis", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-7-eleusis-procession.png", bannerAlt: "Pilgrims near the Dipylon and Sacred Gate on the road toward Eleusis", grammarFocus: "All present active persons; first-declension feminine nouns", greekPhrase: "Ἡ πομπὴ πρὸς τὴν Ἐλευσῖνα", sourceAnchor: "Course reconstruction; public Eleusinian procession", cultureLead: "Eleusis, its procession, and its place in Greek religious life." },
+    { number: 7, title: "The Road to Eleusis", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-7-road-banner-v2.png", bannerAlt: "Xenophon, Clinias, Myrrhine, and her sister on the Sacred Way", grammarFocus: "All present active persons; first-declension feminine nouns", greekPhrase: "Ἡ πομπὴ πρὸς τὴν Ἐλευσῖνα", sourceAnchor: "Course reconstruction; public Eleusinian procession", cultureLead: "Eleusis, its procession, and its place in Greek religious life." },
     { number: 8, title: "In the Agora", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Prepositions expanded; dative case introduction", greekPhrase: "ἐν τῇ ἀγορᾷ οἱ ἄνδρες τῷ Σωκράτει λέγουσιν. / ὁ δὲ Σωκράτης τοῖς ἀνθρώποις ἀποκρίνεται.", sourceAnchor: "Memorabilia 1.1.10", cultureLead: "This lesson will use the agora as the setting for dative forms, speech, and response." },
     { number: 9, title: "Socrates Questions All", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Imperfect tense; past continuous action", greekPhrase: "ὁ Σωκράτης τοὺς ἄνδρας ἠρώτα. / οἱ δὲ ἄνδρες ἀπεκρίνοντο.", sourceAnchor: "Memorabilia 1.1.16", cultureLead: "This lesson will prepare a narrative view of Socrates' repeated questioning in Athens." },
     { number: 10, title: "To Know and To Learn", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Infinitives; introductory; complementary infinitives", greekPhrase: "ὁ ἀνὴρ βούλεται σοφὸς εἶναι. / οἱ ἄνδρες μανθάνειν βούλονται.", sourceAnchor: "Memorabilia 4.5.1–12", cultureLead: "This lesson will treat learning and wanting to learn as actions that often require infinitive complements." },
@@ -28847,9 +28847,9 @@ Xenophon is young, but he wants to become wise.`;
   "theme": "Wisdom and Socrates; reconstructed Eleusinian procession",
   "module": "σοφία — Wisdom and Socrates",
   "banner": {
-    "image": "assets/lesson-7-eleusis-procession.png",
-    "alt": "Illustrated pilgrims, including Myrrhine and Xenophon, on the road by the Dipylon and adjacent Sacred Gate toward Eleusis",
-    "caption": "A reconstructed public procession near the Kerameikos gates; the Sacred Way to Eleusis passed through the Sacred Gate beside the Dipylon."
+    "image": "assets/lesson-7-road-banner-v2.png",
+    "alt": "Xenophon, Clinias, Myrrhine, and her sister walk past Kerameikos grave monuments and a Dipylon Amphora-inspired vase after leaving by the Sacred Gate",
+    "caption": "The four travelers pass Kerameikos graves. The tall Geometric vase evokes the much earlier Dipylon Amphora; its survival into Xenophon’s era is not documented."
   },
   "pages": [
     {
@@ -29052,19 +29052,16 @@ Xenophon is young, but he wants to become wise.`;
     "introduction": [
       "At the Kerameikos gates, Xenophon and Clinias join a procession toward Eleusis. Myrrhine, an Athenian woman traveling with her sister, explains why she is going and helps her sister along the road. Read for the six persons of present active verbs and for feminine -η and -α nouns.",
       "This journey and every conversation are reconstructed for the course. Xenophon’s participation in an Eleusinian procession is not attested. The public route, worship of Demeter and Kore, and women’s participation are historically grounded; the reading stops before the secret rites.",
-      "The Dipylon and Sacred Gate were neighboring gateways, but the Sacred Way passed through the Sacred Gate. Blue glosses explain proper names, a few third-declension forms, the fixed name Ἱερὰ Ὁδός, and other words outside this lesson’s production goals."
+      "The roadside funerary monuments reflect the Kerameikos cemetery. The tall Geometric vase in the illustration evokes the eighth-century BCE Dipylon Amphora; whether that particular grave marker was still standing in Xenophon’s time is unknown.",
+      "Blue glosses explain proper names, a few third-declension forms, the fixed name Ἱερὰ Ὁδός, and other words outside this lesson’s production goals."
     ],
     "paragraphs": [
       {
-        "greek": "ἐν ταῖς Ἀθήναις, παρὰ τὸ Δίπυλον, οἱ ἄνθρωποι τὴν πομπὴν βλέπουσιν. ἡ πομπὴ διὰ τῆς Ἱερᾶς Πύλης πρὸς τὴν Ἐλευσῖνα βαδίζει. ὁ Ξενοφῶν καὶ ὁ Κλεινίας μετὰ τῶν ἄλλων βαδίζουσιν.",
+        "greek": "ἐν ταῖς Ἀθήναις οἱ ἄνθρωποι τὴν πομπὴν βλέπουσιν. ἡ πομπὴ διὰ τῆς Ἱερᾶς Πύλης πρὸς τὴν Ἐλευσῖνα βαδίζει. ὁ Ξενοφῶν καὶ ὁ Κλεινίας μετὰ τῶν ἄλλων βαδίζουσιν.",
         "gloss": [
           {
             "greek": "ἐν ταῖς Ἀθήναις",
             "english": "in Athens; the city name is plural"
-          },
-          {
-            "greek": "τὸ Δίπυλον",
-            "english": "the Dipylon, the larger gate beside the Sacred Gate"
           },
           {
             "greek": "ἡ Ἱερὰ Πύλη",
@@ -29227,8 +29224,8 @@ Xenophon is young, but he wants to become wise.`;
         ]
       }
     ],
-    "translation": "In Athens, near the Dipylon, people watch the procession. The procession walks through the Sacred Gate toward Eleusis. Xenophon and Clinias walk with the others.\n\nMyrrhine and her sister are in the procession. Myrrhine carries bread and water; her sister carries a small basket. Myrrhine guides her sister.\n\nXenophon says, “Myrrhine, why do you walk toward Eleusis?” Myrrhine says, “My mother is in the countryside. The earth bears grain. I bring gifts to the goddess.”\n\nClinias says, “I see the gate; do you see the procession, Xenophon?” Xenophon says, “Yes; the procession is moving. We walk with the procession. Are you walking, friends?”\n\nMyrrhine says, “Yes; the women friends are walking. My sister watches the beautiful procession, but I watch the long road. We carry water.”\n\nOn the Sacred Way the people walk toward Eleusis. Myrrhine says to her sister, “Demeter looks for Kore. We walk toward the sanctuary.”\n\nBefore the gates of the sanctuary the procession pauses. Myrrhine looks at her sister; Xenophon and Clinias listen to Myrrhine. The road is long, but the procession is beautiful.",
-    "sourceCitation": "Course reconstruction. Historical context: Homeric Hymn to Demeter; The Metropolitan Museum of Art, “Mystery Cults in the Greek and Roman World” (https://www.metmuseum.org/de/essays/mystery-cults-in-the-greek-and-roman-world); Oxford Classical Dictionary, “Dipylon” (https://academic.oup.com/edited-volume/61673/chapter-abstract/548725279).",
+    "translation": "In Athens people watch the procession. The procession walks through the Sacred Gate toward Eleusis. Xenophon and Clinias walk with the others.\n\nMyrrhine and her sister are in the procession. Myrrhine carries bread and water; her sister carries a small basket. Myrrhine guides her sister.\n\nXenophon says, “Myrrhine, why do you walk toward Eleusis?” Myrrhine says, “My mother is in the countryside. The earth bears grain. I bring gifts to the goddess.”\n\nClinias says, “I see the gate; do you see the procession, Xenophon?” Xenophon says, “Yes; the procession is moving. We walk with the procession. Are you walking, friends?”\n\nMyrrhine says, “Yes; the women friends are walking. My sister watches the beautiful procession, but I watch the long road. We carry water.”\n\nOn the Sacred Way the people walk toward Eleusis. Myrrhine says to her sister, “Demeter looks for Kore. We walk toward the sanctuary.”\n\nBefore the gates of the sanctuary the procession pauses. Myrrhine looks at her sister; Xenophon and Clinias listen to Myrrhine. The road is long, but the procession is beautiful.",
+    "sourceCitation": "Course reconstruction. Historical context: Homeric Hymn to Demeter; The Metropolitan Museum of Art, “Mystery Cults in the Greek and Roman World” (https://www.metmuseum.org/de/essays/mystery-cults-in-the-greek-and-roman-world).",
     "notesMarkdown": "The characters’ journey and dialogue are fictional. The procession and the sanctuary are public historical setting; this reading does not claim to describe the initiates’ secret rites."
   },
   "wordStudy": {
@@ -29533,18 +29530,27 @@ Xenophon is young, but he wants to become wise.`;
   "culture": {
     "title": "Eleusis in Greek Religious Life",
     "banner": {
-      "image": "assets/lesson-7-eleusis-procession.png",
-      "alt": "Original historical illustration of pilgrims near the Dipylon and Sacred Gate, heading toward Eleusis",
-      "caption": "A course illustration of the public procession. The Dipylon stood near the Sacred Gate, through which the Sacred Way led toward Eleusis; the individual pilgrims are imagined.",
+      "image": "assets/lesson-7-arrival-banner.png",
+      "alt": "Xenophon, Clinias, Myrrhine, and her sister arrive at the classical sanctuary entrance at Eleusis, with the Telesterion beyond",
+      "caption": "The four travelers arrive at the sanctuary entrance; the Telesterion (Τελεστήριον) is visible beyond. This is a reconstruction of the classical sanctuary, before the later Roman propylaea.",
       "credit": "Original illustration generated for Learn Greek with Xenophon (2026); historical reconstruction, not an ancient artifact."
     },
     "body": [
       "Eleusis was a sanctuary of Demeter and her daughter Kore, also called Persephone, west of Athens. In the Homeric Hymn to Demeter, the goddess searches for her daughter and comes to Eleusis; the story ties loss, return, and grain to the place. Athenians honored the goddesses in the city’s public religious calendar. The Great Mysteries brought the sanctuary and Athens together through a series of ceremonies and a large public procession.",
-      "The procession traveled from central Athens toward Eleusis along the Sacred Way. It passed through the Kerameikos gateway district. The Dipylon was the prominent neighboring gate; the Sacred Way itself left through the smaller Sacred Gate beside it. This detail matters when picturing the route: the gathering area could be described as near the Dipylon, but the procession’s exit onto the Sacred Way belongs to the Sacred Gate. Eleusis was about 21 kilometers from Athens, a substantial walk rather than a short city parade.",
+      "The procession traveled from central Athens through the Sacred Gate and along the Sacred Way to Eleusis, about 21 kilometers away. In the outer Kerameikos, the route passed funerary monuments, and small oil flasks could be left at graves. The banner’s monumental Geometric vase recalls the Dipylon Amphora, an eighth-century BCE grave marker from this cemetery; its presence beside the fourth-century procession is an artistic allusion, not a documented sight. At Eleusis the processional route led toward the Telesterion (Τελεστήριον), the large hall central to the Mysteries.",
       "For Athens, the Mysteries were a major civic festival that connected public space, sacred road, and the sanctuary. For other Greeks, Eleusis was also a destination for personal religious participation and hope concerning life after death. Initiation was not limited to Athenian male citizens: women, non-Athenians, and enslaved people could be included, subject to the festival’s requirements. That broader participation gave Eleusis a reach beyond one city, even while Athens administered the festival.",
       "The public parts of the festival can be discussed: travel, gathering, reverence for Demeter and Kore, and arrival at the sanctuary. Initiates were bound to secrecy about what occurred in the inner rites. Ancient and modern writers have made suggestions, but our evidence does not justify presenting a detailed script of those rites as fact. This is why the reading pauses outside the sanctuary.",
-      "Myrrhine’s desire to honor Demeter for the grain that supports her family is an invented individual motive consistent with the goddess’s association with agriculture. Her journey and words are not recorded by an ancient author. Xenophon and Clinias joining her is likewise a course reconstruction, not a documented episode in Xenophon’s life. The illustration shows the public journey rather than an initiation."
+      "Myrrhine’s desire to honor Demeter for the grain that supports her family is an invented individual motive consistent with the goddess’s association with agriculture. Her journey and words are not recorded by an ancient author. Xenophon and Clinias joining her is likewise a course reconstruction, not a documented episode in Xenophon’s life. The illustrations show public travel and arrival rather than an initiation."
     ],
+    "plan": {
+      "title": "Plan of the Eleusis Sanctuary",
+      "image": "assets/lesson-7-eleusis-sanctuary-map.jpg",
+      "alt": "Plan of the sanctuary at Eleusis with the Sacred Way, later Roman propylaea, and the Telesterion labeled in Greek",
+      "caption": "Follow Ἱερὰ Ὁδός (Sacred Way) at right toward Τελεστήριον (Telesterion) at center left. This archaeological plan shows later Roman buildings as well as the older sanctuary; its Μικρὰ and Μεγάλα Προπύλαια are later than the story’s setting.",
+      "credit": "Photograph of an Eleusis archaeological plan by Davide Mauro, Wikimedia Commons, CC BY-SA 4.0; reproduced without alteration.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Eleusis.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
     "questions": [
       {
         "prompt": "Why did Eleusis matter to Athenians?",
@@ -29555,8 +29561,8 @@ Xenophon is young, but he wants to become wise.`;
         "answer": "Initiation could include non-Athenians, women, and enslaved people as well as Athenian men, making it a wider Greek religious destination."
       },
       {
-        "prompt": "Did the procession leave by the Dipylon?",
-        "answer": "It gathered in the nearby Kerameikos gate area; the Sacred Way passed through the adjacent Sacred Gate."
+        "prompt": "What was the Telesterion?",
+        "answer": "The large hall at Eleusis associated with the Mysteries."
       },
       {
         "prompt": "Why does the reading stop at the sanctuary?",
@@ -29569,7 +29575,7 @@ Xenophon is young, but he wants to become wise.`;
         "Say all six present active forms of βλέπω and name each person.",
         "Decline ἡ πομπή and ἡ θεά in singular and plural.",
         "Explain why τῇ θεᾷ is feminine dative singular.",
-        "Distinguish the neighboring Dipylon from the Sacred Gate and identify what is fictional in the reading."
+        "Identify the Telesterion on the sanctuary plan and explain what is fictional in the reading."
       ]
     },
     "sources": [
@@ -29586,12 +29592,24 @@ Xenophon is young, but he wants to become wise.`;
         "url": "https://www.metmuseum.org/de/essays/women-in-classical-greece"
       },
       {
-        "title": "Oxford Classical Dictionary, Dipylon",
-        "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/548725279"
+        "title": "National Archaeological Museum, Geometric Period and the Dipylon Amphora",
+        "url": "https://www.namuseum.gr/en/collection/geometriki-periodos-3/"
       },
       {
-        "title": "The Latsis Foundation, Kerameikos archaeology (PDF)",
-        "url": "https://www.latsis-foundation.org/content/elib/book_2/kerameikos_en.pdf"
+        "title": "The Metropolitan Museum of Art, Death, Burial, and the Afterlife in Ancient Greece",
+        "url": "https://www.metmuseum.org/es/essays/death-burial-and-the-afterlife-in-ancient-greece"
+      },
+      {
+        "title": "Ephorate of Antiquities of West Attica, Archaeological Site of Eleusis",
+        "url": "https://www.efada.gr/en-us/Archaeological-Sites-Monuments/Eleusis/Archaeological-Site-of-Eleusis"
+      },
+      {
+        "title": "Ephorate of Antiquities of West Attica, Greater Propylaea",
+        "url": "https://www.efada.gr/en-us/Archaeological-Sites-Monuments/Eleusis/Archaeological-Site-of-Eleusis/the-greater-propylaea"
+      },
+      {
+        "title": "Wikimedia Commons, Map of Eleusis by Davide Mauro",
+        "url": "https://commons.wikimedia.org/wiki/File:Map_of_Eleusis.jpg"
       },
       {
         "title": "The Metropolitan Museum of Art, Great Eleusinian Relief",
@@ -33187,7 +33205,7 @@ Xenophon is young, but he wants to become wise.`;
       "threshold": 80,
       "required": true,
       "requireAllAnswers": true,
-      "revision": "lesson-7-final-quiz-v1",
+      "revision": "lesson-7-final-quiz-v2",
       "pointsPossible": 30,
       "instructions": "Answer all 30 questions. Score at least 80% to complete Lesson 7 and continue to Lesson 8.",
       "questions": [
@@ -33895,27 +33913,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-7-final-26",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "Which gate carried the Sacred Way out of Athens?",
+          "prompt": "What was the Telesterion at Eleusis?",
           "choices": [
             {
-              "text": "the Acropolis Propylaia",
+              "text": "a gate in Athens",
               "correct": false,
-              "feedback": "Review: The Sacred Way passed through the Sacred Gate beside the Dipylon."
+              "feedback": "Review: The Telesterion was the large hall central to the Mysteries."
             },
             {
-              "text": "the Long Walls gate",
+              "text": "a harbor warehouse",
               "correct": false,
-              "feedback": "Review: The Sacred Way passed through the Sacred Gate beside the Dipylon."
+              "feedback": "Review: The Telesterion was the large hall central to the Mysteries."
             },
             {
-              "text": "the Sacred Gate beside the Dipylon",
+              "text": "the large hall associated with the Mysteries",
               "correct": true,
-              "feedback": "Correct: The Sacred Way passed through the Sacred Gate beside the Dipylon."
+              "feedback": "Correct: The Telesterion was the large hall central to the Mysteries."
             },
             {
-              "text": "the Dipylon itself",
+              "text": "an athletic training ground",
               "correct": false,
-              "feedback": "Review: The Sacred Way passed through the Sacred Gate beside the Dipylon."
+              "feedback": "Review: The Telesterion was the large hall central to the Mysteries."
             }
           ]
         },
@@ -34015,7 +34033,7 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Review: Myrrhine is a fictional pilgrim in a historical setting."
             },
             {
-              "text": "the neighboring Kerameikos gates",
+              "text": "the Telesterion at Eleusis",
               "correct": false,
               "feedback": "Review: Myrrhine is a fictional pilgrim in a historical setting."
             },
@@ -34039,7 +34057,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "A Household Finds a Way",
     "fallbackUrl": "lesson.html?lesson=8&page=1"
   },
-  "contentRevision": "lesson-7-eleusis-complete-v1",
+  "contentRevision": "lesson-7-eleusis-visuals-v2",
   "previousLesson": {
     "id": "lesson-6",
     "title": "Strength of Body and Mind",

@@ -1,4 +1,8 @@
-{
+-- Refine the published Lesson 7 reading, images, sanctuary plan, and quiz.
+BEGIN;
+DO $lesson7$
+DECLARE
+  patch jsonb := $json${
   "id": "lesson-7",
   "number": 7,
   "title": "The Road to Eleusis",
@@ -5223,4 +5227,85 @@
     "title": "Strength of Body and Mind",
     "fallbackUrl": "lesson.html?lesson=6&page=1"
   }
-}
+}$json$::jsonb;
+  lesson_id_value uuid;
+  segment_id_value uuid;
+  reading_id_value uuid;
+  old_content jsonb;
+  old_version integer;
+  block_kind text;
+  group_item jsonb;
+  vocab_item jsonb;
+  vocab_id uuid;
+  vocab_order integer := 0;
+  paragraph_item jsonb;
+  gloss_item jsonb;
+  paragraph_order integer := 0;
+  gloss_order integer;
+BEGIN
+  SELECT id INTO STRICT lesson_id_value FROM public.lessons WHERE slug='lesson-7' FOR UPDATE;
+  SELECT content,version INTO old_content,old_version FROM public.lesson_content_overrides WHERE lesson_id=lesson_id_value FOR UPDATE;
+  IF old_content->>'contentRevision' = patch->>'contentRevision' THEN RETURN; END IF;
+  IF old_content IS NOT NULL AND (old_version IS DISTINCT FROM 2 OR old_content->>'contentRevision' IS DISTINCT FROM 'lesson-7-eleusis-complete-v1') THEN
+    RAISE EXCEPTION 'Lesson 7 content has changed; review before replacing';
+  END IF;
+  IF old_content IS NOT NULL THEN
+    INSERT INTO public.lesson_content_versions (lesson_id,content,version,note) VALUES (lesson_id_value,old_content,old_version,'Before Lesson 7 visual and route revision');
+  END IF;
+  INSERT INTO public.lesson_content_overrides (lesson_id,content,version) VALUES (lesson_id_value,patch,1)
+  ON CONFLICT (lesson_id) DO UPDATE SET content=EXCLUDED.content,version=public.lesson_content_overrides.version+1,updated_at=now();
+  UPDATE public.lessons SET title=patch->>'title',greek_title=patch->>'greekTitle',grammar_focus=patch->>'scope' WHERE id=lesson_id_value;
+  INSERT INTO public.lesson_segments (lesson_id,slug,title,sort_order)
+  SELECT lesson_id_value,p->>'slug',p->>'title',(p->>'page')::integer FROM jsonb_array_elements(patch->'pages') p
+  ON CONFLICT (lesson_id,slug) DO UPDATE SET title=EXCLUDED.title,sort_order=EXCLUDED.sort_order;
+  SELECT id INTO STRICT segment_id_value FROM public.lesson_segments WHERE lesson_id=lesson_id_value AND slug='lesson-7-page-1';
+  SELECT id INTO reading_id_value FROM public.readings WHERE lesson_id=lesson_id_value ORDER BY sort_order,id LIMIT 1;
+  IF reading_id_value IS NULL THEN
+    INSERT INTO public.readings (lesson_id,segment_id,title,sort_order) VALUES (lesson_id_value,segment_id_value,patch #>> '{reading,title}',1) RETURNING id INTO reading_id_value;
+  END IF;
+  UPDATE public.readings SET segment_id=segment_id_value,title=patch #>> '{reading,title}',
+    greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(patch #> '{reading,paragraphs}') WITH ORDINALITY t(p,n)),
+    translation=patch #>> '{reading,translation}',notes_markdown=patch #>> '{reading,notesMarkdown}',source_citation=patch #>> '{reading,sourceCitation}'
+  WHERE id=reading_id_value;
+  DELETE FROM public.reading_glosses WHERE lesson_id=lesson_id_value AND reading_id=reading_id_value;
+  FOR paragraph_item IN SELECT value FROM jsonb_array_elements(patch #> '{reading,paragraphs}') LOOP
+    gloss_order:=0;
+    FOR gloss_item IN SELECT value FROM jsonb_array_elements(paragraph_item->'gloss') LOOP
+      INSERT INTO public.reading_glosses (lesson_id,reading_id,greek,english,lemma,display_form,part_of_speech,morphology,source,sort_order)
+      VALUES (lesson_id_value,reading_id_value,gloss_item->>'greek',gloss_item->>'english',gloss_item->>'greek',gloss_item->>'greek','Reading gloss','{}'::jsonb,'lesson_reading_gloss',paragraph_order*1000+gloss_order);
+      gloss_order:=gloss_order+1;
+    END LOOP;
+    paragraph_order:=paragraph_order+1;
+  END LOOP;
+  DELETE FROM public.lesson_vocabulary WHERE lesson_id=lesson_id_value;
+  FOR group_item IN SELECT value FROM jsonb_array_elements(patch->'vocabulary') LOOP
+    FOR vocab_item IN SELECT value FROM jsonb_array_elements(group_item->'items') LOOP
+      INSERT INTO public.vocabulary_items (lemma,display_form,gloss,part_of_speech,dictionary_form,morphology)
+      VALUES (vocab_item->>'lemma',vocab_item->>'greek',vocab_item->>'english',group_item->>'category',vocab_item->>'dictionaryForm',jsonb_build_object('source','lesson_7_eleusis'))
+      ON CONFLICT (lemma,display_form,gloss) DO NOTHING;
+      SELECT id INTO STRICT vocab_id FROM public.vocabulary_items WHERE lemma=vocab_item->>'lemma' AND display_form=vocab_item->>'greek' AND gloss=vocab_item->>'english';
+      INSERT INTO public.lesson_vocabulary (lesson_id,vocabulary_item_id,sort_order) VALUES (lesson_id_value,vocab_id,vocab_order);
+      vocab_order:=vocab_order+1;
+    END LOOP;
+  END LOOP;
+  INSERT INTO public.lesson_segments (lesson_id,slug,title,sort_order) VALUES (lesson_id_value,'published-structured-content','Published Structured Content',99)
+  ON CONFLICT (lesson_id,slug) DO UPDATE SET title=EXCLUDED.title RETURNING id INTO segment_id_value;
+  FOREACH block_kind IN ARRAY ARRAY['reading','wordStudy','grammar','culture','activities'] LOOP
+    UPDATE public.lesson_content_blocks b SET content=jsonb_build_object('source','lesson_publish','kind',block_kind,'value',patch->block_kind),updated_at=now()
+    FROM public.lesson_segments s WHERE b.segment_id=s.id AND s.lesson_id=lesson_id_value AND b.content->>'source'='lesson_publish' AND b.content->>'kind'=block_kind;
+    IF NOT EXISTS (SELECT 1 FROM public.lesson_content_blocks b JOIN public.lesson_segments s ON s.id=b.segment_id
+      WHERE s.lesson_id=lesson_id_value AND b.content->>'source'='lesson_publish' AND b.content->>'kind'=block_kind) THEN
+      INSERT INTO public.lesson_content_blocks (segment_id,block_type,title,content,sort_order)
+      VALUES (segment_id_value,'custom',block_kind,jsonb_build_object('source','lesson_publish','kind',block_kind,'value',patch->block_kind),
+        CASE block_kind WHEN 'reading' THEN 1 WHEN 'wordStudy' THEN 2 WHEN 'grammar' THEN 3 WHEN 'culture' THEN 4 ELSE 6 END);
+    END IF;
+  END LOOP;
+END
+$lesson7$;
+UPDATE public.lesson_content_overrides o
+SET content=jsonb_set(o.content,'{nextLesson,title}',to_jsonb('The Road to Eleusis'::text),true),
+    version=o.version+1,updated_at=now()
+WHERE o.lesson_id=(SELECT id FROM public.lessons WHERE slug='lesson-6')
+  AND o.content #>> '{nextLesson,id}'='lesson-7'
+  AND o.content #>> '{nextLesson,title}' IS DISTINCT FROM 'The Road to Eleusis';
+COMMIT;
