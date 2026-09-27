@@ -72,6 +72,15 @@ assert.deepEqual(Object.fromEntries(Object.entries(Object.groupBy(grammarTopics,
 const answerPositions = Object.groupBy(activities['lesson-quiz'].questions, question => question.choices.findIndex(choice => choice.correct));
 assert(Object.values(answerPositions).every(items => items.length >= 6));
 
-assert(migration.includes(`$json$${JSON.stringify(lesson, null, 2)}$json$::jsonb`));
+const publishedPatchMatch = migration.match(/patch jsonb := \$json\$([\s\S]*?)\$json\$::jsonb;/);
+assert(publishedPatchMatch, 'Original published migration payload missing');
+const publishedPatch = JSON.parse(publishedPatchMatch[1]);
+assert.equal(publishedPatch.contentRevision, lesson.contentRevision);
+assert.match(migration, /Preserve subsequent administrator edits/);
+publishedPatch.reading.paragraphs[2].greek = lesson.reading.paragraphs[2].greek;
+publishedPatch.reading.translation = lesson.reading.translation;
+assert.deepEqual(publishedPatch, lesson, 'Local source differs from the published migration beyond the administrator reading edit');
+assert.match(lesson.reading.paragraphs[2].greek, /ὁ Κλεινίας καὶ ὁ Ξενοφῶν παρὰ τῷ Σωκράτει ἵστανται καὶ ἀκούουσιν/);
+assert.match(lesson.reading.translation.split('\n\n')[2], /Clinias and Xenophon stand beside Socrates and listen/);
 assert(fallback.includes(`LESSONS["lesson-6"] = ${JSON.stringify(lesson, null, 2)};`));
 console.log('Lesson 6 payload, assessments, source credit, fallback, and migration verified.');

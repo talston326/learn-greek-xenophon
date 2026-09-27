@@ -6816,7 +6816,7 @@ BEGIN
   SELECT id INTO STRICT lesson_id_value FROM public.lessons WHERE slug='lesson-6' FOR UPDATE;
   SELECT content,version INTO old_content,old_version FROM public.lesson_content_overrides WHERE lesson_id=lesson_id_value FOR UPDATE;
   IF old_content->>'contentRevision' = patch->>'contentRevision' THEN
-    IF old_content IS DISTINCT FROM patch THEN RAISE EXCEPTION 'Lesson 6 revision matches but payload differs'; END IF;
+    -- Preserve subsequent administrator edits to the published revision.
     RETURN;
   END IF;
   IF old_content IS NOT NULL AND (old_version IS DISTINCT FROM 1
