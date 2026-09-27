@@ -1,4 +1,4 @@
--- Publish the complete Lesson 6 gymnasium lesson and archive its previous placeholder.
+-- Publish the complete Lesson 6 gymnasium lesson and archive its previous version.
 BEGIN;
 DO $lesson6$
 DECLARE
@@ -6819,8 +6819,8 @@ BEGIN
     IF old_content IS DISTINCT FROM patch THEN RAISE EXCEPTION 'Lesson 6 revision matches but payload differs'; END IF;
     RETURN;
   END IF;
-  IF old_content IS NOT NULL AND (old_content->>'title' IS DISTINCT FROM 'The Search for Knowledge'
-    OR old_content #>> '{reading,paragraphs,0,greek}' IS DISTINCT FROM 'Greek reading passage will be added later.') THEN
+  IF old_content IS NOT NULL AND (old_version IS DISTINCT FROM 1
+    OR md5(old_content::text) IS DISTINCT FROM '94bd495e712cdd40cc0d60e9412e6044') THEN
     RAISE EXCEPTION 'Lesson 6 published content changed after inspection; review before publishing';
   END IF;
   IF old_content IS NOT NULL THEN
