@@ -3,7 +3,7 @@
 - **Project:** Learn Greek with Xenophon
 - **Updated:** 26 September 2026
 - **Source:** User-supplied *Athenaze TOC-2.pdf*, Book I contents on PDF pages 1–6 and Book II contents on PDF pages 8–13
-- **Status:** Lessons 1–5 describe the published course; Lessons 6–48 are the project grammar plan, not completed lessons.
+- **Status:** Lessons 1–5 describe the published course at the time of the original audit; Lessons 6–7 have since been authored. Lessons 8–48 remain the project grammar plan.
 
 ## Purpose and source boundary
 
@@ -117,6 +117,8 @@ Source: supplied PDF pages 8–13. These are image scans; the headings and chapt
 
 Lesson 6 develops **I 3β: plural article, adjective, and noun cases plus accent shifting**. Lesson 4 supplied the singular-case and accent base; Lesson 5 supplied plural verb subjects and forms. The completed Lesson 6 reading uses friends, athletes, and Athenians to make plural cases meaningful. Its Language Study teaches the plural patterns with practice and final grammar exercises; its culture page discusses the Greek gymnasium and leads to the final quiz.
 
+Lesson 7 develops **I 4α: all six present active indicative persons, noun and adjective agreement, and first-declension feminine -η and long -α forms**. Its [authored content](../../content/lessons/lesson-7.json) uses an Eleusinian procession, with a woman's active role, to place these forms in context. Reading-only forms are glossed. Topic practice, required grammar exercises, and the final quiz cover the taught objectives.
+
 Continue in the PDF's order after Lesson 6. When a topic has appeared early, distinguish that appearance from the later chapter's full paradigm or range of uses. In particular, Lesson 3's middle/passive introduction does not exhaust I 6α–β or I 16α, and its demonstratives do not exhaust I 14β. The same principle applies to infinitives introduced in Lesson 3 and taught more systematically in Lesson 5.
 
 ## Rules for changing a reading
@@ -143,7 +145,7 @@ A lesson is complete when its required pages and practice/assessment match the r
 
 ## Project status
 
-Lessons 1–5 are published and documented as taught above. Lessons 6–48 are the progression to use when authoring future lessons; this file does not change lesson pages, the database, quizzes, or learner progress. The Book II compression is a project pacing choice. If workload proves too large, revisit the number of lessons rather than dropping a grammar section silently.
+Lessons 1–5 are documented as taught in the original live audit. Lessons 6–7 have been authored against the next Athenaze allocations; Lessons 8–48 remain the progression to use when authoring future lessons. This file does not change lesson pages, the database, quizzes, or learner progress. The Book II compression is a project pacing choice. If workload proves too large, revisit the number of lessons rather than dropping a grammar section silently.
 
 When each future lesson is implemented, reconcile its placeholder title/grammar label, full page content, exercises, and assessments with its row here. Reading titles remain independently editable.
 

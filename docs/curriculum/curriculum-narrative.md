@@ -4,7 +4,7 @@
 **Scope:** Unit 0 and Lessons 1–12  
 **Updated:** 26 September 2026
 
-This is the project's standing narrative plan for the beginning of *Learn Greek with Xenophon*. Ask Codex to **open “Curriculum Narrative”** to revisit or revise it. Unit 0 and Lessons 1–6 describe authored course material, while Lessons 7–12 remain proposals. This document records curriculum intent and source boundaries. It does not itself publish or replace lesson content on the website.
+This is the project's standing narrative plan for the beginning of *Learn Greek with Xenophon*. Ask Codex to **open “Curriculum Narrative”** to revisit or revise it. Unit 0 and Lessons 1–7 describe authored course material, while Lessons 8–12 remain proposals. This document records curriculum intent and source boundaries. It does not itself publish or replace lesson content on the website.
 
 ## Narrative arc
 
@@ -48,9 +48,9 @@ On his way to buy bread, Xenophon meets Socrates in a narrow lane. Socrates asks
 
 **Language work:** Third-person plurals, commands, infinitives, and review of singular persons and proclitics. **Current sources:** [Lesson 5 content](../../content/lessons/lesson-5.json) and [reading plan](lesson-5-first-meeting.md).
 
-## Proposed readings: Lessons 6–12
+## Continuing readings: Lessons 6–12
 
-These are narrative and grammar targets. Lesson 6 has three authored pages, including Language Study and culture; Lessons 7–12 remain to be authored.
+Lessons 6 and 7 have three authored pages each, including Language Study and culture; Lessons 8–12 remain proposals.
 
 ### Lesson 6 — Strength of Body and Mind
 
@@ -62,9 +62,11 @@ At a gymnasium or palaestra, **Xenophon** and **Clinias (Κλεινίας)** sta
 
 ### Lesson 7 — The Road to Eleusis
 
-Xenophon travels with pilgrims from Athens toward Eleusis. A woman pilgrim should have her own reason for making the journey and an active role in the conversation. The public road, procession, and story of Demeter and Persephone offer movement and anticipation. End at the boundary of the sanctuary or before the private rites: the initiates kept those rites secret, and the reading should not claim to reveal them. The public procession along the Sacred Way and the participation of women are documented in the [Metropolitan Museum of Art's account](https://www.metmuseum.org/de/essays/mystery-cults-in-the-greek-and-roman-world). **Xenophon's own attendance is not attested** and would be reconstructed.
+Xenophon and Clinias join pilgrims near the Dipylon in the Kerameikos gate district. The procession travels through the neighboring Sacred Gate and onto the Sacred Way toward Eleusis. Myrrhine, a fictional Athenian woman, explains why she honors Demeter, guides her sister, and watches the long road. The story of Demeter and Kore adds anticipation, and the reading ends before the sanctuary's private rites. The public procession along the Sacred Way and the participation of women are documented in the [Metropolitan Museum of Art's account](https://www.metmuseum.org/de/essays/mystery-cults-in-the-greek-and-roman-world). **Xenophon's own attendance is not attested**; the characters' journey and conversation are course reconstructions.
 
-**Language target:** Complete present-tense system and first-declension feminine nouns. Let the people, places, and movement along the road carry the practice.
+**Authored lesson:** [Lesson 7 content](../../content/lessons/lesson-7.json) includes vocabulary, a seven-paragraph reading with translation and glosses, word study, four grammar sections with topic practice, final grammar exercises, an original procession illustration, a culture page on Eleusis and its significance to Athenians and other Greeks, and a final quiz.
+
+**Language target:** All six persons of the regular present active indicative, noun and adjective agreement, and first-declension feminine -η and long -α forms. The fixed name Ἱερὰ Ὁδός and irregular proper names are glossed reading exposure, not production targets.
 
 ### Lesson 8 — A Household Finds a Way
 
@@ -101,5 +103,5 @@ Back in Athens, Xenophon reports the consultation. **In Xenophon's own account**
 1. Identify whether each scene is **directly reported in an ancient source**, **adapted from a reported episode**, or **reconstructed for the course**. Xenophon's account is a source, not independent proof that every reported conversation happened exactly as written.
 2. Give women substantive actions and perspectives where the sources allow them; label invented dialogue clearly, especially in Lessons 7 and 8.
 3. Prefer controlled present-tense narrative for Lessons 6–12. Gloss unfamiliar source vocabulary and grammar rather than making it an unannounced assessment target.
-4. Follow the [proposed grammar progression](grammar-progression-48-lessons.md) for Lessons 6–12. Existing website placeholders for those lessons use an older sequence and will need reconciliation when the proposed readings are approved for implementation.
+4. Follow the [grammar progression](grammar-progression-48-lessons.md) for Lessons 6–12. Lesson 7 now follows its planned I 4α allocation; later website placeholders still need reconciliation as those lessons are authored.
 5. Preserve the three-part ending: **Proxenus' invitation → Delphi → Socrates' response**. Module 2 begins with the expedition, not with a second retelling of the Delphic decision.

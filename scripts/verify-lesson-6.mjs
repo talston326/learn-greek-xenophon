@@ -79,6 +79,7 @@ assert.equal(publishedPatch.contentRevision, lesson.contentRevision);
 assert.match(migration, /Preserve subsequent administrator edits/);
 publishedPatch.reading.paragraphs[2].greek = lesson.reading.paragraphs[2].greek;
 publishedPatch.reading.translation = lesson.reading.translation;
+publishedPatch.nextLesson.title = lesson.nextLesson.title;
 assert.deepEqual(publishedPatch, lesson, 'Local source differs from the published migration beyond the administrator reading edit');
 assert.match(lesson.reading.paragraphs[2].greek, /ὁ Κλεινίας καὶ ὁ Ξενοφῶν παρὰ τῷ Σωκράτει ἵστανται καὶ ἀκούουσιν/);
 assert.match(lesson.reading.translation.split('\n\n')[2], /Clinias and Xenophon stand beside Socrates and listen/);

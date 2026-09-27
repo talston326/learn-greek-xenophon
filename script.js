@@ -64,7 +64,7 @@ const COURSE_MODULES = [
       { id: "lesson-4", title: "Gryllus Rides to War", grammar: "Singular noun cases, singular adjective agreement, possessive genitive, and natural case usage", exerciseIds: ["reading"] },
       { id: "lesson-5", title: "An Unexpected Question", grammar: "Third-person plurals, singular and plural commands, infinitives; singular-person and proclitic review" },
       { id: "lesson-6", title: "Strength of Body and Mind", grammar: "Plural article, adjective, and noun cases; shifting accents" },
-      { id: "lesson-7", title: "Examining Oneself", grammar: "Middle/passive voice (present), reflexive sense" },
+      { id: "lesson-7", title: "The Road to Eleusis", grammar: "All present active persons; first-declension feminine nouns" },
       { id: "lesson-8", title: "In the Agora", grammar: "Prepositions expanded, dative case introduction" },
       { id: "lesson-9", title: "Socrates Questions All", grammar: "Imperfect tense, past continuous action" },
       { id: "lesson-10", title: "To Know and To Learn", grammar: "Infinitives (intro), complementary infinitives" },
