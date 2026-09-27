@@ -300,6 +300,13 @@ export default async (request: Request) => {
     const legacyReading = isRecord(legacyContent) && isRecord(legacyContent.reading)
       ? legacyContent.reading
       : null;
+    const legacyActivities = isRecord(legacyContent) && isRecord(legacyContent.activities)
+      ? legacyContent.activities
+      : null;
+    const publishedActivities = publishedBlocks.get("activities");
+    const activities = isRecord(legacyActivities) && isRecord(publishedActivities)
+      ? { ...legacyActivities, ...publishedActivities }
+      : publishedActivities || legacyActivities || undefined;
 
     const assembled = mergeContent(legacyContent, {
       id: lesson.slug,
@@ -315,7 +322,7 @@ export default async (request: Request) => {
       grammar: publishedBlocks.get("grammar") || undefined,
       culture: publishedBlocks.get("culture") || undefined,
       enrichment: publishedBlocks.get("enrichment") || undefined,
-      activities: publishedBlocks.get("activities") || undefined,
+      activities,
     });
 
     return jsonResponse({
