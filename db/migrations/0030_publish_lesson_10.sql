@@ -1,0 +1,5883 @@
+-- Publish the complete Lesson 10 Proxenus reading and learning activities.
+BEGIN;
+DO $lesson10$
+DECLARE
+  patch jsonb := $json${
+  "id": "lesson-10",
+  "number": 10,
+  "title": "The Letter from Proxenus",
+  "greekTitle": "Τὸ παρὰ Προξένου γράμμα",
+  "scope": "Personal pronouns, possession, possessive adjectives, demonstratives, and adjective placement",
+  "theme": "A friend’s invitation, Athens, and a consequential choice",
+  "module": "σοφία — Wisdom and Socrates",
+  "banner": {
+    "image": "assets/lesson-10-letter-banner.png",
+    "alt": "A bearded Xenophon studies a papyrus letter while Socrates speaks with him in a reconstructed Athenian courtyard",
+    "caption": "Xenophon weighs Proxenus’s invitation while consulting Socrates. The scene and letter’s visible form are reconstruction."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-10-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-10-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-10-page-3",
+      "title": "Cyrus, Persia, and Athens",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "People and choices",
+      "items": [
+        {
+          "greek": "ὁ φίλος",
+          "english": "friend",
+          "dictionaryForm": "φίλος, φίλου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "φίλος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πόλις",
+          "english": "city, city-state",
+          "dictionaryForm": "πόλις, πόλεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "πόλις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πατρίς",
+          "english": "homeland",
+          "dictionaryForm": "πατρίς, πατρίδος, ἡ",
+          "status": "required vocabulary",
+          "lemma": "πατρίς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Κῦρος",
+          "english": "Cyrus the Younger",
+          "dictionaryForm": "Κῦρος, Κύρου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Κῦρος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Προξένος",
+          "english": "Proxenus",
+          "dictionaryForm": "Προξένος, Προξένου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Προξένος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ κίνδυνος",
+          "english": "risk, danger",
+          "dictionaryForm": "κίνδυνος, κινδύνου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "κίνδυνος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ πόλεμος",
+          "english": "war",
+          "dictionaryForm": "πόλεμος, πολέμου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "πόλεμος",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Letters and travel",
+      "items": [
+        {
+          "greek": "τὸ γράμμα",
+          "english": "letter",
+          "dictionaryForm": "γράμμα, γράμματος, τό",
+          "status": "required vocabulary",
+          "lemma": "γράμμα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὁδός",
+          "english": "road, journey",
+          "dictionaryForm": "ὁδός, ὁδοῦ, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ὁδός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "γράφω",
+          "english": "write",
+          "dictionaryForm": "γράφω",
+          "status": "required vocabulary",
+          "lemma": "γράφω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καλέω",
+          "english": "call, invite",
+          "dictionaryForm": "καλέω",
+          "status": "required vocabulary",
+          "lemma": "καλέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βαδίζω",
+          "english": "walk, go",
+          "dictionaryForm": "βαδίζω",
+          "status": "required vocabulary",
+          "lemma": "βαδίζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀκούω",
+          "english": "hear, listen",
+          "dictionaryForm": "ἀκούω",
+          "status": "required vocabulary",
+          "lemma": "ἀκούω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐρωτάω",
+          "english": "ask, consult",
+          "dictionaryForm": "ἐρωτάω",
+          "status": "required vocabulary",
+          "lemma": "ἐρωτάω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πορεύομαι",
+          "english": "go, travel",
+          "dictionaryForm": "πορεύομαι",
+          "status": "reading vocabulary",
+          "lemma": "πορεύομαι",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Pronouns and describing",
+      "items": [
+        {
+          "greek": "ἐγώ / με / μου",
+          "english": "I / me / my",
+          "dictionaryForm": "ἐγώ",
+          "status": "required vocabulary",
+          "lemma": "ἐγώ / με / μου",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σύ / σε / σου",
+          "english": "you / you / your",
+          "dictionaryForm": "σύ",
+          "status": "required vocabulary",
+          "lemma": "σύ / σε / σου",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐμός, ἐμή, ἐμόν",
+          "english": "my",
+          "dictionaryForm": "ἐμός, ἐμή, ἐμόν",
+          "status": "required vocabulary",
+          "lemma": "ἐμός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σός, σή, σόν",
+          "english": "your",
+          "dictionaryForm": "σός, σή, σόν",
+          "status": "required vocabulary",
+          "lemma": "σός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οὗτος, αὕτη, τοῦτο",
+          "english": "this",
+          "dictionaryForm": "οὗτος, αὕτη, τοῦτο",
+          "status": "required vocabulary",
+          "lemma": "οὗτος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "παλαιός, παλαιά, παλαιόν",
+          "english": "old, longstanding",
+          "dictionaryForm": "παλαιός, παλαιά, παλαιόν",
+          "status": "required vocabulary",
+          "lemma": "παλαιός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μακρός, μακρά, μακρόν",
+          "english": "long",
+          "dictionaryForm": "μακρός, μακρά, μακρόν",
+          "status": "required vocabulary",
+          "lemma": "μακρός",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τὸ παρὰ Προξένου γράμμα",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "After the conversation about friendship, a friend’s invitation gives Xenophon a decision to make. Proxenus invites him to join Cyrus. A connection with Cyrus is attractive, but it could put an Athenian under suspicion after Cyrus’s aid to Sparta. Xenophon discusses the journey with Socrates.",
+      "Source note: Xenophon, Anabasis 3.1.4–5 reports that Proxenus sent an invitation, promised to introduce Xenophon to Cyrus, and that Xenophon consulted Socrates after reading the letter. Socrates feared an accusation in Athens because Cyrus had supported Sparta, and he advised Xenophon to consult Apollo at Delphi. The source does not preserve the letter’s wording, say that Xenophon physically showed it to Socrates, or record their conversation word for word. Those details below are adapted dialogue and visual reconstruction.",
+      "The Greek keeps the present-tense narrative used in earlier lessons, with a few source-based past and future forms clearly glossed. Blue glosses support proper names, supplied verbs, and forms beyond the production target. This lesson asks you to read pronouns, possessors, demonstratives, and adjective position inside a personal dilemma."
+    ],
+    "paragraphs": [
+      {
+        "greek": "ὁ Ξενοφῶν ἐν Ἀθήναις ἐστίν. γράμμα παρὰ Προξένου, παλαιοῦ φίλου, ἥκει. ὁ Ξενοφῶν τὸ γράμμα λαμβάνει καὶ ἀναγιγνώσκει.",
+        "gloss": [
+          {
+            "greek": "ἐν Ἀθήναις",
+            "english": "in Athens; place name"
+          },
+          {
+            "greek": "παρὰ Προξένου",
+            "english": "from Proxenus; proper name"
+          },
+          {
+            "greek": "παλαιοῦ φίλου",
+            "english": "of an old friend; genitive phrase"
+          },
+          {
+            "greek": "ἥκει",
+            "english": "has arrived; supplied verb"
+          },
+          {
+            "greek": "λαμβάνει",
+            "english": "takes; supplied verb"
+          },
+          {
+            "greek": "ἀναγιγνώσκει",
+            "english": "reads; supplied verb"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Προξένος γράφει· «ὦ Ξενοφῶν, ἐλθὲ πρὸς ἐμέ. Κῦρος ἐμοὶ φίλος ἐστίν. ἐγώ σε φίλον τῷ Κύρῳ ποιήσω. σὺ ἐμοὶ φίλος εἶ.»",
+        "gloss": [
+          {
+            "greek": "ὁ Προξένος",
+            "english": "Proxenus; name"
+          },
+          {
+            "greek": "ὦ Ξενοφῶν",
+            "english": "Xenophon!; direct address"
+          },
+          {
+            "greek": "ἐλθὲ",
+            "english": "come!; supplied command"
+          },
+          {
+            "greek": "πρὸς ἐμέ",
+            "english": "to me; emphatic pronoun"
+          },
+          {
+            "greek": "Κῦρος",
+            "english": "Cyrus the Younger; name"
+          },
+          {
+            "greek": "ἐμοὶ",
+            "english": "to me; supplied dative pronoun"
+          },
+          {
+            "greek": "σε",
+            "english": "you; object of ποιήσω"
+          },
+          {
+            "greek": "τῷ Κύρῳ",
+            "english": "to Cyrus; proper name"
+          },
+          {
+            "greek": "ποιήσω",
+            "english": "I will make; supplied future verb"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν τὸ γράμμα κατατίθησιν. «ὁ φίλος μου με καλεῖ,» λέγει· «ἡ ὁδὸς μακρά ἐστιν. ἡ δὲ ἐμὴ πόλις Ἀθῆναί ἐστιν.»",
+        "gloss": [
+          {
+            "greek": "κατατίθησιν",
+            "english": "sets down; supplied verb"
+          },
+          {
+            "greek": "ὁ φίλος μου",
+            "english": "my friend; μου follows the noun"
+          },
+          {
+            "greek": "με",
+            "english": "me; object of καλεῖ"
+          },
+          {
+            "greek": "καλεῖ",
+            "english": "calls, invites; supplied verb"
+          },
+          {
+            "greek": "ἡ ὁδὸς",
+            "english": "the road or journey"
+          },
+          {
+            "greek": "ἡ δὲ ἐμὴ πόλις",
+            "english": "but my city; possessive adjective agrees with πόλις"
+          },
+          {
+            "greek": "Ἀθῆναί",
+            "english": "Athens; plural place name"
+          }
+        ]
+      },
+      {
+        "greek": "αὕτη ἡ ὁδὸς καλὴ δοκεῖ, ἀλλὰ καὶ κίνδυνον ἔχει. ὁ Κῦρος τοῖς Λακεδαιμονίοις ἐν τῷ πολέμῳ ἐβοήθησε. οἱ Ἀθηναῖοι τούτου οὐκ ἐπιλανθάνονται.",
+        "gloss": [
+          {
+            "greek": "αὕτη ἡ ὁδὸς",
+            "english": "this journey; feminine demonstrative"
+          },
+          {
+            "greek": "καλὴ δοκεῖ",
+            "english": "seems attractive; supplied expression"
+          },
+          {
+            "greek": "κίνδυνον ἔχει",
+            "english": "carries a risk"
+          },
+          {
+            "greek": "τοῖς Λακεδαιμονίοις",
+            "english": "the Spartans; supplied plural dative"
+          },
+          {
+            "greek": "ἐν τῷ πολέμῳ",
+            "english": "during the war"
+          },
+          {
+            "greek": "ἐβοήθησε",
+            "english": "he helped; supplied past tense"
+          },
+          {
+            "greek": "τούτου οὐκ ἐπιλανθάνονται",
+            "english": "they do not forget this; supplied genitive and middle verb"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν πρὸς τὸν Σωκράτην βαδίζει καὶ τὸ γράμμα αὐτῷ δείκνυσιν. «ὁ παλαιὸς φίλος μου με καλεῖ,» φησίν· «τί σὺ λέγεις περὶ ταύτης τῆς ὁδοῦ;»",
+        "gloss": [
+          {
+            "greek": "πρὸς τὸν Σωκράτην",
+            "english": "to Socrates; proper name"
+          },
+          {
+            "greek": "βαδίζει",
+            "english": "walks, goes"
+          },
+          {
+            "greek": "αὐτῷ",
+            "english": "to him; supplied dative pronoun"
+          },
+          {
+            "greek": "δείκνυσιν",
+            "english": "shows; supplied verb"
+          },
+          {
+            "greek": "ὁ παλαιὸς φίλος μου",
+            "english": "my old friend"
+          },
+          {
+            "greek": "φησίν",
+            "english": "he says; supplied verb"
+          },
+          {
+            "greek": "τί",
+            "english": "what?; question word"
+          },
+          {
+            "greek": "περὶ ταύτης τῆς ὁδοῦ",
+            "english": "about this journey; supplied genitive phrase"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Σωκράτης ἀκούει καὶ λέγει· «ὁ φίλος σου ἀγαθός ἐστιν. ἀλλ᾽ ὁ Κῦρος τοῖς Λακεδαιμονίοις ἐβοήθησε. οἱ Ἀθηναῖοι ἴσως σε αἰτιάσονται.»",
+        "gloss": [
+          {
+            "greek": "ὁ φίλος σου",
+            "english": "your friend; σου follows the noun"
+          },
+          {
+            "greek": "ἀλλ᾽",
+            "english": "but; elision from ἀλλά"
+          },
+          {
+            "greek": "τοῖς Λακεδαιμονίοις",
+            "english": "the Spartans"
+          },
+          {
+            "greek": "ἐβοήθησε",
+            "english": "he helped; supplied past tense"
+          },
+          {
+            "greek": "ἴσως",
+            "english": "perhaps"
+          },
+          {
+            "greek": "σε",
+            "english": "you; object pronoun"
+          },
+          {
+            "greek": "αἰτιάσονται",
+            "english": "they will accuse; supplied future middle form"
+          }
+        ]
+      },
+      {
+        "greek": "«ἡ σὴ πατρὶς Ἀθῆναί ἐστιν. μὴ ταχὺ κρῖνε. πρὸς Δελφοὺς πορεύου καὶ τὸν Ἀπόλλωνα περὶ τῆς ὁδοῦ ἐρώτα.» ὁ Ξενοφῶν ἀκούει.",
+        "gloss": [
+          {
+            "greek": "ἡ σὴ πατρὶς",
+            "english": "your homeland; feminine possessive adjective"
+          },
+          {
+            "greek": "μὴ ταχὺ κρῖνε",
+            "english": "do not decide quickly; supplied command"
+          },
+          {
+            "greek": "πρὸς Δελφοὺς",
+            "english": "to Delphi; place name"
+          },
+          {
+            "greek": "πορεύου",
+            "english": "go; supplied middle command"
+          },
+          {
+            "greek": "τὸν Ἀπόλλωνα",
+            "english": "Apollo; proper name"
+          },
+          {
+            "greek": "περὶ τῆς ὁδοῦ",
+            "english": "about the journey"
+          },
+          {
+            "greek": "ἐρώτα",
+            "english": "ask; command from ἐρωτάω"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν τὸ γράμμα αὖθις βλέπει. ὁ φίλος αὐτὸν καλεῖ· ἡ δὲ πόλις αὐτοῦ ἐνταῦθα ἐστίν. «τοῦτο τὸ γράμμα περὶ ἐμοῦ ἐστίν,» λέγει· «νῦν πρὸς Δελφοὺς πορεύομαι.»",
+        "gloss": [
+          {
+            "greek": "αὖθις",
+            "english": "again"
+          },
+          {
+            "greek": "αὐτὸν",
+            "english": "him; object pronoun"
+          },
+          {
+            "greek": "ἡ δὲ πόλις αὐτοῦ",
+            "english": "but his city"
+          },
+          {
+            "greek": "ἐνταῦθα",
+            "english": "here"
+          },
+          {
+            "greek": "τοῦτο τὸ γράμμα",
+            "english": "this letter; neuter demonstrative"
+          },
+          {
+            "greek": "περὶ ἐμοῦ",
+            "english": "about me; emphatic genitive"
+          },
+          {
+            "greek": "πρὸς Δελφοὺς",
+            "english": "to Delphi"
+          },
+          {
+            "greek": "πορεύομαι",
+            "english": "I go; supplied middle form"
+          }
+        ]
+      }
+    ],
+    "translation": "Xenophon is in Athens. A letter arrives from Proxenus, an old friend. Xenophon takes the letter and reads it.\n\nProxenus writes: “Xenophon, come to me. Cyrus is my friend. I will make you a friend of Cyrus. You are my friend.”\n\nXenophon sets down the letter. “My friend calls me,” he says, “but the journey is long, and my city is Athens.”\n\nThis journey seems appealing, but it also carries danger. Cyrus helped the Spartans during the war. The Athenians do not forget this.\n\nXenophon goes to Socrates and shows him the letter. “My old friend calls me,” he says. “What do you say about this journey?”\n\nSocrates listens and says: “Your friend is good. But Cyrus helped the Spartans. The Athenians may accuse you.”\n\n“Your homeland is Athens. Do not decide quickly. Go to Delphi and consult Apollo about the journey.” Xenophon listens.\n\nXenophon looks again at the letter. His friend calls him, but his city is here. “This letter concerns me,” he says. “Now I am going to Delphi.”",
+    "sourceCitation": "Xenophon, Anabasis 3.1.4–5. Letter wording and extended dialogue are adapted. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3",
+    "notesMarkdown": "Proxenus’s invitation, the promise of an introduction to Cyrus, Socrates’ Athenian concern, and the Delphic advice are reported in Anabasis 3.1.4–5. The letter’s text, courtyard, physical handoff, and personal thoughts are course reconstruction."
+  },
+  "wordStudy": {
+    "label": "Word Study — A Friend, a Letter, a Choice",
+    "blocks": [
+      {
+        "title": "What belongs to whom?",
+        "practiceTopic": "word-study",
+        "body": [
+          "ὁ φίλος μου means “my friend”; ὁ φίλος σου means “your friend.” The small words μου and σου follow the noun. In the letter, Proxenus emphasizes ἐγώ (“I”) and σε (“you”), making his offer personal.",
+          "τὸ γράμμα is a letter; ἡ ὁδός can be a road or a journey. The invitation moves from a friend’s letter to a long road, but Athens remains Xenophon’s city and homeland.",
+          "Cyrus here is Cyrus the Younger, a Persian prince. He is not Cyrus the Great, the earlier founder of the empire. His name and the names of Proxenus and Delphi remain supported reading vocabulary."
+        ],
+        "display": [
+          {
+            "greek": "ὁ φίλος μου",
+            "english": "my friend"
+          },
+          {
+            "greek": "ἡ σὴ ὁδός",
+            "english": "your journey"
+          },
+          {
+            "greek": "τοῦτο τὸ γράμμα",
+            "english": "this letter"
+          },
+          {
+            "greek": "ἡ ἐμὴ πόλις",
+            "english": "my city"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Lesson 9 practiced compact dialogue. Lesson 10 uses the same speakers’ voices to ask who calls whom, whose city matters, and how Greek places describing words around a noun.",
+    "objectives": [
+      "Distinguish subject, object, and possessive forms of ἐγώ and σύ.",
+      "Read μου and σου after a noun as possession.",
+      "Match ἐμός and σός to the gender of the thing owned.",
+      "Read οὗτος, αὕτη, and τοῦτο beside nouns and alone.",
+      "Distinguish an attributive adjective from a predicate statement."
+    ],
+    "sections": [
+      {
+        "id": "personal-pronouns",
+        "title": "1. Pronouns: Who Speaks, Who Is Addressed?",
+        "practiceTopic": "personal-pronouns",
+        "body": [
+          "ἐγώ means “I,” and σύ means “you” when one person is addressed. The verb ending can already show the person, so Greek often uses these pronouns for emphasis or contrast: ἐγώ σε φίλον ποιήσω, “I will make you a friend.”",
+          "The object forms are με (“me”) and σε (“you”). The short possessive forms μου (“my, of me”) and σου (“your, of you”) appear with nouns. These are forms of personal pronouns, not adjectives.",
+          "In the reading, Proxenus says ἐγώ σε ... ποιήσω, while Xenophon says ὁ φίλος μου με καλεῖ. Follow the speaker and the case of each pronoun."
+        ],
+        "table": {
+          "title": "Core first- and second-person forms",
+          "headers": [
+            "Job",
+            "First person",
+            "Second person"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "subject",
+              "ἐγώ — I",
+              "σύ — you"
+            ],
+            [
+              "direct object",
+              "με — me",
+              "σε — you"
+            ],
+            [
+              "possessor",
+              "μου — my",
+              "σου — your"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "In ὁ φίλος μου με καλεῖ, who receives the action?",
+            "answer": "με means “me”; μου means “my” and belongs with φίλος."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ἐγώ σε καλέω· σὺ με ἀκούεις.",
+            "english": "I call you; you hear me."
+          }
+        ]
+      },
+      {
+        "id": "genitive-possession",
+        "title": "2. Possession with μου and σου",
+        "practiceTopic": "genitive-possession",
+        "body": [
+          "The small genitive pronoun usually follows the noun it owns: ὁ φίλος μου, “my friend”; ἡ πόλις σου, “your city”; τὸ γράμμα σου, “your letter.” The noun keeps its own case according to its job in the sentence.",
+          "The owner does not change the gender of the noun. Compare ὁ φίλος μου, ἡ ὁδός μου, and τὸ γράμμα μου: masculine, feminine, and neuter things can all belong to “me.”",
+          "When reading, keep the possessor attached to the noun. In ὁ φίλος σου ἀγαθός ἐστιν, it is your friend who is good; σου is not the subject."
+        ],
+        "table": {
+          "title": "A noun plus its possessor",
+          "headers": [
+            "Greek",
+            "Meaning",
+            "Thing owned"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ὁ φίλος μου",
+              "my friend",
+              "masculine"
+            ],
+            [
+              "ἡ ὁδός σου",
+              "your road",
+              "feminine"
+            ],
+            [
+              "τὸ γράμμα μου",
+              "my letter",
+              "neuter"
+            ],
+            [
+              "ἡ πόλις αὐτοῦ",
+              "his city",
+              "feminine"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Where does σου belong in ὁ φίλος σου?",
+            "answer": "It follows φίλος and means “your”; together they form “your friend.”"
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ὁ φίλος μου τὸ γράμμα σου βλέπει.",
+            "english": "My friend sees your letter."
+          }
+        ]
+      },
+      {
+        "id": "possessive-adjectives",
+        "title": "3. Possessive Adjectives Agree with the Noun",
+        "practiceTopic": "possessive-adjectives",
+        "body": [
+          "Greek can also say “my” with ἐμός, ἐμή, ἐμόν and “your” with σός, σή, σόν. Unlike μου and σου, these are adjectives: their endings agree with the thing owned in gender, number, and case.",
+          "The reading has ἡ ἐμὴ πόλις, “my city,” and ἡ σὴ πατρίς, “your homeland.” The feminine forms ἐμή and σή agree with feminine πόλις and πατρίς. The owner may be a man, but the ending follows the noun.",
+          "The article normally stands before an attributive possessive adjective: ὁ ἐμὸς φίλος, ἡ σὴ ὁδός, τὸ ἐμὸν γράμμα. Compare the simpler postposed genitive ὁ φίλος μου."
+        ],
+        "table": {
+          "title": "Singular nominative possessive adjectives",
+          "headers": [
+            "Thing owned",
+            "My",
+            "Your"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "masculine friend",
+              "ὁ ἐμὸς φίλος",
+              "ὁ σὸς φίλος"
+            ],
+            [
+              "feminine road",
+              "ἡ ἐμὴ ὁδός",
+              "ἡ σὴ ὁδός"
+            ],
+            [
+              "neuter letter",
+              "τὸ ἐμὸν γράμμα",
+              "τὸ σὸν γράμμα"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "Why is ἐμή feminine in ἡ ἐμὴ πόλις?",
+            "answer": "It agrees with the feminine noun πόλις, not with the sex of the owner."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ἡ ἐμὴ πόλις Ἀθῆναί ἐστιν.",
+            "english": "My city is Athens."
+          }
+        ]
+      },
+      {
+        "id": "demonstratives",
+        "title": "4. This Friend, This Road, This Letter",
+        "practiceTopic": "demonstratives",
+        "body": [
+          "οὗτος, αὕτη, τοῦτο mean “this” for masculine, feminine, and neuter nouns. The reading uses αὕτη ἡ ὁδός, “this journey,” and τοῦτο τὸ γράμμα, “this letter.”",
+          "A demonstrative stands outside the article-plus-noun group: οὗτος ὁ φίλος, αὕτη ἡ ὁδός, τοῦτο τὸ γράμμα. The sequence ὁ οὗτος φίλος is not the ordinary way to say “this friend.”",
+          "The same forms can stand alone as pronouns. The reading has τοῦτο τὸ γράμμα, and a supplied genitive form, τούτου, means “of this fact” with the verb ἐπιλανθάνονται. The latter phrase refers to Cyrus’s aid to Sparta."
+        ],
+        "table": {
+          "title": "Point to the person, road, or letter",
+          "headers": [
+            "Gender",
+            "Greek",
+            "Meaning"
+          ],
+          "greekColumns": [
+            1
+          ],
+          "rows": [
+            [
+              "masculine",
+              "οὗτος ὁ φίλος",
+              "this friend"
+            ],
+            [
+              "feminine",
+              "αὕτη ἡ ὁδός",
+              "this journey"
+            ],
+            [
+              "neuter",
+              "τοῦτο τὸ γράμμα",
+              "this letter"
+            ],
+            [
+              "alone",
+              "τοῦτο",
+              "this fact"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "What does τοῦτο point to in τοῦτο τὸ γράμμα?",
+            "answer": "The neuter noun γράμμα, “letter.”"
+          }
+        ],
+        "examples": [
+          {
+            "greek": "αὕτη ἡ ὁδὸς μακρά ἐστιν.",
+            "english": "This journey is long."
+          }
+        ]
+      },
+      {
+        "id": "adjective-placement",
+        "title": "5. A Good Friend or a Friend Is Good?",
+        "practiceTopic": "adjective-placement",
+        "body": [
+          "An adjective inside the article-and-noun group describes which person or thing: ὁ παλαιὸς φίλος, “the old friend”; ὁ ἀγαθὸς φίλος, “the good friend.” A second attributive pattern is ὁ φίλος ὁ παλαιός.",
+          "An adjective outside that group can make a statement about the noun: ὁ φίλος ἀγαθός ἐστιν, “the friend is good.” The difference in position helps you distinguish description from a claim.",
+          "In the reading, ὁ παλαιὸς φίλος μου identifies Proxenus, while ὁ φίλος σου ἀγαθός ἐστιν is Socrates’ judgment. Possessive adjectives such as ἐμός and σός follow the attributive pattern."
+        ],
+        "table": {
+          "title": "Where the adjective stands",
+          "headers": [
+            "Greek",
+            "Pattern",
+            "Meaning"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ὁ ἀγαθὸς φίλος",
+              "attributive",
+              "the good friend"
+            ],
+            [
+              "ὁ φίλος ὁ ἀγαθός",
+              "attributive",
+              "the good friend"
+            ],
+            [
+              "ὁ φίλος ἀγαθός ἐστιν",
+              "predicate",
+              "the friend is good"
+            ],
+            [
+              "ἡ ἐμὴ πόλις",
+              "attributive possession",
+              "my city"
+            ]
+          ]
+        },
+        "checks": [
+          {
+            "prompt": "What changes between ὁ ἀγαθὸς φίλος and ὁ φίλος ἀγαθός ἐστιν?",
+            "answer": "The first identifies a good friend; the second states that the friend is good."
+          }
+        ],
+        "examples": [
+          {
+            "greek": "ὁ παλαιὸς φίλος μου με καλεῖ.",
+            "english": "My old friend calls me."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "ἐγώ / με / μου = I / me / my; σύ / σε / σου = you / you / your.",
+        "A possessor can follow the noun: ὁ φίλος μου, ἡ πόλις σου, τὸ γράμμα μου.",
+        "A possessive adjective agrees with the thing owned: ὁ ἐμὸς φίλος, ἡ σὴ ὁδός, τὸ ἐμὸν γράμμα.",
+        "Demonstratives stand outside the article group: οὗτος ὁ φίλος, αὕτη ἡ ὁδός, τοῦτο τὸ γράμμα.",
+        "ὁ ἀγαθὸς φίλος identifies a good friend; ὁ φίλος ἀγαθός ἐστιν says that the friend is good."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Cyrus, Persia, and Athens",
+    "banner": {
+      "image": "assets/lesson-10-persian-guard.jpg",
+      "alt": "Achaemenid limestone relief of the head of a Persian guard from Persepolis, with headdress, curled beard, bow, and quiver",
+      "caption": "Head of a Persian guard, ca. 486–465 BCE, from Persepolis in Iran. This is an earlier Achaemenid relief, not a portrait of Cyrus the Younger.",
+      "credit": "The Metropolitan Museum of Art, object 55.121.3. Public Domain; image unmodified.",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/324433",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+    },
+    "body": [
+      "Cyrus in this lesson is Cyrus the Younger, a Persian prince who later led the expedition Xenophon joined. He should not be confused with Cyrus the Great, who founded the Achaemenid Empire generations earlier. The empire stretched across western Asia and beyond, so service with Cyrus meant entering a political world much larger than one Greek city.",
+      "For Xenophon, the invitation raised an Athenian problem. Xenophon says Socrates worried that friendship with Cyrus could provoke an accusation at Athens, because Cyrus was believed to have aided the Spartans during their war with Athens. That is the risk behind Socrates’ advice to consult Apollo; the reading’s private conversation gives a beginner-accessible shape to the concern.",
+      "The stone relief above comes from Persepolis and shows an Achaemenid Persian guard. It belongs to the Persian world but predates Xenophon’s decision and does not show Cyrus, Proxenus, or a Greek mercenary. Its bow, quiver, and carefully carved dress help students see a Persian imperial visual tradition without treating the image as an illustration of the reported meeting.",
+      "Greek writers are important witnesses to this period, but they wrote from particular viewpoints. Xenophon reports his own earlier choice retrospectively, after the expedition’s dangers were known. In this lesson, the source-backed facts and the reconstructed words are identified before the reading so students can keep both in view."
+    ],
+    "questions": [
+      {
+        "prompt": "Which Cyrus appears in the reading?",
+        "answer": "Cyrus the Younger, a Persian prince, not Cyrus the Great."
+      },
+      {
+        "prompt": "Why did Socrates worry about the invitation?",
+        "answer": "Athenians might accuse Xenophon for becoming a friend of Cyrus, who had aided Sparta in the war against Athens."
+      },
+      {
+        "prompt": "What does the culture image actually show?",
+        "answer": "An earlier Achaemenid Persian guard relief from Persepolis, not Cyrus the Younger or Xenophon."
+      },
+      {
+        "prompt": "What did Socrates advise Xenophon to do?",
+        "answer": "Consult Apollo at Delphi about the proposed journey."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Distinguish ἐγώ, με, and μου; then σύ, σε, and σου.",
+        "Explain two ways to say “my friend”: ὁ φίλος μου and ὁ ἐμὸς φίλος.",
+        "Read αὕτη ἡ ὁδός and τοῦτο τὸ γράμμα.",
+        "Explain why friendship with Cyrus might trouble Athenians, and what the relief can actually show."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 3.1.4–5 (Proxenus, Cyrus, Socrates)",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3"
+      },
+      {
+        "title": "The Metropolitan Museum of Art, The Achaemenid Persian Empire",
+        "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c"
+      },
+      {
+        "title": "The Metropolitan Museum of Art, Head of a Persian guard",
+        "url": "https://www.metmuseum.org/art/collection/search/324433"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 10 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ φίλος",
+          "answer": "friend"
+        },
+        {
+          "prompt": "ἡ πόλις",
+          "answer": "city, city-state"
+        },
+        {
+          "prompt": "ἡ πατρίς",
+          "answer": "homeland"
+        },
+        {
+          "prompt": "ὁ Κῦρος",
+          "answer": "Cyrus the Younger"
+        },
+        {
+          "prompt": "ὁ Προξένος",
+          "answer": "Proxenus"
+        },
+        {
+          "prompt": "ὁ κίνδυνος",
+          "answer": "risk, danger"
+        },
+        {
+          "prompt": "ὁ πόλεμος",
+          "answer": "war"
+        },
+        {
+          "prompt": "τὸ γράμμα",
+          "answer": "letter"
+        },
+        {
+          "prompt": "ἡ ὁδός",
+          "answer": "road, journey"
+        },
+        {
+          "prompt": "γράφω",
+          "answer": "write"
+        },
+        {
+          "prompt": "καλέω",
+          "answer": "call, invite"
+        },
+        {
+          "prompt": "βαδίζω",
+          "answer": "walk, go"
+        },
+        {
+          "prompt": "ἀκούω",
+          "answer": "hear, listen"
+        },
+        {
+          "prompt": "ἐρωτάω",
+          "answer": "ask, consult"
+        },
+        {
+          "prompt": "πορεύομαι",
+          "answer": "go, travel"
+        },
+        {
+          "prompt": "ἐγώ / με / μου",
+          "answer": "I / me / my"
+        },
+        {
+          "prompt": "σύ / σε / σου",
+          "answer": "you / you / your"
+        },
+        {
+          "prompt": "ἐμός, ἐμή, ἐμόν",
+          "answer": "my"
+        },
+        {
+          "prompt": "σός, σή, σόν",
+          "answer": "your"
+        },
+        {
+          "prompt": "οὗτος, αὕτη, τοῦτο",
+          "answer": "this"
+        },
+        {
+          "prompt": "παλαιός, παλαιά, παλαιόν",
+          "answer": "old, longstanding"
+        },
+        {
+          "prompt": "μακρός, μακρά, μακρόν",
+          "answer": "long"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 10 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Practice required Lesson 10 words in short rounds. Reading-only words remain glossed.",
+      "questions": [
+        {
+          "id": "lesson-10-vocab-1-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ φίλος mean?",
+          "choices": [
+            {
+              "text": "hear, listen",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            },
+            {
+              "text": "friend",
+              "correct": true,
+              "feedback": "Correct: ὁ φίλος means friend."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-1-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “friend”?",
+          "choices": [
+            {
+              "text": "ἐρωτάω",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            },
+            {
+              "text": "ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: ὁ φίλος means friend."
+            },
+            {
+              "text": "ὁ κίνδυνος",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            },
+            {
+              "text": "γράφω",
+              "correct": false,
+              "feedback": "Review: ὁ φίλος means friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-2-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πόλις mean?",
+          "choices": [
+            {
+              "text": "write",
+              "correct": false,
+              "feedback": "Review: ἡ πόλις means city, city-state."
+            },
+            {
+              "text": "ask, consult",
+              "correct": false,
+              "feedback": "Review: ἡ πόλις means city, city-state."
+            },
+            {
+              "text": "city, city-state",
+              "correct": true,
+              "feedback": "Correct: ἡ πόλις means city, city-state."
+            },
+            {
+              "text": "risk, danger",
+              "correct": false,
+              "feedback": "Review: ἡ πόλις means city, city-state."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-2-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “city, city-state”?",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: ἡ πόλις means city, city-state."
+            },
+            {
+              "text": "ἐγώ / με / μου",
+              "correct": false,
+              "feedback": "Review: ἡ πόλις means city, city-state."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": true,
+              "feedback": "Correct: ἡ πόλις means city, city-state."
+            },
+            {
+              "text": "ὁ πόλεμος",
+              "correct": false,
+              "feedback": "Review: ἡ πόλις means city, city-state."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-3-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "war",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "call, invite",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "I / me / my",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct: ἡ πατρίς means homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-3-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “homeland”?",
+          "choices": [
+            {
+              "text": "τὸ γράμμα",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "βαδίζω",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "σύ / σε / σου",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": true,
+              "feedback": "Correct: ἡ πατρίς means homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-4-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κίνδυνος mean?",
+          "choices": [
+            {
+              "text": "risk, danger",
+              "correct": true,
+              "feedback": "Correct: ὁ κίνδυνος means risk, danger."
+            },
+            {
+              "text": "letter",
+              "correct": false,
+              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+            },
+            {
+              "text": "walk, go",
+              "correct": false,
+              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+            },
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-4-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “risk, danger”?",
+          "choices": [
+            {
+              "text": "ὁ κίνδυνος",
+              "correct": true,
+              "feedback": "Correct: ὁ κίνδυνος means risk, danger."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+            },
+            {
+              "text": "ἀκούω",
+              "correct": false,
+              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+            },
+            {
+              "text": "ἐμός, ἐμή, ἐμόν",
+              "correct": false,
+              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-5-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ πόλεμος mean?",
+          "choices": [
+            {
+              "text": "my",
+              "correct": false,
+              "feedback": "Review: ὁ πόλεμος means war."
+            },
+            {
+              "text": "war",
+              "correct": true,
+              "feedback": "Correct: ὁ πόλεμος means war."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: ὁ πόλεμος means war."
+            },
+            {
+              "text": "hear, listen",
+              "correct": false,
+              "feedback": "Review: ὁ πόλεμος means war."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-5-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “war”?",
+          "choices": [
+            {
+              "text": "σός, σή, σόν",
+              "correct": false,
+              "feedback": "Review: ὁ πόλεμος means war."
+            },
+            {
+              "text": "ὁ πόλεμος",
+              "correct": true,
+              "feedback": "Correct: ὁ πόλεμος means war."
+            },
+            {
+              "text": "γράφω",
+              "correct": false,
+              "feedback": "Review: ὁ πόλεμος means war."
+            },
+            {
+              "text": "ἐρωτάω",
+              "correct": false,
+              "feedback": "Review: ὁ πόλεμος means war."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-6-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ γράμμα mean?",
+          "choices": [
+            {
+              "text": "ask, consult",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
+            {
+              "text": "your",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
+            {
+              "text": "letter",
+              "correct": true,
+              "feedback": "Correct: τὸ γράμμα means letter."
+            },
+            {
+              "text": "write",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-6-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “letter”?",
+          "choices": [
+            {
+              "text": "ἐγώ / με / μου",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
+            {
+              "text": "οὗτος, αὕτη, τοῦτο",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
+            {
+              "text": "τὸ γράμμα",
+              "correct": true,
+              "feedback": "Correct: τὸ γράμμα means letter."
+            },
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-7-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὁδός mean?",
+          "choices": [
+            {
+              "text": "call, invite",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "I / me / my",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "this",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "road, journey",
+              "correct": true,
+              "feedback": "Correct: ἡ ὁδός means road, journey."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-7-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “road, journey”?",
+          "choices": [
+            {
+              "text": "βαδίζω",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "σύ / σε / σου",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "παλαιός, παλαιά, παλαιόν",
+              "correct": false,
+              "feedback": "Review: ἡ ὁδός means road, journey."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": true,
+              "feedback": "Correct: ἡ ὁδός means road, journey."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-8-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does γράφω mean?",
+          "choices": [
+            {
+              "text": "write",
+              "correct": true,
+              "feedback": "Correct: γράφω means write."
+            },
+            {
+              "text": "walk, go",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "old, longstanding",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-8-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “write”?",
+          "choices": [
+            {
+              "text": "γράφω",
+              "correct": true,
+              "feedback": "Correct: γράφω means write."
+            },
+            {
+              "text": "ἀκούω",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "ἐμός, ἐμή, ἐμόν",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "μακρός, μακρά, μακρόν",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-9-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does καλέω mean?",
+          "choices": [
+            {
+              "text": "long",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            },
+            {
+              "text": "call, invite",
+              "correct": true,
+              "feedback": "Correct: καλέω means call, invite."
+            },
+            {
+              "text": "hear, listen",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            },
+            {
+              "text": "my",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-9-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “call, invite”?",
+          "choices": [
+            {
+              "text": "ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            },
+            {
+              "text": "καλέω",
+              "correct": true,
+              "feedback": "Correct: καλέω means call, invite."
+            },
+            {
+              "text": "ἐρωτάω",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            },
+            {
+              "text": "σός, σή, σόν",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-10-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does βαδίζω mean?",
+          "choices": [
+            {
+              "text": "your",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk, go."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk, go."
+            },
+            {
+              "text": "walk, go",
+              "correct": true,
+              "feedback": "Correct: βαδίζω means walk, go."
+            },
+            {
+              "text": "ask, consult",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk, go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-10-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “walk, go”?",
+          "choices": [
+            {
+              "text": "οὗτος, αὕτη, τοῦτο",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk, go."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk, go."
+            },
+            {
+              "text": "βαδίζω",
+              "correct": true,
+              "feedback": "Correct: βαδίζω means walk, go."
+            },
+            {
+              "text": "ἐγώ / με / μου",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk, go."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-11-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἀκούω mean?",
+          "choices": [
+            {
+              "text": "I / me / my",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen."
+            },
+            {
+              "text": "this",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen."
+            },
+            {
+              "text": "city, city-state",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen."
+            },
+            {
+              "text": "hear, listen",
+              "correct": true,
+              "feedback": "Correct: ἀκούω means hear, listen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-11-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “hear, listen”?",
+          "choices": [
+            {
+              "text": "σύ / σε / σου",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen."
+            },
+            {
+              "text": "παλαιός, παλαιά, παλαιόν",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "Review: ἀκούω means hear, listen."
+            },
+            {
+              "text": "ἀκούω",
+              "correct": true,
+              "feedback": "Correct: ἀκούω means hear, listen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-12-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἐρωτάω mean?",
+          "choices": [
+            {
+              "text": "ask, consult",
+              "correct": true,
+              "feedback": "Correct: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "old, longstanding",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-12-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “ask, consult”?",
+          "choices": [
+            {
+              "text": "ἐρωτάω",
+              "correct": true,
+              "feedback": "Correct: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "ἐμός, ἐμή, ἐμόν",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "μακρός, μακρά, μακρόν",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "ὁ κίνδυνος",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-13-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἐγώ / με / μου mean?",
+          "choices": [
+            {
+              "text": "risk, danger",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "I / me / my",
+              "correct": true,
+              "feedback": "Correct: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "my",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "long",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-13-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “I / me / my”?",
+          "choices": [
+            {
+              "text": "ὁ πόλεμος",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "ἐγώ / με / μου",
+              "correct": true,
+              "feedback": "Correct: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "σός, σή, σόν",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-14-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does σύ / σε / σου mean?",
+          "choices": [
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "war",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "you / you / your",
+              "correct": true,
+              "feedback": "Correct: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "your",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-14-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “you / you / your”?",
+          "choices": [
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "τὸ γράμμα",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "σύ / σε / σου",
+              "correct": true,
+              "feedback": "Correct: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "οὗτος, αὕτη, τοῦτο",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-15-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἐμός, ἐμή, ἐμόν mean?",
+          "choices": [
+            {
+              "text": "this",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "city, city-state",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "letter",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "my",
+              "correct": true,
+              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-15-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “my”?",
+          "choices": [
+            {
+              "text": "παλαιός, παλαιά, παλαιόν",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "ἐμός, ἐμή, ἐμόν",
+              "correct": true,
+              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-16-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does σός, σή, σόν mean?",
+          "choices": [
+            {
+              "text": "your",
+              "correct": true,
+              "feedback": "Correct: σός, σή, σόν means your."
+            },
+            {
+              "text": "old, longstanding",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-16-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “your”?",
+          "choices": [
+            {
+              "text": "σός, σή, σόν",
+              "correct": true,
+              "feedback": "Correct: σός, σή, σόν means your."
+            },
+            {
+              "text": "μακρός, μακρά, μακρόν",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "ὁ κίνδυνος",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "γράφω",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-17-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does οὗτος, αὕτη, τοῦτο mean?",
+          "choices": [
+            {
+              "text": "write",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "this",
+              "correct": true,
+              "feedback": "Correct: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "long",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "risk, danger",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-17-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “this”?",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "οὗτος, αὕτη, τοῦτο",
+              "correct": true,
+              "feedback": "Correct: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "ὁ πόλεμος",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-18-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does παλαιός, παλαιά, παλαιόν mean?",
+          "choices": [
+            {
+              "text": "war",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "call, invite",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "old, longstanding",
+              "correct": true,
+              "feedback": "Correct: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-18-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “old, longstanding”?",
+          "choices": [
+            {
+              "text": "τὸ γράμμα",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "βαδίζω",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "παλαιός, παλαιά, παλαιόν",
+              "correct": true,
+              "feedback": "Correct: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-19-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does μακρός, μακρά, μακρόν mean?",
+          "choices": [
+            {
+              "text": "city, city-state",
+              "correct": false,
+              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+            },
+            {
+              "text": "letter",
+              "correct": false,
+              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+            },
+            {
+              "text": "walk, go",
+              "correct": false,
+              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+            },
+            {
+              "text": "long",
+              "correct": true,
+              "feedback": "Correct: μακρός, μακρά, μακρόν means long."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-19-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “long”?",
+          "choices": [
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+            },
+            {
+              "text": "ἀκούω",
+              "correct": false,
+              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+            },
+            {
+              "text": "μακρός, μακρά, μακρόν",
+              "correct": true,
+              "feedback": "Correct: μακρός, μακρά, μακρόν means long."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 10 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "ἐγώ / με / μου",
+          "answer": "I / me / my"
+        },
+        {
+          "prompt": "σύ / σε / σου",
+          "answer": "you / you / your"
+        },
+        {
+          "prompt": "ὁ φίλος μου",
+          "answer": "my friend"
+        },
+        {
+          "prompt": "ἡ σὴ ὁδός",
+          "answer": "your journey"
+        },
+        {
+          "prompt": "τοῦτο τὸ γράμμα",
+          "answer": "this letter"
+        },
+        {
+          "prompt": "ὁ ἀγαθὸς φίλος",
+          "answer": "the good friend"
+        },
+        {
+          "prompt": "ὁ φίλος ἀγαθός ἐστιν",
+          "answer": "the friend is good"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 10 Grammar Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose a topic. Practice gives immediate feedback and does not gate the page.",
+      "questions": [
+        {
+          "id": "lesson-10-practice-001",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What is τὸ γράμμα?",
+          "choices": [
+            {
+              "text": "a war",
+              "correct": false,
+              "feedback": "Review: γράμμα is a letter."
+            },
+            {
+              "text": "a letter",
+              "correct": true,
+              "feedback": "Correct: γράμμα is a letter."
+            },
+            {
+              "text": "a city",
+              "correct": false,
+              "feedback": "Review: γράμμα is a letter."
+            },
+            {
+              "text": "a road",
+              "correct": false,
+              "feedback": "Review: γράμμα is a letter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-002",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What can ἡ ὁδός mean here?",
+          "choices": [
+            {
+              "text": "a homeland",
+              "correct": false,
+              "feedback": "Review: ὁδός can name the journey."
+            },
+            {
+              "text": "a guard",
+              "correct": false,
+              "feedback": "Review: ὁδός can name the journey."
+            },
+            {
+              "text": "a road or journey",
+              "correct": true,
+              "feedback": "Correct: ὁδός can name the journey."
+            },
+            {
+              "text": "a letter",
+              "correct": false,
+              "feedback": "Review: ὁδός can name the journey."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-003",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What is ἡ πατρίς?",
+          "choices": [
+            {
+              "text": "a friend",
+              "correct": false,
+              "feedback": "Review: πατρίς is a homeland."
+            },
+            {
+              "text": "a risk",
+              "correct": false,
+              "feedback": "Review: πατρίς is a homeland."
+            },
+            {
+              "text": "an invitation",
+              "correct": false,
+              "feedback": "Review: πατρίς is a homeland."
+            },
+            {
+              "text": "a homeland",
+              "correct": true,
+              "feedback": "Correct: πατρίς is a homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-004",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does ὁ κίνδυνος mean?",
+          "choices": [
+            {
+              "text": "risk or danger",
+              "correct": true,
+              "feedback": "Correct: κίνδυνος is danger."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: κίνδυνος is danger."
+            },
+            {
+              "text": "the road",
+              "correct": false,
+              "feedback": "Review: κίνδυνος is danger."
+            },
+            {
+              "text": "the letter",
+              "correct": false,
+              "feedback": "Review: κίνδυνος is danger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-005",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does καλέω mean?",
+          "choices": [
+            {
+              "text": "I decide",
+              "correct": false,
+              "feedback": "Review: καλέω means call or invite."
+            },
+            {
+              "text": "I call or invite",
+              "correct": true,
+              "feedback": "Correct: καλέω means call or invite."
+            },
+            {
+              "text": "I read",
+              "correct": false,
+              "feedback": "Review: καλέω means call or invite."
+            },
+            {
+              "text": "I write",
+              "correct": false,
+              "feedback": "Review: καλέω means call or invite."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-006",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does γράφω mean?",
+          "choices": [
+            {
+              "text": "I ask",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "I hear",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "I write",
+              "correct": true,
+              "feedback": "Correct: γράφω means write."
+            },
+            {
+              "text": "I go",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-007",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does ἐρωτάω mean?",
+          "choices": [
+            {
+              "text": "I arrive",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask."
+            },
+            {
+              "text": "I accuse",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask."
+            },
+            {
+              "text": "I forget",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask."
+            },
+            {
+              "text": "I ask or consult",
+              "correct": true,
+              "feedback": "Correct: ἐρωτάω means ask."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-008",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does βαδίζω mean?",
+          "choices": [
+            {
+              "text": "I walk or go",
+              "correct": true,
+              "feedback": "Correct: βαδίζω means walk."
+            },
+            {
+              "text": "I send",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk."
+            },
+            {
+              "text": "I remember",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk."
+            },
+            {
+              "text": "I read",
+              "correct": false,
+              "feedback": "Review: βαδίζω means walk."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-009",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Who is Proxenus in this reading?",
+          "choices": [
+            {
+              "text": "Apollo’s priest",
+              "correct": false,
+              "feedback": "Review: Proxenus sent the invitation."
+            },
+            {
+              "text": "Xenophon’s old friend",
+              "correct": true,
+              "feedback": "Correct: Proxenus sent the invitation."
+            },
+            {
+              "text": "the Persian king",
+              "correct": false,
+              "feedback": "Review: Proxenus sent the invitation."
+            },
+            {
+              "text": "an Athenian accuser",
+              "correct": false,
+              "feedback": "Review: Proxenus sent the invitation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-010",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Who is Cyrus in this reading?",
+          "choices": [
+            {
+              "text": "an Athenian general",
+              "correct": false,
+              "feedback": "Review: The invitation concerns Cyrus the Younger."
+            },
+            {
+              "text": "a Delphic priest",
+              "correct": false,
+              "feedback": "Review: The invitation concerns Cyrus the Younger."
+            },
+            {
+              "text": "Cyrus the Younger",
+              "correct": true,
+              "feedback": "Correct: The invitation concerns Cyrus the Younger."
+            },
+            {
+              "text": "Cyrus the Great",
+              "correct": false,
+              "feedback": "Review: The invitation concerns Cyrus the Younger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-011",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What is ὁ πόλεμος?",
+          "choices": [
+            {
+              "text": "the letter",
+              "correct": false,
+              "feedback": "Review: πόλεμος means war."
+            },
+            {
+              "text": "the friend",
+              "correct": false,
+              "feedback": "Review: πόλεμος means war."
+            },
+            {
+              "text": "the city",
+              "correct": false,
+              "feedback": "Review: πόλεμος means war."
+            },
+            {
+              "text": "the war",
+              "correct": true,
+              "feedback": "Correct: πόλεμος means war."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-012",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does παλαιός mean of a friend here?",
+          "choices": [
+            {
+              "text": "old or longstanding",
+              "correct": true,
+              "feedback": "Correct: παλαιός describes an old friend."
+            },
+            {
+              "text": "wealthy",
+              "correct": false,
+              "feedback": "Review: παλαιός describes an old friend."
+            },
+            {
+              "text": "angry",
+              "correct": false,
+              "feedback": "Review: παλαιός describes an old friend."
+            },
+            {
+              "text": "foreign",
+              "correct": false,
+              "feedback": "Review: παλαιός describes an old friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-013",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which pronoun means “I” as subject?",
+          "choices": [
+            {
+              "text": "σε",
+              "correct": false,
+              "feedback": "Review: ἐγώ is the subject form."
+            },
+            {
+              "text": "ἐγώ",
+              "correct": true,
+              "feedback": "Correct: ἐγώ is the subject form."
+            },
+            {
+              "text": "με",
+              "correct": false,
+              "feedback": "Review: ἐγώ is the subject form."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: ἐγώ is the subject form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-014",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which short form means “me” as object?",
+          "choices": [
+            {
+              "text": "ἐγώ",
+              "correct": false,
+              "feedback": "Review: με is the object form."
+            },
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: με is the object form."
+            },
+            {
+              "text": "με",
+              "correct": true,
+              "feedback": "Correct: με is the object form."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: με is the object form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-015",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which pronoun means “you” as subject?",
+          "choices": [
+            {
+              "text": "σε",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "σύ",
+              "correct": true,
+              "feedback": "Correct: σύ is the subject form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-016",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which short form means “you” as object?",
+          "choices": [
+            {
+              "text": "σε",
+              "correct": true,
+              "feedback": "Correct: σε is the object form."
+            },
+            {
+              "text": "σύ",
+              "correct": false,
+              "feedback": "Review: σε is the object form."
+            },
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: σε is the object form."
+            },
+            {
+              "text": "με",
+              "correct": false,
+              "feedback": "Review: σε is the object form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-017",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "What is the job of σε in ἐγώ σε καλέω?",
+          "choices": [
+            {
+              "text": "adjective",
+              "correct": false,
+              "feedback": "Review: σε is the person called."
+            },
+            {
+              "text": "direct object",
+              "correct": true,
+              "feedback": "Correct: σε is the person called."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Review: σε is the person called."
+            },
+            {
+              "text": "possessor",
+              "correct": false,
+              "feedback": "Review: σε is the person called."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-018",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "What is the job of με in ὁ φίλος με καλεῖ?",
+          "choices": [
+            {
+              "text": "possessor",
+              "correct": false,
+              "feedback": "Review: με is the person called."
+            },
+            {
+              "text": "place name",
+              "correct": false,
+              "feedback": "Review: με is the person called."
+            },
+            {
+              "text": "direct object",
+              "correct": true,
+              "feedback": "Correct: με is the person called."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Review: με is the person called."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-019",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "What is the job of ἐγώ in ἐγώ σε καλέω?",
+          "choices": [
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Review: ἐγώ names the speaker who acts."
+            },
+            {
+              "text": "possessor",
+              "correct": false,
+              "feedback": "Review: ἐγώ names the speaker who acts."
+            },
+            {
+              "text": "article",
+              "correct": false,
+              "feedback": "Review: ἐγώ names the speaker who acts."
+            },
+            {
+              "text": "subject",
+              "correct": true,
+              "feedback": "Correct: ἐγώ names the speaker who acts."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-020",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "What is the job of σύ in σὺ με ἀκούεις?",
+          "choices": [
+            {
+              "text": "subject",
+              "correct": true,
+              "feedback": "Correct: σύ names the person addressed as subject."
+            },
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Review: σύ names the person addressed as subject."
+            },
+            {
+              "text": "possessor",
+              "correct": false,
+              "feedback": "Review: σύ names the person addressed as subject."
+            },
+            {
+              "text": "adverb",
+              "correct": false,
+              "feedback": "Review: σύ names the person addressed as subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-021",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which pair gives first-person subject and object?",
+          "choices": [
+            {
+              "text": "μου / με",
+              "correct": false,
+              "feedback": "Review: ἐγώ is I; με is me."
+            },
+            {
+              "text": "ἐγώ / με",
+              "correct": true,
+              "feedback": "Correct: ἐγώ is I; με is me."
+            },
+            {
+              "text": "σύ / σε",
+              "correct": false,
+              "feedback": "Review: ἐγώ is I; με is me."
+            },
+            {
+              "text": "ἐγώ / σου",
+              "correct": false,
+              "feedback": "Review: ἐγώ is I; με is me."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-022",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which pair gives second-person subject and object?",
+          "choices": [
+            {
+              "text": "σύ / μου",
+              "correct": false,
+              "feedback": "Review: σύ is you as subject; σε is you as object."
+            },
+            {
+              "text": "σε / σου",
+              "correct": false,
+              "feedback": "Review: σύ is you as subject; σε is you as object."
+            },
+            {
+              "text": "σύ / σε",
+              "correct": true,
+              "feedback": "Correct: σύ is you as subject; σε is you as object."
+            },
+            {
+              "text": "ἐγώ / με",
+              "correct": false,
+              "feedback": "Review: σύ is you as subject; σε is you as object."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-023",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "In ἐγώ σε φίλον ποιήσω, who is made a friend?",
+          "choices": [
+            {
+              "text": "the speaker",
+              "correct": false,
+              "feedback": "Review: σε is the person addressed."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Review: σε is the person addressed."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "Review: σε is the person addressed."
+            },
+            {
+              "text": "the person addressed",
+              "correct": true,
+              "feedback": "Correct: σε is the person addressed."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-024",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which form in the reading means emphatic “me” after πρός?",
+          "choices": [
+            {
+              "text": "ἐμέ",
+              "correct": true,
+              "feedback": "Correct: πρὸς ἐμέ means to me."
+            },
+            {
+              "text": "ἐγώ",
+              "correct": false,
+              "feedback": "Review: πρὸς ἐμέ means to me."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: πρὸς ἐμέ means to me."
+            },
+            {
+              "text": "με",
+              "correct": false,
+              "feedback": "Review: πρὸς ἐμέ means to me."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-025",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is ὁ φίλος μου?",
+          "choices": [
+            {
+              "text": "this friend",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "my friend",
+              "correct": true,
+              "feedback": "Correct: μου means my."
+            },
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "his friend",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-026",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is ὁ φίλος σου?",
+          "choices": [
+            {
+              "text": "his friend",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "a good friend",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "your friend",
+              "correct": true,
+              "feedback": "Correct: σου means your."
+            },
+            {
+              "text": "my friend",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-027",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is τὸ γράμμα μου?",
+          "choices": [
+            {
+              "text": "your letter",
+              "correct": false,
+              "feedback": "Review: μου gives the possessor."
+            },
+            {
+              "text": "this letter",
+              "correct": false,
+              "feedback": "Review: μου gives the possessor."
+            },
+            {
+              "text": "his letter",
+              "correct": false,
+              "feedback": "Review: μου gives the possessor."
+            },
+            {
+              "text": "my letter",
+              "correct": true,
+              "feedback": "Correct: μου gives the possessor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-028",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is τὸ γράμμα σου?",
+          "choices": [
+            {
+              "text": "your letter",
+              "correct": true,
+              "feedback": "Correct: σου means your."
+            },
+            {
+              "text": "my letter",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "his letter",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "that letter",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-029",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is ἡ πόλις μου?",
+          "choices": [
+            {
+              "text": "this city",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "my city",
+              "correct": true,
+              "feedback": "Correct: μου means my."
+            },
+            {
+              "text": "your city",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "his city",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-030",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is ἡ πόλις σου?",
+          "choices": [
+            {
+              "text": "his city",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "their city",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "your city",
+              "correct": true,
+              "feedback": "Correct: σου means your."
+            },
+            {
+              "text": "my city",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-031",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "Where does μου usually stand in ὁ φίλος μου?",
+          "choices": [
+            {
+              "text": "before the article",
+              "correct": false,
+              "feedback": "Review: The short possessor follows φίλος."
+            },
+            {
+              "text": "inside the verb",
+              "correct": false,
+              "feedback": "Review: The short possessor follows φίλος."
+            },
+            {
+              "text": "after the sentence",
+              "correct": false,
+              "feedback": "Review: The short possessor follows φίλος."
+            },
+            {
+              "text": "after the noun",
+              "correct": true,
+              "feedback": "Correct: The short possessor follows φίλος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-032",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "Which word is the possessor in ὁ φίλος σου?",
+          "choices": [
+            {
+              "text": "σου",
+              "correct": true,
+              "feedback": "Correct: σου identifies whose friend."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: σου identifies whose friend."
+            },
+            {
+              "text": "φίλος",
+              "correct": false,
+              "feedback": "Review: σου identifies whose friend."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: σου identifies whose friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-033",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What gender is ὁ φίλος μου?",
+          "choices": [
+            {
+              "text": "plural only",
+              "correct": false,
+              "feedback": "Review: The noun φίλος is masculine; the owner form does not change it."
+            },
+            {
+              "text": "masculine",
+              "correct": true,
+              "feedback": "Correct: The noun φίλος is masculine; the owner form does not change it."
+            },
+            {
+              "text": "feminine",
+              "correct": false,
+              "feedback": "Review: The noun φίλος is masculine; the owner form does not change it."
+            },
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: The noun φίλος is masculine; the owner form does not change it."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-034",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What gender is ἡ ὁδός μου?",
+          "choices": [
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: ὁδός is feminine."
+            },
+            {
+              "text": "plural only",
+              "correct": false,
+              "feedback": "Review: ὁδός is feminine."
+            },
+            {
+              "text": "feminine",
+              "correct": true,
+              "feedback": "Correct: ὁδός is feminine."
+            },
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: ὁδός is feminine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-035",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "Which phrase means “his city”?",
+          "choices": [
+            {
+              "text": "ἡ πόλις μου",
+              "correct": false,
+              "feedback": "Review: αὐτοῦ is his."
+            },
+            {
+              "text": "ἡ πόλις σου",
+              "correct": false,
+              "feedback": "Review: αὐτοῦ is his."
+            },
+            {
+              "text": "αὕτη ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: αὐτοῦ is his."
+            },
+            {
+              "text": "ἡ πόλις αὐτοῦ",
+              "correct": true,
+              "feedback": "Correct: αὐτοῦ is his."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-036",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "In ὁ φίλος μου με καλεῖ, which form means “my”?",
+          "choices": [
+            {
+              "text": "μου",
+              "correct": true,
+              "feedback": "Correct: μου marks possession; με is the object."
+            },
+            {
+              "text": "με",
+              "correct": false,
+              "feedback": "Review: μου marks possession; με is the object."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: μου marks possession; με is the object."
+            },
+            {
+              "text": "καλεῖ",
+              "correct": false,
+              "feedback": "Review: μου marks possession; με is the object."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-037",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “my friend” with an adjective?",
+          "choices": [
+            {
+              "text": "ὁ σὸς φίλος",
+              "correct": false,
+              "feedback": "Review: ἐμός agrees with masculine φίλος."
+            },
+            {
+              "text": "ὁ ἐμὸς φίλος",
+              "correct": true,
+              "feedback": "Correct: ἐμός agrees with masculine φίλος."
+            },
+            {
+              "text": "ἡ ἐμὴ φίλος",
+              "correct": false,
+              "feedback": "Review: ἐμός agrees with masculine φίλος."
+            },
+            {
+              "text": "τὸ ἐμὸν φίλος",
+              "correct": false,
+              "feedback": "Review: ἐμός agrees with masculine φίλος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-038",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “my road”?",
+          "choices": [
+            {
+              "text": "τὸ ἐμὸν ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ὁ ἐμὸς ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-039",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “my letter”?",
+          "choices": [
+            {
+              "text": "ὁ ἐμὸς γράμμα",
+              "correct": false,
+              "feedback": "Review: ἐμόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "ἡ ἐμὴ γράμμα",
+              "correct": false,
+              "feedback": "Review: ἐμόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ σὸν γράμμα",
+              "correct": false,
+              "feedback": "Review: ἐμόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ ἐμὸν γράμμα",
+              "correct": true,
+              "feedback": "Correct: ἐμόν agrees with neuter γράμμα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-040",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “your friend” with an adjective?",
+          "choices": [
+            {
+              "text": "ὁ σὸς φίλος",
+              "correct": true,
+              "feedback": "Correct: σός agrees with masculine φίλος."
+            },
+            {
+              "text": "ἡ σὴ φίλος",
+              "correct": false,
+              "feedback": "Review: σός agrees with masculine φίλος."
+            },
+            {
+              "text": "τὸ σὸν φίλος",
+              "correct": false,
+              "feedback": "Review: σός agrees with masculine φίλος."
+            },
+            {
+              "text": "ὁ ἐμὸς φίλος",
+              "correct": false,
+              "feedback": "Review: σός agrees with masculine φίλος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-041",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “your road”?",
+          "choices": [
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ὁ σὸς ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "τὸ σὸν ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-042",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “your letter”?",
+          "choices": [
+            {
+              "text": "ἡ σὴ γράμμα",
+              "correct": false,
+              "feedback": "Review: σόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ ἐμὸν γράμμα",
+              "correct": false,
+              "feedback": "Review: σόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ σὸν γράμμα",
+              "correct": true,
+              "feedback": "Correct: σόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "ὁ σὸς γράμμα",
+              "correct": false,
+              "feedback": "Review: σόν agrees with neuter γράμμα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-043",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Why is ἐμή feminine in ἡ ἐμὴ πόλις?",
+          "choices": [
+            {
+              "text": "The owner is a woman.",
+              "correct": false,
+              "feedback": "Review: Possessive adjectives agree with the thing owned."
+            },
+            {
+              "text": "It is a plural form.",
+              "correct": false,
+              "feedback": "Review: Possessive adjectives agree with the thing owned."
+            },
+            {
+              "text": "It is an object pronoun.",
+              "correct": false,
+              "feedback": "Review: Possessive adjectives agree with the thing owned."
+            },
+            {
+              "text": "It agrees with πόλις.",
+              "correct": true,
+              "feedback": "Correct: Possessive adjectives agree with the thing owned."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-044",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "What does ἡ σὴ πατρίς mean?",
+          "choices": [
+            {
+              "text": "your homeland",
+              "correct": true,
+              "feedback": "Correct: σή agrees with feminine πατρίς and means your."
+            },
+            {
+              "text": "my homeland",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+            },
+            {
+              "text": "his homeland",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+            },
+            {
+              "text": "this homeland",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-045",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which adjective form agrees with feminine πόλις?",
+          "choices": [
+            {
+              "text": "ἐμοῦ",
+              "correct": false,
+              "feedback": "Review: ἐμή is feminine nominative singular."
+            },
+            {
+              "text": "ἐμή",
+              "correct": true,
+              "feedback": "Correct: ἐμή is feminine nominative singular."
+            },
+            {
+              "text": "ἐμός",
+              "correct": false,
+              "feedback": "Review: ἐμή is feminine nominative singular."
+            },
+            {
+              "text": "ἐμόν",
+              "correct": false,
+              "feedback": "Review: ἐμή is feminine nominative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-046",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which adjective form agrees with neuter γράμμα?",
+          "choices": [
+            {
+              "text": "σή",
+              "correct": false,
+              "feedback": "Review: σόν is neuter nominative singular."
+            },
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: σόν is neuter nominative singular."
+            },
+            {
+              "text": "σόν",
+              "correct": true,
+              "feedback": "Correct: σόν is neuter nominative singular."
+            },
+            {
+              "text": "σός",
+              "correct": false,
+              "feedback": "Review: σόν is neuter nominative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-047",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which pair both means “my friend”?",
+          "choices": [
+            {
+              "text": "ὁ φίλος σου / ὁ σὸς φίλος",
+              "correct": false,
+              "feedback": "Review: Both expressions identify my friend."
+            },
+            {
+              "text": "ὁ φίλος μου / ὁ σὸς φίλος",
+              "correct": false,
+              "feedback": "Review: Both expressions identify my friend."
+            },
+            {
+              "text": "ὁ ἐμὸς φίλος / ὁ φίλος σου",
+              "correct": false,
+              "feedback": "Review: Both expressions identify my friend."
+            },
+            {
+              "text": "ὁ φίλος μου / ὁ ἐμὸς φίλος",
+              "correct": true,
+              "feedback": "Correct: Both expressions identify my friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-048",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "What controls the ending of σός, σή, σόν?",
+          "choices": [
+            {
+              "text": "the noun describing the thing owned",
+              "correct": true,
+              "feedback": "Correct: The ending agrees with the noun."
+            },
+            {
+              "text": "the owner’s sex",
+              "correct": false,
+              "feedback": "Review: The ending agrees with the noun."
+            },
+            {
+              "text": "the verb tense",
+              "correct": false,
+              "feedback": "Review: The ending agrees with the noun."
+            },
+            {
+              "text": "the next preposition",
+              "correct": false,
+              "feedback": "Review: The ending agrees with the noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-049",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “this friend”?",
+          "choices": [
+            {
+              "text": "ὁ οὗτος φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος agrees with masculine φίλος and stands outside the article group."
+            },
+            {
+              "text": "οὗτος ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: οὗτος agrees with masculine φίλος and stands outside the article group."
+            },
+            {
+              "text": "αὕτη ἡ φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος agrees with masculine φίλος and stands outside the article group."
+            },
+            {
+              "text": "τοῦτο τὸ φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος agrees with masculine φίλος and stands outside the article group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-050",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “this journey”?",
+          "choices": [
+            {
+              "text": "τοῦτο τὸ ὁδός",
+              "correct": false,
+              "feedback": "Review: αὕτη agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ αὕτη ὁδός",
+              "correct": false,
+              "feedback": "Review: αὕτη agrees with feminine ὁδός."
+            },
+            {
+              "text": "αὕτη ἡ ὁδός",
+              "correct": true,
+              "feedback": "Correct: αὕτη agrees with feminine ὁδός."
+            },
+            {
+              "text": "οὗτος ὁ ὁδός",
+              "correct": false,
+              "feedback": "Review: αὕτη agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-051",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “this letter”?",
+          "choices": [
+            {
+              "text": "οὗτος ὁ γράμμα",
+              "correct": false,
+              "feedback": "Review: τοῦτο agrees with neuter γράμμα."
+            },
+            {
+              "text": "αὕτη ἡ γράμμα",
+              "correct": false,
+              "feedback": "Review: τοῦτο agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ τοῦτο γράμμα",
+              "correct": false,
+              "feedback": "Review: τοῦτο agrees with neuter γράμμα."
+            },
+            {
+              "text": "τοῦτο τὸ γράμμα",
+              "correct": true,
+              "feedback": "Correct: τοῦτο agrees with neuter γράμμα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-052",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What gender is οὗτος?",
+          "choices": [
+            {
+              "text": "masculine",
+              "correct": true,
+              "feedback": "Correct: οὗτος is masculine singular."
+            },
+            {
+              "text": "feminine",
+              "correct": false,
+              "feedback": "Review: οὗτος is masculine singular."
+            },
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: οὗτος is masculine singular."
+            },
+            {
+              "text": "plural",
+              "correct": false,
+              "feedback": "Review: οὗτος is masculine singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-053",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What gender is αὕτη?",
+          "choices": [
+            {
+              "text": "plural",
+              "correct": false,
+              "feedback": "Review: αὕτη is feminine singular."
+            },
+            {
+              "text": "feminine",
+              "correct": true,
+              "feedback": "Correct: αὕτη is feminine singular."
+            },
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: αὕτη is feminine singular."
+            },
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: αὕτη is feminine singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-054",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What gender is τοῦτο?",
+          "choices": [
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: τοῦτο is neuter singular."
+            },
+            {
+              "text": "plural",
+              "correct": false,
+              "feedback": "Review: τοῦτο is neuter singular."
+            },
+            {
+              "text": "neuter",
+              "correct": true,
+              "feedback": "Correct: τοῦτο is neuter singular."
+            },
+            {
+              "text": "feminine",
+              "correct": false,
+              "feedback": "Review: τοῦτο is neuter singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-055",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Where does the demonstrative stand in τοῦτο τὸ γράμμα?",
+          "choices": [
+            {
+              "text": "between article and noun",
+              "correct": false,
+              "feedback": "Review: τοῦτο stands before τὸ γράμμα."
+            },
+            {
+              "text": "inside the verb",
+              "correct": false,
+              "feedback": "Review: τοῦτο stands before τὸ γράμμα."
+            },
+            {
+              "text": "after a possessor",
+              "correct": false,
+              "feedback": "Review: τοῦτο stands before τὸ γράμμα."
+            },
+            {
+              "text": "outside the article-noun group",
+              "correct": true,
+              "feedback": "Correct: τοῦτο stands before τὸ γράμμα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-056",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What can τοῦτο mean when it stands alone?",
+          "choices": [
+            {
+              "text": "this fact",
+              "correct": true,
+              "feedback": "Correct: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "my letter",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "they",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-057",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which form points to feminine ἡ πόλις?",
+          "choices": [
+            {
+              "text": "ἐμός",
+              "correct": false,
+              "feedback": "Review: αὕτη points to a feminine noun."
+            },
+            {
+              "text": "αὕτη",
+              "correct": true,
+              "feedback": "Correct: αὕτη points to a feminine noun."
+            },
+            {
+              "text": "οὗτος",
+              "correct": false,
+              "feedback": "Review: αὕτη points to a feminine noun."
+            },
+            {
+              "text": "τοῦτο",
+              "correct": false,
+              "feedback": "Review: αὕτη points to a feminine noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-058",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which form points to neuter τὸ γράμμα?",
+          "choices": [
+            {
+              "text": "αὕτη",
+              "correct": false,
+              "feedback": "Review: τοῦτο points to a neuter noun."
+            },
+            {
+              "text": "σός",
+              "correct": false,
+              "feedback": "Review: τοῦτο points to a neuter noun."
+            },
+            {
+              "text": "τοῦτο",
+              "correct": true,
+              "feedback": "Correct: τοῦτο points to a neuter noun."
+            },
+            {
+              "text": "οὗτος",
+              "correct": false,
+              "feedback": "Review: τοῦτο points to a neuter noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-059",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which order is normal for “this friend”?",
+          "choices": [
+            {
+              "text": "ὁ οὗτος φίλος",
+              "correct": false,
+              "feedback": "Review: The demonstrative stands outside ὁ φίλος."
+            },
+            {
+              "text": "ὁ φίλος μου",
+              "correct": false,
+              "feedback": "Review: The demonstrative stands outside ὁ φίλος."
+            },
+            {
+              "text": "ὁ καλὸς φίλος",
+              "correct": false,
+              "feedback": "Review: The demonstrative stands outside ὁ φίλος."
+            },
+            {
+              "text": "οὗτος ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: The demonstrative stands outside ὁ φίλος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-060",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What does αὕτη ἡ ὁδὸς μακρά ἐστιν mean?",
+          "choices": [
+            {
+              "text": "This journey is long.",
+              "correct": true,
+              "feedback": "Correct: αὕτη ἡ ὁδός is this journey."
+            },
+            {
+              "text": "My letter is old.",
+              "correct": false,
+              "feedback": "Review: αὕτη ἡ ὁδός is this journey."
+            },
+            {
+              "text": "Your friend is good.",
+              "correct": false,
+              "feedback": "Review: αὕτη ἡ ὁδός is this journey."
+            },
+            {
+              "text": "The road is his.",
+              "correct": false,
+              "feedback": "Review: αὕτη ἡ ὁδός is this journey."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-061",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "What does ὁ ἀγαθὸς φίλος mean?",
+          "choices": [
+            {
+              "text": "this friend",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "the good friend",
+              "correct": true,
+              "feedback": "Correct: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "the friend is good",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "my friend",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-062",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "What does ὁ φίλος ἀγαθός ἐστιν mean?",
+          "choices": [
+            {
+              "text": "my good friend",
+              "correct": false,
+              "feedback": "Review: The adjective makes a statement after the noun."
+            },
+            {
+              "text": "this good friend",
+              "correct": false,
+              "feedback": "Review: The adjective makes a statement after the noun."
+            },
+            {
+              "text": "the friend is good",
+              "correct": true,
+              "feedback": "Correct: The adjective makes a statement after the noun."
+            },
+            {
+              "text": "the good friend",
+              "correct": false,
+              "feedback": "Review: The adjective makes a statement after the noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-063",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which phrase is attributive?",
+          "choices": [
+            {
+              "text": "ὁ φίλος παλαιός ἐστιν",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "ὁ φίλος ἐστίν",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "φίλος ἐστίν",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "ὁ παλαιὸς φίλος",
+              "correct": true,
+              "feedback": "Correct: The adjective is inside the article-noun group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-064",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which sentence is predicate?",
+          "choices": [
+            {
+              "text": "ὁ φίλος ἀγαθός ἐστιν",
+              "correct": true,
+              "feedback": "Correct: The sentence states that the friend is good."
+            },
+            {
+              "text": "ὁ ἀγαθὸς φίλος",
+              "correct": false,
+              "feedback": "Review: The sentence states that the friend is good."
+            },
+            {
+              "text": "ὁ φίλος ὁ ἀγαθός",
+              "correct": false,
+              "feedback": "Review: The sentence states that the friend is good."
+            },
+            {
+              "text": "ὁ ἐμὸς φίλος",
+              "correct": false,
+              "feedback": "Review: The sentence states that the friend is good."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-065",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which is another attributive order for “the good friend”?",
+          "choices": [
+            {
+              "text": "οὗτος ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: Repeated article marks the second attributive position."
+            },
+            {
+              "text": "ὁ φίλος ὁ ἀγαθός",
+              "correct": true,
+              "feedback": "Correct: Repeated article marks the second attributive position."
+            },
+            {
+              "text": "ὁ φίλος ἀγαθός ἐστιν",
+              "correct": false,
+              "feedback": "Review: Repeated article marks the second attributive position."
+            },
+            {
+              "text": "ὁ φίλος μου",
+              "correct": false,
+              "feedback": "Review: Repeated article marks the second attributive position."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-066",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "In ὁ παλαιὸς φίλος μου, what does παλαιός describe?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: παλαιός describes the friend."
+            },
+            {
+              "text": "the verb",
+              "correct": false,
+              "feedback": "Review: παλαιός describes the friend."
+            },
+            {
+              "text": "φίλος",
+              "correct": true,
+              "feedback": "Correct: παλαιός describes the friend."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: παλαιός describes the friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-067",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "In ὁ φίλος σου ἀγαθός ἐστιν, what is said of the friend?",
+          "choices": [
+            {
+              "text": "he is old",
+              "correct": false,
+              "feedback": "Review: ἀγαθός is the predicate."
+            },
+            {
+              "text": "he is yours alone",
+              "correct": false,
+              "feedback": "Review: ἀγαθός is the predicate."
+            },
+            {
+              "text": "he travels",
+              "correct": false,
+              "feedback": "Review: ἀγαθός is the predicate."
+            },
+            {
+              "text": "he is good",
+              "correct": true,
+              "feedback": "Correct: ἀγαθός is the predicate."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-068",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which phrase means “the long journey”?",
+          "choices": [
+            {
+              "text": "ἡ μακρὰ ὁδός",
+              "correct": true,
+              "feedback": "Correct: μακρά agrees with feminine ὁδός inside the group."
+            },
+            {
+              "text": "ἡ ὁδὸς μακρά ἐστιν",
+              "correct": false,
+              "feedback": "Review: μακρά agrees with feminine ὁδός inside the group."
+            },
+            {
+              "text": "τὸ μακρὸν γράμμα",
+              "correct": false,
+              "feedback": "Review: μακρά agrees with feminine ὁδός inside the group."
+            },
+            {
+              "text": "ὁ μακρὸς φίλος",
+              "correct": false,
+              "feedback": "Review: μακρά agrees with feminine ὁδός inside the group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-069",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which sentence means “the journey is long”?",
+          "choices": [
+            {
+              "text": "αὕτη ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: μακρά is predicative with ἐστιν."
+            },
+            {
+              "text": "ἡ ὁδὸς μακρά ἐστιν",
+              "correct": true,
+              "feedback": "Correct: μακρά is predicative with ἐστιν."
+            },
+            {
+              "text": "ἡ μακρὰ ὁδός",
+              "correct": false,
+              "feedback": "Review: μακρά is predicative with ἐστιν."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: μακρά is predicative with ἐστιν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-070",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which phrase contains attributive possession?",
+          "choices": [
+            {
+              "text": "ἡ πόλις μου",
+              "correct": false,
+              "feedback": "Review: ἐμή stands in the article-adjective-noun group."
+            },
+            {
+              "text": "αὕτη ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: ἐμή stands in the article-adjective-noun group."
+            },
+            {
+              "text": "ἡ ἐμὴ πόλις",
+              "correct": true,
+              "feedback": "Correct: ἐμή stands in the article-adjective-noun group."
+            },
+            {
+              "text": "ἡ πόλις ἐμή ἐστιν",
+              "correct": false,
+              "feedback": "Review: ἐμή stands in the article-adjective-noun group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-071",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "What signals the predicate in ὁ φίλος ἀγαθός ἐστιν?",
+          "choices": [
+            {
+              "text": "the article is absent from φίλος",
+              "correct": false,
+              "feedback": "Review: The adjective is outside the article-noun group."
+            },
+            {
+              "text": "φίλος is an object",
+              "correct": false,
+              "feedback": "Review: The adjective is outside the article-noun group."
+            },
+            {
+              "text": "the noun is plural",
+              "correct": false,
+              "feedback": "Review: The adjective is outside the article-noun group."
+            },
+            {
+              "text": "ἀγαθός stands outside ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: The adjective is outside the article-noun group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-practice-072",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which translation fits ὁ φίλος ὁ ἀγαθός?",
+          "choices": [
+            {
+              "text": "the good friend",
+              "correct": true,
+              "feedback": "Correct: The repeated article gives an attributive expression."
+            },
+            {
+              "text": "the friend is good",
+              "correct": false,
+              "feedback": "Review: The repeated article gives an attributive expression."
+            },
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Review: The repeated article gives an attributive expression."
+            },
+            {
+              "text": "this friend",
+              "correct": false,
+              "feedback": "Review: The repeated article gives an attributive expression."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 10 Grammar Exercises",
+      "description": "Pronouns, possession, demonstratives, and adjective placement",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-10-grammar-exercises-v1",
+      "instructions": "Answer every question and score at least 80% to continue to the culture page.",
+      "questions": [
+        {
+          "id": "lesson-10-grammar-exercise-01",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which short form means “me” as object?",
+          "choices": [
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: με is the object form."
+            },
+            {
+              "text": "με",
+              "correct": true,
+              "feedback": "Correct: με is the object form."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: με is the object form."
+            },
+            {
+              "text": "ἐγώ",
+              "correct": false,
+              "feedback": "Review: με is the object form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-02",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "What is the job of σε in ἐγώ σε καλέω?",
+          "choices": [
+            {
+              "text": "possessor",
+              "correct": false,
+              "feedback": "Review: σε is the person called."
+            },
+            {
+              "text": "adjective",
+              "correct": false,
+              "feedback": "Review: σε is the person called."
+            },
+            {
+              "text": "direct object",
+              "correct": true,
+              "feedback": "Correct: σε is the person called."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Review: σε is the person called."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-03",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "What is the job of σύ in σὺ με ἀκούεις?",
+          "choices": [
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Review: σύ names the person addressed as subject."
+            },
+            {
+              "text": "possessor",
+              "correct": false,
+              "feedback": "Review: σύ names the person addressed as subject."
+            },
+            {
+              "text": "adverb",
+              "correct": false,
+              "feedback": "Review: σύ names the person addressed as subject."
+            },
+            {
+              "text": "subject",
+              "correct": true,
+              "feedback": "Correct: σύ names the person addressed as subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-04",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "In ἐγώ σε φίλον ποιήσω, who is made a friend?",
+          "choices": [
+            {
+              "text": "the person addressed",
+              "correct": true,
+              "feedback": "Correct: σε is the person addressed."
+            },
+            {
+              "text": "the speaker",
+              "correct": false,
+              "feedback": "Review: σε is the person addressed."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Review: σε is the person addressed."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "Review: σε is the person addressed."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-05",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is ὁ φίλος σου?",
+          "choices": [
+            {
+              "text": "a good friend",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "your friend",
+              "correct": true,
+              "feedback": "Correct: σου means your."
+            },
+            {
+              "text": "my friend",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "his friend",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-06",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is ἡ πόλις μου?",
+          "choices": [
+            {
+              "text": "his city",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "this city",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "my city",
+              "correct": true,
+              "feedback": "Correct: μου means my."
+            },
+            {
+              "text": "your city",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-07",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "Which word is the possessor in ὁ φίλος σου?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: σου identifies whose friend."
+            },
+            {
+              "text": "φίλος",
+              "correct": false,
+              "feedback": "Review: σου identifies whose friend."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: σου identifies whose friend."
+            },
+            {
+              "text": "σου",
+              "correct": true,
+              "feedback": "Correct: σου identifies whose friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-08",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "Which phrase means “his city”?",
+          "choices": [
+            {
+              "text": "ἡ πόλις αὐτοῦ",
+              "correct": true,
+              "feedback": "Correct: αὐτοῦ is his."
+            },
+            {
+              "text": "ἡ πόλις μου",
+              "correct": false,
+              "feedback": "Review: αὐτοῦ is his."
+            },
+            {
+              "text": "ἡ πόλις σου",
+              "correct": false,
+              "feedback": "Review: αὐτοῦ is his."
+            },
+            {
+              "text": "αὕτη ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: αὐτοῦ is his."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-09",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “my road”?",
+          "choices": [
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ὁ ἐμὸς ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "τὸ ἐμὸν ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-10",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “your road”?",
+          "choices": [
+            {
+              "text": "τὸ σὸν ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ὁ σὸς ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-11",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "What does ἡ σὴ πατρίς mean?",
+          "choices": [
+            {
+              "text": "my homeland",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+            },
+            {
+              "text": "his homeland",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+            },
+            {
+              "text": "this homeland",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+            },
+            {
+              "text": "your homeland",
+              "correct": true,
+              "feedback": "Correct: σή agrees with feminine πατρίς and means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-12",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which pair both means “my friend”?",
+          "choices": [
+            {
+              "text": "ὁ φίλος μου / ὁ ἐμὸς φίλος",
+              "correct": true,
+              "feedback": "Correct: Both expressions identify my friend."
+            },
+            {
+              "text": "ὁ φίλος σου / ὁ σὸς φίλος",
+              "correct": false,
+              "feedback": "Review: Both expressions identify my friend."
+            },
+            {
+              "text": "ὁ φίλος μου / ὁ σὸς φίλος",
+              "correct": false,
+              "feedback": "Review: Both expressions identify my friend."
+            },
+            {
+              "text": "ὁ ἐμὸς φίλος / ὁ φίλος σου",
+              "correct": false,
+              "feedback": "Review: Both expressions identify my friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-13",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “this journey”?",
+          "choices": [
+            {
+              "text": "ἡ αὕτη ὁδός",
+              "correct": false,
+              "feedback": "Review: αὕτη agrees with feminine ὁδός."
+            },
+            {
+              "text": "αὕτη ἡ ὁδός",
+              "correct": true,
+              "feedback": "Correct: αὕτη agrees with feminine ὁδός."
+            },
+            {
+              "text": "οὗτος ὁ ὁδός",
+              "correct": false,
+              "feedback": "Review: αὕτη agrees with feminine ὁδός."
+            },
+            {
+              "text": "τοῦτο τὸ ὁδός",
+              "correct": false,
+              "feedback": "Review: αὕτη agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-14",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What gender is αὕτη?",
+          "choices": [
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: αὕτη is feminine singular."
+            },
+            {
+              "text": "plural",
+              "correct": false,
+              "feedback": "Review: αὕτη is feminine singular."
+            },
+            {
+              "text": "feminine",
+              "correct": true,
+              "feedback": "Correct: αὕτη is feminine singular."
+            },
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: αὕτη is feminine singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-15",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What can τοῦτο mean when it stands alone?",
+          "choices": [
+            {
+              "text": "my letter",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "they",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "this fact",
+              "correct": true,
+              "feedback": "Correct: A demonstrative can stand alone as a pronoun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-16",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "Which order is normal for “this friend”?",
+          "choices": [
+            {
+              "text": "οὗτος ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: The demonstrative stands outside ὁ φίλος."
+            },
+            {
+              "text": "ὁ οὗτος φίλος",
+              "correct": false,
+              "feedback": "Review: The demonstrative stands outside ὁ φίλος."
+            },
+            {
+              "text": "ὁ φίλος μου",
+              "correct": false,
+              "feedback": "Review: The demonstrative stands outside ὁ φίλος."
+            },
+            {
+              "text": "ὁ καλὸς φίλος",
+              "correct": false,
+              "feedback": "Review: The demonstrative stands outside ὁ φίλος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-17",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "What does ὁ φίλος ἀγαθός ἐστιν mean?",
+          "choices": [
+            {
+              "text": "this good friend",
+              "correct": false,
+              "feedback": "Review: The adjective makes a statement after the noun."
+            },
+            {
+              "text": "the friend is good",
+              "correct": true,
+              "feedback": "Correct: The adjective makes a statement after the noun."
+            },
+            {
+              "text": "the good friend",
+              "correct": false,
+              "feedback": "Review: The adjective makes a statement after the noun."
+            },
+            {
+              "text": "my good friend",
+              "correct": false,
+              "feedback": "Review: The adjective makes a statement after the noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-18",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which is another attributive order for “the good friend”?",
+          "choices": [
+            {
+              "text": "ὁ φίλος μου",
+              "correct": false,
+              "feedback": "Review: Repeated article marks the second attributive position."
+            },
+            {
+              "text": "οὗτος ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: Repeated article marks the second attributive position."
+            },
+            {
+              "text": "ὁ φίλος ὁ ἀγαθός",
+              "correct": true,
+              "feedback": "Correct: Repeated article marks the second attributive position."
+            },
+            {
+              "text": "ὁ φίλος ἀγαθός ἐστιν",
+              "correct": false,
+              "feedback": "Review: Repeated article marks the second attributive position."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-19",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "Which phrase means “the long journey”?",
+          "choices": [
+            {
+              "text": "ἡ ὁδὸς μακρά ἐστιν",
+              "correct": false,
+              "feedback": "Review: μακρά agrees with feminine ὁδός inside the group."
+            },
+            {
+              "text": "τὸ μακρὸν γράμμα",
+              "correct": false,
+              "feedback": "Review: μακρά agrees with feminine ὁδός inside the group."
+            },
+            {
+              "text": "ὁ μακρὸς φίλος",
+              "correct": false,
+              "feedback": "Review: μακρά agrees with feminine ὁδός inside the group."
+            },
+            {
+              "text": "ἡ μακρὰ ὁδός",
+              "correct": true,
+              "feedback": "Correct: μακρά agrees with feminine ὁδός inside the group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-20",
+          "type": "multiple-choice",
+          "topic": "adjective-placement",
+          "category": "Grammar",
+          "prompt": "What signals the predicate in ὁ φίλος ἀγαθός ἐστιν?",
+          "choices": [
+            {
+              "text": "ἀγαθός stands outside ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: The adjective is outside the article-noun group."
+            },
+            {
+              "text": "the article is absent from φίλος",
+              "correct": false,
+              "feedback": "Review: The adjective is outside the article-noun group."
+            },
+            {
+              "text": "φίλος is an object",
+              "correct": false,
+              "feedback": "Review: The adjective is outside the article-noun group."
+            },
+            {
+              "text": "the noun is plural",
+              "correct": false,
+              "feedback": "Review: The adjective is outside the article-noun group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-21",
+          "type": "multiple-choice",
+          "topic": "personal-pronouns",
+          "category": "Grammar",
+          "prompt": "Which pronoun means “you” as subject?",
+          "choices": [
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "σύ",
+              "correct": true,
+              "feedback": "Correct: σύ is the subject form."
+            },
+            {
+              "text": "σε",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-22",
+          "type": "multiple-choice",
+          "topic": "genitive-possession",
+          "category": "Grammar",
+          "prompt": "What is τὸ γράμμα σου?",
+          "choices": [
+            {
+              "text": "his letter",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "that letter",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "your letter",
+              "correct": true,
+              "feedback": "Correct: σου means your."
+            },
+            {
+              "text": "my letter",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-23",
+          "type": "multiple-choice",
+          "topic": "possessive-adjectives",
+          "category": "Grammar",
+          "prompt": "Which phrase means “your letter”?",
+          "choices": [
+            {
+              "text": "ὁ σὸς γράμμα",
+              "correct": false,
+              "feedback": "Review: σόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "ἡ σὴ γράμμα",
+              "correct": false,
+              "feedback": "Review: σόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ ἐμὸν γράμμα",
+              "correct": false,
+              "feedback": "Review: σόν agrees with neuter γράμμα."
+            },
+            {
+              "text": "τὸ σὸν γράμμα",
+              "correct": true,
+              "feedback": "Correct: σόν agrees with neuter γράμμα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-grammar-exercise-24",
+          "type": "multiple-choice",
+          "topic": "demonstratives",
+          "category": "Grammar",
+          "prompt": "What gender is τοῦτο?",
+          "choices": [
+            {
+              "text": "neuter",
+              "correct": true,
+              "feedback": "Correct: τοῦτο is neuter singular."
+            },
+            {
+              "text": "feminine",
+              "correct": false,
+              "feedback": "Review: τοῦτο is neuter singular."
+            },
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: τοῦτο is neuter singular."
+            },
+            {
+              "text": "plural",
+              "correct": false,
+              "feedback": "Review: τοῦτο is neuter singular."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 10 Final Quiz — The Letter from Proxenus",
+      "description": "Reading, vocabulary, grammar, and Cyrus’s Persian world",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-10-final-quiz-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions. Score at least 80% to complete Lesson 10 and continue to Lesson 11.",
+      "questions": [
+        {
+          "id": "lesson-10-final-01",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who sends Xenophon the invitation?",
+          "choices": [
+            {
+              "text": "Critobulus",
+              "correct": false,
+              "feedback": "Review: Proxenus is Xenophon’s old friend and sender."
+            },
+            {
+              "text": "Proxenus",
+              "correct": true,
+              "feedback": "Correct: Proxenus is Xenophon’s old friend and sender."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Review: Proxenus is Xenophon’s old friend and sender."
+            },
+            {
+              "text": "Cyrus the Great",
+              "correct": false,
+              "feedback": "Review: Proxenus is Xenophon’s old friend and sender."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-02",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Proxenus promise?",
+          "choices": [
+            {
+              "text": "to buy him a house",
+              "correct": false,
+              "feedback": "Review: The invitation offers a connection to Cyrus."
+            },
+            {
+              "text": "to send him to Sparta",
+              "correct": false,
+              "feedback": "Review: The invitation offers a connection to Cyrus."
+            },
+            {
+              "text": "to introduce Xenophon to Cyrus",
+              "correct": true,
+              "feedback": "Correct: The invitation offers a connection to Cyrus."
+            },
+            {
+              "text": "to make Xenophon an Athenian general",
+              "correct": false,
+              "feedback": "Review: The invitation offers a connection to Cyrus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-03",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why might the invitation endanger Xenophon in Athens?",
+          "choices": [
+            {
+              "text": "Proxenus had stolen a letter",
+              "correct": false,
+              "feedback": "Review: Socrates worries about an accusation over Cyrus’s support for Sparta."
+            },
+            {
+              "text": "Delphi was closed",
+              "correct": false,
+              "feedback": "Review: Socrates worries about an accusation over Cyrus’s support for Sparta."
+            },
+            {
+              "text": "Xenophon had lost his horse",
+              "correct": false,
+              "feedback": "Review: Socrates worries about an accusation over Cyrus’s support for Sparta."
+            },
+            {
+              "text": "Cyrus had aided Sparta against Athens",
+              "correct": true,
+              "feedback": "Correct: Socrates worries about an accusation over Cyrus’s support for Sparta."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-04",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whom does Xenophon consult after reading the letter?",
+          "choices": [
+            {
+              "text": "Socrates",
+              "correct": true,
+              "feedback": "Correct: Xenophon discusses the journey with Socrates."
+            },
+            {
+              "text": "Plato",
+              "correct": false,
+              "feedback": "Review: Xenophon discusses the journey with Socrates."
+            },
+            {
+              "text": "Critobulus",
+              "correct": false,
+              "feedback": "Review: Xenophon discusses the journey with Socrates."
+            },
+            {
+              "text": "Aristarchus",
+              "correct": false,
+              "feedback": "Review: Xenophon discusses the journey with Socrates."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-05",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Socrates advise?",
+          "choices": [
+            {
+              "text": "ask the Athenian assembly to write back",
+              "correct": false,
+              "feedback": "Review: Socrates recommends Delphi."
+            },
+            {
+              "text": "consult Apollo at Delphi",
+              "correct": true,
+              "feedback": "Correct: Socrates recommends Delphi."
+            },
+            {
+              "text": "leave immediately for Sardis",
+              "correct": false,
+              "feedback": "Review: Socrates recommends Delphi."
+            },
+            {
+              "text": "ignore the letter",
+              "correct": false,
+              "feedback": "Review: Socrates recommends Delphi."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-06",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What remains open at the end of the lesson?",
+          "choices": [
+            {
+              "text": "whether Athens exists",
+              "correct": false,
+              "feedback": "Review: The reading ends as Xenophon turns toward Delphi."
+            },
+            {
+              "text": "whether Socrates knows Xenophon",
+              "correct": false,
+              "feedback": "Review: The reading ends as Xenophon turns toward Delphi."
+            },
+            {
+              "text": "how Xenophon will respond to the journey after Delphi",
+              "correct": true,
+              "feedback": "Correct: The reading ends as Xenophon turns toward Delphi."
+            },
+            {
+              "text": "whether Proxenus wrote a letter",
+              "correct": false,
+              "feedback": "Review: The reading ends as Xenophon turns toward Delphi."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-07",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "war",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "write",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "hear, listen",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct: ἡ πατρίς means homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-08",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ γράμμα mean?",
+          "choices": [
+            {
+              "text": "letter",
+              "correct": true,
+              "feedback": "Correct: τὸ γράμμα means letter."
+            },
+            {
+              "text": "write",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
+            {
+              "text": "hear, listen",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-09",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does γράφω mean?",
+          "choices": [
+            {
+              "text": "your",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "write",
+              "correct": true,
+              "feedback": "Correct: γράφω means write."
+            },
+            {
+              "text": "walk, go",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            },
+            {
+              "text": "I / me / my",
+              "correct": false,
+              "feedback": "Review: γράφω means write."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does καλέω mean?",
+          "choices": [
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            },
+            {
+              "text": "this",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            },
+            {
+              "text": "call, invite",
+              "correct": true,
+              "feedback": "Correct: καλέω means call, invite."
+            },
+            {
+              "text": "hear, listen",
+              "correct": false,
+              "feedback": "Review: καλέω means call, invite."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does σός, σή, σόν mean?",
+          "choices": [
+            {
+              "text": "old, longstanding",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "city, city-state",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "war",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "your",
+              "correct": true,
+              "feedback": "Correct: σός, σή, σόν means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does παλαιός, παλαιά, παλαιόν mean?",
+          "choices": [
+            {
+              "text": "old, longstanding",
+              "correct": true,
+              "feedback": "Correct: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "risk, danger",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which pronoun means “I” as subject?",
+          "choices": [
+            {
+              "text": "σε",
+              "correct": false,
+              "feedback": "Review: ἐγώ is the subject form."
+            },
+            {
+              "text": "ἐγώ",
+              "correct": true,
+              "feedback": "Correct: ἐγώ is the subject form."
+            },
+            {
+              "text": "με",
+              "correct": false,
+              "feedback": "Review: ἐγώ is the subject form."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: ἐγώ is the subject form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which pronoun means “you” as subject?",
+          "choices": [
+            {
+              "text": "σου",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "μου",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            },
+            {
+              "text": "σύ",
+              "correct": true,
+              "feedback": "Correct: σύ is the subject form."
+            },
+            {
+              "text": "σε",
+              "correct": false,
+              "feedback": "Review: σύ is the subject form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which pair gives first-person subject and object?",
+          "choices": [
+            {
+              "text": "σύ / σε",
+              "correct": false,
+              "feedback": "Review: ἐγώ is I; με is me."
+            },
+            {
+              "text": "ἐγώ / σου",
+              "correct": false,
+              "feedback": "Review: ἐγώ is I; με is me."
+            },
+            {
+              "text": "μου / με",
+              "correct": false,
+              "feedback": "Review: ἐγώ is I; με is me."
+            },
+            {
+              "text": "ἐγώ / με",
+              "correct": true,
+              "feedback": "Correct: ἐγώ is I; με is me."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is ὁ φίλος μου?",
+          "choices": [
+            {
+              "text": "my friend",
+              "correct": true,
+              "feedback": "Correct: μου means my."
+            },
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "his friend",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            },
+            {
+              "text": "this friend",
+              "correct": false,
+              "feedback": "Review: μου means my."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is ἡ πόλις σου?",
+          "choices": [
+            {
+              "text": "their city",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "your city",
+              "correct": true,
+              "feedback": "Correct: σου means your."
+            },
+            {
+              "text": "my city",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            },
+            {
+              "text": "his city",
+              "correct": false,
+              "feedback": "Review: σου means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "In ὁ φίλος μου με καλεῖ, which form means “my”?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: μου marks possession; με is the object."
+            },
+            {
+              "text": "καλεῖ",
+              "correct": false,
+              "feedback": "Review: μου marks possession; με is the object."
+            },
+            {
+              "text": "μου",
+              "correct": true,
+              "feedback": "Correct: μου marks possession; με is the object."
+            },
+            {
+              "text": "με",
+              "correct": false,
+              "feedback": "Review: μου marks possession; με is the object."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which phrase means “my road”?",
+          "choices": [
+            {
+              "text": "ὁ ἐμὸς ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "τὸ ἐμὸν ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: ἐμή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct: ἐμή agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which phrase means “your road”?",
+          "choices": [
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ὁ σὸς ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "τὸ σὸν ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": false,
+              "feedback": "Review: σή agrees with feminine ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which phrase means “this friend”?",
+          "choices": [
+            {
+              "text": "ὁ οὗτος φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος agrees with masculine φίλος and stands outside the article group."
+            },
+            {
+              "text": "οὗτος ὁ φίλος",
+              "correct": true,
+              "feedback": "Correct: οὗτος agrees with masculine φίλος and stands outside the article group."
+            },
+            {
+              "text": "αὕτη ἡ φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος agrees with masculine φίλος and stands outside the article group."
+            },
+            {
+              "text": "τοῦτο τὸ φίλος",
+              "correct": false,
+              "feedback": "Review: οὗτος agrees with masculine φίλος and stands outside the article group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What can τοῦτο mean when it stands alone?",
+          "choices": [
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "they",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "this fact",
+              "correct": true,
+              "feedback": "Correct: A demonstrative can stand alone as a pronoun."
+            },
+            {
+              "text": "my letter",
+              "correct": false,
+              "feedback": "Review: A demonstrative can stand alone as a pronoun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does ὁ ἀγαθὸς φίλος mean?",
+          "choices": [
+            {
+              "text": "the friend is good",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "my friend",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "this friend",
+              "correct": false,
+              "feedback": "Review: The adjective is inside the article-noun group."
+            },
+            {
+              "text": "the good friend",
+              "correct": true,
+              "feedback": "Correct: The adjective is inside the article-noun group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which sentence is predicate?",
+          "choices": [
+            {
+              "text": "ὁ φίλος ἀγαθός ἐστιν",
+              "correct": true,
+              "feedback": "Correct: The sentence states that the friend is good."
+            },
+            {
+              "text": "ὁ ἀγαθὸς φίλος",
+              "correct": false,
+              "feedback": "Review: The sentence states that the friend is good."
+            },
+            {
+              "text": "ὁ φίλος ὁ ἀγαθός",
+              "correct": false,
+              "feedback": "Review: The sentence states that the friend is good."
+            },
+            {
+              "text": "ὁ ἐμὸς φίλος",
+              "correct": false,
+              "feedback": "Review: The sentence states that the friend is good."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which Cyrus is Proxenus’s associate?",
+          "choices": [
+            {
+              "text": "a Delphic priest",
+              "correct": false,
+              "feedback": "Review: The lesson concerns Cyrus the Younger."
+            },
+            {
+              "text": "Cyrus the Younger",
+              "correct": true,
+              "feedback": "Correct: The lesson concerns Cyrus the Younger."
+            },
+            {
+              "text": "Cyrus the Great",
+              "correct": false,
+              "feedback": "Review: The lesson concerns Cyrus the Younger."
+            },
+            {
+              "text": "the Athenian Cyrus",
+              "correct": false,
+              "feedback": "Review: The lesson concerns Cyrus the Younger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which Greek city had Cyrus aided in the war against Athens?",
+          "choices": [
+            {
+              "text": "Corinth",
+              "correct": false,
+              "feedback": "Review: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+            },
+            {
+              "text": "Sparta",
+              "correct": true,
+              "feedback": "Correct: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+            },
+            {
+              "text": "Thebes",
+              "correct": false,
+              "feedback": "Review: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the culture-page relief show?",
+          "choices": [
+            {
+              "text": "Cyrus the Younger",
+              "correct": false,
+              "feedback": "Review: It shows a Persian guard from Persepolis."
+            },
+            {
+              "text": "Xenophon with Socrates",
+              "correct": false,
+              "feedback": "Review: It shows a Persian guard from Persepolis."
+            },
+            {
+              "text": "Proxenus writing",
+              "correct": false,
+              "feedback": "Review: It shows a Persian guard from Persepolis."
+            },
+            {
+              "text": "an Achaemenid Persian guard",
+              "correct": true,
+              "feedback": "Correct: It shows a Persian guard from Persepolis."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Where did the relief come from?",
+          "choices": [
+            {
+              "text": "Persepolis in Iran",
+              "correct": true,
+              "feedback": "Correct: The Met identifies its findspot as Persepolis."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "Review: The Met identifies its findspot as Persepolis."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: The Met identifies its findspot as Persepolis."
+            },
+            {
+              "text": "Paestum",
+              "correct": false,
+              "feedback": "Review: The Met identifies its findspot as Persepolis."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Is the relief a portrait of Cyrus the Younger?",
+          "choices": [
+            {
+              "text": "No; it is from Rome.",
+              "correct": false,
+              "feedback": "Review: The guard relief is earlier and does not portray Cyrus."
+            },
+            {
+              "text": "No; it predates him and shows a guard.",
+              "correct": true,
+              "feedback": "Correct: The guard relief is earlier and does not portray Cyrus."
+            },
+            {
+              "text": "Yes; it names him.",
+              "correct": false,
+              "feedback": "Review: The guard relief is earlier and does not portray Cyrus."
+            },
+            {
+              "text": "Yes; Xenophon commissioned it.",
+              "correct": false,
+              "feedback": "Review: The guard relief is earlier and does not portray Cyrus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What can we say about the letter’s exact wording?",
+          "choices": [
+            {
+              "text": "It is carved on the relief.",
+              "correct": false,
+              "feedback": "Review: The lesson’s letter speech is adapted dialogue."
+            },
+            {
+              "text": "Socrates wrote it.",
+              "correct": false,
+              "feedback": "Review: The lesson’s letter speech is adapted dialogue."
+            },
+            {
+              "text": "Xenophon does not preserve it.",
+              "correct": true,
+              "feedback": "Correct: The lesson’s letter speech is adapted dialogue."
+            },
+            {
+              "text": "Xenophon quotes it in full.",
+              "correct": false,
+              "feedback": "Review: The lesson’s letter speech is adapted dialogue."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nextLesson": {
+    "id": "lesson-11",
+    "title": "The Question at Delphi",
+    "fallbackUrl": "lesson.html?lesson=11&page=1"
+  },
+  "contentRevision": "lesson-10-proxenus-complete-v1",
+  "previousLesson": {
+    "id": "lesson-9",
+    "title": "What Makes a Good Friend?",
+    "fallbackUrl": "lesson.html?lesson=9&page=1"
+  }
+}$json$::jsonb;
+  lesson_id_value uuid;
+  segment_id_value uuid;
+  reading_id_value uuid;
+  old_content jsonb;
+  block_kind text;
+  group_item jsonb;
+  vocab_item jsonb;
+  vocab_id uuid;
+  vocab_order integer := 0;
+  paragraph_item jsonb;
+  gloss_item jsonb;
+  paragraph_order integer := 0;
+  gloss_order integer;
+BEGIN
+  SELECT id INTO STRICT lesson_id_value FROM public.lessons WHERE slug='lesson-10' FOR UPDATE;
+  SELECT content INTO old_content FROM public.lesson_content_overrides WHERE lesson_id=lesson_id_value FOR UPDATE;
+  IF old_content->>'contentRevision' = patch->>'contentRevision' THEN RETURN; END IF;
+  IF old_content IS NULL THEN
+    INSERT INTO public.lesson_content_overrides (lesson_id,content,version) VALUES (lesson_id_value,patch,1);
+  ELSE
+    UPDATE public.lesson_content_overrides SET content=patch,version=version+1,updated_at=now() WHERE lesson_id=lesson_id_value;
+  END IF;
+  UPDATE public.lessons SET title=patch->>'title',greek_title=patch->>'greekTitle',grammar_focus=patch->>'scope' WHERE id=lesson_id_value;
+  INSERT INTO public.lesson_segments (lesson_id,slug,title,sort_order)
+  SELECT lesson_id_value,p->>'slug',p->>'title',(p->>'page')::integer FROM jsonb_array_elements(patch->'pages') p
+  ON CONFLICT (lesson_id,slug) DO UPDATE SET title=EXCLUDED.title,sort_order=EXCLUDED.sort_order;
+  SELECT id INTO STRICT segment_id_value FROM public.lesson_segments WHERE lesson_id=lesson_id_value AND slug='lesson-10-page-1';
+  SELECT id INTO reading_id_value FROM public.readings WHERE lesson_id=lesson_id_value ORDER BY sort_order,id LIMIT 1;
+  IF reading_id_value IS NULL THEN
+    INSERT INTO public.readings (lesson_id,segment_id,title,sort_order) VALUES (lesson_id_value,segment_id_value,patch #>> '{reading,title}',1) RETURNING id INTO reading_id_value;
+  END IF;
+  UPDATE public.readings SET segment_id=segment_id_value,title=patch #>> '{reading,title}',
+    greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(patch #> '{reading,paragraphs}') WITH ORDINALITY t(p,n)),
+    translation=patch #>> '{reading,translation}',notes_markdown=patch #>> '{reading,notesMarkdown}',source_citation=patch #>> '{reading,sourceCitation}'
+  WHERE id=reading_id_value;
+  DELETE FROM public.reading_glosses WHERE lesson_id=lesson_id_value AND reading_id=reading_id_value;
+  FOR paragraph_item IN SELECT value FROM jsonb_array_elements(patch #> '{reading,paragraphs}') LOOP
+    gloss_order:=0;
+    FOR gloss_item IN SELECT value FROM jsonb_array_elements(paragraph_item->'gloss') LOOP
+      INSERT INTO public.reading_glosses (lesson_id,reading_id,greek,english,lemma,display_form,part_of_speech,morphology,source,sort_order)
+      VALUES (lesson_id_value,reading_id_value,gloss_item->>'greek',gloss_item->>'english',gloss_item->>'greek',gloss_item->>'greek','Reading gloss','{}'::jsonb,'lesson_reading_gloss',paragraph_order*1000+gloss_order);
+      gloss_order:=gloss_order+1;
+    END LOOP;
+    paragraph_order:=paragraph_order+1;
+  END LOOP;
+  DELETE FROM public.lesson_vocabulary WHERE lesson_id=lesson_id_value;
+  FOR group_item IN SELECT value FROM jsonb_array_elements(patch->'vocabulary') LOOP
+    FOR vocab_item IN SELECT value FROM jsonb_array_elements(group_item->'items') LOOP
+      INSERT INTO public.vocabulary_items (lemma,display_form,gloss,part_of_speech,dictionary_form,morphology)
+      VALUES (vocab_item->>'lemma',vocab_item->>'greek',vocab_item->>'english',group_item->>'category',vocab_item->>'dictionaryForm',jsonb_build_object('source','lesson_10_proxenus'))
+      ON CONFLICT (lemma,display_form,gloss) DO NOTHING;
+      SELECT id INTO STRICT vocab_id FROM public.vocabulary_items WHERE lemma=vocab_item->>'lemma' AND display_form=vocab_item->>'greek' AND gloss=vocab_item->>'english';
+      INSERT INTO public.lesson_vocabulary (lesson_id,vocabulary_item_id,sort_order) VALUES (lesson_id_value,vocab_id,vocab_order);
+      vocab_order:=vocab_order+1;
+    END LOOP;
+  END LOOP;
+  INSERT INTO public.lesson_segments (lesson_id,slug,title,sort_order) VALUES (lesson_id_value,'published-structured-content','Published Structured Content',99)
+  ON CONFLICT (lesson_id,slug) DO UPDATE SET title=EXCLUDED.title RETURNING id INTO segment_id_value;
+  FOREACH block_kind IN ARRAY ARRAY['reading','wordStudy','grammar','culture','enrichment','activities'] LOOP
+    UPDATE public.lesson_content_blocks b SET content=jsonb_build_object('source','lesson_publish','kind',block_kind,'value',patch->block_kind),updated_at=now()
+    FROM public.lesson_segments s WHERE b.segment_id=s.id AND s.lesson_id=lesson_id_value AND b.content->>'source'='lesson_publish' AND b.content->>'kind'=block_kind;
+    IF NOT EXISTS (SELECT 1 FROM public.lesson_content_blocks b JOIN public.lesson_segments s ON s.id=b.segment_id
+      WHERE s.lesson_id=lesson_id_value AND b.content->>'source'='lesson_publish' AND b.content->>'kind'=block_kind) THEN
+      INSERT INTO public.lesson_content_blocks (segment_id,block_type,title,content,sort_order)
+      VALUES (segment_id_value,'custom',block_kind,jsonb_build_object('source','lesson_publish','kind',block_kind,'value',patch->block_kind),
+        CASE block_kind WHEN 'reading' THEN 1 WHEN 'wordStudy' THEN 2 WHEN 'grammar' THEN 3 WHEN 'culture' THEN 4 WHEN 'enrichment' THEN 5 ELSE 6 END);
+    END IF;
+  END LOOP;
+END
+$lesson10$;
+UPDATE public.lesson_content_overrides o
+SET content=jsonb_set(o.content,'{nextLesson,title}',to_jsonb('The Letter from Proxenus'::text),true),version=o.version+1,updated_at=now()
+WHERE o.lesson_id=(SELECT id FROM public.lessons WHERE slug='lesson-9')
+  AND o.content #>> '{nextLesson,id}'='lesson-10'
+  AND o.content #>> '{nextLesson,title}' IS DISTINCT FROM 'The Letter from Proxenus';
+COMMIT;

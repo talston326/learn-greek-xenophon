@@ -4,11 +4,11 @@
 **Scope:** Unit 0 and Lessons 1–12  
 **Updated:** 27 September 2026
 
-This is the project's standing narrative plan for the beginning of *Learn Greek with Xenophon*. Ask Codex to **open “Curriculum Narrative”** to revisit or revise it. Unit 0 and Lessons 1–8 describe authored course material, while Lessons 9–12 remain proposals. This document records curriculum intent and source boundaries. It does not itself publish or replace lesson content on the website.
+This is the project's standing narrative plan for the beginning of *Learn Greek with Xenophon*. Ask Codex to **open “Curriculum Narrative”** to revisit or revise it. Unit 0 and Lessons 1–10 describe authored course material, while Lessons 11–12 remain proposals. This document records curriculum intent and source boundaries. It does not itself publish or replace lesson content on the website.
 
 ## Narrative arc
 
-Students first learn to read Greek, then meet a young Xenophon in his household and school. His father's departure gives him an early question about becoming useful to Athens. Socrates' unexpected question in Lesson 5 draws him from the household into the wider civic world. The proposed later readings explore physical training, pilgrimage, work, and friendship before Proxenus' invitation leads Xenophon to Delphi and, ultimately, toward Cyrus' expedition. Module 2 can begin with the gathering army and the March of the Ten Thousand.
+Students first learn to read Greek, then meet a young Xenophon in his household and school. His father's departure gives him an early question about becoming useful to Athens. Socrates' unexpected question in Lesson 5 draws him from the household into the wider civic world. Later readings explore physical training, pilgrimage, work, and friendship before Proxenus' invitation leads Xenophon to Delphi and, ultimately, toward Cyrus' expedition. Module 2 can begin with the gathering army and the March of the Ten Thousand.
 
 ## Existing course: Unit 0 and Lessons 1–5
 
@@ -50,7 +50,7 @@ On his way to buy bread, Xenophon meets Socrates in a narrow lane. Socrates asks
 
 ## Continuing readings: Lessons 6–12
 
-Lessons 6–8 have three authored pages each, including Language Study and culture; Lessons 9–12 remain proposals.
+Lessons 6–10 have three authored pages each, including Language Study and culture; Lessons 11–12 remain proposals.
 
 ### Lesson 6 — Strength of Body and Mind
 
@@ -90,6 +90,8 @@ Proxenus, Xenophon's old friend, invites him to join Cyrus. The offer is temptin
 
 **Language target:** Pronouns, possession, and adjective placement: *my friend*, *your journey*, *this decision*. The reading should turn the grammar into a personal dilemma.
 
+**Authored lesson:** [Lesson 10 content](../../content/lessons/lesson-10.json) has an eight-paragraph reading with the invitation, Xenophon's hesitation, and Socrates' advice. The prologue separates *Anabasis* 3.1.4–5 from the adapted letter and dialogue. Page 2 teaches personal and possessive pronouns, possessive adjectives, demonstratives, and adjective position, with practice and required exercises. Page 3 explains Cyrus the Younger, Persia, and Athens with a public-domain Achaemenid guard relief. The [publication migration](../../db/migrations/0030_publish_lesson_10.sql) prepares the database-backed version, and the bearded Xenophon appears in the lesson banner.
+
 ### Lesson 11 — The Question at Delphi
 
 Xenophon travels to Delphi, carrying Socrates' advice but already inclined to go. He asks Apollo **which gods he should sacrifice and pray to** for a successful journey and safe return. According to [*Anabasis* 3.1.6](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3), Apollo's response named the gods to whom he should sacrifice. Xenophon does not give the oracle's exact wording or identify those gods in this passage. Describe the journey and consultation vividly without inventing a purported quotation from the oracle.
@@ -107,5 +109,5 @@ Back in Athens, Xenophon reports the consultation. **In Xenophon's own account**
 1. Identify whether each scene is **directly reported in an ancient source**, **adapted from a reported episode**, or **reconstructed for the course**. Xenophon's account is a source, not independent proof that every reported conversation happened exactly as written.
 2. Give women substantive actions and perspectives where the sources allow them; label invented dialogue clearly, especially in Lessons 7 and 8.
 3. Prefer controlled present-tense narrative for Lessons 6–12. Gloss unfamiliar source vocabulary and grammar rather than making it an unannounced assessment target.
-4. Follow the [grammar progression](grammar-progression-48-lessons.md) for Lessons 6–12. Lesson 7 now follows its planned I 4α allocation. When Lessons 9–12 are authored, their complete new lessons replace the older website placeholders rather than preserving those placeholder readings or activities.
+4. Follow the [grammar progression](grammar-progression-48-lessons.md) for Lessons 6–12. Lesson 7 now follows its planned I 4α allocation. When Lessons 11–12 are authored, their complete new lessons replace the older website placeholders rather than preserving those placeholder readings or activities.
 5. Preserve the three-part ending: **Proxenus' invitation → Delphi → Socrates' response**. Module 2 begins with the expedition, not with a second retelling of the Delphic decision.
