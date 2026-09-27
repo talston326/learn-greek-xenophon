@@ -364,6 +364,22 @@ function validateLessonContent(content: unknown): ValidationResult {
       validateString(content.culture.imagePlacement, "culture.imagePlacement", errors);
       validateStringArray(content.culture.body, "culture.body", errors);
 
+      if (content.culture.sections !== undefined && !Array.isArray(content.culture.sections)) {
+        errors.push("culture.sections must be an array.");
+      }
+
+      if (Array.isArray(content.culture.sections)) {
+        content.culture.sections.forEach((section, sectionIndex) => {
+          if (!isRecord(section)) {
+            errors.push(`culture.sections[${sectionIndex}] must be an object.`);
+            return;
+          }
+
+          validateString(section.title, `culture.sections[${sectionIndex}].title`, errors);
+          validateStringArray(section.body, `culture.sections[${sectionIndex}].body`, errors);
+        });
+      }
+
       if (content.culture.questions !== undefined && !Array.isArray(content.culture.questions)) {
         errors.push("culture.questions must be an array.");
       }
@@ -533,7 +549,18 @@ async function syncLessonCulture(
   const bodyParagraphs = Array.isArray(culture.body)
     ? culture.body.filter((paragraph): paragraph is string => typeof paragraph === "string" && Boolean(paragraph.trim()))
     : [];
-  const bodyMarkdown = bodyParagraphs.map((paragraph) => paragraph.trim()).join("\n\n");
+  const sectionMarkdown = Array.isArray(culture.sections)
+    ? culture.sections.filter(isRecord).map((section) => {
+        const sectionTitle = optionalText(section.title);
+        const paragraphs = Array.isArray(section.body)
+          ? section.body.filter((paragraph): paragraph is string => typeof paragraph === "string" && Boolean(paragraph.trim()))
+          : [];
+        return [sectionTitle ? `## ${sectionTitle}` : "", ...paragraphs.map((paragraph) => paragraph.trim())]
+          .filter(Boolean)
+          .join("\n\n");
+      }).filter(Boolean)
+    : [];
+  const bodyMarkdown = [...bodyParagraphs.map((paragraph) => paragraph.trim()), ...sectionMarkdown].join("\n\n");
   const image = optionalText(culture.image) || optionalText(culture.imageUrl);
   const imageAlt = optionalText(culture.imageAlt);
   const imagePlacement = optionalText(culture.imagePlacement) || "inline-left";

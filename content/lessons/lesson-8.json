@@ -229,7 +229,7 @@
     "title": "Ἔριον καὶ ἔργον",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Time has passed since the reconstructed trip to Eleusis. In Athens, civil strife has left Aristarchus with sisters, nieces, and cousins in a crowded household and without the income he counted on. Socrates asks what skills the women already have.",
+      "Time has passed since the trip to Eleusis. Athens has endured the Peloponnesian War and, early in that war, a devastating plague. After Athens surrendered in 404 BCE, the oligarchic rulers known as the Thirty Tyrants took power with Spartan backing. Their opponents gathered at Piraeus, and civil conflict divided the city. In this turmoil, opponents hold Aristarchus’s land and his sisters, nieces, and cousins crowd into his home. Socrates asks what skills the women already have.",
       "The household crisis, Socrates’ advice to Aristarchus, the purchase of wool, the women’s work, and their later teasing complaint about his idleness come from Xenophon, Memorabilia 2.7. The passage does not give the women names or record their individual conversations. Melitta, Thaleia, their planning dialogue, and Xenophon’s placement of the scene within this course sequence are reconstructions.",
       "The Greek keeps the present-tense narrative used in earlier lessons. Blue glosses support proper names, kinship terms, contractions, middle-form verbs, and other forms beyond this lesson’s production targets."
     ],
@@ -793,6 +793,17 @@
       "This story is also evidence of limits. Socrates addresses Aristarchus, and Aristarchus controls the borrowing and purchase in Xenophon’s version. The women’s competence is essential to the outcome, yet their own words are absent. Giving them dialogue in a lesson can reveal that absence, provided the reconstruction stays clearly labeled.",
       "The passage ends with a joke at Aristarchus’s expense: he reports that the women consider him the only idle person in the household. Socrates answers with a fable about a watchdog’s protective role. Students can ask whose work Xenophon makes visible, whose judgment he reports indirectly, and how a household responds when war disrupts ordinary income."
     ],
+    "sections": [
+      {
+        "title": "War, Plague, and the Return of Democracy",
+        "body": [
+          "From 431 to 404 BCE, Athens fought Sparta and its allies in the Peloponnesian War. Early in the war, a devastating epidemic struck Athens in 430 BCE. Thucydides, who survived it, describes widespread illness and death. The plague came decades before Aristarchus’s crisis; Xenophon does not connect this household to any particular illness.",
+          "After Athens surrendered in 404 BCE, an oligarchic board of Thirty took control with Spartan backing. The rulers later known as the Thirty Tyrants executed and expelled opponents and seized property. Democratic opponents gathered at Piraeus and fought those holding the city. This is the civil strife, or stasis, that forms the setting of Aristarchus’s complaint.",
+          "Aristarchus says many people fled to Piraeus, while sisters, nieces, and cousins left behind came to him. He also says opponents held his land. Xenophon does not say that Aristarchus himself fled, identify his political allegiance, or date the conversation precisely.",
+          "After further fighting and a negotiated settlement in 403 BCE, democracy returned to Athens. An amnesty aimed to limit reprisals, with exceptions for leading officials of the oligarchy. The city’s political recovery provides a wider frame for Xenophon’s smaller story of a household finding work and food."
+        ]
+      }
+    ],
     "questions": [
       {
         "prompt": "What crisis does Aristarchus report?",
@@ -821,6 +832,18 @@
       ]
     },
     "sources": [
+      {
+        "title": "Thucydides, History of the Peloponnesian War 2.47–54 (the plague)",
+        "url": "https://www.livius.org/sources/content/thucydides-historian/the-plague/"
+      },
+      {
+        "title": "Xenophon, Hellenica 2.2–4 (defeat, the Thirty, and restoration)",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C001%3A2"
+      },
+      {
+        "title": "Constitution of the Athenians 34–40 (the Thirty and democratic restoration)",
+        "url": "https://www.livius.org/sources/content/aristotle/constitution-of-the-athenians/the-regime-of-the-thirty/"
+      },
       {
         "title": "Xenophon, Memorabilia 2.7 (Perseus Digital Library)",
         "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0208%3Abook%3D2"
@@ -5801,7 +5824,7 @@
     "title": "What Makes a Good Friend?",
     "fallbackUrl": "lesson.html?lesson=9&page=1"
   },
-  "contentRevision": "lesson-8-household-complete-v1",
+  "contentRevision": "lesson-8-household-history-v2",
   "previousLesson": {
     "id": "lesson-7",
     "title": "The Road to Eleusis",

@@ -660,8 +660,12 @@
           ${culturePlan.caption ? `<figcaption>${escapeHtml(culturePlan.caption)}</figcaption>` : ""}
           ${culturePlan.credit ? `<p class="culture-plan__credit">${escapeHtml(culturePlan.credit)}${/^https:\/\//.test(culturePlan.sourceUrl || "") ? ` <a href="${escapeHtml(culturePlan.sourceUrl)}" target="_blank" rel="noopener noreferrer">Map source</a>.` : ""}${/^https:\/\//.test(culturePlan.licenseUrl || "") ? ` <a href="${escapeHtml(culturePlan.licenseUrl)}" target="_blank" rel="noopener noreferrer">License</a>.` : ""}</p>` : ""}
         </figure>` : ""}
-        ${culture.sources?.length ? `<details class="culture-sources"><summary>Sources and Further Reading</summary><ul>${culture.sources.filter((source) => /^https:\/\//.test(source.url)).map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a></li>`).join("")}</ul></details>` : ""}
       </section>
+      ${Array.isArray(culture.sections) ? culture.sections.map((section) => `<section class="lesson-section enrichment-panel culture-panel">
+        <h2>${escapeHtml(section.title || "Culture and History")}</h2>
+        <div class="lesson-rich-text">${renderParagraphsWithImage(section.body)}</div>
+      </section>`).join("") : ""}
+      ${culture.sources?.length ? `<section class="lesson-section"><details class="culture-sources"><summary>Sources and Further Reading</summary><ul>${culture.sources.filter((source) => /^https:\/\//.test(source.url)).map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a></li>`).join("")}</ul></details></section>` : ""}
       ${culture.excerpt?.greek ? `<section class="lesson-section culture-excerpt" aria-labelledby="culture-excerpt-heading">
         <h2 id="culture-excerpt-heading">${escapeHtml(culture.excerpt.title || "Xenophon’s Own Words")}</h2>
         <p>${/^https:\/\//.test(culture.excerpt.url || "") ? `<a href="${escapeHtml(culture.excerpt.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(culture.excerpt.citation)}</a>` : escapeHtml(culture.excerpt.citation || "")}</p>
@@ -1212,6 +1216,21 @@
           </div>
           ${renderSelect("Image placement", "culture-image-placement", normalizeImagePlacement(lesson.culture?.imagePlacement), IMAGE_PLACEMENT_OPTIONS)}
           ${renderTextarea("Body paragraphs", "culture-body", joinParagraphs(lesson.culture?.body), 8)}
+          <div class="lesson-section__header">
+            <h4>Additional Culture and History Sections</h4>
+            <button class="secondary-button" type="button" data-lesson-editor-action="add-culture-section">Add Section</button>
+          </div>
+          <div class="lesson-editor-table">
+            ${(lesson.culture?.sections || []).map((section) => `
+              <div class="lesson-editor-group" data-editor-row="culture-section">
+                <div class="lesson-section__header">
+                  ${renderInput("Section title", "culture-section-title", section.title || "")}
+                  ${renderRemoveButton("Remove Section")}
+                </div>
+                ${renderTextarea("Section paragraphs", "culture-section-body", joinParagraphs(section.body), 6)}
+              </div>
+            `).join("")}
+          </div>
           <h4>Plan</h4>
           ${renderInput("Plan title", "culture-plan-title", lesson.culture?.plan?.title || "")}
           <div class="lesson-editor-row lesson-editor-row--two">
@@ -1428,6 +1447,10 @@
       draft.culture.imageCaption = fieldValue("culture-image-caption");
       draft.culture.imagePlacement = fieldValue("culture-image-placement") || "inline-left";
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
+      draft.culture.sections = Array.from(shell.querySelectorAll('[data-editor-row="culture-section"]')).map((section) => ({
+        title: fieldValue("culture-section-title", section),
+        body: splitParagraphs(fieldValue("culture-section-body", section)),
+      }));
       draft.culture.plan = {
         title: fieldValue("culture-plan-title"),
         image: fieldValue("culture-plan-image"),
@@ -1537,6 +1560,12 @@
       const index = getRowIndex(section, '[data-editor-row="grammar-section"]');
       draft.grammar.sections[index].examples ||= [];
       draft.grammar.sections[index].examples.push({ greek: "", english: "" });
+    }
+
+    if (action === "add-culture-section") {
+      draft.culture ||= {};
+      draft.culture.sections ||= [];
+      draft.culture.sections.push({ title: "New Culture and History Section", body: [""] });
     }
 
     if (action === "add-culture-question") {
