@@ -334,7 +334,7 @@
       : `<img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt)}">`;
 
     return `
-      <header class="lesson-hero">
+      <header class="lesson-hero${lesson.id === "lesson-8" ? " lesson-hero--lesson-8" : ""}">
         ${imageMarkup}
         <div class="lesson-hero__overlay">
           <p class="lesson-hero__kicker">Lesson ${lesson.number}</p>

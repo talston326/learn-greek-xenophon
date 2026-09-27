@@ -50,7 +50,7 @@ On his way to buy bread, Xenophon meets Socrates in a narrow lane. Socrates asks
 
 ## Continuing readings: Lessons 6–12
 
-Lessons 6 and 7 have three authored pages each, including Language Study and culture; Lessons 8–12 remain proposals.
+Lessons 6–8 have three authored pages each, including Language Study and culture; Lessons 9–12 remain proposals.
 
 ### Lesson 6 — Strength of Body and Mind
 
@@ -73,6 +73,8 @@ Xenophon and Clinias join the procession through the Sacred Gate and onto the Sa
 After civil strife, Aristarchus' sisters, nieces, and cousins face the problem of supporting a crowded household. They assess their skills and organize textile work, with meaningful choices and dialogue of their own. The situation and Socrates' counsel to Aristarchus come from [*Memorabilia* 2.7](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0208%3Abook%3D2). Xenophon does not preserve the women's individual words; those voices would be a labeled reconstruction. This reading gives the module a view of women's work and agency outside Xenophon's childhood household.
 
 **Language target:** Declension variants, adjectives, and adverbs for describing people, materials, work, and results.
+
+**Authored lesson:** [Lesson 8 content](../../content/lessons/lesson-8.json) has an eight-paragraph source-based reading with reconstructed women’s voices, word study, five grammar topics, topic practice, required grammar exercises, a culture page with archaeological context, and a final quiz. The [publication migration](../../db/migrations/0027_publish_lesson_8.sql) prepares the database-backed version; local files alone do not publish it. The main banner uses an open left area so the title does not cover the woman carrying wool.
 
 ### Lesson 9 — What Makes a Good Friend?
 
