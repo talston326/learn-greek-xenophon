@@ -82,6 +82,8 @@ Socrates asks a small group what makes someone a good friend. A proposed cast is
 
 **Language target:** Alpha-contract verbs and elision in short, natural exchanges. Keep the philosophical vocabulary small and supported by glosses.
 
+**Authored lesson:** [Lesson 9 content](../../content/lessons/lesson-9.json) includes an eight-paragraph dialogue, blue glosses, word study, five grammar topics, practice rounds, required grammar exercises, a symposium culture page, and a final quiz. The [publication migration](../../db/migrations/0029_publish_lesson_9.sql) prepares the database-backed version. The culture page reproduces a licensed photograph of a symposium fresco from the Tomb of the Diver at Paestum; the lesson banner illustrates the proposed group in an Athenian home.
+
 ### Lesson 10 — The Letter from Proxenus
 
 Proxenus, Xenophon's old friend, invites him to join Cyrus. The offer is tempting, but it may endanger Xenophon's standing in Athens. Xenophon shows the letter to Socrates, who urges him to consult Apollo at Delphi. These events come from [*Anabasis* 3.1.4–5](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3); any full text of the letter or extended conversation would be adapted dialogue.
