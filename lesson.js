@@ -644,7 +644,7 @@
       ${renderSampleNotice()}
       ${cultureBanner.image ? `<figure class="lesson-culture-banner">
         <img src="${escapeHtml(resolveLessonImagePath(cultureBanner.image))}" alt="${escapeHtml(cultureBanner.alt || "")}">
-        ${cultureBanner.caption ? `<figcaption>${escapeHtml(cultureBanner.caption)}</figcaption>` : ""}
+        ${cultureBanner.caption || cultureBanner.credit ? `<figcaption>${escapeHtml(cultureBanner.caption || "")}${cultureBanner.credit ? ` <span>${escapeHtml(cultureBanner.credit)}</span>` : ""}${/^https:\/\//.test(cultureBanner.sourceUrl || "") ? ` <a href="${escapeHtml(cultureBanner.sourceUrl)}" target="_blank" rel="noopener noreferrer">Image source</a>.` : ""}${/^https:\/\//.test(cultureBanner.licenseUrl || "") ? ` <a href="${escapeHtml(cultureBanner.licenseUrl)}" target="_blank" rel="noopener noreferrer">License</a>.` : ""}</figcaption>` : ""}
       </figure>` : ""}
       <header class="lesson-page-heading">
         <p class="eyebrow">Culture and History</p>
