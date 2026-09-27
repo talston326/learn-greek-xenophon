@@ -4832,7 +4832,7 @@
     { number: 7, title: "The Road to Eleusis", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-7-road-banner-v2.png", bannerAlt: "Xenophon, Clinias, Myrrhine, and her sister on the Sacred Way", grammarFocus: "All present active persons; first-declension feminine nouns", greekPhrase: "Ἡ πομπὴ πρὸς τὴν Ἐλευσῖνα", sourceAnchor: "Course reconstruction; public Eleusinian procession", cultureLead: "Eleusis, its procession, and its place in Greek religious life." },
     { number: 8, title: "A Household Finds a Way", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-8-household-banner-v3.png", bannerAlt: "Athenian women spinning wool, weaving, and examining cloth together", grammarFocus: "Declension variants, adjective agreement, and adverbs", greekPhrase: "Ἔριον καὶ ἔργον", sourceAnchor: "Xenophon, Memorabilia 2.7; women’s dialogue reconstructed", cultureLead: "Women’s textile skills and a household’s response to civil strife." },
     { number: 9, title: "What Makes a Good Friend?", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-9-symposium-banner.png", bannerAlt: "Socrates and four companions recline in an Athenian symposium room", grammarFocus: "Alpha-contract verbs, accent, and elision", greekPhrase: "Τίς ἐστι φίλος ἀγαθός;", sourceAnchor: "Xenophon, Memorabilia 2.6; Symposium 1.3–4", cultureLead: "Friendship and conversation after dinner in the Greek symposium." },
-    { number: 10, title: "The Letter from Proxenus", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-10-letter-banner.png", bannerAlt: "A bearded Xenophon studies Proxenus’s letter while speaking with Socrates", grammarFocus: "Pronouns, possession, demonstratives, and adjective placement", greekPhrase: "Τὸ παρὰ Προξένου γράμμα", sourceAnchor: "Xenophon, Anabasis 3.1.4–5", cultureLead: "Cyrus the Younger, Persia, and the political risk for an Athenian." },
+    { number: 10, title: "The Letter from Proxenus", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-10-letter-banner.png", bannerAlt: "A bearded Xenophon studies Proxenus’s letter while speaking with Socrates", grammarFocus: "Pronouns, possession, demonstratives, and adjective placement", greekPhrase: "Τὸ παρὰ Προξένου γράμμα", sourceAnchor: "Xenophon, Anabasis 2.1.10 and 3.1.4–5", cultureLead: "Theban guest friendship and paid military service after the Peloponnesian War." },
     { number: 11, title: "The Thinking Mind", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Participles; introductory; present active participle", greekPhrase: "ὁ ἀνὴρ ζητῶν τὴν ἀλήθειαν σοφὸς ἐστίν. / οἱ μανθάνοντες ἄνδρες βελτίους γίγνονται.", sourceAnchor: "Memorabilia 1.4.13–18", cultureLead: "This lesson will introduce participles through the image of people seeking, learning, and becoming better." },
     { number: 12, title: "The Examined Life", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian scene reserved for a wisdom lesson banner", grammarFocus: "Module review; present; imperfect; infinitives; participles", greekPhrase: "ὁ Σωκράτης λέγει ὅτι ὁ ἀνεξέταστος βίος οὐ βιωτός ἐστιν.", sourceAnchor: "Memorabilia 4.2.24–30, with comparison to Plato, Apology 38a", cultureLead: "This review lesson will connect Xenophon's Socrates with the later famous formulation about the examined life.", note: "Present this famous formulation as Platonic comparison, not as Xenophon's wording." },
     { number: 13, title: "The General Leads", module: "ἀνδρεία — Courage and Leadership", moduleTheme: "Courage and Leadership", bannerImage: "assets/module-2-andreia-banner.jpeg", bannerAlt: "A Greek military scene reserved for a courage lesson banner", grammarFocus: "Contract verbs; –έω, –άω, –όω; present system", greekPhrase: "ὁ στρατηγὸς τοὺς στρατιώτας φιλεῖ καὶ τιμᾷ. / οἱ δὲ στρατιῶται αὐτὸν ἀκολουθοῦσιν.", sourceAnchor: "Anabasis 1.3.1–21", cultureLead: "This lesson will begin the Anabasis module with leadership, loyalty, and contract verb forms." },
@@ -45708,7 +45708,7 @@ Xenophon is young, but he wants to become wise.`;
     {
       "page": 3,
       "slug": "lesson-10-page-3",
-      "title": "Cyrus, Persia, and Athens",
+      "title": "Guest Friendship and Mercenaries",
       "template": "culture"
     }
   ],
@@ -45722,6 +45722,14 @@ Xenophon is young, but he wants to become wise.`;
           "dictionaryForm": "φίλος, φίλου, ὁ",
           "status": "required vocabulary",
           "lemma": "φίλος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ξένος",
+          "english": "guest friend",
+          "dictionaryForm": "ξένος, ξένου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ξένος",
           "audioPlaceholder": true
         },
         {
@@ -45757,11 +45765,19 @@ Xenophon is young, but he wants to become wise.`;
           "audioPlaceholder": true
         },
         {
-          "greek": "ὁ κίνδυνος",
-          "english": "risk, danger",
-          "dictionaryForm": "κίνδυνος, κινδύνου, ὁ",
-          "status": "required vocabulary",
-          "lemma": "κίνδυνος",
+          "greek": "ὁ Θηβαῖος",
+          "english": "Theban",
+          "dictionaryForm": "Θηβαῖος, Θηβαίου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Θηβαῖος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ βούλευμα",
+          "english": "decision",
+          "dictionaryForm": "βούλευμα, βουλεύματος, τό",
+          "status": "reading vocabulary",
+          "lemma": "βούλευμα",
           "audioPlaceholder": true
         },
         {
@@ -45810,22 +45826,6 @@ Xenophon is young, but he wants to become wise.`;
           "audioPlaceholder": true
         },
         {
-          "greek": "βαδίζω",
-          "english": "walk, go",
-          "dictionaryForm": "βαδίζω",
-          "status": "required vocabulary",
-          "lemma": "βαδίζω",
-          "audioPlaceholder": true
-        },
-        {
-          "greek": "ἀκούω",
-          "english": "hear, listen",
-          "dictionaryForm": "ἀκούω",
-          "status": "required vocabulary",
-          "lemma": "ἀκούω",
-          "audioPlaceholder": true
-        },
-        {
           "greek": "ἐρωτάω",
           "english": "ask, consult",
           "dictionaryForm": "ἐρωτάω",
@@ -45839,6 +45839,22 @@ Xenophon is young, but he wants to become wise.`;
           "dictionaryForm": "πορεύομαι",
           "status": "reading vocabulary",
           "lemma": "πορεύομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀναγιγνώσκω",
+          "english": "read",
+          "dictionaryForm": "ἀναγιγνώσκω",
+          "status": "reading vocabulary",
+          "lemma": "ἀναγιγνώσκω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀποκρίνομαι",
+          "english": "reply",
+          "dictionaryForm": "ἀποκρίνομαι",
+          "status": "reading vocabulary",
+          "lemma": "ἀποκρίνομαι",
           "audioPlaceholder": true
         }
       ]
@@ -45895,11 +45911,11 @@ Xenophon is young, but he wants to become wise.`;
           "audioPlaceholder": true
         },
         {
-          "greek": "μακρός, μακρά, μακρόν",
-          "english": "long",
-          "dictionaryForm": "μακρός, μακρά, μακρόν",
-          "status": "required vocabulary",
-          "lemma": "μακρός",
+          "greek": "πιστός, πιστή, πιστόν",
+          "english": "loyal",
+          "dictionaryForm": "πιστός, πιστή, πιστόν",
+          "status": "reading vocabulary",
+          "lemma": "πιστός",
           "audioPlaceholder": true
         }
       ]
@@ -45909,326 +45925,398 @@ Xenophon is young, but he wants to become wise.`;
     "title": "Τὸ παρὰ Προξένου γράμμα",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "After the conversation about friendship, a friend’s invitation gives Xenophon a decision to make. Proxenus invites him to join Cyrus. A connection with Cyrus is attractive, but it could put an Athenian under suspicion after Cyrus’s aid to Sparta. Xenophon discusses the journey with Socrates.",
-      "Source note: Xenophon, Anabasis 3.1.4–5 reports that Proxenus sent an invitation, promised to introduce Xenophon to Cyrus, and that Xenophon consulted Socrates after reading the letter. Socrates feared an accusation in Athens because Cyrus had supported Sparta, and he advised Xenophon to consult Apollo at Delphi. The source does not preserve the letter’s wording, say that Xenophon physically showed it to Socrates, or record their conversation word for word. Those details below are adapted dialogue and visual reconstruction.",
-      "The Greek keeps the present-tense narrative used in earlier lessons, with a few source-based past and future forms clearly glossed. Blue glosses support proper names, supplied verbs, and forms beyond the production target. This lesson asks you to read pronouns, possessors, demonstratives, and adjective position inside a personal dilemma."
+      "After the conversation about friendship, an invitation from Proxenus of Thebes makes friendship a personal dilemma. Proxenus is Xenophon’s longstanding guest friend. He offers to introduce Xenophon to Cyrus the Younger, although an Athenian association with Cyrus could invite suspicion after the war with Sparta.",
+      "Source note: Xenophon, Anabasis 3.1.4–5 reports Proxenus’s invitation, his promise to make Xenophon a friend of Cyrus, his preference for Cyrus over his homeland, Socrates’s concern about Athens, and his advice to consult Apollo at Delphi. Anabasis 2.1.10 identifies Proxenus as Theban. Xenophon does not preserve the letter’s exact wording or the detailed conversation. The words, physical handoff, and private reactions in this reading are adaptations.",
+      "The Greek keeps the present-tense narrative used in earlier lessons. Blue glosses support names, guest friendship, middle forms, past and future verbs, and clauses beyond the production target. Focus on pronouns, possession, demonstratives, and adjective placement as Xenophon weighs friend and city."
     ],
     "paragraphs": [
       {
-        "greek": "ὁ Ξενοφῶν ἐν Ἀθήναις ἐστίν. γράμμα παρὰ Προξένου, παλαιοῦ φίλου, ἥκει. ὁ Ξενοφῶν τὸ γράμμα λαμβάνει καὶ ἀναγιγνώσκει.",
+        "greek": "Ὅτε ὁ Ξενοφῶν ἐν Ἀθήναις μένει, γράμμα παρὰ Προξένου τοῦ Θηβαίου, παλαιοῦ ξένου, αὐτῷ ἥκει. ἐπεὶ δὲ τὸ γράμμα ἀναγιγνώσκει, μανθάνει ὅτι ὁ ξένος αὐτὸν πρὸς Κῦρον καλεῖ.",
         "gloss": [
           {
+            "greek": "Ὅτε",
+            "english": "while; time clause"
+          },
+          {
             "greek": "ἐν Ἀθήναις",
-            "english": "in Athens; place name"
+            "english": "in Athens"
           },
           {
-            "greek": "παρὰ Προξένου",
-            "english": "from Proxenus; proper name"
+            "greek": "μένει",
+            "english": "is staying"
           },
           {
-            "greek": "παλαιοῦ φίλου",
-            "english": "of an old friend; genitive phrase"
+            "greek": "παρὰ Προξένου τοῦ Θηβαίου",
+            "english": "from Proxenus the Theban"
           },
           {
-            "greek": "ἥκει",
-            "english": "has arrived; supplied verb"
+            "greek": "παλαιοῦ ξένου",
+            "english": "of a longstanding guest friend"
           },
           {
-            "greek": "λαμβάνει",
-            "english": "takes; supplied verb"
+            "greek": "αὐτῷ ἥκει",
+            "english": "comes to him"
+          },
+          {
+            "greek": "ἐπεὶ",
+            "english": "as, when"
           },
           {
             "greek": "ἀναγιγνώσκει",
-            "english": "reads; supplied verb"
-          }
-        ]
-      },
-      {
-        "greek": "ὁ Προξένος γράφει· «ὦ Ξενοφῶν, ἐλθὲ πρὸς ἐμέ. Κῦρος ἐμοὶ φίλος ἐστίν. ἐγώ σε φίλον τῷ Κύρῳ ποιήσω. σὺ ἐμοὶ φίλος εἶ.»",
-        "gloss": [
-          {
-            "greek": "ὁ Προξένος",
-            "english": "Proxenus; name"
+            "english": "reads"
           },
           {
-            "greek": "ὦ Ξενοφῶν",
-            "english": "Xenophon!; direct address"
-          },
-          {
-            "greek": "ἐλθὲ",
-            "english": "come!; supplied command"
-          },
-          {
-            "greek": "πρὸς ἐμέ",
-            "english": "to me; emphatic pronoun"
-          },
-          {
-            "greek": "Κῦρος",
-            "english": "Cyrus the Younger; name"
-          },
-          {
-            "greek": "ἐμοὶ",
-            "english": "to me; supplied dative pronoun"
-          },
-          {
-            "greek": "σε",
-            "english": "you; object of ποιήσω"
-          },
-          {
-            "greek": "τῷ Κύρῳ",
-            "english": "to Cyrus; proper name"
-          },
-          {
-            "greek": "ποιήσω",
-            "english": "I will make; supplied future verb"
-          }
-        ]
-      },
-      {
-        "greek": "ὁ Ξενοφῶν τὸ γράμμα κατατίθησιν. «ὁ φίλος μου με καλεῖ,» λέγει· «ἡ ὁδὸς μακρά ἐστιν. ἡ δὲ ἐμὴ πόλις Ἀθῆναί ἐστιν.»",
-        "gloss": [
-          {
-            "greek": "κατατίθησιν",
-            "english": "sets down; supplied verb"
-          },
-          {
-            "greek": "ὁ φίλος μου",
-            "english": "my friend; μου follows the noun"
-          },
-          {
-            "greek": "με",
-            "english": "me; object of καλεῖ"
-          },
-          {
-            "greek": "καλεῖ",
-            "english": "calls, invites; supplied verb"
-          },
-          {
-            "greek": "ἡ ὁδὸς",
-            "english": "the road or journey"
-          },
-          {
-            "greek": "ἡ δὲ ἐμὴ πόλις",
-            "english": "but my city; possessive adjective agrees with πόλις"
-          },
-          {
-            "greek": "Ἀθῆναί",
-            "english": "Athens; plural place name"
-          }
-        ]
-      },
-      {
-        "greek": "αὕτη ἡ ὁδὸς καλὴ δοκεῖ, ἀλλὰ καὶ κίνδυνον ἔχει. ὁ Κῦρος τοῖς Λακεδαιμονίοις ἐν τῷ πολέμῳ ἐβοήθησε. οἱ Ἀθηναῖοι τούτου οὐκ ἐπιλανθάνονται.",
-        "gloss": [
-          {
-            "greek": "αὕτη ἡ ὁδὸς",
-            "english": "this journey; feminine demonstrative"
-          },
-          {
-            "greek": "καλὴ δοκεῖ",
-            "english": "seems attractive; supplied expression"
-          },
-          {
-            "greek": "κίνδυνον ἔχει",
-            "english": "carries a risk"
-          },
-          {
-            "greek": "τοῖς Λακεδαιμονίοις",
-            "english": "the Spartans; supplied plural dative"
-          },
-          {
-            "greek": "ἐν τῷ πολέμῳ",
-            "english": "during the war"
-          },
-          {
-            "greek": "ἐβοήθησε",
-            "english": "he helped; supplied past tense"
-          },
-          {
-            "greek": "τούτου οὐκ ἐπιλανθάνονται",
-            "english": "they do not forget this; supplied genitive and middle verb"
-          }
-        ]
-      },
-      {
-        "greek": "ὁ Ξενοφῶν πρὸς τὸν Σωκράτην βαδίζει καὶ τὸ γράμμα αὐτῷ δείκνυσιν. «ὁ παλαιὸς φίλος μου με καλεῖ,» φησίν· «τί σὺ λέγεις περὶ ταύτης τῆς ὁδοῦ;»",
-        "gloss": [
-          {
-            "greek": "πρὸς τὸν Σωκράτην",
-            "english": "to Socrates; proper name"
-          },
-          {
-            "greek": "βαδίζει",
-            "english": "walks, goes"
-          },
-          {
-            "greek": "αὐτῷ",
-            "english": "to him; supplied dative pronoun"
-          },
-          {
-            "greek": "δείκνυσιν",
-            "english": "shows; supplied verb"
-          },
-          {
-            "greek": "ὁ παλαιὸς φίλος μου",
-            "english": "my old friend"
-          },
-          {
-            "greek": "φησίν",
-            "english": "he says; supplied verb"
-          },
-          {
-            "greek": "τί",
-            "english": "what?; question word"
-          },
-          {
-            "greek": "περὶ ταύτης τῆς ὁδοῦ",
-            "english": "about this journey; supplied genitive phrase"
-          }
-        ]
-      },
-      {
-        "greek": "ὁ Σωκράτης ἀκούει καὶ λέγει· «ὁ φίλος σου ἀγαθός ἐστιν. ἀλλ᾽ ὁ Κῦρος τοῖς Λακεδαιμονίοις ἐβοήθησε. οἱ Ἀθηναῖοι ἴσως σε αἰτιάσονται.»",
-        "gloss": [
-          {
-            "greek": "ὁ φίλος σου",
-            "english": "your friend; σου follows the noun"
-          },
-          {
-            "greek": "ἀλλ᾽",
-            "english": "but; elision from ἀλλά"
-          },
-          {
-            "greek": "τοῖς Λακεδαιμονίοις",
-            "english": "the Spartans"
-          },
-          {
-            "greek": "ἐβοήθησε",
-            "english": "he helped; supplied past tense"
-          },
-          {
-            "greek": "ἴσως",
-            "english": "perhaps"
-          },
-          {
-            "greek": "σε",
-            "english": "you; object pronoun"
-          },
-          {
-            "greek": "αἰτιάσονται",
-            "english": "they will accuse; supplied future middle form"
-          }
-        ]
-      },
-      {
-        "greek": "«ἡ σὴ πατρὶς Ἀθῆναί ἐστιν. μὴ ταχὺ κρῖνε. πρὸς Δελφοὺς πορεύου καὶ τὸν Ἀπόλλωνα περὶ τῆς ὁδοῦ ἐρώτα.» ὁ Ξενοφῶν ἀκούει.",
-        "gloss": [
-          {
-            "greek": "ἡ σὴ πατρὶς",
-            "english": "your homeland; feminine possessive adjective"
-          },
-          {
-            "greek": "μὴ ταχὺ κρῖνε",
-            "english": "do not decide quickly; supplied command"
-          },
-          {
-            "greek": "πρὸς Δελφοὺς",
-            "english": "to Delphi; place name"
-          },
-          {
-            "greek": "πορεύου",
-            "english": "go; supplied middle command"
-          },
-          {
-            "greek": "τὸν Ἀπόλλωνα",
-            "english": "Apollo; proper name"
-          },
-          {
-            "greek": "περὶ τῆς ὁδοῦ",
-            "english": "about the journey"
-          },
-          {
-            "greek": "ἐρώτα",
-            "english": "ask; command from ἐρωτάω"
-          }
-        ]
-      },
-      {
-        "greek": "ὁ Ξενοφῶν τὸ γράμμα αὖθις βλέπει. ὁ φίλος αὐτὸν καλεῖ· ἡ δὲ πόλις αὐτοῦ ἐνταῦθα ἐστίν. «τοῦτο τὸ γράμμα περὶ ἐμοῦ ἐστίν,» λέγει· «νῦν πρὸς Δελφοὺς πορεύομαι.»",
-        "gloss": [
-          {
-            "greek": "αὖθις",
-            "english": "again"
+            "greek": "μανθάνει ὅτι",
+            "english": "learns that"
           },
           {
             "greek": "αὐτὸν",
             "english": "him; object pronoun"
           },
           {
-            "greek": "ἡ δὲ πόλις αὐτοῦ",
-            "english": "but his city"
+            "greek": "πρὸς Κῦρον",
+            "english": "to Cyrus the Younger"
           },
           {
-            "greek": "ἐνταῦθα",
-            "english": "here"
+            "greek": "καλεῖ",
+            "english": "invites"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Προξένος γράφει· «ὦ Ξενοφῶν, ἐλθὲ πρὸς ἐμέ· σὺ μὲν ἐμοὶ ξένος εἶ, ἐγὼ δὲ σὲ τῷ Κύρῳ, ᾧ φίλος εἰμί, φίλον ποιήσω. ἐμοὶ γὰρ οὗτος τῆς πατρίδος τιμιώτερός ἐστιν.»",
+        "gloss": [
+          {
+            "greek": "ἐλθὲ",
+            "english": "come!; command"
           },
           {
-            "greek": "τοῦτο τὸ γράμμα",
-            "english": "this letter; neuter demonstrative"
+            "greek": "πρὸς ἐμέ",
+            "english": "to me"
           },
           {
-            "greek": "περὶ ἐμοῦ",
-            "english": "about me; emphatic genitive"
+            "greek": "ἐμοὶ",
+            "english": "to me"
+          },
+          {
+            "greek": "ξένος",
+            "english": "guest friend"
+          },
+          {
+            "greek": "σὲ",
+            "english": "you; object pronoun"
+          },
+          {
+            "greek": "τῷ Κύρῳ",
+            "english": "to Cyrus"
+          },
+          {
+            "greek": "ᾧ φίλος εἰμί",
+            "english": "whose friend I am; relative clause"
+          },
+          {
+            "greek": "ποιήσω",
+            "english": "I will make"
+          },
+          {
+            "greek": "οὗτος",
+            "english": "this man, Cyrus"
+          },
+          {
+            "greek": "τῆς πατρίδος",
+            "english": "than my homeland; comparative genitive"
+          },
+          {
+            "greek": "τιμιώτερός ἐστιν",
+            "english": "is more valuable"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν χαίρει μὲν ὅτι ὁ παλαιὸς φίλος αὐτὸν καλεῖ, θαυμάζει δὲ ὅτι ὁ Προξένος τὸν Κῦρον τῆς πατρίδος προτιμᾷ. «ὁ ἐμὸς φίλος με καλεῖ», φησίν, «ἀλλ᾽ ἡ ἐμὴ πόλις Ἀθῆναί ἐστιν· πῶς ἅμα τῷ φίλῳ καὶ τῇ πόλει πιστὸς ἔσομαι;»",
+        "gloss": [
+          {
+            "greek": "χαίρει μὲν ὅτι",
+            "english": "is pleased that; first half of a contrast"
+          },
+          {
+            "greek": "θαυμάζει δὲ ὅτι",
+            "english": "but is astonished that"
+          },
+          {
+            "greek": "προτιμᾷ",
+            "english": "puts before, prefers"
+          },
+          {
+            "greek": "τῆς πατρίδος",
+            "english": "to his homeland; comparative genitive"
+          },
+          {
+            "greek": "ὁ ἐμὸς φίλος",
+            "english": "my friend; possessive adjective"
+          },
+          {
+            "greek": "με",
+            "english": "me; object pronoun"
+          },
+          {
+            "greek": "φησίν",
+            "english": "he says"
+          },
+          {
+            "greek": "ἀλλ᾽",
+            "english": "but; elision of ἀλλά"
+          },
+          {
+            "greek": "ἡ ἐμὴ πόλις",
+            "english": "my city"
+          },
+          {
+            "greek": "πῶς ἅμα",
+            "english": "how at the same time"
+          },
+          {
+            "greek": "τῷ φίλῳ καὶ τῇ πόλει",
+            "english": "to my friend and city"
+          },
+          {
+            "greek": "πιστὸς ἔσομαι",
+            "english": "will I be loyal?; future form"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν οὔπω τῷ Προξένῳ ἀποκρίνεται, ἀλλὰ τὸ γράμμα πρὸς τὸν Σωκράτην φέρει. «ὁ παλαιὸς φίλος μου», λέγει, «με πρὸς Κῦρον καλεῖ· σὺ δὲ τί περὶ ταύτης τῆς ὁδοῦ νομίζεις;»",
+        "gloss": [
+          {
+            "greek": "οὔπω",
+            "english": "not yet"
+          },
+          {
+            "greek": "τῷ Προξένῳ",
+            "english": "to Proxenus"
+          },
+          {
+            "greek": "ἀποκρίνεται",
+            "english": "replies; middle form"
+          },
+          {
+            "greek": "πρὸς τὸν Σωκράτην",
+            "english": "to Socrates"
+          },
+          {
+            "greek": "φέρει",
+            "english": "takes, carries"
+          },
+          {
+            "greek": "ὁ παλαιὸς φίλος μου",
+            "english": "my old friend; postposed μου"
+          },
+          {
+            "greek": "περὶ ταύτης τῆς ὁδοῦ",
+            "english": "about this journey; feminine genitive"
+          },
+          {
+            "greek": "νομίζεις",
+            "english": "do you think?"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Σωκράτης, ἐπεὶ τὸ γράμμα ἀναγιγνώσκει, οὐ περὶ τοῦ Προξένου πρῶτον ἐρωτᾷ, ἀλλὰ περὶ τοῦ Κύρου· «οὐ νομίζουσιν οἱ Ἀθηναῖοι ὅτι ὁ Κῦρος τοῖς Λακεδαιμονίοις ἐν τῷ πολέμῳ ἐβοήθησεν;» «ναί», ἀποκρίνεται ὁ Ξενοφῶν, «καὶ τούτου οὐκ ἐπιλανθάνονται.»",
+        "gloss": [
+          {
+            "greek": "ἐπεὶ",
+            "english": "after, when"
+          },
+          {
+            "greek": "οὐ περὶ τοῦ Προξένου πρῶτον",
+            "english": "not first about Proxenus"
+          },
+          {
+            "greek": "ἐρωτᾷ",
+            "english": "asks"
+          },
+          {
+            "greek": "οὐ νομίζουσιν οἱ Ἀθηναῖοι ὅτι",
+            "english": "do the Athenians not believe that?"
+          },
+          {
+            "greek": "τοῖς Λακεδαιμονίοις",
+            "english": "the Spartans"
+          },
+          {
+            "greek": "ἐν τῷ πολέμῳ",
+            "english": "during the war"
+          },
+          {
+            "greek": "ἐβοήθησεν",
+            "english": "helped; past tense"
+          },
+          {
+            "greek": "ἀποκρίνεται",
+            "english": "replies"
+          },
+          {
+            "greek": "τούτου οὐκ ἐπιλανθάνονται",
+            "english": "they do not forget this; genitive with middle verb"
+          }
+        ]
+      },
+      {
+        "greek": "«φοβοῦμαι οὖν», φησὶν ὁ Σωκράτης, «μὴ οἱ συμπολῖταί σου σε αἰτιάσωνται, ἐὰν Κύρῳ φίλος γένῃ. ὁ μὲν Προξένος φίλος σός ἐστιν· τῆς δὲ σῆς πατρίδος μὴ ἐπιλανθάνου.»",
+        "gloss": [
+          {
+            "greek": "φοβοῦμαι",
+            "english": "I fear; middle form"
+          },
+          {
+            "greek": "οὖν",
+            "english": "then, therefore"
+          },
+          {
+            "greek": "φησὶν",
+            "english": "he says"
+          },
+          {
+            "greek": "μὴ οἱ συμπολῖταί σου σε αἰτιάσωνται",
+            "english": "that your fellow citizens may accuse you; fear clause"
+          },
+          {
+            "greek": "ἐὰν Κύρῳ φίλος γένῃ",
+            "english": "if you become Cyrus’s friend; conditional clause"
+          },
+          {
+            "greek": "φίλος σός ἐστιν",
+            "english": "is your friend; predicate possessive adjective"
+          },
+          {
+            "greek": "τῆς δὲ σῆς πατρίδος",
+            "english": "but your homeland; genitive possessive adjective"
+          },
+          {
+            "greek": "μὴ ἐπιλανθάνου",
+            "english": "do not forget; middle command"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν ἐρωτᾷ· «τί οὖν ποιῶ;» ὁ δὲ Σωκράτης ἀποκρίνεται· «οὐ μικρὸν τὸ βούλευμά σου ἐστίν. πρὶν οὖν τῷ Προξένῳ ἀποκρίνεσθαι, πρὸς Δελφοὺς πορεύου καὶ τὸν Ἀπόλλωνα περὶ ταύτης τῆς ὁδοῦ ἐρώτα.»",
+        "gloss": [
+          {
+            "greek": "τί οὖν ποιῶ",
+            "english": "what, then, should I do?"
+          },
+          {
+            "greek": "ἀποκρίνεται",
+            "english": "replies"
+          },
+          {
+            "greek": "οὐ μικρὸν τὸ βούλευμά σου",
+            "english": "your decision is no small matter"
+          },
+          {
+            "greek": "πρὶν οὖν τῷ Προξένῳ ἀποκρίνεσθαι",
+            "english": "before answering Proxenus; infinitive construction"
           },
           {
             "greek": "πρὸς Δελφοὺς",
             "english": "to Delphi"
           },
           {
-            "greek": "πορεύομαι",
-            "english": "I go; supplied middle form"
+            "greek": "πορεύου",
+            "english": "go; middle command"
+          },
+          {
+            "greek": "τὸν Ἀπόλλωνα",
+            "english": "Apollo"
+          },
+          {
+            "greek": "περὶ ταύτης τῆς ὁδοῦ",
+            "english": "about this journey"
+          },
+          {
+            "greek": "ἐρώτα",
+            "english": "ask, consult; command"
+          }
+        ]
+      },
+      {
+        "greek": "ὁ Ξενοφῶν τὸ γράμμα αὖθις ἀναγιγνώσκει καὶ τὰ τοῦ Σωκράτους ἐν νῷ ἔχει. «τὸ μὲν γράμμα παρὰ τοῦ φίλου μου ἐστίν», φησίν, «τὸ δὲ βούλευμα ἐμόν· πρῶτον τὸν θεὸν ἐρωτήσω.»",
+        "gloss": [
+          {
+            "greek": "αὖθις",
+            "english": "again"
+          },
+          {
+            "greek": "ἀναγιγνώσκει",
+            "english": "reads"
+          },
+          {
+            "greek": "τὰ τοῦ Σωκράτους ἐν νῷ ἔχει",
+            "english": "keeps Socrates’s words in mind"
+          },
+          {
+            "greek": "παρὰ τοῦ φίλου μου",
+            "english": "from my friend"
+          },
+          {
+            "greek": "τὸ δὲ βούλευμα ἐμόν",
+            "english": "but the decision is mine; predicate possessive"
+          },
+          {
+            "greek": "πρῶτον",
+            "english": "first"
+          },
+          {
+            "greek": "τὸν θεὸν",
+            "english": "the god, Apollo"
+          },
+          {
+            "greek": "ἐρωτήσω",
+            "english": "I shall ask; future form"
           }
         ]
       }
     ],
-    "translation": "Xenophon is in Athens. A letter arrives from Proxenus, an old friend. Xenophon takes the letter and reads it.\n\nProxenus writes: “Xenophon, come to me. Cyrus is my friend. I will make you a friend of Cyrus. You are my friend.”\n\nXenophon sets down the letter. “My friend calls me,” he says, “but the journey is long, and my city is Athens.”\n\nThis journey seems appealing, but it also carries danger. Cyrus helped the Spartans during the war. The Athenians do not forget this.\n\nXenophon goes to Socrates and shows him the letter. “My old friend calls me,” he says. “What do you say about this journey?”\n\nSocrates listens and says: “Your friend is good. But Cyrus helped the Spartans. The Athenians may accuse you.”\n\n“Your homeland is Athens. Do not decide quickly. Go to Delphi and consult Apollo about the journey.” Xenophon listens.\n\nXenophon looks again at the letter. His friend calls him, but his city is here. “This letter concerns me,” he says. “Now I am going to Delphi.”",
-    "sourceCitation": "Xenophon, Anabasis 3.1.4–5. Letter wording and extended dialogue are adapted. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3",
-    "notesMarkdown": "Proxenus’s invitation, the promise of an introduction to Cyrus, Socrates’ Athenian concern, and the Delphic advice are reported in Anabasis 3.1.4–5. The letter’s text, courtyard, physical handoff, and personal thoughts are course reconstruction."
+    "translation": "While Xenophon is staying in Athens, a letter comes to him from Proxenus of Thebes, a longstanding guest friend. As he reads it, he learns that his guest friend is inviting him to join Cyrus.\n\nProxenus writes: “Xenophon, come to me. You are my guest friend, and I will make you a friend of Cyrus, whose friend I am. To me, Cyrus is more valuable than my homeland.”\n\nXenophon is pleased that his old friend is inviting him, but astonished that Proxenus puts Cyrus before his homeland. “My friend is calling me,” he says, “but my city is Athens. How can I be loyal to both my friend and my city?”\n\nXenophon does not yet reply to Proxenus. Instead, he takes the letter to Socrates. “My old friend is inviting me to Cyrus,” he says. “What do you think of this journey?”\n\nAfter reading the letter, Socrates asks first about Cyrus, rather than Proxenus: “Don’t the Athenians believe that Cyrus helped the Spartans during the war?” “Yes,” Xenophon replies, “and they have not forgotten it.”\n\n“I fear, then,” Socrates says, “that your fellow citizens may accuse you if you become Cyrus’s friend. Proxenus is your friend, but do not forget your homeland.”\n\n“What, then, should I do?” Xenophon asks. Socrates replies, “Your decision is no small matter. Before answering Proxenus, go to Delphi and consult Apollo about this journey.”\n\nXenophon reads the letter again and keeps Socrates’s words in mind. “The letter is from my friend,” he says, “but the decision is mine. First I shall consult the god.”",
+    "sourceCitation": "Xenophon, Anabasis 3.1.4–5 (invitation and counsel); 2.1.10 (Proxenus of Thebes). Letter wording and extended dialogue are adapted. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3",
+    "notesMarkdown": "Proxenus is identified as a Theban at Anabasis 2.1.10 and as Xenophon’s longstanding guest friend at 3.1.4. His invitation, promised introduction to Cyrus, Socrates’ Athenian concern, and the Delphic advice are reported at 3.1.4–5. The letter’s wording, physical handoff, and personal thoughts are course reconstruction."
   },
   "wordStudy": {
-    "label": "Word Study — A Friend, a Letter, a Choice",
+    "label": "Word Study — Friend, Guest Friend, City",
     "blocks": [
       {
-        "title": "What belongs to whom?",
+        "title": "Who belongs to whom?",
         "practiceTopic": "word-study",
         "body": [
-          "ὁ φίλος μου means “my friend”; ὁ φίλος σου means “your friend.” The small words μου and σου follow the noun. In the letter, Proxenus emphasizes ἐγώ (“I”) and σε (“you”), making his offer personal.",
-          "τὸ γράμμα is a letter; ἡ ὁδός can be a road or a journey. The invitation moves from a friend’s letter to a long road, but Athens remains Xenophon’s city and homeland.",
-          "Cyrus here is Cyrus the Younger, a Persian prince. He is not Cyrus the Great, the earlier founder of the empire. His name and the names of Proxenus and Delphi remain supported reading vocabulary."
+          "ὁ φίλος is a friend; ὁ ξένος is a guest friend, a relationship that can reach across city borders. Proxenus is from Thebes and Xenophon is from Athens. They call one another ξένος in the reconstructed letter. The historical source calls Proxenus Xenophon’s longstanding guest friend.",
+          "ὁ φίλος μου means “my friend,” with a short possessor after the noun. Compare ὁ ἐμὸς φίλος, with an adjective before the noun, and φίλος σός ἐστιν, with a possessive adjective making a statement.",
+          "τὸ γράμμα is a letter; ἡ ὁδός can be a road or journey; τὸ βούλευμα is a decision. Cyrus here is Cyrus the Younger. The source does not say that Xenophon joined the army as a paid soldier at this point."
         ],
         "display": [
+          {
+            "greek": "ὁ ξένος",
+            "english": "guest friend"
+          },
           {
             "greek": "ὁ φίλος μου",
             "english": "my friend"
           },
           {
-            "greek": "ἡ σὴ ὁδός",
-            "english": "your journey"
+            "greek": "ὁ ἐμὸς φίλος",
+            "english": "my friend"
           },
           {
-            "greek": "τοῦτο τὸ γράμμα",
-            "english": "this letter"
-          },
-          {
-            "greek": "ἡ ἐμὴ πόλις",
-            "english": "my city"
+            "greek": "τὸ βούλευμα ἐμόν",
+            "english": "the decision is mine"
           }
         ]
       }
     ]
   },
   "grammar": {
-    "intro": "Lesson 9 practiced compact dialogue. Lesson 10 uses the same speakers’ voices to ask who calls whom, whose city matters, and how Greek places describing words around a noun.",
+    "intro": "The fuller reading asks who calls whom, whose city matters, and how an adjective’s position changes the claim. Read the longer clauses for meaning with the blue glosses; practice the target forms below.",
     "objectives": [
       "Distinguish subject, object, and possessive forms of ἐγώ and σύ.",
       "Read μου and σου after a noun as possession.",
@@ -46244,7 +46332,7 @@ Xenophon is young, but he wants to become wise.`;
         "body": [
           "ἐγώ means “I,” and σύ means “you” when one person is addressed. The verb ending can already show the person, so Greek often uses these pronouns for emphasis or contrast: ἐγώ σε φίλον ποιήσω, “I will make you a friend.”",
           "The object forms are με (“me”) and σε (“you”). The short possessive forms μου (“my, of me”) and σου (“your, of you”) appear with nouns. These are forms of personal pronouns, not adjectives.",
-          "In the reading, Proxenus says ἐγώ σε ... ποιήσω, while Xenophon says ὁ φίλος μου με καλεῖ. Follow the speaker and the case of each pronoun."
+          "In the reading, Proxenus says ἐγὼ δὲ σὲ ... φίλον ποιήσω, while Xenophon says ὁ ἐμὸς φίλος με καλεῖ. Follow the speaker and the case of each pronoun."
         ],
         "table": {
           "title": "Core first- and second-person forms",
@@ -46295,7 +46383,7 @@ Xenophon is young, but he wants to become wise.`;
         "body": [
           "The small genitive pronoun usually follows the noun it owns: ὁ φίλος μου, “my friend”; ἡ πόλις σου, “your city”; τὸ γράμμα σου, “your letter.” The noun keeps its own case according to its job in the sentence.",
           "The owner does not change the gender of the noun. Compare ὁ φίλος μου, ἡ ὁδός μου, and τὸ γράμμα μου: masculine, feminine, and neuter things can all belong to “me.”",
-          "When reading, keep the possessor attached to the noun. In ὁ φίλος σου ἀγαθός ἐστιν, it is your friend who is good; σου is not the subject."
+          "When reading, keep the possessor attached to the noun. In ὁ παλαιὸς φίλος μου, μου belongs to φίλος; in τὸ βούλευμά σου, σου belongs to βούλευμα."
         ],
         "table": {
           "title": "A noun plus its possessor",
@@ -46349,8 +46437,8 @@ Xenophon is young, but he wants to become wise.`;
         "practiceTopic": "possessive-adjectives",
         "body": [
           "Greek can also say “my” with ἐμός, ἐμή, ἐμόν and “your” with σός, σή, σόν. Unlike μου and σου, these are adjectives: their endings agree with the thing owned in gender, number, and case.",
-          "The reading has ἡ ἐμὴ πόλις, “my city,” and ἡ σὴ πατρίς, “your homeland.” The feminine forms ἐμή and σή agree with feminine πόλις and πατρίς. The owner may be a man, but the ending follows the noun.",
-          "The article normally stands before an attributive possessive adjective: ὁ ἐμὸς φίλος, ἡ σὴ ὁδός, τὸ ἐμὸν γράμμα. Compare the simpler postposed genitive ὁ φίλος μου."
+          "The reading has ἡ ἐμὴ πόλις, “my city,” and τῆς σῆς πατρίδος, “your homeland.” The feminine adjectives agree with πόλις and πατρίς. The genitive σῆς agrees with the genitive πατρίδος. The owner may be a man, but the ending follows the noun.",
+          "The article normally stands before an attributive possessive adjective: ὁ ἐμὸς φίλος, ἡ σὴ ὁδός, τὸ ἐμὸν γράμμα. Compare ὁ φίλος μου. In φίλος σός ἐστιν and τὸ βούλευμα ἐμόν, the possessive adjective is a predicate: “is your friend,” “is mine.”"
         ],
         "table": {
           "title": "Singular nominative possessive adjectives",
@@ -46399,9 +46487,9 @@ Xenophon is young, but he wants to become wise.`;
         "title": "4. This Friend, This Road, This Letter",
         "practiceTopic": "demonstratives",
         "body": [
-          "οὗτος, αὕτη, τοῦτο mean “this” for masculine, feminine, and neuter nouns. The reading uses αὕτη ἡ ὁδός, “this journey,” and τοῦτο τὸ γράμμα, “this letter.”",
+          "οὗτος, αὕτη, τοῦτο mean “this” for masculine, feminine, and neuter nouns. In the reading, οὗτος points to Cyrus; ταύτης τῆς ὁδοῦ means “of this journey.” The second is the feminine genitive form of αὕτη ἡ ὁδός.",
           "A demonstrative stands outside the article-plus-noun group: οὗτος ὁ φίλος, αὕτη ἡ ὁδός, τοῦτο τὸ γράμμα. The sequence ὁ οὗτος φίλος is not the ordinary way to say “this friend.”",
-          "The same forms can stand alone as pronouns. The reading has τοῦτο τὸ γράμμα, and a supplied genitive form, τούτου, means “of this fact” with the verb ἐπιλανθάνονται. The latter phrase refers to Cyrus’s aid to Sparta."
+          "The same forms can stand alone as pronouns. The reading has οὗτος, “this man,” pointing to Cyrus, and τούτου, “of this fact,” with ἐπιλανθάνονται. The latter refers to Cyrus’s aid to Sparta. Nominative examples in the table help you recognize the pattern; the reading itself uses genitive ταύτης."
         ],
         "table": {
           "title": "Point to the person, road, or letter",
@@ -46456,7 +46544,7 @@ Xenophon is young, but he wants to become wise.`;
         "body": [
           "An adjective inside the article-and-noun group describes which person or thing: ὁ παλαιὸς φίλος, “the old friend”; ὁ ἀγαθὸς φίλος, “the good friend.” A second attributive pattern is ὁ φίλος ὁ παλαιός.",
           "An adjective outside that group can make a statement about the noun: ὁ φίλος ἀγαθός ἐστιν, “the friend is good.” The difference in position helps you distinguish description from a claim.",
-          "In the reading, ὁ παλαιὸς φίλος μου identifies Proxenus, while ὁ φίλος σου ἀγαθός ἐστιν is Socrates’ judgment. Possessive adjectives such as ἐμός and σός follow the attributive pattern."
+          "In the reading, ὁ παλαιὸς φίλος μου identifies Proxenus, while φίλος σός ἐστιν says that Proxenus is “your friend.” Possessive adjectives can also be predicates: τὸ βούλευμα ἐμόν means “the decision is mine.”"
         ],
         "table": {
           "title": "Where the adjective stands",
@@ -46517,7 +46605,7 @@ Xenophon is young, but he wants to become wise.`;
     }
   },
   "culture": {
-    "title": "Cyrus, Persia, and Athens",
+    "title": "Guest Friendship and Mercenaries",
     "banner": {
       "image": "assets/lesson-10-persian-guard.jpg",
       "alt": "Achaemenid limestone relief of the head of a Persian guard from Persepolis, with headdress, curled beard, bow, and quiver",
@@ -46526,47 +46614,79 @@ Xenophon is young, but he wants to become wise.`;
       "sourceUrl": "https://www.metmuseum.org/art/collection/search/324433",
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
     },
-    "body": [
-      "Cyrus in this lesson is Cyrus the Younger, a Persian prince who later led the expedition Xenophon joined. He should not be confused with Cyrus the Great, who founded the Achaemenid Empire generations earlier. The empire stretched across western Asia and beyond, so service with Cyrus meant entering a political world much larger than one Greek city.",
-      "For Xenophon, the invitation raised an Athenian problem. Xenophon says Socrates worried that friendship with Cyrus could provoke an accusation at Athens, because Cyrus was believed to have aided the Spartans during their war with Athens. That is the risk behind Socrates’ advice to consult Apollo; the reading’s private conversation gives a beginner-accessible shape to the concern.",
-      "The stone relief above comes from Persepolis and shows an Achaemenid Persian guard. It belongs to the Persian world but predates Xenophon’s decision and does not show Cyrus, Proxenus, or a Greek mercenary. Its bow, quiver, and carefully carved dress help students see a Persian imperial visual tradition without treating the image as an illustration of the reported meeting.",
-      "Greek writers are important witnesses to this period, but they wrote from particular viewpoints. Xenophon reports his own earlier choice retrospectively, after the expedition’s dangers were known. In this lesson, the source-backed facts and the reconstructed words are identified before the reading so students can keep both in view."
+    "body": [],
+    "sections": [
+      {
+        "title": "Guest Friendship Across City Borders",
+        "body": [
+          "Proxenus was a Theban, while Xenophon was an Athenian. Xenophon calls him a longstanding ξένος (xenos), or guest friend. Guest friendship (xenia) joined people and households across cities through hospitality, trust, gifts, and help that could be returned over time. It offered a personal route to introductions far from home; Proxenus’s offer to bring Xenophon to Cyrus makes that relationship consequential.",
+          "The name Proxenus resembles proxenos, a civic title for a person who helped visitors from another city. A name alone does not establish that this Proxenus held that office. Here the relevant bond is Xenophon’s stated guest friendship with him. The letter’s exact words and the exchange in the reading are adapted; the invitation and relationship are attested in Anabasis 3.1.4–5."
+        ]
+      },
+      {
+        "title": "Mercenaries after the Peloponnesian War",
+        "body": [
+          "The Peloponnesian War ended with Athens’s surrender in 404 BCE. Athens gave up most of its fleet; years of war had damaged farms and livelihoods and left many Greeks experienced in military service. Paid service abroad was older than this defeat, but opportunities for professional soldiers became more prominent in the fourth century. Persian rulers and their rivals could recruit Greek troops, especially heavy infantry, with pay and personal connections.",
+          "Cyrus the Younger used both resources as he assembled the expedition later known through Xenophon’s account of the Ten Thousand. Proxenus, a commander in Cyrus’s force and Xenophon’s guest friend, invited Xenophon to meet the prince. Xenophon explicitly says that when he first went, he was neither a general, a captain, nor an ordinary soldier. His situation should not be made identical to that of every paid fighter. The invitation still placed him in a world where military service abroad could pull against loyalties to a Greek city.",
+          "That tension explains Socrates’s warning: Cyrus had aided Sparta against Athens, and Athenians might view Xenophon’s friendship with him with suspicion. The Persian guard relief above is from Persepolis and predates these events. It shows neither Cyrus nor the Greek soldiers; it evokes the larger imperial setting into which the invitation led."
+        ]
+      }
     ],
     "questions": [
       {
-        "prompt": "Which Cyrus appears in the reading?",
-        "answer": "Cyrus the Younger, a Persian prince, not Cyrus the Great."
+        "prompt": "What was a guest friendship?",
+        "answer": "A lasting personal bond across communities, sustained by reciprocal hospitality and help. Xenophon calls the Theban Proxenus his longstanding guest friend."
       },
       {
-        "prompt": "Why did Socrates worry about the invitation?",
-        "answer": "Athenians might accuse Xenophon for becoming a friend of Cyrus, who had aided Sparta in the war against Athens."
+        "prompt": "Why did paid Greek military service abroad become more prominent after the war?",
+        "answer": "Long war had damaged livelihoods and created experienced fighters, while rulers such as Cyrus could pay for Greek troops. Paid service already existed before 404 BCE."
       },
       {
-        "prompt": "What does the culture image actually show?",
-        "answer": "An earlier Achaemenid Persian guard relief from Persepolis, not Cyrus the Younger or Xenophon."
+        "prompt": "Was Xenophon already serving as an ordinary paid soldier when he accepted the invitation?",
+        "answer": "No. In Anabasis 3.1.4 he says that he first went neither as general, captain, nor ordinary soldier."
       },
       {
-        "prompt": "What did Socrates advise Xenophon to do?",
-        "answer": "Consult Apollo at Delphi about the proposed journey."
+        "prompt": "Why did Socrates worry about Xenophon joining Cyrus?",
+        "answer": "Cyrus had aided Sparta against Athens; Athenians might accuse Xenophon for becoming his friend."
+      },
+      {
+        "prompt": "What does the image show?",
+        "answer": "An earlier Achaemenid Persian guard relief from Persepolis, not a portrait of Cyrus or an image of the Ten Thousand."
       }
     ],
     "review": {
       "title": "Before the Final Quiz",
       "items": [
-        "Distinguish ἐγώ, με, and μου; then σύ, σε, and σου.",
-        "Explain two ways to say “my friend”: ὁ φίλος μου and ὁ ἐμὸς φίλος.",
-        "Read αὕτη ἡ ὁδός and τοῦτο τὸ γράμμα.",
-        "Explain why friendship with Cyrus might trouble Athenians, and what the relief can actually show."
+        "Distinguish ὁ φίλος (friend) from ὁ ξένος (guest friend).",
+        "Read ὁ ἐμὸς φίλος, ὁ φίλος μου, and φίλος σός ἐστιν.",
+        "Read ταύτης τῆς ὁδοῦ and τῆς σῆς πατρίδος as feminine genitives.",
+        "Explain how Proxenus’s invitation connected guest friendship, military opportunity, and Athenian political risk."
       ]
     },
     "sources": [
       {
-        "title": "Xenophon, Anabasis 3.1.4–5 (Proxenus, Cyrus, Socrates)",
+        "title": "Xenophon, Anabasis 2.1.10 (Proxenus the Theban)",
+        "url": "https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?page=2&text_id=112"
+      },
+      {
+        "title": "Xenophon, Anabasis 3.1.4–5 (guest friendship, invitation, Socrates)",
         "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3"
       },
       {
-        "title": "The Metropolitan Museum of Art, The Achaemenid Persian Empire",
-        "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c"
+        "title": "Xenophon, Hellenica 2.2.20 (Athenian surrender)",
+        "url": "https://www.livius.org/sources/content/xenophon-hellenica/xenophon-on-the-surrender-of-athens/"
+      },
+      {
+        "title": "Oxford Handbook of Ancient Greek History, guest friendship",
+        "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/548932058"
+      },
+      {
+        "title": "Oxford Handbook of Ancient Greek History, mercenaries",
+        "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/549654703"
+      },
+      {
+        "title": "Cambridge University Press, Contextualizing Paid Military Service",
+        "url": "https://www.cambridge.org/core/books/soldiers-wages-and-the-hellenistic-economies/contextualizing-paid-military-service/AA1069CC9A40B382ABA6078274303C3E"
       },
       {
         "title": "The Metropolitan Museum of Art, Head of a Persian guard",
@@ -46582,6 +46702,10 @@ Xenophon is young, but he wants to become wise.`;
         {
           "prompt": "ὁ φίλος",
           "answer": "friend"
+        },
+        {
+          "prompt": "ὁ ξένος",
+          "answer": "guest friend"
         },
         {
           "prompt": "ἡ πόλις",
@@ -46600,8 +46724,12 @@ Xenophon is young, but he wants to become wise.`;
           "answer": "Proxenus"
         },
         {
-          "prompt": "ὁ κίνδυνος",
-          "answer": "risk, danger"
+          "prompt": "ὁ Θηβαῖος",
+          "answer": "Theban"
+        },
+        {
+          "prompt": "τὸ βούλευμα",
+          "answer": "decision"
         },
         {
           "prompt": "ὁ πόλεμος",
@@ -46624,20 +46752,20 @@ Xenophon is young, but he wants to become wise.`;
           "answer": "call, invite"
         },
         {
-          "prompt": "βαδίζω",
-          "answer": "walk, go"
-        },
-        {
-          "prompt": "ἀκούω",
-          "answer": "hear, listen"
-        },
-        {
           "prompt": "ἐρωτάω",
           "answer": "ask, consult"
         },
         {
           "prompt": "πορεύομαι",
           "answer": "go, travel"
+        },
+        {
+          "prompt": "ἀναγιγνώσκω",
+          "answer": "read"
+        },
+        {
+          "prompt": "ἀποκρίνομαι",
+          "answer": "reply"
         },
         {
           "prompt": "ἐγώ / με / μου",
@@ -46664,8 +46792,8 @@ Xenophon is young, but he wants to become wise.`;
           "answer": "old, longstanding"
         },
         {
-          "prompt": "μακρός, μακρά, μακρόν",
-          "answer": "long"
+          "prompt": "πιστός, πιστή, πιστόν",
+          "answer": "loyal"
         }
       ]
     },
@@ -46684,7 +46812,7 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "What does ὁ φίλος mean?",
           "choices": [
             {
-              "text": "hear, listen",
+              "text": "I / me / my",
               "correct": false,
               "feedback": "Review: ὁ φίλος means friend."
             },
@@ -46694,7 +46822,7 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: ὁ φίλος means friend."
             },
             {
-              "text": "homeland",
+              "text": "city, city-state",
               "correct": false,
               "feedback": "Review: ὁ φίλος means friend."
             },
@@ -46713,7 +46841,7 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "Which Greek entry means “friend”?",
           "choices": [
             {
-              "text": "ἐρωτάω",
+              "text": "σύ / σε / σου",
               "correct": false,
               "feedback": "Review: ὁ φίλος means friend."
             },
@@ -46723,7 +46851,7 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: ὁ φίλος means friend."
             },
             {
-              "text": "ὁ κίνδυνος",
+              "text": "ἡ πατρίς",
               "correct": false,
               "feedback": "Review: ὁ φίλος means friend."
             },
@@ -46739,27 +46867,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "What does ἡ πόλις mean?",
+          "prompt": "What does ὁ ξένος mean?",
           "choices": [
             {
               "text": "write",
               "correct": false,
-              "feedback": "Review: ἡ πόλις means city, city-state."
+              "feedback": "Review: ὁ ξένος means guest friend."
             },
             {
-              "text": "ask, consult",
+              "text": "you / you / your",
               "correct": false,
-              "feedback": "Review: ἡ πόλις means city, city-state."
+              "feedback": "Review: ὁ ξένος means guest friend."
             },
             {
-              "text": "city, city-state",
+              "text": "guest friend",
               "correct": true,
-              "feedback": "Correct: ἡ πόλις means city, city-state."
+              "feedback": "Correct: ὁ ξένος means guest friend."
             },
             {
-              "text": "risk, danger",
+              "text": "homeland",
               "correct": false,
-              "feedback": "Review: ἡ πόλις means city, city-state."
+              "feedback": "Review: ὁ ξένος means guest friend."
             }
           ]
         },
@@ -46768,27 +46896,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "Which Greek entry means “city, city-state”?",
+          "prompt": "Which Greek entry means “guest friend”?",
           "choices": [
             {
               "text": "καλέω",
               "correct": false,
-              "feedback": "Review: ἡ πόλις means city, city-state."
+              "feedback": "Review: ὁ ξένος means guest friend."
             },
             {
-              "text": "ἐγώ / με / μου",
+              "text": "ἐμός, ἐμή, ἐμόν",
               "correct": false,
-              "feedback": "Review: ἡ πόλις means city, city-state."
+              "feedback": "Review: ὁ ξένος means guest friend."
             },
             {
-              "text": "ἡ πόλις",
+              "text": "ὁ ξένος",
               "correct": true,
-              "feedback": "Correct: ἡ πόλις means city, city-state."
+              "feedback": "Correct: ὁ ξένος means guest friend."
             },
             {
               "text": "ὁ πόλεμος",
               "correct": false,
-              "feedback": "Review: ἡ πόλις means city, city-state."
+              "feedback": "Review: ὁ ξένος means guest friend."
             }
           ]
         },
@@ -46797,27 +46925,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "What does ἡ πατρίς mean?",
+          "prompt": "What does ἡ πόλις mean?",
           "choices": [
             {
               "text": "war",
               "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
+              "feedback": "Review: ἡ πόλις means city, city-state."
             },
             {
               "text": "call, invite",
               "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
+              "feedback": "Review: ἡ πόλις means city, city-state."
             },
             {
-              "text": "I / me / my",
+              "text": "my",
               "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
+              "feedback": "Review: ἡ πόλις means city, city-state."
             },
             {
-              "text": "homeland",
+              "text": "city, city-state",
               "correct": true,
-              "feedback": "Correct: ἡ πατρίς means homeland."
+              "feedback": "Correct: ἡ πόλις means city, city-state."
             }
           ]
         },
@@ -46826,27 +46954,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "Which Greek entry means “homeland”?",
+          "prompt": "Which Greek entry means “city, city-state”?",
           "choices": [
             {
               "text": "τὸ γράμμα",
               "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
+              "feedback": "Review: ἡ πόλις means city, city-state."
             },
             {
-              "text": "βαδίζω",
+              "text": "ἐρωτάω",
               "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
+              "feedback": "Review: ἡ πόλις means city, city-state."
             },
             {
-              "text": "σύ / σε / σου",
+              "text": "σός, σή, σόν",
               "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
+              "feedback": "Review: ἡ πόλις means city, city-state."
             },
             {
-              "text": "ἡ πατρίς",
+              "text": "ἡ πόλις",
               "correct": true,
-              "feedback": "Correct: ἡ πατρίς means homeland."
+              "feedback": "Correct: ἡ πόλις means city, city-state."
             }
           ]
         },
@@ -46855,27 +46983,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "What does ὁ κίνδυνος mean?",
+          "prompt": "What does ἡ πατρίς mean?",
           "choices": [
             {
-              "text": "risk, danger",
+              "text": "homeland",
               "correct": true,
-              "feedback": "Correct: ὁ κίνδυνος means risk, danger."
+              "feedback": "Correct: ἡ πατρίς means homeland."
             },
             {
               "text": "letter",
               "correct": false,
-              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+              "feedback": "Review: ἡ πατρίς means homeland."
             },
             {
-              "text": "walk, go",
+              "text": "ask, consult",
               "correct": false,
-              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+              "feedback": "Review: ἡ πατρίς means homeland."
             },
             {
-              "text": "you / you / your",
+              "text": "your",
               "correct": false,
-              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+              "feedback": "Review: ἡ πατρίς means homeland."
             }
           ]
         },
@@ -46884,27 +47012,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "Which Greek entry means “risk, danger”?",
+          "prompt": "Which Greek entry means “homeland”?",
           "choices": [
             {
-              "text": "ὁ κίνδυνος",
+              "text": "ἡ πατρίς",
               "correct": true,
-              "feedback": "Correct: ὁ κίνδυνος means risk, danger."
+              "feedback": "Correct: ἡ πατρίς means homeland."
             },
             {
               "text": "ἡ ὁδός",
               "correct": false,
-              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+              "feedback": "Review: ἡ πατρίς means homeland."
             },
             {
-              "text": "ἀκούω",
+              "text": "ἐγώ / με / μου",
               "correct": false,
-              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+              "feedback": "Review: ἡ πατρίς means homeland."
             },
             {
-              "text": "ἐμός, ἐμή, ἐμόν",
+              "text": "οὗτος, αὕτη, τοῦτο",
               "correct": false,
-              "feedback": "Review: ὁ κίνδυνος means risk, danger."
+              "feedback": "Review: ἡ πατρίς means homeland."
             }
           ]
         },
@@ -46916,7 +47044,7 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "What does ὁ πόλεμος mean?",
           "choices": [
             {
-              "text": "my",
+              "text": "this",
               "correct": false,
               "feedback": "Review: ὁ πόλεμος means war."
             },
@@ -46931,7 +47059,7 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Review: ὁ πόλεμος means war."
             },
             {
-              "text": "hear, listen",
+              "text": "I / me / my",
               "correct": false,
               "feedback": "Review: ὁ πόλεμος means war."
             }
@@ -46945,7 +47073,7 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "Which Greek entry means “war”?",
           "choices": [
             {
-              "text": "σός, σή, σόν",
+              "text": "παλαιός, παλαιά, παλαιόν",
               "correct": false,
               "feedback": "Review: ὁ πόλεμος means war."
             },
@@ -46960,7 +47088,7 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Review: ὁ πόλεμος means war."
             },
             {
-              "text": "ἐρωτάω",
+              "text": "σύ / σε / σου",
               "correct": false,
               "feedback": "Review: ὁ πόλεμος means war."
             }
@@ -46974,12 +47102,12 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "What does τὸ γράμμα mean?",
           "choices": [
             {
-              "text": "ask, consult",
+              "text": "you / you / your",
               "correct": false,
               "feedback": "Review: τὸ γράμμα means letter."
             },
             {
-              "text": "your",
+              "text": "old, longstanding",
               "correct": false,
               "feedback": "Review: τὸ γράμμα means letter."
             },
@@ -47003,12 +47131,12 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "Which Greek entry means “letter”?",
           "choices": [
             {
-              "text": "ἐγώ / με / μου",
+              "text": "ἐμός, ἐμή, ἐμόν",
               "correct": false,
               "feedback": "Review: τὸ γράμμα means letter."
             },
             {
-              "text": "οὗτος, αὕτη, τοῦτο",
+              "text": "ὁ φίλος",
               "correct": false,
               "feedback": "Review: τὸ γράμμα means letter."
             },
@@ -47037,12 +47165,12 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Review: ἡ ὁδός means road, journey."
             },
             {
-              "text": "I / me / my",
+              "text": "my",
               "correct": false,
               "feedback": "Review: ἡ ὁδός means road, journey."
             },
             {
-              "text": "this",
+              "text": "friend",
               "correct": false,
               "feedback": "Review: ἡ ὁδός means road, journey."
             },
@@ -47061,17 +47189,17 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "Which Greek entry means “road, journey”?",
           "choices": [
             {
-              "text": "βαδίζω",
+              "text": "ἐρωτάω",
               "correct": false,
               "feedback": "Review: ἡ ὁδός means road, journey."
             },
             {
-              "text": "σύ / σε / σου",
+              "text": "σός, σή, σόν",
               "correct": false,
               "feedback": "Review: ἡ ὁδός means road, journey."
             },
             {
-              "text": "παλαιός, παλαιά, παλαιόν",
+              "text": "ὁ ξένος",
               "correct": false,
               "feedback": "Review: ἡ ὁδός means road, journey."
             },
@@ -47095,17 +47223,17 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: γράφω means write."
             },
             {
-              "text": "walk, go",
+              "text": "ask, consult",
               "correct": false,
               "feedback": "Review: γράφω means write."
             },
             {
-              "text": "you / you / your",
+              "text": "your",
               "correct": false,
               "feedback": "Review: γράφω means write."
             },
             {
-              "text": "old, longstanding",
+              "text": "guest friend",
               "correct": false,
               "feedback": "Review: γράφω means write."
             }
@@ -47124,17 +47252,17 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: γράφω means write."
             },
             {
-              "text": "ἀκούω",
+              "text": "ἐγώ / με / μου",
               "correct": false,
               "feedback": "Review: γράφω means write."
             },
             {
-              "text": "ἐμός, ἐμή, ἐμόν",
+              "text": "οὗτος, αὕτη, τοῦτο",
               "correct": false,
               "feedback": "Review: γράφω means write."
             },
             {
-              "text": "μακρός, μακρά, μακρόν",
+              "text": "ἡ πόλις",
               "correct": false,
               "feedback": "Review: γράφω means write."
             }
@@ -47148,7 +47276,7 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "What does καλέω mean?",
           "choices": [
             {
-              "text": "long",
+              "text": "city, city-state",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             },
@@ -47158,12 +47286,12 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: καλέω means call, invite."
             },
             {
-              "text": "hear, listen",
+              "text": "I / me / my",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             },
             {
-              "text": "my",
+              "text": "this",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             }
@@ -47177,7 +47305,7 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "Which Greek entry means “call, invite”?",
           "choices": [
             {
-              "text": "ὁ φίλος",
+              "text": "ἡ πατρίς",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             },
@@ -47187,12 +47315,12 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: καλέω means call, invite."
             },
             {
-              "text": "ἐρωτάω",
+              "text": "σύ / σε / σου",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             },
             {
-              "text": "σός, σή, σόν",
+              "text": "παλαιός, παλαιά, παλαιόν",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             }
@@ -47203,134 +47331,8 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "What does βαδίζω mean?",
-          "choices": [
-            {
-              "text": "your",
-              "correct": false,
-              "feedback": "Review: βαδίζω means walk, go."
-            },
-            {
-              "text": "friend",
-              "correct": false,
-              "feedback": "Review: βαδίζω means walk, go."
-            },
-            {
-              "text": "walk, go",
-              "correct": true,
-              "feedback": "Correct: βαδίζω means walk, go."
-            },
-            {
-              "text": "ask, consult",
-              "correct": false,
-              "feedback": "Review: βαδίζω means walk, go."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-10-form",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "Which Greek entry means “walk, go”?",
-          "choices": [
-            {
-              "text": "οὗτος, αὕτη, τοῦτο",
-              "correct": false,
-              "feedback": "Review: βαδίζω means walk, go."
-            },
-            {
-              "text": "ἡ πόλις",
-              "correct": false,
-              "feedback": "Review: βαδίζω means walk, go."
-            },
-            {
-              "text": "βαδίζω",
-              "correct": true,
-              "feedback": "Correct: βαδίζω means walk, go."
-            },
-            {
-              "text": "ἐγώ / με / μου",
-              "correct": false,
-              "feedback": "Review: βαδίζω means walk, go."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-11-meaning",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "What does ἀκούω mean?",
-          "choices": [
-            {
-              "text": "I / me / my",
-              "correct": false,
-              "feedback": "Review: ἀκούω means hear, listen."
-            },
-            {
-              "text": "this",
-              "correct": false,
-              "feedback": "Review: ἀκούω means hear, listen."
-            },
-            {
-              "text": "city, city-state",
-              "correct": false,
-              "feedback": "Review: ἀκούω means hear, listen."
-            },
-            {
-              "text": "hear, listen",
-              "correct": true,
-              "feedback": "Correct: ἀκούω means hear, listen."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-11-form",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "Which Greek entry means “hear, listen”?",
-          "choices": [
-            {
-              "text": "σύ / σε / σου",
-              "correct": false,
-              "feedback": "Review: ἀκούω means hear, listen."
-            },
-            {
-              "text": "παλαιός, παλαιά, παλαιόν",
-              "correct": false,
-              "feedback": "Review: ἀκούω means hear, listen."
-            },
-            {
-              "text": "ἡ πατρίς",
-              "correct": false,
-              "feedback": "Review: ἀκούω means hear, listen."
-            },
-            {
-              "text": "ἀκούω",
-              "correct": true,
-              "feedback": "Correct: ἀκούω means hear, listen."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-12-meaning",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
           "prompt": "What does ἐρωτάω mean?",
           "choices": [
-            {
-              "text": "ask, consult",
-              "correct": true,
-              "feedback": "Correct: ἐρωτάω means ask, consult."
-            },
-            {
-              "text": "you / you / your",
-              "correct": false,
-              "feedback": "Review: ἐρωτάω means ask, consult."
-            },
             {
               "text": "old, longstanding",
               "correct": false,
@@ -47340,16 +47342,36 @@ Xenophon is young, but he wants to become wise.`;
               "text": "homeland",
               "correct": false,
               "feedback": "Review: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "ask, consult",
+              "correct": true,
+              "feedback": "Correct: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-12-form",
+          "id": "lesson-10-vocab-10-form",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "Which Greek entry means “ask, consult”?",
           "choices": [
+            {
+              "text": "ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            },
+            {
+              "text": "ὁ πόλεμος",
+              "correct": false,
+              "feedback": "Review: ἐρωτάω means ask, consult."
+            },
             {
               "text": "ἐρωτάω",
               "correct": true,
@@ -47359,28 +47381,28 @@ Xenophon is young, but he wants to become wise.`;
               "text": "ἐμός, ἐμή, ἐμόν",
               "correct": false,
               "feedback": "Review: ἐρωτάω means ask, consult."
-            },
-            {
-              "text": "μακρός, μακρά, μακρόν",
-              "correct": false,
-              "feedback": "Review: ἐρωτάω means ask, consult."
-            },
-            {
-              "text": "ὁ κίνδυνος",
-              "correct": false,
-              "feedback": "Review: ἐρωτάω means ask, consult."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-13-meaning",
+          "id": "lesson-10-vocab-11-meaning",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "What does ἐγώ / με / μου mean?",
           "choices": [
             {
-              "text": "risk, danger",
+              "text": "my",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "war",
               "correct": false,
               "feedback": "Review: ἐγώ / με / μου means I / me / my."
             },
@@ -47388,28 +47410,28 @@ Xenophon is young, but he wants to become wise.`;
               "text": "I / me / my",
               "correct": true,
               "feedback": "Correct: ἐγώ / με / μου means I / me / my."
-            },
-            {
-              "text": "my",
-              "correct": false,
-              "feedback": "Review: ἐγώ / με / μου means I / me / my."
-            },
-            {
-              "text": "long",
-              "correct": false,
-              "feedback": "Review: ἐγώ / με / μου means I / me / my."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-13-form",
+          "id": "lesson-10-vocab-11-form",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "Which Greek entry means “I / me / my”?",
           "choices": [
             {
-              "text": "ὁ πόλεμος",
+              "text": "σός, σή, σόν",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "ὁ ξένος",
+              "correct": false,
+              "feedback": "Review: ἐγώ / με / μου means I / me / my."
+            },
+            {
+              "text": "τὸ γράμμα",
               "correct": false,
               "feedback": "Review: ἐγώ / με / μου means I / me / my."
             },
@@ -47417,36 +47439,16 @@ Xenophon is young, but he wants to become wise.`;
               "text": "ἐγώ / με / μου",
               "correct": true,
               "feedback": "Correct: ἐγώ / με / μου means I / me / my."
-            },
-            {
-              "text": "σός, σή, σόν",
-              "correct": false,
-              "feedback": "Review: ἐγώ / με / μου means I / me / my."
-            },
-            {
-              "text": "ὁ φίλος",
-              "correct": false,
-              "feedback": "Review: ἐγώ / με / μου means I / me / my."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-14-meaning",
+          "id": "lesson-10-vocab-12-meaning",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "What does σύ / σε / σου mean?",
           "choices": [
-            {
-              "text": "friend",
-              "correct": false,
-              "feedback": "Review: σύ / σε / σου means you / you / your."
-            },
-            {
-              "text": "war",
-              "correct": false,
-              "feedback": "Review: σύ / σε / σου means you / you / your."
-            },
             {
               "text": "you / you / your",
               "correct": true,
@@ -47456,26 +47458,26 @@ Xenophon is young, but he wants to become wise.`;
               "text": "your",
               "correct": false,
               "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "guest friend",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "letter",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-14-form",
+          "id": "lesson-10-vocab-12-form",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "Which Greek entry means “you / you / your”?",
           "choices": [
-            {
-              "text": "ἡ πόλις",
-              "correct": false,
-              "feedback": "Review: σύ / σε / σου means you / you / your."
-            },
-            {
-              "text": "τὸ γράμμα",
-              "correct": false,
-              "feedback": "Review: σύ / σε / σου means you / you / your."
-            },
             {
               "text": "σύ / σε / σου",
               "correct": true,
@@ -47485,16 +47487,36 @@ Xenophon is young, but he wants to become wise.`;
               "text": "οὗτος, αὕτη, τοῦτο",
               "correct": false,
               "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
+            },
+            {
+              "text": "ἡ ὁδός",
+              "correct": false,
+              "feedback": "Review: σύ / σε / σου means you / you / your."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-15-meaning",
+          "id": "lesson-10-vocab-13-meaning",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "What does ἐμός, ἐμή, ἐμόν mean?",
           "choices": [
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "my",
+              "correct": true,
+              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
+            },
             {
               "text": "this",
               "correct": false,
@@ -47504,26 +47526,26 @@ Xenophon is young, but he wants to become wise.`;
               "text": "city, city-state",
               "correct": false,
               "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
-            },
-            {
-              "text": "letter",
-              "correct": false,
-              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
-            },
-            {
-              "text": "my",
-              "correct": true,
-              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-15-form",
+          "id": "lesson-10-vocab-13-form",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "Which Greek entry means “my”?",
           "choices": [
+            {
+              "text": "γράφω",
+              "correct": false,
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
+            },
+            {
+              "text": "ἐμός, ἐμή, ἐμόν",
+              "correct": true,
+              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
+            },
             {
               "text": "παλαιός, παλαιά, παλαιόν",
               "correct": false,
@@ -47533,26 +47555,26 @@ Xenophon is young, but he wants to become wise.`;
               "text": "ἡ πατρίς",
               "correct": false,
               "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
-            },
-            {
-              "text": "ἡ ὁδός",
-              "correct": false,
-              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
-            },
-            {
-              "text": "ἐμός, ἐμή, ἐμόν",
-              "correct": true,
-              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
             }
           ]
         },
         {
-          "id": "lesson-10-vocab-16-meaning",
+          "id": "lesson-10-vocab-14-meaning",
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
           "prompt": "What does σός, σή, σόν mean?",
           "choices": [
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "write",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            },
             {
               "text": "your",
               "correct": true,
@@ -47562,16 +47584,122 @@ Xenophon is young, but he wants to become wise.`;
               "text": "old, longstanding",
               "correct": false,
               "feedback": "Review: σός, σή, σόν means your."
-            },
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-14-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “your”?",
+          "choices": [
             {
-              "text": "homeland",
+              "text": "ὁ πόλεμος",
               "correct": false,
               "feedback": "Review: σός, σή, σόν means your."
             },
             {
-              "text": "road, journey",
+              "text": "καλέω",
               "correct": false,
               "feedback": "Review: σός, σή, σόν means your."
+            },
+            {
+              "text": "σός, σή, σόν",
+              "correct": true,
+              "feedback": "Correct: σός, σή, σόν means your."
+            },
+            {
+              "text": "ὁ φίλος",
+              "correct": false,
+              "feedback": "Review: σός, σή, σόν means your."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-15-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does οὗτος, αὕτη, τοῦτο mean?",
+          "choices": [
+            {
+              "text": "friend",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "war",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "call, invite",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "this",
+              "correct": true,
+              "feedback": "Correct: οὗτος, αὕτη, τοῦτο means this."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-15-form",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which Greek entry means “this”?",
+          "choices": [
+            {
+              "text": "ὁ ξένος",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "τὸ γράμμα",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "ἐρωτάω",
+              "correct": false,
+              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
+            },
+            {
+              "text": "οὗτος, αὕτη, τοῦτο",
+              "correct": true,
+              "feedback": "Correct: οὗτος, αὕτη, τοῦτο means this."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-vocab-16-meaning",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does παλαιός, παλαιά, παλαιόν mean?",
+          "choices": [
+            {
+              "text": "old, longstanding",
+              "correct": true,
+              "feedback": "Correct: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "guest friend",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "letter",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
+            },
+            {
+              "text": "ask, consult",
+              "correct": false,
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
             }
           ]
         },
@@ -47580,134 +47708,8 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "vocabulary",
           "category": "Vocabulary",
-          "prompt": "Which Greek entry means “your”?",
-          "choices": [
-            {
-              "text": "σός, σή, σόν",
-              "correct": true,
-              "feedback": "Correct: σός, σή, σόν means your."
-            },
-            {
-              "text": "μακρός, μακρά, μακρόν",
-              "correct": false,
-              "feedback": "Review: σός, σή, σόν means your."
-            },
-            {
-              "text": "ὁ κίνδυνος",
-              "correct": false,
-              "feedback": "Review: σός, σή, σόν means your."
-            },
-            {
-              "text": "γράφω",
-              "correct": false,
-              "feedback": "Review: σός, σή, σόν means your."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-17-meaning",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "What does οὗτος, αὕτη, τοῦτο mean?",
-          "choices": [
-            {
-              "text": "write",
-              "correct": false,
-              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
-            },
-            {
-              "text": "this",
-              "correct": true,
-              "feedback": "Correct: οὗτος, αὕτη, τοῦτο means this."
-            },
-            {
-              "text": "long",
-              "correct": false,
-              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
-            },
-            {
-              "text": "risk, danger",
-              "correct": false,
-              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-17-form",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "Which Greek entry means “this”?",
-          "choices": [
-            {
-              "text": "καλέω",
-              "correct": false,
-              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
-            },
-            {
-              "text": "οὗτος, αὕτη, τοῦτο",
-              "correct": true,
-              "feedback": "Correct: οὗτος, αὕτη, τοῦτο means this."
-            },
-            {
-              "text": "ὁ φίλος",
-              "correct": false,
-              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
-            },
-            {
-              "text": "ὁ πόλεμος",
-              "correct": false,
-              "feedback": "Review: οὗτος, αὕτη, τοῦτο means this."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-18-meaning",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "What does παλαιός, παλαιά, παλαιόν mean?",
-          "choices": [
-            {
-              "text": "war",
-              "correct": false,
-              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            },
-            {
-              "text": "call, invite",
-              "correct": false,
-              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            },
-            {
-              "text": "old, longstanding",
-              "correct": true,
-              "feedback": "Correct: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            },
-            {
-              "text": "friend",
-              "correct": false,
-              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-18-form",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
           "prompt": "Which Greek entry means “old, longstanding”?",
           "choices": [
-            {
-              "text": "τὸ γράμμα",
-              "correct": false,
-              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            },
-            {
-              "text": "βαδίζω",
-              "correct": false,
-              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            },
             {
               "text": "παλαιός, παλαιά, παλαιόν",
               "correct": true,
@@ -47717,64 +47719,16 @@ Xenophon is young, but he wants to become wise.`;
               "text": "ἡ πόλις",
               "correct": false,
               "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-19-meaning",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "What does μακρός, μακρά, μακρόν mean?",
-          "choices": [
-            {
-              "text": "city, city-state",
-              "correct": false,
-              "feedback": "Review: μακρός, μακρά, μακρόν means long."
-            },
-            {
-              "text": "letter",
-              "correct": false,
-              "feedback": "Review: μακρός, μακρά, μακρόν means long."
-            },
-            {
-              "text": "walk, go",
-              "correct": false,
-              "feedback": "Review: μακρός, μακρά, μακρόν means long."
-            },
-            {
-              "text": "long",
-              "correct": true,
-              "feedback": "Correct: μακρός, μακρά, μακρόν means long."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-vocab-19-form",
-          "type": "multiple-choice",
-          "topic": "vocabulary",
-          "category": "Vocabulary",
-          "prompt": "Which Greek entry means “long”?",
-          "choices": [
-            {
-              "text": "ἡ πατρίς",
-              "correct": false,
-              "feedback": "Review: μακρός, μακρά, μακρόν means long."
             },
             {
               "text": "ἡ ὁδός",
               "correct": false,
-              "feedback": "Review: μακρός, μακρά, μακρόν means long."
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
             },
             {
-              "text": "ἀκούω",
+              "text": "ἐγώ / με / μου",
               "correct": false,
-              "feedback": "Review: μακρός, μακρά, μακρόν means long."
-            },
-            {
-              "text": "μακρός, μακρά, μακρόν",
-              "correct": true,
-              "feedback": "Correct: μακρός, μακρά, μακρόν means long."
+              "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
             }
           ]
         }
@@ -47911,27 +47865,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "word-study",
           "category": "Grammar",
-          "prompt": "What does ὁ κίνδυνος mean?",
+          "prompt": "What does ὁ ξένος mean in this reading?",
           "choices": [
             {
-              "text": "risk or danger",
+              "text": "guest friend",
               "correct": true,
-              "feedback": "Correct: κίνδυνος is danger."
+              "feedback": "Correct: ξένος names an established guest friendship."
             },
             {
-              "text": "friendship",
+              "text": "enemy",
               "correct": false,
-              "feedback": "Review: κίνδυνος is danger."
+              "feedback": "Review: ξένος names an established guest friendship."
             },
             {
-              "text": "the road",
+              "text": "hired soldier",
               "correct": false,
-              "feedback": "Review: κίνδυνος is danger."
+              "feedback": "Review: ξένος names an established guest friendship."
             },
             {
-              "text": "the letter",
+              "text": "stranger only",
               "correct": false,
-              "feedback": "Review: κίνδυνος is danger."
+              "feedback": "Review: ξένος names an established guest friendship."
             }
           ]
         },
@@ -48027,27 +47981,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "word-study",
           "category": "Grammar",
-          "prompt": "What does βαδίζω mean?",
+          "prompt": "What does ἀναγιγνώσκω mean?",
           "choices": [
             {
-              "text": "I walk or go",
+              "text": "I read",
               "correct": true,
-              "feedback": "Correct: βαδίζω means walk."
+              "feedback": "Correct: ἀναγιγνώσκω means read."
             },
             {
               "text": "I send",
               "correct": false,
-              "feedback": "Review: βαδίζω means walk."
+              "feedback": "Review: ἀναγιγνώσκω means read."
             },
             {
               "text": "I remember",
               "correct": false,
-              "feedback": "Review: βαδίζω means walk."
+              "feedback": "Review: ἀναγιγνώσκω means read."
             },
             {
-              "text": "I read",
+              "text": "I walk",
               "correct": false,
-              "feedback": "Review: βαδίζω means walk."
+              "feedback": "Review: ἀναγιγνώσκω means read."
             }
           ]
         },
@@ -48061,22 +48015,22 @@ Xenophon is young, but he wants to become wise.`;
             {
               "text": "Apollo’s priest",
               "correct": false,
-              "feedback": "Review: Proxenus sent the invitation."
+              "feedback": "Review: Proxenus was Theban and Xenophon’s guest friend."
             },
             {
-              "text": "Xenophon’s old friend",
+              "text": "Xenophon’s Theban guest friend",
               "correct": true,
-              "feedback": "Correct: Proxenus sent the invitation."
+              "feedback": "Correct: Proxenus was Theban and Xenophon’s guest friend."
             },
             {
               "text": "the Persian king",
               "correct": false,
-              "feedback": "Review: Proxenus sent the invitation."
+              "feedback": "Review: Proxenus was Theban and Xenophon’s guest friend."
             },
             {
               "text": "an Athenian accuser",
               "correct": false,
-              "feedback": "Review: Proxenus sent the invitation."
+              "feedback": "Review: Proxenus was Theban and Xenophon’s guest friend."
             }
           ]
         },
@@ -49071,27 +49025,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "possessive-adjectives",
           "category": "Grammar",
-          "prompt": "What does ἡ σὴ πατρίς mean?",
+          "prompt": "What does τῆς σῆς πατρίδος mean?",
           "choices": [
             {
-              "text": "your homeland",
+              "text": "of your homeland",
               "correct": true,
-              "feedback": "Correct: σή agrees with feminine πατρίς and means your."
+              "feedback": "Correct: σῆς agrees with feminine genitive πατρίδος."
             },
             {
-              "text": "my homeland",
+              "text": "of my homeland",
               "correct": false,
-              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+              "feedback": "Review: σῆς agrees with feminine genitive πατρίδος."
             },
             {
               "text": "his homeland",
               "correct": false,
-              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+              "feedback": "Review: σῆς agrees with feminine genitive πατρίδος."
             },
             {
               "text": "this homeland",
               "correct": false,
-              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+              "feedback": "Review: σῆς agrees with feminine genitive πατρίδος."
             }
           ]
         },
@@ -49738,27 +49692,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "adjective-placement",
           "category": "Grammar",
-          "prompt": "In ὁ φίλος σου ἀγαθός ἐστιν, what is said of the friend?",
+          "prompt": "In φίλος σός ἐστιν, what is said of Proxenus?",
           "choices": [
             {
               "text": "he is old",
               "correct": false,
-              "feedback": "Review: ἀγαθός is the predicate."
+              "feedback": "Review: σός is a predicate possessive adjective."
             },
             {
-              "text": "he is yours alone",
+              "text": "he is good",
               "correct": false,
-              "feedback": "Review: ἀγαθός is the predicate."
+              "feedback": "Review: σός is a predicate possessive adjective."
             },
             {
               "text": "he travels",
               "correct": false,
-              "feedback": "Review: ἀγαθός is the predicate."
+              "feedback": "Review: σός is a predicate possessive adjective."
             },
             {
-              "text": "he is good",
+              "text": "he is your friend",
               "correct": true,
-              "feedback": "Correct: ἀγαθός is the predicate."
+              "feedback": "Correct: σός is a predicate possessive adjective."
             }
           ]
         },
@@ -49915,7 +49869,7 @@ Xenophon is young, but he wants to become wise.`;
       "threshold": 80,
       "required": true,
       "requireAllAnswers": true,
-      "revision": "lesson-10-grammar-exercises-v1",
+      "revision": "lesson-10-grammar-exercises-v2",
       "instructions": "Answer every question and score at least 80% to continue to the culture page.",
       "questions": [
         {
@@ -50213,27 +50167,27 @@ Xenophon is young, but he wants to become wise.`;
           "type": "multiple-choice",
           "topic": "possessive-adjectives",
           "category": "Grammar",
-          "prompt": "What does ἡ σὴ πατρίς mean?",
+          "prompt": "What does τῆς σῆς πατρίδος mean?",
           "choices": [
             {
-              "text": "my homeland",
+              "text": "of my homeland",
               "correct": false,
-              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+              "feedback": "Review: σῆς agrees with feminine genitive πατρίδος."
             },
             {
               "text": "his homeland",
               "correct": false,
-              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+              "feedback": "Review: σῆς agrees with feminine genitive πατρίδος."
             },
             {
               "text": "this homeland",
               "correct": false,
-              "feedback": "Review: σή agrees with feminine πατρίς and means your."
+              "feedback": "Review: σῆς agrees with feminine genitive πατρίδος."
             },
             {
-              "text": "your homeland",
+              "text": "of your homeland",
               "correct": true,
-              "feedback": "Correct: σή agrees with feminine πατρίς and means your."
+              "feedback": "Correct: σῆς agrees with feminine genitive πατρίδος."
             }
           ]
         },
@@ -50618,11 +50572,11 @@ Xenophon is young, but he wants to become wise.`;
     },
     "lesson-quiz": {
       "title": "Lesson 10 Final Quiz — The Letter from Proxenus",
-      "description": "Reading, vocabulary, grammar, and Cyrus’s Persian world",
+      "description": "Reading, vocabulary, grammar, guest friendship, and mercenaries",
       "threshold": 80,
       "required": true,
       "requireAllAnswers": true,
-      "revision": "lesson-10-final-quiz-v1",
+      "revision": "lesson-10-final-quiz-v2",
       "pointsPossible": 30,
       "instructions": "Answer all 30 questions. Score at least 80% to complete Lesson 10 and continue to Lesson 11.",
       "questions": [
@@ -50635,22 +50589,22 @@ Xenophon is young, but he wants to become wise.`;
             {
               "text": "Critobulus",
               "correct": false,
-              "feedback": "Review: Proxenus is Xenophon’s old friend and sender."
+              "feedback": "Review: Proxenus is Xenophon’s Theban guest friend and the sender."
             },
             {
-              "text": "Proxenus",
+              "text": "Proxenus of Thebes",
               "correct": true,
-              "feedback": "Correct: Proxenus is Xenophon’s old friend and sender."
+              "feedback": "Correct: Proxenus is Xenophon’s Theban guest friend and the sender."
             },
             {
               "text": "Socrates",
               "correct": false,
-              "feedback": "Review: Proxenus is Xenophon’s old friend and sender."
+              "feedback": "Review: Proxenus is Xenophon’s Theban guest friend and the sender."
             },
             {
               "text": "Cyrus the Great",
               "correct": false,
-              "feedback": "Review: Proxenus is Xenophon’s old friend and sender."
+              "feedback": "Review: Proxenus is Xenophon’s Theban guest friend and the sender."
             }
           ]
         },
@@ -50663,22 +50617,22 @@ Xenophon is young, but he wants to become wise.`;
             {
               "text": "to buy him a house",
               "correct": false,
-              "feedback": "Review: The invitation offers a connection to Cyrus."
+              "feedback": "Review: The invitation offers a personal connection to Cyrus."
             },
             {
               "text": "to send him to Sparta",
               "correct": false,
-              "feedback": "Review: The invitation offers a connection to Cyrus."
+              "feedback": "Review: The invitation offers a personal connection to Cyrus."
             },
             {
-              "text": "to introduce Xenophon to Cyrus",
+              "text": "to make Xenophon a friend of Cyrus",
               "correct": true,
-              "feedback": "Correct: The invitation offers a connection to Cyrus."
+              "feedback": "Correct: The invitation offers a personal connection to Cyrus."
             },
             {
               "text": "to make Xenophon an Athenian general",
               "correct": false,
-              "feedback": "Review: The invitation offers a connection to Cyrus."
+              "feedback": "Review: The invitation offers a personal connection to Cyrus."
             }
           ]
         },
@@ -50770,27 +50724,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-06",
           "type": "multiple-choice",
           "category": "Reading",
-          "prompt": "What remains open at the end of the lesson?",
+          "prompt": "What contrast does Xenophon express at the end?",
           "choices": [
             {
-              "text": "whether Athens exists",
+              "text": "the letter is from Sparta and the decision is Cyrus’s",
               "correct": false,
-              "feedback": "Review: The reading ends as Xenophon turns toward Delphi."
+              "feedback": "Review: Xenophon says the decision is his."
             },
             {
-              "text": "whether Socrates knows Xenophon",
+              "text": "he has already asked Apollo",
               "correct": false,
-              "feedback": "Review: The reading ends as Xenophon turns toward Delphi."
+              "feedback": "Review: Xenophon says the decision is his."
             },
             {
-              "text": "how Xenophon will respond to the journey after Delphi",
+              "text": "the letter is his friend’s, but the decision is his",
               "correct": true,
-              "feedback": "Correct: The reading ends as Xenophon turns toward Delphi."
+              "feedback": "Correct: Xenophon says the decision is his."
             },
             {
-              "text": "whether Proxenus wrote a letter",
+              "text": "the letter is Socrates’s, but the journey is Proxenus’s",
               "correct": false,
-              "feedback": "Review: The reading ends as Xenophon turns toward Delphi."
+              "feedback": "Review: Xenophon says the decision is his."
             }
           ]
         },
@@ -50798,27 +50752,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-07",
           "type": "multiple-choice",
           "category": "Vocabulary",
-          "prompt": "What does ἡ πατρίς mean?",
+          "prompt": "What does ὁ ξένος mean?",
           "choices": [
             {
-              "text": "war",
-              "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
-            },
-            {
-              "text": "write",
-              "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
-            },
-            {
-              "text": "hear, listen",
-              "correct": false,
-              "feedback": "Review: ἡ πατρίς means homeland."
-            },
-            {
               "text": "homeland",
+              "correct": false,
+              "feedback": "Review: ὁ ξένος means guest friend."
+            },
+            {
+              "text": "road, journey",
+              "correct": false,
+              "feedback": "Review: ὁ ξένος means guest friend."
+            },
+            {
+              "text": "ask, consult",
+              "correct": false,
+              "feedback": "Review: ὁ ξένος means guest friend."
+            },
+            {
+              "text": "guest friend",
               "correct": true,
-              "feedback": "Correct: ἡ πατρίς means homeland."
+              "feedback": "Correct: ὁ ξένος means guest friend."
             }
           ]
         },
@@ -50826,8 +50780,41 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-08",
           "type": "multiple-choice",
           "category": "Vocabulary",
+          "prompt": "What does ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "letter",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "call, invite",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            },
+            {
+              "text": "you / you / your",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς means homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-10-final-09",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
           "prompt": "What does τὸ γράμμα mean?",
           "choices": [
+            {
+              "text": "your",
+              "correct": false,
+              "feedback": "Review: τὸ γράμμα means letter."
+            },
             {
               "text": "letter",
               "correct": true,
@@ -50839,42 +50826,9 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Review: τὸ γράμμα means letter."
             },
             {
-              "text": "hear, listen",
-              "correct": false,
-              "feedback": "Review: τὸ γράμμα means letter."
-            },
-            {
-              "text": "you / you / your",
-              "correct": false,
-              "feedback": "Review: τὸ γράμμα means letter."
-            }
-          ]
-        },
-        {
-          "id": "lesson-10-final-09",
-          "type": "multiple-choice",
-          "category": "Vocabulary",
-          "prompt": "What does γράφω mean?",
-          "choices": [
-            {
-              "text": "your",
-              "correct": false,
-              "feedback": "Review: γράφω means write."
-            },
-            {
-              "text": "write",
-              "correct": true,
-              "feedback": "Correct: γράφω means write."
-            },
-            {
-              "text": "walk, go",
-              "correct": false,
-              "feedback": "Review: γράφω means write."
-            },
-            {
               "text": "I / me / my",
               "correct": false,
-              "feedback": "Review: γράφω means write."
+              "feedback": "Review: τὸ γράμμα means letter."
             }
           ]
         },
@@ -50885,12 +50839,12 @@ Xenophon is young, but he wants to become wise.`;
           "prompt": "What does καλέω mean?",
           "choices": [
             {
-              "text": "you / you / your",
+              "text": "your",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             },
             {
-              "text": "this",
+              "text": "friend",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             },
@@ -50900,7 +50854,7 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: καλέω means call, invite."
             },
             {
-              "text": "hear, listen",
+              "text": "I / me / my",
               "correct": false,
               "feedback": "Review: καλέω means call, invite."
             }
@@ -50910,27 +50864,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-11",
           "type": "multiple-choice",
           "category": "Vocabulary",
-          "prompt": "What does σός, σή, σόν mean?",
+          "prompt": "What does ἐμός, ἐμή, ἐμόν mean?",
           "choices": [
             {
-              "text": "old, longstanding",
+              "text": "this",
               "correct": false,
-              "feedback": "Review: σός, σή, σόν means your."
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
             },
             {
-              "text": "city, city-state",
+              "text": "guest friend",
               "correct": false,
-              "feedback": "Review: σός, σή, σόν means your."
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
             },
             {
               "text": "war",
               "correct": false,
-              "feedback": "Review: σός, σή, σόν means your."
+              "feedback": "Review: ἐμός, ἐμή, ἐμόν means my."
             },
             {
-              "text": "your",
+              "text": "my",
               "correct": true,
-              "feedback": "Correct: σός, σή, σόν means your."
+              "feedback": "Correct: ἐμός, ἐμή, ἐμόν means my."
             }
           ]
         },
@@ -50946,17 +50900,17 @@ Xenophon is young, but he wants to become wise.`;
               "feedback": "Correct: παλαιός, παλαιά, παλαιόν means old, longstanding."
             },
             {
-              "text": "friend",
+              "text": "guest friend",
               "correct": false,
               "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
             },
             {
-              "text": "risk, danger",
+              "text": "war",
               "correct": false,
               "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
             },
             {
-              "text": "road, journey",
+              "text": "write",
               "correct": false,
               "feedback": "Review: παλαιός, παλαιά, παλαιόν means old, longstanding."
             }
@@ -51330,27 +51284,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-26",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "Which Greek city had Cyrus aided in the war against Athens?",
+          "prompt": "What relationship linked the Athenian Xenophon and Theban Proxenus?",
           "choices": [
             {
-              "text": "Corinth",
+              "text": "a Delphic priesthood",
               "correct": false,
-              "feedback": "Review: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+              "feedback": "Review: Xenophon calls Proxenus his longstanding guest friend."
             },
             {
-              "text": "Delphi",
+              "text": "father and son",
               "correct": false,
-              "feedback": "Review: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+              "feedback": "Review: Xenophon calls Proxenus his longstanding guest friend."
             },
             {
-              "text": "Sparta",
+              "text": "longstanding guest friendship",
               "correct": true,
-              "feedback": "Correct: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+              "feedback": "Correct: Xenophon calls Proxenus his longstanding guest friend."
             },
             {
-              "text": "Thebes",
+              "text": "shared Athenian citizenship",
               "correct": false,
-              "feedback": "Review: Socrates fears Athens’s response to Cyrus’s aid to Sparta."
+              "feedback": "Review: Xenophon calls Proxenus his longstanding guest friend."
             }
           ]
         },
@@ -51358,27 +51312,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-27",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "What does the culture-page relief show?",
+          "prompt": "What happened to Athens in 404 BCE?",
           "choices": [
             {
-              "text": "Cyrus the Younger",
+              "text": "it conquered Persia",
               "correct": false,
-              "feedback": "Review: It shows a Persian guard from Persepolis."
+              "feedback": "Review: Athens surrendered and lost most of its fleet."
             },
             {
-              "text": "Xenophon with Socrates",
+              "text": "it founded Delphi",
               "correct": false,
-              "feedback": "Review: It shows a Persian guard from Persepolis."
+              "feedback": "Review: Athens surrendered and lost most of its fleet."
             },
             {
-              "text": "Proxenus writing",
+              "text": "it hired Cyrus as king",
               "correct": false,
-              "feedback": "Review: It shows a Persian guard from Persepolis."
+              "feedback": "Review: Athens surrendered and lost most of its fleet."
             },
             {
-              "text": "an Achaemenid Persian guard",
+              "text": "it surrendered at the end of the Peloponnesian War",
               "correct": true,
-              "feedback": "Correct: It shows a Persian guard from Persepolis."
+              "feedback": "Correct: Athens surrendered and lost most of its fleet."
             }
           ]
         },
@@ -51386,27 +51340,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-28",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "Where did the relief come from?",
+          "prompt": "Which statement about Greek paid military service is accurate?",
           "choices": [
             {
-              "text": "Persepolis in Iran",
+              "text": "It existed before 404 BCE and grew more prominent afterward.",
               "correct": true,
-              "feedback": "Correct: The Met identifies its findspot as Persepolis."
+              "feedback": "Correct: Paid service predates 404 and became more prominent in the fourth century."
             },
             {
-              "text": "Athens",
+              "text": "It began only after 404 BCE.",
               "correct": false,
-              "feedback": "Review: The Met identifies its findspot as Persepolis."
+              "feedback": "Review: Paid service predates 404 and became more prominent in the fourth century."
             },
             {
-              "text": "Delphi",
+              "text": "All Greek men became paid soldiers.",
               "correct": false,
-              "feedback": "Review: The Met identifies its findspot as Persepolis."
+              "feedback": "Review: Paid service predates 404 and became more prominent in the fourth century."
             },
             {
-              "text": "Paestum",
+              "text": "The Ten Thousand were all landless Athenians.",
               "correct": false,
-              "feedback": "Review: The Met identifies its findspot as Persepolis."
+              "feedback": "Review: Paid service predates 404 and became more prominent in the fourth century."
             }
           ]
         },
@@ -51414,27 +51368,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-29",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "Is the relief a portrait of Cyrus the Younger?",
+          "prompt": "How does Xenophon describe his initial role in Cyrus’s expedition?",
           "choices": [
             {
-              "text": "No; it is from Rome.",
+              "text": "Athenian ambassador",
               "correct": false,
-              "feedback": "Review: The guard relief is earlier and does not portray Cyrus."
+              "feedback": "Review: Anabasis 3.1.4 distinguishes his initial status from a regular soldier’s."
             },
             {
-              "text": "No; it predates him and shows a guard.",
+              "text": "neither general, captain, nor ordinary soldier",
               "correct": true,
-              "feedback": "Correct: The guard relief is earlier and does not portray Cyrus."
+              "feedback": "Correct: Anabasis 3.1.4 distinguishes his initial status from a regular soldier’s."
             },
             {
-              "text": "Yes; it names him.",
+              "text": "captain of the entire force",
               "correct": false,
-              "feedback": "Review: The guard relief is earlier and does not portray Cyrus."
+              "feedback": "Review: Anabasis 3.1.4 distinguishes his initial status from a regular soldier’s."
             },
             {
-              "text": "Yes; Xenophon commissioned it.",
+              "text": "Cyrus’s Persian satrap",
               "correct": false,
-              "feedback": "Review: The guard relief is earlier and does not portray Cyrus."
+              "feedback": "Review: Anabasis 3.1.4 distinguishes his initial status from a regular soldier’s."
             }
           ]
         },
@@ -51442,27 +51396,27 @@ Xenophon is young, but he wants to become wise.`;
           "id": "lesson-10-final-30",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "What can we say about the letter’s exact wording?",
+          "prompt": "What does the culture-page relief show?",
           "choices": [
             {
-              "text": "It is carved on the relief.",
+              "text": "Xenophon with Socrates",
               "correct": false,
-              "feedback": "Review: The lesson’s letter speech is adapted dialogue."
+              "feedback": "Review: The relief shows an Achaemenid guard, not the expedition."
             },
             {
-              "text": "Socrates wrote it.",
+              "text": "a Greek mercenary at Delphi",
               "correct": false,
-              "feedback": "Review: The lesson’s letter speech is adapted dialogue."
+              "feedback": "Review: The relief shows an Achaemenid guard, not the expedition."
             },
             {
-              "text": "Xenophon does not preserve it.",
+              "text": "an earlier Persian guard from Persepolis",
               "correct": true,
-              "feedback": "Correct: The lesson’s letter speech is adapted dialogue."
+              "feedback": "Correct: The relief shows an Achaemenid guard, not the expedition."
             },
             {
-              "text": "Xenophon quotes it in full.",
+              "text": "Cyrus the Younger",
               "correct": false,
-              "feedback": "Review: The lesson’s letter speech is adapted dialogue."
+              "feedback": "Review: The relief shows an Achaemenid guard, not the expedition."
             }
           ]
         }
@@ -51474,7 +51428,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "The Question at Delphi",
     "fallbackUrl": "lesson.html?lesson=11&page=1"
   },
-  "contentRevision": "lesson-10-proxenus-complete-v1",
+  "contentRevision": "lesson-10-guest-friendship-v2",
   "previousLesson": {
     "id": "lesson-9",
     "title": "What Makes a Good Friend?",

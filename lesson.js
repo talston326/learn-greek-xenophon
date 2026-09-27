@@ -650,7 +650,7 @@
         <p class="eyebrow">Culture and History</p>
         <h1>${escapeHtml(culture.title || page.title)}</h1>
       </header>
-      <section class="lesson-section enrichment-panel culture-panel">
+      ${(Array.isArray(culture.body) ? culture.body.length > 0 : Boolean(culture.body)) || culturePlan.title || culture.image || culture.imageUrl ? `<section class="lesson-section enrichment-panel culture-panel">
         <div class="lesson-rich-text">
           ${renderParagraphsWithImage(culture.body, culture.image || culture.imageUrl, culture.imageAlt, culture.imagePlacement, culture.imageCaption)}
         </div>
@@ -660,7 +660,7 @@
           ${culturePlan.caption ? `<figcaption>${escapeHtml(culturePlan.caption)}</figcaption>` : ""}
           ${culturePlan.credit ? `<p class="culture-plan__credit">${escapeHtml(culturePlan.credit)}${/^https:\/\//.test(culturePlan.sourceUrl || "") ? ` <a href="${escapeHtml(culturePlan.sourceUrl)}" target="_blank" rel="noopener noreferrer">Map source</a>.` : ""}${/^https:\/\//.test(culturePlan.licenseUrl || "") ? ` <a href="${escapeHtml(culturePlan.licenseUrl)}" target="_blank" rel="noopener noreferrer">License</a>.` : ""}</p>` : ""}
         </figure>` : ""}
-      </section>
+      </section>` : ""}
       ${Array.isArray(culture.sections) ? culture.sections.map((section) => `<section class="lesson-section enrichment-panel culture-panel">
         <h2>${escapeHtml(section.title || "Culture and History")}</h2>
         <div class="lesson-rich-text">${renderParagraphsWithImage(section.body)}</div>

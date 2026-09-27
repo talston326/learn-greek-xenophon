@@ -6,21 +6,21 @@ import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=name=>fs.readFileSync(path.join(root,name),'utf8');
 const lesson=JSON.parse(read('content/lessons/lesson-10.json'));
-const migration=read('db/migrations/0030_publish_lesson_10.sql');
+const migration=read('db/migrations/0031_refine_lesson_10_guest_friendship.sql');
 const fallback=read('lesson-data.js');
 const pkg=JSON.parse(read('package.json'));
 
 assert.equal(lesson.id,'lesson-10');
 assert.equal(lesson.title,'The Letter from Proxenus');
-assert.equal(lesson.contentRevision,'lesson-10-proxenus-complete-v1');
+assert.equal(lesson.contentRevision,'lesson-10-guest-friendship-v2');
 assert.deepEqual(lesson.pages.map(p=>p.slug),['lesson-10-page-1','lesson-10-page-2','lesson-10-page-3']);
 assert.equal(lesson.reading.paragraphs.length,8);
 assert.equal(lesson.reading.translation.split('\n\n').length,8);
 assert.match(lesson.reading.introduction[1],/Anabasis 3\.1\.4–5/);
-assert.match(lesson.reading.introduction[1],/does not preserve the letter’s wording/);
-assert.match(lesson.reading.introduction[1],/adapted dialogue and visual reconstruction/);
+assert.match(lesson.reading.introduction[1],/Anabasis 2\.1\.10/);
+assert.match(lesson.reading.introduction[1],/does not preserve the letter’s exact wording/);
 const greek=lesson.reading.paragraphs.map(p=>p.greek).join(' ');
-for(const snippet of ['ὁ φίλος μου','ἡ σὴ πατρὶς','αὕτη ἡ ὁδὸς','τοῦτο τὸ γράμμα','πρὸς Δελφοὺς']) assert(greek.includes(snippet),snippet);
+for(const snippet of ['Προξένου τοῦ Θηβαίου','παλαιοῦ ξένου','ὁ ἐμὸς φίλος','τῆς δὲ σῆς πατρίδος','περὶ ταύτης τῆς ὁδοῦ','τὸ δὲ βούλευμα ἐμόν','πρὸς Δελφοὺς']) assert(greek.includes(snippet),snippet);
 for(const p of lesson.reading.paragraphs){
   assert(p.greek && p.gloss.length);
   for(const gloss of p.gloss) assert(p.greek.includes(gloss.greek),`Gloss not found in reading: ${gloss.greek}`);
@@ -30,8 +30,10 @@ assert(lesson.grammar.sections.every(s=>s.body.length && s.table.rows.length && 
 assert.match(lesson.grammar.sections[2].body.join(' '),/agree with the thing owned/);
 assert.match(lesson.grammar.sections[3].body.join(' '),/outside the article-plus-noun group/);
 assert.match(lesson.grammar.sections[4].body.join(' '),/attributive/);
-assert.match(lesson.culture.body.join(' '),/Cyrus the Younger/);
-assert.match(lesson.culture.body.join(' '),/not show Cyrus, Proxenus, or a Greek mercenary/);
+assert.deepEqual(lesson.culture.body,[]);
+assert.deepEqual(lesson.culture.sections.map(s=>s.title),['Guest Friendship Across City Borders','Mercenaries after the Peloponnesian War']);
+assert.match(lesson.culture.sections[0].body.join(' '),/Proxenus was a Theban/);
+assert.match(lesson.culture.sections[1].body.join(' '),/neither a general, a captain, nor an ordinary soldier/);
 assert(lesson.culture.sources.some(s=>s.url.includes('perseus.tufts.edu')));
 assert(lesson.culture.sources.some(s=>s.url.includes('metmuseum.org/art/collection/search/324433')));
 assert.match(lesson.culture.banner.credit,/Public Domain/);
@@ -43,7 +45,7 @@ assert.equal(relief.subarray(0,2).toString('hex'),'ffd8');
 assert(relief.length>100000);
 
 const required=lesson.vocabulary.flatMap(g=>g.items).filter(v=>v.status==='required vocabulary');
-assert.equal(required.length,19);
+assert.equal(required.length,16);
 const a=lesson.activities;
 assert.equal(a['vocab-practice'].questions.length,required.length*2);
 assert.equal(a['topic-practice'].questions.length,72);
@@ -85,5 +87,6 @@ const fallbackMatch=fallback.match(/\/\/ BEGIN GENERATED LESSON 10\s+LESSONS\["l
 assert(fallbackMatch);
 assert.deepEqual(JSON.parse(fallbackMatch[1]),lesson);
 assert.match(pkg.scripts['db:migrate'],/0030_publish_lesson_10\.sql/);
+assert.match(pkg.scripts['db:migrate'],/0031_refine_lesson_10_guest_friendship\.sql/);
 assert.equal(pkg.scripts['verify:lesson10'],'node scripts/verify-lesson-10.mjs');
 console.log('Lesson 10 content, source labels, assets, activities, migration, and fallback verified.');
