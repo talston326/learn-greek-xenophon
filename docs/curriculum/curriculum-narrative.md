@@ -2,9 +2,9 @@
 
 **Module 1: σοφία — Wisdom and Socrates**  
 **Scope:** Unit 0 and Lessons 1–12  
-**Updated:** 26 September 2026
+**Updated:** 27 September 2026
 
-This is the project's standing narrative plan for the beginning of *Learn Greek with Xenophon*. Ask Codex to **open “Curriculum Narrative”** to revisit or revise it. Unit 0 and Lessons 1–7 describe authored course material, while Lessons 8–12 remain proposals. This document records curriculum intent and source boundaries. It does not itself publish or replace lesson content on the website.
+This is the project's standing narrative plan for the beginning of *Learn Greek with Xenophon*. Ask Codex to **open “Curriculum Narrative”** to revisit or revise it. Unit 0 and Lessons 1–8 describe authored course material, while Lessons 9–12 remain proposals. This document records curriculum intent and source boundaries. It does not itself publish or replace lesson content on the website.
 
 ## Narrative arc
 
@@ -105,5 +105,5 @@ Back in Athens, Xenophon reports the consultation. **In Xenophon's own account**
 1. Identify whether each scene is **directly reported in an ancient source**, **adapted from a reported episode**, or **reconstructed for the course**. Xenophon's account is a source, not independent proof that every reported conversation happened exactly as written.
 2. Give women substantive actions and perspectives where the sources allow them; label invented dialogue clearly, especially in Lessons 7 and 8.
 3. Prefer controlled present-tense narrative for Lessons 6–12. Gloss unfamiliar source vocabulary and grammar rather than making it an unannounced assessment target.
-4. Follow the [grammar progression](grammar-progression-48-lessons.md) for Lessons 6–12. Lesson 7 now follows its planned I 4α allocation; later website placeholders still need reconciliation as those lessons are authored.
+4. Follow the [grammar progression](grammar-progression-48-lessons.md) for Lessons 6–12. Lesson 7 now follows its planned I 4α allocation. When Lessons 9–12 are authored, their complete new lessons replace the older website placeholders rather than preserving those placeholder readings or activities.
 5. Preserve the three-part ending: **Proxenus' invitation → Delphi → Socrates' response**. Module 2 begins with the expedition, not with a second retelling of the Delphic decision.
