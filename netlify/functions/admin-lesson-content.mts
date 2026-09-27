@@ -283,6 +283,7 @@ function validateLessonContent(content: unknown): ValidationResult {
       errors.push("reading must be an object.");
     } else {
       validateString(content.reading.title, "reading.title", errors);
+      validateStringArray(content.reading.introduction, "reading.introduction", errors);
       validateString(content.reading.translation, "reading.translation", errors);
       validateString(content.reading.notesMarkdown, "reading.notesMarkdown", errors);
       validateString(content.reading.sourceCitation, "reading.sourceCitation", errors);

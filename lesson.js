@@ -1042,6 +1042,7 @@
           <button class="secondary-button" type="button" data-lesson-editor-action="add-reading-paragraph">Add Paragraph</button>
         </div>
         ${renderInput("Reading title", "reading-title", lesson.reading?.title || "")}
+        ${renderTextarea("Reading introduction (separate paragraphs with a blank line)", "reading-introduction", joinParagraphs(lesson.reading?.introduction), 7)}
         ${renderTextarea("Guided translation", "reading-translation", lesson.reading?.translation || "", 4)}
         <div class="lesson-editor-list">
           ${(lesson.reading?.paragraphs || []).map((paragraph, index) => `
@@ -1353,6 +1354,7 @@
       });
       draft.reading ||= {};
       draft.reading.title = fieldValue("reading-title");
+      draft.reading.introduction = splitParagraphs(fieldValue("reading-introduction"));
       draft.reading.translation = fieldValue("reading-translation");
       draft.reading.paragraphs = Array.from(shell.querySelectorAll('[data-editor-row="reading-paragraph"]')).map((paragraph) => ({
         greek: fieldValue("reading-greek", paragraph),
