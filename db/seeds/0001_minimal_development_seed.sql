@@ -250,7 +250,7 @@ seed_lessons(module_slug, slug, number_label, title, grammar_focus, page_url, so
     ('module-1', 'lesson-8', 'Lesson 8', 'A Household Finds a Way', 'Declension variants, adjective agreement, and adverbs', 'lessons.html#lesson-8', 8),
     ('module-1', 'lesson-9', 'Lesson 9', 'What Makes a Good Friend?', 'Alpha-contract verbs and elision', 'lessons.html#lesson-9', 9),
     ('module-1', 'lesson-10', 'Lesson 10', 'To Know and To Learn', 'Infinitives intro, complementary infinitives', 'lessons.html#lesson-10', 10),
-    ('module-1', 'lesson-11', 'Lesson 11', 'The Thinking Mind', 'Participles intro, present active participle', 'lessons.html#lesson-11', 11),
+    ('module-1', 'lesson-11', 'Lesson 11', 'The Question at Delphi', 'Present middle forms and common deponents', 'lessons.html#lesson-11', 11),
     ('module-1', 'lesson-12', 'Lesson 12', 'The Examined Life', 'Module review: present, imperfect, infinitives, participles', 'lessons.html#lesson-12', 12),
     ('module-2', 'lesson-13', 'Lesson 13', 'The General Leads', 'Contract verbs, present system', 'lessons.html#lesson-13', 1),
     ('module-2', 'lesson-14', 'Lesson 14', 'Trust in Leadership', 'Imperfect of contract verbs, repeated past action', 'lessons.html#lesson-14', 2),

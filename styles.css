@@ -3591,6 +3591,12 @@
       box-shadow: var(--shadow);
     }
 
+    .lesson-culture-banner--full img {
+      aspect-ratio: auto;
+      height: auto;
+      object-fit: contain;
+    }
+
     .lesson-culture-banner figcaption,
     .culture-plan figcaption {
       margin-top: 8px;

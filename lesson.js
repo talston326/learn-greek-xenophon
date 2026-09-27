@@ -642,7 +642,7 @@
 
     return `
       ${renderSampleNotice()}
-      ${cultureBanner.image ? `<figure class="lesson-culture-banner">
+      ${cultureBanner.image ? `<figure class="lesson-culture-banner${cultureBanner.display === "full" ? " lesson-culture-banner--full" : ""}">
         <img src="${escapeHtml(resolveLessonImagePath(cultureBanner.image))}" alt="${escapeHtml(cultureBanner.alt || "")}">
         ${cultureBanner.caption || cultureBanner.credit ? `<figcaption>${escapeHtml(cultureBanner.caption || "")}${cultureBanner.credit ? ` <span>${escapeHtml(cultureBanner.credit)}</span>` : ""}${/^https:\/\//.test(cultureBanner.sourceUrl || "") ? ` <a href="${escapeHtml(cultureBanner.sourceUrl)}" target="_blank" rel="noopener noreferrer">Image source</a>.` : ""}${/^https:\/\//.test(cultureBanner.licenseUrl || "") ? ` <a href="${escapeHtml(cultureBanner.licenseUrl)}" target="_blank" rel="noopener noreferrer">License</a>.` : ""}</figcaption>` : ""}
       </figure>` : ""}
@@ -1438,6 +1438,7 @@
       draft.culture ||= {};
       draft.culture.title = fieldValue("culture-title");
       draft.culture.banner = {
+        ...(draft.culture.banner || {}),
         image: fieldValue("culture-banner-image"),
         alt: fieldValue("culture-banner-alt"),
         caption: fieldValue("culture-banner-caption"),

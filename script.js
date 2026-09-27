@@ -68,7 +68,7 @@ const COURSE_MODULES = [
       { id: "lesson-8", title: "A Household Finds a Way", grammar: "Declension variants, adjectives, and adverbs" },
       { id: "lesson-9", title: "What Makes a Good Friend?", grammar: "Alpha-contract verbs and elision" },
       { id: "lesson-10", title: "To Know and To Learn", grammar: "Infinitives (intro), complementary infinitives" },
-      { id: "lesson-11", title: "The Thinking Mind", grammar: "Participles (intro), present active participle" },
+      { id: "lesson-11", title: "The Question at Delphi", grammar: "Present middle forms and common deponents" },
       { id: "lesson-12", title: "The Examined Life", grammar: "Module review: present, imperfect, infinitives, participles" }
     ]
   },
@@ -1447,7 +1447,7 @@ const PROFESSOR_DASHBOARD_DATA = {
       email: "jdoe@email.sc.edu",
       progress: 27,
       currentLessonId: "lesson-11",
-      currentLesson: "Lesson 11 — The Thinking Mind",
+      currentLesson: "Lesson 11 — The Question at Delphi",
       level: "Apprentice",
       levelNumber: 4,
       averageGrade: "79%",
