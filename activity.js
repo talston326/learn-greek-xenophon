@@ -165,14 +165,15 @@
 
   function renderShell(content) {
     document.title = `${titleForActivity()} - Learn Greek with Xenophon`;
+    const isModuleOneActivity = ["module-review-practice", "module-exam"].includes(activityType);
     shell.innerHTML = `
       <header class="activity-header">
         <div>
-          <p class="eyebrow">Lesson ${escapeHtml(lesson?.number || "")}</p>
+          <p class="eyebrow">${isModuleOneActivity ? "Module I" : `Lesson ${escapeHtml(lesson?.number || "")}`}</p>
           <h1>${escapeHtml(titleForActivity())}</h1>
-          <p class="muted">${escapeHtml(lesson?.sampleNotice || lesson?.scope || "Reusable activity page")}</p>
+          <p class="muted">${isModuleOneActivity ? "Cumulative review of Lessons 1–12" : escapeHtml(lesson?.sampleNotice || lesson?.scope || "Reusable activity page")}</p>
         </div>
-        <a class="activity-return-link" href="${escapeHtml(returnTo)}">Exit / Return to Lesson</a>
+        <a class="activity-return-link" href="${escapeHtml(returnTo)}">${isModuleOneActivity ? "Return to Module 1 Review" : "Exit / Return to Lesson"}</a>
       </header>
       ${content}
     `;
@@ -539,7 +540,7 @@
         ${lesson.activities?.[activityType]?.instructions ? `<p>${escapeHtml(lesson.activities[activityType].instructions)}</p>` : ""}
         <div class="activity-question-types">
           <span>Multiple choice</span>
-          ${!lesson.activities?.[activityType]?.required ? `
+          ${!lesson.activities?.[activityType]?.required && activityType !== "module-review-practice" ? `
           <span>Future-ready: matching</span>
           <span>Future-ready: fill-in-the-blank</span>
           <span>Future-ready: translation builder</span>
@@ -547,7 +548,7 @@
         </div>
         ${questions.map((question, questionIndex) => `
           <fieldset class="quiz-question">
-            <legend>${lesson.activities?.[activityType]?.required ? `${questionIndex + 1}. ` : ""}${escapeHtml(question.prompt)}</legend>
+            <legend>${lesson.activities?.[activityType]?.required ? `${questionIndex + 1}. ` : ""}${question.sourceLesson ? `Lesson ${Number(question.sourceLesson)} · ` : ""}${escapeHtml(question.prompt)}</legend>
             <div class="quiz-choice-list">
               ${question.choices.map((choice, choiceIndex) => `
                 <label>
@@ -564,7 +565,7 @@
           <button type="button">Translation builder placeholder</button>
         </div>
         <div class="activity-submit-row">
-          <button class="primary-button" type="submit">Submit</button>
+          <button class="primary-button" type="submit">${lesson.activities?.[activityType]?.isModuleExam ? "Score Module 1 Exam" : "Submit"}</button>
         </div>
         <p class="activity-result" data-activity-result aria-live="polite"></p>
       </form>
@@ -874,7 +875,9 @@
       const selectedChoice = question.choices[selectedIndex];
       const isCorrect = Boolean(selectedChoice?.correct);
       if (feedback && selectedChoice) {
-        feedback.textContent = getChoiceFeedback(question, selectedChoice);
+        feedback.textContent = lesson.activities?.[activityType]?.isModuleExam
+          ? `Correct answer: ${getCorrectChoice(question)?.text}${/[.!?]$/.test(getCorrectChoice(question)?.text || "") ? "" : "."} Why: ${question.explanation}`
+          : getChoiceFeedback(question, selectedChoice);
         feedback.classList.toggle("is-correct", isCorrect);
         feedback.classList.toggle("is-wrong", !isCorrect);
       }
@@ -919,8 +922,6 @@
         }
       });
 
-      revealQuizFeedback(form, questions);
-
       const score = Math.round((correct / questions.length) * 100);
       const threshold = lesson.activities?.[activityType]?.threshold || 0;
       const passed = threshold ? score >= threshold : true;
@@ -933,7 +934,11 @@
         percent: Math.round((stats.correct / stats.total) * 100)
       }));
 
-      const savedResult = await window.xenophonLessonProgress?.recordActivityResult({
+      const answers = (activity.isModuleExam || (lesson.id === "lesson-12" && activityType === "lesson-quiz")) ? questions.map((question, questionIndex) => {
+        const selected = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
+        return { questionId: question.id, choiceText: question.choices[Number(selected.value)].text };
+      }) : undefined;
+      const savedResult = activityType === "module-review-practice" ? { score, passed } : await window.xenophonLessonProgress?.recordActivityResult({
         lessonSlug: lesson.id,
         activityType,
         activityRevision: activity.revision,
@@ -941,14 +946,20 @@
         passed,
         pointsEarned,
         pointsPossible,
-        categoryScores
+        categoryScores,
+        answers
       });
-      if (activityType === "lesson-quiz" && activity.revision && !savedResult) {
+      if (["lesson-quiz", "module-exam"].includes(activityType) && activity.revision && !savedResult) {
         if (result) result.textContent = "The quiz result could not be saved. Please submit again when connected.";
         return;
       }
+      revealQuizFeedback(form, questions);
 
-      if (passed && activityType === "lesson-quiz") {
+      const serverScored = activity.isModuleExam || (lesson.id === "lesson-12" && activityType === "lesson-quiz");
+      const scoredPercent = serverScored ? Number(savedResult.score) : score;
+      const scoredPassed = serverScored ? Boolean(savedResult.passed) : passed;
+      const scoredPoints = serverScored ? Number(savedResult.pointsEarned) : pointsEarned;
+      if (scoredPassed && activityType === "lesson-quiz") {
         const savedCompletion = await window.xenophonLessonProgress?.completeLesson({
           lessonSlug: lesson.id,
           nextLessonSlug: lesson.nextLesson.id,
@@ -963,9 +974,17 @@
 
       if (result) {
         const categoryFeedback = renderCategoryFeedback(activity, categoryScores);
-        result.innerHTML = passed
-          ? `Passed with ${score}% (${pointsEarned}/${pointsPossible} points). Review any marked answers below. <a class="primary-button" href="${escapeHtml(returnTo)}">Return to Lesson</a>${categoryFeedback}`
-          : `Score: ${score}% (${pointsEarned}/${pointsPossible} points). Review the marked answers below, then try again to reach ${threshold || 80}%.${categoryFeedback}`;
+        const retakeLink = activity.isModuleExam ? ` <a class="secondary-button" href="${escapeHtml(window.location.pathname + window.location.search)}">Retake Exam</a>` : "";
+        const nextHref = activity.isModuleExam ? "module-2-andreia.html" : lesson.id === "lesson-12" && activityType === "lesson-quiz" ? "module-1-review.html" : escapeHtml(returnTo);
+        const nextLabel = activity.isModuleExam ? "Continue to Module 2" : lesson.id === "lesson-12" && activityType === "lesson-quiz" ? "Continue to Module 1 Review" : "Return to Lesson";
+        result.innerHTML = activityType === "module-review-practice"
+          ? `Practice score: ${scoredPercent}% (${scoredPoints}/${pointsPossible}). Review every answer below. <a class="secondary-button" href="${escapeHtml(window.location.pathname + window.location.search)}">Try Exercises Again</a>`
+          : scoredPassed
+          ? `Passed with ${scoredPercent}% (${scoredPoints}/${pointsPossible} points). Review every answer below. <a class="primary-button" href="${nextHref}">${nextLabel}</a>${retakeLink}${categoryFeedback}`
+          : `Score: ${scoredPercent}% (${scoredPoints}/${pointsPossible} points). Review every answer below.${activity.isModuleExam ? ` You need 28/40 (70%) to enter Module 2.${retakeLink}` : ` Try again to reach ${threshold || 80}%.`}${categoryFeedback}`;
+      }
+      if (activity.isModuleExam || activityType === "module-review-practice") {
+        form.querySelectorAll('input[type="radio"], button[type="submit"]').forEach(control => { control.disabled = true; });
       }
     });
   }

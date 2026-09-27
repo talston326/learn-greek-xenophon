@@ -157,6 +157,12 @@ const lesson = lessonData.getLesson("lesson-3");
 assert.ok(lesson, "Lesson 3 should be defined");
 assert.equal(lesson.title, "The Education of Xenophon");
 assert.equal(lesson.greekTitle, "Ἡ παιδεία τοῦ Ξενοφῶντος");
+assert.equal(lesson.banner.image, "assets/lesson-3-banner.png");
+assert.match(lesson.banner.alt, /practices writing/);
+const banner = await readFile(path.join(rootDir, lesson.banner.image));
+assert.equal(banner.subarray(1, 4).toString(), "PNG");
+assert.deepEqual([banner.readUInt32BE(16), banner.readUInt32BE(20)], [2172, 724]);
+assert.match(lessonDataJs, /number: 3, title: "The Education of Xenophon",[^\n]*bannerImage: "assets\/lesson-3-banner\.png"/);
 assert.equal(lesson.pages[0].showTranslation, false, "Lesson 3 should preserve reveal-only translation behavior");
 assert.equal(lesson.reading.title, "Ἡ παιδεία τοῦ Ξενοφῶντος");
 assert.equal(lesson.reading.paragraphs.map((paragraph) => paragraph.greek).join("\n\n"), expectedGreek);
@@ -283,5 +289,12 @@ assert.match(migration, /lesson_3_education_vocabulary/, "Lesson 3 migration sho
 assert.match(migration, /Ὅμηρος, ὁ/, "Lesson 3 migration should include Homer");
 assert.match(migration, /DELETE FROM public.lesson_vocabulary/, "Lesson 3 migration should replace only Lesson 3 vocabulary links");
 assert.doesNotMatch(migration, /DELETE FROM public\\.lesson_progress|DELETE FROM public\\.student_lesson_test_grades|DELETE FROM public\\.activity_events/i, "Lesson 3 migration should not delete progress, grades, or activity records");
+
+const bannerMigration = await readFile(path.join(rootDir, "db/migrations/0036_lesson_3_education_banner.sql"), "utf8");
+assert.match(bannerMigration, /assets\/lesson-3-banner\.png/);
+assert.match(bannerMigration, /jsonb_set/);
+assert.doesNotMatch(bannerMigration, /lesson_progress|student_lesson_test_grades|activity_attempts/i);
+const packageJson = JSON.parse(await readFile(path.join(rootDir, "package.json"), "utf8"));
+assert.match(packageJson.scripts["db:migrate"], /0036_lesson_3_education_banner\.sql/);
 
 console.log(`Verified Lesson 3 reading, ${vocabulary.length} vocabulary entries, ${lesson.grammar.sections.length} grammar sections, ${notes.length} guided notes, and ${quiz.questions.length} test questions.`);

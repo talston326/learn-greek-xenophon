@@ -121,6 +121,12 @@ const lesson = lessonData.getLesson("lesson-2");
 assert.ok(lesson, "Lesson 2 should be defined");
 assert.equal(lesson.title, "The Household of Xenophon");
 assert.equal(lesson.greekTitle, "Ἡ οἰκία τοῦ Ξενοφῶντος");
+assert.equal(lesson.banner.image, "assets/lesson-2-banner.png");
+assert.match(lesson.banner.alt, /mother directs household work/);
+const banner = await readFile(path.join(rootDir, lesson.banner.image));
+assert.equal(banner.subarray(1, 4).toString(), "PNG");
+assert.deepEqual([banner.readUInt32BE(16), banner.readUInt32BE(20)], [2172, 724]);
+assert.equal(lessonDataJs.includes('number: 2, title: "The Household of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-2-banner.png"'), true);
 assert.equal(lesson.pages[0].showTranslation, false, "Lesson 2 should preserve reveal-only translation behavior");
 assert.equal(lesson.reading.title, "Ἡ οἰκία τοῦ Ξενοφῶντος");
 assert.equal(lesson.reading.paragraphs.map((paragraph) => paragraph.greek).join("\n\n"), expectedGreek);
@@ -200,5 +206,12 @@ assert.match(migration, /γυνή, ἡ/, "Lesson 2 migration should include γυ
 assert.doesNotMatch(migration, /Prepositions and Other/, "Lesson 2 migration should not create a preposition vocabulary group");
 assert.match(migration, /DELETE FROM public.lesson_vocabulary/, "Lesson 2 migration should replace only Lesson 2 vocabulary links");
 assert.doesNotMatch(migration, /lesson_progress|student_lesson_test_grades|activity_attempts/i, "Lesson 2 migration should not touch progress or grade records");
+
+const bannerMigration = await readFile(path.join(rootDir, "db/migrations/0035_lesson_2_household_banner.sql"), "utf8");
+assert.match(bannerMigration, /assets\/lesson-2-banner\.png/);
+assert.match(bannerMigration, /jsonb_set/);
+assert.doesNotMatch(bannerMigration, /lesson_progress|student_lesson_test_grades|activity_attempts/i);
+const packageJson = JSON.parse(await readFile(path.join(rootDir, "package.json"), "utf8"));
+assert.match(packageJson.scripts["db:migrate"], /0035_lesson_2_household_banner\.sql/);
 
 console.log(`Verified Lesson 2 reading, ${vocabulary.length} vocabulary entries, ${grammarTables.length} grammar tables, and ${notes.length} guided notes.`);

@@ -18,6 +18,35 @@ const ROLE_LABELS = {
 
 const OPEN_LESSON_ACCESS_DURING_BUILD = true;
 window.xenophonOpenLessonAccess = OPEN_LESSON_ACCESS_DURING_BUILD;
+const MODULE_ONE_EXAM_REVISION = "module-1-exam-v1";
+const LESSON_TWELVE_QUIZ_REVISION = "lesson-12-final-v1";
+
+function hasLessonTwelveQuizPassed(progress = readSession()?.progress || {}) {
+  const session = readSession();
+  if (["administrator", "professor"].includes(session?.activeRole) && (session?.roles || []).includes(session.activeRole)) return true;
+  return (progress.passedQuizRevisions?.["lesson-12"] || []).includes(LESSON_TWELVE_QUIZ_REVISION);
+}
+window.xenophonLessonTwelveQuizPassed = hasLessonTwelveQuizPassed;
+
+function hasModuleOneExamPassed(progress = readSession()?.progress || {}) {
+  const session = readSession();
+  if (["administrator", "professor"].includes(session?.activeRole) && (session?.roles || []).includes(session.activeRole)) return true;
+  return (progress.passedQuizRevisions?.["lesson-12"] || []).includes(MODULE_ONE_EXAM_REVISION);
+}
+window.xenophonModuleOneExamPassed = hasModuleOneExamPassed;
+
+const moduleGatePath = window.location.pathname.split("/").pop();
+const requestedModuleLesson = Number(new URLSearchParams(window.location.search).get("lesson") || 0);
+const requestedActivity = new URLSearchParams(window.location.search).get("type");
+if ((moduleGatePath === "module-1-review.html" || (moduleGatePath === "activity.html" && requestedModuleLesson === 12 && ["module-review-practice", "module-exam"].includes(requestedActivity)))
+  && !hasLessonTwelveQuizPassed()) {
+  window.location.replace("lesson.html?lesson=12&page=3");
+}
+if ((["module-2-andreia.html", "module-3-sophrosyne.html", "module-4-dikaiosyne.html"].includes(moduleGatePath)
+  || (["lesson.html", "activity.html"].includes(moduleGatePath) && requestedModuleLesson >= 13))
+  && !hasModuleOneExamPassed()) {
+  window.location.replace("module-1-review.html");
+}
 
 const LESSON_URLS = {
   "course-introduction": "course-introduction.html",
@@ -69,7 +98,7 @@ const COURSE_MODULES = [
       { id: "lesson-9", title: "What Makes a Good Friend?", grammar: "Alpha-contract verbs and elision" },
       { id: "lesson-10", title: "To Know and To Learn", grammar: "Infinitives (intro), complementary infinitives" },
       { id: "lesson-11", title: "The Question at Delphi", grammar: "Present middle forms and common deponents" },
-      { id: "lesson-12", title: "The Question He Did Not Ask", grammar: "Middle meanings, datives, prepositions, and cumulative Module 1 review" }
+      { id: "lesson-12", title: "The Question He Did Not Ask", grammar: "Middle meanings, datives, prepositions, and the choice to go or stay" }
     ]
   },
   {
@@ -1090,6 +1119,7 @@ function isLessonComplete(progress, lessonId) {
 
 function isLessonUnlocked(lesson, progress) {
   const lessonNumber = Number(lesson.id.match(/^lesson-(\d+)$/)?.[1] || 0);
+  if (lessonNumber >= 13 && !hasModuleOneExamPassed(progress)) return false;
   if (lessonNumber >= 6) {
     const session = readSession();
     const isStaff = ["administrator", "professor"].includes(session?.activeRole)
@@ -3306,6 +3336,9 @@ function getContinueUrl(progress) {
 }
 
 function getLessonStatus(lesson, progress) {
+  if (Number(lesson.id.match(/^lesson-(\d+)$/)?.[1] || 0) >= 13 && !hasModuleOneExamPassed(progress)) {
+    return "locked";
+  }
   if (lesson.id === "intro-1") {
     const overview = getUnit0Overview();
     if (overview.percent === 100) {
@@ -3861,6 +3894,28 @@ function createLessonListItem(lesson, progress, isCompact = false) {
   return item;
 }
 
+function createModuleOneReviewListItem(progress) {
+  const unlocked = hasLessonTwelveQuizPassed(progress);
+  const item = document.createElement("article");
+  item.id = "module-1-review";
+  item.className = `lesson-list-item module-review-list-item ${unlocked ? "available" : "locked"}`;
+  item.innerHTML = `
+    <div class="lesson-list-marker" aria-hidden="true">${unlocked ? "✓" : "·"}</div>
+    <div class="lesson-list-copy">
+      <p class="eyebrow">Module I</p>
+      <h3>Module I Review and Exam</h3>
+      <p class="lesson-grammar">Review Lessons 1–12, practice, and take the cumulative exam.</p>
+      <div class="lesson-meta"><span>${unlocked ? "Unlocked" : "Pass the Lesson 12 quiz to unlock"}</span></div>
+    </div>
+  `;
+  const link = document.createElement("a");
+  link.className = "continue-btn";
+  link.href = unlocked ? "module-1-review.html" : "lesson.html?lesson=12&page=3";
+  link.textContent = unlocked ? "Open Review and Exam" : "Finish Lesson 12";
+  item.appendChild(link);
+  return item;
+}
+
 function renderLearningPath(progress) {
   if (!learningPathEl) {
     return;
@@ -4214,6 +4269,9 @@ function renderLessonsPage(session) {
     const list = document.createElement("div");
     list.className = "module-lessons";
     moduleLessons.forEach((lesson) => list.appendChild(createLessonListItem(lesson, progress)));
+    if (module.id === "module-1") {
+      list.appendChild(createModuleOneReviewListItem(progress));
+    }
     section.appendChild(list);
     lessonsListEl.appendChild(section);
   });

@@ -124,18 +124,24 @@
     }
   }
 
-  async function recordActivityResult({ lessonSlug, activityType, activityRevision, score, passed, pointsEarned, pointsPossible, categoryScores }) {
+  async function recordActivityResult({ lessonSlug, activityType, activityRevision, score, passed, pointsEarned, pointsPossible, categoryScores, answers }) {
     let savedRevisionedQuiz = null;
-    if (activityType === "lesson-quiz" && activityRevision) {
+    if (["lesson-quiz", "module-exam"].includes(activityType) && activityRevision) {
       try {
         savedRevisionedQuiz = await postProgress({
           action: "activity_passed", lessonSlug, activityType, activityRevision,
-          score, passed, pointsEarned, pointsPossible, categoryScores
+          score, passed, pointsEarned, pointsPossible, categoryScores, answers
         });
       } catch (error) {
         console.warn("The final quiz result could not be saved.", error);
         return null;
       }
+    }
+    if (savedRevisionedQuiz && Number.isFinite(Number(savedRevisionedQuiz.score))) {
+      score = Number(savedRevisionedQuiz.score);
+      passed = Boolean(savedRevisionedQuiz.passed);
+      pointsEarned = Number(savedRevisionedQuiz.pointsEarned);
+      pointsPossible = Number(savedRevisionedQuiz.pointsPossible);
     }
     updateLessonFallback(lessonSlug, (lessonState) => {
       lessonState.gates ||= {};
@@ -158,7 +164,7 @@
         progress.completedExercises[lessonSlug] = Array.from(completed);
       }
 
-      if (passed && activityType === "lesson-quiz") {
+      if (passed && ["lesson-quiz", "module-exam"].includes(activityType)) {
         progress.passedQuizzes = Array.from(new Set([...(progress.passedQuizzes || []), lessonSlug]));
         if (activityRevision) {
           progress.passedQuizRevisions ||= {};
@@ -238,7 +244,7 @@
 
     const progress = readSession()?.progress || {};
 
-    if (activityType === "lesson-quiz") {
+    if (["lesson-quiz", "module-exam"].includes(activityType)) {
       if (activityRevision) {
         return Boolean((progress.passedQuizRevisions?.[lessonSlug] || []).includes(activityRevision));
       }

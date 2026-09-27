@@ -4825,8 +4825,8 @@
   ];
 
   const LESSON_STUB_MANIFEST = [
-    { number: 2, title: "The Household of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian household and farm scene reserved for a Xenophon lesson banner", grammarFocus: "Second-declension nouns, adjective agreement, possessive genitives, εἰμί, and simple prepositions", greekPhrase: "Ἡ οἰκία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household setting with simple grammar for possession, place, movement, and work." },
-    { number: 3, title: "The Education of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/module-1-sophia-banner.jpeg", bannerAlt: "A classical Athenian education scene with a young student and teacher", grammarFocus: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, and demonstratives", greekPhrase: "Ἡ παιδεία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household responsibilities with early Athenian education." },
+    { number: 2, title: "The Household of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-2-banner.png", bannerAlt: "Xenophon's mother directs household work while Xenophon and Gryllus leave for the fields with a horse and donkey", grammarFocus: "Second-declension nouns, adjective agreement, possessive genitives, εἰμί, and simple prepositions", greekPhrase: "Ἡ οἰκία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household setting with simple grammar for possession, place, movement, and work." },
+    { number: 3, title: "The Education of Xenophon", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-3-banner.png", bannerAlt: "Young Xenophon practices writing while a teacher reads Homer and another teacher instructs boys in music", grammarFocus: "Third-person present verbs, accusative direct objects, infinitives, introductory middle/passive forms, and demonstratives", greekPhrase: "Ἡ παιδεία τοῦ Ξενοφῶντος", sourceAnchor: "Plausible reconstruction inspired by Xenophon, Oeconomicus", cultureLead: "This lesson connects Xenophon’s household responsibilities with early Athenian education." },
     { number: 5, title: "An Unexpected Question", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-5-banner.png", bannerAlt: "Socrates stops Xenophon in a narrow lane", grammarFocus: "Third-person plurals; commands; infinitives", greekPhrase: "ἕπου τοίνυν καὶ μάνθανε.", sourceAnchor: "Diogenes Laertius 2.48", cultureLead: "An ancient anecdote about the beginning of Xenophon’s association with Socrates." },
     { number: 6, title: "Strength of Body and Mind", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-6-banner-v3.png", bannerAlt: "Seated Socrates speaks with the slight-framed Epigenes while Xenophon and Clinias stand nearby; unclothed wrestling and pankration pairs train behind a low wall", grammarFocus: "Plural article, adjective, and noun cases; shifting accents", greekPhrase: "Ὁ Σωκράτης καὶ ὁ Ἐπιγένης ἐν τῷ γυμνασίῳ", sourceAnchor: "Xenophon, Memorabilia 3.12.1–8", cultureLead: "This lesson will connect bodily training, care for friends and city, and the work of the mind." },
     { number: 7, title: "The Road to Eleusis", module: "σοφία — Wisdom and Socrates", moduleTheme: "Wisdom and Socrates", bannerImage: "assets/lesson-7-road-banner-v2.png", bannerAlt: "Xenophon, Clinias, Myrrhine, and her sister on the Sacred Way", grammarFocus: "All present active persons; first-declension feminine nouns", greekPhrase: "Ἡ πομπὴ πρὸς τὴν Ἐλευσῖνα", sourceAnchor: "Course reconstruction; public Eleusinian procession", cultureLead: "Eleusis, its procession, and its place in Greek religious life." },
@@ -5062,8 +5062,8 @@ After the work, Xenophon returns to the house. His mother prepares dinner. His f
     theme: "Xenophon’s household, family responsibilities, and chores around the house and farm",
     module: "σοφία — Wisdom and Socrates",
     banner: {
-      image: "assets/module-1-sophia-banner.jpeg",
-      alt: "A classical Athenian household and farm scene",
+      image: "assets/lesson-2-banner.png",
+      alt: "Xenophon's mother directs household work while Xenophon and Gryllus leave for the fields with a horse and donkey",
       text: "Ἡ οἰκία τοῦ Ξενοφῶντος",
       caption: "ὁ Ξενοφῶν μετὰ τοῦ πατρὸς εἰς τὸν ἀγρὸν βαδίζει."
     },
@@ -5927,8 +5927,8 @@ Xenophon is young, but he wants to become wise.`;
     theme: "Xenophon’s education, chores, household duties, and early school life",
     module: "σοφία — Wisdom and Socrates",
     banner: {
-      image: "assets/module-1-sophia-banner.jpeg",
-      alt: "A classical Athenian education scene with a young student and teacher",
+      image: "assets/lesson-3-banner.png",
+      alt: "Young Xenophon practices writing while a teacher reads Homer and another teacher instructs boys in music",
       text: "Ἡ παιδεία τοῦ Ξενοφῶντος",
       caption: "ὁ Ξενοφῶν βούλεται τὰ ἔπη μανθάνειν."
     },
@@ -21109,6 +21109,7 @@ Xenophon is young, but he wants to become wise.`;
   const LESSONS = {
     "lesson-1": {
       id: "lesson-1",
+      contentRevision: "lesson-1-household-page-v2",
       number: 1,
       title: "Xenophon at Home",
       greekTitle: "Ὁ Ξενοφῶν ἐν τῷ οἴκῳ",
@@ -21295,24 +21296,29 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       culture: {
-        title: "Socrates in the Agora",
+        title: "A Horse in Xenophon’s Household",
         body: [
-          "Socrates did not teach in a classroom in the modern sense. He moved through Athens, especially through public spaces such as the agora, speaking with citizens, craftsmen, politicians, poets, and young men. His method was conversational. Instead of simply giving answers, he asked questions. A person might claim to know what courage, justice, piety, or wisdom was. Socrates would then ask careful questions that exposed confusion, contradiction, or shallow thinking.",
-          "This method could be exciting, but it could also be uncomfortable. Socrates treated the soul as something that needed training, just as the body needed exercise. In Xenophon’s portrait, Socrates is not merely a clever debater. He is a moral teacher who wants his companions to become better, more disciplined, and more thoughtful human beings.",
-          "Xenophon admired Socrates deeply. In the Memorabilia, Xenophon presents Socrates as a man who benefited his friends by conversation, example, and moral seriousness. For this course, Socrates becomes the first guide into Greek because he represents the beginning of inquiry: What is the good life? What is virtue? How should a person train both body and soul?"
+          "The reading begins with Xenophon’s family outside the city of Athens. A later ancient writer, Diogenes Laertius, names Xenophon as the son of Gryllus and a citizen of the Athenian district (deme) of Erchia. Deme membership tells us about civic identity; it does not prove that Xenophon lived in Erchia as a child. The house on a hill, his mother calling the family to dinner, the dog, and this particular day with the horse are scenes reconstructed for the course, not recorded events.",
+          "Xenophon brings the horse water and grain, then leads it toward the field before going in to eat. Care for a horse was daily work. Much later, in On Horsemanship, Xenophon advises an owner to watch the horse often and attend to its food, exercise, feet, and signs of illness. He also discusses the groom’s work. His advice helps us understand why the reading gives the horse such attention, but it does not tell us that the young Xenophon personally performed these chores.",
+          "The mother’s call brings the household together at the end of the reading. The scene connects the care of an animal with the shared rhythm of work and dinner. As you reread, notice what each person does: Gryllus praises Xenophon, his mother calls them inside, and Xenophon finishes caring for the horse before joining the family."
+        ],
+        sources: [
+          { title: "Diogenes Laertius, Lives of the Eminent Philosophers 2.48 (Gryllus and Erchia)", url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diogenes_Laertius/Lives_of_the_Eminent_Philosophers/2/Xenophon*.html" },
+          { title: "Xenophon, On Horsemanship 4 (feeding, exercise, and the horse’s condition)", url: "https://cts.perseids.org/read/greekLit/tlg0032/tlg013/perseus-eng2/4.1-4.5" },
+          { title: "Xenophon, On Horsemanship 5 (the groom’s work)", url: "https://www.falsafa.ai/works/xenophon-on-the-art-of-horsemanship-9c7615/05/translation/" }
         ],
         questions: [
           {
-            prompt: "Where did Socrates often speak with people in Athens?",
-            answer: "In public spaces such as the agora."
+            prompt: "What does Xenophon do for the horse in the reading?",
+            answer: "He brings it water and grain, then leads it toward the field."
           },
           {
-            prompt: "How did Socrates usually teach?",
-            answer: "By conversation and questioning."
+            prompt: "What does the ancient evidence tell us about Erchia?",
+            answer: "A later ancient writer identifies Erchia as Xenophon’s Athenian deme; his childhood home there is not documented."
           },
           {
-            prompt: "Why is Socrates a fitting guide for the beginning of the course?",
-            answer: "Because he represents inquiry into wisdom, virtue, and the good life."
+            prompt: "How does Xenophon’s later writing help us understand the horse scene?",
+            answer: "On Horsemanship shows that feeding, exercise, and attentive care mattered, though it does not document these childhood chores."
           }
         ]
       },
@@ -21710,172 +21716,352 @@ Xenophon is young, but he wants to become wise.`;
           ]
         },
         "lesson-quiz": {
-          title: "Lesson 1 Quiz — Xenophon at Home",
-          threshold: 80,
-          questions: [
+          "title": "Lesson 1 Quiz — Xenophon at Home",
+          "threshold": 80,
+          "questions": [
             {
-              id: "lesson-quiz-1",
-              type: "multiple_choice",
-              prompt: "What does διδάσκει mean?",
-              choices: [
-                { text: "he teaches", correct: true },
-                { text: "he writes", correct: false },
-                { text: "he walks", correct: false },
-                { text: "he sees", correct: false }
+              "id": "lesson-quiz-1",
+              "type": "multiple_choice",
+              "prompt": "What does θεραπεύει mean?",
+              "choices": [
+                {
+                  "text": "he tends or cares for",
+                  "correct": true
+                },
+                {
+                  "text": "he writes",
+                  "correct": false
+                },
+                {
+                  "text": "he calls",
+                  "correct": false
+                },
+                {
+                  "text": "he walks",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-2",
-              type: "multiple_choice",
-              prompt: "What does σοφία mean?",
-              choices: [
-                { text: "soul", correct: false },
-                { text: "wisdom", correct: true },
-                { text: "body", correct: false },
-                { text: "truth", correct: false }
+              "id": "lesson-quiz-2",
+              "type": "multiple_choice",
+              "prompt": "Where does the reading place Xenophon’s home?",
+              "choices": [
+                {
+                  "text": "in Sparta",
+                  "correct": false
+                },
+                {
+                  "text": "in Erchia",
+                  "correct": true
+                },
+                {
+                  "text": "in Delphi",
+                  "correct": false
+                },
+                {
+                  "text": "in Persia",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-3",
-              type: "multiple_choice",
-              prompt: "What does ὁ Σωκράτης mean?",
-              choices: [
-                { text: "Socrates as subject", correct: true },
-                { text: "Socrates as direct object", correct: false },
-                { text: "wisdom", correct: false },
-                { text: "the soul", correct: false }
+              "id": "lesson-quiz-3",
+              "type": "multiple_choice",
+              "prompt": "In the reading, what does ὁ Ξενοφῶν mean?",
+              "choices": [
+                {
+                  "text": "Xenophon as direct object",
+                  "correct": false
+                },
+                {
+                  "text": "the horse as subject",
+                  "correct": false
+                },
+                {
+                  "text": "Xenophon as subject",
+                  "correct": true
+                },
+                {
+                  "text": "Xenophon’s father",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-4",
-              type: "multiple_choice",
-              prompt: "In the sentence ὁ Σωκράτης διδάσκει, what case is ὁ Σωκράτης?",
-              choices: [
-                { text: "nominative", correct: true },
-                { text: "accusative", correct: false },
-                { text: "genitive", correct: false },
-                { text: "dative", correct: false }
+              "id": "lesson-quiz-4",
+              "type": "multiple_choice",
+              "prompt": "What case is ὁ Ξενοφῶν in ὁ Ξενοφῶν τὸν ἵππον θεραπεύει?",
+              "choices": [
+                {
+                  "text": "accusative",
+                  "correct": false
+                },
+                {
+                  "text": "genitive",
+                  "correct": false
+                },
+                {
+                  "text": "dative",
+                  "correct": false
+                },
+                {
+                  "text": "nominative",
+                  "correct": true
+                }
               ]
             },
             {
-              id: "lesson-quiz-5",
-              type: "multiple_choice",
-              prompt: "In the phrase τὸν λόγον, what case is τὸν λόγον?",
-              choices: [
-                { text: "nominative", correct: false },
-                { text: "accusative", correct: true },
-                { text: "vocative", correct: false },
-                { text: "dative", correct: false }
+              "id": "lesson-quiz-5",
+              "type": "multiple_choice",
+              "prompt": "What case is τὸν ἵππον in ὁ Ξενοφῶν τὸν ἵππον θεραπεύει?",
+              "choices": [
+                {
+                  "text": "accusative",
+                  "correct": true
+                },
+                {
+                  "text": "nominative",
+                  "correct": false
+                },
+                {
+                  "text": "genitive",
+                  "correct": false
+                },
+                {
+                  "text": "vocative",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-6",
-              type: "multiple_choice",
-              prompt: "Which article is feminine nominative singular?",
-              choices: [
-                { text: "ὁ", correct: false },
-                { text: "ἡ", correct: true },
-                { text: "τό", correct: false },
-                { text: "τόν", correct: false }
+              "id": "lesson-quiz-6",
+              "type": "multiple_choice",
+              "prompt": "Which article is feminine nominative singular?",
+              "choices": [
+                {
+                  "text": "ὁ",
+                  "correct": false
+                },
+                {
+                  "text": "ἡ",
+                  "correct": true
+                },
+                {
+                  "text": "τό",
+                  "correct": false
+                },
+                {
+                  "text": "τόν",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-7",
-              type: "multiple_choice",
-              prompt: "Which article is masculine accusative singular?",
-              choices: [
-                { text: "ὁ", correct: false },
-                { text: "ἡ", correct: false },
-                { text: "τόν", correct: true },
-                { text: "τήν", correct: false }
+              "id": "lesson-quiz-7",
+              "type": "multiple_choice",
+              "prompt": "Which article is masculine accusative singular?",
+              "choices": [
+                {
+                  "text": "ὁ",
+                  "correct": false
+                },
+                {
+                  "text": "ἡ",
+                  "correct": false
+                },
+                {
+                  "text": "τόν",
+                  "correct": true
+                },
+                {
+                  "text": "τήν",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-8",
-              type: "multiple_choice",
-              prompt: "Which phrase means “the good man”?",
-              choices: [
-                { text: "ἡ καλὴ ψυχή", correct: false },
-                { text: "τὸ καλὸν σῶμα", correct: false },
-                { text: "ὁ καλὸς ἄνθρωπος", correct: true },
-                { text: "τὴν καλὴν σοφίαν", correct: false }
+              "id": "lesson-quiz-8",
+              "type": "multiple_choice",
+              "prompt": "Which phrase means “the good horseman” as a subject?",
+              "choices": [
+                {
+                  "text": "τὸν ἀγαθὸν ἵππον",
+                  "correct": false
+                },
+                {
+                  "text": "ἡ καλὴ μήτηρ",
+                  "correct": false
+                },
+                {
+                  "text": "ὁ καλὸς ἵππος",
+                  "correct": false
+                },
+                {
+                  "text": "ὁ ἀγαθὸς ἱππεύς",
+                  "correct": true
+                }
               ]
             },
             {
-              id: "lesson-quiz-9",
-              type: "multiple_choice",
-              prompt: "What does ψυχή mean?",
-              choices: [
-                { text: "body", correct: false },
-                { text: "soul", correct: true },
-                { text: "speech", correct: false },
-                { text: "book", correct: false }
+              "id": "lesson-quiz-9",
+              "type": "multiple_choice",
+              "prompt": "What does ὕδωρ mean?",
+              "choices": [
+                {
+                  "text": "water",
+                  "correct": true
+                },
+                {
+                  "text": "grain",
+                  "correct": false
+                },
+                {
+                  "text": "field",
+                  "correct": false
+                },
+                {
+                  "text": "horse",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-10",
-              type: "multiple_choice",
-              prompt: "What does σῶμα mean?",
-              choices: [
-                { text: "body", correct: true },
-                { text: "truth", correct: false },
-                { text: "student", correct: false },
-                { text: "virtue", correct: false }
+              "id": "lesson-quiz-10",
+              "type": "multiple_choice",
+              "prompt": "What does σῖτος mean in the reading?",
+              "choices": [
+                {
+                  "text": "water",
+                  "correct": false
+                },
+                {
+                  "text": "grain",
+                  "correct": true
+                },
+                {
+                  "text": "dog",
+                  "correct": false
+                },
+                {
+                  "text": "dinner",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-11",
-              type: "multiple_choice",
-              prompt: "In the passage, what does Socrates say the good man trains?",
-              choices: [
-                { text: "only the body", correct: false },
-                { text: "only the soul", correct: false },
-                { text: "both body and soul", correct: true },
-                { text: "neither body nor soul", correct: false }
+              "id": "lesson-quiz-11",
+              "type": "multiple_choice",
+              "prompt": "What does Xenophon bring to the horse?",
+              "choices": [
+                {
+                  "text": "a book and a tablet",
+                  "correct": false
+                },
+                {
+                  "text": "a shield and a spear",
+                  "correct": false
+                },
+                {
+                  "text": "water and grain",
+                  "correct": true
+                },
+                {
+                  "text": "bread and wine",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-12",
-              type: "multiple_choice",
-              prompt: "What does Xenophon do when he hears Socrates?",
-              choices: [
-                { text: "He writes a book immediately.", correct: false },
-                { text: "He ignores Socrates.", correct: false },
-                { text: "He is amazed and rejoices.", correct: true },
-                { text: "He leaves Athens.", correct: false }
+              "id": "lesson-quiz-12",
+              "type": "multiple_choice",
+              "prompt": "Who calls Gryllus and Xenophon to dinner?",
+              "choices": [
+                {
+                  "text": "his father",
+                  "correct": false
+                },
+                {
+                  "text": "the dog",
+                  "correct": false
+                },
+                {
+                  "text": "a teacher",
+                  "correct": false
+                },
+                {
+                  "text": "Xenophon’s mother",
+                  "correct": true
+                }
               ]
             },
             {
-              id: "lesson-quiz-13",
-              type: "multiple_choice",
-              prompt: "Which verb means “he seeks”?",
-              choices: [
-                { text: "ζητεῖ", correct: true },
-                { text: "λέγει", correct: false },
-                { text: "χαίρει", correct: false },
-                { text: "βαδίζει", correct: false }
+              "id": "lesson-quiz-13",
+              "type": "multiple_choice",
+              "prompt": "Which verb means “he leads”?",
+              "choices": [
+                {
+                  "text": "ἄγει",
+                  "correct": true
+                },
+                {
+                  "text": "λέγει",
+                  "correct": false
+                },
+                {
+                  "text": "μένει",
+                  "correct": false
+                },
+                {
+                  "text": "χαίρει",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-14",
-              type: "multiple_choice",
-              prompt: "Which noun is neuter?",
-              choices: [
-                { text: "ἄνθρωπος", correct: false },
-                { text: "σοφία", correct: false },
-                { text: "βιβλίον", correct: true },
-                { text: "ψυχή", correct: false }
+              "id": "lesson-quiz-14",
+              "type": "multiple_choice",
+              "prompt": "Which noun in the reading is neuter?",
+              "choices": [
+                {
+                  "text": "ὁ ἵππος",
+                  "correct": false
+                },
+                {
+                  "text": "τὸ δεῖπνον",
+                  "correct": true
+                },
+                {
+                  "text": "ἡ μήτηρ",
+                  "correct": false
+                },
+                {
+                  "text": "ὁ κύων",
+                  "correct": false
+                }
               ]
             },
             {
-              id: "lesson-quiz-15",
-              type: "multiple_choice",
-              prompt: "What is the best translation of ἡ ἀρετὴ καλὴ ἐστιν?",
-              choices: [
-                { text: "Virtue is good/noble.", correct: true },
-                { text: "The body is bad.", correct: false },
-                { text: "Socrates teaches.", correct: false },
-                { text: "Xenophon walks.", correct: false }
+              "id": "lesson-quiz-15",
+              "type": "multiple_choice",
+              "prompt": "Which claim about Xenophon’s childhood is supported by an ancient source?",
+              "choices": [
+                {
+                  "text": "We know the exact dinner conversation.",
+                  "correct": false
+                },
+                {
+                  "text": "We know he personally fed this horse.",
+                  "correct": false
+                },
+                {
+                  "text": "A later writer names Gryllus as his father and Erchia as his deme.",
+                  "correct": true
+                },
+                {
+                  "text": "We know his family kept this dog.",
+                  "correct": false
+                }
               ]
             }
           ]
@@ -58006,7 +58192,7 @@ Xenophon is young, but he wants to become wise.`;
       }
     ],
     "review": {
-      "title": "Module 1 closes",
+      "title": "Lesson 12 review",
       "items": [
         "Read the contrast between πότερον … ἢ and ὅπως.",
         "Explain the datives τῷ Σωκράτει, σὺν τῷ Προξένῳ, and ἐν Σάρδεσι.",
@@ -60782,7 +60968,7 @@ Xenophon is young, but he wants to become wise.`;
       "requireAllAnswers": true,
       "revision": "lesson-12-final-v1",
       "pointsPossible": 30,
-      "instructions": "Answer all 30 questions. Score at least 80% to complete Module 1.",
+      "instructions": "Answer all 30 Lesson 12 questions. Score at least 80% to continue to the Module 1 Review and Exam.",
       "questions": [
         {
           "id": "lesson-12-final-01",
@@ -61625,14 +61811,1925 @@ Xenophon is young, but he wants to become wise.`;
           ]
         }
       ]
+    },
+    "module-review-practice": {
+      "title": "Module 1 Refresher Exercises",
+      "description": "Ungraded practice across every lesson",
+      "requireAllAnswers": true,
+      "instructions": "Answer all 24 questions, then read the explanations. Repeat whenever you want.",
+      "questions": [
+        {
+          "id": "module-1-practice-l1-5",
+          "type": "multiple-choice",
+          "category": "Lesson 1",
+          "sourceLesson": 1,
+          "prompt": "What case is τὸν ἵππον in ὁ Ξενοφῶν τὸν ἵππον θεραπεύει?",
+          "explanation": "τὸν ἵππον is accusative because the horse receives the action.",
+          "choices": [
+            {
+              "text": "accusative",
+              "correct": true,
+              "feedback": "Correct answer: accusative. τὸν ἵππον is accusative because the horse receives the action."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Correct answer: accusative. τὸν ἵππον is accusative because the horse receives the action."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Correct answer: accusative. τὸν ἵππον is accusative because the horse receives the action."
+            },
+            {
+              "text": "vocative",
+              "correct": false,
+              "feedback": "Correct answer: accusative. τὸν ἵππον is accusative because the horse receives the action."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l1-11",
+          "type": "multiple-choice",
+          "category": "Lesson 1",
+          "sourceLesson": 1,
+          "prompt": "What does Xenophon bring to the horse?",
+          "explanation": "The reading says Xenophon brings water and grain to the horse.",
+          "choices": [
+            {
+              "text": "a book and a tablet",
+              "correct": false,
+              "feedback": "Correct answer: water and grain. The reading says Xenophon brings water and grain to the horse."
+            },
+            {
+              "text": "a shield and a spear",
+              "correct": false,
+              "feedback": "Correct answer: water and grain. The reading says Xenophon brings water and grain to the horse."
+            },
+            {
+              "text": "water and grain",
+              "correct": true,
+              "feedback": "Correct answer: water and grain. The reading says Xenophon brings water and grain to the horse."
+            },
+            {
+              "text": "bread and wine",
+              "correct": false,
+              "feedback": "Correct answer: water and grain. The reading says Xenophon brings water and grain to the horse."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l2-3",
+          "type": "multiple-choice",
+          "category": "Lesson 2",
+          "sourceLesson": 2,
+          "prompt": "τίς ἐν τῇ οἰκίᾳ μένει; (Who remains in the house?)",
+          "explanation": "The mother remains in the house.",
+          "choices": [
+            {
+              "text": "ἡ μήτηρ",
+              "correct": true,
+              "feedback": "Correct answer: ἡ μήτηρ. The mother remains in the house."
+            },
+            {
+              "text": "ὁ πατήρ",
+              "correct": false,
+              "feedback": "Correct answer: ἡ μήτηρ. The mother remains in the house."
+            },
+            {
+              "text": "ὁ ἵππος",
+              "correct": false,
+              "feedback": "Correct answer: ἡ μήτηρ. The mother remains in the house."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l2-5",
+          "type": "multiple-choice",
+          "category": "Lesson 2",
+          "sourceLesson": 2,
+          "prompt": "μετὰ τίνος ὁ Ξενοφῶν εἰς τὸν ἀγρὸν βαδίζει; (With whom does Xenophon walk to the field?)",
+          "explanation": "He walks with his father.",
+          "choices": [
+            {
+              "text": "μετὰ τοῦ πατρός",
+              "correct": true,
+              "feedback": "Correct answer: μετὰ τοῦ πατρός. He walks with his father."
+            },
+            {
+              "text": "μετὰ τὸ ἔργον",
+              "correct": false,
+              "feedback": "Correct answer: μετὰ τοῦ πατρός. He walks with his father."
+            },
+            {
+              "text": "μετὰ τῆς μητρός",
+              "correct": false,
+              "feedback": "Correct answer: μετὰ τοῦ πατρός. He walks with his father."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l3-10",
+          "type": "multiple-choice",
+          "category": "Lesson 3",
+          "sourceLesson": 3,
+          "prompt": "Complete: ὁ Ξενοφῶν βούλεται ___.",
+          "explanation": "βούλεται takes the infinitive.",
+          "choices": [
+            {
+              "text": "μανθάνει",
+              "correct": false,
+              "feedback": "Correct answer: μανθάνειν. βούλεται takes the infinitive."
+            },
+            {
+              "text": "μανθάνουσιν",
+              "correct": false,
+              "feedback": "Correct answer: μανθάνειν. βούλεται takes the infinitive."
+            },
+            {
+              "text": "μανθάνειν",
+              "correct": true,
+              "feedback": "Correct answer: μανθάνειν. βούλεται takes the infinitive."
+            },
+            {
+              "text": "μανθάνεται",
+              "correct": false,
+              "feedback": "Correct answer: μανθάνειν. βούλεται takes the infinitive."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l3-17",
+          "type": "multiple-choice",
+          "category": "Lesson 3",
+          "sourceLesson": 3,
+          "prompt": "Choose the correct demonstrative: ___ ἡ δούλη.",
+          "explanation": "δούλη is feminine.",
+          "choices": [
+            {
+              "text": "οὗτος",
+              "correct": false,
+              "feedback": "Correct answer: αὕτη. δούλη is feminine."
+            },
+            {
+              "text": "αὕτη",
+              "correct": true,
+              "feedback": "Correct answer: αὕτη. δούλη is feminine."
+            },
+            {
+              "text": "τοῦτο",
+              "correct": false,
+              "feedback": "Correct answer: αὕτη. δούλη is feminine."
+            },
+            {
+              "text": "οὗτοι",
+              "correct": false,
+              "feedback": "Correct answer: αὕτη. δούλη is feminine."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l4-7",
+          "type": "multiple-choice",
+          "category": "Lesson 4",
+          "sourceLesson": 4,
+          "prompt": "Which phrase means “of the spear”?",
+          "explanation": "The genitive singular is τῆς λόγχης.",
+          "choices": [
+            {
+              "text": "τῇ λόγχῃ",
+              "correct": false,
+              "feedback": "Correct answer: τῆς λόγχης. The genitive singular is τῆς λόγχης."
+            },
+            {
+              "text": "ἡ λόγχη",
+              "correct": false,
+              "feedback": "Correct answer: τῆς λόγχης. The genitive singular is τῆς λόγχης."
+            },
+            {
+              "text": "τῆς λόγχης",
+              "correct": true,
+              "feedback": "Correct answer: τῆς λόγχης. The genitive singular is τῆς λόγχης."
+            },
+            {
+              "text": "τὴν λόγχην",
+              "correct": false,
+              "feedback": "Correct answer: τῆς λόγχης. The genitive singular is τῆς λόγχης."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l4-11",
+          "type": "multiple-choice",
+          "category": "Lesson 4",
+          "sourceLesson": 4,
+          "prompt": "In ὁ Γρύλλος τὸν ἵππον ἄγει, what does τὸν ἵππον do?",
+          "explanation": "The accusative marks the horse as the direct object.",
+          "choices": [
+            {
+              "text": "Names the owner of Gryllus.",
+              "correct": false,
+              "feedback": "Correct answer: Names the direct object being led. The accusative marks the horse as the direct object."
+            },
+            {
+              "text": "Addresses the horse directly.",
+              "correct": false,
+              "feedback": "Correct answer: Names the direct object being led. The accusative marks the horse as the direct object."
+            },
+            {
+              "text": "Names the direct object being led.",
+              "correct": true,
+              "feedback": "Correct answer: Names the direct object being led. The accusative marks the horse as the direct object."
+            },
+            {
+              "text": "Names the person doing the leading.",
+              "correct": false,
+              "feedback": "Correct answer: Names the direct object being led. The accusative marks the horse as the direct object."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l5-13",
+          "type": "multiple-choice",
+          "category": "Lesson 5",
+          "sourceLesson": 5,
+          "prompt": "Tell one person: “Take!”",
+          "explanation": "The command uses -ε, not -ει or -ειν.",
+          "choices": [
+            {
+              "text": "λάμβανε",
+              "correct": true,
+              "feedback": "Correct answer: λάμβανε. The command uses -ε, not -ει or -ειν."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": false,
+              "feedback": "Correct answer: λάμβανε. The command uses -ε, not -ει or -ειν."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Correct answer: λάμβανε. The command uses -ε, not -ει or -ειν."
+            },
+            {
+              "text": "λαμβάνουσιν",
+              "correct": false,
+              "feedback": "Correct answer: λάμβανε. The command uses -ε, not -ει or -ειν."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l5-25",
+          "type": "multiple-choice",
+          "category": "Lesson 5",
+          "sourceLesson": 5,
+          "prompt": "Where is Xenophon hurrying at the start of the reading?",
+          "explanation": "He hurries toward the marketplace for bread.",
+          "choices": [
+            {
+              "text": "To the marketplace.",
+              "correct": true,
+              "feedback": "Correct answer: To the marketplace. He hurries toward the marketplace for bread."
+            },
+            {
+              "text": "To the gymnasium.",
+              "correct": false,
+              "feedback": "Correct answer: To the marketplace. He hurries toward the marketplace for bread."
+            },
+            {
+              "text": "To Delphi.",
+              "correct": false,
+              "feedback": "Correct answer: To the marketplace. He hurries toward the marketplace for bread."
+            },
+            {
+              "text": "To a battlefield.",
+              "correct": false,
+              "feedback": "Correct answer: To the marketplace. He hurries toward the marketplace for bread."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l6-5",
+          "type": "multiple-choice",
+          "category": "Lesson 6",
+          "sourceLesson": 6,
+          "prompt": "What benefit of bodily strength does Socrates name?",
+          "explanation": "Socrates links sound condition to helping friends and benefiting the city.",
+          "choices": [
+            {
+              "text": "Helping friends and the city.",
+              "correct": true,
+              "feedback": "Correct answer: Helping friends and the city. Socrates links sound condition to helping friends and benefiting the city."
+            },
+            {
+              "text": "Avoiding every question.",
+              "correct": false,
+              "feedback": "Correct answer: Helping friends and the city. Socrates links sound condition to helping friends and benefiting the city."
+            },
+            {
+              "text": "Winning money in the agora.",
+              "correct": false,
+              "feedback": "Correct answer: Helping friends and the city. Socrates links sound condition to helping friends and benefiting the city."
+            },
+            {
+              "text": "Never needing to learn.",
+              "correct": false,
+              "feedback": "Correct answer: Helping friends and the city. Socrates links sound condition to helping friends and benefiting the city."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l6-13",
+          "type": "multiple-choice",
+          "category": "Lesson 6",
+          "sourceLesson": 6,
+          "prompt": "What case is τῶν φίλων?",
+          "explanation": "Genitive plural. is the correct plural form.",
+          "choices": [
+            {
+              "text": "Genitive plural.",
+              "correct": true,
+              "feedback": "Correct answer: Genitive plural. Genitive plural. is the correct plural form."
+            },
+            {
+              "text": "Nominative plural.",
+              "correct": false,
+              "feedback": "Correct answer: Genitive plural. Genitive plural. is the correct plural form."
+            },
+            {
+              "text": "Accusative plural.",
+              "correct": false,
+              "feedback": "Correct answer: Genitive plural. Genitive plural. is the correct plural form."
+            },
+            {
+              "text": "Dative plural.",
+              "correct": false,
+              "feedback": "Correct answer: Genitive plural. Genitive plural. is the correct plural form."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l7-7",
+          "type": "multiple-choice",
+          "category": "Lesson 7",
+          "sourceLesson": 7,
+          "prompt": "What does ἡ πομπή mean?",
+          "explanation": "ἡ πομπή means procession.",
+          "choices": [
+            {
+              "text": "sister",
+              "correct": false,
+              "feedback": "Correct answer: procession. ἡ πομπή means procession."
+            },
+            {
+              "text": "earth, land",
+              "correct": false,
+              "feedback": "Correct answer: procession. ἡ πομπή means procession."
+            },
+            {
+              "text": "walk",
+              "correct": false,
+              "feedback": "Correct answer: procession. ἡ πομπή means procession."
+            },
+            {
+              "text": "procession",
+              "correct": true,
+              "feedback": "Correct answer: procession. ἡ πομπή means procession."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l7-19",
+          "type": "multiple-choice",
+          "category": "Lesson 7",
+          "sourceLesson": 7,
+          "prompt": "Which form of πομπή is accusative singular?",
+          "explanation": "τὴν πομπήν is accusative singular.",
+          "choices": [
+            {
+              "text": "ἡ πομπή",
+              "correct": false,
+              "feedback": "Correct answer: τὴν πομπήν. τὴν πομπήν is accusative singular."
+            },
+            {
+              "text": "τῆς πομπῆς",
+              "correct": false,
+              "feedback": "Correct answer: τὴν πομπήν. τὴν πομπήν is accusative singular."
+            },
+            {
+              "text": "αἱ πομπαί",
+              "correct": false,
+              "feedback": "Correct answer: τὴν πομπήν. τὴν πομπήν is accusative singular."
+            },
+            {
+              "text": "τὴν πομπήν",
+              "correct": true,
+              "feedback": "Correct answer: τὴν πομπήν. τὴν πομπήν is accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l8-4",
+          "type": "multiple-choice",
+          "category": "Lesson 8",
+          "sourceLesson": 8,
+          "prompt": "What does Melitta propose in the reconstructed conversation?",
+          "explanation": "Melitta proposes tasks and quality checks.",
+          "choices": [
+            {
+              "text": "divide the textile tasks and inspect the garments",
+              "correct": true,
+              "feedback": "Correct answer: divide the textile tasks and inspect the garments. Melitta proposes tasks and quality checks."
+            },
+            {
+              "text": "leave Athens for Delphi",
+              "correct": false,
+              "feedback": "Correct answer: divide the textile tasks and inspect the garments. Melitta proposes tasks and quality checks."
+            },
+            {
+              "text": "sell the loom",
+              "correct": false,
+              "feedback": "Correct answer: divide the textile tasks and inspect the garments. Melitta proposes tasks and quality checks."
+            },
+            {
+              "text": "stop making clothing",
+              "correct": false,
+              "feedback": "Correct answer: divide the textile tasks and inspect the garments. Melitta proposes tasks and quality checks."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l8-21",
+          "type": "multiple-choice",
+          "category": "Lesson 8",
+          "sourceLesson": 8,
+          "prompt": "Which means “she weaves well”?",
+          "explanation": "καλῶς describes how she weaves.",
+          "choices": [
+            {
+              "text": "καλοί ὑφαίνει",
+              "correct": false,
+              "feedback": "Correct answer: καλῶς ὑφαίνει. καλῶς describes how she weaves."
+            },
+            {
+              "text": "καλῶς ὑφαίνει",
+              "correct": true,
+              "feedback": "Correct answer: καλῶς ὑφαίνει. καλῶς describes how she weaves."
+            },
+            {
+              "text": "καλὸν ὑφαίνει",
+              "correct": false,
+              "feedback": "Correct answer: καλῶς ὑφαίνει. καλῶς describes how she weaves."
+            },
+            {
+              "text": "καλὴ ὑφαίνει",
+              "correct": false,
+              "feedback": "Correct answer: καλῶς ὑφαίνει. καλῶς describes how she weaves."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l9-3",
+          "type": "multiple-choice",
+          "category": "Lesson 9",
+          "sourceLesson": 9,
+          "prompt": "What does Antisthenes first emphasize?",
+          "explanation": "Antisthenes points to useful help.",
+          "choices": [
+            {
+              "text": "the size of the house",
+              "correct": false,
+              "feedback": "Correct answer: help that meets a need. Antisthenes points to useful help."
+            },
+            {
+              "text": "festival offerings",
+              "correct": false,
+              "feedback": "Correct answer: help that meets a need. Antisthenes points to useful help."
+            },
+            {
+              "text": "military rank",
+              "correct": false,
+              "feedback": "Correct answer: help that meets a need. Antisthenes points to useful help."
+            },
+            {
+              "text": "help that meets a need",
+              "correct": true,
+              "feedback": "Correct answer: help that meets a need. Antisthenes points to useful help."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l9-21",
+          "type": "multiple-choice",
+          "category": "Lesson 9",
+          "sourceLesson": 9,
+          "prompt": "What is the full form of ἀλλ᾽?",
+          "explanation": "ἀλλ᾽ loses the final alpha of ἀλλά.",
+          "choices": [
+            {
+              "text": "ἄρα",
+              "correct": false,
+              "feedback": "Correct answer: ἀλλά. ἀλλ᾽ loses the final alpha of ἀλλά."
+            },
+            {
+              "text": "ἀλλά",
+              "correct": true,
+              "feedback": "Correct answer: ἀλλά. ἀλλ᾽ loses the final alpha of ἀλλά."
+            },
+            {
+              "text": "ἀπό",
+              "correct": false,
+              "feedback": "Correct answer: ἀλλά. ἀλλ᾽ loses the final alpha of ἀλλά."
+            },
+            {
+              "text": "ἄνευ",
+              "correct": false,
+              "feedback": "Correct answer: ἀλλά. ἀλλ᾽ loses the final alpha of ἀλλά."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l10-5",
+          "type": "multiple-choice",
+          "category": "Lesson 10",
+          "sourceLesson": 10,
+          "prompt": "What does Socrates advise?",
+          "explanation": "Socrates recommends Delphi.",
+          "choices": [
+            {
+              "text": "ask the Athenian assembly to write back",
+              "correct": false,
+              "feedback": "Correct answer: consult Apollo at Delphi. Socrates recommends Delphi."
+            },
+            {
+              "text": "consult Apollo at Delphi",
+              "correct": true,
+              "feedback": "Correct answer: consult Apollo at Delphi. Socrates recommends Delphi."
+            },
+            {
+              "text": "leave immediately for Sardis",
+              "correct": false,
+              "feedback": "Correct answer: consult Apollo at Delphi. Socrates recommends Delphi."
+            },
+            {
+              "text": "ignore the letter",
+              "correct": false,
+              "feedback": "Correct answer: consult Apollo at Delphi. Socrates recommends Delphi."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l10-16",
+          "type": "multiple-choice",
+          "category": "Lesson 10",
+          "sourceLesson": 10,
+          "prompt": "What is ὁ φίλος μου?",
+          "explanation": "μου means my.",
+          "choices": [
+            {
+              "text": "my friend",
+              "correct": true,
+              "feedback": "Correct answer: my friend. μου means my."
+            },
+            {
+              "text": "your friend",
+              "correct": false,
+              "feedback": "Correct answer: my friend. μου means my."
+            },
+            {
+              "text": "his friend",
+              "correct": false,
+              "feedback": "Correct answer: my friend. μου means my."
+            },
+            {
+              "text": "this friend",
+              "correct": false,
+              "feedback": "Correct answer: my friend. μου means my."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l11-7",
+          "type": "multiple-choice",
+          "category": "Lesson 11",
+          "sourceLesson": 11,
+          "prompt": "What does πορεύομαι mean?",
+          "explanation": "πορεύομαι means travel, go.",
+          "choices": [
+            {
+              "text": "come, go",
+              "correct": false,
+              "feedback": "Correct answer: travel, go. πορεύομαι means travel, go."
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Correct answer: travel, go. πορεύομαι means travel, go."
+            },
+            {
+              "text": "consider, reflect",
+              "correct": false,
+              "feedback": "Correct answer: travel, go. πορεύομαι means travel, go."
+            },
+            {
+              "text": "travel, go",
+              "correct": true,
+              "feedback": "Correct answer: travel, go. πορεύομαι means travel, go."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l11-21",
+          "type": "multiple-choice",
+          "category": "Lesson 11",
+          "sourceLesson": 11,
+          "prompt": "What does βούλομαι πορεύεσθαι mean?",
+          "explanation": "The infinitive names the action wanted.",
+          "choices": [
+            {
+              "text": "I am traveling",
+              "correct": false,
+              "feedback": "Correct answer: I want to travel. The infinitive names the action wanted."
+            },
+            {
+              "text": "I want to travel",
+              "correct": true,
+              "feedback": "Correct answer: I want to travel. The infinitive names the action wanted."
+            },
+            {
+              "text": "I travel unwillingly",
+              "correct": false,
+              "feedback": "Correct answer: I want to travel. The infinitive names the action wanted."
+            },
+            {
+              "text": "he wants to arrive",
+              "correct": false,
+              "feedback": "Correct answer: I want to travel. The infinitive names the action wanted."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l12-2",
+          "type": "multiple-choice",
+          "category": "Lesson 12",
+          "sourceLesson": 12,
+          "prompt": "What did Socrates fault?",
+          "explanation": "He faulted the unasked prior question.",
+          "choices": [
+            {
+              "text": "the number of sacrifices",
+              "correct": false,
+              "feedback": "Correct answer: the question Xenophon failed to ask first. He faulted the unasked prior question."
+            },
+            {
+              "text": "the words of the priestess",
+              "correct": false,
+              "feedback": "Correct answer: the question Xenophon failed to ask first. He faulted the unasked prior question."
+            },
+            {
+              "text": "the question Xenophon failed to ask first",
+              "correct": true,
+              "feedback": "Correct answer: the question Xenophon failed to ask first. He faulted the unasked prior question."
+            },
+            {
+              "text": "the length of the road",
+              "correct": false,
+              "feedback": "Correct answer: the question Xenophon failed to ask first. He faulted the unasked prior question."
+            }
+          ]
+        },
+        {
+          "id": "module-1-practice-l12-19",
+          "type": "multiple-choice",
+          "category": "Lesson 12",
+          "sourceLesson": 12,
+          "prompt": "What is τῷ Σωκράτει in λέγει τὴν μαντείαν τῷ Σωκράτει?",
+          "explanation": "Socrates receives the report.",
+          "choices": [
+            {
+              "text": "direct object",
+              "correct": false,
+              "feedback": "Correct answer: recipient. Socrates receives the report."
+            },
+            {
+              "text": "subject",
+              "correct": false,
+              "feedback": "Correct answer: recipient. Socrates receives the report."
+            },
+            {
+              "text": "place",
+              "correct": false,
+              "feedback": "Correct answer: recipient. Socrates receives the report."
+            },
+            {
+              "text": "recipient",
+              "correct": true,
+              "feedback": "Correct answer: recipient. Socrates receives the report."
+            }
+          ]
+        }
+      ]
+    },
+    "module-exam": {
+      "title": "Module 1 Exam · Wisdom and Socrates",
+      "description": "Cumulative assessment of Lessons 1–12",
+      "threshold": 70,
+      "required": true,
+      "requireAllAnswers": true,
+      "isModuleExam": true,
+      "revision": "module-1-exam-v1",
+      "pointsPossible": 40,
+      "instructions": "Answer all 40 questions. At least 28 correct (70%) are required for Module 2. You may retake the exam. After each attempt, every correct answer and its explanation will appear.",
+      "questions": [
+        {
+          "id": "module-1-exam-l1-1",
+          "type": "multiple-choice",
+          "category": "Lesson 1",
+          "sourceLesson": 1,
+          "prompt": "What does θεραπεύει mean?",
+          "explanation": "θεραπεύει describes how Xenophon tends the horse in the reading.",
+          "choices": [
+            {
+              "text": "he tends or cares for",
+              "correct": true,
+              "feedback": "Correct answer: he tends or cares for. θεραπεύει describes how Xenophon tends the horse in the reading."
+            },
+            {
+              "text": "he writes",
+              "correct": false,
+              "feedback": "Correct answer: he tends or cares for. θεραπεύει describes how Xenophon tends the horse in the reading."
+            },
+            {
+              "text": "he calls",
+              "correct": false,
+              "feedback": "Correct answer: he tends or cares for. θεραπεύει describes how Xenophon tends the horse in the reading."
+            },
+            {
+              "text": "he walks",
+              "correct": false,
+              "feedback": "Correct answer: he tends or cares for. θεραπεύει describes how Xenophon tends the horse in the reading."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l1-4",
+          "type": "multiple-choice",
+          "category": "Lesson 1",
+          "sourceLesson": 1,
+          "prompt": "What case is ὁ Ξενοφῶν in ὁ Ξενοφῶν τὸν ἵππον θεραπεύει?",
+          "explanation": "ὁ Ξενοφῶν is the subject of θεραπεύει, so it is nominative.",
+          "choices": [
+            {
+              "text": "accusative",
+              "correct": false,
+              "feedback": "Correct answer: nominative. ὁ Ξενοφῶν is the subject of θεραπεύει, so it is nominative."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Correct answer: nominative. ὁ Ξενοφῶν is the subject of θεραπεύει, so it is nominative."
+            },
+            {
+              "text": "dative",
+              "correct": false,
+              "feedback": "Correct answer: nominative. ὁ Ξενοφῶν is the subject of θεραπεύει, so it is nominative."
+            },
+            {
+              "text": "nominative",
+              "correct": true,
+              "feedback": "Correct answer: nominative. ὁ Ξενοφῶν is the subject of θεραπεύει, so it is nominative."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l1-12",
+          "type": "multiple-choice",
+          "category": "Lesson 1",
+          "sourceLesson": 1,
+          "prompt": "Who calls Gryllus and Xenophon to dinner?",
+          "explanation": "In the reading, Xenophon’s mother calls the family to dinner.",
+          "choices": [
+            {
+              "text": "his father",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon’s mother. In the reading, Xenophon’s mother calls the family to dinner."
+            },
+            {
+              "text": "the dog",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon’s mother. In the reading, Xenophon’s mother calls the family to dinner."
+            },
+            {
+              "text": "a teacher",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon’s mother. In the reading, Xenophon’s mother calls the family to dinner."
+            },
+            {
+              "text": "Xenophon’s mother",
+              "correct": true,
+              "feedback": "Correct answer: Xenophon’s mother. In the reading, Xenophon’s mother calls the family to dinner."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l1-15",
+          "type": "multiple-choice",
+          "category": "Lesson 1",
+          "sourceLesson": 1,
+          "prompt": "Which claim about Xenophon’s childhood is supported by an ancient source?",
+          "explanation": "A later ancient writer names Gryllus as Xenophon’s father and Erchia as his deme; the household scene is reconstructed.",
+          "choices": [
+            {
+              "text": "We know the exact dinner conversation.",
+              "correct": false,
+              "feedback": "Correct answer: A later writer names Gryllus as his father and Erchia as his deme. A later ancient writer names Gryllus as Xenophon’s father and Erchia as his deme; the household scene is reconstructed."
+            },
+            {
+              "text": "We know he personally fed this horse.",
+              "correct": false,
+              "feedback": "Correct answer: A later writer names Gryllus as his father and Erchia as his deme. A later ancient writer names Gryllus as Xenophon’s father and Erchia as his deme; the household scene is reconstructed."
+            },
+            {
+              "text": "A later writer names Gryllus as his father and Erchia as his deme.",
+              "correct": true,
+              "feedback": "Correct answer: A later writer names Gryllus as his father and Erchia as his deme. A later ancient writer names Gryllus as Xenophon’s father and Erchia as his deme; the household scene is reconstructed."
+            },
+            {
+              "text": "We know his family kept this dog.",
+              "correct": false,
+              "feedback": "Correct answer: A later writer names Gryllus as his father and Erchia as his deme. A later ancient writer names Gryllus as Xenophon’s father and Erchia as his deme; the household scene is reconstructed."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l2-1",
+          "type": "multiple-choice",
+          "category": "Lesson 2",
+          "sourceLesson": 2,
+          "prompt": "τίς ἐστιν ὁ πατὴρ τοῦ Ξενοφῶντος; (Who is Xenophon’s father?)",
+          "explanation": "The household reading names Γρύλλος as Xenophon’s father.",
+          "choices": [
+            {
+              "text": "Γρύλλος",
+              "correct": true,
+              "feedback": "Correct answer: Γρύλλος. The household reading names Γρύλλος as Xenophon’s father."
+            },
+            {
+              "text": "ὁ δοῦλος",
+              "correct": false,
+              "feedback": "Correct answer: Γρύλλος. The household reading names Γρύλλος as Xenophon’s father."
+            },
+            {
+              "text": "ὁ ὄνος",
+              "correct": false,
+              "feedback": "Correct answer: Γρύλλος. The household reading names Γρύλλος as Xenophon’s father."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l2-4",
+          "type": "multiple-choice",
+          "category": "Lesson 2",
+          "sourceLesson": 2,
+          "prompt": "τί αἱ δοῦλαι ὑφαίνουσιν; (What do the female servants weave?)",
+          "explanation": "In the reading, the female servants weave πέπλους, garments.",
+          "choices": [
+            {
+              "text": "πέπλους",
+              "correct": true,
+              "feedback": "Correct answer: πέπλους. In the reading, the female servants weave πέπλους, garments."
+            },
+            {
+              "text": "ἄρτον",
+              "correct": false,
+              "feedback": "Correct answer: πέπλους. In the reading, the female servants weave πέπλους, garments."
+            },
+            {
+              "text": "ξύλα",
+              "correct": false,
+              "feedback": "Correct answer: πέπλους. In the reading, the female servants weave πέπλους, garments."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l2-9",
+          "type": "multiple-choice",
+          "category": "Lesson 2",
+          "sourceLesson": 2,
+          "prompt": "μικρά ἐστιν ἡ οἰκία τοῦ Γρύλλου; (Is Gryllus’s house small?)",
+          "explanation": "The reply uses οὐκ to reject “small” and ἀλλά to say the house is beautiful.",
+          "choices": [
+            {
+              "text": "No. μικρά οὐκ ἐστίν, ἀλλὰ καλή ἐστιν.",
+              "correct": true,
+              "feedback": "Correct answer: No. μικρά οὐκ ἐστίν, ἀλλὰ καλή ἐστιν. The reply uses οὐκ to reject “small” and ἀλλά to say the house is beautiful."
+            },
+            {
+              "text": "Yes. μικρά ἐστιν.",
+              "correct": false,
+              "feedback": "Correct answer: No. μικρά οὐκ ἐστίν, ἀλλὰ καλή ἐστιν. The reply uses οὐκ to reject “small” and ἀλλά to say the house is beautiful."
+            },
+            {
+              "text": "No. ἐν τῷ ἀγρῷ ἐστιν.",
+              "correct": false,
+              "feedback": "Correct answer: No. μικρά οὐκ ἐστίν, ἀλλὰ καλή ἐστιν. The reply uses οὐκ to reject “small” and ἀλλά to say the house is beautiful."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l2-10",
+          "type": "multiple-choice",
+          "category": "Lesson 2",
+          "sourceLesson": 2,
+          "prompt": "Which phrase shows possession with the genitive?",
+          "explanation": "τοῦ Γρύλλου is genitive and tells whose house it is.",
+          "choices": [
+            {
+              "text": "ἡ οἰκία τοῦ Γρύλλου",
+              "correct": true,
+              "feedback": "Correct answer: ἡ οἰκία τοῦ Γρύλλου. τοῦ Γρύλλου is genitive and tells whose house it is."
+            },
+            {
+              "text": "ἐν τῇ οἰκίᾳ",
+              "correct": false,
+              "feedback": "Correct answer: ἡ οἰκία τοῦ Γρύλλου. τοῦ Γρύλλου is genitive and tells whose house it is."
+            },
+            {
+              "text": "εἰς τὸν ἀγρόν",
+              "correct": false,
+              "feedback": "Correct answer: ἡ οἰκία τοῦ Γρύλλου. τοῦ Γρύλλου is genitive and tells whose house it is."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l3-2",
+          "type": "multiple-choice",
+          "category": "Lesson 3",
+          "sourceLesson": 3,
+          "prompt": "Which verb means “they learn”?",
+          "explanation": "The -ουσιν ending marks third-person plural active: “they learn.”",
+          "choices": [
+            {
+              "text": "μανθάνει",
+              "correct": false,
+              "feedback": "Correct answer: μανθάνουσιν. The -ουσιν ending marks third-person plural active: “they learn.”"
+            },
+            {
+              "text": "μανθάνουσιν",
+              "correct": true,
+              "feedback": "Correct answer: μανθάνουσιν. The -ουσιν ending marks third-person plural active: “they learn.”"
+            },
+            {
+              "text": "μανθάνειν",
+              "correct": false,
+              "feedback": "Correct answer: μανθάνουσιν. The -ουσιν ending marks third-person plural active: “they learn.”"
+            },
+            {
+              "text": "μανθάνεται",
+              "correct": false,
+              "feedback": "Correct answer: μανθάνουσιν. The -ουσιν ending marks third-person plural active: “they learn.”"
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l3-5",
+          "type": "multiple-choice",
+          "category": "Lesson 3",
+          "sourceLesson": 3,
+          "prompt": "Identify the direct object: ὁ Ξενοφῶν τὸν ἵππον θεραπεύει.",
+          "explanation": "τὸν ἵππον is accusative and receives the action of θεραπεύει.",
+          "choices": [
+            {
+              "text": "ὁ Ξενοφῶν",
+              "correct": false,
+              "feedback": "Correct answer: τὸν ἵππον. τὸν ἵππον is accusative and receives the action of θεραπεύει."
+            },
+            {
+              "text": "τὸν ἵππον",
+              "correct": true,
+              "feedback": "Correct answer: τὸν ἵππον. τὸν ἵππον is accusative and receives the action of θεραπεύει."
+            },
+            {
+              "text": "θεραπεύει",
+              "correct": false,
+              "feedback": "Correct answer: τὸν ἵππον. τὸν ἵππον is accusative and receives the action of θεραπεύει."
+            },
+            {
+              "text": "no direct object",
+              "correct": false,
+              "feedback": "Correct answer: τὸν ἵππον. τὸν ἵππον is accusative and receives the action of θεραπεύει."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l3-9",
+          "type": "multiple-choice",
+          "category": "Lesson 3",
+          "sourceLesson": 3,
+          "prompt": "Which form means “to write”?",
+          "explanation": "The ending -ειν marks the present active infinitive, “to write.”",
+          "choices": [
+            {
+              "text": "γράφει",
+              "correct": false,
+              "feedback": "Correct answer: γράφειν. The ending -ειν marks the present active infinitive, “to write.”"
+            },
+            {
+              "text": "γράφουσιν",
+              "correct": false,
+              "feedback": "Correct answer: γράφειν. The ending -ειν marks the present active infinitive, “to write.”"
+            },
+            {
+              "text": "γράφειν",
+              "correct": true,
+              "feedback": "Correct answer: γράφειν. The ending -ειν marks the present active infinitive, “to write.”"
+            },
+            {
+              "text": "γράφεται",
+              "correct": false,
+              "feedback": "Correct answer: γράφειν. The ending -ειν marks the present active infinitive, “to write.”"
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l3-19",
+          "type": "multiple-choice",
+          "category": "Lesson 3",
+          "sourceLesson": 3,
+          "prompt": "According to the reading, who takes Xenophon to school?",
+          "explanation": "The παιδαγωγός is the attendant who takes Xenophon to school in the reading.",
+          "choices": [
+            {
+              "text": "his father",
+              "correct": false,
+              "feedback": "Correct answer: the παιδαγωγός. The παιδαγωγός is the attendant who takes Xenophon to school in the reading."
+            },
+            {
+              "text": "his mother",
+              "correct": false,
+              "feedback": "Correct answer: the παιδαγωγός. The παιδαγωγός is the attendant who takes Xenophon to school in the reading."
+            },
+            {
+              "text": "the παιδαγωγός",
+              "correct": true,
+              "feedback": "Correct answer: the παιδαγωγός. The παιδαγωγός is the attendant who takes Xenophon to school in the reading."
+            },
+            {
+              "text": "the music teacher",
+              "correct": false,
+              "feedback": "Correct answer: the παιδαγωγός. The παιδαγωγός is the attendant who takes Xenophon to school in the reading."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l4-1",
+          "type": "multiple-choice",
+          "category": "Lesson 4",
+          "sourceLesson": 4,
+          "prompt": "What is Gryllus preparing to do in the reading?",
+          "explanation": "Gryllus prepares his horse and equipment because he is departing for war.",
+          "choices": [
+            {
+              "text": "Ride to war.",
+              "correct": true,
+              "feedback": "Correct answer: Ride to war. Gryllus prepares his horse and equipment because he is departing for war."
+            },
+            {
+              "text": "Go to school.",
+              "correct": false,
+              "feedback": "Correct answer: Ride to war. Gryllus prepares his horse and equipment because he is departing for war."
+            },
+            {
+              "text": "Sell the family house.",
+              "correct": false,
+              "feedback": "Correct answer: Ride to war. Gryllus prepares his horse and equipment because he is departing for war."
+            },
+            {
+              "text": "Become a music teacher.",
+              "correct": false,
+              "feedback": "Correct answer: Ride to war. Gryllus prepares his horse and equipment because he is departing for war."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l4-9",
+          "type": "multiple-choice",
+          "category": "Lesson 4",
+          "sourceLesson": 4,
+          "prompt": "Choose the correctly agreeing phrase for “to/for the beautiful horse.”",
+          "explanation": "τῷ, καλῷ, and ἵππῳ all agree as masculine dative singular.",
+          "choices": [
+            {
+              "text": "τῷ καλῷ ἵππῳ",
+              "correct": true,
+              "feedback": "Correct answer: τῷ καλῷ ἵππῳ. τῷ, καλῷ, and ἵππῳ all agree as masculine dative singular."
+            },
+            {
+              "text": "τῷ καλῇ ἵππῳ",
+              "correct": false,
+              "feedback": "Correct answer: τῷ καλῷ ἵππῳ. τῷ, καλῷ, and ἵππῳ all agree as masculine dative singular."
+            },
+            {
+              "text": "τοῦ καλοῦ ἵππου",
+              "correct": false,
+              "feedback": "Correct answer: τῷ καλῷ ἵππῳ. τῷ, καλῷ, and ἵππῳ all agree as masculine dative singular."
+            },
+            {
+              "text": "τὸν καλὸν ἵππον",
+              "correct": false,
+              "feedback": "Correct answer: τῷ καλῷ ἵππῳ. τῷ, καλῷ, and ἵππῳ all agree as masculine dative singular."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l4-17",
+          "type": "multiple-choice",
+          "category": "Lesson 4",
+          "sourceLesson": 4,
+          "prompt": "Which expense helps explain the connection between cavalry and wealth?",
+          "explanation": "A cavalryman needed resources to obtain, feed, and maintain a suitable horse.",
+          "choices": [
+            {
+              "text": "Obtaining and maintaining a suitable horse.",
+              "correct": true,
+              "feedback": "Correct answer: Obtaining and maintaining a suitable horse. A cavalryman needed resources to obtain, feed, and maintain a suitable horse."
+            },
+            {
+              "text": "Purchasing a medieval title.",
+              "correct": false,
+              "feedback": "Correct answer: Obtaining and maintaining a suitable horse. A cavalryman needed resources to obtain, feed, and maintain a suitable horse."
+            },
+            {
+              "text": "Paying to join the Ten Thousand as a child.",
+              "correct": false,
+              "feedback": "Correct answer: Obtaining and maintaining a suitable horse. A cavalryman needed resources to obtain, feed, and maintain a suitable horse."
+            },
+            {
+              "text": "Building a private temple before every ride.",
+              "correct": false,
+              "feedback": "Correct answer: Obtaining and maintaining a suitable horse. A cavalryman needed resources to obtain, feed, and maintain a suitable horse."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l4-20",
+          "type": "multiple-choice",
+          "category": "Lesson 4",
+          "sourceLesson": 4,
+          "prompt": "How should we describe young Xenophon helping Gryllus depart?",
+          "explanation": "The course labels this childhood departure scene as plausible invention, not a documented event.",
+          "choices": [
+            {
+              "text": "A scene from a medieval chronicle.",
+              "correct": false,
+              "feedback": "Correct answer: A plausible invented scene, not a documented childhood event. The course labels this childhood departure scene as plausible invention, not a documented event."
+            },
+            {
+              "text": "A plausible invented scene, not a documented childhood event.",
+              "correct": true,
+              "feedback": "Correct answer: A plausible invented scene, not a documented childhood event. The course labels this childhood departure scene as plausible invention, not a documented event."
+            },
+            {
+              "text": "An eyewitness account written by the boy.",
+              "correct": false,
+              "feedback": "Correct answer: A plausible invented scene, not a documented childhood event. The course labels this childhood departure scene as plausible invention, not a documented event."
+            },
+            {
+              "text": "Proof of every detail of Gryllus’s military service.",
+              "correct": false,
+              "feedback": "Correct answer: A plausible invented scene, not a documented childhood event. The course labels this childhood departure scene as plausible invention, not a documented event."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l5-9",
+          "type": "multiple-choice",
+          "category": "Lesson 5",
+          "sourceLesson": 5,
+          "prompt": "Choose “they get.”",
+          "explanation": "λαμβάνουσιν has the third-person plural ending -ουσιν.",
+          "choices": [
+            {
+              "text": "λαμβάνουσιν",
+              "correct": true,
+              "feedback": "Correct answer: λαμβάνουσιν. λαμβάνουσιν has the third-person plural ending -ουσιν."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": false,
+              "feedback": "Correct answer: λαμβάνουσιν. λαμβάνουσιν has the third-person plural ending -ουσιν."
+            },
+            {
+              "text": "λαμβάνεις",
+              "correct": false,
+              "feedback": "Correct answer: λαμβάνουσιν. λαμβάνουσιν has the third-person plural ending -ουσιν."
+            },
+            {
+              "text": "λάμβανε",
+              "correct": false,
+              "feedback": "Correct answer: λαμβάνουσιν. λαμβάνουσιν has the third-person plural ending -ουσιν."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l5-14",
+          "type": "multiple-choice",
+          "category": "Lesson 5",
+          "sourceLesson": 5,
+          "prompt": "Tell several people: “Bring the bread!”",
+          "explanation": "φέρετε is the plural imperative, while φέρε addresses one person.",
+          "choices": [
+            {
+              "text": "φέρε τὸν ἄρτον",
+              "correct": false,
+              "feedback": "Correct answer: φέρετε τὸν ἄρτον. φέρετε is the plural imperative, while φέρε addresses one person."
+            },
+            {
+              "text": "φέρουσι τὸν ἄρτον",
+              "correct": false,
+              "feedback": "Correct answer: φέρετε τὸν ἄρτον. φέρετε is the plural imperative, while φέρε addresses one person."
+            },
+            {
+              "text": "φέρειν τὸν ἄρτον",
+              "correct": false,
+              "feedback": "Correct answer: φέρετε τὸν ἄρτον. φέρετε is the plural imperative, while φέρε addresses one person."
+            },
+            {
+              "text": "φέρετε τὸν ἄρτον",
+              "correct": true,
+              "feedback": "Correct answer: φέρετε τὸν ἄρτον. φέρετε is the plural imperative, while φέρε addresses one person."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l5-28",
+          "type": "multiple-choice",
+          "category": "Lesson 5",
+          "sourceLesson": 5,
+          "prompt": "What deeper question does Socrates ask after asking about bread, wine, and shoes?",
+          "explanation": "Socrates shifts from where goods are found to where people become good and honorable.",
+          "choices": [
+            {
+              "text": "Where people become good and honorable.",
+              "correct": true,
+              "feedback": "Correct answer: Where people become good and honorable. Socrates shifts from where goods are found to where people become good and honorable."
+            },
+            {
+              "text": "Where soldiers train.",
+              "correct": false,
+              "feedback": "Correct answer: Where people become good and honorable. Socrates shifts from where goods are found to where people become good and honorable."
+            },
+            {
+              "text": "Where ships are built.",
+              "correct": false,
+              "feedback": "Correct answer: Where people become good and honorable. Socrates shifts from where goods are found to where people become good and honorable."
+            },
+            {
+              "text": "Where horses are sold.",
+              "correct": false,
+              "feedback": "Correct answer: Where people become good and honorable. Socrates shifts from where goods are found to where people become good and honorable."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l6-3",
+          "type": "multiple-choice",
+          "category": "Lesson 6",
+          "sourceLesson": 6,
+          "prompt": "Who speaks directly to Epigenes?",
+          "explanation": "In Memorabilia 3.12, Socrates addresses Epigenes; Xenophon narrates the exchange.",
+          "choices": [
+            {
+              "text": "Clinias.",
+              "correct": false,
+              "feedback": "Correct answer: Socrates. In Memorabilia 3.12, Socrates addresses Epigenes; Xenophon narrates the exchange."
+            },
+            {
+              "text": "Gryllus.",
+              "correct": false,
+              "feedback": "Correct answer: Socrates. In Memorabilia 3.12, Socrates addresses Epigenes; Xenophon narrates the exchange."
+            },
+            {
+              "text": "Socrates.",
+              "correct": true,
+              "feedback": "Correct answer: Socrates. In Memorabilia 3.12, Socrates addresses Epigenes; Xenophon narrates the exchange."
+            },
+            {
+              "text": "Aristarchus.",
+              "correct": false,
+              "feedback": "Correct answer: Socrates. In Memorabilia 3.12, Socrates addresses Epigenes; Xenophon narrates the exchange."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l6-17",
+          "type": "multiple-choice",
+          "category": "Lesson 6",
+          "sourceLesson": 6,
+          "prompt": "Choose the accusative plural (direct object) of ὁ φίλος.",
+          "explanation": "τοὺς φίλους has the article and noun in masculine accusative plural.",
+          "choices": [
+            {
+              "text": "τοὺς φίλους",
+              "correct": true,
+              "feedback": "Correct answer: τοὺς φίλους. τοὺς φίλους has the article and noun in masculine accusative plural."
+            },
+            {
+              "text": "οἱ φίλοι",
+              "correct": false,
+              "feedback": "Correct answer: τοὺς φίλους. τοὺς φίλους has the article and noun in masculine accusative plural."
+            },
+            {
+              "text": "τῶν φίλων",
+              "correct": false,
+              "feedback": "Correct answer: τοὺς φίλους. τοὺς φίλους has the article and noun in masculine accusative plural."
+            },
+            {
+              "text": "τοῖς φίλοις",
+              "correct": false,
+              "feedback": "Correct answer: τοὺς φίλους. τοὺς φίλους has the article and noun in masculine accusative plural."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l6-30",
+          "type": "multiple-choice",
+          "category": "Lesson 6",
+          "sourceLesson": 6,
+          "prompt": "Which statement about women and Greek athletics is supported?",
+          "explanation": "The Hera races at Olympia show that opportunities for women varied by place and occasion.",
+          "choices": [
+            {
+              "text": "All women trained with men in Athenian gymnasia.",
+              "correct": false,
+              "feedback": "Correct answer: Opportunities varied; young women had separate Hera races at Olympia. The Hera races at Olympia show that opportunities for women varied by place and occasion."
+            },
+            {
+              "text": "Opportunities varied; young women had separate Hera races at Olympia.",
+              "correct": true,
+              "feedback": "Correct answer: Opportunities varied; young women had separate Hera races at Olympia. The Hera races at Olympia show that opportunities for women varied by place and occasion."
+            },
+            {
+              "text": "Women never competed anywhere in Greece.",
+              "correct": false,
+              "feedback": "Correct answer: Opportunities varied; young women had separate Hera races at Olympia. The Hera races at Olympia show that opportunities for women varied by place and occasion."
+            },
+            {
+              "text": "All Greek cities followed exactly the same rules.",
+              "correct": false,
+              "feedback": "Correct answer: Opportunities varied; young women had separate Hera races at Olympia. The Hera races at Olympia show that opportunities for women varied by place and occasion."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l7-2",
+          "type": "multiple-choice",
+          "category": "Lesson 7",
+          "sourceLesson": 7,
+          "prompt": "Who speaks to Xenophon about her reason for joining?",
+          "explanation": "Myrrhine explains her journey in the course’s reconstructed procession scene.",
+          "choices": [
+            {
+              "text": "Gryllus",
+              "correct": false,
+              "feedback": "Correct answer: Myrrhine. Myrrhine explains her journey in the course’s reconstructed procession scene."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Correct answer: Myrrhine. Myrrhine explains her journey in the course’s reconstructed procession scene."
+            },
+            {
+              "text": "Myrrhine",
+              "correct": true,
+              "feedback": "Correct answer: Myrrhine. Myrrhine explains her journey in the course’s reconstructed procession scene."
+            },
+            {
+              "text": "Persephone",
+              "correct": false,
+              "feedback": "Correct answer: Myrrhine. Myrrhine explains her journey in the course’s reconstructed procession scene."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l7-15",
+          "type": "multiple-choice",
+          "category": "Lesson 7",
+          "sourceLesson": 7,
+          "prompt": "Which present active form is 1st plural of βλέπω?",
+          "explanation": "The -ομεν ending of βλέπομεν means “we see,” first-person plural.",
+          "choices": [
+            {
+              "text": "βλέπω",
+              "correct": false,
+              "feedback": "Correct answer: βλέπομεν. The -ομεν ending of βλέπομεν means “we see,” first-person plural."
+            },
+            {
+              "text": "βλέπετε",
+              "correct": false,
+              "feedback": "Correct answer: βλέπομεν. The -ομεν ending of βλέπομεν means “we see,” first-person plural."
+            },
+            {
+              "text": "βλέπουσιν",
+              "correct": false,
+              "feedback": "Correct answer: βλέπομεν. The -ομεν ending of βλέπομεν means “we see,” first-person plural."
+            },
+            {
+              "text": "βλέπομεν",
+              "correct": true,
+              "feedback": "Correct answer: βλέπομεν. The -ομεν ending of βλέπομεν means “we see,” first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l7-28",
+          "type": "multiple-choice",
+          "category": "Lesson 7",
+          "sourceLesson": 7,
+          "prompt": "Which statement about women is accurate?",
+          "explanation": "Women could take part in the Eleusinian Mysteries as initiates.",
+          "choices": [
+            {
+              "text": "Women could participate in the Eleusinian Mysteries.",
+              "correct": true,
+              "feedback": "Correct answer: Women could participate in the Eleusinian Mysteries. Women could take part in the Eleusinian Mysteries as initiates."
+            },
+            {
+              "text": "Women were always excluded.",
+              "correct": false,
+              "feedback": "Correct answer: Women could participate in the Eleusinian Mysteries. Women could take part in the Eleusinian Mysteries as initiates."
+            },
+            {
+              "text": "Only priestesses could travel to Eleusis.",
+              "correct": false,
+              "feedback": "Correct answer: Women could participate in the Eleusinian Mysteries. Women could take part in the Eleusinian Mysteries as initiates."
+            },
+            {
+              "text": "Women could watch but never be initiated.",
+              "correct": false,
+              "feedback": "Correct answer: Women could participate in the Eleusinian Mysteries. Women could take part in the Eleusinian Mysteries as initiates."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l8-1",
+          "type": "multiple-choice",
+          "category": "Lesson 8",
+          "sourceLesson": 8,
+          "prompt": "What problem faces Aristarchus’s household?",
+          "explanation": "Aristarchus has many relatives at home after conflict cuts off income from his land.",
+          "choices": [
+            {
+              "text": "a dispute about a festival",
+              "correct": false,
+              "feedback": "Correct answer: many relatives and little income. Aristarchus has many relatives at home after conflict cuts off income from his land."
+            },
+            {
+              "text": "many relatives and little income",
+              "correct": true,
+              "feedback": "Correct answer: many relatives and little income. Aristarchus has many relatives at home after conflict cuts off income from his land."
+            },
+            {
+              "text": "a failed sea voyage",
+              "correct": false,
+              "feedback": "Correct answer: many relatives and little income. Aristarchus has many relatives at home after conflict cuts off income from his land."
+            },
+            {
+              "text": "a lost horse",
+              "correct": false,
+              "feedback": "Correct answer: many relatives and little income. Aristarchus has many relatives at home after conflict cuts off income from his land."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l8-18",
+          "type": "multiple-choice",
+          "category": "Lesson 8",
+          "sourceLesson": 8,
+          "prompt": "In τὰ καλὰ ἱμάτια, what are the gender and number?",
+          "explanation": "τὰ, καλὰ, and ἱμάτια agree as neuter plural.",
+          "choices": [
+            {
+              "text": "feminine singular",
+              "correct": false,
+              "feedback": "Correct answer: neuter plural. τὰ, καλὰ, and ἱμάτια agree as neuter plural."
+            },
+            {
+              "text": "masculine plural",
+              "correct": false,
+              "feedback": "Correct answer: neuter plural. τὰ, καλὰ, and ἱμάτια agree as neuter plural."
+            },
+            {
+              "text": "neuter plural",
+              "correct": true,
+              "feedback": "Correct answer: neuter plural. τὰ, καλὰ, and ἱμάτια agree as neuter plural."
+            },
+            {
+              "text": "masculine singular",
+              "correct": false,
+              "feedback": "Correct answer: neuter plural. τὰ, καλὰ, and ἱμάτια agree as neuter plural."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l8-27",
+          "type": "multiple-choice",
+          "category": "Lesson 8",
+          "sourceLesson": 8,
+          "prompt": "What is known about the women’s own words?",
+          "explanation": "Memorabilia 2.7 describes the women’s work, but does not record their individual words.",
+          "choices": [
+            {
+              "text": "Xenophon records every word.",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon does not preserve their individual dialogue. Memorabilia 2.7 describes the women’s work, but does not record their individual words."
+            },
+            {
+              "text": "Their letters survive.",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon does not preserve their individual dialogue. Memorabilia 2.7 describes the women’s work, but does not record their individual words."
+            },
+            {
+              "text": "They speak in the Anabasis.",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon does not preserve their individual dialogue. Memorabilia 2.7 describes the women’s work, but does not record their individual words."
+            },
+            {
+              "text": "Xenophon does not preserve their individual dialogue.",
+              "correct": true,
+              "feedback": "Correct answer: Xenophon does not preserve their individual dialogue. Memorabilia 2.7 describes the women’s work, but does not record their individual words."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l9-1",
+          "type": "multiple-choice",
+          "category": "Lesson 9",
+          "sourceLesson": 9,
+          "prompt": "What question does Socrates ask Critobulus?",
+          "explanation": "The friendship lesson draws its central question from Socrates’ exchange with Critobulus in Memorabilia 2.6.",
+          "choices": [
+            {
+              "text": "When will a ship sail?",
+              "correct": false,
+              "feedback": "Correct answer: What makes a good friend? The friendship lesson draws its central question from Socrates’ exchange with Critobulus in Memorabilia 2.6."
+            },
+            {
+              "text": "What makes a good friend?",
+              "correct": true,
+              "feedback": "Correct answer: What makes a good friend? The friendship lesson draws its central question from Socrates’ exchange with Critobulus in Memorabilia 2.6."
+            },
+            {
+              "text": "Where is Eleusis?",
+              "correct": false,
+              "feedback": "Correct answer: What makes a good friend? The friendship lesson draws its central question from Socrates’ exchange with Critobulus in Memorabilia 2.6."
+            },
+            {
+              "text": "Who bought the wool?",
+              "correct": false,
+              "feedback": "Correct answer: What makes a good friend? The friendship lesson draws its central question from Socrates’ exchange with Critobulus in Memorabilia 2.6."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l9-13",
+          "type": "multiple-choice",
+          "category": "Lesson 9",
+          "sourceLesson": 9,
+          "prompt": "Which form of τιμάω is first-person singular?",
+          "explanation": "τιμάω contracts to τιμῶ in the first-person singular.",
+          "choices": [
+            {
+              "text": "τιμᾶτε",
+              "correct": false,
+              "feedback": "Correct answer: τιμῶ. τιμάω contracts to τιμῶ in the first-person singular."
+            },
+            {
+              "text": "τιμῶ",
+              "correct": true,
+              "feedback": "Correct answer: τιμῶ. τιμάω contracts to τιμῶ in the first-person singular."
+            },
+            {
+              "text": "τιμᾷς",
+              "correct": false,
+              "feedback": "Correct answer: τιμῶ. τιμάω contracts to τιμῶ in the first-person singular."
+            },
+            {
+              "text": "τιμᾷ",
+              "correct": false,
+              "feedback": "Correct answer: τιμῶ. τιμάω contracts to τιμῶ in the first-person singular."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l9-30",
+          "type": "multiple-choice",
+          "category": "Lesson 9",
+          "sourceLesson": 9,
+          "prompt": "Which ancient text asks Critobulus about friendship?",
+          "explanation": "Memorabilia 2.6 is Xenophon’s discussion with Critobulus about friendship.",
+          "choices": [
+            {
+              "text": "Thucydides 2.47",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon’s Memorabilia 2.6. Memorabilia 2.6 is Xenophon’s discussion with Critobulus about friendship."
+            },
+            {
+              "text": "Xenophon’s Anabasis 3.1",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon’s Memorabilia 2.6. Memorabilia 2.6 is Xenophon’s discussion with Critobulus about friendship."
+            },
+            {
+              "text": "Xenophon’s Memorabilia 2.6",
+              "correct": true,
+              "feedback": "Correct answer: Xenophon’s Memorabilia 2.6. Memorabilia 2.6 is Xenophon’s discussion with Critobulus about friendship."
+            },
+            {
+              "text": "Homer’s Iliad 1",
+              "correct": false,
+              "feedback": "Correct answer: Xenophon’s Memorabilia 2.6. Memorabilia 2.6 is Xenophon’s discussion with Critobulus about friendship."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l10-1",
+          "type": "multiple-choice",
+          "category": "Lesson 10",
+          "sourceLesson": 10,
+          "prompt": "Who sends Xenophon the invitation?",
+          "explanation": "Proxenus of Thebes sends the invitation and offers an introduction to Cyrus.",
+          "choices": [
+            {
+              "text": "Critobulus",
+              "correct": false,
+              "feedback": "Correct answer: Proxenus of Thebes. Proxenus of Thebes sends the invitation and offers an introduction to Cyrus."
+            },
+            {
+              "text": "Proxenus of Thebes",
+              "correct": true,
+              "feedback": "Correct answer: Proxenus of Thebes. Proxenus of Thebes sends the invitation and offers an introduction to Cyrus."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Correct answer: Proxenus of Thebes. Proxenus of Thebes sends the invitation and offers an introduction to Cyrus."
+            },
+            {
+              "text": "Cyrus the Great",
+              "correct": false,
+              "feedback": "Correct answer: Proxenus of Thebes. Proxenus of Thebes sends the invitation and offers an introduction to Cyrus."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l10-19",
+          "type": "multiple-choice",
+          "category": "Lesson 10",
+          "sourceLesson": 10,
+          "prompt": "Which phrase means “my road”?",
+          "explanation": "ἐμή is feminine nominative singular and agrees with ἡ ὁδός.",
+          "choices": [
+            {
+              "text": "ὁ ἐμὸς ὁδός",
+              "correct": false,
+              "feedback": "Correct answer: ἡ ἐμὴ ὁδός. ἐμή is feminine nominative singular and agrees with ἡ ὁδός."
+            },
+            {
+              "text": "τὸ ἐμὸν ὁδός",
+              "correct": false,
+              "feedback": "Correct answer: ἡ ἐμὴ ὁδός. ἐμή is feminine nominative singular and agrees with ἡ ὁδός."
+            },
+            {
+              "text": "ἡ σὴ ὁδός",
+              "correct": false,
+              "feedback": "Correct answer: ἡ ἐμὴ ὁδός. ἐμή is feminine nominative singular and agrees with ἡ ὁδός."
+            },
+            {
+              "text": "ἡ ἐμὴ ὁδός",
+              "correct": true,
+              "feedback": "Correct answer: ἡ ἐμὴ ὁδός. ἐμή is feminine nominative singular and agrees with ἡ ὁδός."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l10-27",
+          "type": "multiple-choice",
+          "category": "Lesson 10",
+          "sourceLesson": 10,
+          "prompt": "What happened to Athens in 404 BCE?",
+          "explanation": "Athens surrendered in 404 BCE, ending the Peloponnesian War and losing most of its fleet.",
+          "choices": [
+            {
+              "text": "it conquered Persia",
+              "correct": false,
+              "feedback": "Correct answer: it surrendered at the end of the Peloponnesian War. Athens surrendered in 404 BCE, ending the Peloponnesian War and losing most of its fleet."
+            },
+            {
+              "text": "it founded Delphi",
+              "correct": false,
+              "feedback": "Correct answer: it surrendered at the end of the Peloponnesian War. Athens surrendered in 404 BCE, ending the Peloponnesian War and losing most of its fleet."
+            },
+            {
+              "text": "it hired Cyrus as king",
+              "correct": false,
+              "feedback": "Correct answer: it surrendered at the end of the Peloponnesian War. Athens surrendered in 404 BCE, ending the Peloponnesian War and losing most of its fleet."
+            },
+            {
+              "text": "it surrendered at the end of the Peloponnesian War",
+              "correct": true,
+              "feedback": "Correct answer: it surrendered at the end of the Peloponnesian War. Athens surrendered in 404 BCE, ending the Peloponnesian War and losing most of its fleet."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l11-5",
+          "type": "multiple-choice",
+          "category": "Lesson 11",
+          "sourceLesson": 11,
+          "prompt": "Which gods does Xenophon ask about?",
+          "explanation": "Xenophon’s question at Delphi concerns which gods to sacrifice and pray to for his journey.",
+          "choices": [
+            {
+              "text": "the gods in Proxenus’s home",
+              "correct": false,
+              "feedback": "Correct answer: the gods to sacrifice and pray to for his journey. Xenophon’s question at Delphi concerns which gods to sacrifice and pray to for his journey."
+            },
+            {
+              "text": "the gods to sacrifice and pray to for his journey",
+              "correct": true,
+              "feedback": "Correct answer: the gods to sacrifice and pray to for his journey. Xenophon’s question at Delphi concerns which gods to sacrifice and pray to for his journey."
+            },
+            {
+              "text": "the gods who founded Athens",
+              "correct": false,
+              "feedback": "Correct answer: the gods to sacrifice and pray to for his journey. Xenophon’s question at Delphi concerns which gods to sacrifice and pray to for his journey."
+            },
+            {
+              "text": "the gods worshiped by Croesus alone",
+              "correct": false,
+              "feedback": "Correct answer: the gods to sacrifice and pray to for his journey. Xenophon’s question at Delphi concerns which gods to sacrifice and pray to for his journey."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l11-14",
+          "type": "multiple-choice",
+          "category": "Lesson 11",
+          "sourceLesson": 11,
+          "prompt": "Which form means “they travel”?",
+          "explanation": "πορεύονται has the third-person plural middle ending -ονται, with the meaning “they travel.”",
+          "choices": [
+            {
+              "text": "πορεύῃ",
+              "correct": false,
+              "feedback": "Correct answer: πορεύονται. πορεύονται has the third-person plural middle ending -ονται, with the meaning “they travel.”"
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Correct answer: πορεύονται. πορεύονται has the third-person plural middle ending -ονται, with the meaning “they travel.”"
+            },
+            {
+              "text": "πορεύονται",
+              "correct": true,
+              "feedback": "Correct answer: πορεύονται. πορεύονται has the third-person plural middle ending -ονται, with the meaning “they travel.”"
+            },
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Correct answer: πορεύονται. πορεύονται has the third-person plural middle ending -ονται, with the meaning “they travel.”"
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l11-26",
+          "type": "multiple-choice",
+          "category": "Lesson 11",
+          "sourceLesson": 11,
+          "prompt": "Who delivered responses at Apollo’s oracle?",
+          "explanation": "The Pythia was Apollo’s priestess who delivered the oracle’s responses at Delphi.",
+          "choices": [
+            {
+              "text": "Xenophon",
+              "correct": false,
+              "feedback": "Correct answer: the Pythia, Apollo’s priestess. The Pythia was Apollo’s priestess who delivered the oracle’s responses at Delphi."
+            },
+            {
+              "text": "Proxenus",
+              "correct": false,
+              "feedback": "Correct answer: the Pythia, Apollo’s priestess. The Pythia was Apollo’s priestess who delivered the oracle’s responses at Delphi."
+            },
+            {
+              "text": "the Pythia, Apollo’s priestess",
+              "correct": true,
+              "feedback": "Correct answer: the Pythia, Apollo’s priestess. The Pythia was Apollo’s priestess who delivered the oracle’s responses at Delphi."
+            },
+            {
+              "text": "Croesus",
+              "correct": false,
+              "feedback": "Correct answer: the Pythia, Apollo’s priestess. The Pythia was Apollo’s priestess who delivered the oracle’s responses at Delphi."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l12-3",
+          "type": "multiple-choice",
+          "category": "Lesson 12",
+          "sourceLesson": 12,
+          "prompt": "What choice should Xenophon have put first?",
+          "explanation": "Socrates says Xenophon should have asked whether going or staying was better before asking how to go.",
+          "choices": [
+            {
+              "text": "whether to bring a horse",
+              "correct": false,
+              "feedback": "Correct answer: whether to go or stay. Socrates says Xenophon should have asked whether going or staying was better before asking how to go."
+            },
+            {
+              "text": "whether to visit Sardis first",
+              "correct": false,
+              "feedback": "Correct answer: whether to go or stay. Socrates says Xenophon should have asked whether going or staying was better before asking how to go."
+            },
+            {
+              "text": "whether to write home",
+              "correct": false,
+              "feedback": "Correct answer: whether to go or stay. Socrates says Xenophon should have asked whether going or staying was better before asking how to go."
+            },
+            {
+              "text": "whether to go or stay",
+              "correct": true,
+              "feedback": "Correct answer: whether to go or stay. Socrates says Xenophon should have asked whether going or staying was better before asking how to go."
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l12-20",
+          "type": "multiple-choice",
+          "category": "Lesson 12",
+          "sourceLesson": 12,
+          "prompt": "What does σὺν τῷ Προξένῳ mean?",
+          "explanation": "σύν takes the dative, so σὺν τῷ Προξένῳ means “with Proxenus.”",
+          "choices": [
+            {
+              "text": "with Proxenus",
+              "correct": true,
+              "feedback": "Correct answer: with Proxenus. σύν takes the dative, so σὺν τῷ Προξένῳ means “with Proxenus.”"
+            },
+            {
+              "text": "toward Proxenus",
+              "correct": false,
+              "feedback": "Correct answer: with Proxenus. σύν takes the dative, so σὺν τῷ Προξένῳ means “with Proxenus.”"
+            },
+            {
+              "text": "from Proxenus",
+              "correct": false,
+              "feedback": "Correct answer: with Proxenus. σύν takes the dative, so σὺν τῷ Προξένῳ means “with Proxenus.”"
+            },
+            {
+              "text": "about Proxenus",
+              "correct": false,
+              "feedback": "Correct answer: with Proxenus. σύν takes the dative, so σὺν τῷ Προξένῳ means “with Proxenus.”"
+            }
+          ]
+        },
+        {
+          "id": "module-1-exam-l12-29",
+          "type": "multiple-choice",
+          "category": "Lesson 12",
+          "sourceLesson": 12,
+          "prompt": "What did Xenophon do before sailing?",
+          "explanation": "Anabasis 3.1.8 says Xenophon sacrificed as the god instructed before sailing.",
+          "choices": [
+            {
+              "text": "asked whether to stay",
+              "correct": false,
+              "feedback": "Correct answer: sacrificed as directed. Anabasis 3.1.8 says Xenophon sacrificed as the god instructed before sailing."
+            },
+            {
+              "text": "sacrificed as directed",
+              "correct": true,
+              "feedback": "Correct answer: sacrificed as directed. Anabasis 3.1.8 says Xenophon sacrificed as the god instructed before sailing."
+            },
+            {
+              "text": "met Cyrus in Athens",
+              "correct": false,
+              "feedback": "Correct answer: sacrificed as directed. Anabasis 3.1.8 says Xenophon sacrificed as the god instructed before sailing."
+            },
+            {
+              "text": "became a general",
+              "correct": false,
+              "feedback": "Correct answer: sacrificed as directed. Anabasis 3.1.8 says Xenophon sacrificed as the god instructed before sailing."
+            }
+          ]
+        }
+      ]
     }
   },
   "nextLesson": {
-    "id": "lesson-13",
-    "title": "The General Leads",
-    "fallbackUrl": "lesson.html?lesson=13&page=1"
+    "id": "module-1-review",
+    "title": "Module 1 Review and Exam",
+    "fallbackUrl": "module-1-review.html"
   },
-  "contentRevision": "lesson-12-socrates-response-v1",
+  "contentRevision": "lesson-12-module-1-review-exam-v1",
   "previousLesson": {
     "id": "lesson-11",
     "title": "The Question at Delphi",

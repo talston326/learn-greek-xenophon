@@ -18,6 +18,23 @@
       --font-greek: "Times New Roman", "Noto Serif Greek", "Noto Serif", serif;
     }
 
+/* The cumulative review follows Lesson 12 and remains readable on narrow screens. */
+.module-review__group {
+  border-top: 1px solid rgba(115, 0, 10, 0.16);
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.module-review__group li {
+  line-height: 1.55;
+  margin: 0.75rem 0;
+}
+
+.module-review__group li [lang="grc"] {
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+
     * { box-sizing: border-box; }
 
     body {

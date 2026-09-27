@@ -815,13 +815,13 @@
       <section class="lesson-section gate-panel lesson-quiz-panel" aria-labelledby="lesson-quiz-heading">
         <div class="lesson-section__header">
           <div>
-            <h2 id="lesson-quiz-heading">Final Quiz</h2>
+            <h2 id="lesson-quiz-heading">${quiz.isModuleExam ? "Module 1 Exam" : "Final Quiz"}</h2>
             <p class="quiz-subheading">Mastery Check</p>
             <h3>${escapeHtml(quiz.title || "Lesson Quiz")}</h3>
           </div>
-          <a class="primary-button" href="${activityUrl("lesson-quiz", page.page)}">Take Final Lesson Quiz</a>
+          <a class="primary-button" href="${activityUrl("lesson-quiz", page.page)}">${quiz.isModuleExam ? "Take Module 1 Exam" : "Take Final Lesson Quiz"}</a>
         </div>
-        <p class="gate-description">This quiz checks vocabulary, grammar, and reading comprehension.</p>
+        <p class="gate-description">${quiz.isModuleExam ? "The cumulative exam covers Lessons 1–12. Pass with at least 70% to enter Module 2. Retakes are allowed." : "This quiz checks vocabulary, grammar, and reading comprehension."}</p>
         ${quiz.instructions ? `<p>${escapeHtml(quiz.instructions)}</p>` : ""}
         ${hasOpenLessonAccess() && !quiz.required ? `<p class="gate-message" data-gate-message="lesson-quiz">Temporary build testing note: open access is enabled, but lesson completion still requires passing the quiz.</p>` : `<p class="gate-message" data-gate-message="lesson-quiz"></p>`}
       </section>
@@ -1749,7 +1749,7 @@
     const previousLessonUrl = getPreviousLessonUrl();
     const nextLessonUrl = getNextLessonUrl();
     const previousLabel = previousPage >= 1 ? "Previous" : previousLessonUrl ? "Previous Lesson" : "All Lessons";
-    const nextLabel = page.page === lesson.pages.length ? (lesson.nextLesson?.id ? "Next Lesson" : "All Lessons") : "Next";
+    const nextLabel = page.page === lesson.pages.length ? (lesson.nextLesson?.id === "module-1-review" ? "Module 1 Review" : lesson.nextLesson?.id ? "Next Lesson" : "All Lessons") : "Next";
     const previousHref = previousPage >= 1
       ? `lesson.html?lesson=${lesson.number}&page=${previousPage}`
       : previousLessonUrl || "lessons.html";
@@ -1860,7 +1860,7 @@
 
     if (message) {
       message.textContent = passed
-        ? `Passed with ${Math.round(Number(result?.score || gate.threshold))}%. You may continue.`
+        ? (result?.passed ? `Passed with ${Math.round(Number(result.score))}%. You may continue.` : "Passed on an earlier attempt. You may continue.")
         : gate.message;
     }
   }
@@ -1922,6 +1922,10 @@
 
   async function init() {
     await loadPublishedLessonContent();
+    if (lesson?.number >= 13 && !isStaffView() && !window.xenophonModuleOneExamPassed?.()) {
+      window.location.replace("module-1-review.html");
+      return;
+    }
     if (lesson?.number >= 6 && !isStaffView()) {
       const progress = readSession()?.progress || {};
       const passedCurrentQuiz = (progress.passedQuizRevisions?.["lesson-5"] || []).includes("lesson-5-final-quiz-v1");

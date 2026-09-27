@@ -307,7 +307,7 @@ export async function buildProgress(
       return;
     }
 
-    if (row.activity_type === "lesson-quiz") {
+    if (row.activity_type === "lesson-quiz" || row.activity_type === "module-exam") {
       passedQuizzes.add(row.lesson_slug);
       if (row.activity_revision) {
         passedQuizRevisions[row.lesson_slug] ||= [];
