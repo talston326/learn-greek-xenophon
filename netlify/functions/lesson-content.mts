@@ -321,7 +321,7 @@ export default async (request: Request) => {
       pages,
       vocabulary: /^lesson-(1[3-9]|2[0-9]|3[0-6])$/.test(lesson.slug)
         && Array.isArray(legacyContent?.vocabulary)
-        && legacyContent?.contentRevision === `${lesson.slug}-module-${Number(lesson.slug.slice(7)) <= 24 ? 2 : 3}-v1`
+        && new RegExp(`^${lesson.slug}-module-${Number(lesson.slug.slice(7)) <= 24 ? 2 : 3}-v\\d+$`).test(legacyContent?.contentRevision || "")
         ? legacyContent.vocabulary
         : vocabulary.length ? vocabulary : undefined,
       reading: legacyReading || publishedBlocks.get("reading") || reading || undefined,
