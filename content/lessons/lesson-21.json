@@ -1,0 +1,5098 @@
+{
+  "id": "lesson-21",
+  "number": 21,
+  "title": "Victory on the Field, Disaster for the Army",
+  "greekTitle": "Νίκη καὶ συμφορά",
+  "scope": "Aorist indicative in past narrative; Thematic second aorist: active and middle; Aspect: action viewed as a whole; Active and middle aorist participles; Common second aorists and principal parts",
+  "theme": "At Cunaxa in 401 BCE, the Greek contingent wins against the troops directly facing it. Cyrus dies elsewhere on the field. The Greeks learn the decisive news only afterward; victory in one sector does not give Cyrus the throne.",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-21-banner.png",
+    "alt": "Educational reconstruction of Greek troops at Cunaxa, with Cyrus’s separate cavalry action",
+    "caption": "Educational reconstruction of the reading’s setting; this modern illustration is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-21-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-21-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-21-page-3",
+      "title": "Culture and History",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Battle and consequence",
+      "items": [
+        {
+          "greek": "ἡ μάχη",
+          "english": "battle",
+          "dictionaryForm": "μάχη, μάχης, ἡ",
+          "status": "required vocabulary",
+          "lemma": "μάχη",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ νίκη",
+          "english": "victory",
+          "dictionaryForm": "νίκη, νίκης, ἡ",
+          "status": "required vocabulary",
+          "lemma": "νίκη",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ συμφορά",
+          "english": "disaster",
+          "dictionaryForm": "συμφορά, συμφορᾶς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "συμφορά",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ τάξις",
+          "english": "formation",
+          "dictionaryForm": "τάξις, τάξεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "τάξις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ πολέμιος",
+          "english": "enemy",
+          "dictionaryForm": "πολέμιος, πολεμίου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "πολέμιος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἀγών",
+          "english": "contest",
+          "dictionaryForm": "ἀγών, ἀγῶνος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἀγών",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ βασιλεύς",
+          "english": "king",
+          "dictionaryForm": "βασιλεύς, βασιλέως, ὁ",
+          "status": "required vocabulary",
+          "lemma": "βασιλεύς",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Actions and information",
+      "items": [
+        {
+          "greek": "ἔρχομαι",
+          "english": "come",
+          "dictionaryForm": "ἔρχομαι, ἐλεύσομαι, ἦλθον",
+          "status": "required vocabulary",
+          "lemma": "ἔρχομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φεύγω",
+          "english": "flee",
+          "dictionaryForm": "φεύγω, φεύξομαι, ἔφυγον",
+          "status": "required vocabulary",
+          "lemma": "φεύγω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λαμβάνω",
+          "english": "take",
+          "dictionaryForm": "λαμβάνω, λήψομαι, ἔλαβον",
+          "status": "required vocabulary",
+          "lemma": "λαμβάνω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μανθάνω",
+          "english": "learn",
+          "dictionaryForm": "μανθάνω, μαθήσομαι, ἔμαθον",
+          "status": "required vocabulary",
+          "lemma": "μανθάνω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πίπτω",
+          "english": "fall",
+          "dictionaryForm": "πίπτω, πεσοῦμαι, ἔπεσον",
+          "status": "required vocabulary",
+          "lemma": "πίπτω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τρέχω",
+          "english": "run",
+          "dictionaryForm": "τρέχω, δραμοῦμαι, ἔδραμον",
+          "status": "required vocabulary",
+          "lemma": "τρέχω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀποθνῄσκω",
+          "english": "die",
+          "dictionaryForm": "ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον",
+          "status": "required vocabulary",
+          "lemma": "ἀποθνῄσκω",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Messages and survival",
+      "items": [
+        {
+          "greek": "ὁ ἄγγελος",
+          "english": "messenger",
+          "dictionaryForm": "ἄγγελος, ἀγγέλου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἄγγελος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀγγελία",
+          "english": "report",
+          "dictionaryForm": "ἀγγελία, ἀγγελίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἀγγελία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ σωτηρία",
+          "english": "survival",
+          "dictionaryForm": "σωτηρία, σωτηρίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "σωτηρία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ βουλή",
+          "english": "counsel",
+          "dictionaryForm": "βουλή, βουλῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "βουλή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "νεκρός",
+          "english": "dead",
+          "dictionaryForm": "νεκρός, νεκρά, νεκρόν",
+          "status": "required vocabulary",
+          "lemma": "νεκρός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οὔπω",
+          "english": "not yet",
+          "dictionaryForm": "οὔπω",
+          "status": "reading vocabulary",
+          "lemma": "οὔπω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Κῦρος",
+          "english": "Cyrus",
+          "dictionaryForm": "Κῦρος, Κύρου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Κῦρος",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Νίκη καὶ συμφορά",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "At Cunaxa in 401 BCE, the Greek contingent wins against the troops directly facing it. Cyrus dies elsewhere on the field. The Greeks learn the decisive news only afterward; victory in one sector does not give Cyrus the throne.",
+      "Source: Xenophon, Anabasis 1.8.17–29; 2.1.1–4. This is a controlled Attic Greek course adaptation, not a verbatim ancient extract. Sequence, persons, and historical outcomes follow the sources; sentence wording, compact transitions, and quoted speech are course compositions. Historical speakers are not being quoted verbatim.",
+      "Aorist narrative is now a target. Blue glosses identify lexical irregularities and forms beyond this lesson: imperfects, passive or athematic aorists, perfect participles, and unfamiliar infinitives remain supported exposure rather than assessed production. Comparison passages from Memorabilia belong to a separate work and setting."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Οἱ Ἕλληνες πρὸς τοὺς πολεμίους ἦλθον. οἱ δὲ πολέμιοι ἔφυγον· οἱ Ἕλληνες αὐτοὺς ἐδίωξαν, ἀλλὰ τὴν τάξιν φυλάττειν ἀλλήλους ἐκέλευσαν.",
+        "gloss": [
+          {
+            "greek": "ἦλθον",
+            "english": "came, advanced; second aorist of ἔρχομαι"
+          },
+          {
+            "greek": "ἔφυγον",
+            "english": "fled; second aorist of φεύγω"
+          },
+          {
+            "greek": "ἐδίωξαν",
+            "english": "pursued; first aorist, supported until Lesson 23"
+          },
+          {
+            "greek": "τὴν τάξιν φυλάττειν",
+            "english": "to keep formation; infinitive"
+          },
+          {
+            "greek": "ἀλλήλους ἐκέλευσαν",
+            "english": "told one another; first aorist, supported until Lesson 23"
+          },
+          {
+            "greek": "τὴν τάξιν",
+            "english": "the formation"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ μὲν Ἕλληνες τοὺς ἔμπροσθεν πολεμίους ἐνίκησαν· ὁ δὲ Κῦρος τὸν ἀδελφὸν ἐζήτησεν. ἡ τῶν Ἑλλήνων νίκη οὐ πᾶσαν τὴν μάχην ἔκρινεν.",
+        "gloss": [
+          {
+            "greek": "τοὺς ἔμπροσθεν πολεμίους",
+            "english": "the opponents in front"
+          },
+          {
+            "greek": "ἐνίκησαν",
+            "english": "defeated; first aorist, supported exposure"
+          },
+          {
+            "greek": "ἐζήτησεν",
+            "english": "sought; first aorist, supported exposure"
+          },
+          {
+            "greek": "οὐ πᾶσαν τὴν μάχην",
+            "english": "not the whole battle"
+          },
+          {
+            "greek": "ἔκρινεν",
+            "english": "decided; liquid first aorist, supported until Lesson 24"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κῦρος τὸν βασιλέα ἰδὼν πρὸς αὐτὸν ἔδραμεν. ὀλίγοι φίλοι σὺν αὐτῷ ἦλθον. ἐνταῦθα ὁ Κῦρος ἔπεσεν καὶ ἀπέθανεν.",
+        "gloss": [
+          {
+            "greek": "τὸν βασιλέα ἰδὼν",
+            "english": "having seen the king; second-aorist participle of ὁράω"
+          },
+          {
+            "greek": "ἔδραμεν",
+            "english": "ran; second aorist of τρέχω"
+          },
+          {
+            "greek": "ἔπεσεν",
+            "english": "fell; second aorist of πίπτω"
+          },
+          {
+            "greek": "ἀπέθανεν",
+            "english": "died; second aorist of ἀποθνῄσκω"
+          },
+          {
+            "greek": "ὀλίγοι φίλοι",
+            "english": "a few friends"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ δὲ Ἕλληνες τὸν Κῦρον οὐκ εἶδον ἀποθνῄσκοντα. τὴν παρ᾽ ἑαυτοῖς νίκην ἐνόμισαν μεγάλην. τὰ δὲ περὶ τὸν Κῦρον οὔπω ἔμαθον.",
+        "gloss": [
+          {
+            "greek": "οὐκ εἶδον",
+            "english": "did not see; second aorist of ὁράω"
+          },
+          {
+            "greek": "ἀποθνῄσκοντα",
+            "english": "dying; present participle, agrees with Cyrus"
+          },
+          {
+            "greek": "παρ᾽ ἑαυτοῖς",
+            "english": "in their own sector"
+          },
+          {
+            "greek": "ἐνόμισαν",
+            "english": "considered; first aorist, supported exposure"
+          },
+          {
+            "greek": "οὔπω ἔμαθον",
+            "english": "did not yet learn; second aorist of μανθάνω"
+          }
+        ]
+      },
+      {
+        "greek": "Τῇ ὑστεραίᾳ ἄγγελοι πρὸς τοὺς Ἕλληνας ἦλθον. τὸν Κῦρον νεκρὸν εἶπον. οἱ στρατιῶται τὴν ἀγγελίαν ἀκούσαντες τὴν συμφορὰν ἔμαθον.",
+        "gloss": [
+          {
+            "greek": "Τῇ ὑστεραίᾳ",
+            "english": "on the next day; dative of time"
+          },
+          {
+            "greek": "εἶπον",
+            "english": "said; second aorist of λέγω"
+          },
+          {
+            "greek": "νεκρὸν",
+            "english": "dead"
+          },
+          {
+            "greek": "ἀκούσαντες",
+            "english": "having heard; first-aorist participle, supported exposure"
+          },
+          {
+            "greek": "τὴν συμφορὰν",
+            "english": "the disaster"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ Ἕλληνες βουλὴν ἔλαβον περὶ τῆς σωτηρίας. τὸν μὲν ἀγῶνα τὸν παρ᾽ ἑαυτοῖς ἐνίκησαν, τὸν δὲ Κῦρον ἀπώλεσαν. νῦν δεῖ αὐτοὺς ὁδὸν πρὸς τὴν Ἑλλάδα ζητεῖν.",
+        "gloss": [
+          {
+            "greek": "βουλὴν ἔλαβον",
+            "english": "took counsel; second aorist of λαμβάνω"
+          },
+          {
+            "greek": "τὸν μὲν ἀγῶνα τὸν παρ᾽ ἑαυτοῖς",
+            "english": "the struggle in their own sector"
+          },
+          {
+            "greek": "ἐνίκησαν",
+            "english": "won; first aorist, supported exposure"
+          },
+          {
+            "greek": "ἀπώλεσαν",
+            "english": "lost; irregular first aorist, supported exposure"
+          },
+          {
+            "greek": "δεῖ αὐτοὺς",
+            "english": "they must; impersonal verb with accusative"
+          },
+          {
+            "greek": "ζητεῖν",
+            "english": "to seek; contracted infinitive"
+          }
+        ]
+      }
+    ],
+    "translation": "The Greeks advanced toward their opponents. The opponents fled; the Greeks pursued them, but told one another to keep their formation.\n\nThe Greeks defeated the opponents in front of them; Cyrus, however, sought his brother. The Greeks’ victory did not decide the whole battle.\n\nCyrus saw the king and rushed toward him. A few friends went with him. There Cyrus fell and died.\n\nThe Greeks did not see Cyrus dying. They considered the victory in their own sector great. They had not yet learned what had happened to Cyrus.\n\nOn the next day messengers came to the Greeks. They said Cyrus was dead. On hearing the report, the soldiers learned of the disaster.\n\nThe Greeks took counsel about survival. They won the struggle in their own sector, but lost Cyrus. Now they must seek a route toward Greece.",
+    "sourceCitation": "Xenophon, Anabasis 1.8.17–29; 2.1.1–4. https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_1.htm https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_2.htm",
+    "notesMarkdown": "The simplified Greek is newly composed for this course. It preserves the source distinctions explained above while reducing sentence complexity. The English translation aligns paragraph for paragraph. Supplementary grammar examples and commands illustrate forms and are not additional historical claims."
+  },
+  "wordStudy": {
+    "label": "Word Study — Victory, report, and survival",
+    "blocks": [
+      {
+        "title": "Victory, report, and survival",
+        "practiceTopic": "word-study",
+        "body": [
+          "νίκη means victory, while συμφορά means disaster. In this lesson both words describe the same battlefield at different scales. The possessive phrase ἡ τῶν Ἑλλήνων νίκη identifies whose local success is meant; it does not assert Cyrus’s accession.",
+          "ἄγγελος is a messenger and ἀγγελία a report. Follow the message from arrival to learning: ἦλθον, then ἔμαθον. These whole-event forms move the narrative through a change in knowledge.",
+          "σωτηρία, survival or deliverance, becomes the army’s new concern. βουλὴν λαμβάνειν means to take counsel: the reading uses the aorist βουλὴν ἔλαβον. Distinguish a verb’s lexical meaning from the event’s effect on the story."
+        ],
+        "display": [
+          {
+            "greek": "νίκη",
+            "english": "victory in the Greek sector"
+          },
+          {
+            "greek": "συμφορά",
+            "english": "disaster for the expedition"
+          },
+          {
+            "greek": "ἄγγελος / ἀγγελία",
+            "english": "messenger / report"
+          },
+          {
+            "greek": "βουλὴν ἔλαβον",
+            "english": "they took counsel"
+          },
+          {
+            "greek": "σωτηρία",
+            "english": "survival"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Use the story to identify who acts and how the action is presented. The following 5 sections teach each assigned topic separately, with forms, worked examples, checks, and practice.",
+    "objectives": [
+      "Aorist indicative in past narrative: explain the pattern and interpret its worked examples.",
+      "Thematic second aorist: active and middle: explain the pattern and interpret its worked examples.",
+      "Aspect: action viewed as a whole: explain the pattern and interpret its worked examples.",
+      "Active and middle aorist participles: explain the pattern and interpret its worked examples.",
+      "Common second aorists and principal parts: explain the pattern and interpret its worked examples."
+    ],
+    "sections": [
+      {
+        "id": "aorist-narrative",
+        "title": "1. Aorist indicative in past narrative",
+        "practiceTopic": "aorist-narrative",
+        "body": [
+          "The indicative aorist normally locates an event in past time. An augment precedes the verbal stem, and secondary endings mark person and number. In ἔλαβον, ἐ- is the syllabic augment, λαβ- is the aorist stem, and -ον is an ending.",
+          "An aorist stem need not look like the present stem: λαμβάνω has ἔλαβον. Do not remove the augment and assume that every remaining stem is a present stem. For a vowel-initial verb the augment can instead lengthen a vowel; Lesson 22 treats that system explicitly.",
+          "The same form ἔλαβον can mean “I took” or “they took.” The noun subject or wider context resolves the ambiguity. οἱ Ἕλληνες ἔλαβον means “the Greeks took”; ἐγὼ ἔλαβον means “I took.”"
+        ],
+        "table": {
+          "title": "1. Aorist indicative in past narrative",
+          "headers": [
+            "Part",
+            "Form",
+            "Function"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "augment",
+              "ἐ-",
+              "past indicative"
+            ],
+            [
+              "stem",
+              "λαβ-",
+              "aorist stem of λαμβάνω"
+            ],
+            [
+              "ending",
+              "-ον",
+              "first singular or third plural"
+            ],
+            [
+              "whole form",
+              "ἔλαβον",
+              "I took / they took"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ στρατιῶται τὴν βουλὴν ἔλαβον.",
+            "english": "The soldiers took counsel."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What marks past indicative time in ἔλαβον?",
+            "answer": "the augment ἐ-. The indicative aorist has augment and secondary endings."
+          },
+          {
+            "prompt": "In οἱ Ἕλληνες ἔλαβον, who took?",
+            "answer": "the Greeks. The plural subject resolves the ambiguous -ον ending."
+          }
+        ]
+      },
+      {
+        "id": "second-aorist-voices",
+        "title": "2. Thematic second aorist: active and middle",
+        "practiceTopic": "second-aorist-voices",
+        "body": [
+          "Thematic second aorists put ο or ε between their stem and their endings. The active pattern is ἔλαβον, ἔλαβες, ἔλαβε(ν), ἐλάβομεν, ἐλάβετε, ἔλαβον. Notice accent movement when another syllable is added.",
+          "The middle uses -όμην, -ου, -ετο, -όμεθα, -εσθε, -οντο. Compare ἐλαβόμην, “I took for myself,” with ἔλαβον, “I took.” The middle meaning depends on the verb and context; these are not the later passive aorist endings.",
+          "The infinitives are λαβεῖν (active) and λαβέσθαι (middle). Infinitives have no augment. In the teaching example ὁ στρατιώτης ἐλάβετο τὰ ὅπλα, the middle depicts the soldier taking up his own equipment."
+        ],
+        "table": {
+          "title": "2. Thematic second aorist: active and middle",
+          "headers": [
+            "Person",
+            "Active",
+            "Middle"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "1 singular",
+              "ἔλαβον",
+              "ἐλαβόμην"
+            ],
+            [
+              "2 singular",
+              "ἔλαβες",
+              "ἐλάβου"
+            ],
+            [
+              "3 singular",
+              "ἔλαβε(ν)",
+              "ἐλάβετο"
+            ],
+            [
+              "1 plural",
+              "ἐλάβομεν",
+              "ἐλαβόμεθα"
+            ],
+            [
+              "2 plural",
+              "ἐλάβετε",
+              "ἐλάβεσθε"
+            ],
+            [
+              "3 plural",
+              "ἔλαβον",
+              "ἐλάβοντο"
+            ],
+            [
+              "infinitive",
+              "λαβεῖν",
+              "λαβέσθαι"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ στρατιώτης ἐλάβετο τὰ ὅπλα.",
+            "english": "The soldier took up his arms for himself."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which means “we took” (active)?",
+            "answer": "ἐλάβομεν. -ομεν identifies first plural active."
+          },
+          {
+            "prompt": "What person is ἐλάβου?",
+            "answer": "second singular middle. Second-aorist middle second singular ends in -ου."
+          }
+        ]
+      },
+      {
+        "id": "aorist-aspect",
+        "title": "3. Aspect: action viewed as a whole",
+        "practiceTopic": "aorist-aspect",
+        "body": [
+          "Aspect is the way a speaker presents an action. A present stem commonly opens an action from inside, as ongoing or repeated. An aorist stem presents the action as a whole without focusing on its internal unfolding.",
+          "“Whole” does not mean “instantaneous.” οἱ στρατιῶται ἔδραμον can summarize a run that lasted some time. A duration phrase can occur with an aorist; the grammatical choice still views the event as a unit.",
+          "Keep time and aspect separate. Present φεύγουσιν means “they are fleeing” here; narrative aorist ἔφυγον means “they fled.” An aorist participle is not a past indicative: its timing is interpreted in relation to the main verb."
+        ],
+        "table": {
+          "title": "3. Aspect: action viewed as a whole",
+          "headers": [
+            "Presentation",
+            "Greek",
+            "English"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "ongoing present",
+              "φεύγουσιν",
+              "they are fleeing"
+            ],
+            [
+              "whole past event",
+              "ἔφυγον",
+              "they fled"
+            ],
+            [
+              "ongoing learning",
+              "μανθάνει",
+              "he is learning"
+            ],
+            [
+              "whole learning event",
+              "ἔμαθεν",
+              "he learned"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ Ἕλληνες ἔδραμον· νῦν δὲ μένουσιν.",
+            "english": "The Greeks ran; now they remain."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Does an aorist necessarily mean an instant?",
+            "answer": "no, it views the action as a whole. Aspect describes presentation, not measured duration."
+          },
+          {
+            "prompt": "Which presents flight as ongoing now?",
+            "answer": "φεύγουσιν. The present indicative opens the action as ongoing."
+          }
+        ]
+      },
+      {
+        "id": "second-aorist-participles",
+        "title": "4. Active and middle aorist participles",
+        "practiceTopic": "second-aorist-participles",
+        "body": [
+          "The active second-aorist participle uses the stem without augment: λαβών, λαβοῦσα, λαβόν. Its masculine/neuter stem contains -οντ-; the feminine has -ουσα. Like an adjective, it agrees in case, number, and gender with the person or thing described.",
+          "The middle participle is λαβόμενος, λαβομένη, λαβόμενον and declines like an adjective in -ος, -η, -ον. Compare λαβών with λαβόμενος: both present the taking as a whole, but their voices differ.",
+          "An aorist participle often supplies an action before the main action: λαβὼν τὰ ὅπλα ἦλθεν, “having taken the arms, he came.” Context determines the relationship; the stem does not impose a separate absolute date. Accent becomes grave before a following word: λαβών → λαβὼν τὰ ὅπλα."
+        ],
+        "table": {
+          "title": "4. Active and middle aorist participles",
+          "headers": [
+            "Case/form",
+            "Active masculine",
+            "Active feminine",
+            "Middle masculine"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "nominative singular",
+              "λαβών",
+              "λαβοῦσα",
+              "λαβόμενος"
+            ],
+            [
+              "genitive singular",
+              "λαβόντος",
+              "λαβούσης",
+              "λαβομένου"
+            ],
+            [
+              "dative singular",
+              "λαβόντι",
+              "λαβούσῃ",
+              "λαβομένῳ"
+            ],
+            [
+              "accusative singular",
+              "λαβόντα",
+              "λαβοῦσαν",
+              "λαβόμενον"
+            ],
+            [
+              "nominative plural",
+              "λαβόντες",
+              "λαβοῦσαι",
+              "λαβόμενοι"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "λαβὼν τὰ ὅπλα ὁ στρατιώτης ἦλθεν.",
+            "english": "Having taken the arms, the soldier came."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is feminine nominative singular active?",
+            "answer": "λαβοῦσα. λαβοῦσα has feminine agreement."
+          },
+          {
+            "prompt": "Which is genitive masculine singular active?",
+            "answer": "λαβόντος. -οντος marks the active genitive singular."
+          }
+        ]
+      },
+      {
+        "id": "second-aorist-principal-parts",
+        "title": "5. Common second aorists and principal parts",
+        "practiceTopic": "second-aorist-principal-parts",
+        "body": [
+          "Learn the present, future, and aorist together as the first three principal parts. They identify stems needed for different systems. λαμβάνω, λήψομαι, ἔλαβον cannot be predicted by merely appending an ending to λαμβαν-.",
+          "This lesson assigns ἔρχομαι–ἐλεύσομαι–ἦλθον, φεύγω–φεύξομαι–ἔφυγον, λαμβάνω–λήψομαι–ἔλαβον, and μανθάνω–μαθήσομαι–ἔμαθον. The future middle forms may have active English meanings; their voice forms do not change the dictionary meaning automatically.",
+          "Also recognize πίπτω–πεσοῦμαι–ἔπεσον, τρέχω–δραμοῦμαι–ἔδραμον, and ἀποθνῄσκω–ἀποθανοῦμαι–ἀπέθανον in the reading. εἶπον and εἶδον receive their own focused treatment next lesson. Compounds such as ἀπέθανον are glossed now; their augment placement is taught in Lesson 24."
+        ],
+        "table": {
+          "title": "5. Common second aorists and principal parts",
+          "headers": [
+            "Present",
+            "Future",
+            "Aorist"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "ἔρχομαι",
+              "ἐλεύσομαι",
+              "ἦλθον"
+            ],
+            [
+              "φεύγω",
+              "φεύξομαι",
+              "ἔφυγον"
+            ],
+            [
+              "λαμβάνω",
+              "λήψομαι",
+              "ἔλαβον"
+            ],
+            [
+              "μανθάνω",
+              "μαθήσομαι",
+              "ἔμαθον"
+            ],
+            [
+              "πίπτω",
+              "πεσοῦμαι",
+              "ἔπεσον"
+            ],
+            [
+              "τρέχω",
+              "δραμοῦμαι",
+              "ἔδραμον"
+            ],
+            [
+              "ἀποθνῄσκω",
+              "ἀποθανοῦμαι",
+              "ἀπέθανον"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τὴν ἀγγελίαν ἔμαθον.",
+            "english": "They learned the report."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What dictionary verb supplies ἔμαθον?",
+            "answer": "μανθάνω. μαθ- is the second-aorist stem of μανθάνω."
+          },
+          {
+            "prompt": "Which is the aorist of λαμβάνω?",
+            "answer": "ἔλαβον. The principal parts link λαμβάνω with ἔλαβον."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Aorist indicative in past narrative: The indicative aorist normally locates an event in past time. An augment precedes the verbal stem, and secondary endings mark person and number. In ἔλαβον, ἐ- is the syllabic augment, λαβ- is the aorist stem, and -ον is an ending.",
+        "Thematic second aorist: active and middle: Thematic second aorists put ο or ε between their stem and their endings. The active pattern is ἔλαβον, ἔλαβες, ἔλαβε(ν), ἐλάβομεν, ἐλάβετε, ἔλαβον. Notice accent movement when another syllable is added.",
+        "Aspect: action viewed as a whole: Aspect is the way a speaker presents an action. A present stem commonly opens an action from inside, as ongoing or repeated. An aorist stem presents the action as a whole without focusing on its internal unfolding.",
+        "Active and middle aorist participles: The active second-aorist participle uses the stem without augment: λαβών, λαβοῦσα, λαβόν. Its masculine/neuter stem contains -οντ-; the feminine has -ουσα. Like an adjective, it agrees in case, number, and gender with the person or thing described.",
+        "Common second aorists and principal parts: Learn the present, future, and aorist together as the first three principal parts. They identify stems needed for different systems. λαμβάνω, λήψομαι, ἔλαβον cannot be predicted by merely appending an ending to λαμβαν-."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Culture and History",
+    "body": [],
+    "sections": [
+      {
+        "title": "Two scales of victory",
+        "body": [
+          "A battle can contain successes and failures in different sectors. The Greeks drive back the troops facing them, while Cyrus’s attack brings him into direct danger near the king. The course therefore uses “Greek victory” only for the local encounter.",
+          "The expedition sought to replace Artaxerxes with Cyrus. Cyrus’s death removes that purpose even though the Greeks retain military strength. Evaluating leadership requires connecting a successful action to the aim it was meant to serve."
+        ]
+      },
+      {
+        "title": "Information reaches an army unevenly",
+        "body": [
+          "The narrator can tell readers about Cyrus’s death before the Greek soldiers know it. This distinction matters when we judge their confidence after the battle. Their limited view of the field is part of the episode, not proof that they knew and ignored the disaster.",
+          "Messages turn that limited view into a new practical problem: survival without the expedition’s royal patron. Read the sequence of actions carefully. A reader should neither grant the soldiers the narrator’s knowledge too early nor mistake their local success for the outcome of the campaign."
+        ]
+      },
+      {
+        "title": "Bravery and responsibility",
+        "body": [
+          "Cyrus’s personal attack can be described as bold while its consequences remain disastrous. Courage does not alone guarantee a sound decision. The reading leaves room to examine what a leader owes the many people who depend on his survival.",
+          "Compare this military aim with Cleocritus’s civic appeal in Lesson 20. One seeks a throne; the other urges citizens to recognize shared obligations after civil violence. The comparison evaluates purposes and consequences without pretending that the two speeches occurred together."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Why is the local victory insufficient?",
+        "answer": "Cyrus’s death defeats the expedition’s aim. Their purpose was to establish Cyrus, not simply win one encounter."
+      },
+      {
+        "prompt": "Whose knowledge is broader at first?",
+        "answer": "the narrator’s. The narrator reports events away from the Greek sector."
+      },
+      {
+        "prompt": "What makes leadership judgment more than praise for boldness?",
+        "answer": "attention to purposes and consequences. The culture page links decisions to the people affected."
+      },
+      {
+        "prompt": "Which purpose belongs to Cleocritus’s comparison?",
+        "answer": "shared civic obligations. Lesson 20 concerns fellow citizens in Athens."
+      },
+      {
+        "prompt": "What changes after the report?",
+        "answer": "the practical aim becomes survival. Cyrus’s death forces a new aim."
+      },
+      {
+        "prompt": "What should a reader avoid?",
+        "answer": "giving soldiers knowledge they did not yet have. Sequence and viewpoint prevent false inferences."
+      },
+      {
+        "prompt": "Which decision best tests responsibility in this reading? Explain with an action and consequence.",
+        "answer": "Responses may differ; use the reading’s specific decisions and the source distinctions to support your judgment."
+      },
+      {
+        "prompt": "What would be lost by ignoring the uncertainty or collective action in this account?",
+        "answer": "Explain how the reading avoids overstating knowledge, prophetic certainty, or a single leader’s role."
+      }
+    ],
+    "reflections": [
+      {
+        "prompt": "Which decision in this reading best tests a leader’s responsibility, and why?",
+        "answer": "Support your judgment with a specific action and consequence in the reading."
+      },
+      {
+        "prompt": "Where must a reader distinguish a reported event from an interpretation or course adaptation?",
+        "answer": "Use the source note and the culture discussion to mark what the evidence supports."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "At Cunaxa in 401 BCE, the Greek contingent wins against the troops directly facing it. Cyrus dies elsewhere on the field. The Greeks learn the decisive news only afterward; victory in one sector does not give Cyrus the throne.",
+        "Review aorist indicative in past narrative and its examples.",
+        "Review thematic second aorist: active and middle and its examples.",
+        "Review aspect: action viewed as a whole and its examples.",
+        "Review active and middle aorist participles and its examples.",
+        "Review common second aorists and principal parts and its examples.",
+        "Identify actors from agreement and preserve the reading’s historical sequence.",
+        "Separate the course’s adapted wording from the ancient author’s reported events."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Anabasis 1.8: Cunaxa",
+        "url": "https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_1.htm"
+      },
+      {
+        "title": "Anabasis 2.1: news after the battle",
+        "url": "https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_2.htm"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 21 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "μάχη, μάχης, ἡ",
+          "answer": "battle"
+        },
+        {
+          "prompt": "νίκη, νίκης, ἡ",
+          "answer": "victory"
+        },
+        {
+          "prompt": "συμφορά, συμφορᾶς, ἡ",
+          "answer": "disaster"
+        },
+        {
+          "prompt": "τάξις, τάξεως, ἡ",
+          "answer": "formation"
+        },
+        {
+          "prompt": "πολέμιος, πολεμίου, ὁ",
+          "answer": "enemy"
+        },
+        {
+          "prompt": "ἀγών, ἀγῶνος, ὁ",
+          "answer": "contest"
+        },
+        {
+          "prompt": "βασιλεύς, βασιλέως, ὁ",
+          "answer": "king"
+        },
+        {
+          "prompt": "ἔρχομαι, ἐλεύσομαι, ἦλθον",
+          "answer": "come"
+        },
+        {
+          "prompt": "φεύγω, φεύξομαι, ἔφυγον",
+          "answer": "flee"
+        },
+        {
+          "prompt": "λαμβάνω, λήψομαι, ἔλαβον",
+          "answer": "take"
+        },
+        {
+          "prompt": "μανθάνω, μαθήσομαι, ἔμαθον",
+          "answer": "learn"
+        },
+        {
+          "prompt": "πίπτω, πεσοῦμαι, ἔπεσον",
+          "answer": "fall"
+        },
+        {
+          "prompt": "τρέχω, δραμοῦμαι, ἔδραμον",
+          "answer": "run"
+        },
+        {
+          "prompt": "ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον",
+          "answer": "die"
+        },
+        {
+          "prompt": "ἄγγελος, ἀγγέλου, ὁ",
+          "answer": "messenger"
+        },
+        {
+          "prompt": "ἀγγελία, ἀγγελίας, ἡ",
+          "answer": "report"
+        },
+        {
+          "prompt": "σωτηρία, σωτηρίας, ἡ",
+          "answer": "survival"
+        },
+        {
+          "prompt": "βουλή, βουλῆς, ἡ",
+          "answer": "counsel"
+        },
+        {
+          "prompt": "νεκρός, νεκρά, νεκρόν",
+          "answer": "dead"
+        },
+        {
+          "prompt": "οὔπω",
+          "answer": "not yet"
+        },
+        {
+          "prompt": "Κῦρος, Κύρου, ὁ",
+          "answer": "Cyrus"
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 21 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "What marks past indicative time in ἔλαβον?",
+          "answer": "the augment ἐ-. The indicative aorist has augment and secondary endings."
+        },
+        {
+          "prompt": "In οἱ Ἕλληνες ἔλαβον, who took?",
+          "answer": "the Greeks. The plural subject resolves the ambiguous -ον ending."
+        },
+        {
+          "prompt": "Which means “we took” (active)?",
+          "answer": "ἐλάβομεν. -ομεν identifies first plural active."
+        },
+        {
+          "prompt": "What person is ἐλάβου?",
+          "answer": "second singular middle. Second-aorist middle second singular ends in -ου."
+        },
+        {
+          "prompt": "Does an aorist necessarily mean an instant?",
+          "answer": "no, it views the action as a whole. Aspect describes presentation, not measured duration."
+        },
+        {
+          "prompt": "Which presents flight as ongoing now?",
+          "answer": "φεύγουσιν. The present indicative opens the action as ongoing."
+        },
+        {
+          "prompt": "Which is feminine nominative singular active?",
+          "answer": "λαβοῦσα. λαβοῦσα has feminine agreement."
+        },
+        {
+          "prompt": "Which is genitive masculine singular active?",
+          "answer": "λαβόντος. -οντος marks the active genitive singular."
+        },
+        {
+          "prompt": "What dictionary verb supplies ἔμαθον?",
+          "answer": "μανθάνω. μαθ- is the second-aorist stem of μανθάνω."
+        },
+        {
+          "prompt": "Which is the aorist of λαμβάνω?",
+          "answer": "ἔλαβον. The principal parts link λαμβάνω with ἔλαβον."
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 21 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": [
+        "Practice both Greek-to-English and English-to-Greek for every required entry."
+      ],
+      "questions": [
+        {
+          "id": "lesson-21-vocab-0001",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μάχη mean in this lesson?",
+          "explanation": "μάχη, μάχης, ἡ means battle in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": true,
+              "feedback": "Correct: μάχη, μάχης, ἡ means battle in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: μάχη, μάχης, ἡ means battle in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: μάχη, μάχης, ἡ means battle in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: μάχη, μάχης, ἡ means battle in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0002",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “battle”?",
+          "explanation": "The assigned entry is μάχη, μάχης, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μάχη, μάχης, ἡ."
+            },
+            {
+              "text": "ἡ μάχη",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is μάχη, μάχης, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μάχη, μάχης, ἡ."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μάχη, μάχης, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0003",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ νίκη mean in this lesson?",
+          "explanation": "νίκη, νίκης, ἡ means victory in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: νίκη, νίκης, ἡ means victory in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: νίκη, νίκης, ἡ means victory in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": true,
+              "feedback": "Correct: νίκη, νίκης, ἡ means victory in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: νίκη, νίκης, ἡ means victory in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0004",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “victory”?",
+          "explanation": "The assigned entry is νίκη, νίκης, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is νίκη, νίκης, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is νίκη, νίκης, ἡ."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is νίκη, νίκης, ἡ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is νίκη, νίκης, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0005",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ συμφορά mean in this lesson?",
+          "explanation": "συμφορά, συμφορᾶς, ἡ means disaster in the assigned context.",
+          "choices": [
+            {
+              "text": "disaster",
+              "correct": true,
+              "feedback": "Correct: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0006",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “disaster”?",
+          "explanation": "The assigned entry is συμφορά, συμφορᾶς, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is συμφορά, συμφορᾶς, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is συμφορά, συμφορᾶς, ἡ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is συμφορά, συμφορᾶς, ἡ."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is συμφορά, συμφορᾶς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0007",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τάξις mean in this lesson?",
+          "explanation": "τάξις, τάξεως, ἡ means formation in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: τάξις, τάξεως, ἡ means formation in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: τάξις, τάξεως, ἡ means formation in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": true,
+              "feedback": "Correct: τάξις, τάξεως, ἡ means formation in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: τάξις, τάξεως, ἡ means formation in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0008",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “formation”?",
+          "explanation": "The assigned entry is τάξις, τάξεως, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τάξις, τάξεως, ἡ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τάξις, τάξεως, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τάξις, τάξεως, ἡ."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is τάξις, τάξεως, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0009",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ πολέμιος mean in this lesson?",
+          "explanation": "πολέμιος, πολεμίου, ὁ means enemy in the assigned context.",
+          "choices": [
+            {
+              "text": "enemy",
+              "correct": true,
+              "feedback": "Correct: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0010",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “enemy”?",
+          "explanation": "The assigned entry is πολέμιος, πολεμίου, ὁ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πολέμιος, πολεμίου, ὁ."
+            },
+            {
+              "text": "ὁ πολέμιος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πολέμιος, πολεμίου, ὁ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πολέμιος, πολεμίου, ὁ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πολέμιος, πολεμίου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0011",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἀγών mean in this lesson?",
+          "explanation": "ἀγών, ἀγῶνος, ὁ means contest in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            },
+            {
+              "text": "contest",
+              "correct": true,
+              "feedback": "Correct: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0012",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “contest”?",
+          "explanation": "The assigned entry is ἀγών, ἀγῶνος, ὁ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "ὁ ἀγών",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἀγών, ἀγῶνος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0013",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ βασιλεύς mean in this lesson?",
+          "explanation": "βασιλεύς, βασιλέως, ὁ means king in the assigned context.",
+          "choices": [
+            {
+              "text": "king",
+              "correct": true,
+              "feedback": "Correct: βασιλεύς, βασιλέως, ὁ means king in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: βασιλεύς, βασιλέως, ὁ means king in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: βασιλεύς, βασιλέως, ὁ means king in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: βασιλεύς, βασιλέως, ὁ means king in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0014",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “king”?",
+          "explanation": "The assigned entry is βασιλεύς, βασιλέως, ὁ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βασιλεύς, βασιλέως, ὁ."
+            },
+            {
+              "text": "ὁ βασιλεύς",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is βασιλεύς, βασιλέως, ὁ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βασιλεύς, βασιλέως, ὁ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βασιλεύς, βασιλέως, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0015",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἔρχομαι mean in this lesson?",
+          "explanation": "ἔρχομαι, ἐλεύσομαι, ἦλθον means come in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: ἔρχομαι, ἐλεύσομαι, ἦλθον means come in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: ἔρχομαι, ἐλεύσομαι, ἦλθον means come in the assigned context."
+            },
+            {
+              "text": "come",
+              "correct": true,
+              "feedback": "Correct: ἔρχομαι, ἐλεύσομαι, ἦλθον means come in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: ἔρχομαι, ἐλεύσομαι, ἦλθον means come in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0016",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “come”?",
+          "explanation": "The assigned entry is ἔρχομαι, ἐλεύσομαι, ἦλθον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἔρχομαι, ἐλεύσομαι, ἦλθον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἔρχομαι, ἐλεύσομαι, ἦλθον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἔρχομαι, ἐλεύσομαι, ἦλθον."
+            },
+            {
+              "text": "ἔρχομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἔρχομαι, ἐλεύσομαι, ἦλθον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0017",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does φεύγω mean in this lesson?",
+          "explanation": "φεύγω, φεύξομαι, ἔφυγον means flee in the assigned context.",
+          "choices": [
+            {
+              "text": "flee",
+              "correct": true,
+              "feedback": "Correct: φεύγω, φεύξομαι, ἔφυγον means flee in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: φεύγω, φεύξομαι, ἔφυγον means flee in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: φεύγω, φεύξομαι, ἔφυγον means flee in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: φεύγω, φεύξομαι, ἔφυγον means flee in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0018",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “flee”?",
+          "explanation": "The assigned entry is φεύγω, φεύξομαι, ἔφυγον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φεύγω, φεύξομαι, ἔφυγον."
+            },
+            {
+              "text": "φεύγω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is φεύγω, φεύξομαι, ἔφυγον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φεύγω, φεύξομαι, ἔφυγον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φεύγω, φεύξομαι, ἔφυγον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0019",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λαμβάνω mean in this lesson?",
+          "explanation": "λαμβάνω, λήψομαι, ἔλαβον means take in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: λαμβάνω, λήψομαι, ἔλαβον means take in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: λαμβάνω, λήψομαι, ἔλαβον means take in the assigned context."
+            },
+            {
+              "text": "take",
+              "correct": true,
+              "feedback": "Correct: λαμβάνω, λήψομαι, ἔλαβον means take in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: λαμβάνω, λήψομαι, ἔλαβον means take in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0020",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “take”?",
+          "explanation": "The assigned entry is λαμβάνω, λήψομαι, ἔλαβον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λαμβάνω, λήψομαι, ἔλαβον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λαμβάνω, λήψομαι, ἔλαβον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λαμβάνω, λήψομαι, ἔλαβον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is λαμβάνω, λήψομαι, ἔλαβον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0021",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does μανθάνω mean in this lesson?",
+          "explanation": "μανθάνω, μαθήσομαι, ἔμαθον means learn in the assigned context.",
+          "choices": [
+            {
+              "text": "learn",
+              "correct": true,
+              "feedback": "Correct: μανθάνω, μαθήσομαι, ἔμαθον means learn in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: μανθάνω, μαθήσομαι, ἔμαθον means learn in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: μανθάνω, μαθήσομαι, ἔμαθον means learn in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: μανθάνω, μαθήσομαι, ἔμαθον means learn in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0022",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “learn”?",
+          "explanation": "The assigned entry is μανθάνω, μαθήσομαι, ἔμαθον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μανθάνω, μαθήσομαι, ἔμαθον."
+            },
+            {
+              "text": "μανθάνω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is μανθάνω, μαθήσομαι, ἔμαθον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μανθάνω, μαθήσομαι, ἔμαθον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μανθάνω, μαθήσομαι, ἔμαθον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0023",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πίπτω mean in this lesson?",
+          "explanation": "πίπτω, πεσοῦμαι, ἔπεσον means fall in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: πίπτω, πεσοῦμαι, ἔπεσον means fall in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: πίπτω, πεσοῦμαι, ἔπεσον means fall in the assigned context."
+            },
+            {
+              "text": "fall",
+              "correct": true,
+              "feedback": "Correct: πίπτω, πεσοῦμαι, ἔπεσον means fall in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: πίπτω, πεσοῦμαι, ἔπεσον means fall in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0024",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “fall”?",
+          "explanation": "The assigned entry is πίπτω, πεσοῦμαι, ἔπεσον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πίπτω, πεσοῦμαι, ἔπεσον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πίπτω, πεσοῦμαι, ἔπεσον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πίπτω, πεσοῦμαι, ἔπεσον."
+            },
+            {
+              "text": "πίπτω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πίπτω, πεσοῦμαι, ἔπεσον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0025",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does τρέχω mean in this lesson?",
+          "explanation": "τρέχω, δραμοῦμαι, ἔδραμον means run in the assigned context.",
+          "choices": [
+            {
+              "text": "run",
+              "correct": true,
+              "feedback": "Correct: τρέχω, δραμοῦμαι, ἔδραμον means run in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: τρέχω, δραμοῦμαι, ἔδραμον means run in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: τρέχω, δραμοῦμαι, ἔδραμον means run in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: τρέχω, δραμοῦμαι, ἔδραμον means run in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0026",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “run”?",
+          "explanation": "The assigned entry is τρέχω, δραμοῦμαι, ἔδραμον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τρέχω, δραμοῦμαι, ἔδραμον."
+            },
+            {
+              "text": "τρέχω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is τρέχω, δραμοῦμαι, ἔδραμον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τρέχω, δραμοῦμαι, ἔδραμον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τρέχω, δραμοῦμαι, ἔδραμον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0027",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἀποθνῄσκω mean in this lesson?",
+          "explanation": "ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον means die in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον means die in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον means die in the assigned context."
+            },
+            {
+              "text": "die",
+              "correct": true,
+              "feedback": "Correct: ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον means die in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον means die in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0028",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “die”?",
+          "explanation": "The assigned entry is ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον."
+            },
+            {
+              "text": "ἀποθνῄσκω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0029",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἄγγελος mean in this lesson?",
+          "explanation": "ἄγγελος, ἀγγέλου, ὁ means messenger in the assigned context.",
+          "choices": [
+            {
+              "text": "messenger",
+              "correct": true,
+              "feedback": "Correct: ἄγγελος, ἀγγέλου, ὁ means messenger in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: ἄγγελος, ἀγγέλου, ὁ means messenger in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: ἄγγελος, ἀγγέλου, ὁ means messenger in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: ἄγγελος, ἀγγέλου, ὁ means messenger in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0030",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “messenger”?",
+          "explanation": "The assigned entry is ἄγγελος, ἀγγέλου, ὁ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἄγγελος, ἀγγέλου, ὁ."
+            },
+            {
+              "text": "ὁ ἄγγελος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἄγγελος, ἀγγέλου, ὁ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἄγγελος, ἀγγέλου, ὁ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἄγγελος, ἀγγέλου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0031",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀγγελία mean in this lesson?",
+          "explanation": "ἀγγελία, ἀγγελίας, ἡ means report in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: ἀγγελία, ἀγγελίας, ἡ means report in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: ἀγγελία, ἀγγελίας, ἡ means report in the assigned context."
+            },
+            {
+              "text": "report",
+              "correct": true,
+              "feedback": "Correct: ἀγγελία, ἀγγελίας, ἡ means report in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: ἀγγελία, ἀγγελίας, ἡ means report in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0032",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “report”?",
+          "explanation": "The assigned entry is ἀγγελία, ἀγγελίας, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγγελία, ἀγγελίας, ἡ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγγελία, ἀγγελίας, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγγελία, ἀγγελίας, ἡ."
+            },
+            {
+              "text": "ἡ ἀγγελία",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἀγγελία, ἀγγελίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0033",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ σωτηρία mean in this lesson?",
+          "explanation": "σωτηρία, σωτηρίας, ἡ means survival in the assigned context.",
+          "choices": [
+            {
+              "text": "survival",
+              "correct": true,
+              "feedback": "Correct: σωτηρία, σωτηρίας, ἡ means survival in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: σωτηρία, σωτηρίας, ἡ means survival in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: σωτηρία, σωτηρίας, ἡ means survival in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: σωτηρία, σωτηρίας, ἡ means survival in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0034",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “survival”?",
+          "explanation": "The assigned entry is σωτηρία, σωτηρίας, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σωτηρία, σωτηρίας, ἡ."
+            },
+            {
+              "text": "ἡ σωτηρία",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is σωτηρία, σωτηρίας, ἡ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σωτηρία, σωτηρίας, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σωτηρία, σωτηρίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0035",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βουλή mean in this lesson?",
+          "explanation": "βουλή, βουλῆς, ἡ means counsel in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: βουλή, βουλῆς, ἡ means counsel in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: βουλή, βουλῆς, ἡ means counsel in the assigned context."
+            },
+            {
+              "text": "counsel",
+              "correct": true,
+              "feedback": "Correct: βουλή, βουλῆς, ἡ means counsel in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: βουλή, βουλῆς, ἡ means counsel in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0036",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “counsel”?",
+          "explanation": "The assigned entry is βουλή, βουλῆς, ἡ.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βουλή, βουλῆς, ἡ."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βουλή, βουλῆς, ἡ."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βουλή, βουλῆς, ἡ."
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is βουλή, βουλῆς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0037",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does νεκρός mean in this lesson?",
+          "explanation": "νεκρός, νεκρά, νεκρόν means dead in the assigned context.",
+          "choices": [
+            {
+              "text": "dead",
+              "correct": true,
+              "feedback": "Correct: νεκρός, νεκρά, νεκρόν means dead in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: νεκρός, νεκρά, νεκρόν means dead in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: νεκρός, νεκρά, νεκρόν means dead in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: νεκρός, νεκρά, νεκρόν means dead in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-vocab-0038",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “dead”?",
+          "explanation": "The assigned entry is νεκρός, νεκρά, νεκρόν.",
+          "choices": [
+            {
+              "text": "ἡ μάχη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is νεκρός, νεκρά, νεκρόν."
+            },
+            {
+              "text": "νεκρός",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is νεκρός, νεκρά, νεκρόν."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "Review: The assigned entry is νεκρός, νεκρά, νεκρόν."
+            },
+            {
+              "text": "ἡ συμφορά",
+              "correct": false,
+              "feedback": "Review: The assigned entry is νεκρός, νεκρά, νεκρόν."
+            }
+          ]
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 21 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 6,
+      "instructions": [
+        "Choose the topic linked from Word Study or a grammar section. Read feedback before retrying."
+      ],
+      "questions": [
+        {
+          "id": "lesson-21-topic-0039",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What contrast structures the word study?",
+          "explanation": "Victory and disaster describe different scales of the battle.",
+          "choices": [
+            {
+              "text": "θεός and ναός",
+              "correct": false,
+              "feedback": "Review: Victory and disaster describe different scales of the battle."
+            },
+            {
+              "text": "οἰκία and θύρα",
+              "correct": false,
+              "feedback": "Review: Victory and disaster describe different scales of the battle."
+            },
+            {
+              "text": "νίκη and συμφορά",
+              "correct": true,
+              "feedback": "Correct: Victory and disaster describe different scales of the battle."
+            },
+            {
+              "text": "πῦρ and μόλυβδος",
+              "correct": false,
+              "feedback": "Review: Victory and disaster describe different scales of the battle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0040",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which word names the person carrying news?",
+          "explanation": "ἄγγελος is messenger; ἀγγελία is report.",
+          "choices": [
+            {
+              "text": "ἀγγελία",
+              "correct": false,
+              "feedback": "Review: ἄγγελος is messenger; ἀγγελία is report."
+            },
+            {
+              "text": "βουλή",
+              "correct": false,
+              "feedback": "Review: ἄγγελος is messenger; ἀγγελία is report."
+            },
+            {
+              "text": "νίκη",
+              "correct": false,
+              "feedback": "Review: ἄγγελος is messenger; ἀγγελία is report."
+            },
+            {
+              "text": "ἄγγελος",
+              "correct": true,
+              "feedback": "Correct: ἄγγελος is messenger; ἀγγελία is report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0041",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which word names the news itself?",
+          "explanation": "ἀγγελία names the report carried.",
+          "choices": [
+            {
+              "text": "ἀγγελία",
+              "correct": true,
+              "feedback": "Correct: ἀγγελία names the report carried."
+            },
+            {
+              "text": "ἄγγελος",
+              "correct": false,
+              "feedback": "Review: ἀγγελία names the report carried."
+            },
+            {
+              "text": "στρατηγός",
+              "correct": false,
+              "feedback": "Review: ἀγγελία names the report carried."
+            },
+            {
+              "text": "βασιλεύς",
+              "correct": false,
+              "feedback": "Review: ἀγγελία names the report carried."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0042",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does βουλὴν ἔλαβον mean?",
+          "explanation": "The noun and verb form an idiom about deliberation.",
+          "choices": [
+            {
+              "text": "they fled the battle",
+              "correct": false,
+              "feedback": "Review: The noun and verb form an idiom about deliberation."
+            },
+            {
+              "text": "they took counsel",
+              "correct": true,
+              "feedback": "Correct: The noun and verb form an idiom about deliberation."
+            },
+            {
+              "text": "they saw the king",
+              "correct": false,
+              "feedback": "Review: The noun and verb form an idiom about deliberation."
+            },
+            {
+              "text": "they died",
+              "correct": false,
+              "feedback": "Review: The noun and verb form an idiom about deliberation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0043",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What new concern does σωτηρία identify?",
+          "explanation": "After Cyrus’s death the aim changes toward survival.",
+          "choices": [
+            {
+              "text": "accession to the throne",
+              "correct": false,
+              "feedback": "Review: After Cyrus’s death the aim changes toward survival."
+            },
+            {
+              "text": "temple building",
+              "correct": false,
+              "feedback": "Review: After Cyrus’s death the aim changes toward survival."
+            },
+            {
+              "text": "survival",
+              "correct": true,
+              "feedback": "Correct: After Cyrus’s death the aim changes toward survival."
+            },
+            {
+              "text": "a race prize",
+              "correct": false,
+              "feedback": "Review: After Cyrus’s death the aim changes toward survival."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0044",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does τῶν Ἑλλήνων specify in the victory phrase?",
+          "explanation": "The genitive connects the local victory with the Greeks.",
+          "choices": [
+            {
+              "text": "when the battle occurs",
+              "correct": false,
+              "feedback": "Review: The genitive connects the local victory with the Greeks."
+            },
+            {
+              "text": "how long it lasts",
+              "correct": false,
+              "feedback": "Review: The genitive connects the local victory with the Greeks."
+            },
+            {
+              "text": "a command to flee",
+              "correct": false,
+              "feedback": "Review: The genitive connects the local victory with the Greeks."
+            },
+            {
+              "text": "whose victory",
+              "correct": true,
+              "feedback": "Correct: The genitive connects the local victory with the Greeks."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0045",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What marks past indicative time in ἔλαβον?",
+          "explanation": "The indicative aorist has augment and secondary endings.",
+          "choices": [
+            {
+              "text": "the augment ἐ-",
+              "correct": true,
+              "feedback": "Correct: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the article ὁ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the future suffix σ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the participial suffix ντ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0046",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "In οἱ Ἕλληνες ἔλαβον, who took?",
+          "explanation": "The plural subject resolves the ambiguous -ον ending.",
+          "choices": [
+            {
+              "text": "I alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "the Greeks",
+              "correct": true,
+              "feedback": "Correct: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "you alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "Cyrus alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0047",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What is the aorist stem in ἔλαβον?",
+          "explanation": "Separate augment, stem, and ending.",
+          "choices": [
+            {
+              "text": "λαμβαν-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            },
+            {
+              "text": "ἐλα-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            },
+            {
+              "text": "λαβ-",
+              "correct": true,
+              "feedback": "Correct: Separate augment, stem, and ending."
+            },
+            {
+              "text": "βον-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0048",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "Which is an aorist indicative?",
+          "explanation": "ἔφυγον has the past augment and second-aorist stem.",
+          "choices": [
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: ἔφυγον has the past augment and second-aorist stem."
+            },
+            {
+              "text": "φεύξομαι",
+              "correct": false,
+              "feedback": "Review: ἔφυγον has the past augment and second-aorist stem."
+            },
+            {
+              "text": "φεύγειν",
+              "correct": false,
+              "feedback": "Review: ἔφυγον has the past augment and second-aorist stem."
+            },
+            {
+              "text": "ἔφυγον",
+              "correct": true,
+              "feedback": "Correct: ἔφυγον has the past augment and second-aorist stem."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0049",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What time does narrative ἔμαθον normally express?",
+          "explanation": "The aorist indicative normally presents a past event.",
+          "choices": [
+            {
+              "text": "past",
+              "correct": true,
+              "feedback": "Correct: The aorist indicative normally presents a past event."
+            },
+            {
+              "text": "future",
+              "correct": false,
+              "feedback": "Review: The aorist indicative normally presents a past event."
+            },
+            {
+              "text": "timeless command",
+              "correct": false,
+              "feedback": "Review: The aorist indicative normally presents a past event."
+            },
+            {
+              "text": "present ongoing",
+              "correct": false,
+              "feedback": "Review: The aorist indicative normally presents a past event."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0050",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "Can ἔλαβον alone identify I versus they?",
+          "explanation": "First singular and third plural share -ον.",
+          "choices": [
+            {
+              "text": "yes, always I",
+              "correct": false,
+              "feedback": "Review: First singular and third plural share -ον."
+            },
+            {
+              "text": "no, context is needed",
+              "correct": true,
+              "feedback": "Correct: First singular and third plural share -ον."
+            },
+            {
+              "text": "yes, always they",
+              "correct": false,
+              "feedback": "Review: First singular and third plural share -ον."
+            },
+            {
+              "text": "yes, always you",
+              "correct": false,
+              "feedback": "Review: First singular and third plural share -ον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0051",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which means “we took” (active)?",
+          "explanation": "-ομεν identifies first plural active.",
+          "choices": [
+            {
+              "text": "ἔλαβες",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλάβετε",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλάβομεν",
+              "correct": true,
+              "feedback": "Correct: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλαβόμην",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0052",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "What person is ἐλάβου?",
+          "explanation": "Second-aorist middle second singular ends in -ου.",
+          "choices": [
+            {
+              "text": "first plural active",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "third plural middle",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "third singular active",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "second singular middle",
+              "correct": true,
+              "feedback": "Correct: Second-aorist middle second singular ends in -ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0053",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which is the aorist middle infinitive?",
+          "explanation": "λαβέσθαι uses the aorist stem and middle infinitive ending.",
+          "choices": [
+            {
+              "text": "λαβέσθαι",
+              "correct": true,
+              "feedback": "Correct: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαμβάνεσθαι",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0054",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which is third plural middle?",
+          "explanation": "-οντο marks third plural middle.",
+          "choices": [
+            {
+              "text": "ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -οντο marks third plural middle."
+            },
+            {
+              "text": "ἐλάβοντο",
+              "correct": true,
+              "feedback": "Correct: -οντο marks third plural middle."
+            },
+            {
+              "text": "ἐλάβετο",
+              "correct": false,
+              "feedback": "Review: -οντο marks third plural middle."
+            },
+            {
+              "text": "ἐλάβου",
+              "correct": false,
+              "feedback": "Review: -οντο marks third plural middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0055",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "What distinguishes ἔλαβον from ἐλαβόμην?",
+          "explanation": "Both are aorist; their voice endings differ.",
+          "choices": [
+            {
+              "text": "present versus future",
+              "correct": false,
+              "feedback": "Review: Both are aorist; their voice endings differ."
+            },
+            {
+              "text": "singular versus dual only",
+              "correct": false,
+              "feedback": "Review: Both are aorist; their voice endings differ."
+            },
+            {
+              "text": "active versus middle voice",
+              "correct": true,
+              "feedback": "Correct: Both are aorist; their voice endings differ."
+            },
+            {
+              "text": "positive versus negative",
+              "correct": false,
+              "feedback": "Review: Both are aorist; their voice endings differ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0056",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which aorist form lacks augment?",
+          "explanation": "Infinitives lack the past indicative augment.",
+          "choices": [
+            {
+              "text": "ἔλαβες",
+              "correct": false,
+              "feedback": "Review: Infinitives lack the past indicative augment."
+            },
+            {
+              "text": "ἐλάβετε",
+              "correct": false,
+              "feedback": "Review: Infinitives lack the past indicative augment."
+            },
+            {
+              "text": "ἐλάβετο",
+              "correct": false,
+              "feedback": "Review: Infinitives lack the past indicative augment."
+            },
+            {
+              "text": "λαβεῖν",
+              "correct": true,
+              "feedback": "Correct: Infinitives lack the past indicative augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0057",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Does an aorist necessarily mean an instant?",
+          "explanation": "Aspect describes presentation, not measured duration.",
+          "choices": [
+            {
+              "text": "no, it views the action as a whole",
+              "correct": true,
+              "feedback": "Correct: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, always one second",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, only a sudden act",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, only a single step",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0058",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which presents flight as ongoing now?",
+          "explanation": "The present indicative opens the action as ongoing.",
+          "choices": [
+            {
+              "text": "ἔφυγον",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φεύγουσιν",
+              "correct": true,
+              "feedback": "Correct: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φυγών",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φυγεῖν",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0059",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which presents a past learning event as a whole?",
+          "explanation": "ἔμαθεν is narrative aorist.",
+          "choices": [
+            {
+              "text": "μανθάνει",
+              "correct": false,
+              "feedback": "Review: ἔμαθεν is narrative aorist."
+            },
+            {
+              "text": "μαθήσεται",
+              "correct": false,
+              "feedback": "Review: ἔμαθεν is narrative aorist."
+            },
+            {
+              "text": "ἔμαθεν",
+              "correct": true,
+              "feedback": "Correct: ἔμαθεν is narrative aorist."
+            },
+            {
+              "text": "μάνθανε",
+              "correct": false,
+              "feedback": "Review: ἔμαθεν is narrative aorist."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0060",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which statement about a long run is sound?",
+          "explanation": "A whole-event viewpoint is compatible with duration.",
+          "choices": [
+            {
+              "text": "only a present can describe it",
+              "correct": false,
+              "feedback": "Review: A whole-event viewpoint is compatible with duration."
+            },
+            {
+              "text": "an aorist denies any duration",
+              "correct": false,
+              "feedback": "Review: A whole-event viewpoint is compatible with duration."
+            },
+            {
+              "text": "an aorist means it never happened",
+              "correct": false,
+              "feedback": "Review: A whole-event viewpoint is compatible with duration."
+            },
+            {
+              "text": "an aorist can summarize it",
+              "correct": true,
+              "feedback": "Correct: A whole-event viewpoint is compatible with duration."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0061",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "What does tense distinguish in φεύγουσιν versus ἔφυγον here?",
+          "explanation": "These indicatives differ in time and stem aspect.",
+          "choices": [
+            {
+              "text": "present versus past indicative time",
+              "correct": true,
+              "feedback": "Correct: These indicatives differ in time and stem aspect."
+            },
+            {
+              "text": "active versus passive voice",
+              "correct": false,
+              "feedback": "Review: These indicatives differ in time and stem aspect."
+            },
+            {
+              "text": "masculine versus feminine",
+              "correct": false,
+              "feedback": "Review: These indicatives differ in time and stem aspect."
+            },
+            {
+              "text": "singular versus dual",
+              "correct": false,
+              "feedback": "Review: These indicatives differ in time and stem aspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0062",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Is λαβών itself a past indicative?",
+          "explanation": "Participles take their time relation from context.",
+          "choices": [
+            {
+              "text": "yes, first singular",
+              "correct": false,
+              "feedback": "Review: Participles take their time relation from context."
+            },
+            {
+              "text": "no, it is a participle",
+              "correct": true,
+              "feedback": "Correct: Participles take their time relation from context."
+            },
+            {
+              "text": "yes, third plural",
+              "correct": false,
+              "feedback": "Review: Participles take their time relation from context."
+            },
+            {
+              "text": "yes, second singular",
+              "correct": false,
+              "feedback": "Review: Participles take their time relation from context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0063",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is feminine nominative singular active?",
+          "explanation": "λαβοῦσα has feminine agreement.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβόν",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβοῦσα",
+              "correct": true,
+              "feedback": "Correct: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβόμενος",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0064",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is genitive masculine singular active?",
+          "explanation": "-οντος marks the active genitive singular.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντα",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντος",
+              "correct": true,
+              "feedback": "Correct: -οντος marks the active genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0065",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is a middle participle?",
+          "explanation": "-όμενος identifies the middle participle.",
+          "choices": [
+            {
+              "text": "λαβόμενος",
+              "correct": true,
+              "feedback": "Correct: -όμενος identifies the middle participle."
+            },
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: -όμενος identifies the middle participle."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -όμενος identifies the middle participle."
+            },
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: -όμενος identifies the middle participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0066",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "In λαβὼν τὰ ὅπλα ὁ στρατιώτης ἦλθεν, who took the arms?",
+          "explanation": "λαβών agrees with nominative singular στρατιώτης.",
+          "choices": [
+            {
+              "text": "the arms",
+              "correct": false,
+              "feedback": "Review: λαβών agrees with nominative singular στρατιώτης."
+            },
+            {
+              "text": "the soldier",
+              "correct": true,
+              "feedback": "Correct: λαβών agrees with nominative singular στρατιώτης."
+            },
+            {
+              "text": "an unnamed king",
+              "correct": false,
+              "feedback": "Review: λαβών agrees with nominative singular στρατιώτης."
+            },
+            {
+              "text": "the messenger only",
+              "correct": false,
+              "feedback": "Review: λαβών agrees with nominative singular στρατιώτης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0067",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which event comes first in that worked example?",
+          "explanation": "The contextual aorist participle supplies prior action.",
+          "choices": [
+            {
+              "text": "coming",
+              "correct": false,
+              "feedback": "Review: The contextual aorist participle supplies prior action."
+            },
+            {
+              "text": "both must be simultaneous",
+              "correct": false,
+              "feedback": "Review: The contextual aorist participle supplies prior action."
+            },
+            {
+              "text": "taking the arms",
+              "correct": true,
+              "feedback": "Correct: The contextual aorist participle supplies prior action."
+            },
+            {
+              "text": "neither event occurs",
+              "correct": false,
+              "feedback": "Review: The contextual aorist participle supplies prior action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0068",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which form matches οἱ στρατιῶται?",
+          "explanation": "The masculine nominative plural requires λαβόντες.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: The masculine nominative plural requires λαβόντες."
+            },
+            {
+              "text": "λαβοῦσα",
+              "correct": false,
+              "feedback": "Review: The masculine nominative plural requires λαβόντες."
+            },
+            {
+              "text": "λαβόντος",
+              "correct": false,
+              "feedback": "Review: The masculine nominative plural requires λαβόντες."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": true,
+              "feedback": "Correct: The masculine nominative plural requires λαβόντες."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0069",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What dictionary verb supplies ἔμαθον?",
+          "explanation": "μαθ- is the second-aorist stem of μανθάνω.",
+          "choices": [
+            {
+              "text": "μανθάνω",
+              "correct": true,
+              "feedback": "Correct: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0070",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which is the aorist of λαμβάνω?",
+          "explanation": "The principal parts link λαμβάνω with ἔλαβον.",
+          "choices": [
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": true,
+              "feedback": "Correct: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "ἔμαθον",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0071",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What does ἦλθον mean with a plural subject?",
+          "explanation": "ἦλθον belongs to ἔρχομαι.",
+          "choices": [
+            {
+              "text": "they fell",
+              "correct": false,
+              "feedback": "Review: ἦλθον belongs to ἔρχομαι."
+            },
+            {
+              "text": "they learned",
+              "correct": false,
+              "feedback": "Review: ἦλθον belongs to ἔρχομαι."
+            },
+            {
+              "text": "they came",
+              "correct": true,
+              "feedback": "Correct: ἦλθον belongs to ἔρχομαι."
+            },
+            {
+              "text": "they ran",
+              "correct": false,
+              "feedback": "Review: ἦλθον belongs to ἔρχομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0072",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which pair belongs to one verb?",
+          "explanation": "πίπτω uses πεσ- in its second aorist.",
+          "choices": [
+            {
+              "text": "πίπτω — ἔλαβον",
+              "correct": false,
+              "feedback": "Review: πίπτω uses πεσ- in its second aorist."
+            },
+            {
+              "text": "φεύγω — ἔδραμον",
+              "correct": false,
+              "feedback": "Review: πίπτω uses πεσ- in its second aorist."
+            },
+            {
+              "text": "μανθάνω — ἦλθον",
+              "correct": false,
+              "feedback": "Review: πίπτω uses πεσ- in its second aorist."
+            },
+            {
+              "text": "πίπτω — ἔπεσον",
+              "correct": true,
+              "feedback": "Correct: πίπτω uses πεσ- in its second aorist."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0073",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which future belongs to φεύγω?",
+          "explanation": "The assigned principal parts give φεύξομαι.",
+          "choices": [
+            {
+              "text": "φεύξομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned principal parts give φεύξομαι."
+            },
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: The assigned principal parts give φεύξομαι."
+            },
+            {
+              "text": "μαθήσομαι",
+              "correct": false,
+              "feedback": "Review: The assigned principal parts give φεύξομαι."
+            },
+            {
+              "text": "πεσοῦμαι",
+              "correct": false,
+              "feedback": "Review: The assigned principal parts give φεύξομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-topic-0074",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What form belongs to τρέχω?",
+          "explanation": "τρέχω has the aorist stem δραμ-.",
+          "choices": [
+            {
+              "text": "ἔφυγον",
+              "correct": false,
+              "feedback": "Review: τρέχω has the aorist stem δραμ-."
+            },
+            {
+              "text": "ἔδραμον",
+              "correct": true,
+              "feedback": "Correct: τρέχω has the aorist stem δραμ-."
+            },
+            {
+              "text": "ἔμαθον",
+              "correct": false,
+              "feedback": "Review: τρέχω has the aorist stem δραμ-."
+            },
+            {
+              "text": "ἔπεσον",
+              "correct": false,
+              "feedback": "Review: τρέχω has the aorist stem δραμ-."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 21 Required Grammar Exercises",
+      "description": "Apply each taught grammar topic before continuing.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-21-module-2-v1-grammar",
+      "pointsPossible": 30,
+      "instructions": [
+        "Answer every question.",
+        "A score of 80% or higher is required. Review feedback and retry after revising your understanding."
+      ],
+      "questions": [
+        {
+          "id": "lesson-21-grammar-0075",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What marks past indicative time in ἔλαβον?",
+          "explanation": "The indicative aorist has augment and secondary endings.",
+          "choices": [
+            {
+              "text": "the article ὁ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the future suffix σ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the augment ἐ-",
+              "correct": true,
+              "feedback": "Correct: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the participial suffix ντ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0076",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which means “we took” (active)?",
+          "explanation": "-ομεν identifies first plural active.",
+          "choices": [
+            {
+              "text": "ἔλαβες",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλάβετε",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλαβόμην",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλάβομεν",
+              "correct": true,
+              "feedback": "Correct: -ομεν identifies first plural active."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0077",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Does an aorist necessarily mean an instant?",
+          "explanation": "Aspect describes presentation, not measured duration.",
+          "choices": [
+            {
+              "text": "no, it views the action as a whole",
+              "correct": true,
+              "feedback": "Correct: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, always one second",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, only a sudden act",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, only a single step",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0078",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is feminine nominative singular active?",
+          "explanation": "λαβοῦσα has feminine agreement.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβοῦσα",
+              "correct": true,
+              "feedback": "Correct: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβόν",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβόμενος",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0079",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What dictionary verb supplies ἔμαθον?",
+          "explanation": "μαθ- is the second-aorist stem of μανθάνω.",
+          "choices": [
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "μανθάνω",
+              "correct": true,
+              "feedback": "Correct: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0080",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "In οἱ Ἕλληνες ἔλαβον, who took?",
+          "explanation": "The plural subject resolves the ambiguous -ον ending.",
+          "choices": [
+            {
+              "text": "I alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "you alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "Cyrus alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "the Greeks",
+              "correct": true,
+              "feedback": "Correct: The plural subject resolves the ambiguous -ον ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0081",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "What person is ἐλάβου?",
+          "explanation": "Second-aorist middle second singular ends in -ου.",
+          "choices": [
+            {
+              "text": "second singular middle",
+              "correct": true,
+              "feedback": "Correct: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "first plural active",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "third plural middle",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "third singular active",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0082",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which presents flight as ongoing now?",
+          "explanation": "The present indicative opens the action as ongoing.",
+          "choices": [
+            {
+              "text": "ἔφυγον",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φεύγουσιν",
+              "correct": true,
+              "feedback": "Correct: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φυγών",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φυγεῖν",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0083",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is genitive masculine singular active?",
+          "explanation": "-οντος marks the active genitive singular.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντα",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντος",
+              "correct": true,
+              "feedback": "Correct: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0084",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which is the aorist of λαμβάνω?",
+          "explanation": "The principal parts link λαμβάνω with ἔλαβον.",
+          "choices": [
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "ἔμαθον",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": true,
+              "feedback": "Correct: The principal parts link λαμβάνω with ἔλαβον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0085",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What is the aorist stem in ἔλαβον?",
+          "explanation": "Separate augment, stem, and ending.",
+          "choices": [
+            {
+              "text": "λαβ-",
+              "correct": true,
+              "feedback": "Correct: Separate augment, stem, and ending."
+            },
+            {
+              "text": "λαμβαν-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            },
+            {
+              "text": "ἐλα-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            },
+            {
+              "text": "βον-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0086",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which is the aorist middle infinitive?",
+          "explanation": "λαβέσθαι uses the aorist stem and middle infinitive ending.",
+          "choices": [
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαβέσθαι",
+              "correct": true,
+              "feedback": "Correct: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαμβάνεσθαι",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0087",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which presents a past learning event as a whole?",
+          "explanation": "ἔμαθεν is narrative aorist.",
+          "choices": [
+            {
+              "text": "μανθάνει",
+              "correct": false,
+              "feedback": "Review: ἔμαθεν is narrative aorist."
+            },
+            {
+              "text": "μαθήσεται",
+              "correct": false,
+              "feedback": "Review: ἔμαθεν is narrative aorist."
+            },
+            {
+              "text": "ἔμαθεν",
+              "correct": true,
+              "feedback": "Correct: ἔμαθεν is narrative aorist."
+            },
+            {
+              "text": "μάνθανε",
+              "correct": false,
+              "feedback": "Review: ἔμαθεν is narrative aorist."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0088",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is a middle participle?",
+          "explanation": "-όμενος identifies the middle participle.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: -όμενος identifies the middle participle."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -όμενος identifies the middle participle."
+            },
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: -όμενος identifies the middle participle."
+            },
+            {
+              "text": "λαβόμενος",
+              "correct": true,
+              "feedback": "Correct: -όμενος identifies the middle participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0089",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What does ἦλθον mean with a plural subject?",
+          "explanation": "ἦλθον belongs to ἔρχομαι.",
+          "choices": [
+            {
+              "text": "they came",
+              "correct": true,
+              "feedback": "Correct: ἦλθον belongs to ἔρχομαι."
+            },
+            {
+              "text": "they fell",
+              "correct": false,
+              "feedback": "Review: ἦλθον belongs to ἔρχομαι."
+            },
+            {
+              "text": "they learned",
+              "correct": false,
+              "feedback": "Review: ἦλθον belongs to ἔρχομαι."
+            },
+            {
+              "text": "they ran",
+              "correct": false,
+              "feedback": "Review: ἦλθον belongs to ἔρχομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0090",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "Which is an aorist indicative?",
+          "explanation": "ἔφυγον has the past augment and second-aorist stem.",
+          "choices": [
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: ἔφυγον has the past augment and second-aorist stem."
+            },
+            {
+              "text": "ἔφυγον",
+              "correct": true,
+              "feedback": "Correct: ἔφυγον has the past augment and second-aorist stem."
+            },
+            {
+              "text": "φεύξομαι",
+              "correct": false,
+              "feedback": "Review: ἔφυγον has the past augment and second-aorist stem."
+            },
+            {
+              "text": "φεύγειν",
+              "correct": false,
+              "feedback": "Review: ἔφυγον has the past augment and second-aorist stem."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0091",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which is third plural middle?",
+          "explanation": "-οντο marks third plural middle.",
+          "choices": [
+            {
+              "text": "ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -οντο marks third plural middle."
+            },
+            {
+              "text": "ἐλάβετο",
+              "correct": false,
+              "feedback": "Review: -οντο marks third plural middle."
+            },
+            {
+              "text": "ἐλάβοντο",
+              "correct": true,
+              "feedback": "Correct: -οντο marks third plural middle."
+            },
+            {
+              "text": "ἐλάβου",
+              "correct": false,
+              "feedback": "Review: -οντο marks third plural middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0092",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which statement about a long run is sound?",
+          "explanation": "A whole-event viewpoint is compatible with duration.",
+          "choices": [
+            {
+              "text": "only a present can describe it",
+              "correct": false,
+              "feedback": "Review: A whole-event viewpoint is compatible with duration."
+            },
+            {
+              "text": "an aorist denies any duration",
+              "correct": false,
+              "feedback": "Review: A whole-event viewpoint is compatible with duration."
+            },
+            {
+              "text": "an aorist means it never happened",
+              "correct": false,
+              "feedback": "Review: A whole-event viewpoint is compatible with duration."
+            },
+            {
+              "text": "an aorist can summarize it",
+              "correct": true,
+              "feedback": "Correct: A whole-event viewpoint is compatible with duration."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0093",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "In λαβὼν τὰ ὅπλα ὁ στρατιώτης ἦλθεν, who took the arms?",
+          "explanation": "λαβών agrees with nominative singular στρατιώτης.",
+          "choices": [
+            {
+              "text": "the soldier",
+              "correct": true,
+              "feedback": "Correct: λαβών agrees with nominative singular στρατιώτης."
+            },
+            {
+              "text": "the arms",
+              "correct": false,
+              "feedback": "Review: λαβών agrees with nominative singular στρατιώτης."
+            },
+            {
+              "text": "an unnamed king",
+              "correct": false,
+              "feedback": "Review: λαβών agrees with nominative singular στρατιώτης."
+            },
+            {
+              "text": "the messenger only",
+              "correct": false,
+              "feedback": "Review: λαβών agrees with nominative singular στρατιώτης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0094",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which pair belongs to one verb?",
+          "explanation": "πίπτω uses πεσ- in its second aorist.",
+          "choices": [
+            {
+              "text": "πίπτω — ἔλαβον",
+              "correct": false,
+              "feedback": "Review: πίπτω uses πεσ- in its second aorist."
+            },
+            {
+              "text": "πίπτω — ἔπεσον",
+              "correct": true,
+              "feedback": "Correct: πίπτω uses πεσ- in its second aorist."
+            },
+            {
+              "text": "φεύγω — ἔδραμον",
+              "correct": false,
+              "feedback": "Review: πίπτω uses πεσ- in its second aorist."
+            },
+            {
+              "text": "μανθάνω — ἦλθον",
+              "correct": false,
+              "feedback": "Review: πίπτω uses πεσ- in its second aorist."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0095",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What time does narrative ἔμαθον normally express?",
+          "explanation": "The aorist indicative normally presents a past event.",
+          "choices": [
+            {
+              "text": "future",
+              "correct": false,
+              "feedback": "Review: The aorist indicative normally presents a past event."
+            },
+            {
+              "text": "timeless command",
+              "correct": false,
+              "feedback": "Review: The aorist indicative normally presents a past event."
+            },
+            {
+              "text": "past",
+              "correct": true,
+              "feedback": "Correct: The aorist indicative normally presents a past event."
+            },
+            {
+              "text": "present ongoing",
+              "correct": false,
+              "feedback": "Review: The aorist indicative normally presents a past event."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0096",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "What distinguishes ἔλαβον from ἐλαβόμην?",
+          "explanation": "Both are aorist; their voice endings differ.",
+          "choices": [
+            {
+              "text": "present versus future",
+              "correct": false,
+              "feedback": "Review: Both are aorist; their voice endings differ."
+            },
+            {
+              "text": "singular versus dual only",
+              "correct": false,
+              "feedback": "Review: Both are aorist; their voice endings differ."
+            },
+            {
+              "text": "positive versus negative",
+              "correct": false,
+              "feedback": "Review: Both are aorist; their voice endings differ."
+            },
+            {
+              "text": "active versus middle voice",
+              "correct": true,
+              "feedback": "Correct: Both are aorist; their voice endings differ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0097",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "What does tense distinguish in φεύγουσιν versus ἔφυγον here?",
+          "explanation": "These indicatives differ in time and stem aspect.",
+          "choices": [
+            {
+              "text": "present versus past indicative time",
+              "correct": true,
+              "feedback": "Correct: These indicatives differ in time and stem aspect."
+            },
+            {
+              "text": "active versus passive voice",
+              "correct": false,
+              "feedback": "Review: These indicatives differ in time and stem aspect."
+            },
+            {
+              "text": "masculine versus feminine",
+              "correct": false,
+              "feedback": "Review: These indicatives differ in time and stem aspect."
+            },
+            {
+              "text": "singular versus dual",
+              "correct": false,
+              "feedback": "Review: These indicatives differ in time and stem aspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0098",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which event comes first in that worked example?",
+          "explanation": "The contextual aorist participle supplies prior action.",
+          "choices": [
+            {
+              "text": "coming",
+              "correct": false,
+              "feedback": "Review: The contextual aorist participle supplies prior action."
+            },
+            {
+              "text": "taking the arms",
+              "correct": true,
+              "feedback": "Correct: The contextual aorist participle supplies prior action."
+            },
+            {
+              "text": "both must be simultaneous",
+              "correct": false,
+              "feedback": "Review: The contextual aorist participle supplies prior action."
+            },
+            {
+              "text": "neither event occurs",
+              "correct": false,
+              "feedback": "Review: The contextual aorist participle supplies prior action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0099",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which future belongs to φεύγω?",
+          "explanation": "The assigned principal parts give φεύξομαι.",
+          "choices": [
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: The assigned principal parts give φεύξομαι."
+            },
+            {
+              "text": "μαθήσομαι",
+              "correct": false,
+              "feedback": "Review: The assigned principal parts give φεύξομαι."
+            },
+            {
+              "text": "φεύξομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned principal parts give φεύξομαι."
+            },
+            {
+              "text": "πεσοῦμαι",
+              "correct": false,
+              "feedback": "Review: The assigned principal parts give φεύξομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0100",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "Can ἔλαβον alone identify I versus they?",
+          "explanation": "First singular and third plural share -ον.",
+          "choices": [
+            {
+              "text": "yes, always I",
+              "correct": false,
+              "feedback": "Review: First singular and third plural share -ον."
+            },
+            {
+              "text": "yes, always they",
+              "correct": false,
+              "feedback": "Review: First singular and third plural share -ον."
+            },
+            {
+              "text": "yes, always you",
+              "correct": false,
+              "feedback": "Review: First singular and third plural share -ον."
+            },
+            {
+              "text": "no, context is needed",
+              "correct": true,
+              "feedback": "Correct: First singular and third plural share -ον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0101",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which aorist form lacks augment?",
+          "explanation": "Infinitives lack the past indicative augment.",
+          "choices": [
+            {
+              "text": "λαβεῖν",
+              "correct": true,
+              "feedback": "Correct: Infinitives lack the past indicative augment."
+            },
+            {
+              "text": "ἔλαβες",
+              "correct": false,
+              "feedback": "Review: Infinitives lack the past indicative augment."
+            },
+            {
+              "text": "ἐλάβετε",
+              "correct": false,
+              "feedback": "Review: Infinitives lack the past indicative augment."
+            },
+            {
+              "text": "ἐλάβετο",
+              "correct": false,
+              "feedback": "Review: Infinitives lack the past indicative augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0102",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Is λαβών itself a past indicative?",
+          "explanation": "Participles take their time relation from context.",
+          "choices": [
+            {
+              "text": "yes, first singular",
+              "correct": false,
+              "feedback": "Review: Participles take their time relation from context."
+            },
+            {
+              "text": "no, it is a participle",
+              "correct": true,
+              "feedback": "Correct: Participles take their time relation from context."
+            },
+            {
+              "text": "yes, third plural",
+              "correct": false,
+              "feedback": "Review: Participles take their time relation from context."
+            },
+            {
+              "text": "yes, second singular",
+              "correct": false,
+              "feedback": "Review: Participles take their time relation from context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0103",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which form matches οἱ στρατιῶται?",
+          "explanation": "The masculine nominative plural requires λαβόντες.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: The masculine nominative plural requires λαβόντες."
+            },
+            {
+              "text": "λαβοῦσα",
+              "correct": false,
+              "feedback": "Review: The masculine nominative plural requires λαβόντες."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": true,
+              "feedback": "Correct: The masculine nominative plural requires λαβόντες."
+            },
+            {
+              "text": "λαβόντος",
+              "correct": false,
+              "feedback": "Review: The masculine nominative plural requires λαβόντες."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-grammar-0104",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What form belongs to τρέχω?",
+          "explanation": "τρέχω has the aorist stem δραμ-.",
+          "choices": [
+            {
+              "text": "ἔφυγον",
+              "correct": false,
+              "feedback": "Review: τρέχω has the aorist stem δραμ-."
+            },
+            {
+              "text": "ἔμαθον",
+              "correct": false,
+              "feedback": "Review: τρέχω has the aorist stem δραμ-."
+            },
+            {
+              "text": "ἔπεσον",
+              "correct": false,
+              "feedback": "Review: τρέχω has the aorist stem δραμ-."
+            },
+            {
+              "text": "ἔδραμον",
+              "correct": true,
+              "feedback": "Correct: τρέχω has the aorist stem δραμ-."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 21 Final Quiz",
+      "description": "Read, interpret, and apply the lesson across all three pages.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-21-module-2-v1-final",
+      "pointsPossible": 30,
+      "instructions": [
+        "Answer every question.",
+        "A score of 80% or higher is required. Review feedback and retry after revising your understanding."
+      ],
+      "questions": [
+        {
+          "id": "lesson-21-final-0105",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the Greeks win at Cunaxa?",
+          "explanation": "The reading limits the victory to their own sector.",
+          "choices": [
+            {
+              "text": "the encounter against the troops facing them",
+              "correct": true,
+              "feedback": "Correct: The reading limits the victory to their own sector."
+            },
+            {
+              "text": "the Persian throne",
+              "correct": false,
+              "feedback": "Review: The reading limits the victory to their own sector."
+            },
+            {
+              "text": "the whole campaign",
+              "correct": false,
+              "feedback": "Review: The reading limits the victory to their own sector."
+            },
+            {
+              "text": "a safe journey home",
+              "correct": false,
+              "feedback": "Review: The reading limits the victory to their own sector."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0106",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who dies elsewhere on the field?",
+          "explanation": "Cyrus dies during his attack near Artaxerxes.",
+          "choices": [
+            {
+              "text": "Cleocritus",
+              "correct": false,
+              "feedback": "Review: Cyrus dies during his attack near Artaxerxes."
+            },
+            {
+              "text": "Cyrus",
+              "correct": true,
+              "feedback": "Correct: Cyrus dies during his attack near Artaxerxes."
+            },
+            {
+              "text": "Xenophon",
+              "correct": false,
+              "feedback": "Review: Cyrus dies during his attack near Artaxerxes."
+            },
+            {
+              "text": "Socrates the philosopher",
+              "correct": false,
+              "feedback": "Review: Cyrus dies during his attack near Artaxerxes."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0107",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "When does the reading place the decisive report?",
+          "explanation": "The fifth paragraph marks τῇ ὑστεραίᾳ.",
+          "choices": [
+            {
+              "text": "before the Greeks advance",
+              "correct": false,
+              "feedback": "Review: The fifth paragraph marks τῇ ὑστεραίᾳ."
+            },
+            {
+              "text": "before Cyrus joins the army",
+              "correct": false,
+              "feedback": "Review: The fifth paragraph marks τῇ ὑστεραίᾳ."
+            },
+            {
+              "text": "on the next day",
+              "correct": true,
+              "feedback": "Correct: The fifth paragraph marks τῇ ὑστεραίᾳ."
+            },
+            {
+              "text": "after the army reaches Greece",
+              "correct": false,
+              "feedback": "Review: The fifth paragraph marks τῇ ὑστεραίᾳ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0108",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What did the Greeks not yet know?",
+          "explanation": "Their immediate knowledge differs from the narrator’s.",
+          "choices": [
+            {
+              "text": "their own victory",
+              "correct": false,
+              "feedback": "Review: Their immediate knowledge differs from the narrator’s."
+            },
+            {
+              "text": "that they carried arms",
+              "correct": false,
+              "feedback": "Review: Their immediate knowledge differs from the narrator’s."
+            },
+            {
+              "text": "that they were Greeks",
+              "correct": false,
+              "feedback": "Review: Their immediate knowledge differs from the narrator’s."
+            },
+            {
+              "text": "what had happened to Cyrus",
+              "correct": true,
+              "feedback": "Correct: Their immediate knowledge differs from the narrator’s."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0109",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the army now need?",
+          "explanation": "The ending shifts the aim toward survival.",
+          "choices": [
+            {
+              "text": "a route toward Greece",
+              "correct": true,
+              "feedback": "Correct: The ending shifts the aim toward survival."
+            },
+            {
+              "text": "a new temple at Delphi",
+              "correct": false,
+              "feedback": "Review: The ending shifts the aim toward survival."
+            },
+            {
+              "text": "a fleet at Athens immediately",
+              "correct": false,
+              "feedback": "Review: The ending shifts the aim toward survival."
+            },
+            {
+              "text": "a crown for Cyrus",
+              "correct": false,
+              "feedback": "Review: The ending shifts the aim toward survival."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0110",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which sentence preserves the distinction of outcomes?",
+          "explanation": "Local tactical success did not achieve the expedition’s political aim.",
+          "choices": [
+            {
+              "text": "Cyrus won the throne.",
+              "correct": false,
+              "feedback": "Review: Local tactical success did not achieve the expedition’s political aim."
+            },
+            {
+              "text": "The Greeks won locally, but Cyrus died.",
+              "correct": true,
+              "feedback": "Correct: Local tactical success did not achieve the expedition’s political aim."
+            },
+            {
+              "text": "All Persian troops surrendered.",
+              "correct": false,
+              "feedback": "Review: Local tactical success did not achieve the expedition’s political aim."
+            },
+            {
+              "text": "The army was already home.",
+              "correct": false,
+              "feedback": "Review: Local tactical success did not achieve the expedition’s political aim."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0111",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μάχη mean in this lesson?",
+          "explanation": "μάχη, μάχης, ἡ means battle in the assigned context.",
+          "choices": [
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: μάχη, μάχης, ἡ means battle in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: μάχη, μάχης, ἡ means battle in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": true,
+              "feedback": "Correct: μάχη, μάχης, ἡ means battle in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: μάχη, μάχης, ἡ means battle in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0112",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ νίκη mean in this lesson?",
+          "explanation": "νίκη, νίκης, ἡ means victory in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: νίκη, νίκης, ἡ means victory in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: νίκη, νίκης, ἡ means victory in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: νίκη, νίκης, ἡ means victory in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": true,
+              "feedback": "Correct: νίκη, νίκης, ἡ means victory in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0113",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ συμφορά mean in this lesson?",
+          "explanation": "συμφορά, συμφορᾶς, ἡ means disaster in the assigned context.",
+          "choices": [
+            {
+              "text": "disaster",
+              "correct": true,
+              "feedback": "Correct: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            },
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: συμφορά, συμφορᾶς, ἡ means disaster in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0114",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τάξις mean in this lesson?",
+          "explanation": "τάξις, τάξεως, ἡ means formation in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: τάξις, τάξεως, ἡ means formation in the assigned context."
+            },
+            {
+              "text": "formation",
+              "correct": true,
+              "feedback": "Correct: τάξις, τάξεως, ἡ means formation in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: τάξις, τάξεως, ἡ means formation in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: τάξις, τάξεως, ἡ means formation in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0115",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ πολέμιος mean in this lesson?",
+          "explanation": "πολέμιος, πολεμίου, ὁ means enemy in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            },
+            {
+              "text": "enemy",
+              "correct": true,
+              "feedback": "Correct: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: πολέμιος, πολεμίου, ὁ means enemy in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0116",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἀγών mean in this lesson?",
+          "explanation": "ἀγών, ἀγῶνος, ὁ means contest in the assigned context.",
+          "choices": [
+            {
+              "text": "battle",
+              "correct": false,
+              "feedback": "Review: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "Review: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            },
+            {
+              "text": "disaster",
+              "correct": false,
+              "feedback": "Review: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            },
+            {
+              "text": "contest",
+              "correct": true,
+              "feedback": "Correct: ἀγών, ἀγῶνος, ὁ means contest in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0117",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What marks past indicative time in ἔλαβον?",
+          "explanation": "The indicative aorist has augment and secondary endings.",
+          "choices": [
+            {
+              "text": "the augment ἐ-",
+              "correct": true,
+              "feedback": "Correct: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the article ὁ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the future suffix σ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            },
+            {
+              "text": "the participial suffix ντ",
+              "correct": false,
+              "feedback": "Review: The indicative aorist has augment and secondary endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0118",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which means “we took” (active)?",
+          "explanation": "-ομεν identifies first plural active.",
+          "choices": [
+            {
+              "text": "ἔλαβες",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλάβομεν",
+              "correct": true,
+              "feedback": "Correct: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλάβετε",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            },
+            {
+              "text": "ἐλαβόμην",
+              "correct": false,
+              "feedback": "Review: -ομεν identifies first plural active."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0119",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Does an aorist necessarily mean an instant?",
+          "explanation": "Aspect describes presentation, not measured duration.",
+          "choices": [
+            {
+              "text": "yes, always one second",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, only a sudden act",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "no, it views the action as a whole",
+              "correct": true,
+              "feedback": "Correct: Aspect describes presentation, not measured duration."
+            },
+            {
+              "text": "yes, only a single step",
+              "correct": false,
+              "feedback": "Review: Aspect describes presentation, not measured duration."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0120",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is feminine nominative singular active?",
+          "explanation": "λαβοῦσα has feminine agreement.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβόν",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβόμενος",
+              "correct": false,
+              "feedback": "Review: λαβοῦσα has feminine agreement."
+            },
+            {
+              "text": "λαβοῦσα",
+              "correct": true,
+              "feedback": "Correct: λαβοῦσα has feminine agreement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0121",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "What dictionary verb supplies ἔμαθον?",
+          "explanation": "μαθ- is the second-aorist stem of μανθάνω.",
+          "choices": [
+            {
+              "text": "μανθάνω",
+              "correct": true,
+              "feedback": "Correct: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: μαθ- is the second-aorist stem of μανθάνω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0122",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "In οἱ Ἕλληνες ἔλαβον, who took?",
+          "explanation": "The plural subject resolves the ambiguous -ον ending.",
+          "choices": [
+            {
+              "text": "I alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "the Greeks",
+              "correct": true,
+              "feedback": "Correct: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "you alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            },
+            {
+              "text": "Cyrus alone",
+              "correct": false,
+              "feedback": "Review: The plural subject resolves the ambiguous -ον ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0123",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "What person is ἐλάβου?",
+          "explanation": "Second-aorist middle second singular ends in -ου.",
+          "choices": [
+            {
+              "text": "first plural active",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "third plural middle",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "second singular middle",
+              "correct": true,
+              "feedback": "Correct: Second-aorist middle second singular ends in -ου."
+            },
+            {
+              "text": "third singular active",
+              "correct": false,
+              "feedback": "Review: Second-aorist middle second singular ends in -ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0124",
+          "type": "multiple-choice",
+          "topic": "aorist-aspect",
+          "category": "Grammar",
+          "prompt": "Which presents flight as ongoing now?",
+          "explanation": "The present indicative opens the action as ongoing.",
+          "choices": [
+            {
+              "text": "ἔφυγον",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φυγών",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φυγεῖν",
+              "correct": false,
+              "feedback": "Review: The present indicative opens the action as ongoing."
+            },
+            {
+              "text": "φεύγουσιν",
+              "correct": true,
+              "feedback": "Correct: The present indicative opens the action as ongoing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0125",
+          "type": "multiple-choice",
+          "topic": "second-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is genitive masculine singular active?",
+          "explanation": "-οντος marks the active genitive singular.",
+          "choices": [
+            {
+              "text": "λαβόντος",
+              "correct": true,
+              "feedback": "Correct: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντα",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": false,
+              "feedback": "Review: -οντος marks the active genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0126",
+          "type": "multiple-choice",
+          "topic": "second-aorist-principal-parts",
+          "category": "Grammar",
+          "prompt": "Which is the aorist of λαμβάνω?",
+          "explanation": "The principal parts link λαμβάνω with ἔλαβον.",
+          "choices": [
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": true,
+              "feedback": "Correct: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            },
+            {
+              "text": "ἔμαθον",
+              "correct": false,
+              "feedback": "Review: The principal parts link λαμβάνω with ἔλαβον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0127",
+          "type": "multiple-choice",
+          "topic": "aorist-narrative",
+          "category": "Grammar",
+          "prompt": "What is the aorist stem in ἔλαβον?",
+          "explanation": "Separate augment, stem, and ending.",
+          "choices": [
+            {
+              "text": "λαμβαν-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            },
+            {
+              "text": "ἐλα-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            },
+            {
+              "text": "λαβ-",
+              "correct": true,
+              "feedback": "Correct: Separate augment, stem, and ending."
+            },
+            {
+              "text": "βον-",
+              "correct": false,
+              "feedback": "Review: Separate augment, stem, and ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0128",
+          "type": "multiple-choice",
+          "topic": "second-aorist-voices",
+          "category": "Grammar",
+          "prompt": "Which is the aorist middle infinitive?",
+          "explanation": "λαβέσθαι uses the aorist stem and middle infinitive ending.",
+          "choices": [
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαμβάνεσθαι",
+              "correct": false,
+              "feedback": "Review: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            },
+            {
+              "text": "λαβέσθαι",
+              "correct": true,
+              "feedback": "Correct: λαβέσθαι uses the aorist stem and middle infinitive ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0129",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why is the local victory insufficient?",
+          "explanation": "Their purpose was to establish Cyrus, not simply win one encounter.",
+          "choices": [
+            {
+              "text": "Cyrus’s death defeats the expedition’s aim",
+              "correct": true,
+              "feedback": "Correct: Their purpose was to establish Cyrus, not simply win one encounter."
+            },
+            {
+              "text": "the Greeks have no weapons",
+              "correct": false,
+              "feedback": "Review: Their purpose was to establish Cyrus, not simply win one encounter."
+            },
+            {
+              "text": "Cleocritus is king",
+              "correct": false,
+              "feedback": "Review: Their purpose was to establish Cyrus, not simply win one encounter."
+            },
+            {
+              "text": "all messengers are absent",
+              "correct": false,
+              "feedback": "Review: Their purpose was to establish Cyrus, not simply win one encounter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0130",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Whose knowledge is broader at first?",
+          "explanation": "The narrator reports events away from the Greek sector.",
+          "choices": [
+            {
+              "text": "the Greek soldiers’",
+              "correct": false,
+              "feedback": "Review: The narrator reports events away from the Greek sector."
+            },
+            {
+              "text": "the narrator’s",
+              "correct": true,
+              "feedback": "Correct: The narrator reports events away from the Greek sector."
+            },
+            {
+              "text": "the absent Cleocritus’s",
+              "correct": false,
+              "feedback": "Review: The narrator reports events away from the Greek sector."
+            },
+            {
+              "text": "the reader’s future teacher’s",
+              "correct": false,
+              "feedback": "Review: The narrator reports events away from the Greek sector."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0131",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What makes leadership judgment more than praise for boldness?",
+          "explanation": "The culture page links decisions to the people affected.",
+          "choices": [
+            {
+              "text": "counting only brave gestures",
+              "correct": false,
+              "feedback": "Review: The culture page links decisions to the people affected."
+            },
+            {
+              "text": "ignoring dependent soldiers",
+              "correct": false,
+              "feedback": "Review: The culture page links decisions to the people affected."
+            },
+            {
+              "text": "attention to purposes and consequences",
+              "correct": true,
+              "feedback": "Correct: The culture page links decisions to the people affected."
+            },
+            {
+              "text": "assuming every charge succeeds",
+              "correct": false,
+              "feedback": "Review: The culture page links decisions to the people affected."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0132",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which purpose belongs to Cleocritus’s comparison?",
+          "explanation": "Lesson 20 concerns fellow citizens in Athens.",
+          "choices": [
+            {
+              "text": "Cyrus’s accession",
+              "correct": false,
+              "feedback": "Review: Lesson 20 concerns fellow citizens in Athens."
+            },
+            {
+              "text": "Rhodian slinging",
+              "correct": false,
+              "feedback": "Review: Lesson 20 concerns fellow citizens in Athens."
+            },
+            {
+              "text": "seizing generals",
+              "correct": false,
+              "feedback": "Review: Lesson 20 concerns fellow citizens in Athens."
+            },
+            {
+              "text": "shared civic obligations",
+              "correct": true,
+              "feedback": "Correct: Lesson 20 concerns fellow citizens in Athens."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0133",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What changes after the report?",
+          "explanation": "Cyrus’s death forces a new aim.",
+          "choices": [
+            {
+              "text": "the practical aim becomes survival",
+              "correct": true,
+              "feedback": "Correct: Cyrus’s death forces a new aim."
+            },
+            {
+              "text": "the campaign’s aim is achieved",
+              "correct": false,
+              "feedback": "Review: Cyrus’s death forces a new aim."
+            },
+            {
+              "text": "the king disappears",
+              "correct": false,
+              "feedback": "Review: Cyrus’s death forces a new aim."
+            },
+            {
+              "text": "the soldiers return to Athens instantly",
+              "correct": false,
+              "feedback": "Review: Cyrus’s death forces a new aim."
+            }
+          ]
+        },
+        {
+          "id": "lesson-21-final-0134",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should a reader avoid?",
+          "explanation": "Sequence and viewpoint prevent false inferences.",
+          "choices": [
+            {
+              "text": "distinguishing sectors",
+              "correct": false,
+              "feedback": "Review: Sequence and viewpoint prevent false inferences."
+            },
+            {
+              "text": "giving soldiers knowledge they did not yet have",
+              "correct": true,
+              "feedback": "Correct: Sequence and viewpoint prevent false inferences."
+            },
+            {
+              "text": "tracking messages",
+              "correct": false,
+              "feedback": "Review: Sequence and viewpoint prevent false inferences."
+            },
+            {
+              "text": "asking about consequences",
+              "correct": false,
+              "feedback": "Review: Sequence and viewpoint prevent false inferences."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-20",
+    "title": "Courage to Address Fellow Citizens",
+    "fallbackUrl": "lesson.html?lesson=20&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-22",
+    "title": "Trust, Betrayal, and the Missing Generals",
+    "fallbackUrl": "lesson.html?lesson=22&page=1"
+  },
+  "contentRevision": "lesson-21-module-2-v1"
+}

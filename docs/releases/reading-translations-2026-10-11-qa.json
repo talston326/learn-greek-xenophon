@@ -1,0 +1,22 @@
+{
+  "base": "https://learn-greek-xenophon.netlify.app",
+  "readOnlyTom": true,
+  "results": [
+    {
+      "name": "desktop",
+      "comparison": true,
+      "reload": true,
+      "responsive": true,
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "comparison": true,
+      "reload": true,
+      "responsive": true,
+      "errors": []
+    }
+  ],
+  "fixtureSaveAndRetry": true,
+  "staffReadAndRoleDenial": true
+}

@@ -1,0 +1,5051 @@
+{
+  "id": "lesson-18",
+  "number": 18,
+  "title": "The Soldiers Refuse to March",
+  "greekTitle": "Οἱ στρατιῶται οὐκ ἐθέλουσι πορεύεσθαι",
+  "scope": "Third-declension -ντ-, vowel and diphthong stems; genitive and article uses",
+  "theme": "Consent, coercion, and a destination still concealed",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-18-banner.png",
+    "alt": "Educational reconstruction of soldiers and Clearchus deliberating at Tarsus",
+    "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-18-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-18-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-18-page-3",
+      "title": "Tarsus: Consent and Command",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Nouns and travel",
+      "items": [
+        {
+          "greek": "ἡ πόλις",
+          "english": "city, civic community",
+          "dictionaryForm": "πόλις, πόλεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "πόλις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ ἄστυ",
+          "english": "town, built-up town",
+          "dictionaryForm": "ἄστυ, ἄστεως, τό",
+          "status": "required vocabulary",
+          "lemma": "ἄστυ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ βασιλεύς",
+          "english": "king",
+          "dictionaryForm": "βασιλεύς, βασιλέως, ὁ",
+          "status": "required vocabulary",
+          "lemma": "βασιλεύς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ναῦς",
+          "english": "ship",
+          "dictionaryForm": "ναῦς, νεώς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ναῦς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ βοῦς",
+          "english": "ox",
+          "dictionaryForm": "βοῦς, βοός, ὁ",
+          "status": "required vocabulary",
+          "lemma": "βοῦς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἡγεμών",
+          "english": "guide, leader",
+          "dictionaryForm": "ἡγεμών, ἡγεμόνος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἡγεμών",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ ὑποζύγιον",
+          "english": "pack animal",
+          "dictionaryForm": "ὑποζύγιον, ὑποζυγίου, τό",
+          "status": "reading vocabulary",
+          "lemma": "ὑποζύγιον",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Assembly and pressure",
+      "items": [
+        {
+          "greek": "ἡ ἐκκλησία",
+          "english": "assembly",
+          "dictionaryForm": "ἐκκλησία, ἐκκλησίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἐκκλησία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ βία",
+          "english": "force, violence",
+          "dictionaryForm": "βία, βίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "βία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ λίθος",
+          "english": "stone",
+          "dictionaryForm": "λίθος, λίθου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "λίθος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ μισθός",
+          "english": "pay, wages",
+          "dictionaryForm": "μισθός, μισθοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "μισθός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὑποπτεύω",
+          "english": "suspect",
+          "dictionaryForm": "ὑποπτεύω",
+          "status": "required vocabulary",
+          "lemma": "ὑποπτεύω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δακρύω",
+          "english": "weep",
+          "dictionaryForm": "δακρύω",
+          "status": "required vocabulary",
+          "lemma": "δακρύω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐπαινέω",
+          "english": "praise",
+          "dictionaryForm": "ἐπαινέω",
+          "status": "required vocabulary",
+          "lemma": "ἐπαινέω",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Negotiation",
+      "items": [
+        {
+          "greek": "ὁ ἄγγελος",
+          "english": "messenger",
+          "dictionaryForm": "ἄγγελος, ἀγγέλου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἄγγελος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οἱ πρέσβεις",
+          "english": "envoys, representatives",
+          "dictionaryForm": "πρέσβεις, πρέσβεων, οἱ (plural)",
+          "status": "required vocabulary",
+          "lemma": "πρέσβεις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἰτέω",
+          "english": "ask for, request",
+          "dictionaryForm": "αἰτέω",
+          "status": "required vocabulary",
+          "lemma": "αἰτέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὰ ἐπιτήδεια",
+          "english": "supplies",
+          "dictionaryForm": "ἐπιτήδεια, ἐπιτηδείων, τά",
+          "status": "required vocabulary",
+          "lemma": "ἐπιτήδεια",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λάθρᾳ",
+          "english": "secretly",
+          "dictionaryForm": "λάθρᾳ",
+          "status": "required vocabulary",
+          "lemma": "λάθρᾳ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὅμως",
+          "english": "nevertheless",
+          "dictionaryForm": "ὅμως",
+          "status": "required vocabulary",
+          "lemma": "ὅμως",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡμιόλιος",
+          "english": "half as large again",
+          "dictionaryForm": "ἡμιόλιος, ἡμιόλια, ἡμιόλιον",
+          "status": "reading vocabulary",
+          "lemma": "ἡμιόλιος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "Ἀβροκόμας",
+          "english": "Abrocomas",
+          "dictionaryForm": "Ἀβροκόμας, Ἀβροκόμα, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Ἀβροκόμας",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Οἱ στρατιῶται οὐκ ἐθέλουσι πορεύεσθαι",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Back in the expedition of 401 BCE, Cyrus’s army halts at Tarsus. The soldiers suspect a war against the Great King and say that this is not the service for which they were hired. Their concern about risk and consent is legitimate.",
+      "Course adaptation of Xenophon, Anabasis 1.3.1–21. The refusal, violence against Clearchus, speeches, private message to Cyrus, negotiation, Abrocomas explanation, and increased pay follow the source. The short Greek speeches are newly written summaries, not quotations. The Great King remains a suspicion here: the public announcement comes at Thapsacus in Lesson 19.",
+      "The narrative uses present tense. Supplementary noun tables include ships, cattle, and cities without placing every example in this historical scene. Blue glosses support names, contracted forms, and less familiar constructions."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Κῦρος καὶ οἱ στρατιῶται ἐν Ταρσοῖς μένουσιν. ἡ πόλις ἐν Κιλικίᾳ ἐστίν. οἱ δὲ στρατιῶται οὐκ ἐθέλουσι πορεύεσθαι· ὑποπτεύουσι γὰρ πόλεμον πρὸς τὸν μέγαν βασιλέα.",
+        "gloss": [
+          {
+            "greek": "ἐν Ταρσοῖς",
+            "english": "at Tarsus"
+          },
+          {
+            "greek": "ἐν Κιλικίᾳ",
+            "english": "in Cilicia"
+          },
+          {
+            "greek": "ἐθέλουσι",
+            "english": "are willing"
+          },
+          {
+            "greek": "πορεύεσθαι",
+            "english": "to march; middle infinitive"
+          },
+          {
+            "greek": "ὑποπτεύουσι",
+            "english": "suspect"
+          },
+          {
+            "greek": "πρὸς τὸν μέγαν βασιλέα",
+            "english": "against the Great King"
+          }
+        ]
+      },
+      {
+        "greek": "Τῶν στρατιωτῶν οἱ μὲν λέγουσιν· «οὐ πρὸς τὸν βασιλέα στρατευόμεθα· οὐκ ἐπὶ τοῦτο μισθούμεθα.» ὁ Κλέαρχος πρῶτον βίᾳ ἄγει τοὺς ἑαυτοῦ στρατιώτας. οἱ δὲ λίθους βάλλουσιν εἰς αὐτὸν καὶ τὰ ὑποζύγια.",
+        "gloss": [
+          {
+            "greek": "Τῶν στρατιωτῶν",
+            "english": "of the soldiers; partitive genitive"
+          },
+          {
+            "greek": "στρατευόμεθα",
+            "english": "we serve on campaign; middle"
+          },
+          {
+            "greek": "ἐπὶ τοῦτο",
+            "english": "for this purpose"
+          },
+          {
+            "greek": "μισθούμεθα",
+            "english": "we are hired; contracted middle/passive"
+          },
+          {
+            "greek": "ὁ Κλέαρχος",
+            "english": "Clearchus"
+          },
+          {
+            "greek": "βίᾳ",
+            "english": "by force; dative of means"
+          },
+          {
+            "greek": "τοὺς ἑαυτοῦ στρατιώτας",
+            "english": "his own soldiers"
+          },
+          {
+            "greek": "τὰ ὑποζύγια",
+            "english": "the pack animals"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ βία οὐκ ὠφελεῖ. ὁ Κλέαρχος τῶν ἑαυτοῦ στρατιωτῶν ἐκκλησίαν ποιεῖ καὶ δακρύει. οἱ παρόντες σιωπῶσιν. ὁ δὲ λέγει· «ὑμεῖς ἐμοὶ φίλοι καὶ σύμμαχοί ἐστε· ἐγὼ μεθ᾽ ὑμῶν μένω.»",
+        "gloss": [
+          {
+            "greek": "ὠφελεῖ",
+            "english": "helps; contracted present"
+          },
+          {
+            "greek": "ἐκκλησίαν ποιεῖ",
+            "english": "holds an assembly"
+          },
+          {
+            "greek": "δακρύει",
+            "english": "weeps"
+          },
+          {
+            "greek": "οἱ παρόντες",
+            "english": "those present; substantival participle"
+          },
+          {
+            "greek": "σιωπῶσιν",
+            "english": "are silent; contracted present"
+          },
+          {
+            "greek": "ὑμεῖς ἐμοὶ",
+            "english": "you, for me"
+          },
+          {
+            "greek": "σύμμαχοί",
+            "english": "allies; extra accent before enclitic"
+          },
+          {
+            "greek": "μεθ᾽ ὑμῶν",
+            "english": "with you; elided μετά"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ ἀκούοντες ἐπαινοῦσι τὸν Κλέαρχον. πολλοὶ τῶν ἄλλων στρατιωτῶν πρὸς αὐτὸν ἔρχονται. ὁ δὲ Κῦρος αὐτὸν καλεῖ· ὁ Κλέαρχος οὐκ ἔρχεται, ἀλλὰ λάθρᾳ ἄγγελον πέμπει. τῷ Κύρῳ ἀγγέλλει· «θάρρει· τὰ πράγματα καλῶς ἔχει.»",
+        "gloss": [
+          {
+            "greek": "ἐπαινοῦσι",
+            "english": "praise; contracted present"
+          },
+          {
+            "greek": "πολλοὶ τῶν ἄλλων στρατιωτῶν",
+            "english": "many of the other soldiers; partitive"
+          },
+          {
+            "greek": "λάθρᾳ",
+            "english": "secretly"
+          },
+          {
+            "greek": "ἄγγελον",
+            "english": "a messenger"
+          },
+          {
+            "greek": "τῷ Κύρῳ",
+            "english": "to Cyrus"
+          },
+          {
+            "greek": "θάρρει",
+            "english": "take heart; supported imperative"
+          },
+          {
+            "greek": "τὰ πράγματα καλῶς ἔχει",
+            "english": "matters are going well; neuter plural with singular verb"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν τῇ ἐκκλησίᾳ οἱ μὲν τὴν οἴκαδε ὁδὸν ζητοῦσιν, οἱ δὲ περὶ πλοίων καὶ ἡγεμόνων λέγουσιν. χαλεπὸν δέ ἐστιν ἄνευ τῆς Κύρου γνώμης ἀπιέναι. τὰ ἐπιτήδεια ἐν τῇ τοῦ Κύρου ἀγορᾷ ἐστίν.",
+        "gloss": [
+          {
+            "greek": "οἱ μὲν",
+            "english": "some; article identifies a group"
+          },
+          {
+            "greek": "τὴν οἴκαδε ὁδὸν",
+            "english": "the homeward route"
+          },
+          {
+            "greek": "πλοίων καὶ ἡγεμόνων",
+            "english": "boats and guides"
+          },
+          {
+            "greek": "ἄνευ τῆς Κύρου γνώμης",
+            "english": "without Cyrus’s agreement"
+          },
+          {
+            "greek": "ἀπιέναι",
+            "english": "to depart; supported infinitive"
+          },
+          {
+            "greek": "τὰ ἐπιτήδεια",
+            "english": "the supplies; substantival adjective"
+          },
+          {
+            "greek": "ἐν τῇ τοῦ Κύρου ἀγορᾷ",
+            "english": "in Cyrus’s market"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ στρατιῶται πρέσβεις πρὸς τὸν Κῦρον πέμπουσιν. οἱ πρέσβεις ἐρωτῶσι· «τί βούλει;» ὁ δὲ λέγει· «Ἀβροκόμας ἐχθρός μοί ἐστιν· πρὸς τοῦτον βούλομαι πορεύεσθαι.» οἱ πρέσβεις τὴν ἀπόκρισιν τοῖς στρατιώταις ἀγγέλλουσιν.",
+        "gloss": [
+          {
+            "greek": "πρέσβεις",
+            "english": "representatives, envoys"
+          },
+          {
+            "greek": "ἐρωτῶσι",
+            "english": "ask; contracted present"
+          },
+          {
+            "greek": "τί βούλει",
+            "english": "what do you want?; middle second singular"
+          },
+          {
+            "greek": "Ἀβροκόμας",
+            "english": "Abrocomas"
+          },
+          {
+            "greek": "ἐχθρός μοί",
+            "english": "an enemy to me"
+          },
+          {
+            "greek": "πρὸς τοῦτον",
+            "english": "against this man"
+          },
+          {
+            "greek": "τὴν ἀπόκρισιν",
+            "english": "the answer"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ στρατιῶται ἔτι ὑποπτεύουσι τὸν πρὸς τὸν βασιλέα πόλεμον, ὅμως δὲ ἕπεσθαι δοκεῖ αὐτοῖς. πλείονα μισθὸν αἰτοῦσιν, καὶ ὁ Κῦρος ὑπισχνεῖται ἡμιόλιον μισθόν. οὔπω δὲ φανερῶς λέγει ὅτι πρὸς τὸν βασιλέα ἄγει.",
+        "gloss": [
+          {
+            "greek": "ἔτι",
+            "english": "still"
+          },
+          {
+            "greek": "ὅμως",
+            "english": "nevertheless"
+          },
+          {
+            "greek": "ἕπεσθαι δοκεῖ αὐτοῖς",
+            "english": "they decide to follow; literally following seems good to them"
+          },
+          {
+            "greek": "πλείονα μισθὸν",
+            "english": "greater pay; supported comparative"
+          },
+          {
+            "greek": "αἰτοῦσιν",
+            "english": "ask for; contracted present"
+          },
+          {
+            "greek": "ὑπισχνεῖται",
+            "english": "promises; deponent"
+          },
+          {
+            "greek": "ἡμιόλιον",
+            "english": "half as large again; one and a half times"
+          },
+          {
+            "greek": "οὔπω δὲ φανερῶς",
+            "english": "but not yet openly"
+          }
+        ]
+      }
+    ],
+    "translation": "Cyrus and the soldiers remain at Tarsus. The city is in Cilicia. The soldiers are unwilling to march; for they suspect a war against the Great King.\n\nSome of the soldiers say, “We are not serving against the King; we are not hired for this.” Clearchus first leads his own soldiers by force. They throw stones at him and the pack animals.\n\nForce does not help. Clearchus holds an assembly of his own soldiers and weeps. Those present are silent. He says, “You are my friends and allies; I remain with you.”\n\nThe listeners praise Clearchus. Many of the other soldiers come to him. Cyrus summons him; Clearchus does not come but secretly sends a messenger. He reports to Cyrus, “Take heart; matters are going well.”\n\nIn the assembly some seek the road home, while others speak about boats and guides. It is difficult to depart without Cyrus’s agreement. Supplies are in Cyrus’s market.\n\nThe soldiers send representatives to Cyrus. The representatives ask, “What do you want?” He says, “Abrocomas is my enemy; I want to march against him.” The representatives report the answer to the soldiers.\n\nThe soldiers still suspect the war against the King, but nevertheless decide to follow. They ask for greater pay, and Cyrus promises pay half as large again. Yet he does not openly state that he is leading them against the King.\n",
+    "sourceCitation": "Xenophon, Anabasis 1.3.1–21. Controlled course adaptation; dialogue and teaching futures are newly supplied, not verbatim quotations. https://www.mikrosapoplous.gr/xenophon/anb3d10.htm https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0032.tlg006.perseus-eng2%3A1.3/",
+    "notesMarkdown": "Course adaptation of Xenophon, Anabasis 1.3.1–21. The refusal, violence against Clearchus, speeches, private message to Cyrus, negotiation, Abrocomas explanation, and increased pay follow the source. The short Greek speeches are newly written summaries, not quotations. The Great King remains a suspicion here: the public announcement comes at Thapsacus in Lesson 19."
+  },
+  "wordStudy": {
+    "label": "Word Study — A request, a suspicion, and an assembly",
+    "blocks": [
+      {
+        "title": "A request, a suspicion, and an assembly",
+        "practiceTopic": "word-study",
+        "body": [
+          "ἐρωτάω asks a question; αἰτέω asks for something. The representatives ἐρωτῶσι τί βούλει, while the soldiers αἰτοῦσι μισθόν. Asking about the plan and asking for pay are related negotiations, but different verb meanings.",
+          "ὑποπτεύω means suspect, not know with certainty. Cyrus’s public explanation mentions Abrocomas. The soldiers’ suspicion survives their decision to proceed. Keep the difference between the narrator’s knowledge and the participants’ publicly available information.",
+          "ἐκκλησία means an assembly; here it is a soldiers’ gathering rather than Athens’s civic Assembly. οἱ μὲν and οἱ δὲ can divide participants into groups. τὰ ἐπιτήδεια uses an adjective as a noun for the necessities that make remaining or leaving possible."
+        ],
+        "display": [
+          {
+            "greek": "ἐρωτῶσι",
+            "english": "they ask a question"
+          },
+          {
+            "greek": "αἰτοῦσι",
+            "english": "they request"
+          },
+          {
+            "greek": "ὑποπτεύουσι",
+            "english": "they suspect"
+          },
+          {
+            "greek": "ἡ ἐκκλησία",
+            "english": "the assembly"
+          },
+          {
+            "greek": "τὰ ἐπιτήδεια",
+            "english": "the supplies"
+          },
+          {
+            "greek": "λάθρᾳ",
+            "english": "secretly"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Third-declension -ντ-, vowel and diphthong stems; genitive and article uses. Work through every section, read its examples and table, then practice by topic before the required grammar check. Supplementary examples are labeled and do not add incidents to the historical reading.",
+    "objectives": [
+      "Explain and apply Third-Declension Nouns with -ντ- Stems.",
+      "Explain and apply πόλις and ἄστυ.",
+      "Explain and apply βασιλεύς, ναῦς, and βοῦς.",
+      "Explain and apply Possession, Relationship, and a Part of a Group.",
+      "Explain and apply The Article Identifies and Makes Nouns."
+    ],
+    "sections": [
+      {
+        "id": "nt-nouns",
+        "title": "1. Third-Declension Nouns with -ντ- Stems",
+        "practiceTopic": "nt-nouns",
+        "body": [
+          "The participles of Lesson 17 introduced -οντ-. Nouns can also have a ντ stem: γέρων, γέροντος, “old man,” and γίγας, γίγαντος, “giant.” The genitive reveals the stem; the nominative alone may hide part of it.",
+          "γέρων has a lengthened nominative and loses final τ. In γίγας the ντ disappears before nominative σ and the α lengthens. Dative plural similarly loses ντ before σ: γέρουσι(ν), γίγασι(ν). Do not insert ντ into those surface forms.",
+          "The other cases preserve the stem: γέροντα, γέροντι, γίγαντα, γίγαντι. These are supplementary travel and story examples, not claims that a giant or an old man took a role in the Tarsus negotiations. Learn case by article and ending together."
+        ],
+        "table": {
+          "title": "1. Third-Declension Nouns with -ντ- Stems",
+          "headers": [
+            "Case",
+            "γέρων singular",
+            "γίγας singular",
+            "γέρων plural"
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "nominative",
+              "γέρων",
+              "γίγας",
+              "γέροντες"
+            ],
+            [
+              "genitive",
+              "γέροντος",
+              "γίγαντος",
+              "γερόντων"
+            ],
+            [
+              "dative",
+              "γέροντι",
+              "γίγαντι",
+              "γέρουσι(ν)"
+            ],
+            [
+              "accusative",
+              "γέροντα",
+              "γίγαντα",
+              "γέροντας"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ γέρων τοῖς γέρουσι λέγει.",
+            "english": "The old man speaks to the old men (supplementary example)."
+          },
+          {
+            "greek": "τὸν γίγαντα βλέπω.",
+            "english": "I see the giant (supplementary story example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which form reveals γέρων’s stem?",
+            "answer": "γέροντος. Removing -ος from γέροντος gives γεροντ-."
+          },
+          {
+            "prompt": "Which is dative plural of γέρων?",
+            "answer": "γέρουσι. ντ disappears before σ and ο lengthens to ου."
+          }
+        ]
+      },
+      {
+        "id": "vowel-nouns",
+        "title": "2. πόλις and ἄστυ",
+        "practiceTopic": "vowel-nouns",
+        "body": [
+          "Vowel-stem nouns do not follow a single unchanging stem spelling. πόλις has genitive πόλεως and dative πόλει. The plural is πόλεις, πόλεων, πόλεσι(ν), πόλεις. The feminine article makes the case clear even when nominative and accusative plural coincide.",
+          "ἄστυ is neuter: nominative and accusative singular are both ἄστυ, while genitive is ἄστεως and dative ἄστει. Plural nominative/accusative is ἄστη, genitive ἄστεων, dative ἄστεσι(ν). The neuter article is τὸ or τά in those direct cases.",
+          "πόλις often refers to the civic community as well as its city; ἄστυ emphasizes the urban settlement. Since English “city” can translate both in some contexts, vocabulary questions give the exact dictionary sense and avoid using one as a misleading synonym distractor for the other."
+        ],
+        "table": {
+          "title": "2. πόλις and ἄστυ",
+          "headers": [
+            "Case",
+            "πόλις singular",
+            "πόλις plural",
+            "ἄστυ singular / plural"
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "nominative",
+              "ἡ πόλις",
+              "αἱ πόλεις",
+              "τὸ ἄστυ / τὰ ἄστη"
+            ],
+            [
+              "genitive",
+              "τῆς πόλεως",
+              "τῶν πόλεων",
+              "τοῦ ἄστεως / τῶν ἄστεων"
+            ],
+            [
+              "dative",
+              "τῇ πόλει",
+              "ταῖς πόλεσι(ν)",
+              "τῷ ἄστει / τοῖς ἄστεσι(ν)"
+            ],
+            [
+              "accusative",
+              "τὴν πόλιν",
+              "τὰς πόλεις",
+              "τὸ ἄστυ / τὰ ἄστη"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἡ πόλις ἐν Κιλικίᾳ ἐστίν.",
+            "english": "The city is in Cilicia."
+          },
+          {
+            "greek": "ἐν τῷ ἄστει μένομεν.",
+            "english": "We remain in the town (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is genitive singular of πόλις?",
+            "answer": "πόλεως. The genitive singular is πόλεως."
+          },
+          {
+            "prompt": "Which is dative singular of πόλις?",
+            "answer": "πόλει. The dative singular is πόλει."
+          }
+        ]
+      },
+      {
+        "id": "diphthong-nouns",
+        "title": "3. βασιλεύς, ναῦς, and βοῦς",
+        "practiceTopic": "diphthong-nouns",
+        "body": [
+          "βασιλεύς is masculine and changes across cases: βασιλέως, βασιλεῖ, βασιλέα. Its plural is βασιλεῖς, βασιλέων, βασιλεῦσι(ν), βασιλέας. The reading’s πρὸς τὸν μέγαν βασιλέα uses the accusative because πρός marks the opposed destination.",
+          "ναῦς is feminine and irregular. Learn νεώς, νηί, ναῦν in the singular; νῆες, νεῶν, ναυσί(ν), ναῦς in the plural. The accusative plural ναῦς looks like nominative singular, so article and context matter. Boats are proposed in the source negotiations; the paradigms below are supplementary.",
+          "βοῦς, usually masculine for an ox here, has βοός, βοΐ, βοῦν; plural βόες, βοῶν, βουσί(ν), βοῦς. The noun can also be feminine for a cow, with the appropriate article. Its inclusion supplies the assigned irregular paradigm without inventing cattle in the source episode."
+        ],
+        "table": {
+          "title": "3. βασιλεύς, ναῦς, and βοῦς",
+          "headers": [
+            "Case",
+            "βασιλεύς sg. / pl.",
+            "ναῦς sg. / pl.",
+            "βοῦς sg. / pl."
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "nominative",
+              "βασιλεύς / βασιλεῖς",
+              "ναῦς / νῆες",
+              "βοῦς / βόες"
+            ],
+            [
+              "genitive",
+              "βασιλέως / βασιλέων",
+              "νεώς / νεῶν",
+              "βοός / βοῶν"
+            ],
+            [
+              "dative",
+              "βασιλεῖ / βασιλεῦσι(ν)",
+              "νηί / ναυσί(ν)",
+              "βοΐ / βουσί(ν)"
+            ],
+            [
+              "accusative",
+              "βασιλέα / βασιλέας",
+              "ναῦν / ναῦς",
+              "βοῦν / βοῦς"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "πρὸς τὸν μέγαν βασιλέα πορεύονται.",
+            "english": "They march against the Great King."
+          },
+          {
+            "greek": "αἱ νῆες καὶ οἱ βόες ἐν τῇ πόλει εἰσίν.",
+            "english": "The ships and oxen are in the city (supplementary paradigm example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is accusative singular of βασιλεύς?",
+            "answer": "βασιλέα. πρὸς τὸν βασιλέα uses accusative singular."
+          },
+          {
+            "prompt": "Which is dative plural of βασιλεύς?",
+            "answer": "βασιλεῦσι. Dative plural retains ευ before σ."
+          }
+        ]
+      },
+      {
+        "id": "genitive-uses",
+        "title": "4. Possession, Relationship, and a Part of a Group",
+        "practiceTopic": "genitive-uses",
+        "body": [
+          "A possessive genitive links something to an owner: τὰ τοῦ Κύρου χρήματα, “Cyrus’s money.” A genitive can also identify a relationship or association: οἱ τοῦ Κύρου στρατιῶται, “Cyrus’s soldiers.” The latter does not mean that soldiers are objects he owns.",
+          "A partitive genitive names the whole group from which a subset is taken: πολλοὶ τῶν στρατιωτῶν, “many of the soldiers”; τῶν στρατιωτῶν οἱ μέν, “some of the soldiers.” The word expressing the part and the genitive whole work together.",
+          "Other genitives come from the governing expression: ἄνευ τῆς Κύρου γνώμης, “without Cyrus’s agreement”; περὶ πλοίων, “about boats.” These differ from the time-within-which genitive of Lesson 16, such as τριῶν ἡμερῶν, “within three days.” Case does not have a single English translation."
+        ],
+        "table": {
+          "title": "4. Possession, Relationship, and a Part of a Group",
+          "headers": [
+            "Function",
+            "Greek",
+            "Reading"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "possession",
+              "τὰ τοῦ Κύρου χρήματα",
+              "Cyrus’s money"
+            ],
+            [
+              "relationship",
+              "οἱ τοῦ Κύρου στρατιῶται",
+              "Cyrus’s soldiers"
+            ],
+            [
+              "partitive",
+              "πολλοὶ τῶν στρατιωτῶν",
+              "many of the soldiers"
+            ],
+            [
+              "after preposition",
+              "ἄνευ τῆς γνώμης",
+              "without the agreement"
+            ],
+            [
+              "time within which (review)",
+              "τριῶν ἡμερῶν",
+              "within three days"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "πολλοὶ τῶν ἄλλων στρατιωτῶν ἔρχονται.",
+            "english": "Many of the other soldiers come."
+          },
+          {
+            "greek": "ἄνευ τῆς Κύρου γνώμης ἀπιέναι χαλεπόν ἐστιν.",
+            "english": "It is difficult to depart without Cyrus’s agreement."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What does πολλοὶ τῶν στρατιωτῶν express?",
+            "answer": "a subset of the soldiers. τῶν στρατιωτῶν names the whole group."
+          },
+          {
+            "prompt": "What relation appears in οἱ τοῦ Κύρου στρατιῶται?",
+            "answer": "soldiers associated with Cyrus. The genitive marks their relationship with the commander."
+          }
+        ]
+      },
+      {
+        "id": "article-uses",
+        "title": "5. The Article Identifies and Makes Nouns",
+        "practiceTopic": "article-uses",
+        "body": [
+          "The article identifies a known person or group: ὁ Κῦρος, “Cyrus”; οἱ στρατιῶται, “the soldiers.” Greek often uses an article with a personal name where English does not. The article’s case helps readers track roles across irregular noun forms.",
+          "With an adjective or participle and no noun, the article creates a substantival expression: τὰ ἐπιτήδεια, “the supplies”; οἱ παρόντες, “those present.” An adverbial phrase can also be gathered under the article: οἱ ἐν τῇ πόλει, “those in the city.”",
+          "Attributive position keeps the description inside the noun phrase: οἱ ἀνδρεῖοι στρατιῶται or οἱ στρατιῶται οἱ ἀνδρεῖοι, “the brave soldiers.” Predicate position, οἱ στρατιῶται ἀνδρεῖοί εἰσιν, asserts “the soldiers are brave.” Revisit participles similarly: οἱ ἀκούοντες names listeners; ἀκούοντες ἐπαινοῦσι adds their accompanying action."
+        ],
+        "table": {
+          "title": "5. The Article Identifies and Makes Nouns",
+          "headers": [
+            "Construction",
+            "Greek",
+            "Meaning"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "known person",
+              "ὁ Κῦρος",
+              "Cyrus"
+            ],
+            [
+              "adjective as noun",
+              "τὰ ἐπιτήδεια",
+              "the supplies"
+            ],
+            [
+              "participle as noun",
+              "οἱ παρόντες",
+              "those present"
+            ],
+            [
+              "phrase as noun",
+              "οἱ ἐν τῇ πόλει",
+              "those in the city"
+            ],
+            [
+              "attributive",
+              "οἱ ἀνδρεῖοι στρατιῶται",
+              "the brave soldiers"
+            ],
+            [
+              "predicate",
+              "οἱ στρατιῶται ἀνδρεῖοί εἰσιν",
+              "the soldiers are brave"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ παρόντες σιωπῶσιν.",
+            "english": "Those present are silent."
+          },
+          {
+            "greek": "τὰ ἐπιτήδεια ἐν τῇ ἀγορᾷ ἐστίν.",
+            "english": "The supplies are in the market."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What does τὰ ἐπιτήδεια name?",
+            "answer": "the supplies. The article substantivizes an adjective."
+          },
+          {
+            "prompt": "What does οἱ παρόντες mean?",
+            "answer": "those present. The article substantivizes a participle."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Third-Declension Nouns with -ντ- Stems: The participles of Lesson 17 introduced -οντ-. Nouns can also have a ντ stem: γέρων, γέροντος, “old man,” and γίγας, γίγαντος, “giant.” The genitive reveals the stem; the nominative alone may hide part of it.",
+        "πόλις and ἄστυ: Vowel-stem nouns do not follow a single unchanging stem spelling. πόλις has genitive πόλεως and dative πόλει. The plural is πόλεις, πόλεων, πόλεσι(ν), πόλεις. The feminine article makes the case clear even when nominative and accusative plural coincide.",
+        "βασιλεύς, ναῦς, and βοῦς: βασιλεύς is masculine and changes across cases: βασιλέως, βασιλεῖ, βασιλέα. Its plural is βασιλεῖς, βασιλέων, βασιλεῦσι(ν), βασιλέας. The reading’s πρὸς τὸν μέγαν βασιλέα uses the accusative because πρός marks the opposed destination.",
+        "Possession, Relationship, and a Part of a Group: A possessive genitive links something to an owner: τὰ τοῦ Κύρου χρήματα, “Cyrus’s money.” A genitive can also identify a relationship or association: οἱ τοῦ Κύρου στρατιῶται, “Cyrus’s soldiers.” The latter does not mean that soldiers are objects he owns.",
+        "The Article Identifies and Makes Nouns: The article identifies a known person or group: ὁ Κῦρος, “Cyrus”; οἱ στρατιῶται, “the soldiers.” Greek often uses an article with a personal name where English does not. The article’s case helps readers track roles across irregular noun forms."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Tarsus: Consent and Command",
+    "banner": {
+      "image": "assets/lesson-18-banner.png",
+      "alt": "Educational reconstruction of soldiers and Clearchus deliberating at Tarsus",
+      "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "A changed risk and the right to question it",
+        "body": [
+          "At Anabasis 1.3.1 the soldiers refuse to march further because they suspect a campaign against the King and say that this was not what they were hired to do. Their objection concerns the scope of the service and its danger. The source gives grounds for interpreting their refusal as a claim about agreement rather than automatic cowardice.",
+          "Clearchus tries force and faces stones aimed at him and his pack animals. The violence is serious, and Xenophon says he nearly dies. Acknowledging the soldiers’ legitimate concern does not require approving every method they use. The episode asks how a commander secures cooperation when the original understanding has become doubtful."
+        ]
+      },
+      {
+        "title": "Public loyalty and private persuasion",
+        "body": [
+          "Clearchus weeps before an assembly and declares solidarity with his men. Soldiers from other contingents join him. Yet he privately reassures Cyrus and arranges for Cyrus to keep summoning him while he publicly refuses. Xenophon presents conduct that can be read as both concern for his troops and calculated management of the crisis.",
+          "The army’s assembly is a place for speeches and collective deliberation, but it is not simply the Athenian democratic Assembly transported into Asia. Clearchus encourages some speakers, and the soldiers depend on Cyrus’s camp for supplies. The reading preserves the tension between speaking openly and shaping what choices seem possible."
+        ]
+      },
+      {
+        "title": "Leaving also requires resources",
+        "body": [
+          "Speakers discuss vessels, a guide, food, safe routes, and the danger of trusting Cyrus after opposing him. The source also notes harm already done to Cilicians: one speaker fears that people whose property the soldiers have taken could block their departure. The difficulty of going home is logistical and political, not just a lack of resolve.",
+          "The negotiated explanation names Abrocomas on the Euphrates. Cyrus promises monthly pay of one and a half darics instead of one, and the troops continue while still suspecting the King as the target. Anabasis 1.3.21 explicitly says that no public announcement of that target occurs here. Additional pay settles the immediate movement without removing the information problem."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Why is the refusal more than simple disobedience?",
+        "answer": "The soldiers question a danger and objective they say were outside the service for which they were hired."
+      },
+      {
+        "prompt": "What changes after force fails?",
+        "answer": "Clearchus turns to speeches, private communication, and negotiation."
+      },
+      {
+        "prompt": "Why is his conduct ambiguous?",
+        "answer": "He publicly aligns with the soldiers while privately assuring Cyrus that the situation can be managed."
+      },
+      {
+        "prompt": "Why is leaving difficult?",
+        "answer": "Routes, guides, vessels, supplies, Cyrus’s power, and hostile people create risks."
+      },
+      {
+        "prompt": "What change in pay is promised?",
+        "answer": "Monthly pay rises from one daric to one and a half darics."
+      },
+      {
+        "prompt": "Is war against the King publicly announced at Tarsus?",
+        "answer": "No. Suspicion remains; explicit announcement comes later at Thapsacus."
+      },
+      {
+        "prompt": "Which leadership decision in this lesson needs reasons beyond personal bravery?",
+        "answer": "Securing cooperation requires addressing the agreed service and information, not merely demanding obedience."
+      },
+      {
+        "prompt": "How can the reading’s source boundary improve your interpretation?",
+        "answer": "Distinguish the author’s reported events and speeches from the course’s simplified wording, supplied examples, and ethical inferences."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the source and adaptation boundary: Xenophon, Anabasis 1.3.1–21.",
+        "Review third-declension nouns with -ντ- stems using the worked examples.",
+        "Review πόλις and ἄστυ using the worked examples.",
+        "Review βασιλεύς, ναῦς, and βοῦς using the worked examples.",
+        "Review possession, relationship, and a part of a group using the worked examples.",
+        "Review the article identifies and makes nouns using the worked examples.",
+        "Why is the refusal more than simple disobedience? The soldiers question a danger and objective they say were outside the service for which they were hired.",
+        "What changes after force fails? Clearchus turns to speeches, private communication, and negotiation.",
+        "Why is his conduct ambiguous? He publicly aligns with the soldiers while privately assuring Cyrus that the situation can be managed."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 1.3.1–21; Greek and public-domain Dakyns translation",
+        "url": "https://www.mikrosapoplous.gr/xenophon/anb3d10.htm"
+      },
+      {
+        "title": "Xenophon, Anabasis 1.3; Brownson translation",
+        "url": "https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0032.tlg006.perseus-eng2%3A1.3/"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 18 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ πόλις",
+          "answer": "city, civic community — πόλις, πόλεως, ἡ"
+        },
+        {
+          "prompt": "τὸ ἄστυ",
+          "answer": "town, built-up town — ἄστυ, ἄστεως, τό"
+        },
+        {
+          "prompt": "ὁ βασιλεύς",
+          "answer": "king — βασιλεύς, βασιλέως, ὁ"
+        },
+        {
+          "prompt": "ἡ ναῦς",
+          "answer": "ship — ναῦς, νεώς, ἡ"
+        },
+        {
+          "prompt": "ὁ βοῦς",
+          "answer": "ox — βοῦς, βοός, ὁ"
+        },
+        {
+          "prompt": "ὁ ἡγεμών",
+          "answer": "guide, leader — ἡγεμών, ἡγεμόνος, ὁ"
+        },
+        {
+          "prompt": "τὸ ὑποζύγιον",
+          "answer": "pack animal — ὑποζύγιον, ὑποζυγίου, τό (reading vocabulary)"
+        },
+        {
+          "prompt": "ἡ ἐκκλησία",
+          "answer": "assembly — ἐκκλησία, ἐκκλησίας, ἡ"
+        },
+        {
+          "prompt": "ἡ βία",
+          "answer": "force, violence — βία, βίας, ἡ"
+        },
+        {
+          "prompt": "ὁ λίθος",
+          "answer": "stone — λίθος, λίθου, ὁ"
+        },
+        {
+          "prompt": "ὁ μισθός",
+          "answer": "pay, wages — μισθός, μισθοῦ, ὁ"
+        },
+        {
+          "prompt": "ὑποπτεύω",
+          "answer": "suspect — ὑποπτεύω"
+        },
+        {
+          "prompt": "δακρύω",
+          "answer": "weep — δακρύω"
+        },
+        {
+          "prompt": "ἐπαινέω",
+          "answer": "praise — ἐπαινέω"
+        },
+        {
+          "prompt": "ὁ ἄγγελος",
+          "answer": "messenger — ἄγγελος, ἀγγέλου, ὁ"
+        },
+        {
+          "prompt": "οἱ πρέσβεις",
+          "answer": "envoys, representatives — πρέσβεις, πρέσβεων, οἱ (plural)"
+        },
+        {
+          "prompt": "αἰτέω",
+          "answer": "ask for, request — αἰτέω"
+        },
+        {
+          "prompt": "τὰ ἐπιτήδεια",
+          "answer": "supplies — ἐπιτήδεια, ἐπιτηδείων, τά"
+        },
+        {
+          "prompt": "λάθρᾳ",
+          "answer": "secretly — λάθρᾳ"
+        },
+        {
+          "prompt": "ὅμως",
+          "answer": "nevertheless — ὅμως"
+        },
+        {
+          "prompt": "ἡμιόλιος",
+          "answer": "half as large again — ἡμιόλιος, ἡμιόλια, ἡμιόλιον (reading vocabulary)"
+        },
+        {
+          "prompt": "Ἀβροκόμας",
+          "answer": "Abrocomas — Ἀβροκόμας, Ἀβροκόμα, ὁ (reading vocabulary)"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 18 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Each required word has meaning and Greek-entry practice. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-18-vocab-001",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ πόλις mean?",
+          "choices": [
+            {
+              "text": "city, civic community",
+              "correct": true,
+              "feedback": "Correct. πόλις, πόλεως, ἡ means city, civic community."
+            },
+            {
+              "text": "king",
+              "correct": false,
+              "feedback": "“king” does not answer this question. πόλις, πόλεως, ἡ means city, civic community."
+            },
+            {
+              "text": "guide, leader",
+              "correct": false,
+              "feedback": "“guide, leader” does not answer this question. πόλις, πόλεως, ἡ means city, civic community."
+            },
+            {
+              "text": "stone",
+              "correct": false,
+              "feedback": "“stone” does not answer this question. πόλις, πόλεως, ἡ means city, civic community."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-002",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “city, civic community”?",
+          "choices": [
+            {
+              "text": "ὁ λίθος",
+              "correct": false,
+              "feedback": "“ὁ λίθος” does not answer this question. ἡ πόλις is the entry for city, civic community."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": true,
+              "feedback": "Correct. ἡ πόλις is the entry for city, civic community."
+            },
+            {
+              "text": "ὁ βασιλεύς",
+              "correct": false,
+              "feedback": "“ὁ βασιλεύς” does not answer this question. ἡ πόλις is the entry for city, civic community."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": false,
+              "feedback": "“ὁ ἡγεμών” does not answer this question. ἡ πόλις is the entry for city, civic community."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-003",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry τὸ ἄστυ mean?",
+          "choices": [
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. ἄστυ, ἄστεως, τό means town, built-up town."
+            },
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. ἄστυ, ἄστεως, τό means town, built-up town."
+            },
+            {
+              "text": "town, built-up town",
+              "correct": true,
+              "feedback": "Correct. ἄστυ, ἄστεως, τό means town, built-up town."
+            },
+            {
+              "text": "ship",
+              "correct": false,
+              "feedback": "“ship” does not answer this question. ἄστυ, ἄστεως, τό means town, built-up town."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-004",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “town, built-up town”?",
+          "choices": [
+            {
+              "text": "ἡ ναῦς",
+              "correct": false,
+              "feedback": "“ἡ ναῦς” does not answer this question. τὸ ἄστυ is the entry for town, built-up town."
+            },
+            {
+              "text": "ἡ ἐκκλησία",
+              "correct": false,
+              "feedback": "“ἡ ἐκκλησία” does not answer this question. τὸ ἄστυ is the entry for town, built-up town."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "“ὁ μισθός” does not answer this question. τὸ ἄστυ is the entry for town, built-up town."
+            },
+            {
+              "text": "τὸ ἄστυ",
+              "correct": true,
+              "feedback": "Correct. τὸ ἄστυ is the entry for town, built-up town."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-005",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ βασιλεύς mean?",
+          "choices": [
+            {
+              "text": "king",
+              "correct": true,
+              "feedback": "Correct. βασιλεύς, βασιλέως, ὁ means king."
+            },
+            {
+              "text": "ship",
+              "correct": false,
+              "feedback": "“ship” does not answer this question. βασιλεύς, βασιλέως, ὁ means king."
+            },
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. βασιλεύς, βασιλέως, ὁ means king."
+            },
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. βασιλεύς, βασιλέως, ὁ means king."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-006",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “king”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "“ὁ μισθός” does not answer this question. ὁ βασιλεύς is the entry for king."
+            },
+            {
+              "text": "ὁ βασιλεύς",
+              "correct": true,
+              "feedback": "Correct. ὁ βασιλεύς is the entry for king."
+            },
+            {
+              "text": "ἡ ναῦς",
+              "correct": false,
+              "feedback": "“ἡ ναῦς” does not answer this question. ὁ βασιλεύς is the entry for king."
+            },
+            {
+              "text": "ἡ ἐκκλησία",
+              "correct": false,
+              "feedback": "“ἡ ἐκκλησία” does not answer this question. ὁ βασιλεύς is the entry for king."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-007",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ναῦς mean?",
+          "choices": [
+            {
+              "text": "force, violence",
+              "correct": false,
+              "feedback": "“force, violence” does not answer this question. ναῦς, νεώς, ἡ means ship."
+            },
+            {
+              "text": "suspect",
+              "correct": false,
+              "feedback": "“suspect” does not answer this question. ναῦς, νεώς, ἡ means ship."
+            },
+            {
+              "text": "ship",
+              "correct": true,
+              "feedback": "Correct. ναῦς, νεώς, ἡ means ship."
+            },
+            {
+              "text": "ox",
+              "correct": false,
+              "feedback": "“ox” does not answer this question. ναῦς, νεώς, ἡ means ship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-008",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “ship”?",
+          "choices": [
+            {
+              "text": "ὁ βοῦς",
+              "correct": false,
+              "feedback": "“ὁ βοῦς” does not answer this question. ἡ ναῦς is the entry for ship."
+            },
+            {
+              "text": "ἡ βία",
+              "correct": false,
+              "feedback": "“ἡ βία” does not answer this question. ἡ ναῦς is the entry for ship."
+            },
+            {
+              "text": "ὑποπτεύω",
+              "correct": false,
+              "feedback": "“ὑποπτεύω” does not answer this question. ἡ ναῦς is the entry for ship."
+            },
+            {
+              "text": "ἡ ναῦς",
+              "correct": true,
+              "feedback": "Correct. ἡ ναῦς is the entry for ship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ βοῦς mean?",
+          "choices": [
+            {
+              "text": "ox",
+              "correct": true,
+              "feedback": "Correct. βοῦς, βοός, ὁ means ox."
+            },
+            {
+              "text": "guide, leader",
+              "correct": false,
+              "feedback": "“guide, leader” does not answer this question. βοῦς, βοός, ὁ means ox."
+            },
+            {
+              "text": "stone",
+              "correct": false,
+              "feedback": "“stone” does not answer this question. βοῦς, βοός, ὁ means ox."
+            },
+            {
+              "text": "weep",
+              "correct": false,
+              "feedback": "“weep” does not answer this question. βοῦς, βοός, ὁ means ox."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “ox”?",
+          "choices": [
+            {
+              "text": "δακρύω",
+              "correct": false,
+              "feedback": "“δακρύω” does not answer this question. ὁ βοῦς is the entry for ox."
+            },
+            {
+              "text": "ὁ βοῦς",
+              "correct": true,
+              "feedback": "Correct. ὁ βοῦς is the entry for ox."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": false,
+              "feedback": "“ὁ ἡγεμών” does not answer this question. ὁ βοῦς is the entry for ox."
+            },
+            {
+              "text": "ὁ λίθος",
+              "correct": false,
+              "feedback": "“ὁ λίθος” does not answer this question. ὁ βοῦς is the entry for ox."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ ἡγεμών mean?",
+          "choices": [
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            },
+            {
+              "text": "praise",
+              "correct": false,
+              "feedback": "“praise” does not answer this question. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            },
+            {
+              "text": "guide, leader",
+              "correct": true,
+              "feedback": "Correct. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            },
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “guide, leader”?",
+          "choices": [
+            {
+              "text": "ἡ ἐκκλησία",
+              "correct": false,
+              "feedback": "“ἡ ἐκκλησία” does not answer this question. ὁ ἡγεμών is the entry for guide, leader."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "“ὁ μισθός” does not answer this question. ὁ ἡγεμών is the entry for guide, leader."
+            },
+            {
+              "text": "ἐπαινέω",
+              "correct": false,
+              "feedback": "“ἐπαινέω” does not answer this question. ὁ ἡγεμών is the entry for guide, leader."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": true,
+              "feedback": "Correct. ὁ ἡγεμών is the entry for guide, leader."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ἐκκλησία mean?",
+          "choices": [
+            {
+              "text": "assembly",
+              "correct": true,
+              "feedback": "Correct. ἐκκλησία, ἐκκλησίας, ἡ means assembly."
+            },
+            {
+              "text": "force, violence",
+              "correct": false,
+              "feedback": "“force, violence” does not answer this question. ἐκκλησία, ἐκκλησίας, ἡ means assembly."
+            },
+            {
+              "text": "suspect",
+              "correct": false,
+              "feedback": "“suspect” does not answer this question. ἐκκλησία, ἐκκλησίας, ἡ means assembly."
+            },
+            {
+              "text": "messenger",
+              "correct": false,
+              "feedback": "“messenger” does not answer this question. ἐκκλησία, ἐκκλησίας, ἡ means assembly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “assembly”?",
+          "choices": [
+            {
+              "text": "ὁ ἄγγελος",
+              "correct": false,
+              "feedback": "“ὁ ἄγγελος” does not answer this question. ἡ ἐκκλησία is the entry for assembly."
+            },
+            {
+              "text": "ἡ ἐκκλησία",
+              "correct": true,
+              "feedback": "Correct. ἡ ἐκκλησία is the entry for assembly."
+            },
+            {
+              "text": "ἡ βία",
+              "correct": false,
+              "feedback": "“ἡ βία” does not answer this question. ἡ ἐκκλησία is the entry for assembly."
+            },
+            {
+              "text": "ὑποπτεύω",
+              "correct": false,
+              "feedback": "“ὑποπτεύω” does not answer this question. ἡ ἐκκλησία is the entry for assembly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-015",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ βία mean?",
+          "choices": [
+            {
+              "text": "weep",
+              "correct": false,
+              "feedback": "“weep” does not answer this question. βία, βίας, ἡ means force, violence."
+            },
+            {
+              "text": "envoys, representatives",
+              "correct": false,
+              "feedback": "“envoys, representatives” does not answer this question. βία, βίας, ἡ means force, violence."
+            },
+            {
+              "text": "force, violence",
+              "correct": true,
+              "feedback": "Correct. βία, βίας, ἡ means force, violence."
+            },
+            {
+              "text": "stone",
+              "correct": false,
+              "feedback": "“stone” does not answer this question. βία, βίας, ἡ means force, violence."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-016",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “force, violence”?",
+          "choices": [
+            {
+              "text": "ὁ λίθος",
+              "correct": false,
+              "feedback": "“ὁ λίθος” does not answer this question. ἡ βία is the entry for force, violence."
+            },
+            {
+              "text": "δακρύω",
+              "correct": false,
+              "feedback": "“δακρύω” does not answer this question. ἡ βία is the entry for force, violence."
+            },
+            {
+              "text": "οἱ πρέσβεις",
+              "correct": false,
+              "feedback": "“οἱ πρέσβεις” does not answer this question. ἡ βία is the entry for force, violence."
+            },
+            {
+              "text": "ἡ βία",
+              "correct": true,
+              "feedback": "Correct. ἡ βία is the entry for force, violence."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-017",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ λίθος mean?",
+          "choices": [
+            {
+              "text": "stone",
+              "correct": true,
+              "feedback": "Correct. λίθος, λίθου, ὁ means stone."
+            },
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. λίθος, λίθου, ὁ means stone."
+            },
+            {
+              "text": "praise",
+              "correct": false,
+              "feedback": "“praise” does not answer this question. λίθος, λίθου, ὁ means stone."
+            },
+            {
+              "text": "ask for, request",
+              "correct": false,
+              "feedback": "“ask for, request” does not answer this question. λίθος, λίθου, ὁ means stone."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-018",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “stone”?",
+          "choices": [
+            {
+              "text": "αἰτέω",
+              "correct": false,
+              "feedback": "“αἰτέω” does not answer this question. ὁ λίθος is the entry for stone."
+            },
+            {
+              "text": "ὁ λίθος",
+              "correct": true,
+              "feedback": "Correct. ὁ λίθος is the entry for stone."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "“ὁ μισθός” does not answer this question. ὁ λίθος is the entry for stone."
+            },
+            {
+              "text": "ἐπαινέω",
+              "correct": false,
+              "feedback": "“ἐπαινέω” does not answer this question. ὁ λίθος is the entry for stone."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-019",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ μισθός mean?",
+          "choices": [
+            {
+              "text": "messenger",
+              "correct": false,
+              "feedback": "“messenger” does not answer this question. μισθός, μισθοῦ, ὁ means pay, wages."
+            },
+            {
+              "text": "supplies",
+              "correct": false,
+              "feedback": "“supplies” does not answer this question. μισθός, μισθοῦ, ὁ means pay, wages."
+            },
+            {
+              "text": "pay, wages",
+              "correct": true,
+              "feedback": "Correct. μισθός, μισθοῦ, ὁ means pay, wages."
+            },
+            {
+              "text": "suspect",
+              "correct": false,
+              "feedback": "“suspect” does not answer this question. μισθός, μισθοῦ, ὁ means pay, wages."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-020",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “pay, wages”?",
+          "choices": [
+            {
+              "text": "ὑποπτεύω",
+              "correct": false,
+              "feedback": "“ὑποπτεύω” does not answer this question. ὁ μισθός is the entry for pay, wages."
+            },
+            {
+              "text": "ὁ ἄγγελος",
+              "correct": false,
+              "feedback": "“ὁ ἄγγελος” does not answer this question. ὁ μισθός is the entry for pay, wages."
+            },
+            {
+              "text": "τὰ ἐπιτήδεια",
+              "correct": false,
+              "feedback": "“τὰ ἐπιτήδεια” does not answer this question. ὁ μισθός is the entry for pay, wages."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": true,
+              "feedback": "Correct. ὁ μισθός is the entry for pay, wages."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-021",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὑποπτεύω mean?",
+          "choices": [
+            {
+              "text": "suspect",
+              "correct": true,
+              "feedback": "Correct. ὑποπτεύω means suspect."
+            },
+            {
+              "text": "weep",
+              "correct": false,
+              "feedback": "“weep” does not answer this question. ὑποπτεύω means suspect."
+            },
+            {
+              "text": "envoys, representatives",
+              "correct": false,
+              "feedback": "“envoys, representatives” does not answer this question. ὑποπτεύω means suspect."
+            },
+            {
+              "text": "secretly",
+              "correct": false,
+              "feedback": "“secretly” does not answer this question. ὑποπτεύω means suspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-022",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “suspect”?",
+          "choices": [
+            {
+              "text": "λάθρᾳ",
+              "correct": false,
+              "feedback": "“λάθρᾳ” does not answer this question. ὑποπτεύω is the entry for suspect."
+            },
+            {
+              "text": "ὑποπτεύω",
+              "correct": true,
+              "feedback": "Correct. ὑποπτεύω is the entry for suspect."
+            },
+            {
+              "text": "δακρύω",
+              "correct": false,
+              "feedback": "“δακρύω” does not answer this question. ὑποπτεύω is the entry for suspect."
+            },
+            {
+              "text": "οἱ πρέσβεις",
+              "correct": false,
+              "feedback": "“οἱ πρέσβεις” does not answer this question. ὑποπτεύω is the entry for suspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-023",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry δακρύω mean?",
+          "choices": [
+            {
+              "text": "ask for, request",
+              "correct": false,
+              "feedback": "“ask for, request” does not answer this question. δακρύω means weep."
+            },
+            {
+              "text": "nevertheless",
+              "correct": false,
+              "feedback": "“nevertheless” does not answer this question. δακρύω means weep."
+            },
+            {
+              "text": "weep",
+              "correct": true,
+              "feedback": "Correct. δακρύω means weep."
+            },
+            {
+              "text": "praise",
+              "correct": false,
+              "feedback": "“praise” does not answer this question. δακρύω means weep."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-024",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “weep”?",
+          "choices": [
+            {
+              "text": "ἐπαινέω",
+              "correct": false,
+              "feedback": "“ἐπαινέω” does not answer this question. δακρύω is the entry for weep."
+            },
+            {
+              "text": "αἰτέω",
+              "correct": false,
+              "feedback": "“αἰτέω” does not answer this question. δακρύω is the entry for weep."
+            },
+            {
+              "text": "ὅμως",
+              "correct": false,
+              "feedback": "“ὅμως” does not answer this question. δακρύω is the entry for weep."
+            },
+            {
+              "text": "δακρύω",
+              "correct": true,
+              "feedback": "Correct. δακρύω is the entry for weep."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-025",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἐπαινέω mean?",
+          "choices": [
+            {
+              "text": "praise",
+              "correct": true,
+              "feedback": "Correct. ἐπαινέω means praise."
+            },
+            {
+              "text": "messenger",
+              "correct": false,
+              "feedback": "“messenger” does not answer this question. ἐπαινέω means praise."
+            },
+            {
+              "text": "supplies",
+              "correct": false,
+              "feedback": "“supplies” does not answer this question. ἐπαινέω means praise."
+            },
+            {
+              "text": "city, civic community",
+              "correct": false,
+              "feedback": "“city, civic community” does not answer this question. ἐπαινέω means praise."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-026",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “praise”?",
+          "choices": [
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "“ἡ πόλις” does not answer this question. ἐπαινέω is the entry for praise."
+            },
+            {
+              "text": "ἐπαινέω",
+              "correct": true,
+              "feedback": "Correct. ἐπαινέω is the entry for praise."
+            },
+            {
+              "text": "ὁ ἄγγελος",
+              "correct": false,
+              "feedback": "“ὁ ἄγγελος” does not answer this question. ἐπαινέω is the entry for praise."
+            },
+            {
+              "text": "τὰ ἐπιτήδεια",
+              "correct": false,
+              "feedback": "“τὰ ἐπιτήδεια” does not answer this question. ἐπαινέω is the entry for praise."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-027",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ ἄγγελος mean?",
+          "choices": [
+            {
+              "text": "secretly",
+              "correct": false,
+              "feedback": "“secretly” does not answer this question. ἄγγελος, ἀγγέλου, ὁ means messenger."
+            },
+            {
+              "text": "town, built-up town",
+              "correct": false,
+              "feedback": "“town, built-up town” does not answer this question. ἄγγελος, ἀγγέλου, ὁ means messenger."
+            },
+            {
+              "text": "messenger",
+              "correct": true,
+              "feedback": "Correct. ἄγγελος, ἀγγέλου, ὁ means messenger."
+            },
+            {
+              "text": "envoys, representatives",
+              "correct": false,
+              "feedback": "“envoys, representatives” does not answer this question. ἄγγελος, ἀγγέλου, ὁ means messenger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-028",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “messenger”?",
+          "choices": [
+            {
+              "text": "οἱ πρέσβεις",
+              "correct": false,
+              "feedback": "“οἱ πρέσβεις” does not answer this question. ὁ ἄγγελος is the entry for messenger."
+            },
+            {
+              "text": "λάθρᾳ",
+              "correct": false,
+              "feedback": "“λάθρᾳ” does not answer this question. ὁ ἄγγελος is the entry for messenger."
+            },
+            {
+              "text": "τὸ ἄστυ",
+              "correct": false,
+              "feedback": "“τὸ ἄστυ” does not answer this question. ὁ ἄγγελος is the entry for messenger."
+            },
+            {
+              "text": "ὁ ἄγγελος",
+              "correct": true,
+              "feedback": "Correct. ὁ ἄγγελος is the entry for messenger."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-029",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry οἱ πρέσβεις mean?",
+          "choices": [
+            {
+              "text": "envoys, representatives",
+              "correct": true,
+              "feedback": "Correct. πρέσβεις, πρέσβεων, οἱ (plural) means envoys, representatives."
+            },
+            {
+              "text": "ask for, request",
+              "correct": false,
+              "feedback": "“ask for, request” does not answer this question. πρέσβεις, πρέσβεων, οἱ (plural) means envoys, representatives."
+            },
+            {
+              "text": "nevertheless",
+              "correct": false,
+              "feedback": "“nevertheless” does not answer this question. πρέσβεις, πρέσβεων, οἱ (plural) means envoys, representatives."
+            },
+            {
+              "text": "king",
+              "correct": false,
+              "feedback": "“king” does not answer this question. πρέσβεις, πρέσβεων, οἱ (plural) means envoys, representatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-030",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “envoys, representatives”?",
+          "choices": [
+            {
+              "text": "ὁ βασιλεύς",
+              "correct": false,
+              "feedback": "“ὁ βασιλεύς” does not answer this question. οἱ πρέσβεις is the entry for envoys, representatives."
+            },
+            {
+              "text": "οἱ πρέσβεις",
+              "correct": true,
+              "feedback": "Correct. οἱ πρέσβεις is the entry for envoys, representatives."
+            },
+            {
+              "text": "αἰτέω",
+              "correct": false,
+              "feedback": "“αἰτέω” does not answer this question. οἱ πρέσβεις is the entry for envoys, representatives."
+            },
+            {
+              "text": "ὅμως",
+              "correct": false,
+              "feedback": "“ὅμως” does not answer this question. οἱ πρέσβεις is the entry for envoys, representatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-031",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry αἰτέω mean?",
+          "choices": [
+            {
+              "text": "city, civic community",
+              "correct": false,
+              "feedback": "“city, civic community” does not answer this question. αἰτέω means ask for, request."
+            },
+            {
+              "text": "ship",
+              "correct": false,
+              "feedback": "“ship” does not answer this question. αἰτέω means ask for, request."
+            },
+            {
+              "text": "ask for, request",
+              "correct": true,
+              "feedback": "Correct. αἰτέω means ask for, request."
+            },
+            {
+              "text": "supplies",
+              "correct": false,
+              "feedback": "“supplies” does not answer this question. αἰτέω means ask for, request."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-032",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “ask for, request”?",
+          "choices": [
+            {
+              "text": "τὰ ἐπιτήδεια",
+              "correct": false,
+              "feedback": "“τὰ ἐπιτήδεια” does not answer this question. αἰτέω is the entry for ask for, request."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "“ἡ πόλις” does not answer this question. αἰτέω is the entry for ask for, request."
+            },
+            {
+              "text": "ἡ ναῦς",
+              "correct": false,
+              "feedback": "“ἡ ναῦς” does not answer this question. αἰτέω is the entry for ask for, request."
+            },
+            {
+              "text": "αἰτέω",
+              "correct": true,
+              "feedback": "Correct. αἰτέω is the entry for ask for, request."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-033",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry τὰ ἐπιτήδεια mean?",
+          "choices": [
+            {
+              "text": "supplies",
+              "correct": true,
+              "feedback": "Correct. ἐπιτήδεια, ἐπιτηδείων, τά means supplies."
+            },
+            {
+              "text": "secretly",
+              "correct": false,
+              "feedback": "“secretly” does not answer this question. ἐπιτήδεια, ἐπιτηδείων, τά means supplies."
+            },
+            {
+              "text": "town, built-up town",
+              "correct": false,
+              "feedback": "“town, built-up town” does not answer this question. ἐπιτήδεια, ἐπιτηδείων, τά means supplies."
+            },
+            {
+              "text": "ox",
+              "correct": false,
+              "feedback": "“ox” does not answer this question. ἐπιτήδεια, ἐπιτηδείων, τά means supplies."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-034",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “supplies”?",
+          "choices": [
+            {
+              "text": "ὁ βοῦς",
+              "correct": false,
+              "feedback": "“ὁ βοῦς” does not answer this question. τὰ ἐπιτήδεια is the entry for supplies."
+            },
+            {
+              "text": "τὰ ἐπιτήδεια",
+              "correct": true,
+              "feedback": "Correct. τὰ ἐπιτήδεια is the entry for supplies."
+            },
+            {
+              "text": "λάθρᾳ",
+              "correct": false,
+              "feedback": "“λάθρᾳ” does not answer this question. τὰ ἐπιτήδεια is the entry for supplies."
+            },
+            {
+              "text": "τὸ ἄστυ",
+              "correct": false,
+              "feedback": "“τὸ ἄστυ” does not answer this question. τὰ ἐπιτήδεια is the entry for supplies."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-035",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry λάθρᾳ mean?",
+          "choices": [
+            {
+              "text": "king",
+              "correct": false,
+              "feedback": "“king” does not answer this question. λάθρᾳ means secretly."
+            },
+            {
+              "text": "guide, leader",
+              "correct": false,
+              "feedback": "“guide, leader” does not answer this question. λάθρᾳ means secretly."
+            },
+            {
+              "text": "secretly",
+              "correct": true,
+              "feedback": "Correct. λάθρᾳ means secretly."
+            },
+            {
+              "text": "nevertheless",
+              "correct": false,
+              "feedback": "“nevertheless” does not answer this question. λάθρᾳ means secretly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-036",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “secretly”?",
+          "choices": [
+            {
+              "text": "ὅμως",
+              "correct": false,
+              "feedback": "“ὅμως” does not answer this question. λάθρᾳ is the entry for secretly."
+            },
+            {
+              "text": "ὁ βασιλεύς",
+              "correct": false,
+              "feedback": "“ὁ βασιλεύς” does not answer this question. λάθρᾳ is the entry for secretly."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": false,
+              "feedback": "“ὁ ἡγεμών” does not answer this question. λάθρᾳ is the entry for secretly."
+            },
+            {
+              "text": "λάθρᾳ",
+              "correct": true,
+              "feedback": "Correct. λάθρᾳ is the entry for secretly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-037",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὅμως mean?",
+          "choices": [
+            {
+              "text": "nevertheless",
+              "correct": true,
+              "feedback": "Correct. ὅμως means nevertheless."
+            },
+            {
+              "text": "city, civic community",
+              "correct": false,
+              "feedback": "“city, civic community” does not answer this question. ὅμως means nevertheless."
+            },
+            {
+              "text": "ship",
+              "correct": false,
+              "feedback": "“ship” does not answer this question. ὅμως means nevertheless."
+            },
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. ὅμως means nevertheless."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-vocab-038",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “nevertheless”?",
+          "choices": [
+            {
+              "text": "ἡ ἐκκλησία",
+              "correct": false,
+              "feedback": "“ἡ ἐκκλησία” does not answer this question. ὅμως is the entry for nevertheless."
+            },
+            {
+              "text": "ὅμως",
+              "correct": true,
+              "feedback": "Correct. ὅμως is the entry for nevertheless."
+            },
+            {
+              "text": "ἡ πόλις",
+              "correct": false,
+              "feedback": "“ἡ πόλις” does not answer this question. ὅμως is the entry for nevertheless."
+            },
+            {
+              "text": "ἡ ναῦς",
+              "correct": false,
+              "feedback": "“ἡ ναῦς” does not answer this question. ὅμως is the entry for nevertheless."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 18 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ γέρων τοῖς γέρουσι λέγει.",
+          "answer": "The old man speaks to the old men (supplementary example). — Third-Declension Nouns with -ντ- Stems"
+        },
+        {
+          "prompt": "τὸν γίγαντα βλέπω.",
+          "answer": "I see the giant (supplementary story example). — Third-Declension Nouns with -ντ- Stems"
+        },
+        {
+          "prompt": "ἡ πόλις ἐν Κιλικίᾳ ἐστίν.",
+          "answer": "The city is in Cilicia. — πόλις and ἄστυ"
+        },
+        {
+          "prompt": "ἐν τῷ ἄστει μένομεν.",
+          "answer": "We remain in the town (supplementary example). — πόλις and ἄστυ"
+        },
+        {
+          "prompt": "πρὸς τὸν μέγαν βασιλέα πορεύονται.",
+          "answer": "They march against the Great King. — βασιλεύς, ναῦς, and βοῦς"
+        },
+        {
+          "prompt": "αἱ νῆες καὶ οἱ βόες ἐν τῇ πόλει εἰσίν.",
+          "answer": "The ships and oxen are in the city (supplementary paradigm example). — βασιλεύς, ναῦς, and βοῦς"
+        },
+        {
+          "prompt": "πολλοὶ τῶν ἄλλων στρατιωτῶν ἔρχονται.",
+          "answer": "Many of the other soldiers come. — Possession, Relationship, and a Part of a Group"
+        },
+        {
+          "prompt": "ἄνευ τῆς Κύρου γνώμης ἀπιέναι χαλεπόν ἐστιν.",
+          "answer": "It is difficult to depart without Cyrus’s agreement. — Possession, Relationship, and a Part of a Group"
+        },
+        {
+          "prompt": "οἱ παρόντες σιωπῶσιν.",
+          "answer": "Those present are silent. — The Article Identifies and Makes Nouns"
+        },
+        {
+          "prompt": "τὰ ἐπιτήδεια ἐν τῇ ἀγορᾷ ἐστίν.",
+          "answer": "The supplies are in the market. — The Article Identifies and Makes Nouns"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 18 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar section. Every topic has at least six distinct questions with feedback.",
+      "questions": [
+        {
+          "id": "lesson-18-practice-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "How does αἰτέω differ from ἐρωτάω here?",
+          "choices": [
+            {
+              "text": "requesting something versus asking a question",
+              "correct": true,
+              "feedback": "Correct. The soldiers request pay; envoys ask about the plan."
+            },
+            {
+              "text": "present versus past tense",
+              "correct": false,
+              "feedback": "“present versus past tense” does not answer this question. The soldiers request pay; envoys ask about the plan."
+            },
+            {
+              "text": "speaking versus a compulsory passive",
+              "correct": false,
+              "feedback": "“speaking versus a compulsory passive” does not answer this question. The soldiers request pay; envoys ask about the plan."
+            },
+            {
+              "text": "being silent versus marching",
+              "correct": false,
+              "feedback": "“being silent versus marching” does not answer this question. The soldiers request pay; envoys ask about the plan."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does ὑποπτεύω establish?",
+          "choices": [
+            {
+              "text": "a future guarantee",
+              "correct": false,
+              "feedback": "“a future guarantee” does not answer this question. The soldiers still suspect the King as target."
+            },
+            {
+              "text": "suspicion, not certain knowledge",
+              "correct": true,
+              "feedback": "Correct. The soldiers still suspect the King as target."
+            },
+            {
+              "text": "public disclosure in every case",
+              "correct": false,
+              "feedback": "“public disclosure in every case” does not answer this question. The soldiers still suspect the King as target."
+            },
+            {
+              "text": "the truth of every rumor",
+              "correct": false,
+              "feedback": "“the truth of every rumor” does not answer this question. The soldiers still suspect the King as target."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What is ἐκκλησία in this scene?",
+          "choices": [
+            {
+              "text": "a gold reward",
+              "correct": false,
+              "feedback": "“a gold reward” does not answer this question. The word means assembly and context identifies the participants."
+            },
+            {
+              "text": "a military ship",
+              "correct": false,
+              "feedback": "“a military ship” does not answer this question. The word means assembly and context identifies the participants."
+            },
+            {
+              "text": "a soldiers’ assembly",
+              "correct": true,
+              "feedback": "Correct. The word means assembly and context identifies the participants."
+            },
+            {
+              "text": "a city’s genitive",
+              "correct": false,
+              "feedback": "“a city’s genitive” does not answer this question. The word means assembly and context identifies the participants."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does τὰ ἐπιτήδεια supply to a traveler?",
+          "choices": [
+            {
+              "text": "a philosophical definition",
+              "correct": false,
+              "feedback": "“a philosophical definition” does not answer this question. The substantival adjective names supplies."
+            },
+            {
+              "text": "the ruler’s kinship",
+              "correct": false,
+              "feedback": "“the ruler’s kinship” does not answer this question. The substantival adjective names supplies."
+            },
+            {
+              "text": "a new future ending",
+              "correct": false,
+              "feedback": "“a new future ending” does not answer this question. The substantival adjective names supplies."
+            },
+            {
+              "text": "necessary provisions",
+              "correct": true,
+              "feedback": "Correct. The substantival adjective names supplies."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What is the contrast between οἱ μὲν and οἱ δέ?",
+          "choices": [
+            {
+              "text": "some participants versus others",
+              "correct": true,
+              "feedback": "Correct. The article can identify contrasted groups."
+            },
+            {
+              "text": "one completed action versus another",
+              "correct": false,
+              "feedback": "“one completed action versus another” does not answer this question. The article can identify contrasted groups."
+            },
+            {
+              "text": "a king versus an ox in every context",
+              "correct": false,
+              "feedback": "“a king versus an ox in every context” does not answer this question. The article can identify contrasted groups."
+            },
+            {
+              "text": "an infinitive versus a finite verb",
+              "correct": false,
+              "feedback": "“an infinitive versus a finite verb” does not answer this question. The article can identify contrasted groups."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which word marks Clearchus’s concealed communication?",
+          "choices": [
+            {
+              "text": "ἐνταῦθα",
+              "correct": false,
+              "feedback": "“ἐνταῦθα” does not answer this question. λάθρᾳ means secretly; φανερῶς is openly."
+            },
+            {
+              "text": "λάθρᾳ",
+              "correct": true,
+              "feedback": "Correct. λάθρᾳ means secretly; φανερῶς is openly."
+            },
+            {
+              "text": "φανερῶς",
+              "correct": false,
+              "feedback": "“φανερῶς” does not answer this question. λάθρᾳ means secretly; φανερῶς is openly."
+            },
+            {
+              "text": "ὅμως",
+              "correct": false,
+              "feedback": "“ὅμως” does not answer this question. λάθρᾳ means secretly; φανερῶς is openly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which form reveals γέρων’s stem?",
+          "choices": [
+            {
+              "text": "γέρουσι alone",
+              "correct": false,
+              "feedback": "“γέρουσι alone” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γένος",
+              "correct": false,
+              "feedback": "“γένος” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γέροντος",
+              "correct": true,
+              "feedback": "Correct. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γέρων alone",
+              "correct": false,
+              "feedback": "“γέρων alone” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative plural of γέρων?",
+          "choices": [
+            {
+              "text": "γέροντες",
+              "correct": false,
+              "feedback": "“γέροντες” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέροντα",
+              "correct": false,
+              "feedback": "“γέροντα” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέροντος",
+              "correct": false,
+              "feedback": "“γέροντος” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέρουσι",
+              "correct": true,
+              "feedback": "Correct. ντ disappears before σ and ο lengthens to ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is accusative singular of γίγας?",
+          "choices": [
+            {
+              "text": "γίγαντα",
+              "correct": true,
+              "feedback": "Correct. The accusative preserves γιγαντ- with -α."
+            },
+            {
+              "text": "γίγας",
+              "correct": false,
+              "feedback": "“γίγας” does not answer this question. The accusative preserves γιγαντ- with -α."
+            },
+            {
+              "text": "γίγαντος",
+              "correct": false,
+              "feedback": "“γίγαντος” does not answer this question. The accusative preserves γιγαντ- with -α."
+            },
+            {
+              "text": "γίγαντι",
+              "correct": false,
+              "feedback": "“γίγαντι” does not answer this question. The accusative preserves γιγαντ- with -α."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "What is the stem of γίγας?",
+          "choices": [
+            {
+              "text": "γιγανσ-",
+              "correct": false,
+              "feedback": "“γιγανσ-” does not answer this question. γίγαντος reveals γιγαντ-."
+            },
+            {
+              "text": "γιγαντ-",
+              "correct": true,
+              "feedback": "Correct. γίγαντος reveals γιγαντ-."
+            },
+            {
+              "text": "γιγασ-",
+              "correct": false,
+              "feedback": "“γιγασ-” does not answer this question. γίγαντος reveals γιγαντ-."
+            },
+            {
+              "text": "γιγαδ-",
+              "correct": false,
+              "feedback": "“γιγαδ-” does not answer this question. γίγαντος reveals γιγαντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative singular of γέρων?",
+          "choices": [
+            {
+              "text": "γέρουσι",
+              "correct": false,
+              "feedback": "“γέρουσι” does not answer this question. The singular dative adds -ι to γεροντ-."
+            },
+            {
+              "text": "γέροντες",
+              "correct": false,
+              "feedback": "“γέροντες” does not answer this question. The singular dative adds -ι to γεροντ-."
+            },
+            {
+              "text": "γέροντι",
+              "correct": true,
+              "feedback": "Correct. The singular dative adds -ι to γεροντ-."
+            },
+            {
+              "text": "γέρων",
+              "correct": false,
+              "feedback": "“γέρων” does not answer this question. The singular dative adds -ι to γεροντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative plural of γίγας?",
+          "choices": [
+            {
+              "text": "γίγαντες",
+              "correct": false,
+              "feedback": "“γίγαντες” does not answer this question. ντ is lost before σ in γίγασι."
+            },
+            {
+              "text": "γίγαντα",
+              "correct": false,
+              "feedback": "“γίγαντα” does not answer this question. ντ is lost before σ in γίγασι."
+            },
+            {
+              "text": "γίγαντος",
+              "correct": false,
+              "feedback": "“γίγαντος” does not answer this question. ντ is lost before σ in γίγασι."
+            },
+            {
+              "text": "γίγασι",
+              "correct": true,
+              "feedback": "Correct. ντ is lost before σ in γίγασι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is genitive singular of πόλις?",
+          "choices": [
+            {
+              "text": "πόλεως",
+              "correct": true,
+              "feedback": "Correct. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλει",
+              "correct": false,
+              "feedback": "“πόλει” does not answer this question. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλεις",
+              "correct": false,
+              "feedback": "“πόλεις” does not answer this question. The genitive singular is πόλεως."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is dative singular of πόλις?",
+          "choices": [
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλει",
+              "correct": true,
+              "feedback": "Correct. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλις",
+              "correct": false,
+              "feedback": "“πόλις” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλεων",
+              "correct": false,
+              "feedback": "“πόλεων” does not answer this question. The dative singular is πόλει."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which completes ταῖς ___?",
+          "choices": [
+            {
+              "text": "πόλεων",
+              "correct": false,
+              "feedback": "“πόλεων” does not answer this question. ταῖς requires feminine dative plural."
+            },
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. ταῖς requires feminine dative plural."
+            },
+            {
+              "text": "πόλεσι",
+              "correct": true,
+              "feedback": "Correct. ταῖς requires feminine dative plural."
+            },
+            {
+              "text": "πόλεις",
+              "correct": false,
+              "feedback": "“πόλεις” does not answer this question. ταῖς requires feminine dative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is neuter nominative plural of ἄστυ?",
+          "choices": [
+            {
+              "text": "ἄστει",
+              "correct": false,
+              "feedback": "“ἄστει” does not answer this question. Neuter nominative/accusative plural is ἄστη."
+            },
+            {
+              "text": "ἄστεως",
+              "correct": false,
+              "feedback": "“ἄστεως” does not answer this question. Neuter nominative/accusative plural is ἄστη."
+            },
+            {
+              "text": "ἄστεων",
+              "correct": false,
+              "feedback": "“ἄστεων” does not answer this question. Neuter nominative/accusative plural is ἄστη."
+            },
+            {
+              "text": "ἄστη",
+              "correct": true,
+              "feedback": "Correct. Neuter nominative/accusative plural is ἄστη."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is genitive singular of ἄστυ?",
+          "choices": [
+            {
+              "text": "ἄστεως",
+              "correct": true,
+              "feedback": "Correct. The genitive singular is ἄστεως."
+            },
+            {
+              "text": "ἄστει",
+              "correct": false,
+              "feedback": "“ἄστει” does not answer this question. The genitive singular is ἄστεως."
+            },
+            {
+              "text": "ἄστη",
+              "correct": false,
+              "feedback": "“ἄστη” does not answer this question. The genitive singular is ἄστεως."
+            },
+            {
+              "text": "ἄστεσι",
+              "correct": false,
+              "feedback": "“ἄστεσι” does not answer this question. The genitive singular is ἄστεως."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "What is true of πόλεις?",
+          "choices": [
+            {
+              "text": "it is a verb meaning march",
+              "correct": false,
+              "feedback": "“it is a verb meaning march” does not answer this question. Article and syntax distinguish the two plural direct cases."
+            },
+            {
+              "text": "it can be nominative or accusative plural",
+              "correct": true,
+              "feedback": "Correct. Article and syntax distinguish the two plural direct cases."
+            },
+            {
+              "text": "it is only dative plural",
+              "correct": false,
+              "feedback": "“it is only dative plural” does not answer this question. Article and syntax distinguish the two plural direct cases."
+            },
+            {
+              "text": "it is genitive singular",
+              "correct": false,
+              "feedback": "“it is genitive singular” does not answer this question. Article and syntax distinguish the two plural direct cases."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is accusative singular of βασιλεύς?",
+          "choices": [
+            {
+              "text": "βασιλέως",
+              "correct": false,
+              "feedback": "“βασιλέως” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλεύς",
+              "correct": false,
+              "feedback": "“βασιλεύς” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλέα",
+              "correct": true,
+              "feedback": "Correct. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλεῖ",
+              "correct": false,
+              "feedback": "“βασιλεῖ” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is dative plural of βασιλεύς?",
+          "choices": [
+            {
+              "text": "βασιλεῖς",
+              "correct": false,
+              "feedback": "“βασιλεῖς” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλέας",
+              "correct": false,
+              "feedback": "“βασιλέας” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλέων",
+              "correct": false,
+              "feedback": "“βασιλέων” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλεῦσι",
+              "correct": true,
+              "feedback": "Correct. Dative plural retains ευ before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is genitive singular of ναῦς?",
+          "choices": [
+            {
+              "text": "νεώς",
+              "correct": true,
+              "feedback": "Correct. The irregular genitive is νεώς."
+            },
+            {
+              "text": "ναῦν",
+              "correct": false,
+              "feedback": "“ναῦν” does not answer this question. The irregular genitive is νεώς."
+            },
+            {
+              "text": "νηί",
+              "correct": false,
+              "feedback": "“νηί” does not answer this question. The irregular genitive is νεώς."
+            },
+            {
+              "text": "νῆες",
+              "correct": false,
+              "feedback": "“νῆες” does not answer this question. The irregular genitive is νεώς."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is nominative plural of ναῦς?",
+          "choices": [
+            {
+              "text": "νεῶν",
+              "correct": false,
+              "feedback": "“νεῶν” does not answer this question. Nominative plural is νῆες."
+            },
+            {
+              "text": "νῆες",
+              "correct": true,
+              "feedback": "Correct. Nominative plural is νῆες."
+            },
+            {
+              "text": "ναῦν",
+              "correct": false,
+              "feedback": "“ναῦν” does not answer this question. Nominative plural is νῆες."
+            },
+            {
+              "text": "ναυσί",
+              "correct": false,
+              "feedback": "“ναυσί” does not answer this question. Nominative plural is νῆες."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is genitive singular of βοῦς?",
+          "choices": [
+            {
+              "text": "βοΐ",
+              "correct": false,
+              "feedback": "“βοΐ” does not answer this question. βοός reveals the βο- stem."
+            },
+            {
+              "text": "βόες",
+              "correct": false,
+              "feedback": "“βόες” does not answer this question. βοός reveals the βο- stem."
+            },
+            {
+              "text": "βοός",
+              "correct": true,
+              "feedback": "Correct. βοός reveals the βο- stem."
+            },
+            {
+              "text": "βοῦν",
+              "correct": false,
+              "feedback": "“βοῦν” does not answer this question. βοός reveals the βο- stem."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is dative plural of βοῦς?",
+          "choices": [
+            {
+              "text": "βόες",
+              "correct": false,
+              "feedback": "“βόες” does not answer this question. The dative plural is βουσί(ν)."
+            },
+            {
+              "text": "βοῦς",
+              "correct": false,
+              "feedback": "“βοῦς” does not answer this question. The dative plural is βουσί(ν)."
+            },
+            {
+              "text": "βοῶν",
+              "correct": false,
+              "feedback": "“βοῶν” does not answer this question. The dative plural is βουσί(ν)."
+            },
+            {
+              "text": "βουσί",
+              "correct": true,
+              "feedback": "Correct. The dative plural is βουσί(ν)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What does πολλοὶ τῶν στρατιωτῶν express?",
+          "choices": [
+            {
+              "text": "a subset of the soldiers",
+              "correct": true,
+              "feedback": "Correct. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "the soldiers’ money",
+              "correct": false,
+              "feedback": "“the soldiers’ money” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "a destination",
+              "correct": false,
+              "feedback": "“a destination” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "a three-day duration",
+              "correct": false,
+              "feedback": "“a three-day duration” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What relation appears in οἱ τοῦ Κύρου στρατιῶται?",
+          "choices": [
+            {
+              "text": "Cyrus as a direct object",
+              "correct": false,
+              "feedback": "“Cyrus as a direct object” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "soldiers associated with Cyrus",
+              "correct": true,
+              "feedback": "Correct. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "Cyrus physically owning their bodies",
+              "correct": false,
+              "feedback": "“Cyrus physically owning their bodies” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "soldiers within three days",
+              "correct": false,
+              "feedback": "“soldiers within three days” does not answer this question. The genitive marks their relationship with the commander."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "Why is γνώμης genitive after ἄνευ?",
+          "choices": [
+            {
+              "text": "it is a direct object",
+              "correct": false,
+              "feedback": "“it is a direct object” does not answer this question. ἄνευ governs a genitive complement."
+            },
+            {
+              "text": "it is plural",
+              "correct": false,
+              "feedback": "“it is plural” does not answer this question. ἄνευ governs a genitive complement."
+            },
+            {
+              "text": "the preposition requires genitive",
+              "correct": true,
+              "feedback": "Correct. ἄνευ governs a genitive complement."
+            },
+            {
+              "text": "it is the subject",
+              "correct": false,
+              "feedback": "“it is the subject” does not answer this question. ἄνευ governs a genitive complement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "Which expression is genitive of time within which?",
+          "choices": [
+            {
+              "text": "πολλοὶ τῶν στρατιωτῶν",
+              "correct": false,
+              "feedback": "“πολλοὶ τῶν στρατιωτῶν” does not answer this question. τριῶν ἡμερῶν supplies a time window."
+            },
+            {
+              "text": "τὰ τοῦ Κύρου χρήματα",
+              "correct": false,
+              "feedback": "“τὰ τοῦ Κύρου χρήματα” does not answer this question. τριῶν ἡμερῶν supplies a time window."
+            },
+            {
+              "text": "ἄνευ τῆς γνώμης",
+              "correct": false,
+              "feedback": "“ἄνευ τῆς γνώμης” does not answer this question. τριῶν ἡμερῶν supplies a time window."
+            },
+            {
+              "text": "τριῶν ἡμερῶν",
+              "correct": true,
+              "feedback": "Correct. τριῶν ἡμερῶν supplies a time window."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What is Κύρου in τὰ τοῦ Κύρου χρήματα?",
+          "choices": [
+            {
+              "text": "possessive genitive",
+              "correct": true,
+              "feedback": "Correct. The money belongs to Cyrus."
+            },
+            {
+              "text": "partitive genitive of the soldiers",
+              "correct": false,
+              "feedback": "“partitive genitive of the soldiers” does not answer this question. The money belongs to Cyrus."
+            },
+            {
+              "text": "accusative destination",
+              "correct": false,
+              "feedback": "“accusative destination” does not answer this question. The money belongs to Cyrus."
+            },
+            {
+              "text": "dative recipient",
+              "correct": false,
+              "feedback": "“dative recipient” does not answer this question. The money belongs to Cyrus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What does περὶ πλοίων mean?",
+          "choices": [
+            {
+              "text": "the boats flee",
+              "correct": false,
+              "feedback": "“the boats flee” does not answer this question. περί with genitive marks the subject discussed."
+            },
+            {
+              "text": "about boats",
+              "correct": true,
+              "feedback": "Correct. περί with genitive marks the subject discussed."
+            },
+            {
+              "text": "inside the boats",
+              "correct": false,
+              "feedback": "“inside the boats” does not answer this question. περί with genitive marks the subject discussed."
+            },
+            {
+              "text": "to the boats",
+              "correct": false,
+              "feedback": "“to the boats” does not answer this question. περί with genitive marks the subject discussed."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-031",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does τὰ ἐπιτήδεια name?",
+          "choices": [
+            {
+              "text": "a city’s genitive",
+              "correct": false,
+              "feedback": "“a city’s genitive” does not answer this question. The article substantivizes an adjective."
+            },
+            {
+              "text": "an unnamed singular man",
+              "correct": false,
+              "feedback": "“an unnamed singular man” does not answer this question. The article substantivizes an adjective."
+            },
+            {
+              "text": "the supplies",
+              "correct": true,
+              "feedback": "Correct. The article substantivizes an adjective."
+            },
+            {
+              "text": "a finite future verb",
+              "correct": false,
+              "feedback": "“a finite future verb” does not answer this question. The article substantivizes an adjective."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-032",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does οἱ παρόντες mean?",
+          "choices": [
+            {
+              "text": "they will be present",
+              "correct": false,
+              "feedback": "“they will be present” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "to be present",
+              "correct": false,
+              "feedback": "“to be present” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "the present city",
+              "correct": false,
+              "feedback": "“the present city” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "those present",
+              "correct": true,
+              "feedback": "Correct. The article substantivizes a participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-033",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "How should ὁ Κῦρος normally be translated?",
+          "choices": [
+            {
+              "text": "Cyrus",
+              "correct": true,
+              "feedback": "Correct. Greek can use the article with a familiar personal name."
+            },
+            {
+              "text": "the Cyrus as an obligatory English phrase",
+              "correct": false,
+              "feedback": "“the Cyrus as an obligatory English phrase” does not answer this question. Greek can use the article with a familiar personal name."
+            },
+            {
+              "text": "Cyrus’s",
+              "correct": false,
+              "feedback": "“Cyrus’s” does not answer this question. Greek can use the article with a familiar personal name."
+            },
+            {
+              "text": "to Cyrus",
+              "correct": false,
+              "feedback": "“to Cyrus” does not answer this question. Greek can use the article with a familiar personal name."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-034",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "Which means “the brave soldiers” as a noun phrase?",
+          "choices": [
+            {
+              "text": "οἱ στρατιῶται φεύγουσιν",
+              "correct": false,
+              "feedback": "“οἱ στρατιῶται φεύγουσιν” does not answer this question. The adjective is inside attributive position."
+            },
+            {
+              "text": "οἱ ἀνδρεῖοι στρατιῶται",
+              "correct": true,
+              "feedback": "Correct. The adjective is inside attributive position."
+            },
+            {
+              "text": "οἱ στρατιῶται ἀνδρεῖοί εἰσιν",
+              "correct": false,
+              "feedback": "“οἱ στρατιῶται ἀνδρεῖοί εἰσιν” does not answer this question. The adjective is inside attributive position."
+            },
+            {
+              "text": "ἀνδρεῖος ὁ Κῦρος ἐστίν",
+              "correct": false,
+              "feedback": "“ἀνδρεῖος ὁ Κῦρος ἐστίν” does not answer this question. The adjective is inside attributive position."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-035",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does οἱ ἐν τῇ πόλει mean?",
+          "choices": [
+            {
+              "text": "the city will go",
+              "correct": false,
+              "feedback": "“the city will go” does not answer this question. The article gathers the prepositional phrase into a group."
+            },
+            {
+              "text": "to enter the city",
+              "correct": false,
+              "feedback": "“to enter the city” does not answer this question. The article gathers the prepositional phrase into a group."
+            },
+            {
+              "text": "those in the city",
+              "correct": true,
+              "feedback": "Correct. The article gathers the prepositional phrase into a group."
+            },
+            {
+              "text": "the city owns them",
+              "correct": false,
+              "feedback": "“the city owns them” does not answer this question. The article gathers the prepositional phrase into a group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-practice-036",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does predicate οἱ στρατιῶται ἀνδρεῖοί εἰσιν assert?",
+          "choices": [
+            {
+              "text": "only brave soldiers have arrived",
+              "correct": false,
+              "feedback": "“only brave soldiers have arrived” does not answer this question. Predicate position makes an assertion about the subject."
+            },
+            {
+              "text": "the brave soldiers’ pay",
+              "correct": false,
+              "feedback": "“the brave soldiers’ pay” does not answer this question. Predicate position makes an assertion about the subject."
+            },
+            {
+              "text": "the soldiers will be brave tomorrow",
+              "correct": false,
+              "feedback": "“the soldiers will be brave tomorrow” does not answer this question. Predicate position makes an assertion about the subject."
+            },
+            {
+              "text": "the soldiers are brave",
+              "correct": true,
+              "feedback": "Correct. Predicate position makes an assertion about the subject."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 18 Required Grammar Check",
+      "description": "Lesson 18 Required Grammar Check",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-18-grammar-exercises-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-18-grammar-exercises-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which form reveals γέρων’s stem?",
+          "choices": [
+            {
+              "text": "γέροντος",
+              "correct": true,
+              "feedback": "Correct. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γέρων alone",
+              "correct": false,
+              "feedback": "“γέρων alone” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γέρουσι alone",
+              "correct": false,
+              "feedback": "“γέρουσι alone” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γένος",
+              "correct": false,
+              "feedback": "“γένος” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative plural of γέρων?",
+          "choices": [
+            {
+              "text": "γέροντος",
+              "correct": false,
+              "feedback": "“γέροντος” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέρουσι",
+              "correct": true,
+              "feedback": "Correct. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέροντες",
+              "correct": false,
+              "feedback": "“γέροντες” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέροντα",
+              "correct": false,
+              "feedback": "“γέροντα” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is accusative singular of γίγας?",
+          "choices": [
+            {
+              "text": "γίγαντος",
+              "correct": false,
+              "feedback": "“γίγαντος” does not answer this question. The accusative preserves γιγαντ- with -α."
+            },
+            {
+              "text": "γίγαντι",
+              "correct": false,
+              "feedback": "“γίγαντι” does not answer this question. The accusative preserves γιγαντ- with -α."
+            },
+            {
+              "text": "γίγαντα",
+              "correct": true,
+              "feedback": "Correct. The accusative preserves γιγαντ- with -α."
+            },
+            {
+              "text": "γίγας",
+              "correct": false,
+              "feedback": "“γίγας” does not answer this question. The accusative preserves γιγαντ- with -α."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "What is the stem of γίγας?",
+          "choices": [
+            {
+              "text": "γιγασ-",
+              "correct": false,
+              "feedback": "“γιγασ-” does not answer this question. γίγαντος reveals γιγαντ-."
+            },
+            {
+              "text": "γιγαδ-",
+              "correct": false,
+              "feedback": "“γιγαδ-” does not answer this question. γίγαντος reveals γιγαντ-."
+            },
+            {
+              "text": "γιγανσ-",
+              "correct": false,
+              "feedback": "“γιγανσ-” does not answer this question. γίγαντος reveals γιγαντ-."
+            },
+            {
+              "text": "γιγαντ-",
+              "correct": true,
+              "feedback": "Correct. γίγαντος reveals γιγαντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative singular of γέρων?",
+          "choices": [
+            {
+              "text": "γέροντι",
+              "correct": true,
+              "feedback": "Correct. The singular dative adds -ι to γεροντ-."
+            },
+            {
+              "text": "γέρων",
+              "correct": false,
+              "feedback": "“γέρων” does not answer this question. The singular dative adds -ι to γεροντ-."
+            },
+            {
+              "text": "γέρουσι",
+              "correct": false,
+              "feedback": "“γέρουσι” does not answer this question. The singular dative adds -ι to γεροντ-."
+            },
+            {
+              "text": "γέροντες",
+              "correct": false,
+              "feedback": "“γέροντες” does not answer this question. The singular dative adds -ι to γεροντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative plural of γίγας?",
+          "choices": [
+            {
+              "text": "γίγαντος",
+              "correct": false,
+              "feedback": "“γίγαντος” does not answer this question. ντ is lost before σ in γίγασι."
+            },
+            {
+              "text": "γίγασι",
+              "correct": true,
+              "feedback": "Correct. ντ is lost before σ in γίγασι."
+            },
+            {
+              "text": "γίγαντες",
+              "correct": false,
+              "feedback": "“γίγαντες” does not answer this question. ντ is lost before σ in γίγασι."
+            },
+            {
+              "text": "γίγαντα",
+              "correct": false,
+              "feedback": "“γίγαντα” does not answer this question. ντ is lost before σ in γίγασι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is genitive singular of πόλις?",
+          "choices": [
+            {
+              "text": "πόλει",
+              "correct": false,
+              "feedback": "“πόλει” does not answer this question. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλεις",
+              "correct": false,
+              "feedback": "“πόλεις” does not answer this question. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλεως",
+              "correct": true,
+              "feedback": "Correct. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. The genitive singular is πόλεως."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is dative singular of πόλις?",
+          "choices": [
+            {
+              "text": "πόλις",
+              "correct": false,
+              "feedback": "“πόλις” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλεων",
+              "correct": false,
+              "feedback": "“πόλεων” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλει",
+              "correct": true,
+              "feedback": "Correct. The dative singular is πόλει."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which completes ταῖς ___?",
+          "choices": [
+            {
+              "text": "πόλεσι",
+              "correct": true,
+              "feedback": "Correct. ταῖς requires feminine dative plural."
+            },
+            {
+              "text": "πόλεις",
+              "correct": false,
+              "feedback": "“πόλεις” does not answer this question. ταῖς requires feminine dative plural."
+            },
+            {
+              "text": "πόλεων",
+              "correct": false,
+              "feedback": "“πόλεων” does not answer this question. ταῖς requires feminine dative plural."
+            },
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. ταῖς requires feminine dative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is neuter nominative plural of ἄστυ?",
+          "choices": [
+            {
+              "text": "ἄστεων",
+              "correct": false,
+              "feedback": "“ἄστεων” does not answer this question. Neuter nominative/accusative plural is ἄστη."
+            },
+            {
+              "text": "ἄστη",
+              "correct": true,
+              "feedback": "Correct. Neuter nominative/accusative plural is ἄστη."
+            },
+            {
+              "text": "ἄστει",
+              "correct": false,
+              "feedback": "“ἄστει” does not answer this question. Neuter nominative/accusative plural is ἄστη."
+            },
+            {
+              "text": "ἄστεως",
+              "correct": false,
+              "feedback": "“ἄστεως” does not answer this question. Neuter nominative/accusative plural is ἄστη."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is genitive singular of ἄστυ?",
+          "choices": [
+            {
+              "text": "ἄστη",
+              "correct": false,
+              "feedback": "“ἄστη” does not answer this question. The genitive singular is ἄστεως."
+            },
+            {
+              "text": "ἄστεσι",
+              "correct": false,
+              "feedback": "“ἄστεσι” does not answer this question. The genitive singular is ἄστεως."
+            },
+            {
+              "text": "ἄστεως",
+              "correct": true,
+              "feedback": "Correct. The genitive singular is ἄστεως."
+            },
+            {
+              "text": "ἄστει",
+              "correct": false,
+              "feedback": "“ἄστει” does not answer this question. The genitive singular is ἄστεως."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "What is true of πόλεις?",
+          "choices": [
+            {
+              "text": "it is only dative plural",
+              "correct": false,
+              "feedback": "“it is only dative plural” does not answer this question. Article and syntax distinguish the two plural direct cases."
+            },
+            {
+              "text": "it is genitive singular",
+              "correct": false,
+              "feedback": "“it is genitive singular” does not answer this question. Article and syntax distinguish the two plural direct cases."
+            },
+            {
+              "text": "it is a verb meaning march",
+              "correct": false,
+              "feedback": "“it is a verb meaning march” does not answer this question. Article and syntax distinguish the two plural direct cases."
+            },
+            {
+              "text": "it can be nominative or accusative plural",
+              "correct": true,
+              "feedback": "Correct. Article and syntax distinguish the two plural direct cases."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is accusative singular of βασιλεύς?",
+          "choices": [
+            {
+              "text": "βασιλέα",
+              "correct": true,
+              "feedback": "Correct. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλεῖ",
+              "correct": false,
+              "feedback": "“βασιλεῖ” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλέως",
+              "correct": false,
+              "feedback": "“βασιλέως” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλεύς",
+              "correct": false,
+              "feedback": "“βασιλεύς” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is dative plural of βασιλεύς?",
+          "choices": [
+            {
+              "text": "βασιλέων",
+              "correct": false,
+              "feedback": "“βασιλέων” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλεῦσι",
+              "correct": true,
+              "feedback": "Correct. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλεῖς",
+              "correct": false,
+              "feedback": "“βασιλεῖς” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλέας",
+              "correct": false,
+              "feedback": "“βασιλέας” does not answer this question. Dative plural retains ευ before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is genitive singular of ναῦς?",
+          "choices": [
+            {
+              "text": "νηί",
+              "correct": false,
+              "feedback": "“νηί” does not answer this question. The irregular genitive is νεώς."
+            },
+            {
+              "text": "νῆες",
+              "correct": false,
+              "feedback": "“νῆες” does not answer this question. The irregular genitive is νεώς."
+            },
+            {
+              "text": "νεώς",
+              "correct": true,
+              "feedback": "Correct. The irregular genitive is νεώς."
+            },
+            {
+              "text": "ναῦν",
+              "correct": false,
+              "feedback": "“ναῦν” does not answer this question. The irregular genitive is νεώς."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is nominative plural of ναῦς?",
+          "choices": [
+            {
+              "text": "ναῦν",
+              "correct": false,
+              "feedback": "“ναῦν” does not answer this question. Nominative plural is νῆες."
+            },
+            {
+              "text": "ναυσί",
+              "correct": false,
+              "feedback": "“ναυσί” does not answer this question. Nominative plural is νῆες."
+            },
+            {
+              "text": "νεῶν",
+              "correct": false,
+              "feedback": "“νεῶν” does not answer this question. Nominative plural is νῆες."
+            },
+            {
+              "text": "νῆες",
+              "correct": true,
+              "feedback": "Correct. Nominative plural is νῆες."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is genitive singular of βοῦς?",
+          "choices": [
+            {
+              "text": "βοός",
+              "correct": true,
+              "feedback": "Correct. βοός reveals the βο- stem."
+            },
+            {
+              "text": "βοῦν",
+              "correct": false,
+              "feedback": "“βοῦν” does not answer this question. βοός reveals the βο- stem."
+            },
+            {
+              "text": "βοΐ",
+              "correct": false,
+              "feedback": "“βοΐ” does not answer this question. βοός reveals the βο- stem."
+            },
+            {
+              "text": "βόες",
+              "correct": false,
+              "feedback": "“βόες” does not answer this question. βοός reveals the βο- stem."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is dative plural of βοῦς?",
+          "choices": [
+            {
+              "text": "βοῶν",
+              "correct": false,
+              "feedback": "“βοῶν” does not answer this question. The dative plural is βουσί(ν)."
+            },
+            {
+              "text": "βουσί",
+              "correct": true,
+              "feedback": "Correct. The dative plural is βουσί(ν)."
+            },
+            {
+              "text": "βόες",
+              "correct": false,
+              "feedback": "“βόες” does not answer this question. The dative plural is βουσί(ν)."
+            },
+            {
+              "text": "βοῦς",
+              "correct": false,
+              "feedback": "“βοῦς” does not answer this question. The dative plural is βουσί(ν)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What does πολλοὶ τῶν στρατιωτῶν express?",
+          "choices": [
+            {
+              "text": "a destination",
+              "correct": false,
+              "feedback": "“a destination” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "a three-day duration",
+              "correct": false,
+              "feedback": "“a three-day duration” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "a subset of the soldiers",
+              "correct": true,
+              "feedback": "Correct. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "the soldiers’ money",
+              "correct": false,
+              "feedback": "“the soldiers’ money” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What relation appears in οἱ τοῦ Κύρου στρατιῶται?",
+          "choices": [
+            {
+              "text": "Cyrus physically owning their bodies",
+              "correct": false,
+              "feedback": "“Cyrus physically owning their bodies” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "soldiers within three days",
+              "correct": false,
+              "feedback": "“soldiers within three days” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "Cyrus as a direct object",
+              "correct": false,
+              "feedback": "“Cyrus as a direct object” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "soldiers associated with Cyrus",
+              "correct": true,
+              "feedback": "Correct. The genitive marks their relationship with the commander."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "Why is γνώμης genitive after ἄνευ?",
+          "choices": [
+            {
+              "text": "the preposition requires genitive",
+              "correct": true,
+              "feedback": "Correct. ἄνευ governs a genitive complement."
+            },
+            {
+              "text": "it is the subject",
+              "correct": false,
+              "feedback": "“it is the subject” does not answer this question. ἄνευ governs a genitive complement."
+            },
+            {
+              "text": "it is a direct object",
+              "correct": false,
+              "feedback": "“it is a direct object” does not answer this question. ἄνευ governs a genitive complement."
+            },
+            {
+              "text": "it is plural",
+              "correct": false,
+              "feedback": "“it is plural” does not answer this question. ἄνευ governs a genitive complement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "Which expression is genitive of time within which?",
+          "choices": [
+            {
+              "text": "ἄνευ τῆς γνώμης",
+              "correct": false,
+              "feedback": "“ἄνευ τῆς γνώμης” does not answer this question. τριῶν ἡμερῶν supplies a time window."
+            },
+            {
+              "text": "τριῶν ἡμερῶν",
+              "correct": true,
+              "feedback": "Correct. τριῶν ἡμερῶν supplies a time window."
+            },
+            {
+              "text": "πολλοὶ τῶν στρατιωτῶν",
+              "correct": false,
+              "feedback": "“πολλοὶ τῶν στρατιωτῶν” does not answer this question. τριῶν ἡμερῶν supplies a time window."
+            },
+            {
+              "text": "τὰ τοῦ Κύρου χρήματα",
+              "correct": false,
+              "feedback": "“τὰ τοῦ Κύρου χρήματα” does not answer this question. τριῶν ἡμερῶν supplies a time window."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What is Κύρου in τὰ τοῦ Κύρου χρήματα?",
+          "choices": [
+            {
+              "text": "accusative destination",
+              "correct": false,
+              "feedback": "“accusative destination” does not answer this question. The money belongs to Cyrus."
+            },
+            {
+              "text": "dative recipient",
+              "correct": false,
+              "feedback": "“dative recipient” does not answer this question. The money belongs to Cyrus."
+            },
+            {
+              "text": "possessive genitive",
+              "correct": true,
+              "feedback": "Correct. The money belongs to Cyrus."
+            },
+            {
+              "text": "partitive genitive of the soldiers",
+              "correct": false,
+              "feedback": "“partitive genitive of the soldiers” does not answer this question. The money belongs to Cyrus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What does περὶ πλοίων mean?",
+          "choices": [
+            {
+              "text": "inside the boats",
+              "correct": false,
+              "feedback": "“inside the boats” does not answer this question. περί with genitive marks the subject discussed."
+            },
+            {
+              "text": "to the boats",
+              "correct": false,
+              "feedback": "“to the boats” does not answer this question. περί with genitive marks the subject discussed."
+            },
+            {
+              "text": "the boats flee",
+              "correct": false,
+              "feedback": "“the boats flee” does not answer this question. περί with genitive marks the subject discussed."
+            },
+            {
+              "text": "about boats",
+              "correct": true,
+              "feedback": "Correct. περί with genitive marks the subject discussed."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does τὰ ἐπιτήδεια name?",
+          "choices": [
+            {
+              "text": "the supplies",
+              "correct": true,
+              "feedback": "Correct. The article substantivizes an adjective."
+            },
+            {
+              "text": "a finite future verb",
+              "correct": false,
+              "feedback": "“a finite future verb” does not answer this question. The article substantivizes an adjective."
+            },
+            {
+              "text": "a city’s genitive",
+              "correct": false,
+              "feedback": "“a city’s genitive” does not answer this question. The article substantivizes an adjective."
+            },
+            {
+              "text": "an unnamed singular man",
+              "correct": false,
+              "feedback": "“an unnamed singular man” does not answer this question. The article substantivizes an adjective."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does οἱ παρόντες mean?",
+          "choices": [
+            {
+              "text": "the present city",
+              "correct": false,
+              "feedback": "“the present city” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "those present",
+              "correct": true,
+              "feedback": "Correct. The article substantivizes a participle."
+            },
+            {
+              "text": "they will be present",
+              "correct": false,
+              "feedback": "“they will be present” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "to be present",
+              "correct": false,
+              "feedback": "“to be present” does not answer this question. The article substantivizes a participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "How should ὁ Κῦρος normally be translated?",
+          "choices": [
+            {
+              "text": "Cyrus’s",
+              "correct": false,
+              "feedback": "“Cyrus’s” does not answer this question. Greek can use the article with a familiar personal name."
+            },
+            {
+              "text": "to Cyrus",
+              "correct": false,
+              "feedback": "“to Cyrus” does not answer this question. Greek can use the article with a familiar personal name."
+            },
+            {
+              "text": "Cyrus",
+              "correct": true,
+              "feedback": "Correct. Greek can use the article with a familiar personal name."
+            },
+            {
+              "text": "the Cyrus as an obligatory English phrase",
+              "correct": false,
+              "feedback": "“the Cyrus as an obligatory English phrase” does not answer this question. Greek can use the article with a familiar personal name."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "Which means “the brave soldiers” as a noun phrase?",
+          "choices": [
+            {
+              "text": "οἱ στρατιῶται ἀνδρεῖοί εἰσιν",
+              "correct": false,
+              "feedback": "“οἱ στρατιῶται ἀνδρεῖοί εἰσιν” does not answer this question. The adjective is inside attributive position."
+            },
+            {
+              "text": "ἀνδρεῖος ὁ Κῦρος ἐστίν",
+              "correct": false,
+              "feedback": "“ἀνδρεῖος ὁ Κῦρος ἐστίν” does not answer this question. The adjective is inside attributive position."
+            },
+            {
+              "text": "οἱ στρατιῶται φεύγουσιν",
+              "correct": false,
+              "feedback": "“οἱ στρατιῶται φεύγουσιν” does not answer this question. The adjective is inside attributive position."
+            },
+            {
+              "text": "οἱ ἀνδρεῖοι στρατιῶται",
+              "correct": true,
+              "feedback": "Correct. The adjective is inside attributive position."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does οἱ ἐν τῇ πόλει mean?",
+          "choices": [
+            {
+              "text": "those in the city",
+              "correct": true,
+              "feedback": "Correct. The article gathers the prepositional phrase into a group."
+            },
+            {
+              "text": "the city owns them",
+              "correct": false,
+              "feedback": "“the city owns them” does not answer this question. The article gathers the prepositional phrase into a group."
+            },
+            {
+              "text": "the city will go",
+              "correct": false,
+              "feedback": "“the city will go” does not answer this question. The article gathers the prepositional phrase into a group."
+            },
+            {
+              "text": "to enter the city",
+              "correct": false,
+              "feedback": "“to enter the city” does not answer this question. The article gathers the prepositional phrase into a group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-grammar-exercises-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does predicate οἱ στρατιῶται ἀνδρεῖοί εἰσιν assert?",
+          "choices": [
+            {
+              "text": "the soldiers will be brave tomorrow",
+              "correct": false,
+              "feedback": "“the soldiers will be brave tomorrow” does not answer this question. Predicate position makes an assertion about the subject."
+            },
+            {
+              "text": "the soldiers are brave",
+              "correct": true,
+              "feedback": "Correct. Predicate position makes an assertion about the subject."
+            },
+            {
+              "text": "only brave soldiers have arrived",
+              "correct": false,
+              "feedback": "“only brave soldiers have arrived” does not answer this question. Predicate position makes an assertion about the subject."
+            },
+            {
+              "text": "the brave soldiers’ pay",
+              "correct": false,
+              "feedback": "“the brave soldiers’ pay” does not answer this question. Predicate position makes an assertion about the subject."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 18 Final Quiz — The Soldiers Refuse to March",
+      "description": "Lesson 18 Final Quiz — The Soldiers Refuse to March",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-18-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-18-final-quiz-001",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does the army refuse to march further?",
+          "choices": [
+            {
+              "text": "Tarsus",
+              "correct": true,
+              "feedback": "Correct. The scene is Anabasis 1.3 at Tarsus."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "“Athens” does not answer this question. The scene is Anabasis 1.3 at Tarsus."
+            },
+            {
+              "text": "Thapsacus",
+              "correct": false,
+              "feedback": "“Thapsacus” does not answer this question. The scene is Anabasis 1.3 at Tarsus."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "“Delphi” does not answer this question. The scene is Anabasis 1.3 at Tarsus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-002",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the soldiers suspect?",
+          "choices": [
+            {
+              "text": "a voyage to Sparta",
+              "correct": false,
+              "feedback": "“a voyage to Sparta” does not answer this question. They suspect the real objective differs from their hired service."
+            },
+            {
+              "text": "a war against the Great King",
+              "correct": true,
+              "feedback": "Correct. They suspect the real objective differs from their hired service."
+            },
+            {
+              "text": "an immediate journey home",
+              "correct": false,
+              "feedback": "“an immediate journey home” does not answer this question. They suspect the real objective differs from their hired service."
+            },
+            {
+              "text": "a festival in Athens",
+              "correct": false,
+              "feedback": "“a festival in Athens” does not answer this question. They suspect the real objective differs from their hired service."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-003",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How does Clearchus first try to move his troops?",
+          "choices": [
+            {
+              "text": "by giving them ships",
+              "correct": false,
+              "feedback": "“by giving them ships” does not answer this question. His initial coercion fails."
+            },
+            {
+              "text": "by dismissing them from service",
+              "correct": false,
+              "feedback": "“by dismissing them from service” does not answer this question. His initial coercion fails."
+            },
+            {
+              "text": "by force",
+              "correct": true,
+              "feedback": "Correct. His initial coercion fails."
+            },
+            {
+              "text": "by revealing the King as the target",
+              "correct": false,
+              "feedback": "“by revealing the King as the target” does not answer this question. His initial coercion fails."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-004",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the soldiers throw?",
+          "choices": [
+            {
+              "text": "gold crowns",
+              "correct": false,
+              "feedback": "“gold crowns” does not answer this question. They stone Clearchus and his pack animals."
+            },
+            {
+              "text": "letters",
+              "correct": false,
+              "feedback": "“letters” does not answer this question. They stone Clearchus and his pack animals."
+            },
+            {
+              "text": "oars",
+              "correct": false,
+              "feedback": "“oars” does not answer this question. They stone Clearchus and his pack animals."
+            },
+            {
+              "text": "stones",
+              "correct": true,
+              "feedback": "Correct. They stone Clearchus and his pack animals."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-005",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Clearchus do privately?",
+          "choices": [
+            {
+              "text": "sends reassurance to Cyrus",
+              "correct": true,
+              "feedback": "Correct. Private reassurance contrasts with public refusal."
+            },
+            {
+              "text": "announces peace with the King",
+              "correct": false,
+              "feedback": "“announces peace with the King” does not answer this question. Private reassurance contrasts with public refusal."
+            },
+            {
+              "text": "leaves alone for Greece",
+              "correct": false,
+              "feedback": "“leaves alone for Greece” does not answer this question. Private reassurance contrasts with public refusal."
+            },
+            {
+              "text": "dismisses every speaker",
+              "correct": false,
+              "feedback": "“dismisses every speaker” does not answer this question. Private reassurance contrasts with public refusal."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-006",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whom does Cyrus name in his explanation?",
+          "choices": [
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "“Socrates” does not answer this question. Abrocomas is named as the enemy on the Euphrates."
+            },
+            {
+              "text": "Abrocomas",
+              "correct": true,
+              "feedback": "Correct. Abrocomas is named as the enemy on the Euphrates."
+            },
+            {
+              "text": "Laches",
+              "correct": false,
+              "feedback": "“Laches” does not answer this question. Abrocomas is named as the enemy on the Euphrates."
+            },
+            {
+              "text": "Cleocritus",
+              "correct": false,
+              "feedback": "“Cleocritus” does not answer this question. Abrocomas is named as the enemy on the Euphrates."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-007",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the soldiers request before proceeding?",
+          "choices": [
+            {
+              "text": "a new Athenian constitution",
+              "correct": false,
+              "feedback": "“a new Athenian constitution” does not answer this question. They request an increase in wages."
+            },
+            {
+              "text": "the surrender of Nicias",
+              "correct": false,
+              "feedback": "“the surrender of Nicias” does not answer this question. They request an increase in wages."
+            },
+            {
+              "text": "greater pay",
+              "correct": true,
+              "feedback": "Correct. They request an increase in wages."
+            },
+            {
+              "text": "a definition of courage",
+              "correct": false,
+              "feedback": "“a definition of courage” does not answer this question. They request an increase in wages."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-008",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What remains at the end?",
+          "choices": [
+            {
+              "text": "a full public announcement against the King",
+              "correct": false,
+              "feedback": "“a full public announcement against the King” does not answer this question. The source preserves continued suspicion without public disclosure."
+            },
+            {
+              "text": "the whole army’s return home",
+              "correct": false,
+              "feedback": "“the whole army’s return home” does not answer this question. The source preserves continued suspicion without public disclosure."
+            },
+            {
+              "text": "proof that Clearchus uses no persuasion",
+              "correct": false,
+              "feedback": "“proof that Clearchus uses no persuasion” does not answer this question. The source preserves continued suspicion without public disclosure."
+            },
+            {
+              "text": "suspicion about the King despite the decision to continue",
+              "correct": true,
+              "feedback": "Correct. The source preserves continued suspicion without public disclosure."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ πόλις mean?",
+          "choices": [
+            {
+              "text": "city, civic community",
+              "correct": true,
+              "feedback": "Correct. πόλις, πόλεως, ἡ means city, civic community."
+            },
+            {
+              "text": "king",
+              "correct": false,
+              "feedback": "“king” does not answer this question. πόλις, πόλεως, ἡ means city, civic community."
+            },
+            {
+              "text": "guide, leader",
+              "correct": false,
+              "feedback": "“guide, leader” does not answer this question. πόλις, πόλεως, ἡ means city, civic community."
+            },
+            {
+              "text": "stone",
+              "correct": false,
+              "feedback": "“stone” does not answer this question. πόλις, πόλεως, ἡ means city, civic community."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry τὸ ἄστυ mean?",
+          "choices": [
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. ἄστυ, ἄστεως, τό means town, built-up town."
+            },
+            {
+              "text": "town, built-up town",
+              "correct": true,
+              "feedback": "Correct. ἄστυ, ἄστεως, τό means town, built-up town."
+            },
+            {
+              "text": "ship",
+              "correct": false,
+              "feedback": "“ship” does not answer this question. ἄστυ, ἄστεως, τό means town, built-up town."
+            },
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. ἄστυ, ἄστεως, τό means town, built-up town."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ βασιλεύς mean?",
+          "choices": [
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. βασιλεύς, βασιλέως, ὁ means king."
+            },
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. βασιλεύς, βασιλέως, ὁ means king."
+            },
+            {
+              "text": "king",
+              "correct": true,
+              "feedback": "Correct. βασιλεύς, βασιλέως, ὁ means king."
+            },
+            {
+              "text": "ship",
+              "correct": false,
+              "feedback": "“ship” does not answer this question. βασιλεύς, βασιλέως, ὁ means king."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ναῦς mean?",
+          "choices": [
+            {
+              "text": "ox",
+              "correct": false,
+              "feedback": "“ox” does not answer this question. ναῦς, νεώς, ἡ means ship."
+            },
+            {
+              "text": "force, violence",
+              "correct": false,
+              "feedback": "“force, violence” does not answer this question. ναῦς, νεώς, ἡ means ship."
+            },
+            {
+              "text": "suspect",
+              "correct": false,
+              "feedback": "“suspect” does not answer this question. ναῦς, νεώς, ἡ means ship."
+            },
+            {
+              "text": "ship",
+              "correct": true,
+              "feedback": "Correct. ναῦς, νεώς, ἡ means ship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ βοῦς mean?",
+          "choices": [
+            {
+              "text": "ox",
+              "correct": true,
+              "feedback": "Correct. βοῦς, βοός, ὁ means ox."
+            },
+            {
+              "text": "guide, leader",
+              "correct": false,
+              "feedback": "“guide, leader” does not answer this question. βοῦς, βοός, ὁ means ox."
+            },
+            {
+              "text": "stone",
+              "correct": false,
+              "feedback": "“stone” does not answer this question. βοῦς, βοός, ὁ means ox."
+            },
+            {
+              "text": "weep",
+              "correct": false,
+              "feedback": "“weep” does not answer this question. βοῦς, βοός, ὁ means ox."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ ἡγεμών mean?",
+          "choices": [
+            {
+              "text": "praise",
+              "correct": false,
+              "feedback": "“praise” does not answer this question. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            },
+            {
+              "text": "guide, leader",
+              "correct": true,
+              "feedback": "Correct. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            },
+            {
+              "text": "assembly",
+              "correct": false,
+              "feedback": "“assembly” does not answer this question. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            },
+            {
+              "text": "pay, wages",
+              "correct": false,
+              "feedback": "“pay, wages” does not answer this question. ἡγεμών, ἡγεμόνος, ὁ means guide, leader."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which form reveals γέρων’s stem?",
+          "choices": [
+            {
+              "text": "γέρουσι alone",
+              "correct": false,
+              "feedback": "“γέρουσι alone” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γένος",
+              "correct": false,
+              "feedback": "“γένος” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γέροντος",
+              "correct": true,
+              "feedback": "Correct. Removing -ος from γέροντος gives γεροντ-."
+            },
+            {
+              "text": "γέρων alone",
+              "correct": false,
+              "feedback": "“γέρων alone” does not answer this question. Removing -ος from γέροντος gives γεροντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nt-nouns",
+          "prompt": "Which is dative plural of γέρων?",
+          "choices": [
+            {
+              "text": "γέροντες",
+              "correct": false,
+              "feedback": "“γέροντες” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέροντα",
+              "correct": false,
+              "feedback": "“γέροντα” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέροντος",
+              "correct": false,
+              "feedback": "“γέροντος” does not answer this question. ντ disappears before σ and ο lengthens to ου."
+            },
+            {
+              "text": "γέρουσι",
+              "correct": true,
+              "feedback": "Correct. ντ disappears before σ and ο lengthens to ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is genitive singular of πόλις?",
+          "choices": [
+            {
+              "text": "πόλεως",
+              "correct": true,
+              "feedback": "Correct. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλει",
+              "correct": false,
+              "feedback": "“πόλει” does not answer this question. The genitive singular is πόλεως."
+            },
+            {
+              "text": "πόλεις",
+              "correct": false,
+              "feedback": "“πόλεις” does not answer this question. The genitive singular is πόλεως."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "vowel-nouns",
+          "prompt": "Which is dative singular of πόλις?",
+          "choices": [
+            {
+              "text": "πόλιν",
+              "correct": false,
+              "feedback": "“πόλιν” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλει",
+              "correct": true,
+              "feedback": "Correct. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλις",
+              "correct": false,
+              "feedback": "“πόλις” does not answer this question. The dative singular is πόλει."
+            },
+            {
+              "text": "πόλεων",
+              "correct": false,
+              "feedback": "“πόλεων” does not answer this question. The dative singular is πόλει."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is accusative singular of βασιλεύς?",
+          "choices": [
+            {
+              "text": "βασιλέως",
+              "correct": false,
+              "feedback": "“βασιλέως” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλεύς",
+              "correct": false,
+              "feedback": "“βασιλεύς” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλέα",
+              "correct": true,
+              "feedback": "Correct. πρὸς τὸν βασιλέα uses accusative singular."
+            },
+            {
+              "text": "βασιλεῖ",
+              "correct": false,
+              "feedback": "“βασιλεῖ” does not answer this question. πρὸς τὸν βασιλέα uses accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "diphthong-nouns",
+          "prompt": "Which is dative plural of βασιλεύς?",
+          "choices": [
+            {
+              "text": "βασιλεῖς",
+              "correct": false,
+              "feedback": "“βασιλεῖς” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλέας",
+              "correct": false,
+              "feedback": "“βασιλέας” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλέων",
+              "correct": false,
+              "feedback": "“βασιλέων” does not answer this question. Dative plural retains ευ before σ."
+            },
+            {
+              "text": "βασιλεῦσι",
+              "correct": true,
+              "feedback": "Correct. Dative plural retains ευ before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What does πολλοὶ τῶν στρατιωτῶν express?",
+          "choices": [
+            {
+              "text": "a subset of the soldiers",
+              "correct": true,
+              "feedback": "Correct. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "the soldiers’ money",
+              "correct": false,
+              "feedback": "“the soldiers’ money” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "a destination",
+              "correct": false,
+              "feedback": "“a destination” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            },
+            {
+              "text": "a three-day duration",
+              "correct": false,
+              "feedback": "“a three-day duration” does not answer this question. τῶν στρατιωτῶν names the whole group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "genitive-uses",
+          "prompt": "What relation appears in οἱ τοῦ Κύρου στρατιῶται?",
+          "choices": [
+            {
+              "text": "Cyrus as a direct object",
+              "correct": false,
+              "feedback": "“Cyrus as a direct object” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "soldiers associated with Cyrus",
+              "correct": true,
+              "feedback": "Correct. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "Cyrus physically owning their bodies",
+              "correct": false,
+              "feedback": "“Cyrus physically owning their bodies” does not answer this question. The genitive marks their relationship with the commander."
+            },
+            {
+              "text": "soldiers within three days",
+              "correct": false,
+              "feedback": "“soldiers within three days” does not answer this question. The genitive marks their relationship with the commander."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does τὰ ἐπιτήδεια name?",
+          "choices": [
+            {
+              "text": "a city’s genitive",
+              "correct": false,
+              "feedback": "“a city’s genitive” does not answer this question. The article substantivizes an adjective."
+            },
+            {
+              "text": "an unnamed singular man",
+              "correct": false,
+              "feedback": "“an unnamed singular man” does not answer this question. The article substantivizes an adjective."
+            },
+            {
+              "text": "the supplies",
+              "correct": true,
+              "feedback": "Correct. The article substantivizes an adjective."
+            },
+            {
+              "text": "a finite future verb",
+              "correct": false,
+              "feedback": "“a finite future verb” does not answer this question. The article substantivizes an adjective."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "article-uses",
+          "prompt": "What does οἱ παρόντες mean?",
+          "choices": [
+            {
+              "text": "they will be present",
+              "correct": false,
+              "feedback": "“they will be present” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "to be present",
+              "correct": false,
+              "feedback": "“to be present” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "the present city",
+              "correct": false,
+              "feedback": "“the present city” does not answer this question. The article substantivizes a participle."
+            },
+            {
+              "text": "those present",
+              "correct": true,
+              "feedback": "Correct. The article substantivizes a participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-025",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What makes the soldiers’ concern legitimate?",
+          "choices": [
+            {
+              "text": "a suspected change to the danger and agreed service",
+              "correct": true,
+              "feedback": "Correct. Their consent concerned a different service."
+            },
+            {
+              "text": "a rule that all orders are invalid",
+              "correct": false,
+              "feedback": "“a rule that all orders are invalid” does not answer this question. Their consent concerned a different service."
+            },
+            {
+              "text": "certainty that no pay is owed",
+              "correct": false,
+              "feedback": "“certainty that no pay is owed” does not answer this question. Their consent concerned a different service."
+            },
+            {
+              "text": "knowledge that the King has surrendered",
+              "correct": false,
+              "feedback": "“knowledge that the King has surrendered” does not answer this question. Their consent concerned a different service."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-026",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How is the soldiers’ assembly best understood here?",
+          "choices": [
+            {
+              "text": "a temple priesthood",
+              "correct": false,
+              "feedback": "“a temple priesthood” does not answer this question. ἐκκλησία names a gathering in this context."
+            },
+            {
+              "text": "a military gathering for deliberation",
+              "correct": true,
+              "feedback": "Correct. ἐκκλησία names a gathering in this context."
+            },
+            {
+              "text": "the Athenian Assembly meeting in Athens",
+              "correct": false,
+              "feedback": "“the Athenian Assembly meeting in Athens” does not answer this question. ἐκκλησία names a gathering in this context."
+            },
+            {
+              "text": "a Persian royal court",
+              "correct": false,
+              "feedback": "“a Persian royal court” does not answer this question. ἐκκλησία names a gathering in this context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-027",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What complicates Clearchus’s public solidarity?",
+          "choices": [
+            {
+              "text": "his refusal to speak at all",
+              "correct": false,
+              "feedback": "“his refusal to speak at all” does not answer this question. The source exposes a gap between public posture and private action."
+            },
+            {
+              "text": "his absence from Tarsus",
+              "correct": false,
+              "feedback": "“his absence from Tarsus” does not answer this question. The source exposes a gap between public posture and private action."
+            },
+            {
+              "text": "private reassurance to Cyrus",
+              "correct": true,
+              "feedback": "Correct. The source exposes a gap between public posture and private action."
+            },
+            {
+              "text": "his public departure for Delphi",
+              "correct": false,
+              "feedback": "“his public departure for Delphi” does not answer this question. The source exposes a gap between public posture and private action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-028",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why might a homeward route be dangerous?",
+          "choices": [
+            {
+              "text": "all local people are described as naturally hostile",
+              "correct": false,
+              "feedback": "“all local people are described as naturally hostile” does not answer this question. Prior damage and dependence create practical obstacles."
+            },
+            {
+              "text": "the source reports no mountains or supplies",
+              "correct": false,
+              "feedback": "“the source reports no mountains or supplies” does not answer this question. Prior damage and dependence create practical obstacles."
+            },
+            {
+              "text": "the Greeks already possess every ship",
+              "correct": false,
+              "feedback": "“the Greeks already possess every ship” does not answer this question. Prior damage and dependence create practical obstacles."
+            },
+            {
+              "text": "the army has harmed local people and needs safe passage",
+              "correct": true,
+              "feedback": "Correct. Prior damage and dependence create practical obstacles."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-029",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the promised monthly rate?",
+          "choices": [
+            {
+              "text": "one and a half darics",
+              "correct": true,
+              "feedback": "Correct. Cyrus promises half-again the former one-daric rate."
+            },
+            {
+              "text": "five minas at once",
+              "correct": false,
+              "feedback": "“five minas at once” does not answer this question. Cyrus promises half-again the former one-daric rate."
+            },
+            {
+              "text": "four gold crowns",
+              "correct": false,
+              "feedback": "“four gold crowns” does not answer this question. Cyrus promises half-again the former one-daric rate."
+            },
+            {
+              "text": "one daric with no increase",
+              "correct": false,
+              "feedback": "“one daric with no increase” does not answer this question. Cyrus promises half-again the former one-daric rate."
+            }
+          ]
+        },
+        {
+          "id": "lesson-18-final-quiz-030",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which statement respects the source boundary?",
+          "choices": [
+            {
+              "text": "the army reaches Babylon here",
+              "correct": false,
+              "feedback": "“the army reaches Babylon here” does not answer this question. Anabasis 1.3.21 distinguishes suspicion from disclosure."
+            },
+            {
+              "text": "the public target at Tarsus is Abrocomas, while suspicion persists",
+              "correct": true,
+              "feedback": "Correct. Anabasis 1.3.21 distinguishes suspicion from disclosure."
+            },
+            {
+              "text": "Cyrus openly announces the King here",
+              "correct": false,
+              "feedback": "“Cyrus openly announces the King here” does not answer this question. Anabasis 1.3.21 distinguishes suspicion from disclosure."
+            },
+            {
+              "text": "the soldiers have no grounds for concern",
+              "correct": false,
+              "feedback": "“the soldiers have no grounds for concern” does not answer this question. Anabasis 1.3.21 distinguishes suspicion from disclosure."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-17",
+    "title": "Must the Brave Always Stand Firm?",
+    "fallbackUrl": "lesson.html?lesson=17&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-19",
+    "title": "The King's War and Cyrus's Promises",
+    "fallbackUrl": "lesson.html?lesson=19&page=1"
+  },
+  "contentRevision": "lesson-18-module-2-v1"
+}

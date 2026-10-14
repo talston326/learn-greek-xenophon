@@ -1,0 +1,4605 @@
+{
+  "id": "lesson-13",
+  "number": 13,
+  "title": "Among the Soldiers at Sardis",
+  "greekTitle": "Ἐν Σάρδεσιν",
+  "scope": "Substantive adjectives; declension systems; velar and dental stems; reflexive pronouns",
+  "theme": "Friendship introduces Xenophon to an army; leadership entails care for other people",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-13-banner.png",
+    "alt": "AI-generated educational reconstruction for Lesson 13: Among the Soldiers at Sardis; illustrative scene rather than an eyewitness image",
+    "caption": "Among the Soldiers at Sardis. AI-generated educational reconstruction of the adapted lesson setting; the image is illustrative and does not establish historical appearance or exact events."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-13-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-13-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-13-page-3",
+      "title": "Sardis, Command, and Care",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "People and responsibility",
+      "items": [
+        {
+          "greek": "ὁ στρατηγός",
+          "english": "general",
+          "dictionaryForm": "στρατηγός, στρατηγοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "στρατηγός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ λοχαγός",
+          "english": "captain",
+          "dictionaryForm": "λοχαγός, λοχαγοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "λοχαγός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ στρατιώτης",
+          "english": "soldier",
+          "dictionaryForm": "στρατιώτης, στρατιώτου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "στρατιώτης",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ φύλαξ",
+          "english": "guard",
+          "dictionaryForm": "φύλαξ, φύλακος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "φύλαξ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀνδρεῖος",
+          "english": "brave",
+          "dictionaryForm": "ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον",
+          "status": "required vocabulary",
+          "lemma": "ἀνδρεῖος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οἱ ψιλοί",
+          "english": "light-armed troops",
+          "dictionaryForm": "ψιλός, ψιλή, ψιλόν",
+          "status": "reading vocabulary",
+          "lemma": "οἱ ψιλοί",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ποιμήν",
+          "english": "shepherd",
+          "dictionaryForm": "ποιμήν, ποιμένος, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "ποιμήν",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Bodies, camp, and equipment",
+      "items": [
+        {
+          "greek": "τὸ σῶμα",
+          "english": "body",
+          "dictionaryForm": "σῶμα, σώματος, τό",
+          "status": "required vocabulary",
+          "lemma": "σῶμα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ πρᾶγμα",
+          "english": "affair; thing",
+          "dictionaryForm": "πρᾶγμα, πράγματος, τό",
+          "status": "required vocabulary",
+          "lemma": "πρᾶγμα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ στρατόπεδον",
+          "english": "camp",
+          "dictionaryForm": "στρατόπεδον, στρατοπέδου, τό",
+          "status": "required vocabulary",
+          "lemma": "στρατόπεδον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὰ ὅπλα",
+          "english": "weapons",
+          "dictionaryForm": "ὅπλον, ὅπλου, τό (usually plural)",
+          "status": "required vocabulary",
+          "lemma": "τὰ ὅπλα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ τροφή",
+          "english": "food",
+          "dictionaryForm": "τροφή, τροφῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "τροφή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ στράτευμα",
+          "english": "contingent",
+          "dictionaryForm": "στράτευμα, στρατεύματος, τό",
+          "status": "required vocabulary",
+          "lemma": "στράτευμα",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Care and identity",
+      "items": [
+        {
+          "greek": "φυλάττω",
+          "english": "protect",
+          "dictionaryForm": "φυλάττω",
+          "status": "required vocabulary",
+          "lemma": "φυλάττω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σῴζω",
+          "english": "save",
+          "dictionaryForm": "σῴζω",
+          "status": "required vocabulary",
+          "lemma": "σῴζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "παρασκευάζω",
+          "english": "prepare",
+          "dictionaryForm": "παρασκευάζω",
+          "status": "required vocabulary",
+          "lemma": "παρασκευάζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐπιμελέομαι",
+          "english": "care for",
+          "dictionaryForm": "ἐπιμελέομαι + genitive",
+          "status": "required vocabulary",
+          "lemma": "ἐπιμελέομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἑαυτοῦ",
+          "english": "of himself",
+          "dictionaryForm": "ἑαυτοῦ, ἑαυτῆς (reflexive)",
+          "status": "required vocabulary",
+          "lemma": "ἑαυτοῦ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐμαυτοῦ",
+          "english": "of myself",
+          "dictionaryForm": "ἐμαυτοῦ, ἐμαυτῆς (reflexive)",
+          "status": "required vocabulary",
+          "lemma": "ἐμαυτοῦ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ φιλία",
+          "english": "friendship",
+          "dictionaryForm": "φιλία, φιλίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "φιλία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ σκοπός",
+          "english": "objective",
+          "dictionaryForm": "σκοπός, σκοποῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "σκοπός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἱ Σάρδεις",
+          "english": "Sardis",
+          "dictionaryForm": "Σάρδεις, Σάρδεων, αἱ",
+          "status": "reading vocabulary",
+          "lemma": "αἱ Σάρδεις",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Φίλος ἐν τῇ στρατιᾷ",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Lesson 12 ended with Socrates’s response to Xenophon’s decision. Here the expedition begins: Xenophon catches up with Proxenus and Cyrus at Sardis as the army prepares to march.",
+      "Source: Anabasis 1.2.1–5 supplies the gathering contingents; 3.1.4 and 3.1.8–10 supply Xenophon’s initial status, arrival, introduction, and limited knowledge of the objective. The greeting, camp observations, and private question below are educational reconstruction. The final companion paragraph adapts Memorabilia 3.2.1–4 as a separate Socratic teaching, without asserting that Xenophon remembered this exchange at Sardis.",
+      "This is adapted Attic Greek in the historical present, not an extract of Xenophon’s wording. Blue glosses support names and constructions beyond the lesson. No future, aorist, or participle is a production target here."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Ξενοφῶν εἰς Σάρδεις ἀφικνεῖται. ἐκεῖ ὁ Κῦρος καὶ ὁ Πρόξενος τὴν στρατιὰν παρασκευάζονται. ὁ Ξενοφῶν πρὸς τὸν φίλον ἔρχεται· νῦν ἡ μακρὰ ὁδὸς ἄρχεται.",
+        "gloss": [
+          {
+            "greek": "εἰς Σάρδεις",
+            "english": "at Sardis; accusative plural place name"
+          },
+          {
+            "greek": "ἀφικνεῖται",
+            "english": "arrives; contracted deponent"
+          },
+          {
+            "greek": "παρασκευάζονται",
+            "english": "prepare; middle plural"
+          },
+          {
+            "greek": "ἄρχεται",
+            "english": "begins; middle form"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Πρόξενος τὸν Ξενοφῶντα δέχεται καὶ λέγει· «ὦ φίλε, χαίρειν. ὅδε ὁ στρατηγὸς Κῦρός ἐστιν.» ὁ Κῦρος τὸν Ξενοφῶντα δέχεται καὶ πρὸς τὴν στρατιὰν καλεῖ.",
+        "gloss": [
+          {
+            "greek": "τὸν Ξενοφῶντα",
+            "english": "Xenophon; accusative"
+          },
+          {
+            "greek": "δέχεται",
+            "english": "welcomes; deponent"
+          },
+          {
+            "greek": "ὦ φίλε",
+            "english": "my friend; vocative"
+          },
+          {
+            "greek": "χαίρειν",
+            "english": "greetings; conventional infinitive"
+          },
+          {
+            "greek": "ὅδε",
+            "english": "this man; demonstrative"
+          },
+          {
+            "greek": "καλεῖ",
+            "english": "invites; contracted active"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ξενοφῶν οὔτε στρατηγός ἐστιν οὔτε λοχαγὸς οὔτε στρατιώτης. διὰ τὴν φιλίαν τοῦ Προξένου πάρεστιν. φίλος στρατηγοῦ ἐστιν, ἀλλὰ τῶν στρατιωτῶν οὐκ ἄρχει.",
+        "gloss": [
+          {
+            "greek": "οὔτε",
+            "english": "neither / nor"
+          },
+          {
+            "greek": "λοχαγὸς",
+            "english": "captain; commander of a company"
+          },
+          {
+            "greek": "διὰ τὴν φιλίαν",
+            "english": "because of the friendship"
+          },
+          {
+            "greek": "πάρεστιν",
+            "english": "is present"
+          },
+          {
+            "greek": "τῶν στρατιωτῶν οὐκ ἄρχει",
+            "english": "does not command the soldiers; ἄρχω takes genitive"
+          }
+        ]
+      },
+      {
+        "greek": "Πολλοὶ Ἕλληνες ἐν Σάρδεσιν εἰσίν. ὁ μὲν Ξενίας ὁπλίτας ἄγει, ὁ δὲ Πρόξενος ὁπλίτας καὶ ψιλοὺς ἔχει. ἄλλοι στρατηγοὶ τὰ ἑαυτῶν στρατεύματα ἄγουσιν· οὐ πάντες ἐκ τῆς αὐτῆς χώρας ἔρχονται.",
+        "gloss": [
+          {
+            "greek": "Ἕλληνες",
+            "english": "Greeks"
+          },
+          {
+            "greek": "ἐν Σάρδεσιν",
+            "english": "at Sardis; dative plural"
+          },
+          {
+            "greek": "Ξενίας",
+            "english": "Xenias, a commander"
+          },
+          {
+            "greek": "ὁπλίτας",
+            "english": "hoplites; heavy infantry"
+          },
+          {
+            "greek": "ψιλοὺς",
+            "english": "light-armed men; substantive adjective"
+          },
+          {
+            "greek": "τὰ ἑαυτῶν στρατεύματα",
+            "english": "their own contingents"
+          },
+          {
+            "greek": "οὐ πάντες",
+            "english": "not all; πᾶς is formally taught in Lesson 16"
+          },
+          {
+            "greek": "ἐκ τῆς αὐτῆς χώρας",
+            "english": "from the same country"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ξενοφῶν τοὺς φύλακας καὶ τὰ ὅπλα βλέπει. οἱ φύλακες τὰ σώματα γυμνάζουσι καὶ τὰ τοῦ στρατοπέδου πράγματα φυλάττουσιν. οἱ ἀνδρεῖοι οὐ μόνον ἑαυτοὺς σῴζουσιν, ἀλλὰ καὶ τοὺς φίλους.",
+        "gloss": [
+          {
+            "greek": "τοὺς φύλακας",
+            "english": "the guards; velar-stem accusative plural"
+          },
+          {
+            "greek": "τὰ σώματα",
+            "english": "the bodies; dental-stem neuter plural"
+          },
+          {
+            "greek": "τὰ τοῦ στρατοπέδου πράγματα",
+            "english": "the camp’s possessions"
+          },
+          {
+            "greek": "φυλάττουσιν",
+            "english": "protect"
+          },
+          {
+            "greek": "οἱ ἀνδρεῖοι",
+            "english": "the brave; substantive adjective"
+          },
+          {
+            "greek": "ἑαυτοὺς",
+            "english": "themselves; reflexive accusative plural"
+          },
+          {
+            "greek": "σῴζουσιν",
+            "english": "save; protect"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κῦρος περὶ τῶν Πισιδῶν λέγει. ὁ Ξενοφῶν τὸν λόγον ἀκούει, ἀλλὰ τὸν ἀληθῆ σκοπὸν τῆς πορείας οὐ γιγνώσκει. ἡ φιλία τοῦ Προξένου οὐ πάντα δηλοῖ.",
+        "gloss": [
+          {
+            "greek": "περὶ τῶν Πισιδῶν",
+            "english": "about the Pisidians; people of inland Anatolia"
+          },
+          {
+            "greek": "τὸν ἀληθῆ σκοπὸν",
+            "english": "the true objective; untaught adjective form"
+          },
+          {
+            "greek": "τῆς πορείας",
+            "english": "of the march"
+          },
+          {
+            "greek": "γιγνώσκει",
+            "english": "knows"
+          },
+          {
+            "greek": "οὐ πάντα",
+            "english": "not everything; neuter plural of πᾶς"
+          },
+          {
+            "greek": "δηλοῖ",
+            "english": "reveals; contracted verb"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν τῷ στρατοπέδῳ ὁ Ξενοφῶν σκέπτεται· «ἐγὼ ἐμαυτὸν παρασκευάζω. ὁ δὲ στρατηγὸς οὐ μόνον ἑαυτοῦ ἐπιμελεῖται. τοὺς ἄλλους φυλάττει. ἆρα ὁ ἀγαθὸς στρατηγὸς καὶ ἀγαθὸς φύλαξ ἐστίν;»",
+        "gloss": [
+          {
+            "greek": "σκέπτεται",
+            "english": "considers; deponent"
+          },
+          {
+            "greek": "ἐμαυτὸν",
+            "english": "myself"
+          },
+          {
+            "greek": "ἑαυτοῦ ἐπιμελεῖται",
+            "english": "looks after himself; ἐπιμελέομαι takes genitive"
+          },
+          {
+            "greek": "ἆρα",
+            "english": "introduces a direct question"
+          },
+          {
+            "greek": "ὁ ἀγαθὸς στρατηγὸς",
+            "english": "the good general"
+          },
+          {
+            "greek": "φύλαξ",
+            "english": "guardian"
+          }
+        ]
+      },
+      {
+        "greek": "Ἕτερος λόγος τοῦ Σωκράτους περὶ ἀρχῆς ἐστιν. ὁ Σωκράτης τὸν στρατηγὸν ποιμένα τῶν στρατιωτῶν καλεῖ. ὁ ποιμὴν τὰ πρόβατα σῴζει· ὁ δὲ στρατηγὸς τοὺς στρατιώτας φυλάττει καὶ τροφὴν παρασκευάζει. οἱ ἀγαθοὶ τῶν ἄλλων ἐπιμελοῦνται.",
+        "gloss": [
+          {
+            "greek": "Ἕτερος λόγος",
+            "english": "a separate account"
+          },
+          {
+            "greek": "περὶ ἀρχῆς",
+            "english": "about leadership"
+          },
+          {
+            "greek": "ποιμένα",
+            "english": "shepherd; accusative, taught in Lesson 14"
+          },
+          {
+            "greek": "ὁ ποιμὴν",
+            "english": "the shepherd; nasal stem, glossed"
+          },
+          {
+            "greek": "τὰ πρόβατα",
+            "english": "the sheep"
+          },
+          {
+            "greek": "τροφὴν παρασκευάζει",
+            "english": "provides food"
+          },
+          {
+            "greek": "οἱ ἀγαθοὶ",
+            "english": "good people; substantive adjective"
+          },
+          {
+            "greek": "τῶν ἄλλων ἐπιμελοῦνται",
+            "english": "care for others; contracted deponent plus genitive"
+          }
+        ]
+      }
+    ],
+    "translation": "Xenophon arrives at Sardis. There Cyrus and Proxenus are preparing the army. Xenophon comes to his friend; now the long journey begins.\n\nProxenus welcomes Xenophon and says: “Greetings, my friend. This commander is Cyrus.” Cyrus welcomes Xenophon and invites him to join the army.\n\nXenophon is neither a general nor a captain nor an ordinary soldier. He is present because of his friendship with Proxenus. He is a friend of a general, but he does not command the soldiers.\n\nMany Greeks are at Sardis. Xenias leads hoplites, while Proxenus has hoplites and light-armed men. Other generals lead their own contingents; they do not all come from the same country.\n\nXenophon sees the guards and the weapons. The guards train their bodies and protect the camp’s possessions. The brave protect not only themselves but also their friends.\n\nCyrus speaks about the Pisidians. Xenophon hears the account, but does not know the journey’s true objective. Friendship with Proxenus does not reveal everything.\n\nIn the camp Xenophon reflects: “I prepare myself. But the general does not look after only himself. He protects the others. Is a good general also a good guardian?”\n\nA separate account of Socrates concerns leadership. Socrates calls the general a shepherd of the soldiers. A shepherd keeps the sheep safe; a general protects the soldiers and provides food. Good people care for others.",
+    "sourceCitation": "Xenophon, Anabasis 1.2.1–5. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2\nXenophon, Anabasis 3.1.4, 8–10. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3\nXenophon, Memorabilia 3.2.1–4. https://monadnock.net/xenophon/mem3-2.html",
+    "notesMarkdown": "Source and adaptation boundaries are stated in the introduction. All Greek is course-adapted present-tense narrative, not a verbatim ancient extract. Blue glosses support forms beyond the taught grammar; those untaught constructions are not assessed as morphology or production targets."
+  },
+  "wordStudy": {
+    "label": "Word Study — Protection and Responsibility",
+    "blocks": [
+      {
+        "title": "Words in the Reading",
+        "practiceTopic": "word-study",
+        "body": [
+          "φύλαξ is a guard or guardian, and φυλάττω means protect or guard. Read the shared φυλακ-/φυλαττ- family as a meaning connection, not as a rule for mechanically making one word from the other. The genitive φύλακος shows the noun’s velar stem.",
+          "στρατηγός names a general; λοχαγός names a company commander; στρατιώτης names a soldier. Xenophon explicitly places himself outside all three roles at the beginning. Being a commander’s friend does not supply command authority.",
+          "ἑαυτοῦ points back to the subject. Contrast care for oneself with τῶν ἄλλων, care for other people. Our narrative question joins the word families of protection and responsibility."
+        ],
+        "display": [
+          {
+            "greek": "φύλαξ / φύλακος",
+            "english": "guard / of a guard"
+          },
+          {
+            "greek": "φυλάττω",
+            "english": "I protect"
+          },
+          {
+            "greek": "στρατηγός",
+            "english": "general"
+          },
+          {
+            "greek": "λοχαγός",
+            "english": "captain"
+          },
+          {
+            "greek": "ἑαυτοῦ",
+            "english": "of himself"
+          },
+          {
+            "greek": "τῶν ἄλλων",
+            "english": "of others"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Substantive adjectives; declension systems; velar and dental stems; reflexive pronouns. Work through each section, use its checks and topic practice, then complete the grammar exercises. Reading-only forms remain supported by glosses.",
+    "objectives": [
+      "Interpret adjectives used as nouns for people or things.",
+      "Use dictionary nominative, genitive, and article to establish stem, declension, and gender.",
+      "Decline φύλαξ and σῶμα and explain velar/dental changes.",
+      "Identify the subject referred to by reflexive pronouns and choose agreement and case."
+    ],
+    "sections": [
+      {
+        "id": "substantive-adjectives",
+        "title": "1. Adjectives That Name People",
+        "practiceTopic": "substantive-adjectives",
+        "body": [
+          "An adjective can stand with the article without an expressed noun. οἱ ἀγαθοί means “the good people”; οἱ ἀνδρεῖοι means “the brave.” The article and adjective still carry gender, number, and case.",
+          "Masculine plural often refers to people; a neuter form can name things or qualities, as τὸ ἀγαθόν, “the good thing” or “what is good.” Context supplies the omitted noun. Do not insert “soldiers” unless the context warrants it.",
+          "In οἱ ἀνδρεῖοι τοὺς φίλους σῴζουσιν, the nominative article shows that the brave are the subject; τοὺς φίλους is the object. The grammar identifies the group, while the sentence defines its responsibility."
+        ],
+        "table": {
+          "title": "Substantive ἀγαθός",
+          "headers": [
+            "Case",
+            "People",
+            "Things"
+          ],
+          "rows": [
+            [
+              "nominative",
+              "οἱ ἀγαθοί",
+              "τὰ ἀγαθά"
+            ],
+            [
+              "genitive",
+              "τῶν ἀγαθῶν",
+              "τῶν ἀγαθῶν"
+            ],
+            [
+              "dative",
+              "τοῖς ἀγαθοῖς",
+              "τοῖς ἀγαθοῖς"
+            ],
+            [
+              "accusative",
+              "τοὺς ἀγαθούς",
+              "τὰ ἀγαθά"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ ἀνδρεῖοι τοὺς φίλους σῴζουσιν.",
+            "english": "The brave protect their friends."
+          },
+          {
+            "greek": "τοῖς ἀγαθοῖς τροφὴν φέρει.",
+            "english": "He brings food to the good people."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who acts in οἱ ἀνδρεῖοι σῴζουσιν?",
+            "answer": "The brave people; the article and adjective are nominative plural."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "declension-systems",
+        "title": "2. Reading a Dictionary Entry",
+        "practiceTopic": "declension-systems",
+        "body": [
+          "A noun entry gives the nominative, genitive, and article: φύλαξ, φύλακος, ὁ. The article supplies gender. The genitive reveals the stem and declension pattern; remove -ος from φύλακος to find φυλακ-.",
+          "First-declension nouns commonly have genitives in -ας or -ης; second-declension nouns normally have -ου. Third-declension consonant stems normally have -ος. Gender and declension are different information: a third-declension noun may be masculine, feminine, or neuter.",
+          "Keep familiar first/second endings available while learning new stems. Nominative names the subject, genitive commonly possession, dative a recipient or related person, and accusative the direct object. A stem is a building base, not a complete word to translate on its own."
+        ],
+        "table": {
+          "title": "Three familiar systems",
+          "headers": [
+            "Case",
+            "First: τροφή",
+            "Second: στρατηγός"
+          ],
+          "rows": [
+            [
+              "nom. sg.",
+              "τροφή",
+              "στρατηγός"
+            ],
+            [
+              "gen. sg.",
+              "τροφῆς",
+              "στρατηγοῦ"
+            ],
+            [
+              "dat. sg.",
+              "τροφῇ",
+              "στρατηγῷ"
+            ],
+            [
+              "acc. sg.",
+              "τροφήν",
+              "στρατηγόν"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἡ τροφὴ τοῦ στρατηγοῦ",
+            "english": "the general’s food"
+          },
+          {
+            "greek": "τὸ σῶμα τοῦ φύλακος",
+            "english": "the guard’s body"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What stem appears in σώματος?",
+            "answer": "σωματ-, after removing genitive -ος."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "velar-dental-stems",
+        "title": "3. Velar and Dental Stems",
+        "practiceTopic": "velar-dental-stems",
+        "body": [
+          "Velars κ, γ, χ combine with nominative -ς or dative plural -σι to produce ξ: φυλακ- + ς → φύλαξ; φυλακ- + σι → φύλαξι. The oblique cases show κ clearly: φύλακος, φύλακα, φύλακες.",
+          "Dental stems end in τ, δ, or θ. A dental disappears before σ. Neuter σῶμα has stem σωματ-, visible in σώματος and σώματα. Its nominative/accusative singular has no -ς and drops final τ; dative plural σωματ- + σι becomes σώμασι.",
+          "All neuters have identical nominative and accusative forms. The plural ends in -α. Third-declension masculine/feminine accusative singular often ends in -α, while the plural ends in -ας. Movable ν may follow dative plural -σι."
+        ],
+        "table": {
+          "title": "φύλαξ and σῶμα",
+          "headers": [
+            "Case",
+            "φύλαξ singular / plural",
+            "σῶμα singular / plural"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "φύλαξ / φύλακες",
+              "σῶμα / σώματα"
+            ],
+            [
+              "gen.",
+              "φύλακος / φυλάκων",
+              "σώματος / σωμάτων"
+            ],
+            [
+              "dat.",
+              "φύλακι / φύλαξι(ν)",
+              "σώματι / σώμασι(ν)"
+            ],
+            [
+              "acc.",
+              "φύλακα / φύλακας",
+              "σῶμα / σώματα"
+            ],
+            [
+              "voc.",
+              "φύλαξ / φύλακες",
+              "σῶμα / σώματα"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "βλέπει τοὺς φύλακας.",
+            "english": "He sees the guards."
+          },
+          {
+            "greek": "γυμνάζει τὸ σῶμα.",
+            "english": "He trains his body."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Why is φύλαξι written with ξ?",
+            "answer": "Stem κ combines with σ of -σι to produce ξ."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "reflexive-pronouns",
+        "title": "4. Referring Back to the Subject",
+        "practiceTopic": "reflexive-pronouns",
+        "body": [
+          "A reflexive refers back to the subject of its clause: ὁ στρατηγὸς ἑαυτὸν σῴζει, “the general saves himself.” Compare αὐτὸν σῴζει, “he saves him,” where him ordinarily points to another person. Reflexives have no nominative because they are not the clause’s subject.",
+          "Singular first person uses ἐμαυτοῦ, second person σεαυτοῦ, and third person ἑαυτοῦ. Gender follows the person referred to, while case comes from the pronoun’s role. A woman as subject requires ἑαυτήν in the accusative, for example.",
+          "The plural third-person forms are ἑαυτῶν, ἑαυτοῖς/ἑαυταῖς, ἑαυτούς/ἑαυτάς. They can serve all three persons in a plural reflexive context. Care verbs such as ἐπιμελέομαι take the genitive: ἑαυτοῦ ἐπιμελεῖται, “he cares for himself.”"
+        ],
+        "table": {
+          "title": "Singular reflexives",
+          "headers": [
+            "Case",
+            "Masculine",
+            "Feminine"
+          ],
+          "rows": [
+            [
+              "gen. first",
+              "ἐμαυτοῦ",
+              "ἐμαυτῆς"
+            ],
+            [
+              "dat. first",
+              "ἐμαυτῷ",
+              "ἐμαυτῇ"
+            ],
+            [
+              "acc. first",
+              "ἐμαυτόν",
+              "ἐμαυτήν"
+            ],
+            [
+              "gen. second",
+              "σεαυτοῦ",
+              "σεαυτῆς"
+            ],
+            [
+              "dat. second",
+              "σεαυτῷ",
+              "σεαυτῇ"
+            ],
+            [
+              "acc. second",
+              "σεαυτόν",
+              "σεαυτήν"
+            ],
+            [
+              "gen. third",
+              "ἑαυτοῦ",
+              "ἑαυτῆς"
+            ],
+            [
+              "dat. third",
+              "ἑαυτῷ",
+              "ἑαυτῇ"
+            ],
+            [
+              "acc. third",
+              "ἑαυτόν",
+              "ἑαυτήν"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἐγὼ ἐμαυτὸν παρασκευάζω.",
+            "english": "I prepare myself."
+          },
+          {
+            "greek": "οἱ φύλακες ἑαυτοὺς σῴζουσιν.",
+            "english": "The guards save themselves."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who is saved in ὁ στρατηγὸς ἑαυτὸν σῴζει?",
+            "answer": "The general himself, the same person as the subject."
+          }
+        ],
+        "tables": [
+          {
+            "title": "Third-person reflexive: plural and neuter",
+            "headers": [
+              "Case",
+              "Masculine plural",
+              "Feminine plural",
+              "Neuter singular / plural"
+            ],
+            "rows": [
+              [
+                "gen.",
+                "ἑαυτῶν",
+                "ἑαυτῶν",
+                "ἑαυτοῦ / ἑαυτῶν"
+              ],
+              [
+                "dat.",
+                "ἑαυτοῖς",
+                "ἑαυταῖς",
+                "ἑαυτῷ / ἑαυτοῖς"
+              ],
+              [
+                "acc.",
+                "ἑαυτούς",
+                "ἑαυτάς",
+                "ἑαυτό / ἑαυτά"
+              ]
+            ],
+            "greekColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "An article plus an adjective can name a group: οἱ ἀνδρεῖοι, the brave.",
+        "A genitive reveals the stem; the dictionary article gives gender.",
+        "φυλακ- + σ → ξ; σωματ- loses τ before σ. Neuter nominative and accusative match.",
+        "A reflexive points back to the subject and has the case its construction requires."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Sardis, Command, and Care",
+    "body": [],
+    "sections": [
+      {
+        "title": "An army gathered by personal networks",
+        "body": [
+          "Anabasis 1.2.1–5 presents Cyrus collecting forces from several sources. The Greeks at Sardis belong to distinct contingents with their own commanders; Proxenus brings heavy and light infantry. The army’s organization is more complex than a single city sending its citizen force. Cyrus’s announced target is the Pisidians, while Tissaphernes suspects preparations on a larger scale.",
+          "Personal relationships make a practical difference. Anabasis 3.1.4 and 8–10 connects Xenophon’s arrival to Proxenus’s invitation and Cyrus’s welcome. Friendship provides access but does not automatically make the visitor a commander. Xenophon’s account of his early status matters when we later follow his assumption of responsibility."
+        ]
+      },
+      {
+        "title": "What a title does and does not establish",
+        "body": [
+          "The reading distinguishes στρατηγός, general, from λοχαγός, commander of a company, and στρατιώτης, soldier. These are roles in an army’s hierarchy, not degrees of personal worth. Xenophon says he began as none of the three. The reconstructed camp scene lets readers notice guards, equipment, food, and preparation without inventing a formal military appointment for him.",
+          "The soldiers do not all possess the same information as Cyrus. Xenophon later says he himself was mistaken about the expedition’s objective. Reading a retrospective account requires attention to who knew what at a given moment. The Greek commanders’ recruitment and the author’s later explanation cannot be compressed into complete knowledge for everyone at Sardis."
+        ]
+      },
+      {
+        "title": "The shepherd comparison",
+        "body": [
+          "In Memorabilia 3.2 Socrates discusses leadership with a man elected general and examines Homer’s image of a shepherd of the people. Care includes safety and supplies as well as military success. The leader’s excellence is judged partly by the condition of the people entrusted to him. The analogy does not erase the difference between human beings and sheep; it asks what responsibility a position entails.",
+          "This companion scene comes from another work and another setting. We use it to evaluate the expedition, not to claim that Xenophon witnessed or recalled the conversation at Sardis. A reflection question follows: if friendship brings someone close to power, what must he learn before he can care responsibly for people affected by that power?"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "How is the Greek army at Sardis organized?",
+        "answer": "It contains contingents recruited under different commanders."
+      },
+      {
+        "prompt": "What stated target does Cyrus offer?",
+        "answer": "The Pisidians; the wider objective is not yet openly announced to the Greeks."
+      },
+      {
+        "prompt": "What is Xenophon’s initial military office?",
+        "answer": "He says he is neither general, captain, nor ordinary soldier."
+      },
+      {
+        "prompt": "Does friendship with Proxenus establish command authority?",
+        "answer": "No. It explains access and participation, not a formal appointment."
+      },
+      {
+        "prompt": "What does the shepherd comparison emphasize?",
+        "answer": "A leader should care for the safety, supplies, and welfare of those entrusted to him."
+      },
+      {
+        "prompt": "Why is the Socratic passage separate?",
+        "answer": "It is a comparison from Memorabilia, not an attested camp conversation or memory."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "An article plus an adjective can name a group: οἱ ἀνδρεῖοι, the brave.",
+        "A genitive reveals the stem; the dictionary article gives gender.",
+        "φυλακ- + σ → ξ; σωματ- loses τ before σ. Neuter nominative and accusative match.",
+        "A reflexive points back to the subject and has the case its construction requires.",
+        "What does the shepherd comparison emphasize? A leader should care for the safety, supplies, and welfare of those entrusted to him.",
+        "Why is the Socratic passage separate? It is a comparison from Memorabilia, not an attested camp conversation or memory."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 1.2.1–5",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2"
+      },
+      {
+        "title": "Xenophon, Anabasis 3.1.4, 8–10",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A3"
+      },
+      {
+        "title": "Xenophon, Memorabilia 3.2.1–4",
+        "url": "https://monadnock.net/xenophon/mem3-2.html"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 13 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ στρατηγός — required vocabulary",
+          "answer": "general; στρατηγός, στρατηγοῦ, ὁ"
+        },
+        {
+          "prompt": "ὁ λοχαγός — required vocabulary",
+          "answer": "captain; λοχαγός, λοχαγοῦ, ὁ"
+        },
+        {
+          "prompt": "ὁ στρατιώτης — required vocabulary",
+          "answer": "soldier; στρατιώτης, στρατιώτου, ὁ"
+        },
+        {
+          "prompt": "ὁ φύλαξ — required vocabulary",
+          "answer": "guard; φύλαξ, φύλακος, ὁ"
+        },
+        {
+          "prompt": "ἀνδρεῖος — required vocabulary",
+          "answer": "brave; ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον"
+        },
+        {
+          "prompt": "οἱ ψιλοί — reading vocabulary",
+          "answer": "light-armed troops; ψιλός, ψιλή, ψιλόν"
+        },
+        {
+          "prompt": "ὁ ποιμήν — reading vocabulary",
+          "answer": "shepherd; ποιμήν, ποιμένος, ὁ"
+        },
+        {
+          "prompt": "τὸ σῶμα — required vocabulary",
+          "answer": "body; σῶμα, σώματος, τό"
+        },
+        {
+          "prompt": "τὸ πρᾶγμα — required vocabulary",
+          "answer": "affair; thing; πρᾶγμα, πράγματος, τό"
+        },
+        {
+          "prompt": "τὸ στρατόπεδον — required vocabulary",
+          "answer": "camp; στρατόπεδον, στρατοπέδου, τό"
+        },
+        {
+          "prompt": "τὰ ὅπλα — required vocabulary",
+          "answer": "weapons; ὅπλον, ὅπλου, τό (usually plural)"
+        },
+        {
+          "prompt": "ἡ τροφή — required vocabulary",
+          "answer": "food; τροφή, τροφῆς, ἡ"
+        },
+        {
+          "prompt": "τὸ στράτευμα — required vocabulary",
+          "answer": "contingent; στράτευμα, στρατεύματος, τό"
+        },
+        {
+          "prompt": "φυλάττω — required vocabulary",
+          "answer": "protect; φυλάττω"
+        },
+        {
+          "prompt": "σῴζω — required vocabulary",
+          "answer": "save; σῴζω"
+        },
+        {
+          "prompt": "παρασκευάζω — required vocabulary",
+          "answer": "prepare; παρασκευάζω"
+        },
+        {
+          "prompt": "ἐπιμελέομαι — required vocabulary",
+          "answer": "care for; ἐπιμελέομαι + genitive"
+        },
+        {
+          "prompt": "ἑαυτοῦ — required vocabulary",
+          "answer": "of himself; ἑαυτοῦ, ἑαυτῆς (reflexive)"
+        },
+        {
+          "prompt": "ἐμαυτοῦ — required vocabulary",
+          "answer": "of myself; ἐμαυτοῦ, ἐμαυτῆς (reflexive)"
+        },
+        {
+          "prompt": "ἡ φιλία — required vocabulary",
+          "answer": "friendship; φιλία, φιλίας, ἡ"
+        },
+        {
+          "prompt": "ὁ σκοπός — required vocabulary",
+          "answer": "objective; σκοπός, σκοποῦ, ὁ"
+        },
+        {
+          "prompt": "αἱ Σάρδεις — reading vocabulary",
+          "answer": "Sardis; Σάρδεις, Σάρδεων, αἱ"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 13 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Practice required words in short rounds. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-13-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ στρατηγός mean?",
+          "choices": [
+            {
+              "text": "general",
+              "correct": true,
+              "feedback": "Correct: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "care for",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "of himself",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “general”?",
+          "choices": [
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general."
+            },
+            {
+              "text": "ὁ στρατηγός",
+              "correct": true,
+              "feedback": "Correct: ὁ στρατηγός: general."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general."
+            },
+            {
+              "text": "ἐπιμελέομαι",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ λοχαγός mean?",
+          "choices": [
+            {
+              "text": "objective",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "general",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "captain",
+              "correct": true,
+              "feedback": "Correct: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “captain”?",
+          "choices": [
+            {
+              "text": "ἡ φιλία",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain."
+            },
+            {
+              "text": "ὁ σκοπός",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain."
+            },
+            {
+              "text": "ὁ στρατηγός",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": true,
+              "feedback": "Correct: ὁ λοχαγός: captain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ στρατιώτης mean?",
+          "choices": [
+            {
+              "text": "soldier",
+              "correct": true,
+              "feedback": "Correct: ὁ στρατιώτης: soldier. Dictionary form: στρατιώτης, στρατιώτου, ὁ."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "Review: ὁ στρατιώτης: soldier. Dictionary form: στρατιώτης, στρατιώτου, ὁ."
+            },
+            {
+              "text": "care for",
+              "correct": false,
+              "feedback": "Review: ὁ στρατιώτης: soldier. Dictionary form: στρατιώτης, στρατιώτου, ὁ."
+            },
+            {
+              "text": "of himself",
+              "correct": false,
+              "feedback": "Review: ὁ στρατιώτης: soldier. Dictionary form: στρατιώτης, στρατιώτου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “soldier”?",
+          "choices": [
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ὁ στρατιώτης: soldier."
+            },
+            {
+              "text": "ὁ στρατιώτης",
+              "correct": true,
+              "feedback": "Correct: ὁ στρατιώτης: soldier."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "Review: ὁ στρατιώτης: soldier."
+            },
+            {
+              "text": "ἐπιμελέομαι",
+              "correct": false,
+              "feedback": "Review: ὁ στρατιώτης: soldier."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ φύλαξ mean?",
+          "choices": [
+            {
+              "text": "of myself",
+              "correct": false,
+              "feedback": "Review: ὁ φύλαξ: guard. Dictionary form: φύλαξ, φύλακος, ὁ."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: ὁ φύλαξ: guard. Dictionary form: φύλαξ, φύλακος, ὁ."
+            },
+            {
+              "text": "guard",
+              "correct": true,
+              "feedback": "Correct: ὁ φύλαξ: guard. Dictionary form: φύλαξ, φύλακος, ὁ."
+            },
+            {
+              "text": "of himself",
+              "correct": false,
+              "feedback": "Review: ὁ φύλαξ: guard. Dictionary form: φύλαξ, φύλακος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “guard”?",
+          "choices": [
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ὁ φύλαξ: guard."
+            },
+            {
+              "text": "ἐμαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ὁ φύλαξ: guard."
+            },
+            {
+              "text": "ἡ φιλία",
+              "correct": false,
+              "feedback": "Review: ὁ φύλαξ: guard."
+            },
+            {
+              "text": "ὁ φύλαξ",
+              "correct": true,
+              "feedback": "Correct: ὁ φύλαξ: guard."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἀνδρεῖος mean?",
+          "choices": [
+            {
+              "text": "brave",
+              "correct": true,
+              "feedback": "Correct: ἀνδρεῖος: brave. Dictionary form: ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον."
+            },
+            {
+              "text": "camp",
+              "correct": false,
+              "feedback": "Review: ἀνδρεῖος: brave. Dictionary form: ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον."
+            },
+            {
+              "text": "weapons",
+              "correct": false,
+              "feedback": "Review: ἀνδρεῖος: brave. Dictionary form: ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον."
+            },
+            {
+              "text": "food",
+              "correct": false,
+              "feedback": "Review: ἀνδρεῖος: brave. Dictionary form: ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “brave”?",
+          "choices": [
+            {
+              "text": "ἡ τροφή",
+              "correct": false,
+              "feedback": "Review: ἀνδρεῖος: brave."
+            },
+            {
+              "text": "ἀνδρεῖος",
+              "correct": true,
+              "feedback": "Correct: ἀνδρεῖος: brave."
+            },
+            {
+              "text": "τὸ στρατόπεδον",
+              "correct": false,
+              "feedback": "Review: ἀνδρεῖος: brave."
+            },
+            {
+              "text": "τὰ ὅπλα",
+              "correct": false,
+              "feedback": "Review: ἀνδρεῖος: brave."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ σῶμα mean?",
+          "choices": [
+            {
+              "text": "save",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            },
+            {
+              "text": "body",
+              "correct": true,
+              "feedback": "Correct: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            },
+            {
+              "text": "protect",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “body”?",
+          "choices": [
+            {
+              "text": "φυλάττω",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body."
+            },
+            {
+              "text": "σῴζω",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body."
+            },
+            {
+              "text": "τὸ σῶμα",
+              "correct": true,
+              "feedback": "Correct: τὸ σῶμα: body."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ πρᾶγμα mean?",
+          "choices": [
+            {
+              "text": "affair; thing",
+              "correct": true,
+              "feedback": "Correct: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "of myself",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "objective",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “affair; thing”?",
+          "choices": [
+            {
+              "text": "ὁ σκοπός",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing."
+            },
+            {
+              "text": "τὸ πρᾶγμα",
+              "correct": true,
+              "feedback": "Correct: τὸ πρᾶγμα: affair; thing."
+            },
+            {
+              "text": "ἐμαυτοῦ",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing."
+            },
+            {
+              "text": "ἡ φιλία",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ στρατόπεδον mean?",
+          "choices": [
+            {
+              "text": "save",
+              "correct": false,
+              "feedback": "Review: τὸ στρατόπεδον: camp. Dictionary form: στρατόπεδον, στρατοπέδου, τό."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "Review: τὸ στρατόπεδον: camp. Dictionary form: στρατόπεδον, στρατοπέδου, τό."
+            },
+            {
+              "text": "camp",
+              "correct": true,
+              "feedback": "Correct: τὸ στρατόπεδον: camp. Dictionary form: στρατόπεδον, στρατοπέδου, τό."
+            },
+            {
+              "text": "protect",
+              "correct": false,
+              "feedback": "Review: τὸ στρατόπεδον: camp. Dictionary form: στρατόπεδον, στρατοπέδου, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “camp”?",
+          "choices": [
+            {
+              "text": "φυλάττω",
+              "correct": false,
+              "feedback": "Review: τὸ στρατόπεδον: camp."
+            },
+            {
+              "text": "σῴζω",
+              "correct": false,
+              "feedback": "Review: τὸ στρατόπεδον: camp."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "Review: τὸ στρατόπεδον: camp."
+            },
+            {
+              "text": "τὸ στρατόπεδον",
+              "correct": true,
+              "feedback": "Correct: τὸ στρατόπεδον: camp."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὰ ὅπλα mean?",
+          "choices": [
+            {
+              "text": "weapons",
+              "correct": true,
+              "feedback": "Correct: τὰ ὅπλα: weapons. Dictionary form: ὅπλον, ὅπλου, τό (usually plural)."
+            },
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "Review: τὰ ὅπλα: weapons. Dictionary form: ὅπλον, ὅπλου, τό (usually plural)."
+            },
+            {
+              "text": "soldier",
+              "correct": false,
+              "feedback": "Review: τὰ ὅπλα: weapons. Dictionary form: ὅπλον, ὅπλου, τό (usually plural)."
+            },
+            {
+              "text": "guard",
+              "correct": false,
+              "feedback": "Review: τὰ ὅπλα: weapons. Dictionary form: ὅπλον, ὅπλου, τό (usually plural)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “weapons”?",
+          "choices": [
+            {
+              "text": "ὁ φύλαξ",
+              "correct": false,
+              "feedback": "Review: τὰ ὅπλα: weapons."
+            },
+            {
+              "text": "τὰ ὅπλα",
+              "correct": true,
+              "feedback": "Correct: τὰ ὅπλα: weapons."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": false,
+              "feedback": "Review: τὰ ὅπλα: weapons."
+            },
+            {
+              "text": "ὁ στρατιώτης",
+              "correct": false,
+              "feedback": "Review: τὰ ὅπλα: weapons."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ τροφή mean?",
+          "choices": [
+            {
+              "text": "of himself",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή: food. Dictionary form: τροφή, τροφῆς, ἡ."
+            },
+            {
+              "text": "of myself",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή: food. Dictionary form: τροφή, τροφῆς, ἡ."
+            },
+            {
+              "text": "food",
+              "correct": true,
+              "feedback": "Correct: ἡ τροφή: food. Dictionary form: τροφή, τροφῆς, ἡ."
+            },
+            {
+              "text": "care for",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή: food. Dictionary form: τροφή, τροφῆς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “food”?",
+          "choices": [
+            {
+              "text": "ἐπιμελέομαι",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή: food."
+            },
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή: food."
+            },
+            {
+              "text": "ἐμαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή: food."
+            },
+            {
+              "text": "ἡ τροφή",
+              "correct": true,
+              "feedback": "Correct: ἡ τροφή: food."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ στράτευμα mean?",
+          "choices": [
+            {
+              "text": "contingent",
+              "correct": true,
+              "feedback": "Correct: τὸ στράτευμα: contingent. Dictionary form: στράτευμα, στρατεύματος, τό."
+            },
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "Review: τὸ στράτευμα: contingent. Dictionary form: στράτευμα, στρατεύματος, τό."
+            },
+            {
+              "text": "soldier",
+              "correct": false,
+              "feedback": "Review: τὸ στράτευμα: contingent. Dictionary form: στράτευμα, στρατεύματος, τό."
+            },
+            {
+              "text": "guard",
+              "correct": false,
+              "feedback": "Review: τὸ στράτευμα: contingent. Dictionary form: στράτευμα, στρατεύματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “contingent”?",
+          "choices": [
+            {
+              "text": "ὁ φύλαξ",
+              "correct": false,
+              "feedback": "Review: τὸ στράτευμα: contingent."
+            },
+            {
+              "text": "τὸ στράτευμα",
+              "correct": true,
+              "feedback": "Correct: τὸ στράτευμα: contingent."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": false,
+              "feedback": "Review: τὸ στράτευμα: contingent."
+            },
+            {
+              "text": "ὁ στρατιώτης",
+              "correct": false,
+              "feedback": "Review: τὸ στράτευμα: contingent."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does φυλάττω mean?",
+          "choices": [
+            {
+              "text": "brave",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect. Dictionary form: φυλάττω."
+            },
+            {
+              "text": "body",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect. Dictionary form: φυλάττω."
+            },
+            {
+              "text": "protect",
+              "correct": true,
+              "feedback": "Correct: φυλάττω: protect. Dictionary form: φυλάττω."
+            },
+            {
+              "text": "guard",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect. Dictionary form: φυλάττω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “protect”?",
+          "choices": [
+            {
+              "text": "ὁ φύλαξ",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect."
+            },
+            {
+              "text": "ἀνδρεῖος",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect."
+            },
+            {
+              "text": "τὸ σῶμα",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect."
+            },
+            {
+              "text": "φυλάττω",
+              "correct": true,
+              "feedback": "Correct: φυλάττω: protect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does σῴζω mean?",
+          "choices": [
+            {
+              "text": "save",
+              "correct": true,
+              "feedback": "Correct: σῴζω: save. Dictionary form: σῴζω."
+            },
+            {
+              "text": "affair; thing",
+              "correct": false,
+              "feedback": "Review: σῴζω: save. Dictionary form: σῴζω."
+            },
+            {
+              "text": "camp",
+              "correct": false,
+              "feedback": "Review: σῴζω: save. Dictionary form: σῴζω."
+            },
+            {
+              "text": "weapons",
+              "correct": false,
+              "feedback": "Review: σῴζω: save. Dictionary form: σῴζω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “save”?",
+          "choices": [
+            {
+              "text": "τὰ ὅπλα",
+              "correct": false,
+              "feedback": "Review: σῴζω: save."
+            },
+            {
+              "text": "σῴζω",
+              "correct": true,
+              "feedback": "Correct: σῴζω: save."
+            },
+            {
+              "text": "τὸ πρᾶγμα",
+              "correct": false,
+              "feedback": "Review: σῴζω: save."
+            },
+            {
+              "text": "τὸ στρατόπεδον",
+              "correct": false,
+              "feedback": "Review: σῴζω: save."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does παρασκευάζω mean?",
+          "choices": [
+            {
+              "text": "weapons",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω: prepare. Dictionary form: παρασκευάζω."
+            },
+            {
+              "text": "food",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω: prepare. Dictionary form: παρασκευάζω."
+            },
+            {
+              "text": "prepare",
+              "correct": true,
+              "feedback": "Correct: παρασκευάζω: prepare. Dictionary form: παρασκευάζω."
+            },
+            {
+              "text": "camp",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω: prepare. Dictionary form: παρασκευάζω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “prepare”?",
+          "choices": [
+            {
+              "text": "τὸ στρατόπεδον",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω: prepare."
+            },
+            {
+              "text": "τὰ ὅπλα",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω: prepare."
+            },
+            {
+              "text": "ἡ τροφή",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω: prepare."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": true,
+              "feedback": "Correct: παρασκευάζω: prepare."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἐπιμελέομαι mean?",
+          "choices": [
+            {
+              "text": "care for",
+              "correct": true,
+              "feedback": "Correct: ἐπιμελέομαι: care for. Dictionary form: ἐπιμελέομαι + genitive."
+            },
+            {
+              "text": "camp",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι: care for. Dictionary form: ἐπιμελέομαι + genitive."
+            },
+            {
+              "text": "weapons",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι: care for. Dictionary form: ἐπιμελέομαι + genitive."
+            },
+            {
+              "text": "food",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι: care for. Dictionary form: ἐπιμελέομαι + genitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “care for”?",
+          "choices": [
+            {
+              "text": "ἡ τροφή",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι: care for."
+            },
+            {
+              "text": "ἐπιμελέομαι",
+              "correct": true,
+              "feedback": "Correct: ἐπιμελέομαι: care for."
+            },
+            {
+              "text": "τὸ στρατόπεδον",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι: care for."
+            },
+            {
+              "text": "τὰ ὅπλα",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι: care for."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἑαυτοῦ mean?",
+          "choices": [
+            {
+              "text": "food",
+              "correct": false,
+              "feedback": "Review: ἑαυτοῦ: of himself. Dictionary form: ἑαυτοῦ, ἑαυτῆς (reflexive)."
+            },
+            {
+              "text": "contingent",
+              "correct": false,
+              "feedback": "Review: ἑαυτοῦ: of himself. Dictionary form: ἑαυτοῦ, ἑαυτῆς (reflexive)."
+            },
+            {
+              "text": "of himself",
+              "correct": true,
+              "feedback": "Correct: ἑαυτοῦ: of himself. Dictionary form: ἑαυτοῦ, ἑαυτῆς (reflexive)."
+            },
+            {
+              "text": "weapons",
+              "correct": false,
+              "feedback": "Review: ἑαυτοῦ: of himself. Dictionary form: ἑαυτοῦ, ἑαυτῆς (reflexive)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “of himself”?",
+          "choices": [
+            {
+              "text": "τὰ ὅπλα",
+              "correct": false,
+              "feedback": "Review: ἑαυτοῦ: of himself."
+            },
+            {
+              "text": "ἡ τροφή",
+              "correct": false,
+              "feedback": "Review: ἑαυτοῦ: of himself."
+            },
+            {
+              "text": "τὸ στράτευμα",
+              "correct": false,
+              "feedback": "Review: ἑαυτοῦ: of himself."
+            },
+            {
+              "text": "ἑαυτοῦ",
+              "correct": true,
+              "feedback": "Correct: ἑαυτοῦ: of himself."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἐμαυτοῦ mean?",
+          "choices": [
+            {
+              "text": "of myself",
+              "correct": true,
+              "feedback": "Correct: ἐμαυτοῦ: of myself. Dictionary form: ἐμαυτοῦ, ἐμαυτῆς (reflexive)."
+            },
+            {
+              "text": "food",
+              "correct": false,
+              "feedback": "Review: ἐμαυτοῦ: of myself. Dictionary form: ἐμαυτοῦ, ἐμαυτῆς (reflexive)."
+            },
+            {
+              "text": "contingent",
+              "correct": false,
+              "feedback": "Review: ἐμαυτοῦ: of myself. Dictionary form: ἐμαυτοῦ, ἐμαυτῆς (reflexive)."
+            },
+            {
+              "text": "protect",
+              "correct": false,
+              "feedback": "Review: ἐμαυτοῦ: of myself. Dictionary form: ἐμαυτοῦ, ἐμαυτῆς (reflexive)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “of myself”?",
+          "choices": [
+            {
+              "text": "φυλάττω",
+              "correct": false,
+              "feedback": "Review: ἐμαυτοῦ: of myself."
+            },
+            {
+              "text": "ἐμαυτοῦ",
+              "correct": true,
+              "feedback": "Correct: ἐμαυτοῦ: of myself."
+            },
+            {
+              "text": "ἡ τροφή",
+              "correct": false,
+              "feedback": "Review: ἐμαυτοῦ: of myself."
+            },
+            {
+              "text": "τὸ στράτευμα",
+              "correct": false,
+              "feedback": "Review: ἐμαυτοῦ: of myself."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ φιλία mean?",
+          "choices": [
+            {
+              "text": "soldier",
+              "correct": false,
+              "feedback": "Review: ἡ φιλία: friendship. Dictionary form: φιλία, φιλίας, ἡ."
+            },
+            {
+              "text": "guard",
+              "correct": false,
+              "feedback": "Review: ἡ φιλία: friendship. Dictionary form: φιλία, φιλίας, ἡ."
+            },
+            {
+              "text": "friendship",
+              "correct": true,
+              "feedback": "Correct: ἡ φιλία: friendship. Dictionary form: φιλία, φιλίας, ἡ."
+            },
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "Review: ἡ φιλία: friendship. Dictionary form: φιλία, φιλίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “friendship”?",
+          "choices": [
+            {
+              "text": "ὁ λοχαγός",
+              "correct": false,
+              "feedback": "Review: ἡ φιλία: friendship."
+            },
+            {
+              "text": "ὁ στρατιώτης",
+              "correct": false,
+              "feedback": "Review: ἡ φιλία: friendship."
+            },
+            {
+              "text": "ὁ φύλαξ",
+              "correct": false,
+              "feedback": "Review: ἡ φιλία: friendship."
+            },
+            {
+              "text": "ἡ φιλία",
+              "correct": true,
+              "feedback": "Correct: ἡ φιλία: friendship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ σκοπός mean?",
+          "choices": [
+            {
+              "text": "objective",
+              "correct": true,
+              "feedback": "Correct: ὁ σκοπός: objective. Dictionary form: σκοπός, σκοποῦ, ὁ."
+            },
+            {
+              "text": "of himself",
+              "correct": false,
+              "feedback": "Review: ὁ σκοπός: objective. Dictionary form: σκοπός, σκοποῦ, ὁ."
+            },
+            {
+              "text": "of myself",
+              "correct": false,
+              "feedback": "Review: ὁ σκοπός: objective. Dictionary form: σκοπός, σκοποῦ, ὁ."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: ὁ σκοπός: objective. Dictionary form: σκοπός, σκοποῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “objective”?",
+          "choices": [
+            {
+              "text": "ἡ φιλία",
+              "correct": false,
+              "feedback": "Review: ὁ σκοπός: objective."
+            },
+            {
+              "text": "ὁ σκοπός",
+              "correct": true,
+              "feedback": "Correct: ὁ σκοπός: objective."
+            },
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ὁ σκοπός: objective."
+            },
+            {
+              "text": "ἐμαυτοῦ",
+              "correct": false,
+              "feedback": "Review: ὁ σκοπός: objective."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 13 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "Who acts in οἱ ἀνδρεῖοι σῴζουσιν?",
+          "answer": "The brave people; the article and adjective are nominative plural."
+        },
+        {
+          "prompt": "What stem appears in σώματος?",
+          "answer": "σωματ-, after removing genitive -ος."
+        },
+        {
+          "prompt": "Why is φύλαξι written with ξ?",
+          "answer": "Stem κ combines with σ of -σι to produce ξ."
+        },
+        {
+          "prompt": "Who is saved in ὁ στρατηγὸς ἑαυτὸν σῴζει?",
+          "answer": "The general himself, the same person as the subject."
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 13 Word Study and Grammar Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose a topic. Every teaching section has its own practice questions with immediate feedback.",
+      "questions": [
+        {
+          "id": "lesson-13-word-study-1",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which noun belongs to the protection family of φυλάττω?",
+          "choices": [
+            {
+              "text": "φύλαξ",
+              "correct": true,
+              "feedback": "Correct: φύλαξ means guard, sharing the protection family."
+            },
+            {
+              "text": "σῶμα",
+              "correct": false,
+              "feedback": "Review: φύλαξ means guard, sharing the protection family."
+            },
+            {
+              "text": "τροφή",
+              "correct": false,
+              "feedback": "Review: φύλαξ means guard, sharing the protection family."
+            },
+            {
+              "text": "φιλία",
+              "correct": false,
+              "feedback": "Review: φύλαξ means guard, sharing the protection family."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-word-study-2",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which office commands a company?",
+          "choices": [
+            {
+              "text": "φίλος",
+              "correct": false,
+              "feedback": "Review: A λοχαγός is a company commander."
+            },
+            {
+              "text": "λοχαγός",
+              "correct": true,
+              "feedback": "Correct: A λοχαγός is a company commander."
+            },
+            {
+              "text": "στρατιώτης",
+              "correct": false,
+              "feedback": "Review: A λοχαγός is a company commander."
+            },
+            {
+              "text": "ποιμήν",
+              "correct": false,
+              "feedback": "Review: A λοχαγός is a company commander."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-word-study-3",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What initial role does Xenophon explicitly deny?",
+          "choices": [
+            {
+              "text": "Athenian",
+              "correct": false,
+              "feedback": "Review: Anabasis 3.1.4 denies general, captain, and ordinary soldier."
+            },
+            {
+              "text": "visitor to Cyrus",
+              "correct": false,
+              "feedback": "Review: Anabasis 3.1.4 denies general, captain, and ordinary soldier."
+            },
+            {
+              "text": "ordinary soldier",
+              "correct": true,
+              "feedback": "Correct: Anabasis 3.1.4 denies general, captain, and ordinary soldier."
+            },
+            {
+              "text": "friend of Proxenus",
+              "correct": false,
+              "feedback": "Review: Anabasis 3.1.4 denies general, captain, and ordinary soldier."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-word-study-4",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which word means “prepare”?",
+          "choices": [
+            {
+              "text": "σῴζω",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω means prepare."
+            },
+            {
+              "text": "φυλάττω",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω means prepare."
+            },
+            {
+              "text": "ἐπιμελέομαι",
+              "correct": false,
+              "feedback": "Review: παρασκευάζω means prepare."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": true,
+              "feedback": "Correct: παρασκευάζω means prepare."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-word-study-5",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does τῶν ἄλλων mean in the care phrase?",
+          "choices": [
+            {
+              "text": "of other people",
+              "correct": true,
+              "feedback": "Correct: ἄλλος means other; the genitive follows care."
+            },
+            {
+              "text": "of myself",
+              "correct": false,
+              "feedback": "Review: ἄλλος means other; the genitive follows care."
+            },
+            {
+              "text": "of this general alone",
+              "correct": false,
+              "feedback": "Review: ἄλλος means other; the genitive follows care."
+            },
+            {
+              "text": "of the camp",
+              "correct": false,
+              "feedback": "Review: ἄλλος means other; the genitive follows care."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-word-study-6",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which noun names the army’s objective?",
+          "choices": [
+            {
+              "text": "σῶμα",
+              "correct": false,
+              "feedback": "Review: σκοπός is a target or objective."
+            },
+            {
+              "text": "σκοπός",
+              "correct": true,
+              "feedback": "Correct: σκοπός is a target or objective."
+            },
+            {
+              "text": "λοχαγός",
+              "correct": false,
+              "feedback": "Review: σκοπός is a target or objective."
+            },
+            {
+              "text": "στρατόπεδον",
+              "correct": false,
+              "feedback": "Review: σκοπός is a target or objective."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-substantive-adjectives-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "What does οἱ ἀνδρεῖοι mean without a noun?",
+          "choices": [
+            {
+              "text": "the brave people",
+              "correct": true,
+              "feedback": "Correct: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "the brave thing",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "of brave people",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "to brave people",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-substantive-adjectives-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "Which substantive phrase is accusative plural masculine?",
+          "choices": [
+            {
+              "text": "τὰ ἀγαθά",
+              "correct": false,
+              "feedback": "Review: τοὺς and -ούς mark accusative masculine plural."
+            },
+            {
+              "text": "τοὺς ἀγαθούς",
+              "correct": true,
+              "feedback": "Correct: τοὺς and -ούς mark accusative masculine plural."
+            },
+            {
+              "text": "οἱ ἀγαθοί",
+              "correct": false,
+              "feedback": "Review: τοὺς and -ούς mark accusative masculine plural."
+            },
+            {
+              "text": "τοῖς ἀγαθοῖς",
+              "correct": false,
+              "feedback": "Review: τοὺς and -ούς mark accusative masculine plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-substantive-adjectives-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "In οἱ ἀγαθοὶ τοὺς φίλους σῴζουσιν, who protects?",
+          "choices": [
+            {
+              "text": "the food",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the camp",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the good people",
+              "correct": true,
+              "feedback": "Correct: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the friends",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-substantive-adjectives-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "What does τὸ ἀγαθόν most directly name?",
+          "choices": [
+            {
+              "text": "the good men",
+              "correct": false,
+              "feedback": "Review: Neuter singular can name a thing or quality."
+            },
+            {
+              "text": "of the good woman",
+              "correct": false,
+              "feedback": "Review: Neuter singular can name a thing or quality."
+            },
+            {
+              "text": "to the good men",
+              "correct": false,
+              "feedback": "Review: Neuter singular can name a thing or quality."
+            },
+            {
+              "text": "the good thing",
+              "correct": true,
+              "feedback": "Correct: Neuter singular can name a thing or quality."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-substantive-adjectives-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "Which phrase means “to the brave people”?",
+          "choices": [
+            {
+              "text": "τοῖς ἀνδρείοις",
+              "correct": true,
+              "feedback": "Correct: Dative plural τοῖς ... -οις marks the recipients."
+            },
+            {
+              "text": "τοὺς ἀνδρείους",
+              "correct": false,
+              "feedback": "Review: Dative plural τοῖς ... -οις marks the recipients."
+            },
+            {
+              "text": "οἱ ἀνδρεῖοι",
+              "correct": false,
+              "feedback": "Review: Dative plural τοῖς ... -οις marks the recipients."
+            },
+            {
+              "text": "τῶν ἀνδρείων",
+              "correct": false,
+              "feedback": "Review: Dative plural τοῖς ... -οις marks the recipients."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-substantive-adjectives-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "What supplies an omitted noun with a substantive adjective?",
+          "choices": [
+            {
+              "text": "the word order alone",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "the context",
+              "correct": true,
+              "feedback": "Correct: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "a fixed rule that it means kings",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "a future ending",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-declension-systems-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which part of φύλαξ, φύλακος, ὁ gives gender?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": true,
+              "feedback": "Correct: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "φύλαξ alone",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "-ος alone",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "the comma",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-declension-systems-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "What stem does φύλακος reveal?",
+          "choices": [
+            {
+              "text": "φυλα-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος."
+            },
+            {
+              "text": "φυλακ-",
+              "correct": true,
+              "feedback": "Correct: Remove genitive -ος."
+            },
+            {
+              "text": "φυλαξ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος."
+            },
+            {
+              "text": "φυλακοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-declension-systems-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "What is the usual second-declension genitive singular ending?",
+          "choices": [
+            {
+              "text": "-σι(ν)",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ων",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ου",
+              "correct": true,
+              "feedback": "Correct: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ας",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-declension-systems-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which entry is first declension?",
+          "choices": [
+            {
+              "text": "φύλαξ, φύλακος, ὁ",
+              "correct": false,
+              "feedback": "Review: τροφῆς identifies the first-declension pattern."
+            },
+            {
+              "text": "σῶμα, σώματος, τό",
+              "correct": false,
+              "feedback": "Review: τροφῆς identifies the first-declension pattern."
+            },
+            {
+              "text": "στρατηγός, στρατηγοῦ, ὁ",
+              "correct": false,
+              "feedback": "Review: τροφῆς identifies the first-declension pattern."
+            },
+            {
+              "text": "τροφή, τροφῆς, ἡ",
+              "correct": true,
+              "feedback": "Correct: τροφῆς identifies the first-declension pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-declension-systems-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which statement about gender and declension is correct?",
+          "choices": [
+            {
+              "text": "third-declension nouns can have different genders",
+              "correct": true,
+              "feedback": "Correct: Declension and gender are separate properties."
+            },
+            {
+              "text": "all third-declension nouns are masculine",
+              "correct": false,
+              "feedback": "Review: Declension and gender are separate properties."
+            },
+            {
+              "text": "neuters must be second declension",
+              "correct": false,
+              "feedback": "Review: Declension and gender are separate properties."
+            },
+            {
+              "text": "the genitive always supplies gender alone",
+              "correct": false,
+              "feedback": "Review: Declension and gender are separate properties."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-declension-systems-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which case is φύλακος in τὸ σῶμα τοῦ φύλακος?",
+          "choices": [
+            {
+              "text": "accusative plural",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "genitive singular",
+              "correct": true,
+              "feedback": "Correct: It means of the guard."
+            },
+            {
+              "text": "nominative plural",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "dative singular",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-velar-dental-stems-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Which form is accusative plural of φύλαξ?",
+          "choices": [
+            {
+              "text": "φύλακας",
+              "correct": true,
+              "feedback": "Correct: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακες",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακος",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακι",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-velar-dental-stems-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Which form means “to a guard”?",
+          "choices": [
+            {
+              "text": "φυλάκων",
+              "correct": false,
+              "feedback": "Review: Dative singular adds -ι to φυλακ-."
+            },
+            {
+              "text": "φύλακι",
+              "correct": true,
+              "feedback": "Correct: Dative singular adds -ι to φυλακ-."
+            },
+            {
+              "text": "φύλακα",
+              "correct": false,
+              "feedback": "Review: Dative singular adds -ι to φυλακ-."
+            },
+            {
+              "text": "φύλακες",
+              "correct": false,
+              "feedback": "Review: Dative singular adds -ι to φυλακ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-velar-dental-stems-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "What happens to κ before σ in φύλαξι?",
+          "choices": [
+            {
+              "text": "σ becomes τ",
+              "correct": false,
+              "feedback": "Review: Velar plus sigma is written ξ."
+            },
+            {
+              "text": "both letters remain κσ",
+              "correct": false,
+              "feedback": "Review: Velar plus sigma is written ξ."
+            },
+            {
+              "text": "κ + σ becomes ξ",
+              "correct": true,
+              "feedback": "Correct: Velar plus sigma is written ξ."
+            },
+            {
+              "text": "κ becomes μ",
+              "correct": false,
+              "feedback": "Review: Velar plus sigma is written ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-velar-dental-stems-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "What is the genitive singular of σῶμα?",
+          "choices": [
+            {
+              "text": "σῶμα",
+              "correct": false,
+              "feedback": "Review: The genitive reveals σωματ-."
+            },
+            {
+              "text": "σώματα",
+              "correct": false,
+              "feedback": "Review: The genitive reveals σωματ-."
+            },
+            {
+              "text": "σώμασι",
+              "correct": false,
+              "feedback": "Review: The genitive reveals σωματ-."
+            },
+            {
+              "text": "σώματος",
+              "correct": true,
+              "feedback": "Correct: The genitive reveals σωματ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-velar-dental-stems-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Why can σώματα be either nominative or accusative?",
+          "choices": [
+            {
+              "text": "neuter nominative and accusative are identical",
+              "correct": true,
+              "feedback": "Correct: All neuters share nominative and accusative forms."
+            },
+            {
+              "text": "every plural has one case",
+              "correct": false,
+              "feedback": "Review: All neuters share nominative and accusative forms."
+            },
+            {
+              "text": "-α is always dative",
+              "correct": false,
+              "feedback": "Review: All neuters share nominative and accusative forms."
+            },
+            {
+              "text": "the noun has no stem",
+              "correct": false,
+              "feedback": "Review: All neuters share nominative and accusative forms."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-velar-dental-stems-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Which is dative plural of σῶμα?",
+          "choices": [
+            {
+              "text": "σώματα",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σώμασι(ν)",
+              "correct": true,
+              "feedback": "Correct: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σώματι",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σωμάτων",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-reflexive-pronouns-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Who is the object in ὁ στρατηγὸς ἑαυτὸν σῴζει?",
+          "choices": [
+            {
+              "text": "the general himself",
+              "correct": true,
+              "feedback": "Correct: The reflexive points back to the subject."
+            },
+            {
+              "text": "another commander",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            },
+            {
+              "text": "the soldiers",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            },
+            {
+              "text": "Cyrus’s friend",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-reflexive-pronouns-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Which form fits ἐγὼ ___ παρασκευάζω for “I prepare myself” (male speaker)?",
+          "choices": [
+            {
+              "text": "αὐτούς",
+              "correct": false,
+              "feedback": "Review: First-person singular masculine accusative is ἐμαυτόν."
+            },
+            {
+              "text": "ἐμαυτόν",
+              "correct": true,
+              "feedback": "Correct: First-person singular masculine accusative is ἐμαυτόν."
+            },
+            {
+              "text": "σεαυτόν",
+              "correct": false,
+              "feedback": "Review: First-person singular masculine accusative is ἐμαυτόν."
+            },
+            {
+              "text": "ἑαυτῶν",
+              "correct": false,
+              "feedback": "Review: First-person singular masculine accusative is ἐμαυτόν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-reflexive-pronouns-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Which form fits a woman saving herself?",
+          "choices": [
+            {
+              "text": "ἑαυτῇ",
+              "correct": false,
+              "feedback": "Review: The direct object is feminine accusative singular."
+            },
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: The direct object is feminine accusative singular."
+            },
+            {
+              "text": "ἑαυτήν",
+              "correct": true,
+              "feedback": "Correct: The direct object is feminine accusative singular."
+            },
+            {
+              "text": "ἑαυτόν",
+              "correct": false,
+              "feedback": "Review: The direct object is feminine accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-reflexive-pronouns-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Why is ἑαυτοῦ genitive in ἑαυτοῦ ἐπιμελεῖται?",
+          "choices": [
+            {
+              "text": "all pronouns are genitive",
+              "correct": false,
+              "feedback": "Review: The verb determines the pronoun’s case."
+            },
+            {
+              "text": "the subject is plural",
+              "correct": false,
+              "feedback": "Review: The verb determines the pronoun’s case."
+            },
+            {
+              "text": "the pronoun is a nominative",
+              "correct": false,
+              "feedback": "Review: The verb determines the pronoun’s case."
+            },
+            {
+              "text": "the care verb takes genitive",
+              "correct": true,
+              "feedback": "Correct: The verb determines the pronoun’s case."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-reflexive-pronouns-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Which means “the guards save themselves”?",
+          "choices": [
+            {
+              "text": "οἱ φύλακες ἑαυτοὺς σῴζουσιν",
+              "correct": true,
+              "feedback": "Correct: Plural masculine accusative ἑαυτούς refers back to guards."
+            },
+            {
+              "text": "οἱ φύλακες ἐμαυτὸν σῴζουσιν",
+              "correct": false,
+              "feedback": "Review: Plural masculine accusative ἑαυτούς refers back to guards."
+            },
+            {
+              "text": "οἱ φύλακες σεαυτὴν σῴζουσιν",
+              "correct": false,
+              "feedback": "Review: Plural masculine accusative ἑαυτούς refers back to guards."
+            },
+            {
+              "text": "οἱ φύλακες ἑαυτοῦ σῴζουσιν",
+              "correct": false,
+              "feedback": "Review: Plural masculine accusative ἑαυτούς refers back to guards."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-reflexive-pronouns-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "What is the usual distinction between ἑαυτόν and αὐτόν as objects?",
+          "choices": [
+            {
+              "text": "masculine versus neuter",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "himself versus him",
+              "correct": true,
+              "feedback": "Correct: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "present versus future",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "singular versus plural",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 13 Grammar Exercises",
+      "description": "Substantive adjectives; declension systems; velar and dental stems; reflexive pronouns",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-13-grammar-exercises-module-2-v1",
+      "instructions": "Answer every question and score at least 80% to continue to the culture page.",
+      "questions": [
+        {
+          "id": "lesson-13-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "What does οἱ ἀνδρεῖοι mean without a noun?",
+          "choices": [
+            {
+              "text": "the brave people",
+              "correct": true,
+              "feedback": "Correct: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "the brave thing",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "of brave people",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "to brave people",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "Which substantive phrase is accusative plural masculine?",
+          "choices": [
+            {
+              "text": "τὰ ἀγαθά",
+              "correct": false,
+              "feedback": "Review: τοὺς and -ούς mark accusative masculine plural."
+            },
+            {
+              "text": "τοὺς ἀγαθούς",
+              "correct": true,
+              "feedback": "Correct: τοὺς and -ούς mark accusative masculine plural."
+            },
+            {
+              "text": "οἱ ἀγαθοί",
+              "correct": false,
+              "feedback": "Review: τοὺς and -ούς mark accusative masculine plural."
+            },
+            {
+              "text": "τοῖς ἀγαθοῖς",
+              "correct": false,
+              "feedback": "Review: τοὺς and -ούς mark accusative masculine plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "In οἱ ἀγαθοὶ τοὺς φίλους σῴζουσιν, who protects?",
+          "choices": [
+            {
+              "text": "the food",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the camp",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the good people",
+              "correct": true,
+              "feedback": "Correct: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the friends",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "What does τὸ ἀγαθόν most directly name?",
+          "choices": [
+            {
+              "text": "the good men",
+              "correct": false,
+              "feedback": "Review: Neuter singular can name a thing or quality."
+            },
+            {
+              "text": "of the good woman",
+              "correct": false,
+              "feedback": "Review: Neuter singular can name a thing or quality."
+            },
+            {
+              "text": "to the good men",
+              "correct": false,
+              "feedback": "Review: Neuter singular can name a thing or quality."
+            },
+            {
+              "text": "the good thing",
+              "correct": true,
+              "feedback": "Correct: Neuter singular can name a thing or quality."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "Which phrase means “to the brave people”?",
+          "choices": [
+            {
+              "text": "τοῖς ἀνδρείοις",
+              "correct": true,
+              "feedback": "Correct: Dative plural τοῖς ... -οις marks the recipients."
+            },
+            {
+              "text": "τοὺς ἀνδρείους",
+              "correct": false,
+              "feedback": "Review: Dative plural τοῖς ... -οις marks the recipients."
+            },
+            {
+              "text": "οἱ ἀνδρεῖοι",
+              "correct": false,
+              "feedback": "Review: Dative plural τοῖς ... -οις marks the recipients."
+            },
+            {
+              "text": "τῶν ἀνδρείων",
+              "correct": false,
+              "feedback": "Review: Dative plural τοῖς ... -οις marks the recipients."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "substantive-adjectives",
+          "prompt": "What supplies an omitted noun with a substantive adjective?",
+          "choices": [
+            {
+              "text": "the word order alone",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "the context",
+              "correct": true,
+              "feedback": "Correct: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "a fixed rule that it means kings",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "a future ending",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which part of φύλαξ, φύλακος, ὁ gives gender?",
+          "choices": [
+            {
+              "text": "-ος alone",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "the comma",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "ὁ",
+              "correct": true,
+              "feedback": "Correct: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "φύλαξ alone",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "What stem does φύλακος reveal?",
+          "choices": [
+            {
+              "text": "φυλαξ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος."
+            },
+            {
+              "text": "φυλακοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος."
+            },
+            {
+              "text": "φυλα-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος."
+            },
+            {
+              "text": "φυλακ-",
+              "correct": true,
+              "feedback": "Correct: Remove genitive -ος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "What is the usual second-declension genitive singular ending?",
+          "choices": [
+            {
+              "text": "-ου",
+              "correct": true,
+              "feedback": "Correct: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ας",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-σι(ν)",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ων",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which entry is first declension?",
+          "choices": [
+            {
+              "text": "στρατηγός, στρατηγοῦ, ὁ",
+              "correct": false,
+              "feedback": "Review: τροφῆς identifies the first-declension pattern."
+            },
+            {
+              "text": "τροφή, τροφῆς, ἡ",
+              "correct": true,
+              "feedback": "Correct: τροφῆς identifies the first-declension pattern."
+            },
+            {
+              "text": "φύλαξ, φύλακος, ὁ",
+              "correct": false,
+              "feedback": "Review: τροφῆς identifies the first-declension pattern."
+            },
+            {
+              "text": "σῶμα, σώματος, τό",
+              "correct": false,
+              "feedback": "Review: τροφῆς identifies the first-declension pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which statement about gender and declension is correct?",
+          "choices": [
+            {
+              "text": "neuters must be second declension",
+              "correct": false,
+              "feedback": "Review: Declension and gender are separate properties."
+            },
+            {
+              "text": "the genitive always supplies gender alone",
+              "correct": false,
+              "feedback": "Review: Declension and gender are separate properties."
+            },
+            {
+              "text": "third-declension nouns can have different genders",
+              "correct": true,
+              "feedback": "Correct: Declension and gender are separate properties."
+            },
+            {
+              "text": "all third-declension nouns are masculine",
+              "correct": false,
+              "feedback": "Review: Declension and gender are separate properties."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "declension-systems",
+          "prompt": "Which case is φύλακος in τὸ σῶμα τοῦ φύλακος?",
+          "choices": [
+            {
+              "text": "nominative plural",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "dative singular",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "accusative plural",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "genitive singular",
+              "correct": true,
+              "feedback": "Correct: It means of the guard."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Which form is accusative plural of φύλαξ?",
+          "choices": [
+            {
+              "text": "φύλακας",
+              "correct": true,
+              "feedback": "Correct: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακες",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακος",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακι",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Which form means “to a guard”?",
+          "choices": [
+            {
+              "text": "φυλάκων",
+              "correct": false,
+              "feedback": "Review: Dative singular adds -ι to φυλακ-."
+            },
+            {
+              "text": "φύλακι",
+              "correct": true,
+              "feedback": "Correct: Dative singular adds -ι to φυλακ-."
+            },
+            {
+              "text": "φύλακα",
+              "correct": false,
+              "feedback": "Review: Dative singular adds -ι to φυλακ-."
+            },
+            {
+              "text": "φύλακες",
+              "correct": false,
+              "feedback": "Review: Dative singular adds -ι to φυλακ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "What happens to κ before σ in φύλαξι?",
+          "choices": [
+            {
+              "text": "σ becomes τ",
+              "correct": false,
+              "feedback": "Review: Velar plus sigma is written ξ."
+            },
+            {
+              "text": "both letters remain κσ",
+              "correct": false,
+              "feedback": "Review: Velar plus sigma is written ξ."
+            },
+            {
+              "text": "κ + σ becomes ξ",
+              "correct": true,
+              "feedback": "Correct: Velar plus sigma is written ξ."
+            },
+            {
+              "text": "κ becomes μ",
+              "correct": false,
+              "feedback": "Review: Velar plus sigma is written ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "What is the genitive singular of σῶμα?",
+          "choices": [
+            {
+              "text": "σῶμα",
+              "correct": false,
+              "feedback": "Review: The genitive reveals σωματ-."
+            },
+            {
+              "text": "σώματα",
+              "correct": false,
+              "feedback": "Review: The genitive reveals σωματ-."
+            },
+            {
+              "text": "σώμασι",
+              "correct": false,
+              "feedback": "Review: The genitive reveals σωματ-."
+            },
+            {
+              "text": "σώματος",
+              "correct": true,
+              "feedback": "Correct: The genitive reveals σωματ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Why can σώματα be either nominative or accusative?",
+          "choices": [
+            {
+              "text": "neuter nominative and accusative are identical",
+              "correct": true,
+              "feedback": "Correct: All neuters share nominative and accusative forms."
+            },
+            {
+              "text": "every plural has one case",
+              "correct": false,
+              "feedback": "Review: All neuters share nominative and accusative forms."
+            },
+            {
+              "text": "-α is always dative",
+              "correct": false,
+              "feedback": "Review: All neuters share nominative and accusative forms."
+            },
+            {
+              "text": "the noun has no stem",
+              "correct": false,
+              "feedback": "Review: All neuters share nominative and accusative forms."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "velar-dental-stems",
+          "prompt": "Which is dative plural of σῶμα?",
+          "choices": [
+            {
+              "text": "σώματα",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σώμασι(ν)",
+              "correct": true,
+              "feedback": "Correct: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σώματι",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σωμάτων",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Who is the object in ὁ στρατηγὸς ἑαυτὸν σῴζει?",
+          "choices": [
+            {
+              "text": "the soldiers",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            },
+            {
+              "text": "Cyrus’s friend",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            },
+            {
+              "text": "the general himself",
+              "correct": true,
+              "feedback": "Correct: The reflexive points back to the subject."
+            },
+            {
+              "text": "another commander",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Which form fits ἐγὼ ___ παρασκευάζω for “I prepare myself” (male speaker)?",
+          "choices": [
+            {
+              "text": "σεαυτόν",
+              "correct": false,
+              "feedback": "Review: First-person singular masculine accusative is ἐμαυτόν."
+            },
+            {
+              "text": "ἑαυτῶν",
+              "correct": false,
+              "feedback": "Review: First-person singular masculine accusative is ἐμαυτόν."
+            },
+            {
+              "text": "αὐτούς",
+              "correct": false,
+              "feedback": "Review: First-person singular masculine accusative is ἐμαυτόν."
+            },
+            {
+              "text": "ἐμαυτόν",
+              "correct": true,
+              "feedback": "Correct: First-person singular masculine accusative is ἐμαυτόν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Which form fits a woman saving herself?",
+          "choices": [
+            {
+              "text": "ἑαυτήν",
+              "correct": true,
+              "feedback": "Correct: The direct object is feminine accusative singular."
+            },
+            {
+              "text": "ἑαυτόν",
+              "correct": false,
+              "feedback": "Review: The direct object is feminine accusative singular."
+            },
+            {
+              "text": "ἑαυτῇ",
+              "correct": false,
+              "feedback": "Review: The direct object is feminine accusative singular."
+            },
+            {
+              "text": "ἑαυτοῦ",
+              "correct": false,
+              "feedback": "Review: The direct object is feminine accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Why is ἑαυτοῦ genitive in ἑαυτοῦ ἐπιμελεῖται?",
+          "choices": [
+            {
+              "text": "the pronoun is a nominative",
+              "correct": false,
+              "feedback": "Review: The verb determines the pronoun’s case."
+            },
+            {
+              "text": "the care verb takes genitive",
+              "correct": true,
+              "feedback": "Correct: The verb determines the pronoun’s case."
+            },
+            {
+              "text": "all pronouns are genitive",
+              "correct": false,
+              "feedback": "Review: The verb determines the pronoun’s case."
+            },
+            {
+              "text": "the subject is plural",
+              "correct": false,
+              "feedback": "Review: The verb determines the pronoun’s case."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "Which means “the guards save themselves”?",
+          "choices": [
+            {
+              "text": "οἱ φύλακες σεαυτὴν σῴζουσιν",
+              "correct": false,
+              "feedback": "Review: Plural masculine accusative ἑαυτούς refers back to guards."
+            },
+            {
+              "text": "οἱ φύλακες ἑαυτοῦ σῴζουσιν",
+              "correct": false,
+              "feedback": "Review: Plural masculine accusative ἑαυτούς refers back to guards."
+            },
+            {
+              "text": "οἱ φύλακες ἑαυτοὺς σῴζουσιν",
+              "correct": true,
+              "feedback": "Correct: Plural masculine accusative ἑαυτούς refers back to guards."
+            },
+            {
+              "text": "οἱ φύλακες ἐμαυτὸν σῴζουσιν",
+              "correct": false,
+              "feedback": "Review: Plural masculine accusative ἑαυτούς refers back to guards."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reflexive-pronouns",
+          "prompt": "What is the usual distinction between ἑαυτόν and αὐτόν as objects?",
+          "choices": [
+            {
+              "text": "present versus future",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "singular versus plural",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "masculine versus neuter",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "himself versus him",
+              "correct": true,
+              "feedback": "Correct: Reflexive identity differs from an ordinary third-person object."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 13 Final Quiz — Among the Soldiers at Sardis",
+      "description": "Reading, vocabulary, taught grammar, and the Greek world",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-13-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80% to complete Lesson 13.",
+      "questions": [
+        {
+          "id": "lesson-13-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does Xenophon catch up with Cyrus and Proxenus?",
+          "choices": [
+            {
+              "text": "Sardis",
+              "correct": true,
+              "feedback": "Correct: Anabasis places their meeting at Sardis."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: Anabasis places their meeting at Sardis."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "Review: Anabasis places their meeting at Sardis."
+            },
+            {
+              "text": "Tarsus",
+              "correct": false,
+              "feedback": "Review: Anabasis places their meeting at Sardis."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What brings Xenophon to the expedition?",
+          "choices": [
+            {
+              "text": "an appointment as captain",
+              "correct": false,
+              "feedback": "Review: Proxenus invites his friend."
+            },
+            {
+              "text": "his friendship with Proxenus",
+              "correct": true,
+              "feedback": "Correct: Proxenus invites his friend."
+            },
+            {
+              "text": "an election as general",
+              "correct": false,
+              "feedback": "Review: Proxenus invites his friend."
+            },
+            {
+              "text": "a summons as an ordinary soldier",
+              "correct": false,
+              "feedback": "Review: Proxenus invites his friend."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which office does Xenophon hold initially?",
+          "choices": [
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "Review: He explicitly denies all three ranks."
+            },
+            {
+              "text": "ordinary soldier",
+              "correct": false,
+              "feedback": "Review: He explicitly denies all three ranks."
+            },
+            {
+              "text": "none of the three named military ranks",
+              "correct": true,
+              "feedback": "Correct: He explicitly denies all three ranks."
+            },
+            {
+              "text": "general",
+              "correct": false,
+              "feedback": "Review: He explicitly denies all three ranks."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Proxenus have in his contingent?",
+          "choices": [
+            {
+              "text": "only cavalry",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.3 names both kinds of infantry."
+            },
+            {
+              "text": "only sailors",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.3 names both kinds of infantry."
+            },
+            {
+              "text": "only priests",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.3 names both kinds of infantry."
+            },
+            {
+              "text": "hoplites and light-armed men",
+              "correct": true,
+              "feedback": "Correct: Anabasis 1.2.3 names both kinds of infantry."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What is the announced target of the expedition?",
+          "choices": [
+            {
+              "text": "the Pisidians",
+              "correct": true,
+              "feedback": "Correct: Cyrus presents a campaign against the Pisidians."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "Review: Cyrus presents a campaign against the Pisidians."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: Cyrus presents a campaign against the Pisidians."
+            },
+            {
+              "text": "the Spartans",
+              "correct": false,
+              "feedback": "Review: Cyrus presents a campaign against the Pisidians."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Does Xenophon know the true objective at this point?",
+          "choices": [
+            {
+              "text": "yes, because he is king",
+              "correct": false,
+              "feedback": "Review: The account says he is deceived about the purpose."
+            },
+            {
+              "text": "no",
+              "correct": true,
+              "feedback": "Correct: The account says he is deceived about the purpose."
+            },
+            {
+              "text": "yes, as commander",
+              "correct": false,
+              "feedback": "Review: The account says he is deceived about the purpose."
+            },
+            {
+              "text": "yes, from Socrates’s order",
+              "correct": false,
+              "feedback": "Review: The account says he is deceived about the purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-7",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whom do the brave protect in the adapted reading?",
+          "choices": [
+            {
+              "text": "only Cyrus’s horses",
+              "correct": false,
+              "feedback": "Review: The reading explicitly adds friends to self-protection."
+            },
+            {
+              "text": "only the commanders",
+              "correct": false,
+              "feedback": "Review: The reading explicitly adds friends to self-protection."
+            },
+            {
+              "text": "themselves and their friends",
+              "correct": true,
+              "feedback": "Correct: The reading explicitly adds friends to self-protection."
+            },
+            {
+              "text": "only themselves",
+              "correct": false,
+              "feedback": "Review: The reading explicitly adds friends to self-protection."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-8",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What is the status of the reunion dialogue?",
+          "choices": [
+            {
+              "text": "preserved exact ancient speech",
+              "correct": false,
+              "feedback": "Review: The source reports arrival and introduction, not this wording."
+            },
+            {
+              "text": "a letter from Socrates",
+              "correct": false,
+              "feedback": "Review: The source reports arrival and introduction, not this wording."
+            },
+            {
+              "text": "an Athenian decree",
+              "correct": false,
+              "feedback": "Review: The source reports arrival and introduction, not this wording."
+            },
+            {
+              "text": "course reconstruction",
+              "correct": true,
+              "feedback": "Correct: The source reports arrival and introduction, not this wording."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ στρατηγός mean?",
+          "choices": [
+            {
+              "text": "general",
+              "correct": true,
+              "feedback": "Correct: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "care for",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "of himself",
+              "correct": false,
+              "feedback": "Review: ὁ στρατηγός: general. Dictionary form: στρατηγός, στρατηγοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ λοχαγός mean?",
+          "choices": [
+            {
+              "text": "general",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "captain",
+              "correct": true,
+              "feedback": "Correct: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "objective",
+              "correct": false,
+              "feedback": "Review: ὁ λοχαγός: captain. Dictionary form: λοχαγός, λοχαγοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ σῶμα mean?",
+          "choices": [
+            {
+              "text": "save",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            },
+            {
+              "text": "body",
+              "correct": true,
+              "feedback": "Correct: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            },
+            {
+              "text": "protect",
+              "correct": false,
+              "feedback": "Review: τὸ σῶμα: body. Dictionary form: σῶμα, σώματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ πρᾶγμα mean?",
+          "choices": [
+            {
+              "text": "of myself",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "friendship",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "objective",
+              "correct": false,
+              "feedback": "Review: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "affair; thing",
+              "correct": true,
+              "feedback": "Correct: τὸ πρᾶγμα: affair; thing. Dictionary form: πρᾶγμα, πράγματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does φυλάττω mean?",
+          "choices": [
+            {
+              "text": "protect",
+              "correct": true,
+              "feedback": "Correct: φυλάττω: protect. Dictionary form: φυλάττω."
+            },
+            {
+              "text": "guard",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect. Dictionary form: φυλάττω."
+            },
+            {
+              "text": "brave",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect. Dictionary form: φυλάττω."
+            },
+            {
+              "text": "body",
+              "correct": false,
+              "feedback": "Review: φυλάττω: protect. Dictionary form: φυλάττω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does σῴζω mean?",
+          "choices": [
+            {
+              "text": "weapons",
+              "correct": false,
+              "feedback": "Review: σῴζω: save. Dictionary form: σῴζω."
+            },
+            {
+              "text": "save",
+              "correct": true,
+              "feedback": "Correct: σῴζω: save. Dictionary form: σῴζω."
+            },
+            {
+              "text": "affair; thing",
+              "correct": false,
+              "feedback": "Review: σῴζω: save. Dictionary form: σῴζω."
+            },
+            {
+              "text": "camp",
+              "correct": false,
+              "feedback": "Review: σῴζω: save. Dictionary form: σῴζω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does οἱ ἀνδρεῖοι mean without a noun?",
+          "choices": [
+            {
+              "text": "of brave people",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "to brave people",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "the brave people",
+              "correct": true,
+              "feedback": "Correct: Masculine nominative plural with the article names people."
+            },
+            {
+              "text": "the brave thing",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural with the article names people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What supplies an omitted noun with a substantive adjective?",
+          "choices": [
+            {
+              "text": "a fixed rule that it means kings",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "a future ending",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "the word order alone",
+              "correct": false,
+              "feedback": "Review: The adjective names a contextual group or thing."
+            },
+            {
+              "text": "the context",
+              "correct": true,
+              "feedback": "Correct: The adjective names a contextual group or thing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which part of φύλαξ, φύλακος, ὁ gives gender?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": true,
+              "feedback": "Correct: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "φύλαξ alone",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "-ος alone",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            },
+            {
+              "text": "the comma",
+              "correct": false,
+              "feedback": "Review: The article ὁ marks masculine gender."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which case is φύλακος in τὸ σῶμα τοῦ φύλακος?",
+          "choices": [
+            {
+              "text": "accusative plural",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "genitive singular",
+              "correct": true,
+              "feedback": "Correct: It means of the guard."
+            },
+            {
+              "text": "nominative plural",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            },
+            {
+              "text": "dative singular",
+              "correct": false,
+              "feedback": "Review: It means of the guard."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which form is accusative plural of φύλαξ?",
+          "choices": [
+            {
+              "text": "φύλακος",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακι",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακας",
+              "correct": true,
+              "feedback": "Correct: Masculine accusative plural ends in -ας."
+            },
+            {
+              "text": "φύλακες",
+              "correct": false,
+              "feedback": "Review: Masculine accusative plural ends in -ας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which is dative plural of σῶμα?",
+          "choices": [
+            {
+              "text": "σώματι",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σωμάτων",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σώματα",
+              "correct": false,
+              "feedback": "Review: Dental τ drops before σ in -σι."
+            },
+            {
+              "text": "σώμασι(ν)",
+              "correct": true,
+              "feedback": "Correct: Dental τ drops before σ in -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Who is the object in ὁ στρατηγὸς ἑαυτὸν σῴζει?",
+          "choices": [
+            {
+              "text": "the general himself",
+              "correct": true,
+              "feedback": "Correct: The reflexive points back to the subject."
+            },
+            {
+              "text": "another commander",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            },
+            {
+              "text": "the soldiers",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            },
+            {
+              "text": "Cyrus’s friend",
+              "correct": false,
+              "feedback": "Review: The reflexive points back to the subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the usual distinction between ἑαυτόν and αὐτόν as objects?",
+          "choices": [
+            {
+              "text": "masculine versus neuter",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "himself versus him",
+              "correct": true,
+              "feedback": "Correct: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "present versus future",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            },
+            {
+              "text": "singular versus plural",
+              "correct": false,
+              "feedback": "Review: Reflexive identity differs from an ordinary third-person object."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "In οἱ ἀγαθοὶ τοὺς φίλους σῴζουσιν, who protects?",
+          "choices": [
+            {
+              "text": "the food",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the camp",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the good people",
+              "correct": true,
+              "feedback": "Correct: οἱ ἀγαθοί is nominative subject."
+            },
+            {
+              "text": "the friends",
+              "correct": false,
+              "feedback": "Review: οἱ ἀγαθοί is nominative subject."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the usual second-declension genitive singular ending?",
+          "choices": [
+            {
+              "text": "-ας",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-σι(ν)",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ων",
+              "correct": false,
+              "feedback": "Review: στρατηγοῦ illustrates second-declension -ου."
+            },
+            {
+              "text": "-ου",
+              "correct": true,
+              "feedback": "Correct: στρατηγοῦ illustrates second-declension -ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the gathering at Sardis show?",
+          "choices": [
+            {
+              "text": "an army assembled from different contingents",
+              "correct": true,
+              "feedback": "Correct: Different commanders bring different groups."
+            },
+            {
+              "text": "one Athenian citizen regiment only",
+              "correct": false,
+              "feedback": "Review: Different commanders bring different groups."
+            },
+            {
+              "text": "a naval assembly",
+              "correct": false,
+              "feedback": "Review: Different commanders bring different groups."
+            },
+            {
+              "text": "a festival without troops",
+              "correct": false,
+              "feedback": "Review: Different commanders bring different groups."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Who suspects Cyrus’s preparations are more extensive than his stated target?",
+          "choices": [
+            {
+              "text": "Nicomachides at Sardis",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.4–5 records Tissaphernes’s suspicion."
+            },
+            {
+              "text": "Tissaphernes",
+              "correct": true,
+              "feedback": "Correct: Anabasis 1.2.4–5 records Tissaphernes’s suspicion."
+            },
+            {
+              "text": "Socrates in the camp",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.4–5 records Tissaphernes’s suspicion."
+            },
+            {
+              "text": "Epyaxa at Delphi",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.4–5 records Tissaphernes’s suspicion."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does a λοχαγός command?",
+          "choices": [
+            {
+              "text": "a chorus",
+              "correct": false,
+              "feedback": "Review: The term denotes a company commander."
+            },
+            {
+              "text": "a city council",
+              "correct": false,
+              "feedback": "Review: The term denotes a company commander."
+            },
+            {
+              "text": "a company",
+              "correct": true,
+              "feedback": "Correct: The term denotes a company commander."
+            },
+            {
+              "text": "a sanctuary",
+              "correct": false,
+              "feedback": "Review: The term denotes a company commander."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should a shepherd-like leader provide?",
+          "choices": [
+            {
+              "text": "only a prestigious title",
+              "correct": false,
+              "feedback": "Review: Memorabilia 3.2 stresses responsibility for followers."
+            },
+            {
+              "text": "only personal wealth",
+              "correct": false,
+              "feedback": "Review: Memorabilia 3.2 stresses responsibility for followers."
+            },
+            {
+              "text": "only personal survival",
+              "correct": false,
+              "feedback": "Review: Memorabilia 3.2 stresses responsibility for followers."
+            },
+            {
+              "text": "safety and supplies",
+              "correct": true,
+              "feedback": "Correct: Memorabilia 3.2 stresses responsibility for followers."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why is the companion Socratic teaching included?",
+          "choices": [
+            {
+              "text": "to compare care with military leadership",
+              "correct": true,
+              "feedback": "Correct: It is explicitly a separate comparison scene."
+            },
+            {
+              "text": "to claim Socrates traveled with Cyrus",
+              "correct": false,
+              "feedback": "Review: It is explicitly a separate comparison scene."
+            },
+            {
+              "text": "to prove Xenophon remembered exact words",
+              "correct": false,
+              "feedback": "Review: It is explicitly a separate comparison scene."
+            },
+            {
+              "text": "to replace the Sardis episode",
+              "correct": false,
+              "feedback": "Review: It is explicitly a separate comparison scene."
+            }
+          ]
+        },
+        {
+          "id": "lesson-13-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the initial rank statement prevent us from assuming?",
+          "choices": [
+            {
+              "text": "that Cyrus welcomed him",
+              "correct": false,
+              "feedback": "Review: Access through friendship is not a military office."
+            },
+            {
+              "text": "that Xenophon already commanded troops",
+              "correct": true,
+              "feedback": "Correct: Access through friendship is not a military office."
+            },
+            {
+              "text": "that Xenophon was Athenian",
+              "correct": false,
+              "feedback": "Review: Access through friendship is not a military office."
+            },
+            {
+              "text": "that Proxenus was his friend",
+              "correct": false,
+              "feedback": "Review: Access through friendship is not a military office."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-12",
+    "title": "The Question He Did Not Ask",
+    "fallbackUrl": "lesson.html?lesson=12&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-14",
+    "title": "Who Is Fit to Lead?",
+    "fallbackUrl": "lesson.html?lesson=14&page=1"
+  },
+  "contentRevision": "lesson-13-module-2-v1"
+}

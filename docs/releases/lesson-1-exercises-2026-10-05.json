@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-05",
+  "revision": "lesson-1-exercises-v2",
+  "site": "https://learn-greek-xenophon.netlify.app",
+  "productionDeployId": "6ac3eeb55f6a932f8f9789d0",
+  "previewDeployId": "6ac3edced41654937347ed5c",
+  "previousProductionDeployId": "6ac3dd16d1a4e191f0ff01cc",
+  "artifactDirectory": "/private/tmp/xenophon-lesson1-exercises-release-20261005",
+  "migration": "db/migrations/0043_lesson_1_complete_exercises.sql",
+  "databaseVersion": 23,
+  "migrationIdempotent": true,
+  "git": "Manual deployment; existing uncommitted work preserved",
+  "practiceCounts": {
+    "verb-forms": 50,
+    "nouns-cases-agreement": 50,
+    "noun-adjective-agreement": 50,
+    "definite-article": 50,
+    "sentence-parts": 50
+  },
+  "roundSize": 10,
+  "grammarModes": [
+    "multiple-choice",
+    "sentence-labeling",
+    "matching",
+    "fill-in-the-blank",
+    "translation-builder"
+  ],
+  "verified": [
+    "250 unique practice prompts; five rounds/topic",
+    "Preview: all five sentence-parts rounds and scrolling",
+    "Preview: typed Greek accent-only pass and absent breathing failure",
+    "Preview: both builder translation directions, 100%",
+    "Mobile: 390px no horizontal overflow",
+    "Live: all five practice counts, all five mode controls, no placeholders",
+    "Live: matching grading 100%",
+    "Database/API: reading and final quiz preserved; idempotent migration"
+  ],
+  "sha256": {
+    "activity.js": "0e1fd01a9450207dec50483df04a11900874d09e372e6a4a328d97a975a476c4",
+    "lesson-data.js": "dac37114e65fc2634ea7fca91f8fd9b8a61955a2bbd25215e56bd0e51234b7eb",
+    "grammar-exercises.js": "307208e2eca57702a50fddb3abef9093639c4139d7f9ef0f79e3b76d079d63a4",
+    "styles.css": "5bec38839b3f4df59b87e4ac62db833ba60a0cfbc1162f5637ad80d25d2826cb",
+    "activity.html": "800da1713ff707b357680d0cdb130e10f0f603c724836e629e3b8652a038638f"
+  },
+  "scope": "Lesson 1 practice and grammar only. Prior saved-feedback/course-flow release preserved. Separate local AI, reading-translation, and atlas work not included."
+}

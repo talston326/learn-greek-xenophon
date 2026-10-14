@@ -1,3 +1,4 @@
+import {readSitePolicy} from './_shared/site-policy.mts';
 import {
   buildCourseUser,
   createDatabaseClient,
@@ -6,6 +7,7 @@ import {
   normalizeEmail,
 } from "./_shared/course-auth.mts";
 import { scoreAssessment } from "./_shared/assessment-scoring.mts";
+import translationBank from '../../content/lesson-1-translations.json' with { type: 'json' };
 
 type LessonProgressRequest = {
   email?: string;
@@ -20,7 +22,8 @@ type LessonProgressRequest = {
   pointsEarned?: number;
   pointsPossible?: number;
   categoryScores?: Array<Record<string, unknown>>;
-  answers?: Array<{ questionId?: string; choiceText?: string }>;
+  answers?: Array<{ questionId?: string; choiceText?: string; text?: string }>;
+  translationCheckId?: string;
   passed?: boolean;
   nextLessonSlug?: string;
   advanceToNext?: boolean;
@@ -125,6 +128,7 @@ export default async (request: Request) => {
       return jsonResponse({ error: "No active course user was found." }, 404);
     }
 
+    const policy=await readSitePolicy(client,user.course_id);
     const lessonResult = await client.query(
       `
         SELECT l.id, l.title, l.sort_order, m.sort_order AS module_sort_order
@@ -216,6 +220,33 @@ export default async (request: Request) => {
       let passed = Boolean(body.passed);
       let categoryScores = Array.isArray(body.categoryScores) ? body.categoryScores : [];
 
+      if (lessonSlug === 'lesson-1' && ['grammar-exercises', 'lesson-quiz'].includes(body.activityType || '')) {
+        const activityRows = await client.query(`SELECT content->'activities'->$2 AS activity FROM public.lesson_content_overrides WHERE lesson_id = $1`, [lesson.id, body.activityType]);
+        const activity = activityRows.rows[0]?.activity;
+        // Support the local pilot before publishing its additive question migration.
+        if (activity && !activity.translationRevision && body.translationCheckId) {
+          activity.questions = [...activity.questions, ...translationBank.activities[body.activityType as 'grammar-exercises' | 'lesson-quiz']];
+          activity.translationRevision = translationBank.revision;
+          if (body.activityType === 'lesson-quiz') activity.revision = translationBank.revision;
+        }
+        if (activity?.translationRevision) {
+          if (body.activityType === 'lesson-quiz' && body.activityRevision !== activity.revision) {
+            await client.query('ROLLBACK'); return jsonResponse({ error: 'Reload the current Lesson 1 quiz.' }, 400);
+          }
+          const receipt = await client.query(`SELECT answers, results FROM public.translation_checks WHERE id::text = $1 AND user_id = $2 AND activity_type = $3 AND revision = $4 AND status = 'complete'`, [body.translationCheckId || '', user.user_id, body.activityType, activity.translationRevision]);
+          const checked = receipt.rows[0];
+          try {
+            if (!checked) throw new Error('Check your translations before submitting.');
+            const translations = checked.results.map((r: any) => ({ questionId: r.questionId, passed: r.passed, text: checked.answers.find((a: any) => a.questionId === r.questionId)?.text }));
+            const graded = scoreAssessment({ ...activity, threshold: activity.threshold ?? (body.activityType === 'lesson-quiz' ? policy.quizPassingScore : policy.grammarPassingScore) }, body.answers || [], translations);
+            ({ score, passed, pointsEarned, pointsPossible, categoryScores } = graded);
+            examResult = { score, passed, pointsEarned, pointsPossible };
+          } catch (error) {
+            await client.query('ROLLBACK'); return jsonResponse({ error: error instanceof Error ? error.message : 'Invalid translation answers.' }, 400);
+          }
+        }
+      }
+
       if (lessonSlug === 'lesson-12' && ['lesson-quiz', 'module-exam'].includes(body.activityType || '')) {
         const examRows = await client.query(
           `SELECT content->'activities'->'module-exam' AS exam,
@@ -225,6 +256,7 @@ export default async (request: Request) => {
         );
         const exam = body.activityType === 'module-exam' ? examRows.rows[0]?.exam : examRows.rows[0]?.lesson_quiz;
         const lessonQuiz = examRows.rows[0]?.lesson_quiz;
+        if(exam && body.activityType==='lesson-quiz' && exam.threshold==null)exam.threshold=policy.quizPassingScore;
         if (!exam?.questions?.length || (body.activityType === 'module-exam' && !exam.isModuleExam) || body.activityRevision !== exam.revision) {
           await client.query('ROLLBACK');
           return jsonResponse({ error: 'Use the current assessment.' }, 400);
@@ -343,17 +375,18 @@ export default async (request: Request) => {
         [lesson.id]
       );
       const requiredRevision = quizRequirement.rows[0]?.revision;
-      if (requiredRevision) {
+      const staff=(await client.query("SELECT 1 FROM public.user_roles WHERE user_id=$1 AND role_id IN ('administrator','professor') LIMIT 1",[user.user_id])).rowCount;
+      if (requiredRevision || (policy.lessonAccess==='sequential' && /^lesson-\d+$/.test(lessonSlug) && !staff)) {
         const passedQuiz = await client.query(
           `SELECT 1 FROM public.activity_events
            WHERE user_id = $1 AND course_id = $2 AND event_type = 'quiz_passed'
              AND metadata->>'lessonSlug' = $3
              AND metadata->>'activityType' = 'lesson-quiz'
-             AND metadata->>'activityRevision' = $4
+             AND ($4::text IS NULL OR metadata->>'activityRevision' = $4)
              AND metadata->>'passed' = 'true'
              AND (metadata->>'score')::numeric >= $5
            LIMIT 1`,
-          [user.user_id, user.course_id, lessonSlug, requiredRevision, quizRequirement.rows[0]?.threshold || 80]
+          [user.user_id, user.course_id, lessonSlug, requiredRevision, quizRequirement.rows[0]?.threshold || policy.quizPassingScore]
         );
         if (!passedQuiz.rowCount) {
           await client.query("ROLLBACK");

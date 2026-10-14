@@ -10,8 +10,8 @@ import {
   requireDevClassPassword,
 } from "./_shared/course-auth.mts";
 
-const COURSE_CODE = "GREK 120 J10";
-const COURSE_TERM = "Fall 2027";
+import {readSitePolicy} from './_shared/site-policy.mts';
+
 
 function isLikelyEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -58,6 +58,9 @@ export default async (request: Request) => {
   try {
     await client.connect();
     await client.query("BEGIN");
+    const policy=await readSitePolicy(client);
+    if(!policy.registrationOpen){await client.query('ROLLBACK');return jsonResponse({error:'New student registration is currently closed. Existing students can still log in.'},403);}
+
 
     await client.query(
       `
@@ -84,11 +87,10 @@ export default async (request: Request) => {
       `
         SELECT id
         FROM public.courses
-        WHERE code = $1
-          AND term = $2
-        LIMIT 1
+        WHERE EXISTS (SELECT 1 FROM public.course_site_settings s WHERE s.course_id=public.courses.id)
+        ORDER BY created_at DESC LIMIT 1
       `,
-      [COURSE_CODE, COURSE_TERM]
+      []
     );
     const [course] = courseResult.rows;
 

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-11",
+  "productionUrl": "https://learn-greek-xenophon.netlify.app",
+  "productionDeployId": "6acbd0409ec63365f977ca12",
+  "previewDeployId": "6acbcfc990d71fb6ac7c5ea1",
+  "migration": "0045_publish_module_2.sql",
+  "lessonRange": [
+    13,
+    24
+  ],
+  "totals": {
+    "lessons": 12,
+    "readingParagraphs": 86,
+    "vocabulary": 264,
+    "requiredVocabulary": 226,
+    "grammarSections": 57,
+    "questions": 1628,
+    "finalQuizQuestions": 360,
+    "banners": 12
+  },
+  "unchangedPublishedFilesVerified": 322,
+  "backendFunctionCount": 17,
+  "backendChange": "Preserve authored vocabulary groups/forms for lesson-13 through lesson-24 with the current Module II revision.",
+  "checks": {
+    "structural": true,
+    "migrationTrialAndIdempotence": true,
+    "productionMigration": true,
+    "canonicalLiveContent": true,
+    "allBannerHashes": true,
+    "liveLessonCatalog": true,
+    "earlierLesson1And12ExactlyPreserved": true,
+    "browser": true,
+    "studentGrammarGate": true,
+    "moduleOneEntryGate": true,
+    "mobileAllThreePages": true,
+    "scriptErrors": 0
+  },
+  "authoringAgents": {
+    "model": "GPT-6.1 Sol",
+    "reasoning": "High",
+    "count": 3
+  },
+  "git": "Local files saved; this task did not commit or push the shared checkout.",
+  "sha256": {
+    "content/lessons/lesson-13.json": "b36db06cebd42b3882584c55769b813c60149ebff6194d01faee12e39e35448c",
+    "content/lessons/lesson-14.json": "59e3c541c937899823eb577abbda442efd43dd87df1022ea567ede18fe10a8d4",
+    "content/lessons/lesson-15.json": "bd8ea658c648a33c2e47bb4db29b6128bd9c44c18e8ca331ba7dccdd9ba5accd",
+    "content/lessons/lesson-16.json": "3bad388619c654121231feda9832dfc2d0293a88cf2ef04e121c68b8b9179a48",
+    "content/lessons/lesson-17.json": "cec36bb246cedeff53c0f9aabb313a12dd380e7ad1a552ab11fd3305e1b089a1",
+    "content/lessons/lesson-18.json": "a2515119fa993403554874749df139d9cc8fb131460f5426a8c7eceb812c95e9",
+    "content/lessons/lesson-19.json": "2cfb3e6dedc385774cbefe34794b7a02c684ca85e6659541cff8a595a97a6e47",
+    "content/lessons/lesson-20.json": "bdf6485489d7cb955f47a9ff5159035bbed21db4705f40cdac92e19cf1e44987",
+    "content/lessons/lesson-21.json": "23a8435d288097e99f05249b89c4d5de4f8a067f4dcc2dd2245c46130dd1a22c",
+    "content/lessons/lesson-22.json": "67a65922a2050ce11cd1364199fba88bd11e9026ec344f5574deafe5b36fbaa7",
+    "content/lessons/lesson-23.json": "aacdde1d07747566c3a5f557161afe62e7623736ac5c61ddf8716e82cad2a367",
+    "content/lessons/lesson-24.json": "11cf6d19bfdc9056e4a19767a43140c8e7a0d3ffc1728a90f07108d270de5d0a"
+  }
+}

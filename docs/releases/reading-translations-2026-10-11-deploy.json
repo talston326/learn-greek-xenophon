@@ -1,0 +1,17 @@
+{
+  "id": "6acbe84ba545c3d5e1d20da9",
+  "url": "https://main--learn-greek-xenophon.netlify.app",
+  "mode": "publish",
+  "state": "ready",
+  "staticUpdates": [
+    "/lesson.js",
+    "/lesson.html",
+    "/styles.css",
+    "/reading-translation.js",
+    "/reading-translations.js",
+    "/reading-translations.html"
+  ],
+  "preservedFiles": 351,
+  "preservedFunctions": 17,
+  "functions": 19
+}

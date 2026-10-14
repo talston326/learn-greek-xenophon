@@ -75,10 +75,14 @@
           {
             ...fallbackActivity,
             ...databaseActivity,
-            questions: Array.isArray(databaseActivity.questions)
+            questions: (databaseActivity.authoritative || databaseActivity.revision === 'lesson-1-exercises-v2')
+              ? databaseActivity.questions
+              : Array.isArray(databaseActivity.questions)
               ? mergeById(fallbackActivity.questions || [], databaseActivity.questions)
               : fallbackActivity.questions,
-            modes: Array.isArray(databaseActivity.modes)
+            modes: (databaseActivity.authoritative || databaseActivity.revision === 'lesson-1-exercises-v2')
+              ? databaseActivity.modes
+              : Array.isArray(databaseActivity.modes)
               ? mergeById(fallbackActivity.modes || [], databaseActivity.modes)
               : fallbackActivity.modes
           }
@@ -340,7 +344,18 @@
 
   function prepareQuestions() {
     const activity = lesson.activities?.[activityType] || {};
-    const questions = getQuestions();
+    let questions = getQuestions();
+    if (questions.some(q => q.type === 'translation')) {
+      const existing = questions.filter(q => q.type !== 'translation');
+      const translations = questions.filter(q => q.type === 'translation');
+      questions = [];
+      let offset = 0;
+      translations.forEach((q, i) => {
+        const next = Math.ceil((i + 1) * existing.length / (translations.length + 1));
+        questions.push(...existing.slice(offset, next), q); offset = next;
+      });
+      questions.push(...existing.slice(offset));
+    }
 
     if (!activity.randomizeChoices && !activity.revision) {
       return questions;
@@ -384,13 +399,15 @@
   function prepareTopicQuestion(question) {
     return {
       ...question,
-      choices: shuffleChoices(question.choices)
+      choices: shuffleChoices(question.choices || [])
     };
   }
 
   function getTopicPracticeQuestions() {
     if (!topicPracticeQuestions.length) {
-      topicPracticeQuestions = shuffleItems(getQuestions());
+      topicPracticeQuestions = lesson.id === 'lesson-1' && lesson.activities?.[activityType]?.translationPerDirection
+        ? window.xenophonTranslationExercises.rounds(getQuestions(), shuffleItems)
+        : shuffleItems(getQuestions());
     }
 
     return topicPracticeQuestions;
@@ -429,7 +446,7 @@
           ${currentQuestions.map((question, questionIndex) => `
             <fieldset class="quiz-question topic-practice-question" data-topic-question="${questionIndex}">
               <legend>${escapeHtml(question.prompt)}</legend>
-              <div class="quiz-choice-list">
+              ${question.type === 'translation' ? window.xenophonTranslationExercises.render(question, questionIndex, true) : `<div class="quiz-choice-list">
                 ${question.choices.map((choice, choiceIndex) => `
                   <label data-topic-choice="${choiceIndex}">
                     <input type="radio" name="topic-question-${questionIndex}" value="${choiceIndex}">
@@ -437,7 +454,7 @@
                     <span>${escapeHtml(choice.text)}</span>
                   </label>
                 `).join("")}
-              </div>
+              </div>`}
               <p class="topic-choice-feedback" data-topic-feedback aria-live="polite"></p>
             </fieldset>
           `).join("")}
@@ -465,6 +482,36 @@
     shell.querySelectorAll("[data-topic-question]").forEach((questionEl) => {
       const questionIndex = Number(questionEl.dataset.topicQuestion);
       const question = currentQuestions[questionIndex];
+
+      if (question.type === 'translation') {
+        const input = questionEl.querySelector('[data-translation-answer]');
+        const feedback = questionEl.querySelector('[data-translation-feedback]');
+        let checking = false;
+        input.addEventListener('input', () => { questionEl.dataset.correct = 'false'; feedback.textContent = ''; updateTopicContinueState(); });
+        input.addEventListener('keydown', (event) => {
+          if (event.key !== 'Enter' || event.shiftKey || event.ctrlKey || event.metaKey || event.altKey || event.isComposing) return;
+          event.preventDefault();
+          if (!event.repeat && !checking && !input.readOnly) checkAnswer();
+        });
+        async function checkAnswer() {
+          if (checking || input.readOnly) return;
+          if (!input.reportValidity() || !input.value.trim()) return;
+          const text = input.value;
+          checking = true; input.readOnly = true; questionEl.setAttribute('aria-busy', 'true'); feedback.textContent = 'Checking your translation…';
+          try {
+            const data = await window.xenophonTranslationExercises.check(activityType, lesson.activities[activityType].translationRevision, [{ questionId: question.id, text }]);
+            if (input.value !== text) {
+              questionEl.dataset.correct = 'false';
+              feedback.textContent = 'Your answer changed. Press Return to check the current translation.';
+            } else {
+              questionEl.dataset.correct = String(data.results[0].passed);
+              window.xenophonTranslationExercises.feedback(feedback, data.results[0]);
+            }
+          } catch (error) { questionEl.dataset.correct = 'false'; feedback.textContent = error.message; }
+          finally { checking = false; input.readOnly = false; questionEl.removeAttribute('aria-busy'); updateTopicContinueState(); }
+        }
+        return;
+      }
 
       questionEl.querySelectorAll("input[type='radio']").forEach((input) => {
         input.addEventListener("change", () => {
@@ -518,9 +565,13 @@
 
       topicPracticeOffset = nextOffset;
       renderTopicPractice();
-      shell.querySelector("[data-topic-question]")?.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
+      requestAnimationFrame(() => {
+        shell.querySelector('.topic-practice-session')?.scrollIntoView({ behavior: 'instant', block: 'start' });
+        const firstQuestion = shell.querySelector('[data-topic-question]');
+        if (firstQuestion) {
+          firstQuestion.tabIndex = -1;
+          firstQuestion.focus({ preventScroll: true });
+        }
       });
     });
 
@@ -539,8 +590,8 @@
       <form class="quiz-form" data-quiz-form>
         ${lesson.activities?.[activityType]?.instructions ? `<p>${escapeHtml(lesson.activities[activityType].instructions)}</p>` : ""}
         <div class="activity-question-types">
-          <span>Multiple choice</span>
-          ${!lesson.activities?.[activityType]?.required && activityType !== "module-review-practice" ? `
+          <span>${questions.some(q => q.type === 'translation') ? 'Multiple choice and translation' : 'Multiple choice'}</span>
+          ${!questions.some(q => q.type === 'translation') && !lesson.activities?.[activityType]?.required && activityType !== "module-review-practice" ? `
           <span>Future-ready: matching</span>
           <span>Future-ready: fill-in-the-blank</span>
           <span>Future-ready: translation builder</span>
@@ -549,7 +600,7 @@
         ${questions.map((question, questionIndex) => `
           <fieldset class="quiz-question">
             <legend>${lesson.activities?.[activityType]?.required ? `${questionIndex + 1}. ` : ""}${question.sourceLesson ? `Lesson ${Number(question.sourceLesson)} · ` : ""}${escapeHtml(question.prompt)}</legend>
-            <div class="quiz-choice-list">
+            ${question.type === 'translation' ? window.xenophonTranslationExercises.render(question, questionIndex) : `<div class="quiz-choice-list">
               ${question.choices.map((choice, choiceIndex) => `
                 <label>
                   <input type="radio" name="question-${questionIndex}" value="${choiceIndex}" required>
@@ -557,7 +608,7 @@
                   <span>${escapeHtml(choice.text)}</span>
                 </label>
               `).join("")}
-            </div>
+            </div>`}
             <p class="topic-choice-feedback" data-quiz-feedback="${questionIndex}" aria-live="polite"></p>
           </fieldset>
         `).join("")}
@@ -578,7 +629,7 @@
     return [
       {
         type: "multiple-choice",
-        title: "Multiple Choice",
+        title: (activity.questions || []).some(q => q.type === 'translation') ? "Mixed Exercises" : "Multiple Choice",
         questions: activity.questions || []
       },
       ...(activity.modes || [])
@@ -593,11 +644,11 @@
 
   function renderGrammarExerciseModes(activeMode) {
     const modes = getGrammarExerciseModes();
-    const futureModes = lesson.activities?.["grammar-exercises"]?.required ? [] : [
-      "Future-ready: matching",
-      "Future-ready: fill-in-the-blank",
-      "Future-ready: translation builder"
-    ];
+    const futureModes = lesson.activities?.["grammar-exercises"]?.required || lesson.activities?.['grammar-exercises']?.translationRevision ? [] : [
+      ['matching', 'Future-ready: matching'],
+      ['fill-in-the-blank', 'Future-ready: fill-in-the-blank'],
+      ['translation-builder', 'Future-ready: translation builder']
+    ].filter(([type]) => !modes.some(mode => mode.type === type)).map(([,title]) => title);
 
     return `
       <div class="activity-question-types activity-question-types--buttons" role="group" aria-label="Grammar exercise modes">
@@ -678,6 +729,7 @@
                           maxlength="2"
                           autocomplete="off"
                           autocapitalize="characters"
+                          required
                           aria-label="Sentence ${itemIndex + 1}, label for ${escapeHtml(token.text)}"
                         >
                         <span class="sentence-label-status" aria-hidden="true"></span>
@@ -827,6 +879,18 @@
   function renderGrammarExercises() {
     const mode = getActiveGrammarExerciseMode();
 
+    if (['matching', 'fill-in-the-blank', 'translation-builder'].includes(mode.type)) {
+      window.xenophonGrammarExercises.render({
+        shell, mode, renderShell, renderModes: renderGrammarExerciseModes,
+        bindModes: bindGrammarExerciseModeControls, shuffle: shuffleItems,
+        threshold: lesson.activities['grammar-exercises'].threshold || 80, returnTo,
+        recordResult: ({score, passed}) => window.xenophonLessonProgress?.recordActivityResult({
+          lessonSlug: lesson.id, activityType, activityRevision: lesson.activities[activityType].revision, score, passed
+        })
+      });
+      return;
+    }
+
     if (mode.type === "sentence-labeling") {
       renderSentenceLabeling(mode);
       return;
@@ -841,8 +905,13 @@
     }
   }
 
-  function revealQuizFeedback(form, questions) {
+  function revealQuizFeedback(form, questions, translationResults = []) {
     questions.forEach((question, questionIndex) => {
+      if (question.type === 'translation') {
+        const result = translationResults.find(r => r.questionId === question.id);
+        if (result) window.xenophonTranslationExercises.feedback(form.querySelector(`[name="question-${questionIndex}"]`).closest('.translation-exercise').querySelector('[data-translation-feedback]'), result);
+        return;
+      }
       const selectedAnswer = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
       const selectedIndex = selectedAnswer ? Number(selectedAnswer.value) : -1;
 
@@ -888,14 +957,33 @@
     shell.querySelector("[data-quiz-form]")?.addEventListener("submit", async (event) => {
       event.preventDefault();
       const form = event.currentTarget;
-      if (lesson.activities?.[activityType]?.requireAllAnswers && questions.some((_, index) => !form.querySelector(`input[name="question-${index}"]:checked`))) {
+      if (form.dataset.checking === 'true') return;
+      const translationQuestions = questions.filter(q => q.type === 'translation');
+      const answered = (q, i) => q.type === 'translation' ? Boolean(form.querySelector(`[name="question-${i}"]`)?.value.trim()) : Boolean(form.querySelector(`input[name="question-${i}"]:checked`));
+      if ((lesson.activities?.[activityType]?.requireAllAnswers || translationQuestions.length) && questions.some((q, index) => !answered(q, index))) {
         const result = shell.querySelector("[data-activity-result]");
         if (result) result.textContent = activityType === "lesson-quiz"
           ? "Answer every question before submitting the final quiz."
           : "Answer every question before submitting the required exercises.";
-        const missingIndex = questions.findIndex((_, index) => !form.querySelector(`input[name="question-${index}"]:checked`));
-        form.querySelector(`input[name="question-${missingIndex}"]`)?.focus();
+        const missingIndex = questions.findIndex((q, index) => !answered(q, index));
+        form.querySelector(`[name="question-${missingIndex}"]`)?.focus();
         return;
+      }
+      let translationResults = [];
+      let translationCheckId;
+      const controls = [...form.querySelectorAll('input, textarea, button')];
+      const disabledBefore = controls.map(c => c.disabled);
+      form.dataset.checking = 'true';
+      if (translationQuestions.length) controls.forEach(c => c.disabled = true);
+      try {
+      if (translationQuestions.length) {
+        const result = shell.querySelector('[data-activity-result]');
+        if (result) result.textContent = 'Checking translations before calculating your score…';
+        try {
+          const data = await window.xenophonTranslationExercises.check(activityType, lesson.activities[activityType].translationRevision,
+            questions.flatMap((q, i) => q.type === 'translation' ? [{ questionId: q.id, text: form.querySelector(`[name="question-${i}"]`).value }] : []));
+          translationResults = data.results; translationCheckId = data.checkId;
+        } catch (error) { if (result) result.textContent = error.message; return; }
       }
       let correct = 0;
 
@@ -903,7 +991,7 @@
 
       questions.forEach((question, questionIndex) => {
         const answer = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
-        const isCorrect = Boolean(answer && question.choices[Number(answer.value)]?.correct);
+        const isCorrect = question.type === 'translation' ? Boolean(translationResults.find(r => r.questionId === question.id)?.passed) : Boolean(answer && question.choices[Number(answer.value)]?.correct);
         const category = question.category || "Uncategorized";
 
         if (isCorrect) {
@@ -934,7 +1022,8 @@
         percent: Math.round((stats.correct / stats.total) * 100)
       }));
 
-      const answers = (activity.isModuleExam || (lesson.id === "lesson-12" && activityType === "lesson-quiz")) ? questions.map((question, questionIndex) => {
+      const answers = (translationQuestions.length || activity.isModuleExam || (lesson.id === "lesson-12" && activityType === "lesson-quiz")) ? questions.map((question, questionIndex) => {
+        if (question.type === 'translation') return { questionId: question.id, text: form.querySelector(`[name="question-${questionIndex}"]`).value.trim().normalize('NFC') };
         const selected = form.querySelector(`input[name="question-${questionIndex}"]:checked`);
         return { questionId: question.id, choiceText: question.choices[Number(selected.value)].text };
       }) : undefined;
@@ -947,15 +1036,16 @@
         pointsEarned,
         pointsPossible,
         categoryScores,
-        answers
+        answers,
+        translationCheckId
       });
       if (["lesson-quiz", "module-exam"].includes(activityType) && activity.revision && !savedResult) {
         if (result) result.textContent = "The quiz result could not be saved. Please submit again when connected.";
         return;
       }
-      revealQuizFeedback(form, questions);
+      revealQuizFeedback(form, questions, translationResults);
 
-      const serverScored = activity.isModuleExam || (lesson.id === "lesson-12" && activityType === "lesson-quiz");
+      const serverScored = activity.isModuleExam || (lesson.id === "lesson-12" && activityType === "lesson-quiz") || (translationQuestions.length && Boolean(savedResult));
       const scoredPercent = serverScored ? Number(savedResult.score) : score;
       const scoredPassed = serverScored ? Boolean(savedResult.passed) : passed;
       const scoredPoints = serverScored ? Number(savedResult.pointsEarned) : pointsEarned;
@@ -985,6 +1075,10 @@
       }
       if (activity.isModuleExam || activityType === "module-review-practice") {
         form.querySelectorAll('input[type="radio"], button[type="submit"]').forEach(control => { control.disabled = true; });
+      }
+      } finally {
+        delete form.dataset.checking;
+        if (translationQuestions.length) controls.forEach((c,i) => c.disabled = disabledBefore[i]);
       }
     });
   }
@@ -1016,12 +1110,24 @@
   }
 
   async function initializeActivity() {
+    await window.xenophonSitePolicy?.ready;
     renderLoading();
     await loadPublishedLessonContent();
+    if(!window.xenophonOpenLessonAccess && window.xenophonIsLessonUnlocked && !window.xenophonIsLessonUnlocked(lessonSlug)) {window.location.replace('lessons.html');return;}
+
 
     if (!lesson) {
       renderUnavailable();
       return;
+    }
+
+    if (activityType === 'topic-practice' && topic) {
+      const destination = new URL(returnTo, window.location.href);
+      if (destination.origin === window.location.origin && destination.pathname.endsWith('/lesson.html')) {
+        if (!params.has('returnTo')) destination.searchParams.set('page', '2');
+        destination.hash = `after-practice=${encodeURIComponent(topic)}`;
+        returnTo = destination.href;
+      }
     }
 
     if (activityType === "vocab-flashcards" || activityType === "grammar-flashcards") {
@@ -1043,5 +1149,5 @@
     renderQuiz();
   }
 
-  initializeActivity();
+  initializeActivity().then(() => window.xenophonRestoreFeedbackLocation?.());
 }());

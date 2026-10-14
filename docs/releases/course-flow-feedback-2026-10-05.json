@@ -1,0 +1,39 @@
+{
+  "baseCommit": "8925b39860cf6d542db5cbd290cdeed0288afb38",
+  "version": "course-flow-feedback-20261005",
+  "changed": [
+    "lesson.js",
+    "activity.js",
+    "script.js",
+    "styles.css",
+    "feedback.html",
+    "review-feedback.html",
+    "review-feedback.js",
+    "netlify/functions/course-feedback.mts",
+    "netlify/functions/_shared/feedback-text.mts"
+  ],
+  "scope": "Course flow and saved feedback; other working changes preserved locally",
+  "productionDeployId": "6ac3dd16d1a4e191f0ff01cc",
+  "productionUrl": "https://learn-greek-xenophon.netlify.app",
+  "previewDeployId": "6ac3dccbad37f1f89960f758",
+  "publication": "Direct Netlify deployment; Git checkout and remote were not committed or pushed.",
+  "databaseMigration": "0042_course_feedback.sql already applied on 2026-10-04; no lesson migration applied.",
+  "verification": [
+    "Feedback persistence and authorization test passed",
+    "Live Lesson 1 all five grammar buttons at end",
+    "Live Lesson 2 mobile all five grammar buttons at end; no horizontal overflow",
+    "Live feedback fields populated from signed-in user and originating page",
+    "Live Review Feedback database query passed",
+    "Live practice exit lands at next topic heading",
+    "Published JS hashes match release; canonical lesson content unchanged"
+  ],
+  "publicFileHashes": {
+    "lesson.js": "9134d2018260538c7cda177c7a7b67daf31793de152a9b0479d11fefac6dfee4",
+    "activity.js": "92ec6b0db4817534d156391d867036f1f8c46f8837f8348b2c2cf4ccf5b27acf",
+    "script.js": "5d743bc708896440900b133415a5a1601a388c7eac9ed4fa738b1a019ec3cd67",
+    "styles.css": "e58c9d5ac9f52194279d5563f0ae137367d81fb586e565d45c70331986cdfcb5",
+    "feedback.html": "ca510e6620cac6f169dc53d7b2d9a86a38bb2c6dd5256f4ccfd016ddbee8b92c",
+    "review-feedback.html": "d2cff4c7fdf71e4ee4e52fde6dd9031cf6be3a666a21de2356c074c3bb60f355",
+    "review-feedback.js": "a44d4690c037e747db0edb1090b5b38077feaaa1b69d1ad7c39d30613df6dda5"
+  }
+}

@@ -1,0 +1,26 @@
+name_en,name_grc,lat,lon,level,type,region,pleiades_id,min_zoom,max_zoom,name_source,notes,priority
+Attica,Ἀττική,38.14,23.72,2,region,,579888,7.75,10.5,https://pleiades.stoa.org/places/579888,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Boeotia,Βοιωτία,38.43,23.1,2,region,,540689,7.5,10.5,https://pleiades.stoa.org/places/540689,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Laconia,Λακεδαίμων,36.93,22.61,2,region,,570406,7.5,10.5,https://pleiades.stoa.org/places/570406,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Messenia,Μεσσηνία,37.05,21.88,2,region,,570480,7.5,10.5,https://pleiades.stoa.org/places/570480,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Arcadia,Ἀρκαδία,37.63,22.08,2,region,,570102,7.5,10.5,https://pleiades.stoa.org/places/570102,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Achaea,Ἀχαΐα,38.04,22.1,2,region,,,7.5,10.5,,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Thessaly,Θεσσαλία,39.4,22.05,1,region,,,5,8.5,,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Macedonia,Μακεδονία,40.65,22.0,1,region,,491656,5,8.5,https://pleiades.stoa.org/places/491656,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Peloponnese,Πελοπόννησος,37.55,22.16,1,region,,570577,5,7.25,https://pleiades.stoa.org/places/570577,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Euboea,Εὔβοια,38.7,23.63,1,island,,540775,6.5,9.5,https://pleiades.stoa.org/places/540775,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Lesbos,Λέσβος,39.23,26.25,1,island,,550696,6.5,9.5,https://pleiades.stoa.org/places/550696,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Chios,Χίος,38.38,26.0,1,island,,550497,7.5,9.5,https://pleiades.stoa.org/places/550497,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Samos,Σάμος,37.76,26.78,1,island,,599926,7.5,9.5,https://pleiades.stoa.org/places/599926,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Lemnos,Λῆμνος,39.98,25.18,1,island,,550693,5,9.5,https://atlas.perseus.tufts.edu/nodes/urn%3Acts%3AgreekLit%3Atlg0012.tlg001.perseus-grc2%3A21.58/,Editorial label anchor for Pleiades island 550693; Greek form also checked in Perseus.,100
+Crete,Κρήτη,35.19,24.91,1,island,,589748,5,9.5,https://pleiades.stoa.org/places/589748,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Rhodes,Ῥόδος,36.16,27.97,1,island,,590031,7.5,9.5,https://pleiades.stoa.org/places/590031,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Salamis,Σαλαμίς,37.9,23.45,2,island,,580101,8,10.5,https://pleiades.stoa.org/places/580101,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Aegean Sea,Αἰγαῖον πέλαγος,38.35,25.2,1,sea,,560221,5,8,https://pleiades.stoa.org/places/560221,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Ionian Sea,Ἰόνιον πέλαγος,37.3,19.65,1,sea,,1046,5,8,https://pleiades.stoa.org/places/1046,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Hellespont,Ἑλλήσποντος,40.08,26.42,1,strait,,,6.5,9.5,,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Propontis,Προποντίς,40.64,28.13,1,sea,,511381,5,9.5,https://pleiades.stoa.org/places/511381,Editorial label anchor; not a surveyed point. Greek display form uses a conventional Classical nominative.,0
+Kos,Κῶς,36.8228954,27.1373828,1,island,Dorian Aegean,599581,7,10.5,https://pleiades.stoa.org/places/599581/kos,Island also known as Cos; distinct from the withheld later city point.,25
+Naxos,Νάξος,37.0581903,25.4819305,1,island,Cyclades,599822,7,10.5,https://vocab.perseus.org/word-list/urn%3Acts%3AgreekLit%3Atlg0016.tlg001.perseus-grc2%3A5.36.4/?o=6,Greek nominative independently checked in Herodotus; Pleiades name fields contain variant display forms.,25
+Paros,Πάρος,37.0637201,25.1981286,1,island,Cyclades,599868,7,10.5,https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n79792/,"Greek nominative checked in LSJ; label marks the island, not its settlement.",25
+Delos,Δῆλος,37.3920222,25.2702389,1,island,Cyclades,599588,9.75,10.5,https://pleiades.stoa.org/places/599588/delos,Island label; the existing sanctuary/settlement label identifies Delos at broader scales.,0

@@ -16,6 +16,8 @@
   let originalLessonForCancel = null;
   let editStatus = "";
   let isEditMode = false;
+  let editorVersions = null;
+  let practiceReturnPadding = null;
 
   if (!shell) {
     return;
@@ -113,6 +115,8 @@
         return fallbackGrammar;
       }
 
+      if (databaseGrammar.authoritative) return databaseGrammar;
+
       if (!fallbackGrammar) {
         return databaseGrammar;
       }
@@ -171,7 +175,7 @@
             ...fallbackActivity,
             ...databaseActivity,
             questions: Array.isArray(databaseActivity.questions)
-              ? mergeById(fallbackActivity.questions || [], databaseActivity.questions)
+              ? (databaseActivity.authoritative || databaseActivity.revision === "lesson-1-exercises-v2" ? databaseActivity.questions : mergeById(fallbackActivity.questions || [], databaseActivity.questions))
               : fallbackActivity.questions
           }
         ];
@@ -433,6 +437,7 @@
             </div>
           `).join("")}
         </div>
+        ${window.xenophonReadingTranslation?.render(lesson) || ""}
         ${showTranslation ? `
           <details class="translation-toggle">
             <summary>Show English Translation</summary>
@@ -483,8 +488,8 @@
         <div class="lesson-section__header">
           <h2 id="word-study-heading">${escapeHtml(lesson.wordStudy.label)}</h2>
         </div>
-        ${lesson.wordStudy.blocks.map((block) => `
-          <div class="lesson-markdown-block">
+        ${lesson.wordStudy.blocks.map((block, index) => `
+          <div class="lesson-markdown-block" data-lesson-topic="${escapeHtml(block.practiceTopic || block.id || `word-study-${index}`)}">
             <h3>${escapeHtml(block.title)}</h3>
             ${block.practiceTopic ? `<a class="secondary-button" href="${activityUrl("topic-practice", 2, block.practiceTopic)}">Practice Word Study</a>` : ""}
             ${block.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
@@ -701,10 +706,9 @@
         </div>
         <p>${escapeHtml(lesson.grammar.intro)}</p>
         ${lesson.grammar.sections.map((section) => `
-          <section class="grammar-subsection" id="${escapeHtml(section.id)}">
+          <section class="grammar-subsection" id="${escapeHtml(section.id)}" data-lesson-topic="${escapeHtml(section.practiceTopic || section.id)}">
             <div class="grammar-subsection__heading">
               <h3>${escapeHtml(section.title)}</h3>
-              ${section.practiceTopic ? `<a class="secondary-button" href="${activityUrl("topic-practice", 2, section.practiceTopic)}">Practice This Topic</a>` : ""}
             </div>
             ${section.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
             ${renderGrammarTables(section)}
@@ -722,6 +726,7 @@
               </div>
             ` : ""}
             ${renderGrammarExtraTables(section)}
+            ${section.practiceTopic ? `<div class="lesson-button-row grammar-subsection__practice"><a class="secondary-button" href="${activityUrl("topic-practice", 2, section.practiceTopic)}">Practice This Topic</a></div>` : ""}
           </section>
         `).join("")}
       </section>
@@ -847,7 +852,8 @@
         <div class="lesson-button-row">
           ${isEditMode ? `
             <button class="secondary-button" type="button" data-lesson-editor-action="cancel">Cancel</button>
-            <button class="primary-button" type="button" data-lesson-editor-action="save">Save</button>
+            <button class="secondary-button" type="button" data-lesson-editor-action="save-draft">Save Draft</button>
+            <button class="primary-button" type="button" data-lesson-editor-action="save">Publish Changes</button>
           ` : `
             <button class="primary-button" type="button" data-lesson-editor-action="edit">Edit</button>
           `}
@@ -1402,6 +1408,7 @@
       }));
 
       draft.grammar ||= {};
+      draft.grammar.authoritative = true;
       draft.grammar.intro = fieldValue("grammar-intro");
       draft.grammar.objectives = splitLines(fieldValue("grammar-objectives"));
       draft.grammar.sections = Array.from(shell.querySelectorAll('[data-editor-row="grammar-section"]')).map((section) => {
@@ -1584,7 +1591,7 @@
     render();
   }
 
-  async function saveEditedLesson() {
+  async function saveEditedLesson(action = "publish") {
     let draft;
 
     try {
@@ -1607,8 +1614,10 @@
         body: JSON.stringify({
           email: session?.email || "",
           activeRole: session?.activeRole || "",
-          action: "publish",
+          password: window.xenophonAuth.readVisiblePassword(session.email),
+          action,
           content: draft,
+          ...(editorVersions ? {expectedVersion:editorVersions.publishedVersion,expectedDraftVersion:editorVersions.draftVersion} : {}),
         }),
       });
       const data = await response.json().catch(() => ({}));
@@ -1621,9 +1630,9 @@
       }
 
       setActiveLesson(data.content);
-      originalLessonForCancel = null;
-      isEditMode = false;
-      editStatus = `Saved ${lesson.title || lesson.id} and committed it to the database as version ${data.version}.`;
+      editorVersions = action === 'draft' ? {publishedVersion:editorVersions?.publishedVersion || 0,draftVersion:data.version} : {publishedVersion:data.version,draftVersion:0};
+      if(action === 'publish') { originalLessonForCancel = null; isEditMode = false; }
+      editStatus = action === 'draft' ? 'Draft saved. Students still see the published lesson.' : `Published ${lesson.title || lesson.id}.`;
       render();
     } catch (error) {
       editStatus = error.message || "Lesson content could not be saved.";
@@ -1639,6 +1648,7 @@
 
         if (action === "edit") {
           originalLessonForCancel = deepCopy(lesson);
+          try { await loadEditorDraft(); } catch(error) { editStatus = error.message; render(); return; }
           isEditMode = true;
           editStatus = "";
           render();
@@ -1654,9 +1664,9 @@
           return;
         }
 
-        if (action === "save") {
+        if (action === "save" || action === "save-draft") {
           button.setAttribute("aria-busy", "true");
-          await saveEditedLesson();
+          await saveEditedLesson(action === 'save-draft' ? 'draft' : 'publish');
           return;
         }
 
@@ -1727,7 +1737,7 @@
       return {
         type: "grammar-exercises",
         threshold: lesson.activities["grammar-exercises"].threshold,
-        message: "Complete Grammar Exercises with 80% or higher to continue."
+        message: `Complete Grammar Exercises with ${lesson.activities["grammar-exercises"].threshold || 80}% or higher to continue.`
       };
     }
 
@@ -1735,7 +1745,7 @@
       return {
         type: "lesson-quiz",
         threshold: lesson.activities["lesson-quiz"].threshold,
-        message: "Pass the final lesson quiz with 80% or higher to unlock the next lesson."
+        message: `Pass the final lesson quiz with ${lesson.activities["lesson-quiz"].threshold || 80}% or higher to unlock the next lesson.`
       };
     }
 
@@ -1825,6 +1835,7 @@
       updateGateControls();
       bindVocabularyAudio();
       bindLessonNavigation();
+      window.xenophonReadingTranslation?.bind(shell, lesson);
     }
 
     bindEditorControls();
@@ -1920,8 +1931,53 @@
     });
   }
 
+  function scrollAfterPractice() {
+    if (window.location.hash.startsWith('#after-practice=')) {
+      let practicedTopic;
+      try { practicedTopic = decodeURIComponent(window.location.hash.slice('#after-practice='.length)); } catch { practicedTopic = ''; }
+      const topics = [...shell.querySelectorAll('[data-lesson-topic]')];
+      const currentIndex = topics.findIndex(section => section.dataset.lessonTopic === practicedTopic);
+      const destination = currentIndex >= 0
+        ? topics[currentIndex + 1] || shell.querySelector('#grammar-exercises-heading')?.closest('section')
+        : null;
+      if (destination) {
+        const jumpToTopic = () => {
+          // A short final section otherwise cannot reach the viewport top.
+          // Add only the space needed for this return, restoring it on reruns.
+          if (practiceReturnPadding === null) practiceReturnPadding = shell.style.paddingBottom;
+          shell.style.paddingBottom = practiceReturnPadding;
+          const destinationTop = destination.getBoundingClientRect().top + window.scrollY;
+          const neededSpace = Math.ceil(window.innerHeight - (document.documentElement.scrollHeight - destinationTop));
+          if (neededSpace > 0) {
+            const existingPadding = parseFloat(window.getComputedStyle(shell).paddingBottom) || 0;
+            shell.style.paddingBottom = `${existingPadding + neededSpace + 1}px`;
+          }
+          destination.scrollIntoView({ behavior: 'instant', block: 'start' });
+          const heading = destination.querySelector('h2, h3');
+          if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+        };
+        if (document.fonts?.ready) document.fonts.ready.then(() => requestAnimationFrame(jumpToTopic));
+        else requestAnimationFrame(jumpToTopic);
+      }
+    }
+  }
+
+  async function loadEditorDraft() {
+    const session = readSession();
+    const response = await fetch('/api/admin/course-content',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'read',slug:lesson.id,accountEmail:session.email,activeRole:session.activeRole,password:window.xenophonAuth.readVisiblePassword(session.email)})});
+    const data=await response.json();if(!response.ok)throw new Error(data.error || 'The editor could not be loaded.');
+    editorVersions={publishedVersion:data.publishedVersion,draftVersion:data.draftVersion};
+    if(data.hasDraft){setActiveLesson(data.content);editStatus='Editing the saved draft. Students still see the published lesson.';}
+  }
+
   async function init() {
+    await window.xenophonSitePolicy?.ready;
     await loadPublishedLessonContent();
+    if(params.get('edit') === '1' && isAdministrator()) {
+      originalLessonForCancel=deepCopy(lesson);
+      try { await loadEditorDraft(); isEditMode=true; } catch(error) { editStatus=error.message; }
+    }
+    if (page?.template === "reading") await window.xenophonReadingTranslation?.load(lesson);
     if (lesson?.number >= 13 && !isStaffView() && !window.xenophonModuleOneExamPassed?.()) {
       window.location.replace("module-1-review.html");
       return;
@@ -1936,7 +1992,13 @@
         return;
       }
     }
+    if(!isStaffView() && !hasOpenLessonAccess() && window.xenophonIsLessonUnlocked && !window.xenophonIsLessonUnlocked(lesson.id)) {
+      window.location.replace('lessons.html');return;
+    }
     render();
+
+    scrollAfterPractice();
+    window.xenophonRestoreFeedbackLocation?.();
 
     if (lesson && page) {
       window.xenophonLessonProgress?.markSegment({
@@ -1948,5 +2010,6 @@
     }
   }
 
+  window.addEventListener('hashchange', scrollAfterPractice);
   init();
 }());

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Module 1 Review and Exam</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=admin-workspace-20261005" />
 </head>
 <body class="dashboard-active module-page">
   <div class="app">
@@ -34,7 +34,7 @@
       </article>
     </main>
   </div>
-  <script src="auth.js"></script><script src="profile-data.js"></script><script src="forms-data.js"></script><script src="script.js?v=module1-review-v1"></script>
+  <script src="auth.js"></script><script src="profile-data.js"></script><script src="forms-data.js"></script><script src="script.js?v=admin-workspace-20261005"></script>
   <script>const session = window.xenophonAuth?.readSession?.(); const staff = ['administrator', 'professor'].includes(session?.activeRole) && (session?.roles || []).includes(session.activeRole); const passed = window.xenophonModuleOneExamPassed?.(); document.querySelector('[data-module-exam-status]').textContent = staff ? 'Staff preview: Module 2 is accessible.' : passed ? 'Exam passed. Module 2 is unlocked.' : 'Module 2 unlocks after a score of at least 70%.'; document.querySelector('[data-module-2-link]').hidden = !passed;</script>
 </body>
 </html>

@@ -1,0 +1,222 @@
+{
+  "verified": true,
+  "lessons": [
+    {
+      "number": 13,
+      "title": "Among the Soldiers at Sardis",
+      "paragraphs": 8,
+      "vocabulary": 22,
+      "grammarTopics": 4,
+      "questions": 122,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2170,
+        725
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Who Is Fit to Lead?",
+      "paragraphs": 8,
+      "vocabulary": 22,
+      "grammarTopics": 5,
+      "questions": 130,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2172,
+        724
+      ]
+    },
+    {
+      "number": 15,
+      "title": "An Army on the Move",
+      "paragraphs": 8,
+      "vocabulary": 23,
+      "grammarTopics": 5,
+      "questions": 136,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2171,
+        724
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Epyaxa and the Army's Pay",
+      "paragraphs": 8,
+      "vocabulary": 23,
+      "grammarTopics": 5,
+      "questions": 136,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2172,
+        724
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Must the Brave Always Stand Firm?",
+      "paragraphs": 7,
+      "vocabulary": 21,
+      "grammarTopics": 5,
+      "questions": 132,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2170,
+        725
+      ]
+    },
+    {
+      "number": 18,
+      "title": "The Soldiers Refuse to March",
+      "paragraphs": 7,
+      "vocabulary": 22,
+      "grammarTopics": 5,
+      "questions": 134,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2171,
+        724
+      ]
+    },
+    {
+      "number": 19,
+      "title": "The King's War and Cyrus's Promises",
+      "paragraphs": 7,
+      "vocabulary": 22,
+      "grammarTopics": 5,
+      "questions": 132,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2172,
+        724
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Courage to Address Fellow Citizens",
+      "paragraphs": 7,
+      "vocabulary": 22,
+      "grammarTopics": 5,
+      "questions": 134,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2171,
+        724
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Victory on the Field, Disaster for the Army",
+      "paragraphs": 6,
+      "vocabulary": 21,
+      "grammarTopics": 5,
+      "questions": 134,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2171,
+        724
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Trust, Betrayal, and the Missing Generals",
+      "paragraphs": 6,
+      "vocabulary": 22,
+      "grammarTopics": 4,
+      "questions": 122,
+      "quizPositions": [
+        7,
+        7,
+        8,
+        8
+      ],
+      "banner": [
+        2172,
+        724
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Xenophon Gets Up",
+      "paragraphs": 7,
+      "vocabulary": 22,
+      "grammarTopics": 4,
+      "questions": 122,
+      "quizPositions": [
+        8,
+        8,
+        7,
+        7
+      ],
+      "banner": [
+        2171,
+        724
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Learning to Bring the Army Home",
+      "paragraphs": 7,
+      "vocabulary": 22,
+      "grammarTopics": 5,
+      "questions": 194,
+      "quizPositions": [
+        7,
+        7,
+        8,
+        8
+      ],
+      "banner": [
+        2170,
+        725
+      ]
+    }
+  ],
+  "totalQuestions": 1628
+}

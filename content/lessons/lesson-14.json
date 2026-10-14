@@ -1,0 +1,4902 @@
+{
+  "id": "lesson-14",
+  "number": 14,
+  "title": "Who Is Fit to Lead?",
+  "greekTitle": "Τίς ἱκανός ἐστιν ἄρχειν;",
+  "scope": "Third-declension nasal, labial, and liquid stems; σώφρων; τίς and τις",
+  "theme": "Socrates tests military experience against preparation, cooperation, and judgment",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-14-banner.png",
+    "alt": "AI-generated educational reconstruction for Lesson 14: Who Is Fit to Lead?; illustrative scene rather than an eyewitness image",
+    "caption": "Who Is Fit to Lead?. AI-generated educational reconstruction of the adapted lesson setting; the image is illustrative and does not establish historical appearance or exact events."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-14-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-14-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-14-page-3",
+      "title": "Elections, Choruses, and Practical Leadership",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Leadership and experience",
+      "items": [
+        {
+          "greek": "ὁ ἡγεμών",
+          "english": "guide; leader",
+          "dictionaryForm": "ἡγεμών, ἡγεμόνος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἡγεμών",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἄρχων",
+          "english": "leader; ruler",
+          "dictionaryForm": "ἄρχων, ἄρχοντος, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "ἄρχων",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἐμπειρία",
+          "english": "experience",
+          "dictionaryForm": "ἐμπειρία, ἐμπειρίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἐμπειρία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ γνώμη",
+          "english": "judgment",
+          "dictionaryForm": "γνώμη, γνώμης, ἡ",
+          "status": "required vocabulary",
+          "lemma": "γνώμη",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σώφρων",
+          "english": "prudent; self-controlled",
+          "dictionaryForm": "σώφρων (masculine/feminine), σῶφρον (neuter), genitive σώφρονος",
+          "status": "required vocabulary",
+          "lemma": "σώφρων",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἱκανός",
+          "english": "capable",
+          "dictionaryForm": "ἱκανός, ἱκανή, ἱκανόν",
+          "status": "required vocabulary",
+          "lemma": "ἱκανός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀρχαιρεσία",
+          "english": "election",
+          "dictionaryForm": "ἀρχαιρεσία, ἀρχαιρεσίας, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "ἀρχαιρεσία",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Work and resources",
+      "items": [
+        {
+          "greek": "ὁ χορός",
+          "english": "chorus",
+          "dictionaryForm": "χορός, χοροῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "χορός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἔμπορος",
+          "english": "merchant",
+          "dictionaryForm": "ἔμπορος, ἐμπόρου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἔμπορος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ τραῦμα",
+          "english": "wound",
+          "dictionaryForm": "τραῦμα, τραύματος, τό",
+          "status": "required vocabulary",
+          "lemma": "τραῦμα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ πόνος",
+          "english": "effort",
+          "dictionaryForm": "πόνος, πόνου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "πόνος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ βοηθός",
+          "english": "helper",
+          "dictionaryForm": "βοηθός, βοηθοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "βοηθός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὰ χρήματα",
+          "english": "money; resources",
+          "dictionaryForm": "χρῆμα, χρήματος, τό (usually plural)",
+          "status": "required vocabulary",
+          "lemma": "τὰ χρήματα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ παρασκευή",
+          "english": "preparation",
+          "dictionaryForm": "παρασκευή, παρασκευῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "παρασκευή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ῥήτωρ",
+          "english": "speaker",
+          "dictionaryForm": "ῥήτωρ, ῥήτορος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ῥήτωρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Κύκλωψ",
+          "english": "Cyclops",
+          "dictionaryForm": "Κύκλωψ, Κύκλωπος, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Κύκλωψ",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Questioning and choosing",
+      "items": [
+        {
+          "greek": "τίς, τί",
+          "english": "who? what?",
+          "dictionaryForm": "τίς (masculine/feminine), τί (neuter), genitive τίνος",
+          "status": "required vocabulary",
+          "lemma": "τίς, τί",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τις, τι",
+          "english": "someone; something",
+          "dictionaryForm": "τις (masculine/feminine), τι (neuter), genitive τινός; enclitic",
+          "status": "required vocabulary",
+          "lemma": "τις, τι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ζητέω",
+          "english": "seek",
+          "dictionaryForm": "ζητέω",
+          "status": "required vocabulary",
+          "lemma": "ζητέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἱρέομαι",
+          "english": "choose",
+          "dictionaryForm": "αἱρέομαι",
+          "status": "reading vocabulary",
+          "lemma": "αἱρέομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "χρήσιμος",
+          "english": "useful",
+          "dictionaryForm": "χρήσιμος, χρησίμη, χρήσιμον",
+          "status": "required vocabulary",
+          "lemma": "χρήσιμος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ τάξις",
+          "english": "formation",
+          "dictionaryForm": "τάξις, τάξεως, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "τάξις",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ Νικομαχίδης καὶ ὁ Σωκράτης",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "We pause the expedition for a separate scene in Athens. Nicomachides returns from the elections, disappointed that Antisthenes has been chosen general. Socrates questions what makes someone capable of leading.",
+      "Source: Xenophon, Memorabilia 3.4.1–12, with a short comparison to 3.1.1–7 on preparation. This present-tense dialogue simplifies and compresses Xenophon’s argument; its wording and connecting questions are adapted. Xenophon is not inserted as a witness. The elected Antisthenes is not identified here with the Socratic philosopher of the same name.",
+      "Blue glosses support irregular verbs, infinitives, and advanced forms. The lesson teaches new noun systems and question/indefinite words; military knowledge is a topic for discussion, not a demand that scars or wealth alone prove competence."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ἐν Ἀθήναις ὁ Νικομαχίδης ἀπὸ τῶν ἀρχαιρεσιῶν ἔρχεται. ὁ Σωκράτης αὐτὸν ὁρᾷ καὶ ἐρωτᾷ· «τίς στρατηγός ἐστιν; τί λέγουσιν οἱ πολῖται;»",
+        "gloss": [
+          {
+            "greek": "Ἐν Ἀθήναις",
+            "english": "in Athens"
+          },
+          {
+            "greek": "Νικομαχίδης",
+            "english": "Nicomachides"
+          },
+          {
+            "greek": "ἀπὸ τῶν ἀρχαιρεσιῶν",
+            "english": "from the elections"
+          },
+          {
+            "greek": "ἐρωτᾷ",
+            "english": "asks; contracted active"
+          },
+          {
+            "greek": "τίς",
+            "english": "who?; interrogative"
+          },
+          {
+            "greek": "τί",
+            "english": "what?; neuter interrogative"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Νικομαχίδης λέγει· «ὁ Ἀντισθένης στρατηγός ἐστιν. ἐγὼ δὲ τῶν στρατιωτικῶν ἔργων ἐμπειρίαν ἔχω. πολλὰ τραύματα ἐν τῷ σώματι ἔχω.» καὶ τὰ τραύματα τῷ Σωκράτει δεικνύει.",
+        "gloss": [
+          {
+            "greek": "Ἀντισθένης",
+            "english": "Antisthenes; the man elected general"
+          },
+          {
+            "greek": "τῶν στρατιωτικῶν ἔργων",
+            "english": "of military work"
+          },
+          {
+            "greek": "ἐμπειρίαν",
+            "english": "experience"
+          },
+          {
+            "greek": "τραύματα",
+            "english": "wounds"
+          },
+          {
+            "greek": "ἐν τῷ σώματι",
+            "english": "on the body; dative"
+          },
+          {
+            "greek": "τῷ Σωκράτει",
+            "english": "to Socrates"
+          },
+          {
+            "greek": "δεικνύει",
+            "english": "shows; irregular present, recognition only"
+          }
+        ]
+      },
+      {
+        "greek": "«Ὁ δὲ Ἀντισθένης», λέγει, «χρήματα συλλέγει. ἆρα ἔμπορός τις ἱκανός ἐστιν ἄρχειν στρατιωτῶν;» ὁ Σωκράτης ἀποκρίνεται· «ὁ στρατηγὸς καὶ τροφὴν καὶ χρήματα παρασκευάζει.»",
+        "gloss": [
+          {
+            "greek": "χρήματα",
+            "english": "money; neuter plural"
+          },
+          {
+            "greek": "συλλέγει",
+            "english": "collects"
+          },
+          {
+            "greek": "ἆρα",
+            "english": "introduces a question"
+          },
+          {
+            "greek": "ἔμπορός τις",
+            "english": "some merchant; indefinite τις"
+          },
+          {
+            "greek": "ἱκανός",
+            "english": "capable"
+          },
+          {
+            "greek": "ἄρχειν στρατιωτῶν",
+            "english": "to command soldiers; infinitive plus genitive"
+          },
+          {
+            "greek": "ἀποκρίνεται",
+            "english": "replies; deponent"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης πάλιν ἐρωτᾷ· «τίς τοὺς χοροὺς καλῶς παρασκευάζει; ὁ Ἀντισθένης τοὺς ἐμπείρους ζητεῖ καὶ τοῖς ἐμπείροις τὰ ἔργα δίδωσιν.» ὁ Νικομαχίδης λέγει· «ἀλλὰ χορός τις οὐ στρατός ἐστιν.»",
+        "gloss": [
+          {
+            "greek": "τοὺς χοροὺς",
+            "english": "the choruses; civic performance groups"
+          },
+          {
+            "greek": "τοὺς ἐμπείρους",
+            "english": "experienced people; substantive adjective"
+          },
+          {
+            "greek": "τοῖς ἐμπείροις",
+            "english": "to experienced people"
+          },
+          {
+            "greek": "δίδωσιν",
+            "english": "gives; irregular present, glossed"
+          },
+          {
+            "greek": "χορός τις",
+            "english": "a certain chorus"
+          },
+          {
+            "greek": "στρατός",
+            "english": "army"
+          }
+        ]
+      },
+      {
+        "greek": "«Τίνος ἔργον», ὁ Σωκράτης λέγει, «τοὺς ἱκανοὺς ἄνδρας ζητεῖν καὶ τὰ χρήσιμα παρασκευάζειν; ὁ σώφρων ἄρχων οὐ μόνος πάντα πράττει. τοὺς ἀγαθοὺς βοηθοὺς αἱρεῖται.»",
+        "gloss": [
+          {
+            "greek": "Τίνος",
+            "english": "whose?; interrogative genitive"
+          },
+          {
+            "greek": "τοὺς ἱκανοὺς ἄνδρας",
+            "english": "capable men; irregular noun form, glossed"
+          },
+          {
+            "greek": "ζητεῖν",
+            "english": "to seek"
+          },
+          {
+            "greek": "τὰ χρήσιμα",
+            "english": "useful things; substantive adjective"
+          },
+          {
+            "greek": "ὁ σώφρων ἄρχων",
+            "english": "the prudent leader; ἄρχων is used here as a noun"
+          },
+          {
+            "greek": "πάντα",
+            "english": "everything; taught in Lesson 16"
+          },
+          {
+            "greek": "αἱρεῖται",
+            "english": "chooses; contracted middle"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Νικομαχίδης ἀκούει. ὁ δὲ Σωκράτης λέγει· «ὁ τοῦ οἴκου φύλαξ καὶ ὁ τοῦ στρατοῦ ἄρχων τῶν ἀνθρώπων ἐπιμελοῦνται. καὶ φίλους ζητοῦσι καὶ τὰ χρήματα φυλάττουσιν. οὐ μόνον πόνος, ἀλλὰ καὶ γνώμη χρήσιμός ἐστιν.»",
+        "gloss": [
+          {
+            "greek": "ὁ τοῦ οἴκου φύλαξ",
+            "english": "the guardian of the household"
+          },
+          {
+            "greek": "ὁ τοῦ στρατοῦ ἄρχων",
+            "english": "the leader of the army"
+          },
+          {
+            "greek": "τῶν ἀνθρώπων ἐπιμελοῦνται",
+            "english": "care for people; genitive after care"
+          },
+          {
+            "greek": "ζητοῦσι",
+            "english": "seek; contracted plural"
+          },
+          {
+            "greek": "πόνος",
+            "english": "effort"
+          },
+          {
+            "greek": "γνώμη",
+            "english": "judgment"
+          },
+          {
+            "greek": "χρήσιμός",
+            "english": "useful; accent added before enclitic ἐστιν"
+          }
+        ]
+      },
+      {
+        "greek": "Ἕτερος λόγος τοῦ Σωκράτους καὶ περὶ παρασκευῆς ἐστιν. ὁ στρατηγὸς τὴν τροφὴν καὶ τὰ ὅπλα παρασκευάζει, τοὺς στρατιώτας τάττει καὶ τὴν ὁδὸν σκοπεῖ. οὐκ ἀρκεῖ μόνον τὴν τάξιν γιγνώσκειν.",
+        "gloss": [
+          {
+            "greek": "Ἕτερος λόγος",
+            "english": "another account; companion from Memorabilia 3.1"
+          },
+          {
+            "greek": "περὶ παρασκευῆς",
+            "english": "about preparation"
+          },
+          {
+            "greek": "τάττει",
+            "english": "organizes; stations"
+          },
+          {
+            "greek": "σκοπεῖ",
+            "english": "examines; contracted verb"
+          },
+          {
+            "greek": "οὐκ ἀρκεῖ",
+            "english": "it is not enough; impersonal use"
+          },
+          {
+            "greek": "τὴν τάξιν γιγνώσκειν",
+            "english": "to know the formation; infinitive"
+          }
+        ]
+      },
+      {
+        "greek": "Νῦν πάλιν τὴν τοῦ Κύρου στρατιὰν σκοποῦμεν. ὁ ἡγεμὼν τοῖς στρατιώταις ὁδὸν δείκνυσιν· ὁ δὲ σώφρων στρατηγὸς τῶν στρατιωτῶν ἐπιμελεῖται. τίνος ἡ στρατιὰ χρῄζει; τίς ἱκανός ἐστιν ἄρχειν;",
+        "gloss": [
+          {
+            "greek": "σκοποῦμεν",
+            "english": "we examine; present contracted plural"
+          },
+          {
+            "greek": "ὁ ἡγεμὼν",
+            "english": "the guide; nasal stem"
+          },
+          {
+            "greek": "δείκνυσιν",
+            "english": "shows; irregular present, glossed"
+          },
+          {
+            "greek": "ἐπιμελεῖται",
+            "english": "cares for; contracted deponent"
+          },
+          {
+            "greek": "τίνος ἡ στρατιὰ χρῄζει",
+            "english": "what does the army need?; χρῄζω takes genitive"
+          },
+          {
+            "greek": "ἄρχειν",
+            "english": "to lead"
+          }
+        ]
+      }
+    ],
+    "translation": "In Athens Nicomachides comes from the elections. Socrates sees him and asks: “Who is general? What do the citizens say?”\n\nNicomachides says: “Antisthenes is general. But I have experience of military work. I have many wounds on my body.” And he shows the wounds to Socrates.\n\n“Antisthenes,” he says, “collects money. Is some merchant capable of commanding soldiers?” Socrates replies: “A general also provides food and money.”\n\nSocrates asks again: “Who prepares the choruses well? Antisthenes seeks experienced people and assigns the tasks to them.” Nicomachides says: “But a chorus is not an army.”\n\n“Whose task,” Socrates says, “is it to seek capable men and provide what is useful? The prudent leader does not do everything alone. He chooses good helpers.”\n\nNicomachides listens. Socrates says: “The guardian of a household and the leader of an army care for people. They both seek friends and protect resources. Not only effort, but also judgment is useful.”\n\nAnother account of Socrates also concerns preparation. The general provides food and weapons, organizes the soldiers, and examines the route. It is not enough to know only the formation.\n\nNow we examine Cyrus’s army again. A guide shows the soldiers a route; a prudent general cares for the soldiers. What does the army need? Who is capable of leading?",
+    "sourceCitation": "Xenophon, Memorabilia 3.4.1–12. https://monadnock.net/xenophon/mem3-4.html\nXenophon, Memorabilia 3.1.1–7. https://monadnock.net/xenophon/mem3-1.html",
+    "notesMarkdown": "Source and adaptation boundaries are stated in the introduction. All Greek is course-adapted present-tense narrative, not a verbatim ancient extract. Blue glosses support forms beyond the taught grammar; those untaught constructions are not assessed as morphology or production targets."
+  },
+  "wordStudy": {
+    "label": "Word Study — Experience and Practical Judgment",
+    "blocks": [
+      {
+        "title": "Words in the Reading",
+        "practiceTopic": "word-study",
+        "body": [
+          "ἡγεμών is a guide or leader; ἄρχων can function as a noun meaning ruler or person in charge. In this lesson ἄρχων is a glossed noun. Its participial origin is not yet an assessed active-participle pattern.",
+          "ἐμπειρία is experience and ἔμπειρος describes an experienced person. γνώμη adds judgment; παρασκευή adds preparation. The argument asks how these abilities work together rather than replacing skill with money.",
+          "The question τίς; asks “who?” while enclitic τις supplies “someone” or “a certain.” Learn the accent and the context together: τίς στρατηγός ἐστιν; asks an identity; στρατηγός τις describes an unspecified general."
+        ],
+        "display": [
+          {
+            "greek": "ἡγεμών / ἡγεμόνος",
+            "english": "guide / of a guide"
+          },
+          {
+            "greek": "ἐμπειρία",
+            "english": "experience"
+          },
+          {
+            "greek": "γνώμη",
+            "english": "judgment"
+          },
+          {
+            "greek": "παρασκευή",
+            "english": "preparation"
+          },
+          {
+            "greek": "τίς;",
+            "english": "who?"
+          },
+          {
+            "greek": "τις",
+            "english": "someone"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Third-declension nasal, labial, and liquid stems; σώφρων; τίς and τις. Work through each section, use its checks and topic practice, then complete the grammar exercises. Reading-only forms remain supported by glosses.",
+    "objectives": [
+      "Decline nasal, labial, and liquid noun models.",
+      "Explain ν + σ loss, labial + σ → ψ, and retained liquid stems.",
+      "Use σώφρων with masculine, feminine, and neuter nouns.",
+      "Ask who, what, whose, and to whom with accented τίς, τί.",
+      "Distinguish enclitic indefinite τις, τι from interrogative forms."
+    ],
+    "sections": [
+      {
+        "id": "nasal-stems",
+        "title": "1. Nasal Stems",
+        "practiceTopic": "nasal-stems",
+        "body": [
+          "A nasal stem ends in ν. The genitive ἡγεμόνος reveals ἡγεμον-. Its nominative ἡγεμών uses a lengthened vowel without adding -ς. ποιμήν similarly has ποιμεν- in ποιμένος.",
+          "Add the consonant-declension endings to the stem: ἡγεμόν-α, ἡγεμόν-ες, ἡγεμόν-ων. In the dative plural ν drops before σ: ἡγεμον-σι becomes ἡγεμόσι. Learn the nominative and genitive together because a nominative alone can conceal the stem vowel.",
+          "The case still determines the job in the sentence. ὁ ἡγεμών is the subject; τὸν ἡγεμόνα is a direct object. The stem pattern is a new form of the same case system."
+        ],
+        "table": {
+          "title": "ἡγεμών",
+          "headers": [
+            "Case",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "ἡγεμών",
+              "ἡγεμόνες"
+            ],
+            [
+              "gen.",
+              "ἡγεμόνος",
+              "ἡγεμόνων"
+            ],
+            [
+              "dat.",
+              "ἡγεμόνι",
+              "ἡγεμόσι(ν)"
+            ],
+            [
+              "acc.",
+              "ἡγεμόνα",
+              "ἡγεμόνας"
+            ],
+            [
+              "voc.",
+              "ἡγεμών",
+              "ἡγεμόνες"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ ἡγεμὼν τὴν ὁδὸν σκοπεῖ.",
+            "english": "The guide examines the road."
+          },
+          {
+            "greek": "τὸν ἡγεμόνα ζητοῦσιν.",
+            "english": "They seek the guide."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What happens to ν before -σι?",
+            "answer": "It drops: ἡγεμόσι(ν)."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "labial-liquid-stems",
+        "title": "2. Labial and Liquid Stems",
+        "practiceTopic": "labial-liquid-stems",
+        "body": [
+          "Labials π, β, φ combine with σ as ψ. The model Κύκλωψ has stem Κυκλωπ-, shown by Κύκλωπος. Its dative plural is Κύκλωψι. This is parallel to velar κ + σ → ξ from Lesson 13.",
+          "Liquid stems end in λ or ρ. ῥήτωρ has stem ῥητορ-, visible in ῥήτορος. It has no nominative -ς and has a lengthened nominative vowel; its dative plural ῥήτορσι retains ρ. Not every ρ-stem behaves exactly alike; Lesson 16 teaches family-noun alternations.",
+          "These models support case reading without forcing Cyclopes into the expedition. Κύκλωψ is a supplementary morphology example, not a character in our historical narrative. The article supplies the masculine gender of both models."
+        ],
+        "table": {
+          "title": "Labial and liquid models",
+          "headers": [
+            "Case",
+            "Κύκλωψ singular / plural",
+            "ῥήτωρ singular / plural"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "Κύκλωψ / Κύκλωπες",
+              "ῥήτωρ / ῥήτορες"
+            ],
+            [
+              "gen.",
+              "Κύκλωπος / Κυκλώπων",
+              "ῥήτορος / ῥητόρων"
+            ],
+            [
+              "dat.",
+              "Κύκλωπι / Κύκλωψι(ν)",
+              "ῥήτορι / ῥήτορσι(ν)"
+            ],
+            [
+              "acc.",
+              "Κύκλωπα / Κύκλωπας",
+              "ῥήτορα / ῥήτορας"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τὸν ῥήτορα ἀκούουσιν.",
+            "english": "They listen to the speaker."
+          },
+          {
+            "greek": "ὁ Κύκλωψ ἐν τῷ μύθῳ ἐστίν.",
+            "english": "The Cyclops is in the myth."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "How does a labial combine with σ?",
+            "answer": "π, β, or φ plus σ is written ψ."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "sophron",
+        "title": "3. The Adjective σώφρων",
+        "practiceTopic": "sophron",
+        "body": [
+          "σώφρων means prudent or self-controlled. It has two nominative singular forms: σώφρων for masculine and feminine, σῶφρον for neuter. The genitive σώφρονος reveals σωφρον-.",
+          "The adjective agrees with its noun in gender, number, and case even when the masculine and feminine share a form. ὁ σώφρων στρατηγός and ἡ σώφρων γυνή both have σώφρων, but their articles and nouns have different gender.",
+          "A nasal stem loses ν before dative plural σ: σώφροσι. Neuter nominative and accusative match, σῶφρον in singular and σώφρονα in plural. Do not attach first/second-declension -ος, -η, -ον to this adjective."
+        ],
+        "table": {
+          "title": "σώφρων",
+          "headers": [
+            "Case",
+            "Masculine / feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "nom. sg.",
+              "σώφρων",
+              "σῶφρον"
+            ],
+            [
+              "gen. sg.",
+              "σώφρονος",
+              "σώφρονος"
+            ],
+            [
+              "dat. sg.",
+              "σώφρονι",
+              "σώφρονι"
+            ],
+            [
+              "acc. sg.",
+              "σώφρονα",
+              "σῶφρον"
+            ],
+            [
+              "nom./acc. pl.",
+              "σώφρονες / σώφρονας",
+              "σώφρονα"
+            ],
+            [
+              "gen. pl.",
+              "σωφρόνων",
+              "σωφρόνων"
+            ],
+            [
+              "dat. pl.",
+              "σώφροσι(ν)",
+              "σώφροσι(ν)"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ σώφρων στρατηγὸς τροφὴν παρασκευάζει.",
+            "english": "The prudent general provides food."
+          },
+          {
+            "greek": "τοὺς σώφρονας βοηθοὺς ζητεῖ.",
+            "english": "He seeks prudent helpers."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which form agrees with neuter singular πρᾶγμα?",
+            "answer": "σῶφρον: τὸ σῶφρον πρᾶγμα."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "interrogative-tis",
+        "title": "4. Asking Who and What",
+        "practiceTopic": "interrogative-tis",
+        "body": [
+          "Accented τίς asks “who?” and τί asks “what?” They can be pronouns or adjectives: τίς ἄρχει; “who leads?”; τίς στρατηγὸς ἄρχει; “which general leads?” In direct questions τίς is masculine/feminine and τί is neuter.",
+          "Decline the question word for its function. τίνος means whose/of whom; τίνι means to whom; τίνα means whom (masculine/feminine direct object). Plural forms include τίνες, τίνων, τίσι(ν), and τίνας; neuter plural is τίνα.",
+          "The acute of interrogative τίς/τί remains acute, even before another word where an ordinary final acute might become grave. Use the form and the sentence role together: τίς asks the subject; τίνα asks an object."
+        ],
+        "table": {
+          "title": "Interrogative τίς, τί",
+          "headers": [
+            "Case",
+            "Masculine / feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "nom. sg.",
+              "τίς",
+              "τί"
+            ],
+            [
+              "gen. sg.",
+              "τίνος",
+              "τίνος"
+            ],
+            [
+              "dat. sg.",
+              "τίνι",
+              "τίνι"
+            ],
+            [
+              "acc. sg.",
+              "τίνα",
+              "τί"
+            ],
+            [
+              "nom. pl.",
+              "τίνες",
+              "τίνα"
+            ],
+            [
+              "gen. pl.",
+              "τίνων",
+              "τίνων"
+            ],
+            [
+              "dat. pl.",
+              "τίσι(ν)",
+              "τίσι(ν)"
+            ],
+            [
+              "acc. pl.",
+              "τίνας",
+              "τίνα"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τίς τροφὴν παρασκευάζει;",
+            "english": "Who provides food?"
+          },
+          {
+            "greek": "τίνι τροφὴν φέρεις;",
+            "english": "To whom do you bring food?"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Is τίς a pronoun in τίς ἄρχει;?",
+            "answer": "Yes; it stands alone as the subject."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "indefinite-tis",
+        "title": "5. Someone and Something",
+        "practiceTopic": "indefinite-tis",
+        "body": [
+          "Enclitic τις means someone or a certain person; τι means something. As an adjective στρατηγός τις is “a certain general.” It does not ask a question. Unlike τίς, indefinite τις ordinarily has no written accent of its own.",
+          "The forms follow the same basic case endings: τινός, τινί, τινά; plural τινές, τινῶν, τισί(ν), τινάς. Enclitics lean on the preceding word for accent; two-syllable forms can keep or receive an accent under the normal enclitic rules. Accent alone is not a license to ignore context.",
+          "Notice ἔμπορός τις: the preceding word receives an additional acute because of the enclitic. This is different from τίς ἔμπορος; “which merchant?” A question can contain an indefinite: ἆρα ἔμπορός τις ἱκανός ἐστιν; asks whether some merchant is capable, not which merchant it is."
+        ],
+        "table": {
+          "title": "Indefinite τις, τι: citation forms",
+          "headers": [
+            "Case",
+            "Masculine / feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "nom. sg.",
+              "τις",
+              "τι"
+            ],
+            [
+              "gen. sg.",
+              "τινός",
+              "τινός"
+            ],
+            [
+              "dat. sg.",
+              "τινί",
+              "τινί"
+            ],
+            [
+              "acc. sg.",
+              "τινά",
+              "τι"
+            ],
+            [
+              "nom. pl.",
+              "τινές",
+              "τινά"
+            ],
+            [
+              "gen. pl.",
+              "τινῶν",
+              "τινῶν"
+            ],
+            [
+              "dat. pl.",
+              "τισί(ν)",
+              "τισί(ν)"
+            ],
+            [
+              "acc. pl.",
+              "τινάς",
+              "τινά"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἔμπορός τις τροφὴν φέρει.",
+            "english": "A certain merchant brings food."
+          },
+          {
+            "greek": "τίς τροφὴν φέρει;",
+            "english": "Who brings food?"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Does τις necessarily ask a question?",
+            "answer": "No. It refers to an unspecified person or thing."
+          }
+        ],
+        "tables": []
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Nasal ν drops before -σι; labials combine with σ as ψ; ρ remains in ῥήτορσι.",
+        "σώφρων serves masculine/feminine; σῶφρον is neuter; all forms agree with their nouns.",
+        "Accented τίς, τί asks a question; case identifies the role being questioned.",
+        "Enclitic τις, τι leaves a person or thing unspecified and can affect the preceding word’s accent."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Elections, Choruses, and Practical Leadership",
+    "body": [],
+    "sections": [
+      {
+        "title": "A disappointed candidate",
+        "body": [
+          "Memorabilia 3.4 opens with Nicomachides returning from elections. He displays old wounds and points to his military service while complaining about the choice of Antisthenes. Xenophon uses this disagreement to examine what voters and candidates might count as qualifications. The passage does not tell us that visible scars are irrelevant; it questions whether they settle the whole issue.",
+          "Antisthenes here is the elected general discussed by Nicomachides and Socrates. A shared name does not establish that he is the Socratic philosopher known from other sources. The adaptation keeps the identification limited. It also keeps this scene in Athens, separate from the expedition, without claiming Xenophon heard the exchange himself."
+        ]
+      },
+      {
+        "title": "Why a chorus enters the argument",
+        "body": [
+          "Nicomachides contrasts organizing a chorus with organizing troops. Socrates observes that Antisthenes has selected skilled specialists and successfully managed performances. The civic chorus is not a military unit, but both activities involve assigning work, securing resources, and directing people toward a shared result. In the passage, Antisthenes’s experience as a chorēgos supplies the comparison.",
+          "The analogy has limits that Nicomachides presses: actual fighting differs from performance. Socrates responds by considering practical preparation and readiness. We should evaluate this as an argument about transferable abilities, not a claim that theatrical success automatically certifies tactical expertise. The question for Cyrus’s army is which useful abilities it needs together."
+        ]
+      },
+      {
+        "title": "Preparation and the people being led",
+        "body": [
+          "Memorabilia 3.1 criticizes instruction that reduces generalship to arranging formations. The discussion includes equipment, supplies, persistence, and the qualities needed to lead. Our short companion paragraph retains that breadth. Preparation is material work as well as a mental attitude; an army cannot survive on a confident speech alone.",
+          "Memorabilia 3.4 also compares household management and public leadership in their dealings with people. Choosing competent helpers and obtaining cooperation matter. The comparison raises an ethical question: how should a leader treat the people whose work makes success possible? It does not give us license to erase differences between a household, a city, and an army."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Why does Nicomachides display wounds?",
+        "answer": "To support his claim that military experience qualifies him."
+      },
+      {
+        "prompt": "Who is Antisthenes in this passage?",
+        "answer": "The elected general; the text used here does not establish that he is the Socratic philosopher."
+      },
+      {
+        "prompt": "Why discuss chorus organization?",
+        "answer": "It supplies an analogy for choosing skilled helpers and providing resources."
+      },
+      {
+        "prompt": "What limitation does Nicomachides press?",
+        "answer": "Organizing a performance is different from fighting a battle."
+      },
+      {
+        "prompt": "What does preparation include beyond formation?",
+        "answer": "Supplies, equipment, skilled people, and readiness to act."
+      },
+      {
+        "prompt": "How might the comparison apply to Cyrus’s army?",
+        "answer": "The army needs practical competence and care for people as well as military experience."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Nasal ν drops before -σι; labials combine with σ as ψ; ρ remains in ῥήτορσι.",
+        "σώφρων serves masculine/feminine; σῶφρον is neuter; all forms agree with their nouns.",
+        "Accented τίς, τί asks a question; case identifies the role being questioned.",
+        "Enclitic τις, τι leaves a person or thing unspecified and can affect the preceding word’s accent.",
+        "What does preparation include beyond formation? Supplies, equipment, skilled people, and readiness to act.",
+        "How might the comparison apply to Cyrus’s army? The army needs practical competence and care for people as well as military experience."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Memorabilia 3.4.1–12",
+        "url": "https://monadnock.net/xenophon/mem3-4.html"
+      },
+      {
+        "title": "Xenophon, Memorabilia 3.1.1–7",
+        "url": "https://monadnock.net/xenophon/mem3-1.html"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 14 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ ἡγεμών — required vocabulary",
+          "answer": "guide; leader; ἡγεμών, ἡγεμόνος, ὁ"
+        },
+        {
+          "prompt": "ὁ ἄρχων — reading vocabulary",
+          "answer": "leader; ruler; ἄρχων, ἄρχοντος, ὁ"
+        },
+        {
+          "prompt": "ἡ ἐμπειρία — required vocabulary",
+          "answer": "experience; ἐμπειρία, ἐμπειρίας, ἡ"
+        },
+        {
+          "prompt": "ἡ γνώμη — required vocabulary",
+          "answer": "judgment; γνώμη, γνώμης, ἡ"
+        },
+        {
+          "prompt": "σώφρων — required vocabulary",
+          "answer": "prudent; self-controlled; σώφρων (masculine/feminine), σῶφρον (neuter), genitive σώφρονος"
+        },
+        {
+          "prompt": "ἱκανός — required vocabulary",
+          "answer": "capable; ἱκανός, ἱκανή, ἱκανόν"
+        },
+        {
+          "prompt": "ἡ ἀρχαιρεσία — reading vocabulary",
+          "answer": "election; ἀρχαιρεσία, ἀρχαιρεσίας, ἡ"
+        },
+        {
+          "prompt": "ὁ χορός — required vocabulary",
+          "answer": "chorus; χορός, χοροῦ, ὁ"
+        },
+        {
+          "prompt": "ὁ ἔμπορος — required vocabulary",
+          "answer": "merchant; ἔμπορος, ἐμπόρου, ὁ"
+        },
+        {
+          "prompt": "τὸ τραῦμα — required vocabulary",
+          "answer": "wound; τραῦμα, τραύματος, τό"
+        },
+        {
+          "prompt": "ὁ πόνος — required vocabulary",
+          "answer": "effort; πόνος, πόνου, ὁ"
+        },
+        {
+          "prompt": "ὁ βοηθός — required vocabulary",
+          "answer": "helper; βοηθός, βοηθοῦ, ὁ"
+        },
+        {
+          "prompt": "τὰ χρήματα — required vocabulary",
+          "answer": "money; resources; χρῆμα, χρήματος, τό (usually plural)"
+        },
+        {
+          "prompt": "ἡ παρασκευή — required vocabulary",
+          "answer": "preparation; παρασκευή, παρασκευῆς, ἡ"
+        },
+        {
+          "prompt": "ὁ ῥήτωρ — required vocabulary",
+          "answer": "speaker; ῥήτωρ, ῥήτορος, ὁ"
+        },
+        {
+          "prompt": "ὁ Κύκλωψ — reading vocabulary",
+          "answer": "Cyclops; Κύκλωψ, Κύκλωπος, ὁ"
+        },
+        {
+          "prompt": "τίς, τί — required vocabulary",
+          "answer": "who? what?; τίς (masculine/feminine), τί (neuter), genitive τίνος"
+        },
+        {
+          "prompt": "τις, τι — required vocabulary",
+          "answer": "someone; something; τις (masculine/feminine), τι (neuter), genitive τινός; enclitic"
+        },
+        {
+          "prompt": "ζητέω — required vocabulary",
+          "answer": "seek; ζητέω"
+        },
+        {
+          "prompt": "αἱρέομαι — reading vocabulary",
+          "answer": "choose; αἱρέομαι"
+        },
+        {
+          "prompt": "χρήσιμος — required vocabulary",
+          "answer": "useful; χρήσιμος, χρησίμη, χρήσιμον"
+        },
+        {
+          "prompt": "ἡ τάξις — reading vocabulary",
+          "answer": "formation; τάξις, τάξεως, ἡ"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 14 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Practice required words in short rounds. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-14-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ ἡγεμών mean?",
+          "choices": [
+            {
+              "text": "guide; leader",
+              "correct": true,
+              "feedback": "Correct: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "capable",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “guide; leader”?",
+          "choices": [
+            {
+              "text": "ἱκανός",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": true,
+              "feedback": "Correct: ὁ ἡγεμών: guide; leader."
+            },
+            {
+              "text": "ἡ γνώμη",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader."
+            },
+            {
+              "text": "σώφρων",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ ἐμπειρία mean?",
+          "choices": [
+            {
+              "text": "someone; something",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            },
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            },
+            {
+              "text": "experience",
+              "correct": true,
+              "feedback": "Correct: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            },
+            {
+              "text": "who? what?",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “experience”?",
+          "choices": [
+            {
+              "text": "τίς, τί",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience."
+            },
+            {
+              "text": "τις, τι",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience."
+            },
+            {
+              "text": "ζητέω",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience."
+            },
+            {
+              "text": "ἡ ἐμπειρία",
+              "correct": true,
+              "feedback": "Correct: ἡ ἐμπειρία: experience."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ γνώμη mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": true,
+              "feedback": "Correct: ἡ γνώμη: judgment. Dictionary form: γνώμη, γνώμης, ἡ."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": false,
+              "feedback": "Review: ἡ γνώμη: judgment. Dictionary form: γνώμη, γνώμης, ἡ."
+            },
+            {
+              "text": "capable",
+              "correct": false,
+              "feedback": "Review: ἡ γνώμη: judgment. Dictionary form: γνώμη, γνώμης, ἡ."
+            },
+            {
+              "text": "chorus",
+              "correct": false,
+              "feedback": "Review: ἡ γνώμη: judgment. Dictionary form: γνώμη, γνώμης, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “judgment”?",
+          "choices": [
+            {
+              "text": "ὁ χορός",
+              "correct": false,
+              "feedback": "Review: ἡ γνώμη: judgment."
+            },
+            {
+              "text": "ἡ γνώμη",
+              "correct": true,
+              "feedback": "Correct: ἡ γνώμη: judgment."
+            },
+            {
+              "text": "σώφρων",
+              "correct": false,
+              "feedback": "Review: ἡ γνώμη: judgment."
+            },
+            {
+              "text": "ἱκανός",
+              "correct": false,
+              "feedback": "Review: ἡ γνώμη: judgment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does σώφρων mean?",
+          "choices": [
+            {
+              "text": "useful",
+              "correct": false,
+              "feedback": "Review: σώφρων: prudent; self-controlled. Dictionary form: σώφρων (masculine/feminine), σῶφρον (neuter), genitive σώφρονος."
+            },
+            {
+              "text": "guide; leader",
+              "correct": false,
+              "feedback": "Review: σώφρων: prudent; self-controlled. Dictionary form: σώφρων (masculine/feminine), σῶφρον (neuter), genitive σώφρονος."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": true,
+              "feedback": "Correct: σώφρων: prudent; self-controlled. Dictionary form: σώφρων (masculine/feminine), σῶφρον (neuter), genitive σώφρονος."
+            },
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: σώφρων: prudent; self-controlled. Dictionary form: σώφρων (masculine/feminine), σῶφρον (neuter), genitive σώφρονος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “prudent; self-controlled”?",
+          "choices": [
+            {
+              "text": "ζητέω",
+              "correct": false,
+              "feedback": "Review: σώφρων: prudent; self-controlled."
+            },
+            {
+              "text": "χρήσιμος",
+              "correct": false,
+              "feedback": "Review: σώφρων: prudent; self-controlled."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": false,
+              "feedback": "Review: σώφρων: prudent; self-controlled."
+            },
+            {
+              "text": "σώφρων",
+              "correct": true,
+              "feedback": "Correct: σώφρων: prudent; self-controlled."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἱκανός mean?",
+          "choices": [
+            {
+              "text": "capable",
+              "correct": true,
+              "feedback": "Correct: ἱκανός: capable. Dictionary form: ἱκανός, ἱκανή, ἱκανόν."
+            },
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: ἱκανός: capable. Dictionary form: ἱκανός, ἱκανή, ἱκανόν."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: ἱκανός: capable. Dictionary form: ἱκανός, ἱκανή, ἱκανόν."
+            },
+            {
+              "text": "money; resources",
+              "correct": false,
+              "feedback": "Review: ἱκανός: capable. Dictionary form: ἱκανός, ἱκανή, ἱκανόν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “capable”?",
+          "choices": [
+            {
+              "text": "τὰ χρήματα",
+              "correct": false,
+              "feedback": "Review: ἱκανός: capable."
+            },
+            {
+              "text": "ἱκανός",
+              "correct": true,
+              "feedback": "Correct: ἱκανός: capable."
+            },
+            {
+              "text": "ὁ πόνος",
+              "correct": false,
+              "feedback": "Review: ἱκανός: capable."
+            },
+            {
+              "text": "ὁ βοηθός",
+              "correct": false,
+              "feedback": "Review: ἱκανός: capable."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ χορός mean?",
+          "choices": [
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            },
+            {
+              "text": "chorus",
+              "correct": true,
+              "feedback": "Correct: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            },
+            {
+              "text": "wound",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “chorus”?",
+          "choices": [
+            {
+              "text": "τὸ τραῦμα",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus."
+            },
+            {
+              "text": "ὁ πόνος",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus."
+            },
+            {
+              "text": "ὁ βοηθός",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus."
+            },
+            {
+              "text": "ὁ χορός",
+              "correct": true,
+              "feedback": "Correct: ὁ χορός: chorus."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ ἔμπορος mean?",
+          "choices": [
+            {
+              "text": "merchant",
+              "correct": true,
+              "feedback": "Correct: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            },
+            {
+              "text": "capable",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “merchant”?",
+          "choices": [
+            {
+              "text": "ἱκανός",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant."
+            },
+            {
+              "text": "ὁ ἔμπορος",
+              "correct": true,
+              "feedback": "Correct: ὁ ἔμπορος: merchant."
+            },
+            {
+              "text": "ἡ γνώμη",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant."
+            },
+            {
+              "text": "σώφρων",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ τραῦμα mean?",
+          "choices": [
+            {
+              "text": "merchant",
+              "correct": false,
+              "feedback": "Review: τὸ τραῦμα: wound. Dictionary form: τραῦμα, τραύματος, τό."
+            },
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: τὸ τραῦμα: wound. Dictionary form: τραῦμα, τραύματος, τό."
+            },
+            {
+              "text": "wound",
+              "correct": true,
+              "feedback": "Correct: τὸ τραῦμα: wound. Dictionary form: τραῦμα, τραύματος, τό."
+            },
+            {
+              "text": "chorus",
+              "correct": false,
+              "feedback": "Review: τὸ τραῦμα: wound. Dictionary form: τραῦμα, τραύματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “wound”?",
+          "choices": [
+            {
+              "text": "ὁ χορός",
+              "correct": false,
+              "feedback": "Review: τὸ τραῦμα: wound."
+            },
+            {
+              "text": "ὁ ἔμπορος",
+              "correct": false,
+              "feedback": "Review: τὸ τραῦμα: wound."
+            },
+            {
+              "text": "ὁ πόνος",
+              "correct": false,
+              "feedback": "Review: τὸ τραῦμα: wound."
+            },
+            {
+              "text": "τὸ τραῦμα",
+              "correct": true,
+              "feedback": "Correct: τὸ τραῦμα: wound."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ πόνος mean?",
+          "choices": [
+            {
+              "text": "effort",
+              "correct": true,
+              "feedback": "Correct: ὁ πόνος: effort. Dictionary form: πόνος, πόνου, ὁ."
+            },
+            {
+              "text": "speaker",
+              "correct": false,
+              "feedback": "Review: ὁ πόνος: effort. Dictionary form: πόνος, πόνου, ὁ."
+            },
+            {
+              "text": "who? what?",
+              "correct": false,
+              "feedback": "Review: ὁ πόνος: effort. Dictionary form: πόνος, πόνου, ὁ."
+            },
+            {
+              "text": "someone; something",
+              "correct": false,
+              "feedback": "Review: ὁ πόνος: effort. Dictionary form: πόνος, πόνου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “effort”?",
+          "choices": [
+            {
+              "text": "τις, τι",
+              "correct": false,
+              "feedback": "Review: ὁ πόνος: effort."
+            },
+            {
+              "text": "ὁ πόνος",
+              "correct": true,
+              "feedback": "Correct: ὁ πόνος: effort."
+            },
+            {
+              "text": "ὁ ῥήτωρ",
+              "correct": false,
+              "feedback": "Review: ὁ πόνος: effort."
+            },
+            {
+              "text": "τίς, τί",
+              "correct": false,
+              "feedback": "Review: ὁ πόνος: effort."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ βοηθός mean?",
+          "choices": [
+            {
+              "text": "guide; leader",
+              "correct": false,
+              "feedback": "Review: ὁ βοηθός: helper. Dictionary form: βοηθός, βοηθοῦ, ὁ."
+            },
+            {
+              "text": "experience",
+              "correct": false,
+              "feedback": "Review: ὁ βοηθός: helper. Dictionary form: βοηθός, βοηθοῦ, ὁ."
+            },
+            {
+              "text": "helper",
+              "correct": true,
+              "feedback": "Correct: ὁ βοηθός: helper. Dictionary form: βοηθός, βοηθοῦ, ὁ."
+            },
+            {
+              "text": "useful",
+              "correct": false,
+              "feedback": "Review: ὁ βοηθός: helper. Dictionary form: βοηθός, βοηθοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “helper”?",
+          "choices": [
+            {
+              "text": "χρήσιμος",
+              "correct": false,
+              "feedback": "Review: ὁ βοηθός: helper."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": false,
+              "feedback": "Review: ὁ βοηθός: helper."
+            },
+            {
+              "text": "ἡ ἐμπειρία",
+              "correct": false,
+              "feedback": "Review: ὁ βοηθός: helper."
+            },
+            {
+              "text": "ὁ βοηθός",
+              "correct": true,
+              "feedback": "Correct: ὁ βοηθός: helper."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὰ χρήματα mean?",
+          "choices": [
+            {
+              "text": "money; resources",
+              "correct": true,
+              "feedback": "Correct: τὰ χρήματα: money; resources. Dictionary form: χρῆμα, χρήματος, τό (usually plural)."
+            },
+            {
+              "text": "who? what?",
+              "correct": false,
+              "feedback": "Review: τὰ χρήματα: money; resources. Dictionary form: χρῆμα, χρήματος, τό (usually plural)."
+            },
+            {
+              "text": "someone; something",
+              "correct": false,
+              "feedback": "Review: τὰ χρήματα: money; resources. Dictionary form: χρῆμα, χρήματος, τό (usually plural)."
+            },
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: τὰ χρήματα: money; resources. Dictionary form: χρῆμα, χρήματος, τό (usually plural)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “money; resources”?",
+          "choices": [
+            {
+              "text": "ζητέω",
+              "correct": false,
+              "feedback": "Review: τὰ χρήματα: money; resources."
+            },
+            {
+              "text": "τὰ χρήματα",
+              "correct": true,
+              "feedback": "Correct: τὰ χρήματα: money; resources."
+            },
+            {
+              "text": "τίς, τί",
+              "correct": false,
+              "feedback": "Review: τὰ χρήματα: money; resources."
+            },
+            {
+              "text": "τις, τι",
+              "correct": false,
+              "feedback": "Review: τὰ χρήματα: money; resources."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ παρασκευή mean?",
+          "choices": [
+            {
+              "text": "money; resources",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            },
+            {
+              "text": "speaker",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            },
+            {
+              "text": "preparation",
+              "correct": true,
+              "feedback": "Correct: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “preparation”?",
+          "choices": [
+            {
+              "text": "ὁ βοηθός",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation."
+            },
+            {
+              "text": "τὰ χρήματα",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation."
+            },
+            {
+              "text": "ὁ ῥήτωρ",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation."
+            },
+            {
+              "text": "ἡ παρασκευή",
+              "correct": true,
+              "feedback": "Correct: ἡ παρασκευή: preparation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ ῥήτωρ mean?",
+          "choices": [
+            {
+              "text": "speaker",
+              "correct": true,
+              "feedback": "Correct: ὁ ῥήτωρ: speaker. Dictionary form: ῥήτωρ, ῥήτορος, ὁ."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ: speaker. Dictionary form: ῥήτωρ, ῥήτορος, ὁ."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ: speaker. Dictionary form: ῥήτωρ, ῥήτορος, ὁ."
+            },
+            {
+              "text": "capable",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ: speaker. Dictionary form: ῥήτωρ, ῥήτορος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “speaker”?",
+          "choices": [
+            {
+              "text": "ἱκανός",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ: speaker."
+            },
+            {
+              "text": "ὁ ῥήτωρ",
+              "correct": true,
+              "feedback": "Correct: ὁ ῥήτωρ: speaker."
+            },
+            {
+              "text": "ἡ γνώμη",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ: speaker."
+            },
+            {
+              "text": "σώφρων",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ: speaker."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τίς, τί mean?",
+          "choices": [
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            },
+            {
+              "text": "who? what?",
+              "correct": true,
+              "feedback": "Correct: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            },
+            {
+              "text": "wound",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “who? what?”?",
+          "choices": [
+            {
+              "text": "τὸ τραῦμα",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?."
+            },
+            {
+              "text": "ὁ πόνος",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?."
+            },
+            {
+              "text": "ὁ βοηθός",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?."
+            },
+            {
+              "text": "τίς, τί",
+              "correct": true,
+              "feedback": "Correct: τίς, τί: who? what?."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τις, τι mean?",
+          "choices": [
+            {
+              "text": "someone; something",
+              "correct": true,
+              "feedback": "Correct: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            },
+            {
+              "text": "speaker",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            },
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            },
+            {
+              "text": "useful",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “someone; something”?",
+          "choices": [
+            {
+              "text": "χρήσιμος",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something."
+            },
+            {
+              "text": "τις, τι",
+              "correct": true,
+              "feedback": "Correct: τις, τι: someone; something."
+            },
+            {
+              "text": "ὁ ῥήτωρ",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something."
+            },
+            {
+              "text": "ζητέω",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ζητέω mean?",
+          "choices": [
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: ζητέω: seek. Dictionary form: ζητέω."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: ζητέω: seek. Dictionary form: ζητέω."
+            },
+            {
+              "text": "seek",
+              "correct": true,
+              "feedback": "Correct: ζητέω: seek. Dictionary form: ζητέω."
+            },
+            {
+              "text": "wound",
+              "correct": false,
+              "feedback": "Review: ζητέω: seek. Dictionary form: ζητέω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “seek”?",
+          "choices": [
+            {
+              "text": "τὸ τραῦμα",
+              "correct": false,
+              "feedback": "Review: ζητέω: seek."
+            },
+            {
+              "text": "ὁ πόνος",
+              "correct": false,
+              "feedback": "Review: ζητέω: seek."
+            },
+            {
+              "text": "ὁ βοηθός",
+              "correct": false,
+              "feedback": "Review: ζητέω: seek."
+            },
+            {
+              "text": "ζητέω",
+              "correct": true,
+              "feedback": "Correct: ζητέω: seek."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does χρήσιμος mean?",
+          "choices": [
+            {
+              "text": "useful",
+              "correct": true,
+              "feedback": "Correct: χρήσιμος: useful. Dictionary form: χρήσιμος, χρησίμη, χρήσιμον."
+            },
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: χρήσιμος: useful. Dictionary form: χρήσιμος, χρησίμη, χρήσιμον."
+            },
+            {
+              "text": "guide; leader",
+              "correct": false,
+              "feedback": "Review: χρήσιμος: useful. Dictionary form: χρήσιμος, χρησίμη, χρήσιμον."
+            },
+            {
+              "text": "experience",
+              "correct": false,
+              "feedback": "Review: χρήσιμος: useful. Dictionary form: χρήσιμος, χρησίμη, χρήσιμον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “useful”?",
+          "choices": [
+            {
+              "text": "ἡ ἐμπειρία",
+              "correct": false,
+              "feedback": "Review: χρήσιμος: useful."
+            },
+            {
+              "text": "χρήσιμος",
+              "correct": true,
+              "feedback": "Correct: χρήσιμος: useful."
+            },
+            {
+              "text": "ζητέω",
+              "correct": false,
+              "feedback": "Review: χρήσιμος: useful."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": false,
+              "feedback": "Review: χρήσιμος: useful."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 14 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "What happens to ν before -σι?",
+          "answer": "It drops: ἡγεμόσι(ν)."
+        },
+        {
+          "prompt": "How does a labial combine with σ?",
+          "answer": "π, β, or φ plus σ is written ψ."
+        },
+        {
+          "prompt": "Which form agrees with neuter singular πρᾶγμα?",
+          "answer": "σῶφρον: τὸ σῶφρον πρᾶγμα."
+        },
+        {
+          "prompt": "Is τίς a pronoun in τίς ἄρχει;?",
+          "answer": "Yes; it stands alone as the subject."
+        },
+        {
+          "prompt": "Does τις necessarily ask a question?",
+          "answer": "No. It refers to an unspecified person or thing."
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 14 Word Study and Grammar Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose a topic. Every teaching section has its own practice questions with immediate feedback.",
+      "questions": [
+        {
+          "id": "lesson-14-word-study-1",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which word names experience?",
+          "choices": [
+            {
+              "text": "ἐμπειρία",
+              "correct": true,
+              "feedback": "Correct: ἐμπειρία is experience."
+            },
+            {
+              "text": "γνώμη",
+              "correct": false,
+              "feedback": "Review: ἐμπειρία is experience."
+            },
+            {
+              "text": "χορός",
+              "correct": false,
+              "feedback": "Review: ἐμπειρία is experience."
+            },
+            {
+              "text": "τραῦμα",
+              "correct": false,
+              "feedback": "Review: ἐμπειρία is experience."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-word-study-2",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which word adds the idea of judgment?",
+          "choices": [
+            {
+              "text": "ἔμπορος",
+              "correct": false,
+              "feedback": "Review: γνώμη is judgment or considered opinion."
+            },
+            {
+              "text": "γνώμη",
+              "correct": true,
+              "feedback": "Correct: γνώμη is judgment or considered opinion."
+            },
+            {
+              "text": "χρήματα",
+              "correct": false,
+              "feedback": "Review: γνώμη is judgment or considered opinion."
+            },
+            {
+              "text": "πόνος",
+              "correct": false,
+              "feedback": "Review: γνώμη is judgment or considered opinion."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-word-study-3",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does ἡγεμών mean?",
+          "choices": [
+            {
+              "text": "wound",
+              "correct": false,
+              "feedback": "Review: A ἡγεμών guides or leads."
+            },
+            {
+              "text": "chorus",
+              "correct": false,
+              "feedback": "Review: A ἡγεμών guides or leads."
+            },
+            {
+              "text": "guide or leader",
+              "correct": true,
+              "feedback": "Correct: A ἡγεμών guides or leads."
+            },
+            {
+              "text": "merchant",
+              "correct": false,
+              "feedback": "Review: A ἡγεμών guides or leads."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-word-study-4",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does παρασκευή name?",
+          "choices": [
+            {
+              "text": "election",
+              "correct": false,
+              "feedback": "Review: παρασκευή is preparation."
+            },
+            {
+              "text": "injury",
+              "correct": false,
+              "feedback": "Review: παρασκευή is preparation."
+            },
+            {
+              "text": "identity question",
+              "correct": false,
+              "feedback": "Review: παρασκευή is preparation."
+            },
+            {
+              "text": "preparation",
+              "correct": true,
+              "feedback": "Correct: παρασκευή is preparation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-word-study-5",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What is the distinction between τίς and τις?",
+          "choices": [
+            {
+              "text": "question versus indefinite reference",
+              "correct": true,
+              "feedback": "Correct: Accent and context distinguish who? from someone."
+            },
+            {
+              "text": "past versus present",
+              "correct": false,
+              "feedback": "Review: Accent and context distinguish who? from someone."
+            },
+            {
+              "text": "masculine versus feminine",
+              "correct": false,
+              "feedback": "Review: Accent and context distinguish who? from someone."
+            },
+            {
+              "text": "singular versus plural",
+              "correct": false,
+              "feedback": "Review: Accent and context distinguish who? from someone."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-word-study-6",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does βοηθός mean?",
+          "choices": [
+            {
+              "text": "formation",
+              "correct": false,
+              "feedback": "Review: βοηθός denotes a helper."
+            },
+            {
+              "text": "helper",
+              "correct": true,
+              "feedback": "Correct: βοηθός denotes a helper."
+            },
+            {
+              "text": "commander’s wound",
+              "correct": false,
+              "feedback": "Review: βοηθός denotes a helper."
+            },
+            {
+              "text": "election",
+              "correct": false,
+              "feedback": "Review: βοηθός denotes a helper."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-nasal-stems-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "What stem does ἡγεμόνος reveal?",
+          "choices": [
+            {
+              "text": "ἡγεμον-",
+              "correct": true,
+              "feedback": "Correct: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμων-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμονοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-nasal-stems-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "Which form is accusative singular of ἡγεμών?",
+          "choices": [
+            {
+              "text": "ἡγεμόνες",
+              "correct": false,
+              "feedback": "Review: -α marks the direct-object form."
+            },
+            {
+              "text": "ἡγεμόνα",
+              "correct": true,
+              "feedback": "Correct: -α marks the direct-object form."
+            },
+            {
+              "text": "ἡγεμόνος",
+              "correct": false,
+              "feedback": "Review: -α marks the direct-object form."
+            },
+            {
+              "text": "ἡγεμόνι",
+              "correct": false,
+              "feedback": "Review: -α marks the direct-object form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-nasal-stems-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "Which is nominative plural of ἡγεμών?",
+          "choices": [
+            {
+              "text": "ἡγεμόσι",
+              "correct": false,
+              "feedback": "Review: -ες marks nominative plural."
+            },
+            {
+              "text": "ἡγεμόνων",
+              "correct": false,
+              "feedback": "Review: -ες marks nominative plural."
+            },
+            {
+              "text": "ἡγεμόνες",
+              "correct": true,
+              "feedback": "Correct: -ες marks nominative plural."
+            },
+            {
+              "text": "ἡγεμόνας",
+              "correct": false,
+              "feedback": "Review: -ες marks nominative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-nasal-stems-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "Which means “to the guides”?",
+          "choices": [
+            {
+              "text": "τῶν ἡγεμόνων",
+              "correct": false,
+              "feedback": "Review: Dative plural loses ν before σ."
+            },
+            {
+              "text": "τοὺς ἡγεμόνας",
+              "correct": false,
+              "feedback": "Review: Dative plural loses ν before σ."
+            },
+            {
+              "text": "οἱ ἡγεμόνες",
+              "correct": false,
+              "feedback": "Review: Dative plural loses ν before σ."
+            },
+            {
+              "text": "τοῖς ἡγεμόσιν",
+              "correct": true,
+              "feedback": "Correct: Dative plural loses ν before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-nasal-stems-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "What change appears in nominative ἡγεμών beside ἡγεμόνος?",
+          "choices": [
+            {
+              "text": "ο is lengthened to ω",
+              "correct": true,
+              "feedback": "Correct: The nominative lengthens the stem vowel."
+            },
+            {
+              "text": "ν changes to ξ",
+              "correct": false,
+              "feedback": "Review: The nominative lengthens the stem vowel."
+            },
+            {
+              "text": "-ς is added to ν",
+              "correct": false,
+              "feedback": "Review: The nominative lengthens the stem vowel."
+            },
+            {
+              "text": "the noun becomes neuter",
+              "correct": false,
+              "feedback": "Review: The nominative lengthens the stem vowel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-nasal-stems-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "What is the stem of ποιμήν, ποιμένος?",
+          "choices": [
+            {
+              "text": "ποιμη-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμεν-",
+              "correct": true,
+              "feedback": "Correct: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμην-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμεσ-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-labial-liquid-stems-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "What is the stem in Κύκλωπος?",
+          "choices": [
+            {
+              "text": "Κυκλωπ-",
+              "correct": true,
+              "feedback": "Correct: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλωψ-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλωφ-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλω-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-labial-liquid-stems-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "What does π + σ become?",
+          "choices": [
+            {
+              "text": "τ",
+              "correct": false,
+              "feedback": "Review: A labial plus sigma is written ψ."
+            },
+            {
+              "text": "ψ",
+              "correct": true,
+              "feedback": "Correct: A labial plus sigma is written ψ."
+            },
+            {
+              "text": "ξ",
+              "correct": false,
+              "feedback": "Review: A labial plus sigma is written ψ."
+            },
+            {
+              "text": "ζ",
+              "correct": false,
+              "feedback": "Review: A labial plus sigma is written ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-labial-liquid-stems-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "Which is dative plural of Κύκλωψ?",
+          "choices": [
+            {
+              "text": "Κυκλώπων",
+              "correct": false,
+              "feedback": "Review: π combines with σ of -σι."
+            },
+            {
+              "text": "Κύκλωπας",
+              "correct": false,
+              "feedback": "Review: π combines with σ of -σι."
+            },
+            {
+              "text": "Κύκλωψι(ν)",
+              "correct": true,
+              "feedback": "Correct: π combines with σ of -σι."
+            },
+            {
+              "text": "Κύκλωπι",
+              "correct": false,
+              "feedback": "Review: π combines with σ of -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-labial-liquid-stems-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "Which is accusative singular of ῥήτωρ?",
+          "choices": [
+            {
+              "text": "ῥήτορος",
+              "correct": false,
+              "feedback": "Review: Liquid stem ῥητορ- adds -α."
+            },
+            {
+              "text": "ῥήτορι",
+              "correct": false,
+              "feedback": "Review: Liquid stem ῥητορ- adds -α."
+            },
+            {
+              "text": "ῥήτορες",
+              "correct": false,
+              "feedback": "Review: Liquid stem ῥητορ- adds -α."
+            },
+            {
+              "text": "ῥήτορα",
+              "correct": true,
+              "feedback": "Correct: Liquid stem ῥητορ- adds -α."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-labial-liquid-stems-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "What happens to ρ in ῥήτορσι?",
+          "choices": [
+            {
+              "text": "it remains before σ",
+              "correct": true,
+              "feedback": "Correct: Liquid ρ is retained in this model."
+            },
+            {
+              "text": "it disappears",
+              "correct": false,
+              "feedback": "Review: Liquid ρ is retained in this model."
+            },
+            {
+              "text": "it becomes ψ",
+              "correct": false,
+              "feedback": "Review: Liquid ρ is retained in this model."
+            },
+            {
+              "text": "it becomes ξ",
+              "correct": false,
+              "feedback": "Review: Liquid ρ is retained in this model."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-labial-liquid-stems-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "Why is Κύκλωψ taught here?",
+          "choices": [
+            {
+              "text": "because it means general",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "as a clear labial-stem model",
+              "correct": true,
+              "feedback": "Correct: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "because Cyrus recruits Cyclopes",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "because it is a Persian title",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-sophron-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which form agrees with ἡ γυνή as nominative singular?",
+          "choices": [
+            {
+              "text": "σώφρων",
+              "correct": true,
+              "feedback": "Correct: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σῶφρον",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σώφρονας",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-sophron-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which is neuter nominative singular?",
+          "choices": [
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: The neuter form ends in -ον."
+            },
+            {
+              "text": "σῶφρον",
+              "correct": true,
+              "feedback": "Correct: The neuter form ends in -ον."
+            },
+            {
+              "text": "σώφρων",
+              "correct": false,
+              "feedback": "Review: The neuter form ends in -ον."
+            },
+            {
+              "text": "σώφρονος",
+              "correct": false,
+              "feedback": "Review: The neuter form ends in -ον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-sophron-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which fits τοὺς ___ στρατηγούς?",
+          "choices": [
+            {
+              "text": "σώφρονος",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural ends in -ας."
+            },
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural ends in -ας."
+            },
+            {
+              "text": "σώφρονας",
+              "correct": true,
+              "feedback": "Correct: Accusative masculine plural ends in -ας."
+            },
+            {
+              "text": "σώφρονες",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural ends in -ας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-sophron-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "What is genitive singular of σώφρων?",
+          "choices": [
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: -ος is the genitive singular ending."
+            },
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: -ος is the genitive singular ending."
+            },
+            {
+              "text": "σωφρόνων",
+              "correct": false,
+              "feedback": "Review: -ος is the genitive singular ending."
+            },
+            {
+              "text": "σώφρονος",
+              "correct": true,
+              "feedback": "Correct: -ος is the genitive singular ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-sophron-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which is dative plural of σώφρων?",
+          "choices": [
+            {
+              "text": "σώφροσι(ν)",
+              "correct": true,
+              "feedback": "Correct: ν drops before σ."
+            },
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: ν drops before σ."
+            },
+            {
+              "text": "σώφρονες",
+              "correct": false,
+              "feedback": "Review: ν drops before σ."
+            },
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: ν drops before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-sophron-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "What does agreement require even when masculine/feminine forms match?",
+          "choices": [
+            {
+              "text": "a nominative noun only",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "the same gender, number, and case as the noun",
+              "correct": true,
+              "feedback": "Correct: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "the same declension as the noun",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "a masculine noun only",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-interrogative-tis-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "Which word asks “who?” as subject?",
+          "choices": [
+            {
+              "text": "τίς",
+              "correct": true,
+              "feedback": "Correct: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνι",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-interrogative-tis-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "What does τίνι mean?",
+          "choices": [
+            {
+              "text": "whom? as direct object",
+              "correct": false,
+              "feedback": "Review: τίνι is dative singular."
+            },
+            {
+              "text": "to whom?",
+              "correct": true,
+              "feedback": "Correct: τίνι is dative singular."
+            },
+            {
+              "text": "whose?",
+              "correct": false,
+              "feedback": "Review: τίνι is dative singular."
+            },
+            {
+              "text": "who?",
+              "correct": false,
+              "feedback": "Review: τίνι is dative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-interrogative-tis-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "Which asks “whose?”",
+          "choices": [
+            {
+              "text": "τί",
+              "correct": false,
+              "feedback": "Review: τίνος is genitive singular."
+            },
+            {
+              "text": "τίνες",
+              "correct": false,
+              "feedback": "Review: τίνος is genitive singular."
+            },
+            {
+              "text": "τίνος",
+              "correct": true,
+              "feedback": "Correct: τίνος is genitive singular."
+            },
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "Review: τίνος is genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-interrogative-tis-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "In τίς στρατηγὸς ἄρχει;, how is τίς used?",
+          "choices": [
+            {
+              "text": "as an indirect object",
+              "correct": false,
+              "feedback": "Review: It asks which general."
+            },
+            {
+              "text": "as a finite verb",
+              "correct": false,
+              "feedback": "Review: It asks which general."
+            },
+            {
+              "text": "as an indefinite pronoun",
+              "correct": false,
+              "feedback": "Review: It asks which general."
+            },
+            {
+              "text": "as an adjective modifying στρατηγός",
+              "correct": true,
+              "feedback": "Correct: It asks which general."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-interrogative-tis-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "Which is interrogative accusative plural masculine/feminine?",
+          "choices": [
+            {
+              "text": "τίνας",
+              "correct": true,
+              "feedback": "Correct: τίνας asks which people as objects."
+            },
+            {
+              "text": "τίνες",
+              "correct": false,
+              "feedback": "Review: τίνας asks which people as objects."
+            },
+            {
+              "text": "τίνων",
+              "correct": false,
+              "feedback": "Review: τίνας asks which people as objects."
+            },
+            {
+              "text": "τίσι",
+              "correct": false,
+              "feedback": "Review: τίνας asks which people as objects."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-interrogative-tis-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "What does τί ask in τί παρασκευάζεις;?",
+          "choices": [
+            {
+              "text": "whose army arrives",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "what you prepare",
+              "correct": true,
+              "feedback": "Correct: Neuter τί is the object what."
+            },
+            {
+              "text": "who prepares",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "to whom you speak",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-indefinite-tis-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "What does στρατηγός τις mean?",
+          "choices": [
+            {
+              "text": "a certain general",
+              "correct": true,
+              "feedback": "Correct: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "which general?",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "no general",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "all generals",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-indefinite-tis-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "Which is the indefinite neuter singular “something”?",
+          "choices": [
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "Review: Neuter indefinite τι means something."
+            },
+            {
+              "text": "τι",
+              "correct": true,
+              "feedback": "Correct: Neuter indefinite τι means something."
+            },
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "Review: Neuter indefinite τι means something."
+            },
+            {
+              "text": "τίνες",
+              "correct": false,
+              "feedback": "Review: Neuter indefinite τι means something."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-indefinite-tis-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "What is an enclitic?",
+          "choices": [
+            {
+              "text": "a future verb",
+              "correct": false,
+              "feedback": "Review: τις is normally enclitic."
+            },
+            {
+              "text": "a word that must introduce questions",
+              "correct": false,
+              "feedback": "Review: τις is normally enclitic."
+            },
+            {
+              "text": "a word that leans on the preceding word for accent",
+              "correct": true,
+              "feedback": "Correct: τις is normally enclitic."
+            },
+            {
+              "text": "a noun with no cases",
+              "correct": false,
+              "feedback": "Review: τις is normally enclitic."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-indefinite-tis-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "Why does ἔμπορός τις have an extra acute on ἔμπορος?",
+          "choices": [
+            {
+              "text": "the merchant is plural",
+              "correct": false,
+              "feedback": "Review: This is a standard enclitic accent effect."
+            },
+            {
+              "text": "it is a future tense",
+              "correct": false,
+              "feedback": "Review: This is a standard enclitic accent effect."
+            },
+            {
+              "text": "τις is an interrogative here",
+              "correct": false,
+              "feedback": "Review: This is a standard enclitic accent effect."
+            },
+            {
+              "text": "the following enclitic affects its accent",
+              "correct": true,
+              "feedback": "Correct: This is a standard enclitic accent effect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-indefinite-tis-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "Which sentence contains an indefinite rather than interrogative subject?",
+          "choices": [
+            {
+              "text": "στρατηγός τις ἄρχει.",
+              "correct": true,
+              "feedback": "Correct: It means a certain general leads."
+            },
+            {
+              "text": "τίς ἄρχει;",
+              "correct": false,
+              "feedback": "Review: It means a certain general leads."
+            },
+            {
+              "text": "τίνες ἄρχουσιν;",
+              "correct": false,
+              "feedback": "Review: It means a certain general leads."
+            },
+            {
+              "text": "τίς στρατηγὸς ἄρχει;",
+              "correct": false,
+              "feedback": "Review: It means a certain general leads."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-indefinite-tis-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "What does τινός mean in a possessive indefinite context?",
+          "choices": [
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "of someone",
+              "correct": true,
+              "feedback": "Correct: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "who? as subject",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "to everyone",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 14 Grammar Exercises",
+      "description": "Third-declension nasal, labial, and liquid stems; σώφρων; τίς and τις",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-14-grammar-exercises-module-2-v1",
+      "instructions": "Answer every question and score at least 80% to continue to the culture page.",
+      "questions": [
+        {
+          "id": "lesson-14-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "What stem does ἡγεμόνος reveal?",
+          "choices": [
+            {
+              "text": "ἡγεμον-",
+              "correct": true,
+              "feedback": "Correct: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμων-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμονοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "Which form is accusative singular of ἡγεμών?",
+          "choices": [
+            {
+              "text": "ἡγεμόνες",
+              "correct": false,
+              "feedback": "Review: -α marks the direct-object form."
+            },
+            {
+              "text": "ἡγεμόνα",
+              "correct": true,
+              "feedback": "Correct: -α marks the direct-object form."
+            },
+            {
+              "text": "ἡγεμόνος",
+              "correct": false,
+              "feedback": "Review: -α marks the direct-object form."
+            },
+            {
+              "text": "ἡγεμόνι",
+              "correct": false,
+              "feedback": "Review: -α marks the direct-object form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "Which is nominative plural of ἡγεμών?",
+          "choices": [
+            {
+              "text": "ἡγεμόσι",
+              "correct": false,
+              "feedback": "Review: -ες marks nominative plural."
+            },
+            {
+              "text": "ἡγεμόνων",
+              "correct": false,
+              "feedback": "Review: -ες marks nominative plural."
+            },
+            {
+              "text": "ἡγεμόνες",
+              "correct": true,
+              "feedback": "Correct: -ες marks nominative plural."
+            },
+            {
+              "text": "ἡγεμόνας",
+              "correct": false,
+              "feedback": "Review: -ες marks nominative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "Which means “to the guides”?",
+          "choices": [
+            {
+              "text": "τῶν ἡγεμόνων",
+              "correct": false,
+              "feedback": "Review: Dative plural loses ν before σ."
+            },
+            {
+              "text": "τοὺς ἡγεμόνας",
+              "correct": false,
+              "feedback": "Review: Dative plural loses ν before σ."
+            },
+            {
+              "text": "οἱ ἡγεμόνες",
+              "correct": false,
+              "feedback": "Review: Dative plural loses ν before σ."
+            },
+            {
+              "text": "τοῖς ἡγεμόσιν",
+              "correct": true,
+              "feedback": "Correct: Dative plural loses ν before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "What change appears in nominative ἡγεμών beside ἡγεμόνος?",
+          "choices": [
+            {
+              "text": "ο is lengthened to ω",
+              "correct": true,
+              "feedback": "Correct: The nominative lengthens the stem vowel."
+            },
+            {
+              "text": "ν changes to ξ",
+              "correct": false,
+              "feedback": "Review: The nominative lengthens the stem vowel."
+            },
+            {
+              "text": "-ς is added to ν",
+              "correct": false,
+              "feedback": "Review: The nominative lengthens the stem vowel."
+            },
+            {
+              "text": "the noun becomes neuter",
+              "correct": false,
+              "feedback": "Review: The nominative lengthens the stem vowel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "nasal-stems",
+          "prompt": "What is the stem of ποιμήν, ποιμένος?",
+          "choices": [
+            {
+              "text": "ποιμη-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμεν-",
+              "correct": true,
+              "feedback": "Correct: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμην-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμεσ-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "What is the stem in Κύκλωπος?",
+          "choices": [
+            {
+              "text": "Κυκλωφ-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλω-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλωπ-",
+              "correct": true,
+              "feedback": "Correct: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλωψ-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "What does π + σ become?",
+          "choices": [
+            {
+              "text": "ξ",
+              "correct": false,
+              "feedback": "Review: A labial plus sigma is written ψ."
+            },
+            {
+              "text": "ζ",
+              "correct": false,
+              "feedback": "Review: A labial plus sigma is written ψ."
+            },
+            {
+              "text": "τ",
+              "correct": false,
+              "feedback": "Review: A labial plus sigma is written ψ."
+            },
+            {
+              "text": "ψ",
+              "correct": true,
+              "feedback": "Correct: A labial plus sigma is written ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "Which is dative plural of Κύκλωψ?",
+          "choices": [
+            {
+              "text": "Κύκλωψι(ν)",
+              "correct": true,
+              "feedback": "Correct: π combines with σ of -σι."
+            },
+            {
+              "text": "Κύκλωπι",
+              "correct": false,
+              "feedback": "Review: π combines with σ of -σι."
+            },
+            {
+              "text": "Κυκλώπων",
+              "correct": false,
+              "feedback": "Review: π combines with σ of -σι."
+            },
+            {
+              "text": "Κύκλωπας",
+              "correct": false,
+              "feedback": "Review: π combines with σ of -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "Which is accusative singular of ῥήτωρ?",
+          "choices": [
+            {
+              "text": "ῥήτορες",
+              "correct": false,
+              "feedback": "Review: Liquid stem ῥητορ- adds -α."
+            },
+            {
+              "text": "ῥήτορα",
+              "correct": true,
+              "feedback": "Correct: Liquid stem ῥητορ- adds -α."
+            },
+            {
+              "text": "ῥήτορος",
+              "correct": false,
+              "feedback": "Review: Liquid stem ῥητορ- adds -α."
+            },
+            {
+              "text": "ῥήτορι",
+              "correct": false,
+              "feedback": "Review: Liquid stem ῥητορ- adds -α."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "What happens to ρ in ῥήτορσι?",
+          "choices": [
+            {
+              "text": "it becomes ψ",
+              "correct": false,
+              "feedback": "Review: Liquid ρ is retained in this model."
+            },
+            {
+              "text": "it becomes ξ",
+              "correct": false,
+              "feedback": "Review: Liquid ρ is retained in this model."
+            },
+            {
+              "text": "it remains before σ",
+              "correct": true,
+              "feedback": "Correct: Liquid ρ is retained in this model."
+            },
+            {
+              "text": "it disappears",
+              "correct": false,
+              "feedback": "Review: Liquid ρ is retained in this model."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "labial-liquid-stems",
+          "prompt": "Why is Κύκλωψ taught here?",
+          "choices": [
+            {
+              "text": "because Cyrus recruits Cyclopes",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "because it is a Persian title",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "because it means general",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "as a clear labial-stem model",
+              "correct": true,
+              "feedback": "Correct: The noun is a morphology model, not a historical actor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which form agrees with ἡ γυνή as nominative singular?",
+          "choices": [
+            {
+              "text": "σώφρων",
+              "correct": true,
+              "feedback": "Correct: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σῶφρον",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σώφρονας",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which is neuter nominative singular?",
+          "choices": [
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: The neuter form ends in -ον."
+            },
+            {
+              "text": "σῶφρον",
+              "correct": true,
+              "feedback": "Correct: The neuter form ends in -ον."
+            },
+            {
+              "text": "σώφρων",
+              "correct": false,
+              "feedback": "Review: The neuter form ends in -ον."
+            },
+            {
+              "text": "σώφρονος",
+              "correct": false,
+              "feedback": "Review: The neuter form ends in -ον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which fits τοὺς ___ στρατηγούς?",
+          "choices": [
+            {
+              "text": "σώφρονος",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural ends in -ας."
+            },
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural ends in -ας."
+            },
+            {
+              "text": "σώφρονας",
+              "correct": true,
+              "feedback": "Correct: Accusative masculine plural ends in -ας."
+            },
+            {
+              "text": "σώφρονες",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural ends in -ας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "What is genitive singular of σώφρων?",
+          "choices": [
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: -ος is the genitive singular ending."
+            },
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: -ος is the genitive singular ending."
+            },
+            {
+              "text": "σωφρόνων",
+              "correct": false,
+              "feedback": "Review: -ος is the genitive singular ending."
+            },
+            {
+              "text": "σώφρονος",
+              "correct": true,
+              "feedback": "Correct: -ος is the genitive singular ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "Which is dative plural of σώφρων?",
+          "choices": [
+            {
+              "text": "σώφροσι(ν)",
+              "correct": true,
+              "feedback": "Correct: ν drops before σ."
+            },
+            {
+              "text": "σώφρονι",
+              "correct": false,
+              "feedback": "Review: ν drops before σ."
+            },
+            {
+              "text": "σώφρονες",
+              "correct": false,
+              "feedback": "Review: ν drops before σ."
+            },
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: ν drops before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sophron",
+          "prompt": "What does agreement require even when masculine/feminine forms match?",
+          "choices": [
+            {
+              "text": "a nominative noun only",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "the same gender, number, and case as the noun",
+              "correct": true,
+              "feedback": "Correct: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "the same declension as the noun",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "a masculine noun only",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "Which word asks “who?” as subject?",
+          "choices": [
+            {
+              "text": "τίνι",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίς",
+              "correct": true,
+              "feedback": "Correct: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "What does τίνι mean?",
+          "choices": [
+            {
+              "text": "whose?",
+              "correct": false,
+              "feedback": "Review: τίνι is dative singular."
+            },
+            {
+              "text": "who?",
+              "correct": false,
+              "feedback": "Review: τίνι is dative singular."
+            },
+            {
+              "text": "whom? as direct object",
+              "correct": false,
+              "feedback": "Review: τίνι is dative singular."
+            },
+            {
+              "text": "to whom?",
+              "correct": true,
+              "feedback": "Correct: τίνι is dative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "Which asks “whose?”",
+          "choices": [
+            {
+              "text": "τίνος",
+              "correct": true,
+              "feedback": "Correct: τίνος is genitive singular."
+            },
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "Review: τίνος is genitive singular."
+            },
+            {
+              "text": "τί",
+              "correct": false,
+              "feedback": "Review: τίνος is genitive singular."
+            },
+            {
+              "text": "τίνες",
+              "correct": false,
+              "feedback": "Review: τίνος is genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "In τίς στρατηγὸς ἄρχει;, how is τίς used?",
+          "choices": [
+            {
+              "text": "as an indefinite pronoun",
+              "correct": false,
+              "feedback": "Review: It asks which general."
+            },
+            {
+              "text": "as an adjective modifying στρατηγός",
+              "correct": true,
+              "feedback": "Correct: It asks which general."
+            },
+            {
+              "text": "as an indirect object",
+              "correct": false,
+              "feedback": "Review: It asks which general."
+            },
+            {
+              "text": "as a finite verb",
+              "correct": false,
+              "feedback": "Review: It asks which general."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "Which is interrogative accusative plural masculine/feminine?",
+          "choices": [
+            {
+              "text": "τίνων",
+              "correct": false,
+              "feedback": "Review: τίνας asks which people as objects."
+            },
+            {
+              "text": "τίσι",
+              "correct": false,
+              "feedback": "Review: τίνας asks which people as objects."
+            },
+            {
+              "text": "τίνας",
+              "correct": true,
+              "feedback": "Correct: τίνας asks which people as objects."
+            },
+            {
+              "text": "τίνες",
+              "correct": false,
+              "feedback": "Review: τίνας asks which people as objects."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "interrogative-tis",
+          "prompt": "What does τί ask in τί παρασκευάζεις;?",
+          "choices": [
+            {
+              "text": "who prepares",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "to whom you speak",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "whose army arrives",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "what you prepare",
+              "correct": true,
+              "feedback": "Correct: Neuter τί is the object what."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "What does στρατηγός τις mean?",
+          "choices": [
+            {
+              "text": "a certain general",
+              "correct": true,
+              "feedback": "Correct: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "which general?",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "no general",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "all generals",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "Which is the indefinite neuter singular “something”?",
+          "choices": [
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "Review: Neuter indefinite τι means something."
+            },
+            {
+              "text": "τι",
+              "correct": true,
+              "feedback": "Correct: Neuter indefinite τι means something."
+            },
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "Review: Neuter indefinite τι means something."
+            },
+            {
+              "text": "τίνες",
+              "correct": false,
+              "feedback": "Review: Neuter indefinite τι means something."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "What is an enclitic?",
+          "choices": [
+            {
+              "text": "a future verb",
+              "correct": false,
+              "feedback": "Review: τις is normally enclitic."
+            },
+            {
+              "text": "a word that must introduce questions",
+              "correct": false,
+              "feedback": "Review: τις is normally enclitic."
+            },
+            {
+              "text": "a word that leans on the preceding word for accent",
+              "correct": true,
+              "feedback": "Correct: τις is normally enclitic."
+            },
+            {
+              "text": "a noun with no cases",
+              "correct": false,
+              "feedback": "Review: τις is normally enclitic."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "Why does ἔμπορός τις have an extra acute on ἔμπορος?",
+          "choices": [
+            {
+              "text": "the merchant is plural",
+              "correct": false,
+              "feedback": "Review: This is a standard enclitic accent effect."
+            },
+            {
+              "text": "it is a future tense",
+              "correct": false,
+              "feedback": "Review: This is a standard enclitic accent effect."
+            },
+            {
+              "text": "τις is an interrogative here",
+              "correct": false,
+              "feedback": "Review: This is a standard enclitic accent effect."
+            },
+            {
+              "text": "the following enclitic affects its accent",
+              "correct": true,
+              "feedback": "Correct: This is a standard enclitic accent effect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "Which sentence contains an indefinite rather than interrogative subject?",
+          "choices": [
+            {
+              "text": "στρατηγός τις ἄρχει.",
+              "correct": true,
+              "feedback": "Correct: It means a certain general leads."
+            },
+            {
+              "text": "τίς ἄρχει;",
+              "correct": false,
+              "feedback": "Review: It means a certain general leads."
+            },
+            {
+              "text": "τίνες ἄρχουσιν;",
+              "correct": false,
+              "feedback": "Review: It means a certain general leads."
+            },
+            {
+              "text": "τίς στρατηγὸς ἄρχει;",
+              "correct": false,
+              "feedback": "Review: It means a certain general leads."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-grammar-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indefinite-tis",
+          "prompt": "What does τινός mean in a possessive indefinite context?",
+          "choices": [
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "of someone",
+              "correct": true,
+              "feedback": "Correct: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "who? as subject",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "to everyone",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 14 Final Quiz — Who Is Fit to Lead?",
+      "description": "Reading, vocabulary, taught grammar, and the Greek world",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-14-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80% to complete Lesson 14.",
+      "questions": [
+        {
+          "id": "lesson-14-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does the Socratic scene take place?",
+          "choices": [
+            {
+              "text": "Athens",
+              "correct": true,
+              "feedback": "Correct: This is a separate Athenian scene."
+            },
+            {
+              "text": "Cyrus’s camp at Sardis",
+              "correct": false,
+              "feedback": "Review: This is a separate Athenian scene."
+            },
+            {
+              "text": "Tarsus",
+              "correct": false,
+              "feedback": "Review: This is a separate Athenian scene."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: This is a separate Athenian scene."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who returns from the elections?",
+          "choices": [
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: Nicomachides meets Socrates after the elections."
+            },
+            {
+              "text": "Nicomachides",
+              "correct": true,
+              "feedback": "Correct: Nicomachides meets Socrates after the elections."
+            },
+            {
+              "text": "Proxenus",
+              "correct": false,
+              "feedback": "Review: Nicomachides meets Socrates after the elections."
+            },
+            {
+              "text": "Epyaxa",
+              "correct": false,
+              "feedback": "Review: Nicomachides meets Socrates after the elections."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who has been chosen general?",
+          "choices": [
+            {
+              "text": "Xenophon",
+              "correct": false,
+              "feedback": "Review: The conversation discusses the election of Antisthenes."
+            },
+            {
+              "text": "the merchant mentioned as a type",
+              "correct": false,
+              "feedback": "Review: The conversation discusses the election of Antisthenes."
+            },
+            {
+              "text": "Antisthenes",
+              "correct": true,
+              "feedback": "Correct: The conversation discusses the election of Antisthenes."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Review: The conversation discusses the election of Antisthenes."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Nicomachides display?",
+          "choices": [
+            {
+              "text": "a pay list",
+              "correct": false,
+              "feedback": "Review: He points to wounds as evidence of service."
+            },
+            {
+              "text": "a map of Phrygia",
+              "correct": false,
+              "feedback": "Review: He points to wounds as evidence of service."
+            },
+            {
+              "text": "choral prizes",
+              "correct": false,
+              "feedback": "Review: He points to wounds as evidence of service."
+            },
+            {
+              "text": "his wounds",
+              "correct": true,
+              "feedback": "Correct: He points to wounds as evidence of service."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What activity provides Socrates’s comparison?",
+          "choices": [
+            {
+              "text": "organizing choruses",
+              "correct": true,
+              "feedback": "Correct: The chorus analogy concerns organization and skilled helpers."
+            },
+            {
+              "text": "steering a ship",
+              "correct": false,
+              "feedback": "Review: The chorus analogy concerns organization and skilled helpers."
+            },
+            {
+              "text": "consulting Delphi",
+              "correct": false,
+              "feedback": "Review: The chorus analogy concerns organization and skilled helpers."
+            },
+            {
+              "text": "crossing the Maeander",
+              "correct": false,
+              "feedback": "Review: The chorus analogy concerns organization and skilled helpers."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the prudent leader avoid in the adaptation?",
+          "choices": [
+            {
+              "text": "examining a road",
+              "correct": false,
+              "feedback": "Review: He chooses capable helpers."
+            },
+            {
+              "text": "doing everything alone",
+              "correct": true,
+              "feedback": "Correct: He chooses capable helpers."
+            },
+            {
+              "text": "providing food",
+              "correct": false,
+              "feedback": "Review: He chooses capable helpers."
+            },
+            {
+              "text": "choosing good helpers",
+              "correct": false,
+              "feedback": "Review: He chooses capable helpers."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-7",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the companion teaching say is insufficient by itself?",
+          "choices": [
+            {
+              "text": "having equipment",
+              "correct": false,
+              "feedback": "Review: Preparation extends beyond arranging ranks."
+            },
+            {
+              "text": "looking after soldiers",
+              "correct": false,
+              "feedback": "Review: Preparation extends beyond arranging ranks."
+            },
+            {
+              "text": "knowing the formation",
+              "correct": true,
+              "feedback": "Correct: Preparation extends beyond arranging ranks."
+            },
+            {
+              "text": "having food",
+              "correct": false,
+              "feedback": "Review: Preparation extends beyond arranging ranks."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-8",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Is Xenophon presented as a witness of this dialogue?",
+          "choices": [
+            {
+              "text": "yes, as elected captain",
+              "correct": false,
+              "feedback": "Review: The introduction explicitly keeps him outside the cast."
+            },
+            {
+              "text": "yes, with Cyrus",
+              "correct": false,
+              "feedback": "Review: The introduction explicitly keeps him outside the cast."
+            },
+            {
+              "text": "yes, as chorus trainer",
+              "correct": false,
+              "feedback": "Review: The introduction explicitly keeps him outside the cast."
+            },
+            {
+              "text": "no",
+              "correct": true,
+              "feedback": "Correct: The introduction explicitly keeps him outside the cast."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἡγεμών mean?",
+          "choices": [
+            {
+              "text": "guide; leader",
+              "correct": true,
+              "feedback": "Correct: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "capable",
+              "correct": false,
+              "feedback": "Review: ὁ ἡγεμών: guide; leader. Dictionary form: ἡγεμών, ἡγεμόνος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐμπειρία mean?",
+          "choices": [
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            },
+            {
+              "text": "experience",
+              "correct": true,
+              "feedback": "Correct: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            },
+            {
+              "text": "who? what?",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            },
+            {
+              "text": "someone; something",
+              "correct": false,
+              "feedback": "Review: ἡ ἐμπειρία: experience. Dictionary form: ἐμπειρία, ἐμπειρίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ χορός mean?",
+          "choices": [
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            },
+            {
+              "text": "chorus",
+              "correct": true,
+              "feedback": "Correct: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            },
+            {
+              "text": "wound",
+              "correct": false,
+              "feedback": "Review: ὁ χορός: chorus. Dictionary form: χορός, χοροῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἔμπορος mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            },
+            {
+              "text": "prudent; self-controlled",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            },
+            {
+              "text": "capable",
+              "correct": false,
+              "feedback": "Review: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            },
+            {
+              "text": "merchant",
+              "correct": true,
+              "feedback": "Correct: ὁ ἔμπορος: merchant. Dictionary form: ἔμπορος, ἐμπόρου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τίς, τί mean?",
+          "choices": [
+            {
+              "text": "who? what?",
+              "correct": true,
+              "feedback": "Correct: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            },
+            {
+              "text": "wound",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            },
+            {
+              "text": "effort",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            },
+            {
+              "text": "helper",
+              "correct": false,
+              "feedback": "Review: τίς, τί: who? what?. Dictionary form: τίς (masculine/feminine), τί (neuter), genitive τίνος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τις, τι mean?",
+          "choices": [
+            {
+              "text": "useful",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            },
+            {
+              "text": "someone; something",
+              "correct": true,
+              "feedback": "Correct: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            },
+            {
+              "text": "speaker",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            },
+            {
+              "text": "seek",
+              "correct": false,
+              "feedback": "Review: τις, τι: someone; something. Dictionary form: τις (masculine/feminine), τι (neuter), genitive τινός; enclitic."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What stem does ἡγεμόνος reveal?",
+          "choices": [
+            {
+              "text": "ἡγεμοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμονοσ-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμον-",
+              "correct": true,
+              "feedback": "Correct: Remove genitive -ος to find ἡγεμον-."
+            },
+            {
+              "text": "ἡγεμων-",
+              "correct": false,
+              "feedback": "Review: Remove genitive -ος to find ἡγεμον-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the stem of ποιμήν, ποιμένος?",
+          "choices": [
+            {
+              "text": "ποιμην-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμεσ-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμη-",
+              "correct": false,
+              "feedback": "Review: The genitive supplies ποιμεν-."
+            },
+            {
+              "text": "ποιμεν-",
+              "correct": true,
+              "feedback": "Correct: The genitive supplies ποιμεν-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the stem in Κύκλωπος?",
+          "choices": [
+            {
+              "text": "Κυκλωπ-",
+              "correct": true,
+              "feedback": "Correct: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλωψ-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλωφ-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            },
+            {
+              "text": "Κυκλω-",
+              "correct": false,
+              "feedback": "Review: The genitive reveals π."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Why is Κύκλωψ taught here?",
+          "choices": [
+            {
+              "text": "because it means general",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "as a clear labial-stem model",
+              "correct": true,
+              "feedback": "Correct: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "because Cyrus recruits Cyclopes",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            },
+            {
+              "text": "because it is a Persian title",
+              "correct": false,
+              "feedback": "Review: The noun is a morphology model, not a historical actor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which form agrees with ἡ γυνή as nominative singular?",
+          "choices": [
+            {
+              "text": "σώφρονα",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σώφρονας",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σώφρων",
+              "correct": true,
+              "feedback": "Correct: Masculine and feminine nominative singular share σώφρων."
+            },
+            {
+              "text": "σῶφρον",
+              "correct": false,
+              "feedback": "Review: Masculine and feminine nominative singular share σώφρων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does agreement require even when masculine/feminine forms match?",
+          "choices": [
+            {
+              "text": "the same declension as the noun",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "a masculine noun only",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "a nominative noun only",
+              "correct": false,
+              "feedback": "Review: Shared forms do not cancel grammatical agreement."
+            },
+            {
+              "text": "the same gender, number, and case as the noun",
+              "correct": true,
+              "feedback": "Correct: Shared forms do not cancel grammatical agreement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which word asks “who?” as subject?",
+          "choices": [
+            {
+              "text": "τίς",
+              "correct": true,
+              "feedback": "Correct: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνι",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "Review: Nominative τίς asks the subject’s identity."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does τί ask in τί παρασκευάζεις;?",
+          "choices": [
+            {
+              "text": "whose army arrives",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "what you prepare",
+              "correct": true,
+              "feedback": "Correct: Neuter τί is the object what."
+            },
+            {
+              "text": "who prepares",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            },
+            {
+              "text": "to whom you speak",
+              "correct": false,
+              "feedback": "Review: Neuter τί is the object what."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does στρατηγός τις mean?",
+          "choices": [
+            {
+              "text": "no general",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "all generals",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "a certain general",
+              "correct": true,
+              "feedback": "Correct: Indefinite τις leaves the identity unspecified."
+            },
+            {
+              "text": "which general?",
+              "correct": false,
+              "feedback": "Review: Indefinite τις leaves the identity unspecified."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does τινός mean in a possessive indefinite context?",
+          "choices": [
+            {
+              "text": "who? as subject",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "to everyone",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "nothing",
+              "correct": false,
+              "feedback": "Review: Indefinite genitive refers to an unspecified person."
+            },
+            {
+              "text": "of someone",
+              "correct": true,
+              "feedback": "Correct: Indefinite genitive refers to an unspecified person."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why does Nicomachides cite scars?",
+          "choices": [
+            {
+              "text": "to argue for his military qualifications",
+              "correct": true,
+              "feedback": "Correct: The wounds represent his service."
+            },
+            {
+              "text": "to prove he has choral skill",
+              "correct": false,
+              "feedback": "Review: The wounds represent his service."
+            },
+            {
+              "text": "to announce overdue pay",
+              "correct": false,
+              "feedback": "Review: The wounds represent his service."
+            },
+            {
+              "text": "to show he is Cyrus’s brother",
+              "correct": false,
+              "feedback": "Review: The wounds represent his service."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What identification of the elected Antisthenes is established here?",
+          "choices": [
+            {
+              "text": "certainly Xenophon’s father",
+              "correct": false,
+              "feedback": "Review: The shared name alone proves no further identity."
+            },
+            {
+              "text": "the man chosen general in the passage",
+              "correct": true,
+              "feedback": "Correct: The shared name alone proves no further identity."
+            },
+            {
+              "text": "certainly the Socratic philosopher",
+              "correct": false,
+              "feedback": "Review: The shared name alone proves no further identity."
+            },
+            {
+              "text": "certainly a Persian prince",
+              "correct": false,
+              "feedback": "Review: The shared name alone proves no further identity."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What transferable ability does the chorus comparison test?",
+          "choices": [
+            {
+              "text": "ignoring military supplies",
+              "correct": false,
+              "feedback": "Review: Socrates points to organizing specialists."
+            },
+            {
+              "text": "replacing soldiers with performers",
+              "correct": false,
+              "feedback": "Review: Socrates points to organizing specialists."
+            },
+            {
+              "text": "choosing skilled helpers",
+              "correct": true,
+              "feedback": "Correct: Socrates points to organizing specialists."
+            },
+            {
+              "text": "singing during battle",
+              "correct": false,
+              "feedback": "Review: Socrates points to organizing specialists."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What objection does Nicomachides raise?",
+          "choices": [
+            {
+              "text": "generals need no experience",
+              "correct": false,
+              "feedback": "Review: He presses the difference between activities."
+            },
+            {
+              "text": "choruses cannot have helpers",
+              "correct": false,
+              "feedback": "Review: He presses the difference between activities."
+            },
+            {
+              "text": "money is never useful",
+              "correct": false,
+              "feedback": "Review: He presses the difference between activities."
+            },
+            {
+              "text": "choral organization differs from fighting",
+              "correct": true,
+              "feedback": "Correct: He presses the difference between activities."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does Memorabilia 3.1 broaden beyond?",
+          "choices": [
+            {
+              "text": "formation alone",
+              "correct": true,
+              "feedback": "Correct: Generalship requires multiple kinds of preparation."
+            },
+            {
+              "text": "all preparation",
+              "correct": false,
+              "feedback": "Review: Generalship requires multiple kinds of preparation."
+            },
+            {
+              "text": "the need for equipment",
+              "correct": false,
+              "feedback": "Review: Generalship requires multiple kinds of preparation."
+            },
+            {
+              "text": "the need for supplies",
+              "correct": false,
+              "feedback": "Review: Generalship requires multiple kinds of preparation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-14-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How should the analogy be read?",
+          "choices": [
+            {
+              "text": "as a claim that scars have no value",
+              "correct": false,
+              "feedback": "Review: The lesson preserves the practical comparison and its limits."
+            },
+            {
+              "text": "as an argument to examine with limits",
+              "correct": true,
+              "feedback": "Correct: The lesson preserves the practical comparison and its limits."
+            },
+            {
+              "text": "as automatic proof that every rich man can lead",
+              "correct": false,
+              "feedback": "Review: The lesson preserves the practical comparison and its limits."
+            },
+            {
+              "text": "as an eyewitness report from Cyrus’s camp",
+              "correct": false,
+              "feedback": "Review: The lesson preserves the practical comparison and its limits."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-13",
+    "title": "Among the Soldiers at Sardis",
+    "fallbackUrl": "lesson.html?lesson=13&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-15",
+    "title": "An Army on the Move",
+    "fallbackUrl": "lesson.html?lesson=15&page=1"
+  },
+  "contentRevision": "lesson-14-module-2-v1"
+}

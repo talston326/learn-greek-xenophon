@@ -364,6 +364,11 @@ BEGIN
   FROM public.lesson_content_overrides
   WHERE lesson_id = lesson_id_value FOR UPDATE;
 
+  -- A later additive migration extends this quiz. Do not replace it on reruns.
+  IF current_content #>> '{activities,lesson-quiz,translationRevision}' = 'lesson-1-translations-v1' THEN
+    RETURN;
+  END IF;
+
   IF current_content #> '{activities,lesson-quiz}' = new_quiz THEN
     RETURN;
   END IF;

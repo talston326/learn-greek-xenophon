@@ -1,0 +1,21 @@
+/* Keep Modules II and III’s longer vocabulary headings and dictionary entries readable. */
+.module-two-lesson .lesson-section,
+.module-two-lesson .vocab-document,
+.module-two-lesson .vocab-group,
+.module-two-lesson .vocab-group ul {
+  min-width: 0;
+}
+.module-two-lesson .lesson-flashcard-link {
+  min-width: 0;
+  max-width: 100%;
+  white-space: normal;
+}
+.module-two-lesson .vocab-group h3,
+.module-two-lesson .vocab-entry__term {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .module-two-lesson .vocab-document { padding-inline: 0; }
+  .module-two-lesson .vocab-group li { font-size: 1.5rem; }
+  .module-two-lesson .vocab-group h3 { font-size: 1.6rem; }
+}

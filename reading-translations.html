@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#73000a" />
+  <title>Reading Translations - Learn Greek with Xenophon</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="stylesheet" href="styles.css?v=admin-workspace-20261005" />
+</head>
+<body class="dashboard-active reading-translations-page">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 120 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Fall 2027</div>
+      </div>
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+      <nav class="nav"></nav>
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Staff Profile</h3>
+          <div class="muted" data-profile-summary></div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>View Profile →</a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+    <main class="main">
+      <section class="lesson-section translation-review" data-translation-review aria-labelledby="translation-review-heading">
+        <p class="eyebrow">Student work</p>
+        <h2 id="translation-review-heading">Reading Translations</h2>
+        <p>Choose a student and lesson to view their latest submitted translation.</p>
+        <form class="translation-review-filters" data-review-filters hidden>
+          <div><label for="review-student">Student</label><select id="review-student" name="student" required></select></div>
+          <div><label for="review-lesson">Lesson</label><select id="review-lesson" name="lesson" required></select></div>
+          <button class="primary-button" type="submit">View Translation</button>
+        </form>
+        <p role="status" data-review-status>Loading students and lessons…</p>
+        <button class="secondary-button" type="button" data-review-retry hidden>Retry</button>
+        <div data-review-result></div>
+      </section>
+    </main>
+  </div>
+  <script src="auth.js"></script>
+  <script src="profile-data.js"></script>
+  <script src="forms-data.js"></script>
+  <script src="site-policy.js?v=admin-workspace-20261005"></script>
+  <script src="script.js?v=admin-workspace-20261005"></script>
+  <script src="reading-translations.js?v=2"></script>
+</body>
+</html>

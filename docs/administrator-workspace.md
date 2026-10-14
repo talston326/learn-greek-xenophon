@@ -1,0 +1,13 @@
+# Administrator workspace
+
+Administrator navigation links to `site-settings.html` and `course-content.html`. The profile link uses the active role: Administrator, Professor, or Student. Professor student previews use Student.
+
+Site Settings saves course branding, default exercise/final-quiz passing scores, open versus sequential lesson access, registration and feedback switches, and AI translation controls. Existing explicit lesson thresholds and module exam requirements take precedence. Instructor guidelines supplement the fixed accent/breathing rubric. AI checks reserve $0.005 per sentence against the course allowance; this estimate is separate from actual provider billing. The API key stays in Netlify, and the page displays only whether it is configured. Phrase builders use no AI credits.
+
+Course Content lists modules and lessons with published counts, draft status, search, and status filters. It links to the reading/vocabulary, grammar, culture, and question-bank editors. Question banks support multiple choice, existing sentence-labeling, matching, blanks, and phrase-builder modes. Translation model references remain maintained in the translation curriculum. Questions are edited ten at a time. Save Draft keeps changes private; Publish Changes writes the complete lesson through the normalized publisher. A saved draft is shared by administrators in the course, and version checks prevent overwriting another editor's work. Published content and settings retain previous versions in database history.
+
+Both administrator APIs verify the existing password, actual assigned administrator role, selected administrator view, and course membership. No new authentication credentials or roles are created. Migration `0044_administrator_workspace.sql` creates settings and history tables and scopes translation reservations to their course and settings version. Rerunning it preserves saved settings.
+
+Validation: `npm run verify:admin-workspace` tests labels, authentication and authorization, counts, conflict protection, settings saves, lesson drafts, and normalized publication against real SQL while substituting ROLLBACK for every COMMIT. `npm run verify:site-policy` tests runtime controls and translation instructions with a mocked provider and rolled-back writes. Neither verifier creates accounts or consumes AI credits.
+
+The October 5 release is built over the previous focused Lesson 1 exercise release, preserving deployed course-flow and feedback behavior. Unrelated local reading-translation and atlas work, and unpublished AI question-bank additions, are not included. The AI policy applies to the server checker; adding or editing its reference sentences remains a curriculum source change.

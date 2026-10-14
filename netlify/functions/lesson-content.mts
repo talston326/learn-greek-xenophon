@@ -1,3 +1,4 @@
+import {readSitePolicy} from './_shared/site-policy.mts';
 import {
   createDatabaseClient,
   getConnectionString,
@@ -8,6 +9,7 @@ type DatabaseClient = ReturnType<typeof createDatabaseClient>;
 
 type LessonRow = {
   id: string;
+  course_id: string;
   slug: string;
   number_label: string;
   title: string;
@@ -72,6 +74,7 @@ async function getLessonRow(client: DatabaseClient, slug: string): Promise<Lesso
     `
       SELECT
         l.id,
+        m.course_id,
         l.slug,
         l.number_label,
         l.title,
@@ -316,15 +319,29 @@ export default async (request: Request) => {
       scope: lesson.grammar_focus || undefined,
       module: `${lesson.module_label} · ${lesson.module_title}`,
       pages,
-      vocabulary: vocabulary.length ? vocabulary : undefined,
+      vocabulary: /^lesson-(1[3-9]|2[0-9]|3[0-6])$/.test(lesson.slug)
+        && Array.isArray(legacyContent?.vocabulary)
+        && legacyContent?.contentRevision === `${lesson.slug}-module-${Number(lesson.slug.slice(7)) <= 24 ? 2 : 3}-v1`
+        ? legacyContent.vocabulary
+        : vocabulary.length ? vocabulary : undefined,
       reading: legacyReading || publishedBlocks.get("reading") || reading || undefined,
       wordStudy: publishedBlocks.get("wordStudy") || undefined,
       grammar: publishedBlocks.get("grammar") || undefined,
       culture: publishedBlocks.get("culture") || undefined,
       enrichment: publishedBlocks.get("enrichment") || undefined,
-      activities,
+      activities: isRecord(activities) ? Object.fromEntries(Object.entries(activities).map(([key, activity]) => [key,
+        isRecord(activity) && Array.isArray(activity.questions) ? { ...activity, questions: activity.questions.map(question => {
+          if (!isRecord(question) || question.type !== 'translation') return question;
+          const { greek, english, ...publicQuestion } = question;
+          return publicQuestion;
+        }) } : activity
+      ])) : activities,
     });
 
+    const policy=await readSitePolicy(client,lesson.course_id);
+    if(isRecord(assembled.activities))for(const [key,activity] of Object.entries(assembled.activities)){
+      if(isRecord(activity) && activity.threshold == null && ['grammar-exercises','lesson-quiz'].includes(key))activity.threshold=key==='lesson-quiz'?policy.quizPassingScore:policy.grammarPassingScore;
+    }
     return jsonResponse({
       ok: true,
       slug: lesson.slug,

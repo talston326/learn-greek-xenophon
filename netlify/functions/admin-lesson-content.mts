@@ -4,6 +4,7 @@ import {
   jsonResponse,
   normalizeEmail,
 } from "./_shared/course-auth.mts";
+import { authenticatedCourseUser } from './_shared/admin-access.mts';
 
 type LessonContentRequest = {
   email?: string;
@@ -11,6 +12,9 @@ type LessonContentRequest = {
   content?: unknown;
   note?: string;
   action?: "draft" | "publish";
+  password?: string;
+  expectedVersion?: number;
+  expectedDraftVersion?: number;
 };
 
 type ValidationResult = {
@@ -19,10 +23,6 @@ type ValidationResult = {
 };
 
 type DatabaseClient = ReturnType<typeof createDatabaseClient>;
-
-type AuthenticatedAdmin = {
-  id: string;
-};
 
 function normalizeLessonSlug(value: unknown) {
   const raw = String(value || "").trim().toLowerCase();
@@ -163,26 +163,6 @@ function buildReadingNotesMarkdown(reading: Record<string, unknown>): string | n
   }
 
   return sections.length ? sections.join("\n\n") : null;
-}
-
-async function getAuthenticatedAdmin(
-  client: DatabaseClient,
-  email: string
-): Promise<AuthenticatedAdmin | null> {
-  const userResult = await client.query(
-    `
-      SELECT u.id
-      FROM public.users u
-      JOIN public.user_roles ur ON ur.user_id = u.id
-      WHERE u.email = $1::citext
-        AND u.status = 'active'
-        AND ur.role_id = 'administrator'
-      LIMIT 1
-    `,
-    [email]
-  );
-
-  return userResult.rows[0] || null;
 }
 
 async function getLessonBySlug(client: DatabaseClient, slug: string) {
@@ -1277,9 +1257,9 @@ export default async (request: Request) => {
     await client.connect();
     await client.query("BEGIN");
 
-    const user = await getAuthenticatedAdmin(client, email);
+    const user = await authenticatedCourseUser(client, email, body.password || request.headers.get('x-xenophon-password'));
 
-    if (!user) {
+    if (!user || !user.administrator) {
       await client.query("ROLLBACK");
       return jsonResponse({ error: "Administrator role is required." }, 403);
     }
@@ -1289,6 +1269,13 @@ export default async (request: Request) => {
     if (!lesson) {
       await client.query("ROLLBACK");
       return jsonResponse({ error: "Lesson was not found." }, 404);
+    }
+
+    const scope = await client.query(`SELECT 1 FROM public.lessons l JOIN public.modules m ON m.id=l.module_id WHERE l.id=$1 AND m.course_id=$2 FOR UPDATE OF l`,[lesson.id,user.course_id]);
+    if(!scope.rowCount){await client.query('ROLLBACK');return jsonResponse({error:'Lesson is not in your course.'},403);}
+    if(request.method==='PUT' && body.expectedVersion!==undefined){
+      const versions=await client.query(`SELECT COALESCE(o.version,0) AS published,COALESCE(d.version,0) AS draft FROM public.lessons l LEFT JOIN public.lesson_content_overrides o ON o.lesson_id=l.id LEFT JOIN public.lesson_content_drafts d ON d.lesson_id=l.id WHERE l.id=$1`,[lesson.id]);
+      if(versions.rows[0].published!==body.expectedVersion || versions.rows[0].draft!==body.expectedDraftVersion){await client.query('ROLLBACK');return jsonResponse({error:'This lesson changed in another editor. Reload before saving.'},409);}
     }
 
     if (request.method === "GET") {
@@ -1403,6 +1390,7 @@ export default async (request: Request) => {
     const normalizedCulture = await syncLessonCulture(client, lesson.id, body.content);
     const normalizedEnrichment = await syncLessonEnrichment(client, lesson.id, body.content);
     const normalizedStructuredBlocks = await syncLessonPublishedBlocks(client, lesson.id, body.content);
+    await client.query('UPDATE public.lessons SET is_published=true WHERE id=$1',[lesson.id]);
 
     await client.query("DELETE FROM public.lesson_content_drafts WHERE lesson_id = $1", [lesson.id]);
 

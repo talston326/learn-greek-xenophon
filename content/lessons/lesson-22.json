@@ -1,0 +1,4667 @@
+{
+  "id": "lesson-22",
+  "number": 22,
+  "title": "Trust, Betrayal, and the Missing Generals",
+  "greekTitle": "Πίστις καὶ δόλος",
+  "scope": "εἶπον and εἶδον: unrelated stems; Second-aorist commands and accent exceptions; Syllabic and temporal augment; Indicative, participle, and imperative",
+  "theme": "After Cyrus’s death, negotiations promise a way out. Clearchus trusts Tissaphernes’ invitation despite objections in the Greek camp. The meeting ends with the generals captured and captains outside killed. Their capture and their later deaths are separate events.",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-22-banner.png",
+    "alt": "Educational reconstruction of the Greek camp receiving a survivor’s report after the commanders’ capture",
+    "caption": "Educational reconstruction of the reading’s setting; this modern illustration is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-22-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-22-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-22-page-3",
+      "title": "Culture and History",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Trust and speech",
+      "items": [
+        {
+          "greek": "λέγω",
+          "english": "say",
+          "dictionaryForm": "λέγω, ἐρῶ, εἶπον",
+          "status": "required vocabulary",
+          "lemma": "λέγω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁράω",
+          "english": "see",
+          "dictionaryForm": "ὁράω, ὄψομαι, εἶδον",
+          "status": "required vocabulary",
+          "lemma": "ὁράω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πίστις",
+          "english": "trust",
+          "dictionaryForm": "πίστις, πίστεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "πίστις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ δόλος",
+          "english": "deceit",
+          "dictionaryForm": "δόλος, δόλου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "δόλος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πιστεύω",
+          "english": "trust someone",
+          "dictionaryForm": "πιστεύω (+ dative)",
+          "status": "required vocabulary",
+          "lemma": "πιστεύω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καλέω",
+          "english": "invite",
+          "dictionaryForm": "καλέω",
+          "status": "required vocabulary",
+          "lemma": "καλέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ σῆμα",
+          "english": "signal",
+          "dictionaryForm": "σῆμα, σήματος, τό",
+          "status": "required vocabulary",
+          "lemma": "σῆμα",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Command and camp",
+      "items": [
+        {
+          "greek": "ὁ στρατηγός",
+          "english": "general",
+          "dictionaryForm": "στρατηγός, στρατηγοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "στρατηγός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ λοχαγός",
+          "english": "captain",
+          "dictionaryForm": "λοχαγός, λοχαγοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "λοχαγός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἡγεμών",
+          "english": "leader",
+          "dictionaryForm": "ἡγεμών, ἡγεμόνος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἡγεμών",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ θύρα",
+          "english": "door",
+          "dictionaryForm": "θύρα, θύρας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "θύρα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ στρατόπεδον",
+          "english": "camp",
+          "dictionaryForm": "στρατόπεδον, στρατοπέδου, τό",
+          "status": "required vocabulary",
+          "lemma": "στρατόπεδον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἱππεύς",
+          "english": "horseman",
+          "dictionaryForm": "ἱππεύς, ἱππέως, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἱππεύς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ κίνδυνος",
+          "english": "danger",
+          "dictionaryForm": "κίνδυνος, κινδύνου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "κίνδυνος",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Events and distinctions",
+      "items": [
+        {
+          "greek": "ἡ τελευτή",
+          "english": "death",
+          "dictionaryForm": "τελευτή, τελευτῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "τελευτή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ πρᾶγμα",
+          "english": "event",
+          "dictionaryForm": "πρᾶγμα, πράγματος, τό",
+          "status": "required vocabulary",
+          "lemma": "πρᾶγμα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἅμα",
+          "english": "together",
+          "dictionaryForm": "ἅμα",
+          "status": "required vocabulary",
+          "lemma": "ἅμα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "εὐθύς",
+          "english": "immediately",
+          "dictionaryForm": "εὐθύς",
+          "status": "required vocabulary",
+          "lemma": "εὐθύς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οὐκέτι",
+          "english": "no longer",
+          "dictionaryForm": "οὐκέτι",
+          "status": "required vocabulary",
+          "lemma": "οὐκέτι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἄλλοθι",
+          "english": "elsewhere",
+          "dictionaryForm": "ἄλλοθι",
+          "status": "reading vocabulary",
+          "lemma": "ἄλλοθι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Νίκαρχος",
+          "english": "Nicarchus",
+          "dictionaryForm": "Νίκαρχος, Νικάρχου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Νίκαρχος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Τισσαφέρνης",
+          "english": "Tissaphernes",
+          "dictionaryForm": "Τισσαφέρνης, Τισσαφέρνους, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Τισσαφέρνης",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Πίστις καὶ δόλος",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "After Cyrus’s death, negotiations promise a way out. Clearchus trusts Tissaphernes’ invitation despite objections in the Greek camp. The meeting ends with the generals captured and captains outside killed. Their capture and their later deaths are separate events.",
+      "Source: Xenophon, Anabasis 2.5.25–35; 2.6 for the generals’ later fates. This is a controlled Attic Greek course adaptation, not a verbatim ancient extract. Sequence, persons, and historical outcomes follow the sources; sentence wording, compact transitions, and quoted speech are course compositions. Historical speakers are not being quoted verbatim.",
+      "Aorist narrative is now a target. Blue glosses identify lexical irregularities and forms beyond this lesson: imperfects, passive or athematic aorists, perfect participles, and unfamiliar infinitives remain supported exposure rather than assessed production. Comparison passages from Memorabilia belong to a separate work and setting."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Μετὰ τὴν τοῦ Κύρου τελευτὴν οἱ Ἕλληνες πρὸς τὸν Τισσαφέρνην ἦλθον. ὁ Κλέαρχος περὶ τῆς ὁδοῦ καὶ τῆς πίστεως εἶπεν. ὁ δὲ Τισσαφέρνης τοὺς στρατηγοὺς ἐκάλεσεν.",
+        "gloss": [
+          {
+            "greek": "τὴν τοῦ Κύρου τελευτὴν",
+            "english": "Cyrus’s death"
+          },
+          {
+            "greek": "Τισσαφέρνην",
+            "english": "Tissaphernes, Persian commander"
+          },
+          {
+            "greek": "ἦλθον",
+            "english": "came; used here of entering negotiations"
+          },
+          {
+            "greek": "εἶπεν",
+            "english": "spoke; second aorist of λέγω"
+          },
+          {
+            "greek": "ἐκάλεσεν",
+            "english": "invited; first aorist, supported until Lesson 23"
+          }
+        ]
+      },
+      {
+        "greek": "Τινὲς τῶν στρατιωτῶν τὸν κίνδυνον εἶδον. πρὸς τὸν Κλέαρχον εἶπον· «δεῖ μὴ πάντας τοὺς ἡγεμόνας ἅμα ἰέναι.» ὁ δὲ Κλέαρχος τῷ Τισσαφέρνει ἐπίστευσεν.",
+        "gloss": [
+          {
+            "greek": "Τινὲς τῶν στρατιωτῶν",
+            "english": "some of the soldiers; partitive genitive"
+          },
+          {
+            "greek": "εἶδον",
+            "english": "saw; second aorist of ὁράω"
+          },
+          {
+            "greek": "εἶπον",
+            "english": "said; second aorist of λέγω"
+          },
+          {
+            "greek": "δεῖ μὴ πάντας",
+            "english": "it is necessary that not all; infinitive negated with μή"
+          },
+          {
+            "greek": "ἅμα ἰέναι",
+            "english": "to go together; infinitive of εἶμι"
+          },
+          {
+            "greek": "ἐπίστευσεν",
+            "english": "trusted; first aorist, supported exposure"
+          }
+        ]
+      },
+      {
+        "greek": "Πέντε στρατηγοὶ καὶ εἴκοσι λοχαγοὶ πρὸς τὰς θύρας ἦλθον. οἱ μὲν στρατηγοὶ εἰσῆλθον, οἱ δὲ λοχαγοὶ ἔξω ἔμειναν. Σωκράτης ὁ Ἀχαιὸς μετὰ τῶν στρατηγῶν ἦλθεν· οὗτος οὐχ ὁ Ἀθηναῖος φιλόσοφός ἐστιν.",
+        "gloss": [
+          {
+            "greek": "Πέντε στρατηγοὶ",
+            "english": "five generals"
+          },
+          {
+            "greek": "εἴκοσι λοχαγοὶ",
+            "english": "twenty captains"
+          },
+          {
+            "greek": "εἰσῆλθον",
+            "english": "entered; compound second aorist, augment placement taught in Lesson 24"
+          },
+          {
+            "greek": "ἔξω ἔμειναν",
+            "english": "remained outside; liquid aorist, supported until Lesson 24"
+          },
+          {
+            "greek": "ὁ Ἀχαιὸς",
+            "english": "the Achaean"
+          },
+          {
+            "greek": "ὁ Ἀθηναῖος φιλόσοφός",
+            "english": "the Athenian philosopher"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν ταῖς θύραις οἱ λοχαγοὶ ἔμειναν. οἱ πολέμιοι τοὺς μὲν στρατηγοὺς ἔλαβον, τοὺς δὲ λοχαγοὺς ἀπέκτειναν. περὶ τῆς ὕστερον τελευτῆς τῶν στρατηγῶν ὁ Ξενοφῶν ἄλλοθι λέγει.",
+        "gloss": [
+          {
+            "greek": "ἔμειναν",
+            "english": "remained; liquid/nasal first aorist, supported until Lesson 24"
+          },
+          {
+            "greek": "ἔλαβον",
+            "english": "seized; second aorist of λαμβάνω"
+          },
+          {
+            "greek": "ἀπέκτειναν",
+            "english": "killed; liquid aorist, supported until Lesson 24"
+          },
+          {
+            "greek": "τῆς ὕστερον τελευτῆς",
+            "english": "the later death"
+          },
+          {
+            "greek": "ἄλλοθι",
+            "english": "elsewhere"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ ἐν τῷ στρατοπέδῳ στρατιῶται τοὺς ἱππέας εἶδον. τὸ πρᾶγμα οὐκ ἔμαθον εὐθύς. Νίκαρχος δὲ τετρωμένος πρὸς αὐτοὺς ἦλθεν καὶ τὴν ἀγγελίαν εἶπεν.",
+        "gloss": [
+          {
+            "greek": "Οἱ ἐν τῷ στρατοπέδῳ στρατιῶται",
+            "english": "the soldiers in camp; attributive phrase"
+          },
+          {
+            "greek": "τοὺς ἱππέας",
+            "english": "the horsemen"
+          },
+          {
+            "greek": "εὐθύς",
+            "english": "immediately"
+          },
+          {
+            "greek": "Νίκαρχος",
+            "english": "Nicarchus, the wounded survivor"
+          },
+          {
+            "greek": "τετρωμένος",
+            "english": "wounded; perfect participle, supported exposure"
+          },
+          {
+            "greek": "τὴν ἀγγελίαν εἶπεν",
+            "english": "told the news"
+          }
+        ]
+      },
+      {
+        "greek": "Ἀκούσαντες οἱ Ἕλληνες πρὸς τὰ ὅπλα ἔδραμον. οἱ στρατηγοὶ οὐκέτι ἐν τῷ στρατοπέδῳ εἰσίν, οἱ δὲ στρατιῶται ἔτι ὅπλα ἔχουσιν. δεῖ νέαν βουλὴν λαβεῖν.",
+        "gloss": [
+          {
+            "greek": "Ἀκούσαντες",
+            "english": "having heard; first-aorist participle, supported exposure"
+          },
+          {
+            "greek": "ἔδραμον",
+            "english": "ran; second aorist of τρέχω"
+          },
+          {
+            "greek": "οὐκέτι",
+            "english": "no longer"
+          },
+          {
+            "greek": "ἔτι ὅπλα ἔχουσιν",
+            "english": "still have weapons"
+          },
+          {
+            "greek": "δεῖ",
+            "english": "it is necessary"
+          },
+          {
+            "greek": "λαβεῖν",
+            "english": "to take; unaugmented second-aorist infinitive"
+          }
+        ]
+      }
+    ],
+    "translation": "After Cyrus’s death, the Greeks entered negotiations with Tissaphernes. Clearchus spoke about the route and trust. Tissaphernes invited the generals.\n\nSome of the soldiers saw the danger. They said to Clearchus: “All the leaders must not go together.” Clearchus, however, trusted Tissaphernes.\n\nFive generals and twenty captains came to the doors. The generals entered, while the captains remained outside. Socrates the Achaean went with the generals; this man is not the Athenian philosopher.\n\nThe captains remained at the doors. The enemies seized the generals and killed the captains. Xenophon speaks elsewhere about the generals’ later deaths.\n\nThe soldiers in camp saw the horsemen. They did not learn what had happened immediately. Nicarchus came to them wounded and told the news.\n\nOn hearing the news, the Greeks ran to their arms. The generals are no longer in camp, but the soldiers still have weapons. They must take new counsel.",
+    "sourceCitation": "Xenophon, Anabasis 2.5.25–35; 2.6 for the generals’ later fates. https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_2.htm",
+    "notesMarkdown": "The simplified Greek is newly composed for this course. It preserves the source distinctions explained above while reducing sentence complexity. The English translation aligns paragraph for paragraph. Supplementary grammar examples and commands illustrate forms and are not additional historical claims."
+  },
+  "wordStudy": {
+    "label": "Word Study — Trust and the language of command",
+    "blocks": [
+      {
+        "title": "Trust and the language of command",
+        "practiceTopic": "word-study",
+        "body": [
+          "πίστις names trust; πιστεύω names the action of trusting, commonly with a dative person. In τῷ Τισσαφέρνει ἐπίστευσεν the dative tells us whom Clearchus trusted. The word’s meaning does not prove that the trust was justified.",
+          "στρατηγός and λοχαγός name distinct offices: general and company captain. Tracking these nouns preserves the different immediate fates at the meeting. A στρατηγός is not simply a synonym for every military leader.",
+          "σῆμα is a signal; ἀγγελία is a report. A signal can coordinate action while a report informs the distant camp. εἶδον and εἶπον connect seeing and telling to different dictionary verbs, ὁράω and λέγω."
+        ],
+        "display": [
+          {
+            "greek": "πίστις / πιστεύω",
+            "english": "trust / trust someone"
+          },
+          {
+            "greek": "στρατηγός / λοχαγός",
+            "english": "general / company captain"
+          },
+          {
+            "greek": "σῆμα / ἀγγελία",
+            "english": "signal / report"
+          },
+          {
+            "greek": "εἶδον / εἶπον",
+            "english": "saw / said"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Use the story to identify who acts and how the action is presented. The following 4 sections teach each assigned topic separately, with forms, worked examples, checks, and practice.",
+    "objectives": [
+      "εἶπον and εἶδον: unrelated stems: explain the pattern and interpret its worked examples.",
+      "Second-aorist commands and accent exceptions: explain the pattern and interpret its worked examples.",
+      "Syllabic and temporal augment: explain the pattern and interpret its worked examples.",
+      "Indicative, participle, and imperative: explain the pattern and interpret its worked examples."
+    ],
+    "sections": [
+      {
+        "id": "unrelated-aorist-stems",
+        "title": "1. εἶπον and εἶδον: unrelated stems",
+        "practiceTopic": "unrelated-aorist-stems",
+        "body": [
+          "A dictionary verb can supply a quite different aorist stem. λέγω, “I say,” has the common aorist εἶπον, “I said”; ὁράω, “I see,” has εἶδον, “I saw.” These are thematic second aorists because of their formation and endings, despite the surprising stems.",
+          "Keep the assigned principal parts together: λέγω–ἐρῶ–εἶπον and ὁράω–ὄψομαι–εἶδον. Present and future forms cannot be used as instructions for inventing the aorist. Learn both recognition and the return from a reading form to its dictionary entry.",
+          "εἶπον and εἶδον each can be first singular or third plural. εἶπεν and εἶδεν are third singular; εἴπομεν and εἴδομεν are first plural. The alternative aorist εἶπα occurs in Greek but is not the production pattern assigned here."
+        ],
+        "table": {
+          "title": "1. εἶπον and εἶδον: unrelated stems",
+          "headers": [
+            "Person",
+            "Say",
+            "See"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "1 singular / 3 plural",
+              "εἶπον",
+              "εἶδον"
+            ],
+            [
+              "2 singular",
+              "εἶπες",
+              "εἶδες"
+            ],
+            [
+              "3 singular",
+              "εἶπε(ν)",
+              "εἶδε(ν)"
+            ],
+            [
+              "1 plural",
+              "εἴπομεν",
+              "εἴδομεν"
+            ],
+            [
+              "2 plural",
+              "εἴπετε",
+              "εἴδετε"
+            ],
+            [
+              "infinitive",
+              "εἰπεῖν",
+              "ἰδεῖν"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ στρατιῶται τὸν κίνδυνον εἶδον καὶ εἶπον.",
+            "english": "The soldiers saw the danger and spoke."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What dictionary verb lies behind εἶπον?",
+            "answer": "λέγω. The principal parts connect λέγω and εἶπον."
+          },
+          {
+            "prompt": "What dictionary verb lies behind εἶδον?",
+            "answer": "ὁράω. The principal parts connect ὁράω and εἶδον."
+          }
+        ]
+      },
+      {
+        "id": "aorist-imperative-accents",
+        "title": "2. Second-aorist commands and accent exceptions",
+        "practiceTopic": "aorist-imperative-accents",
+        "body": [
+          "Aorist commands present the requested action as a whole. Many active second singular forms are recessive, as φύγε, “flee,” from φεύγω. Commands lack the indicative augment: contrast indicative ἔφυγε with imperative φύγε.",
+          "Five familiar simple active second-aorist imperatives have exceptional final accent: εἰπέ, ἐλθέ, εὑρέ, ἰδέ, λαβέ. Standard Attic simple λαβέ belongs among these exceptions; use this accented form for the assigned singular command. The contrast is φύγε, whose accent is recessive.",
+          "The corresponding plurals are εἴπετε, ἔλθετε, εὕρετε, ἴδετε, λάβετε; the singular exception does not carry over to the plural. Before another word, final acute normally becomes grave: εἰπέ → εἰπὲ τὴν ἀλήθειαν. Compound imperatives generally revert to recessive accent, as ἄπελθε; full compound augment is next lesson’s later topic.",
+          "The commands in the table are supplementary course examples. They are not quotations attributed to Clearchus or Nicarchus."
+        ],
+        "table": {
+          "title": "2. Second-aorist commands and accent exceptions",
+          "headers": [
+            "Dictionary verb",
+            "Singular command",
+            "Plural command"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "λέγω",
+              "εἰπέ",
+              "εἴπετε"
+            ],
+            [
+              "ἔρχομαι",
+              "ἐλθέ",
+              "ἔλθετε"
+            ],
+            [
+              "εὑρίσκω",
+              "εὑρέ",
+              "εὕρετε"
+            ],
+            [
+              "ὁράω",
+              "ἰδέ",
+              "ἴδετε"
+            ],
+            [
+              "λαμβάνω",
+              "λαβέ",
+              "λάβετε"
+            ],
+            [
+              "φεύγω",
+              "φύγε",
+              "φύγετε"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "εἰπὲ τὴν ἀλήθειαν· ἴδετε τοὺς ἱππέας.",
+            "english": "Tell the truth; look at the horsemen."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which isolated command means “say!” to one person?",
+            "answer": "εἰπέ. εἰπέ is the exceptional oxytone singular imperative."
+          },
+          {
+            "prompt": "Which isolated command means “see!” to one person?",
+            "answer": "ἰδέ. ἰδέ has exceptional final accent."
+          }
+        ]
+      },
+      {
+        "id": "syllabic-temporal-augment",
+        "title": "3. Syllabic and temporal augment",
+        "practiceTopic": "syllabic-temporal-augment",
+        "body": [
+          "For many consonant-initial verbs, past indicative augment adds a syllable ἐ-: λαμβάνω → ἔλαβον, φεύγω → ἔφυγον. This syllabic augment is separate from changes in the aorist stem.",
+          "For vowel-initial verbs, temporal augment commonly lengthens the initial vowel: α and ε become η, ο becomes ω. Thus ἀκούω has ἤκουσα and ἐθέλω has ἠθέλησα. These first-aorist forms are supplied to illustrate augment, with their full formation postponed to Lesson 23.",
+          "Initial αι and οι commonly become ῃ and ῳ, while αυ commonly becomes ηυ; some verbs vary or have historically exceptional forms. Long vowels do not become “doubly long.” εἶδον is a learned irregular form, not evidence that every ε-initial verb becomes ει. Use a dictionary’s principal parts for exceptions."
+        ],
+        "table": {
+          "title": "3. Syllabic and temporal augment",
+          "headers": [
+            "Initial sound",
+            "Common augmented sound",
+            "Example"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "consonant",
+              "ἐ- + consonant",
+              "λαμβάνω → ἔλαβον"
+            ],
+            [
+              "α",
+              "η",
+              "ἀκούω → ἤκουσα"
+            ],
+            [
+              "ε",
+              "η",
+              "ἐθέλω → ἠθέλησα"
+            ],
+            [
+              "ο",
+              "ω",
+              "ὁρμάω → ὥρμησα"
+            ],
+            [
+              "αι / οι",
+              "ῃ / ῳ",
+              "αἰτέω → ᾔτησα"
+            ],
+            [
+              "αυ",
+              "ηυ",
+              "αὐξάνω → ηὔξησα"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἤκουσα τὴν ἀγγελίαν.",
+            "english": "I heard the report; ἀ- has lengthened to ἠ-."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What kind of augment occurs in ἔφυγον?",
+            "answer": "syllabic. ἐ- adds a syllable before the consonant."
+          },
+          {
+            "prompt": "What kind occurs in ἤκουσα?",
+            "answer": "temporal. The initial α of ἀκούω lengthens to η."
+          }
+        ]
+      },
+      {
+        "id": "augmented-unaugmented",
+        "title": "4. Indicative, participle, and imperative",
+        "practiceTopic": "augmented-unaugmented",
+        "body": [
+          "Augment belongs to past indicatives in the system taught here. Compare εἶδον, “I saw / they saw,” with ἰδών, “having seen,” and ἰδέ, “see!” Their different forms guide you to different functions.",
+          "Participles agree like adjectives: ἰδών, ἰδοῦσα, ἰδόν. Imperatives address the hearer. Infinitives such as ἰδεῖν and εἰπεῖν name the action without a personal ending. None of these nonindicative forms receives the past indicative augment.",
+          "An unaugmented aorist is still an aorist stem. Removing augment changes neither its whole-action viewpoint nor automatically turns it into a present. In ἰδὼν τὸν κίνδυνον εἶπεν, the seeing is interpreted before the speaking by context."
+        ],
+        "table": {
+          "title": "4. Indicative, participle, and imperative",
+          "headers": [
+            "Function",
+            "Seeing",
+            "Speaking"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "past indicative",
+              "εἶδον",
+              "εἶπον"
+            ],
+            [
+              "active participle",
+              "ἰδών",
+              "εἰπών"
+            ],
+            [
+              "singular command",
+              "ἰδέ",
+              "εἰπέ"
+            ],
+            [
+              "infinitive",
+              "ἰδεῖν",
+              "εἰπεῖν"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἰδὼν τὸν κίνδυνον ὁ στρατιώτης εἶπεν.",
+            "english": "Having seen the danger, the soldier spoke."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which form is an unaugmented participle?",
+            "answer": "ἰδών. ἰδών is a nominative masculine participle."
+          },
+          {
+            "prompt": "Which is a command rather than a statement?",
+            "answer": "ἰδέ. ἰδέ addresses one hearer."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "εἶπον and εἶδον: unrelated stems: A dictionary verb can supply a quite different aorist stem. λέγω, “I say,” has the common aorist εἶπον, “I said”; ὁράω, “I see,” has εἶδον, “I saw.” These are thematic second aorists because of their formation and endings, despite the surprising stems.",
+        "Second-aorist commands and accent exceptions: Aorist commands present the requested action as a whole. Many active second singular forms are recessive, as φύγε, “flee,” from φεύγω. Commands lack the indicative augment: contrast indicative ἔφυγε with imperative φύγε.",
+        "Syllabic and temporal augment: For many consonant-initial verbs, past indicative augment adds a syllable ἐ-: λαμβάνω → ἔλαβον, φεύγω → ἔφυγον. This syllabic augment is separate from changes in the aorist stem.",
+        "Indicative, participle, and imperative: Augment belongs to past indicatives in the system taught here. Compare εἶδον, “I saw / they saw,” with ἰδών, “having seen,” and ἰδέ, “see!” Their different forms guide you to different functions."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Culture and History",
+    "body": [],
+    "sections": [
+      {
+        "title": "Oaths, negotiations, and risk",
+        "body": [
+          "Anabasis presents the negotiations against a background of oaths and mutual suspicion. Clearchus treats the proposed meeting as a way to identify those spreading accusations. Trust in an agreement can have practical value, but the text also records soldiers who object.",
+          "Those objections concern concentrating the leaders in one place and trusting Tissaphernes. A leader’s confidence is therefore not the only voice available in the source. Ask what information and safeguards a decision needs, without claiming that the recorded objectors predicted every later event."
+        ]
+      },
+      {
+        "title": "Generals and captains are different offices",
+        "body": [
+          "A στρατηγός is a general; a λοχαγός commands a company. At the meeting five generals enter while twenty captains wait outside. The simultaneous attack gives the two groups different immediate fates: seizure within, killing outside.",
+          "The capture removes important commanders but does not physically dissolve the Greek army. The camp still contains soldiers, arms, and surviving officers. Socrates the Achaean belongs to this military group; he must never be confused with the philosopher Socrates of Athens."
+        ]
+      },
+      {
+        "title": "Evidence and the order of events",
+        "body": [
+          "From camp, the Greeks first see alarming movements without knowing their cause. Nicarchus’s arrival supplies a report. The reading suppresses graphic details of his injury while preserving his role as a wounded survivor and messenger.",
+          "Anabasis 2.6 discusses the captured generals’ later fates and character. That retrospective chapter must not be collapsed into an execution at the meeting’s doors. An accurate account can be compact while retaining the distinction between capture, immediate killings, and later death."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Why record the objections?",
+        "answer": "they show dissent within the army. The source preserves more than Clearchus’s confidence."
+      },
+      {
+        "prompt": "What does λοχαγός mean here?",
+        "answer": "company captain. A captain differs from a general."
+      },
+      {
+        "prompt": "Which distinction protects the chronology?",
+        "answer": "capture now versus later fates. The later retrospective chapter is a separate stage."
+      },
+      {
+        "prompt": "What remains after the betrayal?",
+        "answer": "soldiers, arms, and surviving officers. The army must reorganize; it has not dissolved."
+      },
+      {
+        "prompt": "What changes the camp’s information?",
+        "answer": "a survivor’s report. Nicarchus reports what the watching soldiers did not know."
+      },
+      {
+        "prompt": "What should trust be evaluated alongside?",
+        "answer": "information and safeguards. The culture page connects trust with responsible judgment."
+      },
+      {
+        "prompt": "Which decision best tests responsibility in this reading? Explain with an action and consequence.",
+        "answer": "Responses may differ; use the reading’s specific decisions and the source distinctions to support your judgment."
+      },
+      {
+        "prompt": "What would be lost by ignoring the uncertainty or collective action in this account?",
+        "answer": "Explain how the reading avoids overstating knowledge, prophetic certainty, or a single leader’s role."
+      }
+    ],
+    "reflections": [
+      {
+        "prompt": "Which decision in this reading best tests a leader’s responsibility, and why?",
+        "answer": "Support your judgment with a specific action and consequence in the reading."
+      },
+      {
+        "prompt": "Where must a reader distinguish a reported event from an interpretation or course adaptation?",
+        "answer": "Use the source note and the culture discussion to mark what the evidence supports."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "After Cyrus’s death, negotiations promise a way out. Clearchus trusts Tissaphernes’ invitation despite objections in the Greek camp. The meeting ends with the generals captured and captains outside killed. Their capture and their later deaths are separate events.",
+        "Review εἶπον and εἶδον: unrelated stems and its examples.",
+        "Review second-aorist commands and accent exceptions and its examples.",
+        "Review syllabic and temporal augment and its examples.",
+        "Review indicative, participle, and imperative and its examples.",
+        "Identify actors from agreement and preserve the reading’s historical sequence.",
+        "Separate the course’s adapted wording from the ancient author’s reported events."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Anabasis 2.5–2.6: meeting, capture, later fates",
+        "url": "https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_2.htm"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 22 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "λέγω, ἐρῶ, εἶπον",
+          "answer": "say"
+        },
+        {
+          "prompt": "ὁράω, ὄψομαι, εἶδον",
+          "answer": "see"
+        },
+        {
+          "prompt": "πίστις, πίστεως, ἡ",
+          "answer": "trust"
+        },
+        {
+          "prompt": "δόλος, δόλου, ὁ",
+          "answer": "deceit"
+        },
+        {
+          "prompt": "πιστεύω (+ dative)",
+          "answer": "trust someone"
+        },
+        {
+          "prompt": "καλέω",
+          "answer": "invite"
+        },
+        {
+          "prompt": "σῆμα, σήματος, τό",
+          "answer": "signal"
+        },
+        {
+          "prompt": "στρατηγός, στρατηγοῦ, ὁ",
+          "answer": "general"
+        },
+        {
+          "prompt": "λοχαγός, λοχαγοῦ, ὁ",
+          "answer": "captain"
+        },
+        {
+          "prompt": "ἡγεμών, ἡγεμόνος, ὁ",
+          "answer": "leader"
+        },
+        {
+          "prompt": "θύρα, θύρας, ἡ",
+          "answer": "door"
+        },
+        {
+          "prompt": "στρατόπεδον, στρατοπέδου, τό",
+          "answer": "camp"
+        },
+        {
+          "prompt": "ἱππεύς, ἱππέως, ὁ",
+          "answer": "horseman"
+        },
+        {
+          "prompt": "κίνδυνος, κινδύνου, ὁ",
+          "answer": "danger"
+        },
+        {
+          "prompt": "τελευτή, τελευτῆς, ἡ",
+          "answer": "death"
+        },
+        {
+          "prompt": "πρᾶγμα, πράγματος, τό",
+          "answer": "event"
+        },
+        {
+          "prompt": "ἅμα",
+          "answer": "together"
+        },
+        {
+          "prompt": "εὐθύς",
+          "answer": "immediately"
+        },
+        {
+          "prompt": "οὐκέτι",
+          "answer": "no longer"
+        },
+        {
+          "prompt": "ἄλλοθι",
+          "answer": "elsewhere"
+        },
+        {
+          "prompt": "Νίκαρχος, Νικάρχου, ὁ",
+          "answer": "Nicarchus"
+        },
+        {
+          "prompt": "Τισσαφέρνης, Τισσαφέρνους, ὁ",
+          "answer": "Tissaphernes"
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 22 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "What dictionary verb lies behind εἶπον?",
+          "answer": "λέγω. The principal parts connect λέγω and εἶπον."
+        },
+        {
+          "prompt": "What dictionary verb lies behind εἶδον?",
+          "answer": "ὁράω. The principal parts connect ὁράω and εἶδον."
+        },
+        {
+          "prompt": "Which isolated command means “say!” to one person?",
+          "answer": "εἰπέ. εἰπέ is the exceptional oxytone singular imperative."
+        },
+        {
+          "prompt": "Which isolated command means “see!” to one person?",
+          "answer": "ἰδέ. ἰδέ has exceptional final accent."
+        },
+        {
+          "prompt": "What kind of augment occurs in ἔφυγον?",
+          "answer": "syllabic. ἐ- adds a syllable before the consonant."
+        },
+        {
+          "prompt": "What kind occurs in ἤκουσα?",
+          "answer": "temporal. The initial α of ἀκούω lengthens to η."
+        },
+        {
+          "prompt": "Which form is an unaugmented participle?",
+          "answer": "ἰδών. ἰδών is a nominative masculine participle."
+        },
+        {
+          "prompt": "Which is a command rather than a statement?",
+          "answer": "ἰδέ. ἰδέ addresses one hearer."
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 22 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": [
+        "Practice both Greek-to-English and English-to-Greek for every required entry."
+      ],
+      "questions": [
+        {
+          "id": "lesson-22-vocab-0135",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λέγω mean in this lesson?",
+          "explanation": "λέγω, ἐρῶ, εἶπον means say in the assigned context.",
+          "choices": [
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": true,
+              "feedback": "Correct: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0136",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “say”?",
+          "explanation": "The assigned entry is λέγω, ἐρῶ, εἶπον.",
+          "choices": [
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λέγω, ἐρῶ, εἶπον."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λέγω, ἐρῶ, εἶπον."
+            },
+            {
+              "text": "ὁ δόλος",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λέγω, ἐρῶ, εἶπον."
+            },
+            {
+              "text": "λέγω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is λέγω, ἐρῶ, εἶπον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0137",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁράω mean in this lesson?",
+          "explanation": "ὁράω, ὄψομαι, εἶδον means see in the assigned context.",
+          "choices": [
+            {
+              "text": "see",
+              "correct": true,
+              "feedback": "Correct: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0138",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “see”?",
+          "explanation": "The assigned entry is ὁράω, ὄψομαι, εἶδον.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ὁράω, ὄψομαι, εἶδον."
+            },
+            {
+              "text": "ὁράω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ὁράω, ὄψομαι, εἶδον."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ὁράω, ὄψομαι, εἶδον."
+            },
+            {
+              "text": "ὁ δόλος",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ὁράω, ὄψομαι, εἶδον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0139",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πίστις mean in this lesson?",
+          "explanation": "πίστις, πίστεως, ἡ means trust in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: πίστις, πίστεως, ἡ means trust in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: πίστις, πίστεως, ἡ means trust in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": true,
+              "feedback": "Correct: πίστις, πίστεως, ἡ means trust in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: πίστις, πίστεως, ἡ means trust in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0140",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “trust”?",
+          "explanation": "The assigned entry is πίστις, πίστεως, ἡ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πίστις, πίστεως, ἡ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πίστις, πίστεως, ἡ."
+            },
+            {
+              "text": "ὁ δόλος",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πίστις, πίστεως, ἡ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πίστις, πίστεως, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0141",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ δόλος mean in this lesson?",
+          "explanation": "δόλος, δόλου, ὁ means deceit in the assigned context.",
+          "choices": [
+            {
+              "text": "deceit",
+              "correct": true,
+              "feedback": "Correct: δόλος, δόλου, ὁ means deceit in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: δόλος, δόλου, ὁ means deceit in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: δόλος, δόλου, ὁ means deceit in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: δόλος, δόλου, ὁ means deceit in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0142",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “deceit”?",
+          "explanation": "The assigned entry is δόλος, δόλου, ὁ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is δόλος, δόλου, ὁ."
+            },
+            {
+              "text": "ὁ δόλος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is δόλος, δόλου, ὁ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is δόλος, δόλου, ὁ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is δόλος, δόλου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0143",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πιστεύω mean in this lesson?",
+          "explanation": "πιστεύω (+ dative) means trust someone in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: πιστεύω (+ dative) means trust someone in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: πιστεύω (+ dative) means trust someone in the assigned context."
+            },
+            {
+              "text": "trust someone",
+              "correct": true,
+              "feedback": "Correct: πιστεύω (+ dative) means trust someone in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: πιστεύω (+ dative) means trust someone in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0144",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “trust someone”?",
+          "explanation": "The assigned entry is πιστεύω (+ dative).",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πιστεύω (+ dative)."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πιστεύω (+ dative)."
+            },
+            {
+              "text": "ὁ δόλος",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πιστεύω (+ dative)."
+            },
+            {
+              "text": "πιστεύω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πιστεύω (+ dative)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0145",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does καλέω mean in this lesson?",
+          "explanation": "καλέω means invite in the assigned context.",
+          "choices": [
+            {
+              "text": "invite",
+              "correct": true,
+              "feedback": "Correct: καλέω means invite in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: καλέω means invite in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: καλέω means invite in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: καλέω means invite in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0146",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “invite”?",
+          "explanation": "The assigned entry is καλέω.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is καλέω."
+            },
+            {
+              "text": "καλέω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is καλέω."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is καλέω."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is καλέω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0147",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ σῆμα mean in this lesson?",
+          "explanation": "σῆμα, σήματος, τό means signal in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: σῆμα, σήματος, τό means signal in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: σῆμα, σήματος, τό means signal in the assigned context."
+            },
+            {
+              "text": "signal",
+              "correct": true,
+              "feedback": "Correct: σῆμα, σήματος, τό means signal in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: σῆμα, σήματος, τό means signal in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0148",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “signal”?",
+          "explanation": "The assigned entry is σῆμα, σήματος, τό.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σῆμα, σήματος, τό."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σῆμα, σήματος, τό."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σῆμα, σήματος, τό."
+            },
+            {
+              "text": "τὸ σῆμα",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is σῆμα, σήματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0149",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ στρατηγός mean in this lesson?",
+          "explanation": "στρατηγός, στρατηγοῦ, ὁ means general in the assigned context.",
+          "choices": [
+            {
+              "text": "general",
+              "correct": true,
+              "feedback": "Correct: στρατηγός, στρατηγοῦ, ὁ means general in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: στρατηγός, στρατηγοῦ, ὁ means general in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: στρατηγός, στρατηγοῦ, ὁ means general in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: στρατηγός, στρατηγοῦ, ὁ means general in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0150",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “general”?",
+          "explanation": "The assigned entry is στρατηγός, στρατηγοῦ, ὁ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "ὁ στρατηγός",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is στρατηγός, στρατηγοῦ, ὁ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is στρατηγός, στρατηγοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0151",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ λοχαγός mean in this lesson?",
+          "explanation": "λοχαγός, λοχαγοῦ, ὁ means captain in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: λοχαγός, λοχαγοῦ, ὁ means captain in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: λοχαγός, λοχαγοῦ, ὁ means captain in the assigned context."
+            },
+            {
+              "text": "captain",
+              "correct": true,
+              "feedback": "Correct: λοχαγός, λοχαγοῦ, ὁ means captain in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: λοχαγός, λοχαγοῦ, ὁ means captain in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0152",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “captain”?",
+          "explanation": "The assigned entry is λοχαγός, λοχαγοῦ, ὁ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λοχαγός, λοχαγοῦ, ὁ."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is λοχαγός, λοχαγοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0153",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἡγεμών mean in this lesson?",
+          "explanation": "ἡγεμών, ἡγεμόνος, ὁ means leader in the assigned context.",
+          "choices": [
+            {
+              "text": "leader",
+              "correct": true,
+              "feedback": "Correct: ἡγεμών, ἡγεμόνος, ὁ means leader in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: ἡγεμών, ἡγεμόνος, ὁ means leader in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: ἡγεμών, ἡγεμόνος, ὁ means leader in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: ἡγεμών, ἡγεμόνος, ὁ means leader in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0154",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “leader”?",
+          "explanation": "The assigned entry is ἡγεμών, ἡγεμόνος, ὁ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "ὁ ἡγεμών",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἡγεμών, ἡγεμόνος, ὁ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἡγεμών, ἡγεμόνος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0155",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ θύρα mean in this lesson?",
+          "explanation": "θύρα, θύρας, ἡ means door in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: θύρα, θύρας, ἡ means door in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: θύρα, θύρας, ἡ means door in the assigned context."
+            },
+            {
+              "text": "door",
+              "correct": true,
+              "feedback": "Correct: θύρα, θύρας, ἡ means door in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: θύρα, θύρας, ἡ means door in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0156",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “door”?",
+          "explanation": "The assigned entry is θύρα, θύρας, ἡ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is θύρα, θύρας, ἡ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is θύρα, θύρας, ἡ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is θύρα, θύρας, ἡ."
+            },
+            {
+              "text": "ἡ θύρα",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is θύρα, θύρας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0157",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ στρατόπεδον mean in this lesson?",
+          "explanation": "στρατόπεδον, στρατοπέδου, τό means camp in the assigned context.",
+          "choices": [
+            {
+              "text": "camp",
+              "correct": true,
+              "feedback": "Correct: στρατόπεδον, στρατοπέδου, τό means camp in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: στρατόπεδον, στρατοπέδου, τό means camp in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: στρατόπεδον, στρατοπέδου, τό means camp in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: στρατόπεδον, στρατοπέδου, τό means camp in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0158",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “camp”?",
+          "explanation": "The assigned entry is στρατόπεδον, στρατοπέδου, τό.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is στρατόπεδον, στρατοπέδου, τό."
+            },
+            {
+              "text": "τὸ στρατόπεδον",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is στρατόπεδον, στρατοπέδου, τό."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is στρατόπεδον, στρατοπέδου, τό."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is στρατόπεδον, στρατοπέδου, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0159",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἱππεύς mean in this lesson?",
+          "explanation": "ἱππεύς, ἱππέως, ὁ means horseman in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: ἱππεύς, ἱππέως, ὁ means horseman in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: ἱππεύς, ἱππέως, ὁ means horseman in the assigned context."
+            },
+            {
+              "text": "horseman",
+              "correct": true,
+              "feedback": "Correct: ἱππεύς, ἱππέως, ὁ means horseman in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: ἱππεύς, ἱππέως, ὁ means horseman in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0160",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “horseman”?",
+          "explanation": "The assigned entry is ἱππεύς, ἱππέως, ὁ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἱππεύς, ἱππέως, ὁ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἱππεύς, ἱππέως, ὁ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἱππεύς, ἱππέως, ὁ."
+            },
+            {
+              "text": "ὁ ἱππεύς",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἱππεύς, ἱππέως, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0161",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κίνδυνος mean in this lesson?",
+          "explanation": "κίνδυνος, κινδύνου, ὁ means danger in the assigned context.",
+          "choices": [
+            {
+              "text": "danger",
+              "correct": true,
+              "feedback": "Correct: κίνδυνος, κινδύνου, ὁ means danger in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: κίνδυνος, κινδύνου, ὁ means danger in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: κίνδυνος, κινδύνου, ὁ means danger in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: κίνδυνος, κινδύνου, ὁ means danger in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0162",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “danger”?",
+          "explanation": "The assigned entry is κίνδυνος, κινδύνου, ὁ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is κίνδυνος, κινδύνου, ὁ."
+            },
+            {
+              "text": "ὁ κίνδυνος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is κίνδυνος, κινδύνου, ὁ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is κίνδυνος, κινδύνου, ὁ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is κίνδυνος, κινδύνου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0163",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τελευτή mean in this lesson?",
+          "explanation": "τελευτή, τελευτῆς, ἡ means death in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: τελευτή, τελευτῆς, ἡ means death in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: τελευτή, τελευτῆς, ἡ means death in the assigned context."
+            },
+            {
+              "text": "death",
+              "correct": true,
+              "feedback": "Correct: τελευτή, τελευτῆς, ἡ means death in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: τελευτή, τελευτῆς, ἡ means death in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0164",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “death”?",
+          "explanation": "The assigned entry is τελευτή, τελευτῆς, ἡ.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τελευτή, τελευτῆς, ἡ."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τελευτή, τελευτῆς, ἡ."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is τελευτή, τελευτῆς, ἡ."
+            },
+            {
+              "text": "ἡ τελευτή",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is τελευτή, τελευτῆς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0165",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ πρᾶγμα mean in this lesson?",
+          "explanation": "πρᾶγμα, πράγματος, τό means event in the assigned context.",
+          "choices": [
+            {
+              "text": "event",
+              "correct": true,
+              "feedback": "Correct: πρᾶγμα, πράγματος, τό means event in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: πρᾶγμα, πράγματος, τό means event in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: πρᾶγμα, πράγματος, τό means event in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: πρᾶγμα, πράγματος, τό means event in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0166",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “event”?",
+          "explanation": "The assigned entry is πρᾶγμα, πράγματος, τό.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "τὸ πρᾶγμα",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πρᾶγμα, πράγματος, τό."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πρᾶγμα, πράγματος, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0167",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἅμα mean in this lesson?",
+          "explanation": "ἅμα means together in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: ἅμα means together in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: ἅμα means together in the assigned context."
+            },
+            {
+              "text": "together",
+              "correct": true,
+              "feedback": "Correct: ἅμα means together in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: ἅμα means together in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0168",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “together”?",
+          "explanation": "The assigned entry is ἅμα.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἅμα."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἅμα."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἅμα."
+            },
+            {
+              "text": "ἅμα",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἅμα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0169",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does εὐθύς mean in this lesson?",
+          "explanation": "εὐθύς means immediately in the assigned context.",
+          "choices": [
+            {
+              "text": "immediately",
+              "correct": true,
+              "feedback": "Correct: εὐθύς means immediately in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: εὐθύς means immediately in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: εὐθύς means immediately in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: εὐθύς means immediately in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0170",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “immediately”?",
+          "explanation": "The assigned entry is εὐθύς.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is εὐθύς."
+            },
+            {
+              "text": "εὐθύς",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is εὐθύς."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is εὐθύς."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is εὐθύς."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0171",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does οὐκέτι mean in this lesson?",
+          "explanation": "οὐκέτι means no longer in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: οὐκέτι means no longer in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: οὐκέτι means no longer in the assigned context."
+            },
+            {
+              "text": "no longer",
+              "correct": true,
+              "feedback": "Correct: οὐκέτι means no longer in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: οὐκέτι means no longer in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-vocab-0172",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “no longer”?",
+          "explanation": "The assigned entry is οὐκέτι.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is οὐκέτι."
+            },
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is οὐκέτι."
+            },
+            {
+              "text": "ἡ πίστις",
+              "correct": false,
+              "feedback": "Review: The assigned entry is οὐκέτι."
+            },
+            {
+              "text": "οὐκέτι",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is οὐκέτι."
+            }
+          ]
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 22 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 6,
+      "instructions": [
+        "Choose the topic linked from Word Study or a grammar section. Read feedback before retrying."
+      ],
+      "questions": [
+        {
+          "id": "lesson-22-topic-0173",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which noun means trust?",
+          "explanation": "πίστις names trust.",
+          "choices": [
+            {
+              "text": "πίστις",
+              "correct": true,
+              "feedback": "Correct: πίστις names trust."
+            },
+            {
+              "text": "δόλος",
+              "correct": false,
+              "feedback": "Review: πίστις names trust."
+            },
+            {
+              "text": "θύρα",
+              "correct": false,
+              "feedback": "Review: πίστις names trust."
+            },
+            {
+              "text": "κίνδυνος",
+              "correct": false,
+              "feedback": "Review: πίστις names trust."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0174",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What case identifies the person trusted with πιστεύω?",
+          "explanation": "πιστεύω commonly takes a dative person.",
+          "choices": [
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: πιστεύω commonly takes a dative person."
+            },
+            {
+              "text": "dative",
+              "correct": true,
+              "feedback": "Correct: πιστεύω commonly takes a dative person."
+            },
+            {
+              "text": "accusative always",
+              "correct": false,
+              "feedback": "Review: πιστεύω commonly takes a dative person."
+            },
+            {
+              "text": "vocative only",
+              "correct": false,
+              "feedback": "Review: πιστεύω commonly takes a dative person."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0175",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which office is στρατηγός?",
+          "explanation": "The text distinguishes generals and captains.",
+          "choices": [
+            {
+              "text": "company captain",
+              "correct": false,
+              "feedback": "Review: The text distinguishes generals and captains."
+            },
+            {
+              "text": "horseman",
+              "correct": false,
+              "feedback": "Review: The text distinguishes generals and captains."
+            },
+            {
+              "text": "general",
+              "correct": true,
+              "feedback": "Correct: The text distinguishes generals and captains."
+            },
+            {
+              "text": "messenger",
+              "correct": false,
+              "feedback": "Review: The text distinguishes generals and captains."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0176",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which office is λοχαγός?",
+          "explanation": "The captain commands a company.",
+          "choices": [
+            {
+              "text": "king",
+              "correct": false,
+              "feedback": "Review: The captain commands a company."
+            },
+            {
+              "text": "general",
+              "correct": false,
+              "feedback": "Review: The captain commands a company."
+            },
+            {
+              "text": "philosopher",
+              "correct": false,
+              "feedback": "Review: The captain commands a company."
+            },
+            {
+              "text": "company captain",
+              "correct": true,
+              "feedback": "Correct: The captain commands a company."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0177",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which word means a signal?",
+          "explanation": "A signal differs from a report.",
+          "choices": [
+            {
+              "text": "σῆμα",
+              "correct": true,
+              "feedback": "Correct: A signal differs from a report."
+            },
+            {
+              "text": "ἀγγελία",
+              "correct": false,
+              "feedback": "Review: A signal differs from a report."
+            },
+            {
+              "text": "πίστις",
+              "correct": false,
+              "feedback": "Review: A signal differs from a report."
+            },
+            {
+              "text": "τελευτή",
+              "correct": false,
+              "feedback": "Review: A signal differs from a report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0178",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which pair links seeing and speaking correctly?",
+          "explanation": "The principal parts connect different aorist stems to different verbs.",
+          "choices": [
+            {
+              "text": "εἶδον — said; εἶπον — saw",
+              "correct": false,
+              "feedback": "Review: The principal parts connect different aorist stems to different verbs."
+            },
+            {
+              "text": "εἶδον — saw; εἶπον — said",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect different aorist stems to different verbs."
+            },
+            {
+              "text": "εἶδον — fled; εἶπον — took",
+              "correct": false,
+              "feedback": "Review: The principal parts connect different aorist stems to different verbs."
+            },
+            {
+              "text": "εἶδον — fell; εἶπον — ran",
+              "correct": false,
+              "feedback": "Review: The principal parts connect different aorist stems to different verbs."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0179",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What dictionary verb lies behind εἶπον?",
+          "explanation": "The principal parts connect λέγω and εἶπον.",
+          "choices": [
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "λέγω",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0180",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What dictionary verb lies behind εἶδον?",
+          "explanation": "The principal parts connect ὁράω and εἶδον.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "τρέχω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "ὁράω",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect ὁράω and εἶδον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0181",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Which means “we saw”?",
+          "explanation": "-ομεν marks first plural.",
+          "choices": [
+            {
+              "text": "εἴδομεν",
+              "correct": true,
+              "feedback": "Correct: -ομεν marks first plural."
+            },
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            },
+            {
+              "text": "εἶδες",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            },
+            {
+              "text": "εἴδετε",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0182",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Which means “he said”?",
+          "explanation": "-ε(ν) is third singular.",
+          "choices": [
+            {
+              "text": "εἶπες",
+              "correct": false,
+              "feedback": "Review: -ε(ν) is third singular."
+            },
+            {
+              "text": "εἶπεν",
+              "correct": true,
+              "feedback": "Correct: -ε(ν) is third singular."
+            },
+            {
+              "text": "εἴπομεν",
+              "correct": false,
+              "feedback": "Review: -ε(ν) is third singular."
+            },
+            {
+              "text": "εἴπετε",
+              "correct": false,
+              "feedback": "Review: -ε(ν) is third singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0183",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What future is assigned with λέγω?",
+          "explanation": "λέγω, ἐρῶ, εἶπον are the assigned first three parts.",
+          "choices": [
+            {
+              "text": "ὄψομαι",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            },
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            },
+            {
+              "text": "ἐρῶ",
+              "correct": true,
+              "feedback": "Correct: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            },
+            {
+              "text": "φεύξομαι",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0184",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Why are these second aorists?",
+          "explanation": "The classification concerns morphology, not chronological order.",
+          "choices": [
+            {
+              "text": "they happened after another aorist",
+              "correct": false,
+              "feedback": "Review: The classification concerns morphology, not chronological order."
+            },
+            {
+              "text": "they always mean two events",
+              "correct": false,
+              "feedback": "Review: The classification concerns morphology, not chronological order."
+            },
+            {
+              "text": "they contain a sigmatic -σα- stem",
+              "correct": false,
+              "feedback": "Review: The classification concerns morphology, not chronological order."
+            },
+            {
+              "text": "they use thematic aorist formation",
+              "correct": true,
+              "feedback": "Correct: The classification concerns morphology, not chronological order."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0185",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which isolated command means “say!” to one person?",
+          "explanation": "εἰπέ is the exceptional oxytone singular imperative.",
+          "choices": [
+            {
+              "text": "εἰπέ",
+              "correct": true,
+              "feedback": "Correct: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "εἶπεν",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "εἶπον",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "ἐρῶ",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0186",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which isolated command means “see!” to one person?",
+          "explanation": "ἰδέ has exceptional final accent.",
+          "choices": [
+            {
+              "text": "εἶδεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": true,
+              "feedback": "Correct: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ἴδετε",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ὄψομαι",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0187",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which means “come!” to several people?",
+          "explanation": "The plural aorist command is ἔλθετε.",
+          "choices": [
+            {
+              "text": "ἐλθέ",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἦλθον",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἔλθετε",
+              "correct": true,
+              "feedback": "Correct: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἔρχονται",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0188",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which singular command keeps recessive accent?",
+          "explanation": "φύγε contrasts with the five exceptional simple imperatives.",
+          "choices": [
+            {
+              "text": "εἰπέ",
+              "correct": false,
+              "feedback": "Review: φύγε contrasts with the five exceptional simple imperatives."
+            },
+            {
+              "text": "ἐλθέ",
+              "correct": false,
+              "feedback": "Review: φύγε contrasts with the five exceptional simple imperatives."
+            },
+            {
+              "text": "λαβέ",
+              "correct": false,
+              "feedback": "Review: φύγε contrasts with the five exceptional simple imperatives."
+            },
+            {
+              "text": "φύγε",
+              "correct": true,
+              "feedback": "Correct: φύγε contrasts with the five exceptional simple imperatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0189",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which is the assigned simple singular command of λαμβάνω?",
+          "explanation": "λαβέ is one of the five oxytone exceptions.",
+          "choices": [
+            {
+              "text": "λαβέ",
+              "correct": true,
+              "feedback": "Correct: λαβέ is one of the five oxytone exceptions."
+            },
+            {
+              "text": "ἔλαβε",
+              "correct": false,
+              "feedback": "Review: λαβέ is one of the five oxytone exceptions."
+            },
+            {
+              "text": "λάβετε",
+              "correct": false,
+              "feedback": "Review: λαβέ is one of the five oxytone exceptions."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": false,
+              "feedback": "Review: λαβέ is one of the five oxytone exceptions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0190",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Why is εἰπὲ τὴν ἀλήθειαν written with a grave?",
+          "explanation": "A grave can replace a word-final acute in connected text.",
+          "choices": [
+            {
+              "text": "the form becomes past indicative",
+              "correct": false,
+              "feedback": "Review: A grave can replace a word-final acute in connected text."
+            },
+            {
+              "text": "final acute changes before a following word",
+              "correct": true,
+              "feedback": "Correct: A grave can replace a word-final acute in connected text."
+            },
+            {
+              "text": "the subject becomes plural",
+              "correct": false,
+              "feedback": "Review: A grave can replace a word-final acute in connected text."
+            },
+            {
+              "text": "the aorist stem changes",
+              "correct": false,
+              "feedback": "Review: A grave can replace a word-final acute in connected text."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0191",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What kind of augment occurs in ἔφυγον?",
+          "explanation": "ἐ- adds a syllable before the consonant.",
+          "choices": [
+            {
+              "text": "temporal vowel lengthening",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "compound only",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "syllabic",
+              "correct": true,
+              "feedback": "Correct: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0192",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What kind occurs in ἤκουσα?",
+          "explanation": "The initial α of ἀκούω lengthens to η.",
+          "choices": [
+            {
+              "text": "syllabic ἐ- before κ",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "a future prefix",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "temporal",
+              "correct": true,
+              "feedback": "Correct: The initial α of ἀκούω lengthens to η."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0193",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Which change is common for initial ο?",
+          "explanation": "Temporal augment lengthens ο to ω.",
+          "choices": [
+            {
+              "text": "ο → ω",
+              "correct": true,
+              "feedback": "Correct: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο → ε",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο → αι",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο disappears always",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0194",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Which illustrates initial ε becoming η?",
+          "explanation": "ἠθέλησα illustrates temporal augment.",
+          "choices": [
+            {
+              "text": "φεύγω → ἔφυγον",
+              "correct": false,
+              "feedback": "Review: ἠθέλησα illustrates temporal augment."
+            },
+            {
+              "text": "ἐθέλω → ἠθέλησα",
+              "correct": true,
+              "feedback": "Correct: ἠθέλησα illustrates temporal augment."
+            },
+            {
+              "text": "λέγω → εἶπον",
+              "correct": false,
+              "feedback": "Review: ἠθέλησα illustrates temporal augment."
+            },
+            {
+              "text": "λαμβάνω → ἔλαβον",
+              "correct": false,
+              "feedback": "Review: ἠθέλησα illustrates temporal augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0195",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Can every irregular augment be mechanically predicted?",
+          "explanation": "Historical stem and augment changes require learned forms.",
+          "choices": [
+            {
+              "text": "yes, all initial vowels become ει",
+              "correct": false,
+              "feedback": "Review: Historical stem and augment changes require learned forms."
+            },
+            {
+              "text": "yes, no exceptions occur",
+              "correct": false,
+              "feedback": "Review: Historical stem and augment changes require learned forms."
+            },
+            {
+              "text": "no, learn the principal parts",
+              "correct": true,
+              "feedback": "Correct: Historical stem and augment changes require learned forms."
+            },
+            {
+              "text": "yes, all aorists add ἐ-",
+              "correct": false,
+              "feedback": "Review: Historical stem and augment changes require learned forms."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0196",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What generally happens to already long initial vowels?",
+          "explanation": "Temporal augment does not double an already long vowel.",
+          "choices": [
+            {
+              "text": "they gain an extra ἐ syllable invariably",
+              "correct": false,
+              "feedback": "Review: Temporal augment does not double an already long vowel."
+            },
+            {
+              "text": "they become consonants",
+              "correct": false,
+              "feedback": "Review: Temporal augment does not double an already long vowel."
+            },
+            {
+              "text": "they become short",
+              "correct": false,
+              "feedback": "Review: Temporal augment does not double an already long vowel."
+            },
+            {
+              "text": "they remain long",
+              "correct": true,
+              "feedback": "Correct: Temporal augment does not double an already long vowel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0197",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which form is an unaugmented participle?",
+          "explanation": "ἰδών is a nominative masculine participle.",
+          "choices": [
+            {
+              "text": "ἰδών",
+              "correct": true,
+              "feedback": "Correct: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἶδες",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0198",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which is a command rather than a statement?",
+          "explanation": "ἰδέ addresses one hearer.",
+          "choices": [
+            {
+              "text": "εἶδεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": true,
+              "feedback": "Correct: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0199",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which means “to say”?",
+          "explanation": "The infinitive ends in -εῖν.",
+          "choices": [
+            {
+              "text": "εἶπον",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἰπών",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἰπεῖν",
+              "correct": true,
+              "feedback": "Correct: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἴπετε",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0200",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which form takes the past indicative augment?",
+          "explanation": "Indicative εἶδεν contrasts with unaugmented nonindicatives.",
+          "choices": [
+            {
+              "text": "ἰδών",
+              "correct": false,
+              "feedback": "Review: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": false,
+              "feedback": "Review: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            },
+            {
+              "text": "ἰδεῖν",
+              "correct": false,
+              "feedback": "Review: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            },
+            {
+              "text": "εἶδεν",
+              "correct": true,
+              "feedback": "Correct: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0201",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Does an unaugmented aorist participle become a present?",
+          "explanation": "Aspect stem and indicative augment are separate features.",
+          "choices": [
+            {
+              "text": "no, the aorist stem remains",
+              "correct": true,
+              "feedback": "Correct: Aspect stem and indicative augment are separate features."
+            },
+            {
+              "text": "yes, always",
+              "correct": false,
+              "feedback": "Review: Aspect stem and indicative augment are separate features."
+            },
+            {
+              "text": "yes, when masculine",
+              "correct": false,
+              "feedback": "Review: Aspect stem and indicative augment are separate features."
+            },
+            {
+              "text": "yes, when plural",
+              "correct": false,
+              "feedback": "Review: Aspect stem and indicative augment are separate features."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-topic-0202",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "In ἰδὼν τὸν κίνδυνον ὁ στρατιώτης εἶπεν, who saw?",
+          "explanation": "ἰδών agrees with nominative στρατιώτης.",
+          "choices": [
+            {
+              "text": "the danger",
+              "correct": false,
+              "feedback": "Review: ἰδών agrees with nominative στρατιώτης."
+            },
+            {
+              "text": "the soldier",
+              "correct": true,
+              "feedback": "Correct: ἰδών agrees with nominative στρατιώτης."
+            },
+            {
+              "text": "the horsemen",
+              "correct": false,
+              "feedback": "Review: ἰδών agrees with nominative στρατιώτης."
+            },
+            {
+              "text": "Tissaphernes only",
+              "correct": false,
+              "feedback": "Review: ἰδών agrees with nominative στρατιώτης."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 22 Required Grammar Exercises",
+      "description": "Apply each taught grammar topic before continuing.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-22-module-2-v1-grammar",
+      "pointsPossible": 24,
+      "instructions": [
+        "Answer every question.",
+        "A score of 80% or higher is required. Review feedback and retry after revising your understanding."
+      ],
+      "questions": [
+        {
+          "id": "lesson-22-grammar-0203",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What dictionary verb lies behind εἶπον?",
+          "explanation": "The principal parts connect λέγω and εἶπον.",
+          "choices": [
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "λέγω",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0204",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which isolated command means “say!” to one person?",
+          "explanation": "εἰπέ is the exceptional oxytone singular imperative.",
+          "choices": [
+            {
+              "text": "εἶπεν",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "εἶπον",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "ἐρῶ",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "εἰπέ",
+              "correct": true,
+              "feedback": "Correct: εἰπέ is the exceptional oxytone singular imperative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0205",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What kind of augment occurs in ἔφυγον?",
+          "explanation": "ἐ- adds a syllable before the consonant.",
+          "choices": [
+            {
+              "text": "syllabic",
+              "correct": true,
+              "feedback": "Correct: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "temporal vowel lengthening",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "compound only",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0206",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which form is an unaugmented participle?",
+          "explanation": "ἰδών is a nominative masculine participle.",
+          "choices": [
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "ἰδών",
+              "correct": true,
+              "feedback": "Correct: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἶδες",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0207",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What dictionary verb lies behind εἶδον?",
+          "explanation": "The principal parts connect ὁράω and εἶδον.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "τρέχω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "ὁράω",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0208",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which isolated command means “see!” to one person?",
+          "explanation": "ἰδέ has exceptional final accent.",
+          "choices": [
+            {
+              "text": "εἶδεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ἴδετε",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ὄψομαι",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": true,
+              "feedback": "Correct: ἰδέ has exceptional final accent."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0209",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What kind occurs in ἤκουσα?",
+          "explanation": "The initial α of ἀκούω lengthens to η.",
+          "choices": [
+            {
+              "text": "temporal",
+              "correct": true,
+              "feedback": "Correct: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "syllabic ἐ- before κ",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "a future prefix",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0210",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which is a command rather than a statement?",
+          "explanation": "ἰδέ addresses one hearer.",
+          "choices": [
+            {
+              "text": "εἶδεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": true,
+              "feedback": "Correct: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0211",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Which means “we saw”?",
+          "explanation": "-ομεν marks first plural.",
+          "choices": [
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            },
+            {
+              "text": "εἶδες",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": true,
+              "feedback": "Correct: -ομεν marks first plural."
+            },
+            {
+              "text": "εἴδετε",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0212",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which means “come!” to several people?",
+          "explanation": "The plural aorist command is ἔλθετε.",
+          "choices": [
+            {
+              "text": "ἐλθέ",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἦλθον",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἔρχονται",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἔλθετε",
+              "correct": true,
+              "feedback": "Correct: The plural aorist command is ἔλθετε."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0213",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Which change is common for initial ο?",
+          "explanation": "Temporal augment lengthens ο to ω.",
+          "choices": [
+            {
+              "text": "ο → ω",
+              "correct": true,
+              "feedback": "Correct: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο → ε",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο → αι",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο disappears always",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0214",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which means “to say”?",
+          "explanation": "The infinitive ends in -εῖν.",
+          "choices": [
+            {
+              "text": "εἶπον",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἰπεῖν",
+              "correct": true,
+              "feedback": "Correct: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἰπών",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἴπετε",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0215",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Which means “he said”?",
+          "explanation": "-ε(ν) is third singular.",
+          "choices": [
+            {
+              "text": "εἶπες",
+              "correct": false,
+              "feedback": "Review: -ε(ν) is third singular."
+            },
+            {
+              "text": "εἴπομεν",
+              "correct": false,
+              "feedback": "Review: -ε(ν) is third singular."
+            },
+            {
+              "text": "εἶπεν",
+              "correct": true,
+              "feedback": "Correct: -ε(ν) is third singular."
+            },
+            {
+              "text": "εἴπετε",
+              "correct": false,
+              "feedback": "Review: -ε(ν) is third singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0216",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which singular command keeps recessive accent?",
+          "explanation": "φύγε contrasts with the five exceptional simple imperatives.",
+          "choices": [
+            {
+              "text": "εἰπέ",
+              "correct": false,
+              "feedback": "Review: φύγε contrasts with the five exceptional simple imperatives."
+            },
+            {
+              "text": "ἐλθέ",
+              "correct": false,
+              "feedback": "Review: φύγε contrasts with the five exceptional simple imperatives."
+            },
+            {
+              "text": "λαβέ",
+              "correct": false,
+              "feedback": "Review: φύγε contrasts with the five exceptional simple imperatives."
+            },
+            {
+              "text": "φύγε",
+              "correct": true,
+              "feedback": "Correct: φύγε contrasts with the five exceptional simple imperatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0217",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Which illustrates initial ε becoming η?",
+          "explanation": "ἠθέλησα illustrates temporal augment.",
+          "choices": [
+            {
+              "text": "ἐθέλω → ἠθέλησα",
+              "correct": true,
+              "feedback": "Correct: ἠθέλησα illustrates temporal augment."
+            },
+            {
+              "text": "φεύγω → ἔφυγον",
+              "correct": false,
+              "feedback": "Review: ἠθέλησα illustrates temporal augment."
+            },
+            {
+              "text": "λέγω → εἶπον",
+              "correct": false,
+              "feedback": "Review: ἠθέλησα illustrates temporal augment."
+            },
+            {
+              "text": "λαμβάνω → ἔλαβον",
+              "correct": false,
+              "feedback": "Review: ἠθέλησα illustrates temporal augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0218",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which form takes the past indicative augment?",
+          "explanation": "Indicative εἶδεν contrasts with unaugmented nonindicatives.",
+          "choices": [
+            {
+              "text": "ἰδών",
+              "correct": false,
+              "feedback": "Review: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            },
+            {
+              "text": "εἶδεν",
+              "correct": true,
+              "feedback": "Correct: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": false,
+              "feedback": "Review: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            },
+            {
+              "text": "ἰδεῖν",
+              "correct": false,
+              "feedback": "Review: Indicative εἶδεν contrasts with unaugmented nonindicatives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0219",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What future is assigned with λέγω?",
+          "explanation": "λέγω, ἐρῶ, εἶπον are the assigned first three parts.",
+          "choices": [
+            {
+              "text": "ὄψομαι",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            },
+            {
+              "text": "λήψομαι",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            },
+            {
+              "text": "ἐρῶ",
+              "correct": true,
+              "feedback": "Correct: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            },
+            {
+              "text": "φεύξομαι",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον are the assigned first three parts."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0220",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which is the assigned simple singular command of λαμβάνω?",
+          "explanation": "λαβέ is one of the five oxytone exceptions.",
+          "choices": [
+            {
+              "text": "ἔλαβε",
+              "correct": false,
+              "feedback": "Review: λαβέ is one of the five oxytone exceptions."
+            },
+            {
+              "text": "λάβετε",
+              "correct": false,
+              "feedback": "Review: λαβέ is one of the five oxytone exceptions."
+            },
+            {
+              "text": "λαμβάνει",
+              "correct": false,
+              "feedback": "Review: λαβέ is one of the five oxytone exceptions."
+            },
+            {
+              "text": "λαβέ",
+              "correct": true,
+              "feedback": "Correct: λαβέ is one of the five oxytone exceptions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0221",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Can every irregular augment be mechanically predicted?",
+          "explanation": "Historical stem and augment changes require learned forms.",
+          "choices": [
+            {
+              "text": "no, learn the principal parts",
+              "correct": true,
+              "feedback": "Correct: Historical stem and augment changes require learned forms."
+            },
+            {
+              "text": "yes, all initial vowels become ει",
+              "correct": false,
+              "feedback": "Review: Historical stem and augment changes require learned forms."
+            },
+            {
+              "text": "yes, no exceptions occur",
+              "correct": false,
+              "feedback": "Review: Historical stem and augment changes require learned forms."
+            },
+            {
+              "text": "yes, all aorists add ἐ-",
+              "correct": false,
+              "feedback": "Review: Historical stem and augment changes require learned forms."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0222",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Does an unaugmented aorist participle become a present?",
+          "explanation": "Aspect stem and indicative augment are separate features.",
+          "choices": [
+            {
+              "text": "yes, always",
+              "correct": false,
+              "feedback": "Review: Aspect stem and indicative augment are separate features."
+            },
+            {
+              "text": "no, the aorist stem remains",
+              "correct": true,
+              "feedback": "Correct: Aspect stem and indicative augment are separate features."
+            },
+            {
+              "text": "yes, when masculine",
+              "correct": false,
+              "feedback": "Review: Aspect stem and indicative augment are separate features."
+            },
+            {
+              "text": "yes, when plural",
+              "correct": false,
+              "feedback": "Review: Aspect stem and indicative augment are separate features."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0223",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Why are these second aorists?",
+          "explanation": "The classification concerns morphology, not chronological order.",
+          "choices": [
+            {
+              "text": "they happened after another aorist",
+              "correct": false,
+              "feedback": "Review: The classification concerns morphology, not chronological order."
+            },
+            {
+              "text": "they always mean two events",
+              "correct": false,
+              "feedback": "Review: The classification concerns morphology, not chronological order."
+            },
+            {
+              "text": "they use thematic aorist formation",
+              "correct": true,
+              "feedback": "Correct: The classification concerns morphology, not chronological order."
+            },
+            {
+              "text": "they contain a sigmatic -σα- stem",
+              "correct": false,
+              "feedback": "Review: The classification concerns morphology, not chronological order."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0224",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Why is εἰπὲ τὴν ἀλήθειαν written with a grave?",
+          "explanation": "A grave can replace a word-final acute in connected text.",
+          "choices": [
+            {
+              "text": "the form becomes past indicative",
+              "correct": false,
+              "feedback": "Review: A grave can replace a word-final acute in connected text."
+            },
+            {
+              "text": "the subject becomes plural",
+              "correct": false,
+              "feedback": "Review: A grave can replace a word-final acute in connected text."
+            },
+            {
+              "text": "the aorist stem changes",
+              "correct": false,
+              "feedback": "Review: A grave can replace a word-final acute in connected text."
+            },
+            {
+              "text": "final acute changes before a following word",
+              "correct": true,
+              "feedback": "Correct: A grave can replace a word-final acute in connected text."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0225",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What generally happens to already long initial vowels?",
+          "explanation": "Temporal augment does not double an already long vowel.",
+          "choices": [
+            {
+              "text": "they remain long",
+              "correct": true,
+              "feedback": "Correct: Temporal augment does not double an already long vowel."
+            },
+            {
+              "text": "they gain an extra ἐ syllable invariably",
+              "correct": false,
+              "feedback": "Review: Temporal augment does not double an already long vowel."
+            },
+            {
+              "text": "they become consonants",
+              "correct": false,
+              "feedback": "Review: Temporal augment does not double an already long vowel."
+            },
+            {
+              "text": "they become short",
+              "correct": false,
+              "feedback": "Review: Temporal augment does not double an already long vowel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-grammar-0226",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "In ἰδὼν τὸν κίνδυνον ὁ στρατιώτης εἶπεν, who saw?",
+          "explanation": "ἰδών agrees with nominative στρατιώτης.",
+          "choices": [
+            {
+              "text": "the danger",
+              "correct": false,
+              "feedback": "Review: ἰδών agrees with nominative στρατιώτης."
+            },
+            {
+              "text": "the soldier",
+              "correct": true,
+              "feedback": "Correct: ἰδών agrees with nominative στρατιώτης."
+            },
+            {
+              "text": "the horsemen",
+              "correct": false,
+              "feedback": "Review: ἰδών agrees with nominative στρατιώτης."
+            },
+            {
+              "text": "Tissaphernes only",
+              "correct": false,
+              "feedback": "Review: ἰδών agrees with nominative στρατιώτης."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 22 Final Quiz",
+      "description": "Read, interpret, and apply the lesson across all three pages.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-22-module-2-v1-final",
+      "pointsPossible": 30,
+      "instructions": [
+        "Answer every question.",
+        "A score of 80% or higher is required. Review feedback and retry after revising your understanding."
+      ],
+      "questions": [
+        {
+          "id": "lesson-22-final-0227",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who invites the generals?",
+          "explanation": "The first paragraph names Tissaphernes as host.",
+          "choices": [
+            {
+              "text": "Cleocritus",
+              "correct": false,
+              "feedback": "Review: The first paragraph names Tissaphernes as host."
+            },
+            {
+              "text": "Euthydemus",
+              "correct": false,
+              "feedback": "Review: The first paragraph names Tissaphernes as host."
+            },
+            {
+              "text": "Tissaphernes",
+              "correct": true,
+              "feedback": "Correct: The first paragraph names Tissaphernes as host."
+            },
+            {
+              "text": "Lycius",
+              "correct": false,
+              "feedback": "Review: The first paragraph names Tissaphernes as host."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0228",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What objection do some soldiers raise?",
+          "explanation": "The objection concerns concentrated risk.",
+          "choices": [
+            {
+              "text": "the army should reach the sea first",
+              "correct": false,
+              "feedback": "Review: The objection concerns concentrated risk."
+            },
+            {
+              "text": "the philosopher should command cavalry",
+              "correct": false,
+              "feedback": "Review: The objection concerns concentrated risk."
+            },
+            {
+              "text": "the captains should sell their arms",
+              "correct": false,
+              "feedback": "Review: The objection concerns concentrated risk."
+            },
+            {
+              "text": "all leaders should not go together",
+              "correct": true,
+              "feedback": "Correct: The objection concerns concentrated risk."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0229",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who enter the building?",
+          "explanation": "The generals enter; the captains remain outside.",
+          "choices": [
+            {
+              "text": "five generals",
+              "correct": true,
+              "feedback": "Correct: The generals enter; the captains remain outside."
+            },
+            {
+              "text": "twenty captains",
+              "correct": false,
+              "feedback": "Review: The generals enter; the captains remain outside."
+            },
+            {
+              "text": "all Greek soldiers",
+              "correct": false,
+              "feedback": "Review: The generals enter; the captains remain outside."
+            },
+            {
+              "text": "two hundred slingers",
+              "correct": false,
+              "feedback": "Review: The generals enter; the captains remain outside."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0230",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What happens immediately to the generals?",
+          "explanation": "The reading distinguishes seizure from later death.",
+          "choices": [
+            {
+              "text": "they return safely",
+              "correct": false,
+              "feedback": "Review: The reading distinguishes seizure from later death."
+            },
+            {
+              "text": "they are seized",
+              "correct": true,
+              "feedback": "Correct: The reading distinguishes seizure from later death."
+            },
+            {
+              "text": "they are crowned",
+              "correct": false,
+              "feedback": "Review: The reading distinguishes seizure from later death."
+            },
+            {
+              "text": "they are elected in Athens",
+              "correct": false,
+              "feedback": "Review: The reading distinguishes seizure from later death."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0231",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who brings news to camp?",
+          "explanation": "Nicarchus arrives wounded and reports events.",
+          "choices": [
+            {
+              "text": "Apollo",
+              "correct": false,
+              "feedback": "Review: Nicarchus arrives wounded and reports events."
+            },
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: Nicarchus arrives wounded and reports events."
+            },
+            {
+              "text": "Nicarchus",
+              "correct": true,
+              "feedback": "Correct: Nicarchus arrives wounded and reports events."
+            },
+            {
+              "text": "Cleocritus",
+              "correct": false,
+              "feedback": "Review: Nicarchus arrives wounded and reports events."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0232",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who is Socrates in the meeting?",
+          "explanation": "The reading explicitly distinguishes the two men.",
+          "choices": [
+            {
+              "text": "Socrates the Athenian philosopher",
+              "correct": false,
+              "feedback": "Review: The reading explicitly distinguishes the two men."
+            },
+            {
+              "text": "Euthydemus’s father",
+              "correct": false,
+              "feedback": "Review: The reading explicitly distinguishes the two men."
+            },
+            {
+              "text": "Lycius’s cavalry officer",
+              "correct": false,
+              "feedback": "Review: The reading explicitly distinguishes the two men."
+            },
+            {
+              "text": "Socrates the Achaean commander",
+              "correct": true,
+              "feedback": "Correct: The reading explicitly distinguishes the two men."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0233",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λέγω mean in this lesson?",
+          "explanation": "λέγω, ἐρῶ, εἶπον means say in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": true,
+              "feedback": "Correct: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: λέγω, ἐρῶ, εἶπον means say in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0234",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁράω mean in this lesson?",
+          "explanation": "ὁράω, ὄψομαι, εἶδον means see in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": true,
+              "feedback": "Correct: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: ὁράω, ὄψομαι, εἶδον means see in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0235",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πίστις mean in this lesson?",
+          "explanation": "πίστις, πίστεως, ἡ means trust in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: πίστις, πίστεως, ἡ means trust in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: πίστις, πίστεως, ἡ means trust in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": true,
+              "feedback": "Correct: πίστις, πίστεως, ἡ means trust in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: πίστις, πίστεως, ἡ means trust in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0236",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ δόλος mean in this lesson?",
+          "explanation": "δόλος, δόλου, ὁ means deceit in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: δόλος, δόλου, ὁ means deceit in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: δόλος, δόλου, ὁ means deceit in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: δόλος, δόλου, ὁ means deceit in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": true,
+              "feedback": "Correct: δόλος, δόλου, ὁ means deceit in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0237",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πιστεύω mean in this lesson?",
+          "explanation": "πιστεύω (+ dative) means trust someone in the assigned context.",
+          "choices": [
+            {
+              "text": "trust someone",
+              "correct": true,
+              "feedback": "Correct: πιστεύω (+ dative) means trust someone in the assigned context."
+            },
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: πιστεύω (+ dative) means trust someone in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: πιστεύω (+ dative) means trust someone in the assigned context."
+            },
+            {
+              "text": "deceit",
+              "correct": false,
+              "feedback": "Review: πιστεύω (+ dative) means trust someone in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0238",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does καλέω mean in this lesson?",
+          "explanation": "καλέω means invite in the assigned context.",
+          "choices": [
+            {
+              "text": "say",
+              "correct": false,
+              "feedback": "Review: καλέω means invite in the assigned context."
+            },
+            {
+              "text": "invite",
+              "correct": true,
+              "feedback": "Correct: καλέω means invite in the assigned context."
+            },
+            {
+              "text": "see",
+              "correct": false,
+              "feedback": "Review: καλέω means invite in the assigned context."
+            },
+            {
+              "text": "trust",
+              "correct": false,
+              "feedback": "Review: καλέω means invite in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0239",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What dictionary verb lies behind εἶπον?",
+          "explanation": "The principal parts connect λέγω and εἶπον.",
+          "choices": [
+            {
+              "text": "ὁράω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "λέγω",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect λέγω and εἶπον."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect λέγω and εἶπον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0240",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which isolated command means “say!” to one person?",
+          "explanation": "εἰπέ is the exceptional oxytone singular imperative.",
+          "choices": [
+            {
+              "text": "εἶπεν",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "εἶπον",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "ἐρῶ",
+              "correct": false,
+              "feedback": "Review: εἰπέ is the exceptional oxytone singular imperative."
+            },
+            {
+              "text": "εἰπέ",
+              "correct": true,
+              "feedback": "Correct: εἰπέ is the exceptional oxytone singular imperative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0241",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What kind of augment occurs in ἔφυγον?",
+          "explanation": "ἐ- adds a syllable before the consonant.",
+          "choices": [
+            {
+              "text": "syllabic",
+              "correct": true,
+              "feedback": "Correct: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "temporal vowel lengthening",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "compound only",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: ἐ- adds a syllable before the consonant."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0242",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which form is an unaugmented participle?",
+          "explanation": "ἰδών is a nominative masculine participle.",
+          "choices": [
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "ἰδών",
+              "correct": true,
+              "feedback": "Correct: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἶδες",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": false,
+              "feedback": "Review: ἰδών is a nominative masculine participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0243",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "What dictionary verb lies behind εἶδον?",
+          "explanation": "The principal parts connect ὁράω and εἶδον.",
+          "choices": [
+            {
+              "text": "λέγω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "τρέχω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "ὁράω",
+              "correct": true,
+              "feedback": "Correct: The principal parts connect ὁράω and εἶδον."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: The principal parts connect ὁράω and εἶδον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0244",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which isolated command means “see!” to one person?",
+          "explanation": "ἰδέ has exceptional final accent.",
+          "choices": [
+            {
+              "text": "εἶδεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ἴδετε",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ὄψομαι",
+              "correct": false,
+              "feedback": "Review: ἰδέ has exceptional final accent."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": true,
+              "feedback": "Correct: ἰδέ has exceptional final accent."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0245",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "What kind occurs in ἤκουσα?",
+          "explanation": "The initial α of ἀκούω lengthens to η.",
+          "choices": [
+            {
+              "text": "temporal",
+              "correct": true,
+              "feedback": "Correct: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "syllabic ἐ- before κ",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "none",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            },
+            {
+              "text": "a future prefix",
+              "correct": false,
+              "feedback": "Review: The initial α of ἀκούω lengthens to η."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0246",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which is a command rather than a statement?",
+          "explanation": "ἰδέ addresses one hearer.",
+          "choices": [
+            {
+              "text": "εἶδεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "ἰδέ",
+              "correct": true,
+              "feedback": "Correct: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": false,
+              "feedback": "Review: ἰδέ addresses one hearer."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0247",
+          "type": "multiple-choice",
+          "topic": "unrelated-aorist-stems",
+          "category": "Grammar",
+          "prompt": "Which means “we saw”?",
+          "explanation": "-ομεν marks first plural.",
+          "choices": [
+            {
+              "text": "εἶδον",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            },
+            {
+              "text": "εἶδες",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            },
+            {
+              "text": "εἴδομεν",
+              "correct": true,
+              "feedback": "Correct: -ομεν marks first plural."
+            },
+            {
+              "text": "εἴδετε",
+              "correct": false,
+              "feedback": "Review: -ομεν marks first plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0248",
+          "type": "multiple-choice",
+          "topic": "aorist-imperative-accents",
+          "category": "Grammar",
+          "prompt": "Which means “come!” to several people?",
+          "explanation": "The plural aorist command is ἔλθετε.",
+          "choices": [
+            {
+              "text": "ἐλθέ",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἦλθον",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἔρχονται",
+              "correct": false,
+              "feedback": "Review: The plural aorist command is ἔλθετε."
+            },
+            {
+              "text": "ἔλθετε",
+              "correct": true,
+              "feedback": "Correct: The plural aorist command is ἔλθετε."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0249",
+          "type": "multiple-choice",
+          "topic": "syllabic-temporal-augment",
+          "category": "Grammar",
+          "prompt": "Which change is common for initial ο?",
+          "explanation": "Temporal augment lengthens ο to ω.",
+          "choices": [
+            {
+              "text": "ο → ω",
+              "correct": true,
+              "feedback": "Correct: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο → ε",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο → αι",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            },
+            {
+              "text": "ο disappears always",
+              "correct": false,
+              "feedback": "Review: Temporal augment lengthens ο to ω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0250",
+          "type": "multiple-choice",
+          "topic": "augmented-unaugmented",
+          "category": "Grammar",
+          "prompt": "Which means “to say”?",
+          "explanation": "The infinitive ends in -εῖν.",
+          "choices": [
+            {
+              "text": "εἶπον",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἰπεῖν",
+              "correct": true,
+              "feedback": "Correct: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἰπών",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            },
+            {
+              "text": "εἴπετε",
+              "correct": false,
+              "feedback": "Review: The infinitive ends in -εῖν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0251",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why record the objections?",
+          "explanation": "The source preserves more than Clearchus’s confidence.",
+          "choices": [
+            {
+              "text": "they prove no soldiers trusted leaders",
+              "correct": false,
+              "feedback": "Review: The source preserves more than Clearchus’s confidence."
+            },
+            {
+              "text": "they announce a certain prophecy",
+              "correct": false,
+              "feedback": "Review: The source preserves more than Clearchus’s confidence."
+            },
+            {
+              "text": "they show dissent within the army",
+              "correct": true,
+              "feedback": "Correct: The source preserves more than Clearchus’s confidence."
+            },
+            {
+              "text": "they abolish all command",
+              "correct": false,
+              "feedback": "Review: The source preserves more than Clearchus’s confidence."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0252",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does λοχαγός mean here?",
+          "explanation": "A captain differs from a general.",
+          "choices": [
+            {
+              "text": "king",
+              "correct": false,
+              "feedback": "Review: A captain differs from a general."
+            },
+            {
+              "text": "philosopher",
+              "correct": false,
+              "feedback": "Review: A captain differs from a general."
+            },
+            {
+              "text": "herald",
+              "correct": false,
+              "feedback": "Review: A captain differs from a general."
+            },
+            {
+              "text": "company captain",
+              "correct": true,
+              "feedback": "Correct: A captain differs from a general."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0253",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which distinction protects the chronology?",
+          "explanation": "The later retrospective chapter is a separate stage.",
+          "choices": [
+            {
+              "text": "capture now versus later fates",
+              "correct": true,
+              "feedback": "Correct: The later retrospective chapter is a separate stage."
+            },
+            {
+              "text": "all deaths at the doors",
+              "correct": false,
+              "feedback": "Review: The later retrospective chapter is a separate stage."
+            },
+            {
+              "text": "all leaders already safe",
+              "correct": false,
+              "feedback": "Review: The later retrospective chapter is a separate stage."
+            },
+            {
+              "text": "no attack occurred",
+              "correct": false,
+              "feedback": "Review: The later retrospective chapter is a separate stage."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0254",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What remains after the betrayal?",
+          "explanation": "The army must reorganize; it has not dissolved.",
+          "choices": [
+            {
+              "text": "only empty tents",
+              "correct": false,
+              "feedback": "Review: The army must reorganize; it has not dissolved."
+            },
+            {
+              "text": "soldiers, arms, and surviving officers",
+              "correct": true,
+              "feedback": "Correct: The army must reorganize; it has not dissolved."
+            },
+            {
+              "text": "the Persian throne",
+              "correct": false,
+              "feedback": "Review: The army must reorganize; it has not dissolved."
+            },
+            {
+              "text": "a fleet at Piraeus",
+              "correct": false,
+              "feedback": "Review: The army must reorganize; it has not dissolved."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0255",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What changes the camp’s information?",
+          "explanation": "Nicarchus reports what the watching soldiers did not know.",
+          "choices": [
+            {
+              "text": "a dream from Cyrus",
+              "correct": false,
+              "feedback": "Review: Nicarchus reports what the watching soldiers did not know."
+            },
+            {
+              "text": "an election at Athens",
+              "correct": false,
+              "feedback": "Review: Nicarchus reports what the watching soldiers did not know."
+            },
+            {
+              "text": "a survivor’s report",
+              "correct": true,
+              "feedback": "Correct: Nicarchus reports what the watching soldiers did not know."
+            },
+            {
+              "text": "a new dictionary",
+              "correct": false,
+              "feedback": "Review: Nicarchus reports what the watching soldiers did not know."
+            }
+          ]
+        },
+        {
+          "id": "lesson-22-final-0256",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should trust be evaluated alongside?",
+          "explanation": "The culture page connects trust with responsible judgment.",
+          "choices": [
+            {
+              "text": "a leader’s confidence alone",
+              "correct": false,
+              "feedback": "Review: The culture page connects trust with responsible judgment."
+            },
+            {
+              "text": "the color of uniforms",
+              "correct": false,
+              "feedback": "Review: The culture page connects trust with responsible judgment."
+            },
+            {
+              "text": "a fixed certainty of success",
+              "correct": false,
+              "feedback": "Review: The culture page connects trust with responsible judgment."
+            },
+            {
+              "text": "information and safeguards",
+              "correct": true,
+              "feedback": "Correct: The culture page connects trust with responsible judgment."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-21",
+    "title": "Victory on the Field, Disaster for the Army",
+    "fallbackUrl": "lesson.html?lesson=21&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-23",
+    "title": "Xenophon Gets Up",
+    "fallbackUrl": "lesson.html?lesson=23&page=1"
+  },
+  "contentRevision": "lesson-22-module-2-v1"
+}

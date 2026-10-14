@@ -1,0 +1,120 @@
+{
+  "base": "https://learn-greek-xenophon.netlify.app",
+  "contentFixtures": false,
+  "accountAndProgressFixtures": true,
+  "lessons": [
+    {
+      "number": 13,
+      "readingParagraphs": 8,
+      "grammarSections": 4,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 14,
+      "readingParagraphs": 8,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 15,
+      "readingParagraphs": 8,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 16,
+      "readingParagraphs": 8,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 17,
+      "readingParagraphs": 7,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 18,
+      "readingParagraphs": 7,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 19,
+      "readingParagraphs": 7,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 20,
+      "readingParagraphs": 7,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 21,
+      "readingParagraphs": 6,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 22,
+      "readingParagraphs": 6,
+      "grammarSections": 4,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 23,
+      "readingParagraphs": 7,
+      "grammarSections": 4,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    },
+    {
+      "number": 24,
+      "readingParagraphs": 7,
+      "grammarSections": 5,
+      "topicLinks": true,
+      "flashcardsAndVocabularyPractice": true,
+      "grammarScoring": true,
+      "finalQuizThresholdAndRequiredAnswers": true
+    }
+  ],
+  "errors": [],
+  "mobileAllLessons": true,
+  "studentGrammarGate": true,
+  "moduleOneEntryGate": true,
+  "passed": true
+}

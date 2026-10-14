@@ -17,7 +17,7 @@ const ROLE_LABELS = {
 };
 
 const OPEN_LESSON_ACCESS_DURING_BUILD = true;
-window.xenophonOpenLessonAccess = OPEN_LESSON_ACCESS_DURING_BUILD;
+window.xenophonOpenLessonAccess = window.xenophonSitePolicy?.settings?.lessonAccess ? window.xenophonSitePolicy.settings.lessonAccess === 'open' : OPEN_LESSON_ACCESS_DURING_BUILD;
 const MODULE_ONE_EXAM_REVISION = "module-1-exam-v1";
 const LESSON_TWELVE_QUIZ_REVISION = "lesson-12-final-v1";
 
@@ -108,18 +108,18 @@ const COURSE_MODULES = [
     description: "Endurance, fear, and leadership in action",
     introUrl: "module-2-andreia.html",
     lessons: [
-      { id: "lesson-13", title: "The General Leads", grammar: "Contract verbs (–έω, –άω, –όω), present system" },
-      { id: "lesson-14", title: "Trust in Leadership", grammar: "Imperfect of contract verbs, repeated past action" },
-      { id: "lesson-15", title: "Hope and Expectation", grammar: "Future tense, predictive statements" },
-      { id: "lesson-16", title: "If They Fight", grammar: "Subjunctive mood (intro), ἐάν clauses" },
-      { id: "lesson-17", title: "Fear and Courage", grammar: "Infinitives expanded, verbs of fearing and fighting" },
-      { id: "lesson-18", title: "The Battle Begins", grammar: "Aorist tense (intro), simple past action" },
-      { id: "lesson-19", title: "Those Who Stand Firm", grammar: "Present participles, descriptive action" },
-      { id: "lesson-20", title: "Victory Won", grammar: "Aorist participles, sequence of action" },
-      { id: "lesson-21", title: "The Army Without Leaders", grammar: "Integrated narrative: tense contrast, participles" },
-      { id: "lesson-22", title: "Do Not Fear!", grammar: "Imperatives, commands, prohibition (μή)" },
-      { id: "lesson-23", title: "So Brave That…", grammar: "Result clauses (ὥστε + infinitive)" },
-      { id: "lesson-24", title: "Courage Under Fire", grammar: "Module review: subjunctive, aorist, participles" }
+      { id: "lesson-13", title: "Among the Soldiers at Sardis", grammar: "Substantive adjectives; declension systems; velar and dental stems; reflexive pronouns" },
+      { id: "lesson-14", title: "Who Is Fit to Lead?", grammar: "Third-declension nasal, labial, and liquid stems; σώφρων; τίς and τις" },
+      { id: "lesson-15", title: "An Army on the Move", grammar: "Present middle participle formation, declension, deponents, uses, and relative time" },
+      { id: "lesson-16", title: "Epyaxa and the Army's Pay", grammar: "Family -ρ- stems; γυνή and χείρ; πᾶς; cardinal numbers; time expressions" },
+      { id: "lesson-17", title: "Must the Brave Always Stand Firm?", grammar: "Present active participles: formation, declension, agreement, uses, and simultaneous action" },
+      { id: "lesson-18", title: "The Soldiers Refuse to March", grammar: "Third-declension -ντ-, vowel and diphthong stems; genitive and article uses" },
+      { id: "lesson-19", title: "The King's War and Cyrus's Promises", grammar: "Sigmatic futures, -ίζω contract futures, contract-verb sigmatic futures, and middle futures" },
+      { id: "lesson-20", title: "Courage to Address Fellow Citizens", grammar: "Liquid/nasal futures, εἶμι, future participles of purpose, impersonal infinitives, and direct questions" },
+      { id: "lesson-21", title: "Victory on the Field, Disaster for the Army", grammar: "Aorist indicative in past narrative; Thematic second aorist: active and middle; Aspect: action viewed as a whole; Active and middle aorist participles; Common second aorists and principal parts" },
+      { id: "lesson-22", title: "Trust, Betrayal, and the Missing Generals", grammar: "εἶπον and εἶδον: unrelated stems; Second-aorist commands and accent exceptions; Syllabic and temporal augment; Indicative, participle, and imperative" },
+      { id: "lesson-23", title: "Xenophon Gets Up", grammar: "Sigmatic first aorist: active and middle; Consonant changes and vowel lengthening; Active and middle first-aorist participles; First and second aorists share aorist aspect" },
+      { id: "lesson-24", title: "Learning to Bring the Army Home", grammar: "Asigmatic first aorists: liquids and nasals; Irregular first-aorist stems and principal parts; Augment in compound verbs; Cumulative review: nouns, adjectives, and reference; Cumulative review: participles, futures, and narrative" }
     ]
   },
   {
@@ -129,18 +129,18 @@ const COURSE_MODULES = [
     description: "Self-mastery and the well-ordered life",
     introUrl: "module-3-sophrosyne.html",
     lessons: [
-      { id: "lesson-25", title: "Mastering Oneself", grammar: "Middle voice (present), reflexive meaning" },
-      { id: "lesson-26", title: "Habits of Discipline", grammar: "Middle voice (imperfect & aorist)" },
-      { id: "lesson-27", title: "What Must Be Done", grammar: "Indirect statement (accusative + infinitive)" },
-      { id: "lesson-28", title: "The Desire to Live Well", grammar: "Complementary infinitives (expanded)" },
-      { id: "lesson-29", title: "Working with Purpose", grammar: "Purpose clauses (ἵνα + subjunctive)" },
-      { id: "lesson-30", title: "Knowing Oneself", grammar: "Reflexive pronouns" },
-      { id: "lesson-31", title: "If a Man is Self-Controlled", grammar: "Conditional sentences (simple conditions)" },
-      { id: "lesson-32", title: "The Well-Ordered Household", grammar: "Integrated reading: purpose + infinitives" },
-      { id: "lesson-33", title: "Training the Self", grammar: "Middle participles" },
-      { id: "lesson-34", title: "Nothing in Excess", grammar: "Negation, moderation vocabulary" },
-      { id: "lesson-35", title: "What is Self-Control?", grammar: "Dialogue structure, indirect discourse" },
-      { id: "lesson-36", title: "The Disciplined Life", grammar: "Module review: middle voice, infinitives, conditionals" }
+      { id: "lesson-25", title: "Mastering Oneself", grammar: "Building the imperfect active; Imperfect middle and deponent verbs; Contract verbs and εἰμί in the past; Choosing a viewpoint: imperfect and aorist" },
+      { id: "lesson-26", title: "Habits of Discipline", grammar: "Relative pronouns: agreement and case; Neuter nouns with an -εσ- stem; Adjectives in -ύς, -εῖα, -ύ; Putting clauses and noun forms together" },
+      { id: "lesson-27", title: "What Is Enough?", grammar: "Regular comparatives and superlatives; Irregular comparison; Than: genitive or ἤ; Comparing actions and needs" },
+      { id: "lesson-28", title: "The Desire to Live Well", grammar: "Pointing: οὗτος and ἐκεῖνος; Asking: τίς and τί; Someone, something, a certain; Where, how, and why?" },
+      { id: "lesson-29", title: "Endurance and Its Limits", grammar: "Athematic second aorists; Aorist infinitives, participles, commands; Recognizing -εσ- nouns in difficult terrain; Reading events, background, and physical limits" },
+      { id: "lesson-30", title: "Knowing Oneself", grammar: "Contract verbs in -όω; Contract second-declension nouns; Numbers and measured claims; ὡς and its compounds in context" },
+      { id: "lesson-31", title: "Desire and Responsibility", grammar: "Present passive: who receives the action?; Imperfect passive: action in progress; Agent, instrument, and responsibility; Active, middle, passive, and deponent" },
+      { id: "lesson-32", title: "The Well-Ordered Household", grammar: "δύναμαι: capacity and its limits; κεῖμαι: where things lie; ἐπίσταμαι: knowing how; Matching verb and complement" },
+      { id: "lesson-33", title: "Training the Self", grammar: "First aorist passive; Second aorist passive; Future passive; Deponents and responsible translation" },
+      { id: "lesson-34", title: "Nothing in Excess", grammar: "δίδωμι in the present and imperfect; τίθημι in the present and imperfect; Aorists: ἔδωκα and ἔθηκα; Commands, infinitives, and future forms" },
+      { id: "lesson-35", title: "What is Self-Control?", grammar: "The genitive absolute; Participial aspect and shared subjects; ἵστημι: make stand or stand?; καθίστημι and ἀφίστημι" },
+      { id: "lesson-36", title: "The Disciplined Life", grammar: "δείκνυμι: showing evidence; ἵημι and ἀφίημι; Participles that complete a verb; From self to city: cumulative reading" }
     ]
   },
   {
@@ -1118,6 +1118,8 @@ function isLessonComplete(progress, lessonId) {
 }
 
 function isLessonUnlocked(lesson, progress) {
+  const session = readSession();
+  if (['administrator','professor'].includes(session?.activeRole) && session.roles?.includes(session.activeRole)) return true;
   const lessonNumber = Number(lesson.id.match(/^lesson-(\d+)$/)?.[1] || 0);
   if (lessonNumber >= 13 && !hasModuleOneExamPassed(progress)) return false;
   if (lessonNumber >= 6) {
@@ -1129,7 +1131,7 @@ function isLessonUnlocked(lesson, progress) {
       || (progress.completedLessons || []).some((id) => Number(String(id).match(/^lesson-(\d+)$/)?.[1] || 0) >= 6);
     if (!isStaff && !passedCurrentQuiz && !alreadyBeyondLessonFive) return false;
   }
-  if (OPEN_LESSON_ACCESS_DURING_BUILD) {
+  if (window.xenophonOpenLessonAccess) {
     return true;
   }
 
@@ -1146,6 +1148,11 @@ function isLessonUnlocked(lesson, progress) {
   const previousLesson = COURSE_LESSONS[lessonIndex - 1];
   return isLessonComplete(progress, previousLesson.id) || hasLessonQuizPassed(progress, previousLesson.id);
 }
+
+window.xenophonIsLessonUnlocked = (slug, progress = readSession()?.progress || {}) => {
+  const lesson = COURSE_LESSONS.find(item => item.id === slug);
+  return lesson ? isLessonUnlocked(lesson, progress) : false;
+};
 
 function getLessonActionLabel(lesson, status, progress) {
   if (lesson.id === normalizeLessonId(progress.currentLessonId)) {
@@ -1279,16 +1286,18 @@ const ROLE_DASHBOARDS = {
     nav: [
       ["🏠", "Dashboard", "index.html"],
       ["🧑‍💼", "Users & Roles", "#"],
+      ["📝", "Reading Translations", "reading-translations.html"],
       ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
       ["📁", "Resources", "resources.html"],
       ["📓", "Notebook", "notebook.html"],
       ["✉", "Feedback", "feedback.html"],
+      ["☷", "Review Feedback", "review-feedback.html"],
       ["✏️", "Exercises", "#"],
       ["📊", "Gradebook", "#"],
-      ["🗂️", "Course Content", "#"],
-      ["⚙️", "Site Settings", "#"]
+      ["🗂️", "Course Content", "course-content.html"],
+      ["⚙️", "Site Settings", "site-settings.html"]
     ]
   },
   professor: {
@@ -1302,6 +1311,7 @@ const ROLE_DASHBOARDS = {
       ["👥", "Students", "#"],
       ["📊", "Progress", "#"],
       ["📝", "Submissions", "#"],
+      ["📝", "Reading Translations", "reading-translations.html"],
       ["Ξ", "Introduction", "course-introduction.html"],
       ["📖", "Lessons", "lessons.html"],
       ["🗺️", "Maps", "maps.html"],
@@ -4319,46 +4329,73 @@ function setFeedbackBusy(form, isBusy) {
   }
 
   submitButton.disabled = isBusy;
-  submitButton.textContent = isBusy ? "Sending..." : submitButton.dataset.readyLabel;
+  submitButton.textContent = isBusy ? "Saving…" : submitButton.dataset.readyLabel;
 }
 
 async function submitFeedbackForm(event) {
   event.preventDefault();
-
   const form = event.currentTarget;
-  if (!form.reportValidity()) {
+  if (form.dataset.saving === "true" || !form.reportValidity()) return;
+  const session = readSession();
+  if (!session?.email || session.professorPreview) {
+    setFeedbackStatus("Sign in with your own account to save feedback.", "error");
     return;
   }
-
-  const formData = new FormData(form);
-  if (!formData.get("form-name")) {
-    formData.set("form-name", form.getAttribute("name") || "course-feedback");
-  }
-
-  setFeedbackStatus("Sending feedback...");
+  const values = Object.fromEntries(new FormData(form));
+  form.dataset.saving = "true";
+  setFeedbackStatus("Saving feedback…");
   setFeedbackBusy(form, true);
-
   try {
-    const response = await fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString()
+    const response = await fetch("/api/course-feedback", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "submit", accountEmail: session.email,
+        password: window.xenophonAuth.readVisiblePassword(session.email),
+        name: values.name, email: values.email, kind: values.kind, page: values.page,
+        message: values.message, submissionId: form.dataset.submissionId })
     });
-
-    if (!response.ok) {
-      throw new Error("Feedback request failed");
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.error || "Feedback could not be saved.");
+    form.elements.message.value = "";
+    form.dataset.submissionId = crypto.randomUUID();
+    setFeedbackStatus("Feedback saved. Thank you.", "success");
+    const destination = form.dataset.returnUrl;
+    if (destination) {
+      window.sessionStorage.setItem("learn-greek-feedback-return", JSON.stringify({
+        url: destination, scrollY: Number(form.dataset.returnScroll || 0)
+      }));
+      window.location.assign(destination);
     }
-
-    setFeedbackStatus("Feedback sent. Thank you.", "success");
-    window.location.href = form.getAttribute("action") || "feedback-thanks.html";
   } catch (error) {
-    console.error("Unable to send feedback", error);
-    setFeedbackStatus(
-      "The feedback form could not be sent. Please email tpalston@email.sc.edu with the subject Feedback from Greek with Xenophon.",
-      "error"
-    );
+    setFeedbackStatus(`${error.message} Your message is still here; please try again.`, "error");
+  } finally {
+    form.dataset.saving = "false";
     setFeedbackBusy(form, false);
   }
+}
+
+function initializeFeedbackForm(session) {
+  if (!feedbackFormEl) return;
+  feedbackFormEl.elements.name.value = session?.name || "";
+  feedbackFormEl.elements.email.value = session?.email || "";
+  let source = new URLSearchParams(window.location.search).get("from");
+  if (!source && document.referrer) {
+    const previous = new URL(document.referrer);
+    if (previous.origin === window.location.origin && !previous.pathname.endsWith("/feedback.html")) {
+      source = previous.pathname + previous.search + previous.hash;
+    }
+  }
+  let returnUrl = "";
+  try {
+    const url = new URL(source || "", window.location.origin);
+    if (source && url.origin === window.location.origin && !url.pathname.endsWith("/feedback.html")) {
+      returnUrl = url.pathname + url.search + url.hash;
+    }
+  } catch { /* An invalid source remains editable as location text. */ }
+  feedbackFormEl.dataset.returnUrl = returnUrl;
+  const scroll = Number(new URLSearchParams(window.location.search).get("scroll") || 0);
+  feedbackFormEl.dataset.returnScroll = String(Number.isFinite(scroll) && scroll >= 0 ? scroll : 0);
+  feedbackFormEl.elements.page.value = source || "";
+  feedbackFormEl.dataset.submissionId = crypto.randomUUID();
 }
 
 function checkCourseIntroGreekPractice() {
@@ -4427,7 +4464,9 @@ function renderNav(roleConfig, session = readSession()) {
 
   const renderNavLink = ({ icon, label, href, action, index }) => {
     const link = document.createElement("a");
-    link.href = href || "#";
+    link.href = href === "feedback.html" && currentPage !== "feedback.html"
+      ? `feedback.html?from=${encodeURIComponent(window.location.pathname + window.location.search + window.location.hash)}`
+      : href || "#";
     link.title = label;
     if (action) {
       link.dataset.navAction = action;
@@ -4722,6 +4761,7 @@ function renderProfessorDashboard(data = activeProfessorDashboardData, state = {
                   <td>
                     <div class="prof-actions">
                       <a href="#" data-view-student-dashboard="${student.email}">Dashboard</a>
+                      <a href="reading-translations.html?student=${encodeURIComponent(student.email)}">Translations</a>
                     </div>
                   </td>
                 </tr>
@@ -4828,6 +4868,11 @@ professorDashboardEl?.addEventListener("click", (event) => {
   showDashboard(saveSession(previewSession));
 });
 
+function profileLinkLabel(session, complete = false) {
+  const role = session?.professorPreview ? 'Student' : ROLE_LABELS[session?.activeRole] || 'Student';
+  return `${complete ? 'Complete ' : ''}${role} Profile →`;
+}
+
 function showDashboard(session) {
   const roleConfig = ROLE_DASHBOARDS[session.activeRole] || ROLE_DASHBOARDS.student;
 
@@ -4858,7 +4903,7 @@ function showDashboard(session) {
   }
 
   if (profileLinkEl) {
-    profileLinkEl.textContent = "View Profile →";
+    profileLinkEl.textContent = profileLinkLabel(session);
   }
 
   renderProfileCard(session);
@@ -4904,19 +4949,17 @@ function renderProfileCard(session = readSession()) {
       (session.professorPreview
         ? "Professor preview · Student progress"
         : `${ROLE_LABELS[session.activeRole]} view · ${assignedRoles}`);
-    profileLinkEl.textContent = session.professorPreview
-      ? "View Student Profile →"
-      : hasProfile ? "View Profile →" : "Complete Profile →";
+    profileLinkEl.textContent = profileLinkLabel(session, !hasProfile);
   } else if (hasProfile) {
     profileNameEl.textContent = profile.name || "Student Profile";
     profileSummaryEl.textContent =
       profile.summary || "Your dashboard profile is ready to review.";
-    profileLinkEl.textContent = "View Profile →";
+    profileLinkEl.textContent = profileLinkLabel(session);
   } else {
     profileNameEl.textContent = "Student Profile";
     profileSummaryEl.textContent =
       "Your name, photo, and learner details will appear here after profile completion.";
-    profileLinkEl.textContent = "Complete Profile →";
+    profileLinkEl.textContent = profileLinkLabel(session, true);
   }
 
   if (session?.email && window.profileStore.loadRemoteProfile) {
@@ -4934,7 +4977,7 @@ function renderProfileCard(session = readSession()) {
             pageLessonContext ||
             remoteProfile.summary ||
             (session.professorPreview ? "Professor preview · Student progress" : profileSummaryEl.textContent);
-          profileLinkEl.textContent = session.professorPreview ? "View Student Profile →" : "View Profile →";
+          profileLinkEl.textContent = profileLinkLabel(readSession() || session);
         }
       })
       .catch(() => {
@@ -5298,6 +5341,7 @@ if (new URLSearchParams(window.location.search).has("login")) {
 }
 
 const savedSession = readSession();
+initializeFeedbackForm(savedSession);
 const isPublicModulePage = document.body.classList.contains("module-page");
 if (savedSession?.activeRole) {
   showDashboard(savedSession);
@@ -5319,3 +5363,36 @@ bindExerciseChecks();
 bindSidebarToggle();
 renderLiveCourseTitle();
 applyGreekTextStyling();
+
+// Capture the current page and position at the moment Feedback is clicked.
+document.addEventListener("click", (event) => {
+  const link = event.target.closest("a[href]");
+  if (!link || window.location.pathname.endsWith("/feedback.html")) return;
+  const target = new URL(link.href, window.location.href);
+  if (target.origin !== window.location.origin || !target.pathname.endsWith("/feedback.html")) return;
+  target.searchParams.set("from", window.location.pathname + window.location.search + window.location.hash);
+  target.searchParams.set("scroll", String(window.scrollY));
+  link.href = target.href;
+});
+window.xenophonRestoreFeedbackLocation = async function () {
+  let saved;
+  try { saved = JSON.parse(window.sessionStorage.getItem("learn-greek-feedback-return") || "null"); } catch { return; }
+  const current = window.location.pathname + window.location.search + window.location.hash;
+  if (!saved || saved.url !== current) return;
+  window.sessionStorage.removeItem("learn-greek-feedback-return");
+  if (document.fonts?.ready) await document.fonts.ready;
+  requestAnimationFrame(() => window.scrollTo({top: Number(saved.scrollY) || 0, behavior:"instant"}));
+};
+window.addEventListener("load", () => {
+  if (!document.querySelector("[data-lesson-template], [data-activity-shell]")) window.xenophonRestoreFeedbackLocation();
+});
+
+document.addEventListener('site-policy-loaded', () => {
+  const session = readSession();
+  if (session) {
+    if(window.xenophonSitePolicy.course?.code)ROLE_DASHBOARDS.administrator.lines[0]=`Manage ${window.xenophonSitePolicy.course.code}.`;
+    if(session.activeRole==='administrator')setHeroMessage(ROLE_DASHBOARDS.administrator.lines);
+    renderLessonsPage(session);
+    renderDashboardView(session);
+  }
+});

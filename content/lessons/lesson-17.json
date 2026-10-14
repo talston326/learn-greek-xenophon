@@ -1,0 +1,4988 @@
+{
+  "id": "lesson-17",
+  "number": 17,
+  "title": "Must the Brave Always Stand Firm?",
+  "greekTitle": "Τί ἐστιν ἀνδρεία;",
+  "scope": "Present active participles: formation, declension, agreement, uses, and simultaneous action",
+  "theme": "Socrates tests a battlefield example of courage",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-17-banner.png",
+    "alt": "Educational reconstruction of Socrates discussing courage with Laches and Nicias",
+    "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-17-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-17-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-17-page-3",
+      "title": "Courage Beyond the Battle Line",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Courage and judgment",
+      "items": [
+        {
+          "greek": "ἡ ἀνδρεία",
+          "english": "courage",
+          "dictionaryForm": "ἀνδρεία, ἀνδρείας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἀνδρεία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀνδρεῖος",
+          "english": "brave",
+          "dictionaryForm": "ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον",
+          "status": "required vocabulary",
+          "lemma": "ἀνδρεῖος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δειλός",
+          "english": "cowardly",
+          "dictionaryForm": "δειλός, δειλή, δειλόν",
+          "status": "required vocabulary",
+          "lemma": "δειλός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ καρτερία",
+          "english": "endurance",
+          "dictionaryForm": "καρτερία, καρτερίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "καρτερία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ φρόνησις",
+          "english": "judgment",
+          "dictionaryForm": "φρόνησις, φρονήσεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "φρόνησις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καλός",
+          "english": "good, noble",
+          "dictionaryForm": "καλός, καλή, καλόν",
+          "status": "required vocabulary",
+          "lemma": "καλός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κοινός",
+          "english": "shared, common",
+          "dictionaryForm": "κοινός, κοινή, κοινόν",
+          "status": "required vocabulary",
+          "lemma": "κοινός",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Actions and inquiry",
+      "items": [
+        {
+          "greek": "μένω",
+          "english": "remain",
+          "dictionaryForm": "μένω",
+          "status": "required vocabulary",
+          "lemma": "μένω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φεύγω",
+          "english": "flee",
+          "dictionaryForm": "φεύγω",
+          "status": "required vocabulary",
+          "lemma": "φεύγω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "διώκω",
+          "english": "pursue",
+          "dictionaryForm": "διώκω",
+          "status": "required vocabulary",
+          "lemma": "διώκω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὑποχωρέω",
+          "english": "retreat",
+          "dictionaryForm": "ὑποχωρέω",
+          "status": "required vocabulary",
+          "lemma": "ὑποχωρέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καρτερέω",
+          "english": "persist",
+          "dictionaryForm": "καρτερέω",
+          "status": "required vocabulary",
+          "lemma": "καρτερέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐξετάζω",
+          "english": "examine",
+          "dictionaryForm": "ἐξετάζω",
+          "status": "required vocabulary",
+          "lemma": "ἐξετάζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁμολογέω",
+          "english": "agree",
+          "dictionaryForm": "ὁμολογέω",
+          "status": "required vocabulary",
+          "lemma": "ὁμολογέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ παράδειγμα",
+          "english": "example",
+          "dictionaryForm": "παράδειγμα, παραδείγματος, τό",
+          "status": "required vocabulary",
+          "lemma": "παράδειγμα",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Risks and speakers",
+      "items": [
+        {
+          "greek": "ἡ νόσος",
+          "english": "illness",
+          "dictionaryForm": "νόσος, νόσου, ἡ",
+          "status": "required vocabulary",
+          "lemma": "νόσος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πενία",
+          "english": "poverty",
+          "dictionaryForm": "πενία, πενίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "πενία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ τάξις",
+          "english": "position, battle line",
+          "dictionaryForm": "τάξις, τάξεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "τάξις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Λάχης",
+          "english": "Laches",
+          "dictionaryForm": "Λάχης, Λάχητος, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Λάχης",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Νικίας",
+          "english": "Nicias",
+          "dictionaryForm": "Νικίας, Νικίου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Νικίας",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οἱ Σκύθαι",
+          "english": "Scythians",
+          "dictionaryForm": "Σκύθαι, Σκυθῶν, οἱ",
+          "status": "reading vocabulary",
+          "lemma": "Σκύθαι",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τί ἐστιν ἀνδρεία;",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "A comparison scene interrupts Cyrus’s expedition. In Plato’s Laches, Socrates discusses courage with the generals Laches and Nicias in a conversation about education. Xenophon is not a participant or an eyewitness in this scene.",
+      "Course adaptation of Plato, Laches 190e–192d. The initial definition, fighting during retreat, courage outside battle, and the question about endurance follow the passage. All Greek dialogue below is newly simplified course wording; the frame and transitions are supplied. This selection does not solve the whole dialogue’s inquiry.",
+      "Read present active participles as descriptions of people acting at the same time as the main verb. Blue glosses support names, contracted forms, and less familiar words. The final question will matter when soldiers refuse to march and later retreat."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Σωκράτης καὶ ὁ Λάχης καὶ ὁ Νικίας περὶ ἀνδρείας διαλέγονται. ὁ Σωκράτης ἐρωτᾷ· «τί ἐστιν ἀνδρεία;» ὁ δὲ Λάχης ἀκούων σκέπτεται περὶ τῶν ἐν τῇ μάχῃ στρατιωτῶν.",
+        "gloss": [
+          {
+            "greek": "Ὁ Σωκράτης",
+            "english": "Socrates"
+          },
+          {
+            "greek": "ὁ Λάχης",
+            "english": "Laches"
+          },
+          {
+            "greek": "ὁ Νικίας",
+            "english": "Nicias"
+          },
+          {
+            "greek": "περὶ ἀνδρείας",
+            "english": "about courage"
+          },
+          {
+            "greek": "διαλέγονται",
+            "english": "discuss; present middle"
+          },
+          {
+            "greek": "ἐρωτᾷ",
+            "english": "asks; contracted present"
+          },
+          {
+            "greek": "ἀκούων",
+            "english": "listening; masculine nominative singular participle"
+          },
+          {
+            "greek": "τῶν ἐν τῇ μάχῃ στρατιωτῶν",
+            "english": "the soldiers in battle"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Λάχης λέγει· «ὁ ἐν τῇ τάξει μένων καὶ πρὸς τοὺς πολεμίους μαχόμενος ἀνδρεῖός ἐστιν. οὗτος οὐ φεύγει, ἀλλὰ τοὺς φίλους σῴζει.» ὁ Σωκράτης τὸν λέγοντα βλέπει.",
+        "gloss": [
+          {
+            "greek": "ἐν τῇ τάξει",
+            "english": "in his position in the battle line"
+          },
+          {
+            "greek": "μένων",
+            "english": "remaining; active participle"
+          },
+          {
+            "greek": "μαχόμενος",
+            "english": "fighting; middle participle"
+          },
+          {
+            "greek": "ἀνδρεῖός",
+            "english": "brave; extra accent before enclitic"
+          },
+          {
+            "greek": "σῴζει",
+            "english": "saves"
+          },
+          {
+            "greek": "τὸν λέγοντα",
+            "english": "the speaker; accusative substantival participle"
+          },
+          {
+            "greek": "βλέπει",
+            "english": "watches"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης ἐρωτᾷ· «τί δὲ οἱ φεύγοντες; οἱ Σκύθαι καὶ φεύγοντες καὶ διώκοντες μάχονται. οἱ ὑποχωροῦντες ἱππεῖς οὐ πάντες δειλοί εἰσιν.» ὁ Λάχης περὶ τῶν ἱππέων ὁμολογεῖ.",
+        "gloss": [
+          {
+            "greek": "οἱ φεύγοντες",
+            "english": "those fleeing; nominative plural"
+          },
+          {
+            "greek": "οἱ Σκύθαι",
+            "english": "the Scythians"
+          },
+          {
+            "greek": "διώκοντες",
+            "english": "pursuing; nominative plural"
+          },
+          {
+            "greek": "μάχονται",
+            "english": "fight; present middle"
+          },
+          {
+            "greek": "ὑποχωροῦντες",
+            "english": "retreating; contracted participle"
+          },
+          {
+            "greek": "ἱππεῖς",
+            "english": "horsemen"
+          },
+          {
+            "greek": "δειλοί",
+            "english": "cowardly"
+          },
+          {
+            "greek": "ὁμολογεῖ",
+            "english": "agrees"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης καὶ περὶ τῶν Λακεδαιμονίων λέγει· «οἱ ὑποχωροῦντες στρατιῶται πάλιν μάχονται.» ὁ Λάχης τὸ παράδειγμα δέχεται. οὐ γὰρ μόνον οἱ μένοντες, ἀλλὰ καὶ οἱ ὑποχωροῦντες ἀνδρεῖοι φαίνονται.",
+        "gloss": [
+          {
+            "greek": "τῶν Λακεδαιμονίων",
+            "english": "the Spartans"
+          },
+          {
+            "greek": "πάλιν",
+            "english": "again"
+          },
+          {
+            "greek": "τὸ παράδειγμα",
+            "english": "the example"
+          },
+          {
+            "greek": "δέχεται",
+            "english": "accepts; deponent"
+          },
+          {
+            "greek": "οὐ γὰρ μόνον",
+            "english": "for not only"
+          },
+          {
+            "greek": "οἱ μένοντες",
+            "english": "those remaining"
+          },
+          {
+            "greek": "φαίνονται",
+            "english": "appear; middle forms"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης οὐ μόνον περὶ πολέμου ἐρωτᾷ. «ὁ τὴν νόσον φέρων καὶ ὁ ἐν πενίᾳ μένων καὶ ὁ ἐν τῇ πόλει λέγων πολλάκις κινδύνους ἔχει. τί κοινὸν ἔχουσιν οἱ ἀνδρεῖοι;»",
+        "gloss": [
+          {
+            "greek": "περὶ πολέμου",
+            "english": "about war"
+          },
+          {
+            "greek": "τὴν νόσον φέρων",
+            "english": "bearing illness"
+          },
+          {
+            "greek": "ἐν πενίᾳ",
+            "english": "in poverty"
+          },
+          {
+            "greek": "ἐν τῇ πόλει λέγων",
+            "english": "speaking in civic affairs"
+          },
+          {
+            "greek": "πολλάκις",
+            "english": "often"
+          },
+          {
+            "greek": "κινδύνους",
+            "english": "dangers"
+          },
+          {
+            "greek": "τί κοινὸν",
+            "english": "what in common"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Λάχης πάλιν λέγει· «ἡ ἀνδρεία καρτερία τις.» ὁ Σωκράτης ἐρωτᾷ· «πᾶσα καρτερία καλή ἐστιν; ἡ μετὰ φρονήσεως καρτερία καλή ἐστιν· ἡ δὲ ἄνευ φρονήσεως;» οἱ ἀκούοντες τὴν ἐρώτησιν σκέπτονται.",
+        "gloss": [
+          {
+            "greek": "καρτερία τις",
+            "english": "a kind of endurance; indefinite enclitic τις"
+          },
+          {
+            "greek": "πᾶσα",
+            "english": "all, every"
+          },
+          {
+            "greek": "μετὰ φρονήσεως",
+            "english": "with judgment"
+          },
+          {
+            "greek": "ἄνευ φρονήσεως",
+            "english": "without judgment"
+          },
+          {
+            "greek": "οἱ ἀκούοντες",
+            "english": "the listeners"
+          },
+          {
+            "greek": "τὴν ἐρώτησιν",
+            "english": "the question"
+          },
+          {
+            "greek": "σκέπτονται",
+            "english": "consider; present middle"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ λόγος ἔτι προχωρεῖ· οἱ διαλεγόμενοι οὐ παύονται ζητοῦντες. ὁ μὲν Λάχης τὸν ἐν τῇ τάξει μένοντα θαυμάζει, ὁ δὲ Σωκράτης καὶ τὴν γνώμην ἐξετάζει. ἆρα ὁ καρτερῶν ἀεὶ ὀρθῶς πράττει;",
+        "gloss": [
+          {
+            "greek": "προχωρεῖ",
+            "english": "proceeds"
+          },
+          {
+            "greek": "οἱ διαλεγόμενοι",
+            "english": "those conversing; middle participle"
+          },
+          {
+            "greek": "οὐ παύονται ζητοῦντες",
+            "english": "do not stop investigating; supported construction"
+          },
+          {
+            "greek": "τὸν ἐν τῇ τάξει μένοντα",
+            "english": "the man remaining in position"
+          },
+          {
+            "greek": "ἐξετάζει",
+            "english": "examines"
+          },
+          {
+            "greek": "ἆρα",
+            "english": "question marker"
+          },
+          {
+            "greek": "καρτερῶν",
+            "english": "persisting; contracted active participle"
+          },
+          {
+            "greek": "ὀρθῶς πράττει",
+            "english": "acts rightly"
+          }
+        ]
+      }
+    ],
+    "translation": "Socrates, Laches, and Nicias discuss courage. Socrates asks, “What is courage?” Laches listens and considers the soldiers in battle.\n\nLaches says, “The man remaining in his position and fighting against the enemies is brave. He does not flee but saves his friends.” Socrates watches the speaker.\n\nSocrates asks, “And what of those fleeing? The Scythians fight both while fleeing and while pursuing. The retreating horsemen are not all cowardly.” Laches agrees about the horsemen.\n\nSocrates also speaks about the Spartans: “The retreating soldiers fight again.” Laches accepts the example. For not only those remaining but also those retreating appear brave.\n\nSocrates does not ask only about war. “The person bearing illness, the person living in poverty, and the person speaking in the city often face dangers. What do brave people have in common?”\n\nLaches speaks again: “Courage is a kind of endurance.” Socrates asks, “Is all endurance good? Endurance with judgment is good; but what of endurance without judgment?” The listeners consider the question.\n\nThe discussion still proceeds; those conversing do not stop investigating. Laches admires the man remaining in his position, while Socrates also examines his judgment. Does the person persisting always act rightly?\n",
+    "sourceCitation": "Plato, Laches 190e–192d. Controlled course adaptation; dialogue and teaching futures are newly supplied, not verbatim quotations. https://www.platonicfoundation.org/translation/platos-laches/ https://www.gutenberg.org/ebooks/1584",
+    "notesMarkdown": "Course adaptation of Plato, Laches 190e–192d. The initial definition, fighting during retreat, courage outside battle, and the question about endurance follow the passage. All Greek dialogue below is newly simplified course wording; the frame and transitions are supplied. This selection does not solve the whole dialogue’s inquiry."
+  },
+  "wordStudy": {
+    "label": "Word Study — Courage, persistence, and judgment",
+    "blocks": [
+      {
+        "title": "Courage, persistence, and judgment",
+        "practiceTopic": "word-study",
+        "body": [
+          "ἀνδρεία names courage; ἀνδρεῖος describes a brave person. The related adjective agrees with its noun, while the abstract noun can stand as the subject of a definition. A battlefield example is a παράδειγμα, not yet a definition covering every case.",
+          "μένω means remain; καρτερέω means persist, and καρτερία is endurance. These words overlap in a scene but are not interchangeable: μένω describes staying, while καρτερέω emphasizes bearing difficulty. φρόνησις adds judgment to the discussion.",
+          "Compare φεύγω, flee, διώκω, pursue, and ὑποχωρέω, retreat. The participles identify what a person is doing. The ethical question concerns the purpose and judgment of that action, rather than a rule that a single movement always proves courage."
+        ],
+        "display": [
+          {
+            "greek": "ἀνδρεία",
+            "english": "courage"
+          },
+          {
+            "greek": "καρτερία",
+            "english": "endurance"
+          },
+          {
+            "greek": "φρόνησις",
+            "english": "judgment"
+          },
+          {
+            "greek": "μένων",
+            "english": "remaining"
+          },
+          {
+            "greek": "φεύγων",
+            "english": "fleeing"
+          },
+          {
+            "greek": "διώκων",
+            "english": "pursuing"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Present active participles: formation, declension, agreement, uses, and simultaneous action. Work through every section, read its examples and table, then practice by topic before the required grammar check. Supplementary examples are labeled and do not add incidents to the historical reading.",
+    "objectives": [
+      "Explain and apply Forming Present Active Participles.",
+      "Explain and apply Declining -ων, -ουσα, -ον.",
+      "Explain and apply Finding the Person Described.",
+      "Explain and apply Describing, Naming, and Adding Circumstances.",
+      "Explain and apply Ongoing Action with a Main Verb."
+    ],
+    "sections": [
+      {
+        "id": "active-formation",
+        "title": "1. Forming Present Active Participles",
+        "practiceTopic": "active-formation",
+        "body": [
+          "A present active participle describes someone or something engaged in an action. Start with the present stem: λυ- in λύω. Masculine nominative singular is λύων, feminine λύουσα, neuter λῦον. The three gender forms belong to one participle, not three finite verbs.",
+          "The underlying masculine/neuter stem is λυοντ-. Feminine forms use λυουσ- and first-declension endings. From μένω form μένων, μένουσα, μένον; from φεύγω form φεύγων, φεύγουσα, φεῦγον. Contraction produces ὑποχωρῶν, ὑποχωροῦσα, ὑποχωροῦν.",
+          "Recognize the gender form before translating. λέγων means speaking (masculine singular), not “he speaks”: the finite form is λέγει. Supplementary feminine and neuter examples teach the complete pattern without inventing participants in Plato’s scene."
+        ],
+        "table": {
+          "title": "1. Forming Present Active Participles",
+          "headers": [
+            "Verb",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "λύω",
+              "λύων",
+              "λύουσα",
+              "λῦον"
+            ],
+            [
+              "μένω",
+              "μένων",
+              "μένουσα",
+              "μένον"
+            ],
+            [
+              "φεύγω",
+              "φεύγων",
+              "φεύγουσα",
+              "φεῦγον"
+            ],
+            [
+              "ὑποχωρέω",
+              "ὑποχωρῶν",
+              "ὑποχωροῦσα",
+              "ὑποχωροῦν"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ Λάχης ἀκούων σκέπτεται.",
+            "english": "Laches considers while listening."
+          },
+          {
+            "greek": "ἡ γυνὴ λέγουσα μένει.",
+            "english": "The woman remains while speaking (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is feminine nominative singular of μένω’s present participle?",
+            "answer": "μένουσα. The feminine nominative singular uses -ουσα."
+          },
+          {
+            "prompt": "Which is neuter nominative singular of λύω’s participle?",
+            "answer": "λῦον. The neuter singular is λῦον."
+          }
+        ]
+      },
+      {
+        "id": "active-declension",
+        "title": "2. Declining -ων, -ουσα, -ον",
+        "practiceTopic": "active-declension",
+        "body": [
+          "The masculine and neuter use third-declension endings on an -οντ- stem. In λύοντος, λύοντι, λύοντα the ντ remains visible. The masculine nominative singular λύων has lost the final τ; neuter λῦον has the same form in nominative and accusative.",
+          "In the dative plural, ντ disappears before σ and the preceding vowel lengthens: λυοντ-σι becomes λύουσι(ν). This participial form can look like the finite third-person plural. The article and sentence structure distinguish τοῖς λύουσι, “to those releasing,” from λύουσι, “they release.”",
+          "The feminine declines like a first-declension noun in short α: λύουσα, λυούσης, λυούσῃ, λύουσαν. Learn the accents with the forms. The genitive and dative singular move the accent because the ending is long."
+        ],
+        "table": {
+          "title": "2. Declining -ων, -ουσα, -ον",
+          "headers": [
+            "Case",
+            "Masculine sg.",
+            "Feminine sg.",
+            "Neuter sg."
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "nominative",
+              "λύων",
+              "λύουσα",
+              "λῦον"
+            ],
+            [
+              "genitive",
+              "λύοντος",
+              "λυούσης",
+              "λύοντος"
+            ],
+            [
+              "dative",
+              "λύοντι",
+              "λυούσῃ",
+              "λύοντι"
+            ],
+            [
+              "accusative",
+              "λύοντα",
+              "λύουσαν",
+              "λῦον"
+            ],
+            [
+              "nominative plural",
+              "λύοντες",
+              "λύουσαι",
+              "λύοντα"
+            ],
+            [
+              "genitive plural",
+              "λυόντων",
+              "λυουσῶν",
+              "λυόντων"
+            ],
+            [
+              "dative plural",
+              "λύουσι(ν)",
+              "λυούσαις",
+              "λύουσι(ν)"
+            ],
+            [
+              "accusative plural",
+              "λύοντας",
+              "λυούσας",
+              "λύοντα"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ Σωκράτης τὸν λέγοντα βλέπει.",
+            "english": "Socrates watches the speaker."
+          },
+          {
+            "greek": "τῶν μενόντων ἡ γνώμη καλή ἐστιν.",
+            "english": "The judgment of those remaining is good (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What case is λέγοντος?",
+            "answer": "genitive singular. -οντος is genitive singular."
+          },
+          {
+            "prompt": "Which is masculine accusative singular?",
+            "answer": "λέγοντα. The masculine accusative singular ends in -οντα."
+          }
+        ]
+      },
+      {
+        "id": "active-agreement",
+        "title": "3. Finding the Person Described",
+        "practiceTopic": "active-agreement",
+        "body": [
+          "Participles agree in gender, number, and case with the noun or pronoun they describe. In οἱ ὑποχωροῦντες ἱππεῖς, article, participle, and noun are masculine nominative plural. All identify the retreating horsemen as the subject.",
+          "Agreement is grammatical rather than a word-order rule. In ὁ Λάχης ἀκούων σκέπτεται, ἀκούων belongs to Laches even though the main verb follows it. In τὸν λέγοντα the article shows masculine accusative singular, identifying the object of watching.",
+          "Do not attach every nearby participle to the closest name. Read its ending and compare possible nouns. Supplementary ἡ γυνὴ λέγουσα and τὰ παιδία παίζοντα show feminine singular and neuter plural agreement."
+        ],
+        "table": {
+          "title": "3. Finding the Person Described",
+          "headers": [
+            "Phrase",
+            "Agreement",
+            "Person or thing"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "ὁ Λάχης ἀκούων",
+              "masculine nominative singular",
+              "Laches"
+            ],
+            [
+              "οἱ φεύγοντες ἱππεῖς",
+              "masculine nominative plural",
+              "horsemen"
+            ],
+            [
+              "τὸν λέγοντα",
+              "masculine accusative singular",
+              "the speaker as object"
+            ],
+            [
+              "ἡ γυνὴ λέγουσα",
+              "feminine nominative singular",
+              "the woman"
+            ],
+            [
+              "τὰ παιδία παίζοντα",
+              "neuter nominative/accusative plural",
+              "the children"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ ἀκούοντες τὴν ἐρώτησιν σκέπτονται.",
+            "english": "The listeners consider the question."
+          },
+          {
+            "greek": "ὁ Σωκράτης τὸν μένοντα βλέπει.",
+            "english": "Socrates sees the man remaining (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who is listening in ὁ Λάχης ἀκούων σκέπτεται?",
+            "answer": "Laches. ἀκούων agrees with masculine singular Λάχης."
+          },
+          {
+            "prompt": "Which completes οἱ ___ ἱππεῖς?",
+            "answer": "φεύγοντες. The masculine nominative plural agrees with ἱππεῖς."
+          }
+        ]
+      },
+      {
+        "id": "active-uses",
+        "title": "4. Describing, Naming, and Adding Circumstances",
+        "practiceTopic": "active-uses",
+        "body": [
+          "An attributive participle stands with the article and noun: οἱ ὑποχωροῦντες ἱππεῖς, “the retreating horsemen.” It limits which horsemen are meant, like an adjective. A second attributive position is οἱ ἱππεῖς οἱ ὑποχωροῦντες.",
+          "A substantival participle uses an article with no expressed noun: οἱ φεύγοντες, “those fleeing”; τὸν λέγοντα, “the speaker.” Supply “person” or “people” as needed. The ending still carries gender, number, and case.",
+          "A simple circumstantial participle adds an accompanying action: ἀκούων σκέπτεται, “while listening, he considers.” Unlike an attributive phrase it does not specify a separate group. Contrast active ἀκούων with middle μαχόμενος or διαλεγόμενοι from Lesson 15: both decline and agree, but the voice forms differ."
+        ],
+        "table": {
+          "title": "4. Describing, Naming, and Adding Circumstances",
+          "headers": [
+            "Use",
+            "Greek example",
+            "Translation"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "attributive",
+              "οἱ ὑποχωροῦντες ἱππεῖς",
+              "the retreating horsemen"
+            ],
+            [
+              "substantival",
+              "οἱ φεύγοντες",
+              "those fleeing"
+            ],
+            [
+              "circumstantial",
+              "ἀκούων σκέπτεται",
+              "he considers while listening"
+            ],
+            [
+              "middle contrast",
+              "οἱ μαχόμενοι",
+              "those fighting"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ τὴν νόσον φέρων κινδύνους ἔχει.",
+            "english": "The person bearing illness faces dangers."
+          },
+          {
+            "greek": "ὁ Λάχης λέγων τὸ παράδειγμα δηλοῖ.",
+            "english": "Laches explains the example while speaking (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What use is οἱ φεύγοντες without an expressed noun?",
+            "answer": "substantival. The article makes the participle name the people."
+          },
+          {
+            "prompt": "What use is οἱ ὑποχωροῦντες ἱππεῖς?",
+            "answer": "attributive. The participle specifies which horsemen."
+          }
+        ]
+      },
+      {
+        "id": "active-simultaneous",
+        "title": "5. Ongoing Action with a Main Verb",
+        "practiceTopic": "active-simultaneous",
+        "body": [
+          "The present participle presents an action as ongoing, normally simultaneous with the main verb in these simple examples. ἀκούων σκέπτεται combines listening and considering in one scene. It does not report one completed action followed by another.",
+          "The participle does not independently identify the time of the whole sentence. Our main verbs are present, so “while listening, he considers” is a natural translation. Later lessons will combine present participles with past main verbs; that does not change the participle’s ongoing aspect.",
+          "Distinguish syntax from moral inference. φεύγοντες μάχονται says that the people fight while fleeing. It does not prove that every flight is brave. The question whether καρτερία requires judgment remains open as this selection closes."
+        ],
+        "table": {
+          "title": "5. Ongoing Action with a Main Verb",
+          "headers": [
+            "Clause",
+            "Main verb",
+            "Participial action"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "ἀκούων σκέπτεται",
+              "σκέπτεται: considers",
+              "listening at the same time"
+            ],
+            [
+              "φεύγοντες μάχονται",
+              "μάχονται: fight",
+              "fleeing at the same time"
+            ],
+            [
+              "λέγων ἐρωτᾷ",
+              "ἐρωτᾷ: asks",
+              "speaking at the same time"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ Σκύθαι φεύγοντες μάχονται.",
+            "english": "The Scythians fight while fleeing."
+          },
+          {
+            "greek": "ὁ Σωκράτης λέγων ἐρωτᾷ.",
+            "english": "Socrates asks while speaking (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What is the finite verb in ἀκούων σκέπτεται?",
+            "answer": "σκέπτεται. σκέπτεται supplies person and the finite assertion."
+          },
+          {
+            "prompt": "When does listening occur in ἀκούων σκέπτεται?",
+            "answer": "while he considers. The present participle adds simultaneous ongoing action."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Forming Present Active Participles: A present active participle describes someone or something engaged in an action. Start with the present stem: λυ- in λύω. Masculine nominative singular is λύων, feminine λύουσα, neuter λῦον. The three gender forms belong to one participle, not three finite verbs.",
+        "Declining -ων, -ουσα, -ον: The masculine and neuter use third-declension endings on an -οντ- stem. In λύοντος, λύοντι, λύοντα the ντ remains visible. The masculine nominative singular λύων has lost the final τ; neuter λῦον has the same form in nominative and accusative.",
+        "Finding the Person Described: Participles agree in gender, number, and case with the noun or pronoun they describe. In οἱ ὑποχωροῦντες ἱππεῖς, article, participle, and noun are masculine nominative plural. All identify the retreating horsemen as the subject.",
+        "Describing, Naming, and Adding Circumstances: An attributive participle stands with the article and noun: οἱ ὑποχωροῦντες ἱππεῖς, “the retreating horsemen.” It limits which horsemen are meant, like an adjective. A second attributive position is οἱ ἱππεῖς οἱ ὑποχωροῦντες.",
+        "Ongoing Action with a Main Verb: The present participle presents an action as ongoing, normally simultaneous with the main verb in these simple examples. ἀκούων σκέπτεται combines listening and considering in one scene. It does not report one completed action followed by another."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Courage Beyond the Battle Line",
+    "banner": {
+      "image": "assets/lesson-17-banner.png",
+      "alt": "Educational reconstruction of Socrates discussing courage with Laches and Nicias",
+      "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "An example is not a complete definition",
+        "body": [
+          "Plato frames this discussion around the education of young men and the value of military training. Laches and Nicias have military standing, while Socrates tests what their claims actually cover. The selection begins with Laches’s familiar soldier who holds his place. That is intelligible as an example of courage, but an example need not include every courageous act.",
+          "Socrates does not simply declare the example false. He accepts that such a soldier can be brave and asks whether courage also appears elsewhere. This is a model of critical inquiry: a counterexample tests the breadth of a claim. The course frame places the three named speakers in Plato’s conversation; it does not insert Xenophon into the cast."
+        ]
+      },
+      {
+        "title": "Retreat and the purpose of movement",
+        "body": [
+          "At Laches 191a–c Socrates mentions Scythian horsemen and a reported Spartan maneuver at Plataea. Fighting during withdrawal or turning after retreat challenges the claim that staying physically still is necessary for courage. The reading summarizes those examples in present Greek instead of reproducing Plato’s complex narrative.",
+          "This tactical comparison matters to Cyrus’s expedition because movement away from danger will later be unavoidable. It does not mean any retreat is wise. The source offers cases to examine, and the learner must ask what a movement accomplishes, who benefits, and whether the people making it have good reasons."
+        ]
+      },
+      {
+        "title": "Endurance and judgment",
+        "body": [
+          "At 191d Socrates extends the inquiry to danger at sea, illness, poverty, and civic affairs, as well as fears and desires. The lesson selects illness, poverty, and public speaking to keep the Greek manageable. Courage becomes a question about facing difficulty across several parts of life.",
+          "Laches’s next proposal makes courage a kind of endurance. By 192d Socrates is distinguishing endurance with judgment from endurance without it. The dialogue continues beyond this excerpt. Our closing question invites comparison with leaders and soldiers; it does not announce a definition that Plato’s whole discussion has conclusively established."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Why is Laches’s first example insufficient as a definition?",
+        "answer": "It may identify a brave soldier without covering brave actions in other circumstances."
+      },
+      {
+        "prompt": "Does Socrates say that every retreat is courageous?",
+        "answer": "No. His examples show that staying still is not a necessary condition; context and judgment remain relevant."
+      },
+      {
+        "prompt": "Why include illness and poverty?",
+        "answer": "They broaden the inquiry beyond military action, as Plato does at 191d."
+      },
+      {
+        "prompt": "Is Xenophon present in the reading?",
+        "answer": "No. This is a separate adapted scene from Plato, not an expedition conversation."
+      },
+      {
+        "prompt": "Does the excerpt resolve the dialogue?",
+        "answer": "No. It ends with a question about endurance and judgment."
+      },
+      {
+        "prompt": "How might the discussion affect a judgment about refusing orders?",
+        "answer": "It encourages examining reasons and consequences instead of treating persistence or obedience alone as proof of courage."
+      },
+      {
+        "prompt": "Which leadership decision in this lesson needs reasons beyond personal bravery?",
+        "answer": "Remaining or retreating needs a judgment about what the movement accomplishes."
+      },
+      {
+        "prompt": "How can the reading’s source boundary improve your interpretation?",
+        "answer": "Distinguish the author’s reported events and speeches from the course’s simplified wording, supplied examples, and ethical inferences."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the source and adaptation boundary: Plato, Laches 190e–192d.",
+        "Review forming present active participles using the worked examples.",
+        "Review declining -ων, -ουσα, -ον using the worked examples.",
+        "Review finding the person described using the worked examples.",
+        "Review describing, naming, and adding circumstances using the worked examples.",
+        "Review ongoing action with a main verb using the worked examples.",
+        "Why is Laches’s first example insufficient as a definition? It may identify a brave soldier without covering brave actions in other circumstances.",
+        "Does Socrates say that every retreat is courageous? No. His examples show that staying still is not a necessary condition; context and judgment remain relevant.",
+        "Why include illness and poverty? They broaden the inquiry beyond military action, as Plato does at 191d."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Plato, Laches 190e–192d; English translation by David Horan",
+        "url": "https://www.platonicfoundation.org/translation/platos-laches/"
+      },
+      {
+        "title": "Plato, Laches; public-domain translation by Benjamin Jowett",
+        "url": "https://www.gutenberg.org/ebooks/1584"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 17 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ ἀνδρεία",
+          "answer": "courage — ἀνδρεία, ἀνδρείας, ἡ"
+        },
+        {
+          "prompt": "ἀνδρεῖος",
+          "answer": "brave — ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον"
+        },
+        {
+          "prompt": "δειλός",
+          "answer": "cowardly — δειλός, δειλή, δειλόν"
+        },
+        {
+          "prompt": "ἡ καρτερία",
+          "answer": "endurance — καρτερία, καρτερίας, ἡ"
+        },
+        {
+          "prompt": "ἡ φρόνησις",
+          "answer": "judgment — φρόνησις, φρονήσεως, ἡ"
+        },
+        {
+          "prompt": "καλός",
+          "answer": "good, noble — καλός, καλή, καλόν"
+        },
+        {
+          "prompt": "κοινός",
+          "answer": "shared, common — κοινός, κοινή, κοινόν"
+        },
+        {
+          "prompt": "μένω",
+          "answer": "remain — μένω"
+        },
+        {
+          "prompt": "φεύγω",
+          "answer": "flee — φεύγω"
+        },
+        {
+          "prompt": "διώκω",
+          "answer": "pursue — διώκω"
+        },
+        {
+          "prompt": "ὑποχωρέω",
+          "answer": "retreat — ὑποχωρέω"
+        },
+        {
+          "prompt": "καρτερέω",
+          "answer": "persist — καρτερέω"
+        },
+        {
+          "prompt": "ἐξετάζω",
+          "answer": "examine — ἐξετάζω"
+        },
+        {
+          "prompt": "ὁμολογέω",
+          "answer": "agree — ὁμολογέω"
+        },
+        {
+          "prompt": "τὸ παράδειγμα",
+          "answer": "example — παράδειγμα, παραδείγματος, τό"
+        },
+        {
+          "prompt": "ἡ νόσος",
+          "answer": "illness — νόσος, νόσου, ἡ"
+        },
+        {
+          "prompt": "ἡ πενία",
+          "answer": "poverty — πενία, πενίας, ἡ"
+        },
+        {
+          "prompt": "ἡ τάξις",
+          "answer": "position, battle line — τάξις, τάξεως, ἡ"
+        },
+        {
+          "prompt": "ὁ Λάχης",
+          "answer": "Laches — Λάχης, Λάχητος, ὁ (reading vocabulary)"
+        },
+        {
+          "prompt": "ὁ Νικίας",
+          "answer": "Nicias — Νικίας, Νικίου, ὁ (reading vocabulary)"
+        },
+        {
+          "prompt": "οἱ Σκύθαι",
+          "answer": "Scythians — Σκύθαι, Σκυθῶν, οἱ (reading vocabulary)"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 17 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Each required word has meaning and Greek-entry practice. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-17-vocab-001",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ἀνδρεία mean?",
+          "choices": [
+            {
+              "text": "courage",
+              "correct": true,
+              "feedback": "Correct. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            },
+            {
+              "text": "brave",
+              "correct": false,
+              "feedback": "“brave” does not answer this question. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "“judgment” does not answer this question. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-002",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “courage”?",
+          "choices": [
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. ἡ ἀνδρεία is the entry for courage."
+            },
+            {
+              "text": "ἡ ἀνδρεία",
+              "correct": true,
+              "feedback": "Correct. ἡ ἀνδρεία is the entry for courage."
+            },
+            {
+              "text": "ἀνδρεῖος",
+              "correct": false,
+              "feedback": "“ἀνδρεῖος” does not answer this question. ἡ ἀνδρεία is the entry for courage."
+            },
+            {
+              "text": "ἡ φρόνησις",
+              "correct": false,
+              "feedback": "“ἡ φρόνησις” does not answer this question. ἡ ἀνδρεία is the entry for courage."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-003",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἀνδρεῖος mean?",
+          "choices": [
+            {
+              "text": "good, noble",
+              "correct": false,
+              "feedback": "“good, noble” does not answer this question. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            },
+            {
+              "text": "flee",
+              "correct": false,
+              "feedback": "“flee” does not answer this question. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            },
+            {
+              "text": "brave",
+              "correct": true,
+              "feedback": "Correct. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            },
+            {
+              "text": "cowardly",
+              "correct": false,
+              "feedback": "“cowardly” does not answer this question. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-004",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “brave”?",
+          "choices": [
+            {
+              "text": "δειλός",
+              "correct": false,
+              "feedback": "“δειλός” does not answer this question. ἀνδρεῖος is the entry for brave."
+            },
+            {
+              "text": "καλός",
+              "correct": false,
+              "feedback": "“καλός” does not answer this question. ἀνδρεῖος is the entry for brave."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "“φεύγω” does not answer this question. ἀνδρεῖος is the entry for brave."
+            },
+            {
+              "text": "ἀνδρεῖος",
+              "correct": true,
+              "feedback": "Correct. ἀνδρεῖος is the entry for brave."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-005",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry δειλός mean?",
+          "choices": [
+            {
+              "text": "cowardly",
+              "correct": true,
+              "feedback": "Correct. δειλός, δειλή, δειλόν means cowardly."
+            },
+            {
+              "text": "endurance",
+              "correct": false,
+              "feedback": "“endurance” does not answer this question. δειλός, δειλή, δειλόν means cowardly."
+            },
+            {
+              "text": "shared, common",
+              "correct": false,
+              "feedback": "“shared, common” does not answer this question. δειλός, δειλή, δειλόν means cowardly."
+            },
+            {
+              "text": "pursue",
+              "correct": false,
+              "feedback": "“pursue” does not answer this question. δειλός, δειλή, δειλόν means cowardly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-006",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “cowardly”?",
+          "choices": [
+            {
+              "text": "διώκω",
+              "correct": false,
+              "feedback": "“διώκω” does not answer this question. δειλός is the entry for cowardly."
+            },
+            {
+              "text": "δειλός",
+              "correct": true,
+              "feedback": "Correct. δειλός is the entry for cowardly."
+            },
+            {
+              "text": "ἡ καρτερία",
+              "correct": false,
+              "feedback": "“ἡ καρτερία” does not answer this question. δειλός is the entry for cowardly."
+            },
+            {
+              "text": "κοινός",
+              "correct": false,
+              "feedback": "“κοινός” does not answer this question. δειλός is the entry for cowardly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-007",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ καρτερία mean?",
+          "choices": [
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. καρτερία, καρτερίας, ἡ means endurance."
+            },
+            {
+              "text": "retreat",
+              "correct": false,
+              "feedback": "“retreat” does not answer this question. καρτερία, καρτερίας, ἡ means endurance."
+            },
+            {
+              "text": "endurance",
+              "correct": true,
+              "feedback": "Correct. καρτερία, καρτερίας, ἡ means endurance."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "“judgment” does not answer this question. καρτερία, καρτερίας, ἡ means endurance."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-008",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “endurance”?",
+          "choices": [
+            {
+              "text": "ἡ φρόνησις",
+              "correct": false,
+              "feedback": "“ἡ φρόνησις” does not answer this question. ἡ καρτερία is the entry for endurance."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. ἡ καρτερία is the entry for endurance."
+            },
+            {
+              "text": "ὑποχωρέω",
+              "correct": false,
+              "feedback": "“ὑποχωρέω” does not answer this question. ἡ καρτερία is the entry for endurance."
+            },
+            {
+              "text": "ἡ καρτερία",
+              "correct": true,
+              "feedback": "Correct. ἡ καρτερία is the entry for endurance."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ φρόνησις mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": true,
+              "feedback": "Correct. φρόνησις, φρονήσεως, ἡ means judgment."
+            },
+            {
+              "text": "good, noble",
+              "correct": false,
+              "feedback": "“good, noble” does not answer this question. φρόνησις, φρονήσεως, ἡ means judgment."
+            },
+            {
+              "text": "flee",
+              "correct": false,
+              "feedback": "“flee” does not answer this question. φρόνησις, φρονήσεως, ἡ means judgment."
+            },
+            {
+              "text": "persist",
+              "correct": false,
+              "feedback": "“persist” does not answer this question. φρόνησις, φρονήσεως, ἡ means judgment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “judgment”?",
+          "choices": [
+            {
+              "text": "καρτερέω",
+              "correct": false,
+              "feedback": "“καρτερέω” does not answer this question. ἡ φρόνησις is the entry for judgment."
+            },
+            {
+              "text": "ἡ φρόνησις",
+              "correct": true,
+              "feedback": "Correct. ἡ φρόνησις is the entry for judgment."
+            },
+            {
+              "text": "καλός",
+              "correct": false,
+              "feedback": "“καλός” does not answer this question. ἡ φρόνησις is the entry for judgment."
+            },
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "“φεύγω” does not answer this question. ἡ φρόνησις is the entry for judgment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry καλός mean?",
+          "choices": [
+            {
+              "text": "pursue",
+              "correct": false,
+              "feedback": "“pursue” does not answer this question. καλός, καλή, καλόν means good, noble."
+            },
+            {
+              "text": "examine",
+              "correct": false,
+              "feedback": "“examine” does not answer this question. καλός, καλή, καλόν means good, noble."
+            },
+            {
+              "text": "good, noble",
+              "correct": true,
+              "feedback": "Correct. καλός, καλή, καλόν means good, noble."
+            },
+            {
+              "text": "shared, common",
+              "correct": false,
+              "feedback": "“shared, common” does not answer this question. καλός, καλή, καλόν means good, noble."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “good, noble”?",
+          "choices": [
+            {
+              "text": "κοινός",
+              "correct": false,
+              "feedback": "“κοινός” does not answer this question. καλός is the entry for good, noble."
+            },
+            {
+              "text": "διώκω",
+              "correct": false,
+              "feedback": "“διώκω” does not answer this question. καλός is the entry for good, noble."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "“ἐξετάζω” does not answer this question. καλός is the entry for good, noble."
+            },
+            {
+              "text": "καλός",
+              "correct": true,
+              "feedback": "Correct. καλός is the entry for good, noble."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry κοινός mean?",
+          "choices": [
+            {
+              "text": "shared, common",
+              "correct": true,
+              "feedback": "Correct. κοινός, κοινή, κοινόν means shared, common."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. κοινός, κοινή, κοινόν means shared, common."
+            },
+            {
+              "text": "retreat",
+              "correct": false,
+              "feedback": "“retreat” does not answer this question. κοινός, κοινή, κοινόν means shared, common."
+            },
+            {
+              "text": "agree",
+              "correct": false,
+              "feedback": "“agree” does not answer this question. κοινός, κοινή, κοινόν means shared, common."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “shared, common”?",
+          "choices": [
+            {
+              "text": "ὁμολογέω",
+              "correct": false,
+              "feedback": "“ὁμολογέω” does not answer this question. κοινός is the entry for shared, common."
+            },
+            {
+              "text": "κοινός",
+              "correct": true,
+              "feedback": "Correct. κοινός is the entry for shared, common."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. κοινός is the entry for shared, common."
+            },
+            {
+              "text": "ὑποχωρέω",
+              "correct": false,
+              "feedback": "“ὑποχωρέω” does not answer this question. κοινός is the entry for shared, common."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-015",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry μένω mean?",
+          "choices": [
+            {
+              "text": "persist",
+              "correct": false,
+              "feedback": "“persist” does not answer this question. μένω means remain."
+            },
+            {
+              "text": "example",
+              "correct": false,
+              "feedback": "“example” does not answer this question. μένω means remain."
+            },
+            {
+              "text": "remain",
+              "correct": true,
+              "feedback": "Correct. μένω means remain."
+            },
+            {
+              "text": "flee",
+              "correct": false,
+              "feedback": "“flee” does not answer this question. μένω means remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-016",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “remain”?",
+          "choices": [
+            {
+              "text": "φεύγω",
+              "correct": false,
+              "feedback": "“φεύγω” does not answer this question. μένω is the entry for remain."
+            },
+            {
+              "text": "καρτερέω",
+              "correct": false,
+              "feedback": "“καρτερέω” does not answer this question. μένω is the entry for remain."
+            },
+            {
+              "text": "τὸ παράδειγμα",
+              "correct": false,
+              "feedback": "“τὸ παράδειγμα” does not answer this question. μένω is the entry for remain."
+            },
+            {
+              "text": "μένω",
+              "correct": true,
+              "feedback": "Correct. μένω is the entry for remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-017",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry φεύγω mean?",
+          "choices": [
+            {
+              "text": "flee",
+              "correct": true,
+              "feedback": "Correct. φεύγω means flee."
+            },
+            {
+              "text": "pursue",
+              "correct": false,
+              "feedback": "“pursue” does not answer this question. φεύγω means flee."
+            },
+            {
+              "text": "examine",
+              "correct": false,
+              "feedback": "“examine” does not answer this question. φεύγω means flee."
+            },
+            {
+              "text": "illness",
+              "correct": false,
+              "feedback": "“illness” does not answer this question. φεύγω means flee."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-018",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “flee”?",
+          "choices": [
+            {
+              "text": "ἡ νόσος",
+              "correct": false,
+              "feedback": "“ἡ νόσος” does not answer this question. φεύγω is the entry for flee."
+            },
+            {
+              "text": "φεύγω",
+              "correct": true,
+              "feedback": "Correct. φεύγω is the entry for flee."
+            },
+            {
+              "text": "διώκω",
+              "correct": false,
+              "feedback": "“διώκω” does not answer this question. φεύγω is the entry for flee."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "“ἐξετάζω” does not answer this question. φεύγω is the entry for flee."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-019",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry διώκω mean?",
+          "choices": [
+            {
+              "text": "agree",
+              "correct": false,
+              "feedback": "“agree” does not answer this question. διώκω means pursue."
+            },
+            {
+              "text": "poverty",
+              "correct": false,
+              "feedback": "“poverty” does not answer this question. διώκω means pursue."
+            },
+            {
+              "text": "pursue",
+              "correct": true,
+              "feedback": "Correct. διώκω means pursue."
+            },
+            {
+              "text": "retreat",
+              "correct": false,
+              "feedback": "“retreat” does not answer this question. διώκω means pursue."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-020",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “pursue”?",
+          "choices": [
+            {
+              "text": "ὑποχωρέω",
+              "correct": false,
+              "feedback": "“ὑποχωρέω” does not answer this question. διώκω is the entry for pursue."
+            },
+            {
+              "text": "ὁμολογέω",
+              "correct": false,
+              "feedback": "“ὁμολογέω” does not answer this question. διώκω is the entry for pursue."
+            },
+            {
+              "text": "ἡ πενία",
+              "correct": false,
+              "feedback": "“ἡ πενία” does not answer this question. διώκω is the entry for pursue."
+            },
+            {
+              "text": "διώκω",
+              "correct": true,
+              "feedback": "Correct. διώκω is the entry for pursue."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-021",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὑποχωρέω mean?",
+          "choices": [
+            {
+              "text": "retreat",
+              "correct": true,
+              "feedback": "Correct. ὑποχωρέω means retreat."
+            },
+            {
+              "text": "persist",
+              "correct": false,
+              "feedback": "“persist” does not answer this question. ὑποχωρέω means retreat."
+            },
+            {
+              "text": "example",
+              "correct": false,
+              "feedback": "“example” does not answer this question. ὑποχωρέω means retreat."
+            },
+            {
+              "text": "position, battle line",
+              "correct": false,
+              "feedback": "“position, battle line” does not answer this question. ὑποχωρέω means retreat."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-022",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “retreat”?",
+          "choices": [
+            {
+              "text": "ἡ τάξις",
+              "correct": false,
+              "feedback": "“ἡ τάξις” does not answer this question. ὑποχωρέω is the entry for retreat."
+            },
+            {
+              "text": "ὑποχωρέω",
+              "correct": true,
+              "feedback": "Correct. ὑποχωρέω is the entry for retreat."
+            },
+            {
+              "text": "καρτερέω",
+              "correct": false,
+              "feedback": "“καρτερέω” does not answer this question. ὑποχωρέω is the entry for retreat."
+            },
+            {
+              "text": "τὸ παράδειγμα",
+              "correct": false,
+              "feedback": "“τὸ παράδειγμα” does not answer this question. ὑποχωρέω is the entry for retreat."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-023",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry καρτερέω mean?",
+          "choices": [
+            {
+              "text": "illness",
+              "correct": false,
+              "feedback": "“illness” does not answer this question. καρτερέω means persist."
+            },
+            {
+              "text": "courage",
+              "correct": false,
+              "feedback": "“courage” does not answer this question. καρτερέω means persist."
+            },
+            {
+              "text": "persist",
+              "correct": true,
+              "feedback": "Correct. καρτερέω means persist."
+            },
+            {
+              "text": "examine",
+              "correct": false,
+              "feedback": "“examine” does not answer this question. καρτερέω means persist."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-024",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “persist”?",
+          "choices": [
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "“ἐξετάζω” does not answer this question. καρτερέω is the entry for persist."
+            },
+            {
+              "text": "ἡ νόσος",
+              "correct": false,
+              "feedback": "“ἡ νόσος” does not answer this question. καρτερέω is the entry for persist."
+            },
+            {
+              "text": "ἡ ἀνδρεία",
+              "correct": false,
+              "feedback": "“ἡ ἀνδρεία” does not answer this question. καρτερέω is the entry for persist."
+            },
+            {
+              "text": "καρτερέω",
+              "correct": true,
+              "feedback": "Correct. καρτερέω is the entry for persist."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-025",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἐξετάζω mean?",
+          "choices": [
+            {
+              "text": "examine",
+              "correct": true,
+              "feedback": "Correct. ἐξετάζω means examine."
+            },
+            {
+              "text": "agree",
+              "correct": false,
+              "feedback": "“agree” does not answer this question. ἐξετάζω means examine."
+            },
+            {
+              "text": "poverty",
+              "correct": false,
+              "feedback": "“poverty” does not answer this question. ἐξετάζω means examine."
+            },
+            {
+              "text": "brave",
+              "correct": false,
+              "feedback": "“brave” does not answer this question. ἐξετάζω means examine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-026",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “examine”?",
+          "choices": [
+            {
+              "text": "ἀνδρεῖος",
+              "correct": false,
+              "feedback": "“ἀνδρεῖος” does not answer this question. ἐξετάζω is the entry for examine."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": true,
+              "feedback": "Correct. ἐξετάζω is the entry for examine."
+            },
+            {
+              "text": "ὁμολογέω",
+              "correct": false,
+              "feedback": "“ὁμολογέω” does not answer this question. ἐξετάζω is the entry for examine."
+            },
+            {
+              "text": "ἡ πενία",
+              "correct": false,
+              "feedback": "“ἡ πενία” does not answer this question. ἐξετάζω is the entry for examine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-027",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁμολογέω mean?",
+          "choices": [
+            {
+              "text": "position, battle line",
+              "correct": false,
+              "feedback": "“position, battle line” does not answer this question. ὁμολογέω means agree."
+            },
+            {
+              "text": "cowardly",
+              "correct": false,
+              "feedback": "“cowardly” does not answer this question. ὁμολογέω means agree."
+            },
+            {
+              "text": "agree",
+              "correct": true,
+              "feedback": "Correct. ὁμολογέω means agree."
+            },
+            {
+              "text": "example",
+              "correct": false,
+              "feedback": "“example” does not answer this question. ὁμολογέω means agree."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-028",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “agree”?",
+          "choices": [
+            {
+              "text": "τὸ παράδειγμα",
+              "correct": false,
+              "feedback": "“τὸ παράδειγμα” does not answer this question. ὁμολογέω is the entry for agree."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": false,
+              "feedback": "“ἡ τάξις” does not answer this question. ὁμολογέω is the entry for agree."
+            },
+            {
+              "text": "δειλός",
+              "correct": false,
+              "feedback": "“δειλός” does not answer this question. ὁμολογέω is the entry for agree."
+            },
+            {
+              "text": "ὁμολογέω",
+              "correct": true,
+              "feedback": "Correct. ὁμολογέω is the entry for agree."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-029",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry τὸ παράδειγμα mean?",
+          "choices": [
+            {
+              "text": "example",
+              "correct": true,
+              "feedback": "Correct. παράδειγμα, παραδείγματος, τό means example."
+            },
+            {
+              "text": "illness",
+              "correct": false,
+              "feedback": "“illness” does not answer this question. παράδειγμα, παραδείγματος, τό means example."
+            },
+            {
+              "text": "courage",
+              "correct": false,
+              "feedback": "“courage” does not answer this question. παράδειγμα, παραδείγματος, τό means example."
+            },
+            {
+              "text": "endurance",
+              "correct": false,
+              "feedback": "“endurance” does not answer this question. παράδειγμα, παραδείγματος, τό means example."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-030",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “example”?",
+          "choices": [
+            {
+              "text": "ἡ καρτερία",
+              "correct": false,
+              "feedback": "“ἡ καρτερία” does not answer this question. τὸ παράδειγμα is the entry for example."
+            },
+            {
+              "text": "τὸ παράδειγμα",
+              "correct": true,
+              "feedback": "Correct. τὸ παράδειγμα is the entry for example."
+            },
+            {
+              "text": "ἡ νόσος",
+              "correct": false,
+              "feedback": "“ἡ νόσος” does not answer this question. τὸ παράδειγμα is the entry for example."
+            },
+            {
+              "text": "ἡ ἀνδρεία",
+              "correct": false,
+              "feedback": "“ἡ ἀνδρεία” does not answer this question. τὸ παράδειγμα is the entry for example."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-031",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ νόσος mean?",
+          "choices": [
+            {
+              "text": "brave",
+              "correct": false,
+              "feedback": "“brave” does not answer this question. νόσος, νόσου, ἡ means illness."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "“judgment” does not answer this question. νόσος, νόσου, ἡ means illness."
+            },
+            {
+              "text": "illness",
+              "correct": true,
+              "feedback": "Correct. νόσος, νόσου, ἡ means illness."
+            },
+            {
+              "text": "poverty",
+              "correct": false,
+              "feedback": "“poverty” does not answer this question. νόσος, νόσου, ἡ means illness."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-032",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “illness”?",
+          "choices": [
+            {
+              "text": "ἡ πενία",
+              "correct": false,
+              "feedback": "“ἡ πενία” does not answer this question. ἡ νόσος is the entry for illness."
+            },
+            {
+              "text": "ἀνδρεῖος",
+              "correct": false,
+              "feedback": "“ἀνδρεῖος” does not answer this question. ἡ νόσος is the entry for illness."
+            },
+            {
+              "text": "ἡ φρόνησις",
+              "correct": false,
+              "feedback": "“ἡ φρόνησις” does not answer this question. ἡ νόσος is the entry for illness."
+            },
+            {
+              "text": "ἡ νόσος",
+              "correct": true,
+              "feedback": "Correct. ἡ νόσος is the entry for illness."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-033",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ πενία mean?",
+          "choices": [
+            {
+              "text": "poverty",
+              "correct": true,
+              "feedback": "Correct. πενία, πενίας, ἡ means poverty."
+            },
+            {
+              "text": "position, battle line",
+              "correct": false,
+              "feedback": "“position, battle line” does not answer this question. πενία, πενίας, ἡ means poverty."
+            },
+            {
+              "text": "cowardly",
+              "correct": false,
+              "feedback": "“cowardly” does not answer this question. πενία, πενίας, ἡ means poverty."
+            },
+            {
+              "text": "good, noble",
+              "correct": false,
+              "feedback": "“good, noble” does not answer this question. πενία, πενίας, ἡ means poverty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-034",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “poverty”?",
+          "choices": [
+            {
+              "text": "καλός",
+              "correct": false,
+              "feedback": "“καλός” does not answer this question. ἡ πενία is the entry for poverty."
+            },
+            {
+              "text": "ἡ πενία",
+              "correct": true,
+              "feedback": "Correct. ἡ πενία is the entry for poverty."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": false,
+              "feedback": "“ἡ τάξις” does not answer this question. ἡ πενία is the entry for poverty."
+            },
+            {
+              "text": "δειλός",
+              "correct": false,
+              "feedback": "“δειλός” does not answer this question. ἡ πενία is the entry for poverty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-035",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ τάξις mean?",
+          "choices": [
+            {
+              "text": "endurance",
+              "correct": false,
+              "feedback": "“endurance” does not answer this question. τάξις, τάξεως, ἡ means position, battle line."
+            },
+            {
+              "text": "shared, common",
+              "correct": false,
+              "feedback": "“shared, common” does not answer this question. τάξις, τάξεως, ἡ means position, battle line."
+            },
+            {
+              "text": "position, battle line",
+              "correct": true,
+              "feedback": "Correct. τάξις, τάξεως, ἡ means position, battle line."
+            },
+            {
+              "text": "courage",
+              "correct": false,
+              "feedback": "“courage” does not answer this question. τάξις, τάξεως, ἡ means position, battle line."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-vocab-036",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “position, battle line”?",
+          "choices": [
+            {
+              "text": "ἡ ἀνδρεία",
+              "correct": false,
+              "feedback": "“ἡ ἀνδρεία” does not answer this question. ἡ τάξις is the entry for position, battle line."
+            },
+            {
+              "text": "ἡ καρτερία",
+              "correct": false,
+              "feedback": "“ἡ καρτερία” does not answer this question. ἡ τάξις is the entry for position, battle line."
+            },
+            {
+              "text": "κοινός",
+              "correct": false,
+              "feedback": "“κοινός” does not answer this question. ἡ τάξις is the entry for position, battle line."
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": true,
+              "feedback": "Correct. ἡ τάξις is the entry for position, battle line."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 17 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ Λάχης ἀκούων σκέπτεται.",
+          "answer": "Laches considers while listening. — Forming Present Active Participles"
+        },
+        {
+          "prompt": "ἡ γυνὴ λέγουσα μένει.",
+          "answer": "The woman remains while speaking (supplementary example). — Forming Present Active Participles"
+        },
+        {
+          "prompt": "ὁ Σωκράτης τὸν λέγοντα βλέπει.",
+          "answer": "Socrates watches the speaker. — Declining -ων, -ουσα, -ον"
+        },
+        {
+          "prompt": "τῶν μενόντων ἡ γνώμη καλή ἐστιν.",
+          "answer": "The judgment of those remaining is good (supplementary example). — Declining -ων, -ουσα, -ον"
+        },
+        {
+          "prompt": "οἱ ἀκούοντες τὴν ἐρώτησιν σκέπτονται.",
+          "answer": "The listeners consider the question. — Finding the Person Described"
+        },
+        {
+          "prompt": "ὁ Σωκράτης τὸν μένοντα βλέπει.",
+          "answer": "Socrates sees the man remaining (supplementary example). — Finding the Person Described"
+        },
+        {
+          "prompt": "ὁ τὴν νόσον φέρων κινδύνους ἔχει.",
+          "answer": "The person bearing illness faces dangers. — Describing, Naming, and Adding Circumstances"
+        },
+        {
+          "prompt": "ὁ Λάχης λέγων τὸ παράδειγμα δηλοῖ.",
+          "answer": "Laches explains the example while speaking (supplementary example). — Describing, Naming, and Adding Circumstances"
+        },
+        {
+          "prompt": "οἱ Σκύθαι φεύγοντες μάχονται.",
+          "answer": "The Scythians fight while fleeing. — Ongoing Action with a Main Verb"
+        },
+        {
+          "prompt": "ὁ Σωκράτης λέγων ἐρωτᾷ.",
+          "answer": "Socrates asks while speaking (supplementary example). — Ongoing Action with a Main Verb"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 17 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar section. Every topic has at least six distinct questions with feedback.",
+      "questions": [
+        {
+          "id": "lesson-17-practice-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which pair links courage with a brave person?",
+          "choices": [
+            {
+              "text": "ἀνδρεία / ἀνδρεῖος",
+              "correct": true,
+              "feedback": "Correct. The noun names courage and the adjective describes a brave person."
+            },
+            {
+              "text": "νόσος / πενία",
+              "correct": false,
+              "feedback": "“νόσος / πενία” does not answer this question. The noun names courage and the adjective describes a brave person."
+            },
+            {
+              "text": "φεύγω / διώκω",
+              "correct": false,
+              "feedback": "“φεύγω / διώκω” does not answer this question. The noun names courage and the adjective describes a brave person."
+            },
+            {
+              "text": "τάξις / παράδειγμα",
+              "correct": false,
+              "feedback": "“τάξις / παράδειγμα” does not answer this question. The noun names courage and the adjective describes a brave person."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What distinction separates μένω and καρτερέω?",
+          "choices": [
+            {
+              "text": "wealth versus poverty",
+              "correct": false,
+              "feedback": "“wealth versus poverty” does not answer this question. μένω is staying; καρτερέω emphasizes persistence."
+            },
+            {
+              "text": "remaining versus persisting through difficulty",
+              "correct": true,
+              "feedback": "Correct. μένω is staying; καρτερέω emphasizes persistence."
+            },
+            {
+              "text": "present versus future in every form",
+              "correct": false,
+              "feedback": "“present versus future in every form” does not answer this question. μένω is staying; καρτερέω emphasizes persistence."
+            },
+            {
+              "text": "speaking versus listening",
+              "correct": false,
+              "feedback": "“speaking versus listening” does not answer this question. μένω is staying; καρτερέω emphasizes persistence."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which noun adds judgment to the inquiry?",
+          "choices": [
+            {
+              "text": "νόσος",
+              "correct": false,
+              "feedback": "“νόσος” does not answer this question. φρόνησις is judgment, not merely endurance."
+            },
+            {
+              "text": "τάξις",
+              "correct": false,
+              "feedback": "“τάξις” does not answer this question. φρόνησις is judgment, not merely endurance."
+            },
+            {
+              "text": "φρόνησις",
+              "correct": true,
+              "feedback": "Correct. φρόνησις is judgment, not merely endurance."
+            },
+            {
+              "text": "πενία",
+              "correct": false,
+              "feedback": "“πενία” does not answer this question. φρόνησις is judgment, not merely endurance."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does a παράδειγμα supply?",
+          "choices": [
+            {
+              "text": "a definition guaranteed to cover every case",
+              "correct": false,
+              "feedback": "“a definition guaranteed to cover every case” does not answer this question. An example may require testing before it serves as a definition."
+            },
+            {
+              "text": "a promised wage",
+              "correct": false,
+              "feedback": "“a promised wage” does not answer this question. An example may require testing before it serves as a definition."
+            },
+            {
+              "text": "a compulsory command",
+              "correct": false,
+              "feedback": "“a compulsory command” does not answer this question. An example may require testing before it serves as a definition."
+            },
+            {
+              "text": "an example to examine",
+              "correct": true,
+              "feedback": "Correct. An example may require testing before it serves as a definition."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which verb names movement after an opponent?",
+          "choices": [
+            {
+              "text": "διώκω",
+              "correct": true,
+              "feedback": "Correct. διώκω means pursue."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. διώκω means pursue."
+            },
+            {
+              "text": "ἀκούω",
+              "correct": false,
+              "feedback": "“ἀκούω” does not answer this question. διώκω means pursue."
+            },
+            {
+              "text": "καρτερέω",
+              "correct": false,
+              "feedback": "“καρτερέω” does not answer this question. διώκω means pursue."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does ὑποχωρέω emphasize?",
+          "choices": [
+            {
+              "text": "examining a noun",
+              "correct": false,
+              "feedback": "“examining a noun” does not answer this question. ὑποχωρέω means retreat, whose ethical value depends on context."
+            },
+            {
+              "text": "retreating",
+              "correct": true,
+              "feedback": "Correct. ὑποχωρέω means retreat, whose ethical value depends on context."
+            },
+            {
+              "text": "making a promise",
+              "correct": false,
+              "feedback": "“making a promise” does not answer this question. ὑποχωρέω means retreat, whose ethical value depends on context."
+            },
+            {
+              "text": "delivering a payment",
+              "correct": false,
+              "feedback": "“delivering a payment” does not answer this question. ὑποχωρέω means retreat, whose ethical value depends on context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is feminine nominative singular of μένω’s present participle?",
+          "choices": [
+            {
+              "text": "μένον",
+              "correct": false,
+              "feedback": "“μένον” does not answer this question. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "“μένει” does not answer this question. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένουσα",
+              "correct": true,
+              "feedback": "Correct. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. The feminine nominative singular uses -ουσα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is neuter nominative singular of λύω’s participle?",
+          "choices": [
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λύει",
+              "correct": false,
+              "feedback": "“λύει” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λῦον",
+              "correct": true,
+              "feedback": "Correct. The neuter singular is λῦον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which form is a participle rather than a finite verb?",
+          "choices": [
+            {
+              "text": "λέγων",
+              "correct": true,
+              "feedback": "Correct. λέγων describes someone speaking; the other forms are finite."
+            },
+            {
+              "text": "λέγει",
+              "correct": false,
+              "feedback": "“λέγει” does not answer this question. λέγων describes someone speaking; the other forms are finite."
+            },
+            {
+              "text": "λέγομεν",
+              "correct": false,
+              "feedback": "“λέγομεν” does not answer this question. λέγων describes someone speaking; the other forms are finite."
+            },
+            {
+              "text": "λέγουσιν",
+              "correct": false,
+              "feedback": "“λέγουσιν” does not answer this question. λέγων describes someone speaking; the other forms are finite."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "What is the stem underlying λύων?",
+          "choices": [
+            {
+              "text": "λυσ-",
+              "correct": false,
+              "feedback": "“λυσ-” does not answer this question. The masculine/neuter stem is λυοντ-."
+            },
+            {
+              "text": "λυοντ-",
+              "correct": true,
+              "feedback": "Correct. The masculine/neuter stem is λυοντ-."
+            },
+            {
+              "text": "λυομεν-",
+              "correct": false,
+              "feedback": "“λυομεν-” does not answer this question. The masculine/neuter stem is λυοντ-."
+            },
+            {
+              "text": "λυεσ-",
+              "correct": false,
+              "feedback": "“λυεσ-” does not answer this question. The masculine/neuter stem is λυοντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which participle comes from φεύγω?",
+          "choices": [
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. φεύγω produces φεύγων."
+            },
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. φεύγω produces φεύγων."
+            },
+            {
+              "text": "φεύγων",
+              "correct": true,
+              "feedback": "Correct. φεύγω produces φεύγων."
+            },
+            {
+              "text": "φέρων",
+              "correct": false,
+              "feedback": "“φέρων” does not answer this question. φεύγω produces φεύγων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is the contracted masculine participle of ὑποχωρέω?",
+          "choices": [
+            {
+              "text": "ὑποχωρεῖ",
+              "correct": false,
+              "feedback": "“ὑποχωρεῖ” does not answer this question. The masculine nominative singular contracts to -ῶν."
+            },
+            {
+              "text": "ὑποχωροῦσα",
+              "correct": false,
+              "feedback": "“ὑποχωροῦσα” does not answer this question. The masculine nominative singular contracts to -ῶν."
+            },
+            {
+              "text": "ὑποχωροῦν",
+              "correct": false,
+              "feedback": "“ὑποχωροῦν” does not answer this question. The masculine nominative singular contracts to -ῶν."
+            },
+            {
+              "text": "ὑποχωρῶν",
+              "correct": true,
+              "feedback": "Correct. The masculine nominative singular contracts to -ῶν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "What case is λέγοντος?",
+          "choices": [
+            {
+              "text": "genitive singular",
+              "correct": true,
+              "feedback": "Correct. -οντος is genitive singular."
+            },
+            {
+              "text": "nominative singular",
+              "correct": false,
+              "feedback": "“nominative singular” does not answer this question. -οντος is genitive singular."
+            },
+            {
+              "text": "accusative plural",
+              "correct": false,
+              "feedback": "“accusative plural” does not answer this question. -οντος is genitive singular."
+            },
+            {
+              "text": "dative plural",
+              "correct": false,
+              "feedback": "“dative plural” does not answer this question. -οντος is genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which is masculine accusative singular?",
+          "choices": [
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντα",
+              "correct": true,
+              "feedback": "Correct. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντος",
+              "correct": false,
+              "feedback": "“λέγοντος” does not answer this question. The masculine accusative singular ends in -οντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which is feminine genitive singular?",
+          "choices": [
+            {
+              "text": "λύουσαν",
+              "correct": false,
+              "feedback": "“λύουσαν” does not answer this question. First-declension feminine genitive singular is λυούσης."
+            },
+            {
+              "text": "λύουσαι",
+              "correct": false,
+              "feedback": "“λύουσαι” does not answer this question. First-declension feminine genitive singular is λυούσης."
+            },
+            {
+              "text": "λυούσης",
+              "correct": true,
+              "feedback": "Correct. First-declension feminine genitive singular is λυούσης."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. First-declension feminine genitive singular is λυούσης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which agrees with τοῖς in τοῖς ___?",
+          "choices": [
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. τοῖς requires dative plural λέγουσι."
+            },
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. τοῖς requires dative plural λέγουσι."
+            },
+            {
+              "text": "λέγοντος",
+              "correct": false,
+              "feedback": "“λέγοντος” does not answer this question. τοῖς requires dative plural λέγουσι."
+            },
+            {
+              "text": "λέγουσι",
+              "correct": true,
+              "feedback": "Correct. τοῖς requires dative plural λέγουσι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "What happens to ντ before σ in λύουσι?",
+          "choices": [
+            {
+              "text": "ντ disappears and the vowel lengthens",
+              "correct": true,
+              "feedback": "Correct. Loss of ντ before σ produces the long vowel written ου."
+            },
+            {
+              "text": "ντ remains unchanged",
+              "correct": false,
+              "feedback": "“ντ remains unchanged” does not answer this question. Loss of ντ before σ produces the long vowel written ου."
+            },
+            {
+              "text": "σ changes to τ",
+              "correct": false,
+              "feedback": "“σ changes to τ” does not answer this question. Loss of ντ before σ produces the long vowel written ου."
+            },
+            {
+              "text": "the form becomes an infinitive",
+              "correct": false,
+              "feedback": "“the form becomes an infinitive” does not answer this question. Loss of ντ before σ produces the long vowel written ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which form can be neuter nominative or accusative plural?",
+          "choices": [
+            {
+              "text": "λύουσι",
+              "correct": false,
+              "feedback": "“λύουσι” does not answer this question. Neuter plural nominative and accusative both use -οντα."
+            },
+            {
+              "text": "λύοντα",
+              "correct": true,
+              "feedback": "Correct. Neuter plural nominative and accusative both use -οντα."
+            },
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. Neuter plural nominative and accusative both use -οντα."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. Neuter plural nominative and accusative both use -οντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Who is listening in ὁ Λάχης ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "the enemies",
+              "correct": false,
+              "feedback": "“the enemies” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "the city",
+              "correct": false,
+              "feedback": "“the city” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "Laches",
+              "correct": true,
+              "feedback": "Correct. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "Nicias alone",
+              "correct": false,
+              "feedback": "“Nicias alone” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which completes οἱ ___ ἱππεῖς?",
+          "choices": [
+            {
+              "text": "φεύγων",
+              "correct": false,
+              "feedback": "“φεύγων” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγουσα",
+              "correct": false,
+              "feedback": "“φεύγουσα” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεῦγον",
+              "correct": false,
+              "feedback": "“φεῦγον” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγοντες",
+              "correct": true,
+              "feedback": "Correct. The masculine nominative plural agrees with ἱππεῖς."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which completes ἡ γυνὴ ___?",
+          "choices": [
+            {
+              "text": "λέγουσα",
+              "correct": true,
+              "feedback": "Correct. The woman requires feminine nominative singular."
+            },
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. The woman requires feminine nominative singular."
+            },
+            {
+              "text": "λέγοντα",
+              "correct": false,
+              "feedback": "“λέγοντα” does not answer this question. The woman requires feminine nominative singular."
+            },
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. The woman requires feminine nominative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which describes τὰ παιδία?",
+          "choices": [
+            {
+              "text": "παίζοντος",
+              "correct": false,
+              "feedback": "“παίζοντος” does not answer this question. The children are neuter plural."
+            },
+            {
+              "text": "παίζοντα",
+              "correct": true,
+              "feedback": "Correct. The children are neuter plural."
+            },
+            {
+              "text": "παίζων",
+              "correct": false,
+              "feedback": "“παίζων” does not answer this question. The children are neuter plural."
+            },
+            {
+              "text": "παίζουσα",
+              "correct": false,
+              "feedback": "“παίζουσα” does not answer this question. The children are neuter plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which article belongs before masculine accusative singular λέγοντα?",
+          "choices": [
+            {
+              "text": "οἱ",
+              "correct": false,
+              "feedback": "“οἱ” does not answer this question. τὸν marks masculine accusative singular."
+            },
+            {
+              "text": "ταῖς",
+              "correct": false,
+              "feedback": "“ταῖς” does not answer this question. τὸν marks masculine accusative singular."
+            },
+            {
+              "text": "τὸν",
+              "correct": true,
+              "feedback": "Correct. τὸν marks masculine accusative singular."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "“ὁ” does not answer this question. τὸν marks masculine accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "What should determine a participle’s attachment first?",
+          "choices": [
+            {
+              "text": "the nearest punctuation mark",
+              "correct": false,
+              "feedback": "“the nearest punctuation mark” does not answer this question. Agreement identifies the participant grammatically."
+            },
+            {
+              "text": "the English word order alone",
+              "correct": false,
+              "feedback": "“the English word order alone” does not answer this question. Agreement identifies the participant grammatically."
+            },
+            {
+              "text": "whether its action seems heroic",
+              "correct": false,
+              "feedback": "“whether its action seems heroic” does not answer this question. Agreement identifies the participant grammatically."
+            },
+            {
+              "text": "matching gender, number, and case",
+              "correct": true,
+              "feedback": "Correct. Agreement identifies the participant grammatically."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What use is οἱ φεύγοντες without an expressed noun?",
+          "choices": [
+            {
+              "text": "substantival",
+              "correct": true,
+              "feedback": "Correct. The article makes the participle name the people."
+            },
+            {
+              "text": "finite indicative",
+              "correct": false,
+              "feedback": "“finite indicative” does not answer this question. The article makes the participle name the people."
+            },
+            {
+              "text": "infinitive",
+              "correct": false,
+              "feedback": "“infinitive” does not answer this question. The article makes the participle name the people."
+            },
+            {
+              "text": "possessive adjective",
+              "correct": false,
+              "feedback": "“possessive adjective” does not answer this question. The article makes the participle name the people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What use is οἱ ὑποχωροῦντες ἱππεῖς?",
+          "choices": [
+            {
+              "text": "future purpose",
+              "correct": false,
+              "feedback": "“future purpose” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "attributive",
+              "correct": true,
+              "feedback": "Correct. The participle specifies which horsemen."
+            },
+            {
+              "text": "impersonal",
+              "correct": false,
+              "feedback": "“impersonal” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "finite",
+              "correct": false,
+              "feedback": "“finite” does not answer this question. The participle specifies which horsemen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "How does ἀκούων function in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "a genitive possessor",
+              "correct": false,
+              "feedback": "“a genitive possessor” does not answer this question. It supplies the action accompanying considering."
+            },
+            {
+              "text": "a future promise",
+              "correct": false,
+              "feedback": "“a future promise” does not answer this question. It supplies the action accompanying considering."
+            },
+            {
+              "text": "simple accompanying circumstance",
+              "correct": true,
+              "feedback": "Correct. It supplies the action accompanying considering."
+            },
+            {
+              "text": "the finite main verb",
+              "correct": false,
+              "feedback": "“the finite main verb” does not answer this question. It supplies the action accompanying considering."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "Which has middle participial form?",
+          "choices": [
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. -όμενος is the present middle pattern."
+            },
+            {
+              "text": "φεύγων",
+              "correct": false,
+              "feedback": "“φεύγων” does not answer this question. -όμενος is the present middle pattern."
+            },
+            {
+              "text": "διώκων",
+              "correct": false,
+              "feedback": "“διώκων” does not answer this question. -όμενος is the present middle pattern."
+            },
+            {
+              "text": "μαχόμενος",
+              "correct": true,
+              "feedback": "Correct. -όμενος is the present middle pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "Which has active participial form?",
+          "choices": [
+            {
+              "text": "διώκων",
+              "correct": true,
+              "feedback": "Correct. διώκων is an active -ων participle."
+            },
+            {
+              "text": "μαχόμενος",
+              "correct": false,
+              "feedback": "“μαχόμενος” does not answer this question. διώκων is an active -ων participle."
+            },
+            {
+              "text": "διαλεγόμενος",
+              "correct": false,
+              "feedback": "“διαλεγόμενος” does not answer this question. διώκων is an active -ων participle."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "“πορευόμενος” does not answer this question. διώκων is an active -ων participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What does τὸν λέγοντα mean?",
+          "choices": [
+            {
+              "text": "he will speak",
+              "correct": false,
+              "feedback": "“he will speak” does not answer this question. The article plus accusative participle names the speaker."
+            },
+            {
+              "text": "the speaker as object",
+              "correct": true,
+              "feedback": "Correct. The article plus accusative participle names the speaker."
+            },
+            {
+              "text": "the speakers as subjects",
+              "correct": false,
+              "feedback": "“the speakers as subjects” does not answer this question. The article plus accusative participle names the speaker."
+            },
+            {
+              "text": "to speak",
+              "correct": false,
+              "feedback": "“to speak” does not answer this question. The article plus accusative participle names the speaker."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-031",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What is the finite verb in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "both words",
+              "correct": false,
+              "feedback": "“both words” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "neither word",
+              "correct": false,
+              "feedback": "“neither word” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "σκέπτεται",
+              "correct": true,
+              "feedback": "Correct. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "ἀκούων",
+              "correct": false,
+              "feedback": "“ἀκούων” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-032",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "When does listening occur in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "only after he stops considering",
+              "correct": false,
+              "feedback": "“only after he stops considering” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "in a completed earlier event",
+              "correct": false,
+              "feedback": "“in a completed earlier event” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "necessarily tomorrow",
+              "correct": false,
+              "feedback": "“necessarily tomorrow” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "while he considers",
+              "correct": true,
+              "feedback": "Correct. The present participle adds simultaneous ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-033",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What does φεύγοντες μάχονται say?",
+          "choices": [
+            {
+              "text": "they fight while fleeing",
+              "correct": true,
+              "feedback": "Correct. The participle and main verb describe simultaneous actions."
+            },
+            {
+              "text": "they finish fleeing before fighting",
+              "correct": false,
+              "feedback": "“they finish fleeing before fighting” does not answer this question. The participle and main verb describe simultaneous actions."
+            },
+            {
+              "text": "they will flee but never fight",
+              "correct": false,
+              "feedback": "“they will flee but never fight” does not answer this question. The participle and main verb describe simultaneous actions."
+            },
+            {
+              "text": "they order others to flee",
+              "correct": false,
+              "feedback": "“they order others to flee” does not answer this question. The participle and main verb describe simultaneous actions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-034",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "Does μένων alone mean “he remains”?",
+          "choices": [
+            {
+              "text": "no; it means to have remained",
+              "correct": false,
+              "feedback": "“no; it means to have remained” does not answer this question. μένων is a participle, not a finite verb."
+            },
+            {
+              "text": "no; it means remaining and needs a sentence frame",
+              "correct": true,
+              "feedback": "Correct. μένων is a participle, not a finite verb."
+            },
+            {
+              "text": "yes; it is a finite third-person singular",
+              "correct": false,
+              "feedback": "“yes; it is a finite third-person singular” does not answer this question. μένων is a participle, not a finite verb."
+            },
+            {
+              "text": "yes; it is a future verb",
+              "correct": false,
+              "feedback": "“yes; it is a future verb” does not answer this question. μένων is a participle, not a finite verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-035",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "Which best describes present-participle aspect?",
+          "choices": [
+            {
+              "text": "a command",
+              "correct": false,
+              "feedback": "“a command” does not answer this question. Present participles describe ongoing action."
+            },
+            {
+              "text": "a guaranteed future outcome",
+              "correct": false,
+              "feedback": "“a guaranteed future outcome” does not answer this question. Present participles describe ongoing action."
+            },
+            {
+              "text": "ongoing action",
+              "correct": true,
+              "feedback": "Correct. Present participles describe ongoing action."
+            },
+            {
+              "text": "completed action as a whole",
+              "correct": false,
+              "feedback": "“completed action as a whole” does not answer this question. Present participles describe ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-practice-036",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What can φεύγοντες alone establish about courage?",
+          "choices": [
+            {
+              "text": "that all fleeing is cowardly",
+              "correct": false,
+              "feedback": "“that all fleeing is cowardly” does not answer this question. Grammar identifies the action; ethical judgment needs context."
+            },
+            {
+              "text": "that all fleeing is brave",
+              "correct": false,
+              "feedback": "“that all fleeing is brave” does not answer this question. Grammar identifies the action; ethical judgment needs context."
+            },
+            {
+              "text": "that Laches has solved the dialogue",
+              "correct": false,
+              "feedback": "“that Laches has solved the dialogue” does not answer this question. Grammar identifies the action; ethical judgment needs context."
+            },
+            {
+              "text": "the action described, not its ethical value",
+              "correct": true,
+              "feedback": "Correct. Grammar identifies the action; ethical judgment needs context."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 17 Required Grammar Check",
+      "description": "Lesson 17 Required Grammar Check",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-17-grammar-exercises-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-17-grammar-exercises-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is feminine nominative singular of μένω’s present participle?",
+          "choices": [
+            {
+              "text": "μένουσα",
+              "correct": true,
+              "feedback": "Correct. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένον",
+              "correct": false,
+              "feedback": "“μένον” does not answer this question. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "“μένει” does not answer this question. The feminine nominative singular uses -ουσα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is neuter nominative singular of λύω’s participle?",
+          "choices": [
+            {
+              "text": "λύει",
+              "correct": false,
+              "feedback": "“λύει” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λῦον",
+              "correct": true,
+              "feedback": "Correct. The neuter singular is λῦον."
+            },
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. The neuter singular is λῦον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which form is a participle rather than a finite verb?",
+          "choices": [
+            {
+              "text": "λέγομεν",
+              "correct": false,
+              "feedback": "“λέγομεν” does not answer this question. λέγων describes someone speaking; the other forms are finite."
+            },
+            {
+              "text": "λέγουσιν",
+              "correct": false,
+              "feedback": "“λέγουσιν” does not answer this question. λέγων describes someone speaking; the other forms are finite."
+            },
+            {
+              "text": "λέγων",
+              "correct": true,
+              "feedback": "Correct. λέγων describes someone speaking; the other forms are finite."
+            },
+            {
+              "text": "λέγει",
+              "correct": false,
+              "feedback": "“λέγει” does not answer this question. λέγων describes someone speaking; the other forms are finite."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "What is the stem underlying λύων?",
+          "choices": [
+            {
+              "text": "λυομεν-",
+              "correct": false,
+              "feedback": "“λυομεν-” does not answer this question. The masculine/neuter stem is λυοντ-."
+            },
+            {
+              "text": "λυεσ-",
+              "correct": false,
+              "feedback": "“λυεσ-” does not answer this question. The masculine/neuter stem is λυοντ-."
+            },
+            {
+              "text": "λυσ-",
+              "correct": false,
+              "feedback": "“λυσ-” does not answer this question. The masculine/neuter stem is λυοντ-."
+            },
+            {
+              "text": "λυοντ-",
+              "correct": true,
+              "feedback": "Correct. The masculine/neuter stem is λυοντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which participle comes from φεύγω?",
+          "choices": [
+            {
+              "text": "φεύγων",
+              "correct": true,
+              "feedback": "Correct. φεύγω produces φεύγων."
+            },
+            {
+              "text": "φέρων",
+              "correct": false,
+              "feedback": "“φέρων” does not answer this question. φεύγω produces φεύγων."
+            },
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. φεύγω produces φεύγων."
+            },
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. φεύγω produces φεύγων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is the contracted masculine participle of ὑποχωρέω?",
+          "choices": [
+            {
+              "text": "ὑποχωροῦν",
+              "correct": false,
+              "feedback": "“ὑποχωροῦν” does not answer this question. The masculine nominative singular contracts to -ῶν."
+            },
+            {
+              "text": "ὑποχωρῶν",
+              "correct": true,
+              "feedback": "Correct. The masculine nominative singular contracts to -ῶν."
+            },
+            {
+              "text": "ὑποχωρεῖ",
+              "correct": false,
+              "feedback": "“ὑποχωρεῖ” does not answer this question. The masculine nominative singular contracts to -ῶν."
+            },
+            {
+              "text": "ὑποχωροῦσα",
+              "correct": false,
+              "feedback": "“ὑποχωροῦσα” does not answer this question. The masculine nominative singular contracts to -ῶν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "What case is λέγοντος?",
+          "choices": [
+            {
+              "text": "accusative plural",
+              "correct": false,
+              "feedback": "“accusative plural” does not answer this question. -οντος is genitive singular."
+            },
+            {
+              "text": "dative plural",
+              "correct": false,
+              "feedback": "“dative plural” does not answer this question. -οντος is genitive singular."
+            },
+            {
+              "text": "genitive singular",
+              "correct": true,
+              "feedback": "Correct. -οντος is genitive singular."
+            },
+            {
+              "text": "nominative singular",
+              "correct": false,
+              "feedback": "“nominative singular” does not answer this question. -οντος is genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which is masculine accusative singular?",
+          "choices": [
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντος",
+              "correct": false,
+              "feedback": "“λέγοντος” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντα",
+              "correct": true,
+              "feedback": "Correct. The masculine accusative singular ends in -οντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which is feminine genitive singular?",
+          "choices": [
+            {
+              "text": "λυούσης",
+              "correct": true,
+              "feedback": "Correct. First-declension feminine genitive singular is λυούσης."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. First-declension feminine genitive singular is λυούσης."
+            },
+            {
+              "text": "λύουσαν",
+              "correct": false,
+              "feedback": "“λύουσαν” does not answer this question. First-declension feminine genitive singular is λυούσης."
+            },
+            {
+              "text": "λύουσαι",
+              "correct": false,
+              "feedback": "“λύουσαι” does not answer this question. First-declension feminine genitive singular is λυούσης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which agrees with τοῖς in τοῖς ___?",
+          "choices": [
+            {
+              "text": "λέγοντος",
+              "correct": false,
+              "feedback": "“λέγοντος” does not answer this question. τοῖς requires dative plural λέγουσι."
+            },
+            {
+              "text": "λέγουσι",
+              "correct": true,
+              "feedback": "Correct. τοῖς requires dative plural λέγουσι."
+            },
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. τοῖς requires dative plural λέγουσι."
+            },
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. τοῖς requires dative plural λέγουσι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "What happens to ντ before σ in λύουσι?",
+          "choices": [
+            {
+              "text": "σ changes to τ",
+              "correct": false,
+              "feedback": "“σ changes to τ” does not answer this question. Loss of ντ before σ produces the long vowel written ου."
+            },
+            {
+              "text": "the form becomes an infinitive",
+              "correct": false,
+              "feedback": "“the form becomes an infinitive” does not answer this question. Loss of ντ before σ produces the long vowel written ου."
+            },
+            {
+              "text": "ντ disappears and the vowel lengthens",
+              "correct": true,
+              "feedback": "Correct. Loss of ντ before σ produces the long vowel written ου."
+            },
+            {
+              "text": "ντ remains unchanged",
+              "correct": false,
+              "feedback": "“ντ remains unchanged” does not answer this question. Loss of ντ before σ produces the long vowel written ου."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which form can be neuter nominative or accusative plural?",
+          "choices": [
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. Neuter plural nominative and accusative both use -οντα."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. Neuter plural nominative and accusative both use -οντα."
+            },
+            {
+              "text": "λύουσι",
+              "correct": false,
+              "feedback": "“λύουσι” does not answer this question. Neuter plural nominative and accusative both use -οντα."
+            },
+            {
+              "text": "λύοντα",
+              "correct": true,
+              "feedback": "Correct. Neuter plural nominative and accusative both use -οντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Who is listening in ὁ Λάχης ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "Laches",
+              "correct": true,
+              "feedback": "Correct. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "Nicias alone",
+              "correct": false,
+              "feedback": "“Nicias alone” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "the enemies",
+              "correct": false,
+              "feedback": "“the enemies” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "the city",
+              "correct": false,
+              "feedback": "“the city” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which completes οἱ ___ ἱππεῖς?",
+          "choices": [
+            {
+              "text": "φεῦγον",
+              "correct": false,
+              "feedback": "“φεῦγον” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγοντες",
+              "correct": true,
+              "feedback": "Correct. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγων",
+              "correct": false,
+              "feedback": "“φεύγων” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγουσα",
+              "correct": false,
+              "feedback": "“φεύγουσα” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which completes ἡ γυνὴ ___?",
+          "choices": [
+            {
+              "text": "λέγοντα",
+              "correct": false,
+              "feedback": "“λέγοντα” does not answer this question. The woman requires feminine nominative singular."
+            },
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. The woman requires feminine nominative singular."
+            },
+            {
+              "text": "λέγουσα",
+              "correct": true,
+              "feedback": "Correct. The woman requires feminine nominative singular."
+            },
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. The woman requires feminine nominative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which describes τὰ παιδία?",
+          "choices": [
+            {
+              "text": "παίζων",
+              "correct": false,
+              "feedback": "“παίζων” does not answer this question. The children are neuter plural."
+            },
+            {
+              "text": "παίζουσα",
+              "correct": false,
+              "feedback": "“παίζουσα” does not answer this question. The children are neuter plural."
+            },
+            {
+              "text": "παίζοντος",
+              "correct": false,
+              "feedback": "“παίζοντος” does not answer this question. The children are neuter plural."
+            },
+            {
+              "text": "παίζοντα",
+              "correct": true,
+              "feedback": "Correct. The children are neuter plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which article belongs before masculine accusative singular λέγοντα?",
+          "choices": [
+            {
+              "text": "τὸν",
+              "correct": true,
+              "feedback": "Correct. τὸν marks masculine accusative singular."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "“ὁ” does not answer this question. τὸν marks masculine accusative singular."
+            },
+            {
+              "text": "οἱ",
+              "correct": false,
+              "feedback": "“οἱ” does not answer this question. τὸν marks masculine accusative singular."
+            },
+            {
+              "text": "ταῖς",
+              "correct": false,
+              "feedback": "“ταῖς” does not answer this question. τὸν marks masculine accusative singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "What should determine a participle’s attachment first?",
+          "choices": [
+            {
+              "text": "whether its action seems heroic",
+              "correct": false,
+              "feedback": "“whether its action seems heroic” does not answer this question. Agreement identifies the participant grammatically."
+            },
+            {
+              "text": "matching gender, number, and case",
+              "correct": true,
+              "feedback": "Correct. Agreement identifies the participant grammatically."
+            },
+            {
+              "text": "the nearest punctuation mark",
+              "correct": false,
+              "feedback": "“the nearest punctuation mark” does not answer this question. Agreement identifies the participant grammatically."
+            },
+            {
+              "text": "the English word order alone",
+              "correct": false,
+              "feedback": "“the English word order alone” does not answer this question. Agreement identifies the participant grammatically."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What use is οἱ φεύγοντες without an expressed noun?",
+          "choices": [
+            {
+              "text": "infinitive",
+              "correct": false,
+              "feedback": "“infinitive” does not answer this question. The article makes the participle name the people."
+            },
+            {
+              "text": "possessive adjective",
+              "correct": false,
+              "feedback": "“possessive adjective” does not answer this question. The article makes the participle name the people."
+            },
+            {
+              "text": "substantival",
+              "correct": true,
+              "feedback": "Correct. The article makes the participle name the people."
+            },
+            {
+              "text": "finite indicative",
+              "correct": false,
+              "feedback": "“finite indicative” does not answer this question. The article makes the participle name the people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What use is οἱ ὑποχωροῦντες ἱππεῖς?",
+          "choices": [
+            {
+              "text": "impersonal",
+              "correct": false,
+              "feedback": "“impersonal” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "finite",
+              "correct": false,
+              "feedback": "“finite” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "future purpose",
+              "correct": false,
+              "feedback": "“future purpose” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "attributive",
+              "correct": true,
+              "feedback": "Correct. The participle specifies which horsemen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "How does ἀκούων function in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "simple accompanying circumstance",
+              "correct": true,
+              "feedback": "Correct. It supplies the action accompanying considering."
+            },
+            {
+              "text": "the finite main verb",
+              "correct": false,
+              "feedback": "“the finite main verb” does not answer this question. It supplies the action accompanying considering."
+            },
+            {
+              "text": "a genitive possessor",
+              "correct": false,
+              "feedback": "“a genitive possessor” does not answer this question. It supplies the action accompanying considering."
+            },
+            {
+              "text": "a future promise",
+              "correct": false,
+              "feedback": "“a future promise” does not answer this question. It supplies the action accompanying considering."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "Which has middle participial form?",
+          "choices": [
+            {
+              "text": "διώκων",
+              "correct": false,
+              "feedback": "“διώκων” does not answer this question. -όμενος is the present middle pattern."
+            },
+            {
+              "text": "μαχόμενος",
+              "correct": true,
+              "feedback": "Correct. -όμενος is the present middle pattern."
+            },
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. -όμενος is the present middle pattern."
+            },
+            {
+              "text": "φεύγων",
+              "correct": false,
+              "feedback": "“φεύγων” does not answer this question. -όμενος is the present middle pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "Which has active participial form?",
+          "choices": [
+            {
+              "text": "διαλεγόμενος",
+              "correct": false,
+              "feedback": "“διαλεγόμενος” does not answer this question. διώκων is an active -ων participle."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "“πορευόμενος” does not answer this question. διώκων is an active -ων participle."
+            },
+            {
+              "text": "διώκων",
+              "correct": true,
+              "feedback": "Correct. διώκων is an active -ων participle."
+            },
+            {
+              "text": "μαχόμενος",
+              "correct": false,
+              "feedback": "“μαχόμενος” does not answer this question. διώκων is an active -ων participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What does τὸν λέγοντα mean?",
+          "choices": [
+            {
+              "text": "the speakers as subjects",
+              "correct": false,
+              "feedback": "“the speakers as subjects” does not answer this question. The article plus accusative participle names the speaker."
+            },
+            {
+              "text": "to speak",
+              "correct": false,
+              "feedback": "“to speak” does not answer this question. The article plus accusative participle names the speaker."
+            },
+            {
+              "text": "he will speak",
+              "correct": false,
+              "feedback": "“he will speak” does not answer this question. The article plus accusative participle names the speaker."
+            },
+            {
+              "text": "the speaker as object",
+              "correct": true,
+              "feedback": "Correct. The article plus accusative participle names the speaker."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What is the finite verb in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "σκέπτεται",
+              "correct": true,
+              "feedback": "Correct. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "ἀκούων",
+              "correct": false,
+              "feedback": "“ἀκούων” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "both words",
+              "correct": false,
+              "feedback": "“both words” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "neither word",
+              "correct": false,
+              "feedback": "“neither word” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "When does listening occur in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "necessarily tomorrow",
+              "correct": false,
+              "feedback": "“necessarily tomorrow” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "while he considers",
+              "correct": true,
+              "feedback": "Correct. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "only after he stops considering",
+              "correct": false,
+              "feedback": "“only after he stops considering” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "in a completed earlier event",
+              "correct": false,
+              "feedback": "“in a completed earlier event” does not answer this question. The present participle adds simultaneous ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What does φεύγοντες μάχονται say?",
+          "choices": [
+            {
+              "text": "they will flee but never fight",
+              "correct": false,
+              "feedback": "“they will flee but never fight” does not answer this question. The participle and main verb describe simultaneous actions."
+            },
+            {
+              "text": "they order others to flee",
+              "correct": false,
+              "feedback": "“they order others to flee” does not answer this question. The participle and main verb describe simultaneous actions."
+            },
+            {
+              "text": "they fight while fleeing",
+              "correct": true,
+              "feedback": "Correct. The participle and main verb describe simultaneous actions."
+            },
+            {
+              "text": "they finish fleeing before fighting",
+              "correct": false,
+              "feedback": "“they finish fleeing before fighting” does not answer this question. The participle and main verb describe simultaneous actions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "Does μένων alone mean “he remains”?",
+          "choices": [
+            {
+              "text": "yes; it is a finite third-person singular",
+              "correct": false,
+              "feedback": "“yes; it is a finite third-person singular” does not answer this question. μένων is a participle, not a finite verb."
+            },
+            {
+              "text": "yes; it is a future verb",
+              "correct": false,
+              "feedback": "“yes; it is a future verb” does not answer this question. μένων is a participle, not a finite verb."
+            },
+            {
+              "text": "no; it means to have remained",
+              "correct": false,
+              "feedback": "“no; it means to have remained” does not answer this question. μένων is a participle, not a finite verb."
+            },
+            {
+              "text": "no; it means remaining and needs a sentence frame",
+              "correct": true,
+              "feedback": "Correct. μένων is a participle, not a finite verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "Which best describes present-participle aspect?",
+          "choices": [
+            {
+              "text": "ongoing action",
+              "correct": true,
+              "feedback": "Correct. Present participles describe ongoing action."
+            },
+            {
+              "text": "completed action as a whole",
+              "correct": false,
+              "feedback": "“completed action as a whole” does not answer this question. Present participles describe ongoing action."
+            },
+            {
+              "text": "a command",
+              "correct": false,
+              "feedback": "“a command” does not answer this question. Present participles describe ongoing action."
+            },
+            {
+              "text": "a guaranteed future outcome",
+              "correct": false,
+              "feedback": "“a guaranteed future outcome” does not answer this question. Present participles describe ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-grammar-exercises-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What can φεύγοντες alone establish about courage?",
+          "choices": [
+            {
+              "text": "that Laches has solved the dialogue",
+              "correct": false,
+              "feedback": "“that Laches has solved the dialogue” does not answer this question. Grammar identifies the action; ethical judgment needs context."
+            },
+            {
+              "text": "the action described, not its ethical value",
+              "correct": true,
+              "feedback": "Correct. Grammar identifies the action; ethical judgment needs context."
+            },
+            {
+              "text": "that all fleeing is cowardly",
+              "correct": false,
+              "feedback": "“that all fleeing is cowardly” does not answer this question. Grammar identifies the action; ethical judgment needs context."
+            },
+            {
+              "text": "that all fleeing is brave",
+              "correct": false,
+              "feedback": "“that all fleeing is brave” does not answer this question. Grammar identifies the action; ethical judgment needs context."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 17 Final Quiz — Must the Brave Always Stand Firm?",
+      "description": "Lesson 17 Final Quiz — Must the Brave Always Stand Firm?",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-17-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-17-final-quiz-001",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who proposes holding one’s position as an example of courage?",
+          "choices": [
+            {
+              "text": "Laches",
+              "correct": true,
+              "feedback": "Correct. Laches supplies the first example."
+            },
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "“Cyrus” does not answer this question. Laches supplies the first example."
+            },
+            {
+              "text": "Nicias",
+              "correct": false,
+              "feedback": "“Nicias” does not answer this question. Laches supplies the first example."
+            },
+            {
+              "text": "Xenophon",
+              "correct": false,
+              "feedback": "“Xenophon” does not answer this question. Laches supplies the first example."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-002",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who tests the proposed example?",
+          "choices": [
+            {
+              "text": "the Great King",
+              "correct": false,
+              "feedback": "“the Great King” does not answer this question. Socrates asks whether it covers other brave actions."
+            },
+            {
+              "text": "Socrates",
+              "correct": true,
+              "feedback": "Correct. Socrates asks whether it covers other brave actions."
+            },
+            {
+              "text": "Clearchus",
+              "correct": false,
+              "feedback": "“Clearchus” does not answer this question. Socrates asks whether it covers other brave actions."
+            },
+            {
+              "text": "Epyaxa",
+              "correct": false,
+              "feedback": "“Epyaxa” does not answer this question. Socrates asks whether it covers other brave actions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-003",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the Scythians do in the adapted reading?",
+          "choices": [
+            {
+              "text": "join Cyrus at Tarsus",
+              "correct": false,
+              "feedback": "“join Cyrus at Tarsus” does not answer this question. Their movements challenge staying still as a universal requirement."
+            },
+            {
+              "text": "define courage as money",
+              "correct": false,
+              "feedback": "“define courage as money” does not answer this question. Their movements challenge staying still as a universal requirement."
+            },
+            {
+              "text": "fight while fleeing and pursuing",
+              "correct": true,
+              "feedback": "Correct. Their movements challenge staying still as a universal requirement."
+            },
+            {
+              "text": "refuse to use horses",
+              "correct": false,
+              "feedback": "“refuse to use horses” does not answer this question. Their movements challenge staying still as a universal requirement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-004",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which nonmilitary difficulties appear?",
+          "choices": [
+            {
+              "text": "a drought and an earthquake",
+              "correct": false,
+              "feedback": "“a drought and an earthquake” does not answer this question. The reading broadens courage to illness and poverty."
+            },
+            {
+              "text": "a shipwreck and a market riot",
+              "correct": false,
+              "feedback": "“a shipwreck and a market riot” does not answer this question. The reading broadens courage to illness and poverty."
+            },
+            {
+              "text": "royal succession and harvest taxes",
+              "correct": false,
+              "feedback": "“royal succession and harvest taxes” does not answer this question. The reading broadens courage to illness and poverty."
+            },
+            {
+              "text": "illness and poverty",
+              "correct": true,
+              "feedback": "Correct. The reading broadens courage to illness and poverty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-005",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Laches propose after the battlefield example?",
+          "choices": [
+            {
+              "text": "a kind of endurance",
+              "correct": true,
+              "feedback": "Correct. He next proposes καρτερία."
+            },
+            {
+              "text": "wealth alone",
+              "correct": false,
+              "feedback": "“wealth alone” does not answer this question. He next proposes καρτερία."
+            },
+            {
+              "text": "obedience to Cyrus",
+              "correct": false,
+              "feedback": "“obedience to Cyrus” does not answer this question. He next proposes καρτερία."
+            },
+            {
+              "text": "complete absence of danger",
+              "correct": false,
+              "feedback": "“complete absence of danger” does not answer this question. He next proposes καρτερία."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-006",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What question closes the reading?",
+          "choices": [
+            {
+              "text": "whether the Thirty leave Athens",
+              "correct": false,
+              "feedback": "“whether the Thirty leave Athens” does not answer this question. The ending asks about persistence and judgment."
+            },
+            {
+              "text": "whether persistence always acts rightly",
+              "correct": true,
+              "feedback": "Correct. The ending asks about persistence and judgment."
+            },
+            {
+              "text": "whether the Greeks cross the Euphrates",
+              "correct": false,
+              "feedback": "“whether the Greeks cross the Euphrates” does not answer this question. The ending asks about persistence and judgment."
+            },
+            {
+              "text": "who pays five minas",
+              "correct": false,
+              "feedback": "“who pays five minas” does not answer this question. The ending asks about persistence and judgment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-007",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How is the Greek dialogue presented?",
+          "choices": [
+            {
+              "text": "Xenophon’s eyewitness notes",
+              "correct": false,
+              "feedback": "“Xenophon’s eyewitness notes” does not answer this question. The source note clearly labels its adapted wording."
+            },
+            {
+              "text": "a preserved camp transcript",
+              "correct": false,
+              "feedback": "“a preserved camp transcript” does not answer this question. The source note clearly labels its adapted wording."
+            },
+            {
+              "text": "newly simplified course adaptation",
+              "correct": true,
+              "feedback": "Correct. The source note clearly labels its adapted wording."
+            },
+            {
+              "text": "verbatim Plato in full",
+              "correct": false,
+              "feedback": "“verbatim Plato in full” does not answer this question. The source note clearly labels its adapted wording."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-008",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who is absent from the scene’s cast?",
+          "choices": [
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "“Socrates” does not answer this question. The comparison is not placed in Xenophon’s expedition."
+            },
+            {
+              "text": "Laches",
+              "correct": false,
+              "feedback": "“Laches” does not answer this question. The comparison is not placed in Xenophon’s expedition."
+            },
+            {
+              "text": "Nicias",
+              "correct": false,
+              "feedback": "“Nicias” does not answer this question. The comparison is not placed in Xenophon’s expedition."
+            },
+            {
+              "text": "Xenophon",
+              "correct": true,
+              "feedback": "Correct. The comparison is not placed in Xenophon’s expedition."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ἀνδρεία mean?",
+          "choices": [
+            {
+              "text": "courage",
+              "correct": true,
+              "feedback": "Correct. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            },
+            {
+              "text": "brave",
+              "correct": false,
+              "feedback": "“brave” does not answer this question. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "“judgment” does not answer this question. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. ἀνδρεία, ἀνδρείας, ἡ means courage."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἀνδρεῖος mean?",
+          "choices": [
+            {
+              "text": "flee",
+              "correct": false,
+              "feedback": "“flee” does not answer this question. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            },
+            {
+              "text": "brave",
+              "correct": true,
+              "feedback": "Correct. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            },
+            {
+              "text": "cowardly",
+              "correct": false,
+              "feedback": "“cowardly” does not answer this question. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            },
+            {
+              "text": "good, noble",
+              "correct": false,
+              "feedback": "“good, noble” does not answer this question. ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον means brave."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry δειλός mean?",
+          "choices": [
+            {
+              "text": "shared, common",
+              "correct": false,
+              "feedback": "“shared, common” does not answer this question. δειλός, δειλή, δειλόν means cowardly."
+            },
+            {
+              "text": "pursue",
+              "correct": false,
+              "feedback": "“pursue” does not answer this question. δειλός, δειλή, δειλόν means cowardly."
+            },
+            {
+              "text": "cowardly",
+              "correct": true,
+              "feedback": "Correct. δειλός, δειλή, δειλόν means cowardly."
+            },
+            {
+              "text": "endurance",
+              "correct": false,
+              "feedback": "“endurance” does not answer this question. δειλός, δειλή, δειλόν means cowardly."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ καρτερία mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "“judgment” does not answer this question. καρτερία, καρτερίας, ἡ means endurance."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. καρτερία, καρτερίας, ἡ means endurance."
+            },
+            {
+              "text": "retreat",
+              "correct": false,
+              "feedback": "“retreat” does not answer this question. καρτερία, καρτερίας, ἡ means endurance."
+            },
+            {
+              "text": "endurance",
+              "correct": true,
+              "feedback": "Correct. καρτερία, καρτερίας, ἡ means endurance."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ φρόνησις mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": true,
+              "feedback": "Correct. φρόνησις, φρονήσεως, ἡ means judgment."
+            },
+            {
+              "text": "good, noble",
+              "correct": false,
+              "feedback": "“good, noble” does not answer this question. φρόνησις, φρονήσεως, ἡ means judgment."
+            },
+            {
+              "text": "flee",
+              "correct": false,
+              "feedback": "“flee” does not answer this question. φρόνησις, φρονήσεως, ἡ means judgment."
+            },
+            {
+              "text": "persist",
+              "correct": false,
+              "feedback": "“persist” does not answer this question. φρόνησις, φρονήσεως, ἡ means judgment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry καλός mean?",
+          "choices": [
+            {
+              "text": "examine",
+              "correct": false,
+              "feedback": "“examine” does not answer this question. καλός, καλή, καλόν means good, noble."
+            },
+            {
+              "text": "good, noble",
+              "correct": true,
+              "feedback": "Correct. καλός, καλή, καλόν means good, noble."
+            },
+            {
+              "text": "shared, common",
+              "correct": false,
+              "feedback": "“shared, common” does not answer this question. καλός, καλή, καλόν means good, noble."
+            },
+            {
+              "text": "pursue",
+              "correct": false,
+              "feedback": "“pursue” does not answer this question. καλός, καλή, καλόν means good, noble."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is feminine nominative singular of μένω’s present participle?",
+          "choices": [
+            {
+              "text": "μένον",
+              "correct": false,
+              "feedback": "“μένον” does not answer this question. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "“μένει” does not answer this question. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένουσα",
+              "correct": true,
+              "feedback": "Correct. The feminine nominative singular uses -ουσα."
+            },
+            {
+              "text": "μένων",
+              "correct": false,
+              "feedback": "“μένων” does not answer this question. The feminine nominative singular uses -ουσα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-formation",
+          "prompt": "Which is neuter nominative singular of λύω’s participle?",
+          "choices": [
+            {
+              "text": "λύων",
+              "correct": false,
+              "feedback": "“λύων” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λύει",
+              "correct": false,
+              "feedback": "“λύει” does not answer this question. The neuter singular is λῦον."
+            },
+            {
+              "text": "λῦον",
+              "correct": true,
+              "feedback": "Correct. The neuter singular is λῦον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "What case is λέγοντος?",
+          "choices": [
+            {
+              "text": "genitive singular",
+              "correct": true,
+              "feedback": "Correct. -οντος is genitive singular."
+            },
+            {
+              "text": "nominative singular",
+              "correct": false,
+              "feedback": "“nominative singular” does not answer this question. -οντος is genitive singular."
+            },
+            {
+              "text": "accusative plural",
+              "correct": false,
+              "feedback": "“accusative plural” does not answer this question. -οντος is genitive singular."
+            },
+            {
+              "text": "dative plural",
+              "correct": false,
+              "feedback": "“dative plural” does not answer this question. -οντος is genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-declension",
+          "prompt": "Which is masculine accusative singular?",
+          "choices": [
+            {
+              "text": "λέγοντες",
+              "correct": false,
+              "feedback": "“λέγοντες” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντα",
+              "correct": true,
+              "feedback": "Correct. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγων",
+              "correct": false,
+              "feedback": "“λέγων” does not answer this question. The masculine accusative singular ends in -οντα."
+            },
+            {
+              "text": "λέγοντος",
+              "correct": false,
+              "feedback": "“λέγοντος” does not answer this question. The masculine accusative singular ends in -οντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Who is listening in ὁ Λάχης ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "the enemies",
+              "correct": false,
+              "feedback": "“the enemies” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "the city",
+              "correct": false,
+              "feedback": "“the city” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "Laches",
+              "correct": true,
+              "feedback": "Correct. ἀκούων agrees with masculine singular Λάχης."
+            },
+            {
+              "text": "Nicias alone",
+              "correct": false,
+              "feedback": "“Nicias alone” does not answer this question. ἀκούων agrees with masculine singular Λάχης."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-agreement",
+          "prompt": "Which completes οἱ ___ ἱππεῖς?",
+          "choices": [
+            {
+              "text": "φεύγων",
+              "correct": false,
+              "feedback": "“φεύγων” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγουσα",
+              "correct": false,
+              "feedback": "“φεύγουσα” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεῦγον",
+              "correct": false,
+              "feedback": "“φεῦγον” does not answer this question. The masculine nominative plural agrees with ἱππεῖς."
+            },
+            {
+              "text": "φεύγοντες",
+              "correct": true,
+              "feedback": "Correct. The masculine nominative plural agrees with ἱππεῖς."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What use is οἱ φεύγοντες without an expressed noun?",
+          "choices": [
+            {
+              "text": "substantival",
+              "correct": true,
+              "feedback": "Correct. The article makes the participle name the people."
+            },
+            {
+              "text": "finite indicative",
+              "correct": false,
+              "feedback": "“finite indicative” does not answer this question. The article makes the participle name the people."
+            },
+            {
+              "text": "infinitive",
+              "correct": false,
+              "feedback": "“infinitive” does not answer this question. The article makes the participle name the people."
+            },
+            {
+              "text": "possessive adjective",
+              "correct": false,
+              "feedback": "“possessive adjective” does not answer this question. The article makes the participle name the people."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-uses",
+          "prompt": "What use is οἱ ὑποχωροῦντες ἱππεῖς?",
+          "choices": [
+            {
+              "text": "future purpose",
+              "correct": false,
+              "feedback": "“future purpose” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "attributive",
+              "correct": true,
+              "feedback": "Correct. The participle specifies which horsemen."
+            },
+            {
+              "text": "impersonal",
+              "correct": false,
+              "feedback": "“impersonal” does not answer this question. The participle specifies which horsemen."
+            },
+            {
+              "text": "finite",
+              "correct": false,
+              "feedback": "“finite” does not answer this question. The participle specifies which horsemen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "What is the finite verb in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "both words",
+              "correct": false,
+              "feedback": "“both words” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "neither word",
+              "correct": false,
+              "feedback": "“neither word” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "σκέπτεται",
+              "correct": true,
+              "feedback": "Correct. σκέπτεται supplies person and the finite assertion."
+            },
+            {
+              "text": "ἀκούων",
+              "correct": false,
+              "feedback": "“ἀκούων” does not answer this question. σκέπτεται supplies person and the finite assertion."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "active-simultaneous",
+          "prompt": "When does listening occur in ἀκούων σκέπτεται?",
+          "choices": [
+            {
+              "text": "only after he stops considering",
+              "correct": false,
+              "feedback": "“only after he stops considering” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "in a completed earlier event",
+              "correct": false,
+              "feedback": "“in a completed earlier event” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "necessarily tomorrow",
+              "correct": false,
+              "feedback": "“necessarily tomorrow” does not answer this question. The present participle adds simultaneous ongoing action."
+            },
+            {
+              "text": "while he considers",
+              "correct": true,
+              "feedback": "Correct. The present participle adds simultaneous ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-025",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What difference drives Socrates’s inquiry?",
+          "choices": [
+            {
+              "text": "an example versus a definition covering the cases",
+              "correct": true,
+              "feedback": "Correct. One example may fail to define all courageous action."
+            },
+            {
+              "text": "a payment versus a tax",
+              "correct": false,
+              "feedback": "“a payment versus a tax” does not answer this question. One example may fail to define all courageous action."
+            },
+            {
+              "text": "a city versus a village",
+              "correct": false,
+              "feedback": "“a city versus a village” does not answer this question. One example may fail to define all courageous action."
+            },
+            {
+              "text": "a ship versus a horse",
+              "correct": false,
+              "feedback": "“a ship versus a horse” does not answer this question. One example may fail to define all courageous action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-026",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why mention retreating horsemen?",
+          "choices": [
+            {
+              "text": "to report Nicias’s promise",
+              "correct": false,
+              "feedback": "“to report Nicias’s promise” does not answer this question. They provide a counterexample to a universal condition."
+            },
+            {
+              "text": "to test whether standing still is always required",
+              "correct": true,
+              "feedback": "Correct. They provide a counterexample to a universal condition."
+            },
+            {
+              "text": "to prove no infantryman is brave",
+              "correct": false,
+              "feedback": "“to prove no infantryman is brave” does not answer this question. They provide a counterexample to a universal condition."
+            },
+            {
+              "text": "to date the expedition to 403",
+              "correct": false,
+              "feedback": "“to date the expedition to 403” does not answer this question. They provide a counterexample to a universal condition."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-027",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the extension to illness imply?",
+          "choices": [
+            {
+              "text": "poverty proves cowardice",
+              "correct": false,
+              "feedback": "“poverty proves cowardice” does not answer this question. Plato broadens the field of inquiry."
+            },
+            {
+              "text": "illness guarantees good judgment",
+              "correct": false,
+              "feedback": "“illness guarantees good judgment” does not answer this question. Plato broadens the field of inquiry."
+            },
+            {
+              "text": "courage can be examined outside warfare",
+              "correct": true,
+              "feedback": "Correct. Plato broadens the field of inquiry."
+            },
+            {
+              "text": "only soldiers experience illness",
+              "correct": false,
+              "feedback": "“only soldiers experience illness” does not answer this question. Plato broadens the field of inquiry."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-028",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What remains unsettled in the selection?",
+          "choices": [
+            {
+              "text": "whether Laches is a speaker",
+              "correct": false,
+              "feedback": "“whether Laches is a speaker” does not answer this question. The selection stops during the inquiry."
+            },
+            {
+              "text": "whether Socrates asks questions",
+              "correct": false,
+              "feedback": "“whether Socrates asks questions” does not answer this question. The selection stops during the inquiry."
+            },
+            {
+              "text": "whether the passage is Plato’s",
+              "correct": false,
+              "feedback": "“whether the passage is Plato’s” does not answer this question. The selection stops during the inquiry."
+            },
+            {
+              "text": "how endurance and judgment relate to courage",
+              "correct": true,
+              "feedback": "Correct. The selection stops during the inquiry."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-029",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should a reader avoid assuming about retreat?",
+          "choices": [
+            {
+              "text": "that its movement alone determines its ethical value",
+              "correct": true,
+              "feedback": "Correct. The lesson asks for contextual judgment."
+            },
+            {
+              "text": "that it can accompany fighting",
+              "correct": false,
+              "feedback": "“that it can accompany fighting” does not answer this question. The lesson asks for contextual judgment."
+            },
+            {
+              "text": "that it can have a purpose",
+              "correct": false,
+              "feedback": "“that it can have a purpose” does not answer this question. The lesson asks for contextual judgment."
+            },
+            {
+              "text": "that it requires interpretation",
+              "correct": false,
+              "feedback": "“that it requires interpretation” does not answer this question. The lesson asks for contextual judgment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-17-final-quiz-030",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What kind of evidence is the banner?",
+          "choices": [
+            {
+              "text": "a transcript of the dialogue",
+              "correct": false,
+              "feedback": "“a transcript of the dialogue” does not answer this question. The image is explicitly labeled as reconstructed."
+            },
+            {
+              "text": "an educational reconstruction",
+              "correct": true,
+              "feedback": "Correct. The image is explicitly labeled as reconstructed."
+            },
+            {
+              "text": "an ancient portrait from the conversation",
+              "correct": false,
+              "feedback": "“an ancient portrait from the conversation” does not answer this question. The image is explicitly labeled as reconstructed."
+            },
+            {
+              "text": "a photograph taken by Nicias",
+              "correct": false,
+              "feedback": "“a photograph taken by Nicias” does not answer this question. The image is explicitly labeled as reconstructed."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-16",
+    "title": "Epyaxa and the Army's Pay",
+    "fallbackUrl": "lesson.html?lesson=16&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-18",
+    "title": "The Soldiers Refuse to March",
+    "fallbackUrl": "lesson.html?lesson=18&page=1"
+  },
+  "contentRevision": "lesson-17-module-2-v1"
+}

@@ -1,0 +1,5005 @@
+{
+  "id": "lesson-19",
+  "number": 19,
+  "title": "The King's War and Cyrus's Promises",
+  "greekTitle": "Ὁ πρὸς τὸν βασιλέα πόλεμος",
+  "scope": "Sigmatic futures, -ίζω contract futures, contract-verb sigmatic futures, and middle futures",
+  "theme": "An explicit objective, promised rewards, and predictions before battle",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-19-banner.png",
+    "alt": "Educational reconstruction of Cyrus addressing Greek soldiers near the Euphrates",
+    "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-19-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-19-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-19-page-3",
+      "title": "Promises on the Road to Battle",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Promises and rewards",
+      "items": [
+        {
+          "greek": "ἡ ὑπόσχεσις",
+          "english": "promise (noun)",
+          "dictionaryForm": "ὑπόσχεσις, ὑποσχέσεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ὑπόσχεσις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὑπισχνέομαι",
+          "english": "promise (verb)",
+          "dictionaryForm": "ὑπισχνέομαι",
+          "status": "required vocabulary",
+          "lemma": "ὑπισχνέομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μνᾶ",
+          "english": "mina, unit of silver",
+          "dictionaryForm": "μνᾶ, μνᾶς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "μνᾶ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ στέφανος",
+          "english": "crown, wreath",
+          "dictionaryForm": "στέφανος, στεφάνου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "στέφανος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πλούσιος",
+          "english": "wealthy",
+          "dictionaryForm": "πλούσιος, πλουσία, πλούσιον",
+          "status": "required vocabulary",
+          "lemma": "πλούσιος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ νίκη",
+          "english": "victory",
+          "dictionaryForm": "νίκη, νίκης, ἡ",
+          "status": "required vocabulary",
+          "lemma": "νίκη",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βέβαιος",
+          "english": "certain, secure",
+          "dictionaryForm": "βέβαιος, βεβαία, βέβαιον",
+          "status": "required vocabulary",
+          "lemma": "βέβαιος",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Planning and future actions",
+      "items": [
+        {
+          "greek": "ἀκολουθέω",
+          "english": "follow",
+          "dictionaryForm": "ἀκολουθέω",
+          "status": "required vocabulary",
+          "lemma": "ἀκολουθέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βουλεύομαι",
+          "english": "deliberate",
+          "dictionaryForm": "βουλεύομαι",
+          "status": "required vocabulary",
+          "lemma": "βουλεύομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "παρασκευάζω",
+          "english": "prepare",
+          "dictionaryForm": "παρασκευάζω",
+          "status": "required vocabulary",
+          "lemma": "παρασκευάζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "νομίζω",
+          "english": "think, consider",
+          "dictionaryForm": "νομίζω",
+          "status": "required vocabulary",
+          "lemma": "νομίζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τιμάω",
+          "english": "honor",
+          "dictionaryForm": "τιμάω",
+          "status": "required vocabulary",
+          "lemma": "τιμάω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ποιέω",
+          "english": "make, do",
+          "dictionaryForm": "ποιέω",
+          "status": "required vocabulary",
+          "lemma": "ποιέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πορεύομαι",
+          "english": "march, travel",
+          "dictionaryForm": "πορεύομαι",
+          "status": "required vocabulary",
+          "lemma": "πορεύομαι",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "The river and battle",
+      "items": [
+        {
+          "greek": "ἡ διάβασις",
+          "english": "crossing",
+          "dictionaryForm": "διάβασις, διαβάσεως, ἡ",
+          "status": "required vocabulary",
+          "lemma": "διάβασις",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἐλευθερία",
+          "english": "freedom",
+          "dictionaryForm": "ἐλευθερία, ἐλευθερίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἐλευθερία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ λοχαγός",
+          "english": "captain",
+          "dictionaryForm": "λοχαγός, λοχαγοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "λοχαγός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ κραυγή",
+          "english": "shouting, cry",
+          "dictionaryForm": "κραυγή, κραυγῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "κραυγή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ Θάψακος",
+          "english": "Thapsacus",
+          "dictionaryForm": "Θάψακος, Θαψάκου, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "Θάψακος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Εὐφράτης",
+          "english": "Euphrates",
+          "dictionaryForm": "Εὐφράτης, Εὐφράτου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Εὐφράτης",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ Βαβυλών",
+          "english": "Babylon",
+          "dictionaryForm": "Βαβυλών, Βαβυλῶνος, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "Βαβυλών",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ Ἰωνία",
+          "english": "Ionia",
+          "dictionaryForm": "Ἰωνία, Ἰωνίας, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "Ἰωνία",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ πρὸς τὸν βασιλέα πόλεμος",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "At Thapsacus on the Euphrates, Cyrus at last publicly announces war against the Great King. The troops react to the disclosure and ask for rewards. A clearly separated second scene moves ahead to encouragement shortly before the battle.",
+      "Course adaptation of Xenophon, Anabasis 1.4.11–18 and 1.7.3–9. The announced objective, demand for compensation, five-mina promise, continuing pay, crossing, and later encouragement follow the sources. The simplified future speeches are new course wording, not quotations. Promises about wealth and victory are the speakers’ expectations, not the narrator’s guarantees.",
+      "Paragraphs 1–4 take place at Thapsacus. Paragraphs 5–7 jump ahead to the pre-battle meeting. Present verbs retell the scenes; future verbs present promises, predictions, and intentions. Irregular futures beyond the regular target are blue-glossed."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Κῦρος καὶ οἱ Ἕλληνες πρὸς τὴν Θάψακον ἔρχονται. ἡ πόλις παρὰ τῷ Εὐφράτῃ ποταμῷ ἐστίν. ἐνταῦθα ὁ Κῦρος φανερῶς λέγει· «πρὸς τὸν μέγαν βασιλέα πορευσόμεθα.»",
+        "gloss": [
+          {
+            "greek": "πρὸς τὴν Θάψακον",
+            "english": "to Thapsacus"
+          },
+          {
+            "greek": "παρὰ τῷ Εὐφράτῃ ποταμῷ",
+            "english": "beside the Euphrates River"
+          },
+          {
+            "greek": "ἐνταῦθα",
+            "english": "here"
+          },
+          {
+            "greek": "φανερῶς",
+            "english": "openly"
+          },
+          {
+            "greek": "πρὸς τὸν μέγαν βασιλέα",
+            "english": "against the Great King"
+          },
+          {
+            "greek": "πορευσόμεθα",
+            "english": "we shall march; middle future"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ στρατηγοὶ τοῖς στρατιώταις ἀγγέλλουσι τὸν τοῦ Κύρου λόγον. οἱ δὲ ὀργίζονται· «νῦν τὸν πόλεμον μανθάνομεν. οὐκ ἀκολουθήσομεν ἄνευ χρημάτων.» χρήματα οὖν αἰτοῦσι πρὸς τὸν μακρὸν δρόμον.",
+        "gloss": [
+          {
+            "greek": "ἀγγέλλουσι",
+            "english": "report"
+          },
+          {
+            "greek": "τὸν τοῦ Κύρου λόγον",
+            "english": "Cyrus’s statement"
+          },
+          {
+            "greek": "ὀργίζονται",
+            "english": "are angry; deponent"
+          },
+          {
+            "greek": "μανθάνομεν",
+            "english": "we learn"
+          },
+          {
+            "greek": "ἀκολουθήσομεν",
+            "english": "we shall follow; sigmatic future of contract verb"
+          },
+          {
+            "greek": "ἄνευ χρημάτων",
+            "english": "without money"
+          },
+          {
+            "greek": "πρὸς τὸν μακρὸν δρόμον",
+            "english": "for the long journey"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κῦρος ὑπισχνεῖται πέντε μνᾶς ἑκάστῳ στρατιώτῃ ἐν Βαβυλῶνι. «δώσω ὑμῖν χρήματα· καὶ μισθὸν παρέξω μέχρι τῆς εἰς τὴν Ἰωνίαν ἀφίξεως.» οἱ στρατιῶται τὴν ὑπόσχεσιν ἀκούουσιν.",
+        "gloss": [
+          {
+            "greek": "πέντε μνᾶς",
+            "english": "five minas; units of silver"
+          },
+          {
+            "greek": "ἑκάστῳ στρατιώτῃ",
+            "english": "to each soldier"
+          },
+          {
+            "greek": "ἐν Βαβυλῶνι",
+            "english": "at Babylon"
+          },
+          {
+            "greek": "δώσω",
+            "english": "I shall give; irregular future, supported"
+          },
+          {
+            "greek": "παρέξω",
+            "english": "I shall provide; future of παρέχω, supported"
+          },
+          {
+            "greek": "μέχρι τῆς εἰς τὴν Ἰωνίαν ἀφίξεως",
+            "english": "until the arrival back in Ionia"
+          },
+          {
+            "greek": "τὴν ὑπόσχεσιν",
+            "english": "the promise"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ Ἕλληνες διαβαίνουσι τὸν Εὐφράτην. οἱ δὲ τῆς πόλεως ἄνθρωποι τὴν διάβασιν θαυμάζουσιν· τὸ ὕδωρ οὐ βαθύ ἐστιν. ἡ στρατιὰ νῦν προχωρεῖ, καὶ ὁ πρὸς τὸν βασιλέα πόλεμος φανερός ἐστιν.",
+        "gloss": [
+          {
+            "greek": "διαβαίνουσι",
+            "english": "cross"
+          },
+          {
+            "greek": "τὸν Εὐφράτην",
+            "english": "the Euphrates"
+          },
+          {
+            "greek": "οἱ δὲ τῆς πόλεως ἄνθρωποι",
+            "english": "the people of the city"
+          },
+          {
+            "greek": "τὴν διάβασιν",
+            "english": "the crossing"
+          },
+          {
+            "greek": "τὸ ὕδωρ",
+            "english": "the water"
+          },
+          {
+            "greek": "βαθύ",
+            "english": "deep; neuter adjective"
+          },
+          {
+            "greek": "προχωρεῖ",
+            "english": "advances"
+          },
+          {
+            "greek": "φανερός",
+            "english": "openly known"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν ἄλλῳ τόπῳ, ὀλίγῳ χρόνῳ πρὸ τῆς μάχης, ὁ Κῦρος τοὺς στρατηγοὺς καὶ τοὺς λοχαγοὺς καλεῖ. λέγει· «ἄνδρες Ἕλληνες, ὑμᾶς τιμῶ καὶ τὴν ὑμετέραν ἐλευθερίαν θαυμάζω. νῦν περὶ τῆς μάχης βουλευσόμεθα.»",
+        "gloss": [
+          {
+            "greek": "Ἐν ἄλλῳ τόπῳ",
+            "english": "in another place; a separate later scene"
+          },
+          {
+            "greek": "ὀλίγῳ χρόνῳ πρὸ τῆς μάχης",
+            "english": "a short time before the battle"
+          },
+          {
+            "greek": "τοὺς λοχαγοὺς",
+            "english": "the captains"
+          },
+          {
+            "greek": "ὑμᾶς τιμῶ",
+            "english": "I honor you; contracted present"
+          },
+          {
+            "greek": "τὴν ὑμετέραν ἐλευθερίαν",
+            "english": "your freedom"
+          },
+          {
+            "greek": "βουλευσόμεθα",
+            "english": "we shall deliberate; middle future"
+          }
+        ]
+      },
+      {
+        "greek": "«Οἱ πολέμιοι πολλοί εἰσι καὶ μετὰ πολλῆς κραυγῆς μαχοῦνται. ὑμεῖς δὲ θαρρήσετε. ἐπὶ τῇ νίκῃ τοὺς φίλους πλουσίους ποιήσω καὶ χρυσοῦς στεφάνους δώσω.» οὕτως ὁ Κῦρος τοὺς ἀκούοντας θαρρύνει.",
+        "gloss": [
+          {
+            "greek": "μετὰ πολλῆς κραυγῆς",
+            "english": "with much shouting"
+          },
+          {
+            "greek": "μαχοῦνται",
+            "english": "will fight; contracted middle future of μάχομαι, supported"
+          },
+          {
+            "greek": "θαρρήσετε",
+            "english": "you will take courage; sigmatic future"
+          },
+          {
+            "greek": "ἐπὶ τῇ νίκῃ",
+            "english": "upon victory; the rewards depend on success"
+          },
+          {
+            "greek": "πλουσίους",
+            "english": "wealthy"
+          },
+          {
+            "greek": "ποιήσω",
+            "english": "I shall make; sigmatic future"
+          },
+          {
+            "greek": "χρυσοῦς στεφάνους",
+            "english": "golden crowns"
+          },
+          {
+            "greek": "τοὺς ἀκούοντας",
+            "english": "his listeners; accusative active participle"
+          },
+          {
+            "greek": "θαρρύνει",
+            "english": "encourages"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ μὲν χαίρουσιν, οἱ δὲ περὶ τῶν ὑποσχέσεων ἐρωτῶσιν· «ἆρα ὁ Κῦρος τὰ χρήματα παρέξει; τί ἕκαστος λήψεται;» οἱ στρατηγοὶ αὐτὸν κελεύουσι μὴ μάχεσθαι, ἀλλ᾽ ὄπισθεν μένειν. ἡ νίκη οὔπω βεβαία ἐστίν.",
+        "gloss": [
+          {
+            "greek": "τῶν ὑποσχέσεων",
+            "english": "the promises"
+          },
+          {
+            "greek": "ἆρα",
+            "english": "question marker"
+          },
+          {
+            "greek": "παρέξει",
+            "english": "will provide; supported future"
+          },
+          {
+            "greek": "ἕκαστος",
+            "english": "each person"
+          },
+          {
+            "greek": "λήψεται",
+            "english": "will receive; middle future of λαμβάνω, supported"
+          },
+          {
+            "greek": "κελεύουσι μὴ μάχεσθαι",
+            "english": "urge him not to fight; μή with infinitive"
+          },
+          {
+            "greek": "ὄπισθεν μένειν",
+            "english": "to remain behind"
+          },
+          {
+            "greek": "οὔπω βεβαία",
+            "english": "not yet certain"
+          }
+        ]
+      }
+    ],
+    "translation": "Cyrus and the Greeks come to Thapsacus. The city is beside the Euphrates River. Here Cyrus says openly, “We shall march against the Great King.”\n\nThe generals report Cyrus’s statement to the soldiers. They are angry: “Now we learn of the war. We shall not follow without money.” So they request money for the long journey.\n\nCyrus promises five minas to each soldier at Babylon. “I shall give you money, and I shall provide pay until the arrival back in Ionia.” The soldiers hear the promise.\n\nThe Greeks cross the Euphrates. The people of the city marvel at the crossing; the water is not deep. The army now advances, and the war against the King is openly known.\n\nIn another place, a short time before the battle, Cyrus summons the generals and captains. He says, “Men of Greece, I honor you and admire your freedom. Now we shall deliberate about the battle.”\n\n“The enemies are numerous and will fight with much shouting. But you will take courage. Upon victory I shall make my friends wealthy and give golden crowns.” In this way Cyrus encourages his listeners.\n\nSome rejoice, while others ask about the promises: “Will Cyrus provide the money? What will each person receive?” The generals urge him not to fight but to remain behind. Victory is not yet certain.\n",
+    "sourceCitation": "Xenophon, Anabasis 1.4.11–18 and 1.7.3–9. Controlled course adaptation; dialogue and teaching futures are newly supplied, not verbatim quotations. https://www.mikrosapoplous.gr/xenophon/anb3d10.htm https://www.mikrosapoplous.gr/xenophon/anb7d10.htm",
+    "notesMarkdown": "Course adaptation of Xenophon, Anabasis 1.4.11–18 and 1.7.3–9. The announced objective, demand for compensation, five-mina promise, continuing pay, crossing, and later encouragement follow the sources. The simplified future speeches are new course wording, not quotations. Promises about wealth and victory are the speakers’ expectations, not the narrator’s guarantees."
+  },
+  "wordStudy": {
+    "label": "Word Study — What a promise commits a speaker to",
+    "blocks": [
+      {
+        "title": "What a promise commits a speaker to",
+        "practiceTopic": "word-study",
+        "body": [
+          "ὑπισχνέομαι means promise; ἡ ὑπόσχεσις names a promise. The noun and verb describe different grammatical roles. Cyrus offers μνᾶς and στεφάνους, but describing an offer does not show that it has been fulfilled.",
+          "νίκη is victory and βέβαιος is certain or secure. ἡ νίκη οὔπω βεβαία ἐστίν deliberately contrasts present uncertainty with persuasive future wording. ἐπὶ τῇ νίκῃ marks rewards upon success, preserving a condition without assigning subjunctive grammar.",
+          "Future forms can belong to very different speech acts: πορευσόμεθα announces an intention, ποιήσω offers a promise, and μαχοῦνται predicts the enemy’s behavior. Use the speaker and context to distinguish them; the ending alone does not certify that a prediction will come true."
+        ],
+        "display": [
+          {
+            "greek": "ἡ ὑπόσχεσις",
+            "english": "the promise"
+          },
+          {
+            "greek": "ὑπισχνεῖται",
+            "english": "he promises"
+          },
+          {
+            "greek": "ἡ νίκη",
+            "english": "victory"
+          },
+          {
+            "greek": "οὔπω βεβαία",
+            "english": "not yet certain"
+          },
+          {
+            "greek": "ποιήσω",
+            "english": "I shall make"
+          },
+          {
+            "greek": "πορευσόμεθα",
+            "english": "we shall march"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Sigmatic futures, -ίζω contract futures, contract-verb sigmatic futures, and middle futures. Work through every section, read its examples and table, then practice by topic before the required grammar check. Supplementary examples are labeled and do not add incidents to the historical reading.",
+    "objectives": [
+      "Explain and apply Sigmatic Futures: Stem, Sigma, and Endings.",
+      "Explain and apply Contract Futures of Verbs in -ίζω.",
+      "Explain and apply Sigmatic Futures of Contract Verbs.",
+      "Explain and apply Deponents and Futures with Middle Form.",
+      "Explain and apply Prediction, Intention, and Promise."
+    ],
+    "sections": [
+      {
+        "id": "sigmatic-future",
+        "title": "1. Sigmatic Futures: Stem, Sigma, and Endings",
+        "practiceTopic": "sigmatic-future",
+        "body": [
+          "The regular future adds σ to a verb stem and uses primary endings. λύω becomes λύσω, “I shall release”; λυόμεθα becomes λυσόμεθα, “we shall release for ourselves.” There is no augment: future forms are not past-tense forms.",
+          "The active endings are -ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν), added after σ. Middle endings are -ομαι, -ῃ/-ει, -εται, -όμεθα, -εσθε, -ονται. In πορευσόμεθα the middle ending identifies first-person plural; the verb’s ordinary meaning is “travel.”",
+          "Consonants change before sigma: velars κ, γ, χ combine as ξ; labials π, β, φ as ψ; dentals τ, δ, θ disappear. Thus διώκω → διώξω, γράφω → γράψω, πείθω → πείσω. These are stem changes, not different future person endings."
+        ],
+        "table": {
+          "title": "1. Sigmatic Futures: Stem, Sigma, and Endings",
+          "headers": [
+            "Person or pattern",
+            "Active",
+            "Middle"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "first singular",
+              "λύσω",
+              "λύσομαι"
+            ],
+            [
+              "second singular",
+              "λύσεις",
+              "λύσῃ / λύσει"
+            ],
+            [
+              "third singular",
+              "λύσει",
+              "λύσεται"
+            ],
+            [
+              "first plural",
+              "λύσομεν",
+              "λυσόμεθα"
+            ],
+            [
+              "second plural",
+              "λύσετε",
+              "λύσεσθε"
+            ],
+            [
+              "third plural",
+              "λύσουσι(ν)",
+              "λύσονται"
+            ],
+            [
+              "velar + sigma",
+              "διώξω",
+              "—"
+            ],
+            [
+              "labial + sigma",
+              "γράψω",
+              "—"
+            ],
+            [
+              "dental + sigma",
+              "πείσω",
+              "—"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ στρατιῶται γράψουσιν.",
+            "english": "The soldiers will write (supplementary example)."
+          },
+          {
+            "greek": "περὶ τῆς μάχης βουλευσόμεθα.",
+            "english": "We shall deliberate about the battle."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which means “we shall release” in the active?",
+            "answer": "λύσομεν. Future active first-person plural is λύσομεν."
+          },
+          {
+            "prompt": "Which means “we shall travel”?",
+            "answer": "πορευσόμεθα. -σόμεθα marks future middle first-person plural."
+          }
+        ]
+      },
+      {
+        "id": "izo-future",
+        "title": "2. Contract Futures of Verbs in -ίζω",
+        "practiceTopic": "izo-future",
+        "body": [
+          "Many Attic verbs in -ίζω form an asigmatic contracted future. The present νομίζω gives future νομιῶ, νομιεῖς, νομιεῖ; plural νομιοῦμεν, νομιεῖτε, νομιοῦσι(ν). In the surface form there is no sigma: the stem contracts with future endings in -εω.",
+          "Compare νομίζω, “I think,” with νομιῶ, “I shall think.” The present’s ζ disappears and the contracted future has a circumflex in the first-person singular. Forms such as νομιεῖ mark contraction, rather than a sigmatic future with a long vowel before σ.",
+          "This is a common Attic pattern, not a promise that every verb ending -ίζω behaves identically in every author. We assess the taught paradigm of νομίζω and its clear examples. Supplementary sentences about thought prepare readers to distinguish expectation from knowledge."
+        ],
+        "table": {
+          "title": "2. Contract Futures of Verbs in -ίζω",
+          "headers": [
+            "Person",
+            "Present",
+            "Future"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "first singular",
+              "νομίζω",
+              "νομιῶ"
+            ],
+            [
+              "second singular",
+              "νομίζεις",
+              "νομιεῖς"
+            ],
+            [
+              "third singular",
+              "νομίζει",
+              "νομιεῖ"
+            ],
+            [
+              "first plural",
+              "νομίζομεν",
+              "νομιοῦμεν"
+            ],
+            [
+              "second plural",
+              "νομίζετε",
+              "νομιεῖτε"
+            ],
+            [
+              "third plural",
+              "νομίζουσι(ν)",
+              "νομιοῦσι(ν)"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "νῦν νομίζω· αὔριον νομιῶ.",
+            "english": "I think now; I shall think tomorrow (supplementary example)."
+          },
+          {
+            "greek": "οἱ στρατιῶται τὸν μισθὸν καλὸν νομιοῦσιν.",
+            "english": "The soldiers will consider the pay good (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is the taught Attic future of νομίζω?",
+            "answer": "νομιῶ. The assigned active contract future is νομιῶ."
+          },
+          {
+            "prompt": "Which means “he will think”?",
+            "answer": "νομιεῖ. νομιεῖ is future third-person singular."
+          }
+        ]
+      },
+      {
+        "id": "contract-sigmatic",
+        "title": "3. Sigmatic Futures of Contract Verbs",
+        "practiceTopic": "contract-sigmatic",
+        "body": [
+          "Present contract verbs normally lengthen their stem vowel before future sigma. τιμάω gives τιμήσω; ποιέω gives ποιήσω; δηλόω gives δηλώσω. These are sigmatic futures even though their present verbs contract.",
+          "The pattern differs from the asigmatic contract future νομιῶ. In ποιήσω the η precedes a visible σ; in νομιῶ the future ending is contracted and there is no surface σ. Do not use the single word “contract” to collapse the two systems.",
+          "The reading has ἀκολουθήσομεν from ἀκολουθέω and θαρρήσετε from θαρρέω. Read lengthened vowel, sigma, and person ending together. The present τιμῶ contracts α + ω, whereas future τιμήσω retains its clear sigmatic structure."
+        ],
+        "table": {
+          "title": "3. Sigmatic Futures of Contract Verbs",
+          "headers": [
+            "Present dictionary form",
+            "Present first singular",
+            "Future first singular"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "τιμάω",
+              "τιμῶ",
+              "τιμήσω"
+            ],
+            [
+              "ποιέω",
+              "ποιῶ",
+              "ποιήσω"
+            ],
+            [
+              "δηλόω",
+              "δηλῶ",
+              "δηλώσω"
+            ],
+            [
+              "ἀκολουθέω",
+              "ἀκολουθῶ",
+              "ἀκολουθήσω"
+            ],
+            [
+              "θαρρέω",
+              "θαρρῶ",
+              "θαρρήσω"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οὐκ ἀκολουθήσομεν ἄνευ χρημάτων.",
+            "english": "We shall not follow without money."
+          },
+          {
+            "greek": "τοὺς φίλους πλουσίους ποιήσω.",
+            "english": "I shall make my friends wealthy."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is the future of τιμάω?",
+            "answer": "τιμήσω. α lengthens to η before future σ."
+          },
+          {
+            "prompt": "Which is the future of ποιέω?",
+            "answer": "ποιήσω. ε lengthens to η before future σ."
+          }
+        ]
+      },
+      {
+        "id": "middle-futures",
+        "title": "4. Deponents and Futures with Middle Form",
+        "practiceTopic": "middle-futures",
+        "body": [
+          "A future can have middle endings and an active English meaning. πορεύομαι → πορεύσομαι, “I shall travel”; βουλεύομαι → βουλεύσομαι, “I shall deliberate.” These verbs already have middle forms in the present. Learn the future with the dictionary entry.",
+          "Other familiar verbs change to middle form in the future: ἀκούω → ἀκούσομαι, “I shall hear”; λαμβάνω → λήψομαι, “I shall receive.” Their middle endings do not make them English passives. The future stem of λαμβάνω is irregular and is supplied rather than guessed from the present.",
+          "μάχομαι has the contracted middle future μαχοῦμαι, “I shall fight,” with μαχεῖται, “he will fight,” and μαχοῦνται, “they will fight.” Recognize this reading form as supported vocabulary. For all these verbs person comes from the ending and lexical meaning from the verb."
+        ],
+        "table": {
+          "title": "4. Deponents and Futures with Middle Form",
+          "headers": [
+            "Present",
+            "Future",
+            "Meaning"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "πορεύομαι",
+              "πορεύσομαι",
+              "I shall travel"
+            ],
+            [
+              "βουλεύομαι",
+              "βουλεύσομαι",
+              "I shall deliberate"
+            ],
+            [
+              "ἀκούω",
+              "ἀκούσομαι",
+              "I shall hear"
+            ],
+            [
+              "λαμβάνω",
+              "λήψομαι",
+              "I shall receive"
+            ],
+            [
+              "μάχομαι",
+              "μαχοῦμαι",
+              "I shall fight"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "πορευσόμεθα πρὸς τὸν βασιλέα.",
+            "english": "We shall march against the King."
+          },
+          {
+            "greek": "τί ἕκαστος λήψεται;",
+            "english": "What will each person receive?"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What does ἀκούσομαι mean?",
+            "answer": "I shall hear. ἀκούω has a middle-form future with active meaning."
+          },
+          {
+            "prompt": "What does λήψεται mean?",
+            "answer": "he will receive. The supported future of λαμβάνω has active English meaning."
+          }
+        ]
+      },
+      {
+        "id": "future-context",
+        "title": "5. Prediction, Intention, and Promise",
+        "practiceTopic": "future-context",
+        "body": [
+          "A future indicative places an action in expectation, but its practical force depends on context. πορευσόμεθα announces what Cyrus intends the expedition to do. ποιήσω promises what he undertakes to provide. μαχοῦνται predicts what the enemies will do.",
+          "Compare present and future: νῦν ἀκούομεν, “now we hear”; ἀκουσόμεθα, “we shall hear.” A future may be questioned or denied: ἆρα παρέξει; “will he provide?” οὐκ ἀκολουθήσομεν, “we shall not follow.” The future remains future inside a question or negative statement.",
+          "Separate the speaker’s commitment from a narrator’s account of events. Cyrus’s rewards depend on success, and the reading has not yet described the battle. A grammatically confident future does not provide evidence that the money, return, or victory will actually occur."
+        ],
+        "table": {
+          "title": "5. Prediction, Intention, and Promise",
+          "headers": [
+            "Statement",
+            "Kind of future",
+            "Reason"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "πορευσόμεθα πρὸς τὸν βασιλέα",
+              "intention",
+              "announces the planned campaign"
+            ],
+            [
+              "τοὺς φίλους πλουσίους ποιήσω",
+              "promise",
+              "speaker undertakes to reward"
+            ],
+            [
+              "οἱ πολέμιοι μαχοῦνται",
+              "prediction",
+              "expects another group’s action"
+            ],
+            [
+              "ἆρα παρέξει;",
+              "question about future",
+              "asks whether provision will occur"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "νῦν ἀκούομεν· αὔριον ἀκουσόμεθα.",
+            "english": "We hear now; we shall hear tomorrow (supplementary example)."
+          },
+          {
+            "greek": "ἡ νίκη οὔπω βεβαία ἐστίν.",
+            "english": "Victory is not yet certain."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What kind of statement is Cyrus’s “I shall make my friends wealthy”?",
+            "answer": "promise. The speaker undertakes to reward his friends."
+          },
+          {
+            "prompt": "What kind is “The enemies will fight”?",
+            "answer": "prediction. It predicts another group’s conduct."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Sigmatic Futures: Stem, Sigma, and Endings: The regular future adds σ to a verb stem and uses primary endings. λύω becomes λύσω, “I shall release”; λυόμεθα becomes λυσόμεθα, “we shall release for ourselves.” There is no augment: future forms are not past-tense forms.",
+        "Contract Futures of Verbs in -ίζω: Many Attic verbs in -ίζω form an asigmatic contracted future. The present νομίζω gives future νομιῶ, νομιεῖς, νομιεῖ; plural νομιοῦμεν, νομιεῖτε, νομιοῦσι(ν). In the surface form there is no sigma: the stem contracts with future endings in -εω.",
+        "Sigmatic Futures of Contract Verbs: Present contract verbs normally lengthen their stem vowel before future sigma. τιμάω gives τιμήσω; ποιέω gives ποιήσω; δηλόω gives δηλώσω. These are sigmatic futures even though their present verbs contract.",
+        "Deponents and Futures with Middle Form: A future can have middle endings and an active English meaning. πορεύομαι → πορεύσομαι, “I shall travel”; βουλεύομαι → βουλεύσομαι, “I shall deliberate.” These verbs already have middle forms in the present. Learn the future with the dictionary entry.",
+        "Prediction, Intention, and Promise: A future indicative places an action in expectation, but its practical force depends on context. πορευσόμεθα announces what Cyrus intends the expedition to do. ποιήσω promises what he undertakes to provide. μαχοῦνται predicts what the enemies will do."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Promises on the Road to Battle",
+    "banner": {
+      "image": "assets/lesson-19-banner.png",
+      "alt": "Educational reconstruction of Cyrus addressing Greek soldiers near the Euphrates",
+      "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Disclosure at Thapsacus",
+        "body": [
+          "At Anabasis 1.4.11 Cyrus tells the Greek commanders that the march is against the Great King and asks them to relay it. The soldiers are angry with their generals and say that they had known the objective but concealed it. Xenophon reports their accusation; the course does not convert that accusation into proof of what every commander knew.",
+          "The soldiers demand an offer comparable to what they expected from earlier service. Cyrus promises five minas of silver to each upon reaching Babylon and full pay until he brings the Greeks back to Ionia. They accept and cross. The chronological contrast with Tarsus is essential: suspicion there becomes explicit disclosure here."
+        ]
+      },
+      {
+        "title": "Crossing and reported interpretation",
+        "body": [
+          "Xenophon says the Euphrates can be forded at this crossing. The people of Thapsacus report that previously it had not been passable on foot and interpret its apparent submission to Cyrus as a sign that he should rule. These are the inhabitants’ reported words and interpretation, not a verified miracle or a hydrological rule for every year.",
+          "The adapted Greek retains the shallow water and their astonishment while omitting complex supernatural claims. Crossing the river changes the army’s practical situation, but the reading does not yet give the outcome of the royal contest. A source can record what people regard as a sign without endorsing that sign as a guarantee."
+        ]
+      },
+      {
+        "title": "Persuasion shortly before the battle",
+        "body": [
+          "The second source scene, Anabasis 1.7.3–9, takes place later, near the approaching battle. Cyrus praises the Greeks and their freedom, describes the enemies’ numbers and noise, and offers rewards. His comparative claims about peoples are persuasive claims by a commander, not objective rankings of human worth.",
+          "Gaulites reports doubts about whether Cyrus will remember or be able to fulfill his offers. Cyrus answers with the resources of the empire and promises golden crowns; those speaking with him also urge him to avoid fighting personally and to remain behind them. The army’s encouragement coexists with uncertainty about the patron and his choices."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "When is the King publicly announced as the target?",
+        "answer": "At Thapsacus in Anabasis 1.4.11, after Tarsus’s unresolved suspicion."
+      },
+      {
+        "prompt": "What is promised at Thapsacus?",
+        "answer": "Five minas to each soldier at Babylon and continued pay until the return to Ionia."
+      },
+      {
+        "prompt": "Are the soldiers’ claims about their commanders’ knowledge proven here?",
+        "answer": "They are reported accusations; the lesson does not independently establish each commander’s knowledge."
+      },
+      {
+        "prompt": "What is the status of the river’s supposed submission to Cyrus?",
+        "answer": "It is a reported interpretation by Thapsacus’s inhabitants, not a verified miracle."
+      },
+      {
+        "prompt": "Why separate the two scenes?",
+        "answer": "They come from different stages: the disclosure and crossing, then a later pre-battle meeting."
+      },
+      {
+        "prompt": "What advice does Cyrus receive about his personal role?",
+        "answer": "He is urged to stay behind the Greeks rather than fight himself."
+      },
+      {
+        "prompt": "Which leadership decision in this lesson needs reasons beyond personal bravery?",
+        "answer": "Offering rewards must be assessed against the actual risk and ability to fulfill the offer."
+      },
+      {
+        "prompt": "How can the reading’s source boundary improve your interpretation?",
+        "answer": "Distinguish the author’s reported events and speeches from the course’s simplified wording, supplied examples, and ethical inferences."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the source and adaptation boundary: Xenophon, Anabasis 1.4.11–18 and 1.7.3–9.",
+        "Review sigmatic futures: stem, sigma, and endings using the worked examples.",
+        "Review contract futures of verbs in -ίζω using the worked examples.",
+        "Review sigmatic futures of contract verbs using the worked examples.",
+        "Review deponents and futures with middle form using the worked examples.",
+        "Review prediction, intention, and promise using the worked examples.",
+        "When is the King publicly announced as the target? At Thapsacus in Anabasis 1.4.11, after Tarsus’s unresolved suspicion.",
+        "What is promised at Thapsacus? Five minas to each soldier at Babylon and continued pay until the return to Ionia.",
+        "Are the soldiers’ claims about their commanders’ knowledge proven here? They are reported accusations; the lesson does not independently establish each commander’s knowledge."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 1.4.11–18; Greek and public-domain Dakyns translation",
+        "url": "https://www.mikrosapoplous.gr/xenophon/anb3d10.htm"
+      },
+      {
+        "title": "Xenophon, Anabasis 1.7.3–9; Greek and public-domain Dakyns translation",
+        "url": "https://www.mikrosapoplous.gr/xenophon/anb7d10.htm"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 19 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ ὑπόσχεσις",
+          "answer": "promise (noun) — ὑπόσχεσις, ὑποσχέσεως, ἡ"
+        },
+        {
+          "prompt": "ὑπισχνέομαι",
+          "answer": "promise (verb) — ὑπισχνέομαι"
+        },
+        {
+          "prompt": "ἡ μνᾶ",
+          "answer": "mina, unit of silver — μνᾶ, μνᾶς, ἡ"
+        },
+        {
+          "prompt": "ὁ στέφανος",
+          "answer": "crown, wreath — στέφανος, στεφάνου, ὁ"
+        },
+        {
+          "prompt": "πλούσιος",
+          "answer": "wealthy — πλούσιος, πλουσία, πλούσιον"
+        },
+        {
+          "prompt": "ἡ νίκη",
+          "answer": "victory — νίκη, νίκης, ἡ"
+        },
+        {
+          "prompt": "βέβαιος",
+          "answer": "certain, secure — βέβαιος, βεβαία, βέβαιον"
+        },
+        {
+          "prompt": "ἀκολουθέω",
+          "answer": "follow — ἀκολουθέω"
+        },
+        {
+          "prompt": "βουλεύομαι",
+          "answer": "deliberate — βουλεύομαι"
+        },
+        {
+          "prompt": "παρασκευάζω",
+          "answer": "prepare — παρασκευάζω"
+        },
+        {
+          "prompt": "νομίζω",
+          "answer": "think, consider — νομίζω"
+        },
+        {
+          "prompt": "τιμάω",
+          "answer": "honor — τιμάω"
+        },
+        {
+          "prompt": "ποιέω",
+          "answer": "make, do — ποιέω"
+        },
+        {
+          "prompt": "πορεύομαι",
+          "answer": "march, travel — πορεύομαι"
+        },
+        {
+          "prompt": "ἡ διάβασις",
+          "answer": "crossing — διάβασις, διαβάσεως, ἡ"
+        },
+        {
+          "prompt": "ἡ ἐλευθερία",
+          "answer": "freedom — ἐλευθερία, ἐλευθερίας, ἡ"
+        },
+        {
+          "prompt": "ὁ λοχαγός",
+          "answer": "captain — λοχαγός, λοχαγοῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ κραυγή",
+          "answer": "shouting, cry — κραυγή, κραυγῆς, ἡ"
+        },
+        {
+          "prompt": "ἡ Θάψακος",
+          "answer": "Thapsacus — Θάψακος, Θαψάκου, ἡ (reading vocabulary)"
+        },
+        {
+          "prompt": "ὁ Εὐφράτης",
+          "answer": "Euphrates — Εὐφράτης, Εὐφράτου, ὁ (reading vocabulary)"
+        },
+        {
+          "prompt": "ἡ Βαβυλών",
+          "answer": "Babylon — Βαβυλών, Βαβυλῶνος, ἡ (reading vocabulary)"
+        },
+        {
+          "prompt": "ἡ Ἰωνία",
+          "answer": "Ionia — Ἰωνία, Ἰωνίας, ἡ (reading vocabulary)"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 19 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Each required word has meaning and Greek-entry practice. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-19-vocab-001",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ὑπόσχεσις mean?",
+          "choices": [
+            {
+              "text": "promise (noun)",
+              "correct": true,
+              "feedback": "Correct. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            },
+            {
+              "text": "mina, unit of silver",
+              "correct": false,
+              "feedback": "“mina, unit of silver” does not answer this question. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "“victory” does not answer this question. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            },
+            {
+              "text": "deliberate",
+              "correct": false,
+              "feedback": "“deliberate” does not answer this question. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-002",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “promise (noun)”?",
+          "choices": [
+            {
+              "text": "βουλεύομαι",
+              "correct": false,
+              "feedback": "“βουλεύομαι” does not answer this question. ἡ ὑπόσχεσις is the entry for promise (noun)."
+            },
+            {
+              "text": "ἡ ὑπόσχεσις",
+              "correct": true,
+              "feedback": "Correct. ἡ ὑπόσχεσις is the entry for promise (noun)."
+            },
+            {
+              "text": "ἡ μνᾶ",
+              "correct": false,
+              "feedback": "“ἡ μνᾶ” does not answer this question. ἡ ὑπόσχεσις is the entry for promise (noun)."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "“ἡ νίκη” does not answer this question. ἡ ὑπόσχεσις is the entry for promise (noun)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-003",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὑπισχνέομαι mean?",
+          "choices": [
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. ὑπισχνέομαι means promise (verb)."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. ὑπισχνέομαι means promise (verb)."
+            },
+            {
+              "text": "promise (verb)",
+              "correct": true,
+              "feedback": "Correct. ὑπισχνέομαι means promise (verb)."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": false,
+              "feedback": "“crown, wreath” does not answer this question. ὑπισχνέομαι means promise (verb)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-004",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “promise (verb)”?",
+          "choices": [
+            {
+              "text": "ὁ στέφανος",
+              "correct": false,
+              "feedback": "“ὁ στέφανος” does not answer this question. ὑπισχνέομαι is the entry for promise (verb)."
+            },
+            {
+              "text": "βέβαιος",
+              "correct": false,
+              "feedback": "“βέβαιος” does not answer this question. ὑπισχνέομαι is the entry for promise (verb)."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "“παρασκευάζω” does not answer this question. ὑπισχνέομαι is the entry for promise (verb)."
+            },
+            {
+              "text": "ὑπισχνέομαι",
+              "correct": true,
+              "feedback": "Correct. ὑπισχνέομαι is the entry for promise (verb)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-005",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ μνᾶ mean?",
+          "choices": [
+            {
+              "text": "mina, unit of silver",
+              "correct": true,
+              "feedback": "Correct. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": false,
+              "feedback": "“crown, wreath” does not answer this question. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            },
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-006",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “mina, unit of silver”?",
+          "choices": [
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "“παρασκευάζω” does not answer this question. ἡ μνᾶ is the entry for mina, unit of silver."
+            },
+            {
+              "text": "ἡ μνᾶ",
+              "correct": true,
+              "feedback": "Correct. ἡ μνᾶ is the entry for mina, unit of silver."
+            },
+            {
+              "text": "ὁ στέφανος",
+              "correct": false,
+              "feedback": "“ὁ στέφανος” does not answer this question. ἡ μνᾶ is the entry for mina, unit of silver."
+            },
+            {
+              "text": "βέβαιος",
+              "correct": false,
+              "feedback": "“βέβαιος” does not answer this question. ἡ μνᾶ is the entry for mina, unit of silver."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-007",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ στέφανος mean?",
+          "choices": [
+            {
+              "text": "follow",
+              "correct": false,
+              "feedback": "“follow” does not answer this question. στέφανος, στεφάνου, ὁ means crown, wreath."
+            },
+            {
+              "text": "think, consider",
+              "correct": false,
+              "feedback": "“think, consider” does not answer this question. στέφανος, στεφάνου, ὁ means crown, wreath."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": true,
+              "feedback": "Correct. στέφανος, στεφάνου, ὁ means crown, wreath."
+            },
+            {
+              "text": "wealthy",
+              "correct": false,
+              "feedback": "“wealthy” does not answer this question. στέφανος, στεφάνου, ὁ means crown, wreath."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-008",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “crown, wreath”?",
+          "choices": [
+            {
+              "text": "πλούσιος",
+              "correct": false,
+              "feedback": "“πλούσιος” does not answer this question. ὁ στέφανος is the entry for crown, wreath."
+            },
+            {
+              "text": "ἀκολουθέω",
+              "correct": false,
+              "feedback": "“ἀκολουθέω” does not answer this question. ὁ στέφανος is the entry for crown, wreath."
+            },
+            {
+              "text": "νομίζω",
+              "correct": false,
+              "feedback": "“νομίζω” does not answer this question. ὁ στέφανος is the entry for crown, wreath."
+            },
+            {
+              "text": "ὁ στέφανος",
+              "correct": true,
+              "feedback": "Correct. ὁ στέφανος is the entry for crown, wreath."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry πλούσιος mean?",
+          "choices": [
+            {
+              "text": "wealthy",
+              "correct": true,
+              "feedback": "Correct. πλούσιος, πλουσία, πλούσιον means wealthy."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "“victory” does not answer this question. πλούσιος, πλουσία, πλούσιον means wealthy."
+            },
+            {
+              "text": "deliberate",
+              "correct": false,
+              "feedback": "“deliberate” does not answer this question. πλούσιος, πλουσία, πλούσιον means wealthy."
+            },
+            {
+              "text": "honor",
+              "correct": false,
+              "feedback": "“honor” does not answer this question. πλούσιος, πλουσία, πλούσιον means wealthy."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “wealthy”?",
+          "choices": [
+            {
+              "text": "τιμάω",
+              "correct": false,
+              "feedback": "“τιμάω” does not answer this question. πλούσιος is the entry for wealthy."
+            },
+            {
+              "text": "πλούσιος",
+              "correct": true,
+              "feedback": "Correct. πλούσιος is the entry for wealthy."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "“ἡ νίκη” does not answer this question. πλούσιος is the entry for wealthy."
+            },
+            {
+              "text": "βουλεύομαι",
+              "correct": false,
+              "feedback": "“βουλεύομαι” does not answer this question. πλούσιος is the entry for wealthy."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ νίκη mean?",
+          "choices": [
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. νίκη, νίκης, ἡ means victory."
+            },
+            {
+              "text": "make, do",
+              "correct": false,
+              "feedback": "“make, do” does not answer this question. νίκη, νίκης, ἡ means victory."
+            },
+            {
+              "text": "victory",
+              "correct": true,
+              "feedback": "Correct. νίκη, νίκης, ἡ means victory."
+            },
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. νίκη, νίκης, ἡ means victory."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “victory”?",
+          "choices": [
+            {
+              "text": "βέβαιος",
+              "correct": false,
+              "feedback": "“βέβαιος” does not answer this question. ἡ νίκη is the entry for victory."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "“παρασκευάζω” does not answer this question. ἡ νίκη is the entry for victory."
+            },
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "“ποιέω” does not answer this question. ἡ νίκη is the entry for victory."
+            },
+            {
+              "text": "ἡ νίκη",
+              "correct": true,
+              "feedback": "Correct. ἡ νίκη is the entry for victory."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry βέβαιος mean?",
+          "choices": [
+            {
+              "text": "certain, secure",
+              "correct": true,
+              "feedback": "Correct. βέβαιος, βεβαία, βέβαιον means certain, secure."
+            },
+            {
+              "text": "follow",
+              "correct": false,
+              "feedback": "“follow” does not answer this question. βέβαιος, βεβαία, βέβαιον means certain, secure."
+            },
+            {
+              "text": "think, consider",
+              "correct": false,
+              "feedback": "“think, consider” does not answer this question. βέβαιος, βεβαία, βέβαιον means certain, secure."
+            },
+            {
+              "text": "march, travel",
+              "correct": false,
+              "feedback": "“march, travel” does not answer this question. βέβαιος, βεβαία, βέβαιον means certain, secure."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “certain, secure”?",
+          "choices": [
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "“πορεύομαι” does not answer this question. βέβαιος is the entry for certain, secure."
+            },
+            {
+              "text": "βέβαιος",
+              "correct": true,
+              "feedback": "Correct. βέβαιος is the entry for certain, secure."
+            },
+            {
+              "text": "ἀκολουθέω",
+              "correct": false,
+              "feedback": "“ἀκολουθέω” does not answer this question. βέβαιος is the entry for certain, secure."
+            },
+            {
+              "text": "νομίζω",
+              "correct": false,
+              "feedback": "“νομίζω” does not answer this question. βέβαιος is the entry for certain, secure."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-015",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἀκολουθέω mean?",
+          "choices": [
+            {
+              "text": "honor",
+              "correct": false,
+              "feedback": "“honor” does not answer this question. ἀκολουθέω means follow."
+            },
+            {
+              "text": "crossing",
+              "correct": false,
+              "feedback": "“crossing” does not answer this question. ἀκολουθέω means follow."
+            },
+            {
+              "text": "follow",
+              "correct": true,
+              "feedback": "Correct. ἀκολουθέω means follow."
+            },
+            {
+              "text": "deliberate",
+              "correct": false,
+              "feedback": "“deliberate” does not answer this question. ἀκολουθέω means follow."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-016",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “follow”?",
+          "choices": [
+            {
+              "text": "βουλεύομαι",
+              "correct": false,
+              "feedback": "“βουλεύομαι” does not answer this question. ἀκολουθέω is the entry for follow."
+            },
+            {
+              "text": "τιμάω",
+              "correct": false,
+              "feedback": "“τιμάω” does not answer this question. ἀκολουθέω is the entry for follow."
+            },
+            {
+              "text": "ἡ διάβασις",
+              "correct": false,
+              "feedback": "“ἡ διάβασις” does not answer this question. ἀκολουθέω is the entry for follow."
+            },
+            {
+              "text": "ἀκολουθέω",
+              "correct": true,
+              "feedback": "Correct. ἀκολουθέω is the entry for follow."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-017",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry βουλεύομαι mean?",
+          "choices": [
+            {
+              "text": "deliberate",
+              "correct": true,
+              "feedback": "Correct. βουλεύομαι means deliberate."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. βουλεύομαι means deliberate."
+            },
+            {
+              "text": "make, do",
+              "correct": false,
+              "feedback": "“make, do” does not answer this question. βουλεύομαι means deliberate."
+            },
+            {
+              "text": "freedom",
+              "correct": false,
+              "feedback": "“freedom” does not answer this question. βουλεύομαι means deliberate."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-018",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “deliberate”?",
+          "choices": [
+            {
+              "text": "ἡ ἐλευθερία",
+              "correct": false,
+              "feedback": "“ἡ ἐλευθερία” does not answer this question. βουλεύομαι is the entry for deliberate."
+            },
+            {
+              "text": "βουλεύομαι",
+              "correct": true,
+              "feedback": "Correct. βουλεύομαι is the entry for deliberate."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": false,
+              "feedback": "“παρασκευάζω” does not answer this question. βουλεύομαι is the entry for deliberate."
+            },
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "“ποιέω” does not answer this question. βουλεύομαι is the entry for deliberate."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-019",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry παρασκευάζω mean?",
+          "choices": [
+            {
+              "text": "march, travel",
+              "correct": false,
+              "feedback": "“march, travel” does not answer this question. παρασκευάζω means prepare."
+            },
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "“captain” does not answer this question. παρασκευάζω means prepare."
+            },
+            {
+              "text": "prepare",
+              "correct": true,
+              "feedback": "Correct. παρασκευάζω means prepare."
+            },
+            {
+              "text": "think, consider",
+              "correct": false,
+              "feedback": "“think, consider” does not answer this question. παρασκευάζω means prepare."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-020",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “prepare”?",
+          "choices": [
+            {
+              "text": "νομίζω",
+              "correct": false,
+              "feedback": "“νομίζω” does not answer this question. παρασκευάζω is the entry for prepare."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "“πορεύομαι” does not answer this question. παρασκευάζω is the entry for prepare."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": false,
+              "feedback": "“ὁ λοχαγός” does not answer this question. παρασκευάζω is the entry for prepare."
+            },
+            {
+              "text": "παρασκευάζω",
+              "correct": true,
+              "feedback": "Correct. παρασκευάζω is the entry for prepare."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-021",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry νομίζω mean?",
+          "choices": [
+            {
+              "text": "think, consider",
+              "correct": true,
+              "feedback": "Correct. νομίζω means think, consider."
+            },
+            {
+              "text": "honor",
+              "correct": false,
+              "feedback": "“honor” does not answer this question. νομίζω means think, consider."
+            },
+            {
+              "text": "crossing",
+              "correct": false,
+              "feedback": "“crossing” does not answer this question. νομίζω means think, consider."
+            },
+            {
+              "text": "shouting, cry",
+              "correct": false,
+              "feedback": "“shouting, cry” does not answer this question. νομίζω means think, consider."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-022",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “think, consider”?",
+          "choices": [
+            {
+              "text": "ἡ κραυγή",
+              "correct": false,
+              "feedback": "“ἡ κραυγή” does not answer this question. νομίζω is the entry for think, consider."
+            },
+            {
+              "text": "νομίζω",
+              "correct": true,
+              "feedback": "Correct. νομίζω is the entry for think, consider."
+            },
+            {
+              "text": "τιμάω",
+              "correct": false,
+              "feedback": "“τιμάω” does not answer this question. νομίζω is the entry for think, consider."
+            },
+            {
+              "text": "ἡ διάβασις",
+              "correct": false,
+              "feedback": "“ἡ διάβασις” does not answer this question. νομίζω is the entry for think, consider."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-023",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry τιμάω mean?",
+          "choices": [
+            {
+              "text": "freedom",
+              "correct": false,
+              "feedback": "“freedom” does not answer this question. τιμάω means honor."
+            },
+            {
+              "text": "promise (noun)",
+              "correct": false,
+              "feedback": "“promise (noun)” does not answer this question. τιμάω means honor."
+            },
+            {
+              "text": "honor",
+              "correct": true,
+              "feedback": "Correct. τιμάω means honor."
+            },
+            {
+              "text": "make, do",
+              "correct": false,
+              "feedback": "“make, do” does not answer this question. τιμάω means honor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-024",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “honor”?",
+          "choices": [
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "“ποιέω” does not answer this question. τιμάω is the entry for honor."
+            },
+            {
+              "text": "ἡ ἐλευθερία",
+              "correct": false,
+              "feedback": "“ἡ ἐλευθερία” does not answer this question. τιμάω is the entry for honor."
+            },
+            {
+              "text": "ἡ ὑπόσχεσις",
+              "correct": false,
+              "feedback": "“ἡ ὑπόσχεσις” does not answer this question. τιμάω is the entry for honor."
+            },
+            {
+              "text": "τιμάω",
+              "correct": true,
+              "feedback": "Correct. τιμάω is the entry for honor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-025",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ποιέω mean?",
+          "choices": [
+            {
+              "text": "make, do",
+              "correct": true,
+              "feedback": "Correct. ποιέω means make, do."
+            },
+            {
+              "text": "march, travel",
+              "correct": false,
+              "feedback": "“march, travel” does not answer this question. ποιέω means make, do."
+            },
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "“captain” does not answer this question. ποιέω means make, do."
+            },
+            {
+              "text": "promise (verb)",
+              "correct": false,
+              "feedback": "“promise (verb)” does not answer this question. ποιέω means make, do."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-026",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “make, do”?",
+          "choices": [
+            {
+              "text": "ὑπισχνέομαι",
+              "correct": false,
+              "feedback": "“ὑπισχνέομαι” does not answer this question. ποιέω is the entry for make, do."
+            },
+            {
+              "text": "ποιέω",
+              "correct": true,
+              "feedback": "Correct. ποιέω is the entry for make, do."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "“πορεύομαι” does not answer this question. ποιέω is the entry for make, do."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": false,
+              "feedback": "“ὁ λοχαγός” does not answer this question. ποιέω is the entry for make, do."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-027",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "shouting, cry",
+              "correct": false,
+              "feedback": "“shouting, cry” does not answer this question. πορεύομαι means march, travel."
+            },
+            {
+              "text": "mina, unit of silver",
+              "correct": false,
+              "feedback": "“mina, unit of silver” does not answer this question. πορεύομαι means march, travel."
+            },
+            {
+              "text": "march, travel",
+              "correct": true,
+              "feedback": "Correct. πορεύομαι means march, travel."
+            },
+            {
+              "text": "crossing",
+              "correct": false,
+              "feedback": "“crossing” does not answer this question. πορεύομαι means march, travel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-028",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “march, travel”?",
+          "choices": [
+            {
+              "text": "ἡ διάβασις",
+              "correct": false,
+              "feedback": "“ἡ διάβασις” does not answer this question. πορεύομαι is the entry for march, travel."
+            },
+            {
+              "text": "ἡ κραυγή",
+              "correct": false,
+              "feedback": "“ἡ κραυγή” does not answer this question. πορεύομαι is the entry for march, travel."
+            },
+            {
+              "text": "ἡ μνᾶ",
+              "correct": false,
+              "feedback": "“ἡ μνᾶ” does not answer this question. πορεύομαι is the entry for march, travel."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": true,
+              "feedback": "Correct. πορεύομαι is the entry for march, travel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-029",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ διάβασις mean?",
+          "choices": [
+            {
+              "text": "crossing",
+              "correct": true,
+              "feedback": "Correct. διάβασις, διαβάσεως, ἡ means crossing."
+            },
+            {
+              "text": "freedom",
+              "correct": false,
+              "feedback": "“freedom” does not answer this question. διάβασις, διαβάσεως, ἡ means crossing."
+            },
+            {
+              "text": "promise (noun)",
+              "correct": false,
+              "feedback": "“promise (noun)” does not answer this question. διάβασις, διαβάσεως, ἡ means crossing."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": false,
+              "feedback": "“crown, wreath” does not answer this question. διάβασις, διαβάσεως, ἡ means crossing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-030",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “crossing”?",
+          "choices": [
+            {
+              "text": "ὁ στέφανος",
+              "correct": false,
+              "feedback": "“ὁ στέφανος” does not answer this question. ἡ διάβασις is the entry for crossing."
+            },
+            {
+              "text": "ἡ διάβασις",
+              "correct": true,
+              "feedback": "Correct. ἡ διάβασις is the entry for crossing."
+            },
+            {
+              "text": "ἡ ἐλευθερία",
+              "correct": false,
+              "feedback": "“ἡ ἐλευθερία” does not answer this question. ἡ διάβασις is the entry for crossing."
+            },
+            {
+              "text": "ἡ ὑπόσχεσις",
+              "correct": false,
+              "feedback": "“ἡ ὑπόσχεσις” does not answer this question. ἡ διάβασις is the entry for crossing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-031",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ἐλευθερία mean?",
+          "choices": [
+            {
+              "text": "promise (verb)",
+              "correct": false,
+              "feedback": "“promise (verb)” does not answer this question. ἐλευθερία, ἐλευθερίας, ἡ means freedom."
+            },
+            {
+              "text": "wealthy",
+              "correct": false,
+              "feedback": "“wealthy” does not answer this question. ἐλευθερία, ἐλευθερίας, ἡ means freedom."
+            },
+            {
+              "text": "freedom",
+              "correct": true,
+              "feedback": "Correct. ἐλευθερία, ἐλευθερίας, ἡ means freedom."
+            },
+            {
+              "text": "captain",
+              "correct": false,
+              "feedback": "“captain” does not answer this question. ἐλευθερία, ἐλευθερίας, ἡ means freedom."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-032",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “freedom”?",
+          "choices": [
+            {
+              "text": "ὁ λοχαγός",
+              "correct": false,
+              "feedback": "“ὁ λοχαγός” does not answer this question. ἡ ἐλευθερία is the entry for freedom."
+            },
+            {
+              "text": "ὑπισχνέομαι",
+              "correct": false,
+              "feedback": "“ὑπισχνέομαι” does not answer this question. ἡ ἐλευθερία is the entry for freedom."
+            },
+            {
+              "text": "πλούσιος",
+              "correct": false,
+              "feedback": "“πλούσιος” does not answer this question. ἡ ἐλευθερία is the entry for freedom."
+            },
+            {
+              "text": "ἡ ἐλευθερία",
+              "correct": true,
+              "feedback": "Correct. ἡ ἐλευθερία is the entry for freedom."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-033",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ λοχαγός mean?",
+          "choices": [
+            {
+              "text": "captain",
+              "correct": true,
+              "feedback": "Correct. λοχαγός, λοχαγοῦ, ὁ means captain."
+            },
+            {
+              "text": "shouting, cry",
+              "correct": false,
+              "feedback": "“shouting, cry” does not answer this question. λοχαγός, λοχαγοῦ, ὁ means captain."
+            },
+            {
+              "text": "mina, unit of silver",
+              "correct": false,
+              "feedback": "“mina, unit of silver” does not answer this question. λοχαγός, λοχαγοῦ, ὁ means captain."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "“victory” does not answer this question. λοχαγός, λοχαγοῦ, ὁ means captain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-034",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “captain”?",
+          "choices": [
+            {
+              "text": "ἡ νίκη",
+              "correct": false,
+              "feedback": "“ἡ νίκη” does not answer this question. ὁ λοχαγός is the entry for captain."
+            },
+            {
+              "text": "ὁ λοχαγός",
+              "correct": true,
+              "feedback": "Correct. ὁ λοχαγός is the entry for captain."
+            },
+            {
+              "text": "ἡ κραυγή",
+              "correct": false,
+              "feedback": "“ἡ κραυγή” does not answer this question. ὁ λοχαγός is the entry for captain."
+            },
+            {
+              "text": "ἡ μνᾶ",
+              "correct": false,
+              "feedback": "“ἡ μνᾶ” does not answer this question. ὁ λοχαγός is the entry for captain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-035",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ κραυγή mean?",
+          "choices": [
+            {
+              "text": "crown, wreath",
+              "correct": false,
+              "feedback": "“crown, wreath” does not answer this question. κραυγή, κραυγῆς, ἡ means shouting, cry."
+            },
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. κραυγή, κραυγῆς, ἡ means shouting, cry."
+            },
+            {
+              "text": "shouting, cry",
+              "correct": true,
+              "feedback": "Correct. κραυγή, κραυγῆς, ἡ means shouting, cry."
+            },
+            {
+              "text": "promise (noun)",
+              "correct": false,
+              "feedback": "“promise (noun)” does not answer this question. κραυγή, κραυγῆς, ἡ means shouting, cry."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-vocab-036",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “shouting, cry”?",
+          "choices": [
+            {
+              "text": "ἡ ὑπόσχεσις",
+              "correct": false,
+              "feedback": "“ἡ ὑπόσχεσις” does not answer this question. ἡ κραυγή is the entry for shouting, cry."
+            },
+            {
+              "text": "ὁ στέφανος",
+              "correct": false,
+              "feedback": "“ὁ στέφανος” does not answer this question. ἡ κραυγή is the entry for shouting, cry."
+            },
+            {
+              "text": "βέβαιος",
+              "correct": false,
+              "feedback": "“βέβαιος” does not answer this question. ἡ κραυγή is the entry for shouting, cry."
+            },
+            {
+              "text": "ἡ κραυγή",
+              "correct": true,
+              "feedback": "Correct. ἡ κραυγή is the entry for shouting, cry."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 19 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "οἱ στρατιῶται γράψουσιν.",
+          "answer": "The soldiers will write (supplementary example). — Sigmatic Futures: Stem, Sigma, and Endings"
+        },
+        {
+          "prompt": "περὶ τῆς μάχης βουλευσόμεθα.",
+          "answer": "We shall deliberate about the battle. — Sigmatic Futures: Stem, Sigma, and Endings"
+        },
+        {
+          "prompt": "νῦν νομίζω· αὔριον νομιῶ.",
+          "answer": "I think now; I shall think tomorrow (supplementary example). — Contract Futures of Verbs in -ίζω"
+        },
+        {
+          "prompt": "οἱ στρατιῶται τὸν μισθὸν καλὸν νομιοῦσιν.",
+          "answer": "The soldiers will consider the pay good (supplementary example). — Contract Futures of Verbs in -ίζω"
+        },
+        {
+          "prompt": "οὐκ ἀκολουθήσομεν ἄνευ χρημάτων.",
+          "answer": "We shall not follow without money. — Sigmatic Futures of Contract Verbs"
+        },
+        {
+          "prompt": "τοὺς φίλους πλουσίους ποιήσω.",
+          "answer": "I shall make my friends wealthy. — Sigmatic Futures of Contract Verbs"
+        },
+        {
+          "prompt": "πορευσόμεθα πρὸς τὸν βασιλέα.",
+          "answer": "We shall march against the King. — Deponents and Futures with Middle Form"
+        },
+        {
+          "prompt": "τί ἕκαστος λήψεται;",
+          "answer": "What will each person receive? — Deponents and Futures with Middle Form"
+        },
+        {
+          "prompt": "νῦν ἀκούομεν· αὔριον ἀκουσόμεθα.",
+          "answer": "We hear now; we shall hear tomorrow (supplementary example). — Prediction, Intention, and Promise"
+        },
+        {
+          "prompt": "ἡ νίκη οὔπω βεβαία ἐστίν.",
+          "answer": "Victory is not yet certain. — Prediction, Intention, and Promise"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 19 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar section. Every topic has at least six distinct questions with feedback.",
+      "questions": [
+        {
+          "id": "lesson-19-practice-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "How do ὑπισχνέομαι and ὑπόσχεσις differ grammatically?",
+          "choices": [
+            {
+              "text": "a verb of promising versus a noun naming a promise",
+              "correct": true,
+              "feedback": "Correct. The action verb and action noun serve different roles."
+            },
+            {
+              "text": "a future certainty versus a past failure",
+              "correct": false,
+              "feedback": "“a future certainty versus a past failure” does not answer this question. The action verb and action noun serve different roles."
+            },
+            {
+              "text": "a city versus a ship",
+              "correct": false,
+              "feedback": "“a city versus a ship” does not answer this question. The action verb and action noun serve different roles."
+            },
+            {
+              "text": "an imperative versus a question word",
+              "correct": false,
+              "feedback": "“an imperative versus a question word” does not answer this question. The action verb and action noun serve different roles."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does οὔπω βεβαία say of victory?",
+          "choices": [
+            {
+              "text": "it requires no judgment",
+              "correct": false,
+              "feedback": "“it requires no judgment” does not answer this question. The present situation remains uncertain despite confident futures."
+            },
+            {
+              "text": "it is not yet certain",
+              "correct": true,
+              "feedback": "Correct. The present situation remains uncertain despite confident futures."
+            },
+            {
+              "text": "it is already achieved",
+              "correct": false,
+              "feedback": "“it is already achieved” does not answer this question. The present situation remains uncertain despite confident futures."
+            },
+            {
+              "text": "it is impossible",
+              "correct": false,
+              "feedback": "“it is impossible” does not answer this question. The present situation remains uncertain despite confident futures."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does ἐπὶ τῇ νίκῃ preserve about rewards?",
+          "choices": [
+            {
+              "text": "their rejection by every soldier",
+              "correct": false,
+              "feedback": "“their rejection by every soldier” does not answer this question. The adapted phrase keeps the condition of success visible."
+            },
+            {
+              "text": "their payment to the King",
+              "correct": false,
+              "feedback": "“their payment to the King” does not answer this question. The adapted phrase keeps the condition of success visible."
+            },
+            {
+              "text": "their dependence on victory",
+              "correct": true,
+              "feedback": "Correct. The adapted phrase keeps the condition of success visible."
+            },
+            {
+              "text": "their delivery before the speech",
+              "correct": false,
+              "feedback": "“their delivery before the speech” does not answer this question. The adapted phrase keeps the condition of success visible."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which is an intention in the Word Study’s context?",
+          "choices": [
+            {
+              "text": "a guarantee of money already received",
+              "correct": false,
+              "feedback": "“a guarantee of money already received” does not answer this question. The future movement announces a planned campaign."
+            },
+            {
+              "text": "a report of yesterday’s victory",
+              "correct": false,
+              "feedback": "“a report of yesterday’s victory” does not answer this question. The future movement announces a planned campaign."
+            },
+            {
+              "text": "an order to cease all movement",
+              "correct": false,
+              "feedback": "“an order to cease all movement” does not answer this question. The future movement announces a planned campaign."
+            },
+            {
+              "text": "πορευσόμεθα against the King",
+              "correct": true,
+              "feedback": "Correct. The future movement announces a planned campaign."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which is a promise in Cyrus’s context?",
+          "choices": [
+            {
+              "text": "ποιήσω his friends wealthy",
+              "correct": true,
+              "feedback": "Correct. Cyrus undertakes a reward with ποιήσω."
+            },
+            {
+              "text": "μαχοῦνται describing the enemy",
+              "correct": false,
+              "feedback": "“μαχοῦνται describing the enemy” does not answer this question. Cyrus undertakes a reward with ποιήσω."
+            },
+            {
+              "text": "οὔπω βεβαία describing victory",
+              "correct": false,
+              "feedback": "“οὔπω βεβαία describing victory” does not answer this question. Cyrus undertakes a reward with ποιήσω."
+            },
+            {
+              "text": "νῦν μανθάνομεν describing learning",
+              "correct": false,
+              "feedback": "“νῦν μανθάνομεν describing learning” does not answer this question. Cyrus undertakes a reward with ποιήσω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does a στέφανος name in the reward offer?",
+          "choices": [
+            {
+              "text": "a battle captain",
+              "correct": false,
+              "feedback": "“a battle captain” does not answer this question. The crown is a reward object; naming it does not prove delivery."
+            },
+            {
+              "text": "a crown or wreath",
+              "correct": true,
+              "feedback": "Correct. The crown is a reward object; naming it does not prove delivery."
+            },
+            {
+              "text": "a silver mina",
+              "correct": false,
+              "feedback": "“a silver mina” does not answer this question. The crown is a reward object; naming it does not prove delivery."
+            },
+            {
+              "text": "a river crossing",
+              "correct": false,
+              "feedback": "“a river crossing” does not answer this question. The crown is a reward object; naming it does not prove delivery."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which means “we shall release” in the active?",
+          "choices": [
+            {
+              "text": "λύσετε",
+              "correct": false,
+              "feedback": "“λύσετε” does not answer this question. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύσονται",
+              "correct": false,
+              "feedback": "“λύσονται” does not answer this question. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύσομεν",
+              "correct": true,
+              "feedback": "Correct. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύομεν",
+              "correct": false,
+              "feedback": "“λύομεν” does not answer this question. Future active first-person plural is λύσομεν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which means “we shall travel”?",
+          "choices": [
+            {
+              "text": "πορευόμεθα",
+              "correct": false,
+              "feedback": "“πορευόμεθα” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορεύσεσθε",
+              "correct": false,
+              "feedback": "“πορεύσεσθε” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορεύσονται",
+              "correct": false,
+              "feedback": "“πορεύσονται” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορευσόμεθα",
+              "correct": true,
+              "feedback": "Correct. -σόμεθα marks future middle first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "What is the future of γράφω?",
+          "choices": [
+            {
+              "text": "γράψω",
+              "correct": true,
+              "feedback": "Correct. φ plus σ becomes ψ."
+            },
+            {
+              "text": "γράφσω",
+              "correct": false,
+              "feedback": "“γράφσω” does not answer this question. φ plus σ becomes ψ."
+            },
+            {
+              "text": "γράξω",
+              "correct": false,
+              "feedback": "“γράξω” does not answer this question. φ plus σ becomes ψ."
+            },
+            {
+              "text": "γράφω",
+              "correct": false,
+              "feedback": "“γράφω” does not answer this question. φ plus σ becomes ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "What is the future of διώκω?",
+          "choices": [
+            {
+              "text": "διώκω",
+              "correct": false,
+              "feedback": "“διώκω” does not answer this question. κ plus σ becomes ξ."
+            },
+            {
+              "text": "διώξω",
+              "correct": true,
+              "feedback": "Correct. κ plus σ becomes ξ."
+            },
+            {
+              "text": "διώκσω",
+              "correct": false,
+              "feedback": "“διώκσω” does not answer this question. κ plus σ becomes ξ."
+            },
+            {
+              "text": "διώψω",
+              "correct": false,
+              "feedback": "“διώψω” does not answer this question. κ plus σ becomes ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "What is the future of πείθω?",
+          "choices": [
+            {
+              "text": "πείψω",
+              "correct": false,
+              "feedback": "“πείψω” does not answer this question. The dental θ disappears before σ."
+            },
+            {
+              "text": "πείξω",
+              "correct": false,
+              "feedback": "“πείξω” does not answer this question. The dental θ disappears before σ."
+            },
+            {
+              "text": "πείσω",
+              "correct": true,
+              "feedback": "Correct. The dental θ disappears before σ."
+            },
+            {
+              "text": "πείθσω",
+              "correct": false,
+              "feedback": "“πείθσω” does not answer this question. The dental θ disappears before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which is future active third-person plural of λύω?",
+          "choices": [
+            {
+              "text": "λύουσι",
+              "correct": false,
+              "feedback": "“λύουσι” does not answer this question. The σ and -ουσι identify the future third-person plural."
+            },
+            {
+              "text": "λύσετε",
+              "correct": false,
+              "feedback": "“λύσετε” does not answer this question. The σ and -ουσι identify the future third-person plural."
+            },
+            {
+              "text": "λύσομεν",
+              "correct": false,
+              "feedback": "“λύσομεν” does not answer this question. The σ and -ουσι identify the future third-person plural."
+            },
+            {
+              "text": "λύσουσι",
+              "correct": true,
+              "feedback": "Correct. The σ and -ουσι identify the future third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which is the taught Attic future of νομίζω?",
+          "choices": [
+            {
+              "text": "νομιῶ",
+              "correct": true,
+              "feedback": "Correct. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομίζω",
+              "correct": false,
+              "feedback": "“νομίζω” does not answer this question. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομίσω",
+              "correct": false,
+              "feedback": "“νομίσω” does not answer this question. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομιοῦμαι",
+              "correct": false,
+              "feedback": "“νομιοῦμαι” does not answer this question. The assigned active contract future is νομιῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “he will think”?",
+          "choices": [
+            {
+              "text": "νομιοῦμεν",
+              "correct": false,
+              "feedback": "“νομιοῦμεν” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": true,
+              "feedback": "Correct. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομίζει",
+              "correct": false,
+              "feedback": "“νομίζει” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιεῖτε",
+              "correct": false,
+              "feedback": "“νομιεῖτε” does not answer this question. νομιεῖ is future third-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “we will think”?",
+          "choices": [
+            {
+              "text": "νομιεῖς",
+              "correct": false,
+              "feedback": "“νομιεῖς” does not answer this question. νομιοῦμεν is future first-person plural."
+            },
+            {
+              "text": "νομιοῦσι",
+              "correct": false,
+              "feedback": "“νομιοῦσι” does not answer this question. νομιοῦμεν is future first-person plural."
+            },
+            {
+              "text": "νομιοῦμεν",
+              "correct": true,
+              "feedback": "Correct. νομιοῦμεν is future first-person plural."
+            },
+            {
+              "text": "νομίζομεν",
+              "correct": false,
+              "feedback": "“νομίζομεν” does not answer this question. νομιοῦμεν is future first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "What is absent from surface νομιῶ?",
+          "choices": [
+            {
+              "text": "a finite ending",
+              "correct": false,
+              "feedback": "“a finite ending” does not answer this question. This is an asigmatic contracted future."
+            },
+            {
+              "text": "a future meaning",
+              "correct": false,
+              "feedback": "“a future meaning” does not answer this question. This is an asigmatic contracted future."
+            },
+            {
+              "text": "an accent",
+              "correct": false,
+              "feedback": "“an accent” does not answer this question. This is an asigmatic contracted future."
+            },
+            {
+              "text": "sigma",
+              "correct": true,
+              "feedback": "Correct. This is an asigmatic contracted future."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “you all will think”?",
+          "choices": [
+            {
+              "text": "νομιεῖτε",
+              "correct": true,
+              "feedback": "Correct. -εῖτε is second-person plural."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": false,
+              "feedback": "“νομιεῖ” does not answer this question. -εῖτε is second-person plural."
+            },
+            {
+              "text": "νομιεῖς",
+              "correct": false,
+              "feedback": "“νομιεῖς” does not answer this question. -εῖτε is second-person plural."
+            },
+            {
+              "text": "νομιοῦσι",
+              "correct": false,
+              "feedback": "“νομιοῦσι” does not answer this question. -εῖτε is second-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “they will think”?",
+          "choices": [
+            {
+              "text": "νομίζουσι",
+              "correct": false,
+              "feedback": "“νομίζουσι” does not answer this question. νομιοῦσι is future plural, unlike present νομίζουσι."
+            },
+            {
+              "text": "νομιοῦσι",
+              "correct": true,
+              "feedback": "Correct. νομιοῦσι is future plural, unlike present νομίζουσι."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": false,
+              "feedback": "“νομιεῖ” does not answer this question. νομιοῦσι is future plural, unlike present νομίζουσι."
+            },
+            {
+              "text": "νομιεῖτε",
+              "correct": false,
+              "feedback": "“νομιεῖτε” does not answer this question. νομιοῦσι is future plural, unlike present νομίζουσι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of τιμάω?",
+          "choices": [
+            {
+              "text": "τιμιῶ",
+              "correct": false,
+              "feedback": "“τιμιῶ” does not answer this question. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμάσω",
+              "correct": false,
+              "feedback": "“τιμάσω” does not answer this question. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμήσω",
+              "correct": true,
+              "feedback": "Correct. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμῶ",
+              "correct": false,
+              "feedback": "“τιμῶ” does not answer this question. α lengthens to η before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of ποιέω?",
+          "choices": [
+            {
+              "text": "ποιῶ",
+              "correct": false,
+              "feedback": "“ποιῶ” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιεῖ",
+              "correct": false,
+              "feedback": "“ποιεῖ” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιεῦμαι",
+              "correct": false,
+              "feedback": "“ποιεῦμαι” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιήσω",
+              "correct": true,
+              "feedback": "Correct. ε lengthens to η before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of δηλόω?",
+          "choices": [
+            {
+              "text": "δηλώσω",
+              "correct": true,
+              "feedback": "Correct. ο lengthens to ω before future σ."
+            },
+            {
+              "text": "δηλῶ",
+              "correct": false,
+              "feedback": "“δηλῶ” does not answer this question. ο lengthens to ω before future σ."
+            },
+            {
+              "text": "δηλοῖ",
+              "correct": false,
+              "feedback": "“δηλοῖ” does not answer this question. ο lengthens to ω before future σ."
+            },
+            {
+              "text": "δηλιῶ",
+              "correct": false,
+              "feedback": "“δηλιῶ” does not answer this question. ο lengthens to ω before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "What person is ἀκολουθήσομεν?",
+          "choices": [
+            {
+              "text": "third-person singular",
+              "correct": false,
+              "feedback": "“third-person singular” does not answer this question. -σομεν marks future active first-person plural."
+            },
+            {
+              "text": "first-person plural",
+              "correct": true,
+              "feedback": "Correct. -σομεν marks future active first-person plural."
+            },
+            {
+              "text": "first-person singular",
+              "correct": false,
+              "feedback": "“first-person singular” does not answer this question. -σομεν marks future active first-person plural."
+            },
+            {
+              "text": "second-person plural",
+              "correct": false,
+              "feedback": "“second-person plural” does not answer this question. -σομεν marks future active first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which form is sigmatic rather than an asigmatic contract future?",
+          "choices": [
+            {
+              "text": "νομιεῖ",
+              "correct": false,
+              "feedback": "“νομιεῖ” does not answer this question. ποιήσω visibly retains σ."
+            },
+            {
+              "text": "νομιοῦμεν",
+              "correct": false,
+              "feedback": "“νομιοῦμεν” does not answer this question. ποιήσω visibly retains σ."
+            },
+            {
+              "text": "ποιήσω",
+              "correct": true,
+              "feedback": "Correct. ποιήσω visibly retains σ."
+            },
+            {
+              "text": "νομιῶ",
+              "correct": false,
+              "feedback": "“νομιῶ” does not answer this question. ποιήσω visibly retains σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "What does θαρρήσετε mean?",
+          "choices": [
+            {
+              "text": "they take courage now",
+              "correct": false,
+              "feedback": "“they take courage now” does not answer this question. The form is future active second-person plural."
+            },
+            {
+              "text": "I took courage",
+              "correct": false,
+              "feedback": "“I took courage” does not answer this question. The form is future active second-person plural."
+            },
+            {
+              "text": "to take courage",
+              "correct": false,
+              "feedback": "“to take courage” does not answer this question. The form is future active second-person plural."
+            },
+            {
+              "text": "you all will take courage",
+              "correct": true,
+              "feedback": "Correct. The form is future active second-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does ἀκούσομαι mean?",
+          "choices": [
+            {
+              "text": "I shall hear",
+              "correct": true,
+              "feedback": "Correct. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "I shall be heard",
+              "correct": false,
+              "feedback": "“I shall be heard” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "they hear",
+              "correct": false,
+              "feedback": "“they hear” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "to hear",
+              "correct": false,
+              "feedback": "“to hear” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does λήψεται mean?",
+          "choices": [
+            {
+              "text": "he refuses",
+              "correct": false,
+              "feedback": "“he refuses” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "he will receive",
+              "correct": true,
+              "feedback": "Correct. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "he will be received",
+              "correct": false,
+              "feedback": "“he will be received” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "we receive",
+              "correct": false,
+              "feedback": "“we receive” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "Which means “they will travel”?",
+          "choices": [
+            {
+              "text": "πορευσόμεθα",
+              "correct": false,
+              "feedback": "“πορευσόμεθα” does not answer this question. Future middle third-person plural is -σονται."
+            },
+            {
+              "text": "πορεύσεσθε",
+              "correct": false,
+              "feedback": "“πορεύσεσθε” does not answer this question. Future middle third-person plural is -σονται."
+            },
+            {
+              "text": "πορεύσονται",
+              "correct": true,
+              "feedback": "Correct. Future middle third-person plural is -σονται."
+            },
+            {
+              "text": "πορεύονται",
+              "correct": false,
+              "feedback": "“πορεύονται” does not answer this question. Future middle third-person plural is -σονται."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "Which means “I shall deliberate”?",
+          "choices": [
+            {
+              "text": "βουλεύομαι",
+              "correct": false,
+              "feedback": "“βουλεύομαι” does not answer this question. The future adds σ to βουλευ- with middle endings."
+            },
+            {
+              "text": "βουλεύσεται",
+              "correct": false,
+              "feedback": "“βουλεύσεται” does not answer this question. The future adds σ to βουλευ- with middle endings."
+            },
+            {
+              "text": "βουλευόμεθα",
+              "correct": false,
+              "feedback": "“βουλευόμεθα” does not answer this question. The future adds σ to βουλευ- with middle endings."
+            },
+            {
+              "text": "βουλεύσομαι",
+              "correct": true,
+              "feedback": "Correct. The future adds σ to βουλευ- with middle endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does a middle future ending prove by itself?",
+          "choices": [
+            {
+              "text": "person and number, with voice form",
+              "correct": true,
+              "feedback": "Correct. The lexical meaning is learned separately."
+            },
+            {
+              "text": "that English must be passive",
+              "correct": false,
+              "feedback": "“that English must be passive” does not answer this question. The lexical meaning is learned separately."
+            },
+            {
+              "text": "that the promise is true",
+              "correct": false,
+              "feedback": "“that the promise is true” does not answer this question. The lexical meaning is learned separately."
+            },
+            {
+              "text": "that the action already happened",
+              "correct": false,
+              "feedback": "“that the action already happened” does not answer this question. The lexical meaning is learned separately."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "Which is the supported future meaning “they will fight”?",
+          "choices": [
+            {
+              "text": "μάχεσθαι",
+              "correct": false,
+              "feedback": "“μάχεσθαι” does not answer this question. μαχοῦνται is contracted future middle."
+            },
+            {
+              "text": "μαχοῦνται",
+              "correct": true,
+              "feedback": "Correct. μαχοῦνται is contracted future middle."
+            },
+            {
+              "text": "μάχονται",
+              "correct": false,
+              "feedback": "“μάχονται” does not answer this question. μαχοῦνται is contracted future middle."
+            },
+            {
+              "text": "μαχόμενοι",
+              "correct": false,
+              "feedback": "“μαχόμενοι” does not answer this question. μαχοῦνται is contracted future middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-031",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What kind of statement is Cyrus’s “I shall make my friends wealthy”?",
+          "choices": [
+            {
+              "text": "command to retreat",
+              "correct": false,
+              "feedback": "“command to retreat” does not answer this question. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "definition of courage",
+              "correct": false,
+              "feedback": "“definition of courage” does not answer this question. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "promise",
+              "correct": true,
+              "feedback": "Correct. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "report of completed payment",
+              "correct": false,
+              "feedback": "“report of completed payment” does not answer this question. The speaker undertakes to reward his friends."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-032",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What kind is “The enemies will fight”?",
+          "choices": [
+            {
+              "text": "a present payment",
+              "correct": false,
+              "feedback": "“a present payment” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "an infinitive",
+              "correct": false,
+              "feedback": "“an infinitive” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "a guarantee from the narrator",
+              "correct": false,
+              "feedback": "“a guarantee from the narrator” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "prediction",
+              "correct": true,
+              "feedback": "Correct. It predicts another group’s conduct."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-033",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does πορευσόμεθα announce in the first paragraph?",
+          "choices": [
+            {
+              "text": "intended movement against the King",
+              "correct": true,
+              "feedback": "Correct. Cyrus announces the campaign intention."
+            },
+            {
+              "text": "a completed journey home",
+              "correct": false,
+              "feedback": "“a completed journey home” does not answer this question. Cyrus announces the campaign intention."
+            },
+            {
+              "text": "a demand for silver already received",
+              "correct": false,
+              "feedback": "“a demand for silver already received” does not answer this question. Cyrus announces the campaign intention."
+            },
+            {
+              "text": "a definition of naval warfare",
+              "correct": false,
+              "feedback": "“a definition of naval warfare” does not answer this question. Cyrus announces the campaign intention."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-034",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does οὐκ ἀκολουθήσομεν mean?",
+          "choices": [
+            {
+              "text": "we never followed",
+              "correct": false,
+              "feedback": "“we never followed” does not answer this question. The negative does not remove future time."
+            },
+            {
+              "text": "we shall not follow",
+              "correct": true,
+              "feedback": "Correct. The negative does not remove future time."
+            },
+            {
+              "text": "we are not following now",
+              "correct": false,
+              "feedback": "“we are not following now” does not answer this question. The negative does not remove future time."
+            },
+            {
+              "text": "they shall not follow",
+              "correct": false,
+              "feedback": "“they shall not follow” does not answer this question. The negative does not remove future time."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-035",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does ἆρα παρέξει ask?",
+          "choices": [
+            {
+              "text": "who is standing now",
+              "correct": false,
+              "feedback": "“who is standing now” does not answer this question. The question concerns a future action."
+            },
+            {
+              "text": "whether provision is an infinitive",
+              "correct": false,
+              "feedback": "“whether provision is an infinitive” does not answer this question. The question concerns a future action."
+            },
+            {
+              "text": "whether he will provide",
+              "correct": true,
+              "feedback": "Correct. The question concerns a future action."
+            },
+            {
+              "text": "how much he provided yesterday",
+              "correct": false,
+              "feedback": "“how much he provided yesterday” does not answer this question. The question concerns a future action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-practice-036",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does future wording establish about promised wealth?",
+          "choices": [
+            {
+              "text": "that the reward is already delivered",
+              "correct": false,
+              "feedback": "“that the reward is already delivered” does not answer this question. The reading separates promise from result."
+            },
+            {
+              "text": "that defeat is impossible",
+              "correct": false,
+              "feedback": "“that defeat is impossible” does not answer this question. The reading separates promise from result."
+            },
+            {
+              "text": "that all speakers know the outcome",
+              "correct": false,
+              "feedback": "“that all speakers know the outcome” does not answer this question. The reading separates promise from result."
+            },
+            {
+              "text": "a commitment or expectation, not fulfillment",
+              "correct": true,
+              "feedback": "Correct. The reading separates promise from result."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 19 Required Grammar Check",
+      "description": "Lesson 19 Required Grammar Check",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-19-grammar-exercises-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-19-grammar-exercises-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which means “we shall release” in the active?",
+          "choices": [
+            {
+              "text": "λύσομεν",
+              "correct": true,
+              "feedback": "Correct. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύομεν",
+              "correct": false,
+              "feedback": "“λύομεν” does not answer this question. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύσετε",
+              "correct": false,
+              "feedback": "“λύσετε” does not answer this question. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύσονται",
+              "correct": false,
+              "feedback": "“λύσονται” does not answer this question. Future active first-person plural is λύσομεν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which means “we shall travel”?",
+          "choices": [
+            {
+              "text": "πορεύσονται",
+              "correct": false,
+              "feedback": "“πορεύσονται” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορευσόμεθα",
+              "correct": true,
+              "feedback": "Correct. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορευόμεθα",
+              "correct": false,
+              "feedback": "“πορευόμεθα” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορεύσεσθε",
+              "correct": false,
+              "feedback": "“πορεύσεσθε” does not answer this question. -σόμεθα marks future middle first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "What is the future of γράφω?",
+          "choices": [
+            {
+              "text": "γράξω",
+              "correct": false,
+              "feedback": "“γράξω” does not answer this question. φ plus σ becomes ψ."
+            },
+            {
+              "text": "γράφω",
+              "correct": false,
+              "feedback": "“γράφω” does not answer this question. φ plus σ becomes ψ."
+            },
+            {
+              "text": "γράψω",
+              "correct": true,
+              "feedback": "Correct. φ plus σ becomes ψ."
+            },
+            {
+              "text": "γράφσω",
+              "correct": false,
+              "feedback": "“γράφσω” does not answer this question. φ plus σ becomes ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "What is the future of διώκω?",
+          "choices": [
+            {
+              "text": "διώκσω",
+              "correct": false,
+              "feedback": "“διώκσω” does not answer this question. κ plus σ becomes ξ."
+            },
+            {
+              "text": "διώψω",
+              "correct": false,
+              "feedback": "“διώψω” does not answer this question. κ plus σ becomes ξ."
+            },
+            {
+              "text": "διώκω",
+              "correct": false,
+              "feedback": "“διώκω” does not answer this question. κ plus σ becomes ξ."
+            },
+            {
+              "text": "διώξω",
+              "correct": true,
+              "feedback": "Correct. κ plus σ becomes ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "What is the future of πείθω?",
+          "choices": [
+            {
+              "text": "πείσω",
+              "correct": true,
+              "feedback": "Correct. The dental θ disappears before σ."
+            },
+            {
+              "text": "πείθσω",
+              "correct": false,
+              "feedback": "“πείθσω” does not answer this question. The dental θ disappears before σ."
+            },
+            {
+              "text": "πείψω",
+              "correct": false,
+              "feedback": "“πείψω” does not answer this question. The dental θ disappears before σ."
+            },
+            {
+              "text": "πείξω",
+              "correct": false,
+              "feedback": "“πείξω” does not answer this question. The dental θ disappears before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which is future active third-person plural of λύω?",
+          "choices": [
+            {
+              "text": "λύσομεν",
+              "correct": false,
+              "feedback": "“λύσομεν” does not answer this question. The σ and -ουσι identify the future third-person plural."
+            },
+            {
+              "text": "λύσουσι",
+              "correct": true,
+              "feedback": "Correct. The σ and -ουσι identify the future third-person plural."
+            },
+            {
+              "text": "λύουσι",
+              "correct": false,
+              "feedback": "“λύουσι” does not answer this question. The σ and -ουσι identify the future third-person plural."
+            },
+            {
+              "text": "λύσετε",
+              "correct": false,
+              "feedback": "“λύσετε” does not answer this question. The σ and -ουσι identify the future third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which is the taught Attic future of νομίζω?",
+          "choices": [
+            {
+              "text": "νομίσω",
+              "correct": false,
+              "feedback": "“νομίσω” does not answer this question. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομιοῦμαι",
+              "correct": false,
+              "feedback": "“νομιοῦμαι” does not answer this question. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομιῶ",
+              "correct": true,
+              "feedback": "Correct. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομίζω",
+              "correct": false,
+              "feedback": "“νομίζω” does not answer this question. The assigned active contract future is νομιῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “he will think”?",
+          "choices": [
+            {
+              "text": "νομίζει",
+              "correct": false,
+              "feedback": "“νομίζει” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιεῖτε",
+              "correct": false,
+              "feedback": "“νομιεῖτε” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιοῦμεν",
+              "correct": false,
+              "feedback": "“νομιοῦμεν” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": true,
+              "feedback": "Correct. νομιεῖ is future third-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “we will think”?",
+          "choices": [
+            {
+              "text": "νομιοῦμεν",
+              "correct": true,
+              "feedback": "Correct. νομιοῦμεν is future first-person plural."
+            },
+            {
+              "text": "νομίζομεν",
+              "correct": false,
+              "feedback": "“νομίζομεν” does not answer this question. νομιοῦμεν is future first-person plural."
+            },
+            {
+              "text": "νομιεῖς",
+              "correct": false,
+              "feedback": "“νομιεῖς” does not answer this question. νομιοῦμεν is future first-person plural."
+            },
+            {
+              "text": "νομιοῦσι",
+              "correct": false,
+              "feedback": "“νομιοῦσι” does not answer this question. νομιοῦμεν is future first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "What is absent from surface νομιῶ?",
+          "choices": [
+            {
+              "text": "an accent",
+              "correct": false,
+              "feedback": "“an accent” does not answer this question. This is an asigmatic contracted future."
+            },
+            {
+              "text": "sigma",
+              "correct": true,
+              "feedback": "Correct. This is an asigmatic contracted future."
+            },
+            {
+              "text": "a finite ending",
+              "correct": false,
+              "feedback": "“a finite ending” does not answer this question. This is an asigmatic contracted future."
+            },
+            {
+              "text": "a future meaning",
+              "correct": false,
+              "feedback": "“a future meaning” does not answer this question. This is an asigmatic contracted future."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “you all will think”?",
+          "choices": [
+            {
+              "text": "νομιεῖς",
+              "correct": false,
+              "feedback": "“νομιεῖς” does not answer this question. -εῖτε is second-person plural."
+            },
+            {
+              "text": "νομιοῦσι",
+              "correct": false,
+              "feedback": "“νομιοῦσι” does not answer this question. -εῖτε is second-person plural."
+            },
+            {
+              "text": "νομιεῖτε",
+              "correct": true,
+              "feedback": "Correct. -εῖτε is second-person plural."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": false,
+              "feedback": "“νομιεῖ” does not answer this question. -εῖτε is second-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “they will think”?",
+          "choices": [
+            {
+              "text": "νομιεῖ",
+              "correct": false,
+              "feedback": "“νομιεῖ” does not answer this question. νομιοῦσι is future plural, unlike present νομίζουσι."
+            },
+            {
+              "text": "νομιεῖτε",
+              "correct": false,
+              "feedback": "“νομιεῖτε” does not answer this question. νομιοῦσι is future plural, unlike present νομίζουσι."
+            },
+            {
+              "text": "νομίζουσι",
+              "correct": false,
+              "feedback": "“νομίζουσι” does not answer this question. νομιοῦσι is future plural, unlike present νομίζουσι."
+            },
+            {
+              "text": "νομιοῦσι",
+              "correct": true,
+              "feedback": "Correct. νομιοῦσι is future plural, unlike present νομίζουσι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of τιμάω?",
+          "choices": [
+            {
+              "text": "τιμήσω",
+              "correct": true,
+              "feedback": "Correct. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμῶ",
+              "correct": false,
+              "feedback": "“τιμῶ” does not answer this question. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμιῶ",
+              "correct": false,
+              "feedback": "“τιμιῶ” does not answer this question. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμάσω",
+              "correct": false,
+              "feedback": "“τιμάσω” does not answer this question. α lengthens to η before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of ποιέω?",
+          "choices": [
+            {
+              "text": "ποιεῦμαι",
+              "correct": false,
+              "feedback": "“ποιεῦμαι” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιήσω",
+              "correct": true,
+              "feedback": "Correct. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιῶ",
+              "correct": false,
+              "feedback": "“ποιῶ” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιεῖ",
+              "correct": false,
+              "feedback": "“ποιεῖ” does not answer this question. ε lengthens to η before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of δηλόω?",
+          "choices": [
+            {
+              "text": "δηλοῖ",
+              "correct": false,
+              "feedback": "“δηλοῖ” does not answer this question. ο lengthens to ω before future σ."
+            },
+            {
+              "text": "δηλιῶ",
+              "correct": false,
+              "feedback": "“δηλιῶ” does not answer this question. ο lengthens to ω before future σ."
+            },
+            {
+              "text": "δηλώσω",
+              "correct": true,
+              "feedback": "Correct. ο lengthens to ω before future σ."
+            },
+            {
+              "text": "δηλῶ",
+              "correct": false,
+              "feedback": "“δηλῶ” does not answer this question. ο lengthens to ω before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "What person is ἀκολουθήσομεν?",
+          "choices": [
+            {
+              "text": "first-person singular",
+              "correct": false,
+              "feedback": "“first-person singular” does not answer this question. -σομεν marks future active first-person plural."
+            },
+            {
+              "text": "second-person plural",
+              "correct": false,
+              "feedback": "“second-person plural” does not answer this question. -σομεν marks future active first-person plural."
+            },
+            {
+              "text": "third-person singular",
+              "correct": false,
+              "feedback": "“third-person singular” does not answer this question. -σομεν marks future active first-person plural."
+            },
+            {
+              "text": "first-person plural",
+              "correct": true,
+              "feedback": "Correct. -σομεν marks future active first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which form is sigmatic rather than an asigmatic contract future?",
+          "choices": [
+            {
+              "text": "ποιήσω",
+              "correct": true,
+              "feedback": "Correct. ποιήσω visibly retains σ."
+            },
+            {
+              "text": "νομιῶ",
+              "correct": false,
+              "feedback": "“νομιῶ” does not answer this question. ποιήσω visibly retains σ."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": false,
+              "feedback": "“νομιεῖ” does not answer this question. ποιήσω visibly retains σ."
+            },
+            {
+              "text": "νομιοῦμεν",
+              "correct": false,
+              "feedback": "“νομιοῦμεν” does not answer this question. ποιήσω visibly retains σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "What does θαρρήσετε mean?",
+          "choices": [
+            {
+              "text": "to take courage",
+              "correct": false,
+              "feedback": "“to take courage” does not answer this question. The form is future active second-person plural."
+            },
+            {
+              "text": "you all will take courage",
+              "correct": true,
+              "feedback": "Correct. The form is future active second-person plural."
+            },
+            {
+              "text": "they take courage now",
+              "correct": false,
+              "feedback": "“they take courage now” does not answer this question. The form is future active second-person plural."
+            },
+            {
+              "text": "I took courage",
+              "correct": false,
+              "feedback": "“I took courage” does not answer this question. The form is future active second-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does ἀκούσομαι mean?",
+          "choices": [
+            {
+              "text": "they hear",
+              "correct": false,
+              "feedback": "“they hear” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "to hear",
+              "correct": false,
+              "feedback": "“to hear” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "I shall hear",
+              "correct": true,
+              "feedback": "Correct. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "I shall be heard",
+              "correct": false,
+              "feedback": "“I shall be heard” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does λήψεται mean?",
+          "choices": [
+            {
+              "text": "he will be received",
+              "correct": false,
+              "feedback": "“he will be received” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "we receive",
+              "correct": false,
+              "feedback": "“we receive” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "he refuses",
+              "correct": false,
+              "feedback": "“he refuses” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "he will receive",
+              "correct": true,
+              "feedback": "Correct. The supported future of λαμβάνω has active English meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "Which means “they will travel”?",
+          "choices": [
+            {
+              "text": "πορεύσονται",
+              "correct": true,
+              "feedback": "Correct. Future middle third-person plural is -σονται."
+            },
+            {
+              "text": "πορεύονται",
+              "correct": false,
+              "feedback": "“πορεύονται” does not answer this question. Future middle third-person plural is -σονται."
+            },
+            {
+              "text": "πορευσόμεθα",
+              "correct": false,
+              "feedback": "“πορευσόμεθα” does not answer this question. Future middle third-person plural is -σονται."
+            },
+            {
+              "text": "πορεύσεσθε",
+              "correct": false,
+              "feedback": "“πορεύσεσθε” does not answer this question. Future middle third-person plural is -σονται."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "Which means “I shall deliberate”?",
+          "choices": [
+            {
+              "text": "βουλευόμεθα",
+              "correct": false,
+              "feedback": "“βουλευόμεθα” does not answer this question. The future adds σ to βουλευ- with middle endings."
+            },
+            {
+              "text": "βουλεύσομαι",
+              "correct": true,
+              "feedback": "Correct. The future adds σ to βουλευ- with middle endings."
+            },
+            {
+              "text": "βουλεύομαι",
+              "correct": false,
+              "feedback": "“βουλεύομαι” does not answer this question. The future adds σ to βουλευ- with middle endings."
+            },
+            {
+              "text": "βουλεύσεται",
+              "correct": false,
+              "feedback": "“βουλεύσεται” does not answer this question. The future adds σ to βουλευ- with middle endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does a middle future ending prove by itself?",
+          "choices": [
+            {
+              "text": "that the promise is true",
+              "correct": false,
+              "feedback": "“that the promise is true” does not answer this question. The lexical meaning is learned separately."
+            },
+            {
+              "text": "that the action already happened",
+              "correct": false,
+              "feedback": "“that the action already happened” does not answer this question. The lexical meaning is learned separately."
+            },
+            {
+              "text": "person and number, with voice form",
+              "correct": true,
+              "feedback": "Correct. The lexical meaning is learned separately."
+            },
+            {
+              "text": "that English must be passive",
+              "correct": false,
+              "feedback": "“that English must be passive” does not answer this question. The lexical meaning is learned separately."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "Which is the supported future meaning “they will fight”?",
+          "choices": [
+            {
+              "text": "μάχονται",
+              "correct": false,
+              "feedback": "“μάχονται” does not answer this question. μαχοῦνται is contracted future middle."
+            },
+            {
+              "text": "μαχόμενοι",
+              "correct": false,
+              "feedback": "“μαχόμενοι” does not answer this question. μαχοῦνται is contracted future middle."
+            },
+            {
+              "text": "μάχεσθαι",
+              "correct": false,
+              "feedback": "“μάχεσθαι” does not answer this question. μαχοῦνται is contracted future middle."
+            },
+            {
+              "text": "μαχοῦνται",
+              "correct": true,
+              "feedback": "Correct. μαχοῦνται is contracted future middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What kind of statement is Cyrus’s “I shall make my friends wealthy”?",
+          "choices": [
+            {
+              "text": "promise",
+              "correct": true,
+              "feedback": "Correct. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "report of completed payment",
+              "correct": false,
+              "feedback": "“report of completed payment” does not answer this question. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "command to retreat",
+              "correct": false,
+              "feedback": "“command to retreat” does not answer this question. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "definition of courage",
+              "correct": false,
+              "feedback": "“definition of courage” does not answer this question. The speaker undertakes to reward his friends."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What kind is “The enemies will fight”?",
+          "choices": [
+            {
+              "text": "a guarantee from the narrator",
+              "correct": false,
+              "feedback": "“a guarantee from the narrator” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "prediction",
+              "correct": true,
+              "feedback": "Correct. It predicts another group’s conduct."
+            },
+            {
+              "text": "a present payment",
+              "correct": false,
+              "feedback": "“a present payment” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "an infinitive",
+              "correct": false,
+              "feedback": "“an infinitive” does not answer this question. It predicts another group’s conduct."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does πορευσόμεθα announce in the first paragraph?",
+          "choices": [
+            {
+              "text": "a demand for silver already received",
+              "correct": false,
+              "feedback": "“a demand for silver already received” does not answer this question. Cyrus announces the campaign intention."
+            },
+            {
+              "text": "a definition of naval warfare",
+              "correct": false,
+              "feedback": "“a definition of naval warfare” does not answer this question. Cyrus announces the campaign intention."
+            },
+            {
+              "text": "intended movement against the King",
+              "correct": true,
+              "feedback": "Correct. Cyrus announces the campaign intention."
+            },
+            {
+              "text": "a completed journey home",
+              "correct": false,
+              "feedback": "“a completed journey home” does not answer this question. Cyrus announces the campaign intention."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does οὐκ ἀκολουθήσομεν mean?",
+          "choices": [
+            {
+              "text": "we are not following now",
+              "correct": false,
+              "feedback": "“we are not following now” does not answer this question. The negative does not remove future time."
+            },
+            {
+              "text": "they shall not follow",
+              "correct": false,
+              "feedback": "“they shall not follow” does not answer this question. The negative does not remove future time."
+            },
+            {
+              "text": "we never followed",
+              "correct": false,
+              "feedback": "“we never followed” does not answer this question. The negative does not remove future time."
+            },
+            {
+              "text": "we shall not follow",
+              "correct": true,
+              "feedback": "Correct. The negative does not remove future time."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does ἆρα παρέξει ask?",
+          "choices": [
+            {
+              "text": "whether he will provide",
+              "correct": true,
+              "feedback": "Correct. The question concerns a future action."
+            },
+            {
+              "text": "how much he provided yesterday",
+              "correct": false,
+              "feedback": "“how much he provided yesterday” does not answer this question. The question concerns a future action."
+            },
+            {
+              "text": "who is standing now",
+              "correct": false,
+              "feedback": "“who is standing now” does not answer this question. The question concerns a future action."
+            },
+            {
+              "text": "whether provision is an infinitive",
+              "correct": false,
+              "feedback": "“whether provision is an infinitive” does not answer this question. The question concerns a future action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-grammar-exercises-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What does future wording establish about promised wealth?",
+          "choices": [
+            {
+              "text": "that all speakers know the outcome",
+              "correct": false,
+              "feedback": "“that all speakers know the outcome” does not answer this question. The reading separates promise from result."
+            },
+            {
+              "text": "a commitment or expectation, not fulfillment",
+              "correct": true,
+              "feedback": "Correct. The reading separates promise from result."
+            },
+            {
+              "text": "that the reward is already delivered",
+              "correct": false,
+              "feedback": "“that the reward is already delivered” does not answer this question. The reading separates promise from result."
+            },
+            {
+              "text": "that defeat is impossible",
+              "correct": false,
+              "feedback": "“that defeat is impossible” does not answer this question. The reading separates promise from result."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 19 Final Quiz — The King's War and Cyrus's Promises",
+      "description": "Lesson 19 Final Quiz — The King's War and Cyrus's Promises",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-19-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-19-final-quiz-001",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does Cyrus openly announce war against the King?",
+          "choices": [
+            {
+              "text": "Thapsacus",
+              "correct": true,
+              "feedback": "Correct. The first scene follows Anabasis 1.4.11."
+            },
+            {
+              "text": "Tarsus",
+              "correct": false,
+              "feedback": "“Tarsus” does not answer this question. The first scene follows Anabasis 1.4.11."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "“Delphi” does not answer this question. The first scene follows Anabasis 1.4.11."
+            },
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "“Athens” does not answer this question. The first scene follows Anabasis 1.4.11."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-002",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What river is beside the city?",
+          "choices": [
+            {
+              "text": "Nile",
+              "correct": false,
+              "feedback": "“Nile” does not answer this question. Thapsacus is on the Euphrates."
+            },
+            {
+              "text": "Euphrates",
+              "correct": true,
+              "feedback": "Correct. Thapsacus is on the Euphrates."
+            },
+            {
+              "text": "Eurotas",
+              "correct": false,
+              "feedback": "“Eurotas” does not answer this question. Thapsacus is on the Euphrates."
+            },
+            {
+              "text": "Ilissus",
+              "correct": false,
+              "feedback": "“Ilissus” does not answer this question. Thapsacus is on the Euphrates."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-003",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How do the soldiers react to the announcement?",
+          "choices": [
+            {
+              "text": "they say victory has already occurred",
+              "correct": false,
+              "feedback": "“they say victory has already occurred” does not answer this question. Their reaction reflects the changed disclosed risk."
+            },
+            {
+              "text": "they consult Nicias",
+              "correct": false,
+              "feedback": "“they consult Nicias” does not answer this question. Their reaction reflects the changed disclosed risk."
+            },
+            {
+              "text": "they are angry and request money",
+              "correct": true,
+              "feedback": "Correct. Their reaction reflects the changed disclosed risk."
+            },
+            {
+              "text": "they immediately sail home",
+              "correct": false,
+              "feedback": "“they immediately sail home” does not answer this question. Their reaction reflects the changed disclosed risk."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-004",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What sum is promised to each soldier at Babylon?",
+          "choices": [
+            {
+              "text": "one and a half darics as a single bonus",
+              "correct": false,
+              "feedback": "“one and a half darics as a single bonus” does not answer this question. Cyrus offers five minas per soldier there."
+            },
+            {
+              "text": "four talents",
+              "correct": false,
+              "feedback": "“four talents” does not answer this question. Cyrus offers five minas per soldier there."
+            },
+            {
+              "text": "thirty crowns",
+              "correct": false,
+              "feedback": "“thirty crowns” does not answer this question. Cyrus offers five minas per soldier there."
+            },
+            {
+              "text": "five minas",
+              "correct": true,
+              "feedback": "Correct. Cyrus offers five minas per soldier there."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-005",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How long is pay promised to continue?",
+          "choices": [
+            {
+              "text": "until the return to Ionia",
+              "correct": true,
+              "feedback": "Correct. The promise includes bringing the Greeks back to Ionia."
+            },
+            {
+              "text": "only until crossing the river",
+              "correct": false,
+              "feedback": "“only until crossing the river” does not answer this question. The promise includes bringing the Greeks back to Ionia."
+            },
+            {
+              "text": "until the dialogue ends",
+              "correct": false,
+              "feedback": "“until the dialogue ends” does not answer this question. The promise includes bringing the Greeks back to Ionia."
+            },
+            {
+              "text": "for one day only",
+              "correct": false,
+              "feedback": "“for one day only” does not answer this question. The promise includes bringing the Greeks back to Ionia."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-006",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What action ends the first scene?",
+          "choices": [
+            {
+              "text": "a return to Tarsus",
+              "correct": false,
+              "feedback": "“a return to Tarsus” does not answer this question. Paragraph 4 describes the crossing."
+            },
+            {
+              "text": "crossing the Euphrates",
+              "correct": true,
+              "feedback": "Correct. Paragraph 4 describes the crossing."
+            },
+            {
+              "text": "the defeat at Cunaxa",
+              "correct": false,
+              "feedback": "“the defeat at Cunaxa” does not answer this question. Paragraph 4 describes the crossing."
+            },
+            {
+              "text": "Cleocritus’s speech",
+              "correct": false,
+              "feedback": "“Cleocritus’s speech” does not answer this question. Paragraph 4 describes the crossing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-007",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who is summoned in the separate later scene?",
+          "choices": [
+            {
+              "text": "only Thapsacus’s children",
+              "correct": false,
+              "feedback": "“only Thapsacus’s children” does not answer this question. The later source meeting concerns the coming battle."
+            },
+            {
+              "text": "the Thirty",
+              "correct": false,
+              "feedback": "“the Thirty” does not answer this question. The later source meeting concerns the coming battle."
+            },
+            {
+              "text": "generals and captains",
+              "correct": true,
+              "feedback": "Correct. The later source meeting concerns the coming battle."
+            },
+            {
+              "text": "the Pythia and priests",
+              "correct": false,
+              "feedback": "“the Pythia and priests” does not answer this question. The later source meeting concerns the coming battle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-008",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the generals urge Cyrus to do?",
+          "choices": [
+            {
+              "text": "pay nothing",
+              "correct": false,
+              "feedback": "“pay nothing” does not answer this question. Anabasis 1.7.9 records the advice."
+            },
+            {
+              "text": "flee to Athens alone",
+              "correct": false,
+              "feedback": "“flee to Athens alone” does not answer this question. Anabasis 1.7.9 records the advice."
+            },
+            {
+              "text": "join the enemy",
+              "correct": false,
+              "feedback": "“join the enemy” does not answer this question. Anabasis 1.7.9 records the advice."
+            },
+            {
+              "text": "remain behind rather than fight personally",
+              "correct": true,
+              "feedback": "Correct. Anabasis 1.7.9 records the advice."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ὑπόσχεσις mean?",
+          "choices": [
+            {
+              "text": "promise (noun)",
+              "correct": true,
+              "feedback": "Correct. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            },
+            {
+              "text": "mina, unit of silver",
+              "correct": false,
+              "feedback": "“mina, unit of silver” does not answer this question. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "“victory” does not answer this question. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            },
+            {
+              "text": "deliberate",
+              "correct": false,
+              "feedback": "“deliberate” does not answer this question. ὑπόσχεσις, ὑποσχέσεως, ἡ means promise (noun)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὑπισχνέομαι mean?",
+          "choices": [
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. ὑπισχνέομαι means promise (verb)."
+            },
+            {
+              "text": "promise (verb)",
+              "correct": true,
+              "feedback": "Correct. ὑπισχνέομαι means promise (verb)."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": false,
+              "feedback": "“crown, wreath” does not answer this question. ὑπισχνέομαι means promise (verb)."
+            },
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. ὑπισχνέομαι means promise (verb)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ μνᾶ mean?",
+          "choices": [
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            },
+            {
+              "text": "mina, unit of silver",
+              "correct": true,
+              "feedback": "Correct. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": false,
+              "feedback": "“crown, wreath” does not answer this question. μνᾶ, μνᾶς, ἡ means mina, unit of silver."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ στέφανος mean?",
+          "choices": [
+            {
+              "text": "wealthy",
+              "correct": false,
+              "feedback": "“wealthy” does not answer this question. στέφανος, στεφάνου, ὁ means crown, wreath."
+            },
+            {
+              "text": "follow",
+              "correct": false,
+              "feedback": "“follow” does not answer this question. στέφανος, στεφάνου, ὁ means crown, wreath."
+            },
+            {
+              "text": "think, consider",
+              "correct": false,
+              "feedback": "“think, consider” does not answer this question. στέφανος, στεφάνου, ὁ means crown, wreath."
+            },
+            {
+              "text": "crown, wreath",
+              "correct": true,
+              "feedback": "Correct. στέφανος, στεφάνου, ὁ means crown, wreath."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry πλούσιος mean?",
+          "choices": [
+            {
+              "text": "wealthy",
+              "correct": true,
+              "feedback": "Correct. πλούσιος, πλουσία, πλούσιον means wealthy."
+            },
+            {
+              "text": "victory",
+              "correct": false,
+              "feedback": "“victory” does not answer this question. πλούσιος, πλουσία, πλούσιον means wealthy."
+            },
+            {
+              "text": "deliberate",
+              "correct": false,
+              "feedback": "“deliberate” does not answer this question. πλούσιος, πλουσία, πλούσιον means wealthy."
+            },
+            {
+              "text": "honor",
+              "correct": false,
+              "feedback": "“honor” does not answer this question. πλούσιος, πλουσία, πλούσιον means wealthy."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ νίκη mean?",
+          "choices": [
+            {
+              "text": "make, do",
+              "correct": false,
+              "feedback": "“make, do” does not answer this question. νίκη, νίκης, ἡ means victory."
+            },
+            {
+              "text": "victory",
+              "correct": true,
+              "feedback": "Correct. νίκη, νίκης, ἡ means victory."
+            },
+            {
+              "text": "certain, secure",
+              "correct": false,
+              "feedback": "“certain, secure” does not answer this question. νίκη, νίκης, ἡ means victory."
+            },
+            {
+              "text": "prepare",
+              "correct": false,
+              "feedback": "“prepare” does not answer this question. νίκη, νίκης, ἡ means victory."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which means “we shall release” in the active?",
+          "choices": [
+            {
+              "text": "λύσετε",
+              "correct": false,
+              "feedback": "“λύσετε” does not answer this question. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύσονται",
+              "correct": false,
+              "feedback": "“λύσονται” does not answer this question. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύσομεν",
+              "correct": true,
+              "feedback": "Correct. Future active first-person plural is λύσομεν."
+            },
+            {
+              "text": "λύομεν",
+              "correct": false,
+              "feedback": "“λύομεν” does not answer this question. Future active first-person plural is λύσομεν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "sigmatic-future",
+          "prompt": "Which means “we shall travel”?",
+          "choices": [
+            {
+              "text": "πορευόμεθα",
+              "correct": false,
+              "feedback": "“πορευόμεθα” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορεύσεσθε",
+              "correct": false,
+              "feedback": "“πορεύσεσθε” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορεύσονται",
+              "correct": false,
+              "feedback": "“πορεύσονται” does not answer this question. -σόμεθα marks future middle first-person plural."
+            },
+            {
+              "text": "πορευσόμεθα",
+              "correct": true,
+              "feedback": "Correct. -σόμεθα marks future middle first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which is the taught Attic future of νομίζω?",
+          "choices": [
+            {
+              "text": "νομιῶ",
+              "correct": true,
+              "feedback": "Correct. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομίζω",
+              "correct": false,
+              "feedback": "“νομίζω” does not answer this question. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομίσω",
+              "correct": false,
+              "feedback": "“νομίσω” does not answer this question. The assigned active contract future is νομιῶ."
+            },
+            {
+              "text": "νομιοῦμαι",
+              "correct": false,
+              "feedback": "“νομιοῦμαι” does not answer this question. The assigned active contract future is νομιῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "izo-future",
+          "prompt": "Which means “he will think”?",
+          "choices": [
+            {
+              "text": "νομιοῦμεν",
+              "correct": false,
+              "feedback": "“νομιοῦμεν” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιεῖ",
+              "correct": true,
+              "feedback": "Correct. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομίζει",
+              "correct": false,
+              "feedback": "“νομίζει” does not answer this question. νομιεῖ is future third-person singular."
+            },
+            {
+              "text": "νομιεῖτε",
+              "correct": false,
+              "feedback": "“νομιεῖτε” does not answer this question. νομιεῖ is future third-person singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of τιμάω?",
+          "choices": [
+            {
+              "text": "τιμιῶ",
+              "correct": false,
+              "feedback": "“τιμιῶ” does not answer this question. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμάσω",
+              "correct": false,
+              "feedback": "“τιμάσω” does not answer this question. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμήσω",
+              "correct": true,
+              "feedback": "Correct. α lengthens to η before future σ."
+            },
+            {
+              "text": "τιμῶ",
+              "correct": false,
+              "feedback": "“τιμῶ” does not answer this question. α lengthens to η before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "contract-sigmatic",
+          "prompt": "Which is the future of ποιέω?",
+          "choices": [
+            {
+              "text": "ποιῶ",
+              "correct": false,
+              "feedback": "“ποιῶ” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιεῖ",
+              "correct": false,
+              "feedback": "“ποιεῖ” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιεῦμαι",
+              "correct": false,
+              "feedback": "“ποιεῦμαι” does not answer this question. ε lengthens to η before future σ."
+            },
+            {
+              "text": "ποιήσω",
+              "correct": true,
+              "feedback": "Correct. ε lengthens to η before future σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does ἀκούσομαι mean?",
+          "choices": [
+            {
+              "text": "I shall hear",
+              "correct": true,
+              "feedback": "Correct. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "I shall be heard",
+              "correct": false,
+              "feedback": "“I shall be heard” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "they hear",
+              "correct": false,
+              "feedback": "“they hear” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            },
+            {
+              "text": "to hear",
+              "correct": false,
+              "feedback": "“to hear” does not answer this question. ἀκούω has a middle-form future with active meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-futures",
+          "prompt": "What does λήψεται mean?",
+          "choices": [
+            {
+              "text": "he refuses",
+              "correct": false,
+              "feedback": "“he refuses” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "he will receive",
+              "correct": true,
+              "feedback": "Correct. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "he will be received",
+              "correct": false,
+              "feedback": "“he will be received” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            },
+            {
+              "text": "we receive",
+              "correct": false,
+              "feedback": "“we receive” does not answer this question. The supported future of λαμβάνω has active English meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What kind of statement is Cyrus’s “I shall make my friends wealthy”?",
+          "choices": [
+            {
+              "text": "command to retreat",
+              "correct": false,
+              "feedback": "“command to retreat” does not answer this question. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "definition of courage",
+              "correct": false,
+              "feedback": "“definition of courage” does not answer this question. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "promise",
+              "correct": true,
+              "feedback": "Correct. The speaker undertakes to reward his friends."
+            },
+            {
+              "text": "report of completed payment",
+              "correct": false,
+              "feedback": "“report of completed payment” does not answer this question. The speaker undertakes to reward his friends."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-context",
+          "prompt": "What kind is “The enemies will fight”?",
+          "choices": [
+            {
+              "text": "a present payment",
+              "correct": false,
+              "feedback": "“a present payment” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "an infinitive",
+              "correct": false,
+              "feedback": "“an infinitive” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "a guarantee from the narrator",
+              "correct": false,
+              "feedback": "“a guarantee from the narrator” does not answer this question. It predicts another group’s conduct."
+            },
+            {
+              "text": "prediction",
+              "correct": true,
+              "feedback": "Correct. It predicts another group’s conduct."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-025",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What changes between Tarsus and Thapsacus?",
+          "choices": [
+            {
+              "text": "suspicion becomes public announcement",
+              "correct": true,
+              "feedback": "Correct. The lesson preserves the disclosure sequence."
+            },
+            {
+              "text": "the King gives Cyrus the throne",
+              "correct": false,
+              "feedback": "“the King gives Cyrus the throne” does not answer this question. The lesson preserves the disclosure sequence."
+            },
+            {
+              "text": "the army abandons all pay",
+              "correct": false,
+              "feedback": "“the army abandons all pay” does not answer this question. The lesson preserves the disclosure sequence."
+            },
+            {
+              "text": "Socrates joins the campaign",
+              "correct": false,
+              "feedback": "“Socrates joins the campaign” does not answer this question. The lesson preserves the disclosure sequence."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-026",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should be understood about the inhabitants’ river interpretation?",
+          "choices": [
+            {
+              "text": "it guarantees every future ford",
+              "correct": false,
+              "feedback": "“it guarantees every future ford” does not answer this question. Xenophon records their interpretation, not a modern verified fact."
+            },
+            {
+              "text": "it is a reported belief",
+              "correct": true,
+              "feedback": "Correct. Xenophon records their interpretation, not a modern verified fact."
+            },
+            {
+              "text": "it proves that nature chose Cyrus",
+              "correct": false,
+              "feedback": "“it proves that nature chose Cyrus” does not answer this question. Xenophon records their interpretation, not a modern verified fact."
+            },
+            {
+              "text": "it dates the scene to 403",
+              "correct": false,
+              "feedback": "“it dates the scene to 403” does not answer this question. Xenophon records their interpretation, not a modern verified fact."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-027",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why does the Greek simplify reward conditions?",
+          "choices": [
+            {
+              "text": "to replace the source with a new battle",
+              "correct": false,
+              "feedback": "“to replace the source with a new battle” does not answer this question. “Upon victory” keeps the dependency visible."
+            },
+            {
+              "text": "to deny any promised payment",
+              "correct": false,
+              "feedback": "“to deny any promised payment” does not answer this question. “Upon victory” keeps the dependency visible."
+            },
+            {
+              "text": "to preserve conditional rewards without assigning subjunctive grammar",
+              "correct": true,
+              "feedback": "Correct. “Upon victory” keeps the dependency visible."
+            },
+            {
+              "text": "to state that victory already happened",
+              "correct": false,
+              "feedback": "“to state that victory already happened” does not answer this question. “Upon victory” keeps the dependency visible."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-028",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What concern does Gaulites raise in the culture reading?",
+          "choices": [
+            {
+              "text": "whether Nicias can define courage",
+              "correct": false,
+              "feedback": "“whether Nicias can define courage” does not answer this question. The later scene contains doubts about fulfillment."
+            },
+            {
+              "text": "whether Tarsus is in Greece",
+              "correct": false,
+              "feedback": "“whether Tarsus is in Greece” does not answer this question. The later scene contains doubts about fulfillment."
+            },
+            {
+              "text": "whether the Thirty own ships",
+              "correct": false,
+              "feedback": "“whether the Thirty own ships” does not answer this question. The later scene contains doubts about fulfillment."
+            },
+            {
+              "text": "whether Cyrus will remember and fulfill his promises",
+              "correct": true,
+              "feedback": "Correct. The later scene contains doubts about fulfillment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-029",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How should Cyrus’s praise of the Greeks be read?",
+          "choices": [
+            {
+              "text": "as a commander’s persuasive claim",
+              "correct": true,
+              "feedback": "Correct. The source reports rhetoric in a particular situation."
+            },
+            {
+              "text": "as a timeless ranking of peoples",
+              "correct": false,
+              "feedback": "“as a timeless ranking of peoples” does not answer this question. The source reports rhetoric in a particular situation."
+            },
+            {
+              "text": "as independent proof of victory",
+              "correct": false,
+              "feedback": "“as independent proof of victory” does not answer this question. The source reports rhetoric in a particular situation."
+            },
+            {
+              "text": "as a law of future grammar",
+              "correct": false,
+              "feedback": "“as a law of future grammar” does not answer this question. The source reports rhetoric in a particular situation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-19-final-quiz-030",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does a promised reward differ from?",
+          "choices": [
+            {
+              "text": "an offer made in words",
+              "correct": false,
+              "feedback": "“an offer made in words” does not answer this question. The distinction between offer and fulfillment is central."
+            },
+            {
+              "text": "a reward demonstrably delivered",
+              "correct": true,
+              "feedback": "Correct. The distinction between offer and fulfillment is central."
+            },
+            {
+              "text": "a speaker’s intention",
+              "correct": false,
+              "feedback": "“a speaker’s intention” does not answer this question. The distinction between offer and fulfillment is central."
+            },
+            {
+              "text": "a future expectation",
+              "correct": false,
+              "feedback": "“a future expectation” does not answer this question. The distinction between offer and fulfillment is central."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-18",
+    "title": "The Soldiers Refuse to March",
+    "fallbackUrl": "lesson.html?lesson=18&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-20",
+    "title": "Courage to Address Fellow Citizens",
+    "fallbackUrl": "lesson.html?lesson=20&page=1"
+  },
+  "contentRevision": "lesson-19-module-2-v1"
+}

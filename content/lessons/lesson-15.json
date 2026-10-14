@@ -1,0 +1,5046 @@
+{
+  "id": "lesson-15",
+  "number": 15,
+  "title": "An Army on the Move",
+  "greekTitle": "Ἡ στρατιὰ πορεύεται",
+  "scope": "Present middle participle formation, declension, deponents, uses, and relative time",
+  "theme": "The route, gatherings, and games depend on continuing preparation and reliable pay",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-15-banner.png",
+    "alt": "AI-generated educational reconstruction for Lesson 15: An Army on the Move; illustrative scene rather than an eyewitness image",
+    "caption": "An Army on the Move. AI-generated educational reconstruction of the adapted lesson setting; the image is illustrative and does not establish historical appearance or exact events."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-15-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-15-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-15-page-3",
+      "title": "Marching, Royal Parks, and Overdue Wages",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "The road and its places",
+      "items": [
+        {
+          "greek": "πορεύομαι",
+          "english": "travel",
+          "dictionaryForm": "πορεύομαι",
+          "status": "required vocabulary",
+          "lemma": "πορεύομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ποταμός",
+          "english": "river",
+          "dictionaryForm": "ποταμός, ποταμοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ποταμός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ γέφυρα",
+          "english": "bridge",
+          "dictionaryForm": "γέφυρα, γεφύρας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "γέφυρα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ πλοῖον",
+          "english": "boat",
+          "dictionaryForm": "πλοῖον, πλοίου, τό",
+          "status": "required vocabulary",
+          "lemma": "πλοῖον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ παράδεισος",
+          "english": "royal park",
+          "dictionaryForm": "παράδεισος, παραδείσου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "παράδεισος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἱ Κελαιναί",
+          "english": "Celaenae",
+          "dictionaryForm": "Κελαιναί, Κελαινῶν, αἱ",
+          "status": "reading vocabulary",
+          "lemma": "αἱ Κελαιναί",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ Φρυγία",
+          "english": "Phrygia",
+          "dictionaryForm": "Φρυγία, Φρυγίας, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "Φρυγία",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Army and preparation",
+      "items": [
+        {
+          "greek": "παρασκευάζομαι",
+          "english": "prepare for oneself",
+          "dictionaryForm": "παρασκευάζομαι",
+          "status": "required vocabulary",
+          "lemma": "παρασκευάζομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "διαλέγομαι",
+          "english": "converse",
+          "dictionaryForm": "διαλέγομαι",
+          "status": "required vocabulary",
+          "lemma": "διαλέγομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ πελταστής",
+          "english": "peltast",
+          "dictionaryForm": "πελταστής, πελταστοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "πελταστής",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ τοξότης",
+          "english": "archer",
+          "dictionaryForm": "τοξότης, τοξότου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "τοξότης",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐξετάζω",
+          "english": "review; inspect",
+          "dictionaryForm": "ἐξετάζω",
+          "status": "required vocabulary",
+          "lemma": "ἐξετάζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ παρασκευή",
+          "english": "preparation",
+          "dictionaryForm": "παρασκευή, παρασκευῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "παρασκευή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ μισθός",
+          "english": "pay",
+          "dictionaryForm": "μισθός, μισθοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "μισθός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὀφείλω",
+          "english": "owe",
+          "dictionaryForm": "ὀφείλω",
+          "status": "required vocabulary",
+          "lemma": "ὀφείλω",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Games and requests",
+      "items": [
+        {
+          "greek": "ὁ ἀγών",
+          "english": "contest",
+          "dictionaryForm": "ἀγών, ἀγῶνος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "ἀγών",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀγωνίζομαι",
+          "english": "compete",
+          "dictionaryForm": "ἀγωνίζομαι",
+          "status": "required vocabulary",
+          "lemma": "ἀγωνίζομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "θεάομαι",
+          "english": "watch",
+          "dictionaryForm": "θεάομαι",
+          "status": "required vocabulary",
+          "lemma": "θεάομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ ἆθλον",
+          "english": "prize",
+          "dictionaryForm": "ἆθλον, ἄθλου, τό",
+          "status": "required vocabulary",
+          "lemma": "ἆθλον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ στλεγγίς",
+          "english": "strigil",
+          "dictionaryForm": "στλεγγίς, στλεγγίδος, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "στλεγγίς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ θυσία",
+          "english": "sacrifice",
+          "dictionaryForm": "θυσία, θυσίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "θυσία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἰτέω",
+          "english": "ask for",
+          "dictionaryForm": "αἰτέω",
+          "status": "required vocabulary",
+          "lemma": "αἰτέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πολλάκις",
+          "english": "repeatedly",
+          "dictionaryForm": "πολλάκις (adverb)",
+          "status": "required vocabulary",
+          "lemma": "πολλάκις",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ἀπὸ Σάρδεων διὰ Φρυγίας",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "The expedition resumes. This reading selects connected moments from the march: a river crossing, the stay at Celaenae, further contingents, the games at Peltae, and overdue pay at Caystru-pedion.",
+      "Source: Xenophon, Anabasis 1.2.5–11 supplies the itinerary, bridge, places, gathering, games, and arrears. Xenophon as our observing viewpoint, ordinary soldiers’ remarks, and descriptive transitions are course reconstruction. We do not translate the full itinerary or invent a witnessed conversation for the ancient author.",
+      "Adapted present-tense Attic Greek gives the first formal practice in present middle participles. These forms describe people traveling, preparing, and receiving; blue glosses support place names, numbers, and other constructions not yet assessed."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Κῦρος ἀπὸ Σάρδεων πορεύεται, καὶ ἡ στρατιὰ διὰ τῆς Λυδίας βαδίζει. οἱ πορευόμενοι τὰ ὅπλα φέρουσιν. ὁ Ξενοφῶν μετὰ τοῦ Προξένου τὴν ὁδὸν σκοπεῖ.",
+        "gloss": [
+          {
+            "greek": "ἀπὸ Σάρδεων",
+            "english": "from Sardis; genitive plural"
+          },
+          {
+            "greek": "διὰ τῆς Λυδίας",
+            "english": "through Lydia"
+          },
+          {
+            "greek": "οἱ πορευόμενοι",
+            "english": "those traveling; substantival middle participle"
+          },
+          {
+            "greek": "μετὰ τοῦ Προξένου",
+            "english": "with Proxenus"
+          },
+          {
+            "greek": "σκοπεῖ",
+            "english": "examines; contracted verb"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ στρατιὰ πρὸς τὸν Μαίανδρον ἀφικνεῖται. ἐπὶ τοῦ ποταμοῦ γέφυρα ἐκ πλοίων ἐστίν. οἱ στρατιῶται ἐπὶ τῆς γεφύρας βαδίζουσιν· οἱ παρασκευαζόμενοι τὰ ὅπλα καὶ τὰ χρήματα φυλάττουσιν.",
+        "gloss": [
+          {
+            "greek": "τὸν Μαίανδρον",
+            "english": "the Maeander river"
+          },
+          {
+            "greek": "ἐπὶ τοῦ ποταμοῦ",
+            "english": "over the river"
+          },
+          {
+            "greek": "γέφυρα ἐκ πλοίων",
+            "english": "a bridge made of boats"
+          },
+          {
+            "greek": "ἐπὶ τῆς γεφύρας",
+            "english": "on the bridge"
+          },
+          {
+            "greek": "οἱ παρασκευαζόμενοι",
+            "english": "those preparing; middle participle"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν Φρυγίᾳ ἡ στρατιὰ πρὸς Κολοσσὰς πορεύεται, ἔπειτα δὲ εἰς Κελαινὰς ἀφικνεῖται. ἐνταῦθα ὁ Κῦρος οἰκήματα καὶ παράδεισον ἔχει. ὁ Μαίανδρος διὰ τοῦ παραδείσου ῥεῖ.",
+        "gloss": [
+          {
+            "greek": "Ἐν Φρυγίᾳ",
+            "english": "in Phrygia"
+          },
+          {
+            "greek": "πρὸς Κολοσσὰς",
+            "english": "to Colossae"
+          },
+          {
+            "greek": "ἔπειτα",
+            "english": "then"
+          },
+          {
+            "greek": "εἰς Κελαινὰς",
+            "english": "at Celaenae"
+          },
+          {
+            "greek": "ἐνταῦθα",
+            "english": "there"
+          },
+          {
+            "greek": "οἰκήματα",
+            "english": "buildings"
+          },
+          {
+            "greek": "παράδεισον",
+            "english": "royal park"
+          },
+          {
+            "greek": "ῥεῖ",
+            "english": "flows; contracted present"
+          }
+        ]
+      },
+      {
+        "greek": "Ἄλλα στρατεύματα πρὸς Κῦρον ἔρχονται. ὁ Κλέαρχος ὁπλίτας καὶ πελταστὰς καὶ τοξότας ἄγει. οἱ στρατιῶται οἱ παρασκευαζόμενοι ἐν τῷ παραδείσῳ εἰσίν, καὶ ὁ Κῦρος τὴν στρατιὰν ἐξετάζει.",
+        "gloss": [
+          {
+            "greek": "Κλέαρχος",
+            "english": "Clearchus, a Spartan exile commanding troops"
+          },
+          {
+            "greek": "πελταστὰς",
+            "english": "peltasts; light infantry with small shields"
+          },
+          {
+            "greek": "τοξότας",
+            "english": "archers"
+          },
+          {
+            "greek": "οἱ στρατιῶται οἱ παρασκευαζόμενοι",
+            "english": "the soldiers who are preparing; second attributive position"
+          },
+          {
+            "greek": "ἐξετάζει",
+            "english": "reviews; inspects"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ. οἱ φίλοι διαλέγονται περὶ τῆς ὁδοῦ· «ἡ στρατιὰ μεγάλῃ παρασκευῇ χρῆται», λέγουσιν. ἄλλοι δὲ τὰ ἑαυτῶν πράγματα παρασκευάζονται.",
+        "gloss": [
+          {
+            "greek": "πορευόμενος",
+            "english": "while traveling; circumstantial middle participle"
+          },
+          {
+            "greek": "διαλέγονται",
+            "english": "converse; deponent"
+          },
+          {
+            "greek": "μεγάλῃ παρασκευῇ χρῆται",
+            "english": "uses extensive preparation; χράομαι takes dative"
+          },
+          {
+            "greek": "τὰ ἑαυτῶν πράγματα",
+            "english": "their own belongings"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ στρατιὰ εἰς Πέλτας ἀφικνεῖται. ὁ Ξενίας θυσίαν καὶ ἀγῶνας παρασκευάζει πρὸς τιμὴν τοῦ Λυκαίου Διός. οἱ ἀθληταὶ ἀγωνίζονται, καὶ ὁ Κῦρος τοὺς ἀγῶνας θεᾶται. χρυσαῖ στλεγγίδες ἆθλά εἰσιν.",
+        "gloss": [
+          {
+            "greek": "εἰς Πέλτας",
+            "english": "at Peltae"
+          },
+          {
+            "greek": "πρὸς τιμὴν τοῦ Λυκαίου Διός",
+            "english": "in honor of Lycaean Zeus; irregular genitive Διός"
+          },
+          {
+            "greek": "ἀγωνίζονται",
+            "english": "compete; middle/deponent form"
+          },
+          {
+            "greek": "θεᾶται",
+            "english": "watches; alpha-contract middle"
+          },
+          {
+            "greek": "χρυσαῖ στλεγγίδες",
+            "english": "golden strigils; feminine noun and adjective; rare noun glossed"
+          },
+          {
+            "greek": "ἆθλά",
+            "english": "prizes; accent before enclitic εἰσιν"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ ἀγωνιζόμενοι τοὺς φίλους χαίρειν ποιοῦσιν, ἀλλὰ οἱ στρατιῶται καὶ μισθὸν ζητοῦσιν. εἰς Καΰστρου πεδίον ἀφικνοῦνται. ἐκεῖ ὁ Κῦρος τὸν μισθὸν πλείω ἢ τριῶν μηνῶν ὀφείλει.",
+        "gloss": [
+          {
+            "greek": "Οἱ ἀγωνιζόμενοι",
+            "english": "those competing; substantival middle participle"
+          },
+          {
+            "greek": "χαίρειν ποιοῦσιν",
+            "english": "make [them] rejoice; infinitive construction"
+          },
+          {
+            "greek": "εἰς Καΰστρου πεδίον",
+            "english": "at Caystru-pedion; the place called the Plain of Cayster"
+          },
+          {
+            "greek": "ἀφικνοῦνται",
+            "english": "arrive; contracted deponent plural"
+          },
+          {
+            "greek": "πλείω ἢ τριῶν μηνῶν",
+            "english": "of more than three months; comparative and quantity glossed"
+          },
+          {
+            "greek": "ὀφείλει",
+            "english": "owes"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ στρατιῶται πρὸς τὸν Κῦρον πολλάκις ἔρχονται καὶ τὸν μισθὸν αἰτοῦσιν. ὁ Κῦρος ἐλπίδας λέγει, ἀλλὰ τὰ χρήματα οὔπω πάρεστιν. ὁ Ξενοφῶν βλέπει τὸν τῶν στρατιωτῶν πόνον· οἱ πορευόμενοι τροφῆς καὶ μισθοῦ χρῄζουσιν.",
+        "gloss": [
+          {
+            "greek": "πολλάκις",
+            "english": "repeatedly"
+          },
+          {
+            "greek": "αἰτοῦσιν",
+            "english": "ask for; contracted active"
+          },
+          {
+            "greek": "ἐλπίδας",
+            "english": "hopes; dental-stem plural"
+          },
+          {
+            "greek": "οὔπω πάρεστιν",
+            "english": "is not yet available; neuter plural χρήματα with singular verb"
+          },
+          {
+            "greek": "τροφῆς καὶ μισθοῦ χρῄζουσιν",
+            "english": "need food and pay; χρῄζω with genitive"
+          }
+        ]
+      }
+    ],
+    "translation": "Cyrus travels from Sardis, and the army marches through Lydia. Those traveling carry their weapons. Xenophon examines the route with Proxenus.\n\nThe army arrives at the Maeander. Over the river is a bridge made of boats. The soldiers walk over the bridge; those preparing keep watch over weapons and resources.\n\nIn Phrygia the army travels to Colossae and then arrives at Celaenae. There Cyrus has buildings and a park. The Maeander flows through the park.\n\nOther contingents come to Cyrus. Clearchus leads hoplites, peltasts, and archers. The soldiers who are preparing are in the park, and Cyrus reviews the army.\n\nWhile traveling, Xenophon sees his friends. The friends discuss the route: “The army uses extensive preparation,” they say. Others prepare their own belongings.\n\nThe army arrives at Peltae. Xenias prepares a sacrifice and games in honor of Lycaean Zeus. The athletes compete, and Cyrus watches the games. Golden strigils are the prizes.\n\nThose competing make their friends rejoice, but the soldiers also ask for pay. They arrive at Caystru-pedion. There Cyrus owes more than three months’ pay.\n\nThe soldiers repeatedly come to Cyrus and ask for their pay. Cyrus speaks of hopes, but the money is not yet available. Xenophon sees the soldiers’ effort; those marching need food and pay.",
+    "sourceCitation": "Xenophon, Anabasis 1.2.5–11. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2",
+    "notesMarkdown": "Source and adaptation boundaries are stated in the introduction. All Greek is course-adapted present-tense narrative, not a verbatim ancient extract. Blue glosses support forms beyond the taught grammar; those untaught constructions are not assessed as morphology or production targets."
+  },
+  "wordStudy": {
+    "label": "Word Study — Travel, Contests, and Pay",
+    "blocks": [
+      {
+        "title": "Words in the Reading",
+        "practiceTopic": "word-study",
+        "body": [
+          "πορεύομαι gives πορευόμενος, “traveling.” παρασκευάζομαι gives παρασκευαζόμενος, “preparing.” The form names a participant in an ongoing action, and its adjective-like ending lets it describe a specific person.",
+          "ἀγών is a contest; ἀγωνίζομαι means compete; ἀγωνιζόμενος is a person competing. The word family connects the games at Peltae to the participants. The middle form translates naturally as an active English action.",
+          "μισθός is pay, not a prize. ἆθλον is a contest prize. Cyrus’s soldiers can enjoy games and still need overdue wages: the vocabulary keeps these different kinds of payment distinct."
+        ],
+        "display": [
+          {
+            "greek": "πορεύομαι → πορευόμενος",
+            "english": "travel → traveling"
+          },
+          {
+            "greek": "παρασκευάζομαι → παρασκευαζόμενος",
+            "english": "prepare → preparing"
+          },
+          {
+            "greek": "ἀγών / ἀγωνίζομαι",
+            "english": "contest / compete"
+          },
+          {
+            "greek": "μισθός",
+            "english": "pay"
+          },
+          {
+            "greek": "ἆθλον",
+            "english": "prize"
+          },
+          {
+            "greek": "ὀφείλω",
+            "english": "I owe"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Present middle participle formation, declension, deponents, uses, and relative time. Work through each section, use its checks and topic practice, then complete the grammar exercises. Reading-only forms remain supported by glosses.",
+    "objectives": [
+      "Form present middle participles, including familiar contracted forms.",
+      "Decline participles and match gender, number, and case to their referents.",
+      "Translate deponent participles by their lexical meanings.",
+      "Interpret attributive, substantival, and simple circumstantial uses.",
+      "Relate ongoing participial action to a finite main action and preserve participants when recasting a clause."
+    ],
+    "sections": [
+      {
+        "id": "middle-participle-formation",
+        "title": "1. Forming Present Middle Participles",
+        "practiceTopic": "middle-participle-formation",
+        "body": [
+          "Take the present stem and add -όμενος, -ομένη, -όμενον: πορευ- becomes πορευόμενος, πορευομένη, πορευόμενον. These are masculine, feminine, and neuter nominative singular forms. A participle is a verbal adjective; it is not a finite personal ending such as -εται.",
+          "The present participle represents an ongoing action. παρασκευαζόμενος is preparing, and ἀγωνιζόμενος is competing. Accent is part of the form: masculine/neuter -όμενος/-όμενον and feminine -ομένη.",
+          "Familiar alpha-contract verbs contract the connecting vowel: θεαόμενος → θεώμενος, “watching”; τιμαόμενος → τιμώμενος, “honoring for oneself” or “being honored,” according to voice and context. Learn familiar contract forms with their verbs rather than assigning a fixed English passive to every middle form."
+        ],
+        "table": {
+          "title": "Present middle participle: nominative singular",
+          "headers": [
+            "Verb",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "πορεύομαι",
+              "πορευόμενος",
+              "πορευομένη",
+              "πορευόμενον"
+            ],
+            [
+              "παρασκευάζομαι",
+              "παρασκευαζόμενος",
+              "παρασκευαζομένη",
+              "παρασκευαζόμενον"
+            ],
+            [
+              "ἀγωνίζομαι",
+              "ἀγωνιζόμενος",
+              "ἀγωνιζομένη",
+              "ἀγωνιζόμενον"
+            ],
+            [
+              "θεάομαι",
+              "θεώμενος",
+              "θεωμένη",
+              "θεώμενον"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ πορευόμενος στρατιώτης",
+            "english": "the traveling soldier"
+          },
+          {
+            "greek": "ἡ θεωμένη γυνή",
+            "english": "the woman watching"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Is πορευόμενος a finite verb?",
+            "answer": "No. It is a participle, and needs a noun/referent and a finite clause for a full sentence."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "middle-participle-agreement",
+        "title": "2. Declension and Agreement",
+        "practiceTopic": "middle-participle-agreement",
+        "body": [
+          "Middle participles decline like first/second-declension adjectives. Masculine/neuter use second-declension endings, feminine uses the first-declension -η pattern. Their gender, number, and case agree with the person or thing described.",
+          "Compare ὁ πορευόμενος στρατιώτης, subject singular, with τοὺς πορευομένους στρατιώτας, object plural. The ending tells you which noun the participle belongs to; it does not change who does the traveling.",
+          "When several nouns appear, match the participle’s ending to its referent before translating. In ὁ Κῦρος τοὺς πορευομένους στρατιώτας ὁρᾷ, the soldiers travel and Cyrus sees. Agreement prevents attributing both actions to Cyrus."
+        ],
+        "table": {
+          "title": "πορευόμενος singular",
+          "headers": [
+            "Case",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "πορευόμενος",
+              "πορευομένη",
+              "πορευόμενον"
+            ],
+            [
+              "gen.",
+              "πορευομένου",
+              "πορευομένης",
+              "πορευομένου"
+            ],
+            [
+              "dat.",
+              "πορευομένῳ",
+              "πορευομένῃ",
+              "πορευομένῳ"
+            ],
+            [
+              "acc.",
+              "πορευόμενον",
+              "πορευομένην",
+              "πορευόμενον"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ Κῦρος τοὺς πορευομένους στρατιώτας ὁρᾷ.",
+            "english": "Cyrus sees the traveling soldiers."
+          },
+          {
+            "greek": "τοῖς παρασκευαζομένοις φίλοις τροφὴν φέρει.",
+            "english": "He brings food to the friends who are preparing."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who travels in Cyrus’s seeing sentence?",
+            "answer": "The soldiers, because πορευομένους agrees with στρατιώτας."
+          }
+        ],
+        "tables": [
+          {
+            "title": "πορευόμενος plural",
+            "headers": [
+              "Case",
+              "Masculine",
+              "Feminine",
+              "Neuter"
+            ],
+            "rows": [
+              [
+                "nom.",
+                "πορευόμενοι",
+                "πορευόμεναι",
+                "πορευόμενα"
+              ],
+              [
+                "gen.",
+                "πορευομένων",
+                "πορευομένων",
+                "πορευομένων"
+              ],
+              [
+                "dat.",
+                "πορευομένοις",
+                "πορευομέναις",
+                "πορευομένοις"
+              ],
+              [
+                "acc.",
+                "πορευομένους",
+                "πορευομένας",
+                "πορευόμενα"
+              ]
+            ],
+            "greekColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "id": "deponent-participles",
+        "title": "3. Participles of Deponents",
+        "practiceTopic": "deponent-participles",
+        "body": [
+          "Deponents such as πορεύομαι and ἀγωνίζομαι use middle present forms with active lexical meanings. Their participles keep those meanings: πορευόμενος, traveling; ἀγωνιζόμενος, competing. Do not translate them as “being traveled” or “being competed.”",
+          "Other familiar examples include βουλόμενος, wanting; δεχόμενος, receiving; διαλεγόμενος, conversing. Each describes the action of the person it agrees with. παρασκευαζόμενος can emphasize preparing one’s own equipment or preparing oneself in context.",
+          "Voice comes from the verb’s meaning and construction, not an isolated ending. A middle/passive participle of another verb can have a passive interpretation. Today’s taught examples focus on familiar deponents and middle preparation."
+        ],
+        "table": {
+          "title": "Keep meaning with the verb",
+          "headers": [
+            "Verb",
+            "Participle",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "πορεύομαι",
+              "πορευόμενος",
+              "traveling"
+            ],
+            [
+              "ἀγωνίζομαι",
+              "ἀγωνιζόμενος",
+              "competing"
+            ],
+            [
+              "βούλομαι",
+              "βουλόμενος",
+              "wanting"
+            ],
+            [
+              "δέχομαι",
+              "δεχόμενος",
+              "receiving"
+            ],
+            [
+              "διαλέγομαι",
+              "διαλεγόμενος",
+              "conversing"
+            ]
+          ],
+          "greekColumns": [
+            0,
+            1
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ διαλεγόμενοι φίλοι",
+            "english": "the friends conversing"
+          },
+          {
+            "greek": "ὁ δεχόμενος τὸν μισθόν",
+            "english": "the person receiving the pay"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Must ἀγωνιζόμενος be translated passively?",
+            "answer": "No. It means competing, from the deponent ἀγωνίζομαι."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "participle-uses",
+        "title": "4. Describing, Naming, and Accompanying",
+        "practiceTopic": "participle-uses",
+        "body": [
+          "Attributive participles describe a noun inside an article group: οἱ πορευόμενοι στρατιῶται, “the traveling soldiers.” The second attributive position repeats the article: οἱ στρατιῶται οἱ πορευόμενοι. Both identify the soldiers by their action.",
+          "A substantival participle has the article without an expressed noun: οἱ πορευόμενοι, “those traveling.” As with substantive adjectives, the context supplies the people or things. A participle may still take an object, as ὁ δεχόμενος τὸν μισθόν, “the person receiving the pay.”",
+          "A simple circumstantial participle accompanies the main action without being enclosed in its article group: ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ, “while traveling, Xenophon sees his friends.” Here while fits the context. Do not automatically impose because or although when the sentence supplies no such relationship."
+        ],
+        "table": {
+          "title": "Three uses",
+          "headers": [
+            "Greek",
+            "Use",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "οἱ πορευόμενοι στρατιῶται",
+              "attributive",
+              "the traveling soldiers"
+            ],
+            [
+              "οἱ στρατιῶται οἱ πορευόμενοι",
+              "attributive",
+              "the soldiers who are traveling"
+            ],
+            [
+              "οἱ πορευόμενοι",
+              "substantival",
+              "those traveling"
+            ],
+            [
+              "ὁ Ξενοφῶν πορευόμενος ὁρᾷ",
+              "circumstantial",
+              "while traveling, Xenophon sees"
+            ]
+          ],
+          "greekColumns": [
+            0
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ παρασκευαζόμενοι τὰ ὅπλα φυλάττουσιν.",
+            "english": "Those preparing guard the weapons."
+          },
+          {
+            "greek": "ὁ Ξενοφῶν πορευόμενος ὁρᾷ.",
+            "english": "While traveling, Xenophon sees."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What has been omitted in οἱ πορευόμενοι?",
+            "answer": "An expressed noun such as soldiers; the participle itself names the group."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "participle-relative-time",
+        "title": "5. Ongoing Action and Relative Time",
+        "practiceTopic": "participle-relative-time",
+        "body": [
+          "A present participle describes ongoing action relative to the main verb. It does not independently assign a calendar date. Our story’s main verbs are in the present, so πορευόμενος ὁρᾷ means “while traveling, he sees.”",
+          "Keep the same participant when converting a simple clause: ὁ Ξενοφῶν πορεύεται καὶ τοὺς φίλους ὁρᾷ → ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ. This presents his ongoing traveling as accompanying his seeing. It does not create a new traveler.",
+          "Participles are not personal verbs. πορευόμενος alone does not say “he travels” as a complete clause. Find the finite verb, establish its subject, then connect the agreeing participle. In a past narrative a present participle would still describe ongoing action relative to that past main action; the past forms themselves are not today’s exercise target."
+        ],
+        "table": {
+          "title": "Keep action and participants connected",
+          "headers": [
+            "Finite clauses",
+            "Participial version",
+            "Relationship"
+          ],
+          "rows": [
+            [
+              "ὁ Ξενοφῶν πορεύεται καὶ ὁρᾷ",
+              "ὁ Ξενοφῶν πορευόμενος ὁρᾷ",
+              "one person; accompanying actions"
+            ],
+            [
+              "οἱ φίλοι διαλέγονται καὶ βαδίζουσιν",
+              "οἱ φίλοι διαλεγόμενοι βαδίζουσιν",
+              "same friends; ongoing conversation"
+            ],
+            [
+              "ὁ Κῦρος τοὺς πορευομένους ὁρᾷ",
+              "ὁρᾷ finite; πορευομένους participle",
+              "Cyrus sees; other people travel"
+            ]
+          ],
+          "greekColumns": [
+            0,
+            1
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ φίλοι διαλεγόμενοι βαδίζουσιν.",
+            "english": "The friends walk while conversing."
+          },
+          {
+            "greek": "ὁ Κῦρος τοὺς πορευομένους ὁρᾷ.",
+            "english": "Cyrus sees those traveling."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Does the present participle itself establish that the event is happening today?",
+            "answer": "No; its ongoing action is interpreted relative to the main action."
+          }
+        ],
+        "tables": []
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Present middle participles use -όμενος, -ομένη, -όμενον; familiar contract vowels contract.",
+        "First/second-declension endings give agreement with a noun or contextual referent.",
+        "A deponent participle can have an active English meaning: ἀγωνιζόμενος, competing.",
+        "An article group describes or names; a circumstantial participle accompanies the main action.",
+        "Present participles present ongoing relative action and do not independently establish calendar time."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Marching, Royal Parks, and Overdue Wages",
+    "body": [],
+    "sections": [
+      {
+        "title": "Reading an itinerary as human movement",
+        "body": [
+          "Anabasis 1.2.5–11 records stages, distances, stopping places, and the arrival of further forces. The boat bridge over the Maeander is an example of practical infrastructure that lets an army move. Our reading selects the crossing and a few stopping places to make the journey manageable rather than asking beginners to reproduce the full numerical itinerary.",
+          "The road runs through Lydia into Phrygia. These are named regions in Xenophon’s account, not interchangeable labels for all of Asia. Travel joins geography to material tasks: carrying equipment, watching possessions, and arranging food. The ordinary conversations in our reading are reconstructed examples, while the named route and bridge are source-based."
+        ]
+      },
+      {
+        "title": "A park and a festival on campaign",
+        "body": [
+          "At Celaenae Xenophon describes Cyrus’s palace and a large hunting park, with the Maeander flowing through it. Additional contingents gather, and Cyrus reviews the Greeks there. The park belongs to the royal environment of the march; παράδεισος here does not mean an afterlife paradise. Geography, royal resources, and military assembly meet at this stop.",
+          "At Peltae Xenias celebrates a festival for Lycaean Zeus with sacrifice and athletic games. Cyrus watches, and golden strigils are awarded as prizes. A strigil is the curved implement used to scrape oil and dirt from the body. The festival brings familiar Greek athletic and religious activity into the expedition without making the journey itself a holiday."
+        ]
+      },
+      {
+        "title": "Pay as a condition of cooperation",
+        "body": [
+          "By Caystru-pedion the troops are owed more than three months’ wages. Xenophon reports repeated requests for payment and Cyrus’s expressions of hope. The amount in arrears matters: these men depend on resources, and promises alone do not remove their needs. Their pressure is part of the expedition’s practical story.",
+          "Our distinction between μισθός, pay, and ἆθλον, prize, helps avoid treating rewards at games as a substitute for wages. The next lesson follows Epyaxa’s arrival and the payment of four months’ wages. A question for reflection is how a leader can secure cooperation when the material obligations that support it remain unmet."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "What practical feature helps the army cross the Maeander?",
+        "answer": "A bridge made of boats."
+      },
+      {
+        "prompt": "What does παράδεισος mean at Celaenae?",
+        "answer": "Cyrus’s royal hunting park."
+      },
+      {
+        "prompt": "Who organizes the Peltae festival?",
+        "answer": "Xenias, in honor of Lycaean Zeus."
+      },
+      {
+        "prompt": "What are the prizes at the games?",
+        "answer": "Golden strigils."
+      },
+      {
+        "prompt": "How much pay is overdue at Caystru-pedion?",
+        "answer": "More than three months’ pay."
+      },
+      {
+        "prompt": "Why distinguish a prize from pay?",
+        "answer": "Athletic prizes do not satisfy the army’s ordinary wage obligations."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Present middle participles use -όμενος, -ομένη, -όμενον; familiar contract vowels contract.",
+        "First/second-declension endings give agreement with a noun or contextual referent.",
+        "A deponent participle can have an active English meaning: ἀγωνιζόμενος, competing.",
+        "An article group describes or names; a circumstantial participle accompanies the main action.",
+        "Present participles present ongoing relative action and do not independently establish calendar time.",
+        "How much pay is overdue at Caystru-pedion? More than three months’ pay.",
+        "Why distinguish a prize from pay? Athletic prizes do not satisfy the army’s ordinary wage obligations."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 1.2.5–11",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 15 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "πορεύομαι — required vocabulary",
+          "answer": "travel; πορεύομαι"
+        },
+        {
+          "prompt": "ὁ ποταμός — required vocabulary",
+          "answer": "river; ποταμός, ποταμοῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ γέφυρα — required vocabulary",
+          "answer": "bridge; γέφυρα, γεφύρας, ἡ"
+        },
+        {
+          "prompt": "τὸ πλοῖον — required vocabulary",
+          "answer": "boat; πλοῖον, πλοίου, τό"
+        },
+        {
+          "prompt": "ὁ παράδεισος — required vocabulary",
+          "answer": "royal park; παράδεισος, παραδείσου, ὁ"
+        },
+        {
+          "prompt": "αἱ Κελαιναί — reading vocabulary",
+          "answer": "Celaenae; Κελαιναί, Κελαινῶν, αἱ"
+        },
+        {
+          "prompt": "ἡ Φρυγία — reading vocabulary",
+          "answer": "Phrygia; Φρυγία, Φρυγίας, ἡ"
+        },
+        {
+          "prompt": "παρασκευάζομαι — required vocabulary",
+          "answer": "prepare for oneself; παρασκευάζομαι"
+        },
+        {
+          "prompt": "διαλέγομαι — required vocabulary",
+          "answer": "converse; διαλέγομαι"
+        },
+        {
+          "prompt": "ὁ πελταστής — required vocabulary",
+          "answer": "peltast; πελταστής, πελταστοῦ, ὁ"
+        },
+        {
+          "prompt": "ὁ τοξότης — required vocabulary",
+          "answer": "archer; τοξότης, τοξότου, ὁ"
+        },
+        {
+          "prompt": "ἐξετάζω — required vocabulary",
+          "answer": "review; inspect; ἐξετάζω"
+        },
+        {
+          "prompt": "ἡ παρασκευή — required vocabulary",
+          "answer": "preparation; παρασκευή, παρασκευῆς, ἡ"
+        },
+        {
+          "prompt": "ὁ μισθός — required vocabulary",
+          "answer": "pay; μισθός, μισθοῦ, ὁ"
+        },
+        {
+          "prompt": "ὀφείλω — required vocabulary",
+          "answer": "owe; ὀφείλω"
+        },
+        {
+          "prompt": "ὁ ἀγών — required vocabulary",
+          "answer": "contest; ἀγών, ἀγῶνος, ὁ"
+        },
+        {
+          "prompt": "ἀγωνίζομαι — required vocabulary",
+          "answer": "compete; ἀγωνίζομαι"
+        },
+        {
+          "prompt": "θεάομαι — required vocabulary",
+          "answer": "watch; θεάομαι"
+        },
+        {
+          "prompt": "τὸ ἆθλον — required vocabulary",
+          "answer": "prize; ἆθλον, ἄθλου, τό"
+        },
+        {
+          "prompt": "ἡ στλεγγίς — reading vocabulary",
+          "answer": "strigil; στλεγγίς, στλεγγίδος, ἡ"
+        },
+        {
+          "prompt": "ἡ θυσία — required vocabulary",
+          "answer": "sacrifice; θυσία, θυσίας, ἡ"
+        },
+        {
+          "prompt": "αἰτέω — required vocabulary",
+          "answer": "ask for; αἰτέω"
+        },
+        {
+          "prompt": "πολλάκις — required vocabulary",
+          "answer": "repeatedly; πολλάκις (adverb)"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 15 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Practice required words in short rounds. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-15-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "travel",
+              "correct": true,
+              "feedback": "Correct: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            },
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            },
+            {
+              "text": "preparation",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “travel”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": true,
+              "feedback": "Correct: πορεύομαι: travel."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel."
+            },
+            {
+              "text": "ἡ παρασκευή",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ ποταμός mean?",
+          "choices": [
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            },
+            {
+              "text": "preparation",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            },
+            {
+              "text": "river",
+              "correct": true,
+              "feedback": "Correct: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            },
+            {
+              "text": "archer",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “river”?",
+          "choices": [
+            {
+              "text": "ὁ τοξότης",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river."
+            },
+            {
+              "text": "ἡ παρασκευή",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river."
+            },
+            {
+              "text": "ὁ ποταμός",
+              "correct": true,
+              "feedback": "Correct: ὁ ποταμός: river."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ γέφυρα mean?",
+          "choices": [
+            {
+              "text": "bridge",
+              "correct": true,
+              "feedback": "Correct: ἡ γέφυρα: bridge. Dictionary form: γέφυρα, γεφύρας, ἡ."
+            },
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: ἡ γέφυρα: bridge. Dictionary form: γέφυρα, γεφύρας, ἡ."
+            },
+            {
+              "text": "preparation",
+              "correct": false,
+              "feedback": "Review: ἡ γέφυρα: bridge. Dictionary form: γέφυρα, γεφύρας, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ γέφυρα: bridge. Dictionary form: γέφυρα, γεφύρας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “bridge”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ γέφυρα: bridge."
+            },
+            {
+              "text": "ἡ γέφυρα",
+              "correct": true,
+              "feedback": "Correct: ἡ γέφυρα: bridge."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "Review: ἡ γέφυρα: bridge."
+            },
+            {
+              "text": "ἡ παρασκευή",
+              "correct": false,
+              "feedback": "Review: ἡ γέφυρα: bridge."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ πλοῖον mean?",
+          "choices": [
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: τὸ πλοῖον: boat. Dictionary form: πλοῖον, πλοίου, τό."
+            },
+            {
+              "text": "owe",
+              "correct": false,
+              "feedback": "Review: τὸ πλοῖον: boat. Dictionary form: πλοῖον, πλοίου, τό."
+            },
+            {
+              "text": "boat",
+              "correct": true,
+              "feedback": "Correct: τὸ πλοῖον: boat. Dictionary form: πλοῖον, πλοίου, τό."
+            },
+            {
+              "text": "preparation",
+              "correct": false,
+              "feedback": "Review: τὸ πλοῖον: boat. Dictionary form: πλοῖον, πλοίου, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “boat”?",
+          "choices": [
+            {
+              "text": "ἡ παρασκευή",
+              "correct": false,
+              "feedback": "Review: τὸ πλοῖον: boat."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: τὸ πλοῖον: boat."
+            },
+            {
+              "text": "ὀφείλω",
+              "correct": false,
+              "feedback": "Review: τὸ πλοῖον: boat."
+            },
+            {
+              "text": "τὸ πλοῖον",
+              "correct": true,
+              "feedback": "Correct: τὸ πλοῖον: boat."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ παράδεισος mean?",
+          "choices": [
+            {
+              "text": "royal park",
+              "correct": true,
+              "feedback": "Correct: ὁ παράδεισος: royal park. Dictionary form: παράδεισος, παραδείσου, ὁ."
+            },
+            {
+              "text": "ask for",
+              "correct": false,
+              "feedback": "Review: ὁ παράδεισος: royal park. Dictionary form: παράδεισος, παραδείσου, ὁ."
+            },
+            {
+              "text": "repeatedly",
+              "correct": false,
+              "feedback": "Review: ὁ παράδεισος: royal park. Dictionary form: παράδεισος, παραδείσου, ὁ."
+            },
+            {
+              "text": "travel",
+              "correct": false,
+              "feedback": "Review: ὁ παράδεισος: royal park. Dictionary form: παράδεισος, παραδείσου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “royal park”?",
+          "choices": [
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ὁ παράδεισος: royal park."
+            },
+            {
+              "text": "ὁ παράδεισος",
+              "correct": true,
+              "feedback": "Correct: ὁ παράδεισος: royal park."
+            },
+            {
+              "text": "αἰτέω",
+              "correct": false,
+              "feedback": "Review: ὁ παράδεισος: royal park."
+            },
+            {
+              "text": "πολλάκις",
+              "correct": false,
+              "feedback": "Review: ὁ παράδεισος: royal park."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does παρασκευάζομαι mean?",
+          "choices": [
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            },
+            {
+              "text": "prepare for oneself",
+              "correct": true,
+              "feedback": "Correct: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            },
+            {
+              "text": "archer",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “prepare for oneself”?",
+          "choices": [
+            {
+              "text": "ὁ τοξότης",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself."
+            },
+            {
+              "text": "παρασκευάζομαι",
+              "correct": true,
+              "feedback": "Correct: παρασκευάζομαι: prepare for oneself."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does διαλέγομαι mean?",
+          "choices": [
+            {
+              "text": "converse",
+              "correct": true,
+              "feedback": "Correct: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            },
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            },
+            {
+              "text": "boat",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            },
+            {
+              "text": "royal park",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “converse”?",
+          "choices": [
+            {
+              "text": "ὁ παράδεισος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse."
+            },
+            {
+              "text": "διαλέγομαι",
+              "correct": true,
+              "feedback": "Correct: διαλέγομαι: converse."
+            },
+            {
+              "text": "ἡ γέφυρα",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse."
+            },
+            {
+              "text": "τὸ πλοῖον",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ πελταστής mean?",
+          "choices": [
+            {
+              "text": "compete",
+              "correct": false,
+              "feedback": "Review: ὁ πελταστής: peltast. Dictionary form: πελταστής, πελταστοῦ, ὁ."
+            },
+            {
+              "text": "watch",
+              "correct": false,
+              "feedback": "Review: ὁ πελταστής: peltast. Dictionary form: πελταστής, πελταστοῦ, ὁ."
+            },
+            {
+              "text": "peltast",
+              "correct": true,
+              "feedback": "Correct: ὁ πελταστής: peltast. Dictionary form: πελταστής, πελταστοῦ, ὁ."
+            },
+            {
+              "text": "contest",
+              "correct": false,
+              "feedback": "Review: ὁ πελταστής: peltast. Dictionary form: πελταστής, πελταστοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “peltast”?",
+          "choices": [
+            {
+              "text": "ὁ ἀγών",
+              "correct": false,
+              "feedback": "Review: ὁ πελταστής: peltast."
+            },
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": false,
+              "feedback": "Review: ὁ πελταστής: peltast."
+            },
+            {
+              "text": "θεάομαι",
+              "correct": false,
+              "feedback": "Review: ὁ πελταστής: peltast."
+            },
+            {
+              "text": "ὁ πελταστής",
+              "correct": true,
+              "feedback": "Correct: ὁ πελταστής: peltast."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ τοξότης mean?",
+          "choices": [
+            {
+              "text": "archer",
+              "correct": true,
+              "feedback": "Correct: ὁ τοξότης: archer. Dictionary form: τοξότης, τοξότου, ὁ."
+            },
+            {
+              "text": "travel",
+              "correct": false,
+              "feedback": "Review: ὁ τοξότης: archer. Dictionary form: τοξότης, τοξότου, ὁ."
+            },
+            {
+              "text": "river",
+              "correct": false,
+              "feedback": "Review: ὁ τοξότης: archer. Dictionary form: τοξότης, τοξότου, ὁ."
+            },
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: ὁ τοξότης: archer. Dictionary form: τοξότης, τοξότου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “archer”?",
+          "choices": [
+            {
+              "text": "ἡ γέφυρα",
+              "correct": false,
+              "feedback": "Review: ὁ τοξότης: archer."
+            },
+            {
+              "text": "ὁ τοξότης",
+              "correct": true,
+              "feedback": "Correct: ὁ τοξότης: archer."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ὁ τοξότης: archer."
+            },
+            {
+              "text": "ὁ ποταμός",
+              "correct": false,
+              "feedback": "Review: ὁ τοξότης: archer."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἐξετάζω mean?",
+          "choices": [
+            {
+              "text": "boat",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω: review; inspect. Dictionary form: ἐξετάζω."
+            },
+            {
+              "text": "royal park",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω: review; inspect. Dictionary form: ἐξετάζω."
+            },
+            {
+              "text": "review; inspect",
+              "correct": true,
+              "feedback": "Correct: ἐξετάζω: review; inspect. Dictionary form: ἐξετάζω."
+            },
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω: review; inspect. Dictionary form: ἐξετάζω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “review; inspect”?",
+          "choices": [
+            {
+              "text": "ἡ γέφυρα",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω: review; inspect."
+            },
+            {
+              "text": "τὸ πλοῖον",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω: review; inspect."
+            },
+            {
+              "text": "ὁ παράδεισος",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω: review; inspect."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": true,
+              "feedback": "Correct: ἐξετάζω: review; inspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ παρασκευή mean?",
+          "choices": [
+            {
+              "text": "preparation",
+              "correct": true,
+              "feedback": "Correct: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            },
+            {
+              "text": "archer",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            },
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation. Dictionary form: παρασκευή, παρασκευῆς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “preparation”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation."
+            },
+            {
+              "text": "ἡ παρασκευή",
+              "correct": true,
+              "feedback": "Correct: ἡ παρασκευή: preparation."
+            },
+            {
+              "text": "ὁ τοξότης",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "Review: ἡ παρασκευή: preparation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ μισθός mean?",
+          "choices": [
+            {
+              "text": "ask for",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "repeatedly",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "pay",
+              "correct": true,
+              "feedback": "Correct: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "sacrifice",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “pay”?",
+          "choices": [
+            {
+              "text": "ἡ θυσία",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay."
+            },
+            {
+              "text": "αἰτέω",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay."
+            },
+            {
+              "text": "πολλάκις",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": true,
+              "feedback": "Correct: ὁ μισθός: pay."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὀφείλω mean?",
+          "choices": [
+            {
+              "text": "owe",
+              "correct": true,
+              "feedback": "Correct: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            },
+            {
+              "text": "watch",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            },
+            {
+              "text": "sacrifice",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “owe”?",
+          "choices": [
+            {
+              "text": "ἡ θυσία",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe."
+            },
+            {
+              "text": "ὀφείλω",
+              "correct": true,
+              "feedback": "Correct: ὀφείλω: owe."
+            },
+            {
+              "text": "θεάομαι",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe."
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ ἀγών mean?",
+          "choices": [
+            {
+              "text": "travel",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "river",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "contest",
+              "correct": true,
+              "feedback": "Correct: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "repeatedly",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “contest”?",
+          "choices": [
+            {
+              "text": "πολλάκις",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest."
+            },
+            {
+              "text": "ὁ ποταμός",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest."
+            },
+            {
+              "text": "ὁ ἀγών",
+              "correct": true,
+              "feedback": "Correct: ὁ ἀγών: contest."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἀγωνίζομαι mean?",
+          "choices": [
+            {
+              "text": "compete",
+              "correct": true,
+              "feedback": "Correct: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            },
+            {
+              "text": "royal park",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            },
+            {
+              "text": "prepare for oneself",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            },
+            {
+              "text": "converse",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “compete”?",
+          "choices": [
+            {
+              "text": "διαλέγομαι",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete."
+            },
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": true,
+              "feedback": "Correct: ἀγωνίζομαι: compete."
+            },
+            {
+              "text": "ὁ παράδεισος",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete."
+            },
+            {
+              "text": "παρασκευάζομαι",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does θεάομαι mean?",
+          "choices": [
+            {
+              "text": "compete",
+              "correct": false,
+              "feedback": "Review: θεάομαι: watch. Dictionary form: θεάομαι."
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: θεάομαι: watch. Dictionary form: θεάομαι."
+            },
+            {
+              "text": "watch",
+              "correct": true,
+              "feedback": "Correct: θεάομαι: watch. Dictionary form: θεάομαι."
+            },
+            {
+              "text": "contest",
+              "correct": false,
+              "feedback": "Review: θεάομαι: watch. Dictionary form: θεάομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “watch”?",
+          "choices": [
+            {
+              "text": "ὁ ἀγών",
+              "correct": false,
+              "feedback": "Review: θεάομαι: watch."
+            },
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": false,
+              "feedback": "Review: θεάομαι: watch."
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: θεάομαι: watch."
+            },
+            {
+              "text": "θεάομαι",
+              "correct": true,
+              "feedback": "Correct: θεάομαι: watch."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ ἆθλον mean?",
+          "choices": [
+            {
+              "text": "prize",
+              "correct": true,
+              "feedback": "Correct: τὸ ἆθλον: prize. Dictionary form: ἆθλον, ἄθλου, τό."
+            },
+            {
+              "text": "owe",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον: prize. Dictionary form: ἆθλον, ἄθλου, τό."
+            },
+            {
+              "text": "contest",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον: prize. Dictionary form: ἆθλον, ἄθλου, τό."
+            },
+            {
+              "text": "compete",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον: prize. Dictionary form: ἆθλον, ἄθλου, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “prize”?",
+          "choices": [
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον: prize."
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": true,
+              "feedback": "Correct: τὸ ἆθλον: prize."
+            },
+            {
+              "text": "ὀφείλω",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον: prize."
+            },
+            {
+              "text": "ὁ ἀγών",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον: prize."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ θυσία mean?",
+          "choices": [
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: ἡ θυσία: sacrifice. Dictionary form: θυσία, θυσίας, ἡ."
+            },
+            {
+              "text": "boat",
+              "correct": false,
+              "feedback": "Review: ἡ θυσία: sacrifice. Dictionary form: θυσία, θυσίας, ἡ."
+            },
+            {
+              "text": "sacrifice",
+              "correct": true,
+              "feedback": "Correct: ἡ θυσία: sacrifice. Dictionary form: θυσία, θυσίας, ἡ."
+            },
+            {
+              "text": "river",
+              "correct": false,
+              "feedback": "Review: ἡ θυσία: sacrifice. Dictionary form: θυσία, θυσίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “sacrifice”?",
+          "choices": [
+            {
+              "text": "ὁ ποταμός",
+              "correct": false,
+              "feedback": "Review: ἡ θυσία: sacrifice."
+            },
+            {
+              "text": "ἡ γέφυρα",
+              "correct": false,
+              "feedback": "Review: ἡ θυσία: sacrifice."
+            },
+            {
+              "text": "τὸ πλοῖον",
+              "correct": false,
+              "feedback": "Review: ἡ θυσία: sacrifice."
+            },
+            {
+              "text": "ἡ θυσία",
+              "correct": true,
+              "feedback": "Correct: ἡ θυσία: sacrifice."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does αἰτέω mean?",
+          "choices": [
+            {
+              "text": "ask for",
+              "correct": true,
+              "feedback": "Correct: αἰτέω: ask for. Dictionary form: αἰτέω."
+            },
+            {
+              "text": "royal park",
+              "correct": false,
+              "feedback": "Review: αἰτέω: ask for. Dictionary form: αἰτέω."
+            },
+            {
+              "text": "prepare for oneself",
+              "correct": false,
+              "feedback": "Review: αἰτέω: ask for. Dictionary form: αἰτέω."
+            },
+            {
+              "text": "converse",
+              "correct": false,
+              "feedback": "Review: αἰτέω: ask for. Dictionary form: αἰτέω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “ask for”?",
+          "choices": [
+            {
+              "text": "διαλέγομαι",
+              "correct": false,
+              "feedback": "Review: αἰτέω: ask for."
+            },
+            {
+              "text": "αἰτέω",
+              "correct": true,
+              "feedback": "Correct: αἰτέω: ask for."
+            },
+            {
+              "text": "ὁ παράδεισος",
+              "correct": false,
+              "feedback": "Review: αἰτέω: ask for."
+            },
+            {
+              "text": "παρασκευάζομαι",
+              "correct": false,
+              "feedback": "Review: αἰτέω: ask for."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does πολλάκις mean?",
+          "choices": [
+            {
+              "text": "river",
+              "correct": false,
+              "feedback": "Review: πολλάκις: repeatedly. Dictionary form: πολλάκις (adverb)."
+            },
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: πολλάκις: repeatedly. Dictionary form: πολλάκις (adverb)."
+            },
+            {
+              "text": "repeatedly",
+              "correct": true,
+              "feedback": "Correct: πολλάκις: repeatedly. Dictionary form: πολλάκις (adverb)."
+            },
+            {
+              "text": "travel",
+              "correct": false,
+              "feedback": "Review: πολλάκις: repeatedly. Dictionary form: πολλάκις (adverb)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “repeatedly”?",
+          "choices": [
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: πολλάκις: repeatedly."
+            },
+            {
+              "text": "ὁ ποταμός",
+              "correct": false,
+              "feedback": "Review: πολλάκις: repeatedly."
+            },
+            {
+              "text": "ἡ γέφυρα",
+              "correct": false,
+              "feedback": "Review: πολλάκις: repeatedly."
+            },
+            {
+              "text": "πολλάκις",
+              "correct": true,
+              "feedback": "Correct: πολλάκις: repeatedly."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 15 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "Is πορευόμενος a finite verb?",
+          "answer": "No. It is a participle, and needs a noun/referent and a finite clause for a full sentence."
+        },
+        {
+          "prompt": "Who travels in Cyrus’s seeing sentence?",
+          "answer": "The soldiers, because πορευομένους agrees with στρατιώτας."
+        },
+        {
+          "prompt": "Must ἀγωνιζόμενος be translated passively?",
+          "answer": "No. It means competing, from the deponent ἀγωνίζομαι."
+        },
+        {
+          "prompt": "What has been omitted in οἱ πορευόμενοι?",
+          "answer": "An expressed noun such as soldiers; the participle itself names the group."
+        },
+        {
+          "prompt": "Does the present participle itself establish that the event is happening today?",
+          "answer": "No; its ongoing action is interpreted relative to the main action."
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 15 Word Study and Grammar Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose a topic. Every teaching section has its own practice questions with immediate feedback.",
+      "questions": [
+        {
+          "id": "lesson-15-word-study-1",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which word names soldiers’ pay?",
+          "choices": [
+            {
+              "text": "μισθός",
+              "correct": true,
+              "feedback": "Correct: μισθός is pay or wages."
+            },
+            {
+              "text": "ἆθλον",
+              "correct": false,
+              "feedback": "Review: μισθός is pay or wages."
+            },
+            {
+              "text": "παράδεισος",
+              "correct": false,
+              "feedback": "Review: μισθός is pay or wages."
+            },
+            {
+              "text": "γέφυρα",
+              "correct": false,
+              "feedback": "Review: μισθός is pay or wages."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-word-study-2",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which word is a contest prize?",
+          "choices": [
+            {
+              "text": "στρατός",
+              "correct": false,
+              "feedback": "Review: ἆθλον is a prize."
+            },
+            {
+              "text": "ἆθλον",
+              "correct": true,
+              "feedback": "Correct: ἆθλον is a prize."
+            },
+            {
+              "text": "μισθός",
+              "correct": false,
+              "feedback": "Review: ἆθλον is a prize."
+            },
+            {
+              "text": "ποταμός",
+              "correct": false,
+              "feedback": "Review: ἆθλον is a prize."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-word-study-3",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which verb is related to ἀγών?",
+          "choices": [
+            {
+              "text": "διαλέγομαι",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι means compete in a contest."
+            },
+            {
+              "text": "ὀφείλω",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι means compete in a contest."
+            },
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": true,
+              "feedback": "Correct: ἀγωνίζομαι means compete in a contest."
+            },
+            {
+              "text": "πορεύομαι",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι means compete in a contest."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-word-study-4",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does ὀφείλω mean?",
+          "choices": [
+            {
+              "text": "I compete",
+              "correct": false,
+              "feedback": "Review: ὀφείλω means owe."
+            },
+            {
+              "text": "I inspect",
+              "correct": false,
+              "feedback": "Review: ὀφείλω means owe."
+            },
+            {
+              "text": "I watch",
+              "correct": false,
+              "feedback": "Review: ὀφείλω means owe."
+            },
+            {
+              "text": "I owe",
+              "correct": true,
+              "feedback": "Correct: ὀφείλω means owe."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-word-study-5",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does παράδεισος mean in the reading?",
+          "choices": [
+            {
+              "text": "royal park",
+              "correct": true,
+              "feedback": "Correct: Here it is Cyrus’s park at Celaenae."
+            },
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: Here it is Cyrus’s park at Celaenae."
+            },
+            {
+              "text": "army camp",
+              "correct": false,
+              "feedback": "Review: Here it is Cyrus’s park at Celaenae."
+            },
+            {
+              "text": "market pay",
+              "correct": false,
+              "feedback": "Review: Here it is Cyrus’s park at Celaenae."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-word-study-6",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which verb means converse?",
+          "choices": [
+            {
+              "text": "αἰτέω",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "διαλέγομαι",
+              "correct": true,
+              "feedback": "Correct: διαλέγομαι means converse."
+            },
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-formation-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the masculine nominative singular present middle participle of πορεύομαι?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορεύονται",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-formation-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the feminine nominative singular?",
+          "choices": [
+            {
+              "text": "πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: Feminine nominative singular ends in -ομένη."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": true,
+              "feedback": "Correct: Feminine nominative singular ends in -ομένη."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Feminine nominative singular ends in -ομένη."
+            },
+            {
+              "text": "πορευόμενον",
+              "correct": false,
+              "feedback": "Review: Feminine nominative singular ends in -ομένη."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-formation-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the neuter nominative singular?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Neuter nominative singular ends in -όμενον."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: Neuter nominative singular ends in -όμενον."
+            },
+            {
+              "text": "πορευόμενον",
+              "correct": true,
+              "feedback": "Correct: Neuter nominative singular ends in -όμενον."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: Neuter nominative singular ends in -όμενον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-formation-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which form is a finite verb rather than a participle?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: -εται supplies third-person singular finite form."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: -εται supplies third-person singular finite form."
+            },
+            {
+              "text": "πορευόμενον",
+              "correct": false,
+              "feedback": "Review: -εται supplies third-person singular finite form."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": true,
+              "feedback": "Correct: -εται supplies third-person singular finite form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-formation-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the contracted masculine participle of θεάομαι?",
+          "choices": [
+            {
+              "text": "θεώμενος",
+              "correct": true,
+              "feedback": "Correct: θεαόμενος contracts to θεώμενος."
+            },
+            {
+              "text": "θεαόμενος as the ordinary Attic surface form",
+              "correct": false,
+              "feedback": "Review: θεαόμενος contracts to θεώμενος."
+            },
+            {
+              "text": "θεᾶται",
+              "correct": false,
+              "feedback": "Review: θεαόμενος contracts to θεώμενος."
+            },
+            {
+              "text": "θεώμενοι",
+              "correct": false,
+              "feedback": "Review: θεαόμενος contracts to θεώμενος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-formation-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which form means “preparing” as masculine nominative singular?",
+          "choices": [
+            {
+              "text": "παρασκευάζομαι",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευαζόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευάζεται",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευάζονται",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-agreement-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which fits οἱ ___ στρατιῶται?",
+          "choices": [
+            {
+              "text": "πορευόμενοι",
+              "correct": true,
+              "feedback": "Correct: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευομένους",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-agreement-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which fits τοὺς ___ στρατιώτας?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural is -ομένους."
+            },
+            {
+              "text": "πορευομένους",
+              "correct": true,
+              "feedback": "Correct: Accusative masculine plural is -ομένους."
+            },
+            {
+              "text": "πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural is -ομένους."
+            },
+            {
+              "text": "πορευομένου",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural is -ομένους."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-agreement-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which fits τῇ ___ γυναικί for “the woman watching”?",
+          "choices": [
+            {
+              "text": "θεώμενος",
+              "correct": false,
+              "feedback": "Review: Dative feminine singular is -μένῃ."
+            },
+            {
+              "text": "θεώμενον",
+              "correct": false,
+              "feedback": "Review: Dative feminine singular is -μένῃ."
+            },
+            {
+              "text": "θεωμένῃ",
+              "correct": true,
+              "feedback": "Correct: Dative feminine singular is -μένῃ."
+            },
+            {
+              "text": "θεωμένη",
+              "correct": false,
+              "feedback": "Review: Dative feminine singular is -μένῃ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-agreement-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Who travels in ὁ Κῦρος τοὺς πορευομένους στρατιώτας ὁρᾷ?",
+          "choices": [
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: πορευομένους agrees with στρατιώτας."
+            },
+            {
+              "text": "both by grammatical agreement",
+              "correct": false,
+              "feedback": "Review: πορευομένους agrees with στρατιώτας."
+            },
+            {
+              "text": "no one",
+              "correct": false,
+              "feedback": "Review: πορευομένους agrees with στρατιώτας."
+            },
+            {
+              "text": "the soldiers",
+              "correct": true,
+              "feedback": "Correct: πορευομένους agrees with στρατιώτας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-agreement-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which is genitive plural of πορευόμενος in all genders?",
+          "choices": [
+            {
+              "text": "πορευομένων",
+              "correct": true,
+              "feedback": "Correct: The genitive plural ending is -ων."
+            },
+            {
+              "text": "πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: The genitive plural ending is -ων."
+            },
+            {
+              "text": "πορευομένους",
+              "correct": false,
+              "feedback": "Review: The genitive plural ending is -ων."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: The genitive plural ending is -ων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-middle-participle-agreement-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "What does agreement require?",
+          "choices": [
+            {
+              "text": "always nominative singular",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same gender, number, and case as the referent",
+              "correct": true,
+              "feedback": "Correct: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same person as the finite verb",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same dictionary ending as the noun",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-deponent-participles-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What does ἀγωνιζόμενος mean?",
+          "choices": [
+            {
+              "text": "competing",
+              "correct": true,
+              "feedback": "Correct: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "being competed",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "commanding",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "receiving",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-deponent-participles-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What does δεχόμενος mean?",
+          "choices": [
+            {
+              "text": "asking",
+              "correct": false,
+              "feedback": "Review: δέχομαι means receive."
+            },
+            {
+              "text": "receiving",
+              "correct": true,
+              "feedback": "Correct: δέχομαι means receive."
+            },
+            {
+              "text": "being received automatically",
+              "correct": false,
+              "feedback": "Review: δέχομαι means receive."
+            },
+            {
+              "text": "marching",
+              "correct": false,
+              "feedback": "Review: δέχομαι means receive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-deponent-participles-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What does βουλόμενος mean?",
+          "choices": [
+            {
+              "text": "watching",
+              "correct": false,
+              "feedback": "Review: βούλομαι means want."
+            },
+            {
+              "text": "speaking",
+              "correct": false,
+              "feedback": "Review: βούλομαι means want."
+            },
+            {
+              "text": "wanting",
+              "correct": true,
+              "feedback": "Correct: βούλομαι means want."
+            },
+            {
+              "text": "being wanted automatically",
+              "correct": false,
+              "feedback": "Review: βούλομαι means want."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-deponent-participles-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "Which participle means conversing?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "δεχόμενος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "ἀγωνιζόμενος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "διαλεγόμενος",
+              "correct": true,
+              "feedback": "Correct: διαλέγομαι means converse."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-deponent-participles-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What should determine a participle’s voice translation?",
+          "choices": [
+            {
+              "text": "the verb’s meaning and context",
+              "correct": true,
+              "feedback": "Correct: Form must be combined with lexical meaning and construction."
+            },
+            {
+              "text": "the rule that every -μενος is passive",
+              "correct": false,
+              "feedback": "Review: Form must be combined with lexical meaning and construction."
+            },
+            {
+              "text": "the rule that every participle is reflexive",
+              "correct": false,
+              "feedback": "Review: Form must be combined with lexical meaning and construction."
+            },
+            {
+              "text": "the noun’s declension alone",
+              "correct": false,
+              "feedback": "Review: Form must be combined with lexical meaning and construction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-deponent-participles-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "Who receives in ὁ δεχόμενος τὸν μισθόν?",
+          "choices": [
+            {
+              "text": "no one because the form is middle",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "the person described by δεχόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle describes the receiver."
+            },
+            {
+              "text": "the pay",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "the observer automatically",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-uses-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What is the use in οἱ πορευόμενοι στρατιῶται?",
+          "choices": [
+            {
+              "text": "attributive",
+              "correct": true,
+              "feedback": "Correct: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "substantival with no noun",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "a separate finite clause",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "a genitive absolute",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-uses-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What is the use in οἱ πορευόμενοι?",
+          "choices": [
+            {
+              "text": "an imperative",
+              "correct": false,
+              "feedback": "Review: With article and no noun it names those traveling."
+            },
+            {
+              "text": "substantival",
+              "correct": true,
+              "feedback": "Correct: With article and no noun it names those traveling."
+            },
+            {
+              "text": "finite verbal",
+              "correct": false,
+              "feedback": "Review: With article and no noun it names those traveling."
+            },
+            {
+              "text": "a direct question",
+              "correct": false,
+              "feedback": "Review: With article and no noun it names those traveling."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-uses-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "Which is second attributive position?",
+          "choices": [
+            {
+              "text": "πορεύονται οἱ στρατιῶται",
+              "correct": false,
+              "feedback": "Review: The article is repeated before the participle."
+            },
+            {
+              "text": "τὸν μισθὸν δέχονται",
+              "correct": false,
+              "feedback": "Review: The article is repeated before the participle."
+            },
+            {
+              "text": "οἱ στρατιῶται οἱ πορευόμενοι",
+              "correct": true,
+              "feedback": "Correct: The article is repeated before the participle."
+            },
+            {
+              "text": "οἱ στρατιῶται πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: The article is repeated before the participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-uses-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What is the use in ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ?",
+          "choices": [
+            {
+              "text": "substantival without a noun",
+              "correct": false,
+              "feedback": "Review: Traveling accompanies Xenophon’s seeing."
+            },
+            {
+              "text": "the sentence’s finite verb",
+              "correct": false,
+              "feedback": "Review: Traveling accompanies Xenophon’s seeing."
+            },
+            {
+              "text": "a nominative object",
+              "correct": false,
+              "feedback": "Review: Traveling accompanies Xenophon’s seeing."
+            },
+            {
+              "text": "simple circumstantial",
+              "correct": true,
+              "feedback": "Correct: Traveling accompanies Xenophon’s seeing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-uses-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "Which translation fits οἱ παρασκευαζόμενοι?",
+          "choices": [
+            {
+              "text": "those preparing",
+              "correct": true,
+              "feedback": "Correct: The article makes the participle name a group."
+            },
+            {
+              "text": "they prepare as a finite sentence",
+              "correct": false,
+              "feedback": "Review: The article makes the participle name a group."
+            },
+            {
+              "text": "prepare!",
+              "correct": false,
+              "feedback": "Review: The article makes the participle name a group."
+            },
+            {
+              "text": "to prepare",
+              "correct": false,
+              "feedback": "Review: The article makes the participle name a group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-uses-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What should guide “while,” “because,” or “although” for a circumstantial participle?",
+          "choices": [
+            {
+              "text": "the article’s gender alone",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the relationship established by context",
+              "correct": true,
+              "feedback": "Correct: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the ending -μενος alone",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the rule that it always means because",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-relative-time-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "How does traveling relate to seeing in πορευόμενος ὁρᾷ?",
+          "choices": [
+            {
+              "text": "it is ongoing alongside the seeing",
+              "correct": true,
+              "feedback": "Correct: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it is necessarily completed first",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it must happen tomorrow",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it has no participant",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-relative-time-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Which is the finite verb in πορευόμενος τοὺς φίλους ὁρᾷ?",
+          "choices": [
+            {
+              "text": "φίλους",
+              "correct": false,
+              "feedback": "Review: ὁρᾷ carries the personal verb ending."
+            },
+            {
+              "text": "ὁρᾷ",
+              "correct": true,
+              "feedback": "Correct: ὁρᾷ carries the personal verb ending."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: ὁρᾷ carries the personal verb ending."
+            },
+            {
+              "text": "τοὺς",
+              "correct": false,
+              "feedback": "Review: ὁρᾷ carries the personal verb ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-relative-time-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Which preserves one Xenophon traveling and seeing?",
+          "choices": [
+            {
+              "text": "ὁ Κῦρος πορευόμενος τὸν Ξενοφῶντα ὁρᾷ",
+              "correct": false,
+              "feedback": "Review: Only the first keeps Xenophon as participant in both actions."
+            },
+            {
+              "text": "οἱ στρατιῶται πορευόμενοι ὁρῶσιν",
+              "correct": false,
+              "feedback": "Review: Only the first keeps Xenophon as participant in both actions."
+            },
+            {
+              "text": "ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ",
+              "correct": true,
+              "feedback": "Correct: Only the first keeps Xenophon as participant in both actions."
+            },
+            {
+              "text": "οἱ φίλοι πορευόμενοι τὸν Ξενοφῶντα ὁρῶσιν",
+              "correct": false,
+              "feedback": "Review: Only the first keeps Xenophon as participant in both actions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-relative-time-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Does a present participle independently give calendar time?",
+          "choices": [
+            {
+              "text": "yes; it always means today",
+              "correct": false,
+              "feedback": "Review: The participle does not independently date an event."
+            },
+            {
+              "text": "yes; it always means yesterday",
+              "correct": false,
+              "feedback": "Review: The participle does not independently date an event."
+            },
+            {
+              "text": "yes; it always means tomorrow",
+              "correct": false,
+              "feedback": "Review: The participle does not independently date an event."
+            },
+            {
+              "text": "no; interpret it relative to the main action",
+              "correct": true,
+              "feedback": "Correct: The participle does not independently date an event."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-relative-time-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "What does οἱ φίλοι διαλεγόμενοι βαδίζουσιν mean?",
+          "choices": [
+            {
+              "text": "the friends walk while conversing",
+              "correct": true,
+              "feedback": "Correct: Agreement links the conversation to the walking friends."
+            },
+            {
+              "text": "the friends finish speaking before walking necessarily",
+              "correct": false,
+              "feedback": "Review: Agreement links the conversation to the walking friends."
+            },
+            {
+              "text": "Cyrus walks while the friends converse",
+              "correct": false,
+              "feedback": "Review: Agreement links the conversation to the walking friends."
+            },
+            {
+              "text": "the friends will speak tomorrow",
+              "correct": false,
+              "feedback": "Review: Agreement links the conversation to the walking friends."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-participle-relative-time-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Why is πορευόμενος alone not a complete finite statement?",
+          "choices": [
+            {
+              "text": "it must be a direct object",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it lacks a personal finite ending",
+              "correct": true,
+              "feedback": "Correct: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it is always plural",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it has no verbal meaning",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 15 Grammar Exercises",
+      "description": "Present middle participle formation, declension, deponents, uses, and relative time",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-15-grammar-exercises-module-2-v1",
+      "instructions": "Answer every question and score at least 80% to continue to the culture page.",
+      "questions": [
+        {
+          "id": "lesson-15-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the masculine nominative singular present middle participle of πορεύομαι?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορεύονται",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the feminine nominative singular?",
+          "choices": [
+            {
+              "text": "πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: Feminine nominative singular ends in -ομένη."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": true,
+              "feedback": "Correct: Feminine nominative singular ends in -ομένη."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Feminine nominative singular ends in -ομένη."
+            },
+            {
+              "text": "πορευόμενον",
+              "correct": false,
+              "feedback": "Review: Feminine nominative singular ends in -ομένη."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the neuter nominative singular?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Neuter nominative singular ends in -όμενον."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: Neuter nominative singular ends in -όμενον."
+            },
+            {
+              "text": "πορευόμενον",
+              "correct": true,
+              "feedback": "Correct: Neuter nominative singular ends in -όμενον."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: Neuter nominative singular ends in -όμενον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which form is a finite verb rather than a participle?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: -εται supplies third-person singular finite form."
+            },
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: -εται supplies third-person singular finite form."
+            },
+            {
+              "text": "πορευόμενον",
+              "correct": false,
+              "feedback": "Review: -εται supplies third-person singular finite form."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": true,
+              "feedback": "Correct: -εται supplies third-person singular finite form."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which is the contracted masculine participle of θεάομαι?",
+          "choices": [
+            {
+              "text": "θεώμενος",
+              "correct": true,
+              "feedback": "Correct: θεαόμενος contracts to θεώμενος."
+            },
+            {
+              "text": "θεαόμενος as the ordinary Attic surface form",
+              "correct": false,
+              "feedback": "Review: θεαόμενος contracts to θεώμενος."
+            },
+            {
+              "text": "θεᾶται",
+              "correct": false,
+              "feedback": "Review: θεαόμενος contracts to θεώμενος."
+            },
+            {
+              "text": "θεώμενοι",
+              "correct": false,
+              "feedback": "Review: θεαόμενος contracts to θεώμενος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-formation",
+          "prompt": "Which form means “preparing” as masculine nominative singular?",
+          "choices": [
+            {
+              "text": "παρασκευάζομαι",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευαζόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευάζεται",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευάζονται",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which fits οἱ ___ στρατιῶται?",
+          "choices": [
+            {
+              "text": "πορευομένους",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευόμενοι",
+              "correct": true,
+              "feedback": "Correct: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which fits τοὺς ___ στρατιώτας?",
+          "choices": [
+            {
+              "text": "πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural is -ομένους."
+            },
+            {
+              "text": "πορευομένου",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural is -ομένους."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Accusative masculine plural is -ομένους."
+            },
+            {
+              "text": "πορευομένους",
+              "correct": true,
+              "feedback": "Correct: Accusative masculine plural is -ομένους."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which fits τῇ ___ γυναικί for “the woman watching”?",
+          "choices": [
+            {
+              "text": "θεωμένῃ",
+              "correct": true,
+              "feedback": "Correct: Dative feminine singular is -μένῃ."
+            },
+            {
+              "text": "θεωμένη",
+              "correct": false,
+              "feedback": "Review: Dative feminine singular is -μένῃ."
+            },
+            {
+              "text": "θεώμενος",
+              "correct": false,
+              "feedback": "Review: Dative feminine singular is -μένῃ."
+            },
+            {
+              "text": "θεώμενον",
+              "correct": false,
+              "feedback": "Review: Dative feminine singular is -μένῃ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Who travels in ὁ Κῦρος τοὺς πορευομένους στρατιώτας ὁρᾷ?",
+          "choices": [
+            {
+              "text": "no one",
+              "correct": false,
+              "feedback": "Review: πορευομένους agrees with στρατιώτας."
+            },
+            {
+              "text": "the soldiers",
+              "correct": true,
+              "feedback": "Correct: πορευομένους agrees with στρατιώτας."
+            },
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: πορευομένους agrees with στρατιώτας."
+            },
+            {
+              "text": "both by grammatical agreement",
+              "correct": false,
+              "feedback": "Review: πορευομένους agrees with στρατιώτας."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "Which is genitive plural of πορευόμενος in all genders?",
+          "choices": [
+            {
+              "text": "πορευομένους",
+              "correct": false,
+              "feedback": "Review: The genitive plural ending is -ων."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: The genitive plural ending is -ων."
+            },
+            {
+              "text": "πορευομένων",
+              "correct": true,
+              "feedback": "Correct: The genitive plural ending is -ων."
+            },
+            {
+              "text": "πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: The genitive plural ending is -ων."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "middle-participle-agreement",
+          "prompt": "What does agreement require?",
+          "choices": [
+            {
+              "text": "same person as the finite verb",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same dictionary ending as the noun",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "always nominative singular",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same gender, number, and case as the referent",
+              "correct": true,
+              "feedback": "Correct: Participles behave as agreeing adjectives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What does ἀγωνιζόμενος mean?",
+          "choices": [
+            {
+              "text": "competing",
+              "correct": true,
+              "feedback": "Correct: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "being competed",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "commanding",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "receiving",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What does δεχόμενος mean?",
+          "choices": [
+            {
+              "text": "asking",
+              "correct": false,
+              "feedback": "Review: δέχομαι means receive."
+            },
+            {
+              "text": "receiving",
+              "correct": true,
+              "feedback": "Correct: δέχομαι means receive."
+            },
+            {
+              "text": "being received automatically",
+              "correct": false,
+              "feedback": "Review: δέχομαι means receive."
+            },
+            {
+              "text": "marching",
+              "correct": false,
+              "feedback": "Review: δέχομαι means receive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What does βουλόμενος mean?",
+          "choices": [
+            {
+              "text": "watching",
+              "correct": false,
+              "feedback": "Review: βούλομαι means want."
+            },
+            {
+              "text": "speaking",
+              "correct": false,
+              "feedback": "Review: βούλομαι means want."
+            },
+            {
+              "text": "wanting",
+              "correct": true,
+              "feedback": "Correct: βούλομαι means want."
+            },
+            {
+              "text": "being wanted automatically",
+              "correct": false,
+              "feedback": "Review: βούλομαι means want."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "Which participle means conversing?",
+          "choices": [
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "δεχόμενος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "ἀγωνιζόμενος",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι means converse."
+            },
+            {
+              "text": "διαλεγόμενος",
+              "correct": true,
+              "feedback": "Correct: διαλέγομαι means converse."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "What should determine a participle’s voice translation?",
+          "choices": [
+            {
+              "text": "the verb’s meaning and context",
+              "correct": true,
+              "feedback": "Correct: Form must be combined with lexical meaning and construction."
+            },
+            {
+              "text": "the rule that every -μενος is passive",
+              "correct": false,
+              "feedback": "Review: Form must be combined with lexical meaning and construction."
+            },
+            {
+              "text": "the rule that every participle is reflexive",
+              "correct": false,
+              "feedback": "Review: Form must be combined with lexical meaning and construction."
+            },
+            {
+              "text": "the noun’s declension alone",
+              "correct": false,
+              "feedback": "Review: Form must be combined with lexical meaning and construction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deponent-participles",
+          "prompt": "Who receives in ὁ δεχόμενος τὸν μισθόν?",
+          "choices": [
+            {
+              "text": "no one because the form is middle",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "the person described by δεχόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle describes the receiver."
+            },
+            {
+              "text": "the pay",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "the observer automatically",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What is the use in οἱ πορευόμενοι στρατιῶται?",
+          "choices": [
+            {
+              "text": "a separate finite clause",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "a genitive absolute",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "attributive",
+              "correct": true,
+              "feedback": "Correct: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "substantival with no noun",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What is the use in οἱ πορευόμενοι?",
+          "choices": [
+            {
+              "text": "finite verbal",
+              "correct": false,
+              "feedback": "Review: With article and no noun it names those traveling."
+            },
+            {
+              "text": "a direct question",
+              "correct": false,
+              "feedback": "Review: With article and no noun it names those traveling."
+            },
+            {
+              "text": "an imperative",
+              "correct": false,
+              "feedback": "Review: With article and no noun it names those traveling."
+            },
+            {
+              "text": "substantival",
+              "correct": true,
+              "feedback": "Correct: With article and no noun it names those traveling."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "Which is second attributive position?",
+          "choices": [
+            {
+              "text": "οἱ στρατιῶται οἱ πορευόμενοι",
+              "correct": true,
+              "feedback": "Correct: The article is repeated before the participle."
+            },
+            {
+              "text": "οἱ στρατιῶται πορευόμενοι",
+              "correct": false,
+              "feedback": "Review: The article is repeated before the participle."
+            },
+            {
+              "text": "πορεύονται οἱ στρατιῶται",
+              "correct": false,
+              "feedback": "Review: The article is repeated before the participle."
+            },
+            {
+              "text": "τὸν μισθὸν δέχονται",
+              "correct": false,
+              "feedback": "Review: The article is repeated before the participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What is the use in ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ?",
+          "choices": [
+            {
+              "text": "a nominative object",
+              "correct": false,
+              "feedback": "Review: Traveling accompanies Xenophon’s seeing."
+            },
+            {
+              "text": "simple circumstantial",
+              "correct": true,
+              "feedback": "Correct: Traveling accompanies Xenophon’s seeing."
+            },
+            {
+              "text": "substantival without a noun",
+              "correct": false,
+              "feedback": "Review: Traveling accompanies Xenophon’s seeing."
+            },
+            {
+              "text": "the sentence’s finite verb",
+              "correct": false,
+              "feedback": "Review: Traveling accompanies Xenophon’s seeing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "Which translation fits οἱ παρασκευαζόμενοι?",
+          "choices": [
+            {
+              "text": "prepare!",
+              "correct": false,
+              "feedback": "Review: The article makes the participle name a group."
+            },
+            {
+              "text": "to prepare",
+              "correct": false,
+              "feedback": "Review: The article makes the participle name a group."
+            },
+            {
+              "text": "those preparing",
+              "correct": true,
+              "feedback": "Correct: The article makes the participle name a group."
+            },
+            {
+              "text": "they prepare as a finite sentence",
+              "correct": false,
+              "feedback": "Review: The article makes the participle name a group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-uses",
+          "prompt": "What should guide “while,” “because,” or “although” for a circumstantial participle?",
+          "choices": [
+            {
+              "text": "the ending -μενος alone",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the rule that it always means because",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the article’s gender alone",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the relationship established by context",
+              "correct": true,
+              "feedback": "Correct: A participle does not automatically supply one English conjunction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "How does traveling relate to seeing in πορευόμενος ὁρᾷ?",
+          "choices": [
+            {
+              "text": "it is ongoing alongside the seeing",
+              "correct": true,
+              "feedback": "Correct: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it is necessarily completed first",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it must happen tomorrow",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it has no participant",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Which is the finite verb in πορευόμενος τοὺς φίλους ὁρᾷ?",
+          "choices": [
+            {
+              "text": "φίλους",
+              "correct": false,
+              "feedback": "Review: ὁρᾷ carries the personal verb ending."
+            },
+            {
+              "text": "ὁρᾷ",
+              "correct": true,
+              "feedback": "Correct: ὁρᾷ carries the personal verb ending."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: ὁρᾷ carries the personal verb ending."
+            },
+            {
+              "text": "τοὺς",
+              "correct": false,
+              "feedback": "Review: ὁρᾷ carries the personal verb ending."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Which preserves one Xenophon traveling and seeing?",
+          "choices": [
+            {
+              "text": "ὁ Κῦρος πορευόμενος τὸν Ξενοφῶντα ὁρᾷ",
+              "correct": false,
+              "feedback": "Review: Only the first keeps Xenophon as participant in both actions."
+            },
+            {
+              "text": "οἱ στρατιῶται πορευόμενοι ὁρῶσιν",
+              "correct": false,
+              "feedback": "Review: Only the first keeps Xenophon as participant in both actions."
+            },
+            {
+              "text": "ὁ Ξενοφῶν πορευόμενος τοὺς φίλους ὁρᾷ",
+              "correct": true,
+              "feedback": "Correct: Only the first keeps Xenophon as participant in both actions."
+            },
+            {
+              "text": "οἱ φίλοι πορευόμενοι τὸν Ξενοφῶντα ὁρῶσιν",
+              "correct": false,
+              "feedback": "Review: Only the first keeps Xenophon as participant in both actions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Does a present participle independently give calendar time?",
+          "choices": [
+            {
+              "text": "yes; it always means today",
+              "correct": false,
+              "feedback": "Review: The participle does not independently date an event."
+            },
+            {
+              "text": "yes; it always means yesterday",
+              "correct": false,
+              "feedback": "Review: The participle does not independently date an event."
+            },
+            {
+              "text": "yes; it always means tomorrow",
+              "correct": false,
+              "feedback": "Review: The participle does not independently date an event."
+            },
+            {
+              "text": "no; interpret it relative to the main action",
+              "correct": true,
+              "feedback": "Correct: The participle does not independently date an event."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "What does οἱ φίλοι διαλεγόμενοι βαδίζουσιν mean?",
+          "choices": [
+            {
+              "text": "the friends walk while conversing",
+              "correct": true,
+              "feedback": "Correct: Agreement links the conversation to the walking friends."
+            },
+            {
+              "text": "the friends finish speaking before walking necessarily",
+              "correct": false,
+              "feedback": "Review: Agreement links the conversation to the walking friends."
+            },
+            {
+              "text": "Cyrus walks while the friends converse",
+              "correct": false,
+              "feedback": "Review: Agreement links the conversation to the walking friends."
+            },
+            {
+              "text": "the friends will speak tomorrow",
+              "correct": false,
+              "feedback": "Review: Agreement links the conversation to the walking friends."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-grammar-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-relative-time",
+          "prompt": "Why is πορευόμενος alone not a complete finite statement?",
+          "choices": [
+            {
+              "text": "it must be a direct object",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it lacks a personal finite ending",
+              "correct": true,
+              "feedback": "Correct: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it is always plural",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it has no verbal meaning",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 15 Final Quiz — An Army on the Move",
+      "description": "Reading, vocabulary, taught grammar, and the Greek world",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-15-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80% to complete Lesson 15.",
+      "questions": [
+        {
+          "id": "lesson-15-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What region does the army cross before Phrygia?",
+          "choices": [
+            {
+              "text": "Lydia",
+              "correct": true,
+              "feedback": "Correct: The march begins through Lydia."
+            },
+            {
+              "text": "Cilicia",
+              "correct": false,
+              "feedback": "Review: The march begins through Lydia."
+            },
+            {
+              "text": "Attica",
+              "correct": false,
+              "feedback": "Review: The march begins through Lydia."
+            },
+            {
+              "text": "Thrace",
+              "correct": false,
+              "feedback": "Review: The march begins through Lydia."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How is the Maeander crossed in this reading?",
+          "choices": [
+            {
+              "text": "on a stone aqueduct",
+              "correct": false,
+              "feedback": "Review: The source describes a boat bridge."
+            },
+            {
+              "text": "on a bridge of boats",
+              "correct": true,
+              "feedback": "Correct: The source describes a boat bridge."
+            },
+            {
+              "text": "by a mountain tunnel",
+              "correct": false,
+              "feedback": "Review: The source describes a boat bridge."
+            },
+            {
+              "text": "by swimming with all equipment",
+              "correct": false,
+              "feedback": "Review: The source describes a boat bridge."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where is Cyrus’s royal park?",
+          "choices": [
+            {
+              "text": "Athens",
+              "correct": false,
+              "feedback": "Review: Anabasis describes it at Celaenae."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: Anabasis describes it at Celaenae."
+            },
+            {
+              "text": "Celaenae",
+              "correct": true,
+              "feedback": "Correct: Anabasis describes it at Celaenae."
+            },
+            {
+              "text": "Peltae",
+              "correct": false,
+              "feedback": "Review: Anabasis describes it at Celaenae."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which forces does Clearchus bring in the adapted selection?",
+          "choices": [
+            {
+              "text": "only cavalry",
+              "correct": false,
+              "feedback": "Review: The source identifies several infantry types."
+            },
+            {
+              "text": "only sailors",
+              "correct": false,
+              "feedback": "Review: The source identifies several infantry types."
+            },
+            {
+              "text": "only festival singers",
+              "correct": false,
+              "feedback": "Review: The source identifies several infantry types."
+            },
+            {
+              "text": "hoplites, peltasts, and archers",
+              "correct": true,
+              "feedback": "Correct: The source identifies several infantry types."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does Xenias arrange games?",
+          "choices": [
+            {
+              "text": "Peltae",
+              "correct": true,
+              "feedback": "Correct: The festival takes place at Peltae."
+            },
+            {
+              "text": "Sardis",
+              "correct": false,
+              "feedback": "Review: The festival takes place at Peltae."
+            },
+            {
+              "text": "Delphi",
+              "correct": false,
+              "feedback": "Review: The festival takes place at Peltae."
+            },
+            {
+              "text": "Tarsus",
+              "correct": false,
+              "feedback": "Review: The festival takes place at Peltae."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who watches the games?",
+          "choices": [
+            {
+              "text": "Nicomachides",
+              "correct": false,
+              "feedback": "Review: Cyrus attends as a spectator."
+            },
+            {
+              "text": "Cyrus",
+              "correct": true,
+              "feedback": "Correct: Cyrus attends as a spectator."
+            },
+            {
+              "text": "Socrates in Athens",
+              "correct": false,
+              "feedback": "Review: Cyrus attends as a spectator."
+            },
+            {
+              "text": "Epyaxa at Delphi",
+              "correct": false,
+              "feedback": "Review: Cyrus attends as a spectator."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-7",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the soldiers repeatedly request?",
+          "choices": [
+            {
+              "text": "an Athenian election",
+              "correct": false,
+              "feedback": "Review: The troops ask for overdue wages."
+            },
+            {
+              "text": "a new oracle",
+              "correct": false,
+              "feedback": "Review: The troops ask for overdue wages."
+            },
+            {
+              "text": "their pay",
+              "correct": true,
+              "feedback": "Correct: The troops ask for overdue wages."
+            },
+            {
+              "text": "a choral victory",
+              "correct": false,
+              "feedback": "Review: The troops ask for overdue wages."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-8",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What is invented connective material in this reading?",
+          "choices": [
+            {
+              "text": "the Maeander crossing",
+              "correct": false,
+              "feedback": "Review: The dialogue is labeled course reconstruction."
+            },
+            {
+              "text": "the games at Peltae",
+              "correct": false,
+              "feedback": "Review: The dialogue is labeled course reconstruction."
+            },
+            {
+              "text": "the arrears",
+              "correct": false,
+              "feedback": "Review: The dialogue is labeled course reconstruction."
+            },
+            {
+              "text": "ordinary soldiers’ dialogue",
+              "correct": true,
+              "feedback": "Correct: The dialogue is labeled course reconstruction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πορεύομαι mean?",
+          "choices": [
+            {
+              "text": "travel",
+              "correct": true,
+              "feedback": "Correct: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            },
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            },
+            {
+              "text": "preparation",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: πορεύομαι: travel. Dictionary form: πορεύομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ποταμός mean?",
+          "choices": [
+            {
+              "text": "preparation",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            },
+            {
+              "text": "river",
+              "correct": true,
+              "feedback": "Correct: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            },
+            {
+              "text": "archer",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            },
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: ὁ ποταμός: river. Dictionary form: ποταμός, ποταμοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does παρασκευάζομαι mean?",
+          "choices": [
+            {
+              "text": "review; inspect",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            },
+            {
+              "text": "prepare for oneself",
+              "correct": true,
+              "feedback": "Correct: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            },
+            {
+              "text": "archer",
+              "correct": false,
+              "feedback": "Review: παρασκευάζομαι: prepare for oneself. Dictionary form: παρασκευάζομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does διαλέγομαι mean?",
+          "choices": [
+            {
+              "text": "bridge",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            },
+            {
+              "text": "boat",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            },
+            {
+              "text": "royal park",
+              "correct": false,
+              "feedback": "Review: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            },
+            {
+              "text": "converse",
+              "correct": true,
+              "feedback": "Correct: διαλέγομαι: converse. Dictionary form: διαλέγομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἀγών mean?",
+          "choices": [
+            {
+              "text": "contest",
+              "correct": true,
+              "feedback": "Correct: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "repeatedly",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "travel",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            },
+            {
+              "text": "river",
+              "correct": false,
+              "feedback": "Review: ὁ ἀγών: contest. Dictionary form: ἀγών, ἀγῶνος, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀγωνίζομαι mean?",
+          "choices": [
+            {
+              "text": "converse",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            },
+            {
+              "text": "compete",
+              "correct": true,
+              "feedback": "Correct: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            },
+            {
+              "text": "royal park",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            },
+            {
+              "text": "prepare for oneself",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι: compete. Dictionary form: ἀγωνίζομαι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which is the masculine nominative singular present middle participle of πορεύομαι?",
+          "choices": [
+            {
+              "text": "πορευομένη",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορεύονται",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle ends in -όμενος."
+            },
+            {
+              "text": "πορεύεται",
+              "correct": false,
+              "feedback": "Review: The participle ends in -όμενος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which form means “preparing” as masculine nominative singular?",
+          "choices": [
+            {
+              "text": "παρασκευάζεται",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευάζονται",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευάζομαι",
+              "correct": false,
+              "feedback": "Review: The participle describes a person preparing."
+            },
+            {
+              "text": "παρασκευαζόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle describes a person preparing."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which fits οἱ ___ στρατιῶται?",
+          "choices": [
+            {
+              "text": "πορευόμενοι",
+              "correct": true,
+              "feedback": "Correct: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευόμενος",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευομένους",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            },
+            {
+              "text": "πορευομένῳ",
+              "correct": false,
+              "feedback": "Review: Nominative masculine plural is -όμενοι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does agreement require?",
+          "choices": [
+            {
+              "text": "always nominative singular",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same gender, number, and case as the referent",
+              "correct": true,
+              "feedback": "Correct: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same person as the finite verb",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            },
+            {
+              "text": "same dictionary ending as the noun",
+              "correct": false,
+              "feedback": "Review: Participles behave as agreeing adjectives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does ἀγωνιζόμενος mean?",
+          "choices": [
+            {
+              "text": "commanding",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "receiving",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "competing",
+              "correct": true,
+              "feedback": "Correct: The deponent keeps an active English meaning."
+            },
+            {
+              "text": "being competed",
+              "correct": false,
+              "feedback": "Review: The deponent keeps an active English meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Who receives in ὁ δεχόμενος τὸν μισθόν?",
+          "choices": [
+            {
+              "text": "the pay",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "the observer automatically",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "no one because the form is middle",
+              "correct": false,
+              "feedback": "Review: The participle describes the receiver."
+            },
+            {
+              "text": "the person described by δεχόμενος",
+              "correct": true,
+              "feedback": "Correct: The participle describes the receiver."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is the use in οἱ πορευόμενοι στρατιῶται?",
+          "choices": [
+            {
+              "text": "attributive",
+              "correct": true,
+              "feedback": "Correct: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "substantival with no noun",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "a separate finite clause",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            },
+            {
+              "text": "a genitive absolute",
+              "correct": false,
+              "feedback": "Review: The participle describes the expressed noun in its article group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What should guide “while,” “because,” or “although” for a circumstantial participle?",
+          "choices": [
+            {
+              "text": "the article’s gender alone",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the relationship established by context",
+              "correct": true,
+              "feedback": "Correct: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the ending -μενος alone",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            },
+            {
+              "text": "the rule that it always means because",
+              "correct": false,
+              "feedback": "Review: A participle does not automatically supply one English conjunction."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "How does traveling relate to seeing in πορευόμενος ὁρᾷ?",
+          "choices": [
+            {
+              "text": "it must happen tomorrow",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it has no participant",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it is ongoing alongside the seeing",
+              "correct": true,
+              "feedback": "Correct: A present participle expresses ongoing relative action."
+            },
+            {
+              "text": "it is necessarily completed first",
+              "correct": false,
+              "feedback": "Review: A present participle expresses ongoing relative action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Why is πορευόμενος alone not a complete finite statement?",
+          "choices": [
+            {
+              "text": "it is always plural",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it has no verbal meaning",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it must be a direct object",
+              "correct": false,
+              "feedback": "Review: A participle describes a participant rather than asserting a personal clause by itself."
+            },
+            {
+              "text": "it lacks a personal finite ending",
+              "correct": true,
+              "feedback": "Correct: A participle describes a participant rather than asserting a personal clause by itself."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why does the itinerary matter beyond a list of names?",
+          "choices": [
+            {
+              "text": "it records the practical movement of people and equipment",
+              "correct": true,
+              "feedback": "Correct: Route and infrastructure support the march."
+            },
+            {
+              "text": "it proves all places are in Greece",
+              "correct": false,
+              "feedback": "Review: Route and infrastructure support the march."
+            },
+            {
+              "text": "it shows soldiers need no food",
+              "correct": false,
+              "feedback": "Review: Route and infrastructure support the march."
+            },
+            {
+              "text": "it describes a naval voyage only",
+              "correct": false,
+              "feedback": "Review: Route and infrastructure support the march."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is Cyrus’s παράδεισος?",
+          "choices": [
+            {
+              "text": "an afterlife destination",
+              "correct": false,
+              "feedback": "Review: The word here names a park at Celaenae."
+            },
+            {
+              "text": "a royal hunting park",
+              "correct": true,
+              "feedback": "Correct: The word here names a park at Celaenae."
+            },
+            {
+              "text": "a harbor",
+              "correct": false,
+              "feedback": "Review: The word here names a park at Celaenae."
+            },
+            {
+              "text": "a sanctuary in Delphi",
+              "correct": false,
+              "feedback": "Review: The word here names a park at Celaenae."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "To which god is the Peltae festival dedicated?",
+          "choices": [
+            {
+              "text": "Poseidon of Athens",
+              "correct": false,
+              "feedback": "Review: Xenias celebrates the Lycaean festival."
+            },
+            {
+              "text": "Dionysus of Tarsus",
+              "correct": false,
+              "feedback": "Review: Xenias celebrates the Lycaean festival."
+            },
+            {
+              "text": "Lycaean Zeus",
+              "correct": true,
+              "feedback": "Correct: Xenias celebrates the Lycaean festival."
+            },
+            {
+              "text": "Apollo of Delphi",
+              "correct": false,
+              "feedback": "Review: Xenias celebrates the Lycaean festival."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is a strigil?",
+          "choices": [
+            {
+              "text": "a soldier’s shield",
+              "correct": false,
+              "feedback": "Review: Golden strigils are prizes in the games."
+            },
+            {
+              "text": "a boat bridge",
+              "correct": false,
+              "feedback": "Review: Golden strigils are prizes in the games."
+            },
+            {
+              "text": "a Persian coin",
+              "correct": false,
+              "feedback": "Review: Golden strigils are prizes in the games."
+            },
+            {
+              "text": "an implement for scraping oil and dirt from the body",
+              "correct": true,
+              "feedback": "Correct: Golden strigils are prizes in the games."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What arrears does Xenophon report?",
+          "choices": [
+            {
+              "text": "more than three months’ pay",
+              "correct": true,
+              "feedback": "Correct: Anabasis 1.2.11 reports the arrears."
+            },
+            {
+              "text": "one day’s pay",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.11 reports the arrears."
+            },
+            {
+              "text": "ten years’ pay",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.11 reports the arrears."
+            },
+            {
+              "text": "no unpaid wages",
+              "correct": false,
+              "feedback": "Review: Anabasis 1.2.11 reports the arrears."
+            }
+          ]
+        },
+        {
+          "id": "lesson-15-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What difference matters between μισθός and ἆθλον?",
+          "choices": [
+            {
+              "text": "general versus captain",
+              "correct": false,
+              "feedback": "Review: The festival’s prizes are distinct from wages."
+            },
+            {
+              "text": "ordinary wages versus a contest prize",
+              "correct": true,
+              "feedback": "Correct: The festival’s prizes are distinct from wages."
+            },
+            {
+              "text": "both always mean the same coin",
+              "correct": false,
+              "feedback": "Review: The festival’s prizes are distinct from wages."
+            },
+            {
+              "text": "river versus bridge",
+              "correct": false,
+              "feedback": "Review: The festival’s prizes are distinct from wages."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-14",
+    "title": "Who Is Fit to Lead?",
+    "fallbackUrl": "lesson.html?lesson=14&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-16",
+    "title": "Epyaxa and the Army's Pay",
+    "fallbackUrl": "lesson.html?lesson=16&page=1"
+  },
+  "contentRevision": "lesson-15-module-2-v1"
+}

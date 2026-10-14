@@ -1,0 +1,5101 @@
+{
+  "id": "lesson-20",
+  "number": 20,
+  "title": "Courage to Address Fellow Citizens",
+  "greekTitle": "Ὁ Κλεόκριτος τοῖς πολίταις λέγει",
+  "scope": "Liquid/nasal futures, εἶμι, future participles of purpose, impersonal infinitives, and direct questions",
+  "theme": "An appeal across civil conflict in Athens, 403 BCE",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-20-banner.png",
+    "alt": "Educational reconstruction of Cleocritus addressing fellow citizens after fighting at Munychia",
+    "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-20-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-20-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-20-page-3",
+      "title": "Athens in 403 BCE: Shared Ties after Fighting",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Civic ties",
+      "items": [
+        {
+          "greek": "ὁ πολίτης",
+          "english": "citizen",
+          "dictionaryForm": "πολίτης, πολίτου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "πολίτης",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ κῆρυξ",
+          "english": "herald",
+          "dictionaryForm": "κῆρυξ, κήρυκος, ὁ",
+          "status": "required vocabulary",
+          "lemma": "κῆρυξ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ συγγένεια",
+          "english": "kinship",
+          "dictionaryForm": "συγγένεια, συγγενείας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "συγγένεια",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ παιδεία",
+          "english": "education",
+          "dictionaryForm": "παιδεία, παιδείας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "παιδεία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἑορτή",
+          "english": "festival",
+          "dictionaryForm": "ἑορτή, ἑορτῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἑορτή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πατρίς",
+          "english": "homeland",
+          "dictionaryForm": "πατρίς, πατρίδος, ἡ",
+          "status": "required vocabulary",
+          "lemma": "πατρίς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ σωτηρία",
+          "english": "safety, preservation",
+          "dictionaryForm": "σωτηρία, σωτηρίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "σωτηρία",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Purpose and obligation",
+      "items": [
+        {
+          "greek": "ἀγγέλλω",
+          "english": "announce, report",
+          "dictionaryForm": "ἀγγέλλω",
+          "status": "required vocabulary",
+          "lemma": "ἀγγέλλω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κρίνω",
+          "english": "judge, decide",
+          "dictionaryForm": "κρίνω",
+          "status": "required vocabulary",
+          "lemma": "κρίνω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μένω",
+          "english": "remain",
+          "dictionaryForm": "μένω",
+          "status": "required vocabulary",
+          "lemma": "μένω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀμύνω",
+          "english": "defend, ward off",
+          "dictionaryForm": "ἀμύνω",
+          "status": "required vocabulary",
+          "lemma": "ἀμύνω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "εἶμι",
+          "english": "go (usually future sense)",
+          "dictionaryForm": "εἶμι",
+          "status": "required vocabulary",
+          "lemma": "εἶμι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δεῖ",
+          "english": "it is necessary",
+          "dictionaryForm": "δεῖ (impersonal)",
+          "status": "required vocabulary",
+          "lemma": "δεῖ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "χρή",
+          "english": "one must, it is fitting",
+          "dictionaryForm": "χρή (impersonal)",
+          "status": "required vocabulary",
+          "lemma": "χρή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ σκοπός",
+          "english": "purpose, aim",
+          "dictionaryForm": "σκοπός, σκοποῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "σκοπός",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Division and grief",
+      "items": [
+        {
+          "greek": "νεκρός",
+          "english": "dead",
+          "dictionaryForm": "νεκρός, νεκρά, νεκρόν",
+          "status": "required vocabulary",
+          "lemma": "νεκρός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἴδιος",
+          "english": "private, one’s own",
+          "dictionaryForm": "ἴδιος, ἰδία, ἴδιον",
+          "status": "required vocabulary",
+          "lemma": "ἴδιος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὠφέλεια",
+          "english": "advantage, benefit",
+          "dictionaryForm": "ὠφέλεια, ὠφελείας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ὠφέλεια",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ φωνή",
+          "english": "voice",
+          "dictionaryForm": "φωνή, φωνῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "φωνή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Κλεόκριτος",
+          "english": "Cleocritus",
+          "dictionaryForm": "Κλεόκριτος, Κλεοκρίτου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Κλεόκριτος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ μύστης",
+          "english": "initiate",
+          "dictionaryForm": "μύστης, μύστου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "μύστης",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ Μουνυχία",
+          "english": "Munychia",
+          "dictionaryForm": "Μουνυχία, Μουνυχίας, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "Μουνυχία",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ Κλεόκριτος τοῖς πολίταις λέγει",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "This separate comparison returns to Athens in 403 BCE, after fighting at Munychia. It occurs before Cyrus’s expedition of 401 BCE. Cleocritus addresses the opposing citizens after the dead have been recovered. Xenophon reports the scene but is not inserted as an attendee.",
+      "Course adaptation of Xenophon, Hellenica 2.4.19–22. Shared worship, education, military service, family ties, grief, and the appeal against obedience to the Thirty follow the source. The Greek wording, statements of future intention, and purpose participles are newly supplied teaching adaptations. They are not preserved quotations from Cleocritus.",
+      "The main scene uses present retelling and labeled adapted future language. The officials lead their men away from the speech; no immediate civic unity is invented. The final reflection compares this appeal’s purpose with Cyrus’s demands, without putting Cleocritus in the expedition."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Νῦν ὁ λόγος περὶ Ἀθηνῶν ἐστιν, οὐ περὶ τῆς Κύρου ὁδοῦ. μετὰ τὴν ἐν Μουνυχίᾳ μάχην οἱ πολῖται τοὺς νεκροὺς φέρουσιν. ὁ Κλεόκριτος, ὁ τῶν μυστῶν κῆρυξ, πρὸς τοὺς ἄλλους πολίτας ἔρχεται.",
+        "gloss": [
+          {
+            "greek": "περὶ Ἀθηνῶν",
+            "english": "about Athens"
+          },
+          {
+            "greek": "τῆς Κύρου ὁδοῦ",
+            "english": "Cyrus’s journey"
+          },
+          {
+            "greek": "ἐν Μουνυχίᾳ",
+            "english": "at Munychia"
+          },
+          {
+            "greek": "τοὺς νεκροὺς",
+            "english": "the dead; substantival adjective"
+          },
+          {
+            "greek": "ὁ Κλεόκριτος",
+            "english": "Cleocritus"
+          },
+          {
+            "greek": "ὁ τῶν μυστῶν κῆρυξ",
+            "english": "the herald of the initiates; religious office"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κλεόκριτος ἔρχεται ἀγγελῶν τὴν γνώμην αὐτοῦ. καλὴν φωνὴν ἔχει, καὶ οἱ πολῖται σιωπῶσιν. «ὦ πολῖται,» λέγει, «τί ἡμᾶς ἐκ τῆς πόλεως ἐλαύνετε; διὰ τί βούλεσθε ἡμᾶς ἀποκτείνειν;»",
+        "gloss": [
+          {
+            "greek": "ἀγγελῶν",
+            "english": "to announce; future participle of purpose, adapted wording"
+          },
+          {
+            "greek": "καλὴν φωνὴν",
+            "english": "a fine voice"
+          },
+          {
+            "greek": "σιωπῶσιν",
+            "english": "are silent; contracted present"
+          },
+          {
+            "greek": "ὦ πολῖται",
+            "english": "fellow citizens; vocative"
+          },
+          {
+            "greek": "ἐκ τῆς πόλεως",
+            "english": "out of the city"
+          },
+          {
+            "greek": "ἐλαύνετε",
+            "english": "you drive out"
+          },
+          {
+            "greek": "διὰ τί",
+            "english": "why"
+          },
+          {
+            "greek": "ἀποκτείνειν",
+            "english": "to kill; infinitive"
+          }
+        ]
+      },
+      {
+        "greek": "«Κοινὰ ἔχομεν ἱερὰ καὶ θυσίας καὶ ἑορτάς. ἐν ταῖς ἑορταῖς σὺν ἀλλήλοις χορεύομεν, καὶ τὴν αὐτὴν παιδείαν ἔχομεν. καὶ ἐν πολέμῳ σύμμαχοι ἐσμεν· τὴν κοινὴν ἐλευθερίαν φυλάττομεν.»",
+        "gloss": [
+          {
+            "greek": "Κοινὰ ἔχομεν",
+            "english": "we share; literally we have in common"
+          },
+          {
+            "greek": "ἱερὰ",
+            "english": "rites; neuter plural"
+          },
+          {
+            "greek": "σὺν ἀλλήλοις",
+            "english": "with one another; reciprocal pronoun"
+          },
+          {
+            "greek": "χορεύομεν",
+            "english": "we dance in a chorus"
+          },
+          {
+            "greek": "τὴν αὐτὴν παιδείαν",
+            "english": "the same education"
+          },
+          {
+            "greek": "σύμμαχοι",
+            "english": "comrades in arms"
+          },
+          {
+            "greek": "τὴν κοινὴν ἐλευθερίαν",
+            "english": "our common freedom"
+          },
+          {
+            "greek": "φυλάττομεν",
+            "english": "we guard; Attic -ττ- form"
+          }
+        ]
+      },
+      {
+        "greek": "«Ἡ συγγένεια πολλοὺς ἡμῶν συνδεῖ, καὶ ἡ φιλία ἰσχυρά ἐστιν. τῶν δὲ νεκρῶν οἱ μὲν ἡμέτεροι, οἱ δὲ ὑμέτεροί εἰσιν. ἡμεῖς καὶ ἐπὶ τοῖς ὑμετέροις δακρύομεν. οὐκ ἐχθροὺς, ἀλλὰ πολίτας ὑμᾶς νομίζομεν.»",
+        "gloss": [
+          {
+            "greek": "Ἡ συγγένεια",
+            "english": "kinship"
+          },
+          {
+            "greek": "πολλοὺς ἡμῶν",
+            "english": "many of us; partitive genitive"
+          },
+          {
+            "greek": "συνδεῖ",
+            "english": "binds together; contracted present"
+          },
+          {
+            "greek": "ἰσχυρά",
+            "english": "strong; feminine adjective"
+          },
+          {
+            "greek": "τῶν δὲ νεκρῶν",
+            "english": "of the dead; partitive"
+          },
+          {
+            "greek": "ἡμέτεροι",
+            "english": "ours; possessive adjective"
+          },
+          {
+            "greek": "ὑμέτεροί",
+            "english": "yours; extra accent before enclitic"
+          },
+          {
+            "greek": "ἐπὶ τοῖς ὑμετέροις",
+            "english": "for your people; here your dead"
+          },
+          {
+            "greek": "ὑμᾶς νομίζομεν",
+            "english": "we regard you"
+          }
+        ]
+      },
+      {
+        "greek": "«Δεῖ τὴν πατρίδα σῴζειν· χρὴ μὴ πείθεσθαι τοῖς τριάκοντα. οἱ γὰρ τριάκοντα τὴν ἰδίαν ὠφέλειαν ζητοῦσιν. ἡμεῖς τὴν κοινὴν σωτηρίαν ζητήσομεν καὶ περὶ τοῦ δικαίου κρινοῦμεν.»",
+        "gloss": [
+          {
+            "greek": "Δεῖ",
+            "english": "it is necessary; impersonal"
+          },
+          {
+            "greek": "χρὴ μὴ πείθεσθαι",
+            "english": "one must not obey; χρή with negative infinitive"
+          },
+          {
+            "greek": "τοῖς τριάκοντα",
+            "english": "the Thirty; the oligarchic rulers"
+          },
+          {
+            "greek": "τὴν ἰδίαν ὠφέλειαν",
+            "english": "their private advantage"
+          },
+          {
+            "greek": "τὴν κοινὴν σωτηρίαν",
+            "english": "our common safety"
+          },
+          {
+            "greek": "ζητήσομεν",
+            "english": "we shall seek; sigmatic future"
+          },
+          {
+            "greek": "τοῦ δικαίου",
+            "english": "what is just; substantival adjective"
+          },
+          {
+            "greek": "κρινοῦμεν",
+            "english": "we shall judge; liquid/nasal future, adapted wording"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κλεόκριτος τὸν λόγον λέγει· οἱ δὲ ἄρχοντες τοὺς ἑαυτῶν ἄνδρας ἀπάγουσιν. οὐ πάντες εὐθὺς φίλοι γίγνονται. οἱ μὲν ἀκούουσι, οἱ δὲ ἀπέρχονται· ἡ πόλις ἔτι ἐν κινδύνῳ ἐστίν.",
+        "gloss": [
+          {
+            "greek": "οἱ δὲ ἄρχοντες",
+            "english": "the officials; substantival present participle"
+          },
+          {
+            "greek": "τοὺς ἑαυτῶν ἄνδρας",
+            "english": "their own men"
+          },
+          {
+            "greek": "ἀπάγουσιν",
+            "english": "lead away"
+          },
+          {
+            "greek": "εὐθὺς",
+            "english": "immediately"
+          },
+          {
+            "greek": "γίγνονται",
+            "english": "become; deponent"
+          },
+          {
+            "greek": "ἀπέρχονται",
+            "english": "depart"
+          },
+          {
+            "greek": "ἐν κινδύνῳ",
+            "english": "in danger"
+          }
+        ]
+      },
+      {
+        "greek": "Πάλιν περὶ τῶν ἡγεμόνων σκοποῦμεν. τίνος ἕνεκα οἱ πολῖται πορεύονται; τίνος ἕνεκα οἱ στρατιῶται μαχοῦνται; «εἶμι περὶ τῆς σωτηρίας ἐρωτήσων» ἐστὶ λόγος τοῦ ζητοῦντος, οὐ λόγος τοῦ Κλεοκρίτου. οὐχ ὁ αὐτὸς σκοπὸς ἑκάστῳ ἡγεμόνι ἐστίν.",
+        "gloss": [
+          {
+            "greek": "σκοποῦμεν",
+            "english": "we consider; contracted present"
+          },
+          {
+            "greek": "τίνος ἕνεκα",
+            "english": "for what purpose; genitive with ἕνεκα"
+          },
+          {
+            "greek": "μαχοῦνται",
+            "english": "will fight; supported contracted middle future"
+          },
+          {
+            "greek": "εἶμι",
+            "english": "I shall go; future sense in this adapted example"
+          },
+          {
+            "greek": "ἐρωτήσων",
+            "english": "to ask; masculine future participle of purpose"
+          },
+          {
+            "greek": "τοῦ ζητοῦντος",
+            "english": "of the person inquiring; substantival participle"
+          },
+          {
+            "greek": "ὁ αὐτὸς σκοπὸς",
+            "english": "the same purpose"
+          },
+          {
+            "greek": "ἑκάστῳ ἡγεμόνι",
+            "english": "for every leader"
+          }
+        ]
+      }
+    ],
+    "translation": "Now the account concerns Athens, not Cyrus’s journey. After the battle at Munychia the citizens carry the dead. Cleocritus, the herald of the initiates, approaches the other citizens.\n\nCleocritus comes to announce his judgment. He has a fine voice, and the citizens are silent. “Fellow citizens,” he says, “why do you drive us from the city? Why do you want to kill us?”\n\n“We share rites, sacrifices, and festivals. At the festivals we dance together, and we share the same education. In war too we are comrades; we guard our common freedom.”\n\n“Kinship binds many of us, and friendship is strong. Some of the dead are ours, others yours. We weep also for your dead. We regard you as citizens, not enemies.”\n\n“It is necessary to save our homeland; we must not obey the Thirty. For the Thirty seek their private advantage. We shall seek our common safety and judge what is just.”\n\nCleocritus delivers his speech, but the officials lead their own men away. Not everyone immediately becomes a friend. Some listen, others depart; the city is still in danger.\n\nAgain we consider leaders. For what purpose do the citizens go? For what purpose will the soldiers fight? “I shall go to ask about safety” is a statement of the person inquiring, not a statement of Cleocritus. Not every leader has the same purpose.\n",
+    "sourceCitation": "Xenophon, Hellenica 2.4.19–22. Controlled course adaptation; dialogue and teaching futures are newly supplied, not verbatim quotations. https://www.magalia.wiki/historiae/fulltext/xenophon-hellenica.html https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
+    "notesMarkdown": "Course adaptation of Xenophon, Hellenica 2.4.19–22. Shared worship, education, military service, family ties, grief, and the appeal against obedience to the Thirty follow the source. The Greek wording, statements of future intention, and purpose participles are newly supplied teaching adaptations. They are not preserved quotations from Cleocritus."
+  },
+  "wordStudy": {
+    "label": "Word Study — Common safety and private advantage",
+    "blocks": [
+      {
+        "title": "Common safety and private advantage",
+        "practiceTopic": "word-study",
+        "body": [
+          "κοινός, shared, and ἴδιος, private or one’s own, organize the appeal. κοινὴ σωτηρία concerns safety held in common; ἰδία ὠφέλεια is an advantage sought for particular people. Cleocritus attributes private profit to the Thirty; that is part of his appeal.",
+          "πολίτης, citizen, and πατρίς, homeland, connect civic identity with obligations. συγγένεια is kinship, while παιδεία and ἑορτή name education and festival life. These are distinct shared ties, not interchangeable proofs that political conflict has ended.",
+          "δεῖ and χρή introduce what must happen. They require an infinitive in the examples, rather than a personal ending identifying “I” or “you.” εἶμι identifies a movement in future context; the purpose participle explains why someone goes."
+        ],
+        "display": [
+          {
+            "greek": "κοινὴ σωτηρία",
+            "english": "common safety"
+          },
+          {
+            "greek": "ἰδία ὠφέλεια",
+            "english": "private advantage"
+          },
+          {
+            "greek": "ἡ συγγένεια",
+            "english": "kinship"
+          },
+          {
+            "greek": "δεῖ σῴζειν",
+            "english": "it is necessary to save"
+          },
+          {
+            "greek": "χρὴ ἀκούειν",
+            "english": "one must listen"
+          },
+          {
+            "greek": "εἶμι ἐρωτήσων",
+            "english": "I shall go to ask"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Liquid/nasal futures, εἶμι, future participles of purpose, impersonal infinitives, and direct questions. Work through every section, read its examples and table, then practice by topic before the required grammar check. Supplementary examples are labeled and do not add incidents to the historical reading.",
+    "objectives": [
+      "Explain and apply Liquid and Nasal Futures.",
+      "Explain and apply εἶμι and εἰμί.",
+      "Explain and apply Future Participles Expressing Purpose.",
+      "Explain and apply δεῖ and χρή with an Infinitive.",
+      "Explain and apply Direct Questions and Question Words."
+    ],
+    "sections": [
+      {
+        "id": "liquid-nasal-future",
+        "title": "1. Liquid and Nasal Futures",
+        "practiceTopic": "liquid-nasal-future",
+        "body": [
+          "Many verbs whose stems end in λ, μ, ν, or ρ form an asigmatic contracted future. The future stem combines with endings in -εω and contracts: μένω → μενῶ, “I shall remain”; ἀγγέλλω → ἀγγελῶ, “I shall announce.” The latter future uses a single λ.",
+          "The active endings appear as -ῶ, -εῖς, -εῖ, -οῦμεν, -εῖτε, -οῦσι(ν). The circumflex marks contraction where the accent rules allow it. From κρίνω obtain κρινῶ, κρινεῖς, κρινεῖ; from νέμω obtain νεμῶ. Learn stem differences as well as the ending.",
+          "Compare present μένω with future μενῶ: spelling and accent distinguish them. Unlike λύσω there is no surface sigma. Middle contracted futures such as ἀμυνοῦμαι also exist; today’s assessed paradigm centers on the active forms below, while middle examples are supported recognition."
+        ],
+        "table": {
+          "title": "1. Liquid and Nasal Futures",
+          "headers": [
+            "Person",
+            "μένω future",
+            "ἀγγέλλω future",
+            "κρίνω future"
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "first singular",
+              "μενῶ",
+              "ἀγγελῶ",
+              "κρινῶ"
+            ],
+            [
+              "second singular",
+              "μενεῖς",
+              "ἀγγελεῖς",
+              "κρινεῖς"
+            ],
+            [
+              "third singular",
+              "μενεῖ",
+              "ἀγγελεῖ",
+              "κρινεῖ"
+            ],
+            [
+              "first plural",
+              "μενοῦμεν",
+              "ἀγγελοῦμεν",
+              "κρινοῦμεν"
+            ],
+            [
+              "second plural",
+              "μενεῖτε",
+              "ἀγγελεῖτε",
+              "κρινεῖτε"
+            ],
+            [
+              "third plural",
+              "μενοῦσι(ν)",
+              "ἀγγελοῦσι(ν)",
+              "κρινοῦσι(ν)"
+            ],
+            [
+              "other stems",
+              "νέμω → νεμῶ",
+              "ἀμύνω → ἀμυνῶ",
+              "ἀμυνοῦμαι: I shall defend myself"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "περὶ τοῦ δικαίου κρινοῦμεν.",
+            "english": "We shall judge what is just."
+          },
+          {
+            "greek": "οἱ πολῖται μενοῦσιν.",
+            "english": "The citizens will remain (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is future first-person singular of μένω?",
+            "answer": "μενῶ. The contracted future has circumflex μενῶ."
+          },
+          {
+            "prompt": "Which means “they will announce”?",
+            "answer": "ἀγγελοῦσι. ἀγγελοῦσι is contracted future third-person plural."
+          }
+        ]
+      },
+      {
+        "id": "eimi-going",
+        "title": "2. εἶμι and εἰμί",
+        "practiceTopic": "eimi-going",
+        "body": [
+          "εἶμι means “I go” and in ordinary Attic usage often carries future meaning, “I shall go.” Its indicative forms are εἶμι, εἶ, εἶσι(ν); ἴμεν, ἴτε, ἴασι(ν). Its infinitive is ἰέναι, “to go.” This is a supplied irregular paradigm, not a regular sigmatic future.",
+          "εἰμί means “I am.” Compare the first-person spellings: εἶμι has a circumflex and means going; εἰμί has an acute and means being. Third-person εἶσι(ν), goes or will go, differs clearly from ἐστί(ν), is. Some forms, such as second-person εἶ, coincide in spelling, so context must decide.",
+          "In the labeled supplementary statement εἶμι ἐρωτήσων, the movement verb has future sense and the future participle supplies purpose. A place or purpose commonly helps identify going, while a predicate noun or adjective often points to being. Never decide from the English word “will” alone."
+        ],
+        "table": {
+          "title": "2. εἶμι and εἰμί",
+          "headers": [
+            "Person",
+            "εἶμι: going",
+            "εἰμί: being"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "first singular",
+              "εἶμι — I shall go",
+              "εἰμί — I am"
+            ],
+            [
+              "second singular",
+              "εἶ — you will go",
+              "εἶ — you are"
+            ],
+            [
+              "third singular",
+              "εἶσι(ν) — he/she will go",
+              "ἐστί(ν) — he/she is"
+            ],
+            [
+              "first plural",
+              "ἴμεν — we will go",
+              "ἐσμέν — we are"
+            ],
+            [
+              "second plural",
+              "ἴτε — you will go",
+              "ἐστέ — you are"
+            ],
+            [
+              "third plural",
+              "ἴασι(ν) — they will go",
+              "εἰσί(ν) — they are"
+            ],
+            [
+              "infinitive",
+              "ἰέναι — to go",
+              "εἶναι — to be"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "εἶμι περὶ τῆς σωτηρίας ἐρωτήσων.",
+            "english": "I shall go to ask about safety (adapted learner statement)."
+          },
+          {
+            "greek": "πολίτης εἰμί.",
+            "english": "I am a citizen (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which means “I shall go” in the taught Attic usage?",
+            "answer": "εἶμι. εἶμι is the movement verb."
+          },
+          {
+            "prompt": "Which means “I am”?",
+            "answer": "εἰμί. εἰμί is the verb of being."
+          }
+        ]
+      },
+      {
+        "id": "future-purpose",
+        "title": "3. Future Participles Expressing Purpose",
+        "practiceTopic": "future-purpose",
+        "body": [
+          "A future active participle can express the purpose of coming or going: ἔρχεται ἐρωτήσων, “he comes to ask.” The asking is intended after or as the goal of the approach, not an ongoing action simultaneous with it. Compare present ἐρωτῶν, “asking.”",
+          "Sigmatic futures form active participles in -σων, -σουσα, -σον: λύσων, λύσουσα, λῦσον; ἐρωτήσων, ἐρωτήσουσα, ἐρωτῆσον. Masculine/neuter declension follows the -οντ- pattern, such as λύσοντος and λύσοντα. Feminine uses first-declension endings, such as λυσούσης.",
+          "Liquid/nasal futures contract in the participle too: ἀγγελῶν, ἀγγελοῦσα, ἀγγελοῦν. Agreement still identifies the person: ὁ Κλεόκριτος ἔρχεται ἀγγελῶν; a woman would have ἀγγελοῦσα. These future-purpose statements are instructional additions around the reported appeal, not recovered words of the speaker."
+        ],
+        "table": {
+          "title": "3. Future Participles Expressing Purpose",
+          "headers": [
+            "Form",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "λύω future nominative sg.",
+              "λύσων",
+              "λύσουσα",
+              "λῦσον"
+            ],
+            [
+              "λύω future genitive sg.",
+              "λύσοντος",
+              "λυσούσης",
+              "λύσοντος"
+            ],
+            [
+              "ἐρωτάω future nominative sg.",
+              "ἐρωτήσων",
+              "ἐρωτήσουσα",
+              "ἐρωτῆσον"
+            ],
+            [
+              "ἀγγέλλω future nominative sg.",
+              "ἀγγελῶν",
+              "ἀγγελοῦσα",
+              "ἀγγελοῦν"
+            ],
+            [
+              "present contrast",
+              "ἐρωτῶν",
+              "ἐρωτῶσα",
+              "ἐρωτῶν"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ Κλεόκριτος ἔρχεται ἀγγελῶν τὴν γνώμην.",
+            "english": "Cleocritus comes to announce his judgment (adapted purpose wording)."
+          },
+          {
+            "greek": "ἡ γυνὴ ἔρχεται ἐρωτήσουσα.",
+            "english": "The woman comes to ask (supplementary example)."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What does ἔρχεται ἐρωτήσων express?",
+            "answer": "he comes in order to ask. The future participle supplies intended purpose."
+          },
+          {
+            "prompt": "Which is feminine future participle of λύω?",
+            "answer": "λύσουσα. σ plus -ουσα forms future feminine nominative."
+          }
+        ]
+      },
+      {
+        "id": "impersonal-infinitives",
+        "title": "4. δεῖ and χρή with an Infinitive",
+        "practiceTopic": "impersonal-infinitives",
+        "body": [
+          "δεῖ means “it is necessary” and χρή means “one must” or “it is fitting.” They are impersonal: the Greek form does not have a personal subject meaning “I” or “you.” An infinitive names the required action: δεῖ σῴζειν, “it is necessary to save.”",
+          "An accusative can specify the person required to act: δεῖ τοὺς πολίτας ἀκούειν, “the citizens must listen.” τοὺς πολίτας is the understood subject of the infinitive, not a nominative subject of δεῖ. An infinitive can still have its own object: δεῖ τοὺς πολίτας τὴν πατρίδα σῴζειν.",
+          "The infinitive’s ordinary negative is μή: χρὴ μὴ πείθεσθαι, “one must not obey.” Obedience takes a dative recipient in the reading, τοῖς τριάκοντα. Distinguish grammar from endorsement: translating an obligation accurately does not prove that the speaker’s claimed obligation is just."
+        ],
+        "table": {
+          "title": "4. δεῖ and χρή with an Infinitive",
+          "headers": [
+            "Construction",
+            "Greek",
+            "Translation"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "necessary action",
+              "δεῖ ἀκούειν",
+              "it is necessary to listen"
+            ],
+            [
+              "fitting action",
+              "χρὴ σῴζειν",
+              "one must save"
+            ],
+            [
+              "accusative actor",
+              "δεῖ τοὺς πολίτας ἀκούειν",
+              "the citizens must listen"
+            ],
+            [
+              "actor and object",
+              "δεῖ τοὺς πολίτας τὴν πατρίδα σῴζειν",
+              "the citizens must save the homeland"
+            ],
+            [
+              "negative infinitive",
+              "χρὴ μὴ πείθεσθαι",
+              "one must not obey"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "δεῖ τὴν πατρίδα σῴζειν.",
+            "english": "It is necessary to save the homeland."
+          },
+          {
+            "greek": "χρὴ μὴ πείθεσθαι τοῖς τριάκοντα.",
+            "english": "One must not obey the Thirty."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What does δεῖ ἀκούειν mean?",
+            "answer": "it is necessary to listen. An impersonal verb takes an infinitive action."
+          },
+          {
+            "prompt": "What does χρή normally mean here?",
+            "answer": "one must, it is fitting. χρή expresses impersonal obligation."
+          }
+        ]
+      },
+      {
+        "id": "direct-questions",
+        "title": "5. Direct Questions and Question Words",
+        "practiceTopic": "direct-questions",
+        "body": [
+          "A direct question can ask for a fact or explanation: τίς; “who?”, τί; “what?” or “why?” in context, ποῦ; “where?”, πότε; “when?”, and διὰ τί; “why?” The Greek question mark is the semicolon. A question can use present or future forms.",
+          "Interrogative τίς, τί is accented, unlike indefinite τις, τι, “someone, something.” It declines: τίνος, “of whom?”; τίνι, “to whom?”; τίνα, “whom?”; plural τίνες, “who?” The interrogative’s case marks its role inside the question.",
+          "ἆρα can introduce a yes-or-no question. τίνος ἕνεκα asks “for what purpose?” with genitive τίνος and the postposition ἕνεκα. In the appeal τί ἡμᾶς ἐλαύνετε; means “why do you drive us out?”; διὰ τί makes the request for a reason explicit. Ask whose purpose a leader’s proposal serves."
+        ],
+        "table": {
+          "title": "5. Direct Questions and Question Words",
+          "headers": [
+            "Question",
+            "Greek",
+            "Meaning"
+          ],
+          "greekColumns": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "person",
+              "τίς; / τίνα;",
+              "who? / whom?"
+            ],
+            [
+              "thing",
+              "τί;",
+              "what?"
+            ],
+            [
+              "place",
+              "ποῦ;",
+              "where?"
+            ],
+            [
+              "time",
+              "πότε;",
+              "when?"
+            ],
+            [
+              "reason",
+              "διὰ τί;",
+              "why?"
+            ],
+            [
+              "purpose",
+              "τίνος ἕνεκα;",
+              "for what purpose?"
+            ],
+            [
+              "yes/no",
+              "ἆρα μενεῖς;",
+              "will you remain?"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "διὰ τί βούλεσθε ἡμᾶς ἀποκτείνειν;",
+            "english": "Why do you want to kill us?"
+          },
+          {
+            "greek": "τίνος ἕνεκα οἱ πολῖται πορεύονται;",
+            "english": "For what purpose do the citizens go?"
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which asks “where”?",
+            "answer": "ποῦ. ποῦ asks about place."
+          },
+          {
+            "prompt": "Which asks “when”?",
+            "answer": "πότε. πότε asks about time."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Liquid and Nasal Futures: Many verbs whose stems end in λ, μ, ν, or ρ form an asigmatic contracted future. The future stem combines with endings in -εω and contracts: μένω → μενῶ, “I shall remain”; ἀγγέλλω → ἀγγελῶ, “I shall announce.” The latter future uses a single λ.",
+        "εἶμι and εἰμί: εἶμι means “I go” and in ordinary Attic usage often carries future meaning, “I shall go.” Its indicative forms are εἶμι, εἶ, εἶσι(ν); ἴμεν, ἴτε, ἴασι(ν). Its infinitive is ἰέναι, “to go.” This is a supplied irregular paradigm, not a regular sigmatic future.",
+        "Future Participles Expressing Purpose: A future active participle can express the purpose of coming or going: ἔρχεται ἐρωτήσων, “he comes to ask.” The asking is intended after or as the goal of the approach, not an ongoing action simultaneous with it. Compare present ἐρωτῶν, “asking.”",
+        "δεῖ and χρή with an Infinitive: δεῖ means “it is necessary” and χρή means “one must” or “it is fitting.” They are impersonal: the Greek form does not have a personal subject meaning “I” or “you.” An infinitive names the required action: δεῖ σῴζειν, “it is necessary to save.”",
+        "Direct Questions and Question Words: A direct question can ask for a fact or explanation: τίς; “who?”, τί; “what?” or “why?” in context, ποῦ; “where?”, πότε; “when?”, and διὰ τί; “why?” The Greek question mark is the semicolon. A question can use present or future forms."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Athens in 403 BCE: Shared Ties after Fighting",
+    "banner": {
+      "image": "assets/lesson-20-banner.png",
+      "alt": "Educational reconstruction of Cleocritus addressing fellow citizens after fighting at Munychia",
+      "caption": "Educational reconstruction. This modern illustration imagines the adapted lesson scene; it is not an ancient eyewitness image."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "A dated scene in a divided city",
+        "body": [
+          "This comparison takes place in 403 BCE, after the fighting at Munychia, before the expedition of 401. Athens is divided between the Thirty’s regime and its opponents. Hellenica 2.4.19 describes recovery of the dead and conversation between men from the opposing sides before Cleocritus speaks.",
+          "The fighting at Munychia and the subsequent appeal belong to 403 BCE, during the struggle to end the Thirty’s rule. The Greek reading retells the scene in the present for learners and supplies no claim that Xenophon attended. Military victory has created an opportunity to speak, not a city already reconciled."
+        ]
+      },
+      {
+        "title": "The herald’s appeal to a shared life",
+        "body": [
+          "Cleocritus is identified as the herald of the initiates and as having a fine voice. He addresses the others as citizens, asking why they drive out and seek to kill people with whom they have shared rites, sacrifices, festivals, dancing, education, and military dangers. The speech relies on relationships that cross the current political divide.",
+          "He adds family and marriage connections, companionship, common safety and freedom, and grief even for the other side’s dead. The adaptation selects these ties and turns the remembered shared experience into present descriptions. They are reasons offered to change allegiance and action; they are not evidence that every individual on each side responds alike."
+        ]
+      },
+      {
+        "title": "An appeal interrupted, and an obligation examined",
+        "body": [
+          "Cleocritus urges his hearers to stop wronging the homeland and to reject the Thirty. His accusation that the rulers kill for private gain belongs to the speech Xenophon reports. At 2.4.22 the opposing officials, after hearing this, lead their men away. The passage does not report immediate reconciliation produced by the appeal.",
+          "The civic comparison asks what leadership is for. Cyrus offers benefits tied to his royal war; Cleocritus appeals to shared ties and safety among fellow citizens. The future intentions and purpose participles in the Greek are explicitly course additions. The learner can compare competing obligations while keeping distinct the speech, the officials’ response, and the still unresolved conflict."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "How does this scene fit the module chronology?",
+        "answer": "It is Athens in 403 BCE, a separate comparison before Cyrus’s 401 expedition."
+      },
+      {
+        "prompt": "What makes Cleocritus’s voice matter?",
+        "answer": "As a herald with a fine voice he can gain attention across the opposing groups."
+      },
+      {
+        "prompt": "Which shared ties does he invoke?",
+        "answer": "Religious rites, festivals, education, military service, kinship, marriage ties, companionship, and grief."
+      },
+      {
+        "prompt": "What is the immediate official response?",
+        "answer": "The opposing officials lead their men away; the speech does not instantly reunite Athens."
+      },
+      {
+        "prompt": "What are the future-purpose statements in the Greek?",
+        "answer": "Labeled teaching adaptations, not quotations preserved in Hellenica."
+      },
+      {
+        "prompt": "How does the appeal differ from Cyrus’s promises?",
+        "answer": "It stresses common civic safety and relationships rather than rewards for advancing a ruler’s campaign."
+      },
+      {
+        "prompt": "Which leadership decision in this lesson needs reasons beyond personal bravery?",
+        "answer": "Calling citizens to reject destructive orders needs a purpose grounded in common safety."
+      },
+      {
+        "prompt": "How can the reading’s source boundary improve your interpretation?",
+        "answer": "Distinguish the author’s reported events and speeches from the course’s simplified wording, supplied examples, and ethical inferences."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the source and adaptation boundary: Xenophon, Hellenica 2.4.19–22.",
+        "Review liquid and nasal futures using the worked examples.",
+        "Review εἶμι and εἰμί using the worked examples.",
+        "Review future participles expressing purpose using the worked examples.",
+        "Review δεῖ and χρή with an infinitive using the worked examples.",
+        "Review direct questions and question words using the worked examples.",
+        "How does this scene fit the module chronology? It is Athens in 403 BCE, a separate comparison before Cyrus’s 401 expedition.",
+        "What makes Cleocritus’s voice matter? As a herald with a fine voice he can gain attention across the opposing groups.",
+        "Which shared ties does he invoke? Religious rites, festivals, education, military service, kinship, marriage ties, companionship, and grief."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Hellenica 2.4.19–22; Greek text and Brownson translation; Hellenica 2.4.19–22",
+        "url": "https://www.magalia.wiki/historiae/fulltext/xenophon-hellenica.html"
+      },
+      {
+        "title": "Xenophon, Hellenica Book II, chapter 4; public-domain Dakyns translation",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 20 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ πολίτης",
+          "answer": "citizen — πολίτης, πολίτου, ὁ"
+        },
+        {
+          "prompt": "ὁ κῆρυξ",
+          "answer": "herald — κῆρυξ, κήρυκος, ὁ"
+        },
+        {
+          "prompt": "ἡ συγγένεια",
+          "answer": "kinship — συγγένεια, συγγενείας, ἡ"
+        },
+        {
+          "prompt": "ἡ παιδεία",
+          "answer": "education — παιδεία, παιδείας, ἡ"
+        },
+        {
+          "prompt": "ἡ ἑορτή",
+          "answer": "festival — ἑορτή, ἑορτῆς, ἡ"
+        },
+        {
+          "prompt": "ἡ πατρίς",
+          "answer": "homeland — πατρίς, πατρίδος, ἡ"
+        },
+        {
+          "prompt": "ἡ σωτηρία",
+          "answer": "safety, preservation — σωτηρία, σωτηρίας, ἡ"
+        },
+        {
+          "prompt": "ἀγγέλλω",
+          "answer": "announce, report — ἀγγέλλω"
+        },
+        {
+          "prompt": "κρίνω",
+          "answer": "judge, decide — κρίνω"
+        },
+        {
+          "prompt": "μένω",
+          "answer": "remain — μένω"
+        },
+        {
+          "prompt": "ἀμύνω",
+          "answer": "defend, ward off — ἀμύνω"
+        },
+        {
+          "prompt": "εἶμι",
+          "answer": "go (usually future sense) — εἶμι"
+        },
+        {
+          "prompt": "δεῖ",
+          "answer": "it is necessary — δεῖ (impersonal)"
+        },
+        {
+          "prompt": "χρή",
+          "answer": "one must, it is fitting — χρή (impersonal)"
+        },
+        {
+          "prompt": "ὁ σκοπός",
+          "answer": "purpose, aim — σκοπός, σκοποῦ, ὁ"
+        },
+        {
+          "prompt": "νεκρός",
+          "answer": "dead — νεκρός, νεκρά, νεκρόν"
+        },
+        {
+          "prompt": "ἴδιος",
+          "answer": "private, one’s own — ἴδιος, ἰδία, ἴδιον"
+        },
+        {
+          "prompt": "ἡ ὠφέλεια",
+          "answer": "advantage, benefit — ὠφέλεια, ὠφελείας, ἡ"
+        },
+        {
+          "prompt": "ἡ φωνή",
+          "answer": "voice — φωνή, φωνῆς, ἡ"
+        },
+        {
+          "prompt": "ὁ Κλεόκριτος",
+          "answer": "Cleocritus — Κλεόκριτος, Κλεοκρίτου, ὁ (reading vocabulary)"
+        },
+        {
+          "prompt": "ὁ μύστης",
+          "answer": "initiate — μύστης, μύστου, ὁ (reading vocabulary)"
+        },
+        {
+          "prompt": "ἡ Μουνυχία",
+          "answer": "Munychia — Μουνυχία, Μουνυχίας, ἡ (reading vocabulary)"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 20 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Each required word has meaning and Greek-entry practice. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-20-vocab-001",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ πολίτης mean?",
+          "choices": [
+            {
+              "text": "citizen",
+              "correct": true,
+              "feedback": "Correct. πολίτης, πολίτου, ὁ means citizen."
+            },
+            {
+              "text": "herald",
+              "correct": false,
+              "feedback": "“herald” does not answer this question. πολίτης, πολίτου, ὁ means citizen."
+            },
+            {
+              "text": "festival",
+              "correct": false,
+              "feedback": "“festival” does not answer this question. πολίτης, πολίτου, ὁ means citizen."
+            },
+            {
+              "text": "announce, report",
+              "correct": false,
+              "feedback": "“announce, report” does not answer this question. πολίτης, πολίτου, ὁ means citizen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-002",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “citizen”?",
+          "choices": [
+            {
+              "text": "ἀγγέλλω",
+              "correct": false,
+              "feedback": "“ἀγγέλλω” does not answer this question. ὁ πολίτης is the entry for citizen."
+            },
+            {
+              "text": "ὁ πολίτης",
+              "correct": true,
+              "feedback": "Correct. ὁ πολίτης is the entry for citizen."
+            },
+            {
+              "text": "ὁ κῆρυξ",
+              "correct": false,
+              "feedback": "“ὁ κῆρυξ” does not answer this question. ὁ πολίτης is the entry for citizen."
+            },
+            {
+              "text": "ἡ ἑορτή",
+              "correct": false,
+              "feedback": "“ἡ ἑορτή” does not answer this question. ὁ πολίτης is the entry for citizen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-003",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ κῆρυξ mean?",
+          "choices": [
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "“homeland” does not answer this question. κῆρυξ, κήρυκος, ὁ means herald."
+            },
+            {
+              "text": "judge, decide",
+              "correct": false,
+              "feedback": "“judge, decide” does not answer this question. κῆρυξ, κήρυκος, ὁ means herald."
+            },
+            {
+              "text": "herald",
+              "correct": true,
+              "feedback": "Correct. κῆρυξ, κήρυκος, ὁ means herald."
+            },
+            {
+              "text": "kinship",
+              "correct": false,
+              "feedback": "“kinship” does not answer this question. κῆρυξ, κήρυκος, ὁ means herald."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-004",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “herald”?",
+          "choices": [
+            {
+              "text": "ἡ συγγένεια",
+              "correct": false,
+              "feedback": "“ἡ συγγένεια” does not answer this question. ὁ κῆρυξ is the entry for herald."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "“ἡ πατρίς” does not answer this question. ὁ κῆρυξ is the entry for herald."
+            },
+            {
+              "text": "κρίνω",
+              "correct": false,
+              "feedback": "“κρίνω” does not answer this question. ὁ κῆρυξ is the entry for herald."
+            },
+            {
+              "text": "ὁ κῆρυξ",
+              "correct": true,
+              "feedback": "Correct. ὁ κῆρυξ is the entry for herald."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-005",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ συγγένεια mean?",
+          "choices": [
+            {
+              "text": "kinship",
+              "correct": true,
+              "feedback": "Correct. συγγένεια, συγγενείας, ἡ means kinship."
+            },
+            {
+              "text": "education",
+              "correct": false,
+              "feedback": "“education” does not answer this question. συγγένεια, συγγενείας, ἡ means kinship."
+            },
+            {
+              "text": "safety, preservation",
+              "correct": false,
+              "feedback": "“safety, preservation” does not answer this question. συγγένεια, συγγενείας, ἡ means kinship."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. συγγένεια, συγγενείας, ἡ means kinship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-006",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “kinship”?",
+          "choices": [
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. ἡ συγγένεια is the entry for kinship."
+            },
+            {
+              "text": "ἡ συγγένεια",
+              "correct": true,
+              "feedback": "Correct. ἡ συγγένεια is the entry for kinship."
+            },
+            {
+              "text": "ἡ παιδεία",
+              "correct": false,
+              "feedback": "“ἡ παιδεία” does not answer this question. ἡ συγγένεια is the entry for kinship."
+            },
+            {
+              "text": "ἡ σωτηρία",
+              "correct": false,
+              "feedback": "“ἡ σωτηρία” does not answer this question. ἡ συγγένεια is the entry for kinship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-007",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ παιδεία mean?",
+          "choices": [
+            {
+              "text": "announce, report",
+              "correct": false,
+              "feedback": "“announce, report” does not answer this question. παιδεία, παιδείας, ἡ means education."
+            },
+            {
+              "text": "defend, ward off",
+              "correct": false,
+              "feedback": "“defend, ward off” does not answer this question. παιδεία, παιδείας, ἡ means education."
+            },
+            {
+              "text": "education",
+              "correct": true,
+              "feedback": "Correct. παιδεία, παιδείας, ἡ means education."
+            },
+            {
+              "text": "festival",
+              "correct": false,
+              "feedback": "“festival” does not answer this question. παιδεία, παιδείας, ἡ means education."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-008",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “education”?",
+          "choices": [
+            {
+              "text": "ἡ ἑορτή",
+              "correct": false,
+              "feedback": "“ἡ ἑορτή” does not answer this question. ἡ παιδεία is the entry for education."
+            },
+            {
+              "text": "ἀγγέλλω",
+              "correct": false,
+              "feedback": "“ἀγγέλλω” does not answer this question. ἡ παιδεία is the entry for education."
+            },
+            {
+              "text": "ἀμύνω",
+              "correct": false,
+              "feedback": "“ἀμύνω” does not answer this question. ἡ παιδεία is the entry for education."
+            },
+            {
+              "text": "ἡ παιδεία",
+              "correct": true,
+              "feedback": "Correct. ἡ παιδεία is the entry for education."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ἑορτή mean?",
+          "choices": [
+            {
+              "text": "festival",
+              "correct": true,
+              "feedback": "Correct. ἑορτή, ἑορτῆς, ἡ means festival."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "“homeland” does not answer this question. ἑορτή, ἑορτῆς, ἡ means festival."
+            },
+            {
+              "text": "judge, decide",
+              "correct": false,
+              "feedback": "“judge, decide” does not answer this question. ἑορτή, ἑορτῆς, ἡ means festival."
+            },
+            {
+              "text": "go (usually future sense)",
+              "correct": false,
+              "feedback": "“go (usually future sense)” does not answer this question. ἑορτή, ἑορτῆς, ἡ means festival."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “festival”?",
+          "choices": [
+            {
+              "text": "εἶμι",
+              "correct": false,
+              "feedback": "“εἶμι” does not answer this question. ἡ ἑορτή is the entry for festival."
+            },
+            {
+              "text": "ἡ ἑορτή",
+              "correct": true,
+              "feedback": "Correct. ἡ ἑορτή is the entry for festival."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "“ἡ πατρίς” does not answer this question. ἡ ἑορτή is the entry for festival."
+            },
+            {
+              "text": "κρίνω",
+              "correct": false,
+              "feedback": "“κρίνω” does not answer this question. ἡ ἑορτή is the entry for festival."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. πατρίς, πατρίδος, ἡ means homeland."
+            },
+            {
+              "text": "it is necessary",
+              "correct": false,
+              "feedback": "“it is necessary” does not answer this question. πατρίς, πατρίδος, ἡ means homeland."
+            },
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct. πατρίς, πατρίδος, ἡ means homeland."
+            },
+            {
+              "text": "safety, preservation",
+              "correct": false,
+              "feedback": "“safety, preservation” does not answer this question. πατρίς, πατρίδος, ἡ means homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “homeland”?",
+          "choices": [
+            {
+              "text": "ἡ σωτηρία",
+              "correct": false,
+              "feedback": "“ἡ σωτηρία” does not answer this question. ἡ πατρίς is the entry for homeland."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. ἡ πατρίς is the entry for homeland."
+            },
+            {
+              "text": "δεῖ",
+              "correct": false,
+              "feedback": "“δεῖ” does not answer this question. ἡ πατρίς is the entry for homeland."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": true,
+              "feedback": "Correct. ἡ πατρίς is the entry for homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ σωτηρία mean?",
+          "choices": [
+            {
+              "text": "safety, preservation",
+              "correct": true,
+              "feedback": "Correct. σωτηρία, σωτηρίας, ἡ means safety, preservation."
+            },
+            {
+              "text": "announce, report",
+              "correct": false,
+              "feedback": "“announce, report” does not answer this question. σωτηρία, σωτηρίας, ἡ means safety, preservation."
+            },
+            {
+              "text": "defend, ward off",
+              "correct": false,
+              "feedback": "“defend, ward off” does not answer this question. σωτηρία, σωτηρίας, ἡ means safety, preservation."
+            },
+            {
+              "text": "one must, it is fitting",
+              "correct": false,
+              "feedback": "“one must, it is fitting” does not answer this question. σωτηρία, σωτηρίας, ἡ means safety, preservation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “safety, preservation”?",
+          "choices": [
+            {
+              "text": "χρή",
+              "correct": false,
+              "feedback": "“χρή” does not answer this question. ἡ σωτηρία is the entry for safety, preservation."
+            },
+            {
+              "text": "ἡ σωτηρία",
+              "correct": true,
+              "feedback": "Correct. ἡ σωτηρία is the entry for safety, preservation."
+            },
+            {
+              "text": "ἀγγέλλω",
+              "correct": false,
+              "feedback": "“ἀγγέλλω” does not answer this question. ἡ σωτηρία is the entry for safety, preservation."
+            },
+            {
+              "text": "ἀμύνω",
+              "correct": false,
+              "feedback": "“ἀμύνω” does not answer this question. ἡ σωτηρία is the entry for safety, preservation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-015",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἀγγέλλω mean?",
+          "choices": [
+            {
+              "text": "go (usually future sense)",
+              "correct": false,
+              "feedback": "“go (usually future sense)” does not answer this question. ἀγγέλλω means announce, report."
+            },
+            {
+              "text": "purpose, aim",
+              "correct": false,
+              "feedback": "“purpose, aim” does not answer this question. ἀγγέλλω means announce, report."
+            },
+            {
+              "text": "announce, report",
+              "correct": true,
+              "feedback": "Correct. ἀγγέλλω means announce, report."
+            },
+            {
+              "text": "judge, decide",
+              "correct": false,
+              "feedback": "“judge, decide” does not answer this question. ἀγγέλλω means announce, report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-016",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “announce, report”?",
+          "choices": [
+            {
+              "text": "κρίνω",
+              "correct": false,
+              "feedback": "“κρίνω” does not answer this question. ἀγγέλλω is the entry for announce, report."
+            },
+            {
+              "text": "εἶμι",
+              "correct": false,
+              "feedback": "“εἶμι” does not answer this question. ἀγγέλλω is the entry for announce, report."
+            },
+            {
+              "text": "ὁ σκοπός",
+              "correct": false,
+              "feedback": "“ὁ σκοπός” does not answer this question. ἀγγέλλω is the entry for announce, report."
+            },
+            {
+              "text": "ἀγγέλλω",
+              "correct": true,
+              "feedback": "Correct. ἀγγέλλω is the entry for announce, report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-017",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry κρίνω mean?",
+          "choices": [
+            {
+              "text": "judge, decide",
+              "correct": true,
+              "feedback": "Correct. κρίνω means judge, decide."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. κρίνω means judge, decide."
+            },
+            {
+              "text": "it is necessary",
+              "correct": false,
+              "feedback": "“it is necessary” does not answer this question. κρίνω means judge, decide."
+            },
+            {
+              "text": "dead",
+              "correct": false,
+              "feedback": "“dead” does not answer this question. κρίνω means judge, decide."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-018",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “judge, decide”?",
+          "choices": [
+            {
+              "text": "νεκρός",
+              "correct": false,
+              "feedback": "“νεκρός” does not answer this question. κρίνω is the entry for judge, decide."
+            },
+            {
+              "text": "κρίνω",
+              "correct": true,
+              "feedback": "Correct. κρίνω is the entry for judge, decide."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. κρίνω is the entry for judge, decide."
+            },
+            {
+              "text": "δεῖ",
+              "correct": false,
+              "feedback": "“δεῖ” does not answer this question. κρίνω is the entry for judge, decide."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-019",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry μένω mean?",
+          "choices": [
+            {
+              "text": "one must, it is fitting",
+              "correct": false,
+              "feedback": "“one must, it is fitting” does not answer this question. μένω means remain."
+            },
+            {
+              "text": "private, one’s own",
+              "correct": false,
+              "feedback": "“private, one’s own” does not answer this question. μένω means remain."
+            },
+            {
+              "text": "remain",
+              "correct": true,
+              "feedback": "Correct. μένω means remain."
+            },
+            {
+              "text": "defend, ward off",
+              "correct": false,
+              "feedback": "“defend, ward off” does not answer this question. μένω means remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-020",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “remain”?",
+          "choices": [
+            {
+              "text": "ἀμύνω",
+              "correct": false,
+              "feedback": "“ἀμύνω” does not answer this question. μένω is the entry for remain."
+            },
+            {
+              "text": "χρή",
+              "correct": false,
+              "feedback": "“χρή” does not answer this question. μένω is the entry for remain."
+            },
+            {
+              "text": "ἴδιος",
+              "correct": false,
+              "feedback": "“ἴδιος” does not answer this question. μένω is the entry for remain."
+            },
+            {
+              "text": "μένω",
+              "correct": true,
+              "feedback": "Correct. μένω is the entry for remain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-021",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἀμύνω mean?",
+          "choices": [
+            {
+              "text": "defend, ward off",
+              "correct": true,
+              "feedback": "Correct. ἀμύνω means defend, ward off."
+            },
+            {
+              "text": "go (usually future sense)",
+              "correct": false,
+              "feedback": "“go (usually future sense)” does not answer this question. ἀμύνω means defend, ward off."
+            },
+            {
+              "text": "purpose, aim",
+              "correct": false,
+              "feedback": "“purpose, aim” does not answer this question. ἀμύνω means defend, ward off."
+            },
+            {
+              "text": "advantage, benefit",
+              "correct": false,
+              "feedback": "“advantage, benefit” does not answer this question. ἀμύνω means defend, ward off."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-022",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “defend, ward off”?",
+          "choices": [
+            {
+              "text": "ἡ ὠφέλεια",
+              "correct": false,
+              "feedback": "“ἡ ὠφέλεια” does not answer this question. ἀμύνω is the entry for defend, ward off."
+            },
+            {
+              "text": "ἀμύνω",
+              "correct": true,
+              "feedback": "Correct. ἀμύνω is the entry for defend, ward off."
+            },
+            {
+              "text": "εἶμι",
+              "correct": false,
+              "feedback": "“εἶμι” does not answer this question. ἀμύνω is the entry for defend, ward off."
+            },
+            {
+              "text": "ὁ σκοπός",
+              "correct": false,
+              "feedback": "“ὁ σκοπός” does not answer this question. ἀμύνω is the entry for defend, ward off."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-023",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry εἶμι mean?",
+          "choices": [
+            {
+              "text": "dead",
+              "correct": false,
+              "feedback": "“dead” does not answer this question. εἶμι means go (usually future sense)."
+            },
+            {
+              "text": "voice",
+              "correct": false,
+              "feedback": "“voice” does not answer this question. εἶμι means go (usually future sense)."
+            },
+            {
+              "text": "go (usually future sense)",
+              "correct": true,
+              "feedback": "Correct. εἶμι means go (usually future sense)."
+            },
+            {
+              "text": "it is necessary",
+              "correct": false,
+              "feedback": "“it is necessary” does not answer this question. εἶμι means go (usually future sense)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-024",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “go (usually future sense)”?",
+          "choices": [
+            {
+              "text": "δεῖ",
+              "correct": false,
+              "feedback": "“δεῖ” does not answer this question. εἶμι is the entry for go (usually future sense)."
+            },
+            {
+              "text": "νεκρός",
+              "correct": false,
+              "feedback": "“νεκρός” does not answer this question. εἶμι is the entry for go (usually future sense)."
+            },
+            {
+              "text": "ἡ φωνή",
+              "correct": false,
+              "feedback": "“ἡ φωνή” does not answer this question. εἶμι is the entry for go (usually future sense)."
+            },
+            {
+              "text": "εἶμι",
+              "correct": true,
+              "feedback": "Correct. εἶμι is the entry for go (usually future sense)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-025",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry δεῖ mean?",
+          "choices": [
+            {
+              "text": "it is necessary",
+              "correct": true,
+              "feedback": "Correct. δεῖ (impersonal) means it is necessary."
+            },
+            {
+              "text": "one must, it is fitting",
+              "correct": false,
+              "feedback": "“one must, it is fitting” does not answer this question. δεῖ (impersonal) means it is necessary."
+            },
+            {
+              "text": "private, one’s own",
+              "correct": false,
+              "feedback": "“private, one’s own” does not answer this question. δεῖ (impersonal) means it is necessary."
+            },
+            {
+              "text": "citizen",
+              "correct": false,
+              "feedback": "“citizen” does not answer this question. δεῖ (impersonal) means it is necessary."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-026",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “it is necessary”?",
+          "choices": [
+            {
+              "text": "ὁ πολίτης",
+              "correct": false,
+              "feedback": "“ὁ πολίτης” does not answer this question. δεῖ is the entry for it is necessary."
+            },
+            {
+              "text": "δεῖ",
+              "correct": true,
+              "feedback": "Correct. δεῖ is the entry for it is necessary."
+            },
+            {
+              "text": "χρή",
+              "correct": false,
+              "feedback": "“χρή” does not answer this question. δεῖ is the entry for it is necessary."
+            },
+            {
+              "text": "ἴδιος",
+              "correct": false,
+              "feedback": "“ἴδιος” does not answer this question. δεῖ is the entry for it is necessary."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-027",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry χρή mean?",
+          "choices": [
+            {
+              "text": "advantage, benefit",
+              "correct": false,
+              "feedback": "“advantage, benefit” does not answer this question. χρή (impersonal) means one must, it is fitting."
+            },
+            {
+              "text": "herald",
+              "correct": false,
+              "feedback": "“herald” does not answer this question. χρή (impersonal) means one must, it is fitting."
+            },
+            {
+              "text": "one must, it is fitting",
+              "correct": true,
+              "feedback": "Correct. χρή (impersonal) means one must, it is fitting."
+            },
+            {
+              "text": "purpose, aim",
+              "correct": false,
+              "feedback": "“purpose, aim” does not answer this question. χρή (impersonal) means one must, it is fitting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-028",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “one must, it is fitting”?",
+          "choices": [
+            {
+              "text": "ὁ σκοπός",
+              "correct": false,
+              "feedback": "“ὁ σκοπός” does not answer this question. χρή is the entry for one must, it is fitting."
+            },
+            {
+              "text": "ἡ ὠφέλεια",
+              "correct": false,
+              "feedback": "“ἡ ὠφέλεια” does not answer this question. χρή is the entry for one must, it is fitting."
+            },
+            {
+              "text": "ὁ κῆρυξ",
+              "correct": false,
+              "feedback": "“ὁ κῆρυξ” does not answer this question. χρή is the entry for one must, it is fitting."
+            },
+            {
+              "text": "χρή",
+              "correct": true,
+              "feedback": "Correct. χρή is the entry for one must, it is fitting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-029",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ σκοπός mean?",
+          "choices": [
+            {
+              "text": "purpose, aim",
+              "correct": true,
+              "feedback": "Correct. σκοπός, σκοποῦ, ὁ means purpose, aim."
+            },
+            {
+              "text": "dead",
+              "correct": false,
+              "feedback": "“dead” does not answer this question. σκοπός, σκοποῦ, ὁ means purpose, aim."
+            },
+            {
+              "text": "voice",
+              "correct": false,
+              "feedback": "“voice” does not answer this question. σκοπός, σκοποῦ, ὁ means purpose, aim."
+            },
+            {
+              "text": "kinship",
+              "correct": false,
+              "feedback": "“kinship” does not answer this question. σκοπός, σκοποῦ, ὁ means purpose, aim."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-030",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “purpose, aim”?",
+          "choices": [
+            {
+              "text": "ἡ συγγένεια",
+              "correct": false,
+              "feedback": "“ἡ συγγένεια” does not answer this question. ὁ σκοπός is the entry for purpose, aim."
+            },
+            {
+              "text": "ὁ σκοπός",
+              "correct": true,
+              "feedback": "Correct. ὁ σκοπός is the entry for purpose, aim."
+            },
+            {
+              "text": "νεκρός",
+              "correct": false,
+              "feedback": "“νεκρός” does not answer this question. ὁ σκοπός is the entry for purpose, aim."
+            },
+            {
+              "text": "ἡ φωνή",
+              "correct": false,
+              "feedback": "“ἡ φωνή” does not answer this question. ὁ σκοπός is the entry for purpose, aim."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-031",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry νεκρός mean?",
+          "choices": [
+            {
+              "text": "citizen",
+              "correct": false,
+              "feedback": "“citizen” does not answer this question. νεκρός, νεκρά, νεκρόν means dead."
+            },
+            {
+              "text": "education",
+              "correct": false,
+              "feedback": "“education” does not answer this question. νεκρός, νεκρά, νεκρόν means dead."
+            },
+            {
+              "text": "dead",
+              "correct": true,
+              "feedback": "Correct. νεκρός, νεκρά, νεκρόν means dead."
+            },
+            {
+              "text": "private, one’s own",
+              "correct": false,
+              "feedback": "“private, one’s own” does not answer this question. νεκρός, νεκρά, νεκρόν means dead."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-032",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “dead”?",
+          "choices": [
+            {
+              "text": "ἴδιος",
+              "correct": false,
+              "feedback": "“ἴδιος” does not answer this question. νεκρός is the entry for dead."
+            },
+            {
+              "text": "ὁ πολίτης",
+              "correct": false,
+              "feedback": "“ὁ πολίτης” does not answer this question. νεκρός is the entry for dead."
+            },
+            {
+              "text": "ἡ παιδεία",
+              "correct": false,
+              "feedback": "“ἡ παιδεία” does not answer this question. νεκρός is the entry for dead."
+            },
+            {
+              "text": "νεκρός",
+              "correct": true,
+              "feedback": "Correct. νεκρός is the entry for dead."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-033",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἴδιος mean?",
+          "choices": [
+            {
+              "text": "private, one’s own",
+              "correct": true,
+              "feedback": "Correct. ἴδιος, ἰδία, ἴδιον means private, one’s own."
+            },
+            {
+              "text": "advantage, benefit",
+              "correct": false,
+              "feedback": "“advantage, benefit” does not answer this question. ἴδιος, ἰδία, ἴδιον means private, one’s own."
+            },
+            {
+              "text": "herald",
+              "correct": false,
+              "feedback": "“herald” does not answer this question. ἴδιος, ἰδία, ἴδιον means private, one’s own."
+            },
+            {
+              "text": "festival",
+              "correct": false,
+              "feedback": "“festival” does not answer this question. ἴδιος, ἰδία, ἴδιον means private, one’s own."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-034",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “private, one’s own”?",
+          "choices": [
+            {
+              "text": "ἡ ἑορτή",
+              "correct": false,
+              "feedback": "“ἡ ἑορτή” does not answer this question. ἴδιος is the entry for private, one’s own."
+            },
+            {
+              "text": "ἴδιος",
+              "correct": true,
+              "feedback": "Correct. ἴδιος is the entry for private, one’s own."
+            },
+            {
+              "text": "ἡ ὠφέλεια",
+              "correct": false,
+              "feedback": "“ἡ ὠφέλεια” does not answer this question. ἴδιος is the entry for private, one’s own."
+            },
+            {
+              "text": "ὁ κῆρυξ",
+              "correct": false,
+              "feedback": "“ὁ κῆρυξ” does not answer this question. ἴδιος is the entry for private, one’s own."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-035",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ὠφέλεια mean?",
+          "choices": [
+            {
+              "text": "kinship",
+              "correct": false,
+              "feedback": "“kinship” does not answer this question. ὠφέλεια, ὠφελείας, ἡ means advantage, benefit."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "“homeland” does not answer this question. ὠφέλεια, ὠφελείας, ἡ means advantage, benefit."
+            },
+            {
+              "text": "advantage, benefit",
+              "correct": true,
+              "feedback": "Correct. ὠφέλεια, ὠφελείας, ἡ means advantage, benefit."
+            },
+            {
+              "text": "voice",
+              "correct": false,
+              "feedback": "“voice” does not answer this question. ὠφέλεια, ὠφελείας, ἡ means advantage, benefit."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-036",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “advantage, benefit”?",
+          "choices": [
+            {
+              "text": "ἡ φωνή",
+              "correct": false,
+              "feedback": "“ἡ φωνή” does not answer this question. ἡ ὠφέλεια is the entry for advantage, benefit."
+            },
+            {
+              "text": "ἡ συγγένεια",
+              "correct": false,
+              "feedback": "“ἡ συγγένεια” does not answer this question. ἡ ὠφέλεια is the entry for advantage, benefit."
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "“ἡ πατρίς” does not answer this question. ἡ ὠφέλεια is the entry for advantage, benefit."
+            },
+            {
+              "text": "ἡ ὠφέλεια",
+              "correct": true,
+              "feedback": "Correct. ἡ ὠφέλεια is the entry for advantage, benefit."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-037",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ φωνή mean?",
+          "choices": [
+            {
+              "text": "voice",
+              "correct": true,
+              "feedback": "Correct. φωνή, φωνῆς, ἡ means voice."
+            },
+            {
+              "text": "citizen",
+              "correct": false,
+              "feedback": "“citizen” does not answer this question. φωνή, φωνῆς, ἡ means voice."
+            },
+            {
+              "text": "education",
+              "correct": false,
+              "feedback": "“education” does not answer this question. φωνή, φωνῆς, ἡ means voice."
+            },
+            {
+              "text": "safety, preservation",
+              "correct": false,
+              "feedback": "“safety, preservation” does not answer this question. φωνή, φωνῆς, ἡ means voice."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-vocab-038",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which dictionary entry means “voice”?",
+          "choices": [
+            {
+              "text": "ἡ σωτηρία",
+              "correct": false,
+              "feedback": "“ἡ σωτηρία” does not answer this question. ἡ φωνή is the entry for voice."
+            },
+            {
+              "text": "ἡ φωνή",
+              "correct": true,
+              "feedback": "Correct. ἡ φωνή is the entry for voice."
+            },
+            {
+              "text": "ὁ πολίτης",
+              "correct": false,
+              "feedback": "“ὁ πολίτης” does not answer this question. ἡ φωνή is the entry for voice."
+            },
+            {
+              "text": "ἡ παιδεία",
+              "correct": false,
+              "feedback": "“ἡ παιδεία” does not answer this question. ἡ φωνή is the entry for voice."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 20 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "περὶ τοῦ δικαίου κρινοῦμεν.",
+          "answer": "We shall judge what is just. — Liquid and Nasal Futures"
+        },
+        {
+          "prompt": "οἱ πολῖται μενοῦσιν.",
+          "answer": "The citizens will remain (supplementary example). — Liquid and Nasal Futures"
+        },
+        {
+          "prompt": "εἶμι περὶ τῆς σωτηρίας ἐρωτήσων.",
+          "answer": "I shall go to ask about safety (adapted learner statement). — εἶμι and εἰμί"
+        },
+        {
+          "prompt": "πολίτης εἰμί.",
+          "answer": "I am a citizen (supplementary example). — εἶμι and εἰμί"
+        },
+        {
+          "prompt": "ὁ Κλεόκριτος ἔρχεται ἀγγελῶν τὴν γνώμην.",
+          "answer": "Cleocritus comes to announce his judgment (adapted purpose wording). — Future Participles Expressing Purpose"
+        },
+        {
+          "prompt": "ἡ γυνὴ ἔρχεται ἐρωτήσουσα.",
+          "answer": "The woman comes to ask (supplementary example). — Future Participles Expressing Purpose"
+        },
+        {
+          "prompt": "δεῖ τὴν πατρίδα σῴζειν.",
+          "answer": "It is necessary to save the homeland. — δεῖ and χρή with an Infinitive"
+        },
+        {
+          "prompt": "χρὴ μὴ πείθεσθαι τοῖς τριάκοντα.",
+          "answer": "One must not obey the Thirty. — δεῖ and χρή with an Infinitive"
+        },
+        {
+          "prompt": "διὰ τί βούλεσθε ἡμᾶς ἀποκτείνειν;",
+          "answer": "Why do you want to kill us? — Direct Questions and Question Words"
+        },
+        {
+          "prompt": "τίνος ἕνεκα οἱ πολῖται πορεύονται;",
+          "answer": "For what purpose do the citizens go? — Direct Questions and Question Words"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 20 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar section. Every topic has at least six distinct questions with feedback.",
+      "questions": [
+        {
+          "id": "lesson-20-practice-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which pair contrasts shared safety with private advantage?",
+          "choices": [
+            {
+              "text": "κοινὴ σωτηρία / ἰδία ὠφέλεια",
+              "correct": true,
+              "feedback": "Correct. κοινός and ἴδιος organize the ethical contrast."
+            },
+            {
+              "text": "παιδεία / ἑορτή",
+              "correct": false,
+              "feedback": "“παιδεία / ἑορτή” does not answer this question. κοινός and ἴδιος organize the ethical contrast."
+            },
+            {
+              "text": "εἶμι / εἰμί",
+              "correct": false,
+              "feedback": "“εἶμι / εἰμί” does not answer this question. κοινός and ἴδιος organize the ethical contrast."
+            },
+            {
+              "text": "κῆρυξ / φωνή",
+              "correct": false,
+              "feedback": "“κῆρυξ / φωνή” does not answer this question. κοινός and ἴδιος organize the ethical contrast."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which noun names family relationship?",
+          "choices": [
+            {
+              "text": "φωνή",
+              "correct": false,
+              "feedback": "“φωνή” does not answer this question. συγγένεια means kinship."
+            },
+            {
+              "text": "συγγένεια",
+              "correct": true,
+              "feedback": "Correct. συγγένεια means kinship."
+            },
+            {
+              "text": "παιδεία",
+              "correct": false,
+              "feedback": "“παιδεία” does not answer this question. συγγένεια means kinship."
+            },
+            {
+              "text": "ἑορτή",
+              "correct": false,
+              "feedback": "“ἑορτή” does not answer this question. συγγένεια means kinship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Which noun names education?",
+          "choices": [
+            {
+              "text": "πατρίς",
+              "correct": false,
+              "feedback": "“πατρίς” does not answer this question. παιδεία is education, one shared tie."
+            },
+            {
+              "text": "σκοπός",
+              "correct": false,
+              "feedback": "“σκοπός” does not answer this question. παιδεία is education, one shared tie."
+            },
+            {
+              "text": "παιδεία",
+              "correct": true,
+              "feedback": "Correct. παιδεία is education, one shared tie."
+            },
+            {
+              "text": "σωτηρία",
+              "correct": false,
+              "feedback": "“σωτηρία” does not answer this question. παιδεία is education, one shared tie."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does δεῖ σῴζειν state?",
+          "choices": [
+            {
+              "text": "a completed rescue",
+              "correct": false,
+              "feedback": "“a completed rescue” does not answer this question. δεῖ with an infinitive names a necessary action."
+            },
+            {
+              "text": "a first-person future journey",
+              "correct": false,
+              "feedback": "“a first-person future journey” does not answer this question. δεῖ with an infinitive names a necessary action."
+            },
+            {
+              "text": "a citizen’s genitive",
+              "correct": false,
+              "feedback": "“a citizen’s genitive” does not answer this question. δεῖ with an infinitive names a necessary action."
+            },
+            {
+              "text": "an obligation to save",
+              "correct": true,
+              "feedback": "Correct. δεῖ with an infinitive names a necessary action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "What does εἶμι ἐρωτήσων add to a future journey?",
+          "choices": [
+            {
+              "text": "the purpose of asking",
+              "correct": true,
+              "feedback": "Correct. The future participle identifies the intended purpose."
+            },
+            {
+              "text": "proof of immediate civic unity",
+              "correct": false,
+              "feedback": "“proof of immediate civic unity” does not answer this question. The future participle identifies the intended purpose."
+            },
+            {
+              "text": "an action already completed",
+              "correct": false,
+              "feedback": "“an action already completed” does not answer this question. The future participle identifies the intended purpose."
+            },
+            {
+              "text": "the city’s new constitution",
+              "correct": false,
+              "feedback": "“the city’s new constitution” does not answer this question. The future participle identifies the intended purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Why do shared ties matter in the appeal?",
+          "choices": [
+            {
+              "text": "they change all verbs into futures",
+              "correct": false,
+              "feedback": "“they change all verbs into futures” does not answer this question. Shared life supports an ethical appeal without guaranteeing its result."
+            },
+            {
+              "text": "they provide reasons to reconsider hostility",
+              "correct": true,
+              "feedback": "Correct. Shared life supports an ethical appeal without guaranteeing its result."
+            },
+            {
+              "text": "they prove every conflict is over",
+              "correct": false,
+              "feedback": "“they prove every conflict is over” does not answer this question. Shared life supports an ethical appeal without guaranteeing its result."
+            },
+            {
+              "text": "they guarantee Cyrus’s rewards",
+              "correct": false,
+              "feedback": "“they guarantee Cyrus’s rewards” does not answer this question. Shared life supports an ethical appeal without guaranteeing its result."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which is future first-person singular of μένω?",
+          "choices": [
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "“μένει” does not answer this question. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένομεν",
+              "correct": false,
+              "feedback": "“μένομεν” does not answer this question. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μενῶ",
+              "correct": true,
+              "feedback": "Correct. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. The contracted future has circumflex μενῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which means “they will announce”?",
+          "choices": [
+            {
+              "text": "ἀγγέλλουσι",
+              "correct": false,
+              "feedback": "“ἀγγέλλουσι” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελεῖτε",
+              "correct": false,
+              "feedback": "“ἀγγελεῖτε” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελῶ",
+              "correct": false,
+              "feedback": "“ἀγγελῶ” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελοῦσι",
+              "correct": true,
+              "feedback": "Correct. ἀγγελοῦσι is contracted future third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which means “we will judge”?",
+          "choices": [
+            {
+              "text": "κρινοῦμεν",
+              "correct": true,
+              "feedback": "Correct. -οῦμεν marks future first-person plural."
+            },
+            {
+              "text": "κρίνομεν",
+              "correct": false,
+              "feedback": "“κρίνομεν” does not answer this question. -οῦμεν marks future first-person plural."
+            },
+            {
+              "text": "κρινεῖτε",
+              "correct": false,
+              "feedback": "“κρινεῖτε” does not answer this question. -οῦμεν marks future first-person plural."
+            },
+            {
+              "text": "κρινῶ",
+              "correct": false,
+              "feedback": "“κρινῶ” does not answer this question. -οῦμεν marks future first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which consonants define liquid/nasal stems here?",
+          "choices": [
+            {
+              "text": "τ, δ, θ only",
+              "correct": false,
+              "feedback": "“τ, δ, θ only” does not answer this question. Liquids λ/ρ and nasals μ/ν form this taught group."
+            },
+            {
+              "text": "λ, μ, ν, ρ",
+              "correct": true,
+              "feedback": "Correct. Liquids λ/ρ and nasals μ/ν form this taught group."
+            },
+            {
+              "text": "κ, γ, χ only",
+              "correct": false,
+              "feedback": "“κ, γ, χ only” does not answer this question. Liquids λ/ρ and nasals μ/ν form this taught group."
+            },
+            {
+              "text": "π, β, φ only",
+              "correct": false,
+              "feedback": "“π, β, φ only” does not answer this question. Liquids λ/ρ and nasals μ/ν form this taught group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "How does ἀγγελῶ’s stem differ from ἀγγέλλω?",
+          "choices": [
+            {
+              "text": "the future adds augment",
+              "correct": false,
+              "feedback": "“the future adds augment” does not answer this question. The future stem is ἀγγελ-."
+            },
+            {
+              "text": "the future keeps two λ and σ",
+              "correct": false,
+              "feedback": "“the future keeps two λ and σ” does not answer this question. The future stem is ἀγγελ-."
+            },
+            {
+              "text": "the future has one λ",
+              "correct": true,
+              "feedback": "Correct. The future stem is ἀγγελ-."
+            },
+            {
+              "text": "the future adds ξ",
+              "correct": false,
+              "feedback": "“the future adds ξ” does not answer this question. The future stem is ἀγγελ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which is the future of νέμω?",
+          "choices": [
+            {
+              "text": "νέμω",
+              "correct": false,
+              "feedback": "“νέμω” does not answer this question. The nasal-stem future contracts to νεμῶ."
+            },
+            {
+              "text": "νέμσω",
+              "correct": false,
+              "feedback": "“νέμσω” does not answer this question. The nasal-stem future contracts to νεμῶ."
+            },
+            {
+              "text": "νέψω",
+              "correct": false,
+              "feedback": "“νέψω” does not answer this question. The nasal-stem future contracts to νεμῶ."
+            },
+            {
+              "text": "νεμῶ",
+              "correct": true,
+              "feedback": "Correct. The nasal-stem future contracts to νεμῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “I shall go” in the taught Attic usage?",
+          "choices": [
+            {
+              "text": "εἶμι",
+              "correct": true,
+              "feedback": "Correct. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἰμί",
+              "correct": false,
+              "feedback": "“εἰμί” does not answer this question. εἶμι is the movement verb."
+            },
+            {
+              "text": "ἐσμέν",
+              "correct": false,
+              "feedback": "“ἐσμέν” does not answer this question. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἰσί",
+              "correct": false,
+              "feedback": "“εἰσί” does not answer this question. εἶμι is the movement verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “I am”?",
+          "choices": [
+            {
+              "text": "εἶσι",
+              "correct": false,
+              "feedback": "“εἶσι” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "εἰμί",
+              "correct": true,
+              "feedback": "Correct. εἰμί is the verb of being."
+            },
+            {
+              "text": "εἶμι",
+              "correct": false,
+              "feedback": "“εἶμι” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "ἴμεν",
+              "correct": false,
+              "feedback": "“ἴμεν” does not answer this question. εἰμί is the verb of being."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “we will go”?",
+          "choices": [
+            {
+              "text": "ἴτε",
+              "correct": false,
+              "feedback": "“ἴτε” does not answer this question. ἴμεν is first-person plural of εἶμι."
+            },
+            {
+              "text": "ἴασι",
+              "correct": false,
+              "feedback": "“ἴασι” does not answer this question. ἴμεν is first-person plural of εἶμι."
+            },
+            {
+              "text": "ἴμεν",
+              "correct": true,
+              "feedback": "Correct. ἴμεν is first-person plural of εἶμι."
+            },
+            {
+              "text": "ἐσμέν",
+              "correct": false,
+              "feedback": "“ἐσμέν” does not answer this question. ἴμεν is first-person plural of εἶμι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which is the infinitive meaning “to go”?",
+          "choices": [
+            {
+              "text": "εἶναι",
+              "correct": false,
+              "feedback": "“εἶναι” does not answer this question. The movement infinitive is ἰέναι."
+            },
+            {
+              "text": "εἶσι",
+              "correct": false,
+              "feedback": "“εἶσι” does not answer this question. The movement infinitive is ἰέναι."
+            },
+            {
+              "text": "εἰμί",
+              "correct": false,
+              "feedback": "“εἰμί” does not answer this question. The movement infinitive is ἰέναι."
+            },
+            {
+              "text": "ἰέναι",
+              "correct": true,
+              "feedback": "Correct. The movement infinitive is ἰέναι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “they will go”?",
+          "choices": [
+            {
+              "text": "ἴασι",
+              "correct": true,
+              "feedback": "Correct. ἴασι is the movement verb’s third-person plural."
+            },
+            {
+              "text": "εἰσί",
+              "correct": false,
+              "feedback": "“εἰσί” does not answer this question. ἴασι is the movement verb’s third-person plural."
+            },
+            {
+              "text": "ἐστέ",
+              "correct": false,
+              "feedback": "“ἐστέ” does not answer this question. ἴασι is the movement verb’s third-person plural."
+            },
+            {
+              "text": "ἴμεν",
+              "correct": false,
+              "feedback": "“ἴμεν” does not answer this question. ἴασι is the movement verb’s third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Why must context help with εἶ?",
+          "choices": [
+            {
+              "text": "it is only third-person plural",
+              "correct": false,
+              "feedback": "“it is only third-person plural” does not answer this question. The two paradigms share εἶ."
+            },
+            {
+              "text": "both going and being have this second-person form",
+              "correct": true,
+              "feedback": "Correct. The two paradigms share εἶ."
+            },
+            {
+              "text": "it is always an infinitive",
+              "correct": false,
+              "feedback": "“it is always an infinitive” does not answer this question. The two paradigms share εἶ."
+            },
+            {
+              "text": "it is always a command",
+              "correct": false,
+              "feedback": "“it is always a command” does not answer this question. The two paradigms share εἶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does ἔρχεται ἐρωτήσων express?",
+          "choices": [
+            {
+              "text": "he finished asking yesterday",
+              "correct": false,
+              "feedback": "“he finished asking yesterday” does not answer this question. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he commands others to ask",
+              "correct": false,
+              "feedback": "“he commands others to ask” does not answer this question. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he comes in order to ask",
+              "correct": true,
+              "feedback": "Correct. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he comes while already asking",
+              "correct": false,
+              "feedback": "“he comes while already asking” does not answer this question. The future participle supplies intended purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which is feminine future participle of λύω?",
+          "choices": [
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύσων",
+              "correct": false,
+              "feedback": "“λύσων” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λῦσον",
+              "correct": false,
+              "feedback": "“λῦσον” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύσουσα",
+              "correct": true,
+              "feedback": "Correct. σ plus -ουσα forms future feminine nominative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which agrees with feminine singular ἡ γυνή in a purpose statement?",
+          "choices": [
+            {
+              "text": "ἐρωτήσουσα",
+              "correct": true,
+              "feedback": "Correct. The future participle must agree in gender and number."
+            },
+            {
+              "text": "ἐρωτήσων",
+              "correct": false,
+              "feedback": "“ἐρωτήσων” does not answer this question. The future participle must agree in gender and number."
+            },
+            {
+              "text": "ἐρωτῆσον",
+              "correct": false,
+              "feedback": "“ἐρωτῆσον” does not answer this question. The future participle must agree in gender and number."
+            },
+            {
+              "text": "ἐρωτήσοντες",
+              "correct": false,
+              "feedback": "“ἐρωτήσοντες” does not answer this question. The future participle must agree in gender and number."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does present ἐρωτῶν ordinarily add?",
+          "choices": [
+            {
+              "text": "a finite second-person verb",
+              "correct": false,
+              "feedback": "“a finite second-person verb” does not answer this question. Present participles show ongoing action."
+            },
+            {
+              "text": "ongoing asking",
+              "correct": true,
+              "feedback": "Correct. Present participles show ongoing action."
+            },
+            {
+              "text": "purpose to ask later",
+              "correct": false,
+              "feedback": "“purpose to ask later” does not answer this question. Present participles show ongoing action."
+            },
+            {
+              "text": "a complete future guarantee",
+              "correct": false,
+              "feedback": "“a complete future guarantee” does not answer this question. Present participles show ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which is masculine genitive singular of λύσων?",
+          "choices": [
+            {
+              "text": "λύσουσα",
+              "correct": false,
+              "feedback": "“λύσουσα” does not answer this question. The -σοντ- stem takes genitive -ος."
+            },
+            {
+              "text": "λῦσον",
+              "correct": false,
+              "feedback": "“λῦσον” does not answer this question. The -σοντ- stem takes genitive -ος."
+            },
+            {
+              "text": "λύσοντος",
+              "correct": true,
+              "feedback": "Correct. The -σοντ- stem takes genitive -ος."
+            },
+            {
+              "text": "λύσων",
+              "correct": false,
+              "feedback": "“λύσων” does not answer this question. The -σοντ- stem takes genitive -ος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does ἀγγελῶν mean in the labeled approach clause?",
+          "choices": [
+            {
+              "text": "announcing as a present action",
+              "correct": false,
+              "feedback": "“announcing as a present action” does not answer this question. It is the contracted future participle in purpose context."
+            },
+            {
+              "text": "I will announce as a finite verb",
+              "correct": false,
+              "feedback": "“I will announce as a finite verb” does not answer this question. It is the contracted future participle in purpose context."
+            },
+            {
+              "text": "an announcement’s owner",
+              "correct": false,
+              "feedback": "“an announcement’s owner” does not answer this question. It is the contracted future participle in purpose context."
+            },
+            {
+              "text": "to announce, as the approach’s purpose",
+              "correct": true,
+              "feedback": "Correct. It is the contracted future participle in purpose context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What does δεῖ ἀκούειν mean?",
+          "choices": [
+            {
+              "text": "it is necessary to listen",
+              "correct": true,
+              "feedback": "Correct. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "I listen",
+              "correct": false,
+              "feedback": "“I listen” does not answer this question. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "they will listen",
+              "correct": false,
+              "feedback": "“they will listen” does not answer this question. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "listen, all of you",
+              "correct": false,
+              "feedback": "“listen, all of you” does not answer this question. An impersonal verb takes an infinitive action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What does χρή normally mean here?",
+          "choices": [
+            {
+              "text": "they remain",
+              "correct": false,
+              "feedback": "“they remain” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "one must, it is fitting",
+              "correct": true,
+              "feedback": "Correct. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "I shall go",
+              "correct": false,
+              "feedback": "“I shall go” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "a messenger",
+              "correct": false,
+              "feedback": "“a messenger” does not answer this question. χρή expresses impersonal obligation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "Who must listen in δεῖ τοὺς πολίτας ἀκούειν?",
+          "choices": [
+            {
+              "text": "the homeland",
+              "correct": false,
+              "feedback": "“the homeland” does not answer this question. The accusative identifies the infinitive’s actor."
+            },
+            {
+              "text": "no actor can be understood",
+              "correct": false,
+              "feedback": "“no actor can be understood” does not answer this question. The accusative identifies the infinitive’s actor."
+            },
+            {
+              "text": "the citizens",
+              "correct": true,
+              "feedback": "Correct. The accusative identifies the infinitive’s actor."
+            },
+            {
+              "text": "only the herald",
+              "correct": false,
+              "feedback": "“only the herald” does not answer this question. The accusative identifies the infinitive’s actor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "Which negative belongs with the infinitive here?",
+          "choices": [
+            {
+              "text": "οὐ as the taught infinitive rule",
+              "correct": false,
+              "feedback": "“οὐ as the taught infinitive rule” does not answer this question. μή is the ordinary infinitive negative."
+            },
+            {
+              "text": "ἆρα",
+              "correct": false,
+              "feedback": "“ἆρα” does not answer this question. μή is the ordinary infinitive negative."
+            },
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "“τίς” does not answer this question. μή is the ordinary infinitive negative."
+            },
+            {
+              "text": "μή",
+              "correct": true,
+              "feedback": "Correct. μή is the ordinary infinitive negative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What is τὴν πατρίδα in δεῖ τοὺς πολίτας τὴν πατρίδα σῴζειν?",
+          "choices": [
+            {
+              "text": "the object of saving",
+              "correct": true,
+              "feedback": "Correct. The citizens save the homeland."
+            },
+            {
+              "text": "the actor who must save",
+              "correct": false,
+              "feedback": "“the actor who must save” does not answer this question. The citizens save the homeland."
+            },
+            {
+              "text": "the subject of δεῖ in nominative",
+              "correct": false,
+              "feedback": "“the subject of δεῖ in nominative” does not answer this question. The citizens save the homeland."
+            },
+            {
+              "text": "the future purpose participle",
+              "correct": false,
+              "feedback": "“the future purpose participle” does not answer this question. The citizens save the homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "Which case follows πείθεσθαι for the person obeyed?",
+          "choices": [
+            {
+              "text": "vocative only",
+              "correct": false,
+              "feedback": "“vocative only” does not answer this question. The reading has τοῖς τριάκοντα."
+            },
+            {
+              "text": "dative",
+              "correct": true,
+              "feedback": "Correct. The reading has τοῖς τριάκοντα."
+            },
+            {
+              "text": "nominative only",
+              "correct": false,
+              "feedback": "“nominative only” does not answer this question. The reading has τοῖς τριάκοντα."
+            },
+            {
+              "text": "accusative only",
+              "correct": false,
+              "feedback": "“accusative only” does not answer this question. The reading has τοῖς τριάκοντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-031",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which asks “where”?",
+          "choices": [
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "“τίς” does not answer this question. ποῦ asks about place."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "“τίνα” does not answer this question. ποῦ asks about place."
+            },
+            {
+              "text": "ποῦ",
+              "correct": true,
+              "feedback": "Correct. ποῦ asks about place."
+            },
+            {
+              "text": "πότε",
+              "correct": false,
+              "feedback": "“πότε” does not answer this question. ποῦ asks about place."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-032",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which asks “when”?",
+          "choices": [
+            {
+              "text": "ποῦ",
+              "correct": false,
+              "feedback": "“ποῦ” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "“τίνος” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "τίνι",
+              "correct": false,
+              "feedback": "“τίνι” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "πότε",
+              "correct": true,
+              "feedback": "Correct. πότε asks about time."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-033",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "What does διὰ τί ask?",
+          "choices": [
+            {
+              "text": "why",
+              "correct": true,
+              "feedback": "Correct. διὰ τί asks for a reason."
+            },
+            {
+              "text": "who as subject",
+              "correct": false,
+              "feedback": "“who as subject” does not answer this question. διὰ τί asks for a reason."
+            },
+            {
+              "text": "where",
+              "correct": false,
+              "feedback": "“where” does not answer this question. διὰ τί asks for a reason."
+            },
+            {
+              "text": "to whom",
+              "correct": false,
+              "feedback": "“to whom” does not answer this question. διὰ τί asks for a reason."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-034",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which introduces a yes-or-no question?",
+          "choices": [
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "“τίνα” does not answer this question. ἆρα can mark a direct yes-or-no question."
+            },
+            {
+              "text": "ἆρα",
+              "correct": true,
+              "feedback": "Correct. ἆρα can mark a direct yes-or-no question."
+            },
+            {
+              "text": "ποῦ",
+              "correct": false,
+              "feedback": "“ποῦ” does not answer this question. ἆρα can mark a direct yes-or-no question."
+            },
+            {
+              "text": "πότε",
+              "correct": false,
+              "feedback": "“πότε” does not answer this question. ἆρα can mark a direct yes-or-no question."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-035",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "What does τίνος ἕνεκα ask?",
+          "choices": [
+            {
+              "text": "in which city",
+              "correct": false,
+              "feedback": "“in which city” does not answer this question. The genitive with ἕνεκα asks about purpose."
+            },
+            {
+              "text": "what time yesterday",
+              "correct": false,
+              "feedback": "“what time yesterday” does not answer this question. The genitive with ἕνεκα asks about purpose."
+            },
+            {
+              "text": "for what purpose",
+              "correct": true,
+              "feedback": "Correct. The genitive with ἕνεκα asks about purpose."
+            },
+            {
+              "text": "how many soldiers",
+              "correct": false,
+              "feedback": "“how many soldiers” does not answer this question. The genitive with ἕνεκα asks about purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-practice-036",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "How does interrogative τίς differ from indefinite τις?",
+          "choices": [
+            {
+              "text": "the interrogative is always plural",
+              "correct": false,
+              "feedback": "“the interrogative is always plural” does not answer this question. Accent distinguishes the interrogative from the enclitic indefinite."
+            },
+            {
+              "text": "the indefinite always means city",
+              "correct": false,
+              "feedback": "“the indefinite always means city” does not answer this question. Accent distinguishes the interrogative from the enclitic indefinite."
+            },
+            {
+              "text": "the forms have opposite genders",
+              "correct": false,
+              "feedback": "“the forms have opposite genders” does not answer this question. Accent distinguishes the interrogative from the enclitic indefinite."
+            },
+            {
+              "text": "the interrogative is accented and asks who",
+              "correct": true,
+              "feedback": "Correct. Accent distinguishes the interrogative from the enclitic indefinite."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 20 Required Grammar Check",
+      "description": "Lesson 20 Required Grammar Check",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-20-grammar-exercises-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-20-grammar-exercises-001",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which is future first-person singular of μένω?",
+          "choices": [
+            {
+              "text": "μενῶ",
+              "correct": true,
+              "feedback": "Correct. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "“μένει” does not answer this question. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένομεν",
+              "correct": false,
+              "feedback": "“μένομεν” does not answer this question. The contracted future has circumflex μενῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-002",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which means “they will announce”?",
+          "choices": [
+            {
+              "text": "ἀγγελῶ",
+              "correct": false,
+              "feedback": "“ἀγγελῶ” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελοῦσι",
+              "correct": true,
+              "feedback": "Correct. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγέλλουσι",
+              "correct": false,
+              "feedback": "“ἀγγέλλουσι” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελεῖτε",
+              "correct": false,
+              "feedback": "“ἀγγελεῖτε” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-003",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which means “we will judge”?",
+          "choices": [
+            {
+              "text": "κρινεῖτε",
+              "correct": false,
+              "feedback": "“κρινεῖτε” does not answer this question. -οῦμεν marks future first-person plural."
+            },
+            {
+              "text": "κρινῶ",
+              "correct": false,
+              "feedback": "“κρινῶ” does not answer this question. -οῦμεν marks future first-person plural."
+            },
+            {
+              "text": "κρινοῦμεν",
+              "correct": true,
+              "feedback": "Correct. -οῦμεν marks future first-person plural."
+            },
+            {
+              "text": "κρίνομεν",
+              "correct": false,
+              "feedback": "“κρίνομεν” does not answer this question. -οῦμεν marks future first-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-004",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which consonants define liquid/nasal stems here?",
+          "choices": [
+            {
+              "text": "κ, γ, χ only",
+              "correct": false,
+              "feedback": "“κ, γ, χ only” does not answer this question. Liquids λ/ρ and nasals μ/ν form this taught group."
+            },
+            {
+              "text": "π, β, φ only",
+              "correct": false,
+              "feedback": "“π, β, φ only” does not answer this question. Liquids λ/ρ and nasals μ/ν form this taught group."
+            },
+            {
+              "text": "τ, δ, θ only",
+              "correct": false,
+              "feedback": "“τ, δ, θ only” does not answer this question. Liquids λ/ρ and nasals μ/ν form this taught group."
+            },
+            {
+              "text": "λ, μ, ν, ρ",
+              "correct": true,
+              "feedback": "Correct. Liquids λ/ρ and nasals μ/ν form this taught group."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-005",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "How does ἀγγελῶ’s stem differ from ἀγγέλλω?",
+          "choices": [
+            {
+              "text": "the future has one λ",
+              "correct": true,
+              "feedback": "Correct. The future stem is ἀγγελ-."
+            },
+            {
+              "text": "the future adds ξ",
+              "correct": false,
+              "feedback": "“the future adds ξ” does not answer this question. The future stem is ἀγγελ-."
+            },
+            {
+              "text": "the future adds augment",
+              "correct": false,
+              "feedback": "“the future adds augment” does not answer this question. The future stem is ἀγγελ-."
+            },
+            {
+              "text": "the future keeps two λ and σ",
+              "correct": false,
+              "feedback": "“the future keeps two λ and σ” does not answer this question. The future stem is ἀγγελ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-006",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which is the future of νέμω?",
+          "choices": [
+            {
+              "text": "νέψω",
+              "correct": false,
+              "feedback": "“νέψω” does not answer this question. The nasal-stem future contracts to νεμῶ."
+            },
+            {
+              "text": "νεμῶ",
+              "correct": true,
+              "feedback": "Correct. The nasal-stem future contracts to νεμῶ."
+            },
+            {
+              "text": "νέμω",
+              "correct": false,
+              "feedback": "“νέμω” does not answer this question. The nasal-stem future contracts to νεμῶ."
+            },
+            {
+              "text": "νέμσω",
+              "correct": false,
+              "feedback": "“νέμσω” does not answer this question. The nasal-stem future contracts to νεμῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-007",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “I shall go” in the taught Attic usage?",
+          "choices": [
+            {
+              "text": "ἐσμέν",
+              "correct": false,
+              "feedback": "“ἐσμέν” does not answer this question. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἰσί",
+              "correct": false,
+              "feedback": "“εἰσί” does not answer this question. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἶμι",
+              "correct": true,
+              "feedback": "Correct. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἰμί",
+              "correct": false,
+              "feedback": "“εἰμί” does not answer this question. εἶμι is the movement verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-008",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “I am”?",
+          "choices": [
+            {
+              "text": "εἶμι",
+              "correct": false,
+              "feedback": "“εἶμι” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "ἴμεν",
+              "correct": false,
+              "feedback": "“ἴμεν” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "εἶσι",
+              "correct": false,
+              "feedback": "“εἶσι” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "εἰμί",
+              "correct": true,
+              "feedback": "Correct. εἰμί is the verb of being."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-009",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “we will go”?",
+          "choices": [
+            {
+              "text": "ἴμεν",
+              "correct": true,
+              "feedback": "Correct. ἴμεν is first-person plural of εἶμι."
+            },
+            {
+              "text": "ἐσμέν",
+              "correct": false,
+              "feedback": "“ἐσμέν” does not answer this question. ἴμεν is first-person plural of εἶμι."
+            },
+            {
+              "text": "ἴτε",
+              "correct": false,
+              "feedback": "“ἴτε” does not answer this question. ἴμεν is first-person plural of εἶμι."
+            },
+            {
+              "text": "ἴασι",
+              "correct": false,
+              "feedback": "“ἴασι” does not answer this question. ἴμεν is first-person plural of εἶμι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-010",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which is the infinitive meaning “to go”?",
+          "choices": [
+            {
+              "text": "εἰμί",
+              "correct": false,
+              "feedback": "“εἰμί” does not answer this question. The movement infinitive is ἰέναι."
+            },
+            {
+              "text": "ἰέναι",
+              "correct": true,
+              "feedback": "Correct. The movement infinitive is ἰέναι."
+            },
+            {
+              "text": "εἶναι",
+              "correct": false,
+              "feedback": "“εἶναι” does not answer this question. The movement infinitive is ἰέναι."
+            },
+            {
+              "text": "εἶσι",
+              "correct": false,
+              "feedback": "“εἶσι” does not answer this question. The movement infinitive is ἰέναι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-011",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “they will go”?",
+          "choices": [
+            {
+              "text": "ἐστέ",
+              "correct": false,
+              "feedback": "“ἐστέ” does not answer this question. ἴασι is the movement verb’s third-person plural."
+            },
+            {
+              "text": "ἴμεν",
+              "correct": false,
+              "feedback": "“ἴμεν” does not answer this question. ἴασι is the movement verb’s third-person plural."
+            },
+            {
+              "text": "ἴασι",
+              "correct": true,
+              "feedback": "Correct. ἴασι is the movement verb’s third-person plural."
+            },
+            {
+              "text": "εἰσί",
+              "correct": false,
+              "feedback": "“εἰσί” does not answer this question. ἴασι is the movement verb’s third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-012",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Why must context help with εἶ?",
+          "choices": [
+            {
+              "text": "it is always an infinitive",
+              "correct": false,
+              "feedback": "“it is always an infinitive” does not answer this question. The two paradigms share εἶ."
+            },
+            {
+              "text": "it is always a command",
+              "correct": false,
+              "feedback": "“it is always a command” does not answer this question. The two paradigms share εἶ."
+            },
+            {
+              "text": "it is only third-person plural",
+              "correct": false,
+              "feedback": "“it is only third-person plural” does not answer this question. The two paradigms share εἶ."
+            },
+            {
+              "text": "both going and being have this second-person form",
+              "correct": true,
+              "feedback": "Correct. The two paradigms share εἶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-013",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does ἔρχεται ἐρωτήσων express?",
+          "choices": [
+            {
+              "text": "he comes in order to ask",
+              "correct": true,
+              "feedback": "Correct. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he comes while already asking",
+              "correct": false,
+              "feedback": "“he comes while already asking” does not answer this question. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he finished asking yesterday",
+              "correct": false,
+              "feedback": "“he finished asking yesterday” does not answer this question. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he commands others to ask",
+              "correct": false,
+              "feedback": "“he commands others to ask” does not answer this question. The future participle supplies intended purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-014",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which is feminine future participle of λύω?",
+          "choices": [
+            {
+              "text": "λῦσον",
+              "correct": false,
+              "feedback": "“λῦσον” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύσουσα",
+              "correct": true,
+              "feedback": "Correct. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύσων",
+              "correct": false,
+              "feedback": "“λύσων” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which agrees with feminine singular ἡ γυνή in a purpose statement?",
+          "choices": [
+            {
+              "text": "ἐρωτῆσον",
+              "correct": false,
+              "feedback": "“ἐρωτῆσον” does not answer this question. The future participle must agree in gender and number."
+            },
+            {
+              "text": "ἐρωτήσοντες",
+              "correct": false,
+              "feedback": "“ἐρωτήσοντες” does not answer this question. The future participle must agree in gender and number."
+            },
+            {
+              "text": "ἐρωτήσουσα",
+              "correct": true,
+              "feedback": "Correct. The future participle must agree in gender and number."
+            },
+            {
+              "text": "ἐρωτήσων",
+              "correct": false,
+              "feedback": "“ἐρωτήσων” does not answer this question. The future participle must agree in gender and number."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does present ἐρωτῶν ordinarily add?",
+          "choices": [
+            {
+              "text": "purpose to ask later",
+              "correct": false,
+              "feedback": "“purpose to ask later” does not answer this question. Present participles show ongoing action."
+            },
+            {
+              "text": "a complete future guarantee",
+              "correct": false,
+              "feedback": "“a complete future guarantee” does not answer this question. Present participles show ongoing action."
+            },
+            {
+              "text": "a finite second-person verb",
+              "correct": false,
+              "feedback": "“a finite second-person verb” does not answer this question. Present participles show ongoing action."
+            },
+            {
+              "text": "ongoing asking",
+              "correct": true,
+              "feedback": "Correct. Present participles show ongoing action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which is masculine genitive singular of λύσων?",
+          "choices": [
+            {
+              "text": "λύσοντος",
+              "correct": true,
+              "feedback": "Correct. The -σοντ- stem takes genitive -ος."
+            },
+            {
+              "text": "λύσων",
+              "correct": false,
+              "feedback": "“λύσων” does not answer this question. The -σοντ- stem takes genitive -ος."
+            },
+            {
+              "text": "λύσουσα",
+              "correct": false,
+              "feedback": "“λύσουσα” does not answer this question. The -σοντ- stem takes genitive -ος."
+            },
+            {
+              "text": "λῦσον",
+              "correct": false,
+              "feedback": "“λῦσον” does not answer this question. The -σοντ- stem takes genitive -ος."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does ἀγγελῶν mean in the labeled approach clause?",
+          "choices": [
+            {
+              "text": "an announcement’s owner",
+              "correct": false,
+              "feedback": "“an announcement’s owner” does not answer this question. It is the contracted future participle in purpose context."
+            },
+            {
+              "text": "to announce, as the approach’s purpose",
+              "correct": true,
+              "feedback": "Correct. It is the contracted future participle in purpose context."
+            },
+            {
+              "text": "announcing as a present action",
+              "correct": false,
+              "feedback": "“announcing as a present action” does not answer this question. It is the contracted future participle in purpose context."
+            },
+            {
+              "text": "I will announce as a finite verb",
+              "correct": false,
+              "feedback": "“I will announce as a finite verb” does not answer this question. It is the contracted future participle in purpose context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What does δεῖ ἀκούειν mean?",
+          "choices": [
+            {
+              "text": "they will listen",
+              "correct": false,
+              "feedback": "“they will listen” does not answer this question. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "listen, all of you",
+              "correct": false,
+              "feedback": "“listen, all of you” does not answer this question. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "it is necessary to listen",
+              "correct": true,
+              "feedback": "Correct. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "I listen",
+              "correct": false,
+              "feedback": "“I listen” does not answer this question. An impersonal verb takes an infinitive action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What does χρή normally mean here?",
+          "choices": [
+            {
+              "text": "I shall go",
+              "correct": false,
+              "feedback": "“I shall go” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "a messenger",
+              "correct": false,
+              "feedback": "“a messenger” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "they remain",
+              "correct": false,
+              "feedback": "“they remain” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "one must, it is fitting",
+              "correct": true,
+              "feedback": "Correct. χρή expresses impersonal obligation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "Who must listen in δεῖ τοὺς πολίτας ἀκούειν?",
+          "choices": [
+            {
+              "text": "the citizens",
+              "correct": true,
+              "feedback": "Correct. The accusative identifies the infinitive’s actor."
+            },
+            {
+              "text": "only the herald",
+              "correct": false,
+              "feedback": "“only the herald” does not answer this question. The accusative identifies the infinitive’s actor."
+            },
+            {
+              "text": "the homeland",
+              "correct": false,
+              "feedback": "“the homeland” does not answer this question. The accusative identifies the infinitive’s actor."
+            },
+            {
+              "text": "no actor can be understood",
+              "correct": false,
+              "feedback": "“no actor can be understood” does not answer this question. The accusative identifies the infinitive’s actor."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "Which negative belongs with the infinitive here?",
+          "choices": [
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "“τίς” does not answer this question. μή is the ordinary infinitive negative."
+            },
+            {
+              "text": "μή",
+              "correct": true,
+              "feedback": "Correct. μή is the ordinary infinitive negative."
+            },
+            {
+              "text": "οὐ as the taught infinitive rule",
+              "correct": false,
+              "feedback": "“οὐ as the taught infinitive rule” does not answer this question. μή is the ordinary infinitive negative."
+            },
+            {
+              "text": "ἆρα",
+              "correct": false,
+              "feedback": "“ἆρα” does not answer this question. μή is the ordinary infinitive negative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What is τὴν πατρίδα in δεῖ τοὺς πολίτας τὴν πατρίδα σῴζειν?",
+          "choices": [
+            {
+              "text": "the subject of δεῖ in nominative",
+              "correct": false,
+              "feedback": "“the subject of δεῖ in nominative” does not answer this question. The citizens save the homeland."
+            },
+            {
+              "text": "the future purpose participle",
+              "correct": false,
+              "feedback": "“the future purpose participle” does not answer this question. The citizens save the homeland."
+            },
+            {
+              "text": "the object of saving",
+              "correct": true,
+              "feedback": "Correct. The citizens save the homeland."
+            },
+            {
+              "text": "the actor who must save",
+              "correct": false,
+              "feedback": "“the actor who must save” does not answer this question. The citizens save the homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "Which case follows πείθεσθαι for the person obeyed?",
+          "choices": [
+            {
+              "text": "nominative only",
+              "correct": false,
+              "feedback": "“nominative only” does not answer this question. The reading has τοῖς τριάκοντα."
+            },
+            {
+              "text": "accusative only",
+              "correct": false,
+              "feedback": "“accusative only” does not answer this question. The reading has τοῖς τριάκοντα."
+            },
+            {
+              "text": "vocative only",
+              "correct": false,
+              "feedback": "“vocative only” does not answer this question. The reading has τοῖς τριάκοντα."
+            },
+            {
+              "text": "dative",
+              "correct": true,
+              "feedback": "Correct. The reading has τοῖς τριάκοντα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-025",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which asks “where”?",
+          "choices": [
+            {
+              "text": "ποῦ",
+              "correct": true,
+              "feedback": "Correct. ποῦ asks about place."
+            },
+            {
+              "text": "πότε",
+              "correct": false,
+              "feedback": "“πότε” does not answer this question. ποῦ asks about place."
+            },
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "“τίς” does not answer this question. ποῦ asks about place."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "“τίνα” does not answer this question. ποῦ asks about place."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-026",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which asks “when”?",
+          "choices": [
+            {
+              "text": "τίνι",
+              "correct": false,
+              "feedback": "“τίνι” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "πότε",
+              "correct": true,
+              "feedback": "Correct. πότε asks about time."
+            },
+            {
+              "text": "ποῦ",
+              "correct": false,
+              "feedback": "“ποῦ” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "“τίνος” does not answer this question. πότε asks about time."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-027",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "What does διὰ τί ask?",
+          "choices": [
+            {
+              "text": "where",
+              "correct": false,
+              "feedback": "“where” does not answer this question. διὰ τί asks for a reason."
+            },
+            {
+              "text": "to whom",
+              "correct": false,
+              "feedback": "“to whom” does not answer this question. διὰ τί asks for a reason."
+            },
+            {
+              "text": "why",
+              "correct": true,
+              "feedback": "Correct. διὰ τί asks for a reason."
+            },
+            {
+              "text": "who as subject",
+              "correct": false,
+              "feedback": "“who as subject” does not answer this question. διὰ τί asks for a reason."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-028",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which introduces a yes-or-no question?",
+          "choices": [
+            {
+              "text": "ποῦ",
+              "correct": false,
+              "feedback": "“ποῦ” does not answer this question. ἆρα can mark a direct yes-or-no question."
+            },
+            {
+              "text": "πότε",
+              "correct": false,
+              "feedback": "“πότε” does not answer this question. ἆρα can mark a direct yes-or-no question."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "“τίνα” does not answer this question. ἆρα can mark a direct yes-or-no question."
+            },
+            {
+              "text": "ἆρα",
+              "correct": true,
+              "feedback": "Correct. ἆρα can mark a direct yes-or-no question."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-029",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "What does τίνος ἕνεκα ask?",
+          "choices": [
+            {
+              "text": "for what purpose",
+              "correct": true,
+              "feedback": "Correct. The genitive with ἕνεκα asks about purpose."
+            },
+            {
+              "text": "how many soldiers",
+              "correct": false,
+              "feedback": "“how many soldiers” does not answer this question. The genitive with ἕνεκα asks about purpose."
+            },
+            {
+              "text": "in which city",
+              "correct": false,
+              "feedback": "“in which city” does not answer this question. The genitive with ἕνεκα asks about purpose."
+            },
+            {
+              "text": "what time yesterday",
+              "correct": false,
+              "feedback": "“what time yesterday” does not answer this question. The genitive with ἕνεκα asks about purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-grammar-exercises-030",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "How does interrogative τίς differ from indefinite τις?",
+          "choices": [
+            {
+              "text": "the forms have opposite genders",
+              "correct": false,
+              "feedback": "“the forms have opposite genders” does not answer this question. Accent distinguishes the interrogative from the enclitic indefinite."
+            },
+            {
+              "text": "the interrogative is accented and asks who",
+              "correct": true,
+              "feedback": "Correct. Accent distinguishes the interrogative from the enclitic indefinite."
+            },
+            {
+              "text": "the interrogative is always plural",
+              "correct": false,
+              "feedback": "“the interrogative is always plural” does not answer this question. Accent distinguishes the interrogative from the enclitic indefinite."
+            },
+            {
+              "text": "the indefinite always means city",
+              "correct": false,
+              "feedback": "“the indefinite always means city” does not answer this question. Accent distinguishes the interrogative from the enclitic indefinite."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 20 Final Quiz — Courage to Address Fellow Citizens",
+      "description": "Lesson 20 Final Quiz — Courage to Address Fellow Citizens",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-20-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80%. Review the feedback and revise your answers before trying again.",
+      "questions": [
+        {
+          "id": "lesson-20-final-quiz-001",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where and when is this comparison set?",
+          "choices": [
+            {
+              "text": "Athens in 403 BCE",
+              "correct": true,
+              "feedback": "Correct. It is a separately dated Athenian scene."
+            },
+            {
+              "text": "Tarsus in 401 BCE",
+              "correct": false,
+              "feedback": "“Tarsus in 401 BCE” does not answer this question. It is a separately dated Athenian scene."
+            },
+            {
+              "text": "Delphi in 399 BCE",
+              "correct": false,
+              "feedback": "“Delphi in 399 BCE” does not answer this question. It is a separately dated Athenian scene."
+            },
+            {
+              "text": "Thapsacus after the battle",
+              "correct": false,
+              "feedback": "“Thapsacus after the battle” does not answer this question. It is a separately dated Athenian scene."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-002",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What event precedes Cleocritus’s appeal?",
+          "choices": [
+            {
+              "text": "Laches’s final definition",
+              "correct": false,
+              "feedback": "“Laches’s final definition” does not answer this question. Hellenica places the speech after that fighting."
+            },
+            {
+              "text": "fighting at Munychia",
+              "correct": true,
+              "feedback": "Correct. Hellenica places the speech after that fighting."
+            },
+            {
+              "text": "the crossing of the Euphrates",
+              "correct": false,
+              "feedback": "“the crossing of the Euphrates” does not answer this question. Hellenica places the speech after that fighting."
+            },
+            {
+              "text": "Cyrus’s coronation",
+              "correct": false,
+              "feedback": "“Cyrus’s coronation” does not answer this question. Hellenica places the speech after that fighting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-003",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What office does Cleocritus hold?",
+          "choices": [
+            {
+              "text": "captain in Cyrus’s camp",
+              "correct": false,
+              "feedback": "“captain in Cyrus’s camp” does not answer this question. The source identifies his religious herald’s role."
+            },
+            {
+              "text": "Delphic priestess",
+              "correct": false,
+              "feedback": "“Delphic priestess” does not answer this question. The source identifies his religious herald’s role."
+            },
+            {
+              "text": "herald of the initiates",
+              "correct": true,
+              "feedback": "Correct. The source identifies his religious herald’s role."
+            },
+            {
+              "text": "Great King",
+              "correct": false,
+              "feedback": "“Great King” does not answer this question. The source identifies his religious herald’s role."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-004",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How does he address his opponents?",
+          "choices": [
+            {
+              "text": "as animals",
+              "correct": false,
+              "feedback": "“as animals” does not answer this question. Civic identity is central to his appeal."
+            },
+            {
+              "text": "as strangers from Persia",
+              "correct": false,
+              "feedback": "“as strangers from Persia” does not answer this question. Civic identity is central to his appeal."
+            },
+            {
+              "text": "as Spartan kings",
+              "correct": false,
+              "feedback": "“as Spartan kings” does not answer this question. Civic identity is central to his appeal."
+            },
+            {
+              "text": "as fellow citizens",
+              "correct": true,
+              "feedback": "Correct. Civic identity is central to his appeal."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-005",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which shared experience does he mention?",
+          "choices": [
+            {
+              "text": "education and religious festivals",
+              "correct": true,
+              "feedback": "Correct. The source’s shared ties include education and festivals."
+            },
+            {
+              "text": "a journey to Babylon together",
+              "correct": false,
+              "feedback": "“a journey to Babylon together” does not answer this question. The source’s shared ties include education and festivals."
+            },
+            {
+              "text": "the same promise of five minas",
+              "correct": false,
+              "feedback": "“the same promise of five minas” does not answer this question. The source’s shared ties include education and festivals."
+            },
+            {
+              "text": "a consultation with Apollo for Cyrus",
+              "correct": false,
+              "feedback": "“a consultation with Apollo for Cyrus” does not answer this question. The source’s shared ties include education and festivals."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-006",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whose dead does the adapted speaker say his group mourns?",
+          "choices": [
+            {
+              "text": "no one’s dead",
+              "correct": false,
+              "feedback": "“no one’s dead” does not answer this question. Shared grief extends across the division."
+            },
+            {
+              "text": "also the other side’s dead",
+              "correct": true,
+              "feedback": "Correct. Shared grief extends across the division."
+            },
+            {
+              "text": "only Cyrus’s bodyguard",
+              "correct": false,
+              "feedback": "“only Cyrus’s bodyguard” does not answer this question. Shared grief extends across the division."
+            },
+            {
+              "text": "only the Scythians",
+              "correct": false,
+              "feedback": "“only the Scythians” does not answer this question. Shared grief extends across the division."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-007",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What do the opposing officials do?",
+          "choices": [
+            {
+              "text": "join Cyrus’s army",
+              "correct": false,
+              "feedback": "“join Cyrus’s army” does not answer this question. The response is withdrawal from the speech."
+            },
+            {
+              "text": "elect Cleocritus king",
+              "correct": false,
+              "feedback": "“elect Cleocritus king” does not answer this question. The response is withdrawal from the speech."
+            },
+            {
+              "text": "lead their own men away",
+              "correct": true,
+              "feedback": "Correct. The response is withdrawal from the speech."
+            },
+            {
+              "text": "immediately sign a peace treaty",
+              "correct": false,
+              "feedback": "“immediately sign a peace treaty” does not answer this question. The response is withdrawal from the speech."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-008",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whose words are “I shall go to ask about safety” in the final paragraph?",
+          "choices": [
+            {
+              "text": "a preserved quotation of Cleocritus",
+              "correct": false,
+              "feedback": "“a preserved quotation of Cleocritus” does not answer this question. The reading explicitly separates this teaching statement from Cleocritus’s words."
+            },
+            {
+              "text": "Xenophon’s eyewitness oath",
+              "correct": false,
+              "feedback": "“Xenophon’s eyewitness oath” does not answer this question. The reading explicitly separates this teaching statement from Cleocritus’s words."
+            },
+            {
+              "text": "Cyrus’s royal proclamation",
+              "correct": false,
+              "feedback": "“Cyrus’s royal proclamation” does not answer this question. The reading explicitly separates this teaching statement from Cleocritus’s words."
+            },
+            {
+              "text": "a labeled learner’s adapted statement",
+              "correct": true,
+              "feedback": "Correct. The reading explicitly separates this teaching statement from Cleocritus’s words."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-009",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ πολίτης mean?",
+          "choices": [
+            {
+              "text": "citizen",
+              "correct": true,
+              "feedback": "Correct. πολίτης, πολίτου, ὁ means citizen."
+            },
+            {
+              "text": "herald",
+              "correct": false,
+              "feedback": "“herald” does not answer this question. πολίτης, πολίτου, ὁ means citizen."
+            },
+            {
+              "text": "festival",
+              "correct": false,
+              "feedback": "“festival” does not answer this question. πολίτης, πολίτου, ὁ means citizen."
+            },
+            {
+              "text": "announce, report",
+              "correct": false,
+              "feedback": "“announce, report” does not answer this question. πολίτης, πολίτου, ὁ means citizen."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-010",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ὁ κῆρυξ mean?",
+          "choices": [
+            {
+              "text": "judge, decide",
+              "correct": false,
+              "feedback": "“judge, decide” does not answer this question. κῆρυξ, κήρυκος, ὁ means herald."
+            },
+            {
+              "text": "herald",
+              "correct": true,
+              "feedback": "Correct. κῆρυξ, κήρυκος, ὁ means herald."
+            },
+            {
+              "text": "kinship",
+              "correct": false,
+              "feedback": "“kinship” does not answer this question. κῆρυξ, κήρυκος, ὁ means herald."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "“homeland” does not answer this question. κῆρυξ, κήρυκος, ὁ means herald."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-011",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ συγγένεια mean?",
+          "choices": [
+            {
+              "text": "safety, preservation",
+              "correct": false,
+              "feedback": "“safety, preservation” does not answer this question. συγγένεια, συγγενείας, ἡ means kinship."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. συγγένεια, συγγενείας, ἡ means kinship."
+            },
+            {
+              "text": "kinship",
+              "correct": true,
+              "feedback": "Correct. συγγένεια, συγγενείας, ἡ means kinship."
+            },
+            {
+              "text": "education",
+              "correct": false,
+              "feedback": "“education” does not answer this question. συγγένεια, συγγενείας, ἡ means kinship."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-012",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ παιδεία mean?",
+          "choices": [
+            {
+              "text": "festival",
+              "correct": false,
+              "feedback": "“festival” does not answer this question. παιδεία, παιδείας, ἡ means education."
+            },
+            {
+              "text": "announce, report",
+              "correct": false,
+              "feedback": "“announce, report” does not answer this question. παιδεία, παιδείας, ἡ means education."
+            },
+            {
+              "text": "defend, ward off",
+              "correct": false,
+              "feedback": "“defend, ward off” does not answer this question. παιδεία, παιδείας, ἡ means education."
+            },
+            {
+              "text": "education",
+              "correct": true,
+              "feedback": "Correct. παιδεία, παιδείας, ἡ means education."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-013",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ ἑορτή mean?",
+          "choices": [
+            {
+              "text": "festival",
+              "correct": true,
+              "feedback": "Correct. ἑορτή, ἑορτῆς, ἡ means festival."
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "“homeland” does not answer this question. ἑορτή, ἑορτῆς, ἡ means festival."
+            },
+            {
+              "text": "judge, decide",
+              "correct": false,
+              "feedback": "“judge, decide” does not answer this question. ἑορτή, ἑορτῆς, ἡ means festival."
+            },
+            {
+              "text": "go (usually future sense)",
+              "correct": false,
+              "feedback": "“go (usually future sense)” does not answer this question. ἑορτή, ἑορτῆς, ἡ means festival."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-014",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does the dictionary entry ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "it is necessary",
+              "correct": false,
+              "feedback": "“it is necessary” does not answer this question. πατρίς, πατρίδος, ἡ means homeland."
+            },
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct. πατρίς, πατρίδος, ἡ means homeland."
+            },
+            {
+              "text": "safety, preservation",
+              "correct": false,
+              "feedback": "“safety, preservation” does not answer this question. πατρίς, πατρίδος, ἡ means homeland."
+            },
+            {
+              "text": "remain",
+              "correct": false,
+              "feedback": "“remain” does not answer this question. πατρίς, πατρίδος, ἡ means homeland."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-015",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which is future first-person singular of μένω?",
+          "choices": [
+            {
+              "text": "μένει",
+              "correct": false,
+              "feedback": "“μένει” does not answer this question. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένομεν",
+              "correct": false,
+              "feedback": "“μένομεν” does not answer this question. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μενῶ",
+              "correct": true,
+              "feedback": "Correct. The contracted future has circumflex μενῶ."
+            },
+            {
+              "text": "μένω",
+              "correct": false,
+              "feedback": "“μένω” does not answer this question. The contracted future has circumflex μενῶ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-016",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "liquid-nasal-future",
+          "prompt": "Which means “they will announce”?",
+          "choices": [
+            {
+              "text": "ἀγγέλλουσι",
+              "correct": false,
+              "feedback": "“ἀγγέλλουσι” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελεῖτε",
+              "correct": false,
+              "feedback": "“ἀγγελεῖτε” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελῶ",
+              "correct": false,
+              "feedback": "“ἀγγελῶ” does not answer this question. ἀγγελοῦσι is contracted future third-person plural."
+            },
+            {
+              "text": "ἀγγελοῦσι",
+              "correct": true,
+              "feedback": "Correct. ἀγγελοῦσι is contracted future third-person plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-017",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “I shall go” in the taught Attic usage?",
+          "choices": [
+            {
+              "text": "εἶμι",
+              "correct": true,
+              "feedback": "Correct. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἰμί",
+              "correct": false,
+              "feedback": "“εἰμί” does not answer this question. εἶμι is the movement verb."
+            },
+            {
+              "text": "ἐσμέν",
+              "correct": false,
+              "feedback": "“ἐσμέν” does not answer this question. εἶμι is the movement verb."
+            },
+            {
+              "text": "εἰσί",
+              "correct": false,
+              "feedback": "“εἰσί” does not answer this question. εἶμι is the movement verb."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-018",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "eimi-going",
+          "prompt": "Which means “I am”?",
+          "choices": [
+            {
+              "text": "εἶσι",
+              "correct": false,
+              "feedback": "“εἶσι” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "εἰμί",
+              "correct": true,
+              "feedback": "Correct. εἰμί is the verb of being."
+            },
+            {
+              "text": "εἶμι",
+              "correct": false,
+              "feedback": "“εἶμι” does not answer this question. εἰμί is the verb of being."
+            },
+            {
+              "text": "ἴμεν",
+              "correct": false,
+              "feedback": "“ἴμεν” does not answer this question. εἰμί is the verb of being."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-019",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "What does ἔρχεται ἐρωτήσων express?",
+          "choices": [
+            {
+              "text": "he finished asking yesterday",
+              "correct": false,
+              "feedback": "“he finished asking yesterday” does not answer this question. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he commands others to ask",
+              "correct": false,
+              "feedback": "“he commands others to ask” does not answer this question. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he comes in order to ask",
+              "correct": true,
+              "feedback": "Correct. The future participle supplies intended purpose."
+            },
+            {
+              "text": "he comes while already asking",
+              "correct": false,
+              "feedback": "“he comes while already asking” does not answer this question. The future participle supplies intended purpose."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-020",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "future-purpose",
+          "prompt": "Which is feminine future participle of λύω?",
+          "choices": [
+            {
+              "text": "λύουσα",
+              "correct": false,
+              "feedback": "“λύουσα” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύσων",
+              "correct": false,
+              "feedback": "“λύσων” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λῦσον",
+              "correct": false,
+              "feedback": "“λῦσον” does not answer this question. σ plus -ουσα forms future feminine nominative."
+            },
+            {
+              "text": "λύσουσα",
+              "correct": true,
+              "feedback": "Correct. σ plus -ουσα forms future feminine nominative."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-021",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What does δεῖ ἀκούειν mean?",
+          "choices": [
+            {
+              "text": "it is necessary to listen",
+              "correct": true,
+              "feedback": "Correct. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "I listen",
+              "correct": false,
+              "feedback": "“I listen” does not answer this question. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "they will listen",
+              "correct": false,
+              "feedback": "“they will listen” does not answer this question. An impersonal verb takes an infinitive action."
+            },
+            {
+              "text": "listen, all of you",
+              "correct": false,
+              "feedback": "“listen, all of you” does not answer this question. An impersonal verb takes an infinitive action."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-022",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "impersonal-infinitives",
+          "prompt": "What does χρή normally mean here?",
+          "choices": [
+            {
+              "text": "they remain",
+              "correct": false,
+              "feedback": "“they remain” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "one must, it is fitting",
+              "correct": true,
+              "feedback": "Correct. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "I shall go",
+              "correct": false,
+              "feedback": "“I shall go” does not answer this question. χρή expresses impersonal obligation."
+            },
+            {
+              "text": "a messenger",
+              "correct": false,
+              "feedback": "“a messenger” does not answer this question. χρή expresses impersonal obligation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-023",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which asks “where”?",
+          "choices": [
+            {
+              "text": "τίς",
+              "correct": false,
+              "feedback": "“τίς” does not answer this question. ποῦ asks about place."
+            },
+            {
+              "text": "τίνα",
+              "correct": false,
+              "feedback": "“τίνα” does not answer this question. ποῦ asks about place."
+            },
+            {
+              "text": "ποῦ",
+              "correct": true,
+              "feedback": "Correct. ποῦ asks about place."
+            },
+            {
+              "text": "πότε",
+              "correct": false,
+              "feedback": "“πότε” does not answer this question. ποῦ asks about place."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-024",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "direct-questions",
+          "prompt": "Which asks “when”?",
+          "choices": [
+            {
+              "text": "ποῦ",
+              "correct": false,
+              "feedback": "“ποῦ” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "τίνος",
+              "correct": false,
+              "feedback": "“τίνος” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "τίνι",
+              "correct": false,
+              "feedback": "“τίνι” does not answer this question. πότε asks about time."
+            },
+            {
+              "text": "πότε",
+              "correct": true,
+              "feedback": "Correct. πότε asks about time."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-025",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How does 403 BCE relate to the 401 expedition?",
+          "choices": [
+            {
+              "text": "it comes two years earlier",
+              "correct": true,
+              "feedback": "Correct. BCE chronology places 403 before 401."
+            },
+            {
+              "text": "it is the year after the expedition",
+              "correct": false,
+              "feedback": "“it is the year after the expedition” does not answer this question. BCE chronology places 403 before 401."
+            },
+            {
+              "text": "it is the same year",
+              "correct": false,
+              "feedback": "“it is the same year” does not answer this question. BCE chronology places 403 before 401."
+            },
+            {
+              "text": "the lesson supplies no dates",
+              "correct": false,
+              "feedback": "“the lesson supplies no dates” does not answer this question. BCE chronology places 403 before 401."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-026",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why invoke common rites and education?",
+          "choices": [
+            {
+              "text": "to replace the citizens with mercenaries",
+              "correct": false,
+              "feedback": "“to replace the citizens with mercenaries” does not answer this question. The shared past supplies reasons to reconsider hostility."
+            },
+            {
+              "text": "to recall bonds across the political division",
+              "correct": true,
+              "feedback": "Correct. The shared past supplies reasons to reconsider hostility."
+            },
+            {
+              "text": "to prove everyone agrees already",
+              "correct": false,
+              "feedback": "“to prove everyone agrees already” does not answer this question. The shared past supplies reasons to reconsider hostility."
+            },
+            {
+              "text": "to make Cyrus king",
+              "correct": false,
+              "feedback": "“to make Cyrus king” does not answer this question. The shared past supplies reasons to reconsider hostility."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-027",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should be distinguished from immediate reconciliation?",
+          "choices": [
+            {
+              "text": "a herald from a city",
+              "correct": false,
+              "feedback": "“a herald from a city” does not answer this question. The source reports the appeal and response without immediate unity."
+            },
+            {
+              "text": "a festival from a sacrifice",
+              "correct": false,
+              "feedback": "“a festival from a sacrifice” does not answer this question. The source reports the appeal and response without immediate unity."
+            },
+            {
+              "text": "an appeal followed by officials’ withdrawal",
+              "correct": true,
+              "feedback": "Correct. The source reports the appeal and response without immediate unity."
+            },
+            {
+              "text": "a future verb from an infinitive",
+              "correct": false,
+              "feedback": "“a future verb from an infinitive” does not answer this question. The source reports the appeal and response without immediate unity."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-028",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the Greek’s future-purpose wording represent?",
+          "choices": [
+            {
+              "text": "the verbatim full speech",
+              "correct": false,
+              "feedback": "“the verbatim full speech” does not answer this question. The source note identifies the additions."
+            },
+            {
+              "text": "a later treaty",
+              "correct": false,
+              "feedback": "“a later treaty” does not answer this question. The source note identifies the additions."
+            },
+            {
+              "text": "an ancient inscription discovered at Munychia",
+              "correct": false,
+              "feedback": "“an ancient inscription discovered at Munychia” does not answer this question. The source note identifies the additions."
+            },
+            {
+              "text": "a labeled teaching adaptation",
+              "correct": true,
+              "feedback": "Correct. The source note identifies the additions."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-029",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What opposition structures the appeal?",
+          "choices": [
+            {
+              "text": "common safety versus private advantage",
+              "correct": true,
+              "feedback": "Correct. The speech challenges the Thirty’s alleged private gain."
+            },
+            {
+              "text": "ships versus cattle",
+              "correct": false,
+              "feedback": "“ships versus cattle” does not answer this question. The speech challenges the Thirty’s alleged private gain."
+            },
+            {
+              "text": "present tense versus all knowledge",
+              "correct": false,
+              "feedback": "“present tense versus all knowledge” does not answer this question. The speech challenges the Thirty’s alleged private gain."
+            },
+            {
+              "text": "Tarsus versus Thapsacus",
+              "correct": false,
+              "feedback": "“Tarsus versus Thapsacus” does not answer this question. The speech challenges the Thirty’s alleged private gain."
+            }
+          ]
+        },
+        {
+          "id": "lesson-20-final-quiz-030",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the comparison’s ethical question?",
+          "choices": [
+            {
+              "text": "whether promises prove victory",
+              "correct": false,
+              "feedback": "“whether promises prove victory” does not answer this question. The lesson compares purposes without assuming a single movement or order is virtuous."
+            },
+            {
+              "text": "which purposes and obligations leadership serves",
+              "correct": true,
+              "feedback": "Correct. The lesson compares purposes without assuming a single movement or order is virtuous."
+            },
+            {
+              "text": "whether every command is courageous by definition",
+              "correct": false,
+              "feedback": "“whether every command is courageous by definition” does not answer this question. The lesson compares purposes without assuming a single movement or order is virtuous."
+            },
+            {
+              "text": "whether all citizens lack shared ties",
+              "correct": false,
+              "feedback": "“whether all citizens lack shared ties” does not answer this question. The lesson compares purposes without assuming a single movement or order is virtuous."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-19",
+    "title": "The King's War and Cyrus's Promises",
+    "fallbackUrl": "lesson.html?lesson=19&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-21",
+    "title": "Victory on the Field, Disaster for the Army",
+    "fallbackUrl": "lesson.html?lesson=21&page=1"
+  },
+  "contentRevision": "lesson-20-module-2-v1"
+}

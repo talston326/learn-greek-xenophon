@@ -1,0 +1,4726 @@
+{
+  "id": "lesson-23",
+  "number": 23,
+  "title": "Xenophon Gets Up",
+  "greekTitle": "Ὁ Ξενοφῶν τοὺς ἡγεμόνας καλεῖ",
+  "scope": "Sigmatic first aorist: active and middle; Consonant changes and vowel lengthening; Active and middle first-aorist participles; First and second aorists share aorist aspect",
+  "theme": "In a night of distress Xenophon interprets a dream with both hope and fear, then takes practical action. He summons officers, speaks, and participates in rebuilding the command. The final paragraph is a separate comparison from Memorabilia, not a conversation in the marching army.",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-23-banner.png",
+    "alt": "Educational reconstruction of Xenophon consulting captains in the army’s night camp",
+    "caption": "Educational reconstruction of the reading’s setting; this modern illustration is not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-23-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-23-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-23-page-3",
+      "title": "Culture and History",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "Initiative and deliberation",
+      "items": [
+        {
+          "greek": "καλέω",
+          "english": "summon",
+          "dictionaryForm": "καλέω, καλῶ, ἐκάλεσα",
+          "status": "required vocabulary",
+          "lemma": "καλέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σκέπτομαι",
+          "english": "consider",
+          "dictionaryForm": "σκέπτομαι, σκέψομαι, ἐσκεψάμην",
+          "status": "required vocabulary",
+          "lemma": "σκέπτομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λογίζομαι",
+          "english": "reason",
+          "dictionaryForm": "λογίζομαι, λογιοῦμαι, ἐλογισάμην",
+          "status": "required vocabulary",
+          "lemma": "λογίζομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δέχομαι",
+          "english": "accept",
+          "dictionaryForm": "δέχομαι, δέξομαι, ἐδεξάμην",
+          "status": "required vocabulary",
+          "lemma": "δέχομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βουλεύομαι",
+          "english": "deliberate",
+          "dictionaryForm": "βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην",
+          "status": "required vocabulary",
+          "lemma": "βουλεύομαι",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φροντίζω",
+          "english": "take thought",
+          "dictionaryForm": "φροντίζω, φροντιῶ, ἐφρόντισα",
+          "status": "required vocabulary",
+          "lemma": "φροντίζω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πράττω",
+          "english": "act",
+          "dictionaryForm": "πράττω, πράξω, ἔπραξα",
+          "status": "required vocabulary",
+          "lemma": "πράττω",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Night and interpretation",
+      "items": [
+        {
+          "greek": "τὸ πῦρ",
+          "english": "fire",
+          "dictionaryForm": "πῦρ, πυρός, τό",
+          "status": "required vocabulary",
+          "lemma": "πῦρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "Τὸ μὲν φῶς",
+          "english": "light",
+          "dictionaryForm": "φῶς, φωτός, τό",
+          "status": "required vocabulary",
+          "lemma": "Τὸ μὲν φῶς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἐλπίς",
+          "english": "hope",
+          "dictionaryForm": "ἐλπίς, ἐλπίδος, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἐλπίς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ φόβος",
+          "english": "fear",
+          "dictionaryForm": "φόβος, φόβου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "φόβος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ οἰκία",
+          "english": "house",
+          "dictionaryForm": "οἰκία, οἰκίας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "οἰκία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ λόγος",
+          "english": "speech",
+          "dictionaryForm": "λόγος, λόγου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "λόγος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀρχή",
+          "english": "command",
+          "dictionaryForm": "ἀρχή, ἀρχῆς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἀρχή",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Shared judgment",
+      "items": [
+        {
+          "greek": "κοινός",
+          "english": "shared",
+          "dictionaryForm": "κοινός, κοινή, κοινόν",
+          "status": "required vocabulary",
+          "lemma": "κοινός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μόνος",
+          "english": "alone",
+          "dictionaryForm": "μόνος, μόνη, μόνον",
+          "status": "required vocabulary",
+          "lemma": "μόνος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀγνοέω",
+          "english": "be ignorant",
+          "dictionaryForm": "ἀγνοέω",
+          "status": "required vocabulary",
+          "lemma": "ἀγνοέω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "γιγνώσκω",
+          "english": "understand",
+          "dictionaryForm": "γιγνώσκω",
+          "status": "required vocabulary",
+          "lemma": "γιγνώσκω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀνδρεία",
+          "english": "courage",
+          "dictionaryForm": "ἀνδρεία, ἀνδρείας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἀνδρεία",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ ὄναρ",
+          "english": "dream",
+          "dictionaryForm": "ὄναρ, ὀνείρατος, τό",
+          "status": "reading vocabulary",
+          "lemma": "ὄναρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Εὐθύδημος",
+          "english": "Euthydemus",
+          "dictionaryForm": "Εὐθύδημος, Εὐθυδήμου, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Εὐθύδημος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βέβαιος",
+          "english": "certain",
+          "dictionaryForm": "βέβαιος, βεβαία, βέβαιον",
+          "status": "reading vocabulary",
+          "lemma": "βέβαιος",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ Ξενοφῶν τοὺς ἡγεμόνας καλεῖ",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "In a night of distress Xenophon interprets a dream with both hope and fear, then takes practical action. He summons officers, speaks, and participates in rebuilding the command. The final paragraph is a separate comparison from Memorabilia, not a conversation in the marching army.",
+      "Source: Xenophon, Anabasis 3.1.11–25, 32–47; separate companion, Memorabilia 4.6.10–11. This is a controlled Attic Greek course adaptation, not a verbatim ancient extract. Sequence, persons, and historical outcomes follow the sources; sentence wording, compact transitions, and quoted speech are course compositions. Historical speakers are not being quoted verbatim.",
+      "Aorist narrative is now a target. Blue glosses identify lexical irregularities and forms beyond this lesson: imperfects, passive or athematic aorists, perfect participles, and unfamiliar infinitives remain supported exposure rather than assessed production. Comparison passages from Memorabilia belong to a separate work and setting."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Νυκτὸς ὁ Ξενοφῶν ὀλίγον ἐκάθευδεν. ὄναρ εἶδεν· πῦρ περὶ τὴν πατρῴαν οἰκίαν ἐφάνη. ἐγερθεὶς τὸ ὄναρ ἐσκέψατο.",
+        "gloss": [
+          {
+            "greek": "Νυκτὸς",
+            "english": "during the night; genitive of time"
+          },
+          {
+            "greek": "ἐκάθευδεν",
+            "english": "was sleeping; imperfect, supported until Lesson 25"
+          },
+          {
+            "greek": "ὄναρ",
+            "english": "a dream; irregular neuter, genitive ὀνείρατος"
+          },
+          {
+            "greek": "πατρῴαν",
+            "english": "ancestral, his father’s"
+          },
+          {
+            "greek": "ἐφάνη",
+            "english": "appeared; passive-form aorist, supported exposure"
+          },
+          {
+            "greek": "ἐγερθεὶς",
+            "english": "having woken; passive aorist participle, supported exposure"
+          },
+          {
+            "greek": "ἐσκέψατο",
+            "english": "considered; first aorist middle of σκέπτομαι"
+          }
+        ]
+      },
+      {
+        "greek": "Τὸ μὲν φῶς ἐλπίδα αὐτῷ παρέσχεν, τὸ δὲ πῦρ φόβον. ὁ Ξενοφῶν οὐ βεβαίαν ἐπαγγελίαν τῆς σωτηρίας ἔλαβεν. περὶ τοῦ κινδύνου ἐλογίσατο.",
+        "gloss": [
+          {
+            "greek": "Τὸ μὲν φῶς",
+            "english": "the light"
+          },
+          {
+            "greek": "παρέσχεν",
+            "english": "provided; compound second aorist, supported exposure"
+          },
+          {
+            "greek": "βεβαίαν ἐπαγγελίαν",
+            "english": "a certain promise"
+          },
+          {
+            "greek": "ἐλογίσατο",
+            "english": "reasoned; first aorist middle of λογίζομαι"
+          },
+          {
+            "greek": "τῆς σωτηρίας",
+            "english": "of survival"
+          }
+        ]
+      },
+      {
+        "greek": "Ἔπειτα ἀνέστη καὶ τοὺς τοῦ Προξένου λοχαγοὺς ἐκάλεσεν. οἱ δὲ λοχαγοὶ συνῆλθον. ὁ Ξενοφῶν λέγειν πρὸς αὐτοὺς ἤρξατο.",
+        "gloss": [
+          {
+            "greek": "ἀνέστη",
+            "english": "got up; athematic aorist, supported exposure"
+          },
+          {
+            "greek": "τοὺς τοῦ Προξένου λοχαγοὺς",
+            "english": "Proxenus’s captains"
+          },
+          {
+            "greek": "ἐκάλεσεν",
+            "english": "summoned; first aorist of καλέω"
+          },
+          {
+            "greek": "συνῆλθον",
+            "english": "came together; compound second aorist"
+          },
+          {
+            "greek": "λέγειν",
+            "english": "to speak; infinitive with ἄρχομαι"
+          },
+          {
+            "greek": "ἤρξατο",
+            "english": "began; first aorist middle of ἄρχομαι"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ξενοφῶν περὶ τῶν στρατιωτῶν ἐφρόντισεν. «δεῖ ἡμᾶς παρασκευάζεσθαι», εἶπεν. οἱ λοχαγοὶ ἀκούσαντες καὶ σκεψάμενοι τὴν βουλὴν ἐδέξαντο.",
+        "gloss": [
+          {
+            "greek": "ἐφρόντισεν",
+            "english": "took thought; first aorist of φροντίζω"
+          },
+          {
+            "greek": "δεῖ ἡμᾶς",
+            "english": "we must; accusative with impersonal verb"
+          },
+          {
+            "greek": "παρασκευάζεσθαι",
+            "english": "to prepare; present middle infinitive"
+          },
+          {
+            "greek": "ἀκούσαντες",
+            "english": "having heard; active first-aorist participle"
+          },
+          {
+            "greek": "σκεψάμενοι",
+            "english": "having considered; middle first-aorist participle"
+          },
+          {
+            "greek": "ἐδέξαντο",
+            "english": "accepted; middle first aorist of δέχομαι"
+          }
+        ]
+      },
+      {
+        "greek": "Καλέσαντες καὶ τοὺς ἄλλους ἡγεμόνας, οἱ λοχαγοὶ βουλὴν ἐποίησαν. πολλοὶ περὶ τῆς σωτηρίας ἐβουλεύσαντο. οὐ μόνος ὁ Ξενοφῶν ἔπραξεν.",
+        "gloss": [
+          {
+            "greek": "Καλέσαντες",
+            "english": "having summoned; active first-aorist participle"
+          },
+          {
+            "greek": "βουλὴν ἐποίησαν",
+            "english": "held a council; first aorist of ποιέω"
+          },
+          {
+            "greek": "ἐβουλεύσαντο",
+            "english": "deliberated; first aorist middle of βουλεύομαι"
+          },
+          {
+            "greek": "οὐ μόνος",
+            "english": "not alone"
+          },
+          {
+            "greek": "ἔπραξεν",
+            "english": "acted; first aorist of πράττω"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ ἡγεμόνες νέους στρατηγοὺς εἵλοντο. ὁ Ξενοφῶν ἀντὶ τοῦ Προξένου στρατηγὸς ἐγένετο. καὶ ἄλλοι ἄνδρες τὴν ἀρχὴν ἔλαβον· ἡ σωτηρία κοινὸν ἔργον ἐστίν.",
+        "gloss": [
+          {
+            "greek": "εἵλοντο",
+            "english": "chose; irregular second aorist middle of αἱρέω, supported exposure"
+          },
+          {
+            "greek": "ἀντὶ τοῦ Προξένου",
+            "english": "in Proxenus’s place"
+          },
+          {
+            "greek": "ἐγένετο",
+            "english": "became; second aorist middle of γίγνομαι"
+          },
+          {
+            "greek": "τὴν ἀρχὴν",
+            "english": "the command"
+          },
+          {
+            "greek": "κοινὸν ἔργον",
+            "english": "a shared task"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν ἄλλῳ λόγῳ ὁ Σωκράτης τὸν Εὐθύδημον περὶ ἀνδρείας ἐρωτᾷ. ὁ τὸν κίνδυνον ἀγνοῶν οὐ διὰ τοῦτο ἀνδρεῖός ἐστιν. δεῖ τὸν ἀνδρεῖον τὰ δεινὰ γιγνώσκειν.",
+        "gloss": [
+          {
+            "greek": "Ἐν ἄλλῳ λόγῳ",
+            "english": "in a separate account: Memorabilia, not the expedition"
+          },
+          {
+            "greek": "Εὐθύδημον",
+            "english": "Euthydemus, Socrates’s interlocutor"
+          },
+          {
+            "greek": "ὁ τὸν κίνδυνον ἀγνοῶν",
+            "english": "the person ignorant of danger; present participle"
+          },
+          {
+            "greek": "διὰ τοῦτο",
+            "english": "for this reason"
+          },
+          {
+            "greek": "τὰ δεινὰ",
+            "english": "dangerous things"
+          },
+          {
+            "greek": "γιγνώσκειν",
+            "english": "to understand"
+          }
+        ]
+      }
+    ],
+    "translation": "During the night Xenophon slept a little. He saw a dream: fire appeared around his father’s house. On waking, he considered the dream.\n\nThe light gave him hope, but the fire gave him fear. Xenophon did not receive a certain promise of survival. He reasoned about the danger.\n\nThen he got up and summoned Proxenus’s captains. The captains came together. Xenophon began a speech to them.\n\nXenophon took thought for the soldiers. “We must prepare,” he said. After hearing and considering, the captains accepted the proposal.\n\nAfter summoning the other leaders too, the captains held a council. Many deliberated about survival. Xenophon did not act alone.\n\nThe officers chose new generals. Xenophon became a general in Proxenus’s place. Other men too took command: survival is a shared task.\n\nIn a different account Socrates questions Euthydemus about courage. A person ignorant of danger is not courageous for that reason. The courageous person must understand dangers.",
+    "sourceCitation": "Xenophon, Anabasis 3.1.11–25, 32–47; separate companion, Memorabilia 4.6.10–11. https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_3.htm https://monadnock.net/xenophon/mem4-6.html",
+    "notesMarkdown": "The simplified Greek is newly composed for this course. It preserves the source distinctions explained above while reducing sentence complexity. The English translation aligns paragraph for paragraph. Supplementary grammar examples and commands illustrate forms and are not additional historical claims."
+  },
+  "wordStudy": {
+    "label": "Word Study — Calling, considering, accepting",
+    "blocks": [
+      {
+        "title": "Calling, considering, accepting",
+        "practiceTopic": "word-study",
+        "body": [
+          "καλέω brings officers together; σκέπτομαι and λογίζομαι describe consideration and reasoning. Their aorists ἐκάλεσεν, ἐσκέψατο, and ἐλογίσατο mark actions in the narrative, rather than portraying initiative as an unexplained burst of confidence.",
+          "δέχομαι can mean receive or accept. Here ἐδέξαντο τὴν βουλήν means the captains accepted a proposal. Its middle form is translated with an active English verb; the captains are not being accepted by someone else.",
+          "κοινός means shared, and μόνος means alone. The clause οὐ μόνος ὁ Ξενοφῶν ἔπραξεν prevents an exaggerated claim of sole leadership. The separate Socratic comparison asks whether understanding danger is necessary for ἀνδρεία."
+        ],
+        "display": [
+          {
+            "greek": "ἐκάλεσεν",
+            "english": "he summoned"
+          },
+          {
+            "greek": "ἐσκέψατο",
+            "english": "he considered"
+          },
+          {
+            "greek": "ἐλογίσατο",
+            "english": "he reasoned"
+          },
+          {
+            "greek": "ἐδέξαντο",
+            "english": "they accepted"
+          },
+          {
+            "greek": "κοινός / μόνος",
+            "english": "shared / alone"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Use the story to identify who acts and how the action is presented. The following 4 sections teach each assigned topic separately, with forms, worked examples, checks, and practice.",
+    "objectives": [
+      "Sigmatic first aorist: active and middle: explain the pattern and interpret its worked examples.",
+      "Consonant changes and vowel lengthening: explain the pattern and interpret its worked examples.",
+      "Active and middle first-aorist participles: explain the pattern and interpret its worked examples.",
+      "First and second aorists share aorist aspect: explain the pattern and interpret its worked examples."
+    ],
+    "sections": [
+      {
+        "id": "sigmatic-indicative",
+        "title": "1. Sigmatic first aorist: active and middle",
+        "practiceTopic": "sigmatic-indicative",
+        "body": [
+          "A regular sigmatic first aorist adds σ to the verbal stem, usually with α in the endings. λύω gives ἔλυσα, “I released,” and middle ἐλυσάμην. Past indicative augment is added before the stem just as in the second aorist.",
+          "The active endings are -σα, -σας, -σε(ν), -σαμεν, -σατε, -σαν when stated together with σ. Third singular has ε rather than α: ἔλυσε(ν). The middle pattern includes ἐλύσω, whose -ω contrasts with second-aorist middle ἐλάβου.",
+          "In ἐδέξαντο, “they accepted,” δέχομαι supplies a first-aorist middle, with χ + σ becoming ξ. Its active English meaning is learned with the verb. An ending identifies person and voice form; it does not force an English passive translation."
+        ],
+        "table": {
+          "title": "1. Sigmatic first aorist: active and middle",
+          "headers": [
+            "Person",
+            "Active",
+            "Middle"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "1 singular",
+              "ἔλυσα",
+              "ἐλυσάμην"
+            ],
+            [
+              "2 singular",
+              "ἔλυσας",
+              "ἐλύσω"
+            ],
+            [
+              "3 singular",
+              "ἔλυσε(ν)",
+              "ἐλύσατο"
+            ],
+            [
+              "1 plural",
+              "ἐλύσαμεν",
+              "ἐλυσάμεθα"
+            ],
+            [
+              "2 plural",
+              "ἐλύσατε",
+              "ἐλύσασθε"
+            ],
+            [
+              "3 plural",
+              "ἔλυσαν",
+              "ἐλύσαντο"
+            ],
+            [
+              "infinitive",
+              "λῦσαι",
+              "λύσασθαι"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "οἱ λοχαγοὶ τὴν βουλὴν ἐδέξαντο.",
+            "english": "The captains accepted the proposal."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which means “they released” (active)?",
+            "answer": "ἔλυσαν. -σαν is third plural active in this pattern."
+          },
+          {
+            "prompt": "Which means “we released” (middle)?",
+            "answer": "ἐλυσάμεθα. -άμεθα marks first plural middle."
+          }
+        ]
+      },
+      {
+        "id": "sigmatic-stem-changes",
+        "title": "2. Consonant changes and vowel lengthening",
+        "practiceTopic": "sigmatic-stem-changes",
+        "body": [
+          "Adding σ to a consonant stem produces regular spelling changes: labials π, β, φ + σ yield ψ; velars κ, γ, χ + σ yield ξ; dental sounds τ, δ, θ disappear before σ. Thus πέμπω → ἔπεμψα, πράττω → ἔπραξα, and πείθω → ἔπεισα.",
+          "A present spelling may conceal the consonant stem: πράττω belongs to a velar stem and forms πραξ-. σκέπτομαι gives ἐσκεψάμην. Learn the actual principal part together with the rule, because the present stem alone is not always a transparent guide.",
+          "Contract verbs commonly lengthen their stem vowel before σ: τιμάω → ἐτίμησα, ποιέω → ἐποίησα, δηλόω → ἐδήλωσα. This lengthening occurs inside the aorist stem and is different from temporal augment at the beginning. καλέω → ἐκάλεσα is a learned exception to automatic ε → η."
+        ],
+        "table": {
+          "title": "2. Consonant changes and vowel lengthening",
+          "headers": [
+            "Stem type",
+            "Change",
+            "Example"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "labial",
+              "π/β/φ + σ → ψ",
+              "πέμπω → ἔπεμψα"
+            ],
+            [
+              "velar",
+              "κ/γ/χ + σ → ξ",
+              "δέχομαι → ἐδεξάμην"
+            ],
+            [
+              "dental",
+              "τ/δ/θ drop before σ",
+              "πείθω → ἔπεισα"
+            ],
+            [
+              "α contract",
+              "α commonly → η",
+              "τιμάω → ἐτίμησα"
+            ],
+            [
+              "ε contract",
+              "ε commonly → η",
+              "ποιέω → ἐποίησα"
+            ],
+            [
+              "ο contract",
+              "ο → ω",
+              "δηλόω → ἐδήλωσα"
+            ],
+            [
+              "exception",
+              "καλε- keeps ε",
+              "καλέω → ἐκάλεσα"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ Ξενοφῶν τοὺς λοχαγοὺς ἐκάλεσεν.",
+            "english": "Xenophon summoned the captains."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What results from π + σ?",
+            "answer": "ψ. A labial before σ combines as ψ."
+          },
+          {
+            "prompt": "What results from χ + σ?",
+            "answer": "ξ. A velar before σ combines as ξ."
+          }
+        ]
+      },
+      {
+        "id": "first-aorist-participles",
+        "title": "3. Active and middle first-aorist participles",
+        "practiceTopic": "first-aorist-participles",
+        "body": [
+          "The active first-aorist participle has λύσας, λύσασα, λῦσαν. It lacks augment. Its masculine and neuter stem contains -σαντ-: genitive λύσαντος. The feminine follows first-declension λύσασα, λυσάσης. Accent and agreement must be read together.",
+          "The middle forms are λυσάμενος, λυσαμένη, λυσάμενον. Their -άμενος ending differs from second-aorist λαβόμενος. In the reading, σκεψάμενοι describes the captains considering before accepting the proposal, and ἀκούσαντες supplies their prior hearing.",
+          "Participles agree in case, number, and gender with their head noun. καλέσαντες οἱ λοχαγοί means “the captains, having summoned ...”; καλέσαντα τὸν λοχαγόν would describe one captain as an accusative object. The participle’s aorist aspect presents its action as a whole."
+        ],
+        "table": {
+          "title": "3. Active and middle first-aorist participles",
+          "headers": [
+            "Case/form",
+            "Active masculine",
+            "Active feminine",
+            "Middle masculine"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "nominative singular",
+              "λύσας",
+              "λύσασα",
+              "λυσάμενος"
+            ],
+            [
+              "genitive singular",
+              "λύσαντος",
+              "λυσάσης",
+              "λυσαμένου"
+            ],
+            [
+              "dative singular",
+              "λύσαντι",
+              "λυσάσῃ",
+              "λυσαμένῳ"
+            ],
+            [
+              "accusative singular",
+              "λύσαντα",
+              "λύσασαν",
+              "λυσάμενον"
+            ],
+            [
+              "nominative plural",
+              "λύσαντες",
+              "λύσασαι",
+              "λυσάμενοι"
+            ],
+            [
+              "neuter nominative singular",
+              "λῦσαν",
+              "—",
+              "λυσάμενον"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἀκούσαντες καὶ σκεψάμενοι οἱ λοχαγοὶ ἐδέξαντο τὴν βουλήν.",
+            "english": "Having heard and considered, the captains accepted the proposal."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which is first-aorist active nominative masculine singular?",
+            "answer": "λύσας. λύσας is the unaugmented first-aorist active participle."
+          },
+          {
+            "prompt": "Which is first-aorist middle nominative plural?",
+            "answer": "λυσάμενοι. -άμενοι marks the first-aorist middle masculine plural."
+          }
+        ]
+      },
+      {
+        "id": "first-second-aorist",
+        "title": "4. First and second aorists share aorist aspect",
+        "practiceTopic": "first-second-aorist",
+        "body": [
+          "“First” and “second” name formation patterns, not the order in which events occurred. First aorist ἔλυσα has σ and α-based endings; second aorist ἔλαβον has a thematic ο/ε pattern and its own stem. Both present an action as a whole.",
+          "Compare active participles λύσας and λαβών, middle participles λυσάμενος and λαβόμενος, and infinitives λῦσαι and λαβεῖν. Each pair differs in morphological pattern. The aorist versus present distinction concerns aspect; first versus second does not.",
+          "A dictionary generally assigns the aorist actually used for a given verb and meaning. Do not invent ἔλαμψα as an aorist of λαμβάνω or append σ to every present stem. The reading’s ἀνέστη is an athematic aorist, explicitly glossed rather than an assessed formation target."
+        ],
+        "table": {
+          "title": "4. First and second aorists share aorist aspect",
+          "headers": [
+            "Function",
+            "First aorist",
+            "Second aorist"
+          ],
+          "greekColumns": [
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "active indicative",
+              "ἔλυσα",
+              "ἔλαβον"
+            ],
+            [
+              "middle indicative",
+              "ἐλυσάμην",
+              "ἐλαβόμην"
+            ],
+            [
+              "active participle",
+              "λύσας",
+              "λαβών"
+            ],
+            [
+              "middle participle",
+              "λυσάμενος",
+              "λαβόμενος"
+            ],
+            [
+              "active infinitive",
+              "λῦσαι",
+              "λαβεῖν"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁ λοχαγὸς ἔλαβε τὰ ὅπλα καὶ ἔλυσε τὸν ἵππον.",
+            "english": "The captain took the arms and untied the horse."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What do first and second aorists share?",
+            "answer": "whole-action aorist aspect. The numbering labels formation, not a different aspect."
+          },
+          {
+            "prompt": "Which is a thematic second aorist?",
+            "answer": "ἔλαβον. λαβ- takes thematic ο/ε endings."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "Sigmatic first aorist: active and middle: A regular sigmatic first aorist adds σ to the verbal stem, usually with α in the endings. λύω gives ἔλυσα, “I released,” and middle ἐλυσάμην. Past indicative augment is added before the stem just as in the second aorist.",
+        "Consonant changes and vowel lengthening: Adding σ to a consonant stem produces regular spelling changes: labials π, β, φ + σ yield ψ; velars κ, γ, χ + σ yield ξ; dental sounds τ, δ, θ disappear before σ. Thus πέμπω → ἔπεμψα, πράττω → ἔπραξα, and πείθω → ἔπεισα.",
+        "Active and middle first-aorist participles: The active first-aorist participle has λύσας, λύσασα, λῦσαν. It lacks augment. Its masculine and neuter stem contains -σαντ-: genitive λύσαντος. The feminine follows first-declension λύσασα, λυσάσης. Accent and agreement must be read together.",
+        "First and second aorists share aorist aspect: “First” and “second” name formation patterns, not the order in which events occurred. First aorist ἔλυσα has σ and α-based endings; second aorist ἔλαβον has a thematic ο/ε pattern and its own stem. Both present an action as a whole."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Culture and History",
+    "body": [],
+    "sections": [
+      {
+        "title": "A dream with two possible readings",
+        "body": [
+          "Xenophon reports a dream of fire and describes both encouragement and anxiety in interpreting it. The light can suggest help, while the surrounding fire can suggest entrapment in the king’s territory. The narrative gives his uncertainty a place in the account.",
+          "We should describe this as a reported dream and interpretation. It supplies neither an independently verified divine promise nor permission to erase his fear. His next acts are practical: summon officers, discuss the danger, and begin organizing a response."
+        ]
+      },
+      {
+        "title": "Replacement command is collective",
+        "body": [
+          "Xenophon first calls Proxenus’s captains, then the consultation reaches surviving commanders from other units. Cheirisophus also speaks and presses for prompt elections. The source depicts a process involving several officers rather than one man assuming absolute control.",
+          "Xenophon is chosen in Proxenus’s place; four other named replacements are selected for the other missing generals. “Xenophon became a general” is accurate. “Xenophon became the army’s sole leader” would distort the distributed command and its shared responsibilities."
+        ]
+      },
+      {
+        "title": "Socrates and informed courage",
+        "body": [
+          "In the separate Memorabilia 4.6 discussion, Socrates questions Euthydemus about courage. Ignorance of danger does not make someone courageous simply by removing fear. Knowledge and sound response matter to the ethical definition being explored.",
+          "This is a comparison between Xenophon’s works, not a claim that the officers studied a later book during the crisis. It helps us evaluate the expedition’s decisions: getting up and speaking are valuable when they begin informed action for others, not merely a performance of confidence."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "What status does the dream have?",
+        "answer": "a reported dream with uncertain interpretation. The account preserves Xenophon’s fear as well as hope."
+      },
+      {
+        "prompt": "What makes the replacement command collective?",
+        "answer": "several officers deliberate and replacements are elected. The culture page identifies consultation and multiple elections."
+      },
+      {
+        "prompt": "Who presses for prompt elections in the source?",
+        "answer": "Cheirisophus. Cheirisophus contributes to the rebuilding of command."
+      },
+      {
+        "prompt": "Does ignorance of danger suffice for courage in the comparison?",
+        "answer": "no. Socrates distinguishes informed courage from ignorance."
+      },
+      {
+        "prompt": "Why keep the works separate?",
+        "answer": "to avoid inventing a camp reading of the later account. The comparison is editorial, not a fictional historical event."
+      },
+      {
+        "prompt": "What responsibility gives initiative value?",
+        "answer": "informed action for the people led. Leadership joins judgment to practical care."
+      },
+      {
+        "prompt": "Which decision best tests responsibility in this reading? Explain with an action and consequence.",
+        "answer": "Responses may differ; use the reading’s specific decisions and the source distinctions to support your judgment."
+      },
+      {
+        "prompt": "What would be lost by ignoring the uncertainty or collective action in this account?",
+        "answer": "Explain how the reading avoids overstating knowledge, prophetic certainty, or a single leader’s role."
+      }
+    ],
+    "reflections": [
+      {
+        "prompt": "Which decision in this reading best tests a leader’s responsibility, and why?",
+        "answer": "Support your judgment with a specific action and consequence in the reading."
+      },
+      {
+        "prompt": "Where must a reader distinguish a reported event from an interpretation or course adaptation?",
+        "answer": "Use the source note and the culture discussion to mark what the evidence supports."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "In a night of distress Xenophon interprets a dream with both hope and fear, then takes practical action. He summons officers, speaks, and participates in rebuilding the command. The final paragraph is a separate comparison from Memorabilia, not a conversation in the marching army.",
+        "Review sigmatic first aorist: active and middle and its examples.",
+        "Review consonant changes and vowel lengthening and its examples.",
+        "Review active and middle first-aorist participles and its examples.",
+        "Review first and second aorists share aorist aspect and its examples.",
+        "Identify actors from agreement and preserve the reading’s historical sequence.",
+        "Separate the course’s adapted wording from the ancient author’s reported events."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Anabasis 3.1: dream, initiative, elections",
+        "url": "https://cais-soas.com/CAIS/History/hakhamaneshian/xenophon/anabasis/xeno_anbs_book_3.htm"
+      },
+      {
+        "title": "Memorabilia 4.6: informed courage",
+        "url": "https://monadnock.net/xenophon/mem4-6.html"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 23 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "καλέω, καλῶ, ἐκάλεσα",
+          "answer": "summon"
+        },
+        {
+          "prompt": "σκέπτομαι, σκέψομαι, ἐσκεψάμην",
+          "answer": "consider"
+        },
+        {
+          "prompt": "λογίζομαι, λογιοῦμαι, ἐλογισάμην",
+          "answer": "reason"
+        },
+        {
+          "prompt": "δέχομαι, δέξομαι, ἐδεξάμην",
+          "answer": "accept"
+        },
+        {
+          "prompt": "βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην",
+          "answer": "deliberate"
+        },
+        {
+          "prompt": "φροντίζω, φροντιῶ, ἐφρόντισα",
+          "answer": "take thought"
+        },
+        {
+          "prompt": "πράττω, πράξω, ἔπραξα",
+          "answer": "act"
+        },
+        {
+          "prompt": "πῦρ, πυρός, τό",
+          "answer": "fire"
+        },
+        {
+          "prompt": "φῶς, φωτός, τό",
+          "answer": "light"
+        },
+        {
+          "prompt": "ἐλπίς, ἐλπίδος, ἡ",
+          "answer": "hope"
+        },
+        {
+          "prompt": "φόβος, φόβου, ὁ",
+          "answer": "fear"
+        },
+        {
+          "prompt": "οἰκία, οἰκίας, ἡ",
+          "answer": "house"
+        },
+        {
+          "prompt": "λόγος, λόγου, ὁ",
+          "answer": "speech"
+        },
+        {
+          "prompt": "ἀρχή, ἀρχῆς, ἡ",
+          "answer": "command"
+        },
+        {
+          "prompt": "κοινός, κοινή, κοινόν",
+          "answer": "shared"
+        },
+        {
+          "prompt": "μόνος, μόνη, μόνον",
+          "answer": "alone"
+        },
+        {
+          "prompt": "ἀγνοέω",
+          "answer": "be ignorant"
+        },
+        {
+          "prompt": "γιγνώσκω",
+          "answer": "understand"
+        },
+        {
+          "prompt": "ἀνδρεία, ἀνδρείας, ἡ",
+          "answer": "courage"
+        },
+        {
+          "prompt": "ὄναρ, ὀνείρατος, τό",
+          "answer": "dream"
+        },
+        {
+          "prompt": "Εὐθύδημος, Εὐθυδήμου, ὁ",
+          "answer": "Euthydemus"
+        },
+        {
+          "prompt": "βέβαιος, βεβαία, βέβαιον",
+          "answer": "certain"
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 23 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "Which means “they released” (active)?",
+          "answer": "ἔλυσαν. -σαν is third plural active in this pattern."
+        },
+        {
+          "prompt": "Which means “we released” (middle)?",
+          "answer": "ἐλυσάμεθα. -άμεθα marks first plural middle."
+        },
+        {
+          "prompt": "What results from π + σ?",
+          "answer": "ψ. A labial before σ combines as ψ."
+        },
+        {
+          "prompt": "What results from χ + σ?",
+          "answer": "ξ. A velar before σ combines as ξ."
+        },
+        {
+          "prompt": "Which is first-aorist active nominative masculine singular?",
+          "answer": "λύσας. λύσας is the unaugmented first-aorist active participle."
+        },
+        {
+          "prompt": "Which is first-aorist middle nominative plural?",
+          "answer": "λυσάμενοι. -άμενοι marks the first-aorist middle masculine plural."
+        },
+        {
+          "prompt": "What do first and second aorists share?",
+          "answer": "whole-action aorist aspect. The numbering labels formation, not a different aspect."
+        },
+        {
+          "prompt": "Which is a thematic second aorist?",
+          "answer": "ἔλαβον. λαβ- takes thematic ο/ε endings."
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 23 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": [
+        "Practice both Greek-to-English and English-to-Greek for every required entry."
+      ],
+      "questions": [
+        {
+          "id": "lesson-23-vocab-0257",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does καλέω mean in this lesson?",
+          "explanation": "καλέω, καλῶ, ἐκάλεσα means summon in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": true,
+              "feedback": "Correct: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": false,
+              "feedback": "Review: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0258",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “summon”?",
+          "explanation": "The assigned entry is καλέω, καλῶ, ἐκάλεσα.",
+          "choices": [
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is καλέω, καλῶ, ἐκάλεσα."
+            },
+            {
+              "text": "καλέω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is καλέω, καλῶ, ἐκάλεσα."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is καλέω, καλῶ, ἐκάλεσα."
+            },
+            {
+              "text": "δέχομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is καλέω, καλῶ, ἐκάλεσα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0259",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does σκέπτομαι mean in this lesson?",
+          "explanation": "σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": true,
+              "feedback": "Correct: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0260",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “consider”?",
+          "explanation": "The assigned entry is σκέπτομαι, σκέψομαι, ἐσκεψάμην.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σκέπτομαι, σκέψομαι, ἐσκεψάμην."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σκέπτομαι, σκέψομαι, ἐσκεψάμην."
+            },
+            {
+              "text": "δέχομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is σκέπτομαι, σκέψομαι, ἐσκεψάμην."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is σκέπτομαι, σκέψομαι, ἐσκεψάμην."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0261",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λογίζομαι mean in this lesson?",
+          "explanation": "λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context.",
+          "choices": [
+            {
+              "text": "reason",
+              "correct": true,
+              "feedback": "Correct: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": false,
+              "feedback": "Review: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0262",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “reason”?",
+          "explanation": "The assigned entry is λογίζομαι, λογιοῦμαι, ἐλογισάμην.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λογίζομαι, λογιοῦμαι, ἐλογισάμην."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is λογίζομαι, λογιοῦμαι, ἐλογισάμην."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λογίζομαι, λογιοῦμαι, ἐλογισάμην."
+            },
+            {
+              "text": "δέχομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λογίζομαι, λογιοῦμαι, ἐλογισάμην."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0263",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does δέχομαι mean in this lesson?",
+          "explanation": "δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": true,
+              "feedback": "Correct: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0264",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “accept”?",
+          "explanation": "The assigned entry is δέχομαι, δέξομαι, ἐδεξάμην.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is δέχομαι, δέξομαι, ἐδεξάμην."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is δέχομαι, δέξομαι, ἐδεξάμην."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is δέχομαι, δέξομαι, ἐδεξάμην."
+            },
+            {
+              "text": "δέχομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is δέχομαι, δέξομαι, ἐδεξάμην."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0265",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does βουλεύομαι mean in this lesson?",
+          "explanation": "βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context.",
+          "choices": [
+            {
+              "text": "deliberate",
+              "correct": true,
+              "feedback": "Correct: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0266",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “deliberate”?",
+          "explanation": "The assigned entry is βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην."
+            },
+            {
+              "text": "βουλεύομαι",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0267",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does φροντίζω mean in this lesson?",
+          "explanation": "φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            },
+            {
+              "text": "take thought",
+              "correct": true,
+              "feedback": "Correct: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0268",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “take thought”?",
+          "explanation": "The assigned entry is φροντίζω, φροντιῶ, ἐφρόντισα.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φροντίζω, φροντιῶ, ἐφρόντισα."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φροντίζω, φροντιῶ, ἐφρόντισα."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φροντίζω, φροντιῶ, ἐφρόντισα."
+            },
+            {
+              "text": "φροντίζω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is φροντίζω, φροντιῶ, ἐφρόντισα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0269",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does πράττω mean in this lesson?",
+          "explanation": "πράττω, πράξω, ἔπραξα means act in the assigned context.",
+          "choices": [
+            {
+              "text": "act",
+              "correct": true,
+              "feedback": "Correct: πράττω, πράξω, ἔπραξα means act in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: πράττω, πράξω, ἔπραξα means act in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: πράττω, πράξω, ἔπραξα means act in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: πράττω, πράξω, ἔπραξα means act in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0270",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “act”?",
+          "explanation": "The assigned entry is πράττω, πράξω, ἔπραξα.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πράττω, πράξω, ἔπραξα."
+            },
+            {
+              "text": "πράττω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πράττω, πράξω, ἔπραξα."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πράττω, πράξω, ἔπραξα."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πράττω, πράξω, ἔπραξα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0271",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ πῦρ mean in this lesson?",
+          "explanation": "πῦρ, πυρός, τό means fire in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: πῦρ, πυρός, τό means fire in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: πῦρ, πυρός, τό means fire in the assigned context."
+            },
+            {
+              "text": "fire",
+              "correct": true,
+              "feedback": "Correct: πῦρ, πυρός, τό means fire in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: πῦρ, πυρός, τό means fire in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0272",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “fire”?",
+          "explanation": "The assigned entry is πῦρ, πυρός, τό.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πῦρ, πυρός, τό."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πῦρ, πυρός, τό."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is πῦρ, πυρός, τό."
+            },
+            {
+              "text": "τὸ πῦρ",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is πῦρ, πυρός, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0273",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does Τὸ μὲν φῶς mean in this lesson?",
+          "explanation": "φῶς, φωτός, τό means light in the assigned context.",
+          "choices": [
+            {
+              "text": "light",
+              "correct": true,
+              "feedback": "Correct: φῶς, φωτός, τό means light in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: φῶς, φωτός, τό means light in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: φῶς, φωτός, τό means light in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: φῶς, φωτός, τό means light in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0274",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “light”?",
+          "explanation": "The assigned entry is φῶς, φωτός, τό.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φῶς, φωτός, τό."
+            },
+            {
+              "text": "Τὸ μὲν φῶς",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is φῶς, φωτός, τό."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φῶς, φωτός, τό."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φῶς, φωτός, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0275",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐλπίς mean in this lesson?",
+          "explanation": "ἐλπίς, ἐλπίδος, ἡ means hope in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: ἐλπίς, ἐλπίδος, ἡ means hope in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: ἐλπίς, ἐλπίδος, ἡ means hope in the assigned context."
+            },
+            {
+              "text": "hope",
+              "correct": true,
+              "feedback": "Correct: ἐλπίς, ἐλπίδος, ἡ means hope in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: ἐλπίς, ἐλπίδος, ἡ means hope in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0276",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “hope”?",
+          "explanation": "The assigned entry is ἐλπίς, ἐλπίδος, ἡ.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἐλπίς, ἐλπίδος, ἡ."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἐλπίς, ἐλπίδος, ἡ."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἐλπίς, ἐλπίδος, ἡ."
+            },
+            {
+              "text": "ἡ ἐλπίς",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἐλπίς, ἐλπίδος, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0277",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ φόβος mean in this lesson?",
+          "explanation": "φόβος, φόβου, ὁ means fear in the assigned context.",
+          "choices": [
+            {
+              "text": "fear",
+              "correct": true,
+              "feedback": "Correct: φόβος, φόβου, ὁ means fear in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: φόβος, φόβου, ὁ means fear in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: φόβος, φόβου, ὁ means fear in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: φόβος, φόβου, ὁ means fear in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0278",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “fear”?",
+          "explanation": "The assigned entry is φόβος, φόβου, ὁ.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φόβος, φόβου, ὁ."
+            },
+            {
+              "text": "ὁ φόβος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is φόβος, φόβου, ὁ."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φόβος, φόβου, ὁ."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is φόβος, φόβου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0279",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ οἰκία mean in this lesson?",
+          "explanation": "οἰκία, οἰκίας, ἡ means house in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: οἰκία, οἰκίας, ἡ means house in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: οἰκία, οἰκίας, ἡ means house in the assigned context."
+            },
+            {
+              "text": "house",
+              "correct": true,
+              "feedback": "Correct: οἰκία, οἰκίας, ἡ means house in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: οἰκία, οἰκίας, ἡ means house in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0280",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “house”?",
+          "explanation": "The assigned entry is οἰκία, οἰκίας, ἡ.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is οἰκία, οἰκίας, ἡ."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is οἰκία, οἰκίας, ἡ."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is οἰκία, οἰκίας, ἡ."
+            },
+            {
+              "text": "ἡ οἰκία",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is οἰκία, οἰκίας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0281",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ λόγος mean in this lesson?",
+          "explanation": "λόγος, λόγου, ὁ means speech in the assigned context.",
+          "choices": [
+            {
+              "text": "speech",
+              "correct": true,
+              "feedback": "Correct: λόγος, λόγου, ὁ means speech in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: λόγος, λόγου, ὁ means speech in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: λόγος, λόγου, ὁ means speech in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: λόγος, λόγου, ὁ means speech in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0282",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “speech”?",
+          "explanation": "The assigned entry is λόγος, λόγου, ὁ.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λόγος, λόγου, ὁ."
+            },
+            {
+              "text": "ὁ λόγος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is λόγος, λόγου, ὁ."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λόγος, λόγου, ὁ."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is λόγος, λόγου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0283",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀρχή mean in this lesson?",
+          "explanation": "ἀρχή, ἀρχῆς, ἡ means command in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: ἀρχή, ἀρχῆς, ἡ means command in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: ἀρχή, ἀρχῆς, ἡ means command in the assigned context."
+            },
+            {
+              "text": "command",
+              "correct": true,
+              "feedback": "Correct: ἀρχή, ἀρχῆς, ἡ means command in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: ἀρχή, ἀρχῆς, ἡ means command in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0284",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “command”?",
+          "explanation": "The assigned entry is ἀρχή, ἀρχῆς, ἡ.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀρχή, ἀρχῆς, ἡ."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀρχή, ἀρχῆς, ἡ."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀρχή, ἀρχῆς, ἡ."
+            },
+            {
+              "text": "ἡ ἀρχή",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἀρχή, ἀρχῆς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0285",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does κοινός mean in this lesson?",
+          "explanation": "κοινός, κοινή, κοινόν means shared in the assigned context.",
+          "choices": [
+            {
+              "text": "shared",
+              "correct": true,
+              "feedback": "Correct: κοινός, κοινή, κοινόν means shared in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: κοινός, κοινή, κοινόν means shared in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: κοινός, κοινή, κοινόν means shared in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: κοινός, κοινή, κοινόν means shared in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0286",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “shared”?",
+          "explanation": "The assigned entry is κοινός, κοινή, κοινόν.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is κοινός, κοινή, κοινόν."
+            },
+            {
+              "text": "κοινός",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is κοινός, κοινή, κοινόν."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is κοινός, κοινή, κοινόν."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is κοινός, κοινή, κοινόν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0287",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does μόνος mean in this lesson?",
+          "explanation": "μόνος, μόνη, μόνον means alone in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: μόνος, μόνη, μόνον means alone in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: μόνος, μόνη, μόνον means alone in the assigned context."
+            },
+            {
+              "text": "alone",
+              "correct": true,
+              "feedback": "Correct: μόνος, μόνη, μόνον means alone in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: μόνος, μόνη, μόνον means alone in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0288",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “alone”?",
+          "explanation": "The assigned entry is μόνος, μόνη, μόνον.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μόνος, μόνη, μόνον."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μόνος, μόνη, μόνον."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is μόνος, μόνη, μόνον."
+            },
+            {
+              "text": "μόνος",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is μόνος, μόνη, μόνον."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0289",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἀγνοέω mean in this lesson?",
+          "explanation": "ἀγνοέω means be ignorant in the assigned context.",
+          "choices": [
+            {
+              "text": "be ignorant",
+              "correct": true,
+              "feedback": "Correct: ἀγνοέω means be ignorant in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: ἀγνοέω means be ignorant in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: ἀγνοέω means be ignorant in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: ἀγνοέω means be ignorant in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0290",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “be ignorant”?",
+          "explanation": "The assigned entry is ἀγνοέω.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγνοέω."
+            },
+            {
+              "text": "ἀγνοέω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἀγνοέω."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγνοέω."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀγνοέω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0291",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does γιγνώσκω mean in this lesson?",
+          "explanation": "γιγνώσκω means understand in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: γιγνώσκω means understand in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: γιγνώσκω means understand in the assigned context."
+            },
+            {
+              "text": "understand",
+              "correct": true,
+              "feedback": "Correct: γιγνώσκω means understand in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: γιγνώσκω means understand in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0292",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “understand”?",
+          "explanation": "The assigned entry is γιγνώσκω.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is γιγνώσκω."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is γιγνώσκω."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is γιγνώσκω."
+            },
+            {
+              "text": "γιγνώσκω",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is γιγνώσκω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0293",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀνδρεία mean in this lesson?",
+          "explanation": "ἀνδρεία, ἀνδρείας, ἡ means courage in the assigned context.",
+          "choices": [
+            {
+              "text": "courage",
+              "correct": true,
+              "feedback": "Correct: ἀνδρεία, ἀνδρείας, ἡ means courage in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: ἀνδρεία, ἀνδρείας, ἡ means courage in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: ἀνδρεία, ἀνδρείας, ἡ means courage in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: ἀνδρεία, ἀνδρείας, ἡ means courage in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-vocab-0294",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "Which dictionary entry is assigned the meaning “courage”?",
+          "explanation": "The assigned entry is ἀνδρεία, ἀνδρείας, ἡ.",
+          "choices": [
+            {
+              "text": "καλέω",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀνδρεία, ἀνδρείας, ἡ."
+            },
+            {
+              "text": "ἡ ἀνδρεία",
+              "correct": true,
+              "feedback": "Correct: The assigned entry is ἀνδρεία, ἀνδρείας, ἡ."
+            },
+            {
+              "text": "σκέπτομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀνδρεία, ἀνδρείας, ἡ."
+            },
+            {
+              "text": "λογίζομαι",
+              "correct": false,
+              "feedback": "Review: The assigned entry is ἀνδρεία, ἀνδρείας, ἡ."
+            }
+          ]
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 23 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 6,
+      "instructions": [
+        "Choose the topic linked from Word Study or a grammar section. Read feedback before retrying."
+      ],
+      "questions": [
+        {
+          "id": "lesson-23-topic-0295",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which action brings captains together?",
+          "explanation": "καλέω means summon or call.",
+          "choices": [
+            {
+              "text": "ἀγνοέω",
+              "correct": false,
+              "feedback": "Review: καλέω means summon or call."
+            },
+            {
+              "text": "πίπτω",
+              "correct": false,
+              "feedback": "Review: καλέω means summon or call."
+            },
+            {
+              "text": "καλέω",
+              "correct": true,
+              "feedback": "Correct: καλέω means summon or call."
+            },
+            {
+              "text": "κλαίω",
+              "correct": false,
+              "feedback": "Review: καλέω means summon or call."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0296",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which action is expressed by ἐσκέψατο?",
+          "explanation": "σκέπτομαι has the first-aorist middle ἐσκεψάμην.",
+          "choices": [
+            {
+              "text": "he ran",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι has the first-aorist middle ἐσκεψάμην."
+            },
+            {
+              "text": "they accepted",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι has the first-aorist middle ἐσκεψάμην."
+            },
+            {
+              "text": "they summoned",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι has the first-aorist middle ἐσκεψάμην."
+            },
+            {
+              "text": "he considered",
+              "correct": true,
+              "feedback": "Correct: σκέπτομαι has the first-aorist middle ἐσκεψάμην."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0297",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does ἐδέξαντο τὴν βουλήν mean?",
+          "explanation": "δέχομαι has active English meaning in this context.",
+          "choices": [
+            {
+              "text": "they accepted the proposal",
+              "correct": true,
+              "feedback": "Correct: δέχομαι has active English meaning in this context."
+            },
+            {
+              "text": "the proposal accepted them",
+              "correct": false,
+              "feedback": "Review: δέχομαι has active English meaning in this context."
+            },
+            {
+              "text": "I rejected the proposal",
+              "correct": false,
+              "feedback": "Review: δέχομαι has active English meaning in this context."
+            },
+            {
+              "text": "they fled the council",
+              "correct": false,
+              "feedback": "Review: δέχομαι has active English meaning in this context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0298",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which word means shared?",
+          "explanation": "κοινός connects survival to collective work.",
+          "choices": [
+            {
+              "text": "μόνος",
+              "correct": false,
+              "feedback": "Review: κοινός connects survival to collective work."
+            },
+            {
+              "text": "κοινός",
+              "correct": true,
+              "feedback": "Correct: κοινός connects survival to collective work."
+            },
+            {
+              "text": "νεκρός",
+              "correct": false,
+              "feedback": "Review: κοινός connects survival to collective work."
+            },
+            {
+              "text": "βέβαιος",
+              "correct": false,
+              "feedback": "Review: κοινός connects survival to collective work."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0299",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "Which word means alone?",
+          "explanation": "μόνος is negated when Xenophon’s work is described.",
+          "choices": [
+            {
+              "text": "κοινός",
+              "correct": false,
+              "feedback": "Review: μόνος is negated when Xenophon’s work is described."
+            },
+            {
+              "text": "ἀνδρεῖος",
+              "correct": false,
+              "feedback": "Review: μόνος is negated when Xenophon’s work is described."
+            },
+            {
+              "text": "μόνος",
+              "correct": true,
+              "feedback": "Correct: μόνος is negated when Xenophon’s work is described."
+            },
+            {
+              "text": "νέος",
+              "correct": false,
+              "feedback": "Review: μόνος is negated when Xenophon’s work is described."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0300",
+          "type": "multiple-choice",
+          "topic": "word-study",
+          "category": "Grammar",
+          "prompt": "What does οὐ μόνος prevent us from claiming?",
+          "explanation": "The text protects the collective character of the response.",
+          "choices": [
+            {
+              "text": "that officers consulted",
+              "correct": false,
+              "feedback": "Review: The text protects the collective character of the response."
+            },
+            {
+              "text": "that he spoke",
+              "correct": false,
+              "feedback": "Review: The text protects the collective character of the response."
+            },
+            {
+              "text": "that danger existed",
+              "correct": false,
+              "feedback": "Review: The text protects the collective character of the response."
+            },
+            {
+              "text": "that Xenophon acted by himself",
+              "correct": true,
+              "feedback": "Correct: The text protects the collective character of the response."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0301",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which means “they released” (active)?",
+          "explanation": "-σαν is third plural active in this pattern.",
+          "choices": [
+            {
+              "text": "ἔλυσαν",
+              "correct": true,
+              "feedback": "Correct: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἔλυσας",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἐλύσαμεν",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0302",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which means “we released” (middle)?",
+          "explanation": "-άμεθα marks first plural middle.",
+          "choices": [
+            {
+              "text": "ἐλύσασθε",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλυσάμεθα",
+              "correct": true,
+              "feedback": "Correct: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλυσάμην",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0303",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "What person is ἐλύσω?",
+          "explanation": "The first-aorist middle second singular contracts to -ω.",
+          "choices": [
+            {
+              "text": "first singular active",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "third plural middle",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "second singular middle",
+              "correct": true,
+              "feedback": "Correct: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "second plural active",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0304",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which is third singular active?",
+          "explanation": "Third singular has -σε(ν), not -σα.",
+          "choices": [
+            {
+              "text": "ἔλυσαν",
+              "correct": false,
+              "feedback": "Review: Third singular has -σε(ν), not -σα."
+            },
+            {
+              "text": "ἔλυσας",
+              "correct": false,
+              "feedback": "Review: Third singular has -σε(ν), not -σα."
+            },
+            {
+              "text": "ἐλύσατε",
+              "correct": false,
+              "feedback": "Review: Third singular has -σε(ν), not -σα."
+            },
+            {
+              "text": "ἔλυσε(ν)",
+              "correct": true,
+              "feedback": "Correct: Third singular has -σε(ν), not -σα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0305",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "What does ἐδέξαντο mean here?",
+          "explanation": "δέχομαι has middle form and active lexical meaning.",
+          "choices": [
+            {
+              "text": "they accepted",
+              "correct": true,
+              "feedback": "Correct: δέχομαι has middle form and active lexical meaning."
+            },
+            {
+              "text": "they were accepted",
+              "correct": false,
+              "feedback": "Review: δέχομαι has middle form and active lexical meaning."
+            },
+            {
+              "text": "I accepted",
+              "correct": false,
+              "feedback": "Review: δέχομαι has middle form and active lexical meaning."
+            },
+            {
+              "text": "you accepted",
+              "correct": false,
+              "feedback": "Review: δέχομαι has middle form and active lexical meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0306",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which infinitive is first aorist middle?",
+          "explanation": "The σ and -ασθαι mark the first-aorist middle infinitive.",
+          "choices": [
+            {
+              "text": "λαβέσθαι",
+              "correct": false,
+              "feedback": "Review: The σ and -ασθαι mark the first-aorist middle infinitive."
+            },
+            {
+              "text": "λύσασθαι",
+              "correct": true,
+              "feedback": "Correct: The σ and -ασθαι mark the first-aorist middle infinitive."
+            },
+            {
+              "text": "λύεσθαι",
+              "correct": false,
+              "feedback": "Review: The σ and -ασθαι mark the first-aorist middle infinitive."
+            },
+            {
+              "text": "λύειν",
+              "correct": false,
+              "feedback": "Review: The σ and -ασθαι mark the first-aorist middle infinitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0307",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "What results from π + σ?",
+          "explanation": "A labial before σ combines as ψ.",
+          "choices": [
+            {
+              "text": "ξ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            },
+            {
+              "text": "θ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            },
+            {
+              "text": "ψ",
+              "correct": true,
+              "feedback": "Correct: A labial before σ combines as ψ."
+            },
+            {
+              "text": "λλ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0308",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "What results from χ + σ?",
+          "explanation": "A velar before σ combines as ξ.",
+          "choices": [
+            {
+              "text": "ψ",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "σσ always",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "ν",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "ξ",
+              "correct": true,
+              "feedback": "Correct: A velar before σ combines as ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0309",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which aorist belongs to πείθω?",
+          "explanation": "The dental θ disappears before σ.",
+          "choices": [
+            {
+              "text": "ἔπεισα",
+              "correct": true,
+              "feedback": "Correct: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἔπειθσα",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἔπειξα",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἐπείθομαι",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0310",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which is the assigned aorist of ποιέω?",
+          "explanation": "The contract stem vowel lengthens before σ.",
+          "choices": [
+            {
+              "text": "ἐπόιεσα",
+              "correct": false,
+              "feedback": "Review: The contract stem vowel lengthens before σ."
+            },
+            {
+              "text": "ἐποίησα",
+              "correct": true,
+              "feedback": "Correct: The contract stem vowel lengthens before σ."
+            },
+            {
+              "text": "ἔπραξα",
+              "correct": false,
+              "feedback": "Review: The contract stem vowel lengthens before σ."
+            },
+            {
+              "text": "ἐδήλωσα",
+              "correct": false,
+              "feedback": "Review: The contract stem vowel lengthens before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0311",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which change is internal stem lengthening?",
+          "explanation": "Contract stem lengthening differs from temporal augment.",
+          "choices": [
+            {
+              "text": "ἀ- → ἠ- at word beginning",
+              "correct": false,
+              "feedback": "Review: Contract stem lengthening differs from temporal augment."
+            },
+            {
+              "text": "adding ἐ- before λαβ-",
+              "correct": false,
+              "feedback": "Review: Contract stem lengthening differs from temporal augment."
+            },
+            {
+              "text": "ποιε- → ποιησ-",
+              "correct": true,
+              "feedback": "Correct: Contract stem lengthening differs from temporal augment."
+            },
+            {
+              "text": "removing augment from λαβών",
+              "correct": false,
+              "feedback": "Review: Contract stem lengthening differs from temporal augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0312",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which verb retains ε before σ in its assigned aorist?",
+          "explanation": "καλέω has ἐκάλεσα, a learned exception.",
+          "choices": [
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "Review: καλέω has ἐκάλεσα, a learned exception."
+            },
+            {
+              "text": "δηλόω",
+              "correct": false,
+              "feedback": "Review: καλέω has ἐκάλεσα, a learned exception."
+            },
+            {
+              "text": "τιμάω",
+              "correct": false,
+              "feedback": "Review: καλέω has ἐκάλεσα, a learned exception."
+            },
+            {
+              "text": "καλέω",
+              "correct": true,
+              "feedback": "Correct: καλέω has ἐκάλεσα, a learned exception."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0313",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is first-aorist active nominative masculine singular?",
+          "explanation": "λύσας is the unaugmented first-aorist active participle.",
+          "choices": [
+            {
+              "text": "λύσας",
+              "correct": true,
+              "feedback": "Correct: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "λυσάμενος",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0314",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is first-aorist middle nominative plural?",
+          "explanation": "-άμενοι marks the first-aorist middle masculine plural.",
+          "choices": [
+            {
+              "text": "λύσαντες",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "λυσάμενοι",
+              "correct": true,
+              "feedback": "Correct: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0315",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "What is the genitive singular of λύσας?",
+          "explanation": "The masculine participle has the stem λυσαντ-.",
+          "choices": [
+            {
+              "text": "λύσας",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "λυσάσης",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "λύσαντος",
+              "correct": true,
+              "feedback": "Correct: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "ἔλυσαν",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0316",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "What is feminine nominative singular?",
+          "explanation": "λύσασα is feminine; λῦσαν is neuter.",
+          "choices": [
+            {
+              "text": "λῦσαν",
+              "correct": false,
+              "feedback": "Review: λύσασα is feminine; λῦσαν is neuter."
+            },
+            {
+              "text": "λύσαντος",
+              "correct": false,
+              "feedback": "Review: λύσασα is feminine; λῦσαν is neuter."
+            },
+            {
+              "text": "λυσάμενον",
+              "correct": false,
+              "feedback": "Review: λύσασα is feminine; λῦσαν is neuter."
+            },
+            {
+              "text": "λύσασα",
+              "correct": true,
+              "feedback": "Correct: λύσασα is feminine; λῦσαν is neuter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0317",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Who considered in σκεψάμενοι οἱ λοχαγοί?",
+          "explanation": "The nominative masculine plural agrees with λοχαγοί.",
+          "choices": [
+            {
+              "text": "the captains",
+              "correct": true,
+              "feedback": "Correct: The nominative masculine plural agrees with λοχαγοί."
+            },
+            {
+              "text": "the proposal",
+              "correct": false,
+              "feedback": "Review: The nominative masculine plural agrees with λοχαγοί."
+            },
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: The nominative masculine plural agrees with λοχαγοί."
+            },
+            {
+              "text": "the dream",
+              "correct": false,
+              "feedback": "Review: The nominative masculine plural agrees with λοχαγοί."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0318",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which form has augment?",
+          "explanation": "Only the past indicative in this group has augment.",
+          "choices": [
+            {
+              "text": "λυσάμενοι",
+              "correct": false,
+              "feedback": "Review: Only the past indicative in this group has augment."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": true,
+              "feedback": "Correct: Only the past indicative in this group has augment."
+            },
+            {
+              "text": "λύσαντες",
+              "correct": false,
+              "feedback": "Review: Only the past indicative in this group has augment."
+            },
+            {
+              "text": "λύσασα",
+              "correct": false,
+              "feedback": "Review: Only the past indicative in this group has augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0319",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "What do first and second aorists share?",
+          "explanation": "The numbering labels formation, not a different aspect.",
+          "choices": [
+            {
+              "text": "identical stems",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "only instantaneous actions",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "whole-action aorist aspect",
+              "correct": true,
+              "feedback": "Correct: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "present indicative time",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0320",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which is a thematic second aorist?",
+          "explanation": "λαβ- takes thematic ο/ε endings.",
+          "choices": [
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἐδέξαντο",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἐκάλεσα",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": true,
+              "feedback": "Correct: λαβ- takes thematic ο/ε endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0321",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which pair are middle participles of different aorist patterns?",
+          "explanation": "-άμενος and -όμενος contrast first and second aorist middle.",
+          "choices": [
+            {
+              "text": "λυσάμενος and λαβόμενος",
+              "correct": true,
+              "feedback": "Correct: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "λύσας and λαβών",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "ἔλυσα and ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "λῦσαι and λαβεῖν",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0322",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Does “second aorist” mean a later event?",
+          "explanation": "These traditional labels are morphological.",
+          "choices": [
+            {
+              "text": "yes, after every first aorist",
+              "correct": false,
+              "feedback": "Review: These traditional labels are morphological."
+            },
+            {
+              "text": "no, it names formation",
+              "correct": true,
+              "feedback": "Correct: These traditional labels are morphological."
+            },
+            {
+              "text": "yes, the second day",
+              "correct": false,
+              "feedback": "Review: These traditional labels are morphological."
+            },
+            {
+              "text": "yes, only a second attempt",
+              "correct": false,
+              "feedback": "Review: These traditional labels are morphological."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0323",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which is the first-aorist active infinitive?",
+          "explanation": "λῦσαι has first-aorist formation without augment.",
+          "choices": [
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: λῦσαι has first-aorist formation without augment."
+            },
+            {
+              "text": "λύειν",
+              "correct": false,
+              "feedback": "Review: λῦσαι has first-aorist formation without augment."
+            },
+            {
+              "text": "λῦσαι",
+              "correct": true,
+              "feedback": "Correct: λῦσαι has first-aorist formation without augment."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Review: λῦσαι has first-aorist formation without augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-topic-0324",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "How should you choose a verb’s aorist stem?",
+          "explanation": "Principal parts preserve the lexical stem system.",
+          "choices": [
+            {
+              "text": "always add σ to the present",
+              "correct": false,
+              "feedback": "Review: Principal parts preserve the lexical stem system."
+            },
+            {
+              "text": "always remove two letters",
+              "correct": false,
+              "feedback": "Review: Principal parts preserve the lexical stem system."
+            },
+            {
+              "text": "use any second aorist",
+              "correct": false,
+              "feedback": "Review: Principal parts preserve the lexical stem system."
+            },
+            {
+              "text": "learn its assigned principal part",
+              "correct": true,
+              "feedback": "Correct: Principal parts preserve the lexical stem system."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 23 Required Grammar Exercises",
+      "description": "Apply each taught grammar topic before continuing.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-23-module-2-v1-grammar",
+      "pointsPossible": 24,
+      "instructions": [
+        "Answer every question.",
+        "A score of 80% or higher is required. Review feedback and retry after revising your understanding."
+      ],
+      "questions": [
+        {
+          "id": "lesson-23-grammar-0325",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which means “they released” (active)?",
+          "explanation": "-σαν is third plural active in this pattern.",
+          "choices": [
+            {
+              "text": "ἔλυσαν",
+              "correct": true,
+              "feedback": "Correct: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἔλυσας",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἐλύσαμεν",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0326",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "What results from π + σ?",
+          "explanation": "A labial before σ combines as ψ.",
+          "choices": [
+            {
+              "text": "ξ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            },
+            {
+              "text": "ψ",
+              "correct": true,
+              "feedback": "Correct: A labial before σ combines as ψ."
+            },
+            {
+              "text": "θ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            },
+            {
+              "text": "λλ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0327",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is first-aorist active nominative masculine singular?",
+          "explanation": "λύσας is the unaugmented first-aorist active participle.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "λυσάμενος",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "λύσας",
+              "correct": true,
+              "feedback": "Correct: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0328",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "What do first and second aorists share?",
+          "explanation": "The numbering labels formation, not a different aspect.",
+          "choices": [
+            {
+              "text": "identical stems",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "only instantaneous actions",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "present indicative time",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "whole-action aorist aspect",
+              "correct": true,
+              "feedback": "Correct: The numbering labels formation, not a different aspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0329",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which means “we released” (middle)?",
+          "explanation": "-άμεθα marks first plural middle.",
+          "choices": [
+            {
+              "text": "ἐλυσάμεθα",
+              "correct": true,
+              "feedback": "Correct: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλύσασθε",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλυσάμην",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0330",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "What results from χ + σ?",
+          "explanation": "A velar before σ combines as ξ.",
+          "choices": [
+            {
+              "text": "ψ",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "ξ",
+              "correct": true,
+              "feedback": "Correct: A velar before σ combines as ξ."
+            },
+            {
+              "text": "σσ always",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "ν",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0331",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is first-aorist middle nominative plural?",
+          "explanation": "-άμενοι marks the first-aorist middle masculine plural.",
+          "choices": [
+            {
+              "text": "λύσαντες",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "λυσάμενοι",
+              "correct": true,
+              "feedback": "Correct: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0332",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which is a thematic second aorist?",
+          "explanation": "λαβ- takes thematic ο/ε endings.",
+          "choices": [
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἐδέξαντο",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἐκάλεσα",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": true,
+              "feedback": "Correct: λαβ- takes thematic ο/ε endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0333",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "What person is ἐλύσω?",
+          "explanation": "The first-aorist middle second singular contracts to -ω.",
+          "choices": [
+            {
+              "text": "second singular middle",
+              "correct": true,
+              "feedback": "Correct: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "first singular active",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "third plural middle",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "second plural active",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0334",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which aorist belongs to πείθω?",
+          "explanation": "The dental θ disappears before σ.",
+          "choices": [
+            {
+              "text": "ἔπειθσα",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἔπεισα",
+              "correct": true,
+              "feedback": "Correct: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἔπειξα",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἐπείθομαι",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0335",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "What is the genitive singular of λύσας?",
+          "explanation": "The masculine participle has the stem λυσαντ-.",
+          "choices": [
+            {
+              "text": "λύσας",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "λυσάσης",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "λύσαντος",
+              "correct": true,
+              "feedback": "Correct: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "ἔλυσαν",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0336",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which pair are middle participles of different aorist patterns?",
+          "explanation": "-άμενος and -όμενος contrast first and second aorist middle.",
+          "choices": [
+            {
+              "text": "λύσας and λαβών",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "ἔλυσα and ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "λῦσαι and λαβεῖν",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "λυσάμενος and λαβόμενος",
+              "correct": true,
+              "feedback": "Correct: -άμενος and -όμενος contrast first and second aorist middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0337",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which is third singular active?",
+          "explanation": "Third singular has -σε(ν), not -σα.",
+          "choices": [
+            {
+              "text": "ἔλυσε(ν)",
+              "correct": true,
+              "feedback": "Correct: Third singular has -σε(ν), not -σα."
+            },
+            {
+              "text": "ἔλυσαν",
+              "correct": false,
+              "feedback": "Review: Third singular has -σε(ν), not -σα."
+            },
+            {
+              "text": "ἔλυσας",
+              "correct": false,
+              "feedback": "Review: Third singular has -σε(ν), not -σα."
+            },
+            {
+              "text": "ἐλύσατε",
+              "correct": false,
+              "feedback": "Review: Third singular has -σε(ν), not -σα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0338",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which is the assigned aorist of ποιέω?",
+          "explanation": "The contract stem vowel lengthens before σ.",
+          "choices": [
+            {
+              "text": "ἐπόιεσα",
+              "correct": false,
+              "feedback": "Review: The contract stem vowel lengthens before σ."
+            },
+            {
+              "text": "ἐποίησα",
+              "correct": true,
+              "feedback": "Correct: The contract stem vowel lengthens before σ."
+            },
+            {
+              "text": "ἔπραξα",
+              "correct": false,
+              "feedback": "Review: The contract stem vowel lengthens before σ."
+            },
+            {
+              "text": "ἐδήλωσα",
+              "correct": false,
+              "feedback": "Review: The contract stem vowel lengthens before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0339",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "What is feminine nominative singular?",
+          "explanation": "λύσασα is feminine; λῦσαν is neuter.",
+          "choices": [
+            {
+              "text": "λῦσαν",
+              "correct": false,
+              "feedback": "Review: λύσασα is feminine; λῦσαν is neuter."
+            },
+            {
+              "text": "λύσαντος",
+              "correct": false,
+              "feedback": "Review: λύσασα is feminine; λῦσαν is neuter."
+            },
+            {
+              "text": "λύσασα",
+              "correct": true,
+              "feedback": "Correct: λύσασα is feminine; λῦσαν is neuter."
+            },
+            {
+              "text": "λυσάμενον",
+              "correct": false,
+              "feedback": "Review: λύσασα is feminine; λῦσαν is neuter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0340",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Does “second aorist” mean a later event?",
+          "explanation": "These traditional labels are morphological.",
+          "choices": [
+            {
+              "text": "yes, after every first aorist",
+              "correct": false,
+              "feedback": "Review: These traditional labels are morphological."
+            },
+            {
+              "text": "yes, the second day",
+              "correct": false,
+              "feedback": "Review: These traditional labels are morphological."
+            },
+            {
+              "text": "yes, only a second attempt",
+              "correct": false,
+              "feedback": "Review: These traditional labels are morphological."
+            },
+            {
+              "text": "no, it names formation",
+              "correct": true,
+              "feedback": "Correct: These traditional labels are morphological."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0341",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "What does ἐδέξαντο mean here?",
+          "explanation": "δέχομαι has middle form and active lexical meaning.",
+          "choices": [
+            {
+              "text": "they accepted",
+              "correct": true,
+              "feedback": "Correct: δέχομαι has middle form and active lexical meaning."
+            },
+            {
+              "text": "they were accepted",
+              "correct": false,
+              "feedback": "Review: δέχομαι has middle form and active lexical meaning."
+            },
+            {
+              "text": "I accepted",
+              "correct": false,
+              "feedback": "Review: δέχομαι has middle form and active lexical meaning."
+            },
+            {
+              "text": "you accepted",
+              "correct": false,
+              "feedback": "Review: δέχομαι has middle form and active lexical meaning."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0342",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which change is internal stem lengthening?",
+          "explanation": "Contract stem lengthening differs from temporal augment.",
+          "choices": [
+            {
+              "text": "ἀ- → ἠ- at word beginning",
+              "correct": false,
+              "feedback": "Review: Contract stem lengthening differs from temporal augment."
+            },
+            {
+              "text": "ποιε- → ποιησ-",
+              "correct": true,
+              "feedback": "Correct: Contract stem lengthening differs from temporal augment."
+            },
+            {
+              "text": "adding ἐ- before λαβ-",
+              "correct": false,
+              "feedback": "Review: Contract stem lengthening differs from temporal augment."
+            },
+            {
+              "text": "removing augment from λαβών",
+              "correct": false,
+              "feedback": "Review: Contract stem lengthening differs from temporal augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0343",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Who considered in σκεψάμενοι οἱ λοχαγοί?",
+          "explanation": "The nominative masculine plural agrees with λοχαγοί.",
+          "choices": [
+            {
+              "text": "the proposal",
+              "correct": false,
+              "feedback": "Review: The nominative masculine plural agrees with λοχαγοί."
+            },
+            {
+              "text": "Cyrus",
+              "correct": false,
+              "feedback": "Review: The nominative masculine plural agrees with λοχαγοί."
+            },
+            {
+              "text": "the captains",
+              "correct": true,
+              "feedback": "Correct: The nominative masculine plural agrees with λοχαγοί."
+            },
+            {
+              "text": "the dream",
+              "correct": false,
+              "feedback": "Review: The nominative masculine plural agrees with λοχαγοί."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0344",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which is the first-aorist active infinitive?",
+          "explanation": "λῦσαι has first-aorist formation without augment.",
+          "choices": [
+            {
+              "text": "λαβεῖν",
+              "correct": false,
+              "feedback": "Review: λῦσαι has first-aorist formation without augment."
+            },
+            {
+              "text": "λύειν",
+              "correct": false,
+              "feedback": "Review: λῦσαι has first-aorist formation without augment."
+            },
+            {
+              "text": "λαμβάνειν",
+              "correct": false,
+              "feedback": "Review: λῦσαι has first-aorist formation without augment."
+            },
+            {
+              "text": "λῦσαι",
+              "correct": true,
+              "feedback": "Correct: λῦσαι has first-aorist formation without augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0345",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which infinitive is first aorist middle?",
+          "explanation": "The σ and -ασθαι mark the first-aorist middle infinitive.",
+          "choices": [
+            {
+              "text": "λύσασθαι",
+              "correct": true,
+              "feedback": "Correct: The σ and -ασθαι mark the first-aorist middle infinitive."
+            },
+            {
+              "text": "λαβέσθαι",
+              "correct": false,
+              "feedback": "Review: The σ and -ασθαι mark the first-aorist middle infinitive."
+            },
+            {
+              "text": "λύεσθαι",
+              "correct": false,
+              "feedback": "Review: The σ and -ασθαι mark the first-aorist middle infinitive."
+            },
+            {
+              "text": "λύειν",
+              "correct": false,
+              "feedback": "Review: The σ and -ασθαι mark the first-aorist middle infinitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0346",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which verb retains ε before σ in its assigned aorist?",
+          "explanation": "καλέω has ἐκάλεσα, a learned exception.",
+          "choices": [
+            {
+              "text": "ποιέω",
+              "correct": false,
+              "feedback": "Review: καλέω has ἐκάλεσα, a learned exception."
+            },
+            {
+              "text": "καλέω",
+              "correct": true,
+              "feedback": "Correct: καλέω has ἐκάλεσα, a learned exception."
+            },
+            {
+              "text": "δηλόω",
+              "correct": false,
+              "feedback": "Review: καλέω has ἐκάλεσα, a learned exception."
+            },
+            {
+              "text": "τιμάω",
+              "correct": false,
+              "feedback": "Review: καλέω has ἐκάλεσα, a learned exception."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0347",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which form has augment?",
+          "explanation": "Only the past indicative in this group has augment.",
+          "choices": [
+            {
+              "text": "λυσάμενοι",
+              "correct": false,
+              "feedback": "Review: Only the past indicative in this group has augment."
+            },
+            {
+              "text": "λύσαντες",
+              "correct": false,
+              "feedback": "Review: Only the past indicative in this group has augment."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": true,
+              "feedback": "Correct: Only the past indicative in this group has augment."
+            },
+            {
+              "text": "λύσασα",
+              "correct": false,
+              "feedback": "Review: Only the past indicative in this group has augment."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-grammar-0348",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "How should you choose a verb’s aorist stem?",
+          "explanation": "Principal parts preserve the lexical stem system.",
+          "choices": [
+            {
+              "text": "always add σ to the present",
+              "correct": false,
+              "feedback": "Review: Principal parts preserve the lexical stem system."
+            },
+            {
+              "text": "always remove two letters",
+              "correct": false,
+              "feedback": "Review: Principal parts preserve the lexical stem system."
+            },
+            {
+              "text": "use any second aorist",
+              "correct": false,
+              "feedback": "Review: Principal parts preserve the lexical stem system."
+            },
+            {
+              "text": "learn its assigned principal part",
+              "correct": true,
+              "feedback": "Correct: Principal parts preserve the lexical stem system."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 23 Final Quiz",
+      "description": "Read, interpret, and apply the lesson across all three pages.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-23-module-2-v1-final",
+      "pointsPossible": 30,
+      "instructions": [
+        "Answer every question.",
+        "A score of 80% or higher is required. Review feedback and retry after revising your understanding."
+      ],
+      "questions": [
+        {
+          "id": "lesson-23-final-0349",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Xenophon see in the dream?",
+          "explanation": "The first paragraph describes the reported dream.",
+          "choices": [
+            {
+              "text": "fire around his father’s house",
+              "correct": true,
+              "feedback": "Correct: The first paragraph describes the reported dream."
+            },
+            {
+              "text": "the army already home",
+              "correct": false,
+              "feedback": "Review: The first paragraph describes the reported dream."
+            },
+            {
+              "text": "Cleocritus in Persia",
+              "correct": false,
+              "feedback": "Review: The first paragraph describes the reported dream."
+            },
+            {
+              "text": "Rhodian ships at Athens",
+              "correct": false,
+              "feedback": "Review: The first paragraph describes the reported dream."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0350",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How does he interpret it?",
+          "explanation": "The two interpretations preserve uncertainty.",
+          "choices": [
+            {
+              "text": "as a certain promise of safety",
+              "correct": false,
+              "feedback": "Review: The two interpretations preserve uncertainty."
+            },
+            {
+              "text": "with both hope and fear",
+              "correct": true,
+              "feedback": "Correct: The two interpretations preserve uncertainty."
+            },
+            {
+              "text": "as proof that no action is needed",
+              "correct": false,
+              "feedback": "Review: The two interpretations preserve uncertainty."
+            },
+            {
+              "text": "as news from Nicarchus",
+              "correct": false,
+              "feedback": "Review: The two interpretations preserve uncertainty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0351",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whom does he summon first?",
+          "explanation": "He starts with Proxenus’s officers.",
+          "choices": [
+            {
+              "text": "the Persian king",
+              "correct": false,
+              "feedback": "Review: He starts with Proxenus’s officers."
+            },
+            {
+              "text": "all Athenian citizens",
+              "correct": false,
+              "feedback": "Review: He starts with Proxenus’s officers."
+            },
+            {
+              "text": "Proxenus’s captains",
+              "correct": true,
+              "feedback": "Correct: He starts with Proxenus’s officers."
+            },
+            {
+              "text": "Lycius’s horsemen",
+              "correct": false,
+              "feedback": "Review: He starts with Proxenus’s officers."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0352",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What proposal do the captains accept?",
+          "explanation": "The speech turns toward preparation.",
+          "choices": [
+            {
+              "text": "surrender every weapon",
+              "correct": false,
+              "feedback": "Review: The speech turns toward preparation."
+            },
+            {
+              "text": "return to Delphi immediately",
+              "correct": false,
+              "feedback": "Review: The speech turns toward preparation."
+            },
+            {
+              "text": "crown Cyrus",
+              "correct": false,
+              "feedback": "Review: The speech turns toward preparation."
+            },
+            {
+              "text": "prepare to respond to danger",
+              "correct": true,
+              "feedback": "Correct: The speech turns toward preparation."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0353",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whose place does Xenophon take?",
+          "explanation": "He is elected as Proxenus’s replacement.",
+          "choices": [
+            {
+              "text": "Proxenus’s",
+              "correct": true,
+              "feedback": "Correct: He is elected as Proxenus’s replacement."
+            },
+            {
+              "text": "Socrates the philosopher’s",
+              "correct": false,
+              "feedback": "Review: He is elected as Proxenus’s replacement."
+            },
+            {
+              "text": "Cyrus’s royal place",
+              "correct": false,
+              "feedback": "Review: He is elected as Proxenus’s replacement."
+            },
+            {
+              "text": "Cleocritus’s",
+              "correct": false,
+              "feedback": "Review: He is elected as Proxenus’s replacement."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0354",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does the Euthydemus comparison occur?",
+          "explanation": "The final paragraph explicitly changes work and setting.",
+          "choices": [
+            {
+              "text": "in the officers’ camp conversation",
+              "correct": false,
+              "feedback": "Review: The final paragraph explicitly changes work and setting."
+            },
+            {
+              "text": "in a separate Memorabilia account",
+              "correct": true,
+              "feedback": "Correct: The final paragraph explicitly changes work and setting."
+            },
+            {
+              "text": "at Cunaxa beside Cyrus",
+              "correct": false,
+              "feedback": "Review: The final paragraph explicitly changes work and setting."
+            },
+            {
+              "text": "in Tissaphernes’s doorway",
+              "correct": false,
+              "feedback": "Review: The final paragraph explicitly changes work and setting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0355",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does καλέω mean in this lesson?",
+          "explanation": "καλέω, καλῶ, ἐκάλεσα means summon in the assigned context.",
+          "choices": [
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": true,
+              "feedback": "Correct: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": false,
+              "feedback": "Review: καλέω, καλῶ, ἐκάλεσα means summon in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0356",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does σκέπτομαι mean in this lesson?",
+          "explanation": "σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": false,
+              "feedback": "Review: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": true,
+              "feedback": "Correct: σκέπτομαι, σκέψομαι, ἐσκεψάμην means consider in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0357",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does λογίζομαι mean in this lesson?",
+          "explanation": "λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context.",
+          "choices": [
+            {
+              "text": "reason",
+              "correct": true,
+              "feedback": "Correct: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            },
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": false,
+              "feedback": "Review: λογίζομαι, λογιοῦμαι, ἐλογισάμην means reason in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0358",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does δέχομαι mean in this lesson?",
+          "explanation": "δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            },
+            {
+              "text": "accept",
+              "correct": true,
+              "feedback": "Correct: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: δέχομαι, δέξομαι, ἐδεξάμην means accept in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0359",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does βουλεύομαι mean in this lesson?",
+          "explanation": "βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            },
+            {
+              "text": "deliberate",
+              "correct": true,
+              "feedback": "Correct: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: βουλεύομαι, βουλεύσομαι, ἐβουλευσάμην means deliberate in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0360",
+          "type": "multiple-choice",
+          "topic": "vocabulary",
+          "category": "Vocabulary",
+          "prompt": "What does φροντίζω mean in this lesson?",
+          "explanation": "φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context.",
+          "choices": [
+            {
+              "text": "summon",
+              "correct": false,
+              "feedback": "Review: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            },
+            {
+              "text": "consider",
+              "correct": false,
+              "feedback": "Review: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            },
+            {
+              "text": "reason",
+              "correct": false,
+              "feedback": "Review: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            },
+            {
+              "text": "take thought",
+              "correct": true,
+              "feedback": "Correct: φροντίζω, φροντιῶ, ἐφρόντισα means take thought in the assigned context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0361",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which means “they released” (active)?",
+          "explanation": "-σαν is third plural active in this pattern.",
+          "choices": [
+            {
+              "text": "ἔλυσαν",
+              "correct": true,
+              "feedback": "Correct: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἔλυσας",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            },
+            {
+              "text": "ἐλύσαμεν",
+              "correct": false,
+              "feedback": "Review: -σαν is third plural active in this pattern."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0362",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "What results from π + σ?",
+          "explanation": "A labial before σ combines as ψ.",
+          "choices": [
+            {
+              "text": "ξ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            },
+            {
+              "text": "ψ",
+              "correct": true,
+              "feedback": "Correct: A labial before σ combines as ψ."
+            },
+            {
+              "text": "θ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            },
+            {
+              "text": "λλ",
+              "correct": false,
+              "feedback": "Review: A labial before σ combines as ψ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0363",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is first-aorist active nominative masculine singular?",
+          "explanation": "λύσας is the unaugmented first-aorist active participle.",
+          "choices": [
+            {
+              "text": "λαβών",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "λυσάμενος",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "λύσας",
+              "correct": true,
+              "feedback": "Correct: λύσας is the unaugmented first-aorist active participle."
+            },
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: λύσας is the unaugmented first-aorist active participle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0364",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "What do first and second aorists share?",
+          "explanation": "The numbering labels formation, not a different aspect.",
+          "choices": [
+            {
+              "text": "identical stems",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "only instantaneous actions",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "present indicative time",
+              "correct": false,
+              "feedback": "Review: The numbering labels formation, not a different aspect."
+            },
+            {
+              "text": "whole-action aorist aspect",
+              "correct": true,
+              "feedback": "Correct: The numbering labels formation, not a different aspect."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0365",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "Which means “we released” (middle)?",
+          "explanation": "-άμεθα marks first plural middle.",
+          "choices": [
+            {
+              "text": "ἐλυσάμεθα",
+              "correct": true,
+              "feedback": "Correct: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλύσασθε",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            },
+            {
+              "text": "ἐλυσάμην",
+              "correct": false,
+              "feedback": "Review: -άμεθα marks first plural middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0366",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "What results from χ + σ?",
+          "explanation": "A velar before σ combines as ξ.",
+          "choices": [
+            {
+              "text": "ψ",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "ξ",
+              "correct": true,
+              "feedback": "Correct: A velar before σ combines as ξ."
+            },
+            {
+              "text": "σσ always",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            },
+            {
+              "text": "ν",
+              "correct": false,
+              "feedback": "Review: A velar before σ combines as ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0367",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "Which is first-aorist middle nominative plural?",
+          "explanation": "-άμενοι marks the first-aorist middle masculine plural.",
+          "choices": [
+            {
+              "text": "λύσαντες",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "λαβόντες",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "λυσάμενοι",
+              "correct": true,
+              "feedback": "Correct: -άμενοι marks the first-aorist middle masculine plural."
+            },
+            {
+              "text": "ἐλύσαντο",
+              "correct": false,
+              "feedback": "Review: -άμενοι marks the first-aorist middle masculine plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0368",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which is a thematic second aorist?",
+          "explanation": "λαβ- takes thematic ο/ε endings.",
+          "choices": [
+            {
+              "text": "ἔλυσα",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἐδέξαντο",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἐκάλεσα",
+              "correct": false,
+              "feedback": "Review: λαβ- takes thematic ο/ε endings."
+            },
+            {
+              "text": "ἔλαβον",
+              "correct": true,
+              "feedback": "Correct: λαβ- takes thematic ο/ε endings."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0369",
+          "type": "multiple-choice",
+          "topic": "sigmatic-indicative",
+          "category": "Grammar",
+          "prompt": "What person is ἐλύσω?",
+          "explanation": "The first-aorist middle second singular contracts to -ω.",
+          "choices": [
+            {
+              "text": "second singular middle",
+              "correct": true,
+              "feedback": "Correct: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "first singular active",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "third plural middle",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            },
+            {
+              "text": "second plural active",
+              "correct": false,
+              "feedback": "Review: The first-aorist middle second singular contracts to -ω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0370",
+          "type": "multiple-choice",
+          "topic": "sigmatic-stem-changes",
+          "category": "Grammar",
+          "prompt": "Which aorist belongs to πείθω?",
+          "explanation": "The dental θ disappears before σ.",
+          "choices": [
+            {
+              "text": "ἔπειθσα",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἔπεισα",
+              "correct": true,
+              "feedback": "Correct: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἔπειξα",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            },
+            {
+              "text": "ἐπείθομαι",
+              "correct": false,
+              "feedback": "Review: The dental θ disappears before σ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0371",
+          "type": "multiple-choice",
+          "topic": "first-aorist-participles",
+          "category": "Grammar",
+          "prompt": "What is the genitive singular of λύσας?",
+          "explanation": "The masculine participle has the stem λυσαντ-.",
+          "choices": [
+            {
+              "text": "λύσας",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "λυσάσης",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "λύσαντος",
+              "correct": true,
+              "feedback": "Correct: The masculine participle has the stem λυσαντ-."
+            },
+            {
+              "text": "ἔλυσαν",
+              "correct": false,
+              "feedback": "Review: The masculine participle has the stem λυσαντ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0372",
+          "type": "multiple-choice",
+          "topic": "first-second-aorist",
+          "category": "Grammar",
+          "prompt": "Which pair are middle participles of different aorist patterns?",
+          "explanation": "-άμενος and -όμενος contrast first and second aorist middle.",
+          "choices": [
+            {
+              "text": "λύσας and λαβών",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "ἔλυσα and ἔλαβον",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "λῦσαι and λαβεῖν",
+              "correct": false,
+              "feedback": "Review: -άμενος and -όμενος contrast first and second aorist middle."
+            },
+            {
+              "text": "λυσάμενος and λαβόμενος",
+              "correct": true,
+              "feedback": "Correct: -άμενος and -όμενος contrast first and second aorist middle."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0373",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What status does the dream have?",
+          "explanation": "The account preserves Xenophon’s fear as well as hope.",
+          "choices": [
+            {
+              "text": "a reported dream with uncertain interpretation",
+              "correct": true,
+              "feedback": "Correct: The account preserves Xenophon’s fear as well as hope."
+            },
+            {
+              "text": "verified divine instructions",
+              "correct": false,
+              "feedback": "Review: The account preserves Xenophon’s fear as well as hope."
+            },
+            {
+              "text": "a Persian official message",
+              "correct": false,
+              "feedback": "Review: The account preserves Xenophon’s fear as well as hope."
+            },
+            {
+              "text": "a public election result",
+              "correct": false,
+              "feedback": "Review: The account preserves Xenophon’s fear as well as hope."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0374",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What makes the replacement command collective?",
+          "explanation": "The culture page identifies consultation and multiple elections.",
+          "choices": [
+            {
+              "text": "Xenophon seizes royal power",
+              "correct": false,
+              "feedback": "Review: The culture page identifies consultation and multiple elections."
+            },
+            {
+              "text": "several officers deliberate and replacements are elected",
+              "correct": true,
+              "feedback": "Correct: The culture page identifies consultation and multiple elections."
+            },
+            {
+              "text": "only one general survives anywhere",
+              "correct": false,
+              "feedback": "Review: The culture page identifies consultation and multiple elections."
+            },
+            {
+              "text": "Socrates commands from Athens",
+              "correct": false,
+              "feedback": "Review: The culture page identifies consultation and multiple elections."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0375",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Who presses for prompt elections in the source?",
+          "explanation": "Cheirisophus contributes to the rebuilding of command.",
+          "choices": [
+            {
+              "text": "Cleocritus",
+              "correct": false,
+              "feedback": "Review: Cheirisophus contributes to the rebuilding of command."
+            },
+            {
+              "text": "Euthydemus",
+              "correct": false,
+              "feedback": "Review: Cheirisophus contributes to the rebuilding of command."
+            },
+            {
+              "text": "Cheirisophus",
+              "correct": true,
+              "feedback": "Correct: Cheirisophus contributes to the rebuilding of command."
+            },
+            {
+              "text": "Apollo",
+              "correct": false,
+              "feedback": "Review: Cheirisophus contributes to the rebuilding of command."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0376",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Does ignorance of danger suffice for courage in the comparison?",
+          "explanation": "Socrates distinguishes informed courage from ignorance.",
+          "choices": [
+            {
+              "text": "yes, always",
+              "correct": false,
+              "feedback": "Review: Socrates distinguishes informed courage from ignorance."
+            },
+            {
+              "text": "yes, if the danger is military",
+              "correct": false,
+              "feedback": "Review: Socrates distinguishes informed courage from ignorance."
+            },
+            {
+              "text": "yes, if the speaker is young",
+              "correct": false,
+              "feedback": "Review: Socrates distinguishes informed courage from ignorance."
+            },
+            {
+              "text": "no",
+              "correct": true,
+              "feedback": "Correct: Socrates distinguishes informed courage from ignorance."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0377",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why keep the works separate?",
+          "explanation": "The comparison is editorial, not a fictional historical event.",
+          "choices": [
+            {
+              "text": "to avoid inventing a camp reading of the later account",
+              "correct": true,
+              "feedback": "Correct: The comparison is editorial, not a fictional historical event."
+            },
+            {
+              "text": "to hide all comparisons",
+              "correct": false,
+              "feedback": "Review: The comparison is editorial, not a fictional historical event."
+            },
+            {
+              "text": "to make Socrates a Persian general",
+              "correct": false,
+              "feedback": "Review: The comparison is editorial, not a fictional historical event."
+            },
+            {
+              "text": "to deny the expedition happened",
+              "correct": false,
+              "feedback": "Review: The comparison is editorial, not a fictional historical event."
+            }
+          ]
+        },
+        {
+          "id": "lesson-23-final-0378",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What responsibility gives initiative value?",
+          "explanation": "Leadership joins judgment to practical care.",
+          "choices": [
+            {
+              "text": "confidence without preparation",
+              "correct": false,
+              "feedback": "Review: Leadership joins judgment to practical care."
+            },
+            {
+              "text": "informed action for the people led",
+              "correct": true,
+              "feedback": "Correct: Leadership joins judgment to practical care."
+            },
+            {
+              "text": "claiming sole credit",
+              "correct": false,
+              "feedback": "Review: Leadership joins judgment to practical care."
+            },
+            {
+              "text": "ignoring all other officers",
+              "correct": false,
+              "feedback": "Review: Leadership joins judgment to practical care."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-22",
+    "title": "Trust, Betrayal, and the Missing Generals",
+    "fallbackUrl": "lesson.html?lesson=22&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-24",
+    "title": "Learning to Bring the Army Home",
+    "fallbackUrl": "lesson.html?lesson=24&page=1"
+  },
+  "contentRevision": "lesson-23-module-2-v1"
+}

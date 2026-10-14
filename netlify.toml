@@ -1,6 +1,32 @@
 [build]
-  publish = "."
+  publish = "dist"
+  command = "node scripts/build-site.mjs"
 
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+
+# Translation reference answers are bundled into the server function, never served as static files.
+[[redirects]]
+  from = "/content/lesson-1-translations.json"
+  to = "/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/netlify/functions/*"
+  to = "/index.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/db/migrations/0041_lesson_1_translation_checks.sql"
+  to = "/index.html"
+  status = 404
+  force = true

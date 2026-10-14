@@ -124,13 +124,13 @@
     }
   }
 
-  async function recordActivityResult({ lessonSlug, activityType, activityRevision, score, passed, pointsEarned, pointsPossible, categoryScores, answers }) {
+  async function recordActivityResult({ lessonSlug, activityType, activityRevision, score, passed, pointsEarned, pointsPossible, categoryScores, answers, translationCheckId }) {
     let savedRevisionedQuiz = null;
     if (["lesson-quiz", "module-exam"].includes(activityType) && activityRevision) {
       try {
         savedRevisionedQuiz = await postProgress({
           action: "activity_passed", lessonSlug, activityType, activityRevision,
-          score, passed, pointsEarned, pointsPossible, categoryScores, answers
+          score, passed, pointsEarned, pointsPossible, categoryScores, answers, translationCheckId
         });
       } catch (error) {
         console.warn("The final quiz result could not be saved.", error);
@@ -185,7 +185,9 @@
         passed,
         pointsEarned,
         pointsPossible,
-        categoryScores
+        categoryScores,
+        answers,
+        translationCheckId
       });
     } catch (error) {
       console.warn("Using local activity progress fallback.", error);

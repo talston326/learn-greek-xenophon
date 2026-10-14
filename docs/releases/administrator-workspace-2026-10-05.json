@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-05",
+  "productionUrl": "https://learn-greek-xenophon.netlify.app",
+  "productionDeployId": "6ac3fbcc7c5ccbfc5a6d7bb8",
+  "previewDeployId": "6ac3f9fcdd0964f854242cf3",
+  "artifact": "/private/tmp/xenophon-admin-workspace-release-20261005",
+  "baseArtifact": "/private/tmp/xenophon-lesson1-exercises-release-20261005",
+  "migration": "0044_administrator_workspace.sql",
+  "checks": [
+    "real SQL settings/draft/full publication tests with rolled-back writes",
+    "administrator credential/role/course guards and conflict checks",
+    "runtime registration/feedback/AI policy tests using mocked provider",
+    "live public settings API and administrator API denial",
+    "Lesson 1 version 23, 250 practice questions and completed modes preserved",
+    "browser saved settings/reload, course search, topic counts, question bank filters and pagination, grammar editor controls"
+  ],
+  "liveDefaults": {
+    "lessonAccess": "open",
+    "grammarPassingScore": 80,
+    "quizPassingScore": 80,
+    "registrationOpen": true,
+    "feedbackEnabled": true,
+    "translationEnabled": true,
+    "translationDailyLimit": 100,
+    "translationMonthlyLimit": 8
+  },
+  "screenshots": [
+    "/private/tmp/xenophon-ai-qa/administrator-course-content-live.png",
+    "/private/tmp/xenophon-ai-qa/administrator-site-settings-live.png"
+  ],
+  "sha256": {
+    "public/script.js": "aa57c82a85bda2507fe8dc38943c6227642f59648f4d94b6ad29f5766013d621",
+    "public/lesson.js": "a00e5e85436c649f8bb71bcf23468a4af428fb0464c6b10a25f241c0d21d1397",
+    "public/activity.js": "6f73afa16aba4f2184303d31ce1821337b6b2f7427237c311974570bf07f2708",
+    "public/styles.css": "cab009433d3082c124a36a175745e2aed3a70d82d72b7592363b27b1ba8dbb3b",
+    "public/site-policy.js": "bfd92230b0eee4371edbf487cfdec218f5d68313d3a468444098e79cae72d2e9",
+    "public/admin-workspace.js": "037f0f18398ba056e240ec2c763aeb97296c2c5323cd4746ad955f1898a4e3a1",
+    "public/site-settings.html": "bd64e0a7fa6d68034a1a0c09e659a19242e4dbde78cf21d3ce93d05ba24631a5",
+    "public/site-settings.js": "c66c86f3426c4869a8417b6e8f1d5eb881042891788f533e2d435d57acc46e01",
+    "public/course-content.html": "d2847a476bf6a69894cfa8a7bbe5d3d3dd6577a5bcc1691961fae5a799d7cbd1",
+    "public/course-content.js": "a84ff2336a3003b82cae1de9fb3c4460cb321b789c356b7a41068e3305f4b347",
+    "netlify/functions/site-settings.mts": "3d863469f47e20542f89a21ced70a67dc7f25f893e87cf44a90db2de86876bae",
+    "netlify/functions/admin-course-content.mts": "92bf81c2bc3e4cb2fbf9389ef987c1554ff290b38232511a8247be5b27234bff",
+    "netlify/functions/admin-lesson-content.mts": "e8c70d5c4a2488dd89cf1be42718525b39a089aa9b5836aeecfe3fa11eec8199",
+    "netlify/functions/_shared/admin-access.mts": "532e7f30f8ca3ddd5c64d30a5f126b062003197f20629116a73be8737717efe3",
+    "netlify/functions/_shared/site-policy.mts": "3f792c37a448d796f1ea4e0b5354e7373a3c059ca06779278ec43a346ab91914",
+    "netlify/functions/register.mts": "293af47603c5a66e590ae821eb9f10ee6017f145d269eca80b1548c2e81f92cf",
+    "netlify/functions/course-feedback.mts": "57b87ebbb7b8c34c0b40abc7ec7214e85ec86136dbb9a72b93f5c5a5f306d6b9",
+    "netlify/functions/lesson-content.mts": "c661ed4e34bec8171211469dd294e712af34cacd0e9791847c134bfc7e1ab27a",
+    "netlify/functions/lesson-progress.mts": "2ca5668203aa55dd4a039bf15d1c4a4828486d720d482c282fa47710873f924b",
+    "netlify/functions/translation-check.mts": "ad54eeaa4109c17af03a31c6732a4141e59e20f4669aafc5952409df19bf3c62"
+  },
+  "excluded": [
+    "unpublished reading-translation UI",
+    "unpublished AI translation question-bank additions",
+    "unrelated atlas work"
+  ]
+}

@@ -1,0 +1,4386 @@
+{
+  "license": "Pleiades contributors, CC BY 3.0",
+  "verified_on": "2026-09-30",
+  "records": {
+    "570106": {
+      "id": "570106",
+      "title": "Argos",
+      "source_url": "https://pleiades.stoa.org/places/570106",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.720380240841404,
+        37.63104688932719
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Argos",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570106/argos"
+        },
+        {
+          "attested": "",
+          "romanized": "Pelasgia",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570106/pelasgia"
+        },
+        {
+          "attested": "Ἄργος",
+          "romanized": "Árgos, Argos",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/570106/argos-name"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Argos was a city of ancient Greece that reached its cultural highpoint under Pheidon in the seventh century BC."
+    },
+    "579885": {
+      "id": "579885",
+      "title": "Athenae",
+      "source_url": "https://pleiades.stoa.org/places/579885",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.723914356100423,
+        37.97163725472171
+      ],
+      "names": [
+        {
+          "attested": "Athenae",
+          "romanized": "Athenae",
+          "language": "la",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/579885/athenae"
+        },
+        {
+          "attested": "Athens",
+          "romanized": "Athens",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/579885/athens"
+        },
+        {
+          "attested": "Αθήνα",
+          "romanized": "Athina, Athína",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/579885/athina"
+        },
+        {
+          "attested": "Ἀθῆναι",
+          "romanized": "Athēnai, Athenai",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/579885/name.2015-09-02.2659017776"
+        },
+        {
+          "attested": "Athen",
+          "romanized": "Athen",
+          "language": "de",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/579885/athen"
+        },
+        {
+          "attested": "Athenas",
+          "romanized": "Athenas",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/579885/athenas"
+        },
+        {
+          "attested": "",
+          "romanized": "Ays̱ina,Aythina",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/579885/aysina"
+        },
+        {
+          "attested": "",
+          "romanized": "Ays̱inās̱",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/579885/aysinas"
+        },
+        {
+          "attested": "",
+          "romanized": "Atina",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/579885/atina"
+        }
+      ],
+      "location_precision": [],
+      "description": "A major Greek city-state and the principal city of Attika. Modern Athens in Greece."
+    },
+    "540703": {
+      "id": "540703",
+      "title": "Chalcis",
+      "source_url": "https://pleiades.stoa.org/places/540703",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.621937,
+        38.457139
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Chalcis",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540703/chalcis"
+        },
+        {
+          "attested": "Χαλκίς",
+          "romanized": "Chalkís, Chalkis",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/540703/chalkis"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Chalkis was a settlement on Euboea, inhabited from the sub-Neolithic period, which played an important role in Greek colonisation of the Mediterranean in the 8th century BC. It was part of the Delian League in the 5th century BC and the Second Athenian Sea League in the 4th century BC. In Hellenistic times it was one of the three 'fetters of Greece' used by Macedon to control Greece. It came under Roman control in 197 BC."
+    },
+    "530834": {
+      "id": "530834",
+      "title": "Corcyra (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/530834",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        19.906703,
+        39.60813
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Corcyra",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/530834/corcyra"
+        },
+        {
+          "attested": "Corfu",
+          "romanized": "Corfu",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/530834/corfu"
+        },
+        {
+          "attested": "Κέρκυρα",
+          "romanized": "Kérkyra, Kerkyra",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/530834/name.2015-09-09.6324338440"
+        },
+        {
+          "attested": "",
+          "romanized": "Ḳorfu",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/530834/korfu"
+        },
+        {
+          "attested": "Crocira Port(vs)",
+          "romanized": "Crocira Portus",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/530834/crocira-portus"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The eponymous settlement of the island of Corcyra (modern Korfu)."
+    },
+    "570182": {
+      "id": "570182",
+      "title": "Corinthus/Korinthos",
+      "source_url": "https://pleiades.stoa.org/places/570182",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.878614390874485,
+        37.90564164345828
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Corinthus",
+          "language": "la",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570182/corinthus"
+        },
+        {
+          "attested": "Αἰγιαλεῖς",
+          "romanized": "Aigiales",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570182/aigiales"
+        },
+        {
+          "attested": "Αἰγιαλεὺς",
+          "romanized": "Aigialos",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570182/aigialos"
+        },
+        {
+          "attested": "Σικυωνίᾳ",
+          "romanized": "Sicyonia",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570182/sicyonia"
+        },
+        {
+          "attested": "Corinth",
+          "romanized": "Corinth",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/570182/corinth"
+        },
+        {
+          "attested": "Κόρινθος",
+          "romanized": "Korinthos",
+          "language": "grc",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570182/korinthos"
+        },
+        {
+          "attested": "Ancient Corinth",
+          "romanized": "Ancient Corinth",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/570182/ancient-corinth"
+        },
+        {
+          "attested": "Colonia Laus Iulia Corinthus",
+          "romanized": "Colonia Laus Iulia Corinthus",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570182/colonia-laus-iulia-corinthus"
+        },
+        {
+          "attested": "Corintho",
+          "romanized": "Corintho",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570182/corintho"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient Greek and Roman city of Corinth, located in the Peloponnese, Greece. Also known today as Archaia Korinthos and not to be confused with the nearby modern town."
+    },
+    "599587": {
+      "id": "599587",
+      "title": "Delos (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/599587",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.268194,
+        37.397274
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Delos",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/599587/delos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient settlement of Delos, located on the Aegean island of the same name."
+    },
+    "540726": {
+      "id": "540726",
+      "title": "Delphi",
+      "source_url": "https://pleiades.stoa.org/places/540726",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.501169,
+        38.482289
+      ],
+      "names": [
+        {
+          "attested": "Πυθώ",
+          "romanized": "Puthō, Pytho",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/540726/putho"
+        },
+        {
+          "attested": "",
+          "romanized": "Delphi",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540726/delphi"
+        },
+        {
+          "attested": "Δελφοί",
+          "romanized": "Delphoi",
+          "language": "grc",
+          "start": -550,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/540726/delphoi"
+        },
+        {
+          "attested": "دلفي",
+          "romanized": "Dilfi, Delfey, DLFY, DLFI, Odaj, dlfy",
+          "language": "ar",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/540726/dlfy"
+        },
+        {
+          "attested": "Delfos",
+          "romanized": "Delfos",
+          "language": "es",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/540726/delfos"
+        },
+        {
+          "attested": "Delfi",
+          "romanized": "Delfi",
+          "language": "tr",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/540726/delfi"
+        },
+        {
+          "attested": "Delphes",
+          "romanized": "Delphes",
+          "language": "fr",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/540726/delphes"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient panhellenic sanctuary of Delphi in Greece, seat of the oracle of Apollo."
+    },
+    "599612": {
+      "id": "599612",
+      "title": "Ephesus/Arsinoe(ia)",
+      "source_url": "https://pleiades.stoa.org/places/599612",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.34240298195866,
+        37.940164271971945
+      ],
+      "names": [
+        {
+          "attested": "Ephesus",
+          "romanized": "Ephesus",
+          "language": "la",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599612/ephesus"
+        },
+        {
+          "attested": "",
+          "romanized": " Arsinoeia",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599612/arsinoeia"
+        },
+        {
+          "attested": "",
+          "romanized": " Arsinoe",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599612/arsinoe"
+        },
+        {
+          "attested": null,
+          "romanized": "Aya Soluḳ, Aya Soluq",
+          "language": "ota",
+          "start": 1300,
+          "end": 1683,
+          "uri": "https://pleiades.stoa.org/places/599612/aya-soluk"
+        },
+        {
+          "attested": null,
+          "romanized": "Aya S̱oluḳ",
+          "language": null,
+          "start": 1300,
+          "end": 1453,
+          "uri": "https://pleiades.stoa.org/places/599612/aya-s331oluk"
+        },
+        {
+          "attested": "",
+          "romanized": "Aya Soluq",
+          "language": "ota",
+          "start": 1453,
+          "end": 1683,
+          "uri": "https://pleiades.stoa.org/places/599612/aya-soluq"
+        },
+        {
+          "attested": null,
+          "romanized": "Ayāsulūk, Ayasuluk, Aya Suluk",
+          "language": "arb",
+          "start": 1258,
+          "end": 1501,
+          "uri": "https://pleiades.stoa.org/places/599612/ayasuluk"
+        },
+        {
+          "attested": null,
+          "romanized": "Ayā Sulūk",
+          "language": null,
+          "start": 1258,
+          "end": 1335,
+          "uri": "https://pleiades.stoa.org/places/599612/aya-suluk"
+        },
+        {
+          "attested": null,
+          "romanized": "Arsinoē, Arsinoe, Arsinoë",
+          "language": "grc",
+          "start": -330,
+          "end": -140,
+          "uri": "https://pleiades.stoa.org/places/599612/arsinoe-1"
+        },
+        {
+          "attested": "",
+          "romanized": "Efes",
+          "language": "tr",
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/599612/efes"
+        },
+        {
+          "attested": null,
+          "romanized": "Ufsūs, Ufsus",
+          "language": "arb",
+          "start": 1258,
+          "end": 1501,
+          "uri": "https://pleiades.stoa.org/places/599612/ufsus"
+        },
+        {
+          "attested": null,
+          "romanized": "Selçuk, Selchuk, Seljuk",
+          "language": "tr",
+          "start": -1200,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/599612/selcuk"
+        },
+        {
+          "attested": null,
+          "romanized": "Apaša, Apasa, Apasha",
+          "language": "hit",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/599612/apasa"
+        },
+        {
+          "attested": null,
+          "romanized": "Apasa",
+          "language": null,
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/599612/apasa-1"
+        },
+        {
+          "attested": null,
+          "romanized": "ʾfss",
+          "language": "arc",
+          "start": -540,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/599612/2befss"
+        },
+        {
+          "attested": null,
+          "romanized": "Ayasoluk",
+          "language": "tr",
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/599612/ayasoluk"
+        },
+        {
+          "attested": null,
+          "romanized": "Afsīs, Afsis",
+          "language": "arb",
+          "start": 650,
+          "end": 940,
+          "uri": "https://pleiades.stoa.org/places/599612/afsis"
+        },
+        {
+          "attested": null,
+          "romanized": "Ephesus",
+          "language": "ka",
+          "start": 1300,
+          "end": 1453,
+          "uri": "https://pleiades.stoa.org/places/599612/ephesus-1"
+        },
+        {
+          "attested": "Ἔφεσος",
+          "romanized": "Ephesos",
+          "language": "grc",
+          "start": -1200,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/599612/ephesos"
+        },
+        {
+          "attested": "Ephesvm",
+          "romanized": "Ephesum",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599612/ephesum"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Ephesus/Arsinoe(ia) was the most important ancient metropolis of Ionian Asia Minor."
+    },
+    "599636": {
+      "id": "599636",
+      "title": "Halicarnassus/Halikarnassos",
+      "source_url": "https://pleiades.stoa.org/places/599636",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.4221505,
+        37.040400500000004
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Halicarnassus",
+          "language": "",
+          "start": -550,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599636/halicarnassus"
+        },
+        {
+          "attested": "Bodrum",
+          "romanized": "Bodrum",
+          "language": "tr",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/599636/bodrum"
+        },
+        {
+          "attested": "Ἁλικαρνασσός",
+          "romanized": "Halikarnassos",
+          "language": "grc",
+          "start": -550,
+          "end": 1453,
+          "uri": "https://pleiades.stoa.org/places/599636/halikarnassos"
+        },
+        {
+          "attested": "Ἁλικαρνᾱσσός",
+          "romanized": "Halicarnassos",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/599636/halicarnassos"
+        },
+        {
+          "attested": "",
+          "romanized": "Bodrum",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/599636/bodrum-1"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/google-geoeye-2011",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient city in Caria, now known as Bodrum in Turkey."
+    },
+    "599799": {
+      "id": "599799",
+      "title": "Miletus",
+      "source_url": "https://pleiades.stoa.org/places/599799",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.27880848386269,
+        37.53046444003695
+      ],
+      "names": [
+        {
+          "attested": "Millawa(n)da",
+          "romanized": "Millawa(n)da",
+          "language": "hit",
+          "start": -1450,
+          "end": -1200,
+          "uri": "https://pleiades.stoa.org/places/599799/millawa-n-da"
+        },
+        {
+          "attested": "Miletus",
+          "romanized": "Miletus",
+          "language": "la",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599799/miletus"
+        },
+        {
+          "attested": null,
+          "romanized": "Milet",
+          "language": "de",
+          "start": 1300,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/599799/milet"
+        },
+        {
+          "attested": null,
+          "romanized": "Palatia",
+          "language": "grc",
+          "start": 500,
+          "end": 850,
+          "uri": "https://pleiades.stoa.org/places/599799/palatia"
+        },
+        {
+          "attested": null,
+          "romanized": "Amtalın",
+          "language": null,
+          "start": 650,
+          "end": 850,
+          "uri": "https://pleiades.stoa.org/places/599799/amtal131n"
+        },
+        {
+          "attested": null,
+          "romanized": "Balat",
+          "language": "ota",
+          "start": -1750,
+          "end": 1683,
+          "uri": "https://pleiades.stoa.org/places/599799/balat-ota"
+        },
+        {
+          "attested": null,
+          "romanized": "Balat",
+          "language": "tr",
+          "start": -1750,
+          "end": 1683,
+          "uri": "https://pleiades.stoa.org/places/599799/balat-tur"
+        },
+        {
+          "attested": "Μίλητος",
+          "romanized": "Miletos",
+          "language": "grc",
+          "start": -720,
+          "end": 1200,
+          "uri": "https://pleiades.stoa.org/places/599799/miletos"
+        },
+        {
+          "attested": null,
+          "romanized": "Milētos, Miletos",
+          "language": "grc",
+          "start": -1750,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/599799/miletos-1"
+        },
+        {
+          "attested": null,
+          "romanized": "Amṭalin, Amtalin",
+          "language": "arb",
+          "start": 650,
+          "end": 850,
+          "uri": "https://pleiades.stoa.org/places/599799/amtalin"
+        },
+        {
+          "attested": "Μιλήσιοι",
+          "romanized": "Miléisioi",
+          "language": "grc",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/599799/mileisioi"
+        },
+        {
+          "attested": "Miletvm",
+          "romanized": "Miletum",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599799/miletum"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "A major ancient city in Ionia."
+    },
+    "550763": {
+      "id": "550763",
+      "title": "Mytilene",
+      "source_url": "https://pleiades.stoa.org/places/550763",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.547048,
+        39.110475
+      ],
+      "names": [
+        {
+          "attested": "Μιτυλήνη",
+          "romanized": "Mytilene",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550763/mytilene"
+        },
+        {
+          "attested": "Μυτιλήνη",
+          "romanized": "Mytilene",
+          "language": "el",
+          "start": 2000,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/550763/mytilene-1"
+        },
+        {
+          "attested": "Mytilene",
+          "romanized": "Mytilene",
+          "language": "en",
+          "start": 1900,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/550763/mytilene-2"
+        },
+        {
+          "attested": "Mytilene",
+          "romanized": "Mytilene",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/550763/mytilene-3"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement. The early fortified core of the city was located on an islet off the east coast of Lesbos, now joined to the mainland. That site is dominated by the remains of a Byzantine fortress with Ottoman and Genoese repairs and additions. This original city later expanded onto the main island."
+    },
+    "570531": {
+      "id": "570531",
+      "title": "Olympia",
+      "source_url": "https://pleiades.stoa.org/places/570531",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        21.630814397906708,
+        37.63868350172758
+      ],
+      "names": [
+        {
+          "attested": "Ὀλυμπίᾳ",
+          "romanized": "Olympia",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570531/olympia"
+        },
+        {
+          "attested": "Olympia",
+          "romanized": "Olympia",
+          "language": "en",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/570531/olympia-1"
+        },
+        {
+          "attested": "Olympia",
+          "romanized": "Olympia",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570531/olympia-2"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Ancient sanctuary of Zeus and home of the ancient Olympic games."
+    },
+    "491687": {
+      "id": "491687",
+      "title": "Pella/Diokletianoupolis",
+      "source_url": "https://pleiades.stoa.org/places/491687",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.518224765547643,
+        40.75435964572732
+      ],
+      "names": [
+        {
+          "attested": "Πέλλα",
+          "romanized": "Pella",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/491687/pella"
+        },
+        {
+          "attested": "",
+          "romanized": "Diokletianoupolis",
+          "language": "",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/491687/diokletianoupolis"
+        },
+        {
+          "attested": "",
+          "romanized": "Bounomos",
+          "language": "",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/491687/bounomos"
+        },
+        {
+          "attested": "",
+          "romanized": "Bounomeia",
+          "language": "",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/491687/bounomeia"
+        },
+        {
+          "attested": "",
+          "romanized": "Colonia Iulia Augusta Pella",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/491687/name.2014-06-25.5742802069"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Capital of the Kingdom of Macedonia."
+    },
+    "590030": {
+      "id": "590030",
+      "title": "Rhodos (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/590030",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        28.227611,
+        36.443113
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Rhodos",
+          "language": "",
+          "start": -550,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/590030/rhodos"
+        },
+        {
+          "attested": null,
+          "romanized": "Eski Rodos",
+          "language": "ota",
+          "start": 1453,
+          "end": 1683,
+          "uri": "https://pleiades.stoa.org/places/590030/eski-rodos"
+        },
+        {
+          "attested": null,
+          "romanized": "Rūdis",
+          "language": null,
+          "start": 650,
+          "end": 940,
+          "uri": "https://pleiades.stoa.org/places/590030/rudis"
+        },
+        {
+          "attested": null,
+          "romanized": "Rūdus, Rudus, Rudis",
+          "language": "arb",
+          "start": 750,
+          "end": 940,
+          "uri": "https://pleiades.stoa.org/places/590030/rudus"
+        },
+        {
+          "attested": null,
+          "romanized": "Rhodos",
+          "language": "grc",
+          "start": -1200,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/590030/rhodos-1"
+        },
+        {
+          "attested": null,
+          "romanized": "Ródos",
+          "language": "el",
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/590030/rodos"
+        },
+        {
+          "attested": "",
+          "romanized": "Rodos",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/590030/rodos-1"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "A settlement on the island of Rhodes."
+    },
+    "599925": {
+      "id": "599925",
+      "title": "Samos (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/599925",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.944483,
+        37.68825
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Samos",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599925/samos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 61 D2 Samos"
+    },
+    "550867": {
+      "id": "550867",
+      "title": " Sardis/Hyde?",
+      "source_url": "https://pleiades.stoa.org/places/550867",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        28.040286,
+        38.488314
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Sardis",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550867/sardis"
+        },
+        {
+          "attested": "",
+          "romanized": "Hyde",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550867/hyde"
+        },
+        {
+          "attested": null,
+          "romanized": "Sard",
+          "language": null,
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/550867/sard"
+        },
+        {
+          "attested": null,
+          "romanized": "Sartmustafa",
+          "language": "tr",
+          "start": -1750,
+          "end": -1450,
+          "uri": "https://pleiades.stoa.org/places/550867/sartmustafa"
+        },
+        {
+          "attested": null,
+          "romanized": "Sparda",
+          "language": "grc",
+          "start": -720,
+          "end": -540,
+          "uri": "https://pleiades.stoa.org/places/550867/sparda"
+        },
+        {
+          "attested": "Σάρδεις",
+          "romanized": "Sardeis, Sardis, Sardis",
+          "language": "grc",
+          "start": -1750,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/550867/sardeis"
+        },
+        {
+          "attested": "",
+          "romanized": "Sart, Sard",
+          "language": "tr",
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/550867/sart"
+        },
+        {
+          "attested": null,
+          "romanized": "Ṣart, Sart",
+          "language": "ota",
+          "start": 1453,
+          "end": 1683,
+          "uri": "https://pleiades.stoa.org/places/550867/sart-1"
+        },
+        {
+          "attested": null,
+          "romanized": "Sardies",
+          "language": null,
+          "start": -540,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/550867/sardies"
+        },
+        {
+          "attested": null,
+          "romanized": "sprd",
+          "language": "arc",
+          "start": -540,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/550867/sprd"
+        },
+        {
+          "attested": "",
+          "romanized": "Šibartu",
+          "language": "akk",
+          "start": -720,
+          "end": -540,
+          "uri": "https://pleiades.stoa.org/places/550867/sibartu"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Sardis was the capital of the Lydian Empire, located in western Turkey. In 188 B.C. Sardis became a part of the Attalid kingdom, and thus it passed with the territory of Attalus III to Rome in 133 B.C."
+    },
+    "570685": {
+      "id": "570685",
+      "title": "Sparta",
+      "source_url": "https://pleiades.stoa.org/places/570685",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.424672282445528,
+        37.0817824552019
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Sparta",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570685/sparta"
+        },
+        {
+          "attested": "Lacedemone",
+          "romanized": "Lacedemone",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570685/lacedemone"
+        },
+        {
+          "attested": "Σπάρτη",
+          "romanized": "Sparti",
+          "language": "el",
+          "start": 1900,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/570685/sparti"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Sparta was a prominent city-state (polis) of ancient Greece."
+    },
+    "541138": {
+      "id": "541138",
+      "title": "Thebai/Thebae",
+      "source_url": "https://pleiades.stoa.org/places/541138",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.317653433333334,
+        38.319948833333335
+      ],
+      "names": [
+        {
+          "attested": "Thebae",
+          "romanized": "Thebae",
+          "language": "la",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/541138/thebae"
+        },
+        {
+          "attested": "Θήβα",
+          "romanized": "Thiva, Thíva",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/541138/thiva"
+        },
+        {
+          "attested": "Thebes",
+          "romanized": "Thebes",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/541138/thebes"
+        },
+        {
+          "attested": "Θῆβαι",
+          "romanized": "Thebai, Thēbai",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/541138/thebai"
+        },
+        {
+          "attested": "𐀳𐀣𐀆, 𐀳𐀣𐀂",
+          "romanized": "te-qa-, te-qa-de, te-qa-i",
+          "language": "grc-Linb",
+          "start": -1600,
+          "end": -1200,
+          "uri": "https://pleiades.stoa.org/places/541138/te-qa"
+        },
+        {
+          "attested": "",
+          "romanized": "İstefe",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/541138/istefe"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient city of Thebes in Boeotia (modern Greece)."
+    },
+    "501325": {
+      "id": "501325",
+      "title": "Abydos",
+      "source_url": "https://pleiades.stoa.org/places/501325",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.411312762572948,
+        40.194215640043836
+      ],
+      "names": [
+        {
+          "attested": "Ἄβυδος",
+          "romanized": "Ábydos",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/501325/abydos"
+        },
+        {
+          "attested": "",
+          "romanized": "Yapıldak",
+          "language": "tr",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/501325/yap131ldak"
+        },
+        {
+          "attested": null,
+          "romanized": "Abidūs",
+          "language": "arb",
+          "start": 650,
+          "end": 940,
+          "uri": "https://pleiades.stoa.org/places/501325/abidus"
+        },
+        {
+          "attested": null,
+          "romanized": "Abide",
+          "language": "tr",
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/501325/abide"
+        },
+        {
+          "attested": "Ἄβυδος",
+          "romanized": "Abydos",
+          "language": "grc",
+          "start": -700,
+          "end": 1450,
+          "uri": "https://pleiades.stoa.org/places/501325/abydos-1"
+        },
+        {
+          "attested": "Avido",
+          "romanized": "Avido",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/501325/avido"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "A city of Mysia located on the Hellespont."
+    },
+    "501339": {
+      "id": "501339",
+      "title": "Akanthos",
+      "source_url": "https://pleiades.stoa.org/places/501339",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.88668405,
+        40.3933576
+      ],
+      "names": [
+        {
+          "attested": "Ιερισσός",
+          "romanized": "Ierissos",
+          "language": "el",
+          "start": 1900,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/501339/ierissos"
+        },
+        {
+          "attested": "Ἄκανθος ",
+          "romanized": "Akanthos",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/501339/akanthos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/topostext-high-confidence",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement in the northeast of the Chalkidiki. The large site is immediately southeast of the modern town of Ierissos."
+    },
+    "579853": {
+      "id": "579853",
+      "title": "Aigina (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/579853",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.423668,
+        37.750149
+      ],
+      "names": [
+        {
+          "attested": "Αἴγινα",
+          "romanized": "Aigina",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/579853/aigina"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The primary ancient settlement on the Aegean island of the same name."
+    },
+    "530794": {
+      "id": "530794",
+      "title": "Ambracia",
+      "source_url": "https://pleiades.stoa.org/places/530794",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        20.990092500000003,
+        39.1549245
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Ambracia",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/530794/ambracia"
+        },
+        {
+          "attested": "Arta",
+          "romanized": "Arta",
+          "language": "en",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/530794/name.2012-10-05.6835905611"
+        },
+        {
+          "attested": "Ἀμβρακία",
+          "romanized": "Ambrakía, Ambrakia",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/530794/ambrakia"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-2",
+          [
+            "associated modern"
+          ]
+        ]
+      ],
+      "description": "Ambracia (modern Arta) was an ancient city of central Greece, founded as a colony of Corinth in the seventh century BCE. It was located near the Ambracian Gulf along the course of the river Arachthos."
+    },
+    "501347": {
+      "id": "501347",
+      "title": "Amphipolis",
+      "source_url": "https://pleiades.stoa.org/places/501347",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.841579432345075,
+        40.82581148078865
+      ],
+      "names": [
+        {
+          "attested": "Ἀμφίπολις",
+          "romanized": "Amphipolis",
+          "language": "grc",
+          "start": -550,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/501347/amphipolis"
+        },
+        {
+          "attested": "Αμφίπολη",
+          "romanized": "Amfipoli, Amphipoli, Amfípoli, Amphípoli",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/501347/amfipoli"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "A Greek city in Thrace located on the east bank of the Strymon river, Amphipolis was originally founded as an Athenian colony."
+    },
+    "540667": {
+      "id": "540667",
+      "title": "Artemision",
+      "source_url": "https://pleiades.stoa.org/places/540667",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.2213755,
+        39.014045499999995
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Artemision",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540667/artemision"
+        },
+        {
+          "attested": "",
+          "romanized": "Oritanum",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540667/oritanum"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-2",
+          [
+            "associated modern"
+          ]
+        ]
+      ],
+      "description": "The possible site of the temple of Artemis Proseoa beneath the Ag. Georgios chapel, Artemision (Kourbatsi) Euboea."
+    },
+    "520985": {
+      "id": "520985",
+      "title": "Byzantium",
+      "source_url": "https://pleiades.stoa.org/places/520985",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        28.973881499999997,
+        41.005902
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Byzantium",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/520985/byzantium"
+        },
+        {
+          "attested": null,
+          "romanized": "Byzantion",
+          "language": "grc",
+          "start": -1200,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/520985/byzantion"
+        },
+        {
+          "attested": null,
+          "romanized": "bznt",
+          "language": "arc",
+          "start": -540,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/520985/bznt"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient Greek settlement at the southern end of the Bosphorus, where modern-day Istanbul, Turkey, now stands. It flourished and grew throughout the Greek and Roman periods. The city was renamed Constantinopolis (q.v..) and much expanded by the fourth-century emperor, Constantine, and his successors."
+    },
+    "540701": {
+      "id": "540701",
+      "title": "Chaeronea",
+      "source_url": "https://pleiades.stoa.org/places/540701",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.8414259,
+        38.493967749999996
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Chaeronea",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540701/chaeronea"
+        },
+        {
+          "attested": "Χαιρώνεια",
+          "romanized": "Chaeronea",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/540701/name.2014-12-09.2469257753"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement of Boeotia, Chaeronea was a subject of Orchomenus and a member of the Boeotian League. From the late fifth century BC, Chaeronea belonged to one of the 11 Boeotian districts."
+    },
+    "550496": {
+      "id": "550496",
+      "title": "Chios (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/550496",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.132979,
+        38.3722387
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Chios",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550496/chios"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ],
+      "description": "The principal ancient city on the Aegean island of Chios."
+    },
+    "501469": {
+      "id": "501469",
+      "title": "Kleonai",
+      "source_url": "https://pleiades.stoa.org/places/501469",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        24.233651,
+        40.214176
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Kleonai",
+          "language": "",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/501469/kleonai"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement, located on the Athos/Akte peninsula."
+    },
+    "570361": {
+      "id": "570361",
+      "title": "Kleonai",
+      "source_url": "https://pleiades.stoa.org/places/570361",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.776239933333333,
+        37.819723966666665
+      ],
+      "names": [
+        {
+          "attested": "Κλεωναί",
+          "romanized": "Kleonai",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570361/kleonai"
+        },
+        {
+          "attested": "Cleonas",
+          "romanized": "Cleonas",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570361/cleonas"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient city located in the mountainous area southwest of Corinth. The acropolis of ancient Kleonai lies about two kilometers east of the modern town named after it in the 1960s (Archaies Kleones, formerly Kontostavlos)."
+    },
+    "599577": {
+      "id": "599577",
+      "title": "Colophon",
+      "source_url": "https://pleiades.stoa.org/places/599577",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.1483085,
+        38.108253
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Colophon",
+          "language": "",
+          "start": -750,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/599577/colophon"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Colophon was an Ionian city in Lydia, located ca. 13 km north of the harbour of Notion. Its ruins are located near modern Değirmendere."
+    },
+    "511218": {
+      "id": "511218",
+      "title": "Cyzicus",
+      "source_url": "https://pleiades.stoa.org/places/511218",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.883191,
+        40.3855645
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Cyzicus",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/511218/cyzicus"
+        },
+        {
+          "attested": null,
+          "romanized": "Belkis",
+          "language": null,
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/511218/belkis"
+        },
+        {
+          "attested": null,
+          "romanized": "Belkis",
+          "language": "tr",
+          "start": -700,
+          "end": -500,
+          "uri": "https://pleiades.stoa.org/places/511218/belkis-1"
+        },
+        {
+          "attested": null,
+          "romanized": "Belkız, Belkiz Kale, Belkiz, Bal-Kiz",
+          "language": "tr",
+          "start": 1918,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/511218/belk131z"
+        },
+        {
+          "attested": "Κύζίκος",
+          "romanized": "Kúzikos, Kyzikos",
+          "language": "grc",
+          "start": -700,
+          "end": 2000,
+          "uri": "https://pleiades.stoa.org/places/511218/kyzikos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient city of Mysia in Anatolia, perhaps founded by the Corinthians in 756 BC and then again by the Milesians ca. 675 BC. Its advantageous position in the Propontis made it a major commercial centre. In the 5th century BC it was part of the Delian League and in the Hellenistic Age it was close to the Attalid kings. In the Imperial period, it became an assize centre (conventus) of the province of Asia."
+    },
+    "491572": {
+      "id": "491572",
+      "title": "Dion",
+      "source_url": "https://pleiades.stoa.org/places/491572",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.4914368240037,
+        40.17638805619207
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Dion",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/491572/dion"
+        },
+        {
+          "attested": "Colonia Iulia Augusta Diensium",
+          "romanized": "Colonia Iulia Augusta Diensium",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/491572/colonia-iulia-augusta-diensium"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Dion was a settlement of Pieria located on the border between Macedonia and Thessaly. It was held, traditionally, as the place of Orpheus' death and burial. In the Roman Imperial period, it became a Roman colonia. The adjacent modern village, now known as Dion, is sometimes also referenced by its earlier modern name Malathria."
+    },
+    "530843": {
+      "id": "530843",
+      "title": "Dodona (Epirus)",
+      "source_url": "https://pleiades.stoa.org/places/530843",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        20.78773144481574,
+        39.54643627193697
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Dodona",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/530843/dodona"
+        },
+        {
+          "attested": "Δωδώνη",
+          "romanized": "Dodone",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/530843/dodone"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient site of northwestern Epirus, Dodona was home to one of the most ancient oracular traditions of the Hellenic world."
+    },
+    "579920": {
+      "id": "579920",
+      "title": "Eleusis",
+      "source_url": "https://pleiades.stoa.org/places/579920",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.537401,
+        38.041101
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Eleusis",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/579920/eleusis"
+        },
+        {
+          "attested": "Eleusis",
+          "romanized": "Eleusis",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/579920/name.2016-06-20.4812868822"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Eleusis, located some 22 km west of Athens, was the site of the cult of Demeter and the sanctuary where the Eleusinian Mysteries were celebrated from the Bronze Age to the Roman Imperial period. It was a coastal deme of the Hippothontis tribe and the site of a military garrison in the Classical and Hellenistic periods."
+    },
+    "570220": {
+      "id": "570220",
+      "title": "Elis (city)",
+      "source_url": "https://pleiades.stoa.org/places/570220",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        21.37435885393905,
+        37.8912684129855
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Elis",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570220/elis"
+        },
+        {
+          "attested": "Ἠλεῖοι",
+          "romanized": "Eleioi, Eleĩoi",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/570220/elieos"
+        },
+        {
+          "attested": "Ἀλεῖοι",
+          "romanized": "Aleioi",
+          "language": "grc",
+          "start": -300,
+          "end": -201,
+          "uri": "https://pleiades.stoa.org/places/570220/aleioi"
+        },
+        {
+          "attested": "Netide",
+          "romanized": "Netide",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570220/netide"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Elis was an ancient Greek city of the northwest Peloponnese that served as the capital of the district of the same name."
+    },
+    "570228": {
+      "id": "570228",
+      "title": "Epidauros",
+      "source_url": "https://pleiades.stoa.org/places/570228",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.16015635,
+        37.6334625
+      ],
+      "names": [
+        {
+          "attested": "Ἐπίδαυρος",
+          "romanized": "Epidauros",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570228/epidauros"
+        },
+        {
+          "attested": "",
+          "romanized": "Epidauria",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570228/epidauria"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Epidauros is located on a small peninsula on the eastern coast of Peloponnesus."
+    },
+    "579925": {
+      "id": "579925",
+      "title": "Eretria (Euboea)",
+      "source_url": "https://pleiades.stoa.org/places/579925",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.79472107553096,
+        38.39991690381873
+      ],
+      "names": [
+        {
+          "attested": "Ἐρέτρια",
+          "romanized": "Eretria",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/579925/eretria"
+        },
+        {
+          "attested": "Ερέτρια",
+          "romanized": "Eretria",
+          "language": "el",
+          "start": 2000,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/579925/eretria-1"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Eretria was an ancient polis located in Euboea."
+    },
+    "530974": {
+      "id": "530974",
+      "title": "Leucas",
+      "source_url": "https://pleiades.stoa.org/places/530974",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        20.713116,
+        38.807342
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Leucas",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/530974/leucas"
+        },
+        {
+          "attested": "Λευκάς",
+          "romanized": "Leukás, Leukas",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/530974/leukas"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 54 C4 Leucas"
+    },
+    "540913": {
+      "id": "540913",
+      "title": "Leuktra",
+      "source_url": "https://pleiades.stoa.org/places/540913",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.1821091,
+        38.2544053
+      ],
+      "names": [
+        {
+          "attested": "Λεῦκτρά",
+          "romanized": "Leuktra",
+          "language": "grc",
+          "start": -550,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/540913/leuktra"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ],
+      "description": "Leuktra was a settlement located in ancient Boeotia. It was located along the road leading from Thespiae to Plataea, somewhere in the vicinity of the modern town. In 371 B.C. the Thebans defeated the Spartans in a celebrated battle near the site."
+    },
+    "570459": {
+      "id": "570459",
+      "title": "Mantineia/Antigoneia",
+      "source_url": "https://pleiades.stoa.org/places/570459",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.3925775,
+        37.6173785
+      ],
+      "names": [
+        {
+          "attested": "Μαντίνεια",
+          "romanized": "Mantineia",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570459/mantineia"
+        },
+        {
+          "attested": "",
+          "romanized": "Antigoneia",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570459/antigoneia"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Mantineia/Antigoneia was an ancient settlement in Greece most noted for being the site of two major battles. The First Battle of Mantineia was the largest land battle of the Peloponnesian War (418 B.C.) and the Second Battle of Mantineia brought an end to Theban hegemony (362 B.C.)."
+    },
+    "580021": {
+      "id": "580021",
+      "title": "Marathon",
+      "source_url": "https://pleiades.stoa.org/places/580021",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.970146,
+        38.1465515
+      ],
+      "names": [
+        {
+          "attested": "Marathon",
+          "romanized": "Marathon",
+          "language": "la",
+          "start": -550,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/580021/marathon"
+        },
+        {
+          "attested": "Μαραθών",
+          "romanized": "Marathṓn, Marathon",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/580021/marathon-grc"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-b",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Marathon was a coastal deme of the tribe Aiantis, in northeastern Attica, the site of the Battle of Marathon in 490 BC, and capital of the Marathon tetrapolis."
+    },
+    "570468": {
+      "id": "570468",
+      "title": "Megara",
+      "source_url": "https://pleiades.stoa.org/places/570468",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.340163,
+        37.985078
+      ],
+      "names": [
+        {
+          "attested": "Μέγαρα",
+          "romanized": "Megara",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570468/megara"
+        },
+        {
+          "attested": "Megara",
+          "romanized": "Megara",
+          "language": "la",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570468/name.2015-08-03.2114015984"
+        },
+        {
+          "attested": "Μέγαρα",
+          "romanized": "Megara",
+          "language": "el",
+          "start": 2000,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/570468/megara-1"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Megara was an important ancient city of Greece, located in the northern part of the the Isthmus of Corinth opposite the island of Salamis."
+    },
+    "570474": {
+      "id": "570474",
+      "title": "Melos (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/570474",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        24.423276,
+        36.743864
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Melos",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570474/melos"
+        },
+        {
+          "attested": "Κλήμα",
+          "romanized": "Klima",
+          "language": "el",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/570474/klima"
+        },
+        {
+          "attested": "Mimblida",
+          "romanized": "Mimblida",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570474/mimblida"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 58 G4 Melos"
+    },
+    "501515": {
+      "id": "501515",
+      "title": "Mende",
+      "source_url": "https://pleiades.stoa.org/places/501515",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.4222847,
+        39.9637835
+      ],
+      "names": [
+        {
+          "attested": "Καλάνδρα",
+          "romanized": "Kalandra",
+          "language": "el",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/501515/kalandra"
+        },
+        {
+          "attested": "",
+          "romanized": "Mende",
+          "language": "",
+          "start": -750,
+          "end": -30,
+          "uri": "https://pleiades.stoa.org/places/501515/mende"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 51 A5 Mende"
+    },
+    "550738": {
+      "id": "550738",
+      "title": "Methymna",
+      "source_url": "https://pleiades.stoa.org/places/550738",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.176890999999998,
+        39.369167000000004
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Methymna",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550738/methymna"
+        },
+        {
+          "attested": "Μηθυμναῖοι",
+          "romanized": "Methymnaioi",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/550738/methymnaioi"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 56 C3 Methymna"
+    },
+    "570504": {
+      "id": "570504",
+      "title": "Nemea",
+      "source_url": "https://pleiades.stoa.org/places/570504",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.710679536483795,
+        37.80905853069708
+      ],
+      "names": [
+        {
+          "attested": "Νεμέα",
+          "romanized": "Nemea",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570504/nemea"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative",
+            ""
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Nemea, located north of Argos, was the site of the Panhellenic Games and the Sanctuary of Nemean Zeus."
+    },
+    "491678": {
+      "id": "491678",
+      "title": "Olynthos",
+      "source_url": "https://pleiades.stoa.org/places/491678",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.354261495598436,
+        40.29524194804742
+      ],
+      "names": [
+        {
+          "attested": "Ὄλυνθος",
+          "romanized": "Olynthos",
+          "language": "grc",
+          "start": -750,
+          "end": -30,
+          "uri": "https://pleiades.stoa.org/places/491678/olynthos"
+        },
+        {
+          "attested": "Olynthus",
+          "romanized": "Olynthus",
+          "language": "la",
+          "start": -550,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/491678/olynthus"
+        },
+        {
+          "attested": "Nea Olynthos",
+          "romanized": "Nea Olynthos",
+          "language": "en",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/491678/nea-olynthos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Olynthos was an ancient city of the Chalcidice, founded in the seventh century B.C. and destroyed in 348 B.C. by the forces of Philip II of Macedon."
+    },
+    "540987": {
+      "id": "540987",
+      "title": "Orchomenos/Orchomenus (Boeotia)",
+      "source_url": "https://pleiades.stoa.org/places/540987",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.974702,
+        38.493319
+      ],
+      "names": [
+        {
+          "attested": "Ὀρχομενός",
+          "romanized": "Orchomenus",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540987/orchomenus"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The so-called \"Boeotian Orchomenos\", located in the vicinity of the Byzantine church of Panaghia Skripou. The longer, modern title is used to distinguish this settlement from another Greek site with the same ancient name located in Arcadia in the Peloponnese."
+    },
+    "570602": {
+      "id": "570602",
+      "title": "Phleious",
+      "source_url": "https://pleiades.stoa.org/places/570602",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.646579425559324,
+        37.84459839552629
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Phleious",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570602/phleious"
+        },
+        {
+          "attested": "Φλιασία",
+          "romanized": "Phliasia",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570602/phliasia"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient city located in the valley of the river Asopos."
+    },
+    "580062": {
+      "id": "580062",
+      "title": "Peiraieus/Piraeus",
+      "source_url": "https://pleiades.stoa.org/places/580062",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.644609,
+        37.937222
+      ],
+      "names": [
+        {
+          "attested": "Πειραιεύς",
+          "romanized": "Peiraieus",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/580062/peiraieus"
+        },
+        {
+          "attested": "Piraeus",
+          "romanized": "Piraeus",
+          "language": "la",
+          "start": -330,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/580062/piraeus"
+        },
+        {
+          "attested": "Piraeea",
+          "romanized": "Piraeea",
+          "language": "la",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/580062/piraeea"
+        },
+        {
+          "attested": "Piraeeus",
+          "romanized": "Piraeeus",
+          "language": "la",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/580062/piraeeus"
+        },
+        {
+          "attested": "Πειραεὐς",
+          "romanized": "Peiraeus",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/580062/peiraeus"
+        },
+        {
+          "attested": "Peiraieus",
+          "romanized": "Peiraieus",
+          "language": "la",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/580062/peiraieus-1"
+        },
+        {
+          "attested": "Pyreo",
+          "romanized": "Pyreo",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/580062/pyreo"
+        },
+        {
+          "attested": "Piräus",
+          "romanized": "Piraus",
+          "language": "de",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/580062/piraus"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient, fortified port settlement of ancient Athens. It was also the coastal deme of the tribe Hippothoontis."
+    },
+    "541063": {
+      "id": "541063",
+      "title": "Plataea",
+      "source_url": "https://pleiades.stoa.org/places/541063",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.27353775,
+        38.221075299999995
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Plataea",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/541063/plataea"
+        },
+        {
+          "attested": "Πλάταιαι",
+          "romanized": "Plataiai, Plátaiai",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/541063/plataiai"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Plataea is an ancient city of Boeotia, located south of Thebes. In 479 BC Plataea was the site of the Battle of Plataea, in which an allied Greek army defeated the Persians. Plataea was destroyed in the Peloponnesian War by Thebes and Sparta in 427 BC and rebuilt in 386 BC."
+    },
+    "491701": {
+      "id": "491701",
+      "title": "Poteidaia/Kassandreia",
+      "source_url": "https://pleiades.stoa.org/places/491701",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.327812,
+        40.193696
+      ],
+      "names": [
+        {
+          "attested": "Ποτείδαια",
+          "romanized": "Poteidaia",
+          "language": "grc",
+          "start": -750,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/491701/poteidaia"
+        },
+        {
+          "attested": "Κασσανδρεία",
+          "romanized": "Kassandreia",
+          "language": "grc",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/491701/kassandreia"
+        },
+        {
+          "attested": "Colonia Iulia Augusta Cassandrensis",
+          "romanized": "Colonia Iulia Augusta Cassandrensis",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/491701/colonia-iulia-augusta-cassandrensis"
+        },
+        {
+          "attested": "Νέα Ποτείδαια",
+          "romanized": "Nea Poteidaia",
+          "language": "el",
+          "start": 2000,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/491701/nea-poteidaia"
+        },
+        {
+          "attested": "",
+          "romanized": "Nea Potidaia",
+          "language": "el",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/491701/nea-potidaia"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Poteidaia/Kassandreia was a Greek colony founded ca. 600 BC by Corinthians on the peninsula of Pallene in western Chalcidice. The site received a Roman colony in 43 B.C. and in 30 B.C. Augustus settled veterans there, renaming it as Colonia Iulia Augusta Cassandrensis."
+    },
+    "570640": {
+      "id": "570640",
+      "title": "Pylos/Koryphasion",
+      "source_url": "https://pleiades.stoa.org/places/570640",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        21.659888,
+        36.9520305
+      ],
+      "names": [
+        {
+          "attested": "Πύλος",
+          "romanized": "Pylos",
+          "language": "grc",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570640/pylos"
+        },
+        {
+          "attested": "",
+          "romanized": "Pylos",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570640/pylos"
+        },
+        {
+          "attested": "",
+          "romanized": "Koryphasion",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570640/koryphasion"
+        },
+        {
+          "attested": "Pylios",
+          "romanized": "Pylios",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570640/pylios"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "A Classical settlement, probably the Pylos of Thucydides, on the Koryphasion promontory, (modern Akr. Koryphasiou in Messenia) in the Peloponnese."
+    },
+    "501620": {
+      "id": "501620",
+      "title": "Skione",
+      "source_url": "https://pleiades.stoa.org/places/501620",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.574785,
+        39.939063
+      ],
+      "names": [
+        {
+          "attested": "Σκιώνη",
+          "romanized": "Skione",
+          "language": "grc",
+          "start": -750,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/501620/skione"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 51 B5 Skione"
+    },
+    "501609": {
+      "id": "501609",
+      "title": "Sestos",
+      "source_url": "https://pleiades.stoa.org/places/501609",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.389269150961123,
+        40.21339676714569
+      ],
+      "names": [
+        {
+          "attested": "Σηστός",
+          "romanized": "Sestos",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/501609/sestos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 51 G4 Sestos"
+    },
+    "570707": {
+      "id": "570707",
+      "title": "Tegea",
+      "source_url": "https://pleiades.stoa.org/places/570707",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.420672,
+        37.455301
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Tegea",
+          "language": "la",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570707/tegea"
+        },
+        {
+          "attested": "Τεγέα",
+          "romanized": "Tegea",
+          "language": "grc",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570707/tegea-grc"
+        },
+        {
+          "attested": "Tegeas",
+          "romanized": "Tegeas",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570707/tegeas"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Tegea was an ancient city of Arcadia. It is especially noted for its sanctuary dedicated to Athena Alea."
+    },
+    "599971": {
+      "id": "599971",
+      "title": "Thera",
+      "source_url": "https://pleiades.stoa.org/places/599971",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.47843030068955,
+        36.363279190867146
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Thera",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/599971/thera"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-500-000-scale",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement located atop the modern Messavouno mountain on the island that shared its name in antiquity (modern Thira/Santorini)."
+    },
+    "541140": {
+      "id": "541140",
+      "title": "Thermopylae",
+      "source_url": "https://pleiades.stoa.org/places/541140",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.543644,
+        38.79600000000001
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Thermopylae",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/541140/thermopylae"
+        },
+        {
+          "attested": "Θερμοπύλαι",
+          "romanized": "Thermopýlai",
+          "language": "grc",
+          "start": -550,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/541140/thermopylai"
+        },
+        {
+          "attested": "Θερμοπύλαι",
+          "romanized": "Thermopilai",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/541140/thermopilai"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Thermopylae is the name of a narrow pass leading from Thessaly into Locris. It was the site of a pivotal battle during the Graeco-Persian wars in 480 BC."
+    },
+    "501646": {
+      "id": "501646",
+      "title": "Torone",
+      "source_url": "https://pleiades.stoa.org/places/501646",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.9007922870719,
+        39.97708095663752
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Torone",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/501646/torone"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 51 B5 Torone"
+    },
+    "540905": {
+      "id": "540905",
+      "title": "Larissa",
+      "source_url": "https://pleiades.stoa.org/places/540905",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.42097025,
+        39.634851
+      ],
+      "names": [
+        {
+          "attested": "Λάρισσα",
+          "romanized": "Larissa",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/540905/larissa"
+        },
+        {
+          "attested": "Λάρισα Πελασγίς",
+          "romanized": "Larisa Pelasgis",
+          "language": "grc",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/540905/larisa-pelasgis"
+        },
+        {
+          "attested": "Λάρισα",
+          "romanized": "Larissa",
+          "language": "el",
+          "start": 2000,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/540905/larissa-1"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/dare-3",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient capital of the Thessalian Pelasgiotis, modern Larisa in Greece."
+    },
+    "501323": {
+      "id": "501323",
+      "title": "Abdera",
+      "source_url": "https://pleiades.stoa.org/places/501323",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        24.974308259841017,
+        40.932827748724776
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Abdera",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/501323/abdera"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "Abdera was a coastal city located on Cape Bulustra, near the estuary of the river Nestos."
+    },
+    "550823": {
+      "id": "550823",
+      "title": "Phocaea",
+      "source_url": "https://pleiades.stoa.org/places/550823",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.75656,
+        38.6703
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Phocaea",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550823/phocaea"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-geonames-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement of Asia Minor, modern Foça in Turkey."
+    },
+    "580100": {
+      "id": "580100",
+      "title": "Salamis (settlement)",
+      "source_url": "https://pleiades.stoa.org/places/580100",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.53033145,
+        37.9487647
+      ],
+      "names": [
+        {
+          "attested": "Αμπελάκια",
+          "romanized": "Ampelakia, Ambelakia",
+          "language": "el",
+          "start": 2000,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/580100/ampelakia"
+        },
+        {
+          "attested": "",
+          "romanized": "Ambelaki",
+          "language": "el",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/580100/ambelaki"
+        },
+        {
+          "attested": "",
+          "romanized": "Salamis",
+          "language": "",
+          "start": -550,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/580100/salamis"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-a",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/darmc-c",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "The ancient city of Salamis was located on the Saronic island of the same name, overlooking the modern Ampelaki Bay to the east. The site was likely largely in the area now covered by the modern city of Ambelaki/Ampelaki."
+    },
+    "550569": {
+      "id": "550569",
+      "title": "Hephaistia",
+      "source_url": "https://pleiades.stoa.org/places/550569",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.3182289,
+        39.9645815
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Kastro Bouni",
+          "language": "el",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/550569/kastro-bouni"
+        },
+        {
+          "attested": "Ἡφαιστία",
+          "romanized": "Hephaistia",
+          "language": "grc",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550569/hephaistia"
+        },
+        {
+          "attested": "Ἡφαιστιέες",
+          "romanized": "Hephaistiees",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/550569/hephaistiees"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient settlement on the northern coast of the Greek island of Lemnos."
+    },
+    "550755": {
+      "id": "550755",
+      "title": "Myrina",
+      "source_url": "https://pleiades.stoa.org/places/550755",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.0562181,
+        39.8775033
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Myrina",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/550755/myrina"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ],
+      "description": "An ancient place, cited: BAtlas 56 A2 Myrina"
+    },
+    "579888": {
+      "id": "579888",
+      "title": "Attica",
+      "source_url": "https://pleiades.stoa.org/places/579888",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.65,
+        38.033333
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Attica",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/579888/attica"
+        },
+        {
+          "attested": "Ἀττική",
+          "romanized": "Attikḗ, Attike",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/579888/attike"
+        }
+      ],
+      "location_precision": []
+    },
+    "540689": {
+      "id": "540689",
+      "title": "Boeotia",
+      "source_url": "https://pleiades.stoa.org/places/540689",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.13491914185319,
+        38.31689716720101
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Boeotia",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/540689/boeotia"
+        },
+        {
+          "attested": "Βοιωτία",
+          "romanized": "Boiōtía, Boiotia",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/540689/boiotia"
+        }
+      ],
+      "location_precision": []
+    },
+    "570406": {
+      "id": "570406",
+      "title": "Lacedaemon/Laconia",
+      "source_url": "https://pleiades.stoa.org/places/570406",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.660351165682542,
+        37.04572728513963
+      ],
+      "names": [
+        {
+          "attested": "Lacedaemon",
+          "romanized": "Lacedaemon",
+          "language": "la",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570406/lacedaemon"
+        },
+        {
+          "attested": "Laconia",
+          "romanized": "Laconia",
+          "language": "la",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570406/laconia"
+        },
+        {
+          "attested": "Λακεδαίμων",
+          "romanized": "Lakedaímōn, Lakedaimon",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/570406/lakedaimon"
+        },
+        {
+          "attested": "Laconica",
+          "romanized": "Laconica",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570406/laconica"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-500-000-scale",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "570480": {
+      "id": "570480",
+      "title": "Messenia",
+      "source_url": "https://pleiades.stoa.org/places/570480",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        21.895855123442068,
+        37.11719301153626
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Messenia",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570480/messenia"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-500-000-scale",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "570102": {
+      "id": "570102",
+      "title": "Arcadia",
+      "source_url": "https://pleiades.stoa.org/places/570102",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.299166999999997,
+        37.565025000000006
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Arcadia",
+          "language": "la",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570102/arcadia"
+        },
+        {
+          "attested": "",
+          "romanized": "Pelasgia",
+          "language": "",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570102/pelasgia"
+        },
+        {
+          "attested": "Ἀρκαδία",
+          "romanized": "Arkadía, Arkadia",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/570102/arkadia"
+        },
+        {
+          "attested": "Drymodes",
+          "romanized": "Drymodes",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570102/drymodes"
+        }
+      ],
+      "location_precision": []
+    },
+    "491656": {
+      "id": "491656",
+      "title": "Macedonia (region)",
+      "source_url": "https://pleiades.stoa.org/places/491656",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.4920786436148,
+        40.969115247784025
+      ],
+      "names": [
+        {
+          "attested": "Macedonia",
+          "romanized": "Macedonia",
+          "language": "la",
+          "start": -550,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/491656/macedonia"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-500-000-scale",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "570577": {
+      "id": "570577",
+      "title": "Peloponnesus/Peloponnesos/Peloponnese",
+      "source_url": "https://pleiades.stoa.org/places/570577",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        22.33595749550484,
+        37.09278464204242
+      ],
+      "names": [
+        {
+          "attested": "Πελοποννήσος",
+          "romanized": "Peloponnesus",
+          "language": "grc",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570577/peloponnesus"
+        },
+        {
+          "attested": "Ἀπία",
+          "romanized": "Apia",
+          "language": "grc",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570577/apia"
+        },
+        {
+          "attested": "’Ιναχία",
+          "romanized": "Inachia",
+          "language": "grc",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/570577/inachia"
+        },
+        {
+          "attested": "Πελοπόννησος",
+          "romanized": "Pelopónnēsos, Peloponnesos",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/570577/peloponnesos"
+        },
+        {
+          "attested": "Πελοπόννασος",
+          "romanized": "Pelopónnasos, Peloponnasos",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/570577/peloponnasos"
+        },
+        {
+          "attested": "Μωρέας",
+          "romanized": "Morea",
+          "language": "grc",
+          "start": 640,
+          "end": 1453,
+          "uri": "https://pleiades.stoa.org/places/570577/morea"
+        },
+        {
+          "attested": "Peloponnesus",
+          "romanized": "Peloponnesus",
+          "language": "la",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570577/peloponnesus-1"
+        },
+        {
+          "attested": "Πελοπόννησος",
+          "romanized": "Peloponnisos, Pelopónnisos",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/570577/peloponnisos"
+        },
+        {
+          "attested": "Peloponnese",
+          "romanized": "Peloponnese",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/570577/peloponnese"
+        },
+        {
+          "attested": "",
+          "romanized": "Apia",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/570577/apia-la"
+        },
+        {
+          "attested": "",
+          "romanized": "Mora Cezīresi",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/570577/mora-ceziresi"
+        }
+      ],
+      "location_precision": []
+    },
+    "540775": {
+      "id": "540775",
+      "title": "Euboea (island)",
+      "source_url": "https://pleiades.stoa.org/places/540775",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.87,
+        38.53
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Euboea",
+          "language": "",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/540775/euboea"
+        },
+        {
+          "attested": "Εὔβοια",
+          "romanized": "Eúboia, Euboia",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/540775/euboia"
+        },
+        {
+          "attested": "",
+          "romanized": "Cezīre-i Egriboz",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/540775/cezire-i-egriboz"
+        },
+        {
+          "attested": "",
+          "romanized": "Egriboz Cezīresi",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/540775/egriboz-ceziresi"
+        },
+        {
+          "attested": "",
+          "romanized": "Aġrıboz Cezīresi",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/540775/agriboz-ceziresi"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "550696": {
+      "id": "550696",
+      "title": "Lesbos (island)",
+      "source_url": "https://pleiades.stoa.org/places/550696",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.237475540084517,
+        39.17745702212158
+      ],
+      "names": [
+        {
+          "attested": "Λέσβος",
+          "romanized": "Lesbos",
+          "language": "grc",
+          "start": -750,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/550696/lesbos"
+        },
+        {
+          "attested": "",
+          "romanized": "Nísos Lésvos",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/550696/nisos_lesvos"
+        },
+        {
+          "attested": "Λέσβος",
+          "romanized": "Lesbos, Lesvos, Lésbos, Lésvos",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/550696/lesbos-1"
+        },
+        {
+          "attested": "Lesbo",
+          "romanized": "Lesbo",
+          "language": "it",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/550696/lesbo"
+        },
+        {
+          "attested": "Midilli",
+          "romanized": "Midilli",
+          "language": "tr",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/550696/midilli"
+        },
+        {
+          "attested": "",
+          "romanized": "Cezīre-i Midilli",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/550696/cezire-i-midilli"
+        },
+        {
+          "attested": "",
+          "romanized": "Midilli Cezīresi ",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/550696/midilli-ceziresi"
+        }
+      ],
+      "location_precision": []
+    },
+    "550497": {
+      "id": "550497",
+      "title": "Chios (island)",
+      "source_url": "https://pleiades.stoa.org/places/550497",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.014242444030867,
+        38.38363822562521
+      ],
+      "names": [
+        {
+          "attested": "Chios",
+          "romanized": "Chios",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/550497/chios"
+        },
+        {
+          "attested": "Χίος",
+          "romanized": "Chios",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/550497/name.2017-02-18.7636738496"
+        },
+        {
+          "attested": "Νησί Χίος",
+          "romanized": "Nisí Chíos",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/550497/nisa-chaos"
+        },
+        {
+          "attested": "",
+          "romanized": "Cezīre-i Saḳız",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/550497/cezire-i-sakiz"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "599926": {
+      "id": "599926",
+      "title": "Samos (island)",
+      "source_url": "https://pleiades.stoa.org/places/599926",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        26.839125346712173,
+        37.73246007056743
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Samos",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/599926/samos"
+        },
+        {
+          "attested": "Σάμος",
+          "romanized": "Sámos, Samos",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/599926/name.2015-09-08.9168546480"
+        },
+        {
+          "attested": "",
+          "romanized": "Susam Aṭası",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/599926/susam-atasi"
+        },
+        {
+          "attested": "Sisam",
+          "romanized": "Sisam",
+          "language": "tr",
+          "start": 1900,
+          "end": 2099,
+          "uri": "https://pleiades.stoa.org/places/599926/sisam"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "550693": {
+      "id": "550693",
+      "title": "Lemnos (island)",
+      "source_url": "https://pleiades.stoa.org/places/550693",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.229093534025623,
+        39.90501982246366
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Lemnos",
+          "language": "",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/550693/lemnos"
+        },
+        {
+          "attested": "",
+          "romanized": "Cezīre-i Limyos",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/550693/cezire-i-limyos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "589748": {
+      "id": "589748",
+      "title": "Creta (island)",
+      "source_url": "https://pleiades.stoa.org/places/589748",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.074079692118698,
+        35.2148470630119
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Creta",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/589748/creta"
+        },
+        {
+          "attested": "Κρήτη",
+          "romanized": "Kríti",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/589748/kriti"
+        },
+        {
+          "attested": "INSVLA CRETICA",
+          "romanized": "Insula Cretica",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/589748/insula-cretica"
+        }
+      ],
+      "location_precision": []
+    },
+    "590031": {
+      "id": "590031",
+      "title": "Rhodos (island)",
+      "source_url": "https://pleiades.stoa.org/places/590031",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.97207626591052,
+        36.179110443681076
+      ],
+      "names": [
+        {
+          "attested": "Ῥόδος",
+          "romanized": "Rhodos",
+          "language": "grc",
+          "start": -750,
+          "end": -30,
+          "uri": "https://pleiades.stoa.org/places/590031/rhodos"
+        },
+        {
+          "attested": "Rhodus",
+          "romanized": "Rhodus",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/590031/name.2015-07-12.5553272001"
+        },
+        {
+          "attested": "Rhodes",
+          "romanized": "Rhodes",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/590031/rhodes"
+        },
+        {
+          "attested": "",
+          "romanized": "Cezīre-i Rodos",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/590031/cezire-i-rodos"
+        },
+        {
+          "attested": "",
+          "romanized": "Rodos Cezīresi",
+          "language": "ota",
+          "start": 1500,
+          "end": 1599,
+          "uri": "https://pleiades.stoa.org/places/590031/rodos-ceziresi"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "580101": {
+      "id": "580101",
+      "title": "Salamis (island)",
+      "source_url": "https://pleiades.stoa.org/places/580101",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        23.484338803881972,
+        37.942665122249835
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Salamis",
+          "language": "",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/580101/salamis"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "560221": {
+      "id": "560221",
+      "title": "Aegaeum Mare",
+      "source_url": "https://pleiades.stoa.org/places/560221",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        24.91724075272824,
+        38.91395706742166
+      ],
+      "names": [
+        {
+          "attested": "Aegaeum mare",
+          "romanized": "Aegaeum Mare",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/560221/aegaeum-mare"
+        },
+        {
+          "attested": "Aegean Sea",
+          "romanized": "Aegean Sea",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/560221/name.2013-07-23.7723317534"
+        },
+        {
+          "attested": "Αἰγαῖον πέλαγος, τὸ",
+          "romanized": "Aigaion pelagos (to)",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/560221/to-aigaion-pelagos"
+        },
+        {
+          "attested": "Aegaeum pelagus",
+          "romanized": "Aegaeum pelagus",
+          "language": "la",
+          "start": -330,
+          "end": -30,
+          "uri": "https://pleiades.stoa.org/places/560221/name.2015-04-26.8457542684"
+        },
+        {
+          "attested": "IGEVM MARE",
+          "romanized": "Igeum Mare",
+          "language": "la",
+          "start": 300,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/560221/igeum-mare-1"
+        }
+      ],
+      "location_precision": []
+    },
+    "1046": {
+      "id": "1046",
+      "title": "Ionium Mare",
+      "source_url": "https://pleiades.stoa.org/places/1046",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        17.10639083568919,
+        38.84541402167047
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Ionium Mare",
+          "language": "la",
+          "start": -750,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/1046/ionium-mare"
+        }
+      ],
+      "location_precision": [
+        [
+          null,
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "511381": {
+      "id": "511381",
+      "title": "Propontis",
+      "source_url": "https://pleiades.stoa.org/places/511381",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        28.2499999,
+        40.6666672
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Propontis",
+          "language": "la",
+          "start": -550,
+          "end": 640,
+          "uri": "https://pleiades.stoa.org/places/511381/propontis"
+        },
+        {
+          "attested": "",
+          "romanized": "Sea of Marmara",
+          "language": "en",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/511381/name.2013-08-12.6699122152"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "599581": {
+      "id": "599581",
+      "title": "Kos/Cos (island)",
+      "source_url": "https://pleiades.stoa.org/places/599581",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        27.137382777700278,
+        36.82289541193156
+      ],
+      "names": [
+        {
+          "attested": "Κῶς",
+          "romanized": "Kōs",
+          "language": "grc",
+          "start": -750,
+          "end": 1453,
+          "uri": "https://pleiades.stoa.org/places/599581/kos"
+        },
+        {
+          "attested": "Κόως",
+          "romanized": "Koōs",
+          "language": "grc",
+          "start": -750,
+          "end": -550,
+          "uri": "https://pleiades.stoa.org/places/599581/koos"
+        },
+        {
+          "attested": "",
+          "romanized": "Cos",
+          "language": "",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/599581/cos"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    },
+    "599822": {
+      "id": "599822",
+      "title": "Naxos (island)",
+      "source_url": "https://pleiades.stoa.org/places/599822",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.481930478264644,
+        37.05819029943037
+      ],
+      "names": [
+        {
+          "attested": "Νάχος",
+          "romanized": "Naxos",
+          "language": "grc",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/599822/naxos"
+        },
+        {
+          "attested": "Νάξιός",
+          "romanized": "Naxios",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/599822/naxios"
+        },
+        {
+          "attested": "Naxus",
+          "romanized": "Naxus",
+          "language": "la",
+          "start": -30,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/599822/naxus"
+        },
+        {
+          "attested": "Nísos Náxos",
+          "romanized": "Nísos Náxos",
+          "language": "el",
+          "start": 1700,
+          "end": 2100,
+          "uri": "https://pleiades.stoa.org/places/599822/nisos-naxos"
+        },
+        {
+          "attested": "Naxos Ins.",
+          "romanized": "Naxos Insula",
+          "language": "la",
+          "start": 1900,
+          "end": 1999,
+          "uri": "https://pleiades.stoa.org/places/599822/naxos-insula"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "599868": {
+      "id": "599868",
+      "title": "Paros (island)",
+      "source_url": "https://pleiades.stoa.org/places/599868",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.19812855528551,
+        37.063720081074784
+      ],
+      "names": [
+        {
+          "attested": "",
+          "romanized": "Paros",
+          "language": "",
+          "start": null,
+          "end": null,
+          "uri": "https://pleiades.stoa.org/places/599868/paros"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+          [
+            "representative"
+          ]
+        ],
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "associated_modern"
+          ]
+        ]
+      ]
+    },
+    "599588": {
+      "id": "599588",
+      "title": "Delos (island)",
+      "source_url": "https://pleiades.stoa.org/places/599588",
+      "verified_on": "2026-09-30",
+      "reprPoint": [
+        25.270238900512407,
+        37.392022210973835
+      ],
+      "names": [
+        {
+          "attested": "Δῆλος",
+          "romanized": "Delos",
+          "language": "grc",
+          "start": -550,
+          "end": -330,
+          "uri": "https://pleiades.stoa.org/places/599588/delos"
+        },
+        {
+          "attested": "Delus",
+          "romanized": "Delus",
+          "language": "la",
+          "start": -330,
+          "end": 300,
+          "uri": "https://pleiades.stoa.org/places/599588/name.2015-09-04.8612273498"
+        }
+      ],
+      "location_precision": [
+        [
+          "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+          [
+            "representative"
+          ]
+        ]
+      ]
+    }
+  }
+}

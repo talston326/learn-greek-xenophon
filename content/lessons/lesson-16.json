@@ -1,0 +1,5201 @@
+{
+  "id": "lesson-16",
+  "number": 16,
+  "title": "Epyaxa and the Army's Pay",
+  "greekTitle": "Ἡ Ἐπύαξα καὶ ὁ μισθός",
+  "scope": "Family -ρ- stems; γυνή and χείρ; πᾶς; cardinal numbers; time expressions",
+  "theme": "Epyaxa’s intervention exposes the financial and civilian stakes of military power",
+  "module": "ἀνδρεία — Courage and Leadership",
+  "banner": {
+    "image": "assets/lesson-16-banner.png",
+    "alt": "AI-generated educational reconstruction for Lesson 16: Epyaxa and the Army's Pay; illustrative scene rather than an eyewitness image",
+    "caption": "Epyaxa and the Army's Pay. AI-generated educational reconstruction of the adapted lesson setting; the image is illustrative and does not establish historical appearance or exact events."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-16-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-16-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-16-page-3",
+      "title": "Epyaxa, Finance, and Civilian Fear",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "People and family nouns",
+      "items": [
+        {
+          "greek": "ἡ γυνή",
+          "english": "woman; wife",
+          "dictionaryForm": "γυνή, γυναικός, ἡ",
+          "status": "required vocabulary",
+          "lemma": "γυνή",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ πατήρ",
+          "english": "father",
+          "dictionaryForm": "πατήρ, πατρός, ὁ",
+          "status": "required vocabulary",
+          "lemma": "πατήρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μήτηρ",
+          "english": "mother",
+          "dictionaryForm": "μήτηρ, μητρός, ἡ",
+          "status": "required vocabulary",
+          "lemma": "μήτηρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ θυγάτηρ",
+          "english": "daughter",
+          "dictionaryForm": "θυγάτηρ, θυγατρός, ἡ",
+          "status": "required vocabulary",
+          "lemma": "θυγάτηρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ χείρ",
+          "english": "hand",
+          "dictionaryForm": "χείρ, χειρός, ἡ",
+          "status": "required vocabulary",
+          "lemma": "χείρ",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ Ἐπύαξα",
+          "english": "Epyaxa",
+          "dictionaryForm": "Ἐπύαξα, Ἐπυάξης, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "Ἐπύαξα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ Συέννεσις",
+          "english": "Syennesis",
+          "dictionaryForm": "Συέννεσις, Συεννέσιος, ὁ",
+          "status": "reading vocabulary",
+          "lemma": "Συέννεσις",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Pay, quantities, and time",
+      "items": [
+        {
+          "greek": "ὁ μισθός",
+          "english": "pay",
+          "dictionaryForm": "μισθός, μισθοῦ, ὁ",
+          "status": "required vocabulary",
+          "lemma": "μισθός",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ μήν",
+          "english": "month",
+          "dictionaryForm": "μήν, μηνός, ὁ",
+          "status": "required vocabulary",
+          "lemma": "μήν",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἡμέρα",
+          "english": "day",
+          "dictionaryForm": "ἡμέρα, ἡμέρας, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἡμέρα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πᾶς",
+          "english": "all; every",
+          "dictionaryForm": "πᾶς, πᾶσα, πᾶν; genitive παντός, πάσης, παντός",
+          "status": "required vocabulary",
+          "lemma": "πᾶς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τέτταρες",
+          "english": "four",
+          "dictionaryForm": "τέτταρες (masculine/feminine), τέτταρα (neuter)",
+          "status": "required vocabulary",
+          "lemma": "τέτταρες",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τρεῖς",
+          "english": "three",
+          "dictionaryForm": "τρεῖς (masculine/feminine), τρία (neuter)",
+          "status": "required vocabulary",
+          "lemma": "τρεῖς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πέντε",
+          "english": "five",
+          "dictionaryForm": "πέντε (indeclinable)",
+          "status": "required vocabulary",
+          "lemma": "πέντε",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὀφείλω",
+          "english": "owe",
+          "dictionaryForm": "ὀφείλω",
+          "status": "required vocabulary",
+          "lemma": "ὀφείλω",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Display and negotiation",
+      "items": [
+        {
+          "greek": "ἡ ἅμαξα",
+          "english": "carriage; wagon",
+          "dictionaryForm": "ἅμαξα, ἁμάξης, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἅμαξα",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀγορά",
+          "english": "market",
+          "dictionaryForm": "ἀγορά, ἀγορᾶς, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἀγορά",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀσπίς",
+          "english": "shield",
+          "dictionaryForm": "ἀσπίς, ἀσπίδος, ἡ",
+          "status": "required vocabulary",
+          "lemma": "ἀσπίς",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ φόβος",
+          "english": "fear",
+          "dictionaryForm": "φόβος, φόβου, ὁ",
+          "status": "required vocabulary",
+          "lemma": "φόβος",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πείθω",
+          "english": "persuade",
+          "dictionaryForm": "πείθω",
+          "status": "required vocabulary",
+          "lemma": "πείθω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "παρέχω",
+          "english": "provide",
+          "dictionaryForm": "παρέχω",
+          "status": "required vocabulary",
+          "lemma": "παρέχω",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ δῶρον",
+          "english": "gift",
+          "dictionaryForm": "δῶρον, δώρου, τό",
+          "status": "required vocabulary",
+          "lemma": "δῶρον",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ συνουσία",
+          "english": "meeting",
+          "dictionaryForm": "συνουσία, συνουσίας, ἡ",
+          "status": "reading vocabulary",
+          "lemma": "συνουσία",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τέτταρες μῆνες μισθοῦ",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "The troops’ unpaid wages connect the march to Epyaxa, wife of the Cilician ruler Syennesis. Her arrival, reported assistance, and subsequent negotiation give her a consequential place in the expedition.",
+      "Source: Xenophon, Anabasis 1.2.12–18 and 25–27. Xenophon marks both the financial gift and her request for a review as reports, while he states the payment of four months’ wages. The reading preserves that distinction. Its simple present-tense wording is adapted; it invents no speech, romantic motive, or private intention for Epyaxa. The later Tarsus continuation is explicitly compressed.",
+      "Blue glosses support names, passive/irregular verbs, reported-speech constructions, and untaught adjectives. Today’s targets concern noun forms, all/every/whole, quantities, and time. Money “for four months” is a quantity of wages, which we distinguish from an accusative duration expression."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Κῦρος τὸν μισθὸν ὀφείλει, καὶ οἱ στρατιῶται πολλάκις αἰτοῦσι τὰ χρήματα. τότε ἡ Ἐπύαξα πρὸς τὸν Κῦρον ἔρχεται. ἡ γυνὴ τοῦ Συεννέσιος, τοῦ τῶν Κιλίκων ἄρχοντος, σὺν φύλαξι πορεύεται.",
+        "gloss": [
+          {
+            "greek": "τότε",
+            "english": "then"
+          },
+          {
+            "greek": "Ἐπύαξα",
+            "english": "Epyaxa"
+          },
+          {
+            "greek": "τοῦ Συεννέσιος",
+            "english": "of Syennesis; irregular proper-name genitive"
+          },
+          {
+            "greek": "τοῦ τῶν Κιλίκων ἄρχοντος",
+            "english": "of the ruler of the Cilicians; ἄρχων is a glossed noun"
+          },
+          {
+            "greek": "σὺν φύλαξι",
+            "english": "with guards; dative plural"
+          }
+        ]
+      },
+      {
+        "greek": "Λέγεται ὅτι ἡ Ἐπύαξα τῷ Κύρῳ πολλὰ χρήματα παρέχει. ὁ δὲ Κῦρος τότε τῇ στρατιᾷ μισθὸν τεττάρων μηνῶν δίδωσιν. ἡ μὲν τῶν χρημάτων δόσις λόγος ἐστίν, ὁ δὲ τῶν τεττάρων μηνῶν μισθὸς ἐν τῇ διηγήσει σαφῶς δηλοῦται.",
+        "gloss": [
+          {
+            "greek": "Λέγεται ὅτι",
+            "english": "it is reported that; passive reporting construction, glossed"
+          },
+          {
+            "greek": "παρέχει",
+            "english": "provides"
+          },
+          {
+            "greek": "τεττάρων μηνῶν",
+            "english": "of four months; genitive quantity"
+          },
+          {
+            "greek": "δίδωσιν",
+            "english": "gives; irregular present"
+          },
+          {
+            "greek": "τῶν χρημάτων δόσις",
+            "english": "gift of money; vowel-stem noun, glossed"
+          },
+          {
+            "greek": "λόγος",
+            "english": "a report in this context"
+          },
+          {
+            "greek": "ἐν τῇ διηγήσει",
+            "english": "in the account"
+          },
+          {
+            "greek": "σαφῶς δηλοῦται",
+            "english": "is stated clearly; passive contract form"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ στρατιὰ πρὸς Τυριαῖον πορεύεται καὶ ἐκεῖ τρεῖς ἡμέρας μένει. λέγεται ὅτι ἡ Ἐπύαξα τὴν στρατιὰν ἰδεῖν βούλεται. ὁ Κῦρος πᾶσαν τὴν στρατιὰν ἐν τῷ πεδίῳ τάττει.",
+        "gloss": [
+          {
+            "greek": "πρὸς Τυριαῖον",
+            "english": "to Tyriaeum"
+          },
+          {
+            "greek": "τρεῖς ἡμέρας",
+            "english": "for three days; accusative duration"
+          },
+          {
+            "greek": "ἰδεῖν",
+            "english": "to see; aorist infinitive, glossed and unassessed"
+          },
+          {
+            "greek": "πᾶσαν τὴν στρατιὰν",
+            "english": "the whole army"
+          },
+          {
+            "greek": "ἐν τῷ πεδίῳ",
+            "english": "on the plain"
+          },
+          {
+            "greek": "τάττει",
+            "english": "draws up; organizes"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ Ἕλληνες τὰ ὅπλα ἔχουσιν. πᾶς ὁπλίτης ἀσπίδα φέρει, καὶ οἱ στρατηγοὶ τὰ ἑαυτῶν στρατεύματα τάττουσιν. ὁ Κῦρος καὶ ἡ Ἐπύαξα ἐν ἁμάξαις τὴν τάξιν θεῶνται.",
+        "gloss": [
+          {
+            "greek": "πᾶς ὁπλίτης",
+            "english": "every hoplite; heavy infantryman"
+          },
+          {
+            "greek": "ἀσπίδα",
+            "english": "shield; dental-stem accusative"
+          },
+          {
+            "greek": "τὰ ἑαυτῶν στρατεύματα",
+            "english": "their own contingents"
+          },
+          {
+            "greek": "ἐν ἁμάξαις",
+            "english": "in vehicles; the source distinguishes Cyrus’s chariot and Epyaxa’s carriage"
+          },
+          {
+            "greek": "τὴν τάξιν",
+            "english": "the formation; vowel-stem noun, glossed"
+          },
+          {
+            "greek": "θεῶνται",
+            "english": "watch; alpha-contract deponent plural"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ σάλπιγξ σημαίνει, καὶ πάντες οἱ Ἕλληνες πρὸς τὸ στρατόπεδον τρέχουσιν. ἡ Ἐπύαξα φοβεῖται καὶ ἐν τῇ ἁμάξῃ φεύγει. οἱ δὲ ἐν τῇ ἀγορᾷ τὰ χρήματα καταλείπουσι καὶ φεύγουσιν.",
+        "gloss": [
+          {
+            "greek": "Ἡ σάλπιγξ",
+            "english": "the trumpet; velar stem"
+          },
+          {
+            "greek": "σημαίνει",
+            "english": "signals"
+          },
+          {
+            "greek": "πάντες οἱ Ἕλληνες",
+            "english": "all the Greeks"
+          },
+          {
+            "greek": "τρέχουσιν",
+            "english": "run; irregular verb, present only"
+          },
+          {
+            "greek": "φοβεῖται",
+            "english": "is frightened; contracted middle/passive"
+          },
+          {
+            "greek": "ἐν τῇ ἁμάξῃ",
+            "english": "in the carriage"
+          },
+          {
+            "greek": "οἱ δὲ ἐν τῇ ἀγορᾷ",
+            "english": "the people in the market; article with prepositional phrase"
+          },
+          {
+            "greek": "καταλείπουσι",
+            "english": "leave behind"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ μὲν στρατιῶται γελῶσιν, οἱ δὲ ἔμποροι φόβον ἔχουσιν. αἱ χεῖρες τῶν στρατιωτῶν τὰ ὅπλα φέρουσιν· αἱ δὲ τῶν ἐμπόρων χεῖρες τὰ πράγματα οὐκέτι κρατοῦσιν. ἡ αὐτὴ παρασκευὴ τοῖς μὲν καλὴ φαίνεται, τοῖς δὲ φοβερά.",
+        "gloss": [
+          {
+            "greek": "γελῶσιν",
+            "english": "laugh; alpha-contract plural"
+          },
+          {
+            "greek": "αἱ χεῖρες",
+            "english": "the hands; irregular noun plural"
+          },
+          {
+            "greek": "οὐκέτι",
+            "english": "no longer"
+          },
+          {
+            "greek": "κρατοῦσιν",
+            "english": "hold; contracted active"
+          },
+          {
+            "greek": "ἡ αὐτὴ παρασκευὴ",
+            "english": "the same display; αὐτός between article and noun means same"
+          },
+          {
+            "greek": "τοῖς μὲν",
+            "english": "to some"
+          },
+          {
+            "greek": "τοῖς δὲ",
+            "english": "to others"
+          },
+          {
+            "greek": "φοβερά",
+            "english": "frightening"
+          }
+        ]
+      },
+      {
+        "greek": "Ὕστερον ἡ Ἐπύαξα εἰς Ταρσοὺς πρὸ τοῦ Κύρου ἀφικνεῖται. ἡ στρατιὰ τὴν Κιλικίαν ταράττει, καὶ οἱ ἄνθρωποι φόβον ἔχουσιν. ὁ Συέννεσις τῷ Κύρῳ οὐ προσέρχεται· ἡ δὲ γυνὴ πείθει τὸν ἄνδρα. ὁ δὲ Συέννεσις πιστὰ λαμβάνει.",
+        "gloss": [
+          {
+            "greek": "Ὕστερον",
+            "english": "later; compressed continuation"
+          },
+          {
+            "greek": "εἰς Ταρσοὺς",
+            "english": "at Tarsus"
+          },
+          {
+            "greek": "πρὸ τοῦ Κύρου",
+            "english": "before Cyrus"
+          },
+          {
+            "greek": "Κιλικίαν",
+            "english": "Cilicia"
+          },
+          {
+            "greek": "ταράττει",
+            "english": "disrupts"
+          },
+          {
+            "greek": "προσέρχεται",
+            "english": "approaches; deponent"
+          },
+          {
+            "greek": "τὸν ἄνδρα",
+            "english": "her husband; irregular noun form, glossed"
+          },
+          {
+            "greek": "πιστὰ λαμβάνει",
+            "english": "receives assurances"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Συέννεσις καὶ ὁ Κῦρος εἰς λόγους ἔρχονται. ὁ μὲν χρήματα τῇ στρατιᾷ παρέχει, ὁ δὲ δῶρα δίδωσι καὶ περὶ τῆς χώρας ὑπισχνεῖται. ἡ Ἐπύαξα οὐ μόνον θεᾶται· πρὸς τὴν συνουσίαν βοηθεῖ. τὴν γνώμην τῆς γυναικὸς ὁ λόγος οὐ δηλοῖ.",
+        "gloss": [
+          {
+            "greek": "εἰς λόγους ἔρχονται",
+            "english": "come to discussions; idiom"
+          },
+          {
+            "greek": "δῶρα δίδωσι",
+            "english": "gives gifts"
+          },
+          {
+            "greek": "ὑπισχνεῖται",
+            "english": "promises; contracted deponent, glossed"
+          },
+          {
+            "greek": "πρὸς τὴν συνουσίαν βοηθεῖ",
+            "english": "helps toward the meeting"
+          },
+          {
+            "greek": "τὴν γνώμην τῆς γυναικὸς",
+            "english": "the woman’s private intention"
+          },
+          {
+            "greek": "ὁ λόγος οὐ δηλοῖ",
+            "english": "the account does not reveal; limitation of the evidence"
+          }
+        ]
+      }
+    ],
+    "translation": "Cyrus owes the pay, and the soldiers repeatedly request the money. Then Epyaxa comes to Cyrus. The wife of Syennesis, the ruler of the Cilicians, travels with guards.\n\nIt is reported that Epyaxa provides Cyrus with much money. At that time Cyrus gives the army four months’ pay. The gift of money is a report, whereas the four months’ pay is stated clearly in the account.\n\nThe army travels to Tyriaeum and stays there for three days. It is reported that Epyaxa wants to see the army. Cyrus draws up the whole army on the plain.\n\nThe Greeks have their weapons. Every hoplite carries a shield, and the generals arrange their own contingents. Cyrus and Epyaxa observe the formation from vehicles.\n\nThe trumpet signals, and all the Greeks run toward the camp. Epyaxa is frightened and flees in her carriage. The people in the market leave their goods behind and flee.\n\nThe soldiers laugh, but the traders are afraid. The soldiers’ hands carry weapons, while the traders’ hands no longer hold their belongings. The same display appears impressive to some and frightening to others.\n\nLater Epyaxa arrives at Tarsus before Cyrus. The army disrupts Cilicia, and the inhabitants are afraid. Syennesis does not approach Cyrus; but his wife persuades her husband. Syennesis receives assurances.\n\nSyennesis and Cyrus come to discussions. One provides money for the army; the other gives gifts and makes promises concerning the country. Epyaxa does more than watch: she helps bring about the meeting. The account does not reveal the woman’s private intention.",
+    "sourceCitation": "Xenophon, Anabasis 1.2.12–18, 25–27. https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2",
+    "notesMarkdown": "Source and adaptation boundaries are stated in the introduction. All Greek is course-adapted present-tense narrative, not a verbatim ancient extract. Blue glosses support forms beyond the taught grammar; those untaught constructions are not assessed as morphology or production targets."
+  },
+  "wordStudy": {
+    "label": "Word Study — Resources and Persuasion",
+    "blocks": [
+      {
+        "title": "Words in the Reading",
+        "practiceTopic": "word-study",
+        "body": [
+          "μισθός is wages; μισθὸς τεττάρων μηνῶν is wages for four months. Here μηνῶν identifies the amount of pay. It is not the accusative construction that says an action continues for a length of time.",
+          "γυνή can mean a woman or a wife. In ἡ γυνὴ τοῦ Συεννέσιος the relationship makes wife the appropriate translation; γυναικός reveals the stem used in most other cases.",
+          "πείθω means persuade; παρέχω means provide. Epyaxa’s role involves reported resources and an explicitly narrated act of persuasion. The words describe consequential action without assigning her an undocumented inner motive."
+        ],
+        "display": [
+          {
+            "greek": "μισθός",
+            "english": "pay"
+          },
+          {
+            "greek": "τεττάρων μηνῶν",
+            "english": "of four months"
+          },
+          {
+            "greek": "γυνή / γυναικός",
+            "english": "woman, wife / of a woman, wife"
+          },
+          {
+            "greek": "πείθω",
+            "english": "I persuade"
+          },
+          {
+            "greek": "παρέχω",
+            "english": "I provide"
+          },
+          {
+            "greek": "φόβος",
+            "english": "fear"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "Family -ρ- stems; γυνή and χείρ; πᾶς; cardinal numbers; time expressions. Work through each section, use its checks and topic practice, then complete the grammar exercises. Reading-only forms remain supported by glosses.",
+    "objectives": [
+      "Recognize family-noun stem alternations in πατήρ, μήτηρ, and θυγάτηρ.",
+      "Decline γυνή and χείρ, including irregular dative plurals.",
+      "Use πᾶς for every, all, and the whole with appropriate agreement.",
+      "Read assigned cardinal numbers and inflect one, three, and four.",
+      "Distinguish when, duration, within-time, and quantities of wages in context."
+    ],
+    "sections": [
+      {
+        "id": "family-r-stems",
+        "title": "1. Family Nouns in -ρ-",
+        "practiceTopic": "family-r-stems",
+        "body": [
+          "πατήρ, μήτηρ, and θυγάτηρ show stem alternation. The nominative has a long vowel, the accusative πατέρα/μητέρα/θυγατέρα keeps ε, and the genitive/dative singular lose ε: πατρός, πατρί; μητρός, μητρί; θυγατρός, θυγατρί.",
+          "Plural nominative and accusative use the ε-stem: πατέρες, πατέρας. Dative plural inserts α in πατράσι, μητράσι, θυγατράσι. Read these as learned noun patterns, not a command to drop ε from every ρ-stem.",
+          "Their gender comes from the dictionary article. ὁ πατήρ is masculine; ἡ μήτηρ and ἡ θυγάτηρ are feminine. An adjective must agree with that gender. These family nouns support a wider view of the people affected by an army even where the reading does not invent particular family scenes."
+        ],
+        "table": {
+          "title": "Family nouns: singular",
+          "headers": [
+            "Case",
+            "πατήρ",
+            "μήτηρ",
+            "θυγάτηρ"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "πατήρ",
+              "μήτηρ",
+              "θυγάτηρ"
+            ],
+            [
+              "gen.",
+              "πατρός",
+              "μητρός",
+              "θυγατρός"
+            ],
+            [
+              "dat.",
+              "πατρί",
+              "μητρί",
+              "θυγατρί"
+            ],
+            [
+              "acc.",
+              "πατέρα",
+              "μητέρα",
+              "θυγατέρα"
+            ],
+            [
+              "voc.",
+              "πάτερ",
+              "μῆτερ",
+              "θύγατερ"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τῷ πατρὶ δῶρον φέρει.",
+            "english": "He brings a gift to his father."
+          },
+          {
+            "greek": "τὴν μητέρα βλέπει.",
+            "english": "He sees his mother."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Why are πατρός and πατέρα different stems?",
+            "answer": "The family-noun pattern drops ε in genitive/dative singular but retains it in accusative."
+          }
+        ],
+        "tables": [
+          {
+            "title": "Family nouns: plural",
+            "headers": [
+              "Case",
+              "πατήρ",
+              "μήτηρ",
+              "θυγάτηρ"
+            ],
+            "rows": [
+              [
+                "nom.",
+                "πατέρες",
+                "μητέρες",
+                "θυγατέρες"
+              ],
+              [
+                "gen.",
+                "πατέρων",
+                "μητέρων",
+                "θυγατέρων"
+              ],
+              [
+                "dat.",
+                "πατράσι(ν)",
+                "μητράσι(ν)",
+                "θυγατράσι(ν)"
+              ],
+              [
+                "acc.",
+                "πατέρας",
+                "μητέρας",
+                "θυγατέρας"
+              ]
+            ],
+            "greekColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gune-cheir",
+        "title": "2. γυνή and χείρ",
+        "practiceTopic": "gune-cheir",
+        "body": [
+          "γυνή is irregular in its nominative; most forms use γυναικ-. Learn γυνή, γυναικός, ἡ together. The accusative is γυναῖκα; the dative γυναικί; the vocative γύναι. κ combines with σ in dative plural γυναιξί.",
+          "χείρ is feminine, even though its nominative shape resembles masculine models. It uses χειρ- in χειρός, χειρί, χεῖρα, and χεῖρες, but has χερσί in the dative plural. Its accent and stem behavior deserve direct attention.",
+          "The case system is unchanged: αἱ χεῖρες is subject plural; τὰς χεῖρας is object plural. The reading uses hands to contrast armed soldiers and traders losing hold of their goods. The comparison is adapted wording, not a preserved description of particular hands."
+        ],
+        "table": {
+          "title": "Two irregular feminine nouns",
+          "headers": [
+            "Case",
+            "γυνή singular / plural",
+            "χείρ singular / plural"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "γυνή / γυναῖκες",
+              "χείρ / χεῖρες"
+            ],
+            [
+              "gen.",
+              "γυναικός / γυναικῶν",
+              "χειρός / χειρῶν"
+            ],
+            [
+              "dat.",
+              "γυναικί / γυναιξί(ν)",
+              "χειρί / χερσί(ν)"
+            ],
+            [
+              "acc.",
+              "γυναῖκα / γυναῖκας",
+              "χεῖρα / χεῖρας"
+            ],
+            [
+              "voc.",
+              "γύναι / γυναῖκες",
+              "χείρ / χεῖρες"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          {
+            "greek": "αἱ χεῖρες τὰ ὅπλα φέρουσιν.",
+            "english": "The hands carry weapons."
+          },
+          {
+            "greek": "τῇ γυναικὶ δῶρον φέρει.",
+            "english": "He brings a gift to the woman."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What is the gender of χείρ?",
+            "answer": "Feminine: ἡ χείρ."
+          }
+        ],
+        "tables": []
+      },
+      {
+        "id": "pas",
+        "title": "3. All, Every, and the Whole",
+        "practiceTopic": "pas",
+        "body": [
+          "πᾶς, πᾶσα, πᾶν has a third-declension παντ- pattern for masculine/neuter and a first-declension feminine. Nominative πᾶς and dative plural πᾶσι lose ντ before σ; genitive παντός reveals the stem.",
+          "Without the article, singular πᾶς στρατιώτης commonly means every soldier, treating members individually. With an article group, πᾶσα ἡ στρατιά means the whole army. Plural πάντες οἱ στρατιῶται means all the soldiers. Context matters; these examples supply the lesson’s controlled contrast.",
+          "The adjective agrees in gender, number, and case: πᾶσαν τὴν στρατιάν is feminine accusative singular; πάντας τοὺς στρατιώτας is masculine accusative plural. πᾶς placed inside an article group can have different nuances; today we focus on the clear every/all/whole patterns just shown."
+        ],
+        "table": {
+          "title": "πᾶς: singular",
+          "headers": [
+            "Case",
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "πᾶς",
+              "πᾶσα",
+              "πᾶν"
+            ],
+            [
+              "gen.",
+              "παντός",
+              "πάσης",
+              "παντός"
+            ],
+            [
+              "dat.",
+              "παντί",
+              "πάσῃ",
+              "παντί"
+            ],
+            [
+              "acc.",
+              "πάντα",
+              "πᾶσαν",
+              "πᾶν"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ]
+        },
+        "examples": [
+          {
+            "greek": "πᾶς ὁπλίτης ἀσπίδα φέρει.",
+            "english": "Every hoplite carries a shield."
+          },
+          {
+            "greek": "πᾶσαν τὴν στρατιὰν τάττει.",
+            "english": "He draws up the whole army."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "How does πᾶσα ἡ στρατιά differ from πᾶς στρατιώτης?",
+            "answer": "The whole army as a unit versus every soldier individually."
+          }
+        ],
+        "tables": [
+          {
+            "title": "πᾶς: plural",
+            "headers": [
+              "Case",
+              "Masculine",
+              "Feminine",
+              "Neuter"
+            ],
+            "rows": [
+              [
+                "nom.",
+                "πάντες",
+                "πᾶσαι",
+                "πάντα"
+              ],
+              [
+                "gen.",
+                "πάντων",
+                "πασῶν",
+                "πάντων"
+              ],
+              [
+                "dat.",
+                "πᾶσι(ν)",
+                "πάσαις",
+                "πᾶσι(ν)"
+              ],
+              [
+                "acc.",
+                "πάντας",
+                "πάσας",
+                "πάντα"
+              ]
+            ],
+            "greekColumns": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cardinal-numbers",
+        "title": "4. Counting People, Days, and Months",
+        "practiceTopic": "cardinal-numbers",
+        "body": [
+          "Learn the cardinal sequence εἷς/μία/ἕν, δύο, τρεῖς/τρία, τέτταρες/τέτταρα, πέντε, ἕξ, ἑπτά, ὀκτώ, ἐννέα, δέκα. Also recognize εἴκοσι, twenty; ἑκατόν, a hundred; χίλιοι, a thousand. Five through ten, twenty, and a hundred do not decline; χίλιοι follows normal plural adjective agreement.",
+          "One has masculine, feminine, and neuter singular forms. Three and four have masculine/feminine forms and a distinct neuter: τρεῖς ἡμέραι but τρία δῶρα; τέτταρες μῆνες but τέτταρα ὅπλα. Their genitive/dative endings also change with case. δύο has the same nominative/accusative for all genders; the oblique form δυοῖν is supplied for recognition.",
+          "Numerals modify nouns with the case required by the construction. μισθὸς τεττάρων μηνῶν is four months’ wages, with genitive quantity; τρεῖς ἡμέρας μένει is he stays for three days, with accusative duration. Keep the number and the time noun together."
+        ],
+        "table": {
+          "title": "Inflected cardinals",
+          "headers": [
+            "Case",
+            "One M / F / N",
+            "Three M/F / N",
+            "Four M/F / N"
+          ],
+          "rows": [
+            [
+              "nom.",
+              "εἷς / μία / ἕν",
+              "τρεῖς / τρία",
+              "τέτταρες / τέτταρα"
+            ],
+            [
+              "gen.",
+              "ἑνός / μιᾶς / ἑνός",
+              "τριῶν / τριῶν",
+              "τεττάρων / τεττάρων"
+            ],
+            [
+              "dat.",
+              "ἑνί / μιᾷ / ἑνί",
+              "τρισί(ν) / τρισί(ν)",
+              "τέτταρσι(ν) / τέτταρσι(ν)"
+            ],
+            [
+              "acc.",
+              "ἕνα / μίαν / ἕν",
+              "τρεῖς / τρία",
+              "τέτταρας / τέτταρα"
+            ]
+          ],
+          "greekColumns": [
+            1,
+            2,
+            3
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τρία δῶρα φέρει.",
+            "english": "He carries three gifts."
+          },
+          {
+            "greek": "μισθὸν τεττάρων μηνῶν δίδωσιν.",
+            "english": "He gives four months’ pay."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Does πέντε change to agree with feminine ἡμέρας?",
+            "answer": "No. πέντε is indeclinable, though ἡμέρας still has case."
+          }
+        ],
+        "tables": [
+          {
+            "title": "Useful fixed cardinals",
+            "headers": [
+              "Greek",
+              "Value"
+            ],
+            "rows": [
+              [
+                "δύο",
+                "two"
+              ],
+              [
+                "πέντε",
+                "five"
+              ],
+              [
+                "ἕξ",
+                "six"
+              ],
+              [
+                "ἑπτά",
+                "seven"
+              ],
+              [
+                "ὀκτώ",
+                "eight"
+              ],
+              [
+                "ἐννέα",
+                "nine"
+              ],
+              [
+                "δέκα",
+                "ten"
+              ],
+              [
+                "εἴκοσι",
+                "twenty"
+              ],
+              [
+                "ἑκατόν",
+                "one hundred"
+              ],
+              [
+                "χίλιοι, χίλιαι, χίλια",
+                "one thousand"
+              ]
+            ],
+            "greekColumns": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "time-expressions",
+        "title": "5. When, How Long, and Within What Time",
+        "practiceTopic": "time-expressions",
+        "body": [
+          "Greek distinguishes three questions about time. A dative can say when: ἐκείνῃ τῇ ἡμέρᾳ, “on that day” (ἐκείνῃ means that). An accusative gives duration: τρεῖς ἡμέρας μένει, “he stays for three days.” A genitive gives the time within which something is accomplished: μιᾶς ἡμέρας τὴν ὁδὸν ποιοῦνται, “they complete the journey within one day.”",
+          "Context makes these meanings clearer than a bare case label. The within-time example supplies a completed journey inside a time window; it is not a general rule that every time genitive means within. The genitive can also express the part of time in which something happens, but our exercises focus on the three explicit constructions above.",
+          "The reading’s τεττάρων μηνῶν after μισθός gives a quantity of wages, not a time limit for completing an action. Compare μένει τέτταρας μῆνας, “he stays for four months.” The same real-world number can enter different constructions depending on what the sentence says."
+        ],
+        "table": {
+          "title": "Three time questions",
+          "headers": [
+            "Question",
+            "Greek example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "when?",
+              "ἐκείνῃ τῇ ἡμέρᾳ",
+              "on that day"
+            ],
+            [
+              "how long?",
+              "τρεῖς ἡμέρας μένει",
+              "stays for three days"
+            ],
+            [
+              "within what time?",
+              "μιᾶς ἡμέρας τὴν ὁδὸν ποιοῦνται",
+              "complete the journey within one day"
+            ],
+            [
+              "quantity of wages",
+              "μισθὸς τεττάρων μηνῶν",
+              "four months’ wages"
+            ]
+          ],
+          "greekColumns": [
+            1
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τρεῖς ἡμέρας μένει.",
+            "english": "He stays for three days."
+          },
+          {
+            "greek": "ἐκείνῃ τῇ ἡμέρᾳ τὸν μισθὸν δίδωσιν.",
+            "english": "On that day he gives the pay."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What question does τρεῖς ἡμέρας answer after μένει?",
+            "answer": "How long does he stay? Three days."
+          }
+        ],
+        "tables": []
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "πατήρ/πατέρα but πατρός/πατρί; dative plural πατράσι.",
+        "γυνή uses γυναικ- in most cases; χείρ has irregular χερσί. Both are feminine.",
+        "πᾶς στρατιώτης is every soldier; πᾶσα ἡ στρατιά is the whole army; πάντες οἱ στρατιῶται is all the soldiers.",
+        "One, three, and four inflect; five through ten, twenty, and one hundred are fixed forms.",
+        "Dative can give when, accusative duration, genitive within-time. Genitive τεττάρων μηνῶν after μισθός instead gives quantity of pay."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Epyaxa, Finance, and Civilian Fear",
+    "body": [],
+    "sections": [
+      {
+        "title": "Resources and the status of a report",
+        "body": [
+          "Anabasis 1.2.12 names Epyaxa as the wife of Syennesis, ruler of the Cilicians. Her arrival occurs while Cyrus owes the soldiers pay. Xenophon reports a story that she gave him substantial money and then states the payment of four months’ wages. The payment is firmer within his narrative than the reported explanation of where the money came from.",
+          "This distinction is a feature of the evidence, not a reason to remove Epyaxa from the story. Her presence and subsequent actions link finance with political relationships. Our adaptation avoids assigning her a speech or a hidden motive. It also avoids turning a reported financial transfer into independent proof about the exact origin of every coin paid to the troops."
+        ]
+      },
+      {
+        "title": "The army on display and the market in flight",
+        "body": [
+          "At Tyriaeum Xenophon says that Epyaxa reportedly requested a review. Cyrus organizes the troops for display. The Greeks advance and then run toward their camp with a shout. Epyaxa flees in her vehicle, and people in the market abandon their wares. The soldiers’ laughter and Cyrus’s pleasure in the fear are part of the source’s uneven distribution of experience.",
+          "The review is impressive military coordination, but the same event terrifies people outside the formation. A market’s goods and the traders depending on them belong to the material story of war. Our adapted contrast of hands carrying weapons and hands losing goods makes this difference visible; that specific hand description is educational reconstruction."
+        ]
+      },
+      {
+        "title": "Negotiation and Cilicia’s vulnerability",
+        "body": [
+          "The compressed continuation turns to Tarsus. Anabasis 1.2.25–27 records losses among Menon’s men, plundering in anger, and Syennesis’s reluctance to meet a more powerful figure. Epyaxa helps persuade her husband, and assurances are required before he meets Cyrus. The exact motives behind her decisions are not preserved in the account used here.",
+          "At the meeting Syennesis supplies money, and Cyrus gives prestigious gifts and promises concerning the land and captives. This follows harm to Cilicia; it is not a peaceful scene isolated from the army’s actions. Epyaxa acts within the political process, while civilians remain exposed to military pressure. Reflection should consider whose security a successful negotiation protects and whose losses remain."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "What distinction must be preserved about the money?",
+        "answer": "Epyaxa’s gift is reported; the four-month payment is stated in Xenophon’s account."
+      },
+      {
+        "prompt": "Who is Epyaxa?",
+        "answer": "The wife of Syennesis, ruler of the Cilicians, and an actor in the expedition’s political relationships."
+      },
+      {
+        "prompt": "Who reportedly requests the review?",
+        "answer": "Epyaxa."
+      },
+      {
+        "prompt": "How do people in the market react?",
+        "answer": "They flee and leave their goods behind."
+      },
+      {
+        "prompt": "What role does Epyaxa play before the meeting with Syennesis?",
+        "answer": "She helps persuade him, and assurances are received before the meeting."
+      },
+      {
+        "prompt": "What remains unknown about Epyaxa?",
+        "answer": "The account does not preserve her private intentions or exact words."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "πατήρ/πατέρα but πατρός/πατρί; dative plural πατράσι.",
+        "γυνή uses γυναικ- in most cases; χείρ has irregular χερσί. Both are feminine.",
+        "πᾶς στρατιώτης is every soldier; πᾶσα ἡ στρατιά is the whole army; πάντες οἱ στρατιῶται is all the soldiers.",
+        "One, three, and four inflect; five through ten, twenty, and one hundred are fixed forms.",
+        "Dative can give when, accusative duration, genitive within-time. Genitive τεττάρων μηνῶν after μισθός instead gives quantity of pay.",
+        "What role does Epyaxa play before the meeting with Syennesis? She helps persuade him, and assurances are received before the meeting.",
+        "What remains unknown about Epyaxa? The account does not preserve her private intentions or exact words."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 1.2.12–18, 25–27",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 16 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ γυνή — required vocabulary",
+          "answer": "woman; wife; γυνή, γυναικός, ἡ"
+        },
+        {
+          "prompt": "ὁ πατήρ — required vocabulary",
+          "answer": "father; πατήρ, πατρός, ὁ"
+        },
+        {
+          "prompt": "ἡ μήτηρ — required vocabulary",
+          "answer": "mother; μήτηρ, μητρός, ἡ"
+        },
+        {
+          "prompt": "ἡ θυγάτηρ — required vocabulary",
+          "answer": "daughter; θυγάτηρ, θυγατρός, ἡ"
+        },
+        {
+          "prompt": "ἡ χείρ — required vocabulary",
+          "answer": "hand; χείρ, χειρός, ἡ"
+        },
+        {
+          "prompt": "ἡ Ἐπύαξα — reading vocabulary",
+          "answer": "Epyaxa; Ἐπύαξα, Ἐπυάξης, ἡ"
+        },
+        {
+          "prompt": "ὁ Συέννεσις — reading vocabulary",
+          "answer": "Syennesis; Συέννεσις, Συεννέσιος, ὁ"
+        },
+        {
+          "prompt": "ὁ μισθός — required vocabulary",
+          "answer": "pay; μισθός, μισθοῦ, ὁ"
+        },
+        {
+          "prompt": "ὁ μήν — required vocabulary",
+          "answer": "month; μήν, μηνός, ὁ"
+        },
+        {
+          "prompt": "ἡ ἡμέρα — required vocabulary",
+          "answer": "day; ἡμέρα, ἡμέρας, ἡ"
+        },
+        {
+          "prompt": "πᾶς — required vocabulary",
+          "answer": "all; every; πᾶς, πᾶσα, πᾶν; genitive παντός, πάσης, παντός"
+        },
+        {
+          "prompt": "τέτταρες — required vocabulary",
+          "answer": "four; τέτταρες (masculine/feminine), τέτταρα (neuter)"
+        },
+        {
+          "prompt": "τρεῖς — required vocabulary",
+          "answer": "three; τρεῖς (masculine/feminine), τρία (neuter)"
+        },
+        {
+          "prompt": "πέντε — required vocabulary",
+          "answer": "five; πέντε (indeclinable)"
+        },
+        {
+          "prompt": "ὀφείλω — required vocabulary",
+          "answer": "owe; ὀφείλω"
+        },
+        {
+          "prompt": "ἡ ἅμαξα — required vocabulary",
+          "answer": "carriage; wagon; ἅμαξα, ἁμάξης, ἡ"
+        },
+        {
+          "prompt": "ἡ ἀγορά — required vocabulary",
+          "answer": "market; ἀγορά, ἀγορᾶς, ἡ"
+        },
+        {
+          "prompt": "ἡ ἀσπίς — required vocabulary",
+          "answer": "shield; ἀσπίς, ἀσπίδος, ἡ"
+        },
+        {
+          "prompt": "ὁ φόβος — required vocabulary",
+          "answer": "fear; φόβος, φόβου, ὁ"
+        },
+        {
+          "prompt": "πείθω — required vocabulary",
+          "answer": "persuade; πείθω"
+        },
+        {
+          "prompt": "παρέχω — required vocabulary",
+          "answer": "provide; παρέχω"
+        },
+        {
+          "prompt": "τὸ δῶρον — required vocabulary",
+          "answer": "gift; δῶρον, δώρου, τό"
+        },
+        {
+          "prompt": "ἡ συνουσία — reading vocabulary",
+          "answer": "meeting; συνουσία, συνουσίας, ἡ"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 16 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "instructions": "Practice required words in short rounds. Reading vocabulary remains supported by glosses.",
+      "questions": [
+        {
+          "id": "lesson-16-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ γυνή mean?",
+          "choices": [
+            {
+              "text": "woman; wife",
+              "correct": true,
+              "feedback": "Correct: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            },
+            {
+              "text": "market",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            },
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            },
+            {
+              "text": "fear",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “woman; wife”?",
+          "choices": [
+            {
+              "text": "ὁ φόβος",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife."
+            },
+            {
+              "text": "ἡ γυνή",
+              "correct": true,
+              "feedback": "Correct: ἡ γυνή: woman; wife."
+            },
+            {
+              "text": "ἡ ἀγορά",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife."
+            },
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ πατήρ mean?",
+          "choices": [
+            {
+              "text": "woman; wife",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            },
+            {
+              "text": "mother",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            },
+            {
+              "text": "father",
+              "correct": true,
+              "feedback": "Correct: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            },
+            {
+              "text": "gift",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “father”?",
+          "choices": [
+            {
+              "text": "τὸ δῶρον",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father."
+            },
+            {
+              "text": "ἡ γυνή",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father."
+            },
+            {
+              "text": "ἡ μήτηρ",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father."
+            },
+            {
+              "text": "ὁ πατήρ",
+              "correct": true,
+              "feedback": "Correct: ὁ πατήρ: father."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ μήτηρ mean?",
+          "choices": [
+            {
+              "text": "mother",
+              "correct": true,
+              "feedback": "Correct: ἡ μήτηρ: mother. Dictionary form: μήτηρ, μητρός, ἡ."
+            },
+            {
+              "text": "all; every",
+              "correct": false,
+              "feedback": "Review: ἡ μήτηρ: mother. Dictionary form: μήτηρ, μητρός, ἡ."
+            },
+            {
+              "text": "four",
+              "correct": false,
+              "feedback": "Review: ἡ μήτηρ: mother. Dictionary form: μήτηρ, μητρός, ἡ."
+            },
+            {
+              "text": "three",
+              "correct": false,
+              "feedback": "Review: ἡ μήτηρ: mother. Dictionary form: μήτηρ, μητρός, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “mother”?",
+          "choices": [
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: ἡ μήτηρ: mother."
+            },
+            {
+              "text": "ἡ μήτηρ",
+              "correct": true,
+              "feedback": "Correct: ἡ μήτηρ: mother."
+            },
+            {
+              "text": "πᾶς",
+              "correct": false,
+              "feedback": "Review: ἡ μήτηρ: mother."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: ἡ μήτηρ: mother."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ θυγάτηρ mean?",
+          "choices": [
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: ἡ θυγάτηρ: daughter. Dictionary form: θυγάτηρ, θυγατρός, ἡ."
+            },
+            {
+              "text": "fear",
+              "correct": false,
+              "feedback": "Review: ἡ θυγάτηρ: daughter. Dictionary form: θυγάτηρ, θυγατρός, ἡ."
+            },
+            {
+              "text": "daughter",
+              "correct": true,
+              "feedback": "Correct: ἡ θυγάτηρ: daughter. Dictionary form: θυγάτηρ, θυγατρός, ἡ."
+            },
+            {
+              "text": "market",
+              "correct": false,
+              "feedback": "Review: ἡ θυγάτηρ: daughter. Dictionary form: θυγάτηρ, θυγατρός, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “daughter”?",
+          "choices": [
+            {
+              "text": "ἡ ἀγορά",
+              "correct": false,
+              "feedback": "Review: ἡ θυγάτηρ: daughter."
+            },
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": false,
+              "feedback": "Review: ἡ θυγάτηρ: daughter."
+            },
+            {
+              "text": "ὁ φόβος",
+              "correct": false,
+              "feedback": "Review: ἡ θυγάτηρ: daughter."
+            },
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": true,
+              "feedback": "Correct: ἡ θυγάτηρ: daughter."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ χείρ mean?",
+          "choices": [
+            {
+              "text": "hand",
+              "correct": true,
+              "feedback": "Correct: ἡ χείρ: hand. Dictionary form: χείρ, χειρός, ἡ."
+            },
+            {
+              "text": "daughter",
+              "correct": false,
+              "feedback": "Review: ἡ χείρ: hand. Dictionary form: χείρ, χειρός, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ χείρ: hand. Dictionary form: χείρ, χειρός, ἡ."
+            },
+            {
+              "text": "month",
+              "correct": false,
+              "feedback": "Review: ἡ χείρ: hand. Dictionary form: χείρ, χειρός, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “hand”?",
+          "choices": [
+            {
+              "text": "ὁ μήν",
+              "correct": false,
+              "feedback": "Review: ἡ χείρ: hand."
+            },
+            {
+              "text": "ἡ χείρ",
+              "correct": true,
+              "feedback": "Correct: ἡ χείρ: hand."
+            },
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": false,
+              "feedback": "Review: ἡ χείρ: hand."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ χείρ: hand."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ μισθός mean?",
+          "choices": [
+            {
+              "text": "provide",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "gift",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "pay",
+              "correct": true,
+              "feedback": "Correct: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "persuade",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “pay”?",
+          "choices": [
+            {
+              "text": "πείθω",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay."
+            },
+            {
+              "text": "παρέχω",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay."
+            },
+            {
+              "text": "τὸ δῶρον",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": true,
+              "feedback": "Correct: ὁ μισθός: pay."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ μήν mean?",
+          "choices": [
+            {
+              "text": "month",
+              "correct": true,
+              "feedback": "Correct: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            },
+            {
+              "text": "father",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            },
+            {
+              "text": "mother",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            },
+            {
+              "text": "daughter",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “month”?",
+          "choices": [
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month."
+            },
+            {
+              "text": "ὁ μήν",
+              "correct": true,
+              "feedback": "Correct: ὁ μήν: month."
+            },
+            {
+              "text": "ὁ πατήρ",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month."
+            },
+            {
+              "text": "ἡ μήτηρ",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ ἡμέρα mean?",
+          "choices": [
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: ἡ ἡμέρα: day. Dictionary form: ἡμέρα, ἡμέρας, ἡ."
+            },
+            {
+              "text": "fear",
+              "correct": false,
+              "feedback": "Review: ἡ ἡμέρα: day. Dictionary form: ἡμέρα, ἡμέρας, ἡ."
+            },
+            {
+              "text": "day",
+              "correct": true,
+              "feedback": "Correct: ἡ ἡμέρα: day. Dictionary form: ἡμέρα, ἡμέρας, ἡ."
+            },
+            {
+              "text": "market",
+              "correct": false,
+              "feedback": "Review: ἡ ἡμέρα: day. Dictionary form: ἡμέρα, ἡμέρας, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “day”?",
+          "choices": [
+            {
+              "text": "ἡ ἀγορά",
+              "correct": false,
+              "feedback": "Review: ἡ ἡμέρα: day."
+            },
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": false,
+              "feedback": "Review: ἡ ἡμέρα: day."
+            },
+            {
+              "text": "ὁ φόβος",
+              "correct": false,
+              "feedback": "Review: ἡ ἡμέρα: day."
+            },
+            {
+              "text": "ἡ ἡμέρα",
+              "correct": true,
+              "feedback": "Correct: ἡ ἡμέρα: day."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does πᾶς mean?",
+          "choices": [
+            {
+              "text": "all; every",
+              "correct": true,
+              "feedback": "Correct: πᾶς: all; every. Dictionary form: πᾶς, πᾶσα, πᾶν; genitive παντός, πάσης, παντός."
+            },
+            {
+              "text": "four",
+              "correct": false,
+              "feedback": "Review: πᾶς: all; every. Dictionary form: πᾶς, πᾶσα, πᾶν; genitive παντός, πάσης, παντός."
+            },
+            {
+              "text": "three",
+              "correct": false,
+              "feedback": "Review: πᾶς: all; every. Dictionary form: πᾶς, πᾶσα, πᾶν; genitive παντός, πάσης, παντός."
+            },
+            {
+              "text": "five",
+              "correct": false,
+              "feedback": "Review: πᾶς: all; every. Dictionary form: πᾶς, πᾶσα, πᾶν; genitive παντός, πάσης, παντός."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “all; every”?",
+          "choices": [
+            {
+              "text": "πέντε",
+              "correct": false,
+              "feedback": "Review: πᾶς: all; every."
+            },
+            {
+              "text": "πᾶς",
+              "correct": true,
+              "feedback": "Correct: πᾶς: all; every."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: πᾶς: all; every."
+            },
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: πᾶς: all; every."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τέτταρες mean?",
+          "choices": [
+            {
+              "text": "market",
+              "correct": false,
+              "feedback": "Review: τέτταρες: four. Dictionary form: τέτταρες (masculine/feminine), τέτταρα (neuter)."
+            },
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: τέτταρες: four. Dictionary form: τέτταρες (masculine/feminine), τέτταρα (neuter)."
+            },
+            {
+              "text": "four",
+              "correct": true,
+              "feedback": "Correct: τέτταρες: four. Dictionary form: τέτταρες (masculine/feminine), τέτταρα (neuter)."
+            },
+            {
+              "text": "carriage; wagon",
+              "correct": false,
+              "feedback": "Review: τέτταρες: four. Dictionary form: τέτταρες (masculine/feminine), τέτταρα (neuter)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “four”?",
+          "choices": [
+            {
+              "text": "ἡ ἅμαξα",
+              "correct": false,
+              "feedback": "Review: τέτταρες: four."
+            },
+            {
+              "text": "ἡ ἀγορά",
+              "correct": false,
+              "feedback": "Review: τέτταρες: four."
+            },
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": false,
+              "feedback": "Review: τέτταρες: four."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": true,
+              "feedback": "Correct: τέτταρες: four."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τρεῖς mean?",
+          "choices": [
+            {
+              "text": "three",
+              "correct": true,
+              "feedback": "Correct: τρεῖς: three. Dictionary form: τρεῖς (masculine/feminine), τρία (neuter)."
+            },
+            {
+              "text": "persuade",
+              "correct": false,
+              "feedback": "Review: τρεῖς: three. Dictionary form: τρεῖς (masculine/feminine), τρία (neuter)."
+            },
+            {
+              "text": "provide",
+              "correct": false,
+              "feedback": "Review: τρεῖς: three. Dictionary form: τρεῖς (masculine/feminine), τρία (neuter)."
+            },
+            {
+              "text": "gift",
+              "correct": false,
+              "feedback": "Review: τρεῖς: three. Dictionary form: τρεῖς (masculine/feminine), τρία (neuter)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “three”?",
+          "choices": [
+            {
+              "text": "τὸ δῶρον",
+              "correct": false,
+              "feedback": "Review: τρεῖς: three."
+            },
+            {
+              "text": "τρεῖς",
+              "correct": true,
+              "feedback": "Correct: τρεῖς: three."
+            },
+            {
+              "text": "πείθω",
+              "correct": false,
+              "feedback": "Review: τρεῖς: three."
+            },
+            {
+              "text": "παρέχω",
+              "correct": false,
+              "feedback": "Review: τρεῖς: three."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does πέντε mean?",
+          "choices": [
+            {
+              "text": "daughter",
+              "correct": false,
+              "feedback": "Review: πέντε: five. Dictionary form: πέντε (indeclinable)."
+            },
+            {
+              "text": "hand",
+              "correct": false,
+              "feedback": "Review: πέντε: five. Dictionary form: πέντε (indeclinable)."
+            },
+            {
+              "text": "five",
+              "correct": true,
+              "feedback": "Correct: πέντε: five. Dictionary form: πέντε (indeclinable)."
+            },
+            {
+              "text": "mother",
+              "correct": false,
+              "feedback": "Review: πέντε: five. Dictionary form: πέντε (indeclinable)."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “five”?",
+          "choices": [
+            {
+              "text": "ἡ μήτηρ",
+              "correct": false,
+              "feedback": "Review: πέντε: five."
+            },
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": false,
+              "feedback": "Review: πέντε: five."
+            },
+            {
+              "text": "ἡ χείρ",
+              "correct": false,
+              "feedback": "Review: πέντε: five."
+            },
+            {
+              "text": "πέντε",
+              "correct": true,
+              "feedback": "Correct: πέντε: five."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὀφείλω mean?",
+          "choices": [
+            {
+              "text": "owe",
+              "correct": true,
+              "feedback": "Correct: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            },
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            },
+            {
+              "text": "fear",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            },
+            {
+              "text": "persuade",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe. Dictionary form: ὀφείλω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “owe”?",
+          "choices": [
+            {
+              "text": "πείθω",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe."
+            },
+            {
+              "text": "ὀφείλω",
+              "correct": true,
+              "feedback": "Correct: ὀφείλω: owe."
+            },
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe."
+            },
+            {
+              "text": "ὁ φόβος",
+              "correct": false,
+              "feedback": "Review: ὀφείλω: owe."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ ἅμαξα mean?",
+          "choices": [
+            {
+              "text": "month",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            },
+            {
+              "text": "day",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            },
+            {
+              "text": "carriage; wagon",
+              "correct": true,
+              "feedback": "Correct: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “carriage; wagon”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon."
+            },
+            {
+              "text": "ὁ μήν",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon."
+            },
+            {
+              "text": "ἡ ἡμέρα",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon."
+            },
+            {
+              "text": "ἡ ἅμαξα",
+              "correct": true,
+              "feedback": "Correct: ἡ ἅμαξα: carriage; wagon."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ ἀγορά mean?",
+          "choices": [
+            {
+              "text": "market",
+              "correct": true,
+              "feedback": "Correct: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            },
+            {
+              "text": "daughter",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            },
+            {
+              "text": "hand",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “market”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market."
+            },
+            {
+              "text": "ἡ ἀγορά",
+              "correct": true,
+              "feedback": "Correct: ἡ ἀγορά: market."
+            },
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market."
+            },
+            {
+              "text": "ἡ χείρ",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ἡ ἀσπίς mean?",
+          "choices": [
+            {
+              "text": "month",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσπίς: shield. Dictionary form: ἀσπίς, ἀσπίδος, ἡ."
+            },
+            {
+              "text": "day",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσπίς: shield. Dictionary form: ἀσπίς, ἀσπίδος, ἡ."
+            },
+            {
+              "text": "shield",
+              "correct": true,
+              "feedback": "Correct: ἡ ἀσπίς: shield. Dictionary form: ἀσπίς, ἀσπίδος, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσπίς: shield. Dictionary form: ἀσπίς, ἀσπίδος, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “shield”?",
+          "choices": [
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσπίς: shield."
+            },
+            {
+              "text": "ὁ μήν",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσπίς: shield."
+            },
+            {
+              "text": "ἡ ἡμέρα",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσπίς: shield."
+            },
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": true,
+              "feedback": "Correct: ἡ ἀσπίς: shield."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does ὁ φόβος mean?",
+          "choices": [
+            {
+              "text": "fear",
+              "correct": true,
+              "feedback": "Correct: ὁ φόβος: fear. Dictionary form: φόβος, φόβου, ὁ."
+            },
+            {
+              "text": "carriage; wagon",
+              "correct": false,
+              "feedback": "Review: ὁ φόβος: fear. Dictionary form: φόβος, φόβου, ὁ."
+            },
+            {
+              "text": "market",
+              "correct": false,
+              "feedback": "Review: ὁ φόβος: fear. Dictionary form: φόβος, φόβου, ὁ."
+            },
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: ὁ φόβος: fear. Dictionary form: φόβος, φόβου, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “fear”?",
+          "choices": [
+            {
+              "text": "ἡ ἀσπίς",
+              "correct": false,
+              "feedback": "Review: ὁ φόβος: fear."
+            },
+            {
+              "text": "ὁ φόβος",
+              "correct": true,
+              "feedback": "Correct: ὁ φόβος: fear."
+            },
+            {
+              "text": "ἡ ἅμαξα",
+              "correct": false,
+              "feedback": "Review: ὁ φόβος: fear."
+            },
+            {
+              "text": "ἡ ἀγορά",
+              "correct": false,
+              "feedback": "Review: ὁ φόβος: fear."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does πείθω mean?",
+          "choices": [
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: πείθω: persuade. Dictionary form: πείθω."
+            },
+            {
+              "text": "month",
+              "correct": false,
+              "feedback": "Review: πείθω: persuade. Dictionary form: πείθω."
+            },
+            {
+              "text": "persuade",
+              "correct": true,
+              "feedback": "Correct: πείθω: persuade. Dictionary form: πείθω."
+            },
+            {
+              "text": "hand",
+              "correct": false,
+              "feedback": "Review: πείθω: persuade. Dictionary form: πείθω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “persuade”?",
+          "choices": [
+            {
+              "text": "ἡ χείρ",
+              "correct": false,
+              "feedback": "Review: πείθω: persuade."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: πείθω: persuade."
+            },
+            {
+              "text": "ὁ μήν",
+              "correct": false,
+              "feedback": "Review: πείθω: persuade."
+            },
+            {
+              "text": "πείθω",
+              "correct": true,
+              "feedback": "Correct: πείθω: persuade."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does παρέχω mean?",
+          "choices": [
+            {
+              "text": "provide",
+              "correct": true,
+              "feedback": "Correct: παρέχω: provide. Dictionary form: παρέχω."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: παρέχω: provide. Dictionary form: παρέχω."
+            },
+            {
+              "text": "month",
+              "correct": false,
+              "feedback": "Review: παρέχω: provide. Dictionary form: παρέχω."
+            },
+            {
+              "text": "day",
+              "correct": false,
+              "feedback": "Review: παρέχω: provide. Dictionary form: παρέχω."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “provide”?",
+          "choices": [
+            {
+              "text": "ἡ ἡμέρα",
+              "correct": false,
+              "feedback": "Review: παρέχω: provide."
+            },
+            {
+              "text": "παρέχω",
+              "correct": true,
+              "feedback": "Correct: παρέχω: provide."
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: παρέχω: provide."
+            },
+            {
+              "text": "ὁ μήν",
+              "correct": false,
+              "feedback": "Review: παρέχω: provide."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "What does τὸ δῶρον mean?",
+          "choices": [
+            {
+              "text": "all; every",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον: gift. Dictionary form: δῶρον, δώρου, τό."
+            },
+            {
+              "text": "four",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον: gift. Dictionary form: δῶρον, δώρου, τό."
+            },
+            {
+              "text": "gift",
+              "correct": true,
+              "feedback": "Correct: τὸ δῶρον: gift. Dictionary form: δῶρον, δώρου, τό."
+            },
+            {
+              "text": "day",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον: gift. Dictionary form: δῶρον, δώρου, τό."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "topic": "vocabulary",
+          "prompt": "Which Greek entry means “gift”?",
+          "choices": [
+            {
+              "text": "ἡ ἡμέρα",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον: gift."
+            },
+            {
+              "text": "πᾶς",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον: gift."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον: gift."
+            },
+            {
+              "text": "τὸ δῶρον",
+              "correct": true,
+              "feedback": "Correct: τὸ δῶρον: gift."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 16 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "Why are πατρός and πατέρα different stems?",
+          "answer": "The family-noun pattern drops ε in genitive/dative singular but retains it in accusative."
+        },
+        {
+          "prompt": "What is the gender of χείρ?",
+          "answer": "Feminine: ἡ χείρ."
+        },
+        {
+          "prompt": "How does πᾶσα ἡ στρατιά differ from πᾶς στρατιώτης?",
+          "answer": "The whole army as a unit versus every soldier individually."
+        },
+        {
+          "prompt": "Does πέντε change to agree with feminine ἡμέρας?",
+          "answer": "No. πέντε is indeclinable, though ἡμέρας still has case."
+        },
+        {
+          "prompt": "What question does τρεῖς ἡμέρας answer after μένει?",
+          "answer": "How long does he stay? Three days."
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 16 Word Study and Grammar Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose a topic. Every teaching section has its own practice questions with immediate feedback.",
+      "questions": [
+        {
+          "id": "lesson-16-word-study-1",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does μισθὸς τεττάρων μηνῶν name?",
+          "choices": [
+            {
+              "text": "four months’ wages",
+              "correct": true,
+              "feedback": "Correct: The genitive gives the amount of wages."
+            },
+            {
+              "text": "a four-day march",
+              "correct": false,
+              "feedback": "Review: The genitive gives the amount of wages."
+            },
+            {
+              "text": "four shields",
+              "correct": false,
+              "feedback": "Review: The genitive gives the amount of wages."
+            },
+            {
+              "text": "a festival prize",
+              "correct": false,
+              "feedback": "Review: The genitive gives the amount of wages."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-word-study-2",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What makes “wife” appropriate for γυνή in this reading?",
+          "choices": [
+            {
+              "text": "the ending specifies a royal title",
+              "correct": false,
+              "feedback": "Review: γυνή means woman or wife according to context."
+            },
+            {
+              "text": "her stated relationship to Syennesis",
+              "correct": true,
+              "feedback": "Correct: γυνή means woman or wife according to context."
+            },
+            {
+              "text": "the noun always means queen",
+              "correct": false,
+              "feedback": "Review: γυνή means woman or wife according to context."
+            },
+            {
+              "text": "the noun is masculine",
+              "correct": false,
+              "feedback": "Review: γυνή means woman or wife according to context."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-word-study-3",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does πείθω mean?",
+          "choices": [
+            {
+              "text": "owe",
+              "correct": false,
+              "feedback": "Review: πείθω means persuade."
+            },
+            {
+              "text": "flee",
+              "correct": false,
+              "feedback": "Review: πείθω means persuade."
+            },
+            {
+              "text": "persuade",
+              "correct": true,
+              "feedback": "Correct: πείθω means persuade."
+            },
+            {
+              "text": "provide",
+              "correct": false,
+              "feedback": "Review: πείθω means persuade."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-word-study-4",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "What does παρέχω mean?",
+          "choices": [
+            {
+              "text": "persuade",
+              "correct": false,
+              "feedback": "Review: παρέχω supplies or provides."
+            },
+            {
+              "text": "carry",
+              "correct": false,
+              "feedback": "Review: παρέχω supplies or provides."
+            },
+            {
+              "text": "laugh",
+              "correct": false,
+              "feedback": "Review: παρέχω supplies or provides."
+            },
+            {
+              "text": "provide",
+              "correct": true,
+              "feedback": "Correct: παρέχω supplies or provides."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-word-study-5",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which noun names the civilians’ fear?",
+          "choices": [
+            {
+              "text": "φόβος",
+              "correct": true,
+              "feedback": "Correct: φόβος is fear."
+            },
+            {
+              "text": "μισθός",
+              "correct": false,
+              "feedback": "Review: φόβος is fear."
+            },
+            {
+              "text": "δῶρον",
+              "correct": false,
+              "feedback": "Review: φόβος is fear."
+            },
+            {
+              "text": "ἀσπίς",
+              "correct": false,
+              "feedback": "Review: φόβος is fear."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-word-study-6",
+          "type": "multiple-choice",
+          "category": "Word Study",
+          "topic": "word-study",
+          "prompt": "Which stem is visible in γυναικός?",
+          "choices": [
+            {
+              "text": "γυναιξ-",
+              "correct": false,
+              "feedback": "Review: The genitive shows γυναικ-."
+            },
+            {
+              "text": "γυναικ-",
+              "correct": true,
+              "feedback": "Correct: The genitive shows γυναικ-."
+            },
+            {
+              "text": "γυν-",
+              "correct": false,
+              "feedback": "Review: The genitive shows γυναικ-."
+            },
+            {
+              "text": "γυνη-",
+              "correct": false,
+              "feedback": "Review: The genitive shows γυναικ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-family-r-stems-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which is genitive singular of πατήρ?",
+          "choices": [
+            {
+              "text": "πατρός",
+              "correct": true,
+              "feedback": "Correct: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατέρα",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατέρες",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατρί",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-family-r-stems-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which is accusative singular of μήτηρ?",
+          "choices": [
+            {
+              "text": "μητέρες",
+              "correct": false,
+              "feedback": "Review: Accusative singular uses the ε-stem."
+            },
+            {
+              "text": "μητέρα",
+              "correct": true,
+              "feedback": "Correct: Accusative singular uses the ε-stem."
+            },
+            {
+              "text": "μητρός",
+              "correct": false,
+              "feedback": "Review: Accusative singular uses the ε-stem."
+            },
+            {
+              "text": "μητρί",
+              "correct": false,
+              "feedback": "Review: Accusative singular uses the ε-stem."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-family-r-stems-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which means “to the daughter”?",
+          "choices": [
+            {
+              "text": "τὴν θυγατέρα",
+              "correct": false,
+              "feedback": "Review: Dative singular is θυγατρί."
+            },
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": false,
+              "feedback": "Review: Dative singular is θυγατρί."
+            },
+            {
+              "text": "τῇ θυγατρί",
+              "correct": true,
+              "feedback": "Correct: Dative singular is θυγατρί."
+            },
+            {
+              "text": "τῆς θυγατρός",
+              "correct": false,
+              "feedback": "Review: Dative singular is θυγατρί."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-family-r-stems-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which is dative plural of πατήρ?",
+          "choices": [
+            {
+              "text": "πατρί",
+              "correct": false,
+              "feedback": "Review: Dative plural inserts α before -σι."
+            },
+            {
+              "text": "πατέρες",
+              "correct": false,
+              "feedback": "Review: Dative plural inserts α before -σι."
+            },
+            {
+              "text": "πατέρας",
+              "correct": false,
+              "feedback": "Review: Dative plural inserts α before -σι."
+            },
+            {
+              "text": "πατράσι(ν)",
+              "correct": true,
+              "feedback": "Correct: Dative plural inserts α before -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-family-r-stems-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which form is the vocative “father!”?",
+          "choices": [
+            {
+              "text": "πάτερ",
+              "correct": true,
+              "feedback": "Correct: The vocative is πάτερ."
+            },
+            {
+              "text": "πατήρ",
+              "correct": false,
+              "feedback": "Review: The vocative is πάτερ."
+            },
+            {
+              "text": "πατρός",
+              "correct": false,
+              "feedback": "Review: The vocative is πάτερ."
+            },
+            {
+              "text": "πατέρα",
+              "correct": false,
+              "feedback": "Review: The vocative is πάτερ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-family-r-stems-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which article gives the gender of μήτηρ?",
+          "choices": [
+            {
+              "text": "οἱ",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "ἡ",
+              "correct": true,
+              "feedback": "Correct: μήτηρ is feminine."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "τό",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-gune-cheir-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which is accusative singular of γυνή?",
+          "choices": [
+            {
+              "text": "γυναῖκα",
+              "correct": true,
+              "feedback": "Correct: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναικός",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναικί",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναῖκες",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-gune-cheir-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which is dative plural of γυνή?",
+          "choices": [
+            {
+              "text": "γυναῖκας",
+              "correct": false,
+              "feedback": "Review: κ combines with σ as ξ."
+            },
+            {
+              "text": "γυναιξί(ν)",
+              "correct": true,
+              "feedback": "Correct: κ combines with σ as ξ."
+            },
+            {
+              "text": "γυναικί",
+              "correct": false,
+              "feedback": "Review: κ combines with σ as ξ."
+            },
+            {
+              "text": "γυναικῶν",
+              "correct": false,
+              "feedback": "Review: κ combines with σ as ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-gune-cheir-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "What is the gender of χείρ?",
+          "choices": [
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: The dictionary article is ἡ."
+            },
+            {
+              "text": "no grammatical gender",
+              "correct": false,
+              "feedback": "Review: The dictionary article is ἡ."
+            },
+            {
+              "text": "feminine",
+              "correct": true,
+              "feedback": "Correct: The dictionary article is ἡ."
+            },
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: The dictionary article is ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-gune-cheir-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which is dative plural of χείρ?",
+          "choices": [
+            {
+              "text": "χειρί",
+              "correct": false,
+              "feedback": "Review: The dative plural uses χερ-."
+            },
+            {
+              "text": "χεῖρες",
+              "correct": false,
+              "feedback": "Review: The dative plural uses χερ-."
+            },
+            {
+              "text": "χειρῶν",
+              "correct": false,
+              "feedback": "Review: The dative plural uses χερ-."
+            },
+            {
+              "text": "χερσί(ν)",
+              "correct": true,
+              "feedback": "Correct: The dative plural uses χερ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-gune-cheir-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which form means “the hands” as a subject?",
+          "choices": [
+            {
+              "text": "αἱ χεῖρες",
+              "correct": true,
+              "feedback": "Correct: αἱ χεῖρες is nominative plural."
+            },
+            {
+              "text": "τὰς χεῖρας",
+              "correct": false,
+              "feedback": "Review: αἱ χεῖρες is nominative plural."
+            },
+            {
+              "text": "τῶν χειρῶν",
+              "correct": false,
+              "feedback": "Review: αἱ χεῖρες is nominative plural."
+            },
+            {
+              "text": "τῇ χειρί",
+              "correct": false,
+              "feedback": "Review: αἱ χεῖρες is nominative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-gune-cheir-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which form addresses a woman directly?",
+          "choices": [
+            {
+              "text": "γυναῖκα",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γύναι",
+              "correct": true,
+              "feedback": "Correct: The vocative singular is γύναι."
+            },
+            {
+              "text": "γυνή",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γυναικός",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-pas-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "What does πᾶς στρατιώτης mean in the taught pattern?",
+          "choices": [
+            {
+              "text": "every soldier",
+              "correct": true,
+              "feedback": "Correct: Article-less singular commonly means every."
+            },
+            {
+              "text": "the whole army",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            },
+            {
+              "text": "one soldier only",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            },
+            {
+              "text": "some soldier",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-pas-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "What does πᾶσα ἡ στρατιά mean?",
+          "choices": [
+            {
+              "text": "no army",
+              "correct": false,
+              "feedback": "Review: With the article group it names the whole army."
+            },
+            {
+              "text": "the whole army",
+              "correct": true,
+              "feedback": "Correct: With the article group it names the whole army."
+            },
+            {
+              "text": "every separate army in the world",
+              "correct": false,
+              "feedback": "Review: With the article group it names the whole army."
+            },
+            {
+              "text": "some army",
+              "correct": false,
+              "feedback": "Review: With the article group it names the whole army."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-pas-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which fits ___ τὴν στρατιάν?",
+          "choices": [
+            {
+              "text": "πάντες",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is πᾶσαν."
+            },
+            {
+              "text": "παντί",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is πᾶσαν."
+            },
+            {
+              "text": "πᾶσαν",
+              "correct": true,
+              "feedback": "Correct: Feminine accusative singular is πᾶσαν."
+            },
+            {
+              "text": "πᾶς",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is πᾶσαν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-pas-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which means “all the soldiers” as subject?",
+          "choices": [
+            {
+              "text": "πάντας τοὺς στρατιώτας",
+              "correct": false,
+              "feedback": "Review: Nominative plural πάντες agrees with στρατιῶται."
+            },
+            {
+              "text": "πᾶς στρατιώτης",
+              "correct": false,
+              "feedback": "Review: Nominative plural πάντες agrees with στρατιῶται."
+            },
+            {
+              "text": "παντὶ στρατιώτῃ",
+              "correct": false,
+              "feedback": "Review: Nominative plural πάντες agrees with στρατιῶται."
+            },
+            {
+              "text": "πάντες οἱ στρατιῶται",
+              "correct": true,
+              "feedback": "Correct: Nominative plural πάντες agrees with στρατιῶται."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-pas-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which is neuter nominative singular of πᾶς?",
+          "choices": [
+            {
+              "text": "πᾶν",
+              "correct": true,
+              "feedback": "Correct: The neuter form is πᾶν."
+            },
+            {
+              "text": "πᾶς",
+              "correct": false,
+              "feedback": "Review: The neuter form is πᾶν."
+            },
+            {
+              "text": "πᾶσα",
+              "correct": false,
+              "feedback": "Review: The neuter form is πᾶν."
+            },
+            {
+              "text": "παντός",
+              "correct": false,
+              "feedback": "Review: The neuter form is πᾶν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-pas-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which is dative plural masculine/neuter?",
+          "choices": [
+            {
+              "text": "πάντας",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πᾶσι(ν)",
+              "correct": true,
+              "feedback": "Correct: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "παντί",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πάντων",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-cardinal-numbers-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which numeral agrees with neuter plural δῶρα for “three”?",
+          "choices": [
+            {
+              "text": "τρία",
+              "correct": true,
+              "feedback": "Correct: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τριῶν",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρισί",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-cardinal-numbers-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which means “four months” as nominative subject?",
+          "choices": [
+            {
+              "text": "τέτταρσι μησί",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural uses τέτταρες."
+            },
+            {
+              "text": "τέτταρες μῆνες",
+              "correct": true,
+              "feedback": "Correct: Masculine nominative plural uses τέτταρες."
+            },
+            {
+              "text": "τέτταρα μῆνες",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural uses τέτταρες."
+            },
+            {
+              "text": "τεττάρων μηνῶν",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural uses τέτταρες."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-cardinal-numbers-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which completes μισθὸς ___ μηνῶν for four months’ pay?",
+          "choices": [
+            {
+              "text": "τέτταρα",
+              "correct": false,
+              "feedback": "Review: Genitive plural numeral agrees with μηνῶν."
+            },
+            {
+              "text": "τέτταρας",
+              "correct": false,
+              "feedback": "Review: Genitive plural numeral agrees with μηνῶν."
+            },
+            {
+              "text": "τεττάρων",
+              "correct": true,
+              "feedback": "Correct: Genitive plural numeral agrees with μηνῶν."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: Genitive plural numeral agrees with μηνῶν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-cardinal-numbers-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which means “one day” as accusative duration?",
+          "choices": [
+            {
+              "text": "εἷς ἡμέρα",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is μίαν."
+            },
+            {
+              "text": "ἕνα ἡμέραν",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is μίαν."
+            },
+            {
+              "text": "μιᾶς ἡμέρας",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is μίαν."
+            },
+            {
+              "text": "μίαν ἡμέραν",
+              "correct": true,
+              "feedback": "Correct: Feminine accusative singular is μίαν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-cardinal-numbers-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which cardinal is indeclinable?",
+          "choices": [
+            {
+              "text": "πέντε",
+              "correct": true,
+              "feedback": "Correct: πέντε does not change for gender or case."
+            },
+            {
+              "text": "εἷς",
+              "correct": false,
+              "feedback": "Review: πέντε does not change for gender or case."
+            },
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: πέντε does not change for gender or case."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: πέντε does not change for gender or case."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-cardinal-numbers-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "What does εἴκοσι mean?",
+          "choices": [
+            {
+              "text": "one thousand",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "twenty",
+              "correct": true,
+              "feedback": "Correct: εἴκοσι means twenty."
+            },
+            {
+              "text": "ten",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "one hundred",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-time-expressions-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "Which case gives duration in τρεῖς ἡμέρας μένει?",
+          "choices": [
+            {
+              "text": "accusative",
+              "correct": true,
+              "feedback": "Correct: Accusative time tells how long."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            },
+            {
+              "text": "dative",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-time-expressions-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "What does ἐκείνῃ τῇ ἡμέρᾳ mean (ἐκείνῃ = that)?",
+          "choices": [
+            {
+              "text": "four months’ wages",
+              "correct": false,
+              "feedback": "Review: Dative gives when."
+            },
+            {
+              "text": "on that day",
+              "correct": true,
+              "feedback": "Correct: Dative gives when."
+            },
+            {
+              "text": "for that day as duration",
+              "correct": false,
+              "feedback": "Review: Dative gives when."
+            },
+            {
+              "text": "within three days",
+              "correct": false,
+              "feedback": "Review: Dative gives when."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-time-expressions-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "Which question is answered by “within one day” in the taught genitive example?",
+          "choices": [
+            {
+              "text": "how many wages are owed?",
+              "correct": false,
+              "feedback": "Review: A time window for accomplishment is expressed by genitive."
+            },
+            {
+              "text": "which person receives a gift?",
+              "correct": false,
+              "feedback": "Review: A time window for accomplishment is expressed by genitive."
+            },
+            {
+              "text": "within what time is the journey completed?",
+              "correct": true,
+              "feedback": "Correct: A time window for accomplishment is expressed by genitive."
+            },
+            {
+              "text": "who makes the journey?",
+              "correct": false,
+              "feedback": "Review: A time window for accomplishment is expressed by genitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-time-expressions-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "What does μισθὸς τεττάρων μηνῶν mean?",
+          "choices": [
+            {
+              "text": "he stays for four months",
+              "correct": false,
+              "feedback": "Review: The genitive is quantity of pay here."
+            },
+            {
+              "text": "he finishes within four months",
+              "correct": false,
+              "feedback": "Review: The genitive is quantity of pay here."
+            },
+            {
+              "text": "on the fourth day",
+              "correct": false,
+              "feedback": "Review: The genitive is quantity of pay here."
+            },
+            {
+              "text": "four months’ wages",
+              "correct": true,
+              "feedback": "Correct: The genitive is quantity of pay here."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-time-expressions-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "Which expresses “he stays for four months”?",
+          "choices": [
+            {
+              "text": "μένει τέτταρας μῆνας",
+              "correct": true,
+              "feedback": "Correct: Duration takes accusative numeral and noun."
+            },
+            {
+              "text": "μένει τεττάρων μηνῶν as the taught duration pattern",
+              "correct": false,
+              "feedback": "Review: Duration takes accusative numeral and noun."
+            },
+            {
+              "text": "μένει τέτταρσι μησί as the taught duration pattern",
+              "correct": false,
+              "feedback": "Review: Duration takes accusative numeral and noun."
+            },
+            {
+              "text": "μένει τέτταρες μῆνες",
+              "correct": false,
+              "feedback": "Review: Duration takes accusative numeral and noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-time-expressions-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "What is needed beyond the case label to interpret a time expression?",
+          "choices": [
+            {
+              "text": "a rule that every genitive means within",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "the construction and context",
+              "correct": true,
+              "feedback": "Correct: Different genitives can express different relationships."
+            },
+            {
+              "text": "only the noun’s gender",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "only the word’s initial letter",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 16 Grammar Exercises",
+      "description": "Family -ρ- stems; γυνή and χείρ; πᾶς; cardinal numbers; time expressions",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-16-grammar-exercises-module-2-v1",
+      "instructions": "Answer every question and score at least 80% to continue to the culture page.",
+      "questions": [
+        {
+          "id": "lesson-16-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which is genitive singular of πατήρ?",
+          "choices": [
+            {
+              "text": "πατρός",
+              "correct": true,
+              "feedback": "Correct: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατέρα",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατέρες",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατρί",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which is accusative singular of μήτηρ?",
+          "choices": [
+            {
+              "text": "μητέρες",
+              "correct": false,
+              "feedback": "Review: Accusative singular uses the ε-stem."
+            },
+            {
+              "text": "μητέρα",
+              "correct": true,
+              "feedback": "Correct: Accusative singular uses the ε-stem."
+            },
+            {
+              "text": "μητρός",
+              "correct": false,
+              "feedback": "Review: Accusative singular uses the ε-stem."
+            },
+            {
+              "text": "μητρί",
+              "correct": false,
+              "feedback": "Review: Accusative singular uses the ε-stem."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which means “to the daughter”?",
+          "choices": [
+            {
+              "text": "τὴν θυγατέρα",
+              "correct": false,
+              "feedback": "Review: Dative singular is θυγατρί."
+            },
+            {
+              "text": "ἡ θυγάτηρ",
+              "correct": false,
+              "feedback": "Review: Dative singular is θυγατρί."
+            },
+            {
+              "text": "τῇ θυγατρί",
+              "correct": true,
+              "feedback": "Correct: Dative singular is θυγατρί."
+            },
+            {
+              "text": "τῆς θυγατρός",
+              "correct": false,
+              "feedback": "Review: Dative singular is θυγατρί."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which is dative plural of πατήρ?",
+          "choices": [
+            {
+              "text": "πατρί",
+              "correct": false,
+              "feedback": "Review: Dative plural inserts α before -σι."
+            },
+            {
+              "text": "πατέρες",
+              "correct": false,
+              "feedback": "Review: Dative plural inserts α before -σι."
+            },
+            {
+              "text": "πατέρας",
+              "correct": false,
+              "feedback": "Review: Dative plural inserts α before -σι."
+            },
+            {
+              "text": "πατράσι(ν)",
+              "correct": true,
+              "feedback": "Correct: Dative plural inserts α before -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which form is the vocative “father!”?",
+          "choices": [
+            {
+              "text": "πάτερ",
+              "correct": true,
+              "feedback": "Correct: The vocative is πάτερ."
+            },
+            {
+              "text": "πατήρ",
+              "correct": false,
+              "feedback": "Review: The vocative is πάτερ."
+            },
+            {
+              "text": "πατρός",
+              "correct": false,
+              "feedback": "Review: The vocative is πάτερ."
+            },
+            {
+              "text": "πατέρα",
+              "correct": false,
+              "feedback": "Review: The vocative is πάτερ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "family-r-stems",
+          "prompt": "Which article gives the gender of μήτηρ?",
+          "choices": [
+            {
+              "text": "οἱ",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "ἡ",
+              "correct": true,
+              "feedback": "Correct: μήτηρ is feminine."
+            },
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "τό",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which is accusative singular of γυνή?",
+          "choices": [
+            {
+              "text": "γυναικί",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναῖκες",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναῖκα",
+              "correct": true,
+              "feedback": "Correct: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναικός",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which is dative plural of γυνή?",
+          "choices": [
+            {
+              "text": "γυναικί",
+              "correct": false,
+              "feedback": "Review: κ combines with σ as ξ."
+            },
+            {
+              "text": "γυναικῶν",
+              "correct": false,
+              "feedback": "Review: κ combines with σ as ξ."
+            },
+            {
+              "text": "γυναῖκας",
+              "correct": false,
+              "feedback": "Review: κ combines with σ as ξ."
+            },
+            {
+              "text": "γυναιξί(ν)",
+              "correct": true,
+              "feedback": "Correct: κ combines with σ as ξ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "What is the gender of χείρ?",
+          "choices": [
+            {
+              "text": "feminine",
+              "correct": true,
+              "feedback": "Correct: The dictionary article is ἡ."
+            },
+            {
+              "text": "masculine",
+              "correct": false,
+              "feedback": "Review: The dictionary article is ἡ."
+            },
+            {
+              "text": "neuter",
+              "correct": false,
+              "feedback": "Review: The dictionary article is ἡ."
+            },
+            {
+              "text": "no grammatical gender",
+              "correct": false,
+              "feedback": "Review: The dictionary article is ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which is dative plural of χείρ?",
+          "choices": [
+            {
+              "text": "χειρῶν",
+              "correct": false,
+              "feedback": "Review: The dative plural uses χερ-."
+            },
+            {
+              "text": "χερσί(ν)",
+              "correct": true,
+              "feedback": "Correct: The dative plural uses χερ-."
+            },
+            {
+              "text": "χειρί",
+              "correct": false,
+              "feedback": "Review: The dative plural uses χερ-."
+            },
+            {
+              "text": "χεῖρες",
+              "correct": false,
+              "feedback": "Review: The dative plural uses χερ-."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which form means “the hands” as a subject?",
+          "choices": [
+            {
+              "text": "τῶν χειρῶν",
+              "correct": false,
+              "feedback": "Review: αἱ χεῖρες is nominative plural."
+            },
+            {
+              "text": "τῇ χειρί",
+              "correct": false,
+              "feedback": "Review: αἱ χεῖρες is nominative plural."
+            },
+            {
+              "text": "αἱ χεῖρες",
+              "correct": true,
+              "feedback": "Correct: αἱ χεῖρες is nominative plural."
+            },
+            {
+              "text": "τὰς χεῖρας",
+              "correct": false,
+              "feedback": "Review: αἱ χεῖρες is nominative plural."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "gune-cheir",
+          "prompt": "Which form addresses a woman directly?",
+          "choices": [
+            {
+              "text": "γυνή",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γυναικός",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γυναῖκα",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γύναι",
+              "correct": true,
+              "feedback": "Correct: The vocative singular is γύναι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "What does πᾶς στρατιώτης mean in the taught pattern?",
+          "choices": [
+            {
+              "text": "every soldier",
+              "correct": true,
+              "feedback": "Correct: Article-less singular commonly means every."
+            },
+            {
+              "text": "the whole army",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            },
+            {
+              "text": "one soldier only",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            },
+            {
+              "text": "some soldier",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "What does πᾶσα ἡ στρατιά mean?",
+          "choices": [
+            {
+              "text": "no army",
+              "correct": false,
+              "feedback": "Review: With the article group it names the whole army."
+            },
+            {
+              "text": "the whole army",
+              "correct": true,
+              "feedback": "Correct: With the article group it names the whole army."
+            },
+            {
+              "text": "every separate army in the world",
+              "correct": false,
+              "feedback": "Review: With the article group it names the whole army."
+            },
+            {
+              "text": "some army",
+              "correct": false,
+              "feedback": "Review: With the article group it names the whole army."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which fits ___ τὴν στρατιάν?",
+          "choices": [
+            {
+              "text": "πάντες",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is πᾶσαν."
+            },
+            {
+              "text": "παντί",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is πᾶσαν."
+            },
+            {
+              "text": "πᾶσαν",
+              "correct": true,
+              "feedback": "Correct: Feminine accusative singular is πᾶσαν."
+            },
+            {
+              "text": "πᾶς",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is πᾶσαν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which means “all the soldiers” as subject?",
+          "choices": [
+            {
+              "text": "πάντας τοὺς στρατιώτας",
+              "correct": false,
+              "feedback": "Review: Nominative plural πάντες agrees with στρατιῶται."
+            },
+            {
+              "text": "πᾶς στρατιώτης",
+              "correct": false,
+              "feedback": "Review: Nominative plural πάντες agrees with στρατιῶται."
+            },
+            {
+              "text": "παντὶ στρατιώτῃ",
+              "correct": false,
+              "feedback": "Review: Nominative plural πάντες agrees with στρατιῶται."
+            },
+            {
+              "text": "πάντες οἱ στρατιῶται",
+              "correct": true,
+              "feedback": "Correct: Nominative plural πάντες agrees with στρατιῶται."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which is neuter nominative singular of πᾶς?",
+          "choices": [
+            {
+              "text": "πᾶν",
+              "correct": true,
+              "feedback": "Correct: The neuter form is πᾶν."
+            },
+            {
+              "text": "πᾶς",
+              "correct": false,
+              "feedback": "Review: The neuter form is πᾶν."
+            },
+            {
+              "text": "πᾶσα",
+              "correct": false,
+              "feedback": "Review: The neuter form is πᾶν."
+            },
+            {
+              "text": "παντός",
+              "correct": false,
+              "feedback": "Review: The neuter form is πᾶν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pas",
+          "prompt": "Which is dative plural masculine/neuter?",
+          "choices": [
+            {
+              "text": "πάντας",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πᾶσι(ν)",
+              "correct": true,
+              "feedback": "Correct: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "παντί",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πάντων",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which numeral agrees with neuter plural δῶρα for “three”?",
+          "choices": [
+            {
+              "text": "τριῶν",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρισί",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρία",
+              "correct": true,
+              "feedback": "Correct: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which means “four months” as nominative subject?",
+          "choices": [
+            {
+              "text": "τέτταρα μῆνες",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural uses τέτταρες."
+            },
+            {
+              "text": "τεττάρων μηνῶν",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural uses τέτταρες."
+            },
+            {
+              "text": "τέτταρσι μησί",
+              "correct": false,
+              "feedback": "Review: Masculine nominative plural uses τέτταρες."
+            },
+            {
+              "text": "τέτταρες μῆνες",
+              "correct": true,
+              "feedback": "Correct: Masculine nominative plural uses τέτταρες."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which completes μισθὸς ___ μηνῶν for four months’ pay?",
+          "choices": [
+            {
+              "text": "τεττάρων",
+              "correct": true,
+              "feedback": "Correct: Genitive plural numeral agrees with μηνῶν."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: Genitive plural numeral agrees with μηνῶν."
+            },
+            {
+              "text": "τέτταρα",
+              "correct": false,
+              "feedback": "Review: Genitive plural numeral agrees with μηνῶν."
+            },
+            {
+              "text": "τέτταρας",
+              "correct": false,
+              "feedback": "Review: Genitive plural numeral agrees with μηνῶν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which means “one day” as accusative duration?",
+          "choices": [
+            {
+              "text": "μιᾶς ἡμέρας",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is μίαν."
+            },
+            {
+              "text": "μίαν ἡμέραν",
+              "correct": true,
+              "feedback": "Correct: Feminine accusative singular is μίαν."
+            },
+            {
+              "text": "εἷς ἡμέρα",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is μίαν."
+            },
+            {
+              "text": "ἕνα ἡμέραν",
+              "correct": false,
+              "feedback": "Review: Feminine accusative singular is μίαν."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "Which cardinal is indeclinable?",
+          "choices": [
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: πέντε does not change for gender or case."
+            },
+            {
+              "text": "τέτταρες",
+              "correct": false,
+              "feedback": "Review: πέντε does not change for gender or case."
+            },
+            {
+              "text": "πέντε",
+              "correct": true,
+              "feedback": "Correct: πέντε does not change for gender or case."
+            },
+            {
+              "text": "εἷς",
+              "correct": false,
+              "feedback": "Review: πέντε does not change for gender or case."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "cardinal-numbers",
+          "prompt": "What does εἴκοσι mean?",
+          "choices": [
+            {
+              "text": "ten",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "one hundred",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "one thousand",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "twenty",
+              "correct": true,
+              "feedback": "Correct: εἴκοσι means twenty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "Which case gives duration in τρεῖς ἡμέρας μένει?",
+          "choices": [
+            {
+              "text": "accusative",
+              "correct": true,
+              "feedback": "Correct: Accusative time tells how long."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            },
+            {
+              "text": "dative",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "What does ἐκείνῃ τῇ ἡμέρᾳ mean (ἐκείνῃ = that)?",
+          "choices": [
+            {
+              "text": "four months’ wages",
+              "correct": false,
+              "feedback": "Review: Dative gives when."
+            },
+            {
+              "text": "on that day",
+              "correct": true,
+              "feedback": "Correct: Dative gives when."
+            },
+            {
+              "text": "for that day as duration",
+              "correct": false,
+              "feedback": "Review: Dative gives when."
+            },
+            {
+              "text": "within three days",
+              "correct": false,
+              "feedback": "Review: Dative gives when."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "Which question is answered by “within one day” in the taught genitive example?",
+          "choices": [
+            {
+              "text": "how many wages are owed?",
+              "correct": false,
+              "feedback": "Review: A time window for accomplishment is expressed by genitive."
+            },
+            {
+              "text": "which person receives a gift?",
+              "correct": false,
+              "feedback": "Review: A time window for accomplishment is expressed by genitive."
+            },
+            {
+              "text": "within what time is the journey completed?",
+              "correct": true,
+              "feedback": "Correct: A time window for accomplishment is expressed by genitive."
+            },
+            {
+              "text": "who makes the journey?",
+              "correct": false,
+              "feedback": "Review: A time window for accomplishment is expressed by genitive."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "What does μισθὸς τεττάρων μηνῶν mean?",
+          "choices": [
+            {
+              "text": "he stays for four months",
+              "correct": false,
+              "feedback": "Review: The genitive is quantity of pay here."
+            },
+            {
+              "text": "he finishes within four months",
+              "correct": false,
+              "feedback": "Review: The genitive is quantity of pay here."
+            },
+            {
+              "text": "on the fourth day",
+              "correct": false,
+              "feedback": "Review: The genitive is quantity of pay here."
+            },
+            {
+              "text": "four months’ wages",
+              "correct": true,
+              "feedback": "Correct: The genitive is quantity of pay here."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "Which expresses “he stays for four months”?",
+          "choices": [
+            {
+              "text": "μένει τέτταρας μῆνας",
+              "correct": true,
+              "feedback": "Correct: Duration takes accusative numeral and noun."
+            },
+            {
+              "text": "μένει τεττάρων μηνῶν as the taught duration pattern",
+              "correct": false,
+              "feedback": "Review: Duration takes accusative numeral and noun."
+            },
+            {
+              "text": "μένει τέτταρσι μησί as the taught duration pattern",
+              "correct": false,
+              "feedback": "Review: Duration takes accusative numeral and noun."
+            },
+            {
+              "text": "μένει τέτταρες μῆνες",
+              "correct": false,
+              "feedback": "Review: Duration takes accusative numeral and noun."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-grammar-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "time-expressions",
+          "prompt": "What is needed beyond the case label to interpret a time expression?",
+          "choices": [
+            {
+              "text": "a rule that every genitive means within",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "the construction and context",
+              "correct": true,
+              "feedback": "Correct: Different genitives can express different relationships."
+            },
+            {
+              "text": "only the noun’s gender",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "only the word’s initial letter",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 16 Final Quiz — Epyaxa and the Army's Pay",
+      "description": "Reading, vocabulary, taught grammar, and the Greek world",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-16-final-quiz-module-2-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer all 30 questions and score at least 80% to complete Lesson 16.",
+      "questions": [
+        {
+          "id": "lesson-16-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who is Epyaxa in the account?",
+          "choices": [
+            {
+              "text": "wife of Syennesis",
+              "correct": true,
+              "feedback": "Correct: Xenophon names her as Syennesis’s wife."
+            },
+            {
+              "text": "daughter of Cyrus",
+              "correct": false,
+              "feedback": "Review: Xenophon names her as Syennesis’s wife."
+            },
+            {
+              "text": "Athenian general",
+              "correct": false,
+              "feedback": "Review: Xenophon names her as Syennesis’s wife."
+            },
+            {
+              "text": "priestess at Delphi",
+              "correct": false,
+              "feedback": "Review: Xenophon names her as Syennesis’s wife."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How much pay does Cyrus give at this point?",
+          "choices": [
+            {
+              "text": "no wages",
+              "correct": false,
+              "feedback": "Review: The payment is four months."
+            },
+            {
+              "text": "four months’ wages",
+              "correct": true,
+              "feedback": "Correct: The payment is four months."
+            },
+            {
+              "text": "three days’ wages",
+              "correct": false,
+              "feedback": "Review: The payment is four months."
+            },
+            {
+              "text": "one year’s wages",
+              "correct": false,
+              "feedback": "Review: The payment is four months."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How is Epyaxa’s financial gift presented?",
+          "choices": [
+            {
+              "text": "as a modern bank record",
+              "correct": false,
+              "feedback": "Review: Xenophon marks the money story as reported."
+            },
+            {
+              "text": "as an independently verified fact",
+              "correct": false,
+              "feedback": "Review: Xenophon marks the money story as reported."
+            },
+            {
+              "text": "as a report",
+              "correct": true,
+              "feedback": "Correct: Xenophon marks the money story as reported."
+            },
+            {
+              "text": "as a preserved speech by her",
+              "correct": false,
+              "feedback": "Review: Xenophon marks the money story as reported."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who reportedly wants to see the army reviewed?",
+          "choices": [
+            {
+              "text": "Nicomachides",
+              "correct": false,
+              "feedback": "Review: The request for review is attributed to Epyaxa as a report."
+            },
+            {
+              "text": "Socrates",
+              "correct": false,
+              "feedback": "Review: The request for review is attributed to Epyaxa as a report."
+            },
+            {
+              "text": "the Pythia",
+              "correct": false,
+              "feedback": "Review: The request for review is attributed to Epyaxa as a report."
+            },
+            {
+              "text": "Epyaxa",
+              "correct": true,
+              "feedback": "Correct: The request for review is attributed to Epyaxa as a report."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Epyaxa do during the running display?",
+          "choices": [
+            {
+              "text": "flees in her carriage",
+              "correct": true,
+              "feedback": "Correct: She is frightened and flees."
+            },
+            {
+              "text": "commands the Greek charge",
+              "correct": false,
+              "feedback": "Review: She is frightened and flees."
+            },
+            {
+              "text": "collects prizes",
+              "correct": false,
+              "feedback": "Review: She is frightened and flees."
+            },
+            {
+              "text": "delivers a preserved speech",
+              "correct": false,
+              "feedback": "Review: She is frightened and flees."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What happens to the market goods?",
+          "choices": [
+            {
+              "text": "Epyaxa carries them to Athens",
+              "correct": false,
+              "feedback": "Review: The market people abandon their wares in flight."
+            },
+            {
+              "text": "traders leave them behind",
+              "correct": true,
+              "feedback": "Correct: The market people abandon their wares in flight."
+            },
+            {
+              "text": "soldiers carefully inventory them first",
+              "correct": false,
+              "feedback": "Review: The market people abandon their wares in flight."
+            },
+            {
+              "text": "they become athletic prizes",
+              "correct": false,
+              "feedback": "Review: The market people abandon their wares in flight."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-7",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Epyaxa help Syennesis do?",
+          "choices": [
+            {
+              "text": "cross the Maeander at Sardis",
+              "correct": false,
+              "feedback": "Review: She persuades him before the meeting and assurances."
+            },
+            {
+              "text": "organize the Peltae games",
+              "correct": false,
+              "feedback": "Review: She persuades him before the meeting and assurances."
+            },
+            {
+              "text": "agree to meet Cyrus",
+              "correct": true,
+              "feedback": "Correct: She persuades him before the meeting and assurances."
+            },
+            {
+              "text": "become an Athenian general",
+              "correct": false,
+              "feedback": "Review: She persuades him before the meeting and assurances."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-8",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the reading say about her private intention?",
+          "choices": [
+            {
+              "text": "it gives her exact inner thoughts",
+              "correct": false,
+              "feedback": "Review: The source boundary excludes invented motives."
+            },
+            {
+              "text": "she wants to destroy all Cilicia",
+              "correct": false,
+              "feedback": "Review: The source boundary excludes invented motives."
+            },
+            {
+              "text": "she seeks a choral prize",
+              "correct": false,
+              "feedback": "Review: The source boundary excludes invented motives."
+            },
+            {
+              "text": "the account does not reveal it",
+              "correct": true,
+              "feedback": "Correct: The source boundary excludes invented motives."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ γυνή mean?",
+          "choices": [
+            {
+              "text": "woman; wife",
+              "correct": true,
+              "feedback": "Correct: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            },
+            {
+              "text": "market",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            },
+            {
+              "text": "shield",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            },
+            {
+              "text": "fear",
+              "correct": false,
+              "feedback": "Review: ἡ γυνή: woman; wife. Dictionary form: γυνή, γυναικός, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ πατήρ mean?",
+          "choices": [
+            {
+              "text": "mother",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            },
+            {
+              "text": "father",
+              "correct": true,
+              "feedback": "Correct: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            },
+            {
+              "text": "gift",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            },
+            {
+              "text": "woman; wife",
+              "correct": false,
+              "feedback": "Review: ὁ πατήρ: father. Dictionary form: πατήρ, πατρός, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ μισθός mean?",
+          "choices": [
+            {
+              "text": "provide",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "gift",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "pay",
+              "correct": true,
+              "feedback": "Correct: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            },
+            {
+              "text": "persuade",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός: pay. Dictionary form: μισθός, μισθοῦ, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ μήν mean?",
+          "choices": [
+            {
+              "text": "father",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            },
+            {
+              "text": "mother",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            },
+            {
+              "text": "daughter",
+              "correct": false,
+              "feedback": "Review: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            },
+            {
+              "text": "month",
+              "correct": true,
+              "feedback": "Correct: ὁ μήν: month. Dictionary form: μήν, μηνός, ὁ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἅμαξα mean?",
+          "choices": [
+            {
+              "text": "carriage; wagon",
+              "correct": true,
+              "feedback": "Correct: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            },
+            {
+              "text": "month",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            },
+            {
+              "text": "day",
+              "correct": false,
+              "feedback": "Review: ἡ ἅμαξα: carriage; wagon. Dictionary form: ἅμαξα, ἁμάξης, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀγορά mean?",
+          "choices": [
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            },
+            {
+              "text": "market",
+              "correct": true,
+              "feedback": "Correct: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            },
+            {
+              "text": "daughter",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            },
+            {
+              "text": "hand",
+              "correct": false,
+              "feedback": "Review: ἡ ἀγορά: market. Dictionary form: ἀγορά, ἀγορᾶς, ἡ."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which is genitive singular of πατήρ?",
+          "choices": [
+            {
+              "text": "πατέρες",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατρί",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατρός",
+              "correct": true,
+              "feedback": "Correct: The ε disappears in genitive singular."
+            },
+            {
+              "text": "πατέρα",
+              "correct": false,
+              "feedback": "Review: The ε disappears in genitive singular."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which article gives the gender of μήτηρ?",
+          "choices": [
+            {
+              "text": "ὁ",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "τό",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "οἱ",
+              "correct": false,
+              "feedback": "Review: μήτηρ is feminine."
+            },
+            {
+              "text": "ἡ",
+              "correct": true,
+              "feedback": "Correct: μήτηρ is feminine."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which is accusative singular of γυνή?",
+          "choices": [
+            {
+              "text": "γυναῖκα",
+              "correct": true,
+              "feedback": "Correct: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναικός",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναικί",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            },
+            {
+              "text": "γυναῖκες",
+              "correct": false,
+              "feedback": "Review: The direct-object form is γυναῖκα."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which form addresses a woman directly?",
+          "choices": [
+            {
+              "text": "γυναῖκα",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γύναι",
+              "correct": true,
+              "feedback": "Correct: The vocative singular is γύναι."
+            },
+            {
+              "text": "γυνή",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            },
+            {
+              "text": "γυναικός",
+              "correct": false,
+              "feedback": "Review: The vocative singular is γύναι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does πᾶς στρατιώτης mean in the taught pattern?",
+          "choices": [
+            {
+              "text": "one soldier only",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            },
+            {
+              "text": "some soldier",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            },
+            {
+              "text": "every soldier",
+              "correct": true,
+              "feedback": "Correct: Article-less singular commonly means every."
+            },
+            {
+              "text": "the whole army",
+              "correct": false,
+              "feedback": "Review: Article-less singular commonly means every."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which is dative plural masculine/neuter?",
+          "choices": [
+            {
+              "text": "παντί",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πάντων",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πάντας",
+              "correct": false,
+              "feedback": "Review: The stem loses ντ before σ of -σι."
+            },
+            {
+              "text": "πᾶσι(ν)",
+              "correct": true,
+              "feedback": "Correct: The stem loses ντ before σ of -σι."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which numeral agrees with neuter plural δῶρα for “three”?",
+          "choices": [
+            {
+              "text": "τρία",
+              "correct": true,
+              "feedback": "Correct: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρεῖς",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τριῶν",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            },
+            {
+              "text": "τρισί",
+              "correct": false,
+              "feedback": "Review: Neuter nominative/accusative three is τρία."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What does εἴκοσι mean?",
+          "choices": [
+            {
+              "text": "one thousand",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "twenty",
+              "correct": true,
+              "feedback": "Correct: εἴκοσι means twenty."
+            },
+            {
+              "text": "ten",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            },
+            {
+              "text": "one hundred",
+              "correct": false,
+              "feedback": "Review: εἴκοσι means twenty."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "Which case gives duration in τρεῖς ἡμέρας μένει?",
+          "choices": [
+            {
+              "text": "dative",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            },
+            {
+              "text": "genitive",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            },
+            {
+              "text": "accusative",
+              "correct": true,
+              "feedback": "Correct: Accusative time tells how long."
+            },
+            {
+              "text": "nominative",
+              "correct": false,
+              "feedback": "Review: Accusative time tells how long."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "prompt": "What is needed beyond the case label to interpret a time expression?",
+          "choices": [
+            {
+              "text": "only the noun’s gender",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "only the word’s initial letter",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "a rule that every genitive means within",
+              "correct": false,
+              "feedback": "Review: Different genitives can express different relationships."
+            },
+            {
+              "text": "the construction and context",
+              "correct": true,
+              "feedback": "Correct: Different genitives can express different relationships."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which claim is stated more directly than the financial gift in Xenophon’s narrative?",
+          "choices": [
+            {
+              "text": "the payment of four months’ wages",
+              "correct": true,
+              "feedback": "Correct: The author distinguishes the payment from the reported gift."
+            },
+            {
+              "text": "the precise source of each coin",
+              "correct": false,
+              "feedback": "Review: The author distinguishes the payment from the reported gift."
+            },
+            {
+              "text": "Epyaxa’s private motive",
+              "correct": false,
+              "feedback": "Review: The author distinguishes the payment from the reported gift."
+            },
+            {
+              "text": "Epyaxa’s exact speech",
+              "correct": false,
+              "feedback": "Review: The author distinguishes the payment from the reported gift."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why is Epyaxa central to the lesson?",
+          "choices": [
+            {
+              "text": "she writes the surviving account",
+              "correct": false,
+              "feedback": "Review: Her reported assistance and persuasion have consequences."
+            },
+            {
+              "text": "she links resources and political negotiation",
+              "correct": true,
+              "feedback": "Correct: Her reported assistance and persuasion have consequences."
+            },
+            {
+              "text": "she is only anonymous scenery",
+              "correct": false,
+              "feedback": "Review: Her reported assistance and persuasion have consequences."
+            },
+            {
+              "text": "she commands all Greeks",
+              "correct": false,
+              "feedback": "Review: Her reported assistance and persuasion have consequences."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What civilian effect does the review reveal?",
+          "choices": [
+            {
+              "text": "complete safety for all traders",
+              "correct": false,
+              "feedback": "Review: The traders flee from the military display."
+            },
+            {
+              "text": "no reaction outside the ranks",
+              "correct": false,
+              "feedback": "Review: The traders flee from the military display."
+            },
+            {
+              "text": "fear and abandonment of market goods",
+              "correct": true,
+              "feedback": "Correct: The traders flee from the military display."
+            },
+            {
+              "text": "universal applause",
+              "correct": false,
+              "feedback": "Review: The traders flee from the military display."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does Xenophon’s contrast of laughter and flight show?",
+          "choices": [
+            {
+              "text": "everyone experiences the event alike",
+              "correct": false,
+              "feedback": "Review: Military exhilaration coexists with civilian fear."
+            },
+            {
+              "text": "the review never occurs",
+              "correct": false,
+              "feedback": "Review: Military exhilaration coexists with civilian fear."
+            },
+            {
+              "text": "Cyrus is absent",
+              "correct": false,
+              "feedback": "Review: Military exhilaration coexists with civilian fear."
+            },
+            {
+              "text": "the same display affects different groups differently",
+              "correct": true,
+              "feedback": "Correct: Military exhilaration coexists with civilian fear."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does Syennesis require before meeting Cyrus?",
+          "choices": [
+            {
+              "text": "persuasion and assurances",
+              "correct": true,
+              "feedback": "Correct: His wife persuades him and assurances precede the meeting."
+            },
+            {
+              "text": "an Athenian election",
+              "correct": false,
+              "feedback": "Review: His wife persuades him and assurances precede the meeting."
+            },
+            {
+              "text": "a victory at Peltae",
+              "correct": false,
+              "feedback": "Review: His wife persuades him and assurances precede the meeting."
+            },
+            {
+              "text": "a new oracle at Delphi",
+              "correct": false,
+              "feedback": "Review: His wife persuades him and assurances precede the meeting."
+            }
+          ]
+        },
+        {
+          "id": "lesson-16-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What must remain a limit of our interpretation?",
+          "choices": [
+            {
+              "text": "no civilians are affected",
+              "correct": false,
+              "feedback": "Review: The account reports actions without preserving her internal reasoning."
+            },
+            {
+              "text": "Epyaxa’s private motives are undocumented here",
+              "correct": true,
+              "feedback": "Correct: The account reports actions without preserving her internal reasoning."
+            },
+            {
+              "text": "Epyaxa never acts",
+              "correct": false,
+              "feedback": "Review: The account reports actions without preserving her internal reasoning."
+            },
+            {
+              "text": "four months’ pay is not mentioned",
+              "correct": false,
+              "feedback": "Review: The account reports actions without preserving her internal reasoning."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-15",
+    "title": "An Army on the Move",
+    "fallbackUrl": "lesson.html?lesson=15&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-17",
+    "title": "Must the Brave Always Stand Firm?",
+    "fallbackUrl": "lesson.html?lesson=17&page=1"
+  },
+  "contentRevision": "lesson-16-module-2-v1"
+}
