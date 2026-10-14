@@ -27850,7 +27850,7 @@ DECLARE
           "rows": [
             [
               "φυλάττομαι / φυλάττῃ / φυλάττεται",
-              "I / you / she is/am/are protected"
+              "I am / you are / he or she is protected"
             ],
             [
               "φυλαττόμεθα / φυλάττεσθε / φυλάττονται",
@@ -27907,7 +27907,7 @@ DECLARE
           "rows": [
             [
               "ἐφυλαττόμην / ἐφυλάττου / ἐφυλάττετο",
-              "I / you / she was being protected"
+              "I was / you were / he or she was being protected"
             ],
             [
               "ἐφυλαττόμεθα / ἐφυλάττεσθε / ἐφυλάττοντο",
@@ -29385,7 +29385,7 @@ DECLARE
       "cards": [
         {
           "prompt": "φυλάττομαι / φυλάττῃ / φυλάττεται",
-          "answer": "I / you / she is/am/are protected — 1. Present passive: who receives the action?"
+          "answer": "I am / you are / he or she is protected — 1. Present passive: who receives the action?"
         },
         {
           "prompt": "φυλαττόμεθα / φυλάττεσθε / φυλάττονται",
@@ -29401,7 +29401,7 @@ DECLARE
         },
         {
           "prompt": "ἐφυλαττόμην / ἐφυλάττου / ἐφυλάττετο",
-          "answer": "I / you / she was being protected — 2. Imperfect passive: action in progress"
+          "answer": "I was / you were / he or she was being protected — 2. Imperfect passive: action in progress"
         },
         {
           "prompt": "ἐφυλαττόμεθα / ἐφυλάττεσθε / ἐφυλάττοντο",
@@ -41460,7 +41460,7 @@ DECLARE
         ]
       },
       {
-        "greek": "Τί δίδομεν τοῖς φίλοις; τί τίθεμεν ἐν μέσῳ; οὐ ποτὸν μόνον, ἀλλὰ καὶ λόγον καὶ προσοχήν. ὁ δὲ τοῦ σώματος κύριος καὶ τὸν ἄλλον ἀκούει.",
+        "greek": "Τί δίδομεν τοῖς φίλοις; τί τίθεμεν ἐν μέσῳ; οὐ ποτὸν μόνον, ἀλλὰ καὶ λόγον καὶ προσοχήν. ὁ δὲ τοῦ σώματος κύριος καὶ τοῦ ἄλλου ἀκούει.",
         "gloss": [
           {
             "greek": "δίδομεν",
@@ -45993,7 +45993,7 @@ DECLARE
         ]
       },
       {
-        "greek": "Ἄλλο παράδειγμα· οἱ πολῖται τὸν ἄνδρα ἄρχοντα καθιστᾶσιν. ἐκεῖνος δὲ ἀπέστη τῆς ἀρχῆς. τὸ μὲν καθιστάναι ἄλλον ἔργον ἐστίν, τὸ δὲ ἀποστῆναι αὐτὸς ἔπραξεν.",
+        "greek": "Ἄλλο παράδειγμα· οἱ πολῖται τὸν ἄνδρα ἄρχοντα καθιστᾶσιν. ἐκεῖνος δὲ ἀπέστη τῆς ἀρχῆς. οἱ πολῖται αὐτὸν κατέστησαν· αὐτὸς δὲ ἀπέστη.",
         "gloss": [
           {
             "greek": "καθιστᾶσιν",
@@ -46008,12 +46008,12 @@ DECLARE
             "english": "from office; genitive of separation"
           },
           {
-            "greek": "καθιστάναι",
-            "english": "appointing; articular infinitive"
+            "greek": "κατέστησαν",
+            "english": "appointed; transitive aorist"
           },
           {
-            "greek": "ἀποστῆναι",
-            "english": "to withdraw; aorist infinitive"
+            "greek": "αὐτὸς",
+            "english": "he himself"
           }
         ]
       },
@@ -46043,7 +46043,7 @@ DECLARE
         ]
       }
     ],
-    "translation": "While Socrates was speaking, the friends listened. He spoke about wisdom and sound self-control. It is not enough to know the good and do what is bad.\n\nSocrates asks about freedom. When desires rule, is the person master of himself? For the slave of pleasure often fails to do what is best.\n\nThe self-controlled person can both learn and help friends. He does not take away every pleasure; he considers the right time and measure. In this way the argument leads toward life.\n\nIn a teaching example the teacher makes the boy stand. The boy stood and listened. When the speech ended, the boy went away. The same person does not perform every action.\n\nAnother example: the citizens appoint the man ruler. He then withdrew from office. Appointing another is one action; withdrawing was something he did himself.\n\nWhile the friends investigate, the discussion does not stop. Is self-mastery merely quietness, or a capacity to act well? We seek the answer in life and actions.\n",
+    "translation": "While Socrates was speaking, the friends listened. He spoke about wisdom and sound self-control. It is not enough to know the good and do what is bad.\n\nSocrates asks about freedom. When desires rule, is the person master of himself? For the slave of pleasure often fails to do what is best.\n\nThe self-controlled person can both learn and help friends. He does not take away every pleasure; he considers the right time and measure. In this way the argument leads toward life.\n\nIn a teaching example the teacher makes the boy stand. The boy stood and listened. When the speech ended, the boy went away. The same person does not perform every action.\n\nAnother example: the citizens appoint the man ruler. He then withdrew from office. The citizens appointed him, but he himself withdrew.\n\nWhile the friends investigate, the discussion does not stop. Is self-mastery merely quietness, or a capacity to act well? We seek the answer in life and actions.\n",
     "sourceCitation": "Xenophon, Memorabilia 3.9.4–5 and 4.5.1–12. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem4-5.html https://monadnock.net/xenophon/mem3-9.html",
     "notesMarkdown": "The argument about knowledge, conduct, freedom, and appetite follows these two passages. Their combination, setting, and the -μι examples are newly composed; Xenophon does not stage this as one continuous conversation."
   },

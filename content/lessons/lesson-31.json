@@ -427,7 +427,7 @@
           "rows": [
             [
               "φυλάττομαι / φυλάττῃ / φυλάττεται",
-              "I / you / she is/am/are protected"
+              "I am / you are / he or she is protected"
             ],
             [
               "φυλαττόμεθα / φυλάττεσθε / φυλάττονται",
@@ -484,7 +484,7 @@
           "rows": [
             [
               "ἐφυλαττόμην / ἐφυλάττου / ἐφυλάττετο",
-              "I / you / she was being protected"
+              "I was / you were / he or she was being protected"
             ],
             [
               "ἐφυλαττόμεθα / ἐφυλάττεσθε / ἐφυλάττοντο",
@@ -1962,7 +1962,7 @@
       "cards": [
         {
           "prompt": "φυλάττομαι / φυλάττῃ / φυλάττεται",
-          "answer": "I / you / she is/am/are protected — 1. Present passive: who receives the action?"
+          "answer": "I am / you are / he or she is protected — 1. Present passive: who receives the action?"
         },
         {
           "prompt": "φυλαττόμεθα / φυλάττεσθε / φυλάττονται",
@@ -1978,7 +1978,7 @@
         },
         {
           "prompt": "ἐφυλαττόμην / ἐφυλάττου / ἐφυλάττετο",
-          "answer": "I / you / she was being protected — 2. Imperfect passive: action in progress"
+          "answer": "I was / you were / he or she was being protected — 2. Imperfect passive: action in progress"
         },
         {
           "prompt": "ἐφυλαττόμεθα / ἐφυλάττεσθε / ἐφυλάττοντο",

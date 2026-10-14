@@ -259,7 +259,7 @@ In ὥστε μανθάνειν, what form is μανθάνειν?|present active
 ];
 grammar[31]=[
 s('passive-present','1. Present passive: who receives the action?',`A passive verb makes the affected person or thing the grammatical subject. Compare ὁ φύλαξ φυλάττει τὴν γυναῖκα, “the guard protects the woman,” with ἡ γυνὴ φυλάττεται, “the woman is protected.” Present passive forms use the same endings as the present middle.
-The endings are -ομαι, -ῃ, -εται, -όμεθα, -εσθε, -ονται. A form alone does not prove a passive meaning; read the verb’s meaning and the surrounding sentence.`, `φυλάττομαι / φυλάττῃ / φυλάττεται|I / you / she is/am/are protected
+The endings are -ομαι, -ῃ, -εται, -όμεθα, -εσθε, -ονται. A form alone does not prove a passive meaning; read the verb’s meaning and the surrounding sentence.`, `φυλάττομαι / φυλάττῃ / φυλάττεται|I am / you are / he or she is protected
 φυλαττόμεθα / φυλάττεσθε / φυλάττονται|we / you (plural) / they are protected
 ἡ γυνὴ φυλάττεται.|The woman is protected.
 ὁ φύλαξ φυλάττει τὴν γυναῖκα.|The guard protects the woman.`, `Who is the subject in ἡ γυνὴ φυλάττεται?|the woman|the guard|an unnamed king|the action itself
@@ -269,7 +269,7 @@ Convert “the guard protects the woman” to a passive idea.|The woman is prote
 Parse φυλαττόμεθα.|present middle/passive, first plural|imperfect active, first plural|aorist passive, third plural|present active, second plural
 Does the passive subject have to be morally responsible for the action?|No; grammatical subjecthood does not assign blame.|Yes; subjects always cause actions.|Only if feminine.|Only in the plural.`),
 s('passive-imperfect','2. Imperfect passive: action in progress',`The imperfect passive uses augment, present stem, and middle/passive secondary endings. ἐφυλάττετο means “she was being protected” in the appropriate context. The imperfect can describe an ongoing state of custody without implying a completed rescue.
-Compare present φυλάττεται and imperfect ἐφυλάττετο. Both can be passive; tense and aspect are separate from voice. Remember first singular -όμην and third plural -οντο.`, `ἐφυλαττόμην / ἐφυλάττου / ἐφυλάττετο|I / you / she was being protected
+Compare present φυλάττεται and imperfect ἐφυλάττετο. Both can be passive; tense and aspect are separate from voice. Remember first singular -όμην and third plural -οντο.`, `ἐφυλαττόμην / ἐφυλάττου / ἐφυλάττετο|I was / you were / he or she was being protected
 ἐφυλαττόμεθα / ἐφυλάττεσθε / ἐφυλάττοντο|we / you (plural) / they were being protected
 ἐπέμπετο|he or she was being sent
 ἐπαιδεύοντο|they were being educated`, `Translate ἐφυλάττετο in a passive context.|She was being protected.|She will protect herself.|They are protected.|She protected the guard.
