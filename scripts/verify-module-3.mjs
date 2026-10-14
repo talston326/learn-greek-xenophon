@@ -7,7 +7,7 @@ const sandbox={window:{},console};vm.createContext(sandbox);vm.runInContext(fs.r
 let total=0;
 for(let n=25;n<=36;n++){
  const l=JSON.parse(fs.readFileSync(`content/lessons/lesson-${n}.json`));
- assert.equal(l.contentRevision,`lesson-${n}-module-3-v1`);assert.equal(l.pages.length,3);assert.equal(l.reading.paragraphs.length,6);
+ assert.equal(l.contentRevision,`lesson-${n}-module-3-v2`);assert.equal(l.pages.length,3);assert.equal(l.reading.paragraphs.length,6);
  assert.equal(l.vocabulary.flatMap(g=>g.items).length,20);assert.equal(l.grammar.sections.length,4);assert.equal(l.culture.sections.length,4);
  assert.match(l.culture.sections[0].title,/Meet/);assert(l.culture.sources.length);assert(fs.statSync(l.banner.image).size>10000);
  assert.notEqual(l.culture.banner.image,l.banner.image);

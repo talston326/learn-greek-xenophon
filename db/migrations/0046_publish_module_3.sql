@@ -4525,7 +4525,7 @@ DECLARE
     "title": "Habits of Discipline",
     "fallbackUrl": "lesson.html?lesson=26&page=1"
   },
-  "contentRevision": "lesson-25-module-3-v1"
+  "contentRevision": "lesson-25-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -9103,7 +9103,7 @@ DECLARE
     "title": "What Is Enough?",
     "fallbackUrl": "lesson.html?lesson=27&page=1"
   },
-  "contentRevision": "lesson-26-module-3-v1"
+  "contentRevision": "lesson-26-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -13676,7 +13676,7 @@ DECLARE
     "title": "The Desire to Live Well",
     "fallbackUrl": "lesson.html?lesson=28&page=1"
   },
-  "contentRevision": "lesson-27-module-3-v1"
+  "contentRevision": "lesson-27-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -18277,7 +18277,7 @@ DECLARE
     "title": "Endurance and Its Limits",
     "fallbackUrl": "lesson.html?lesson=29&page=1"
   },
-  "contentRevision": "lesson-28-module-3-v1"
+  "contentRevision": "lesson-28-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -22895,7 +22895,7 @@ DECLARE
     "title": "Knowing Oneself",
     "fallbackUrl": "lesson.html?lesson=30&page=1"
   },
-  "contentRevision": "lesson-29-module-3-v1"
+  "contentRevision": "lesson-29-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -27472,7 +27472,7 @@ DECLARE
     "title": "Desire and Responsibility",
     "fallbackUrl": "lesson.html?lesson=31&page=1"
   },
-  "contentRevision": "lesson-30-module-3-v1"
+  "contentRevision": "lesson-30-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -32063,7 +32063,7 @@ DECLARE
     "title": "The Well-Ordered Household",
     "fallbackUrl": "lesson.html?lesson=32&page=1"
   },
-  "contentRevision": "lesson-31-module-3-v1"
+  "contentRevision": "lesson-31-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -36653,7 +36653,7 @@ DECLARE
     "title": "Training the Self",
     "fallbackUrl": "lesson.html?lesson=33&page=1"
   },
-  "contentRevision": "lesson-32-module-3-v1"
+  "contentRevision": "lesson-32-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -41230,7 +41230,7 @@ DECLARE
     "title": "Nothing in Excess",
     "fallbackUrl": "lesson.html?lesson=34&page=1"
   },
-  "contentRevision": "lesson-33-module-3-v1"
+  "contentRevision": "lesson-33-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -45817,7 +45817,7 @@ DECLARE
     "title": "What is Self-Control?",
     "fallbackUrl": "lesson.html?lesson=35&page=1"
   },
-  "contentRevision": "lesson-34-module-3-v1"
+  "contentRevision": "lesson-34-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -50409,7 +50409,7 @@ DECLARE
     "title": "The Disciplined Life",
     "fallbackUrl": "lesson.html?lesson=36&page=1"
   },
-  "contentRevision": "lesson-35-module-3-v1"
+  "contentRevision": "lesson-35-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
@@ -54997,7 +54997,7 @@ DECLARE
     "title": "Justice is the Greatest Good",
     "fallbackUrl": "lesson.html?lesson=37&page=1"
   },
-  "contentRevision": "lesson-36-module-3-v1"
+  "contentRevision": "lesson-36-module-3-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
