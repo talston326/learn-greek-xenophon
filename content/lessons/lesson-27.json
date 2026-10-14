@@ -368,7 +368,7 @@
       }
     ],
     "translation": "Critobulus talks with Socrates about money. He has much, but seeks more. Socrates has little; nevertheless he does not seek more.\n\nSocrates says, “My possessions are sufficient for me, but yours are not sufficient for you.” Critobulus laughs. For he seems to be richer than Socrates.\n\nCritobulus has a larger house and more money. Socrates seeks less. For both men do not have the same need.\n\nCritobulus receives guests and attends to his fellow citizens. The city asks for money. He considers not only his own affairs but also public affairs.\n\nWhat, then, is better: to have more or to need less? The richest person is not always the happiest. For he often does not live more peacefully.\n\nSocrates does not look down on poor people. He compares need with resources. In the argument, “more” is not the same as “enough.”\n",
-    "sourceCitation": "Xenophon, Oeconomicus 2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
+    "sourceCitation": "Xenophon, Oeconomicus 2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm https://en.wikipedia.org/wiki/Oeconomicus https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "The reversal of rich and poor and the obligations of Critobulus follow Xenophon. Monetary amounts are omitted. The final comparison questions are course-written; no modern budget is attributed to the ancient speakers."
   },
   "wordStudy": {
@@ -613,9 +613,9 @@
   "culture": {
     "title": "How Much Is Enough?",
     "banner": {
-      "image": "assets/lesson-27-banner.png",
-      "alt": "Educational reconstruction: Socrates and Critobulus consider household resources",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-27-culture-banner.png",
+      "alt": "Modern educational reconstruction: Workers gather olives and organize resources on an imagined Attic estate.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -623,7 +623,20 @@
         "title": "Meet Xenophon’s Oeconomicus",
         "body": [
           "The Oeconomicus explores the management of an oikos: household, property, work, and people. Its title gives us a distant ancestor of “economics,” but its subject is not identical to a modern national economy. Socrates talks first with Critobulus; later he recounts a conversation with Ischomachus.",
+          "The dialogue’s twenty-one chapters move from the meaning of wealth to the organization of an estate. Socrates first questions Critobulus about whether possessions actually benefit their owner. He then recounts an extended conversation with Ischomachus, a prosperous gentleman-farmer, about marriage, household organization, agriculture, and directing other people’s work. The shift lets a philosophical question become a tour of everyday decisions.",
+          "Read with two questions in mind: what makes management effective, and whose interests define success? Ischomachus describes his young wife’s education and the work of enslaved people from the position of a male household head. His account gives access to ideals of cooperation and order while also revealing unequal authority. Socrates’ questions invite scrutiny; a speaker’s confidence is not a reason to accept every assumption.",
+          "Reading invitation: compare chapter 1 on useful possessions with chapters 8–9 on order, then look at chapter 21 on leadership. Could a person have excellent equipment yet manage badly? The English edition linked below calls the work The Economist. Its subject is the oikos—household, estate, and people—rather than economics in the modern national sense.",
           "Our selection comes from chapter 2. Socrates provocatively compares his own small resources with Critobulus’s much greater resources and obligations. The dialogue asks whether wealth is measured by an inventory alone or by what a person needs to accomplish."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Oeconomicus — English translation",
+            "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+          },
+          {
+            "title": "Wikipedia: Oeconomicus",
+            "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+          }
         ]
       },
       {
@@ -677,6 +690,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Oeconomicus — English translation",
+        "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+      },
+      {
+        "title": "Wikipedia: Oeconomicus",
+        "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+      },
       {
         "title": "Xenophon, Oeconomicus 2.1–8",
         "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"

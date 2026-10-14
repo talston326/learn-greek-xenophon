@@ -1,0 +1,98 @@
+[
+  {
+    "lesson": 25,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: A busy classical Athenian agora at morning, a grain seller carefully measuring grain while two citizens wait, modest clay vessels and portico behind. Theme: everyday trust and dependable conduct. No dining scene. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: A grain seller measures a purchase for customers in an imagined Athenian marketplace.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-4f3a9b43-66d2-45b9-82b2-31133d80cf00.png",
+    "asset": "assets/lesson-25-culture-banner.png"
+  },
+  {
+    "lesson": 26,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: A small group of ancient Greek travelers preparing packs at a mountain trailhead, an experienced guide inspecting sandals and a waterskin. Theme purposeful preparation, no palaestra or philosopher debate. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Travelers prepare supplies and footwear for a mountain journey.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-2ca53f4a-c46e-4975-9aab-3e1f11017ee7.png",
+    "asset": "assets/lesson-26-culture-banner.png"
+  },
+  {
+    "lesson": 27,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: An Attic farm estate at harvest, workers bringing baskets of olives to storage jars while household members check equipment. Show resources and human labor, not a philosophical conversation. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Workers gather olives and organize resources on an imagined Attic estate.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-1444f6fc-3ade-4250-a5a4-c0ed2b087a76.png",
+    "asset": "assets/lesson-27-culture-banner.png"
+  },
+  {
+    "lesson": 28,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: An ancient Greek storyteller addressing attentive youths beneath a portico, gesturing as he tells a heroic moral tale, a closed plain book roll beside him. No literal Heracles crossroads scene. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: A storyteller addresses young listeners under a Greek portico.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-be7a48fb-52cf-42e9-bcc2-25d4e84a3d75.png",
+    "asset": "assets/lesson-28-culture-banner.png"
+  },
+  {
+    "lesson": 29,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: A long line of Greek soldiers and pack mules carrying supplies across a snowy Armenian upland in 400 BCE, wind-blown cloaks, mountain vista, logistical cooperation. No close-up rescue or feeding scene. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Soldiers and pack animals carry supplies through a snowy mountain landscape.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-1a57368d-3361-4f06-8b12-c40fe1783276.png",
+    "asset": "assets/lesson-29-culture-banner.png"
+  },
+  {
+    "lesson": 30,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: Classical sanctuary of Apollo at Delphi seen along the Sacred Way, visitors approaching stone temple and treasuries below Parnassus. Theme knowing oneself; no legible inscriptions. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Visitors approach an imagined sanctuary of Apollo at Delphi.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-4d93878d-329a-4b3c-927b-7690fa051372.png",
+    "asset": "assets/lesson-30-culture-banner.png"
+  },
+  {
+    "lesson": 31,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: An idealized Achaemenid Persian administrative courtyard, an envoy passing through a guarded gateway carrying a sealed message, dignified Persian robes, restrained stone architecture. No Panthea or romantic encounter. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: A messenger presents a sealed message in an imagined Persian courtyard.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-969b99da-22e5-48ec-9339-59d93ab0fff3.png",
+    "asset": "assets/lesson-31-culture-banner.png"
+  },
+  {
+    "lesson": 32,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: Interior deck and open hold of a classical Phoenician merchant ship in a sheltered harbor, ropes coiled neatly, amphorae secured, crew arranging equipment. Theme order makes tools available. No Greek household. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: A merchant ship crew arranges ropes, amphorae and equipment.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-05dbfd8c-c62a-4635-a83d-ce36c9a4c97b.png",
+    "asset": "assets/lesson-32-culture-banner.png"
+  },
+  {
+    "lesson": 33,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: Adult Spartan citizens in plain cloaks gathered beside a simple public building, an older supervisor discussing civic education with adults, distant Taygetus mountains. No boys exercising or military violence. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Adult Spartan citizens discuss civic responsibilities near a public building.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-53fbe8bd-9490-4bbc-8075-813cbba2683f.png",
+    "asset": "assets/lesson-33-culture-banner.png"
+  },
+  {
+    "lesson": 34,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: Close view of a classical Greek terracotta wine mixing bowl and a server's hands pouring water from a jug, cups arranged on a low table, softly lit interior. Theme proportion and moderation; no group of reclining guests. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Water is poured into a Greek mixing bowl beside drinking cups.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-0c09e7d8-7d6e-4f15-956b-ef5508a1e5e6.png",
+    "asset": "assets/lesson-34-culture-banner.png"
+  },
+  {
+    "lesson": 35,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: An Athenian craft workshop opening onto a sunny street, a potter pausing at the wheel to listen to a young apprentice pointing at an unfinished vessel, tools and completed pottery nearby. Theme attention and thoughtful self-command, no Socrates portrait. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: A potter pauses to attend to an apprentice in a workshop.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-68f963be-36d3-4ddc-b900-14fe623c7d5e.png",
+    "asset": "assets/lesson-35-culture-banner.png"
+  },
+  {
+    "lesson": 36,
+    "prompt": "Use case: historical-scene. Create a new Culture/History website banner, wide panoramic 3:1 composition, painterly naturalistic historical illustration with warm earth colors, subtle texture, convincing human anatomy and evocative natural lighting. Scene: A small procession of Athenian citizens approaching the Acropolis after civil conflict in 403 BCE, viewed from behind along a rising path, olive branches and a quiet sacred precinct. Theme restoration of civic life; no handshake close-up. Classical-era material culture and clothing, no modern objects, no Roman architecture, no text, letters, captions, logos or watermark. This is a modern educational reconstruction. Keep main subjects in the central horizontal band for responsive cropping.",
+    "alt": "Modern educational reconstruction: Citizens approach an imagined Athenian sacred precinct after civil conflict.",
+    "tool": "built-in image_gen",
+    "original": "/Users/tomalston/.codex/generated_images/01a1311a-e921-7a03-83c2-79a134ba20b5/exec-0665ca7c-3cda-4374-a880-84118ff001db.png",
+    "asset": "assets/lesson-36-culture-banner.png"
+  }
+]

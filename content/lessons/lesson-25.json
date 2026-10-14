@@ -380,7 +380,7 @@
       }
     ],
     "translation": "Socrates lived in Athens. He often conversed with his friends in the marketplace. He spoke not only about the city but also about life and desires.\n\nSocrates ate food and drank drink, but he needed few things. For hunger made his food pleasant to him. He was not always seeking expensive things.\n\nSome friends observed his way of life, while others listened to his words. Socrates did not teach by speech alone; he also provided an example by action.\n\nConsider the question now: who will lead friends in danger? The person weaker than his desires or the person mastering himself? Friends seek not only pleasure but also help.\n\nIn the example the man was eating, and his friend arrived. The man saw his friend and listened. Not every need waited; for a task was at hand.\n\nSelf-mastery is not merely a word. One man was speaking about the good, while the other was doing good. Which of the two was dependable to his friends?\n",
-    "sourceCitation": "Xenophon, Memorabilia 1.3.5–8 and 1.5.1–5. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem1-3.html https://monadnock.net/xenophon/mem1-5.html",
+    "sourceCitation": "Xenophon, Memorabilia 1.3.5–8 and 1.5.1–5. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem1-3.html https://monadnock.net/xenophon/mem1-5.html",
     "notesMarkdown": "The habits and question of trust follow Xenophon. The sequence of a typical day and the direct questions below are newly composed teaching arrangements, not a dated encounter or verbatim speech."
   },
   "wordStudy": {
@@ -634,9 +634,9 @@
   "culture": {
     "title": "A Cup, a Meal, and a Question of Trust",
     "banner": {
-      "image": "assets/lesson-25-banner.png",
-      "alt": "Educational reconstruction: Socrates and companions share a simple meal in an Athenian courtyard",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-25-culture-banner.png",
+      "alt": "Modern educational reconstruction: A grain seller measures a purchase for customers in an imagined Athenian marketplace.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -644,14 +644,27 @@
         "title": "Meet Xenophon’s Memorabilia",
         "body": [
           "The Memorabilia is a four-book defense and portrait of Socrates, assembled through conversations, recollections, and examples of conduct. Its traditional English title means “recollections.” Xenophon wants readers to see Socrates as useful to his companions and worthy of respect. That purpose shapes the selection of episodes.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "This reading joins two passages: ordinary habits in 1.3 and the question of trusting an undisciplined leader in 1.5. It is not a diary entry. Our Greek arranges the material into a typical day and adds a short teaching example; the habits are source-based, but the day’s timetable is reconstructed."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
         "title": "The meal as evidence",
         "body": [
           "A small cup and an uncomplicated meal become part of an argument about character. Xenophon presents Socrates as enjoying food without needing an elaborate supply of luxuries. The point is freedom from demands that could make him less dependable.",
-          "Look at the banner as a modern reconstruction. Its bread, cup, and conversation invite the question “What does this person need?” They do not show an excavated Socratic dining room or a recorded meal. A modest-looking image cannot establish the wealth of everyone in it."
+          "The Reading banner imagines a simple meal; the Culture/History banner moves the question of trust into a marketplace. A grain seller and customers depend on reliable conduct. Both are modern reconstructions, not evidence of a recorded meeting or a particular ancient transaction."
         ]
       },
       {
@@ -698,6 +711,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 1.3.5–8 and 1.5.1–5",
         "url": "https://monadnock.net/xenophon/mem1-3.html"

@@ -376,7 +376,7 @@
       }
     ],
     "translation": "Ischomachus speaks with Socrates about the household. “Where are the objects?” This is not a small question. For someone searching often cannot find them.\n\nIschomachus saw a Phoenician ship. Much equipment lay in the ship, and each item had its own place. The keeper of the equipment knew the places.\n\nThe ship moves on the sea. Nevertheless the sailors can get useful things. But the house stays still; what then prevents order here too?\n\nHis wife asks for the arrangement. Ischomachus shows her the rooms. Grain lies in a dry place, wine in a cool place. Clothing has another place.\n\nNot everyone in the house knows the same things. The wife oversees the work, while enslaved workers labor. Order requires both memory and work.\n\nNow we examine the arrangement. Who finds the objects? Who carries them? Who gives orders? “I am able” and “I know how” do not mean the same thing.\n",
-    "sourceCitation": "Xenophon, Oeconomicus 8.11–20 and 9.2–10. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
+    "sourceCitation": "Xenophon, Oeconomicus 8.11–20 and 9.2–10. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm https://en.wikipedia.org/wiki/Oeconomicus https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "Ischomachus’ ship comparison and household organization are adapted from his report to Socrates. The concise questions about objects are course wording. His wife’s views reach us through a male speaker and author, not an independent transcript."
   },
   "wordStudy": {
@@ -630,9 +630,9 @@
   "culture": {
     "title": "The Household as a System of Work",
     "banner": {
-      "image": "assets/lesson-32-banner.png",
-      "alt": "Educational reconstruction: Women and workers organize equipment in a Greek household",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-32-culture-banner.png",
+      "alt": "Modern educational reconstruction: A merchant ship crew arranges ropes, amphorae and equipment.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -640,7 +640,20 @@
         "title": "Meet the Oeconomicus: Ischomachus’s account",
         "body": [
           "Later in the Oeconomicus, Socrates recounts his conversation with Ischomachus about household management. In chapters 8–9, arrangement and finding things become vivid examples of order. We hear a man describe the household’s practices and his wife’s role through a reported conversation.",
+          "The dialogue’s twenty-one chapters move from the meaning of wealth to the organization of an estate. Socrates first questions Critobulus about whether possessions actually benefit their owner. He then recounts an extended conversation with Ischomachus, a prosperous gentleman-farmer, about marriage, household organization, agriculture, and directing other people’s work. The shift lets a philosophical question become a tour of everyday decisions.",
+          "Read with two questions in mind: what makes management effective, and whose interests define success? Ischomachus describes his young wife’s education and the work of enslaved people from the position of a male household head. His account gives access to ideals of cooperation and order while also revealing unequal authority. Socrates’ questions invite scrutiny; a speaker’s confidence is not a reason to accept every assumption.",
+          "Reading invitation: compare chapter 1 on useful possessions with chapters 8–9 on order, then look at chapter 21 on leadership. Could a person have excellent equipment yet manage badly? The English edition linked below calls the work The Economist. Its subject is the oikos—household, estate, and people—rather than economics in the modern national sense.",
           "That layered voice matters. This is not a diary written by the wife or a complete account from every worker. Our adaptation foregrounds practical knowledge and the labor that makes an orderly household function, while identifying new teaching examples as such."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Oeconomicus — English translation",
+            "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+          },
+          {
+            "title": "Wikipedia: Oeconomicus",
+            "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+          }
         ]
       },
       {
@@ -661,7 +674,7 @@
         "title": "Three verbs, three questions",
         "body": [
           "Use κεῖται to ask where an item lies, δύναται to ask who can retrieve it, and ἐπίσταται to ask who knows how to handle it. Explain a case where a person knows how but lacks the opportunity or permission.",
-          "The banner is an educational reconstruction of organized work, not a plan of Ischomachus’s excavated home. Close with one change that would make your imaginary work area easier for everyone who uses it, and state who should help decide."
+          "The Culture/History banner imagines the organized ship used as a comparison in the dialogue; the Reading banner imagines household work. Neither is an archaeological plan. Look for equipment that can be found and used quickly, then ask who maintains that order. Close with one change that would make your imaginary work area easier for everyone who uses it, and state who should help decide."
         ]
       }
     ],
@@ -694,6 +707,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Oeconomicus — English translation",
+        "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+      },
+      {
+        "title": "Wikipedia: Oeconomicus",
+        "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+      },
       {
         "title": "Xenophon, Oeconomicus 8.11–20 and 9.2–10",
         "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"

@@ -372,7 +372,7 @@
       }
     ],
     "translation": "Euthydemus had many books. He thought he was wise and wished to speak and act. Socrates conversed with him and examined his judgment.\n\nSocrates asks, “Did you see the inscription at Delphi?” Euthydemus agrees. The inscription says, “Know yourself.” The question presents no small task.\n\nThe name alone does not reveal a person’s ability. Someone looking for a horse does not consider only its name. He examines the horse: is it fast or slow?\n\nIn the same way a person examines his own actions. Someone who knows himself seeks useful things. Someone who does not know often makes mistakes; hope does not make every undertaking succeed.\n\nIn the exercise we fill two tablets. On the first we write the tasks, and on the second the evidence. A golden tablet does not provide a true judgment.\n\n“As I think, I am wise” is not the same as “I do the task correctly.” What evidence, then, do we seek? Socrates examines not only speech but also life.\n",
-    "sourceCitation": "Xenophon, Memorabilia 4.2.24–30; introductory context 4.2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem4-2.html",
+    "sourceCitation": "Xenophon, Memorabilia 4.2.24–30; introductory context 4.2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem4-2.html",
     "notesMarkdown": "The books, Delphic maxim, and examination of ability follow the source. The two-tablet classroom exercise is explicitly supplied to practice -όω verbs and numbers; it is not a report about Euthydemus."
   },
   "wordStudy": {
@@ -617,9 +617,9 @@
   "culture": {
     "title": "A Library Is Not Yet Understanding",
     "banner": {
-      "image": "assets/lesson-30-banner.png",
-      "alt": "Educational reconstruction: Socrates and Euthydemus discuss understanding beside book rolls",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-30-culture-banner.png",
+      "alt": "Modern educational reconstruction: Visitors approach an imagined sanctuary of Apollo at Delphi.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -627,13 +627,26 @@
         "title": "Meet the Memorabilia: Euthydemus under examination",
         "body": [
           "In Memorabilia 4.2, Euthydemus has collected writings and hopes for distinction. Socrates draws him into questions that expose the difference between possessing material and understanding what one can do with it. Our main selection is 4.2.24–30, with the earlier book-collecting context.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "The dialogue turns to knowing oneself. Xenophon presents this as part of Socratic education: recognizing one’s capacities and limitations can affect choices and relationships. The conversation is a literary portrait, not a psychological test with a modern scoring scale."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
         "title": "Books as objects, knowledge as work",
         "body": [
-          "A roll can be acquired and stored. Understanding requires reading, testing a claim, and applying it. The banner’s rolls and tablet are modern visual suggestions of that difference; their number is not a census of Euthydemus’s collection.",
+          "A roll can be acquired and stored. Understanding requires reading, testing a claim, and applying it. The Reading banner’s rolls and tablet are modern visual suggestions of that difference; their number is not a census of Euthydemus’s collection. The Culture/History banner imagines Delphi, connecting the passage’s Delphic injunction to know oneself with the work of examining what one actually understands. It is not an archaeological plan of the sanctuary.",
           "Make two lists: things a learner can own, and things a learner can do. Move “knowing a paradigm” to the second list only when you can use it to read an unfamiliar sentence. This is the lesson’s practical version of self-examination."
         ]
       },
@@ -662,7 +675,7 @@
         "answer": "possessing writings versus understanding and using them"
       },
       {
-        "prompt": "Are the banner’s scrolls a historical count of the collection?",
+        "prompt": "Are the Reading banner’s scrolls a historical count of the collection?",
         "answer": "No; their arrangement is a modern reconstruction."
       },
       {
@@ -681,6 +694,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 4.2.24–30; introductory context 4.2.1–8",
         "url": "https://monadnock.net/xenophon/mem4-2.html"
@@ -4358,7 +4379,7 @@
           "id": "l30-final-quiz-27",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "Are the banner’s scrolls a historical count of the collection?",
+          "prompt": "Are the Reading banner’s scrolls a historical count of the collection?",
           "choices": [
             {
               "text": "Yes, exactly ten survived.",

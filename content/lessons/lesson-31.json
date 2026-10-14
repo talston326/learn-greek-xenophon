@@ -368,7 +368,7 @@
       }
     ],
     "translation": "Panthea is a captive. Araspas is appointed her guardian by Cyrus. The woman was guarded by him. This Cyrus is not the Greeks’ ally in the Anabasis, but the earlier king.\n\nAraspas trusts himself. He thinks he can master his desires. Cyrus does not trust himself in the same way and does not wish to see the beautiful woman.\n\nTime passes, and Araspas desires the woman. He makes proposals to her. Panthea is not persuaded; she loves her husband and does not accept the wrongdoing.\n\nThe woman is frightened by her guardian’s threats. Araspas says he will use force. Panthea does not remain silent; she sends a messenger to Cyrus and seeks help.\n\nCyrus sends Artabazus. Araspas is rebuked by Artabazus. For the guardian ought to have protected the woman, not frightened her. Now he himself is ashamed.\n\nConsider the two voices: “The guardian frightens the woman” and “The woman is frightened by the guardian.” The same person does wrong. The woman’s suffering does not become invisible because of the grammatical voice.\n",
-    "sourceCitation": "Xenophon, Cyropaedia 5.1.2–18 and 6.1.31–36. Newly composed controlled Greek adaptation, not a verbatim quotation. https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia6.htm https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia5.htm",
+    "sourceCitation": "Xenophon, Cyropaedia 5.1.2–18 and 6.1.31–36. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/2085/2085-h/2085-h.htm https://en.wikipedia.org/wiki/Cyropaedia https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia6.htm https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia5.htm",
     "notesMarkdown": "The core events follow Xenophon’s literary account of Cyrus the Great. Present and imperfect forms replace some original tense constructions. Panthea’s refusal and appeal remain central. The reflective questions are the course’s, not quotations."
   },
   "wordStudy": {
@@ -627,9 +627,9 @@
   "culture": {
     "title": "Desire, Power, and the Person in Custody",
     "banner": {
-      "image": "assets/lesson-31-banner.png",
-      "alt": "Educational reconstruction: Panthea speaks with a messenger in a guarded setting",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-31-culture-banner.png",
+      "alt": "Modern educational reconstruction: A messenger presents a sealed message in an imagined Persian courtyard.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -637,7 +637,20 @@
         "title": "Meet Xenophon’s Cyropaedia",
         "body": [
           "The Cyropaedia, often translated “Education of Cyrus,” is an extended literary exploration of Cyrus the Great’s formation and leadership. It blends narrative, political reflection, and exemplary characterization. It is not a straightforward documentary biography of Persian institutions.",
+          "Its eight books follow Cyrus the Great from education to conquest, imperial organization, and death. This Cyrus is the sixth-century founder of Persian power, not Cyrus the Younger of the Anabasis. The opening question is striking: why do people so often resist rulers, and how could Cyrus secure obedience across so many peoples? Childhood training becomes the starting point for a much larger inquiry into power.",
+          "Xenophon combines campaigns, speeches, friendships, rivalries, and domestic stories to explore leadership. Rewards and persuasion stand beside military force; admiration for the ruler sits beside questions about dependence on him. The final account of decline after Cyrus complicates an uncomplicated success story. Read this as a crafted political and educational narrative, not a reliable transcript of sixth-century Persian court life.",
+          "Reading invitation: compare the opening discussion of obedience in Book 1 with Araspas’s confidence about desire in Book 5 and its consequences in Book 6. Panthea’s story makes the problem personal: can someone entrusted with power govern himself? Then glance at the close of Book 8. What can a leader build that will survive him? The whole-work link opens Henry Graham Dakyns’s English translation, revised by F. M. Stawell.",
           "Our reading follows Araspas and Panthea in 5.1 and 6.1. Araspas initially claims confidence in his power to control desire; later his conduct exposes the weakness of that claim. The adaptation compresses separated scenes and uses passive constructions to track custody and agency."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Cyropaedia — English translation",
+            "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+          },
+          {
+            "title": "Wikipedia: Cyropaedia",
+            "url": "https://en.wikipedia.org/wiki/Cyropaedia"
+          }
         ]
       },
       {
@@ -691,6 +704,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Cyropaedia — English translation",
+        "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+      },
+      {
+        "title": "Wikipedia: Cyropaedia",
+        "url": "https://en.wikipedia.org/wiki/Cyropaedia"
+      },
       {
         "title": "Xenophon, Cyropaedia 5.1.2–18 and 6.1.31–36",
         "url": "https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia6.htm"

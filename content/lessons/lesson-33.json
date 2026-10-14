@@ -372,7 +372,7 @@
       }
     ],
     "translation": "Xenophon describes the education of the Spartans. The boys were educated by the supervisor of boys. He was a citizen and had authority.\n\nThe boys were taught to obey. They did not always have shoes; for they walked with bare feet. They wore one cloak throughout the year.\n\nLittle food was prepared for the boys. The account also includes theft of food. But the boy who was caught was punished, for he did not carry out the act secretly.\n\nXenophon praises endurance. We also ask about the boys. Who chose the education: the boys or those governing the city?\n\nIn a teaching example the boy appeared brave and answered the teacher. Not everyone who suffered was well educated. For suffering does not always provide good judgment.\n\nWhat will result from the education? The young man will be educated and tested. But who will protect him? The safety of the boys and the virtue of the citizens are worthy of discussion.\n",
-    "sourceCitation": "Xenophon, Constitution of the Lacedaemonians 2.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1178/1178-h/1178-h.htm",
+    "sourceCitation": "Xenophon, Constitution of the Lacedaemonians 2.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1178/1178-h/1178-h.htm https://en.wikipedia.org/wiki/Constitution_of_the_Lacedaemonians https://www.gutenberg.org/files/1178/1178-h/1178-h.htm",
     "notesMarkdown": "Xenophon describes and praises institutions attributed to Lycurgus. The questions about consent and the predictions in the last paragraphs are course discussion, not quotations or additional Spartan laws."
   },
   "wordStudy": {
@@ -617,9 +617,9 @@
   "culture": {
     "title": "Training the Self: Who Chooses the Training?",
     "banner": {
-      "image": "assets/lesson-33-banner.png",
-      "alt": "Educational reconstruction: Spartan boys practice under a supervisor",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-33-culture-banner.png",
+      "alt": "Modern educational reconstruction: Adult Spartan citizens discuss civic responsibilities near a public building.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -627,7 +627,20 @@
         "title": "Meet the Constitution of the Lacedaemonians",
         "body": [
           "Xenophon’s Constitution of the Lacedaemonians describes and evaluates Spartan institutions, often attributing their distinctive features to Lycurgus. “Constitution” here means an account of a community’s arrangements and way of life, not a modern written constitution with numbered rights.",
+          "This compact treatise asks how a relatively small community achieved exceptional power. Across fifteen chapters Xenophon discusses upbringing, common meals, habits concerning wealth, obedience, military organization, and kingship. He attributes the distinctive system to Lycurgus. The arrangement encourages readers to connect public strength with the repeated practices that form citizens from childhood onward.",
+          "The work is an argument about institutions, not simply a list of spectacular Spartan customs. Xenophon repeatedly contrasts Sparta with other Greek communities and admires the discipline he describes. Yet chapter 14 criticizes contemporary departures from the old standards. That tension lets us ask whether he is describing everyday reality, an ideal order, or the distance between the two.",
+          "Reading invitation: read chapter 2 on boys’ education alongside chapter 5 on common meals and chapter 14 on decline. Who supervises conduct, and what makes the system enforceable? Ask also whose lives receive less attention: women, noncitizens, and the enslaved helot population cannot be understood from the citizen-training account alone. In the linked combined volume, choose The Polity of the Lacedaemonians; the separate Athenian treatise is not generally accepted as Xenophon’s work.",
           "Chapter 2 discusses boys’ education and contrasts Spartan practices with those of other Greeks. Xenophon often admires the system. His admiration is part of the evidence we must interpret; it does not make the account an impartial description of every child’s experience."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Constitution of the Lacedaemonians — English translation",
+            "url": "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm"
+          },
+          {
+            "title": "Wikipedia: Constitution of the Lacedaemonians",
+            "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Lacedaemonians"
+          }
         ]
       },
       {
@@ -681,6 +694,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Constitution of the Lacedaemonians — English translation",
+        "url": "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm"
+      },
+      {
+        "title": "Wikipedia: Constitution of the Lacedaemonians",
+        "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Lacedaemonians"
+      },
       {
         "title": "Xenophon, Constitution of the Lacedaemonians 2.1–9",
         "url": "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm"

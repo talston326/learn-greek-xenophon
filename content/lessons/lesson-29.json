@@ -380,7 +380,7 @@
       }
     ],
     "translation": "The Greeks were marching through Armenia. There was much snow, and the cold was severe. The soldiers and pack animals struggled; not all endured the hardship.\n\nMany of the pack animals died, and people died too. Not only soldiers but also enslaved people were in the snow. The hardship was shared, but their strength was not equal.\n\nThose who arrived first were keeping a fire burning. Those who came later approached the fire. The first arrivals demanded food and only then admitted the others.\n\nOn the next day the men were marching again. Some fell and remained behind. Xenophon stopped beside the weak men; he did not immediately recognize their condition.\n\nA man recognized the condition and told Xenophon. Xenophon went to the pack animals and looked for food. Those who were strong carried the food to the weak.\n\nThe weak men ate, then got up and continued marching. Words alone did not save them. For they needed nourishment. Here care brought benefit to their companions.\n",
-    "sourceCitation": "Xenophon, Anabasis 4.5.3–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5",
+    "sourceCitation": "Xenophon, Anabasis 4.5.3–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1170/1170-h/1170-h.htm https://en.wikipedia.org/wiki/Anabasis_(Xenophon) https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5",
     "notesMarkdown": "The snow, unequal access to fires, hunger-collapse, and distribution of food follow Xenophon. The compact sequence and closing judgment are adapted. A soldier’s command in the grammar workshop is invented practice, not a quotation."
   },
   "wordStudy": {
@@ -646,9 +646,9 @@
   "culture": {
     "title": "Snow, Hunger, and the Work of Care",
     "banner": {
-      "image": "assets/lesson-29-banner.png",
-      "alt": "Educational reconstruction: Companions bring food and assistance to exhausted soldiers in snow",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-29-culture-banner.png",
+      "alt": "Modern educational reconstruction: Soldiers and pack animals carry supplies through a snowy mountain landscape.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -656,14 +656,27 @@
         "title": "Meet Xenophon’s Anabasis",
         "body": [
           "The Anabasis tells of Cyrus the Younger’s expedition and the Greek army’s difficult return after his death. Xenophon participated in the expedition and later became one of its leaders. The narrative often names him in the third person, a literary choice that does not remove his stake in the story.",
+          "The seven-book narrative begins with an expedition inland: in 401 BCE Cyrus the Younger challenges his brother, the Persian king Artaxerxes II. Cyrus dies at Cunaxa, leaving his Greek mercenaries in danger. After the loss of their senior commanders, the soldiers must reorganize, negotiate, find supplies, and fight their way toward the Black Sea. Xenophon emerges as one of their leaders.",
+          "The famous sight of the sea in Book 4 does not end the book—or solve every problem. Books 5–7 continue through disputes over leadership, dealings with Greek cities, and service in Thrace before the remaining troops join a Spartan commander. Survival is an extended political and logistical task. A triumphant moment can coexist with unpaid wages, competing interests, and an uncertain destination.",
+          "Reading invitation: begin Book 3, chapter 1, where Xenophon enters the leadership crisis, and compare his speeches with the practical decisions in Book 4, chapter 5. He is both participant and author, often describing himself in the third person. Ask what his narrative helps us see about leadership and how it presents his own reputation. The linked complete translation lets you follow the story beyond the celebrated mountain crossing.",
           "Book 4 carries the army through harsh winter conditions in Armenia. Our selection uses 4.5.3–9, including exhaustion and the discovery that food could help men who could no longer continue. We simplify the sequence and language; we do not diagnose every individual from a modern medical standpoint."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Anabasis — English translation",
+            "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+          },
+          {
+            "title": "Wikipedia: Anabasis",
+            "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"
+          }
         ]
       },
       {
         "title": "A landscape that changes the task",
         "body": [
           "An army needs more than courage when snow, cold, distance, and hunger interrupt movement. The same ground can demand different decisions as supplies and strength change. A command to march cannot manufacture energy.",
-          "Read the banner for the care being offered, not as a precise reconstruction of one documented face or campsite. Then list the practical questions a leader needs answered: who can move, what food exists, and how can it reach those who need it?"
+          "The Culture/History banner widens the view to a supply column: care depends on getting food and equipment to the people who need them. It is an imagined landscape, not a mapped itinerary or a documented campsite. Then list the practical questions a leader needs answered: who can move, what food exists, and how can it reach those who need it?"
         ]
       },
       {
@@ -710,6 +723,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Anabasis — English translation",
+        "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+      },
+      {
+        "title": "Wikipedia: Anabasis",
+        "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"
+      },
       {
         "title": "Xenophon, Anabasis 4.5.3–9",
         "url": "https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5"

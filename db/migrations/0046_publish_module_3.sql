@@ -384,7 +384,7 @@ DECLARE
       }
     ],
     "translation": "Socrates lived in Athens. He often conversed with his friends in the marketplace. He spoke not only about the city but also about life and desires.\n\nSocrates ate food and drank drink, but he needed few things. For hunger made his food pleasant to him. He was not always seeking expensive things.\n\nSome friends observed his way of life, while others listened to his words. Socrates did not teach by speech alone; he also provided an example by action.\n\nConsider the question now: who will lead friends in danger? The person weaker than his desires or the person mastering himself? Friends seek not only pleasure but also help.\n\nIn the example the man was eating, and his friend arrived. The man saw his friend and listened. Not every need waited; for a task was at hand.\n\nSelf-mastery is not merely a word. One man was speaking about the good, while the other was doing good. Which of the two was dependable to his friends?\n",
-    "sourceCitation": "Xenophon, Memorabilia 1.3.5–8 and 1.5.1–5. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem1-3.html https://monadnock.net/xenophon/mem1-5.html",
+    "sourceCitation": "Xenophon, Memorabilia 1.3.5–8 and 1.5.1–5. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem1-3.html https://monadnock.net/xenophon/mem1-5.html",
     "notesMarkdown": "The habits and question of trust follow Xenophon. The sequence of a typical day and the direct questions below are newly composed teaching arrangements, not a dated encounter or verbatim speech."
   },
   "wordStudy": {
@@ -638,9 +638,9 @@ DECLARE
   "culture": {
     "title": "A Cup, a Meal, and a Question of Trust",
     "banner": {
-      "image": "assets/lesson-25-banner.png",
-      "alt": "Educational reconstruction: Socrates and companions share a simple meal in an Athenian courtyard",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-25-culture-banner.png",
+      "alt": "Modern educational reconstruction: A grain seller measures a purchase for customers in an imagined Athenian marketplace.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -648,14 +648,27 @@ DECLARE
         "title": "Meet Xenophon’s Memorabilia",
         "body": [
           "The Memorabilia is a four-book defense and portrait of Socrates, assembled through conversations, recollections, and examples of conduct. Its traditional English title means “recollections.” Xenophon wants readers to see Socrates as useful to his companions and worthy of respect. That purpose shapes the selection of episodes.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "This reading joins two passages: ordinary habits in 1.3 and the question of trusting an undisciplined leader in 1.5. It is not a diary entry. Our Greek arranges the material into a typical day and adds a short teaching example; the habits are source-based, but the day’s timetable is reconstructed."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
         "title": "The meal as evidence",
         "body": [
           "A small cup and an uncomplicated meal become part of an argument about character. Xenophon presents Socrates as enjoying food without needing an elaborate supply of luxuries. The point is freedom from demands that could make him less dependable.",
-          "Look at the banner as a modern reconstruction. Its bread, cup, and conversation invite the question “What does this person need?” They do not show an excavated Socratic dining room or a recorded meal. A modest-looking image cannot establish the wealth of everyone in it."
+          "The Reading banner imagines a simple meal; the Culture/History banner moves the question of trust into a marketplace. A grain seller and customers depend on reliable conduct. Both are modern reconstructions, not evidence of a recorded meeting or a particular ancient transaction."
         ]
       },
       {
@@ -702,6 +715,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 1.3.5–8 and 1.5.1–5",
         "url": "https://monadnock.net/xenophon/mem1-3.html"
@@ -4949,7 +4970,7 @@ DECLARE
       }
     ],
     "translation": "Socrates discusses education with Aristippus. He sets two young men before him in the discussion: one will rule, while the other does not wish to rule. What education suits the young men?\n\nThe young man who will rule does not always seek his own pleasure. For there are tasks which do not wait. The friend whom it is necessary to help is in danger.\n\nSocrates asks about food, drink, and sleep. The ruler, whom the friends were calling, was already working. He is not always sitting in the house.\n\nWork is often outdoors. The men feel the cold and the summer heat. The road has a deep ravine; the toil is heavy.\n\nAristippus says, “I do not wish to rule. Office brings many tasks. I seek a life which has pleasure.” Socrates examines the claim.\n\nWho chooses the education? Whom do the tasks help? Does the person ruling others master himself? We now investigate these matters. For a fine argument does not resolve every difficulty.\n",
-    "sourceCitation": "Xenophon, Memorabilia 2.1.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem2-1.html",
+    "sourceCitation": "Xenophon, Memorabilia 2.1.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem2-1.html",
     "notesMarkdown": "The contrast between training for rule and preferring an easier life follows the dialogue with Aristippus. The Greek is simplified and the closing questions are course reflection, not additional ancient testimony."
   },
   "wordStudy": {
@@ -5199,9 +5220,9 @@ DECLARE
   "culture": {
     "title": "Training for Whose Life?",
     "banner": {
-      "image": "assets/lesson-26-banner.png",
-      "alt": "Educational reconstruction: Socrates and Aristippus discuss education near a palaestra",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-26-culture-banner.png",
+      "alt": "Modern educational reconstruction: Travelers prepare supplies and footwear for a mountain journey.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -5209,7 +5230,20 @@ DECLARE
         "title": "Meet the Memorabilia: an argument with Aristippus",
         "body": [
           "In Memorabilia 2.1, Xenophon’s Socrates questions Aristippus about the education of someone intended to rule. Food, drink, sleep, heat, and cold become tests of whether a person can put a responsibility before an immediate comfort.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "Aristippus supplies resistance: he does not simply ask how to become the ruler Socrates imagines. Read his preference for another kind of life as part of the argument. Xenophon presents a crafted exchange, not a neutral survey of all Athenian educational practices."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
@@ -5263,6 +5297,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 2.1.1–9",
         "url": "https://monadnock.net/xenophon/mem2-1.html"
@@ -9506,7 +9548,7 @@ DECLARE
       }
     ],
     "translation": "Critobulus talks with Socrates about money. He has much, but seeks more. Socrates has little; nevertheless he does not seek more.\n\nSocrates says, “My possessions are sufficient for me, but yours are not sufficient for you.” Critobulus laughs. For he seems to be richer than Socrates.\n\nCritobulus has a larger house and more money. Socrates seeks less. For both men do not have the same need.\n\nCritobulus receives guests and attends to his fellow citizens. The city asks for money. He considers not only his own affairs but also public affairs.\n\nWhat, then, is better: to have more or to need less? The richest person is not always the happiest. For he often does not live more peacefully.\n\nSocrates does not look down on poor people. He compares need with resources. In the argument, “more” is not the same as “enough.”\n",
-    "sourceCitation": "Xenophon, Oeconomicus 2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
+    "sourceCitation": "Xenophon, Oeconomicus 2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm https://en.wikipedia.org/wiki/Oeconomicus https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "The reversal of rich and poor and the obligations of Critobulus follow Xenophon. Monetary amounts are omitted. The final comparison questions are course-written; no modern budget is attributed to the ancient speakers."
   },
   "wordStudy": {
@@ -9751,9 +9793,9 @@ DECLARE
   "culture": {
     "title": "How Much Is Enough?",
     "banner": {
-      "image": "assets/lesson-27-banner.png",
-      "alt": "Educational reconstruction: Socrates and Critobulus consider household resources",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-27-culture-banner.png",
+      "alt": "Modern educational reconstruction: Workers gather olives and organize resources on an imagined Attic estate.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -9761,7 +9803,20 @@ DECLARE
         "title": "Meet Xenophon’s Oeconomicus",
         "body": [
           "The Oeconomicus explores the management of an oikos: household, property, work, and people. Its title gives us a distant ancestor of “economics,” but its subject is not identical to a modern national economy. Socrates talks first with Critobulus; later he recounts a conversation with Ischomachus.",
+          "The dialogue’s twenty-one chapters move from the meaning of wealth to the organization of an estate. Socrates first questions Critobulus about whether possessions actually benefit their owner. He then recounts an extended conversation with Ischomachus, a prosperous gentleman-farmer, about marriage, household organization, agriculture, and directing other people’s work. The shift lets a philosophical question become a tour of everyday decisions.",
+          "Read with two questions in mind: what makes management effective, and whose interests define success? Ischomachus describes his young wife’s education and the work of enslaved people from the position of a male household head. His account gives access to ideals of cooperation and order while also revealing unequal authority. Socrates’ questions invite scrutiny; a speaker’s confidence is not a reason to accept every assumption.",
+          "Reading invitation: compare chapter 1 on useful possessions with chapters 8–9 on order, then look at chapter 21 on leadership. Could a person have excellent equipment yet manage badly? The English edition linked below calls the work The Economist. Its subject is the oikos—household, estate, and people—rather than economics in the modern national sense.",
           "Our selection comes from chapter 2. Socrates provocatively compares his own small resources with Critobulus’s much greater resources and obligations. The dialogue asks whether wealth is measured by an inventory alone or by what a person needs to accomplish."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Oeconomicus — English translation",
+            "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+          },
+          {
+            "title": "Wikipedia: Oeconomicus",
+            "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+          }
         ]
       },
       {
@@ -9815,6 +9870,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Oeconomicus — English translation",
+        "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+      },
+      {
+        "title": "Wikipedia: Oeconomicus",
+        "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+      },
       {
         "title": "Xenophon, Oeconomicus 2.1–8",
         "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
@@ -14074,7 +14137,7 @@ DECLARE
       }
     ],
     "translation": "Heracles, when young, was sitting in a quiet place. He was considering his life: which of two roads will he choose? Two women approached. One was Virtue, the other Vice.\n\nVice speaks first: “This road here is pleasant. Come here. Here you will find food and drink. You will not have many toils.”\n\n“Who prepares the food? Where do the resources come from?” The reader now asks these questions. The promise is pleasant; but whose is the work?\n\nVirtue says, “That road offers a different hope. The gods give none of the fine things without toil. Help your friends and do noble things.”\n\nEach woman speaks about happiness. One shows present pleasure, the other life afterwards. Not every pleasure is bad; but which pleasure harms friends?\n\nThis story is not an account of a battle. Two ways of life lie before us. Which life do you admire? How do you judge the promises? A fine appearance does not by itself reveal the truth.\n",
-    "sourceCitation": "Xenophon, Memorabilia 2.1.21–34, Socrates’ retelling of Prodicus’ Choice of Heracles. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html",
+    "sourceCitation": "Xenophon, Memorabilia 2.1.21–34, Socrates’ retelling of Prodicus’ Choice of Heracles. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html",
     "notesMarkdown": "This is an allegory attributed to Prodicus within Xenophon’s Socratic dialogue. The speeches are drastically shortened and newly worded. The reader’s final question is supplied; no historical meeting is asserted."
   },
   "wordStudy": {
@@ -14323,9 +14386,9 @@ DECLARE
   "culture": {
     "title": "Heracles at the Crossroads of Desire",
     "banner": {
-      "image": "assets/lesson-28-banner.png",
-      "alt": "Educational reconstruction: The young Heracles considers two personified ways of life",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-28-culture-banner.png",
+      "alt": "Modern educational reconstruction: A storyteller addresses young listeners under a Greek portico.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -14333,14 +14396,27 @@ DECLARE
         "title": "Meet a story inside the Memorabilia",
         "body": [
           "In Memorabilia 2.1.21–34, Xenophon’s Socrates retells a story attributed to Prodicus. The young Heracles encounters two personified ways of life. The episode is a moral allegory embedded in a Socratic conversation, not a report of a historical meeting.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "Our simplified reading keeps the competing promises and the relation between effort and worthwhile achievement. It does not reproduce Prodicus’s original wording. The chain matters: Prodicus is credited with the story, Socrates tells it in Xenophon’s work, and the course adapts that account."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
         "title": "A hero before the famous labors",
         "body": [
           "The narrative asks the student to meet Heracles at a moment of choice. His future achievements have not yet answered the question for him. Personification lets competing arguments walk into the scene as characters.",
-          "The banner uses a familiar heroic visual cue and two contrasting figures. It is an imagined allegorical scene. Clothing, gestures, and paths are visual interpretation; they are not evidence of an actual crossroads or a documented encounter."
+          "The Reading banner uses a familiar heroic visual cue and two contrasting figures. It is an imagined allegorical scene. Clothing, gestures, and paths are visual interpretation; they are not evidence of an actual crossroads or a documented encounter. The Culture/History banner instead imagines a storyteller and listeners, inviting you to consider how an argument changes when it becomes a memorable tale."
         ]
       },
       {
@@ -14372,7 +14448,7 @@ DECLARE
         "answer": "the reasoning and costs behind the promises"
       },
       {
-        "prompt": "What is the banner’s status?",
+        "prompt": "What is the Reading banner’s status?",
         "answer": "an imagined allegorical reconstruction"
       }
     ],
@@ -14381,12 +14457,20 @@ DECLARE
       "items": [
         "Identify the genre, purpose, and adaptation boundary of Memorabilia.",
         "Demonstratives and questions distinguish two speakers, their promises, and the paths they recommend.",
-        "What is the banner’s status? an imagined allegorical reconstruction",
+        "What is the Reading banner’s status? an imagined allegorical reconstruction",
         "Does the story prove every hardship is valuable? No; the relation between effort and a worthwhile end still matters.",
         "What is the correct chain of adaptation? Prodicus’s attributed story, Xenophon’s Socratic retelling, course adaptation"
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 2.1.21–34, Socrates’ retelling of Prodicus’ Choice of Heracles",
         "url": "https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html"
@@ -18100,7 +18184,7 @@ DECLARE
           "id": "l28-final-quiz-28",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "What is the banner’s status?",
+          "prompt": "What is the Reading banner’s status?",
           "choices": [
             {
               "text": "a portrait painted from Heracles’s life",
@@ -18650,7 +18734,7 @@ DECLARE
       }
     ],
     "translation": "The Greeks were marching through Armenia. There was much snow, and the cold was severe. The soldiers and pack animals struggled; not all endured the hardship.\n\nMany of the pack animals died, and people died too. Not only soldiers but also enslaved people were in the snow. The hardship was shared, but their strength was not equal.\n\nThose who arrived first were keeping a fire burning. Those who came later approached the fire. The first arrivals demanded food and only then admitted the others.\n\nOn the next day the men were marching again. Some fell and remained behind. Xenophon stopped beside the weak men; he did not immediately recognize their condition.\n\nA man recognized the condition and told Xenophon. Xenophon went to the pack animals and looked for food. Those who were strong carried the food to the weak.\n\nThe weak men ate, then got up and continued marching. Words alone did not save them. For they needed nourishment. Here care brought benefit to their companions.\n",
-    "sourceCitation": "Xenophon, Anabasis 4.5.3–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5",
+    "sourceCitation": "Xenophon, Anabasis 4.5.3–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1170/1170-h/1170-h.htm https://en.wikipedia.org/wiki/Anabasis_(Xenophon) https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5",
     "notesMarkdown": "The snow, unequal access to fires, hunger-collapse, and distribution of food follow Xenophon. The compact sequence and closing judgment are adapted. A soldier’s command in the grammar workshop is invented practice, not a quotation."
   },
   "wordStudy": {
@@ -18916,9 +19000,9 @@ DECLARE
   "culture": {
     "title": "Snow, Hunger, and the Work of Care",
     "banner": {
-      "image": "assets/lesson-29-banner.png",
-      "alt": "Educational reconstruction: Companions bring food and assistance to exhausted soldiers in snow",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-29-culture-banner.png",
+      "alt": "Modern educational reconstruction: Soldiers and pack animals carry supplies through a snowy mountain landscape.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -18926,14 +19010,27 @@ DECLARE
         "title": "Meet Xenophon’s Anabasis",
         "body": [
           "The Anabasis tells of Cyrus the Younger’s expedition and the Greek army’s difficult return after his death. Xenophon participated in the expedition and later became one of its leaders. The narrative often names him in the third person, a literary choice that does not remove his stake in the story.",
+          "The seven-book narrative begins with an expedition inland: in 401 BCE Cyrus the Younger challenges his brother, the Persian king Artaxerxes II. Cyrus dies at Cunaxa, leaving his Greek mercenaries in danger. After the loss of their senior commanders, the soldiers must reorganize, negotiate, find supplies, and fight their way toward the Black Sea. Xenophon emerges as one of their leaders.",
+          "The famous sight of the sea in Book 4 does not end the book—or solve every problem. Books 5–7 continue through disputes over leadership, dealings with Greek cities, and service in Thrace before the remaining troops join a Spartan commander. Survival is an extended political and logistical task. A triumphant moment can coexist with unpaid wages, competing interests, and an uncertain destination.",
+          "Reading invitation: begin Book 3, chapter 1, where Xenophon enters the leadership crisis, and compare his speeches with the practical decisions in Book 4, chapter 5. He is both participant and author, often describing himself in the third person. Ask what his narrative helps us see about leadership and how it presents his own reputation. The linked complete translation lets you follow the story beyond the celebrated mountain crossing.",
           "Book 4 carries the army through harsh winter conditions in Armenia. Our selection uses 4.5.3–9, including exhaustion and the discovery that food could help men who could no longer continue. We simplify the sequence and language; we do not diagnose every individual from a modern medical standpoint."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Anabasis — English translation",
+            "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+          },
+          {
+            "title": "Wikipedia: Anabasis",
+            "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"
+          }
         ]
       },
       {
         "title": "A landscape that changes the task",
         "body": [
           "An army needs more than courage when snow, cold, distance, and hunger interrupt movement. The same ground can demand different decisions as supplies and strength change. A command to march cannot manufacture energy.",
-          "Read the banner for the care being offered, not as a precise reconstruction of one documented face or campsite. Then list the practical questions a leader needs answered: who can move, what food exists, and how can it reach those who need it?"
+          "The Culture/History banner widens the view to a supply column: care depends on getting food and equipment to the people who need them. It is an imagined landscape, not a mapped itinerary or a documented campsite. Then list the practical questions a leader needs answered: who can move, what food exists, and how can it reach those who need it?"
         ]
       },
       {
@@ -18980,6 +19077,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Anabasis — English translation",
+        "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+      },
+      {
+        "title": "Wikipedia: Anabasis",
+        "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"
+      },
       {
         "title": "Xenophon, Anabasis 4.5.3–9",
         "url": "https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5"
@@ -23239,7 +23344,7 @@ DECLARE
       }
     ],
     "translation": "Euthydemus had many books. He thought he was wise and wished to speak and act. Socrates conversed with him and examined his judgment.\n\nSocrates asks, “Did you see the inscription at Delphi?” Euthydemus agrees. The inscription says, “Know yourself.” The question presents no small task.\n\nThe name alone does not reveal a person’s ability. Someone looking for a horse does not consider only its name. He examines the horse: is it fast or slow?\n\nIn the same way a person examines his own actions. Someone who knows himself seeks useful things. Someone who does not know often makes mistakes; hope does not make every undertaking succeed.\n\nIn the exercise we fill two tablets. On the first we write the tasks, and on the second the evidence. A golden tablet does not provide a true judgment.\n\n“As I think, I am wise” is not the same as “I do the task correctly.” What evidence, then, do we seek? Socrates examines not only speech but also life.\n",
-    "sourceCitation": "Xenophon, Memorabilia 4.2.24–30; introductory context 4.2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem4-2.html",
+    "sourceCitation": "Xenophon, Memorabilia 4.2.24–30; introductory context 4.2.1–8. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem4-2.html",
     "notesMarkdown": "The books, Delphic maxim, and examination of ability follow the source. The two-tablet classroom exercise is explicitly supplied to practice -όω verbs and numbers; it is not a report about Euthydemus."
   },
   "wordStudy": {
@@ -23484,9 +23589,9 @@ DECLARE
   "culture": {
     "title": "A Library Is Not Yet Understanding",
     "banner": {
-      "image": "assets/lesson-30-banner.png",
-      "alt": "Educational reconstruction: Socrates and Euthydemus discuss understanding beside book rolls",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-30-culture-banner.png",
+      "alt": "Modern educational reconstruction: Visitors approach an imagined sanctuary of Apollo at Delphi.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -23494,13 +23599,26 @@ DECLARE
         "title": "Meet the Memorabilia: Euthydemus under examination",
         "body": [
           "In Memorabilia 4.2, Euthydemus has collected writings and hopes for distinction. Socrates draws him into questions that expose the difference between possessing material and understanding what one can do with it. Our main selection is 4.2.24–30, with the earlier book-collecting context.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "The dialogue turns to knowing oneself. Xenophon presents this as part of Socratic education: recognizing one’s capacities and limitations can affect choices and relationships. The conversation is a literary portrait, not a psychological test with a modern scoring scale."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
         "title": "Books as objects, knowledge as work",
         "body": [
-          "A roll can be acquired and stored. Understanding requires reading, testing a claim, and applying it. The banner’s rolls and tablet are modern visual suggestions of that difference; their number is not a census of Euthydemus’s collection.",
+          "A roll can be acquired and stored. Understanding requires reading, testing a claim, and applying it. The Reading banner’s rolls and tablet are modern visual suggestions of that difference; their number is not a census of Euthydemus’s collection. The Culture/History banner imagines Delphi, connecting the passage’s Delphic injunction to know oneself with the work of examining what one actually understands. It is not an archaeological plan of the sanctuary.",
           "Make two lists: things a learner can own, and things a learner can do. Move “knowing a paradigm” to the second list only when you can use it to read an unfamiliar sentence. This is the lesson’s practical version of self-examination."
         ]
       },
@@ -23529,7 +23647,7 @@ DECLARE
         "answer": "possessing writings versus understanding and using them"
       },
       {
-        "prompt": "Are the banner’s scrolls a historical count of the collection?",
+        "prompt": "Are the Reading banner’s scrolls a historical count of the collection?",
         "answer": "No; their arrangement is a modern reconstruction."
       },
       {
@@ -23548,6 +23666,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 4.2.24–30; introductory context 4.2.1–8",
         "url": "https://monadnock.net/xenophon/mem4-2.html"
@@ -27225,7 +27351,7 @@ DECLARE
           "id": "l30-final-quiz-27",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "Are the banner’s scrolls a historical count of the collection?",
+          "prompt": "Are the Reading banner’s scrolls a historical count of the collection?",
           "choices": [
             {
               "text": "Yes, exactly ten survived.",
@@ -27791,7 +27917,7 @@ DECLARE
       }
     ],
     "translation": "Panthea is a captive. Araspas is appointed her guardian by Cyrus. The woman was guarded by him. This Cyrus is not the Greeks’ ally in the Anabasis, but the earlier king.\n\nAraspas trusts himself. He thinks he can master his desires. Cyrus does not trust himself in the same way and does not wish to see the beautiful woman.\n\nTime passes, and Araspas desires the woman. He makes proposals to her. Panthea is not persuaded; she loves her husband and does not accept the wrongdoing.\n\nThe woman is frightened by her guardian’s threats. Araspas says he will use force. Panthea does not remain silent; she sends a messenger to Cyrus and seeks help.\n\nCyrus sends Artabazus. Araspas is rebuked by Artabazus. For the guardian ought to have protected the woman, not frightened her. Now he himself is ashamed.\n\nConsider the two voices: “The guardian frightens the woman” and “The woman is frightened by the guardian.” The same person does wrong. The woman’s suffering does not become invisible because of the grammatical voice.\n",
-    "sourceCitation": "Xenophon, Cyropaedia 5.1.2–18 and 6.1.31–36. Newly composed controlled Greek adaptation, not a verbatim quotation. https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia6.htm https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia5.htm",
+    "sourceCitation": "Xenophon, Cyropaedia 5.1.2–18 and 6.1.31–36. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/2085/2085-h/2085-h.htm https://en.wikipedia.org/wiki/Cyropaedia https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia6.htm https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia5.htm",
     "notesMarkdown": "The core events follow Xenophon’s literary account of Cyrus the Great. Present and imperfect forms replace some original tense constructions. Panthea’s refusal and appeal remain central. The reflective questions are the course’s, not quotations."
   },
   "wordStudy": {
@@ -28050,9 +28176,9 @@ DECLARE
   "culture": {
     "title": "Desire, Power, and the Person in Custody",
     "banner": {
-      "image": "assets/lesson-31-banner.png",
-      "alt": "Educational reconstruction: Panthea speaks with a messenger in a guarded setting",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-31-culture-banner.png",
+      "alt": "Modern educational reconstruction: A messenger presents a sealed message in an imagined Persian courtyard.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -28060,7 +28186,20 @@ DECLARE
         "title": "Meet Xenophon’s Cyropaedia",
         "body": [
           "The Cyropaedia, often translated “Education of Cyrus,” is an extended literary exploration of Cyrus the Great’s formation and leadership. It blends narrative, political reflection, and exemplary characterization. It is not a straightforward documentary biography of Persian institutions.",
+          "Its eight books follow Cyrus the Great from education to conquest, imperial organization, and death. This Cyrus is the sixth-century founder of Persian power, not Cyrus the Younger of the Anabasis. The opening question is striking: why do people so often resist rulers, and how could Cyrus secure obedience across so many peoples? Childhood training becomes the starting point for a much larger inquiry into power.",
+          "Xenophon combines campaigns, speeches, friendships, rivalries, and domestic stories to explore leadership. Rewards and persuasion stand beside military force; admiration for the ruler sits beside questions about dependence on him. The final account of decline after Cyrus complicates an uncomplicated success story. Read this as a crafted political and educational narrative, not a reliable transcript of sixth-century Persian court life.",
+          "Reading invitation: compare the opening discussion of obedience in Book 1 with Araspas’s confidence about desire in Book 5 and its consequences in Book 6. Panthea’s story makes the problem personal: can someone entrusted with power govern himself? Then glance at the close of Book 8. What can a leader build that will survive him? The whole-work link opens Henry Graham Dakyns’s English translation, revised by F. M. Stawell.",
           "Our reading follows Araspas and Panthea in 5.1 and 6.1. Araspas initially claims confidence in his power to control desire; later his conduct exposes the weakness of that claim. The adaptation compresses separated scenes and uses passive constructions to track custody and agency."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Cyropaedia — English translation",
+            "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+          },
+          {
+            "title": "Wikipedia: Cyropaedia",
+            "url": "https://en.wikipedia.org/wiki/Cyropaedia"
+          }
         ]
       },
       {
@@ -28114,6 +28253,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Cyropaedia — English translation",
+        "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+      },
+      {
+        "title": "Wikipedia: Cyropaedia",
+        "url": "https://en.wikipedia.org/wiki/Cyropaedia"
+      },
       {
         "title": "Xenophon, Cyropaedia 5.1.2–18 and 6.1.31–36",
         "url": "https://heritageinstitute.com/zoroastrianism/reference/xenophon/cyropaedia/cyropaedia6.htm"
@@ -32369,7 +32516,7 @@ DECLARE
       }
     ],
     "translation": "Ischomachus speaks with Socrates about the household. “Where are the objects?” This is not a small question. For someone searching often cannot find them.\n\nIschomachus saw a Phoenician ship. Much equipment lay in the ship, and each item had its own place. The keeper of the equipment knew the places.\n\nThe ship moves on the sea. Nevertheless the sailors can get useful things. But the house stays still; what then prevents order here too?\n\nHis wife asks for the arrangement. Ischomachus shows her the rooms. Grain lies in a dry place, wine in a cool place. Clothing has another place.\n\nNot everyone in the house knows the same things. The wife oversees the work, while enslaved workers labor. Order requires both memory and work.\n\nNow we examine the arrangement. Who finds the objects? Who carries them? Who gives orders? “I am able” and “I know how” do not mean the same thing.\n",
-    "sourceCitation": "Xenophon, Oeconomicus 8.11–20 and 9.2–10. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
+    "sourceCitation": "Xenophon, Oeconomicus 8.11–20 and 9.2–10. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm https://en.wikipedia.org/wiki/Oeconomicus https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "Ischomachus’ ship comparison and household organization are adapted from his report to Socrates. The concise questions about objects are course wording. His wife’s views reach us through a male speaker and author, not an independent transcript."
   },
   "wordStudy": {
@@ -32623,9 +32770,9 @@ DECLARE
   "culture": {
     "title": "The Household as a System of Work",
     "banner": {
-      "image": "assets/lesson-32-banner.png",
-      "alt": "Educational reconstruction: Women and workers organize equipment in a Greek household",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-32-culture-banner.png",
+      "alt": "Modern educational reconstruction: A merchant ship crew arranges ropes, amphorae and equipment.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -32633,7 +32780,20 @@ DECLARE
         "title": "Meet the Oeconomicus: Ischomachus’s account",
         "body": [
           "Later in the Oeconomicus, Socrates recounts his conversation with Ischomachus about household management. In chapters 8–9, arrangement and finding things become vivid examples of order. We hear a man describe the household’s practices and his wife’s role through a reported conversation.",
+          "The dialogue’s twenty-one chapters move from the meaning of wealth to the organization of an estate. Socrates first questions Critobulus about whether possessions actually benefit their owner. He then recounts an extended conversation with Ischomachus, a prosperous gentleman-farmer, about marriage, household organization, agriculture, and directing other people’s work. The shift lets a philosophical question become a tour of everyday decisions.",
+          "Read with two questions in mind: what makes management effective, and whose interests define success? Ischomachus describes his young wife’s education and the work of enslaved people from the position of a male household head. His account gives access to ideals of cooperation and order while also revealing unequal authority. Socrates’ questions invite scrutiny; a speaker’s confidence is not a reason to accept every assumption.",
+          "Reading invitation: compare chapter 1 on useful possessions with chapters 8–9 on order, then look at chapter 21 on leadership. Could a person have excellent equipment yet manage badly? The English edition linked below calls the work The Economist. Its subject is the oikos—household, estate, and people—rather than economics in the modern national sense.",
           "That layered voice matters. This is not a diary written by the wife or a complete account from every worker. Our adaptation foregrounds practical knowledge and the labor that makes an orderly household function, while identifying new teaching examples as such."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Oeconomicus — English translation",
+            "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+          },
+          {
+            "title": "Wikipedia: Oeconomicus",
+            "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+          }
         ]
       },
       {
@@ -32654,7 +32814,7 @@ DECLARE
         "title": "Three verbs, three questions",
         "body": [
           "Use κεῖται to ask where an item lies, δύναται to ask who can retrieve it, and ἐπίσταται to ask who knows how to handle it. Explain a case where a person knows how but lacks the opportunity or permission.",
-          "The banner is an educational reconstruction of organized work, not a plan of Ischomachus’s excavated home. Close with one change that would make your imaginary work area easier for everyone who uses it, and state who should help decide."
+          "The Culture/History banner imagines the organized ship used as a comparison in the dialogue; the Reading banner imagines household work. Neither is an archaeological plan. Look for equipment that can be found and used quickly, then ask who maintains that order. Close with one change that would make your imaginary work area easier for everyone who uses it, and state who should help decide."
         ]
       }
     ],
@@ -32687,6 +32847,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Oeconomicus — English translation",
+        "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+      },
+      {
+        "title": "Wikipedia: Oeconomicus",
+        "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+      },
       {
         "title": "Xenophon, Oeconomicus 8.11–20 and 9.2–10",
         "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
@@ -36934,7 +37102,7 @@ DECLARE
       }
     ],
     "translation": "Xenophon describes the education of the Spartans. The boys were educated by the supervisor of boys. He was a citizen and had authority.\n\nThe boys were taught to obey. They did not always have shoes; for they walked with bare feet. They wore one cloak throughout the year.\n\nLittle food was prepared for the boys. The account also includes theft of food. But the boy who was caught was punished, for he did not carry out the act secretly.\n\nXenophon praises endurance. We also ask about the boys. Who chose the education: the boys or those governing the city?\n\nIn a teaching example the boy appeared brave and answered the teacher. Not everyone who suffered was well educated. For suffering does not always provide good judgment.\n\nWhat will result from the education? The young man will be educated and tested. But who will protect him? The safety of the boys and the virtue of the citizens are worthy of discussion.\n",
-    "sourceCitation": "Xenophon, Constitution of the Lacedaemonians 2.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1178/1178-h/1178-h.htm",
+    "sourceCitation": "Xenophon, Constitution of the Lacedaemonians 2.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1178/1178-h/1178-h.htm https://en.wikipedia.org/wiki/Constitution_of_the_Lacedaemonians https://www.gutenberg.org/files/1178/1178-h/1178-h.htm",
     "notesMarkdown": "Xenophon describes and praises institutions attributed to Lycurgus. The questions about consent and the predictions in the last paragraphs are course discussion, not quotations or additional Spartan laws."
   },
   "wordStudy": {
@@ -37179,9 +37347,9 @@ DECLARE
   "culture": {
     "title": "Training the Self: Who Chooses the Training?",
     "banner": {
-      "image": "assets/lesson-33-banner.png",
-      "alt": "Educational reconstruction: Spartan boys practice under a supervisor",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-33-culture-banner.png",
+      "alt": "Modern educational reconstruction: Adult Spartan citizens discuss civic responsibilities near a public building.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -37189,7 +37357,20 @@ DECLARE
         "title": "Meet the Constitution of the Lacedaemonians",
         "body": [
           "Xenophon’s Constitution of the Lacedaemonians describes and evaluates Spartan institutions, often attributing their distinctive features to Lycurgus. “Constitution” here means an account of a community’s arrangements and way of life, not a modern written constitution with numbered rights.",
+          "This compact treatise asks how a relatively small community achieved exceptional power. Across fifteen chapters Xenophon discusses upbringing, common meals, habits concerning wealth, obedience, military organization, and kingship. He attributes the distinctive system to Lycurgus. The arrangement encourages readers to connect public strength with the repeated practices that form citizens from childhood onward.",
+          "The work is an argument about institutions, not simply a list of spectacular Spartan customs. Xenophon repeatedly contrasts Sparta with other Greek communities and admires the discipline he describes. Yet chapter 14 criticizes contemporary departures from the old standards. That tension lets us ask whether he is describing everyday reality, an ideal order, or the distance between the two.",
+          "Reading invitation: read chapter 2 on boys’ education alongside chapter 5 on common meals and chapter 14 on decline. Who supervises conduct, and what makes the system enforceable? Ask also whose lives receive less attention: women, noncitizens, and the enslaved helot population cannot be understood from the citizen-training account alone. In the linked combined volume, choose The Polity of the Lacedaemonians; the separate Athenian treatise is not generally accepted as Xenophon’s work.",
           "Chapter 2 discusses boys’ education and contrasts Spartan practices with those of other Greeks. Xenophon often admires the system. His admiration is part of the evidence we must interpret; it does not make the account an impartial description of every child’s experience."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Constitution of the Lacedaemonians — English translation",
+            "url": "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm"
+          },
+          {
+            "title": "Wikipedia: Constitution of the Lacedaemonians",
+            "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Lacedaemonians"
+          }
         ]
       },
       {
@@ -37243,6 +37424,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Constitution of the Lacedaemonians — English translation",
+        "url": "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm"
+      },
+      {
+        "title": "Wikipedia: Constitution of the Lacedaemonians",
+        "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Lacedaemonians"
+      },
       {
         "title": "Xenophon, Constitution of the Lacedaemonians 2.1–9",
         "url": "https://www.gutenberg.org/files/1178/1178-h/1178-h.htm"
@@ -41486,7 +41675,7 @@ DECLARE
       }
     ],
     "translation": "Callias invites friends to dinner. After dinner the friends drink and converse. Socrates is present; he does not remain silent but speaks about wine.\n\nWine gives pleasure, but excess harms. Socrates sets out plants as an example. A little water makes plants grow; too much water causes harm.\n\nPeople too need measure. Socrates does not urge everyone to drink a great deal. Small cups, and frequently: in this way the friends spend the evening pleasantly.\n\nIn our teaching example the friend says, “Give the cup, and put the mixing bowl in the middle.” The other gives the cup and places the mixing bowl.\n\nThey gave the wine and placed the cups. Now the fellow drinkers hear conversation instead of shouting. The gathering of friends is not judged by the quantity of wine alone.\n\nWhat do we give our friends? What do we place in the middle? Not only drink, but also conversation and attention. The person in command of his body also listens to the other person.\n",
-    "sourceCitation": "Xenophon, Symposium 2.24–27. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original https://www.metmuseum.org/art/collection/search/253349",
+    "sourceCitation": "Xenophon, Symposium 2.24–27. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1181/1181-h/1181-h.htm https://en.wikipedia.org/wiki/Symposium_(Xenophon) https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original https://www.metmuseum.org/art/collection/search/253349",
     "notesMarkdown": "The comparison of wine to water nourishing plants follows Socrates in the Symposium. The serving instructions and -μι practice sentences are reconstructed teaching dialogue, not a transcript. The lesson title is a traditional maxim, not a quotation assigned here to Xenophon."
   },
   "wordStudy": {
@@ -41741,9 +41930,9 @@ DECLARE
   "culture": {
     "title": "Conversation around the Mixing Bowl",
     "banner": {
-      "image": "assets/lesson-34-banner.png",
-      "alt": "Educational reconstruction: Guests converse beside a mixing bowl at a symposium",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-34-culture-banner.png",
+      "alt": "Modern educational reconstruction: Water is poured into a Greek mixing bowl beside drinking cups.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -41751,7 +41940,20 @@ DECLARE
         "title": "Meet Xenophon’s Symposium",
         "body": [
           "Xenophon’s Symposium stages a dinner and drinking party at Callias’s house, with Socrates among the guests. Conversation, entertainment, humor, and claims about what people value make it a different kind of Socratic portrait from the Memorabilia. A literary banquet is not a stenographic record.",
+          "Callias hosts the gathering in honor of the young athlete Autolycus. Across nine chapters, a meal and drinking party become a lively experiment in conversation: music, performance, teasing, and competing claims about what each guest values share the room with serious moral questions. Socrates participates in the playfulness instead of standing outside the party to deliver a lecture.",
+          "The guests’ boasts bring beauty, wealth, poverty, and personal accomplishment into discussion. Later, Socrates develops an argument about love that values character and the good of the beloved. Entertainment and reflection continually interrupt and reshape one another. This is Xenophon’s Symposium, a distinct work from Plato’s more familiar dialogue of the same title, with its own characters, structure, and dramatic effects.",
+          "Reading invitation: follow the modest drinking proposal in chapter 2 into the exchanges about pride in chapters 3–4, then compare the discussion of love in chapter 8. Does moderation help the gathering become more enjoyable and attentive? Treat the dialogue as a literary presentation of elite sociability, not an audio recording of a dinner. Notice who gets a speaking part and whose service makes the gathering possible.",
           "In 2.24–27 Socrates compares the effects of wine with watering plants and favors small, repeated servings. Our title “Nothing in Excess” is a traditional Greek maxim used as a thematic heading; it is not presented as a quotation from this passage."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Symposium — English translation",
+            "url": "https://www.gutenberg.org/files/1181/1181-h/1181-h.htm"
+          },
+          {
+            "title": "Wikipedia: Symposium",
+            "url": "https://en.wikipedia.org/wiki/Symposium_(Xenophon)"
+          }
         ]
       },
       {
@@ -41805,6 +42007,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Symposium — English translation",
+        "url": "https://www.gutenberg.org/files/1181/1181-h/1181-h.htm"
+      },
+      {
+        "title": "Wikipedia: Symposium",
+        "url": "https://en.wikipedia.org/wiki/Symposium_(Xenophon)"
+      },
       {
         "title": "Xenophon, Symposium 2.24–27",
         "url": "https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original"
@@ -46044,7 +46254,7 @@ DECLARE
       }
     ],
     "translation": "While Socrates was speaking, the friends listened. He spoke about wisdom and sound self-control. It is not enough to know the good and do what is bad.\n\nSocrates asks about freedom. When desires rule, is the person master of himself? For the slave of pleasure often fails to do what is best.\n\nThe self-controlled person can both learn and help friends. He does not take away every pleasure; he considers the right time and measure. In this way the argument leads toward life.\n\nIn a teaching example the teacher makes the boy stand. The boy stood and listened. When the speech ended, the boy went away. The same person does not perform every action.\n\nAnother example: the citizens appoint the man ruler. He then withdrew from office. The citizens appointed him, but he himself withdrew.\n\nWhile the friends investigate, the discussion does not stop. Is self-mastery merely quietness, or a capacity to act well? We seek the answer in life and actions.\n",
-    "sourceCitation": "Xenophon, Memorabilia 3.9.4–5 and 4.5.1–12. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem4-5.html https://monadnock.net/xenophon/mem3-9.html",
+    "sourceCitation": "Xenophon, Memorabilia 3.9.4–5 and 4.5.1–12. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem4-5.html https://monadnock.net/xenophon/mem3-9.html",
     "notesMarkdown": "The argument about knowledge, conduct, freedom, and appetite follows these two passages. Their combination, setting, and the -μι examples are newly composed; Xenophon does not stage this as one continuous conversation."
   },
   "wordStudy": {
@@ -46312,9 +46522,9 @@ DECLARE
   "culture": {
     "title": "Freedom to Act Well",
     "banner": {
-      "image": "assets/lesson-35-banner.png",
-      "alt": "Educational reconstruction: Socrates and companions examine self-command through conversation",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-35-culture-banner.png",
+      "alt": "Modern educational reconstruction: A potter pauses to attend to an apprentice in a workshop.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -46322,7 +46532,20 @@ DECLARE
         "title": "Meet the Memorabilia: definitions tested by conduct",
         "body": [
           "This lesson joins Memorabilia 3.9.4–5 with 4.5.1–12. In the first, Xenophon relates wisdom and self-control to knowing and doing what is good. In the second, Socrates examines the freedom lost when appetites govern conduct. These passages are related arguments, not one continuous ancient scene.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "Across the module, the Memorabilia has offered habits, dialogue, allegory, and examination. Its variety serves Xenophon’s defense of Socrates as a useful teacher. You can now ask not only “What does Socrates say?” but also “How does Xenophon make this portrait persuasive?”"
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
@@ -46376,6 +46599,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 3.9.4–5 and 4.5.1–12",
         "url": "https://monadnock.net/xenophon/mem4-5.html"
@@ -50619,7 +50850,7 @@ DECLARE
       }
     ],
     "translation": "The men from Piraeus and the men from the city had been fighting. Pausanias and the envoys negotiated reconciliation. At last the men stopped fighting.\n\nThe men from Piraeus went up into the city. They had their arms and came to the Acropolis. There they sacrificed to Athena. Then the citizens deliberated.\n\nThe citizens swore not to bear grudges. They were not going to keep bringing old wrongs against one another. But the task was difficult, for the people had suffered much.\n\nIn the teaching example the citizen points out the Acropolis. His friend sees the men going up. “These men are now ceasing to fight; but what will they do tomorrow?”\n\nAnother example: the man sends a missile, and his companion lets go of a stone. But refraining from throwing and harming involves a decision. Not every power immediately passes into action.\n\nXenophon later also writes about those at Eleusis: their generals died. Reconciliation was not easy. What, then, is the citizen’s self-control? To hold power and anger with judgment.\n",
-    "sourceCitation": "Xenophon, Hellenica 2.4.38–43. Newly composed controlled Greek adaptation, not a verbatim quotation. https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4",
+    "sourceCitation": "Xenophon, Hellenica 2.4.38–43. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm https://en.wikipedia.org/wiki/Hellenica https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4",
     "notesMarkdown": "The settlement, return, sacrifice, and oath follow Hellenica 2.4.38–42. The δείκνυμι/ἵημι examples and interpretive questions are course composition. Section 43 describes a later killing of leaders at Eleusis and subsequent reconciliation; it is not the same event as the first return in 403 BCE."
   },
   "wordStudy": {
@@ -50883,9 +51114,9 @@ DECLARE
   "culture": {
     "title": "The Disciplined Life: From Self to City",
     "banner": {
-      "image": "assets/lesson-36-banner.png",
-      "alt": "Educational reconstruction: Athenian citizens cautiously return toward shared civic life",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-36-culture-banner.png",
+      "alt": "Modern educational reconstruction: Citizens approach an imagined Athenian sacred precinct after civil conflict.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -50893,7 +51124,20 @@ DECLARE
         "title": "Meet Xenophon’s Hellenica",
         "body": [
           "The Hellenica narrates Greek affairs from the closing years of the Peloponnesian War into the fourth century BCE. It is political and military history, with speeches, choices, omissions, and judgments that invite scrutiny. It differs in purpose and scale from the Socratic dialogues and from the literary Cyrus narrative.",
+          "The seven books cover Greek affairs from 411 to 362 BCE, beginning where Thucydides’ unfinished history breaks off. They follow Athens’ defeat in the Peloponnesian War, oligarchy and democratic restoration, Spartan ascendancy, shifting alliances, and the rise of Thebes. The closing battle at Mantinea leaves uncertainty rather than a simple declaration that one city has permanently won.",
+          "Xenophon organizes political and military events through commanders, assemblies, negotiations, speeches, and judgments about conduct. His attention is selective, and his experience and sympathies shape the narrative. Ask what a speech tries to accomplish, whose actions receive explanation, and what a compressed transition leaves unclear. A historian’s ordering of events can be as significant as an explicit verdict.",
+          "Reading invitation: start with Book 2, chapter 3, on the Thirty, then follow chapter 4 through resistance and restoration. Compare the settlement with the later Eleusis episode instead of stopping at the hopeful return to Athens. Our module’s question has grown from control of appetite to restraint in civic life: what practices let former enemies inhabit one city? Read the complete work as a sequence of difficult choices, not a storehouse of uncomplicated moral examples.",
           "Our passage, 2.4.38–43, concerns reconciliation after civil conflict at Athens. Keep its sequence clear: settlement and return in 403 BCE, sacrifice and renewed civic life, then a later episode involving Eleusis. Our supplementary-participle examples are teaching constructions, not additional testimony."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Hellenica — English translation",
+            "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+          },
+          {
+            "title": "Wikipedia: Hellenica",
+            "url": "https://en.wikipedia.org/wiki/Hellenica"
+          }
         ]
       },
       {
@@ -50947,6 +51191,14 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Hellenica — English translation",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      },
+      {
+        "title": "Wikipedia: Hellenica",
+        "url": "https://en.wikipedia.org/wiki/Hellenica"
+      },
       {
         "title": "Xenophon, Hellenica 2.4.38–43",
         "url": "https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4"

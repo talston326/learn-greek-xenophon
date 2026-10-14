@@ -368,7 +368,7 @@
       }
     ],
     "translation": "Socrates discusses education with Aristippus. He sets two young men before him in the discussion: one will rule, while the other does not wish to rule. What education suits the young men?\n\nThe young man who will rule does not always seek his own pleasure. For there are tasks which do not wait. The friend whom it is necessary to help is in danger.\n\nSocrates asks about food, drink, and sleep. The ruler, whom the friends were calling, was already working. He is not always sitting in the house.\n\nWork is often outdoors. The men feel the cold and the summer heat. The road has a deep ravine; the toil is heavy.\n\nAristippus says, “I do not wish to rule. Office brings many tasks. I seek a life which has pleasure.” Socrates examines the claim.\n\nWho chooses the education? Whom do the tasks help? Does the person ruling others master himself? We now investigate these matters. For a fine argument does not resolve every difficulty.\n",
-    "sourceCitation": "Xenophon, Memorabilia 2.1.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://monadnock.net/xenophon/mem2-1.html",
+    "sourceCitation": "Xenophon, Memorabilia 2.1.1–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://monadnock.net/xenophon/mem2-1.html",
     "notesMarkdown": "The contrast between training for rule and preferring an easier life follows the dialogue with Aristippus. The Greek is simplified and the closing questions are course reflection, not additional ancient testimony."
   },
   "wordStudy": {
@@ -618,9 +618,9 @@
   "culture": {
     "title": "Training for Whose Life?",
     "banner": {
-      "image": "assets/lesson-26-banner.png",
-      "alt": "Educational reconstruction: Socrates and Aristippus discuss education near a palaestra",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-26-culture-banner.png",
+      "alt": "Modern educational reconstruction: Travelers prepare supplies and footwear for a mountain journey.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -628,7 +628,20 @@
         "title": "Meet the Memorabilia: an argument with Aristippus",
         "body": [
           "In Memorabilia 2.1, Xenophon’s Socrates questions Aristippus about the education of someone intended to rule. Food, drink, sleep, heat, and cold become tests of whether a person can put a responsibility before an immediate comfort.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "Aristippus supplies resistance: he does not simply ask how to become the ruler Socrates imagines. Read his preference for another kind of life as part of the argument. Xenophon presents a crafted exchange, not a neutral survey of all Athenian educational practices."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
@@ -682,6 +695,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 2.1.1–9",
         "url": "https://monadnock.net/xenophon/mem2-1.html"

@@ -368,7 +368,7 @@
       }
     ],
     "translation": "Callias invites friends to dinner. After dinner the friends drink and converse. Socrates is present; he does not remain silent but speaks about wine.\n\nWine gives pleasure, but excess harms. Socrates sets out plants as an example. A little water makes plants grow; too much water causes harm.\n\nPeople too need measure. Socrates does not urge everyone to drink a great deal. Small cups, and frequently: in this way the friends spend the evening pleasantly.\n\nIn our teaching example the friend says, “Give the cup, and put the mixing bowl in the middle.” The other gives the cup and places the mixing bowl.\n\nThey gave the wine and placed the cups. Now the fellow drinkers hear conversation instead of shouting. The gathering of friends is not judged by the quantity of wine alone.\n\nWhat do we give our friends? What do we place in the middle? Not only drink, but also conversation and attention. The person in command of his body also listens to the other person.\n",
-    "sourceCitation": "Xenophon, Symposium 2.24–27. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original https://www.metmuseum.org/art/collection/search/253349",
+    "sourceCitation": "Xenophon, Symposium 2.24–27. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1181/1181-h/1181-h.htm https://en.wikipedia.org/wiki/Symposium_(Xenophon) https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original https://www.metmuseum.org/art/collection/search/253349",
     "notesMarkdown": "The comparison of wine to water nourishing plants follows Socrates in the Symposium. The serving instructions and -μι practice sentences are reconstructed teaching dialogue, not a transcript. The lesson title is a traditional maxim, not a quotation assigned here to Xenophon."
   },
   "wordStudy": {
@@ -623,9 +623,9 @@
   "culture": {
     "title": "Conversation around the Mixing Bowl",
     "banner": {
-      "image": "assets/lesson-34-banner.png",
-      "alt": "Educational reconstruction: Guests converse beside a mixing bowl at a symposium",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-34-culture-banner.png",
+      "alt": "Modern educational reconstruction: Water is poured into a Greek mixing bowl beside drinking cups.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -633,7 +633,20 @@
         "title": "Meet Xenophon’s Symposium",
         "body": [
           "Xenophon’s Symposium stages a dinner and drinking party at Callias’s house, with Socrates among the guests. Conversation, entertainment, humor, and claims about what people value make it a different kind of Socratic portrait from the Memorabilia. A literary banquet is not a stenographic record.",
+          "Callias hosts the gathering in honor of the young athlete Autolycus. Across nine chapters, a meal and drinking party become a lively experiment in conversation: music, performance, teasing, and competing claims about what each guest values share the room with serious moral questions. Socrates participates in the playfulness instead of standing outside the party to deliver a lecture.",
+          "The guests’ boasts bring beauty, wealth, poverty, and personal accomplishment into discussion. Later, Socrates develops an argument about love that values character and the good of the beloved. Entertainment and reflection continually interrupt and reshape one another. This is Xenophon’s Symposium, a distinct work from Plato’s more familiar dialogue of the same title, with its own characters, structure, and dramatic effects.",
+          "Reading invitation: follow the modest drinking proposal in chapter 2 into the exchanges about pride in chapters 3–4, then compare the discussion of love in chapter 8. Does moderation help the gathering become more enjoyable and attentive? Treat the dialogue as a literary presentation of elite sociability, not an audio recording of a dinner. Notice who gets a speaking part and whose service makes the gathering possible.",
           "In 2.24–27 Socrates compares the effects of wine with watering plants and favors small, repeated servings. Our title “Nothing in Excess” is a traditional Greek maxim used as a thematic heading; it is not presented as a quotation from this passage."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Symposium — English translation",
+            "url": "https://www.gutenberg.org/files/1181/1181-h/1181-h.htm"
+          },
+          {
+            "title": "Wikipedia: Symposium",
+            "url": "https://en.wikipedia.org/wiki/Symposium_(Xenophon)"
+          }
         ]
       },
       {
@@ -687,6 +700,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Symposium — English translation",
+        "url": "https://www.gutenberg.org/files/1181/1181-h/1181-h.htm"
+      },
+      {
+        "title": "Wikipedia: Symposium",
+        "url": "https://en.wikipedia.org/wiki/Symposium_(Xenophon)"
+      },
       {
         "title": "Xenophon, Symposium 2.24–27",
         "url": "https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original"

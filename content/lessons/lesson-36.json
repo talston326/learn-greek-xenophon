@@ -364,7 +364,7 @@
       }
     ],
     "translation": "The men from Piraeus and the men from the city had been fighting. Pausanias and the envoys negotiated reconciliation. At last the men stopped fighting.\n\nThe men from Piraeus went up into the city. They had their arms and came to the Acropolis. There they sacrificed to Athena. Then the citizens deliberated.\n\nThe citizens swore not to bear grudges. They were not going to keep bringing old wrongs against one another. But the task was difficult, for the people had suffered much.\n\nIn the teaching example the citizen points out the Acropolis. His friend sees the men going up. “These men are now ceasing to fight; but what will they do tomorrow?”\n\nAnother example: the man sends a missile, and his companion lets go of a stone. But refraining from throwing and harming involves a decision. Not every power immediately passes into action.\n\nXenophon later also writes about those at Eleusis: their generals died. Reconciliation was not easy. What, then, is the citizen’s self-control? To hold power and anger with judgment.\n",
-    "sourceCitation": "Xenophon, Hellenica 2.4.38–43. Newly composed controlled Greek adaptation, not a verbatim quotation. https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4",
+    "sourceCitation": "Xenophon, Hellenica 2.4.38–43. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm https://en.wikipedia.org/wiki/Hellenica https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4",
     "notesMarkdown": "The settlement, return, sacrifice, and oath follow Hellenica 2.4.38–42. The δείκνυμι/ἵημι examples and interpretive questions are course composition. Section 43 describes a later killing of leaders at Eleusis and subsequent reconciliation; it is not the same event as the first return in 403 BCE."
   },
   "wordStudy": {
@@ -628,9 +628,9 @@
   "culture": {
     "title": "The Disciplined Life: From Self to City",
     "banner": {
-      "image": "assets/lesson-36-banner.png",
-      "alt": "Educational reconstruction: Athenian citizens cautiously return toward shared civic life",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-36-culture-banner.png",
+      "alt": "Modern educational reconstruction: Citizens approach an imagined Athenian sacred precinct after civil conflict.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -638,7 +638,20 @@
         "title": "Meet Xenophon’s Hellenica",
         "body": [
           "The Hellenica narrates Greek affairs from the closing years of the Peloponnesian War into the fourth century BCE. It is political and military history, with speeches, choices, omissions, and judgments that invite scrutiny. It differs in purpose and scale from the Socratic dialogues and from the literary Cyrus narrative.",
+          "The seven books cover Greek affairs from 411 to 362 BCE, beginning where Thucydides’ unfinished history breaks off. They follow Athens’ defeat in the Peloponnesian War, oligarchy and democratic restoration, Spartan ascendancy, shifting alliances, and the rise of Thebes. The closing battle at Mantinea leaves uncertainty rather than a simple declaration that one city has permanently won.",
+          "Xenophon organizes political and military events through commanders, assemblies, negotiations, speeches, and judgments about conduct. His attention is selective, and his experience and sympathies shape the narrative. Ask what a speech tries to accomplish, whose actions receive explanation, and what a compressed transition leaves unclear. A historian’s ordering of events can be as significant as an explicit verdict.",
+          "Reading invitation: start with Book 2, chapter 3, on the Thirty, then follow chapter 4 through resistance and restoration. Compare the settlement with the later Eleusis episode instead of stopping at the hopeful return to Athens. Our module’s question has grown from control of appetite to restraint in civic life: what practices let former enemies inhabit one city? Read the complete work as a sequence of difficult choices, not a storehouse of uncomplicated moral examples.",
           "Our passage, 2.4.38–43, concerns reconciliation after civil conflict at Athens. Keep its sequence clear: settlement and return in 403 BCE, sacrifice and renewed civic life, then a later episode involving Eleusis. Our supplementary-participle examples are teaching constructions, not additional testimony."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Hellenica — English translation",
+            "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+          },
+          {
+            "title": "Wikipedia: Hellenica",
+            "url": "https://en.wikipedia.org/wiki/Hellenica"
+          }
         ]
       },
       {
@@ -692,6 +705,14 @@
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Hellenica — English translation",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      },
+      {
+        "title": "Wikipedia: Hellenica",
+        "url": "https://en.wikipedia.org/wiki/Hellenica"
+      },
       {
         "title": "Xenophon, Hellenica 2.4.38–43",
         "url": "https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4"

@@ -384,7 +384,7 @@
       }
     ],
     "translation": "Heracles, when young, was sitting in a quiet place. He was considering his life: which of two roads will he choose? Two women approached. One was Virtue, the other Vice.\n\nVice speaks first: “This road here is pleasant. Come here. Here you will find food and drink. You will not have many toils.”\n\n“Who prepares the food? Where do the resources come from?” The reader now asks these questions. The promise is pleasant; but whose is the work?\n\nVirtue says, “That road offers a different hope. The gods give none of the fine things without toil. Help your friends and do noble things.”\n\nEach woman speaks about happiness. One shows present pleasure, the other life afterwards. Not every pleasure is bad; but which pleasure harms friends?\n\nThis story is not an account of a battle. Two ways of life lie before us. Which life do you admire? How do you judge the promises? A fine appearance does not by itself reveal the truth.\n",
-    "sourceCitation": "Xenophon, Memorabilia 2.1.21–34, Socrates’ retelling of Prodicus’ Choice of Heracles. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html",
+    "sourceCitation": "Xenophon, Memorabilia 2.1.21–34, Socrates’ retelling of Prodicus’ Choice of Heracles. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm https://en.wikipedia.org/wiki/Memorabilia_(Xenophon) https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html",
     "notesMarkdown": "This is an allegory attributed to Prodicus within Xenophon’s Socratic dialogue. The speeches are drastically shortened and newly worded. The reader’s final question is supplied; no historical meeting is asserted."
   },
   "wordStudy": {
@@ -633,9 +633,9 @@
   "culture": {
     "title": "Heracles at the Crossroads of Desire",
     "banner": {
-      "image": "assets/lesson-28-banner.png",
-      "alt": "Educational reconstruction: The young Heracles considers two personified ways of life",
-      "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+      "image": "assets/lesson-28-culture-banner.png",
+      "alt": "Modern educational reconstruction: A storyteller addresses young listeners under a Greek portico.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
     },
     "body": [],
     "sections": [
@@ -643,14 +643,27 @@
         "title": "Meet a story inside the Memorabilia",
         "body": [
           "In Memorabilia 2.1.21–34, Xenophon’s Socrates retells a story attributed to Prodicus. The young Heracles encounters two personified ways of life. The episode is a moral allegory embedded in a Socratic conversation, not a report of a historical meeting.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
           "Our simplified reading keeps the competing promises and the relation between effort and worthwhile achievement. It does not reproduce Prodicus’s original wording. The chain matters: Prodicus is credited with the story, Socrates tells it in Xenophon’s work, and the course adapts that account."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
         ]
       },
       {
         "title": "A hero before the famous labors",
         "body": [
           "The narrative asks the student to meet Heracles at a moment of choice. His future achievements have not yet answered the question for him. Personification lets competing arguments walk into the scene as characters.",
-          "The banner uses a familiar heroic visual cue and two contrasting figures. It is an imagined allegorical scene. Clothing, gestures, and paths are visual interpretation; they are not evidence of an actual crossroads or a documented encounter."
+          "The Reading banner uses a familiar heroic visual cue and two contrasting figures. It is an imagined allegorical scene. Clothing, gestures, and paths are visual interpretation; they are not evidence of an actual crossroads or a documented encounter. The Culture/History banner instead imagines a storyteller and listeners, inviting you to consider how an argument changes when it becomes a memorable tale."
         ]
       },
       {
@@ -682,7 +695,7 @@
         "answer": "the reasoning and costs behind the promises"
       },
       {
-        "prompt": "What is the banner’s status?",
+        "prompt": "What is the Reading banner’s status?",
         "answer": "an imagined allegorical reconstruction"
       }
     ],
@@ -691,12 +704,20 @@
       "items": [
         "Identify the genre, purpose, and adaptation boundary of Memorabilia.",
         "Demonstratives and questions distinguish two speakers, their promises, and the paths they recommend.",
-        "What is the banner’s status? an imagined allegorical reconstruction",
+        "What is the Reading banner’s status? an imagined allegorical reconstruction",
         "Does the story prove every hardship is valuable? No; the relation between effort and a worthwhile end still matters.",
         "What is the correct chain of adaptation? Prodicus’s attributed story, Xenophon’s Socratic retelling, course adaptation"
       ]
     },
     "sources": [
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      },
       {
         "title": "Xenophon, Memorabilia 2.1.21–34, Socrates’ retelling of Prodicus’ Choice of Heracles",
         "url": "https://www.hs-augsburg.de/homes/harsch/graeca/Chronologia/S_ante05/Prodikos/pro_hera.html"
@@ -4410,7 +4431,7 @@
           "id": "l28-final-quiz-28",
           "type": "multiple-choice",
           "category": "Greek World",
-          "prompt": "What is the banner’s status?",
+          "prompt": "What is the Reading banner’s status?",
           "choices": [
             {
               "text": "a portrait painted from Heracles’s life",
