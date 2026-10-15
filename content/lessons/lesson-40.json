@@ -1,0 +1,4933 @@
+{
+  "id": "lesson-40",
+  "number": 40,
+  "title": "Speaking the Truth",
+  "greekTitle": "Ἡ νίκη καὶ ἡ κρίσις",
+  "scope": "Infinitive reports and relative time; Perception participles and finite reports; φημί and negation; The articular infinitive; Relative antecedents, attraction, and prefixes",
+  "theme": "Victory, grief, and a hurried decision",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 23α–β",
+  "banner": {
+    "image": "assets/lesson-40-banner.png",
+    "alt": "Educational reconstruction: A tense assembly with Socrates among the presiding officials; avoid modern courtroom furniture or gavels.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-40-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-40-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-40-page-3",
+      "title": "Victory, grief, and a hurried decision",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ἡ ναυμαχία",
+          "english": "naval battle",
+          "dictionaryForm": "ναυμαχία, ναυμαχίας, ἡ",
+          "lemma": "ναυμαχία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ χειμών",
+          "english": "storm, winter",
+          "dictionaryForm": "χειμών, χειμῶνος, ὁ",
+          "lemma": "χειμών",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ ναυάγιον",
+          "english": "wreck",
+          "dictionaryForm": "ναυάγιον, ναυαγίου, τό",
+          "lemma": "ναυάγιον",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ μάρτυς",
+          "english": "witness",
+          "dictionaryForm": "μάρτυς, μάρτυρος, ὁ",
+          "lemma": "μάρτυς",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ψῆφος",
+          "english": "vote",
+          "dictionaryForm": "ψῆφος, ψήφου, ἡ",
+          "lemma": "ψῆφος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ πρύτανις",
+          "english": "presiding official",
+          "dictionaryForm": "πρύτανις, πρυτάνεως, ὁ",
+          "lemma": "πρύτανις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀντίρρησις",
+          "english": "objection",
+          "dictionaryForm": "ἀντίρρησις, ἀντιρρήσεως, ἡ",
+          "lemma": "ἀντίρρησις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μεταμέλεια",
+          "english": "regret",
+          "dictionaryForm": "μεταμέλεια, μεταμελείας, ἡ",
+          "lemma": "μεταμέλεια",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀπόδειξις",
+          "english": "proof",
+          "dictionaryForm": "ἀπόδειξις, ἀποδείξεως, ἡ",
+          "lemma": "ἀπόδειξις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φημί",
+          "english": "say",
+          "dictionaryForm": "φημί",
+          "lemma": "φημί",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "προστάττω",
+          "english": "order",
+          "dictionaryForm": "προστάττω",
+          "lemma": "προστάττω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "συναινέω",
+          "english": "agree",
+          "dictionaryForm": "συναινέω",
+          "lemma": "συναινέω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "διακρίνω",
+          "english": "distinguish",
+          "dictionaryForm": "διακρίνω",
+          "lemma": "διακρίνω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὀργίζομαι",
+          "english": "be angry",
+          "dictionaryForm": "ὀργίζομαι",
+          "lemma": "ὀργίζομαι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κατακρίνω",
+          "english": "condemn",
+          "dictionaryForm": "κατακρίνω",
+          "lemma": "κατακρίνω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "αἴτιος",
+          "english": "responsible",
+          "dictionaryForm": "αἴτιος, αἰτία, αἴτιον",
+          "lemma": "αἴτιος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "χωρίς",
+          "english": "separately",
+          "dictionaryForm": "χωρίς",
+          "lemma": "χωρίς",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "ὁ ῥήτωρ",
+          "english": "speaker",
+          "dictionaryForm": "ῥήτωρ, ῥήτορος, ὁ",
+          "lemma": "ῥήτωρ",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κωλύω",
+          "english": "prevent",
+          "dictionaryForm": "κωλύω",
+          "lemma": "κωλύω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὕστερον",
+          "english": "later",
+          "dictionaryForm": "ὕστερον",
+          "lemma": "ὕστερον",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ἡ νίκη καὶ ἡ κρίσις",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. 258 Greek words in 5 paragraphs.",
+      "A connected adaptation of Hellenica 1.7.1–15 with the outcome summarized from 1.7.34–35. The present reporting frame is composed for instruction. The generals’ explanation is identified as their account; Socrates’ procedural objection did not prevent the executions.",
+      "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Μετὰ τὴν περὶ τὰς Ἀργινούσας ναυμαχίαν οἱ Ἀθηναῖοι νίκην ἔχουσιν, οὐ μὴν μόνον χαίρουσιν. πολλοὶ γὰρ τῶν στρατιωτῶν ἀπώλοντο, καὶ περὶ τῶν μὴ σωθέντων ὀργὴ γίγνεται. οἱ συγγενεῖς ζητοῦσι τίς αἴτιός ἐστιν. οἱ δὲ στρατηγοὶ εἰς τὴν πόλιν ἐλθόντες λόγον διδόασιν. ἡ νίκη οὐκ ἀφαιρεῖ τὴν χρείαν τοῦ τὰ πεπραγμένα ἐξετάζειν.",
+        "gloss": [
+          {
+            "greek": "ναυμαχίαν",
+            "english": "naval battle"
+          },
+          {
+            "greek": "σωθέντων",
+            "english": "those rescued; passive participle"
+          },
+          {
+            "greek": "συγγενεῖς",
+            "english": "relatives"
+          },
+          {
+            "greek": "αἴτιός",
+            "english": "responsible"
+          },
+          {
+            "greek": "ἀφαιρεῖ",
+            "english": "removes"
+          },
+          {
+            "greek": "πεπραγμένα",
+            "english": "things done; supported perfect participle"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ στρατηγοὶ λέγουσιν ὅτι χειμὼν τὴν σωτηρίαν ἐκώλυσεν. φασὶ γὰρ προστάξαι ἄλλοις τὰ ναυάγια ἀνελέσθαι, αὐτοὶ δὲ πρὸς τοὺς πολεμίους πλεῖν. ἡ θάλαττα χαλεπὴ ἦν, καὶ οὐ ῥᾴδιον ἦν ποιεῖν τὰ προσταχθέντα. οἱ δὲ κατήγοροι οὐ ταὐτὰ λέγουσιν. ἕκαστος τοῖς πολίταις πειρᾶται τὴν ἑαυτοῦ γνώμην πιστὴν ποιεῖν.",
+        "gloss": [
+          {
+            "greek": "χειμὼν",
+            "english": "storm"
+          },
+          {
+            "greek": "φασὶ",
+            "english": "they say"
+          },
+          {
+            "greek": "προστάξαι",
+            "english": "to have ordered; aorist infinitive in reporting"
+          },
+          {
+            "greek": "ναυάγια",
+            "english": "wrecks"
+          },
+          {
+            "greek": "ἀνελέσθαι",
+            "english": "to recover"
+          },
+          {
+            "greek": "προσταχθέντα",
+            "english": "things ordered"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ ἀναγνώστης ἀκούει τοὺς μὲν λέγοντας τάδε, τοὺς δὲ ἄλλα. ὁ συγγραφεὺς δείκνυσι τὸν δῆμον ὀργιζόμενον καὶ τοὺς ῥήτορας διαφερομένους. οὐ ταὐτόν ἐστι τὸ ἀκούειν τοῦ λόγου καὶ τὸ εἰδέναι τὴν ἀλήθειαν. τίς οὖν τοὺς μάρτυρας ἐξετάζει; πόσος χρόνος δίδοται τῷ κατηγορουμένῳ; τὸ χωρὶς ἕκαστον κρίνειν ἔχει σημασίαν πρὸς τὸ δίκαιον.",
+        "gloss": [
+          {
+            "greek": "ἀναγνώστης",
+            "english": "reader"
+          },
+          {
+            "greek": "συγγραφεὺς",
+            "english": "writer"
+          },
+          {
+            "greek": "ῥήτορας",
+            "english": "speakers"
+          },
+          {
+            "greek": "εἰδέναι",
+            "english": "to know; supported form"
+          },
+          {
+            "greek": "μάρτυρας",
+            "english": "witnesses"
+          },
+          {
+            "greek": "χωρὶς",
+            "english": "separately"
+          }
+        ]
+      },
+      {
+        "greek": "Πρότασις γίγνεται περὶ πάντων τῶν στρατηγῶν μιᾷ ψήφῳ κρίνειν. τινὲς δὲ λέγουσιν ὅτι τοῦτο παρὰ τοὺς νόμους ἐστίν. οἱ πρυτάνεις πρῶτον οὐκ ἐθέλουσι τὴν ψῆφον διδόναι· ἔπειτα οἱ πολλοὶ φοβούμενοι πείθονται. Σωκράτης δὲ οὐ συναινέσειν φησίν. οὐ γὰρ ἄλλο τι ποιήσειν ἐθέλει ἢ κατὰ τὸν νόμον. τὸν λόγον τοῦτον ὁ Ξενοφῶν περὶ αὐτοῦ γράφει.",
+        "gloss": [
+          {
+            "greek": "μιᾷ ψήφῳ",
+            "english": "by one vote"
+          },
+          {
+            "greek": "πρυτάνεις",
+            "english": "presiding officials"
+          },
+          {
+            "greek": "συναινέσειν",
+            "english": "to agree; future infinitive"
+          },
+          {
+            "greek": "φησίν",
+            "english": "he says"
+          },
+          {
+            "greek": "ποιήσειν",
+            "english": "to do; future infinitive"
+          },
+          {
+            "greek": "κατὰ τὸν νόμον",
+            "english": "according to law"
+          }
+        ]
+      },
+      {
+        "greek": "Οὐ μὴν ἡ τοῦ Σωκράτους ἀντίρρησις ἔσωσε τοὺς στρατηγούς. ὕστερον οἱ παρόντες ἓξ κατεκρίθησαν καὶ ἀπέθανον. ὁ δὲ Ξενοφῶν καὶ τὴν μεταμέλειαν τοῦ δήμου διηγεῖται. ἡμεῖς οὖν διακρίνωμεν τὴν ναυμαχίαν, τὴν κατηγορίαν καὶ τὴν κρίσιν. ὁ περὶ τῆς νίκης λόγος οὐ λύει πάντα τὰ περὶ τῶν ἀπολομένων· ἡ δὲ ὀργὴ οὐκ ἀντὶ τῆς ἀποδείξεως ἐστίν.",
+        "gloss": [
+          {
+            "greek": "ἀντίρρησις",
+            "english": "objection"
+          },
+          {
+            "greek": "ἓξ",
+            "english": "six"
+          },
+          {
+            "greek": "κατεκρίθησαν",
+            "english": "were condemned"
+          },
+          {
+            "greek": "μεταμέλειαν",
+            "english": "regret"
+          },
+          {
+            "greek": "διακρίνωμεν",
+            "english": "let us distinguish"
+          },
+          {
+            "greek": "ἀποδείξεως",
+            "english": "proof"
+          }
+        ]
+      }
+    ],
+    "translation": "After the naval battle near Arginusae the Athenians have victory, yet they do not simply rejoice. Many soldiers have perished, and anger arises over those not rescued. Relatives ask who is responsible. The generals come to the city and give an account. Victory does not remove the need to examine what has been done.\n\nThe generals say that a storm prevented the rescue. They say that they ordered others to recover the wrecks, while they themselves sailed toward the enemy. The sea was rough, and it was not easy to carry out the orders. The accusers do not say the same things. Each tries to make his own account credible to the citizens.\n\nThe reader hears some saying one thing and others something else. The writer shows the people becoming angry and the speakers disagreeing. Hearing an account is not the same as knowing the truth. Who therefore examines the witnesses? How much time is given to the accused? Trying each person separately has significance for justice.\n\nA proposal is made to judge all the generals by a single vote. Some say that this is contrary to the laws. The presiding officials at first refuse to put the vote; then most give way out of fear. Socrates says that he will not agree. He is willing to act only according to law. Xenophon writes this account about him.\n\nSocrates’ objection nevertheless did not save the generals. Later the six who were present were condemned and died. Xenophon also narrates the people’s regret. Let us therefore distinguish the battle, the accusation, and the judgment. An account of victory does not resolve everything concerning those who perished; anger is not a substitute for proof.\n",
+    "sourceCitation": "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
+    "notesMarkdown": "A connected adaptation of Hellenica 1.7.1–15 with the outcome summarized from 1.7.34–35. The present reporting frame is composed for instruction. The generals’ explanation is identified as their account; Socrates’ procedural objection did not prevent the executions."
+  },
+  "wordStudy": {
+    "label": "Word Study — Saying and reporting",
+    "blocks": [
+      {
+        "title": "Saying and reporting",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. φημί means “say”; ὁμολογέω means “agree, acknowledge”; ἀντιλέγω means “object”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "φημί",
+            "english": "say"
+          },
+          {
+            "greek": "ὁμολογέω",
+            "english": "agree, acknowledge"
+          },
+          {
+            "greek": "ἀντιλέγω",
+            "english": "object"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 23α–β. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Indirect statement with infinitive, supplementary participle, and ὅτι or ὡς: governing verbs, subject case, and relative tense/aspect.",
+      "φημί: assigned forms, enclitic behavior where relevant, and its use in reporting.",
+      "Articular infinitive: article, case, expressed subject, and common functions.",
+      "Relative-pronoun antecedents and the assigned special cases, including attraction where covered.",
+      "Prepositional prefixes and euphony: explain the chapter’s spelling changes and connect compounds to their dictionary forms."
+    ],
+    "sections": [
+      {
+        "id": "reporting-infinitive",
+        "title": "1. Infinitive reports and relative time",
+        "practiceTopic": "reporting-infinitive",
+        "body": [
+          "After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”",
+          "In indirect statement, the infinitive’s stem can express time relative to the report: present λέγειν is simultaneous, aorist εἰπεῖν prior, future ἐρεῖν later, and perfect εἰρηκέναι a completed action with its resulting relevance. This reporting use differs from a complementary infinitive after “wish,” where aspect is central and the aorist does not simply mark past time."
+        ],
+        "table": {
+          "title": "1. Infinitive reports and relative time",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "φησὶ τὸν ἄνδρα λέγειν.",
+              "He says that the man is speaking; simultaneous."
+            ],
+            [
+              "φησὶ τὸν ἄνδρα εἰπεῖν.",
+              "He says that the man spoke; prior."
+            ],
+            [
+              "φησὶ τὸν ἄνδρα ἐρεῖν.",
+              "He says that the man will speak; later."
+            ],
+            [
+              "φησὶ δίκαιος εἶναι.",
+              "He says that he himself is just; shared subject."
+            ],
+            [
+              "φησὶ τὸν ἄνδρα εἰρηκέναι.",
+              "He says that the man has spoken; perfect result/relevance."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "φησὶ τὸν ἄνδρα λέγειν.",
+            "english": "He says that the man is speaking; simultaneous."
+          },
+          {
+            "greek": "φησὶ τὸν ἄνδρα εἰπεῖν.",
+            "english": "He says that the man spoke; prior."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Why is τὸν ἄνδρα accusative in the first report?",
+            "answer": "It is the expressed subject of the infinitive."
+          },
+          {
+            "prompt": "Does βούλεται εἰπεῖν mean “he wishes that he spoke yesterday”?",
+            "answer": "No; here the infinitive expresses the desired action as a whole."
+          }
+        ]
+      },
+      {
+        "id": "participle-finite-report",
+        "title": "2. Perception participles and finite reports",
+        "practiceTopic": "participle-finite-report",
+        "body": [
+          "Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun.",
+          "Verbs of saying and knowing can also introduce finite clauses with ὅτι or ὡς. Do not substitute infinitives, participles, and finite clauses mechanically after every verb: the governing verb and intended meaning matter. Compare hearing a person speaking, hearing the report that something happened, and asserting that it happened."
+        ],
+        "table": {
+          "title": "2. Perception participles and finite reports",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ὁρῶ τὸν δῆμον ὀργιζόμενον.",
+              "I see the people becoming angry; supplementary participle."
+            ],
+            [
+              "λέγει ὅτι χειμὼν ἐκώλυσεν.",
+              "He says that a storm prevented it; finite report."
+            ],
+            [
+              "ὁρῶ τὸν ἄνδρα ἐλθόντα.",
+              "I see that the man has arrived; aorist participle."
+            ],
+            [
+              "ἀκούω τὸν ἄνδρα λέγοντα.",
+              "I hear the man speaking; perceived action."
+            ],
+            [
+              "ὀργιζόμενον agrees with τὸν δῆμον",
+              "accusative masculine singular"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ὁρῶ τὸν δῆμον ὀργιζόμενον.",
+            "english": "I see the people becoming angry; supplementary participle."
+          },
+          {
+            "greek": "λέγει ὅτι χειμὼν ἐκώλυσεν.",
+            "english": "He says that a storm prevented it; finite report."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What controls ὀργιζόμενον in the perception example?",
+            "answer": "τὸν δῆμον, the perceived people."
+          },
+          {
+            "prompt": "Why not replace every report with a participle?",
+            "answer": "Governing verbs license different complements and meanings."
+          }
+        ]
+      },
+      {
+        "id": "phemi",
+        "title": "3. φημί and negation",
+        "practiceTopic": "phemi",
+        "body": [
+          "Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence.",
+          "οὔ φημι can deny the embedded assertion: “I say that it is not so” or “I deny.” Check the scope of negation before translating word for word as “I do not say.” A negative inside a finite report normally stays with its own verb: λέγει ὅτι οὐκ ἦλθεν."
+        ],
+        "table": {
+          "title": "3. φημί and negation",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "φησί(ν)",
+              "he or she says; present third singular"
+            ],
+            [
+              "φασί(ν)",
+              "they say; present third plural"
+            ],
+            [
+              "ἔφησθα",
+              "you said; imperfect second singular"
+            ],
+            [
+              "ἔφασαν",
+              "they said; imperfect third plural"
+            ],
+            [
+              "φημί / φῄς / φησί / φαμέν / φατέ / φασί",
+              "present indicative paradigm"
+            ],
+            [
+              "ἔφην / ἔφησθα / ἔφη / ἔφαμεν / ἔφατε / ἔφασαν",
+              "imperfect paradigm"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Translate οὔ φημι τοῦτο δίκαιον εἶναι in its normal denial sense.",
+            "answer": "I deny that this is just."
+          },
+          {
+            "prompt": "Which present form is normally accented rather than enclitic?",
+            "answer": "φῄς"
+          }
+        ]
+      },
+      {
+        "id": "articular-infinitive",
+        "title": "4. The articular infinitive",
+        "practiceTopic": "articular-infinitive",
+        "body": [
+          "An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings.",
+          "An expressed subject of the infinitive is accusative. Other objects and adverbs remain inside the phrase. With prepositions, read the whole unit: πρὸ τοῦ τὴν βουλὴν κρῖναι, “before the council judges.” Here τὴν βουλήν is the infinitive’s subject, while τοῦ belongs to the entire infinitive phrase."
+        ],
+        "table": {
+          "title": "4. The articular infinitive",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "τὸ ἀκούειν",
+              "listening; nominative or accusative articular infinitive"
+            ],
+            [
+              "τοῦ ἀκούειν",
+              "of listening; genitive articular infinitive"
+            ],
+            [
+              "τῷ ἀκούειν",
+              "by/in listening; dative articular infinitive"
+            ],
+            [
+              "πρὸ τοῦ τὴν βουλὴν κρῖναι",
+              "before the council judges; accusative subject within genitive phrase"
+            ],
+            [
+              "τὸ χωρὶς ἕκαστον κρίνειν",
+              "trying each person separately"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "What has genitive case in πρὸ τοῦ κρῖναι?",
+            "answer": "The article marking the whole infinitive phrase."
+          },
+          {
+            "prompt": "Who judges in πρὸ τοῦ τὴν βουλὴν κρῖναι?",
+            "answer": "the council"
+          }
+        ]
+      },
+      {
+        "id": "relative-attraction-euphony",
+        "title": "5. Relative antecedents, attraction, and prefixes",
+        "practiceTopic": "relative-attraction-euphony",
+        "body": [
+          "Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form.",
+          "Prepositional prefixes change spelling at boundaries. ἐκ becomes ἐξ before a vowel; συν- can become συμ- before a labial and συγ- before a velar; final vowels can elide, as ἀπό + ἄγω → ἀπάγω. A rough breathing can affect the final consonant, as κατά + ἵστημι → καθίστημι. Use these patterns to recover dictionary entries, not to invent a meaning from the prefix alone."
+        ],
+        "table": {
+          "title": "5. Relative antecedents, attraction, and prefixes",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ὃ λέγει",
+              "what he says; understood antecedent"
+            ],
+            [
+              "τῶν ἀγαθῶν ὧν ἔχει",
+              "of the good things which he has; attracted relative"
+            ],
+            [
+              "ἐκ + ἄγω → ἐξάγω",
+              "ἐκ becomes ἐξ before a vowel"
+            ],
+            [
+              "σύν + γράφω → συγγράφω",
+              "prefix nasal assimilates before a velar"
+            ],
+            [
+              "σύν + βάλλω → συμβάλλω",
+              "prefix nasal assimilates before a labial"
+            ],
+            [
+              "κατά + ἵστημι → καθίστημι",
+              "elision and aspiration at the compound boundary"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "In an attracted ὧν, should the genitive be copied into the English object relation?",
+            "answer": "No; reconstruct the relative clause’s function."
+          },
+          {
+            "prompt": "Which dictionary pair explains ἀπάγω?",
+            "answer": "ἀπό + ἄγω"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Infinitive reports and relative time: After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”",
+        "2. Perception participles and finite reports: Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun.",
+        "3. φημί and negation: Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence.",
+        "4. The articular infinitive: An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings.",
+        "5. Relative antecedents, attraction, and prefixes: Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Victory, grief, and a hurried decision",
+    "banner": {
+      "image": "assets/lesson-40-culture-banner.png",
+      "alt": "Educational reconstruction: A separate view of the Pnyx and a labeled civic-process illustration, clearly marked as reconstruction.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Hellenica",
+        "body": [
+          "Our selection moves back to 406 BCE, before Athens’ defeat, to the aftermath of Arginusae. Victory and a failed rescue produce competing reports and a dispute about procedure. This is historical narrative shaped through speakers and decisions. Identify where the generals explain themselves and where the narrator describes the assembly’s response; their claims are not interchangeable.",
+          "The seven books cover Greek affairs from 411 to 362 BCE, beginning where Thucydides’ unfinished history breaks off. They follow Athens’ defeat in the Peloponnesian War, oligarchy and democratic restoration, Spartan ascendancy, shifting alliances, and the rise of Thebes. The closing battle at Mantinea leaves uncertainty rather than a simple declaration that one city has permanently won.",
+          "Xenophon organizes political and military events through commanders, assemblies, negotiations, speeches, and judgments about conduct. His attention is selective, and his experience and sympathies shape the narrative. Ask what a speech tries to accomplish, whose actions receive explanation, and what a compressed transition leaves unclear. A historian’s ordering of events can be as significant as an explicit verdict.",
+          "Reading invitation: start with Book 2, chapter 3, on the Thirty, then follow chapter 4 through resistance and restoration. Compare the settlement with the later Eleusis episode instead of stopping at the hopeful return to Athens. Our module’s question has grown from control of appetite to restraint in civic life: what practices let former enemies inhabit one city? Read the complete work as a sequence of difficult choices, not a storehouse of uncomplicated moral examples.",
+          "The procedural dispute asks how a democratic assembly should exercise its power when anger is intense."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Hellenica — English translation",
+            "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+          },
+          {
+            "title": "Wikipedia: Hellenica",
+            "url": "https://en.wikipedia.org/wiki/Hellenica"
+          }
+        ]
+      },
+      {
+        "title": "Arginusae, 406 BCE",
+        "body": [
+          "Athens won the naval battle at Arginusae, but failure to recover men from disabled ships and the sea became the subject of fierce accusation. The generals’ explanation involved a storm and delegated rescue duties. Xenophon reports competing claims and an emotionally charged political response. A military victory and responsibility for losses could be debated at the same time.",
+          "Do not confuse the council, the assembly, and an ordinary law court. The episode concerns an extraordinary collective proceeding against generals, not a template for every Athenian trial. The sequence of proposals and objections matters because procedure determines whose case can be heard separately."
+        ]
+      },
+      {
+        "title": "Socrates and the disputed vote",
+        "body": [
+          "Xenophon reports resistance among the presiding officials to putting an unlawful proposal to a vote, followed by most giving way under pressure. Socrates refuses to act contrary to law. His objection is a concrete example of the tension between majority desire and procedural restraint.",
+          "The objection did not prevent the outcome. Six generals who returned were condemned and executed; Xenophon later describes regret and attempts to pursue those held responsible for misleading the people. Avoid a reassuring ending in which a principled refusal alone saves everyone."
+        ]
+      },
+      {
+        "title": "Build the sequence",
+        "body": [
+          "Draw five boxes: victory, failed rescue and explanations, accusation, procedural dispute, outcome. Under each write who speaks and what the account establishes. Place Socrates’ refusal in the fourth box, not in place of the fifth. Explain why evaluating the rescue and evaluating the trial procedure are related but distinct tasks.",
+          "Translate one report in each form: infinitive, supplementary participle, and finite ὅτι clause. Then translate the final two paragraphs continuously. In your English, preserve the generals’ attribution and do not turn their explanation into an unqualified narrator’s fact."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "When was Arginusae?",
+        "answer": "406 BCE."
+      },
+      {
+        "prompt": "Why separate council, assembly, and ordinary court?",
+        "answer": "The episode’s extraordinary procedure is not every Athenian trial."
+      },
+      {
+        "prompt": "What did Socrates’ refusal accomplish in the narrated outcome?",
+        "answer": "It preserved his objection but did not prevent executions."
+      },
+      {
+        "prompt": "Why distinguish rescue responsibility from trial procedure?",
+        "answer": "One question does not settle the other."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Hellenica.",
+        "Follow speaker and subject through three reporting constructions; analyze an articular infinitive; resolve a relative antecedent; explain one compound form. Finish with a brief evidence-based account of Socrates’ objection.",
+        "Explain the lesson’s grammar using an example from your 258-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      },
+      {
+        "title": "Read the complete Hellenica — English translation",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      },
+      {
+        "title": "Wikipedia: Hellenica",
+        "url": "https://en.wikipedia.org/wiki/Hellenica"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 40 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ ναυμαχία",
+          "answer": "naval battle — ναυμαχία, ναυμαχίας, ἡ"
+        },
+        {
+          "prompt": "ὁ χειμών",
+          "answer": "storm, winter — χειμών, χειμῶνος, ὁ"
+        },
+        {
+          "prompt": "τὸ ναυάγιον",
+          "answer": "wreck — ναυάγιον, ναυαγίου, τό"
+        },
+        {
+          "prompt": "ὁ μάρτυς",
+          "answer": "witness — μάρτυς, μάρτυρος, ὁ"
+        },
+        {
+          "prompt": "ἡ ψῆφος",
+          "answer": "vote — ψῆφος, ψήφου, ἡ"
+        },
+        {
+          "prompt": "ὁ πρύτανις",
+          "answer": "presiding official — πρύτανις, πρυτάνεως, ὁ"
+        },
+        {
+          "prompt": "ἡ ἀντίρρησις",
+          "answer": "objection — ἀντίρρησις, ἀντιρρήσεως, ἡ"
+        },
+        {
+          "prompt": "ἡ μεταμέλεια",
+          "answer": "regret — μεταμέλεια, μεταμελείας, ἡ"
+        },
+        {
+          "prompt": "ἡ ἀπόδειξις",
+          "answer": "proof — ἀπόδειξις, ἀποδείξεως, ἡ"
+        },
+        {
+          "prompt": "ὁ ῥήτωρ",
+          "answer": "speaker — ῥήτωρ, ῥήτορος, ὁ"
+        },
+        {
+          "prompt": "φημί",
+          "answer": "say — φημί"
+        },
+        {
+          "prompt": "προστάττω",
+          "answer": "order — προστάττω"
+        },
+        {
+          "prompt": "συναινέω",
+          "answer": "agree — συναινέω"
+        },
+        {
+          "prompt": "διακρίνω",
+          "answer": "distinguish — διακρίνω"
+        },
+        {
+          "prompt": "ὀργίζομαι",
+          "answer": "be angry — ὀργίζομαι"
+        },
+        {
+          "prompt": "κατακρίνω",
+          "answer": "condemn — κατακρίνω"
+        },
+        {
+          "prompt": "κωλύω",
+          "answer": "prevent — κωλύω"
+        },
+        {
+          "prompt": "αἴτιος",
+          "answer": "responsible — αἴτιος, αἰτία, αἴτιον"
+        },
+        {
+          "prompt": "χωρίς",
+          "answer": "separately — χωρίς"
+        },
+        {
+          "prompt": "ὕστερον",
+          "answer": "later — ὕστερον"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 40 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l40-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ναυμαχία mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": true,
+              "feedback": "Correct. ναυμαχία, ναυμαχίας, ἡ"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: naval battle"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: naval battle"
+            },
+            {
+              "text": "witness",
+              "correct": false,
+              "feedback": "Review: naval battle"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “naval battle”?",
+          "choices": [
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ἡ ναυμαχία"
+            },
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": true,
+              "feedback": "Correct. ναυμαχία, ναυμαχίας, ἡ"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ἡ ναυμαχία"
+            },
+            {
+              "text": "ὁ μάρτυς",
+              "correct": false,
+              "feedback": "Review: ἡ ναυμαχία"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ χειμών mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: storm, winter"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: storm, winter"
+            },
+            {
+              "text": "storm, winter",
+              "correct": true,
+              "feedback": "Correct. χειμών, χειμῶνος, ὁ"
+            },
+            {
+              "text": "witness",
+              "correct": false,
+              "feedback": "Review: storm, winter"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “storm, winter”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ὁ χειμών"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ὁ χειμών"
+            },
+            {
+              "text": "ὁ μάρτυς",
+              "correct": false,
+              "feedback": "Review: ὁ χειμών"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": true,
+              "feedback": "Correct. χειμών, χειμῶνος, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ ναυάγιον mean?",
+          "choices": [
+            {
+              "text": "wreck",
+              "correct": true,
+              "feedback": "Correct. ναυάγιον, ναυαγίου, τό"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: wreck"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: wreck"
+            },
+            {
+              "text": "witness",
+              "correct": false,
+              "feedback": "Review: wreck"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “wreck”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: τὸ ναυάγιον"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": true,
+              "feedback": "Correct. ναυάγιον, ναυαγίου, τό"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: τὸ ναυάγιον"
+            },
+            {
+              "text": "ὁ μάρτυς",
+              "correct": false,
+              "feedback": "Review: τὸ ναυάγιον"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ μάρτυς mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: witness"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: witness"
+            },
+            {
+              "text": "witness",
+              "correct": true,
+              "feedback": "Correct. μάρτυς, μάρτυρος, ὁ"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: witness"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “witness”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ὁ μάρτυς"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ὁ μάρτυς"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ὁ μάρτυς"
+            },
+            {
+              "text": "ὁ μάρτυς",
+              "correct": true,
+              "feedback": "Correct. μάρτυς, μάρτυρος, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ψῆφος mean?",
+          "choices": [
+            {
+              "text": "vote",
+              "correct": true,
+              "feedback": "Correct. ψῆφος, ψήφου, ἡ"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: vote"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: vote"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: vote"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “vote”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ἡ ψῆφος"
+            },
+            {
+              "text": "ἡ ψῆφος",
+              "correct": true,
+              "feedback": "Correct. ψῆφος, ψήφου, ἡ"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ἡ ψῆφος"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ἡ ψῆφος"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ πρύτανις mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: presiding official"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: presiding official"
+            },
+            {
+              "text": "presiding official",
+              "correct": true,
+              "feedback": "Correct. πρύτανις, πρυτάνεως, ὁ"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: presiding official"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “presiding official”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ὁ πρύτανις"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ὁ πρύτανις"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ὁ πρύτανις"
+            },
+            {
+              "text": "ὁ πρύτανις",
+              "correct": true,
+              "feedback": "Correct. πρύτανις, πρυτάνεως, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀντίρρησις mean?",
+          "choices": [
+            {
+              "text": "objection",
+              "correct": true,
+              "feedback": "Correct. ἀντίρρησις, ἀντιρρήσεως, ἡ"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: objection"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: objection"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: objection"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “objection”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ἡ ἀντίρρησις"
+            },
+            {
+              "text": "ἡ ἀντίρρησις",
+              "correct": true,
+              "feedback": "Correct. ἀντίρρησις, ἀντιρρήσεως, ἡ"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ἡ ἀντίρρησις"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ἡ ἀντίρρησις"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μεταμέλεια mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: regret"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: regret"
+            },
+            {
+              "text": "regret",
+              "correct": true,
+              "feedback": "Correct. μεταμέλεια, μεταμελείας, ἡ"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: regret"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “regret”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ἡ μεταμέλεια"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ἡ μεταμέλεια"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ἡ μεταμέλεια"
+            },
+            {
+              "text": "ἡ μεταμέλεια",
+              "correct": true,
+              "feedback": "Correct. μεταμέλεια, μεταμελείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀπόδειξις mean?",
+          "choices": [
+            {
+              "text": "proof",
+              "correct": true,
+              "feedback": "Correct. ἀπόδειξις, ἀποδείξεως, ἡ"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: proof"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: proof"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: proof"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “proof”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ἡ ἀπόδειξις"
+            },
+            {
+              "text": "ἡ ἀπόδειξις",
+              "correct": true,
+              "feedback": "Correct. ἀπόδειξις, ἀποδείξεως, ἡ"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ἡ ἀπόδειξις"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ἡ ἀπόδειξις"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ῥήτωρ mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: speaker"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: speaker"
+            },
+            {
+              "text": "speaker",
+              "correct": true,
+              "feedback": "Correct. ῥήτωρ, ῥήτορος, ὁ"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: speaker"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “speaker”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ὁ ῥήτωρ"
+            },
+            {
+              "text": "ὁ ῥήτωρ",
+              "correct": true,
+              "feedback": "Correct. ῥήτωρ, ῥήτορος, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does φημί mean?",
+          "choices": [
+            {
+              "text": "say",
+              "correct": true,
+              "feedback": "Correct. φημί"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: say"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: say"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: say"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “say”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: φημί"
+            },
+            {
+              "text": "φημί",
+              "correct": true,
+              "feedback": "Correct. φημί"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: φημί"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: φημί"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does προστάττω mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "order",
+              "correct": true,
+              "feedback": "Correct. προστάττω"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: order"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “order”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: προστάττω"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: προστάττω"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: προστάττω"
+            },
+            {
+              "text": "προστάττω",
+              "correct": true,
+              "feedback": "Correct. προστάττω"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does συναινέω mean?",
+          "choices": [
+            {
+              "text": "agree",
+              "correct": true,
+              "feedback": "Correct. συναινέω"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: agree"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: agree"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: agree"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “agree”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: συναινέω"
+            },
+            {
+              "text": "συναινέω",
+              "correct": true,
+              "feedback": "Correct. συναινέω"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: συναινέω"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: συναινέω"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does διακρίνω mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: distinguish"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: distinguish"
+            },
+            {
+              "text": "distinguish",
+              "correct": true,
+              "feedback": "Correct. διακρίνω"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: distinguish"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “distinguish”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: διακρίνω"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: διακρίνω"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: διακρίνω"
+            },
+            {
+              "text": "διακρίνω",
+              "correct": true,
+              "feedback": "Correct. διακρίνω"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὀργίζομαι mean?",
+          "choices": [
+            {
+              "text": "be angry",
+              "correct": true,
+              "feedback": "Correct. ὀργίζομαι"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: be angry"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: be angry"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: be angry"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “be angry”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ὀργίζομαι"
+            },
+            {
+              "text": "ὀργίζομαι",
+              "correct": true,
+              "feedback": "Correct. ὀργίζομαι"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ὀργίζομαι"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ὀργίζομαι"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κατακρίνω mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: condemn"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: condemn"
+            },
+            {
+              "text": "condemn",
+              "correct": true,
+              "feedback": "Correct. κατακρίνω"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: condemn"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “condemn”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: κατακρίνω"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: κατακρίνω"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: κατακρίνω"
+            },
+            {
+              "text": "κατακρίνω",
+              "correct": true,
+              "feedback": "Correct. κατακρίνω"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κωλύω mean?",
+          "choices": [
+            {
+              "text": "prevent",
+              "correct": true,
+              "feedback": "Correct. κωλύω"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: prevent"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: prevent"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: prevent"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “prevent”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: κωλύω"
+            },
+            {
+              "text": "κωλύω",
+              "correct": true,
+              "feedback": "Correct. κωλύω"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: κωλύω"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: κωλύω"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does αἴτιος mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: responsible"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: responsible"
+            },
+            {
+              "text": "responsible",
+              "correct": true,
+              "feedback": "Correct. αἴτιος, αἰτία, αἴτιον"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: responsible"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “responsible”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: αἴτιος"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: αἴτιος"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: αἴτιος"
+            },
+            {
+              "text": "αἴτιος",
+              "correct": true,
+              "feedback": "Correct. αἴτιος, αἰτία, αἴτιον"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does χωρίς mean?",
+          "choices": [
+            {
+              "text": "separately",
+              "correct": true,
+              "feedback": "Correct. χωρίς"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: separately"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: separately"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: separately"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “separately”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: χωρίς"
+            },
+            {
+              "text": "χωρίς",
+              "correct": true,
+              "feedback": "Correct. χωρίς"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: χωρίς"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: χωρίς"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὕστερον mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: later"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: later"
+            },
+            {
+              "text": "later",
+              "correct": true,
+              "feedback": "Correct. ὕστερον"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: later"
+            }
+          ]
+        },
+        {
+          "id": "l40-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “later”?",
+          "choices": [
+            {
+              "text": "ἡ ναυμαχία",
+              "correct": false,
+              "feedback": "Review: ὕστερον"
+            },
+            {
+              "text": "ὁ χειμών",
+              "correct": false,
+              "feedback": "Review: ὕστερον"
+            },
+            {
+              "text": "τὸ ναυάγιον",
+              "correct": false,
+              "feedback": "Review: ὕστερον"
+            },
+            {
+              "text": "ὕστερον",
+              "correct": true,
+              "feedback": "Correct. ὕστερον"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 40 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "φησὶ τὸν ἄνδρα λέγειν.",
+          "answer": "He says that the man is speaking; simultaneous. — 1. Infinitive reports and relative time"
+        },
+        {
+          "prompt": "φησὶ τὸν ἄνδρα εἰπεῖν.",
+          "answer": "He says that the man spoke; prior. — 1. Infinitive reports and relative time"
+        },
+        {
+          "prompt": "φησὶ τὸν ἄνδρα ἐρεῖν.",
+          "answer": "He says that the man will speak; later. — 1. Infinitive reports and relative time"
+        },
+        {
+          "prompt": "φησὶ δίκαιος εἶναι.",
+          "answer": "He says that he himself is just; shared subject. — 1. Infinitive reports and relative time"
+        },
+        {
+          "prompt": "φησὶ τὸν ἄνδρα εἰρηκέναι.",
+          "answer": "He says that the man has spoken; perfect result/relevance. — 1. Infinitive reports and relative time"
+        },
+        {
+          "prompt": "ὁρῶ τὸν δῆμον ὀργιζόμενον.",
+          "answer": "I see the people becoming angry; supplementary participle. — 2. Perception participles and finite reports"
+        },
+        {
+          "prompt": "λέγει ὅτι χειμὼν ἐκώλυσεν.",
+          "answer": "He says that a storm prevented it; finite report. — 2. Perception participles and finite reports"
+        },
+        {
+          "prompt": "ὁρῶ τὸν ἄνδρα ἐλθόντα.",
+          "answer": "I see that the man has arrived; aorist participle. — 2. Perception participles and finite reports"
+        },
+        {
+          "prompt": "ἀκούω τὸν ἄνδρα λέγοντα.",
+          "answer": "I hear the man speaking; perceived action. — 2. Perception participles and finite reports"
+        },
+        {
+          "prompt": "ὀργιζόμενον agrees with τὸν δῆμον",
+          "answer": "accusative masculine singular — 2. Perception participles and finite reports"
+        },
+        {
+          "prompt": "φησί(ν)",
+          "answer": "he or she says; present third singular — 3. φημί and negation"
+        },
+        {
+          "prompt": "φασί(ν)",
+          "answer": "they say; present third plural — 3. φημί and negation"
+        },
+        {
+          "prompt": "ἔφησθα",
+          "answer": "you said; imperfect second singular — 3. φημί and negation"
+        },
+        {
+          "prompt": "ἔφασαν",
+          "answer": "they said; imperfect third plural — 3. φημί and negation"
+        },
+        {
+          "prompt": "φημί / φῄς / φησί / φαμέν / φατέ / φασί",
+          "answer": "present indicative paradigm — 3. φημί and negation"
+        },
+        {
+          "prompt": "ἔφην / ἔφησθα / ἔφη / ἔφαμεν / ἔφατε / ἔφασαν",
+          "answer": "imperfect paradigm — 3. φημί and negation"
+        },
+        {
+          "prompt": "τὸ ἀκούειν",
+          "answer": "listening; nominative or accusative articular infinitive — 4. The articular infinitive"
+        },
+        {
+          "prompt": "τοῦ ἀκούειν",
+          "answer": "of listening; genitive articular infinitive — 4. The articular infinitive"
+        },
+        {
+          "prompt": "τῷ ἀκούειν",
+          "answer": "by/in listening; dative articular infinitive — 4. The articular infinitive"
+        },
+        {
+          "prompt": "πρὸ τοῦ τὴν βουλὴν κρῖναι",
+          "answer": "before the council judges; accusative subject within genitive phrase — 4. The articular infinitive"
+        },
+        {
+          "prompt": "τὸ χωρὶς ἕκαστον κρίνειν",
+          "answer": "trying each person separately — 4. The articular infinitive"
+        },
+        {
+          "prompt": "ὃ λέγει",
+          "answer": "what he says; understood antecedent — 5. Relative antecedents, attraction, and prefixes"
+        },
+        {
+          "prompt": "τῶν ἀγαθῶν ὧν ἔχει",
+          "answer": "of the good things which he has; attracted relative — 5. Relative antecedents, attraction, and prefixes"
+        },
+        {
+          "prompt": "ἐκ + ἄγω → ἐξάγω",
+          "answer": "ἐκ becomes ἐξ before a vowel — 5. Relative antecedents, attraction, and prefixes"
+        },
+        {
+          "prompt": "σύν + γράφω → συγγράφω",
+          "answer": "prefix nasal assimilates before a velar — 5. Relative antecedents, attraction, and prefixes"
+        },
+        {
+          "prompt": "σύν + βάλλω → συμβάλλω",
+          "answer": "prefix nasal assimilates before a labial — 5. Relative antecedents, attraction, and prefixes"
+        },
+        {
+          "prompt": "κατά + ἵστημι → καθίστημι",
+          "answer": "elision and aspiration at the compound boundary — 5. Relative antecedents, attraction, and prefixes"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 40 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l40-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does φημί mean?",
+          "choices": [
+            {
+              "text": "say",
+              "correct": true,
+              "feedback": "Correct. say"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: say"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: say"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: say"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “say”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: φημί"
+            },
+            {
+              "text": "φημί",
+              "correct": true,
+              "feedback": "Correct. φημί"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: φημί"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: φημί"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does ὁμολογέω mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: agree, acknowledge"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: agree, acknowledge"
+            },
+            {
+              "text": "agree, acknowledge",
+              "correct": true,
+              "feedback": "Correct. agree, acknowledge"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: agree, acknowledge"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “agree, acknowledge”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: ὁμολογέω"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: ὁμολογέω"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: ὁμολογέω"
+            },
+            {
+              "text": "ὁμολογέω",
+              "correct": true,
+              "feedback": "Correct. ὁμολογέω"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does ἀντιλέγω mean?",
+          "choices": [
+            {
+              "text": "object",
+              "correct": true,
+              "feedback": "Correct. object"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: object"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: object"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: object"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “object”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: ἀντιλέγω"
+            },
+            {
+              "text": "ἀντιλέγω",
+              "correct": true,
+              "feedback": "Correct. ἀντιλέγω"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: ἀντιλέγω"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: ἀντιλέγω"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα λέγειν.",
+          "choices": [
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα εἰπεῖν.",
+          "choices": [
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that the man spoke; prior."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that the man spoke; prior."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man spoke; prior."
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα ἐρεῖν.",
+          "choices": [
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that the man will speak; later."
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that the man will speak; later."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man will speak; later."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ δίκαιος εἶναι.",
+          "choices": [
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he himself is just; shared subject."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he himself is just; shared subject."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that he himself is just; shared subject."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Why is τὸν ἄνδρα accusative in the first report?",
+          "choices": [
+            {
+              "text": "It must be the object of speaking.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "All subjects in Greek are accusative.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "It is the expressed subject of the infinitive.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "φημί always governs two direct objects.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Does βούλεται εἰπεῖν mean “he wishes that he spoke yesterday”?",
+          "choices": [
+            {
+              "text": "Yes, every aorist infinitive is past.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "Only if the subject is omitted.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "Yes, because βούλεται is present.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "No; here the infinitive expresses the desired action as a whole.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ὁρῶ τὸν δῆμον ὀργιζόμενον.",
+          "choices": [
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: λέγει ὅτι χειμὼν ἐκώλυσεν.",
+          "choices": [
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": false,
+              "feedback": "Review: He says that a storm prevented it; finite report."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: He says that a storm prevented it; finite report."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: He says that a storm prevented it; finite report."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ὁρῶ τὸν ἄνδρα ἐλθόντα.",
+          "choices": [
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": false,
+              "feedback": "Review: I see that the man has arrived; aorist participle."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I see that the man has arrived; aorist participle."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: I see that the man has arrived; aorist participle."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ἀκούω τὸν ἄνδρα λέγοντα.",
+          "choices": [
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": false,
+              "feedback": "Review: I hear the man speaking; perceived action."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I hear the man speaking; perceived action."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: I hear the man speaking; perceived action."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "What controls ὀργιζόμενον in the perception example?",
+          "choices": [
+            {
+              "text": "τὸν δῆμον, the perceived people.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "The first-person speaker.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "The conjunction ὅτι.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "A hidden feminine noun necessarily.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Why not replace every report with a participle?",
+          "choices": [
+            {
+              "text": "Participles cannot have objects.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "Governing verbs license different complements and meanings.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "Greek has no finite reports.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "All participles are passive.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: φησί(ν)",
+          "choices": [
+            {
+              "text": "they say; present third plural",
+              "correct": false,
+              "feedback": "Review: he or she says; present third singular"
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": false,
+              "feedback": "Review: he or she says; present third singular"
+            },
+            {
+              "text": "he or she says; present third singular",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": false,
+              "feedback": "Review: he or she says; present third singular"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: φασί(ν)",
+          "choices": [
+            {
+              "text": "he or she says; present third singular",
+              "correct": false,
+              "feedback": "Review: they say; present third plural"
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": false,
+              "feedback": "Review: they say; present third plural"
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": false,
+              "feedback": "Review: they say; present third plural"
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: ἔφησθα",
+          "choices": [
+            {
+              "text": "you said; imperfect second singular",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "he or she says; present third singular",
+              "correct": false,
+              "feedback": "Review: you said; imperfect second singular"
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": false,
+              "feedback": "Review: you said; imperfect second singular"
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": false,
+              "feedback": "Review: you said; imperfect second singular"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: ἔφασαν",
+          "choices": [
+            {
+              "text": "he or she says; present third singular",
+              "correct": false,
+              "feedback": "Review: they said; imperfect third plural"
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": false,
+              "feedback": "Review: they said; imperfect third plural"
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": false,
+              "feedback": "Review: they said; imperfect third plural"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Translate οὔ φημι τοῦτο δίκαιον εἶναι in its normal denial sense.",
+          "choices": [
+            {
+              "text": "I always say that it is just.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            },
+            {
+              "text": "I ask who is just.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            },
+            {
+              "text": "I deny that this is just.",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "I saw a just person.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Which present form is normally accented rather than enclitic?",
+          "choices": [
+            {
+              "text": "φημί in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φαμέν in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φατέ in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φῄς",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: τὸ ἀκούειν",
+          "choices": [
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": false,
+              "feedback": "Review: listening; nominative or accusative articular infinitive"
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": false,
+              "feedback": "Review: listening; nominative or accusative articular infinitive"
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": false,
+              "feedback": "Review: listening; nominative or accusative articular infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: τοῦ ἀκούειν",
+          "choices": [
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": false,
+              "feedback": "Review: of listening; genitive articular infinitive"
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": false,
+              "feedback": "Review: of listening; genitive articular infinitive"
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": false,
+              "feedback": "Review: of listening; genitive articular infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: τῷ ἀκούειν",
+          "choices": [
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": false,
+              "feedback": "Review: by/in listening; dative articular infinitive"
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": false,
+              "feedback": "Review: by/in listening; dative articular infinitive"
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": false,
+              "feedback": "Review: by/in listening; dative articular infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: πρὸ τοῦ τὴν βουλὴν κρῖναι",
+          "choices": [
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": false,
+              "feedback": "Review: before the council judges; accusative subject within genitive phrase"
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": false,
+              "feedback": "Review: before the council judges; accusative subject within genitive phrase"
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": false,
+              "feedback": "Review: before the council judges; accusative subject within genitive phrase"
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "What has genitive case in πρὸ τοῦ κρῖναι?",
+          "choices": [
+            {
+              "text": "The article marking the whole infinitive phrase.",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "A genitive ending on κρῖναι.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The main-clause subject necessarily.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The preposition itself.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Who judges in πρὸ τοῦ τὴν βουλὴν κρῖναι?",
+          "choices": [
+            {
+              "text": "the author necessarily",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the council",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "the infinitive has no subject",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the accused necessarily",
+              "correct": false,
+              "feedback": "Review: the council"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-31",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: ὃ λέγει",
+          "choices": [
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": false,
+              "feedback": "Review: what he says; understood antecedent"
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": false,
+              "feedback": "Review: what he says; understood antecedent"
+            },
+            {
+              "text": "what he says; understood antecedent",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": false,
+              "feedback": "Review: what he says; understood antecedent"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-32",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: τῶν ἀγαθῶν ὧν ἔχει",
+          "choices": [
+            {
+              "text": "what he says; understood antecedent",
+              "correct": false,
+              "feedback": "Review: of the good things which he has; attracted relative"
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": false,
+              "feedback": "Review: of the good things which he has; attracted relative"
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": false,
+              "feedback": "Review: of the good things which he has; attracted relative"
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-33",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: ἐκ + ἄγω → ἐξάγω",
+          "choices": [
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "what he says; understood antecedent",
+              "correct": false,
+              "feedback": "Review: ἐκ becomes ἐξ before a vowel"
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": false,
+              "feedback": "Review: ἐκ becomes ἐξ before a vowel"
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": false,
+              "feedback": "Review: ἐκ becomes ἐξ before a vowel"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-34",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: σύν + γράφω → συγγράφω",
+          "choices": [
+            {
+              "text": "what he says; understood antecedent",
+              "correct": false,
+              "feedback": "Review: prefix nasal assimilates before a velar"
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": false,
+              "feedback": "Review: prefix nasal assimilates before a velar"
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": false,
+              "feedback": "Review: prefix nasal assimilates before a velar"
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-35",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "In an attracted ὧν, should the genitive be copied into the English object relation?",
+          "choices": [
+            {
+              "text": "Yes, always translate “whose.”",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "It means the clause has no verb.",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "No; reconstruct the relative clause’s function.",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "It must be a purpose clause.",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            }
+          ]
+        },
+        {
+          "id": "l40-topic-36",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Which dictionary pair explains ἀπάγω?",
+          "choices": [
+            {
+              "text": "ἀνά + πάσχω",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀεί + ἀγορά",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀντί + ἔχω",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀπό + ἄγω",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 40 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-40-grammar-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l40-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα λέγειν.",
+          "choices": [
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα εἰπεῖν.",
+          "choices": [
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that the man spoke; prior."
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that the man spoke; prior."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man spoke; prior."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα ἐρεῖν.",
+          "choices": [
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that the man will speak; later."
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that the man will speak; later."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man will speak; later."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ δίκαιος εἶναι.",
+          "choices": [
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he himself is just; shared subject."
+            },
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he himself is just; shared subject."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that he himself is just; shared subject."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Why is τὸν ἄνδρα accusative in the first report?",
+          "choices": [
+            {
+              "text": "It is the expressed subject of the infinitive.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "It must be the object of speaking.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "All subjects in Greek are accusative.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "φημί always governs two direct objects.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Does βούλεται εἰπεῖν mean “he wishes that he spoke yesterday”?",
+          "choices": [
+            {
+              "text": "Yes, every aorist infinitive is past.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "No; here the infinitive expresses the desired action as a whole.",
+              "correct": true,
+              "feedback": "Correct. After verbs such as φημί and νομίζω, an assertion can be reported with an infinitive. A different expressed subject normally stands in the accusative: φησὶ τὸν ἄνδρα λέγειν. If the subject is the same as the reporting verb, it is often omitted and predicates may remain nominative: φησὶ δίκαιος εἶναι, “He says that he himself is just.”"
+            },
+            {
+              "text": "Only if the subject is omitted.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "Yes, because βούλεται is present.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ὁρῶ τὸν δῆμον ὀργιζόμενον.",
+          "choices": [
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: λέγει ὅτι χειμὼν ἐκώλυσεν.",
+          "choices": [
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": false,
+              "feedback": "Review: He says that a storm prevented it; finite report."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: He says that a storm prevented it; finite report."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: He says that a storm prevented it; finite report."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ὁρῶ τὸν ἄνδρα ἐλθόντα.",
+          "choices": [
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": false,
+              "feedback": "Review: I see that the man has arrived; aorist participle."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I see that the man has arrived; aorist participle."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: I see that the man has arrived; aorist participle."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ἀκούω τὸν ἄνδρα λέγοντα.",
+          "choices": [
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": false,
+              "feedback": "Review: I hear the man speaking; perceived action."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I hear the man speaking; perceived action."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: I hear the man speaking; perceived action."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "What controls ὀργιζόμενον in the perception example?",
+          "choices": [
+            {
+              "text": "The first-person speaker.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "The conjunction ὅτι.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "τὸν δῆμον, the perceived people.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            },
+            {
+              "text": "A hidden feminine noun necessarily.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Why not replace every report with a participle?",
+          "choices": [
+            {
+              "text": "Participles cannot have objects.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "Greek has no finite reports.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "All participles are passive.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "Governing verbs license different complements and meanings.",
+              "correct": true,
+              "feedback": "Correct. Verbs of perception or knowledge often take a supplementary participle agreeing with the person or thing perceived: ὁρῶ τὸν δῆμον ὀργιζόμενον, “I see the people becoming angry.” The participle is part of the complement, not merely an optional circumstantial addition. Its case agrees with the relevant noun."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: φησί(ν)",
+          "choices": [
+            {
+              "text": "he or she says; present third singular",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": false,
+              "feedback": "Review: he or she says; present third singular"
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": false,
+              "feedback": "Review: he or she says; present third singular"
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": false,
+              "feedback": "Review: he or she says; present third singular"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: φασί(ν)",
+          "choices": [
+            {
+              "text": "he or she says; present third singular",
+              "correct": false,
+              "feedback": "Review: they say; present third plural"
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": false,
+              "feedback": "Review: they say; present third plural"
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": false,
+              "feedback": "Review: they say; present third plural"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: ἔφησθα",
+          "choices": [
+            {
+              "text": "he or she says; present third singular",
+              "correct": false,
+              "feedback": "Review: you said; imperfect second singular"
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": false,
+              "feedback": "Review: you said; imperfect second singular"
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": false,
+              "feedback": "Review: you said; imperfect second singular"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Analyze or translate: ἔφασαν",
+          "choices": [
+            {
+              "text": "he or she says; present third singular",
+              "correct": false,
+              "feedback": "Review: they said; imperfect third plural"
+            },
+            {
+              "text": "they say; present third plural",
+              "correct": false,
+              "feedback": "Review: they said; imperfect third plural"
+            },
+            {
+              "text": "you said; imperfect second singular",
+              "correct": false,
+              "feedback": "Review: they said; imperfect third plural"
+            },
+            {
+              "text": "they said; imperfect third plural",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Translate οὔ φημι τοῦτο δίκαιον εἶναι in its normal denial sense.",
+          "choices": [
+            {
+              "text": "I deny that this is just.",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "I always say that it is just.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            },
+            {
+              "text": "I ask who is just.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            },
+            {
+              "text": "I saw a just person.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Which present form is normally accented rather than enclitic?",
+          "choices": [
+            {
+              "text": "φημί in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φῄς",
+              "correct": true,
+              "feedback": "Correct. Learn present φημί, φῄς, φησί(ν), φαμέν, φατέ, φασί(ν), and imperfect ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Most present indicative forms are enclitic in their usual use; φῄς is accented. Position and neighboring accents can affect how enclitics are written in a sentence."
+            },
+            {
+              "text": "φαμέν in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φατέ in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: τὸ ἀκούειν",
+          "choices": [
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": false,
+              "feedback": "Review: listening; nominative or accusative articular infinitive"
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": false,
+              "feedback": "Review: listening; nominative or accusative articular infinitive"
+            },
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": false,
+              "feedback": "Review: listening; nominative or accusative articular infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: τοῦ ἀκούειν",
+          "choices": [
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": false,
+              "feedback": "Review: of listening; genitive articular infinitive"
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": false,
+              "feedback": "Review: of listening; genitive articular infinitive"
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": false,
+              "feedback": "Review: of listening; genitive articular infinitive"
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: τῷ ἀκούειν",
+          "choices": [
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": false,
+              "feedback": "Review: by/in listening; dative articular infinitive"
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": false,
+              "feedback": "Review: by/in listening; dative articular infinitive"
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": false,
+              "feedback": "Review: by/in listening; dative articular infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Analyze or translate: πρὸ τοῦ τὴν βουλὴν κρῖναι",
+          "choices": [
+            {
+              "text": "listening; nominative or accusative articular infinitive",
+              "correct": false,
+              "feedback": "Review: before the council judges; accusative subject within genitive phrase"
+            },
+            {
+              "text": "before the council judges; accusative subject within genitive phrase",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "of listening; genitive articular infinitive",
+              "correct": false,
+              "feedback": "Review: before the council judges; accusative subject within genitive phrase"
+            },
+            {
+              "text": "by/in listening; dative articular infinitive",
+              "correct": false,
+              "feedback": "Review: before the council judges; accusative subject within genitive phrase"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "What has genitive case in πρὸ τοῦ κρῖναι?",
+          "choices": [
+            {
+              "text": "A genitive ending on κρῖναι.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The main-clause subject necessarily.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The article marking the whole infinitive phrase.",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            },
+            {
+              "text": "The preposition itself.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Who judges in πρὸ τοῦ τὴν βουλὴν κρῖναι?",
+          "choices": [
+            {
+              "text": "the author necessarily",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the infinitive has no subject",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the accused necessarily",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the council",
+              "correct": true,
+              "feedback": "Correct. An article can turn an infinitive phrase into a noun-like unit: τὸ χωρὶς ἕκαστον κρίνειν, “trying each person separately.” The article is neuter singular; its case follows the phrase’s function. The infinitive itself does not acquire case endings."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: ὃ λέγει",
+          "choices": [
+            {
+              "text": "what he says; understood antecedent",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": false,
+              "feedback": "Review: what he says; understood antecedent"
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": false,
+              "feedback": "Review: what he says; understood antecedent"
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": false,
+              "feedback": "Review: what he says; understood antecedent"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: τῶν ἀγαθῶν ὧν ἔχει",
+          "choices": [
+            {
+              "text": "what he says; understood antecedent",
+              "correct": false,
+              "feedback": "Review: of the good things which he has; attracted relative"
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": false,
+              "feedback": "Review: of the good things which he has; attracted relative"
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": false,
+              "feedback": "Review: of the good things which he has; attracted relative"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: ἐκ + ἄγω → ἐξάγω",
+          "choices": [
+            {
+              "text": "what he says; understood antecedent",
+              "correct": false,
+              "feedback": "Review: ἐκ becomes ἐξ before a vowel"
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": false,
+              "feedback": "Review: ἐκ becomes ἐξ before a vowel"
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": false,
+              "feedback": "Review: ἐκ becomes ἐξ before a vowel"
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Analyze or translate: σύν + γράφω → συγγράφω",
+          "choices": [
+            {
+              "text": "what he says; understood antecedent",
+              "correct": false,
+              "feedback": "Review: prefix nasal assimilates before a velar"
+            },
+            {
+              "text": "of the good things which he has; attracted relative",
+              "correct": false,
+              "feedback": "Review: prefix nasal assimilates before a velar"
+            },
+            {
+              "text": "ἐκ becomes ἐξ before a vowel",
+              "correct": false,
+              "feedback": "Review: prefix nasal assimilates before a velar"
+            },
+            {
+              "text": "prefix nasal assimilates before a velar",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "In an attracted ὧν, should the genitive be copied into the English object relation?",
+          "choices": [
+            {
+              "text": "No; reconstruct the relative clause’s function.",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "Yes, always translate “whose.”",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "It means the clause has no verb.",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "It must be a purpose clause.",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            }
+          ]
+        },
+        {
+          "id": "l40-grammar-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Which dictionary pair explains ἀπάγω?",
+          "choices": [
+            {
+              "text": "ἀνά + πάσχω",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀπό + ἄγω",
+              "correct": true,
+              "feedback": "Correct. Normally a relative agrees with its antecedent in gender and number but takes case from its own clause. In attraction, a relative that would otherwise be accusative may adopt a genitive or dative antecedent’s case: τῶν ἀγαθῶν ὧν ἔχει, “of the good things which he has.” A relative can also have an understood antecedent: ὃ λέγει, “what he says.” Recover the clause’s function before parsing an attracted form."
+            },
+            {
+              "text": "ἀεί + ἀγορά",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀντί + ἔχω",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 40 Final Quiz — Speaking the Truth",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-40-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l40-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What follows the victory at Arginusae?",
+          "choices": [
+            {
+              "text": "Anger over the failure to rescue men.",
+              "correct": true,
+              "feedback": "Correct. Anger over the failure to rescue men."
+            },
+            {
+              "text": "The immediate end of the Peloponnesian War.",
+              "correct": false,
+              "feedback": "Review: Anger over the failure to rescue men."
+            },
+            {
+              "text": "Cyrus’ accession.",
+              "correct": false,
+              "feedback": "Review: Anger over the failure to rescue men."
+            },
+            {
+              "text": "Socrates’ release from prison.",
+              "correct": false,
+              "feedback": "Review: Anger over the failure to rescue men."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What explanation do the generals offer?",
+          "choices": [
+            {
+              "text": "The battle never occurred.",
+              "correct": false,
+              "feedback": "Review: A storm obstructed the rescue."
+            },
+            {
+              "text": "A storm obstructed the rescue.",
+              "correct": true,
+              "feedback": "Correct. A storm obstructed the rescue."
+            },
+            {
+              "text": "The soldiers all refused pay.",
+              "correct": false,
+              "feedback": "Review: A storm obstructed the rescue."
+            },
+            {
+              "text": "The city had no ships.",
+              "correct": false,
+              "feedback": "Review: A storm obstructed the rescue."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What procedure is disputed?",
+          "choices": [
+            {
+              "text": "Allowing separate meals.",
+              "correct": false,
+              "feedback": "Review: Judging the generals collectively by one vote."
+            },
+            {
+              "text": "Choosing a poet.",
+              "correct": false,
+              "feedback": "Review: Judging the generals collectively by one vote."
+            },
+            {
+              "text": "Judging the generals collectively by one vote.",
+              "correct": true,
+              "feedback": "Correct. Judging the generals collectively by one vote."
+            },
+            {
+              "text": "Sending a sacred ship to Delos.",
+              "correct": false,
+              "feedback": "Review: Judging the generals collectively by one vote."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Socrates refuse in Xenophon’s account?",
+          "choices": [
+            {
+              "text": "To speak Greek.",
+              "correct": false,
+              "feedback": "Review: To support action contrary to law."
+            },
+            {
+              "text": "To acknowledge the battle.",
+              "correct": false,
+              "feedback": "Review: To support action contrary to law."
+            },
+            {
+              "text": "To serve as a soldier ever again.",
+              "correct": false,
+              "feedback": "Review: To support action contrary to law."
+            },
+            {
+              "text": "To support action contrary to law.",
+              "correct": true,
+              "feedback": "Correct. To support action contrary to law."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Did his objection prevent the executions?",
+          "choices": [
+            {
+              "text": "No; six returned generals were condemned and executed.",
+              "correct": true,
+              "feedback": "Correct. No; six returned generals were condemned and executed."
+            },
+            {
+              "text": "Yes; all were acquitted immediately.",
+              "correct": false,
+              "feedback": "Review: No; six returned generals were condemned and executed."
+            },
+            {
+              "text": "No trial followed at all.",
+              "correct": false,
+              "feedback": "Review: No; six returned generals were condemned and executed."
+            },
+            {
+              "text": "The reading does not mention an outcome.",
+              "correct": false,
+              "feedback": "Review: No; six returned generals were condemned and executed."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the final paragraph distinguish?",
+          "choices": [
+            {
+              "text": "Only two coat sizes.",
+              "correct": false,
+              "feedback": "Review: The battle, accusation, and judgment."
+            },
+            {
+              "text": "The battle, accusation, and judgment.",
+              "correct": true,
+              "feedback": "Correct. The battle, accusation, and judgment."
+            },
+            {
+              "text": "Three Persian kings.",
+              "correct": false,
+              "feedback": "Review: The battle, accusation, and judgment."
+            },
+            {
+              "text": "The seasons of farming.",
+              "correct": false,
+              "feedback": "Review: The battle, accusation, and judgment."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ναυμαχία mean?",
+          "choices": [
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: naval battle"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: naval battle"
+            },
+            {
+              "text": "naval battle",
+              "correct": true,
+              "feedback": "Correct. ναυμαχία, ναυμαχίας, ἡ"
+            },
+            {
+              "text": "witness",
+              "correct": false,
+              "feedback": "Review: naval battle"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ χειμών mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: storm, winter"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: storm, winter"
+            },
+            {
+              "text": "witness",
+              "correct": false,
+              "feedback": "Review: storm, winter"
+            },
+            {
+              "text": "storm, winter",
+              "correct": true,
+              "feedback": "Correct. χειμών, χειμῶνος, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ ναυάγιον mean?",
+          "choices": [
+            {
+              "text": "wreck",
+              "correct": true,
+              "feedback": "Correct. ναυάγιον, ναυαγίου, τό"
+            },
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: wreck"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: wreck"
+            },
+            {
+              "text": "witness",
+              "correct": false,
+              "feedback": "Review: wreck"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ μάρτυς mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: witness"
+            },
+            {
+              "text": "witness",
+              "correct": true,
+              "feedback": "Correct. μάρτυς, μάρτυρος, ὁ"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: witness"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: witness"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ψῆφος mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: vote"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: vote"
+            },
+            {
+              "text": "vote",
+              "correct": true,
+              "feedback": "Correct. ψῆφος, ψήφου, ἡ"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: vote"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ πρύτανις mean?",
+          "choices": [
+            {
+              "text": "naval battle",
+              "correct": false,
+              "feedback": "Review: presiding official"
+            },
+            {
+              "text": "storm, winter",
+              "correct": false,
+              "feedback": "Review: presiding official"
+            },
+            {
+              "text": "wreck",
+              "correct": false,
+              "feedback": "Review: presiding official"
+            },
+            {
+              "text": "presiding official",
+              "correct": true,
+              "feedback": "Correct. πρύτανις, πρυτάνεως, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Why is τὸν ἄνδρα accusative in the first report?",
+          "choices": [
+            {
+              "text": "It is the expressed subject of the infinitive.",
+              "correct": true,
+              "feedback": "Correct. It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "It must be the object of speaking.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "All subjects in Greek are accusative.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            },
+            {
+              "text": "φημί always governs two direct objects.",
+              "correct": false,
+              "feedback": "Review: It is the expressed subject of the infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Does βούλεται εἰπεῖν mean “he wishes that he spoke yesterday”?",
+          "choices": [
+            {
+              "text": "Yes, every aorist infinitive is past.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "No; here the infinitive expresses the desired action as a whole.",
+              "correct": true,
+              "feedback": "Correct. No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "Only if the subject is omitted.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            },
+            {
+              "text": "Yes, because βούλεται is present.",
+              "correct": false,
+              "feedback": "Review: No; here the infinitive expresses the desired action as a whole."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "What controls ὀργιζόμενον in the perception example?",
+          "choices": [
+            {
+              "text": "The first-person speaker.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "The conjunction ὅτι.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "τὸν δῆμον, the perceived people.",
+              "correct": true,
+              "feedback": "Correct. τὸν δῆμον, the perceived people."
+            },
+            {
+              "text": "A hidden feminine noun necessarily.",
+              "correct": false,
+              "feedback": "Review: τὸν δῆμον, the perceived people."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Why not replace every report with a participle?",
+          "choices": [
+            {
+              "text": "Participles cannot have objects.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "Greek has no finite reports.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "All participles are passive.",
+              "correct": false,
+              "feedback": "Review: Governing verbs license different complements and meanings."
+            },
+            {
+              "text": "Governing verbs license different complements and meanings.",
+              "correct": true,
+              "feedback": "Correct. Governing verbs license different complements and meanings."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Translate οὔ φημι τοῦτο δίκαιον εἶναι in its normal denial sense.",
+          "choices": [
+            {
+              "text": "I deny that this is just.",
+              "correct": true,
+              "feedback": "Correct. I deny that this is just."
+            },
+            {
+              "text": "I always say that it is just.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            },
+            {
+              "text": "I ask who is just.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            },
+            {
+              "text": "I saw a just person.",
+              "correct": false,
+              "feedback": "Review: I deny that this is just."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "phemi",
+          "prompt": "Which present form is normally accented rather than enclitic?",
+          "choices": [
+            {
+              "text": "φημί in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φῄς",
+              "correct": true,
+              "feedback": "Correct. φῄς"
+            },
+            {
+              "text": "φαμέν in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            },
+            {
+              "text": "φατέ in its ordinary enclitic use",
+              "correct": false,
+              "feedback": "Review: φῄς"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "What has genitive case in πρὸ τοῦ κρῖναι?",
+          "choices": [
+            {
+              "text": "A genitive ending on κρῖναι.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The main-clause subject necessarily.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The article marking the whole infinitive phrase.",
+              "correct": true,
+              "feedback": "Correct. The article marking the whole infinitive phrase."
+            },
+            {
+              "text": "The preposition itself.",
+              "correct": false,
+              "feedback": "Review: The article marking the whole infinitive phrase."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "articular-infinitive",
+          "prompt": "Who judges in πρὸ τοῦ τὴν βουλὴν κρῖναι?",
+          "choices": [
+            {
+              "text": "the author necessarily",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the infinitive has no subject",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the accused necessarily",
+              "correct": false,
+              "feedback": "Review: the council"
+            },
+            {
+              "text": "the council",
+              "correct": true,
+              "feedback": "Correct. the council"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "In an attracted ὧν, should the genitive be copied into the English object relation?",
+          "choices": [
+            {
+              "text": "No; reconstruct the relative clause’s function.",
+              "correct": true,
+              "feedback": "Correct. No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "Yes, always translate “whose.”",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "It means the clause has no verb.",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            },
+            {
+              "text": "It must be a purpose clause.",
+              "correct": false,
+              "feedback": "Review: No; reconstruct the relative clause’s function."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "relative-attraction-euphony",
+          "prompt": "Which dictionary pair explains ἀπάγω?",
+          "choices": [
+            {
+              "text": "ἀνά + πάσχω",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀπό + ἄγω",
+              "correct": true,
+              "feedback": "Correct. ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀεί + ἀγορά",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            },
+            {
+              "text": "ἀντί + ἔχω",
+              "correct": false,
+              "feedback": "Review: ἀπό + ἄγω"
+            }
+          ]
+        },
+        {
+          "id": "l40-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-infinitive",
+          "prompt": "Analyze or translate: φησὶ τὸν ἄνδρα λέγειν.",
+          "choices": [
+            {
+              "text": "He says that the man spoke; prior.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that the man will speak; later.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that the man is speaking; simultaneous.",
+              "correct": true,
+              "feedback": "Correct. He says that the man is speaking; simultaneous."
+            },
+            {
+              "text": "He says that he himself is just; shared subject.",
+              "correct": false,
+              "feedback": "Review: He says that the man is speaking; simultaneous."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "participle-finite-report",
+          "prompt": "Analyze or translate: ὁρῶ τὸν δῆμον ὀργιζόμενον.",
+          "choices": [
+            {
+              "text": "He says that a storm prevented it; finite report.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I see that the man has arrived; aorist participle.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I hear the man speaking; perceived action.",
+              "correct": false,
+              "feedback": "Review: I see the people becoming angry; supplementary participle."
+            },
+            {
+              "text": "I see the people becoming angry; supplementary participle.",
+              "correct": true,
+              "feedback": "Correct. I see the people becoming angry; supplementary participle."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "When was Arginusae?",
+          "choices": [
+            {
+              "text": "406 BCE.",
+              "correct": true,
+              "feedback": "Correct. 406 BCE."
+            },
+            {
+              "text": "399 BCE.",
+              "correct": false,
+              "feedback": "Review: 406 BCE."
+            },
+            {
+              "text": "403 BCE.",
+              "correct": false,
+              "feedback": "Review: 406 BCE."
+            },
+            {
+              "text": "401 BCE.",
+              "correct": false,
+              "feedback": "Review: 406 BCE."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why separate council, assembly, and ordinary court?",
+          "choices": [
+            {
+              "text": "They are three names for the same modern institution.",
+              "correct": false,
+              "feedback": "Review: The episode’s extraordinary procedure is not every Athenian trial."
+            },
+            {
+              "text": "The episode’s extraordinary procedure is not every Athenian trial.",
+              "correct": true,
+              "feedback": "Correct. The episode’s extraordinary procedure is not every Athenian trial."
+            },
+            {
+              "text": "Only the court could hear any speech.",
+              "correct": false,
+              "feedback": "Review: The episode’s extraordinary procedure is not every Athenian trial."
+            },
+            {
+              "text": "The source never concerns procedure.",
+              "correct": false,
+              "feedback": "Review: The episode’s extraordinary procedure is not every Athenian trial."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What did Socrates’ refusal accomplish in the narrated outcome?",
+          "choices": [
+            {
+              "text": "It acquitted all six generals.",
+              "correct": false,
+              "feedback": "Review: It preserved his objection but did not prevent executions."
+            },
+            {
+              "text": "It ended the war.",
+              "correct": false,
+              "feedback": "Review: It preserved his objection but did not prevent executions."
+            },
+            {
+              "text": "It preserved his objection but did not prevent executions.",
+              "correct": true,
+              "feedback": "Correct. It preserved his objection but did not prevent executions."
+            },
+            {
+              "text": "It abolished collective voting permanently.",
+              "correct": false,
+              "feedback": "Review: It preserved his objection but did not prevent executions."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why distinguish rescue responsibility from trial procedure?",
+          "choices": [
+            {
+              "text": "Procedure is irrelevant once anger exists.",
+              "correct": false,
+              "feedback": "Review: One question does not settle the other."
+            },
+            {
+              "text": "Victory proves no rescue duty existed.",
+              "correct": false,
+              "feedback": "Review: One question does not settle the other."
+            },
+            {
+              "text": "Both questions have identical evidence.",
+              "correct": false,
+              "feedback": "Review: One question does not settle the other."
+            },
+            {
+              "text": "One question does not settle the other.",
+              "correct": true,
+              "feedback": "Correct. One question does not settle the other."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How should the generals’ storm explanation be presented?",
+          "choices": [
+            {
+              "text": "As their reported explanation.",
+              "correct": true,
+              "feedback": "Correct. As their reported explanation."
+            },
+            {
+              "text": "As a modern weather measurement.",
+              "correct": false,
+              "feedback": "Review: As their reported explanation."
+            },
+            {
+              "text": "As proof of every officer’s innocence.",
+              "correct": false,
+              "feedback": "Review: As their reported explanation."
+            },
+            {
+              "text": "As an allegation by Socrates against Plato.",
+              "correct": false,
+              "feedback": "Review: As their reported explanation."
+            }
+          ]
+        },
+        {
+          "id": "l40-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What later response does Xenophon describe?",
+          "choices": [
+            {
+              "text": "Universal satisfaction forever.",
+              "correct": false,
+              "feedback": "Review: Regret and efforts to pursue those accused of misleading the people."
+            },
+            {
+              "text": "Regret and efforts to pursue those accused of misleading the people.",
+              "correct": true,
+              "feedback": "Correct. Regret and efforts to pursue those accused of misleading the people."
+            },
+            {
+              "text": "Immediate restoration of the dead generals.",
+              "correct": false,
+              "feedback": "Review: Regret and efforts to pursue those accused of misleading the people."
+            },
+            {
+              "text": "A refusal to discuss the episode.",
+              "correct": false,
+              "feedback": "Review: Regret and efforts to pursue those accused of misleading the people."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-39",
+    "title": "The Accusation",
+    "fallbackUrl": "lesson.html?lesson=39&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-41",
+    "title": "A Ruler and the Common Good",
+    "fallbackUrl": "lesson.html?lesson=41&page=1"
+  },
+  "contentRevision": "lesson-40-module-4-v1"
+}

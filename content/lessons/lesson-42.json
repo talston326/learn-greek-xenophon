@@ -1,0 +1,4536 @@
+{
+  "id": "lesson-42",
+  "number": 42,
+  "title": "What is Justice?",
+  "greekTitle": "Ὁ νόμος καὶ τὸ δίκαιον",
+  "scope": "Present and aorist active optatives; Middle, passive, and contract optatives; Wishes and potentiality; Optatives in subordinate clauses",
+  "theme": "Written law and unwritten obligation",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 25α",
+  "banner": {
+    "image": "assets/lesson-42-banner.png",
+    "alt": "Educational reconstruction: Socrates and Hippias discuss justice with a small listening group.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-42-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-42-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-42-page-3",
+      "title": "Written law and unwritten obligation",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ἡ δικαιοσύνη",
+          "english": "justice",
+          "dictionaryForm": "δικαιοσύνη, δικαιοσύνης, ἡ",
+          "lemma": "δικαιοσύνη",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ὁρισμός",
+          "english": "definition",
+          "dictionaryForm": "ὁρισμός, ὁρισμοῦ, ὁ",
+          "lemma": "ὁρισμός",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ διαφορά",
+          "english": "distinction",
+          "dictionaryForm": "διαφορά, διαφορᾶς, ἡ",
+          "lemma": "διαφορά",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ εὐνομία",
+          "english": "good legal order",
+          "dictionaryForm": "εὐνομία, εὐνομίας, ἡ",
+          "lemma": "εὐνομία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὁμόνοια",
+          "english": "concord",
+          "dictionaryForm": "ὁμόνοια, ὁμονοίας, ἡ",
+          "lemma": "ὁμόνοια",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ χάρις",
+          "english": "kindness, gratitude",
+          "dictionaryForm": "χάρις, χάριτος, ἡ",
+          "lemma": "χάρις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ στάσις",
+          "english": "faction, civil conflict",
+          "dictionaryForm": "στάσις, στάσεως, ἡ",
+          "lemma": "στάσις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "νόμιμος",
+          "english": "lawful",
+          "dictionaryForm": "νόμιμος, νόμιμον",
+          "lemma": "νόμιμος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἄγραφος",
+          "english": "unwritten",
+          "dictionaryForm": "ἄγραφος, ἄγραφον",
+          "lemma": "ἄγραφος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἄνομος",
+          "english": "unlawful",
+          "dictionaryForm": "ἄνομος, ἄνομον",
+          "lemma": "ἄνομος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καινός",
+          "english": "new",
+          "dictionaryForm": "καινός, καινή, καινόν",
+          "lemma": "καινός",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σαφής",
+          "english": "clear",
+          "dictionaryForm": "σαφής, σαφές",
+          "lemma": "σαφής",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μαρτυρέω",
+          "english": "bear witness",
+          "dictionaryForm": "μαρτυρέω",
+          "lemma": "μαρτυρέω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μεταβάλλω",
+          "english": "change",
+          "dictionaryForm": "μεταβάλλω",
+          "lemma": "μεταβάλλω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "προτιμάω",
+          "english": "prefer",
+          "dictionaryForm": "προτιμάω",
+          "lemma": "προτιμάω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀντιλέγω",
+          "english": "object",
+          "dictionaryForm": "ἀντιλέγω",
+          "lemma": "ἀντιλέγω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀξιόω",
+          "english": "expect, deem worthy",
+          "dictionaryForm": "ἀξιόω",
+          "lemma": "ἀξιόω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "εἴθε",
+          "english": "if only",
+          "dictionaryForm": "εἴθε",
+          "lemma": "εἴθε",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἄνευ",
+          "english": "without",
+          "dictionaryForm": "ἄνευ",
+          "lemma": "ἄνευ",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "εὔχομαι",
+          "english": "wish, pray",
+          "dictionaryForm": "εὔχομαι",
+          "lemma": "εὔχομαι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ νόμος καὶ τὸ δίκαιον",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. 305 Greek words in 6 paragraphs.",
+      "Based on Memorabilia 4.4.5–25. The sequence of challenge, lawful conduct, changing laws, and unwritten obligations follows the source. Wishes and potential statements in the final paragraphs are explicitly course reflection, not quotations from Hippias or Socrates.",
+      "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Ἱππίας εἰς τὰς Ἀθήνας ἥκει καὶ Σωκράτει διαλέγεται. θαυμάζει ὅτι ὁ Σωκράτης ἔτι περὶ τῶν αὐτῶν λέγει. ὁ δὲ οὐκ αἰσχύνεται ταὐτὰ ζητῶν· οὐ γὰρ τὸ καινὸν μόνον ἀλλὰ τὸ ἀληθὲς σκοπεῖ. ὁ Ἱππίας ἀξιοῖ αὐτὸν μὴ μόνον τοὺς ἄλλους ἐρωτᾶν, ἀλλὰ καὶ τὴν ἑαυτοῦ γνώμην περὶ δικαιοσύνης εἰπεῖν.",
+        "gloss": [
+          {
+            "greek": "ἥκει",
+            "english": "has arrived"
+          },
+          {
+            "greek": "αἰσχύνεται",
+            "english": "is ashamed"
+          },
+          {
+            "greek": "καινὸν",
+            "english": "new thing"
+          },
+          {
+            "greek": "ἀξιοῖ",
+            "english": "asks, expects"
+          },
+          {
+            "greek": "ἐρωτᾶν",
+            "english": "to question"
+          },
+          {
+            "greek": "γνώμην",
+            "english": "view"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης πρῶτον τὸν βίον αὑτοῦ παράδειγμα παρέχει. οὐ ψευδῆ μαρτυρεῖ οὐδὲ τοὺς φίλους εἰς στάσιν ἄγει. ὁ δὲ Ἱππίας λόγον σαφέστερον ζητεῖ· οὐ γὰρ ἀρκεῖ λέγειν ἃ ὁ δίκαιος οὐ ποιεῖ. τί οὖν ποιεῖ; ὁ Σωκράτης τὸ νόμιμον δίκαιον εἶναί φησιν. οὕτως ἐκ τῶν ἔργων εἰς τὸν ὁρισμὸν ὁ λόγος μεταβαίνει.",
+        "gloss": [
+          {
+            "greek": "αὑτοῦ",
+            "english": "his own"
+          },
+          {
+            "greek": "μαρτυρεῖ",
+            "english": "bears witness"
+          },
+          {
+            "greek": "στάσιν",
+            "english": "faction"
+          },
+          {
+            "greek": "σαφέστερον",
+            "english": "clearer"
+          },
+          {
+            "greek": "νόμιμον",
+            "english": "lawful"
+          },
+          {
+            "greek": "ὁρισμὸν",
+            "english": "definition"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ἱππίας ἐρωτᾷ πῶς τοῦτο λέγει. οἱ γὰρ πολῖται τοὺς νόμους τίθενται, ἔπειτα δὲ μεταβάλλουσιν. πῶς οὖν τοῖς νόμοις πιστεύωμεν, ὅταν οἱ θέμενοι αὐτοὶ μὴ μένωσιν ἐν τοῖς αὐτοῖς; ἡ ἐρώτησις οὐ μικρά ἐστιν. ἄλλο γάρ ἐστι νόμῳ πείθεσθαι, ἄλλο δὲ τὸν νόμον ἀεὶ βέλτιστον νομίζειν. τὴν διαφορὰν ταύτην ὁ ἀναγνώστης ἐξετάζει.",
+        "gloss": [
+          {
+            "greek": "μεταβάλλουσιν",
+            "english": "change"
+          },
+          {
+            "greek": "θέμενοι",
+            "english": "having established"
+          },
+          {
+            "greek": "μένωσιν",
+            "english": "remain; subjunctive"
+          },
+          {
+            "greek": "βέλτιστον",
+            "english": "best"
+          },
+          {
+            "greek": "διαφορὰν",
+            "english": "distinction"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης τὴν εὐνομίαν ἐπαινεῖ. οἱ γὰρ νόμοι τοὺς πολίτας πρὸς κοινὰ ἔργα συνάγουσιν, καὶ ἡ ὁμόνοια τὴν πόλιν ἰσχυροτέραν ποιεῖ. οὐ μόνον δὲ περὶ τῶν γεγραμμένων λέγει· ἐρωτᾷ καὶ περὶ ἀγράφων νόμων. τὸ τοὺς γονέας τιμᾶν καὶ τὸ χάριν ἀποδιδόναι παραδείγματα παρέχει. τούτους τοὺς νόμους πρὸς τοὺς θεοὺς ἀναφέρει.",
+        "gloss": [
+          {
+            "greek": "εὐνομίαν",
+            "english": "good order under law"
+          },
+          {
+            "greek": "συνάγουσιν",
+            "english": "bring together"
+          },
+          {
+            "greek": "ὁμόνοια",
+            "english": "concord"
+          },
+          {
+            "greek": "γεγραμμένων",
+            "english": "written rules; supported perfect participle"
+          },
+          {
+            "greek": "ἀγράφων",
+            "english": "unwritten"
+          },
+          {
+            "greek": "χάριν ἀποδιδόναι",
+            "english": "to return kindness"
+          }
+        ]
+      },
+      {
+        "greek": "Νῦν ἡμεῖς τὸν λόγον ἐξετάζοντες εὐχὰς καὶ δυνατὰ λέγομεν. εἴθε οἱ πολῖται δικαίως κρίνοιεν. εἴθε μὴ τὸ κέρδος τοῦ δικαίου προτιμῷεν. ὁ δίκαιος ἀνὴρ οὐχ ἁπλῶς τῷ ἰσχυρῷ πείθοιτο ἄν· πρῶτον γὰρ τὸ κελευόμενον ἐξετάζοι ἄν. οὐ λέγομεν ὅτι πάντα ταῦτα γίγνεται, ἀλλὰ τί εὐχόμεθα καὶ τί δυνατὸν εἶναι νομίζομεν.",
+        "gloss": [
+          {
+            "greek": "εἴθε",
+            "english": "if only, may"
+          },
+          {
+            "greek": "κρίνοιεν",
+            "english": "may they judge; optative wish"
+          },
+          {
+            "greek": "προτιμῷεν",
+            "english": "may they prefer; contract optative"
+          },
+          {
+            "greek": "πείθοιτο ἄν",
+            "english": "might obey"
+          },
+          {
+            "greek": "ἐξετάζοι ἄν",
+            "english": "might examine"
+          },
+          {
+            "greek": "εὐχόμεθα",
+            "english": "we wish"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ περὶ δικαιοσύνης ζήτησις οὐ τελευτᾷ ἑνὶ λόγῳ. ὁ ἀναγνώστης μνημονεύει τοῦ Σωκράτους πρὸς τὴν ἄνομον ψῆφον ἀντειπόντος. ἐκεῖνος νόμῳ βοηθεῖν ἐβούλετο, οὐ τῇ τῶν πολλῶν ὀργῇ. νόμος δὲ καὶ τὸ ὑπὸ δυνατοῦ ἀνδρὸς κελευόμενον οὐκ ἀεὶ ταὐτόν ἐστιν. τοῦτο σκοποῖμεν ἄν, ἵνα μὴ τὴν τῆς πόλεως δύναμιν ἄνευ κρίσεως ἐπαινῶμεν.",
+        "gloss": [
+          {
+            "greek": "τελευτᾷ",
+            "english": "ends"
+          },
+          {
+            "greek": "ἀντειπόντος",
+            "english": "having objected"
+          },
+          {
+            "greek": "ἄνομον",
+            "english": "unlawful"
+          },
+          {
+            "greek": "κελευόμενον",
+            "english": "what is commanded"
+          },
+          {
+            "greek": "σκοποῖμεν ἄν",
+            "english": "we might examine"
+          },
+          {
+            "greek": "ἄνευ",
+            "english": "without; with genitive"
+          }
+        ]
+      }
+    ],
+    "translation": "Hippias arrives in Athens and converses with Socrates. He is surprised that Socrates still speaks about the same things. Socrates is not ashamed of investigating the same matters; he considers not only what is new but what is true. Hippias asks him not merely to question others but to state his own view about justice.\n\nSocrates first offers his own life as an example. He does not give false testimony or lead friends into faction. Hippias seeks a clearer explanation: it is not enough to say what the just person does not do. What, then, does he do? Socrates says that what is lawful is just. Thus the argument moves from actions to a definition.\n\nHippias asks how he can say this. Citizens establish laws and then change them. How, then, should we trust laws whenever those who established them do not themselves remain with the same rules? The question is substantial. Obeying a law is one thing, considering it always the best another. The reader examines this distinction.\n\nSocrates praises good order under law. Laws bring citizens together for common tasks, and concord makes the city stronger. He speaks not only about written rules; he also asks about unwritten laws. He offers honoring parents and returning kindness as examples. He refers these laws to the gods.\n\nNow, in examining the argument, we express wishes and possibilities. May the citizens judge justly. May they not prefer gain to justice. A just person might not simply obey the powerful; he might first examine the command. We are not saying that all this happens, but what we wish and what we consider possible.\n\nThe inquiry about justice does not end with a single statement. The reader remembers Socrates objecting to the unlawful vote. He wished to defend law, not the anger of the majority. Law and what a powerful man commands are not always the same. We might examine this so that we do not praise the city’s power without judgment.\n",
+    "sourceCitation": "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm",
+    "notesMarkdown": "Based on Memorabilia 4.4.5–25. The sequence of challenge, lawful conduct, changing laws, and unwritten obligations follows the source. Wishes and potential statements in the final paragraphs are explicitly course reflection, not quotations from Hippias or Socrates."
+  },
+  "wordStudy": {
+    "label": "Word Study — Law and shared order",
+    "blocks": [
+      {
+        "title": "Law and shared order",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. νόμος means “law, custom”; νόμιμος means “lawful”; εὐνομία means “good legal order”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "νόμος",
+            "english": "law, custom"
+          },
+          {
+            "greek": "νόμιμος",
+            "english": "lawful"
+          },
+          {
+            "greek": "εὐνομία",
+            "english": "good legal order"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 25α. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Optative formation in the assigned regular verbs; recognize characteristic endings and connect stems to familiar tense/aspect systems.",
+      "Optative expressing wishes, with the relevant particles.",
+      "Potential optative with ἄν; distinguish a possibility from an assertion or a wish.",
+      "Optative in subordinate clauses at the chapter’s level; introduce sequence without treating every past reporting verb as requiring mechanical replacement."
+    ],
+    "sections": [
+      {
+        "id": "optative-active",
+        "title": "1. Present and aorist active optatives",
+        "practiceTopic": "optative-active",
+        "body": [
+          "The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι.",
+          "First aorist active forms include λύσαιμι, λύσαις/λύσειας, λύσαι/λύσειε(ν), λύσαιμεν, λύσαιτε, λύσαιεν/λύσειαν. A second aorist uses its stem: λάβοιμι. No augment appears. Present versus aorist expresses aspect outside oblique reporting, not a simple present-versus-past time opposition."
+        ],
+        "table": {
+          "title": "1. Present and aorist active optatives",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λύοιμεν",
+              "present active optative, first plural"
+            ],
+            [
+              "λύσαιμεν",
+              "aorist active optative, first plural"
+            ],
+            [
+              "λάβοι",
+              "second aorist active optative, third singular"
+            ],
+            [
+              "λύσειαν",
+              "alternative aorist active optative, third plural"
+            ],
+            [
+              "λύοιμι / λύοις / λύοι / λύοιμεν / λύοιτε / λύοιεν",
+              "present active paradigm"
+            ],
+            [
+              "λύσαιμι / λύσειας / λύσειε / λύσαιμεν / λύσαιτε / λύσειαν",
+              "common first-aorist active paradigm"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "What stem is used in λάβοιμι?",
+            "answer": "the second aorist stem λαβ-"
+          },
+          {
+            "prompt": "Does an aorist optative wish necessarily refer to past time?",
+            "answer": "No; the aorist presents the wished action as a whole."
+          }
+        ]
+      },
+      {
+        "id": "optative-other-forms",
+        "title": "2. Middle, passive, and contract optatives",
+        "practiceTopic": "optative-other-forms",
+        "body": [
+          "Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms.",
+          "Contract verbs combine stem vowels with optative vowels. Learn τιμῴην/τιμῷμι, ποιοίην/ποιοῖμι and their common plurals τιμῷμεν, ποιοῖμεν. εἰμί has εἴην, εἴης, εἴη, εἶμεν/εἴημεν, εἶτε/εἴητε, εἶεν/εἴησαν. Use a reference table when recognizing alternative forms."
+        ],
+        "table": {
+          "title": "2. Middle, passive, and contract optatives",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λύοιτο",
+              "present middle/passive optative, third singular"
+            ],
+            [
+              "λύσαιτο",
+              "aorist middle optative, third singular"
+            ],
+            [
+              "λυθείη",
+              "aorist passive optative, third singular"
+            ],
+            [
+              "ποιοῖμεν",
+              "present active contract optative, first plural"
+            ],
+            [
+              "λυοίμην / λύοιο / λύοιτο / λυοίμεθα / λύοισθε / λύοιντο",
+              "present middle/passive paradigm"
+            ],
+            [
+              "εἴην / εἴης / εἴη / εἶμεν / εἶτε / εἶεν",
+              "optative of εἰμί"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Choose “he might be educated” with potential ἄν.",
+            "answer": "παιδευθείη ἄν"
+          },
+          {
+            "prompt": "What does εἴη represent?",
+            "answer": "optative of εἰμί"
+          }
+        ]
+      },
+      {
+        "id": "wish-potential",
+        "title": "3. Wishes and potentiality",
+        "practiceTopic": "wish-potential",
+        "body": [
+          "A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred.",
+          "Potential optative normally has ἄν: δικαίως κρίνοιεν ἄν, “They might judge justly” or “They would judge justly,” depending on context. Negation is normally οὐ. The particle belongs to the potential statement, not to an ordinary wish. Translate the speaker’s degree of commitment before assigning an English modal."
+        ],
+        "table": {
+          "title": "3. Wishes and potentiality",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "εἴθε δικαίως κρίνοιεν.",
+              "May they judge justly; wish."
+            ],
+            [
+              "δικαίως κρίνοιεν ἄν.",
+              "They might judge justly; potential optative."
+            ],
+            [
+              "εἴθε μὴ ἀδικοῖεν.",
+              "May they not do wrong; negative wish."
+            ],
+            [
+              "οὐκ ἂν ἀδικοῖεν.",
+              "They would not do wrong; negative potential."
+            ],
+            [
+              "εἰ γὰρ εἰρήνη γένοιτο.",
+              "If only peace would come about."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "εἴθε δικαίως κρίνοιεν.",
+            "english": "May they judge justly; wish."
+          },
+          {
+            "greek": "δικαίως κρίνοιεν ἄν.",
+            "english": "They might judge justly; potential optative."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which particle normally marks a potential optative?",
+            "answer": "ἄν"
+          },
+          {
+            "prompt": "Does εἴθε κρίνοιεν assert a completed fair judgment?",
+            "answer": "No; it expresses a wish."
+          }
+        ]
+      },
+      {
+        "id": "optative-subordination",
+        "title": "4. Optatives in subordinate clauses",
+        "practiceTopic": "optative-subordination",
+        "body": [
+          "After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction.",
+          "In a finite report, the optative can represent the original speaker’s mood and tense from the narrator’s historical viewpoint. Compare λέγει ὅτι δίκαιός ἐστι with ἔλεγεν ὅτι δίκαιος εἴη. We develop athematic forms and indirect questions next. Do not place potential ἄν into every subordinate optative."
+        ],
+        "table": {
+          "title": "4. Optatives in subordinate clauses",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἐδίδασκεν ἵνα μάθοι.",
+              "He taught so that the pupil might learn; secondary purpose."
+            ],
+            [
+              "ἐφοβεῖτο μὴ ἔλθοι.",
+              "He feared that he might come; secondary fear."
+            ],
+            [
+              "ἔλεγεν ὅτι δίκαιος εἴη.",
+              "He said that he was just; finite oblique report."
+            ],
+            [
+              "εἴθε μάθοι.",
+              "May he learn; independent wish."
+            ],
+            [
+              "ἔλεγεν ὅτι δίκαιός ἐστι.",
+              "He said that he is just; retained original indicative."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἐδίδασκεν ἵνα μάθοι.",
+            "english": "He taught so that the pupil might learn; secondary purpose."
+          },
+          {
+            "greek": "ἐφοβεῖτο μὴ ἔλθοι.",
+            "english": "He feared that he might come; secondary fear."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Why does μάθοι after ἵνα not mean “if only he would learn”?",
+            "answer": "The clause is a purpose dependent on a past main verb."
+          },
+          {
+            "prompt": "Must every past reporting verb force an optative?",
+            "answer": "No; retention of the original mood is possible."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Present and aorist active optatives: The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι.",
+        "2. Middle, passive, and contract optatives: Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms.",
+        "3. Wishes and potentiality: A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred.",
+        "4. Optatives in subordinate clauses: After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Written law and unwritten obligation",
+    "banner": {
+      "image": "assets/lesson-42-culture-banner.png",
+      "alt": "Educational reconstruction: A separate close view of a reconstructed inscribed law and a civic oath setting; no fabricated readable ancient inscription.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Memorabilia",
+        "body": [
+          "Book 4, chapter 4 puts a definition under pressure. Hippias asks Socrates to state a position about justice, and the discussion moves from conduct to law and unwritten obligations. The lesson asks you to reconstruct the argument fairly before judging it. A defense of Socrates can preserve a challenging objection as well as a confident response.",
+          "Think of the four books as a gallery of encounters rather than a continuous biography. Book 1 answers accusations against Socrates and presents his religious practice and daily conduct. Books 2–3 explore family, friendship, useful work, and leadership. Book 4 gives sustained attention to education, including the questioning of Euthydemus. The movement from an ordinary habit to a public responsibility is characteristic of the collection.",
+          "Xenophon writes as an advocate for a teacher condemned at Athens in 399 BCE. His Socrates improves other people through example, questions, and practical reasoning. That organizing purpose makes the work valuable evidence for an ancient interpretation of Socrates; it does not make every conversation a stenographic record. Notice who asks the questions, who changes position, and where the narrator supplies the judgment.",
+          "Reading invitation: open Book 1, chapter 5, then Book 4, chapter 5. Ask whether mastery of appetite is merely a rule about pleasure or a condition for learning and dependable action. Keep a small dossier of the different kinds of evidence Xenophon offers: reported speech, observed habit, analogy, and the narrator’s praise.",
+          "Track Hippias’s objections as carefully as Socrates’ answers, and identify what each successive example contributes to the definition."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Memorabilia — English translation",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          },
+          {
+            "title": "Wikipedia: Memorabilia",
+            "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+          }
+        ]
+      },
+      {
+        "title": "A definition under pressure",
+        "body": [
+          "Hippias challenges Socrates to state what justice is rather than only question other people. Socrates points to conduct and then connects the just with the lawful. Hippias’ objection that laws change is an important part of the conversation, not an interruption to be skipped on the way to a slogan.",
+          "Distinguish three claims: that a city needs law, that citizens should obey law, and that every existing law is morally best. They are not interchangeable. Read Socrates’ reasons and Hippias’ objections before deciding how far the argument succeeds."
+        ]
+      },
+      {
+        "title": "Unwritten laws",
+        "body": [
+          "The dialogue extends beyond written civic rules to obligations described as unwritten, including honoring parents and returning benefits. Socrates relates these to divine authority. Their universality is a claim made in the discussion, not a conclusion independently established about every human society.",
+          "Compare an inscription, a customary expectation, and a claim about divine law. They have different kinds of authority and different ways of being challenged. The banner’s inscribed surface is a reconstruction without a fabricated readable ancient law; use the actual literary passage for the words being interpreted."
+        ]
+      },
+      {
+        "title": "Return to Socrates’ refusal",
+        "body": [
+          "Revisit Lesson 40. Socrates’ resistance to a collective vote appeals to lawful procedure against immediate pressure. How does that example bear on the claim that lawful conduct is just? Explain a possible connection without pretending the two passages settle every problem about unjust laws.",
+          "Translate the dialogue’s objection before its response. Then distinguish the course’s optative wishes from its potential statements. Write a wish for fair judgment and a possibility about what a citizen might do, and explain why neither is evidence that the action actually occurred."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "What does Hippias’ changing-law objection challenge?",
+        "answer": "The connection between law and justice."
+      },
+      {
+        "prompt": "What is the status of unwritten laws’ universality here?",
+        "answer": "A claim made in the dialogue."
+      },
+      {
+        "prompt": "Which distinction is essential?",
+        "answer": "Needing law, obeying law, and calling every law best are different claims."
+      },
+      {
+        "prompt": "How does Lesson 40 help this discussion?",
+        "answer": "It offers a concrete case of law against immediate political pressure."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Memorabilia.",
+        "Distinguish wish, potentiality, and assertion; form optatives; explain Hippias’ objection fairly before evaluating Socrates’ answer.",
+        "Explain the lesson’s grammar using an example from your 305-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Read the complete Memorabilia — English translation",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "Wikipedia: Memorabilia",
+        "url": "https://en.wikipedia.org/wiki/Memorabilia_(Xenophon)"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 42 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ δικαιοσύνη",
+          "answer": "justice — δικαιοσύνη, δικαιοσύνης, ἡ"
+        },
+        {
+          "prompt": "ὁ ὁρισμός",
+          "answer": "definition — ὁρισμός, ὁρισμοῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ διαφορά",
+          "answer": "distinction — διαφορά, διαφορᾶς, ἡ"
+        },
+        {
+          "prompt": "ἡ εὐνομία",
+          "answer": "good legal order — εὐνομία, εὐνομίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ὁμόνοια",
+          "answer": "concord — ὁμόνοια, ὁμονοίας, ἡ"
+        },
+        {
+          "prompt": "ἡ χάρις",
+          "answer": "kindness, gratitude — χάρις, χάριτος, ἡ"
+        },
+        {
+          "prompt": "ἡ στάσις",
+          "answer": "faction, civil conflict — στάσις, στάσεως, ἡ"
+        },
+        {
+          "prompt": "νόμιμος",
+          "answer": "lawful — νόμιμος, νόμιμον"
+        },
+        {
+          "prompt": "ἄγραφος",
+          "answer": "unwritten — ἄγραφος, ἄγραφον"
+        },
+        {
+          "prompt": "ἄνομος",
+          "answer": "unlawful — ἄνομος, ἄνομον"
+        },
+        {
+          "prompt": "καινός",
+          "answer": "new — καινός, καινή, καινόν"
+        },
+        {
+          "prompt": "σαφής",
+          "answer": "clear — σαφής, σαφές"
+        },
+        {
+          "prompt": "μαρτυρέω",
+          "answer": "bear witness — μαρτυρέω"
+        },
+        {
+          "prompt": "μεταβάλλω",
+          "answer": "change — μεταβάλλω"
+        },
+        {
+          "prompt": "προτιμάω",
+          "answer": "prefer — προτιμάω"
+        },
+        {
+          "prompt": "εὔχομαι",
+          "answer": "wish, pray — εὔχομαι"
+        },
+        {
+          "prompt": "ἀντιλέγω",
+          "answer": "object — ἀντιλέγω"
+        },
+        {
+          "prompt": "ἀξιόω",
+          "answer": "expect, deem worthy — ἀξιόω"
+        },
+        {
+          "prompt": "εἴθε",
+          "answer": "if only — εἴθε"
+        },
+        {
+          "prompt": "ἄνευ",
+          "answer": "without — ἄνευ"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 42 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l42-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ δικαιοσύνη mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": true,
+              "feedback": "Correct. δικαιοσύνη, δικαιοσύνης, ἡ"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: justice"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: justice"
+            },
+            {
+              "text": "good legal order",
+              "correct": false,
+              "feedback": "Review: justice"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “justice”?",
+          "choices": [
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἡ δικαιοσύνη"
+            },
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": true,
+              "feedback": "Correct. δικαιοσύνη, δικαιοσύνης, ἡ"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἡ δικαιοσύνη"
+            },
+            {
+              "text": "ἡ εὐνομία",
+              "correct": false,
+              "feedback": "Review: ἡ δικαιοσύνη"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ὁρισμός mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: definition"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: definition"
+            },
+            {
+              "text": "definition",
+              "correct": true,
+              "feedback": "Correct. ὁρισμός, ὁρισμοῦ, ὁ"
+            },
+            {
+              "text": "good legal order",
+              "correct": false,
+              "feedback": "Review: definition"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “definition”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ὁ ὁρισμός"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ὁ ὁρισμός"
+            },
+            {
+              "text": "ἡ εὐνομία",
+              "correct": false,
+              "feedback": "Review: ὁ ὁρισμός"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": true,
+              "feedback": "Correct. ὁρισμός, ὁρισμοῦ, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ διαφορά mean?",
+          "choices": [
+            {
+              "text": "distinction",
+              "correct": true,
+              "feedback": "Correct. διαφορά, διαφορᾶς, ἡ"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: distinction"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: distinction"
+            },
+            {
+              "text": "good legal order",
+              "correct": false,
+              "feedback": "Review: distinction"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “distinction”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἡ διαφορά"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": true,
+              "feedback": "Correct. διαφορά, διαφορᾶς, ἡ"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἡ διαφορά"
+            },
+            {
+              "text": "ἡ εὐνομία",
+              "correct": false,
+              "feedback": "Review: ἡ διαφορά"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ εὐνομία mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            },
+            {
+              "text": "good legal order",
+              "correct": true,
+              "feedback": "Correct. εὐνομία, εὐνομίας, ἡ"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “good legal order”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἡ εὐνομία"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἡ εὐνομία"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἡ εὐνομία"
+            },
+            {
+              "text": "ἡ εὐνομία",
+              "correct": true,
+              "feedback": "Correct. εὐνομία, εὐνομίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὁμόνοια mean?",
+          "choices": [
+            {
+              "text": "concord",
+              "correct": true,
+              "feedback": "Correct. ὁμόνοια, ὁμονοίας, ἡ"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: concord"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: concord"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: concord"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “concord”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἡ ὁμόνοια"
+            },
+            {
+              "text": "ἡ ὁμόνοια",
+              "correct": true,
+              "feedback": "Correct. ὁμόνοια, ὁμονοίας, ἡ"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἡ ὁμόνοια"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἡ ὁμόνοια"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ χάρις mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: kindness, gratitude"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: kindness, gratitude"
+            },
+            {
+              "text": "kindness, gratitude",
+              "correct": true,
+              "feedback": "Correct. χάρις, χάριτος, ἡ"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: kindness, gratitude"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “kindness, gratitude”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἡ χάρις"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἡ χάρις"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἡ χάρις"
+            },
+            {
+              "text": "ἡ χάρις",
+              "correct": true,
+              "feedback": "Correct. χάρις, χάριτος, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ στάσις mean?",
+          "choices": [
+            {
+              "text": "faction, civil conflict",
+              "correct": true,
+              "feedback": "Correct. στάσις, στάσεως, ἡ"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: faction, civil conflict"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: faction, civil conflict"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: faction, civil conflict"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “faction, civil conflict”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἡ στάσις"
+            },
+            {
+              "text": "ἡ στάσις",
+              "correct": true,
+              "feedback": "Correct. στάσις, στάσεως, ἡ"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἡ στάσις"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἡ στάσις"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does νόμιμος mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: lawful"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: lawful"
+            },
+            {
+              "text": "lawful",
+              "correct": true,
+              "feedback": "Correct. νόμιμος, νόμιμον"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: lawful"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “lawful”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: νόμιμος"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: νόμιμος"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: νόμιμος"
+            },
+            {
+              "text": "νόμιμος",
+              "correct": true,
+              "feedback": "Correct. νόμιμος, νόμιμον"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἄγραφος mean?",
+          "choices": [
+            {
+              "text": "unwritten",
+              "correct": true,
+              "feedback": "Correct. ἄγραφος, ἄγραφον"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: unwritten"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: unwritten"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: unwritten"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “unwritten”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἄγραφος"
+            },
+            {
+              "text": "ἄγραφος",
+              "correct": true,
+              "feedback": "Correct. ἄγραφος, ἄγραφον"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἄγραφος"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἄγραφος"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἄνομος mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: unlawful"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: unlawful"
+            },
+            {
+              "text": "unlawful",
+              "correct": true,
+              "feedback": "Correct. ἄνομος, ἄνομον"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: unlawful"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “unlawful”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἄνομος"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἄνομος"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἄνομος"
+            },
+            {
+              "text": "ἄνομος",
+              "correct": true,
+              "feedback": "Correct. ἄνομος, ἄνομον"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does καινός mean?",
+          "choices": [
+            {
+              "text": "new",
+              "correct": true,
+              "feedback": "Correct. καινός, καινή, καινόν"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: new"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: new"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: new"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “new”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: καινός"
+            },
+            {
+              "text": "καινός",
+              "correct": true,
+              "feedback": "Correct. καινός, καινή, καινόν"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: καινός"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: καινός"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does σαφής mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: clear"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: clear"
+            },
+            {
+              "text": "clear",
+              "correct": true,
+              "feedback": "Correct. σαφής, σαφές"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: clear"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “clear”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: σαφής"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: σαφής"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: σαφής"
+            },
+            {
+              "text": "σαφής",
+              "correct": true,
+              "feedback": "Correct. σαφής, σαφές"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does μαρτυρέω mean?",
+          "choices": [
+            {
+              "text": "bear witness",
+              "correct": true,
+              "feedback": "Correct. μαρτυρέω"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: bear witness"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: bear witness"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: bear witness"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “bear witness”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: μαρτυρέω"
+            },
+            {
+              "text": "μαρτυρέω",
+              "correct": true,
+              "feedback": "Correct. μαρτυρέω"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: μαρτυρέω"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: μαρτυρέω"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does μεταβάλλω mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: change"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: change"
+            },
+            {
+              "text": "change",
+              "correct": true,
+              "feedback": "Correct. μεταβάλλω"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: change"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “change”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: μεταβάλλω"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: μεταβάλλω"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: μεταβάλλω"
+            },
+            {
+              "text": "μεταβάλλω",
+              "correct": true,
+              "feedback": "Correct. μεταβάλλω"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does προτιμάω mean?",
+          "choices": [
+            {
+              "text": "prefer",
+              "correct": true,
+              "feedback": "Correct. προτιμάω"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: prefer"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: prefer"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: prefer"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “prefer”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: προτιμάω"
+            },
+            {
+              "text": "προτιμάω",
+              "correct": true,
+              "feedback": "Correct. προτιμάω"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: προτιμάω"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: προτιμάω"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does εὔχομαι mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: wish, pray"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: wish, pray"
+            },
+            {
+              "text": "wish, pray",
+              "correct": true,
+              "feedback": "Correct. εὔχομαι"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: wish, pray"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “wish, pray”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: εὔχομαι"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: εὔχομαι"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: εὔχομαι"
+            },
+            {
+              "text": "εὔχομαι",
+              "correct": true,
+              "feedback": "Correct. εὔχομαι"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀντιλέγω mean?",
+          "choices": [
+            {
+              "text": "object",
+              "correct": true,
+              "feedback": "Correct. ἀντιλέγω"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: object"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: object"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: object"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “object”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἀντιλέγω"
+            },
+            {
+              "text": "ἀντιλέγω",
+              "correct": true,
+              "feedback": "Correct. ἀντιλέγω"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἀντιλέγω"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἀντιλέγω"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀξιόω mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: expect, deem worthy"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: expect, deem worthy"
+            },
+            {
+              "text": "expect, deem worthy",
+              "correct": true,
+              "feedback": "Correct. ἀξιόω"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: expect, deem worthy"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “expect, deem worthy”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἀξιόω"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἀξιόω"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἀξιόω"
+            },
+            {
+              "text": "ἀξιόω",
+              "correct": true,
+              "feedback": "Correct. ἀξιόω"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does εἴθε mean?",
+          "choices": [
+            {
+              "text": "if only",
+              "correct": true,
+              "feedback": "Correct. εἴθε"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: if only"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: if only"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: if only"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “if only”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: εἴθε"
+            },
+            {
+              "text": "εἴθε",
+              "correct": true,
+              "feedback": "Correct. εἴθε"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: εἴθε"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: εἴθε"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἄνευ mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: without"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: without"
+            },
+            {
+              "text": "without",
+              "correct": true,
+              "feedback": "Correct. ἄνευ"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: without"
+            }
+          ]
+        },
+        {
+          "id": "l42-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “without”?",
+          "choices": [
+            {
+              "text": "ἡ δικαιοσύνη",
+              "correct": false,
+              "feedback": "Review: ἄνευ"
+            },
+            {
+              "text": "ὁ ὁρισμός",
+              "correct": false,
+              "feedback": "Review: ἄνευ"
+            },
+            {
+              "text": "ἡ διαφορά",
+              "correct": false,
+              "feedback": "Review: ἄνευ"
+            },
+            {
+              "text": "ἄνευ",
+              "correct": true,
+              "feedback": "Correct. ἄνευ"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 42 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "λύοιμεν",
+          "answer": "present active optative, first plural — 1. Present and aorist active optatives"
+        },
+        {
+          "prompt": "λύσαιμεν",
+          "answer": "aorist active optative, first plural — 1. Present and aorist active optatives"
+        },
+        {
+          "prompt": "λάβοι",
+          "answer": "second aorist active optative, third singular — 1. Present and aorist active optatives"
+        },
+        {
+          "prompt": "λύσειαν",
+          "answer": "alternative aorist active optative, third plural — 1. Present and aorist active optatives"
+        },
+        {
+          "prompt": "λύοιμι / λύοις / λύοι / λύοιμεν / λύοιτε / λύοιεν",
+          "answer": "present active paradigm — 1. Present and aorist active optatives"
+        },
+        {
+          "prompt": "λύσαιμι / λύσειας / λύσειε / λύσαιμεν / λύσαιτε / λύσειαν",
+          "answer": "common first-aorist active paradigm — 1. Present and aorist active optatives"
+        },
+        {
+          "prompt": "λύοιτο",
+          "answer": "present middle/passive optative, third singular — 2. Middle, passive, and contract optatives"
+        },
+        {
+          "prompt": "λύσαιτο",
+          "answer": "aorist middle optative, third singular — 2. Middle, passive, and contract optatives"
+        },
+        {
+          "prompt": "λυθείη",
+          "answer": "aorist passive optative, third singular — 2. Middle, passive, and contract optatives"
+        },
+        {
+          "prompt": "ποιοῖμεν",
+          "answer": "present active contract optative, first plural — 2. Middle, passive, and contract optatives"
+        },
+        {
+          "prompt": "λυοίμην / λύοιο / λύοιτο / λυοίμεθα / λύοισθε / λύοιντο",
+          "answer": "present middle/passive paradigm — 2. Middle, passive, and contract optatives"
+        },
+        {
+          "prompt": "εἴην / εἴης / εἴη / εἶμεν / εἶτε / εἶεν",
+          "answer": "optative of εἰμί — 2. Middle, passive, and contract optatives"
+        },
+        {
+          "prompt": "εἴθε δικαίως κρίνοιεν.",
+          "answer": "May they judge justly; wish. — 3. Wishes and potentiality"
+        },
+        {
+          "prompt": "δικαίως κρίνοιεν ἄν.",
+          "answer": "They might judge justly; potential optative. — 3. Wishes and potentiality"
+        },
+        {
+          "prompt": "εἴθε μὴ ἀδικοῖεν.",
+          "answer": "May they not do wrong; negative wish. — 3. Wishes and potentiality"
+        },
+        {
+          "prompt": "οὐκ ἂν ἀδικοῖεν.",
+          "answer": "They would not do wrong; negative potential. — 3. Wishes and potentiality"
+        },
+        {
+          "prompt": "εἰ γὰρ εἰρήνη γένοιτο.",
+          "answer": "If only peace would come about. — 3. Wishes and potentiality"
+        },
+        {
+          "prompt": "ἐδίδασκεν ἵνα μάθοι.",
+          "answer": "He taught so that the pupil might learn; secondary purpose. — 4. Optatives in subordinate clauses"
+        },
+        {
+          "prompt": "ἐφοβεῖτο μὴ ἔλθοι.",
+          "answer": "He feared that he might come; secondary fear. — 4. Optatives in subordinate clauses"
+        },
+        {
+          "prompt": "ἔλεγεν ὅτι δίκαιος εἴη.",
+          "answer": "He said that he was just; finite oblique report. — 4. Optatives in subordinate clauses"
+        },
+        {
+          "prompt": "εἴθε μάθοι.",
+          "answer": "May he learn; independent wish. — 4. Optatives in subordinate clauses"
+        },
+        {
+          "prompt": "ἔλεγεν ὅτι δίκαιός ἐστι.",
+          "answer": "He said that he is just; retained original indicative. — 4. Optatives in subordinate clauses"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 42 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l42-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does νόμος mean?",
+          "choices": [
+            {
+              "text": "law, custom",
+              "correct": true,
+              "feedback": "Correct. law, custom"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: law, custom"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: law, custom"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: law, custom"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “law, custom”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: νόμος"
+            },
+            {
+              "text": "νόμος",
+              "correct": true,
+              "feedback": "Correct. νόμος"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: νόμος"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: νόμος"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does νόμιμος mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: lawful"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: lawful"
+            },
+            {
+              "text": "lawful",
+              "correct": true,
+              "feedback": "Correct. lawful"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: lawful"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “lawful”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: νόμιμος"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: νόμιμος"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: νόμιμος"
+            },
+            {
+              "text": "νόμιμος",
+              "correct": true,
+              "feedback": "Correct. νόμιμος"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does εὐνομία mean?",
+          "choices": [
+            {
+              "text": "good legal order",
+              "correct": true,
+              "feedback": "Correct. good legal order"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “good legal order”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: εὐνομία"
+            },
+            {
+              "text": "εὐνομία",
+              "correct": true,
+              "feedback": "Correct. εὐνομία"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: εὐνομία"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: εὐνομία"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύοιμεν",
+          "choices": [
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            },
+            {
+              "text": "present active optative, first plural",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύσαιμεν",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active optative, first plural"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative, first plural"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: aorist active optative, first plural"
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λάβοι",
+          "choices": [
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "present active optative, first plural",
+              "correct": false,
+              "feedback": "Review: second aorist active optative, third singular"
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: second aorist active optative, third singular"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: second aorist active optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύσειαν",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": false,
+              "feedback": "Review: alternative aorist active optative, third plural"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: alternative aorist active optative, third plural"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: alternative aorist active optative, third plural"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "What stem is used in λάβοιμι?",
+          "choices": [
+            {
+              "text": "the present stem λαμβαν-",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            },
+            {
+              "text": "a perfect stem",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            },
+            {
+              "text": "the second aorist stem λαβ-",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "a future passive stem",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Does an aorist optative wish necessarily refer to past time?",
+          "choices": [
+            {
+              "text": "Yes, all aorists refer to yesterday.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "Only when the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "An optative cannot express a wish.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "No; the aorist presents the wished action as a whole.",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λύοιτο",
+          "choices": [
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λύσαιτο",
+          "choices": [
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle optative, third singular"
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle optative, third singular"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: aorist middle optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λυθείη",
+          "choices": [
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive optative, third singular"
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive optative, third singular"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: aorist passive optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: ποιοῖμεν",
+          "choices": [
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active contract optative, first plural"
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active contract optative, first plural"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active contract optative, first plural"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Choose “he might be educated” with potential ἄν.",
+          "choices": [
+            {
+              "text": "παιδευθείη ἄν",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "παιδεύει ἄν",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            },
+            {
+              "text": "ἐπαίδευσε without ἄν",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            },
+            {
+              "text": "παιδεύειν alone",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "What does εἴη represent?",
+          "choices": [
+            {
+              "text": "aorist of ἵημι",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "optative of εἰμί",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "present imperative of ὁράω",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "future infinitive of λέγω",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: εἴθε δικαίως κρίνοιεν.",
+          "choices": [
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            },
+            {
+              "text": "May they judge justly; wish.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: δικαίως κρίνοιεν ἄν.",
+          "choices": [
+            {
+              "text": "May they judge justly; wish.",
+              "correct": false,
+              "feedback": "Review: They might judge justly; potential optative."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: They might judge justly; potential optative."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: They might judge justly; potential optative."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: εἴθε μὴ ἀδικοῖεν.",
+          "choices": [
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "May they judge justly; wish.",
+              "correct": false,
+              "feedback": "Review: May they not do wrong; negative wish."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: May they not do wrong; negative wish."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: May they not do wrong; negative wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: οὐκ ἂν ἀδικοῖεν.",
+          "choices": [
+            {
+              "text": "May they judge justly; wish.",
+              "correct": false,
+              "feedback": "Review: They would not do wrong; negative potential."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: They would not do wrong; negative potential."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: They would not do wrong; negative potential."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Which particle normally marks a potential optative?",
+          "choices": [
+            {
+              "text": "ἵνα necessarily",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            },
+            {
+              "text": "ὅτε necessarily",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            },
+            {
+              "text": "ἄν",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "γάρ alone",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Does εἴθε κρίνοιεν assert a completed fair judgment?",
+          "choices": [
+            {
+              "text": "Yes; it is a perfect indicative.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "It asserts a future certainty.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "It has no subject.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "No; it expresses a wish.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἐδίδασκεν ἵνα μάθοι.",
+          "choices": [
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἐφοβεῖτο μὴ ἔλθοι.",
+          "choices": [
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; secondary fear."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; secondary fear."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; secondary fear."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιος εἴη.",
+          "choices": [
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; finite oblique report."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; finite oblique report."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; finite oblique report."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: εἴθε μάθοι.",
+          "choices": [
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": false,
+              "feedback": "Review: May he learn; independent wish."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: May he learn; independent wish."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: May he learn; independent wish."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Why does μάθοι after ἵνα not mean “if only he would learn”?",
+          "choices": [
+            {
+              "text": "The clause is a purpose dependent on a past main verb.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "Every optative is a wish.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "ἵνα is a noun.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "The verb has an augment.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            }
+          ]
+        },
+        {
+          "id": "l42-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Must every past reporting verb force an optative?",
+          "choices": [
+            {
+              "text": "Yes, without exception.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "No; retention of the original mood is possible.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "Only if the report is false.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "Only if the speaker is unnamed.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 42 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-42-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l42-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύοιμεν",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύσαιμεν",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active optative, first plural"
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative, first plural"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: aorist active optative, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λάβοι",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": false,
+              "feedback": "Review: second aorist active optative, third singular"
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: second aorist active optative, third singular"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: second aorist active optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύσειαν",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": false,
+              "feedback": "Review: alternative aorist active optative, third plural"
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: alternative aorist active optative, third plural"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: alternative aorist active optative, third plural"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "What stem is used in λάβοιμι?",
+          "choices": [
+            {
+              "text": "the second aorist stem λαβ-",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "the present stem λαμβαν-",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            },
+            {
+              "text": "a perfect stem",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            },
+            {
+              "text": "a future passive stem",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Does an aorist optative wish necessarily refer to past time?",
+          "choices": [
+            {
+              "text": "Yes, all aorists refer to yesterday.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "No; the aorist presents the wished action as a whole.",
+              "correct": true,
+              "feedback": "Correct. The optative presents wishes, possibilities, and certain subordinate reports or general situations. Regular present active forms are λύοιμι, λύοις, λύοι, λύοιμεν, λύοιτε, λύοιεν. The οι is a useful clue, but not every οι in a word marks an optative. Compare indicative λύει and optative λύοι."
+            },
+            {
+              "text": "Only when the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "An optative cannot express a wish.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λύοιτο",
+          "choices": [
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            },
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λύσαιτο",
+          "choices": [
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle optative, third singular"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle optative, third singular"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: aorist middle optative, third singular"
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λυθείη",
+          "choices": [
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive optative, third singular"
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive optative, third singular"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: aorist passive optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: ποιοῖμεν",
+          "choices": [
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active contract optative, first plural"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active contract optative, first plural"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active contract optative, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Choose “he might be educated” with potential ἄν.",
+          "choices": [
+            {
+              "text": "παιδεύει ἄν",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            },
+            {
+              "text": "ἐπαίδευσε without ἄν",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            },
+            {
+              "text": "παιδευθείη ἄν",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            },
+            {
+              "text": "παιδεύειν alone",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "What does εἴη represent?",
+          "choices": [
+            {
+              "text": "aorist of ἵημι",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "present imperative of ὁράω",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "future infinitive of λέγω",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "optative of εἰμί",
+              "correct": true,
+              "feedback": "Correct. Present middle/passive forms are λυοίμην, λύοιο, λύοιτο, λυοίμεθα, λύοισθε, λύοιντο. First aorist middle forms are λυσαίμην, λύσαιο, λύσαιτο, λυσαίμεθα, λύσαισθε, λύσαιντο. Aorist passive uses -ειη- in the singular, as λυθείην, λυθείης, λυθείη; plural λυθεῖμεν, λυθεῖτε, λυθεῖεν has shorter alternatives beside longer forms."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: εἴθε δικαίως κρίνοιεν.",
+          "choices": [
+            {
+              "text": "May they judge justly; wish.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: δικαίως κρίνοιεν ἄν.",
+          "choices": [
+            {
+              "text": "May they judge justly; wish.",
+              "correct": false,
+              "feedback": "Review: They might judge justly; potential optative."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: They might judge justly; potential optative."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: They might judge justly; potential optative."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: εἴθε μὴ ἀδικοῖεν.",
+          "choices": [
+            {
+              "text": "May they judge justly; wish.",
+              "correct": false,
+              "feedback": "Review: May they not do wrong; negative wish."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: May they not do wrong; negative wish."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: May they not do wrong; negative wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: οὐκ ἂν ἀδικοῖεν.",
+          "choices": [
+            {
+              "text": "May they judge justly; wish.",
+              "correct": false,
+              "feedback": "Review: They would not do wrong; negative potential."
+            },
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: They would not do wrong; negative potential."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: They would not do wrong; negative potential."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Which particle normally marks a potential optative?",
+          "choices": [
+            {
+              "text": "ἄν",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "ἵνα necessarily",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            },
+            {
+              "text": "ὅτε necessarily",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            },
+            {
+              "text": "γάρ alone",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Does εἴθε κρίνοιεν assert a completed fair judgment?",
+          "choices": [
+            {
+              "text": "Yes; it is a perfect indicative.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "No; it expresses a wish.",
+              "correct": true,
+              "feedback": "Correct. A wish for the future can use the optative alone or with εἴθε/εἰ γάρ: εἴθε δικαίως κρίνοιεν, “May they judge justly.” Negate such a wish with μή. This is an aspiration, not a claim that the action has occurred."
+            },
+            {
+              "text": "It asserts a future certainty.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "It has no subject.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἐδίδασκεν ἵνα μάθοι.",
+          "choices": [
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἐφοβεῖτο μὴ ἔλθοι.",
+          "choices": [
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; secondary fear."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; secondary fear."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; secondary fear."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιος εἴη.",
+          "choices": [
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; finite oblique report."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; finite oblique report."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; finite oblique report."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: εἴθε μάθοι.",
+          "choices": [
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": false,
+              "feedback": "Review: May he learn; independent wish."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: May he learn; independent wish."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: May he learn; independent wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Why does μάθοι after ἵνα not mean “if only he would learn”?",
+          "choices": [
+            {
+              "text": "Every optative is a wish.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "ἵνα is a noun.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "The clause is a purpose dependent on a past main verb.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            },
+            {
+              "text": "The verb has an augment.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            }
+          ]
+        },
+        {
+          "id": "l42-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Must every past reporting verb force an optative?",
+          "choices": [
+            {
+              "text": "Yes, without exception.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "Only if the report is false.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "Only if the speaker is unnamed.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "No; retention of the original mood is possible.",
+              "correct": true,
+              "feedback": "Correct. After a historical main verb, a purpose, fear, or finite report may shift to the optative: ἐδίδασκεν ἵνα μάθοι, “He taught so that the pupil might learn.” The optative is not a new main-clause wish merely because its ending resembles one. Retaining a subjunctive or indicative can also be possible, depending on the original construction."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 42 Final Quiz — What is Justice?",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-42-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l42-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Hippias demand of Socrates?",
+          "choices": [
+            {
+              "text": "A stated account of justice, not only questions to others.",
+              "correct": true,
+              "feedback": "Correct. A stated account of justice, not only questions to others."
+            },
+            {
+              "text": "A naval rescue plan.",
+              "correct": false,
+              "feedback": "Review: A stated account of justice, not only questions to others."
+            },
+            {
+              "text": "A household inventory.",
+              "correct": false,
+              "feedback": "Review: A stated account of justice, not only questions to others."
+            },
+            {
+              "text": "A prison escape.",
+              "correct": false,
+              "feedback": "Review: A stated account of justice, not only questions to others."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What definition does Socrates advance?",
+          "choices": [
+            {
+              "text": "The strongest always owns everything.",
+              "correct": false,
+              "feedback": "Review: The lawful is just."
+            },
+            {
+              "text": "The lawful is just.",
+              "correct": true,
+              "feedback": "Correct. The lawful is just."
+            },
+            {
+              "text": "Every desire is a law.",
+              "correct": false,
+              "feedback": "Review: The lawful is just."
+            },
+            {
+              "text": "All customs are identical.",
+              "correct": false,
+              "feedback": "Review: The lawful is just."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What objection does Hippias raise?",
+          "choices": [
+            {
+              "text": "No city has ever written a law.",
+              "correct": false,
+              "feedback": "Review: People change the laws they establish."
+            },
+            {
+              "text": "Socrates cannot speak.",
+              "correct": false,
+              "feedback": "Review: People change the laws they establish."
+            },
+            {
+              "text": "People change the laws they establish.",
+              "correct": true,
+              "feedback": "Correct. People change the laws they establish."
+            },
+            {
+              "text": "The gods own both coats.",
+              "correct": false,
+              "feedback": "Review: People change the laws they establish."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What examples belong to the unwritten-law discussion?",
+          "choices": [
+            {
+              "text": "Building Roman roads.",
+              "correct": false,
+              "feedback": "Review: Honoring parents and returning benefits."
+            },
+            {
+              "text": "Electing a modern parliament.",
+              "correct": false,
+              "feedback": "Review: Honoring parents and returning benefits."
+            },
+            {
+              "text": "Paying a naval prize.",
+              "correct": false,
+              "feedback": "Review: Honoring parents and returning benefits."
+            },
+            {
+              "text": "Honoring parents and returning benefits.",
+              "correct": true,
+              "feedback": "Correct. Honoring parents and returning benefits."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does εἴθε ... κρίνοιεν express in the course passage?",
+          "choices": [
+            {
+              "text": "A wish for fair judgment.",
+              "correct": true,
+              "feedback": "Correct. A wish for fair judgment."
+            },
+            {
+              "text": "A report that judgment already occurred.",
+              "correct": false,
+              "feedback": "Review: A wish for fair judgment."
+            },
+            {
+              "text": "An order addressed to one judge.",
+              "correct": false,
+              "feedback": "Review: A wish for fair judgment."
+            },
+            {
+              "text": "A completed rescue.",
+              "correct": false,
+              "feedback": "Review: A wish for fair judgment."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why return to Socrates’ procedural refusal?",
+          "choices": [
+            {
+              "text": "To prove every existing law morally perfect.",
+              "correct": false,
+              "feedback": "Review: To test the relation between law and powerful demands."
+            },
+            {
+              "text": "To test the relation between law and powerful demands.",
+              "correct": true,
+              "feedback": "Correct. To test the relation between law and powerful demands."
+            },
+            {
+              "text": "To replace Hippias’ objection with silence.",
+              "correct": false,
+              "feedback": "Review: To test the relation between law and powerful demands."
+            },
+            {
+              "text": "To merge all Xenophon’s works into one scene.",
+              "correct": false,
+              "feedback": "Review: To test the relation between law and powerful demands."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ δικαιοσύνη mean?",
+          "choices": [
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: justice"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: justice"
+            },
+            {
+              "text": "justice",
+              "correct": true,
+              "feedback": "Correct. δικαιοσύνη, δικαιοσύνης, ἡ"
+            },
+            {
+              "text": "good legal order",
+              "correct": false,
+              "feedback": "Review: justice"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ὁρισμός mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: definition"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: definition"
+            },
+            {
+              "text": "good legal order",
+              "correct": false,
+              "feedback": "Review: definition"
+            },
+            {
+              "text": "definition",
+              "correct": true,
+              "feedback": "Correct. ὁρισμός, ὁρισμοῦ, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ διαφορά mean?",
+          "choices": [
+            {
+              "text": "distinction",
+              "correct": true,
+              "feedback": "Correct. διαφορά, διαφορᾶς, ἡ"
+            },
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: distinction"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: distinction"
+            },
+            {
+              "text": "good legal order",
+              "correct": false,
+              "feedback": "Review: distinction"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ εὐνομία mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            },
+            {
+              "text": "good legal order",
+              "correct": true,
+              "feedback": "Correct. εὐνομία, εὐνομίας, ἡ"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: good legal order"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὁμόνοια mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: concord"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: concord"
+            },
+            {
+              "text": "concord",
+              "correct": true,
+              "feedback": "Correct. ὁμόνοια, ὁμονοίας, ἡ"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: concord"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ χάρις mean?",
+          "choices": [
+            {
+              "text": "justice",
+              "correct": false,
+              "feedback": "Review: kindness, gratitude"
+            },
+            {
+              "text": "definition",
+              "correct": false,
+              "feedback": "Review: kindness, gratitude"
+            },
+            {
+              "text": "distinction",
+              "correct": false,
+              "feedback": "Review: kindness, gratitude"
+            },
+            {
+              "text": "kindness, gratitude",
+              "correct": true,
+              "feedback": "Correct. χάρις, χάριτος, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "What stem is used in λάβοιμι?",
+          "choices": [
+            {
+              "text": "the second aorist stem λαβ-",
+              "correct": true,
+              "feedback": "Correct. the second aorist stem λαβ-"
+            },
+            {
+              "text": "the present stem λαμβαν-",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            },
+            {
+              "text": "a perfect stem",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            },
+            {
+              "text": "a future passive stem",
+              "correct": false,
+              "feedback": "Review: the second aorist stem λαβ-"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Does an aorist optative wish necessarily refer to past time?",
+          "choices": [
+            {
+              "text": "Yes, all aorists refer to yesterday.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "No; the aorist presents the wished action as a whole.",
+              "correct": true,
+              "feedback": "Correct. No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "Only when the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            },
+            {
+              "text": "An optative cannot express a wish.",
+              "correct": false,
+              "feedback": "Review: No; the aorist presents the wished action as a whole."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Choose “he might be educated” with potential ἄν.",
+          "choices": [
+            {
+              "text": "παιδεύει ἄν",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            },
+            {
+              "text": "ἐπαίδευσε without ἄν",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            },
+            {
+              "text": "παιδευθείη ἄν",
+              "correct": true,
+              "feedback": "Correct. παιδευθείη ἄν"
+            },
+            {
+              "text": "παιδεύειν alone",
+              "correct": false,
+              "feedback": "Review: παιδευθείη ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "What does εἴη represent?",
+          "choices": [
+            {
+              "text": "aorist of ἵημι",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "present imperative of ὁράω",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "future infinitive of λέγω",
+              "correct": false,
+              "feedback": "Review: optative of εἰμί"
+            },
+            {
+              "text": "optative of εἰμί",
+              "correct": true,
+              "feedback": "Correct. optative of εἰμί"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Which particle normally marks a potential optative?",
+          "choices": [
+            {
+              "text": "ἄν",
+              "correct": true,
+              "feedback": "Correct. ἄν"
+            },
+            {
+              "text": "ἵνα necessarily",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            },
+            {
+              "text": "ὅτε necessarily",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            },
+            {
+              "text": "γάρ alone",
+              "correct": false,
+              "feedback": "Review: ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Does εἴθε κρίνοιεν assert a completed fair judgment?",
+          "choices": [
+            {
+              "text": "Yes; it is a perfect indicative.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "No; it expresses a wish.",
+              "correct": true,
+              "feedback": "Correct. No; it expresses a wish."
+            },
+            {
+              "text": "It asserts a future certainty.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            },
+            {
+              "text": "It has no subject.",
+              "correct": false,
+              "feedback": "Review: No; it expresses a wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Why does μάθοι after ἵνα not mean “if only he would learn”?",
+          "choices": [
+            {
+              "text": "Every optative is a wish.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "ἵνα is a noun.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "The clause is a purpose dependent on a past main verb.",
+              "correct": true,
+              "feedback": "Correct. The clause is a purpose dependent on a past main verb."
+            },
+            {
+              "text": "The verb has an augment.",
+              "correct": false,
+              "feedback": "Review: The clause is a purpose dependent on a past main verb."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Must every past reporting verb force an optative?",
+          "choices": [
+            {
+              "text": "Yes, without exception.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "Only if the report is false.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "Only if the speaker is unnamed.",
+              "correct": false,
+              "feedback": "Review: No; retention of the original mood is possible."
+            },
+            {
+              "text": "No; retention of the original mood is possible.",
+              "correct": true,
+              "feedback": "Correct. No; retention of the original mood is possible."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-active",
+          "prompt": "Analyze or translate: λύοιμεν",
+          "choices": [
+            {
+              "text": "present active optative, first plural",
+              "correct": true,
+              "feedback": "Correct. present active optative, first plural"
+            },
+            {
+              "text": "aorist active optative, first plural",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            },
+            {
+              "text": "second aorist active optative, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            },
+            {
+              "text": "alternative aorist active optative, third plural",
+              "correct": false,
+              "feedback": "Review: present active optative, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-other-forms",
+          "prompt": "Analyze or translate: λύοιτο",
+          "choices": [
+            {
+              "text": "aorist middle optative, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            },
+            {
+              "text": "present middle/passive optative, third singular",
+              "correct": true,
+              "feedback": "Correct. present middle/passive optative, third singular"
+            },
+            {
+              "text": "aorist passive optative, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            },
+            {
+              "text": "present active contract optative, first plural",
+              "correct": false,
+              "feedback": "Review: present middle/passive optative, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l42-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "wish-potential",
+          "prompt": "Analyze or translate: εἴθε δικαίως κρίνοιεν.",
+          "choices": [
+            {
+              "text": "They might judge justly; potential optative.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            },
+            {
+              "text": "May they not do wrong; negative wish.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            },
+            {
+              "text": "May they judge justly; wish.",
+              "correct": true,
+              "feedback": "Correct. May they judge justly; wish."
+            },
+            {
+              "text": "They would not do wrong; negative potential.",
+              "correct": false,
+              "feedback": "Review: May they judge justly; wish."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "optative-subordination",
+          "prompt": "Analyze or translate: ἐδίδασκεν ἵνα μάθοι.",
+          "choices": [
+            {
+              "text": "He feared that he might come; secondary fear.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "He said that he was just; finite oblique report.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "May he learn; independent wish.",
+              "correct": false,
+              "feedback": "Review: He taught so that the pupil might learn; secondary purpose."
+            },
+            {
+              "text": "He taught so that the pupil might learn; secondary purpose.",
+              "correct": true,
+              "feedback": "Correct. He taught so that the pupil might learn; secondary purpose."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does Hippias’ changing-law objection challenge?",
+          "choices": [
+            {
+              "text": "The connection between law and justice.",
+              "correct": true,
+              "feedback": "Correct. The connection between law and justice."
+            },
+            {
+              "text": "The existence of any conversation.",
+              "correct": false,
+              "feedback": "Review: The connection between law and justice."
+            },
+            {
+              "text": "The spelling of Socrates’ name only.",
+              "correct": false,
+              "feedback": "Review: The connection between law and justice."
+            },
+            {
+              "text": "The fact that Athens is a city.",
+              "correct": false,
+              "feedback": "Review: The connection between law and justice."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the status of unwritten laws’ universality here?",
+          "choices": [
+            {
+              "text": "An independently demonstrated fact about every society.",
+              "correct": false,
+              "feedback": "Review: A claim made in the dialogue."
+            },
+            {
+              "text": "A claim made in the dialogue.",
+              "correct": true,
+              "feedback": "Correct. A claim made in the dialogue."
+            },
+            {
+              "text": "A modern survey result.",
+              "correct": false,
+              "feedback": "Review: A claim made in the dialogue."
+            },
+            {
+              "text": "A proposition omitted from the work.",
+              "correct": false,
+              "feedback": "Review: A claim made in the dialogue."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which distinction is essential?",
+          "choices": [
+            {
+              "text": "All three claims are identical.",
+              "correct": false,
+              "feedback": "Review: Needing law, obeying law, and calling every law best are different claims."
+            },
+            {
+              "text": "Written law always lacks authority.",
+              "correct": false,
+              "feedback": "Review: Needing law, obeying law, and calling every law best are different claims."
+            },
+            {
+              "text": "Needing law, obeying law, and calling every law best are different claims.",
+              "correct": true,
+              "feedback": "Correct. Needing law, obeying law, and calling every law best are different claims."
+            },
+            {
+              "text": "Custom and divine claims are never discussed.",
+              "correct": false,
+              "feedback": "Review: Needing law, obeying law, and calling every law best are different claims."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How does Lesson 40 help this discussion?",
+          "choices": [
+            {
+              "text": "It proves every ruler’s order is law.",
+              "correct": false,
+              "feedback": "Review: It offers a concrete case of law against immediate political pressure."
+            },
+            {
+              "text": "It removes the need to hear Hippias.",
+              "correct": false,
+              "feedback": "Review: It offers a concrete case of law against immediate political pressure."
+            },
+            {
+              "text": "It turns the dialogue into a transcript.",
+              "correct": false,
+              "feedback": "Review: It offers a concrete case of law against immediate political pressure."
+            },
+            {
+              "text": "It offers a concrete case of law against immediate political pressure.",
+              "correct": true,
+              "feedback": "Correct. It offers a concrete case of law against immediate political pressure."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does a wish establish?",
+          "choices": [
+            {
+              "text": "What a speaker desires, not that it happened.",
+              "correct": true,
+              "feedback": "Correct. What a speaker desires, not that it happened."
+            },
+            {
+              "text": "A completed event.",
+              "correct": false,
+              "feedback": "Review: What a speaker desires, not that it happened."
+            },
+            {
+              "text": "The identity of every witness.",
+              "correct": false,
+              "feedback": "Review: What a speaker desires, not that it happened."
+            },
+            {
+              "text": "The truth of an accusation.",
+              "correct": false,
+              "feedback": "Review: What a speaker desires, not that it happened."
+            }
+          ]
+        },
+        {
+          "id": "l42-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What evidence supplies the words of the law discussion?",
+          "choices": [
+            {
+              "text": "The banner’s imagined inscription.",
+              "correct": false,
+              "feedback": "Review: The literary text, not the reconstructed banner."
+            },
+            {
+              "text": "The literary text, not the reconstructed banner.",
+              "correct": true,
+              "feedback": "Correct. The literary text, not the reconstructed banner."
+            },
+            {
+              "text": "A photograph of the conversation.",
+              "correct": false,
+              "feedback": "Review: The literary text, not the reconstructed banner."
+            },
+            {
+              "text": "A modern classroom vote alone.",
+              "correct": false,
+              "feedback": "Review: The literary text, not the reconstructed banner."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-41",
+    "title": "A Ruler and the Common Good",
+    "fallbackUrl": "lesson.html?lesson=41&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-43",
+    "title": "Law and Fear",
+    "fallbackUrl": "lesson.html?lesson=43&page=1"
+  },
+  "contentRevision": "lesson-42-module-4-v1"
+}

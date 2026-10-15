@@ -1,0 +1,4995 @@
+{
+  "id": "lesson-46",
+  "number": 46,
+  "title": "Why They Are Angry",
+  "greekTitle": "Τί ἴσμεν περὶ τοῦ Σωκράτους;",
+  "scope": "Active perfects in -κα and -α; Active perfect participles and infinitives; Active pluperfects; οἶδα: perfect form, present knowledge; Aspect, evidence, and sequence",
+  "theme": "Reputation in a small political community",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 28α–β",
+  "banner": {
+    "image": "assets/lesson-46-banner.png",
+    "alt": "Educational reconstruction: Listeners react differently as Socrates speaks; avoid depicting a uniformly irrational mob.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-46-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-46-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-46-page-3",
+      "title": "Reputation in a small political community",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ἡ γνῶσις",
+          "english": "knowledge",
+          "dictionaryForm": "γνῶσις, γνώσεως, ἡ",
+          "lemma": "γνῶσις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀκρίβεια",
+          "english": "precision",
+          "dictionaryForm": "ἀκρίβεια, ἀκριβείας, ἡ",
+          "lemma": "ἀκρίβεια",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οἶδα",
+          "english": "know",
+          "dictionaryForm": "οἶδα",
+          "lemma": "οἶδα",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "θορυβέω",
+          "english": "make an uproar",
+          "dictionaryForm": "θορυβέω",
+          "lemma": "θορυβέω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μέμφομαι",
+          "english": "criticize",
+          "dictionaryForm": "μέμφομαι",
+          "lemma": "μέμφομαι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πάσχω",
+          "english": "suffer",
+          "dictionaryForm": "πάσχω",
+          "lemma": "πάσχω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "συνάπτω",
+          "english": "connect",
+          "dictionaryForm": "συνάπτω",
+          "lemma": "συνάπτω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "οἴομαι",
+          "english": "suppose",
+          "dictionaryForm": "οἴομαι",
+          "lemma": "οἴομαι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "διάφορος",
+          "english": "different",
+          "dictionaryForm": "διάφορος, διάφορον",
+          "lemma": "διάφορος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁμοίως",
+          "english": "similarly",
+          "dictionaryForm": "ὁμοίως",
+          "lemma": "ὁμοίως",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "ἡ συνουσία",
+          "english": "association",
+          "dictionaryForm": "συνουσία, συνουσίας, ἡ",
+          "lemma": "συνουσία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πατρίς",
+          "english": "homeland",
+          "dictionaryForm": "πατρίς, πατρίδος, ἡ",
+          "lemma": "πατρίς",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ φωνή",
+          "english": "utterance, voice",
+          "dictionaryForm": "φωνή, φωνῆς, ἡ",
+          "lemma": "φωνή",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἐλευθερία",
+          "english": "freedom",
+          "dictionaryForm": "ἐλευθερία, ἐλευθερίας, ἡ",
+          "lemma": "ἐλευθερία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὀργή",
+          "english": "anger",
+          "dictionaryForm": "ὀργή, ὀργῆς, ἡ",
+          "lemma": "ὀργή",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ τεκμήριον",
+          "english": "piece of evidence",
+          "dictionaryForm": "τεκμήριον, τεκμηρίου, τό",
+          "lemma": "τεκμήριον",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κρατέω",
+          "english": "master",
+          "dictionaryForm": "κρατέω",
+          "lemma": "κρατέω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λαμβάνω",
+          "english": "take",
+          "dictionaryForm": "λαμβάνω",
+          "lemma": "λαμβάνω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "διδάσκω",
+          "english": "teach",
+          "dictionaryForm": "διδάσκω",
+          "lemma": "διδάσκω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λέγω",
+          "english": "say",
+          "dictionaryForm": "λέγω",
+          "lemma": "λέγω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τί ἴσμεν περὶ τοῦ Σωκράτους;",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Apology 20–23; contextual comparison with Memorabilia 1.2.9–12. 350 Greek words in 7 paragraphs.",
+      "Based on Apology 20–23 with a separately labeled comparison to Memorabilia 1.2.9–12. Associations with Critias and Alcibiades are context, not substitute formal charges or proof of individual jurors’ motives. Reporting and perfect-system examples are course compositions.",
+      "Read once for the argument, then translate paragraph by paragraph. Attempt a complete first translation with uncertainties marked, consult glosses, then revise the sustained passage. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Σωκράτης ἐν τῇ τοῦ Ξενοφῶντος ἀπολογίᾳ περὶ τοῦ βίου μεγάλους λόγους λέγει. οὐ πάντες οἱ ἀκούοντες ἥδονται· τινὲς γὰρ θορυβοῦσιν. ὁ δὲ συγγραφεὺς ζητεῖ διὰ τί ὁ ἀνὴρ οὕτως εἴρηκεν. οὐκ ἀρκεῖ φάναι ὅτι οἱ δικασταὶ κακοὶ ἦσαν. δεῖ τὰ λεγόμενα, τὴν τοῦ λέγοντος γνώμην καὶ τὴν τῶν ἀκουόντων ἀπόκρισιν χωρὶς ἐξετάζειν.",
+        "gloss": [
+          {
+            "greek": "ἥδονται",
+            "english": "are pleased"
+          },
+          {
+            "greek": "θορυβοῦσιν",
+            "english": "make an uproar"
+          },
+          {
+            "greek": "εἴρηκεν",
+            "english": "has spoken; perfect active"
+          },
+          {
+            "greek": "φάναι",
+            "english": "to say; infinitive of φημί"
+          },
+          {
+            "greek": "χωρὶς",
+            "english": "separately"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης τὴν ἑαυτοῦ ἐλευθερίαν καὶ σωφροσύνην προβάλλει. τῶν γὰρ ἐπιθυμιῶν κεκρατηκέναι φησίν, καὶ οὐ χρήματα παρὰ τῶν συνόντων εἰληφέναι. ὅσα δὲ λέγει οἱ ἀκούοντες οὐ πάντες ὁμοίως δέχονται. ὁ μὲν νομίζει τοῦτο τεκμήριον ἀρετῆς εἶναι, ὁ δὲ μέμφεται τῇ μεγαληγορίᾳ. ἡ αὐτὴ φωνὴ δύναται διαφόρους κρίσεις κινεῖν.",
+        "gloss": [
+          {
+            "greek": "προβάλλει",
+            "english": "puts forward"
+          },
+          {
+            "greek": "κεκρατηκέναι",
+            "english": "to have mastered; perfect infinitive"
+          },
+          {
+            "greek": "συνόντων",
+            "english": "associates"
+          },
+          {
+            "greek": "εἰληφέναι",
+            "english": "to have taken; perfect infinitive"
+          },
+          {
+            "greek": "μέμφεται",
+            "english": "criticizes; with dative"
+          },
+          {
+            "greek": "κινεῖν",
+            "english": "to stir"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν ἑτέρῳ δὲ βιβλίῳ, τοῖς Ἀπομνημονεύμασιν, ὁ Ξενοφῶν περὶ Κριτίου καὶ Ἀλκιβιάδου γράφει. οὗτοι τῷ Σωκράτει συνεγένοντο, ἔπειτα δὲ πολλὰ κακὰ τῇ πόλει ἐποίησαν. ὁ κατηγορῶν τὴν συνουσίαν αἰτίαν ποιεῖται· ὁ δὲ Ξενοφῶν ἀπολογεῖται καὶ ἐξετάζει πῶς ἐχρῶντο τῇ παιδείᾳ. οὐ τὸν αὐτὸν λόγον ἐν τοῖς δύο βιβλίοις ἀναγινώσκομεν.",
+        "gloss": [
+          {
+            "greek": "Ἀπομνημονεύμασιν",
+            "english": "Memorabilia"
+          },
+          {
+            "greek": "συνεγένοντο",
+            "english": "associated; aorist"
+          },
+          {
+            "greek": "συνουσίαν",
+            "english": "association"
+          },
+          {
+            "greek": "αἰτίαν ποιεῖται",
+            "english": "makes an accusation"
+          },
+          {
+            "greek": "ἐχρῶντο",
+            "english": "used; with dative"
+          },
+          {
+            "greek": "παιδείᾳ",
+            "english": "education"
+          }
+        ]
+      },
+      {
+        "greek": "Πρὸ τῆς δίκης ἡ πόλις πολλὰ πεπόνθει. πόλεμος καὶ ἧττα καὶ στάσις τοὺς πολίτας ἐβεβλάφεσαν. τινὲς φίλους ἀπολωλέκεσαν, ἄλλοι ἐκ τῆς πατρίδος ἔφυγον. ἀλλὰ ταῦτα μνημονεύειν οὐ ταὐτόν ἐστι τῷ εἰδέναι τί ἕκαστος τῶν δικαστῶν ἐνόμιζεν. τὸ παρεληλυθὸς τὴν δίκην φωτίζει, οὐ μὴν ἀντὶ μαρτυρίας περὶ πάσης γνώμης ἐστίν.",
+        "gloss": [
+          {
+            "greek": "πεπόνθει",
+            "english": "had suffered; pluperfect"
+          },
+          {
+            "greek": "ἐβεβλάφεσαν",
+            "english": "had harmed; pluperfect"
+          },
+          {
+            "greek": "ἀπολωλέκεσαν",
+            "english": "had lost; pluperfect active"
+          },
+          {
+            "greek": "πατρίδος",
+            "english": "homeland"
+          },
+          {
+            "greek": "παρεληλυθὸς",
+            "english": "past; perfect participle"
+          },
+          {
+            "greek": "φωτίζει",
+            "english": "illuminates"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐρωτῶμεν οὖν τί ἴσμεν καὶ τί οἰόμεθα. οἶδα ὅτι ὁ Ξενοφῶν τοῦτο γέγραφεν· οὐκ οἶδα ὅτι πᾶς δικαστὴς διὰ τὴν αὐτὴν αἰτίαν ὠργίσθη. ἴσμεν τὰ ἐν τῷ βιβλίῳ γεγραμμένα, ἀλλὰ δεῖ τὴν ἀπόδειξιν περὶ τοῦ πράγματος ζητεῖν. τὸ οἶδα μορφὴν παρακειμένου ἔχει, νῦν δὲ γνῶσιν δηλοῖ. τὸ δὲ ᾔδειν γνῶσιν ἐν παρελθόντι χρόνῳ.",
+        "gloss": [
+          {
+            "greek": "ἴσμεν",
+            "english": "we know"
+          },
+          {
+            "greek": "οἶδα",
+            "english": "I know"
+          },
+          {
+            "greek": "γέγραφεν",
+            "english": "has written"
+          },
+          {
+            "greek": "ὠργίσθη",
+            "english": "became angry"
+          },
+          {
+            "greek": "γνῶσιν",
+            "english": "knowledge"
+          },
+          {
+            "greek": "ᾔδειν",
+            "english": "I knew"
+          }
+        ]
+      },
+      {
+        "greek": "Συγκρίνωμεν τρεῖς λόγους. ὁ κατήγορος εἶπεν· ὁ κατήγορος εἴρηκεν· ὁ κατήγορος ἤδη εἰρήκει πρὶν τὸν ἄλλον ἀποκρίνασθαι. ὁ μὲν πρῶτος τὴν πρᾶξιν διηγεῖται, ὁ δὲ δεύτερος τὸν εἰρημένον λόγον πρὸς τὸ νῦν συνάπτει, ὁ δὲ τρίτος πρὸς χρόνον ἤδη παρελθόντα. οὐ πᾶσα τοιαύτη διαφορὰ ἐν μιᾷ ἀγγλικῇ λέξει φαίνεται.",
+        "gloss": [
+          {
+            "greek": "εἰρήκει",
+            "english": "had spoken"
+          },
+          {
+            "greek": "ἀποκρίνασθαι",
+            "english": "to reply"
+          },
+          {
+            "greek": "εἰρημένον",
+            "english": "spoken; perfect passive participle"
+          },
+          {
+            "greek": "συνάπτει",
+            "english": "connects"
+          },
+          {
+            "greek": "παρελθόντα",
+            "english": "past"
+          },
+          {
+            "greek": "ἀγγλικῇ",
+            "english": "English; course terminology"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ δὲ δικαιοσύνη τῆς κρίσεως καὶ ἀκρίβειαν τῶν λόγων αἰτεῖ. ἄλλο «ὁ ἀνὴρ τούτοις συνῆν», ἄλλο «ὁ ἀνὴρ πάντα τὰ ἐκείνων ἔργα δεδίδαχεν». τὸ δεύτερον πλείω ἀπόδειξιν δεῖται. οὕτω καὶ τὸν Σωκράτη καὶ τοὺς ἀντιλέγοντας ἀκούομεν, μὴ τὴν φιλίαν ἀντὶ τοῦ τεκμηρίου τιθέντες μηδὲ τὴν ὀργὴν ἀντὶ τοῦ λόγου.",
+        "gloss": [
+          {
+            "greek": "ἀκρίβειαν",
+            "english": "precision"
+          },
+          {
+            "greek": "αἰτεῖ",
+            "english": "demands"
+          },
+          {
+            "greek": "συνῆν",
+            "english": "associated with"
+          },
+          {
+            "greek": "δεδίδαχεν",
+            "english": "has taught"
+          },
+          {
+            "greek": "ἀντιλέγοντας",
+            "english": "those objecting"
+          },
+          {
+            "greek": "τιθέντες",
+            "english": "putting"
+          }
+        ]
+      }
+    ],
+    "translation": "Socrates makes lofty claims about his life in Xenophon’s Apology. Not all the listeners are pleased: some make an uproar. The writer asks why the man has spoken this way. It is not enough to say that the jurors were bad. We must examine separately what was said, the speaker’s intention, and the listeners’ response.\n\nSocrates puts forward his own freedom and moderation. He says that he has mastered his desires and has not taken money from his associates. The listeners do not all receive what he says in the same way. One considers it evidence of virtue; another criticizes the lofty speech. The same utterance can provoke different judgments.\n\nIn another work, the Memorabilia, Xenophon writes about Critias and Alcibiades. These two associated with Socrates and later did much harm to the city. The accuser makes their association an accusation; Xenophon defends Socrates and examines how they used their education. We are not reading the same argument in the two works.\n\nBefore the trial the city had suffered much. War, defeat, and civil conflict had harmed the citizens. Some had lost friends; others went into exile from their homeland. Remembering these things is not the same as knowing what each juror thought. The past illuminates the trial, but it is not testimony about every opinion.\n\nWe therefore ask what we know and what we suppose. I know that Xenophon has written this; I do not know that every juror became angry for the same reason. We know what is written in the book, but must seek evidence concerning the event. Oida has perfect form but expresses present knowledge. Ēidein expresses knowledge at a past time.\n\nLet us compare three statements. The accuser spoke; the accuser has spoken; the accuser had already spoken before the other replied. The first narrates the act, the second connects the utterance with the present, and the third with a past reference time. Not every such difference appears in a single English word.\n\nJustice in judgment also demands precision in statements. “The man associated with them” is one thing; “The man has taught all their actions” another. The second needs more evidence. In this way we listen both to Socrates and to his opponents, putting neither friendship in place of evidence nor anger in place of argument.\n",
+    "sourceCitation": "Xenophon, Apology 20–23; contextual comparison with Memorabilia 1.2.9–12. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1171/1171-h/1171-h.htm",
+    "notesMarkdown": "Based on Apology 20–23 with a separately labeled comparison to Memorabilia 1.2.9–12. Associations with Critias and Alcibiades are context, not substitute formal charges or proof of individual jurors’ motives. Reporting and perfect-system examples are course compositions."
+  },
+  "wordStudy": {
+    "label": "Word Study — Knowing and supposing",
+    "blocks": [
+      {
+        "title": "Knowing and supposing",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. οἶδα means “know”; οἴομαι means “suppose”; τεκμήριον means “evidence”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "οἶδα",
+            "english": "know"
+          },
+          {
+            "greek": "οἴομαι",
+            "english": "suppose"
+          },
+          {
+            "greek": "τεκμήριον",
+            "english": "evidence"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 28α–β. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Perfect and pluperfect active formation, including -κα and -α patterns and the assigned principal parts.",
+      "Reduplication, stem changes, common irregular forms, and the temporal relation of the pluperfect.",
+      "Active perfect aspect and its contrast with aorist narration and present states.",
+      "οἶδα and its assigned forms: perfect morphology with present meaning; distinguish knowing from having seen in translation."
+    ],
+    "sections": [
+      {
+        "id": "perfect-active",
+        "title": "1. Active perfects in -κα and -α",
+        "practiceTopic": "perfect-active",
+        "body": [
+          "The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα.",
+          "Principal parts identify these stems. Do not construct a perfect by attaching -κα indiscriminately: λαμβάνω → εἴληφα, λέγω → εἴρηκα, πάσχω → πέπονθα, γίγνομαι → γέγονα. Some perfects have strongly stative or intransitive senses. Form, lexical meaning, and context must be read together."
+        ],
+        "table": {
+          "title": "1. Active perfects in -κα and -α",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λέλυκα",
+              "first perfect active, first singular"
+            ],
+            [
+              "γέγραφα",
+              "second perfect active of γράφω, first singular"
+            ],
+            [
+              "πέπονθα",
+              "perfect active of πάσχω: I have suffered"
+            ],
+            [
+              "εἴληφα",
+              "perfect active of λαμβάνω: I have taken"
+            ],
+            [
+              "λέλυκα / λέλυκας / λέλυκε / λελύκαμεν / λελύκατε / λελύκασι",
+              "regular active perfect paradigm"
+            ],
+            [
+              "εἴρηκα / γέγονα / πέπραχα",
+              "I have said / become / done"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Which is the perfect of γράφω?",
+            "answer": "γέγραφα"
+          },
+          {
+            "prompt": "Does every active perfect contain -κ-?",
+            "answer": "No; second perfects and irregular stems are common."
+          }
+        ]
+      },
+      {
+        "id": "perfect-active-nonfinite",
+        "title": "2. Active perfect participles and infinitives",
+        "practiceTopic": "perfect-active-nonfinite",
+        "body": [
+          "The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν.",
+          "The participle has masculine -κώς, feminine -κυῖα, neuter -κός: λελυκώς, λελυκυῖα, λελυκός. The masculine/neuter stem appears in λελυκότος; the feminine uses first-declension endings, as λελυκυίας. Second perfects follow corresponding patterns, such as γεγραφώς, γεγραφυῖα, γεγραφός."
+        ],
+        "table": {
+          "title": "2. Active perfect participles and infinitives",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λελυκέναι",
+              "perfect active infinitive"
+            ],
+            [
+              "λελυκώς",
+              "perfect active participle, masculine nominative singular"
+            ],
+            [
+              "λελυκυῖα",
+              "perfect active participle, feminine nominative singular"
+            ],
+            [
+              "λελυκός",
+              "perfect active participle, neuter nominative/accusative singular"
+            ],
+            [
+              "λελυκότος / λελυκυίας",
+              "masculine-neuter / feminine genitive singular"
+            ],
+            [
+              "γεγραφέναι / γεγραφώς",
+              "second perfect active infinitive / masculine participle"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Choose the feminine participle in ἡ ... γυνή, “the woman who has written.”",
+            "answer": "γεγραφυῖα"
+          },
+          {
+            "prompt": "What is the contrast between λελυκέναι and λελύσθαι?",
+            "answer": "Perfect active versus perfect middle/passive infinitive."
+          }
+        ]
+      },
+      {
+        "id": "pluperfect-active",
+        "title": "3. Active pluperfects",
+        "practiceTopic": "pluperfect-active",
+        "body": [
+          "The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed.",
+          "Irregular stems persist: ἐγεγράφει, “he had written”; ἐπεπόνθει, “he had suffered”; εἰρήκει, “he had said.” Initial-vowel and reduplication patterns mean that the past marker is not always a detachable ἐ-. Compare ἔγραψε, γέγραφε, and ἐγεγράφει by their time and aspect in a connected narrative."
+        ],
+        "table": {
+          "title": "3. Active pluperfects",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἐλελύκειν",
+              "active pluperfect, first singular"
+            ],
+            [
+              "ἐλελύκει",
+              "active pluperfect, third singular"
+            ],
+            [
+              "ἐλελύκεσαν",
+              "active pluperfect, third plural"
+            ],
+            [
+              "ἐγεγράφει",
+              "he or she had written; irregular perfect stem"
+            ],
+            [
+              "ἐλελύκειν / ἐλελύκεις / ἐλελύκει / ἐλελύκεμεν / ἐλελύκετε / ἐλελύκεσαν",
+              "active pluperfect paradigm"
+            ],
+            [
+              "ἐπεπόνθει / εἰρήκει",
+              "had suffered / had said"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Translate ἤδη εἰρήκει πρὶν τὸν φίλον ἐλθεῖν.",
+            "answer": "He had already spoken before the friend arrived."
+          },
+          {
+            "prompt": "Which stem remains in the pluperfect?",
+            "answer": "the perfect stem"
+          }
+        ]
+      },
+      {
+        "id": "oida",
+        "title": "4. οἶδα: perfect form, present knowledge",
+        "practiceTopic": "oida",
+        "body": [
+          "οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός.",
+          "Past knowledge is expressed by pluperfect-shaped forms such as ᾔδειν, ᾔδεις, ᾔδει and plural ᾖσμεν/ᾔδεμεν, ᾖστε/ᾔδετε, ᾖσαν/ᾔδεσαν. Common nonindicatives include subjunctive εἰδῶ and optative εἰδείην. Distinguish “knows” from “supposes” and a claim to knowledge from evidence that supports it."
+        ],
+        "table": {
+          "title": "4. οἶδα: perfect form, present knowledge",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "οἶσθα",
+              "you know; second singular"
+            ],
+            [
+              "ἴσμεν",
+              "we know; first plural"
+            ],
+            [
+              "εἰδέναι",
+              "to know; infinitive"
+            ],
+            [
+              "ᾔδει",
+              "he or she knew; past knowledge"
+            ],
+            [
+              "οἶδα / οἶσθα / οἶδε / ἴσμεν / ἴστε / ἴσασι",
+              "present-meaning indicative paradigm"
+            ],
+            [
+              "εἰδώς / εἰδυῖα / εἰδός",
+              "knowing; perfect-shaped participle"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Translate οἶδα ὅτι γέγραφεν.",
+            "answer": "I know that he has written."
+          },
+          {
+            "prompt": "Which form means “they know”?",
+            "answer": "ἴσασι"
+          }
+        ]
+      },
+      {
+        "id": "perfect-contrast",
+        "title": "5. Aspect, evidence, and sequence",
+        "practiceTopic": "perfect-contrast",
+        "body": [
+          "Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative.",
+          "In source analysis, do not let a perfect claim become stronger than its evidence. “They have associated with Socrates” and “Socrates has taught their crimes” are different propositions. Grammar can reveal what is being asserted, but cannot by itself establish the assertion’s truth."
+        ],
+        "table": {
+          "title": "5. Aspect, evidence, and sequence",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "εἶπεν.",
+              "He spoke; aorist event."
+            ],
+            [
+              "εἴρηκεν.",
+              "He has spoken; perfect with present relevance."
+            ],
+            [
+              "εἰρήκει.",
+              "He had spoken; prior result at a past viewpoint."
+            ],
+            [
+              "οἶδεν.",
+              "He knows; present state expressed by perfect-shaped form."
+            ],
+            [
+              "δεδίδαχεν / ἐδίδαξεν",
+              "has taught / taught"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "εἶπεν.",
+            "english": "He spoke; aorist event."
+          },
+          {
+            "greek": "εἴρηκεν.",
+            "english": "He has spoken; perfect with present relevance."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Does a perfect tense prove the claim it expresses is true?",
+            "answer": "No; tense and evidence answer different questions."
+          },
+          {
+            "prompt": "What is lost if every perfect is translated mechanically as “did long ago”?",
+            "answer": "Its resulting state or present relevance."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Active perfects in -κα and -α: The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα.",
+        "2. Active perfect participles and infinitives: The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν.",
+        "3. Active pluperfects: The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed.",
+        "4. οἶδα: perfect form, present knowledge: οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός.",
+        "5. Aspect, evidence, and sequence: Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Reputation in a small political community",
+    "banner": {
+      "image": "assets/lesson-46-culture-banner.png",
+      "alt": "Educational reconstruction: A separate timeline of 406, 404–403, and 399 BCE with civic landmarks rather than another courtroom image.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Apology",
+        "body": [
+          "Xenophon’s Apology of Socrates is a short defense of the philosopher’s conduct at his trial in Athens in 399 BCE. “Apology” here means a defense, not an expression of regret. The work opens by asking why Socrates spoke with such elevated self-confidence. Xenophon wants the reader to understand the intention behind that manner, including Socrates’ judgment about his age, life, and approaching death. The choice of opening question shapes everything that follows.",
+          "The work moves from a conversation with Hermogenes before the trial to selected courtroom exchanges, reactions, the verdict, and Socrates’ response. It does not attempt to reproduce every procedural stage or every word spoken. Xenophon explicitly names Hermogenes as an informant in section 2. That is valuable evidence about a chain of testimony, but it does not turn the finished literary work into a transcript. Ask when the narrator summarizes, when Socrates answers an objection, and when a friend’s report supplies the connection.",
+          "Plato wrote a different Apology, and the two works should be read as distinct presentations. Do not silently import Plato’s famous phrases or penalty proposals into Xenophon’s account. Xenophon also defends Socrates across the four books of the Memorabilia, where conversations and habits provide a broader portrait. Read sections 1–9 for the preparation, 10–26 for the selected trial account, and the closing sections for the remembered aftermath. The complete translation linked here makes it possible to see the lesson’s excerpt in its argumentative setting. Across Lessons 45–47, notice how preparation, reputation, and courtroom reporting each illuminate a different part of Xenophon’s purpose."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Apology — English translation",
+            "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+          },
+          {
+            "title": "Wikipedia: Apology",
+            "url": "https://en.wikipedia.org/wiki/Apology_(Xenophon)"
+          }
+        ]
+      },
+      {
+        "title": "Claims that provoke reactions",
+        "body": [
+          "In Xenophon’s Apology, Socrates’ elevated claims provoke noisy reactions. The author explains the manner as part of Socrates’ deliberate approach to his situation. An explanation of a speaker’s intention and a report of an audience’s reaction answer different questions.",
+          "Avoid drawing every juror as an irrational member of a single mob. We do not have access to each juror’s inner reasoning. The reading asks you to examine the speech and the narrator’s interpretation while acknowledging what the evidence does not reveal."
+        ]
+      },
+      {
+        "title": "Association is not an indictment",
+        "body": [
+          "Memorabilia 1.2 discusses Critias and Alcibiades and their association with Socrates. That passage supplies a separate strand in Xenophon’s defense of his teacher. It must not be inserted into the Apology as if it were an additional formal charge preserved there.",
+          "Timeline: Arginusae was in 406 BCE; the Thirty and democratic restoration belong to 404–403; Socrates’ trial was in 399. Recent violence and political trauma are relevant context. They do not establish a single motive shared by every person who voted against him."
+        ]
+      },
+      {
+        "title": "Sort the claims",
+        "body": [
+          "Create four headings: formal charge, association, narrator’s explanation, and conjecture. Place each statement you make about hostility toward Socrates under one heading and supply its source. If a claim fits more than one category, explain which part is documented and which is inferred.",
+          "Translate the pluperfect account of the city’s recent suffering, then the distinctions involving οἶδα. Finish with the last two paragraphs as a connected translation. Revise one overconfident claim by replacing certainty with the exact degree of support the source provides."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Which sequence is chronological?",
+        "answer": "Arginusae, Thirty/restoration, Socrates’ trial."
+      },
+      {
+        "prompt": "What does association with Critias and Alcibiades establish by itself?",
+        "answer": "An association requiring analysis, not proof Socrates taught their crimes."
+      },
+      {
+        "prompt": "Where does that comparison appear in the lesson’s sources?",
+        "answer": "Memorabilia, separately from Apology."
+      },
+      {
+        "prompt": "How should claims about individual juror motives be handled?",
+        "answer": "With uncertainty unless evidence supports them."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Apology.",
+        "Distinguish perfect active from aorist and perfect middle/passive, interpret οἶδα correctly, and revise a claim that overstates what the source establishes.",
+        "Explain the lesson’s grammar using an example from your 350-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Apology 20–23; contextual comparison with Memorabilia 1.2.9–12",
+        "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+      },
+      {
+        "title": "Read the complete Apology — English translation",
+        "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+      },
+      {
+        "title": "Wikipedia: Apology",
+        "url": "https://en.wikipedia.org/wiki/Apology_(Xenophon)"
+      },
+      {
+        "title": "Memorabilia 1.2 — Critias and Alcibiades comparison",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 46 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ συνουσία",
+          "answer": "association — συνουσία, συνουσίας, ἡ"
+        },
+        {
+          "prompt": "ἡ γνῶσις",
+          "answer": "knowledge — γνῶσις, γνώσεως, ἡ"
+        },
+        {
+          "prompt": "ἡ ἀκρίβεια",
+          "answer": "precision — ἀκρίβεια, ἀκριβείας, ἡ"
+        },
+        {
+          "prompt": "ἡ πατρίς",
+          "answer": "homeland — πατρίς, πατρίδος, ἡ"
+        },
+        {
+          "prompt": "ἡ φωνή",
+          "answer": "utterance, voice — φωνή, φωνῆς, ἡ"
+        },
+        {
+          "prompt": "ἡ ἐλευθερία",
+          "answer": "freedom — ἐλευθερία, ἐλευθερίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ὀργή",
+          "answer": "anger — ὀργή, ὀργῆς, ἡ"
+        },
+        {
+          "prompt": "τὸ τεκμήριον",
+          "answer": "piece of evidence — τεκμήριον, τεκμηρίου, τό"
+        },
+        {
+          "prompt": "οἶδα",
+          "answer": "know — οἶδα"
+        },
+        {
+          "prompt": "θορυβέω",
+          "answer": "make an uproar — θορυβέω"
+        },
+        {
+          "prompt": "μέμφομαι",
+          "answer": "criticize — μέμφομαι"
+        },
+        {
+          "prompt": "κρατέω",
+          "answer": "master — κρατέω"
+        },
+        {
+          "prompt": "λαμβάνω",
+          "answer": "take — λαμβάνω"
+        },
+        {
+          "prompt": "πάσχω",
+          "answer": "suffer — πάσχω"
+        },
+        {
+          "prompt": "διδάσκω",
+          "answer": "teach — διδάσκω"
+        },
+        {
+          "prompt": "λέγω",
+          "answer": "say — λέγω"
+        },
+        {
+          "prompt": "συνάπτω",
+          "answer": "connect — συνάπτω"
+        },
+        {
+          "prompt": "οἴομαι",
+          "answer": "suppose — οἴομαι"
+        },
+        {
+          "prompt": "διάφορος",
+          "answer": "different — διάφορος, διάφορον"
+        },
+        {
+          "prompt": "ὁμοίως",
+          "answer": "similarly — ὁμοίως"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 46 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l46-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ συνουσία mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": true,
+              "feedback": "Correct. συνουσία, συνουσίας, ἡ"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: association"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: association"
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: association"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “association”?",
+          "choices": [
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ἡ συνουσία"
+            },
+            {
+              "text": "ἡ συνουσία",
+              "correct": true,
+              "feedback": "Correct. συνουσία, συνουσίας, ἡ"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ἡ συνουσία"
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "Review: ἡ συνουσία"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ γνῶσις mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: knowledge"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: knowledge"
+            },
+            {
+              "text": "knowledge",
+              "correct": true,
+              "feedback": "Correct. γνῶσις, γνώσεως, ἡ"
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: knowledge"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “knowledge”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ἡ γνῶσις"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ἡ γνῶσις"
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "Review: ἡ γνῶσις"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": true,
+              "feedback": "Correct. γνῶσις, γνώσεως, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀκρίβεια mean?",
+          "choices": [
+            {
+              "text": "precision",
+              "correct": true,
+              "feedback": "Correct. ἀκρίβεια, ἀκριβείας, ἡ"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: precision"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: precision"
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: precision"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “precision”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ἡ ἀκρίβεια"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": true,
+              "feedback": "Correct. ἀκρίβεια, ἀκριβείας, ἡ"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ἡ ἀκρίβεια"
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": false,
+              "feedback": "Review: ἡ ἀκρίβεια"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: homeland"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: homeland"
+            },
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct. πατρίς, πατρίδος, ἡ"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: homeland"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “homeland”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ἡ πατρίς"
+            },
+            {
+              "text": "ἡ πατρίς",
+              "correct": true,
+              "feedback": "Correct. πατρίς, πατρίδος, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ φωνή mean?",
+          "choices": [
+            {
+              "text": "utterance, voice",
+              "correct": true,
+              "feedback": "Correct. φωνή, φωνῆς, ἡ"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: utterance, voice"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: utterance, voice"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: utterance, voice"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “utterance, voice”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ἡ φωνή"
+            },
+            {
+              "text": "ἡ φωνή",
+              "correct": true,
+              "feedback": "Correct. φωνή, φωνῆς, ἡ"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ἡ φωνή"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ἡ φωνή"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐλευθερία mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: freedom"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: freedom"
+            },
+            {
+              "text": "freedom",
+              "correct": true,
+              "feedback": "Correct. ἐλευθερία, ἐλευθερίας, ἡ"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: freedom"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “freedom”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ἡ ἐλευθερία"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ἡ ἐλευθερία"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ἡ ἐλευθερία"
+            },
+            {
+              "text": "ἡ ἐλευθερία",
+              "correct": true,
+              "feedback": "Correct. ἐλευθερία, ἐλευθερίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὀργή mean?",
+          "choices": [
+            {
+              "text": "anger",
+              "correct": true,
+              "feedback": "Correct. ὀργή, ὀργῆς, ἡ"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: anger"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: anger"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: anger"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “anger”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ἡ ὀργή"
+            },
+            {
+              "text": "ἡ ὀργή",
+              "correct": true,
+              "feedback": "Correct. ὀργή, ὀργῆς, ἡ"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ἡ ὀργή"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ἡ ὀργή"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ τεκμήριον mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: piece of evidence"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: piece of evidence"
+            },
+            {
+              "text": "piece of evidence",
+              "correct": true,
+              "feedback": "Correct. τεκμήριον, τεκμηρίου, τό"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: piece of evidence"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “piece of evidence”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: τὸ τεκμήριον"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: τὸ τεκμήριον"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: τὸ τεκμήριον"
+            },
+            {
+              "text": "τὸ τεκμήριον",
+              "correct": true,
+              "feedback": "Correct. τεκμήριον, τεκμηρίου, τό"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does οἶδα mean?",
+          "choices": [
+            {
+              "text": "know",
+              "correct": true,
+              "feedback": "Correct. οἶδα"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: know"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: know"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: know"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “know”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: οἶδα"
+            },
+            {
+              "text": "οἶδα",
+              "correct": true,
+              "feedback": "Correct. οἶδα"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: οἶδα"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: οἶδα"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does θορυβέω mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: make an uproar"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: make an uproar"
+            },
+            {
+              "text": "make an uproar",
+              "correct": true,
+              "feedback": "Correct. θορυβέω"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: make an uproar"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “make an uproar”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: θορυβέω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: θορυβέω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: θορυβέω"
+            },
+            {
+              "text": "θορυβέω",
+              "correct": true,
+              "feedback": "Correct. θορυβέω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does μέμφομαι mean?",
+          "choices": [
+            {
+              "text": "criticize",
+              "correct": true,
+              "feedback": "Correct. μέμφομαι"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: criticize"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: criticize"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: criticize"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “criticize”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: μέμφομαι"
+            },
+            {
+              "text": "μέμφομαι",
+              "correct": true,
+              "feedback": "Correct. μέμφομαι"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: μέμφομαι"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: μέμφομαι"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κρατέω mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: master"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: master"
+            },
+            {
+              "text": "master",
+              "correct": true,
+              "feedback": "Correct. κρατέω"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: master"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “master”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: κρατέω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: κρατέω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: κρατέω"
+            },
+            {
+              "text": "κρατέω",
+              "correct": true,
+              "feedback": "Correct. κρατέω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does λαμβάνω mean?",
+          "choices": [
+            {
+              "text": "take",
+              "correct": true,
+              "feedback": "Correct. λαμβάνω"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: take"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: take"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: take"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “take”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: λαμβάνω"
+            },
+            {
+              "text": "λαμβάνω",
+              "correct": true,
+              "feedback": "Correct. λαμβάνω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: λαμβάνω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: λαμβάνω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πάσχω mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: suffer"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: suffer"
+            },
+            {
+              "text": "suffer",
+              "correct": true,
+              "feedback": "Correct. πάσχω"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: suffer"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “suffer”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: πάσχω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: πάσχω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: πάσχω"
+            },
+            {
+              "text": "πάσχω",
+              "correct": true,
+              "feedback": "Correct. πάσχω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does διδάσκω mean?",
+          "choices": [
+            {
+              "text": "teach",
+              "correct": true,
+              "feedback": "Correct. διδάσκω"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: teach"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: teach"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: teach"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “teach”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: διδάσκω"
+            },
+            {
+              "text": "διδάσκω",
+              "correct": true,
+              "feedback": "Correct. διδάσκω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: διδάσκω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: διδάσκω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does λέγω mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: say"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: say"
+            },
+            {
+              "text": "say",
+              "correct": true,
+              "feedback": "Correct. λέγω"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: say"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “say”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: λέγω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: λέγω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: λέγω"
+            },
+            {
+              "text": "λέγω",
+              "correct": true,
+              "feedback": "Correct. λέγω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does συνάπτω mean?",
+          "choices": [
+            {
+              "text": "connect",
+              "correct": true,
+              "feedback": "Correct. συνάπτω"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: connect"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: connect"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: connect"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “connect”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: συνάπτω"
+            },
+            {
+              "text": "συνάπτω",
+              "correct": true,
+              "feedback": "Correct. συνάπτω"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: συνάπτω"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: συνάπτω"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does οἴομαι mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: suppose"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: suppose"
+            },
+            {
+              "text": "suppose",
+              "correct": true,
+              "feedback": "Correct. οἴομαι"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: suppose"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “suppose”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: οἴομαι"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: οἴομαι"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: οἴομαι"
+            },
+            {
+              "text": "οἴομαι",
+              "correct": true,
+              "feedback": "Correct. οἴομαι"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does διάφορος mean?",
+          "choices": [
+            {
+              "text": "different",
+              "correct": true,
+              "feedback": "Correct. διάφορος, διάφορον"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: different"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: different"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: different"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “different”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: διάφορος"
+            },
+            {
+              "text": "διάφορος",
+              "correct": true,
+              "feedback": "Correct. διάφορος, διάφορον"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: διάφορος"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: διάφορος"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁμοίως mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: similarly"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: similarly"
+            },
+            {
+              "text": "similarly",
+              "correct": true,
+              "feedback": "Correct. ὁμοίως"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: similarly"
+            }
+          ]
+        },
+        {
+          "id": "l46-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “similarly”?",
+          "choices": [
+            {
+              "text": "ἡ συνουσία",
+              "correct": false,
+              "feedback": "Review: ὁμοίως"
+            },
+            {
+              "text": "ἡ γνῶσις",
+              "correct": false,
+              "feedback": "Review: ὁμοίως"
+            },
+            {
+              "text": "ἡ ἀκρίβεια",
+              "correct": false,
+              "feedback": "Review: ὁμοίως"
+            },
+            {
+              "text": "ὁμοίως",
+              "correct": true,
+              "feedback": "Correct. ὁμοίως"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 46 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "λέλυκα",
+          "answer": "first perfect active, first singular — 1. Active perfects in -κα and -α"
+        },
+        {
+          "prompt": "γέγραφα",
+          "answer": "second perfect active of γράφω, first singular — 1. Active perfects in -κα and -α"
+        },
+        {
+          "prompt": "πέπονθα",
+          "answer": "perfect active of πάσχω: I have suffered — 1. Active perfects in -κα and -α"
+        },
+        {
+          "prompt": "εἴληφα",
+          "answer": "perfect active of λαμβάνω: I have taken — 1. Active perfects in -κα and -α"
+        },
+        {
+          "prompt": "λέλυκα / λέλυκας / λέλυκε / λελύκαμεν / λελύκατε / λελύκασι",
+          "answer": "regular active perfect paradigm — 1. Active perfects in -κα and -α"
+        },
+        {
+          "prompt": "εἴρηκα / γέγονα / πέπραχα",
+          "answer": "I have said / become / done — 1. Active perfects in -κα and -α"
+        },
+        {
+          "prompt": "λελυκέναι",
+          "answer": "perfect active infinitive — 2. Active perfect participles and infinitives"
+        },
+        {
+          "prompt": "λελυκώς",
+          "answer": "perfect active participle, masculine nominative singular — 2. Active perfect participles and infinitives"
+        },
+        {
+          "prompt": "λελυκυῖα",
+          "answer": "perfect active participle, feminine nominative singular — 2. Active perfect participles and infinitives"
+        },
+        {
+          "prompt": "λελυκός",
+          "answer": "perfect active participle, neuter nominative/accusative singular — 2. Active perfect participles and infinitives"
+        },
+        {
+          "prompt": "λελυκότος / λελυκυίας",
+          "answer": "masculine-neuter / feminine genitive singular — 2. Active perfect participles and infinitives"
+        },
+        {
+          "prompt": "γεγραφέναι / γεγραφώς",
+          "answer": "second perfect active infinitive / masculine participle — 2. Active perfect participles and infinitives"
+        },
+        {
+          "prompt": "ἐλελύκειν",
+          "answer": "active pluperfect, first singular — 3. Active pluperfects"
+        },
+        {
+          "prompt": "ἐλελύκει",
+          "answer": "active pluperfect, third singular — 3. Active pluperfects"
+        },
+        {
+          "prompt": "ἐλελύκεσαν",
+          "answer": "active pluperfect, third plural — 3. Active pluperfects"
+        },
+        {
+          "prompt": "ἐγεγράφει",
+          "answer": "he or she had written; irregular perfect stem — 3. Active pluperfects"
+        },
+        {
+          "prompt": "ἐλελύκειν / ἐλελύκεις / ἐλελύκει / ἐλελύκεμεν / ἐλελύκετε / ἐλελύκεσαν",
+          "answer": "active pluperfect paradigm — 3. Active pluperfects"
+        },
+        {
+          "prompt": "ἐπεπόνθει / εἰρήκει",
+          "answer": "had suffered / had said — 3. Active pluperfects"
+        },
+        {
+          "prompt": "οἶσθα",
+          "answer": "you know; second singular — 4. οἶδα: perfect form, present knowledge"
+        },
+        {
+          "prompt": "ἴσμεν",
+          "answer": "we know; first plural — 4. οἶδα: perfect form, present knowledge"
+        },
+        {
+          "prompt": "εἰδέναι",
+          "answer": "to know; infinitive — 4. οἶδα: perfect form, present knowledge"
+        },
+        {
+          "prompt": "ᾔδει",
+          "answer": "he or she knew; past knowledge — 4. οἶδα: perfect form, present knowledge"
+        },
+        {
+          "prompt": "οἶδα / οἶσθα / οἶδε / ἴσμεν / ἴστε / ἴσασι",
+          "answer": "present-meaning indicative paradigm — 4. οἶδα: perfect form, present knowledge"
+        },
+        {
+          "prompt": "εἰδώς / εἰδυῖα / εἰδός",
+          "answer": "knowing; perfect-shaped participle — 4. οἶδα: perfect form, present knowledge"
+        },
+        {
+          "prompt": "εἶπεν.",
+          "answer": "He spoke; aorist event. — 5. Aspect, evidence, and sequence"
+        },
+        {
+          "prompt": "εἴρηκεν.",
+          "answer": "He has spoken; perfect with present relevance. — 5. Aspect, evidence, and sequence"
+        },
+        {
+          "prompt": "εἰρήκει.",
+          "answer": "He had spoken; prior result at a past viewpoint. — 5. Aspect, evidence, and sequence"
+        },
+        {
+          "prompt": "οἶδεν.",
+          "answer": "He knows; present state expressed by perfect-shaped form. — 5. Aspect, evidence, and sequence"
+        },
+        {
+          "prompt": "δεδίδαχεν / ἐδίδαξεν",
+          "answer": "has taught / taught — 5. Aspect, evidence, and sequence"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 46 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l46-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does οἶδα mean?",
+          "choices": [
+            {
+              "text": "know",
+              "correct": true,
+              "feedback": "Correct. know"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: know"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: know"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: know"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “know”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: οἶδα"
+            },
+            {
+              "text": "οἶδα",
+              "correct": true,
+              "feedback": "Correct. οἶδα"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: οἶδα"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: οἶδα"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does οἴομαι mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: suppose"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: suppose"
+            },
+            {
+              "text": "suppose",
+              "correct": true,
+              "feedback": "Correct. suppose"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: suppose"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “suppose”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: οἴομαι"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: οἴομαι"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: οἴομαι"
+            },
+            {
+              "text": "οἴομαι",
+              "correct": true,
+              "feedback": "Correct. οἴομαι"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does τεκμήριον mean?",
+          "choices": [
+            {
+              "text": "evidence",
+              "correct": true,
+              "feedback": "Correct. evidence"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: evidence"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: evidence"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: evidence"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “evidence”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: τεκμήριον"
+            },
+            {
+              "text": "τεκμήριον",
+              "correct": true,
+              "feedback": "Correct. τεκμήριον"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: τεκμήριον"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: τεκμήριον"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: λέλυκα",
+          "choices": [
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            },
+            {
+              "text": "first perfect active, first singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: γέγραφα",
+          "choices": [
+            {
+              "text": "first perfect active, first singular",
+              "correct": false,
+              "feedback": "Review: second perfect active of γράφω, first singular"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: second perfect active of γράφω, first singular"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: second perfect active of γράφω, first singular"
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: πέπονθα",
+          "choices": [
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "first perfect active, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of πάσχω: I have suffered"
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of πάσχω: I have suffered"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: perfect active of πάσχω: I have suffered"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: εἴληφα",
+          "choices": [
+            {
+              "text": "first perfect active, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of λαμβάνω: I have taken"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of λαμβάνω: I have taken"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: perfect active of λαμβάνω: I have taken"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Which is the perfect of γράφω?",
+          "choices": [
+            {
+              "text": "γεγράφηκα as the standard Attic form",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            },
+            {
+              "text": "ἔγραψα",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            },
+            {
+              "text": "γέγραφα",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "γράψω",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Does every active perfect contain -κ-?",
+          "choices": [
+            {
+              "text": "Yes, without exception.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "Only in plural.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "Only when the action is completed.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "No; second perfects and irregular stems are common.",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκέναι",
+          "choices": [
+            {
+              "text": "perfect active infinitive",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκώς",
+          "choices": [
+            {
+              "text": "perfect active infinitive",
+              "correct": false,
+              "feedback": "Review: perfect active participle, masculine nominative singular"
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, masculine nominative singular"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, masculine nominative singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκυῖα",
+          "choices": [
+            {
+              "text": "perfect active infinitive",
+              "correct": false,
+              "feedback": "Review: perfect active participle, feminine nominative singular"
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, feminine nominative singular"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, feminine nominative singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκός",
+          "choices": [
+            {
+              "text": "perfect active infinitive",
+              "correct": false,
+              "feedback": "Review: perfect active participle, neuter nominative/accusative singular"
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, neuter nominative/accusative singular"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, neuter nominative/accusative singular"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Choose the feminine participle in ἡ ... γυνή, “the woman who has written.”",
+          "choices": [
+            {
+              "text": "γεγραφυῖα",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "γεγραφώς",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφός",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφέναι",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "What is the contrast between λελυκέναι and λελύσθαι?",
+          "choices": [
+            {
+              "text": "Present versus future indicative.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Perfect active versus perfect middle/passive infinitive.",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "Singular versus plural command.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Both are articles.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐλελύκειν",
+          "choices": [
+            {
+              "text": "active pluperfect, third singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, first singular"
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": false,
+              "feedback": "Review: active pluperfect, first singular"
+            },
+            {
+              "text": "active pluperfect, first singular",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": false,
+              "feedback": "Review: active pluperfect, first singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐλελύκει",
+          "choices": [
+            {
+              "text": "active pluperfect, first singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third singular"
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third singular"
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third singular"
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐλελύκεσαν",
+          "choices": [
+            {
+              "text": "active pluperfect, third plural",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "active pluperfect, first singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third plural"
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third plural"
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third plural"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐγεγράφει",
+          "choices": [
+            {
+              "text": "active pluperfect, first singular",
+              "correct": false,
+              "feedback": "Review: he or she had written; irregular perfect stem"
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": false,
+              "feedback": "Review: he or she had written; irregular perfect stem"
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": false,
+              "feedback": "Review: he or she had written; irregular perfect stem"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Translate ἤδη εἰρήκει πρὶν τὸν φίλον ἐλθεῖν.",
+          "choices": [
+            {
+              "text": "He is about to speak after the friend leaves.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            },
+            {
+              "text": "He wished his friend would speak.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            },
+            {
+              "text": "He had already spoken before the friend arrived.",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "The friend must speak now.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Which stem remains in the pluperfect?",
+          "choices": [
+            {
+              "text": "only the present stem",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "only the future passive stem",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "a noun stem chosen at random",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "the perfect stem",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: οἶσθα",
+          "choices": [
+            {
+              "text": "you know; second singular",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "we know; first plural",
+              "correct": false,
+              "feedback": "Review: you know; second singular"
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": false,
+              "feedback": "Review: you know; second singular"
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": false,
+              "feedback": "Review: you know; second singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: ἴσμεν",
+          "choices": [
+            {
+              "text": "you know; second singular",
+              "correct": false,
+              "feedback": "Review: we know; first plural"
+            },
+            {
+              "text": "we know; first plural",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": false,
+              "feedback": "Review: we know; first plural"
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": false,
+              "feedback": "Review: we know; first plural"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: εἰδέναι",
+          "choices": [
+            {
+              "text": "you know; second singular",
+              "correct": false,
+              "feedback": "Review: to know; infinitive"
+            },
+            {
+              "text": "we know; first plural",
+              "correct": false,
+              "feedback": "Review: to know; infinitive"
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": false,
+              "feedback": "Review: to know; infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: ᾔδει",
+          "choices": [
+            {
+              "text": "you know; second singular",
+              "correct": false,
+              "feedback": "Review: he or she knew; past knowledge"
+            },
+            {
+              "text": "we know; first plural",
+              "correct": false,
+              "feedback": "Review: he or she knew; past knowledge"
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": false,
+              "feedback": "Review: he or she knew; past knowledge"
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Translate οἶδα ὅτι γέγραφεν.",
+          "choices": [
+            {
+              "text": "I know that he has written.",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "I saw that he will write.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            },
+            {
+              "text": "I wish that he knew.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            },
+            {
+              "text": "I am writing what he saw.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Which form means “they know”?",
+          "choices": [
+            {
+              "text": "ἴστε",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "ἴσασι",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "ἴσμεν",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "οἶσθα",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-31",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: εἶπεν.",
+          "choices": [
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": false,
+              "feedback": "Review: He spoke; aorist event."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": false,
+              "feedback": "Review: He spoke; aorist event."
+            },
+            {
+              "text": "He spoke; aorist event.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": false,
+              "feedback": "Review: He spoke; aorist event."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-32",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: εἴρηκεν.",
+          "choices": [
+            {
+              "text": "He spoke; aorist event.",
+              "correct": false,
+              "feedback": "Review: He has spoken; perfect with present relevance."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": false,
+              "feedback": "Review: He has spoken; perfect with present relevance."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": false,
+              "feedback": "Review: He has spoken; perfect with present relevance."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-33",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: εἰρήκει.",
+          "choices": [
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "He spoke; aorist event.",
+              "correct": false,
+              "feedback": "Review: He had spoken; prior result at a past viewpoint."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": false,
+              "feedback": "Review: He had spoken; prior result at a past viewpoint."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": false,
+              "feedback": "Review: He had spoken; prior result at a past viewpoint."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-34",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: οἶδεν.",
+          "choices": [
+            {
+              "text": "He spoke; aorist event.",
+              "correct": false,
+              "feedback": "Review: He knows; present state expressed by perfect-shaped form."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": false,
+              "feedback": "Review: He knows; present state expressed by perfect-shaped form."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": false,
+              "feedback": "Review: He knows; present state expressed by perfect-shaped form."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-35",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Does a perfect tense prove the claim it expresses is true?",
+          "choices": [
+            {
+              "text": "Yes, by definition.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            },
+            {
+              "text": "Only in a courtroom.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            },
+            {
+              "text": "No; tense and evidence answer different questions.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "Only in the third person.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            }
+          ]
+        },
+        {
+          "id": "l46-topic-36",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "What is lost if every perfect is translated mechanically as “did long ago”?",
+          "choices": [
+            {
+              "text": "Its subject’s grammatical gender always.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its status as a verb.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its alphabet.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its resulting state or present relevance.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 46 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-46-grammar-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l46-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: λέλυκα",
+          "choices": [
+            {
+              "text": "first perfect active, first singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: γέγραφα",
+          "choices": [
+            {
+              "text": "first perfect active, first singular",
+              "correct": false,
+              "feedback": "Review: second perfect active of γράφω, first singular"
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: second perfect active of γράφω, first singular"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: second perfect active of γράφω, first singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: πέπονθα",
+          "choices": [
+            {
+              "text": "first perfect active, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of πάσχω: I have suffered"
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of πάσχω: I have suffered"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: perfect active of πάσχω: I have suffered"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: εἴληφα",
+          "choices": [
+            {
+              "text": "first perfect active, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of λαμβάνω: I have taken"
+            },
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: perfect active of λαμβάνω: I have taken"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: perfect active of λαμβάνω: I have taken"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Which is the perfect of γράφω?",
+          "choices": [
+            {
+              "text": "γέγραφα",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "γεγράφηκα as the standard Attic form",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            },
+            {
+              "text": "ἔγραψα",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            },
+            {
+              "text": "γράψω",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Does every active perfect contain -κ-?",
+          "choices": [
+            {
+              "text": "Yes, without exception.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "No; second perfects and irregular stems are common.",
+              "correct": true,
+              "feedback": "Correct. The active perfect often adds -κα to a reduplicated stem: λέλυκα, λέλυκας, λέλυκε(ν), λελύκαμεν, λελύκατε, λελύκασι(ν). The plural endings differ from present -ομεν/-ετε. Many verbs form a second perfect in -α with stem changes rather than -κα: γέγραφα, πέπομφα, πέπραχα, πέπονθα."
+            },
+            {
+              "text": "Only in plural.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "Only when the action is completed.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκέναι",
+          "choices": [
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active infinitive",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκώς",
+          "choices": [
+            {
+              "text": "perfect active infinitive",
+              "correct": false,
+              "feedback": "Review: perfect active participle, masculine nominative singular"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, masculine nominative singular"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, masculine nominative singular"
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκυῖα",
+          "choices": [
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "perfect active infinitive",
+              "correct": false,
+              "feedback": "Review: perfect active participle, feminine nominative singular"
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, feminine nominative singular"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, feminine nominative singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκός",
+          "choices": [
+            {
+              "text": "perfect active infinitive",
+              "correct": false,
+              "feedback": "Review: perfect active participle, neuter nominative/accusative singular"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, neuter nominative/accusative singular"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active participle, neuter nominative/accusative singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Choose the feminine participle in ἡ ... γυνή, “the woman who has written.”",
+          "choices": [
+            {
+              "text": "γεγραφώς",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφός",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφυῖα",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            },
+            {
+              "text": "γεγραφέναι",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "What is the contrast between λελυκέναι and λελύσθαι?",
+          "choices": [
+            {
+              "text": "Present versus future indicative.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Singular versus plural command.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Both are articles.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Perfect active versus perfect middle/passive infinitive.",
+              "correct": true,
+              "feedback": "Correct. The active perfect infinitive ends in -κέναι or the corresponding second-perfect ending: λελυκέναι, γεγραφέναι, εἰρηκέναι. In a report it can express completed prior action with present relevance. Keep it distinct from aorist λῦσαι and future λύσειν."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐλελύκειν",
+          "choices": [
+            {
+              "text": "active pluperfect, first singular",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, first singular"
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": false,
+              "feedback": "Review: active pluperfect, first singular"
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": false,
+              "feedback": "Review: active pluperfect, first singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐλελύκει",
+          "choices": [
+            {
+              "text": "active pluperfect, first singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third singular"
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third singular"
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐλελύκεσαν",
+          "choices": [
+            {
+              "text": "active pluperfect, first singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third plural"
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third plural"
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": false,
+              "feedback": "Review: active pluperfect, third plural"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Analyze or translate: ἐγεγράφει",
+          "choices": [
+            {
+              "text": "active pluperfect, first singular",
+              "correct": false,
+              "feedback": "Review: he or she had written; irregular perfect stem"
+            },
+            {
+              "text": "active pluperfect, third singular",
+              "correct": false,
+              "feedback": "Review: he or she had written; irregular perfect stem"
+            },
+            {
+              "text": "active pluperfect, third plural",
+              "correct": false,
+              "feedback": "Review: he or she had written; irregular perfect stem"
+            },
+            {
+              "text": "he or she had written; irregular perfect stem",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Translate ἤδη εἰρήκει πρὶν τὸν φίλον ἐλθεῖν.",
+          "choices": [
+            {
+              "text": "He had already spoken before the friend arrived.",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "He is about to speak after the friend leaves.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            },
+            {
+              "text": "He wished his friend would speak.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            },
+            {
+              "text": "The friend must speak now.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Which stem remains in the pluperfect?",
+          "choices": [
+            {
+              "text": "only the present stem",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "the perfect stem",
+              "correct": true,
+              "feedback": "Correct. The pluperfect views a perfect state or completed action from a past point. Regular forms include ἐλελύκειν, ἐλελύκεις, ἐλελύκει, ἐλελύκεμεν, ἐλελύκετε, ἐλελύκεσαν; longer plural variants with -κει- also occur. The augment precedes the perfect stem when regularly expressed."
+            },
+            {
+              "text": "only the future passive stem",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "a noun stem chosen at random",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: οἶσθα",
+          "choices": [
+            {
+              "text": "we know; first plural",
+              "correct": false,
+              "feedback": "Review: you know; second singular"
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": false,
+              "feedback": "Review: you know; second singular"
+            },
+            {
+              "text": "you know; second singular",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": false,
+              "feedback": "Review: you know; second singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: ἴσμεν",
+          "choices": [
+            {
+              "text": "you know; second singular",
+              "correct": false,
+              "feedback": "Review: we know; first plural"
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": false,
+              "feedback": "Review: we know; first plural"
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": false,
+              "feedback": "Review: we know; first plural"
+            },
+            {
+              "text": "we know; first plural",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: εἰδέναι",
+          "choices": [
+            {
+              "text": "to know; infinitive",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "you know; second singular",
+              "correct": false,
+              "feedback": "Review: to know; infinitive"
+            },
+            {
+              "text": "we know; first plural",
+              "correct": false,
+              "feedback": "Review: to know; infinitive"
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": false,
+              "feedback": "Review: to know; infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Analyze or translate: ᾔδει",
+          "choices": [
+            {
+              "text": "you know; second singular",
+              "correct": false,
+              "feedback": "Review: he or she knew; past knowledge"
+            },
+            {
+              "text": "he or she knew; past knowledge",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "we know; first plural",
+              "correct": false,
+              "feedback": "Review: he or she knew; past knowledge"
+            },
+            {
+              "text": "to know; infinitive",
+              "correct": false,
+              "feedback": "Review: he or she knew; past knowledge"
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Translate οἶδα ὅτι γέγραφεν.",
+          "choices": [
+            {
+              "text": "I saw that he will write.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            },
+            {
+              "text": "I wish that he knew.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            },
+            {
+              "text": "I know that he has written.",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            },
+            {
+              "text": "I am writing what he saw.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Which form means “they know”?",
+          "choices": [
+            {
+              "text": "ἴστε",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "ἴσμεν",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "οἶσθα",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "ἴσασι",
+              "correct": true,
+              "feedback": "Correct. οἶδα is morphologically perfect but usually means “I know.” Learn οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Do not translate each occurrence “I have seen” simply because the form is historically connected with seeing. The infinitive is εἰδέναι and the participle εἰδώς, εἰδυῖα, εἰδός."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: εἶπεν.",
+          "choices": [
+            {
+              "text": "He spoke; aorist event.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": false,
+              "feedback": "Review: He spoke; aorist event."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": false,
+              "feedback": "Review: He spoke; aorist event."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": false,
+              "feedback": "Review: He spoke; aorist event."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: εἴρηκεν.",
+          "choices": [
+            {
+              "text": "He spoke; aorist event.",
+              "correct": false,
+              "feedback": "Review: He has spoken; perfect with present relevance."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": false,
+              "feedback": "Review: He has spoken; perfect with present relevance."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": false,
+              "feedback": "Review: He has spoken; perfect with present relevance."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: εἰρήκει.",
+          "choices": [
+            {
+              "text": "He spoke; aorist event.",
+              "correct": false,
+              "feedback": "Review: He had spoken; prior result at a past viewpoint."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": false,
+              "feedback": "Review: He had spoken; prior result at a past viewpoint."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": false,
+              "feedback": "Review: He had spoken; prior result at a past viewpoint."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Analyze or translate: οἶδεν.",
+          "choices": [
+            {
+              "text": "He spoke; aorist event.",
+              "correct": false,
+              "feedback": "Review: He knows; present state expressed by perfect-shaped form."
+            },
+            {
+              "text": "He has spoken; perfect with present relevance.",
+              "correct": false,
+              "feedback": "Review: He knows; present state expressed by perfect-shaped form."
+            },
+            {
+              "text": "He had spoken; prior result at a past viewpoint.",
+              "correct": false,
+              "feedback": "Review: He knows; present state expressed by perfect-shaped form."
+            },
+            {
+              "text": "He knows; present state expressed by perfect-shaped form.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Does a perfect tense prove the claim it expresses is true?",
+          "choices": [
+            {
+              "text": "No; tense and evidence answer different questions.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "Yes, by definition.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            },
+            {
+              "text": "Only in a courtroom.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            },
+            {
+              "text": "Only in the third person.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            }
+          ]
+        },
+        {
+          "id": "l46-grammar-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "What is lost if every perfect is translated mechanically as “did long ago”?",
+          "choices": [
+            {
+              "text": "Its subject’s grammatical gender always.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its resulting state or present relevance.",
+              "correct": true,
+              "feedback": "Correct. Compare an event, a current result, and an earlier result: εἶπεν, εἴρηκεν, εἰρήκει. English may sometimes render a Greek perfect with a simple present or past, but your analysis should retain the Greek viewpoint. “He has taught” emphasizes an action with relevance to the present assessment; “he taught” may simply advance a narrative."
+            },
+            {
+              "text": "Its status as a verb.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its alphabet.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 46 Final Quiz — Why They Are Angry",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-46-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l46-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How do listeners react to Socrates’ claims?",
+          "choices": [
+            {
+              "text": "Not all alike; some make an uproar.",
+              "correct": true,
+              "feedback": "Correct. Not all alike; some make an uproar."
+            },
+            {
+              "text": "All silently agree.",
+              "correct": false,
+              "feedback": "Review: Not all alike; some make an uproar."
+            },
+            {
+              "text": "All leave before he speaks.",
+              "correct": false,
+              "feedback": "Review: Not all alike; some make an uproar."
+            },
+            {
+              "text": "No audience appears.",
+              "correct": false,
+              "feedback": "Review: Not all alike; some make an uproar."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which separate work supplies the Critias and Alcibiades comparison?",
+          "choices": [
+            {
+              "text": "Phaedo.",
+              "correct": false,
+              "feedback": "Review: Memorabilia."
+            },
+            {
+              "text": "Memorabilia.",
+              "correct": true,
+              "feedback": "Correct. Memorabilia."
+            },
+            {
+              "text": "Iliad.",
+              "correct": false,
+              "feedback": "Review: Memorabilia."
+            },
+            {
+              "text": "Hiero.",
+              "correct": false,
+              "feedback": "Review: Memorabilia."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the passage refuse to infer from civic trauma alone?",
+          "choices": [
+            {
+              "text": "That Athens had experienced conflict.",
+              "correct": false,
+              "feedback": "Review: Every juror’s individual motive."
+            },
+            {
+              "text": "That the trial took place in Athens.",
+              "correct": false,
+              "feedback": "Review: Every juror’s individual motive."
+            },
+            {
+              "text": "Every juror’s individual motive.",
+              "correct": true,
+              "feedback": "Correct. Every juror’s individual motive."
+            },
+            {
+              "text": "That Xenophon wrote about Socrates.",
+              "correct": false,
+              "feedback": "Review: Every juror’s individual motive."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does οἶδα normally mean here?",
+          "choices": [
+            {
+              "text": "I will see.",
+              "correct": false,
+              "feedback": "Review: I know."
+            },
+            {
+              "text": "I wish.",
+              "correct": false,
+              "feedback": "Review: I know."
+            },
+            {
+              "text": "I am condemned.",
+              "correct": false,
+              "feedback": "Review: I know."
+            },
+            {
+              "text": "I know.",
+              "correct": true,
+              "feedback": "Correct. I know."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What is the relation in εἰρήκει before another person replies?",
+          "choices": [
+            {
+              "text": "He had already spoken at that past point.",
+              "correct": true,
+              "feedback": "Correct. He had already spoken at that past point."
+            },
+            {
+              "text": "He will speak tomorrow necessarily.",
+              "correct": false,
+              "feedback": "Review: He had already spoken at that past point."
+            },
+            {
+              "text": "He is now giving an order.",
+              "correct": false,
+              "feedback": "Review: He had already spoken at that past point."
+            },
+            {
+              "text": "He has no temporal relation.",
+              "correct": false,
+              "feedback": "Review: He had already spoken at that past point."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which claim needs additional evidence beyond association?",
+          "choices": [
+            {
+              "text": "That the associates met him.",
+              "correct": false,
+              "feedback": "Review: That Socrates taught all the associates’ crimes."
+            },
+            {
+              "text": "That Socrates taught all the associates’ crimes.",
+              "correct": true,
+              "feedback": "Correct. That Socrates taught all the associates’ crimes."
+            },
+            {
+              "text": "That two works can differ.",
+              "correct": false,
+              "feedback": "Review: That Socrates taught all the associates’ crimes."
+            },
+            {
+              "text": "That pronouns need interpretation.",
+              "correct": false,
+              "feedback": "Review: That Socrates taught all the associates’ crimes."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ συνουσία mean?",
+          "choices": [
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: association"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: association"
+            },
+            {
+              "text": "association",
+              "correct": true,
+              "feedback": "Correct. συνουσία, συνουσίας, ἡ"
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: association"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ γνῶσις mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: knowledge"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: knowledge"
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: knowledge"
+            },
+            {
+              "text": "knowledge",
+              "correct": true,
+              "feedback": "Correct. γνῶσις, γνώσεως, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀκρίβεια mean?",
+          "choices": [
+            {
+              "text": "precision",
+              "correct": true,
+              "feedback": "Correct. ἀκρίβεια, ἀκριβείας, ἡ"
+            },
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: precision"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: precision"
+            },
+            {
+              "text": "homeland",
+              "correct": false,
+              "feedback": "Review: precision"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πατρίς mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: homeland"
+            },
+            {
+              "text": "homeland",
+              "correct": true,
+              "feedback": "Correct. πατρίς, πατρίδος, ἡ"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: homeland"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: homeland"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ φωνή mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: utterance, voice"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: utterance, voice"
+            },
+            {
+              "text": "utterance, voice",
+              "correct": true,
+              "feedback": "Correct. φωνή, φωνῆς, ἡ"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: utterance, voice"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐλευθερία mean?",
+          "choices": [
+            {
+              "text": "association",
+              "correct": false,
+              "feedback": "Review: freedom"
+            },
+            {
+              "text": "knowledge",
+              "correct": false,
+              "feedback": "Review: freedom"
+            },
+            {
+              "text": "precision",
+              "correct": false,
+              "feedback": "Review: freedom"
+            },
+            {
+              "text": "freedom",
+              "correct": true,
+              "feedback": "Correct. ἐλευθερία, ἐλευθερίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Which is the perfect of γράφω?",
+          "choices": [
+            {
+              "text": "γέγραφα",
+              "correct": true,
+              "feedback": "Correct. γέγραφα"
+            },
+            {
+              "text": "γεγράφηκα as the standard Attic form",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            },
+            {
+              "text": "ἔγραψα",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            },
+            {
+              "text": "γράψω",
+              "correct": false,
+              "feedback": "Review: γέγραφα"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Does every active perfect contain -κ-?",
+          "choices": [
+            {
+              "text": "Yes, without exception.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "No; second perfects and irregular stems are common.",
+              "correct": true,
+              "feedback": "Correct. No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "Only in plural.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            },
+            {
+              "text": "Only when the action is completed.",
+              "correct": false,
+              "feedback": "Review: No; second perfects and irregular stems are common."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Choose the feminine participle in ἡ ... γυνή, “the woman who has written.”",
+          "choices": [
+            {
+              "text": "γεγραφώς",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφός",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφυῖα",
+              "correct": true,
+              "feedback": "Correct. γεγραφυῖα"
+            },
+            {
+              "text": "γεγραφέναι",
+              "correct": false,
+              "feedback": "Review: γεγραφυῖα"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "What is the contrast between λελυκέναι and λελύσθαι?",
+          "choices": [
+            {
+              "text": "Present versus future indicative.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Singular versus plural command.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Both are articles.",
+              "correct": false,
+              "feedback": "Review: Perfect active versus perfect middle/passive infinitive."
+            },
+            {
+              "text": "Perfect active versus perfect middle/passive infinitive.",
+              "correct": true,
+              "feedback": "Correct. Perfect active versus perfect middle/passive infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Translate ἤδη εἰρήκει πρὶν τὸν φίλον ἐλθεῖν.",
+          "choices": [
+            {
+              "text": "He had already spoken before the friend arrived.",
+              "correct": true,
+              "feedback": "Correct. He had already spoken before the friend arrived."
+            },
+            {
+              "text": "He is about to speak after the friend leaves.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            },
+            {
+              "text": "He wished his friend would speak.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            },
+            {
+              "text": "The friend must speak now.",
+              "correct": false,
+              "feedback": "Review: He had already spoken before the friend arrived."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "pluperfect-active",
+          "prompt": "Which stem remains in the pluperfect?",
+          "choices": [
+            {
+              "text": "only the present stem",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "the perfect stem",
+              "correct": true,
+              "feedback": "Correct. the perfect stem"
+            },
+            {
+              "text": "only the future passive stem",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            },
+            {
+              "text": "a noun stem chosen at random",
+              "correct": false,
+              "feedback": "Review: the perfect stem"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Translate οἶδα ὅτι γέγραφεν.",
+          "choices": [
+            {
+              "text": "I saw that he will write.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            },
+            {
+              "text": "I wish that he knew.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            },
+            {
+              "text": "I know that he has written.",
+              "correct": true,
+              "feedback": "Correct. I know that he has written."
+            },
+            {
+              "text": "I am writing what he saw.",
+              "correct": false,
+              "feedback": "Review: I know that he has written."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "oida",
+          "prompt": "Which form means “they know”?",
+          "choices": [
+            {
+              "text": "ἴστε",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "ἴσμεν",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "οἶσθα",
+              "correct": false,
+              "feedback": "Review: ἴσασι"
+            },
+            {
+              "text": "ἴσασι",
+              "correct": true,
+              "feedback": "Correct. ἴσασι"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "Does a perfect tense prove the claim it expresses is true?",
+          "choices": [
+            {
+              "text": "No; tense and evidence answer different questions.",
+              "correct": true,
+              "feedback": "Correct. No; tense and evidence answer different questions."
+            },
+            {
+              "text": "Yes, by definition.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            },
+            {
+              "text": "Only in a courtroom.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            },
+            {
+              "text": "Only in the third person.",
+              "correct": false,
+              "feedback": "Review: No; tense and evidence answer different questions."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-contrast",
+          "prompt": "What is lost if every perfect is translated mechanically as “did long ago”?",
+          "choices": [
+            {
+              "text": "Its subject’s grammatical gender always.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its resulting state or present relevance.",
+              "correct": true,
+              "feedback": "Correct. Its resulting state or present relevance."
+            },
+            {
+              "text": "Its status as a verb.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            },
+            {
+              "text": "Its alphabet.",
+              "correct": false,
+              "feedback": "Review: Its resulting state or present relevance."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active",
+          "prompt": "Analyze or translate: λέλυκα",
+          "choices": [
+            {
+              "text": "second perfect active of γράφω, first singular",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            },
+            {
+              "text": "perfect active of πάσχω: I have suffered",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            },
+            {
+              "text": "first perfect active, first singular",
+              "correct": true,
+              "feedback": "Correct. first perfect active, first singular"
+            },
+            {
+              "text": "perfect active of λαμβάνω: I have taken",
+              "correct": false,
+              "feedback": "Review: first perfect active, first singular"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "perfect-active-nonfinite",
+          "prompt": "Analyze or translate: λελυκέναι",
+          "choices": [
+            {
+              "text": "perfect active participle, masculine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active participle, feminine nominative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active participle, neuter nominative/accusative singular",
+              "correct": false,
+              "feedback": "Review: perfect active infinitive"
+            },
+            {
+              "text": "perfect active infinitive",
+              "correct": true,
+              "feedback": "Correct. perfect active infinitive"
+            }
+          ]
+        },
+        {
+          "id": "l46-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which sequence is chronological?",
+          "choices": [
+            {
+              "text": "Arginusae, Thirty/restoration, Socrates’ trial.",
+              "correct": true,
+              "feedback": "Correct. Arginusae, Thirty/restoration, Socrates’ trial."
+            },
+            {
+              "text": "Socrates’ trial, Arginusae, Thirty.",
+              "correct": false,
+              "feedback": "Review: Arginusae, Thirty/restoration, Socrates’ trial."
+            },
+            {
+              "text": "Thirty, Socrates’ trial, Arginusae.",
+              "correct": false,
+              "feedback": "Review: Arginusae, Thirty/restoration, Socrates’ trial."
+            },
+            {
+              "text": "All three in 399 BCE.",
+              "correct": false,
+              "feedback": "Review: Arginusae, Thirty/restoration, Socrates’ trial."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does association with Critias and Alcibiades establish by itself?",
+          "choices": [
+            {
+              "text": "The guilt of every juror.",
+              "correct": false,
+              "feedback": "Review: An association requiring analysis, not proof Socrates taught their crimes."
+            },
+            {
+              "text": "An association requiring analysis, not proof Socrates taught their crimes.",
+              "correct": true,
+              "feedback": "Correct. An association requiring analysis, not proof Socrates taught their crimes."
+            },
+            {
+              "text": "A new formal charge in the Apology automatically.",
+              "correct": false,
+              "feedback": "Review: An association requiring analysis, not proof Socrates taught their crimes."
+            },
+            {
+              "text": "A complete explanation of every vote.",
+              "correct": false,
+              "feedback": "Review: An association requiring analysis, not proof Socrates taught their crimes."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Where does that comparison appear in the lesson’s sources?",
+          "choices": [
+            {
+              "text": "David’s painting.",
+              "correct": false,
+              "feedback": "Review: Memorabilia, separately from Apology."
+            },
+            {
+              "text": "Hiero alone.",
+              "correct": false,
+              "feedback": "Review: Memorabilia, separately from Apology."
+            },
+            {
+              "text": "Memorabilia, separately from Apology.",
+              "correct": true,
+              "feedback": "Correct. Memorabilia, separately from Apology."
+            },
+            {
+              "text": "A recovered jury ballot.",
+              "correct": false,
+              "feedback": "Review: Memorabilia, separately from Apology."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How should claims about individual juror motives be handled?",
+          "choices": [
+            {
+              "text": "As identical for everyone.",
+              "correct": false,
+              "feedback": "Review: With uncertainty unless evidence supports them."
+            },
+            {
+              "text": "As fully revealed by a noisy reaction.",
+              "correct": false,
+              "feedback": "Review: With uncertainty unless evidence supports them."
+            },
+            {
+              "text": "As known from a perfect verb alone.",
+              "correct": false,
+              "feedback": "Review: With uncertainty unless evidence supports them."
+            },
+            {
+              "text": "With uncertainty unless evidence supports them.",
+              "correct": true,
+              "feedback": "Correct. With uncertainty unless evidence supports them."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which category differs from a formal charge?",
+          "choices": [
+            {
+              "text": "A conjecture about resentment.",
+              "correct": true,
+              "feedback": "Correct. A conjecture about resentment."
+            },
+            {
+              "text": "The wording of an accusation.",
+              "correct": false,
+              "feedback": "Review: A conjecture about resentment."
+            },
+            {
+              "text": "A documented allegation.",
+              "correct": false,
+              "feedback": "Review: A conjecture about resentment."
+            },
+            {
+              "text": "A charge identified as such.",
+              "correct": false,
+              "feedback": "Review: A conjecture about resentment."
+            }
+          ]
+        },
+        {
+          "id": "l46-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the sorting activity practice?",
+          "choices": [
+            {
+              "text": "Replacing evidence with reputation.",
+              "correct": false,
+              "feedback": "Review: Separating charge, association, explanation, and conjecture."
+            },
+            {
+              "text": "Separating charge, association, explanation, and conjecture.",
+              "correct": true,
+              "feedback": "Correct. Separating charge, association, explanation, and conjecture."
+            },
+            {
+              "text": "Combining all works into one speech.",
+              "correct": false,
+              "feedback": "Review: Separating charge, association, explanation, and conjecture."
+            },
+            {
+              "text": "Assigning one motive to every listener.",
+              "correct": false,
+              "feedback": "Review: Separating charge, association, explanation, and conjecture."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-45",
+    "title": "The Defense of Socrates",
+    "fallbackUrl": "lesson.html?lesson=45&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-47",
+    "title": "The Trial of Socrates",
+    "fallbackUrl": "lesson.html?lesson=47&page=1"
+  },
+  "contentRevision": "lesson-46-module-4-v1"
+}

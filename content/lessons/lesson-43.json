@@ -1,0 +1,4540 @@
+{
+  "id": "lesson-43",
+  "number": 43,
+  "title": "Law and Fear",
+  "greekTitle": "Ὅταν ὁ φόβος τὸν νόμον λύῃ",
+  "scope": "Present optatives of -μι verbs; Aorist optatives and voice; Historical reporting and retained mood; Indirect questions and reconstructing direct speech",
+  "theme": "An altar and a list of names",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 25β",
+  "banner": {
+    "image": "assets/lesson-43-banner.png",
+    "alt": "Educational reconstruction: Theramenes appeals at the council altar while officials and guards stand apart; show the danger without violence.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-43-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-43-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-43-page-3",
+      "title": "An altar and a list of names",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ὁ κατάλογος",
+          "english": "list",
+          "dictionaryForm": "κατάλογος, καταλόγου, ὁ",
+          "lemma": "κατάλογος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ βουλευτής",
+          "english": "councilor",
+          "dictionaryForm": "βουλευτής, βουλευτοῦ, ὁ",
+          "lemma": "βουλευτής",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ βωμός",
+          "english": "altar",
+          "dictionaryForm": "βωμός, βωμοῦ, ὁ",
+          "lemma": "βωμός",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὀλιγαρχία",
+          "english": "oligarchy",
+          "dictionaryForm": "ὀλιγαρχία, ὀλιγαρχίας, ἡ",
+          "lemma": "ὀλιγαρχία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀσφάλεια",
+          "english": "security",
+          "dictionaryForm": "ἀσφάλεια, ἀσφαλείας, ἡ",
+          "lemma": "ἀσφάλεια",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ σιωπή",
+          "english": "silence",
+          "dictionaryForm": "σιωπή, σιωπῆς, ἡ",
+          "lemma": "σιωπή",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ὑπηρέτης",
+          "english": "attendant",
+          "dictionaryForm": "ὑπηρέτης, ὑπηρέτου, ὁ",
+          "lemma": "ὑπηρέτης",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἧττα",
+          "english": "defeat",
+          "dictionaryForm": "ἧττα, ἥττης, ἡ",
+          "lemma": "ἧττα",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ φυλακή",
+          "english": "protection",
+          "dictionaryForm": "φυλακή, φυλακῆς, ἡ",
+          "lemma": "φυλακή",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐξαλείφω",
+          "english": "erase",
+          "dictionaryForm": "ἐξαλείφω",
+          "lemma": "ἐξαλείφω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καταφεύγω",
+          "english": "take refuge",
+          "dictionaryForm": "καταφεύγω",
+          "lemma": "καταφεύγω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "παραδίδωμι",
+          "english": "hand over",
+          "dictionaryForm": "παραδίδωμι",
+          "lemma": "παραδίδωμι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀποσπάω",
+          "english": "drag away",
+          "dictionaryForm": "ἀποσπάω",
+          "lemma": "ἀποσπάω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡσυχάζω",
+          "english": "remain quiet",
+          "dictionaryForm": "ἡσυχάζω",
+          "lemma": "ἡσυχάζω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἔνοπλος",
+          "english": "armed",
+          "dictionaryForm": "ἔνοπλος, ἔνοπλον",
+          "lemma": "ἔνοπλος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐναντίος",
+          "english": "opposed",
+          "dictionaryForm": "ἐναντίος, ἐναντία, ἐναντίον",
+          "lemma": "ἐναντίος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐξαίφνης",
+          "english": "suddenly",
+          "dictionaryForm": "ἐξαίφνης",
+          "lemma": "ἐξαίφνης",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "εὐμενῶς",
+          "english": "favorably",
+          "dictionaryForm": "εὐμενῶς",
+          "lemma": "εὐμενῶς",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "ἡ βουλή",
+          "english": "council",
+          "dictionaryForm": "βουλή, βουλῆς, ἡ",
+          "lemma": "βουλή",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κολάζω",
+          "english": "punish",
+          "dictionaryForm": "κολάζω",
+          "lemma": "κολάζω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὅταν ὁ φόβος τὸν νόμον λύῃ",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. 307 Greek words in 6 paragraphs.",
+      "Based on Hellenica 2.3.50–56, with context from 2.3.15–20. The indirect questions and reporting frames are teaching compositions. Theramenes was himself an oligarch; scrutiny of his seizure does not absolve his earlier political conduct.",
+      "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Μετὰ τὴν τῶν Ἀθηναίων ἧτταν οἱ Τριάκοντα τῆς πόλεως ἦρχον. ἐν δὲ τούτοις Κριτίας καὶ Θηραμένης ἦσαν. οὐ περὶ πάντων ὡμολόγουν· ὁ Θηραμένης τὴν ἀρχὴν στενωτέραν τοῦ προσήκοντος ἐνόμιζεν, ὁ δὲ Κριτίας αὐτὸν ἐμπόδιον ἑαυτῷ ἡγεῖτο. οἱ μὲν γὰρ ἄρχοντες πλείω δύναμιν ἐζήτουν, οἱ δὲ πολῖται ἐφοβοῦντο μὴ ἕκαστος αὐτῶν ὁ ἑξῆς ἀπολοίτο.",
+        "gloss": [
+          {
+            "greek": "ἧτταν",
+            "english": "defeat"
+          },
+          {
+            "greek": "Τριάκοντα",
+            "english": "the Thirty"
+          },
+          {
+            "greek": "στενωτέραν",
+            "english": "narrower"
+          },
+          {
+            "greek": "ἐμπόδιον",
+            "english": "obstacle"
+          },
+          {
+            "greek": "ἑξῆς",
+            "english": "next"
+          },
+          {
+            "greek": "ἀπολοίτο",
+            "english": "might perish; optative after past fear"
+          }
+        ]
+      },
+      {
+        "greek": "Κατάλογος τρισχιλίων πολιτῶν ἦν. τοὺς μὲν ἐν τῷ καταλόγῳ ὄντας τὴν βουλὴν πρὸ τοῦ θανάτου κρίνειν ἔδει, τοὺς δὲ ἔξω οἱ Τριάκοντα ἀποκτείνειν ἐδύναντο. ὁ κατάλογος οὖν οὐκ ἦν τῶν ὀνομάτων γραφὴ μόνον, ἀλλὰ πρὸς τὴν ἀσφάλειαν διαφορὰν ἐποίει. ὁ Θηραμένης τῶν ἐν τῷ καταλόγῳ ἦν καὶ τὴν κρίσιν τῆς βουλῆς ἠξίου.",
+        "gloss": [
+          {
+            "greek": "κατάλογος",
+            "english": "list"
+          },
+          {
+            "greek": "τρισχιλίων",
+            "english": "three thousand"
+          },
+          {
+            "greek": "βουλὴ",
+            "english": "council"
+          },
+          {
+            "greek": "ἔξω",
+            "english": "outside"
+          },
+          {
+            "greek": "ἀσφάλειαν",
+            "english": "safety"
+          },
+          {
+            "greek": "ἠξίου",
+            "english": "claimed, demanded"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κριτίας, ὁρῶν τὴν βουλὴν εὐμενῶς πρὸς Θηραμένην ἔχουσαν, οὐκ ἐβούλετο κινδυνεύειν τὴν ψῆφον. ἔνοπλοι δὲ ἄνδρες παρῆσαν. ἔλεγεν ὅτι τοῦτο τῶν ἀρχόντων ἔργον εἴη, τοὺς τῇ ὀλιγαρχίᾳ ἐναντίους κολάζειν. οἱ δὲ βουλευταὶ ἐσκόπουν τί ποιήσειαν καὶ πῶς τῷ ἀνδρὶ βοηθήσειαν. τὸν μὲν λόγον ἤκουον, τὴν δὲ τῶν ὅπλων δύναμιν ἑώρων.",
+        "gloss": [
+          {
+            "greek": "εὐμενῶς",
+            "english": "favorably"
+          },
+          {
+            "greek": "ἔνοπλοι",
+            "english": "armed"
+          },
+          {
+            "greek": "εἴη",
+            "english": "was; oblique optative"
+          },
+          {
+            "greek": "βουλευταὶ",
+            "english": "councilors"
+          },
+          {
+            "greek": "ποιήσειαν",
+            "english": "should do; aorist optative"
+          },
+          {
+            "greek": "βοηθήσειαν",
+            "english": "might help; aorist optative"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ οὖν Κριτίας τὸ τοῦ Θηραμένους ὄνομα ἐκ τοῦ καταλόγου ἐξήλειψεν. ἔπειτα ἔλεγεν ὅτι τοῖς Τριάκοντα ἐξείη τοῦτον ἀποκτείνειν. οὕτως ὁ ἄνθρωπος, ὃς πρότερον κρίσεως ἐτύγχανεν, ἐξαίφνης ἄνευ τῆς αὐτῆς φυλακῆς ἦν. ἡ γραφὴ μετεβλήθη, ἀλλὰ τὸ πρᾶγμα οὐ διὰ τοῦτο δικαιότερον ἐγένετο. τὴν γὰρ ἀσφάλειαν ὁ κατηγορῶν αὐτὸς ἀφῄρει.",
+        "gloss": [
+          {
+            "greek": "ἐξήλειψεν",
+            "english": "erased"
+          },
+          {
+            "greek": "ἐξείη",
+            "english": "was permitted; optative of ἔξεστι"
+          },
+          {
+            "greek": "ἐτύγχανεν",
+            "english": "enjoyed, obtained; with genitive"
+          },
+          {
+            "greek": "ἐξαίφνης",
+            "english": "suddenly"
+          },
+          {
+            "greek": "μετεβλήθη",
+            "english": "was changed"
+          },
+          {
+            "greek": "ἀφῄρει",
+            "english": "was removing"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Θηραμένης πρὸς τὸν βωμὸν κατέφυγεν καὶ τοὺς θεοὺς καὶ τοὺς ἀνθρώπους ἐπεκαλεῖτο. ὁ δὲ Κριτίας τοῖς Ἕνδεκα παρέδωκεν αὐτόν. οἱ ὑπηρέται ἀπὸ τοῦ βωμοῦ ἀπέσπων, οἱ δὲ βουλευταὶ ἡσύχαζον φοβούμενοι. ὁ συγγραφεὺς τὴν ἀδικίαν οὐ νόμῳ γεγραμμένῳ μόνον δείκνυσιν, ἀλλὰ καὶ τοῖς σώμασι καὶ τῇ σιωπῇ τῶν παρόντων.",
+        "gloss": [
+          {
+            "greek": "βωμὸν",
+            "english": "altar"
+          },
+          {
+            "greek": "κατέφυγεν",
+            "english": "fled for refuge"
+          },
+          {
+            "greek": "ἐπεκαλεῖτο",
+            "english": "called upon"
+          },
+          {
+            "greek": "Ἕνδεκα",
+            "english": "the Eleven, officials"
+          },
+          {
+            "greek": "ἀπέσπων",
+            "english": "were dragging away"
+          },
+          {
+            "greek": "σιωπῇ",
+            "english": "silence"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν τῇ ἡμετέρᾳ ἀσκήσει ἐρωτῶμεν τίς τὴν ψῆφον δοίη, τίς τὸν νόμον θείη, καὶ τίς τὸν φυλακῆς δεόμενον ἀφείη. ταῦτα οὐ νέαι μαρτυρίαι εἰσίν, ἀλλὰ τῆς διηγήσεως ἐξέτασις. ἡ γὰρ ὀρθὴ γραμματικὴ δεῖ καὶ τοὺς ποιοῦντας σαφεῖς ποιεῖν. μὴ τὸ «ἐκρίθη» λέγωμεν οὕτως, ὥστε κρύπτειν τίς ἔκρινεν καὶ τίς τὴν κρίσιν ἐκώλυσεν.",
+        "gloss": [
+          {
+            "greek": "δοίη",
+            "english": "might give; aorist optative of δίδωμι"
+          },
+          {
+            "greek": "θείη",
+            "english": "might establish; of τίθημι"
+          },
+          {
+            "greek": "ἀφείη",
+            "english": "might release; of ἀφίημι"
+          },
+          {
+            "greek": "δεόμενον",
+            "english": "needing"
+          },
+          {
+            "greek": "ἐκρίθη",
+            "english": "was judged"
+          },
+          {
+            "greek": "ἐκώλυσεν",
+            "english": "prevented"
+          }
+        ]
+      }
+    ],
+    "translation": "After the Athenians’ defeat the Thirty ruled the city. Critias and Theramenes were among them. They did not agree about everything: Theramenes thought the government narrower than it should be, while Critias considered him an obstacle. The rulers sought more power, and the citizens feared that each might be the next to perish.\n\nThere was a list of three thousand citizens. Those on the list had to be judged by the council before execution, while the Thirty could kill those outside it. The list was therefore not merely a record of names: it made a difference to safety. Theramenes was among those on it and claimed judgment by the council.\n\nCritias, seeing the council favorably disposed toward Theramenes, did not wish to risk the vote. Armed men were present. He said that it was the rulers’ duty to punish opponents of the oligarchy. The councilors considered what they should do and how they might help the man. They heard the argument, but saw the power of weapons.\n\nCritias therefore erased Theramenes’ name from the list. He then said that the Thirty were permitted to kill him. Thus the man who previously enjoyed a right to judgment suddenly lacked the same protection. The record was changed, but the act did not thereby become more just. For the accuser himself was removing the protection.\n\nTheramenes fled to the altar and called on gods and humans. Critias handed him over to the Eleven. The attendants dragged him from the altar, while the councilors remained quiet out of fear. The writer shows injustice not only through a written rule but also through the bodies and silence of those present.\n\nIn our exercise we ask who might give the vote, who might establish the rule, and who might release the person needing protection. These are not new testimonies but an examination of the narrative. For accurate grammar should also make the agents clear. Let us not say “he was judged” in a way that conceals who judged and who prevented judgment.\n",
+    "sourceCitation": "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
+    "notesMarkdown": "Based on Hellenica 2.3.50–56, with context from 2.3.15–20. The indirect questions and reporting frames are teaching compositions. Theramenes was himself an oligarch; scrutiny of his seizure does not absolve his earlier political conduct."
+  },
+  "wordStudy": {
+    "label": "Word Study — Lists, rules, and writing",
+    "blocks": [
+      {
+        "title": "Lists, rules, and writing",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. γράφω means “write”; κατάλογος means “list”; ἐξαλείφω means “erase”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "γράφω",
+            "english": "write"
+          },
+          {
+            "greek": "κατάλογος",
+            "english": "list"
+          },
+          {
+            "greek": "ἐξαλείφω",
+            "english": "erase"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 25β. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Optatives of the assigned -μι verbs, with present and aorist stems and distinctions in formation.",
+      "Optative in indirect statements after historical reporting verbs; explain retention of original mood where appropriate.",
+      "Indirect questions in secondary sequence: question words, speaker reference, and mood choices.",
+      "Recover a plausible direct utterance from a report without assuming that every reported version has only one possible original."
+    ],
+    "sections": [
+      {
+        "id": "mi-optative-present",
+        "title": "1. Present optatives of -μι verbs",
+        "practiceTopic": "mi-optative-present",
+        "body": [
+          "The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible.",
+          "Singular endings commonly follow -ίην, -ίης, -ίη; plural forms include διδοῖμεν/διδοίημεν and τιθεῖμεν/τιθείημεν. Compare ἱσταῖμεν and ἱεῖμεν. Context tells whether the verb means giving, placing, setting up, or sending. A potential statement adds ἄν; a subordinate oblique optative does not acquire it automatically."
+        ],
+        "table": {
+          "title": "1. Present optatives of -μι verbs",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "διδοίη",
+              "present active optative of δίδωμι, third singular"
+            ],
+            [
+              "τιθείη",
+              "present active optative of τίθημι, third singular"
+            ],
+            [
+              "ἱσταίη",
+              "present active optative of ἵστημι, third singular"
+            ],
+            [
+              "ἱείη",
+              "present active optative of ἵημι, third singular"
+            ],
+            [
+              "διδοίην / διδοίης / διδοίη / διδοῖμεν / διδοῖτε / διδοῖεν",
+              "present active optative of δίδωμι"
+            ],
+            [
+              "τιθείην / τιθείης / τιθείη / τιθεῖμεν / τιθεῖτε / τιθεῖεν",
+              "present active optative of τίθημι"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Which stem identifies a present rather than aorist form?",
+            "answer": "διδο- in διδοίη"
+          },
+          {
+            "prompt": "Translate ἔλεγεν ὅτι δῶρα διδοίη.",
+            "answer": "He said that he was giving gifts."
+          }
+        ]
+      },
+      {
+        "id": "mi-optative-aorist",
+        "title": "2. Aorist optatives and voice",
+        "practiceTopic": "mi-optative-aorist",
+        "body": [
+          "The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common.",
+          "Middle forms include δοίμην and θείμην, with third singular δοῖτο and θεῖτο. A form’s voice and lexical construction matter: θείη may mean “might establish,” while θεῖτο may mean “might adopt for himself.” Do not confuse the active optative θείη with passive ἐτέθη, or add the indicative aorist -κ- to δοίη."
+        ],
+        "table": {
+          "title": "2. Aorist optatives and voice",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "δοίη",
+              "aorist active optative of δίδωμι, third singular"
+            ],
+            [
+              "θείη",
+              "aorist active optative of τίθημι, third singular"
+            ],
+            [
+              "σταίη",
+              "intransitive aorist active optative of ἵστημι, third singular"
+            ],
+            [
+              "ἀφείη",
+              "aorist active optative of ἀφίημι, third singular"
+            ],
+            [
+              "δοίην / δοίης / δοίη / δοῖμεν / δοῖτε / δοῖεν",
+              "aorist active optative of δίδωμι"
+            ],
+            [
+              "θείμην / θεῖο / θεῖτο / θείμεθα / θεῖσθε / θεῖντο",
+              "aorist middle optative of τίθημι"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Choose “he might adopt a law for himself.”",
+            "answer": "νόμον θεῖτο ἄν"
+          },
+          {
+            "prompt": "Which distinction is correct?",
+            "answer": "τιθείη is present; θείη is aorist."
+          }
+        ]
+      },
+      {
+        "id": "historical-statements",
+        "title": "3. Historical reporting and retained mood",
+        "practiceTopic": "historical-statements",
+        "body": [
+          "In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past.",
+          "The original mood can be retained: ἔλεγεν ὅτι τοῦτο δίκαιόν ἐστιν. Mixed reporting is possible, so annotate each clause rather than enforcing a mechanical rule. An accusative-and-infinitive report remains an infinitive construction; it is not converted to an optative solely because φησί becomes ἔφη."
+        ],
+        "table": {
+          "title": "3. Historical reporting and retained mood",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἔλεγεν ὅτι δίκαιος εἴη.",
+              "He said that he was just; optative substitution."
+            ],
+            [
+              "ἔλεγεν ὅτι δίκαιός ἐστιν.",
+              "He said that he is just; retained indicative."
+            ],
+            [
+              "ἔφη τὸν ἄνδρα δίκαιον εἶναι.",
+              "He said that the man was just; infinitive retained."
+            ],
+            [
+              "ἔλεγεν ὅτι ὁ Κριτίας τὸν νόμον θείη.",
+              "He said that Critias had established the rule; aorist oblique optative."
+            ],
+            [
+              "φησὶ δώσειν → ἔφη δώσειν",
+              "future infinitive stays future relative to the report"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἔλεγεν ὅτι δίκαιος εἴη.",
+            "english": "He said that he was just; optative substitution."
+          },
+          {
+            "greek": "ἔλεγεν ὅτι δίκαιός ἐστιν.",
+            "english": "He said that he is just; retained indicative."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What changes obligatorily when φησί becomes ἔφη in an infinitive report?",
+            "answer": "The reporting time; the infinitive need not change."
+          },
+          {
+            "prompt": "Does reporting Critias’ legal claim establish its justice?",
+            "answer": "No; attribution and evaluation are distinct."
+          }
+        ]
+      },
+      {
+        "id": "historical-questions",
+        "title": "4. Indirect questions and reconstructing direct speech",
+        "practiceTopic": "historical-questions",
+        "body": [
+          "After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending.",
+          "Restore direct speech cautiously. A reported optative may reflect several original constructions, and pronouns depend on context. In ἠρώτα εἰ ὁ Κριτίας αὐτὸν ἀφείη, identify the person represented by αὐτόν before writing a direct question. The exercise may permit more than one defensible restoration; explain your choice."
+        ],
+        "table": {
+          "title": "4. Indirect questions and reconstructing direct speech",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἠρώτα τί δοίη.",
+              "He asked what he should give."
+            ],
+            [
+              "ἐσκόπει τίνα νόμον θείη.",
+              "He considered what law he should establish."
+            ],
+            [
+              "ἠρώτα εἰ ὁ Κριτίας αὐτὸν ἀφείη.",
+              "He asked whether Critias would release him, in this context."
+            ],
+            [
+              "ἠρώτα πῶς τοῦτο γένοιτο.",
+              "He asked how this happened / might happen, depending on the original question."
+            ],
+            [
+              "τί δῶ; → ἠρώτα τί δοίη.",
+              "deliberative question shifted to historical reporting"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἠρώτα τί δοίη.",
+            "english": "He asked what he should give."
+          },
+          {
+            "greek": "ἐσκόπει τίνα νόμον θείη.",
+            "english": "He considered what law he should establish."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What must precede restoring “him” as “me” in direct speech?",
+            "answer": "Identify who originally spoke and whom αὐτόν denotes."
+          },
+          {
+            "prompt": "Can every oblique optative be restored to one uniquely certain direct form?",
+            "answer": "No; context may leave alternatives."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Present optatives of -μι verbs: The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible.",
+        "2. Aorist optatives and voice: The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common.",
+        "3. Historical reporting and retained mood: In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past.",
+        "4. Indirect questions and reconstructing direct speech: After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+      ]
+    }
+  },
+  "culture": {
+    "title": "An altar and a list of names",
+    "banner": {
+      "image": "assets/lesson-43-culture-banner.png",
+      "alt": "Educational reconstruction: A separate reconstruction of the council chamber and a writing tablet representing the citizen list.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Hellenica",
+        "body": [
+          "The selected episode takes us to the rule of the Thirty in 404–403 BCE. Critias and Theramenes belong to the ruling group, but their conflict exposes how quickly a legal protection can be removed. Read names, institutions, and the sequence of actions carefully. The narrative’s fear and silence matter alongside its explicit legal language.",
+          "The seven books cover Greek affairs from 411 to 362 BCE, beginning where Thucydides’ unfinished history breaks off. They follow Athens’ defeat in the Peloponnesian War, oligarchy and democratic restoration, Spartan ascendancy, shifting alliances, and the rise of Thebes. The closing battle at Mantinea leaves uncertainty rather than a simple declaration that one city has permanently won.",
+          "Xenophon organizes political and military events through commanders, assemblies, negotiations, speeches, and judgments about conduct. His attention is selective, and his experience and sympathies shape the narrative. Ask what a speech tries to accomplish, whose actions receive explanation, and what a compressed transition leaves unclear. A historian’s ordering of events can be as significant as an explicit verdict.",
+          "Reading invitation: start with Book 2, chapter 3, on the Thirty, then follow chapter 4 through resistance and restoration. Compare the settlement with the later Eleusis episode instead of stopping at the hopeful return to Athens. Our module’s question has grown from control of appetite to restraint in civic life: what practices let former enemies inhabit one city? Read the complete work as a sequence of difficult choices, not a storehouse of uncomplicated moral examples.",
+          "Distinguish membership in the governing group from agreement with every action its leaders take."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Hellenica — English translation",
+            "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+          },
+          {
+            "title": "Wikipedia: Hellenica",
+            "url": "https://en.wikipedia.org/wiki/Hellenica"
+          }
+        ]
+      },
+      {
+        "title": "Athens under the Thirty, 404–403 BCE",
+        "body": [
+          "After Athens’ defeat in the Peloponnesian War, the Thirty imposed an oligarchic regime. Xenophon describes restrictions, killings, and conflict within the ruling group. Theramenes was himself an oligarch and a participant in this political world. Examining the injustice of his seizure does not require making him innocent of all earlier conduct.",
+          "The list of Three Thousand mattered because it distinguished those with a procedural protection from those whom the Thirty could kill on their own authority. A list that looks administrative can determine whose life receives a hearing."
+        ]
+      },
+      {
+        "title": "A protection removed by the accuser",
+        "body": [
+          "Critias sees that the council may favor Theramenes and removes his name from the list. He then invokes the rule applicable to people outside it. The important sequence is protection, unilateral removal, and a claimed legal consequence. A change in paperwork does not make coercion disappear.",
+          "Theramenes appeals at the altar, but armed force and fear overcome the protection he seeks. The councilors’ silence is part of the scene. Do not assume silence means approval when the narrative also presents threats and weapons. The image reconstructs a council setting and deliberately avoids graphic violence."
+        ]
+      },
+      {
+        "title": "Identify each removed safeguard",
+        "body": [
+          "Make a sequence of the protections lost: council judgment, inclusion on the list, and appeal at the altar. For each, name the person who acts and the people who could not or did not intervene. Rewrite “Theramenes was condemned” with enough active subjects to show the process.",
+          "Translate the historical reports and indirect questions, then restore one into possible direct speech. Explain any ambiguity rather than inventing a unique original wording. Finish with the final two paragraphs as a sustained translation and a sentence distinguishing a legal claim from a just procedure."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "When did the Thirty rule Athens?",
+        "answer": "404–403 BCE."
+      },
+      {
+        "prompt": "What did inclusion on the list provide in this account?",
+        "answer": "A procedural protection involving council judgment."
+      },
+      {
+        "prompt": "What is critical about Critias’ action?",
+        "answer": "The accuser removes the protection before invoking its absence."
+      },
+      {
+        "prompt": "Why not call Theramenes an uncomplicated innocent hero?",
+        "answer": "He was himself an oligarch with a political record."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Hellenica.",
+        "Parse -μι optatives, explain indirect questions in historical sequence, and identify where a procedural claim masks coercion.",
+        "Explain the lesson’s grammar using an example from your 307-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      },
+      {
+        "title": "Read the complete Hellenica — English translation",
+        "url": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm"
+      },
+      {
+        "title": "Wikipedia: Hellenica",
+        "url": "https://en.wikipedia.org/wiki/Hellenica"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 43 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ κατάλογος",
+          "answer": "list — κατάλογος, καταλόγου, ὁ"
+        },
+        {
+          "prompt": "ἡ βουλή",
+          "answer": "council — βουλή, βουλῆς, ἡ"
+        },
+        {
+          "prompt": "ὁ βουλευτής",
+          "answer": "councilor — βουλευτής, βουλευτοῦ, ὁ"
+        },
+        {
+          "prompt": "ὁ βωμός",
+          "answer": "altar — βωμός, βωμοῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ ὀλιγαρχία",
+          "answer": "oligarchy — ὀλιγαρχία, ὀλιγαρχίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ἀσφάλεια",
+          "answer": "security — ἀσφάλεια, ἀσφαλείας, ἡ"
+        },
+        {
+          "prompt": "ἡ σιωπή",
+          "answer": "silence — σιωπή, σιωπῆς, ἡ"
+        },
+        {
+          "prompt": "ὁ ὑπηρέτης",
+          "answer": "attendant — ὑπηρέτης, ὑπηρέτου, ὁ"
+        },
+        {
+          "prompt": "ἡ ἧττα",
+          "answer": "defeat — ἧττα, ἥττης, ἡ"
+        },
+        {
+          "prompt": "ἡ φυλακή",
+          "answer": "protection — φυλακή, φυλακῆς, ἡ"
+        },
+        {
+          "prompt": "ἐξαλείφω",
+          "answer": "erase — ἐξαλείφω"
+        },
+        {
+          "prompt": "καταφεύγω",
+          "answer": "take refuge — καταφεύγω"
+        },
+        {
+          "prompt": "παραδίδωμι",
+          "answer": "hand over — παραδίδωμι"
+        },
+        {
+          "prompt": "ἀποσπάω",
+          "answer": "drag away — ἀποσπάω"
+        },
+        {
+          "prompt": "ἡσυχάζω",
+          "answer": "remain quiet — ἡσυχάζω"
+        },
+        {
+          "prompt": "κολάζω",
+          "answer": "punish — κολάζω"
+        },
+        {
+          "prompt": "ἔνοπλος",
+          "answer": "armed — ἔνοπλος, ἔνοπλον"
+        },
+        {
+          "prompt": "ἐναντίος",
+          "answer": "opposed — ἐναντίος, ἐναντία, ἐναντίον"
+        },
+        {
+          "prompt": "ἐξαίφνης",
+          "answer": "suddenly — ἐξαίφνης"
+        },
+        {
+          "prompt": "εὐμενῶς",
+          "answer": "favorably — εὐμενῶς"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 43 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l43-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κατάλογος mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": true,
+              "feedback": "Correct. κατάλογος, καταλόγου, ὁ"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: list"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: list"
+            },
+            {
+              "text": "altar",
+              "correct": false,
+              "feedback": "Review: list"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “list”?",
+          "choices": [
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ὁ κατάλογος"
+            },
+            {
+              "text": "ὁ κατάλογος",
+              "correct": true,
+              "feedback": "Correct. κατάλογος, καταλόγου, ὁ"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ὁ κατάλογος"
+            },
+            {
+              "text": "ὁ βωμός",
+              "correct": false,
+              "feedback": "Review: ὁ κατάλογος"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βουλή mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: council"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: council"
+            },
+            {
+              "text": "council",
+              "correct": true,
+              "feedback": "Correct. βουλή, βουλῆς, ἡ"
+            },
+            {
+              "text": "altar",
+              "correct": false,
+              "feedback": "Review: council"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “council”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡ βουλή"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡ βουλή"
+            },
+            {
+              "text": "ὁ βωμός",
+              "correct": false,
+              "feedback": "Review: ἡ βουλή"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": true,
+              "feedback": "Correct. βουλή, βουλῆς, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ βουλευτής mean?",
+          "choices": [
+            {
+              "text": "councilor",
+              "correct": true,
+              "feedback": "Correct. βουλευτής, βουλευτοῦ, ὁ"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: councilor"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: councilor"
+            },
+            {
+              "text": "altar",
+              "correct": false,
+              "feedback": "Review: councilor"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “councilor”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ὁ βουλευτής"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": true,
+              "feedback": "Correct. βουλευτής, βουλευτοῦ, ὁ"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ὁ βουλευτής"
+            },
+            {
+              "text": "ὁ βωμός",
+              "correct": false,
+              "feedback": "Review: ὁ βουλευτής"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ βωμός mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: altar"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: altar"
+            },
+            {
+              "text": "altar",
+              "correct": true,
+              "feedback": "Correct. βωμός, βωμοῦ, ὁ"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: altar"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “altar”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ὁ βωμός"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ὁ βωμός"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ὁ βωμός"
+            },
+            {
+              "text": "ὁ βωμός",
+              "correct": true,
+              "feedback": "Correct. βωμός, βωμοῦ, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὀλιγαρχία mean?",
+          "choices": [
+            {
+              "text": "oligarchy",
+              "correct": true,
+              "feedback": "Correct. ὀλιγαρχία, ὀλιγαρχίας, ἡ"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: oligarchy"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: oligarchy"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: oligarchy"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “oligarchy”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡ ὀλιγαρχία"
+            },
+            {
+              "text": "ἡ ὀλιγαρχία",
+              "correct": true,
+              "feedback": "Correct. ὀλιγαρχία, ὀλιγαρχίας, ἡ"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἡ ὀλιγαρχία"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡ ὀλιγαρχία"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀσφάλεια mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: security"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: security"
+            },
+            {
+              "text": "security",
+              "correct": true,
+              "feedback": "Correct. ἀσφάλεια, ἀσφαλείας, ἡ"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: security"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “security”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσφάλεια"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσφάλεια"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡ ἀσφάλεια"
+            },
+            {
+              "text": "ἡ ἀσφάλεια",
+              "correct": true,
+              "feedback": "Correct. ἀσφάλεια, ἀσφαλείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ σιωπή mean?",
+          "choices": [
+            {
+              "text": "silence",
+              "correct": true,
+              "feedback": "Correct. σιωπή, σιωπῆς, ἡ"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: silence"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: silence"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: silence"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “silence”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡ σιωπή"
+            },
+            {
+              "text": "ἡ σιωπή",
+              "correct": true,
+              "feedback": "Correct. σιωπή, σιωπῆς, ἡ"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἡ σιωπή"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡ σιωπή"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ὑπηρέτης mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: attendant"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: attendant"
+            },
+            {
+              "text": "attendant",
+              "correct": true,
+              "feedback": "Correct. ὑπηρέτης, ὑπηρέτου, ὁ"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: attendant"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “attendant”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ὁ ὑπηρέτης"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ὁ ὑπηρέτης"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ὁ ὑπηρέτης"
+            },
+            {
+              "text": "ὁ ὑπηρέτης",
+              "correct": true,
+              "feedback": "Correct. ὑπηρέτης, ὑπηρέτου, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἧττα mean?",
+          "choices": [
+            {
+              "text": "defeat",
+              "correct": true,
+              "feedback": "Correct. ἧττα, ἥττης, ἡ"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: defeat"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: defeat"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: defeat"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “defeat”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡ ἧττα"
+            },
+            {
+              "text": "ἡ ἧττα",
+              "correct": true,
+              "feedback": "Correct. ἧττα, ἥττης, ἡ"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἡ ἧττα"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡ ἧττα"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ φυλακή mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: protection"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: protection"
+            },
+            {
+              "text": "protection",
+              "correct": true,
+              "feedback": "Correct. φυλακή, φυλακῆς, ἡ"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: protection"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “protection”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡ φυλακή"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἡ φυλακή"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡ φυλακή"
+            },
+            {
+              "text": "ἡ φυλακή",
+              "correct": true,
+              "feedback": "Correct. φυλακή, φυλακῆς, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐξαλείφω mean?",
+          "choices": [
+            {
+              "text": "erase",
+              "correct": true,
+              "feedback": "Correct. ἐξαλείφω"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: erase"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: erase"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: erase"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “erase”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἐξαλείφω"
+            },
+            {
+              "text": "ἐξαλείφω",
+              "correct": true,
+              "feedback": "Correct. ἐξαλείφω"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἐξαλείφω"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἐξαλείφω"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does καταφεύγω mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: take refuge"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: take refuge"
+            },
+            {
+              "text": "take refuge",
+              "correct": true,
+              "feedback": "Correct. καταφεύγω"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: take refuge"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “take refuge”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: καταφεύγω"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: καταφεύγω"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: καταφεύγω"
+            },
+            {
+              "text": "καταφεύγω",
+              "correct": true,
+              "feedback": "Correct. καταφεύγω"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does παραδίδωμι mean?",
+          "choices": [
+            {
+              "text": "hand over",
+              "correct": true,
+              "feedback": "Correct. παραδίδωμι"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: hand over"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: hand over"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: hand over"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “hand over”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: παραδίδωμι"
+            },
+            {
+              "text": "παραδίδωμι",
+              "correct": true,
+              "feedback": "Correct. παραδίδωμι"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: παραδίδωμι"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: παραδίδωμι"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀποσπάω mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: drag away"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: drag away"
+            },
+            {
+              "text": "drag away",
+              "correct": true,
+              "feedback": "Correct. ἀποσπάω"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: drag away"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “drag away”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἀποσπάω"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἀποσπάω"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἀποσπάω"
+            },
+            {
+              "text": "ἀποσπάω",
+              "correct": true,
+              "feedback": "Correct. ἀποσπάω"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡσυχάζω mean?",
+          "choices": [
+            {
+              "text": "remain quiet",
+              "correct": true,
+              "feedback": "Correct. ἡσυχάζω"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: remain quiet"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: remain quiet"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: remain quiet"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “remain quiet”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἡσυχάζω"
+            },
+            {
+              "text": "ἡσυχάζω",
+              "correct": true,
+              "feedback": "Correct. ἡσυχάζω"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἡσυχάζω"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἡσυχάζω"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κολάζω mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: punish"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: punish"
+            },
+            {
+              "text": "punish",
+              "correct": true,
+              "feedback": "Correct. κολάζω"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: punish"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “punish”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: κολάζω"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: κολάζω"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: κολάζω"
+            },
+            {
+              "text": "κολάζω",
+              "correct": true,
+              "feedback": "Correct. κολάζω"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἔνοπλος mean?",
+          "choices": [
+            {
+              "text": "armed",
+              "correct": true,
+              "feedback": "Correct. ἔνοπλος, ἔνοπλον"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: armed"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: armed"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: armed"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “armed”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἔνοπλος"
+            },
+            {
+              "text": "ἔνοπλος",
+              "correct": true,
+              "feedback": "Correct. ἔνοπλος, ἔνοπλον"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἔνοπλος"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἔνοπλος"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐναντίος mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: opposed"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: opposed"
+            },
+            {
+              "text": "opposed",
+              "correct": true,
+              "feedback": "Correct. ἐναντίος, ἐναντία, ἐναντίον"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: opposed"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “opposed”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἐναντίος"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἐναντίος"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἐναντίος"
+            },
+            {
+              "text": "ἐναντίος",
+              "correct": true,
+              "feedback": "Correct. ἐναντίος, ἐναντία, ἐναντίον"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐξαίφνης mean?",
+          "choices": [
+            {
+              "text": "suddenly",
+              "correct": true,
+              "feedback": "Correct. ἐξαίφνης"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: suddenly"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: suddenly"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: suddenly"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “suddenly”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: ἐξαίφνης"
+            },
+            {
+              "text": "ἐξαίφνης",
+              "correct": true,
+              "feedback": "Correct. ἐξαίφνης"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: ἐξαίφνης"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: ἐξαίφνης"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does εὐμενῶς mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: favorably"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: favorably"
+            },
+            {
+              "text": "favorably",
+              "correct": true,
+              "feedback": "Correct. εὐμενῶς"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: favorably"
+            }
+          ]
+        },
+        {
+          "id": "l43-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “favorably”?",
+          "choices": [
+            {
+              "text": "ὁ κατάλογος",
+              "correct": false,
+              "feedback": "Review: εὐμενῶς"
+            },
+            {
+              "text": "ἡ βουλή",
+              "correct": false,
+              "feedback": "Review: εὐμενῶς"
+            },
+            {
+              "text": "ὁ βουλευτής",
+              "correct": false,
+              "feedback": "Review: εὐμενῶς"
+            },
+            {
+              "text": "εὐμενῶς",
+              "correct": true,
+              "feedback": "Correct. εὐμενῶς"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 43 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "διδοίη",
+          "answer": "present active optative of δίδωμι, third singular — 1. Present optatives of -μι verbs"
+        },
+        {
+          "prompt": "τιθείη",
+          "answer": "present active optative of τίθημι, third singular — 1. Present optatives of -μι verbs"
+        },
+        {
+          "prompt": "ἱσταίη",
+          "answer": "present active optative of ἵστημι, third singular — 1. Present optatives of -μι verbs"
+        },
+        {
+          "prompt": "ἱείη",
+          "answer": "present active optative of ἵημι, third singular — 1. Present optatives of -μι verbs"
+        },
+        {
+          "prompt": "διδοίην / διδοίης / διδοίη / διδοῖμεν / διδοῖτε / διδοῖεν",
+          "answer": "present active optative of δίδωμι — 1. Present optatives of -μι verbs"
+        },
+        {
+          "prompt": "τιθείην / τιθείης / τιθείη / τιθεῖμεν / τιθεῖτε / τιθεῖεν",
+          "answer": "present active optative of τίθημι — 1. Present optatives of -μι verbs"
+        },
+        {
+          "prompt": "δοίη",
+          "answer": "aorist active optative of δίδωμι, third singular — 2. Aorist optatives and voice"
+        },
+        {
+          "prompt": "θείη",
+          "answer": "aorist active optative of τίθημι, third singular — 2. Aorist optatives and voice"
+        },
+        {
+          "prompt": "σταίη",
+          "answer": "intransitive aorist active optative of ἵστημι, third singular — 2. Aorist optatives and voice"
+        },
+        {
+          "prompt": "ἀφείη",
+          "answer": "aorist active optative of ἀφίημι, third singular — 2. Aorist optatives and voice"
+        },
+        {
+          "prompt": "δοίην / δοίης / δοίη / δοῖμεν / δοῖτε / δοῖεν",
+          "answer": "aorist active optative of δίδωμι — 2. Aorist optatives and voice"
+        },
+        {
+          "prompt": "θείμην / θεῖο / θεῖτο / θείμεθα / θεῖσθε / θεῖντο",
+          "answer": "aorist middle optative of τίθημι — 2. Aorist optatives and voice"
+        },
+        {
+          "prompt": "ἔλεγεν ὅτι δίκαιος εἴη.",
+          "answer": "He said that he was just; optative substitution. — 3. Historical reporting and retained mood"
+        },
+        {
+          "prompt": "ἔλεγεν ὅτι δίκαιός ἐστιν.",
+          "answer": "He said that he is just; retained indicative. — 3. Historical reporting and retained mood"
+        },
+        {
+          "prompt": "ἔφη τὸν ἄνδρα δίκαιον εἶναι.",
+          "answer": "He said that the man was just; infinitive retained. — 3. Historical reporting and retained mood"
+        },
+        {
+          "prompt": "ἔλεγεν ὅτι ὁ Κριτίας τὸν νόμον θείη.",
+          "answer": "He said that Critias had established the rule; aorist oblique optative. — 3. Historical reporting and retained mood"
+        },
+        {
+          "prompt": "φησὶ δώσειν → ἔφη δώσειν",
+          "answer": "future infinitive stays future relative to the report — 3. Historical reporting and retained mood"
+        },
+        {
+          "prompt": "ἠρώτα τί δοίη.",
+          "answer": "He asked what he should give. — 4. Indirect questions and reconstructing direct speech"
+        },
+        {
+          "prompt": "ἐσκόπει τίνα νόμον θείη.",
+          "answer": "He considered what law he should establish. — 4. Indirect questions and reconstructing direct speech"
+        },
+        {
+          "prompt": "ἠρώτα εἰ ὁ Κριτίας αὐτὸν ἀφείη.",
+          "answer": "He asked whether Critias would release him, in this context. — 4. Indirect questions and reconstructing direct speech"
+        },
+        {
+          "prompt": "ἠρώτα πῶς τοῦτο γένοιτο.",
+          "answer": "He asked how this happened / might happen, depending on the original question. — 4. Indirect questions and reconstructing direct speech"
+        },
+        {
+          "prompt": "τί δῶ; → ἠρώτα τί δοίη.",
+          "answer": "deliberative question shifted to historical reporting — 4. Indirect questions and reconstructing direct speech"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 43 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l43-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does γράφω mean?",
+          "choices": [
+            {
+              "text": "write",
+              "correct": true,
+              "feedback": "Correct. write"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: write"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: write"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: write"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “write”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: γράφω"
+            },
+            {
+              "text": "γράφω",
+              "correct": true,
+              "feedback": "Correct. γράφω"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: γράφω"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: γράφω"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does κατάλογος mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: list"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: list"
+            },
+            {
+              "text": "list",
+              "correct": true,
+              "feedback": "Correct. list"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: list"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “list”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: κατάλογος"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: κατάλογος"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: κατάλογος"
+            },
+            {
+              "text": "κατάλογος",
+              "correct": true,
+              "feedback": "Correct. κατάλογος"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does ἐξαλείφω mean?",
+          "choices": [
+            {
+              "text": "erase",
+              "correct": true,
+              "feedback": "Correct. erase"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: erase"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: erase"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: erase"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “erase”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: ἐξαλείφω"
+            },
+            {
+              "text": "ἐξαλείφω",
+              "correct": true,
+              "feedback": "Correct. ἐξαλείφω"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: ἐξαλείφω"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: ἐξαλείφω"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: διδοίη",
+          "choices": [
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: τιθείη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of τίθημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of τίθημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of τίθημι, third singular"
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: ἱσταίη",
+          "choices": [
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵστημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: ἱείη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Which stem identifies a present rather than aorist form?",
+          "choices": [
+            {
+              "text": "δο- in δοίη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            },
+            {
+              "text": "θε- in θείη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            },
+            {
+              "text": "διδο- in διδοίη",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "στα- in σταίη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Translate ἔλεγεν ὅτι δῶρα διδοίη.",
+          "choices": [
+            {
+              "text": "He wished he had never received gifts.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He ordered us to give gifts.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He will say that gifts were destroyed.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He said that he was giving gifts.",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: δοίη",
+          "choices": [
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: θείη",
+          "choices": [
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of τίθημι, third singular"
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of τίθημι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of τίθημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: σταίη",
+          "choices": [
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: intransitive aorist active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: intransitive aorist active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: intransitive aorist active optative of ἵστημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: ἀφείη",
+          "choices": [
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of ἀφίημι, third singular"
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of ἀφίημι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of ἀφίημι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Choose “he might adopt a law for himself.”",
+          "choices": [
+            {
+              "text": "νόμον θεῖτο ἄν",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "νόμον ἐτέθη",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον τίθησιν",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον ἔθετε",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Which distinction is correct?",
+          "choices": [
+            {
+              "text": "Both are future indicatives.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "τιθείη is present; θείη is aorist.",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "θείη is always passive.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "τιθείη is an imperative.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιος εἴη.",
+          "choices": [
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιός ἐστιν.",
+          "choices": [
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": false,
+              "feedback": "Review: He said that he is just; retained indicative."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that he is just; retained indicative."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that he is just; retained indicative."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔφη τὸν ἄνδρα δίκαιον εἶναι.",
+          "choices": [
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": false,
+              "feedback": "Review: He said that the man was just; infinitive retained."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that the man was just; infinitive retained."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that the man was just; infinitive retained."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι ὁ Κριτίας τὸν νόμον θείη.",
+          "choices": [
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": false,
+              "feedback": "Review: He said that Critias had established the rule; aorist oblique optative."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that Critias had established the rule; aorist oblique optative."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that Critias had established the rule; aorist oblique optative."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "What changes obligatorily when φησί becomes ἔφη in an infinitive report?",
+          "choices": [
+            {
+              "text": "Every infinitive becomes an optative.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "All subjects become nominative.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "The reporting time; the infinitive need not change.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "Every clause becomes a wish.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Does reporting Critias’ legal claim establish its justice?",
+          "choices": [
+            {
+              "text": "Yes, because the claim uses law vocabulary.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "Yes, if the optative is retained.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "Only if the sentence is long.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "No; attribution and evaluation are distinct.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα τί δοίη.",
+          "choices": [
+            {
+              "text": "He asked what he should give.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἐσκόπει τίνα νόμον θείη.",
+          "choices": [
+            {
+              "text": "He asked what he should give.",
+              "correct": false,
+              "feedback": "Review: He considered what law he should establish."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He considered what law he should establish."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He considered what law he should establish."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα εἰ ὁ Κριτίας αὐτὸν ἀφείη.",
+          "choices": [
+            {
+              "text": "He asked what he should give.",
+              "correct": false,
+              "feedback": "Review: He asked whether Critias would release him, in this context."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked whether Critias would release him, in this context."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He asked whether Critias would release him, in this context."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα πῶς τοῦτο γένοιτο.",
+          "choices": [
+            {
+              "text": "He asked what he should give.",
+              "correct": false,
+              "feedback": "Review: He asked how this happened / might happen, depending on the original question."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked how this happened / might happen, depending on the original question."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He asked how this happened / might happen, depending on the original question."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "What must precede restoring “him” as “me” in direct speech?",
+          "choices": [
+            {
+              "text": "Identify who originally spoke and whom αὐτόν denotes.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "Assume every pronoun denotes Critias.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Delete the reporting verb only.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Turn every verb into a future.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            }
+          ]
+        },
+        {
+          "id": "l43-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Can every oblique optative be restored to one uniquely certain direct form?",
+          "choices": [
+            {
+              "text": "Yes, without context.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "No; context may leave alternatives.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "Only if the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "Only if εἰ is present.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 43 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-43-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l43-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: διδοίη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: τιθείη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of τίθημι, third singular"
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of τίθημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of τίθημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: ἱσταίη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵστημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: ἱείη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵημι, third singular"
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of ἵημι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Which stem identifies a present rather than aorist form?",
+          "choices": [
+            {
+              "text": "διδο- in διδοίη",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "δο- in δοίη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            },
+            {
+              "text": "θε- in θείη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            },
+            {
+              "text": "στα- in σταίη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Translate ἔλεγεν ὅτι δῶρα διδοίη.",
+          "choices": [
+            {
+              "text": "He wished he had never received gifts.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He said that he was giving gifts.",
+              "correct": true,
+              "feedback": "Correct. The present optative retains the present stem: διδοίην, τιθείην, ἱσταίην, ἱείην. These forms are not aorists merely because they contain -ιη-. Learn them beside δίδωμι, τίθημι, ἵστημι, and ἵημι, and keep the reduplicated present stem visible."
+            },
+            {
+              "text": "He ordered us to give gifts.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He will say that gifts were destroyed.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: δοίη",
+          "choices": [
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: θείη",
+          "choices": [
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of τίθημι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of τίθημι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of τίθημι, third singular"
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: σταίη",
+          "choices": [
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: intransitive aorist active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: intransitive aorist active optative of ἵστημι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: intransitive aorist active optative of ἵστημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: ἀφείη",
+          "choices": [
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of ἀφίημι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of ἀφίημι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of ἀφίημι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Choose “he might adopt a law for himself.”",
+          "choices": [
+            {
+              "text": "νόμον ἐτέθη",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον τίθησιν",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον θεῖτο ἄν",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            },
+            {
+              "text": "νόμον ἔθετε",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Which distinction is correct?",
+          "choices": [
+            {
+              "text": "Both are future indicatives.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "θείη is always passive.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "τιθείη is an imperative.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "τιθείη is present; θείη is aorist.",
+              "correct": true,
+              "feedback": "Correct. The aorist active forms lose the present reduplication: δοίην, θείην, σταίην, εἵην. With δίδωμι and τίθημι, compare plural δοῖμεν and θεῖμεν; with intransitive ἔστην, σταῖμεν. The aorist of ἵημι has the rough breathing in εἵην, and compounds such as ἀφείην are common."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιος εἴη.",
+          "choices": [
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιός ἐστιν.",
+          "choices": [
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": false,
+              "feedback": "Review: He said that he is just; retained indicative."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that he is just; retained indicative."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that he is just; retained indicative."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔφη τὸν ἄνδρα δίκαιον εἶναι.",
+          "choices": [
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": false,
+              "feedback": "Review: He said that the man was just; infinitive retained."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that the man was just; infinitive retained."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that the man was just; infinitive retained."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι ὁ Κριτίας τὸν νόμον θείη.",
+          "choices": [
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": false,
+              "feedback": "Review: He said that Critias had established the rule; aorist oblique optative."
+            },
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that Critias had established the rule; aorist oblique optative."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that Critias had established the rule; aorist oblique optative."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "What changes obligatorily when φησί becomes ἔφη in an infinitive report?",
+          "choices": [
+            {
+              "text": "The reporting time; the infinitive need not change.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "Every infinitive becomes an optative.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "All subjects become nominative.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "Every clause becomes a wish.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Does reporting Critias’ legal claim establish its justice?",
+          "choices": [
+            {
+              "text": "Yes, because the claim uses law vocabulary.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "No; attribution and evaluation are distinct.",
+              "correct": true,
+              "feedback": "Correct. In secondary sequence, an original finite indicative may appear as an optative: ἔλεγεν ὅτι τοῦτο δίκαιον εἴη. This reports what someone said, without turning the narrator into the original claimant. Original tense relations are preserved: a prior action is not made simultaneous merely because the main verb is past."
+            },
+            {
+              "text": "Yes, if the optative is retained.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "Only if the sentence is long.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα τί δοίη.",
+          "choices": [
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked what he should give.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἐσκόπει τίνα νόμον θείη.",
+          "choices": [
+            {
+              "text": "He asked what he should give.",
+              "correct": false,
+              "feedback": "Review: He considered what law he should establish."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He considered what law he should establish."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He considered what law he should establish."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα εἰ ὁ Κριτίας αὐτὸν ἀφείη.",
+          "choices": [
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "He asked what he should give.",
+              "correct": false,
+              "feedback": "Review: He asked whether Critias would release him, in this context."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked whether Critias would release him, in this context."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He asked whether Critias would release him, in this context."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα πῶς τοῦτο γένοιτο.",
+          "choices": [
+            {
+              "text": "He asked what he should give.",
+              "correct": false,
+              "feedback": "Review: He asked how this happened / might happen, depending on the original question."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked how this happened / might happen, depending on the original question."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He asked how this happened / might happen, depending on the original question."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "What must precede restoring “him” as “me” in direct speech?",
+          "choices": [
+            {
+              "text": "Assume every pronoun denotes Critias.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Delete the reporting verb only.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Identify who originally spoke and whom αὐτόν denotes.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            },
+            {
+              "text": "Turn every verb into a future.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            }
+          ]
+        },
+        {
+          "id": "l43-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Can every oblique optative be restored to one uniquely certain direct form?",
+          "choices": [
+            {
+              "text": "Yes, without context.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "Only if the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "Only if εἰ is present.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "No; context may leave alternatives.",
+              "correct": true,
+              "feedback": "Correct. After a historical verb of asking or considering, a direct indicative or deliberative subjunctive may become optative: τί δῶ; becomes ἠρώτα τί δοίη, “He asked what he should give.” A yes/no question still needs εἰ, “whether.” Keep the question’s focus, not just the verb ending."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 43 Final Quiz — Law and Fear",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-43-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l43-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What list affects Theramenes’ protection?",
+          "choices": [
+            {
+              "text": "The Three Thousand.",
+              "correct": true,
+              "feedback": "Correct. The Three Thousand."
+            },
+            {
+              "text": "A list of Olympic victors.",
+              "correct": false,
+              "feedback": "Review: The Three Thousand."
+            },
+            {
+              "text": "The Delian crew list.",
+              "correct": false,
+              "feedback": "Review: The Three Thousand."
+            },
+            {
+              "text": "A household inventory.",
+              "correct": false,
+              "feedback": "Review: The Three Thousand."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why does Critias remove the name?",
+          "choices": [
+            {
+              "text": "To award a prize.",
+              "correct": false,
+              "feedback": "Review: To remove the procedural protection before proceeding against him."
+            },
+            {
+              "text": "To remove the procedural protection before proceeding against him.",
+              "correct": true,
+              "feedback": "Correct. To remove the procedural protection before proceeding against him."
+            },
+            {
+              "text": "To send him to a festival.",
+              "correct": false,
+              "feedback": "Review: To remove the procedural protection before proceeding against him."
+            },
+            {
+              "text": "To make him a general.",
+              "correct": false,
+              "feedback": "Review: To remove the procedural protection before proceeding against him."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Where does Theramenes seek refuge?",
+          "choices": [
+            {
+              "text": "On the sacred ship.",
+              "correct": false,
+              "feedback": "Review: At the altar."
+            },
+            {
+              "text": "In Cyrus’ school.",
+              "correct": false,
+              "feedback": "Review: At the altar."
+            },
+            {
+              "text": "At the altar.",
+              "correct": true,
+              "feedback": "Correct. At the altar."
+            },
+            {
+              "text": "At a Sicilian banquet.",
+              "correct": false,
+              "feedback": "Review: At the altar."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why is the council’s silence difficult to treat as consent?",
+          "choices": [
+            {
+              "text": "Silence always proves agreement.",
+              "correct": false,
+              "feedback": "Review: The narrative includes armed force and fear."
+            },
+            {
+              "text": "No one was present.",
+              "correct": false,
+              "feedback": "Review: The narrative includes armed force and fear."
+            },
+            {
+              "text": "The council had already left Athens.",
+              "correct": false,
+              "feedback": "Review: The narrative includes armed force and fear."
+            },
+            {
+              "text": "The narrative includes armed force and fear.",
+              "correct": true,
+              "feedback": "Correct. The narrative includes armed force and fear."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the reading say about Theramenes’ political position?",
+          "choices": [
+            {
+              "text": "He was himself an oligarch.",
+              "correct": true,
+              "feedback": "Correct. He was himself an oligarch."
+            },
+            {
+              "text": "He had never held power.",
+              "correct": false,
+              "feedback": "Review: He was himself an oligarch."
+            },
+            {
+              "text": "He was a Persian child.",
+              "correct": false,
+              "feedback": "Review: He was himself an oligarch."
+            },
+            {
+              "text": "He was Plato’s jailer.",
+              "correct": false,
+              "feedback": "Review: He was himself an oligarch."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the final exercise ask us to recover?",
+          "choices": [
+            {
+              "text": "The exact color of every robe.",
+              "correct": false,
+              "feedback": "Review: The agents hidden by an oversimplified passive account."
+            },
+            {
+              "text": "The agents hidden by an oversimplified passive account.",
+              "correct": true,
+              "feedback": "Correct. The agents hidden by an oversimplified passive account."
+            },
+            {
+              "text": "An unrecorded secret letter.",
+              "correct": false,
+              "feedback": "Review: The agents hidden by an oversimplified passive account."
+            },
+            {
+              "text": "A unique original speech without context.",
+              "correct": false,
+              "feedback": "Review: The agents hidden by an oversimplified passive account."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κατάλογος mean?",
+          "choices": [
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: list"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: list"
+            },
+            {
+              "text": "list",
+              "correct": true,
+              "feedback": "Correct. κατάλογος, καταλόγου, ὁ"
+            },
+            {
+              "text": "altar",
+              "correct": false,
+              "feedback": "Review: list"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βουλή mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: council"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: council"
+            },
+            {
+              "text": "altar",
+              "correct": false,
+              "feedback": "Review: council"
+            },
+            {
+              "text": "council",
+              "correct": true,
+              "feedback": "Correct. βουλή, βουλῆς, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ βουλευτής mean?",
+          "choices": [
+            {
+              "text": "councilor",
+              "correct": true,
+              "feedback": "Correct. βουλευτής, βουλευτοῦ, ὁ"
+            },
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: councilor"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: councilor"
+            },
+            {
+              "text": "altar",
+              "correct": false,
+              "feedback": "Review: councilor"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ βωμός mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: altar"
+            },
+            {
+              "text": "altar",
+              "correct": true,
+              "feedback": "Correct. βωμός, βωμοῦ, ὁ"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: altar"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: altar"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὀλιγαρχία mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: oligarchy"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: oligarchy"
+            },
+            {
+              "text": "oligarchy",
+              "correct": true,
+              "feedback": "Correct. ὀλιγαρχία, ὀλιγαρχίας, ἡ"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: oligarchy"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀσφάλεια mean?",
+          "choices": [
+            {
+              "text": "list",
+              "correct": false,
+              "feedback": "Review: security"
+            },
+            {
+              "text": "council",
+              "correct": false,
+              "feedback": "Review: security"
+            },
+            {
+              "text": "councilor",
+              "correct": false,
+              "feedback": "Review: security"
+            },
+            {
+              "text": "security",
+              "correct": true,
+              "feedback": "Correct. ἀσφάλεια, ἀσφαλείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Which stem identifies a present rather than aorist form?",
+          "choices": [
+            {
+              "text": "διδο- in διδοίη",
+              "correct": true,
+              "feedback": "Correct. διδο- in διδοίη"
+            },
+            {
+              "text": "δο- in δοίη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            },
+            {
+              "text": "θε- in θείη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            },
+            {
+              "text": "στα- in σταίη",
+              "correct": false,
+              "feedback": "Review: διδο- in διδοίη"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Translate ἔλεγεν ὅτι δῶρα διδοίη.",
+          "choices": [
+            {
+              "text": "He wished he had never received gifts.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He said that he was giving gifts.",
+              "correct": true,
+              "feedback": "Correct. He said that he was giving gifts."
+            },
+            {
+              "text": "He ordered us to give gifts.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            },
+            {
+              "text": "He will say that gifts were destroyed.",
+              "correct": false,
+              "feedback": "Review: He said that he was giving gifts."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Choose “he might adopt a law for himself.”",
+          "choices": [
+            {
+              "text": "νόμον ἐτέθη",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον τίθησιν",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον θεῖτο ἄν",
+              "correct": true,
+              "feedback": "Correct. νόμον θεῖτο ἄν"
+            },
+            {
+              "text": "νόμον ἔθετε",
+              "correct": false,
+              "feedback": "Review: νόμον θεῖτο ἄν"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Which distinction is correct?",
+          "choices": [
+            {
+              "text": "Both are future indicatives.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "θείη is always passive.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "τιθείη is an imperative.",
+              "correct": false,
+              "feedback": "Review: τιθείη is present; θείη is aorist."
+            },
+            {
+              "text": "τιθείη is present; θείη is aorist.",
+              "correct": true,
+              "feedback": "Correct. τιθείη is present; θείη is aorist."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "What changes obligatorily when φησί becomes ἔφη in an infinitive report?",
+          "choices": [
+            {
+              "text": "The reporting time; the infinitive need not change.",
+              "correct": true,
+              "feedback": "Correct. The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "Every infinitive becomes an optative.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "All subjects become nominative.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            },
+            {
+              "text": "Every clause becomes a wish.",
+              "correct": false,
+              "feedback": "Review: The reporting time; the infinitive need not change."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Does reporting Critias’ legal claim establish its justice?",
+          "choices": [
+            {
+              "text": "Yes, because the claim uses law vocabulary.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "No; attribution and evaluation are distinct.",
+              "correct": true,
+              "feedback": "Correct. No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "Yes, if the optative is retained.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            },
+            {
+              "text": "Only if the sentence is long.",
+              "correct": false,
+              "feedback": "Review: No; attribution and evaluation are distinct."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "What must precede restoring “him” as “me” in direct speech?",
+          "choices": [
+            {
+              "text": "Assume every pronoun denotes Critias.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Delete the reporting verb only.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Identify who originally spoke and whom αὐτόν denotes.",
+              "correct": true,
+              "feedback": "Correct. Identify who originally spoke and whom αὐτόν denotes."
+            },
+            {
+              "text": "Turn every verb into a future.",
+              "correct": false,
+              "feedback": "Review: Identify who originally spoke and whom αὐτόν denotes."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Can every oblique optative be restored to one uniquely certain direct form?",
+          "choices": [
+            {
+              "text": "Yes, without context.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "Only if the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "Only if εἰ is present.",
+              "correct": false,
+              "feedback": "Review: No; context may leave alternatives."
+            },
+            {
+              "text": "No; context may leave alternatives.",
+              "correct": true,
+              "feedback": "Correct. No; context may leave alternatives."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-present",
+          "prompt": "Analyze or translate: διδοίη",
+          "choices": [
+            {
+              "text": "present active optative of δίδωμι, third singular",
+              "correct": true,
+              "feedback": "Correct. present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "present active optative of ἵημι, third singular",
+              "correct": false,
+              "feedback": "Review: present active optative of δίδωμι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-optative-aorist",
+          "prompt": "Analyze or translate: δοίη",
+          "choices": [
+            {
+              "text": "aorist active optative of τίθημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "aorist active optative of δίδωμι, third singular",
+              "correct": true,
+              "feedback": "Correct. aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "intransitive aorist active optative of ἵστημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            },
+            {
+              "text": "aorist active optative of ἀφίημι, third singular",
+              "correct": false,
+              "feedback": "Review: aorist active optative of δίδωμι, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l43-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-statements",
+          "prompt": "Analyze or translate: ἔλεγεν ὅτι δίκαιος εἴη.",
+          "choices": [
+            {
+              "text": "He said that he is just; retained indicative.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that the man was just; infinitive retained.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that he was just; optative substitution.",
+              "correct": true,
+              "feedback": "Correct. He said that he was just; optative substitution."
+            },
+            {
+              "text": "He said that Critias had established the rule; aorist oblique optative.",
+              "correct": false,
+              "feedback": "Review: He said that he was just; optative substitution."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "historical-questions",
+          "prompt": "Analyze or translate: ἠρώτα τί δοίη.",
+          "choices": [
+            {
+              "text": "He considered what law he should establish.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked whether Critias would release him, in this context.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked how this happened / might happen, depending on the original question.",
+              "correct": false,
+              "feedback": "Review: He asked what he should give."
+            },
+            {
+              "text": "He asked what he should give.",
+              "correct": true,
+              "feedback": "Correct. He asked what he should give."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "When did the Thirty rule Athens?",
+          "choices": [
+            {
+              "text": "404–403 BCE.",
+              "correct": true,
+              "feedback": "Correct. 404–403 BCE."
+            },
+            {
+              "text": "406–405 BCE.",
+              "correct": false,
+              "feedback": "Review: 404–403 BCE."
+            },
+            {
+              "text": "399–398 BCE.",
+              "correct": false,
+              "feedback": "Review: 404–403 BCE."
+            },
+            {
+              "text": "401–400 BCE.",
+              "correct": false,
+              "feedback": "Review: 404–403 BCE."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What did inclusion on the list provide in this account?",
+          "choices": [
+            {
+              "text": "Universal equality for all residents.",
+              "correct": false,
+              "feedback": "Review: A procedural protection involving council judgment."
+            },
+            {
+              "text": "A procedural protection involving council judgment.",
+              "correct": true,
+              "feedback": "Correct. A procedural protection involving council judgment."
+            },
+            {
+              "text": "Automatic innocence of every charge.",
+              "correct": false,
+              "feedback": "Review: A procedural protection involving council judgment."
+            },
+            {
+              "text": "A right to rule Syracuse.",
+              "correct": false,
+              "feedback": "Review: A procedural protection involving council judgment."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is critical about Critias’ action?",
+          "choices": [
+            {
+              "text": "He grants Theramenes an independent appeal.",
+              "correct": false,
+              "feedback": "Review: The accuser removes the protection before invoking its absence."
+            },
+            {
+              "text": "He leaves the list unchanged.",
+              "correct": false,
+              "feedback": "Review: The accuser removes the protection before invoking its absence."
+            },
+            {
+              "text": "The accuser removes the protection before invoking its absence.",
+              "correct": true,
+              "feedback": "Correct. The accuser removes the protection before invoking its absence."
+            },
+            {
+              "text": "He submits himself to judgment first.",
+              "correct": false,
+              "feedback": "Review: The accuser removes the protection before invoking its absence."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why not call Theramenes an uncomplicated innocent hero?",
+          "choices": [
+            {
+              "text": "The seizure was therefore necessarily just.",
+              "correct": false,
+              "feedback": "Review: He was himself an oligarch with a political record."
+            },
+            {
+              "text": "He was not present in Athens.",
+              "correct": false,
+              "feedback": "Review: He was himself an oligarch with a political record."
+            },
+            {
+              "text": "The source never names him.",
+              "correct": false,
+              "feedback": "Review: He was himself an oligarch with a political record."
+            },
+            {
+              "text": "He was himself an oligarch with a political record.",
+              "correct": true,
+              "feedback": "Correct. He was himself an oligarch with a political record."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What makes silence ambiguous?",
+          "choices": [
+            {
+              "text": "Fear and armed coercion accompany it.",
+              "correct": true,
+              "feedback": "Correct. Fear and armed coercion accompany it."
+            },
+            {
+              "text": "Silence always means consent.",
+              "correct": false,
+              "feedback": "Review: Fear and armed coercion accompany it."
+            },
+            {
+              "text": "The council had no members.",
+              "correct": false,
+              "feedback": "Review: Fear and armed coercion accompany it."
+            },
+            {
+              "text": "All silent people had already voted freely.",
+              "correct": false,
+              "feedback": "Review: Fear and armed coercion accompany it."
+            }
+          ]
+        },
+        {
+          "id": "l43-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What should an active rewrite restore?",
+          "choices": [
+            {
+              "text": "An invented exact floor plan.",
+              "correct": false,
+              "feedback": "Review: Who removed protection, seized, and prevented judgment."
+            },
+            {
+              "text": "Who removed protection, seized, and prevented judgment.",
+              "correct": true,
+              "feedback": "Correct. Who removed protection, seized, and prevented judgment."
+            },
+            {
+              "text": "A speech from Plato’s Phaedo.",
+              "correct": false,
+              "feedback": "Review: Who removed protection, seized, and prevented judgment."
+            },
+            {
+              "text": "A modern courtroom gavel.",
+              "correct": false,
+              "feedback": "Review: Who removed protection, seized, and prevented judgment."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-42",
+    "title": "What is Justice?",
+    "fallbackUrl": "lesson.html?lesson=42&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-44",
+    "title": "If They Act Justly",
+    "fallbackUrl": "lesson.html?lesson=44&page=1"
+  },
+  "contentRevision": "lesson-43-module-4-v1"
+}

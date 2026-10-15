@@ -150,18 +150,18 @@ const COURSE_MODULES = [
     description: "Law, responsibility, and the just life",
     introUrl: "module-4-dikaiosyne.html",
     lessons: [
-      { id: "lesson-37", title: "Justice is the Greatest Good", grammar: "Predicate nouns, ὅτι clauses" },
-      { id: "lesson-38", title: "They Say He is Just", grammar: "Indirect statement (ὅτι / ὡς)" },
-      { id: "lesson-39", title: "The Accusation", grammar: "Accusative + infinitive (reported speech)" },
-      { id: "lesson-40", title: "Speaking the Truth", grammar: "Participles in argument" },
-      { id: "lesson-41", title: "The Just Man", grammar: "Relative clauses (ὅς, ἥ, ὅ)" },
-      { id: "lesson-42", title: "What is Justice?", grammar: "μέν…δέ contrast, comparison structures" },
-      { id: "lesson-43", title: "Law and Fear", grammar: "Verb complements, reinforcing structures" },
-      { id: "lesson-44", title: "If They Act Justly", grammar: "Future more vivid conditions" },
-      { id: "lesson-45", title: "The Defense of Socrates", grammar: "Negation, indirect discourse reinforcement" },
-      { id: "lesson-46", title: "Why They Are Angry", grammar: "Cause clauses (ὅτι / διότι)" },
-      { id: "lesson-47", title: "The Trial of Socrates", grammar: "Infinitives of obligation, complex reasoning" },
-      { id: "lesson-48", title: "Justice and the Soul", grammar: "Module review: advanced clauses, discourse" }
+      { id: "lesson-37", title: "Learning to Judge Fairly", grammar: "Present and aorist active subjunctives; Middle, passive, and contracted forms; Deliberation, exhortation, and prohibition; Purpose and clause reading" },
+      { id: "lesson-38", title: "Justice in the Household", grammar: "δίδωμι and τίθημι in the subjunctive; ἵστημι and ἵημι; Middle forms and principal parts; Proposals, purposes, and commands" },
+      { id: "lesson-39", title: "The Accusation", grammar: "Fear clauses: μή and μή οὐ; Indefinite relatives and general time clauses; A claim and a report of that claim; Reporting questions without losing the question" },
+      { id: "lesson-40", title: "Speaking the Truth", grammar: "Infinitive reports and relative time; Perception participles and finite reports; φημί and negation; The articular infinitive; Relative antecedents, attraction, and prefixes" },
+      { id: "lesson-41", title: "A Ruler and the Common Good", grammar: "Regular and irregular comparison; Comparatives in -ων and -ον; Standards of comparison and adverbs; Care and effort: ὅπως with future indicative" },
+      { id: "lesson-42", title: "What is Justice?", grammar: "Present and aorist active optatives; Middle, passive, and contract optatives; Wishes and potentiality; Optatives in subordinate clauses" },
+      { id: "lesson-43", title: "Law and Fear", grammar: "Present optatives of -μι verbs; Aorist optatives and voice; Historical reporting and retained mood; Indirect questions and reconstructing direct speech" },
+      { id: "lesson-44", title: "If They Act Justly", grammar: "Conditions: open and future more vivid; Future less vivid and general conditions; Contrary-to-fact conditions; Adverbial accusative and respect; Accusative absolute; Necessity with -τέος" },
+      { id: "lesson-45", title: "The Defense of Socrates", grammar: "Perfect middle/passive: formation and state; Reduplication, vowels, and consonant stems; Perfect participles and infinitives; Pluperfect middle/passive; Dative of agent and other datives" },
+      { id: "lesson-46", title: "Why They Are Angry", grammar: "Active perfects in -κα and -α; Active perfect participles and infinitives; Active pluperfects; οἶδα: perfect form, present knowledge; Aspect, evidence, and sequence" },
+      { id: "lesson-47", title: "The Trial of Socrates", grammar: "Mapping a sustained primary-sequence report; Relative time in nonfinite reports; Pronouns and the scope of negation; Subordinate clauses inside reports" },
+      { id: "lesson-48", title: "Justice and the Soul", grammar: "Secondary sequence in connected reporting; Infinitives and participles retain relative time; Nested speakers, questions, and negation; Cumulative translation: form, argument, and evidence" }
     ]
   }
 ];

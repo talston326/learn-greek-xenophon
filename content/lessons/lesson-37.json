@@ -1,0 +1,4514 @@
+{
+  "id": "lesson-37",
+  "number": 37,
+  "title": "Learning to Judge Fairly",
+  "greekTitle": "Τί δίκαιόν ἐστιν;",
+  "scope": "Present and aorist active subjunctives; Middle, passive, and contracted forms; Deliberation, exhortation, and prohibition; Purpose and clause reading",
+  "theme": "Who owns the better-fitting coat?",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 21α",
+  "banner": {
+    "image": "assets/lesson-37-banner.png",
+    "alt": "Educational reconstruction: A young Cyrus listens while two boys hold different-sized coats; Mandane anchors the conversation.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-37-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-37-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-37-page-3",
+      "title": "Who owns the better-fitting coat?",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ὁ χιτών",
+          "english": "tunic",
+          "dictionaryForm": "χιτών, χιτῶνος, ὁ",
+          "lemma": "χιτών",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ δικαστής",
+          "english": "judge (person)",
+          "dictionaryForm": "δικαστής, δικαστοῦ, ὁ",
+          "lemma": "δικαστής",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ κτῆμα",
+          "english": "possession",
+          "dictionaryForm": "κτῆμα, κτήματος, τό",
+          "lemma": "κτῆμα",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀλλαγή",
+          "english": "exchange",
+          "dictionaryForm": "ἀλλαγή, ἀλλαγῆς, ἡ",
+          "lemma": "ἀλλαγή",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ζήτησις",
+          "english": "inquiry",
+          "dictionaryForm": "ζήτησις, ζητήσεως, ἡ",
+          "lemma": "ζήτησις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ μέγεθος",
+          "english": "size",
+          "dictionaryForm": "μέγεθος, μεγέθους, τό",
+          "lemma": "μέγεθος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἁρμόττω",
+          "english": "fit",
+          "dictionaryForm": "ἁρμόττω",
+          "lemma": "ἁρμόττω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἑκών",
+          "english": "willing",
+          "dictionaryForm": "ἑκών, ἑκοῦσα, ἑκόν",
+          "lemma": "ἑκών",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀμφότεροι",
+          "english": "both",
+          "dictionaryForm": "ἀμφότεροι, ἀμφότεραι, ἀμφότερα",
+          "lemma": "ἀμφότεροι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πανταχοῦ",
+          "english": "everywhere",
+          "dictionaryForm": "πανταχοῦ",
+          "lemma": "πανταχοῦ",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "ὁ κύριος",
+          "english": "owner",
+          "dictionaryForm": "κύριος, κυρίου, ὁ",
+          "lemma": "κύριος",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ κρίσις",
+          "english": "judgment",
+          "dictionaryForm": "κρίσις, κρίσεως, ἡ",
+          "lemma": "κρίσις",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ βία",
+          "english": "force",
+          "dictionaryForm": "βία, βίας, ἡ",
+          "lemma": "βία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἐξουσία",
+          "english": "authority",
+          "dictionaryForm": "ἐξουσία, ἐξουσίας, ἡ",
+          "lemma": "ἐξουσία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κρίνω",
+          "english": "judge",
+          "dictionaryForm": "κρίνω",
+          "lemma": "κρίνω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀδικέω",
+          "english": "wrong someone",
+          "dictionaryForm": "ἀδικέω",
+          "lemma": "ἀδικέω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὠφελέω",
+          "english": "benefit",
+          "dictionaryForm": "ὠφελέω",
+          "lemma": "ὠφελέω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σκοπέω",
+          "english": "consider",
+          "dictionaryForm": "σκοπέω",
+          "lemma": "σκοπέω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐξετάζω",
+          "english": "examine",
+          "dictionaryForm": "ἐξετάζω",
+          "lemma": "ἐξετάζω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "χρήσιμος",
+          "english": "useful",
+          "dictionaryForm": "χρήσιμος, χρησίμη, χρήσιμον",
+          "lemma": "χρήσιμος",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τί δίκαιόν ἐστιν;",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Cyropaedia 1.3.16–18. 253 Greek words in 5 paragraphs.",
+      "The coat dispute and Cyrus’s conversation with Mandane follow Cyropaedia 1.3.16–18. The deliberative questions and closing reflection are composed for this course; neither these speeches nor the scene is an independent record of Persian schooling.",
+      "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Κῦρος ἔτι παῖς ὢν παρὰ τῷ πάππῳ διέτριβεν. ἡ δὲ μήτηρ Μανδάνη περὶ τῆς παιδείας αὐτοῦ ἠρώτα. οὐ μόνον γὰρ τὸ σῶμα ἀσκεῖν ἔδει τὸν παῖδα, ἀλλὰ καὶ τὰ δίκαια μανθάνειν. ὁ δὲ Κῦρος ἔλεγεν ὅτι παρὰ τοῖς Πέρσαις ἐμάνθανε κρίνειν καὶ ὅτι ὁ διδάσκαλος πολλάκις αὐτὸν δικαστὴν ἐποίει.",
+        "gloss": [
+          {
+            "greek": "πάππῳ",
+            "english": "grandfather"
+          },
+          {
+            "greek": "διέτριβεν",
+            "english": "was staying"
+          },
+          {
+            "greek": "ἀσκεῖν",
+            "english": "to train"
+          },
+          {
+            "greek": "ἐμάνθανε",
+            "english": "was learning"
+          },
+          {
+            "greek": "δικαστὴν",
+            "english": "a judge"
+          }
+        ]
+      },
+      {
+        "greek": "Δύο γὰρ παῖδες περὶ χιτώνων διεφέροντο. ὁ μὲν μέγας παῖς μικρὸν χιτῶνα εἶχεν, ὁ δὲ μικρὸς μέγαν. ὁ οὖν μέγας τὸν τοῦ μικροῦ χιτῶνα ἀφελόμενος τὸν ἑαυτοῦ ἐκείνῳ ἔδωκεν. ἑκάτερος οὕτω χιτῶνα τῷ σώματι ἁρμόττοντα εἶχεν· ἀλλὰ ὁ μικρὸς οὐκ ἐβούλετο τὸν ἑαυτοῦ ἀπολέσαι. οὐ γὰρ ἑκὼν τὴν ἀλλαγὴν ἐποιήσατο.",
+        "gloss": [
+          {
+            "greek": "χιτώνων",
+            "english": "tunics"
+          },
+          {
+            "greek": "διεφέροντο",
+            "english": "were disputing"
+          },
+          {
+            "greek": "ἀφελόμενος",
+            "english": "having taken away"
+          },
+          {
+            "greek": "ἁρμόττοντα",
+            "english": "fitting"
+          },
+          {
+            "greek": "ἑκὼν",
+            "english": "willingly"
+          },
+          {
+            "greek": "ἀλλαγὴν",
+            "english": "exchange"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Κῦρος τὸ πρᾶγμα ἐξήταζεν. τί ποιήσω; πότερον τὸ μέγεθος τῶν χιτώνων σκοπῶ ἢ τοὺς κυρίους; ὁ μὲν γὰρ χιτὼν τῷ μεγάλῳ παιδὶ καλῶς ἁρμόττει, ὁ δὲ τῷ μικρῷ. κρίνωμεν οὖν κατὰ τὸ χρήσιμον, ἵνα ἑκάτερος τὸ ἁρμόττον ἔχῃ. ταύτην τὴν κρίσιν ἐποιήσατο, νομίζων ἀμφοτέρους ὠφελεῖν.",
+        "gloss": [
+          {
+            "greek": "ποιήσω",
+            "english": "should I do? aorist subjunctive in deliberation"
+          },
+          {
+            "greek": "σκοπῶ",
+            "english": "should I consider? present subjunctive here"
+          },
+          {
+            "greek": "κυρίους",
+            "english": "owners"
+          },
+          {
+            "greek": "κρίνωμεν",
+            "english": "let us judge"
+          },
+          {
+            "greek": "ἔχῃ",
+            "english": "may have; purpose"
+          },
+          {
+            "greek": "ἀμφοτέρους",
+            "english": "both"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ δὲ διδάσκαλος οὐκ ἐπῄνεσε τὴν κρίσιν. ἄλλο γάρ ἐστι τὸ ἁρμόττον, ἄλλο δὲ τὸ δίκαιον. οὐ τοῦτο μόνον ζητῶμεν, τίς χιτὼν καλῶς ἔχει, ἀλλὰ καὶ τίνος ἐστίν. μὴ τὸν κύριον ἀδικήσωμεν, ἵνα τὸν ἕτερον ὠφελήσωμεν. ὁ λαβὼν βίᾳ οὐ διὰ τοῦτο κύριος γίγνεται, ὅτι αὐτῷ τὸ κτῆμα χρήσιμόν ἐστιν.",
+        "gloss": [
+          {
+            "greek": "ἐπῄνεσε",
+            "english": "praised"
+          },
+          {
+            "greek": "τίνος",
+            "english": "whose"
+          },
+          {
+            "greek": "ἀδικήσωμεν",
+            "english": "let us wrong; with μή, let us not wrong"
+          },
+          {
+            "greek": "ὠφελήσωμεν",
+            "english": "may benefit"
+          },
+          {
+            "greek": "βίᾳ",
+            "english": "by force"
+          },
+          {
+            "greek": "κτῆμα",
+            "english": "possession"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ Μανδάνη τὸν λόγον ἤκουε καὶ περὶ τῶν νόμων διέλεγετο. ὁ γὰρ ἄρχων οὐ πανταχοῦ τὴν αὐτὴν ἐξουσίαν ἔχει. ὁ παῖς οὖν μὴ μόνον τὰ τῶν ἰσχυρῶν ἔργα θαυμαζέτω, ἀλλὰ τὸ δίκαιον ἐξεταζέτω. ἀκούσωμεν καὶ τοῦ ἀσθενεστέρου, ἵνα μὴ ἡ δύναμις ἀντὶ τοῦ νόμου κρίνῃ. οὕτως ἡ περὶ δύο χιτώνων ζήτησις εἰς τὴν περὶ ἀρχῆς παιδείαν ἄγει.",
+        "gloss": [
+          {
+            "greek": "πανταχοῦ",
+            "english": "everywhere"
+          },
+          {
+            "greek": "ἐξουσίαν",
+            "english": "authority"
+          },
+          {
+            "greek": "θαυμαζέτω",
+            "english": "let him admire; imperative"
+          },
+          {
+            "greek": "ἀσθενεστέρου",
+            "english": "weaker person"
+          },
+          {
+            "greek": "κρίνῃ",
+            "english": "may judge"
+          },
+          {
+            "greek": "ζήτησις",
+            "english": "inquiry"
+          }
+        ]
+      }
+    ],
+    "translation": "While still a boy, Cyrus was staying with his grandfather. His mother Mandane asked about his education. For the boy needed not only to train his body but also to learn what was just. Cyrus said that among the Persians he learned to judge and that the teacher often made him a judge.\n\nTwo boys were disputing about tunics. The large boy had a small tunic, and the small boy a large one. The large boy took the small boy’s tunic and gave him his own. Each thus had a tunic fitting his body; but the small boy did not wish to lose his own. For he had not made the exchange willingly.\n\nCyrus examined the matter. What should I do? Should I consider the size of the tunics or their owners? One tunic fits the large boy well, the other the small boy. Let us therefore judge by usefulness, so that each may have what fits. He made this judgment, thinking that he was benefiting both.\n\nThe teacher did not praise the judgment. What fits is one thing, what is just another. Let us investigate not only which tunic fits well, but also whose it is. Let us not wrong the owner in order to benefit the other person. Someone who takes by force does not thereby become the owner because the possession is useful to him.\n\nMandane listened to the account and discussed laws. For a ruler does not have the same authority everywhere. Let the boy therefore not merely admire the deeds of the powerful, but examine what is just. Let us listen also to the weaker person, so that power may not judge in place of law. Thus the inquiry about two tunics leads into education about rule.\n",
+    "sourceCitation": "Xenophon, Cyropaedia 1.3.16–18. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/2085/2085-h/2085-h.htm",
+    "notesMarkdown": "The coat dispute and Cyrus’s conversation with Mandane follow Cyropaedia 1.3.16–18. The deliberative questions and closing reflection are composed for this course; neither these speeches nor the scene is an independent record of Persian schooling."
+  },
+  "wordStudy": {
+    "label": "Word Study — δίκη and judgment",
+    "blocks": [
+      {
+        "title": "δίκη and judgment",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. δίκη means “judgment, justice”; δίκαιος means “just”; δικαστής means “judge”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "δίκη",
+            "english": "judgment, justice"
+          },
+          {
+            "greek": "δίκαιος",
+            "english": "just"
+          },
+          {
+            "greek": "δικαστής",
+            "english": "judge"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 21α. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Introduce the subjunctive as a mood, with its characteristic vowel patterns and present/aorist formation in the assigned regular verbs.",
+      "Distinguish present and aorist aspect without treating the subjunctive as an ordinary future tense.",
+      "Teach the chapter’s principal uses through deliberation, exhortation, prohibition, and purpose as assigned; distinguish questions about what to do from factual questions.",
+      "Identify the clause signal, verb form, subject, and intended meaning. Defer systematic general-clause work to Lesson 39 and the full conditional system to Lesson 44."
+    ],
+    "sections": [
+      {
+        "id": "subjunctive-active",
+        "title": "1. Present and aorist active subjunctives",
+        "practiceTopic": "subjunctive-active",
+        "body": [
+          "Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context.",
+          "The present subjunctive uses the present stem; the first aorist uses the sigmatic aorist stem without an augment: λύσω, λύσῃς, λύσῃ, λύσωμεν, λύσητε, λύσωσι(ν). A second aorist uses its own stem, as λάβω. The present presents an activity as ongoing or repeated; the aorist views it as a whole. Neither stem by itself means present versus past time here."
+        ],
+        "table": {
+          "title": "1. Present and aorist active subjunctives",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λύωμεν",
+              "present active subjunctive, first plural: we may release"
+            ],
+            [
+              "λύσητε",
+              "aorist active subjunctive, second plural: you may release"
+            ],
+            [
+              "λάβῃ",
+              "second aorist active subjunctive, third singular: he or she may take"
+            ],
+            [
+              "λύῃς",
+              "present active subjunctive, second singular: you may release"
+            ],
+            [
+              "λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν)",
+              "complete present active paradigm"
+            ],
+            [
+              "λύσω, λύσῃς, λύσῃ, λύσωμεν, λύσητε, λύσωσι(ν)",
+              "complete first aorist active paradigm"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Why is there no augment in λάβω?",
+            "answer": "The augment marks past indicative time, not this subjunctive."
+          },
+          {
+            "prompt": "What difference matters between ἵνα λύῃ and ἵνα λύσῃ?",
+            "answer": "Present versus aorist aspect, not present versus past time."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-middle",
+        "title": "2. Middle, passive, and contracted forms",
+        "practiceTopic": "subjunctive-middle",
+        "body": [
+          "The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself.",
+          "Aorist passives use the passive stem and active-type endings: λυθῶ, λυθῇς, λυθῇ, λυθῶμεν, λυθῆτε, λυθῶσι(ν). Contract verbs retain contraction: τιμῶ, τιμᾷς, τιμᾷ; ποιῶ, ποιῇς, ποιῇ. Do not classify a form by its last two letters alone: identify stem, voice, mood, person, and clause signal."
+        ],
+        "table": {
+          "title": "2. Middle, passive, and contracted forms",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λύηται",
+              "present middle/passive subjunctive, third singular"
+            ],
+            [
+              "λύσηται",
+              "aorist middle subjunctive, third singular"
+            ],
+            [
+              "λυθῇ",
+              "aorist passive subjunctive, third singular"
+            ],
+            [
+              "τιμῶμεν",
+              "present active subjunctive, first plural of τιμάω"
+            ],
+            [
+              "λυθῶ, λυθῇς, λυθῇ, λυθῶμεν, λυθῆτε, λυθῶσι(ν)",
+              "aorist passive paradigm"
+            ],
+            [
+              "ποιῶ / ποιῇς / ποιῇ / ποιῶμεν / ποιῆτε / ποιῶσι(ν)",
+              "present active subjunctive of ποιέω"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Translate ἵνα ὁ παῖς παιδευθῇ.",
+            "answer": "so that the child may be educated"
+          },
+          {
+            "prompt": "What is the voice of ἕληται from αἱρέω?",
+            "answer": "Middle: may choose."
+          }
+        ]
+      },
+      {
+        "id": "deliberation-exhortation",
+        "title": "3. Deliberation, exhortation, and prohibition",
+        "practiceTopic": "deliberation-exhortation",
+        "body": [
+          "A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal.",
+          "A negative exhortation uses μή. A prohibition addressed to another person commonly uses μή with the aorist subjunctive for a prohibited action, or μή with the present imperative for ongoing or habitual conduct. Compare μὴ κλέψῃς and μὴ κλέπτε. This is a useful aspect distinction, not a rule that the aorist always means one moment and the present always means “stop.”"
+        ],
+        "table": {
+          "title": "3. Deliberation, exhortation, and prohibition",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "τί ποιήσω;",
+              "What should I do? Deliberative subjunctive."
+            ],
+            [
+              "ἀκούσωμεν.",
+              "Let us listen. Aorist exhortation."
+            ],
+            [
+              "μὴ κλέψῃς.",
+              "Do not steal. Aorist subjunctive prohibition."
+            ],
+            [
+              "μὴ κλέπτε.",
+              "Do not steal / stop stealing, as context requires. Present imperative."
+            ],
+            [
+              "μὴ ἀδικήσωμεν.",
+              "Let us not do wrong."
+            ],
+            [
+              "ποῦ τὸν χιτῶνα φέρω;",
+              "Where should I carry the tunic? Deliberation in context."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τί ποιήσω;",
+            "english": "What should I do? Deliberative subjunctive."
+          },
+          {
+            "greek": "ἀκούσωμεν.",
+            "english": "Let us listen. Aorist exhortation."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which proposal includes the speaker?",
+            "answer": "κρίνωμεν, let us judge"
+          },
+          {
+            "prompt": "Which negative belongs in a normal prohibition?",
+            "answer": "μή"
+          }
+        ]
+      },
+      {
+        "id": "purpose",
+        "title": "4. Purpose and clause reading",
+        "practiceTopic": "purpose",
+        "body": [
+          "A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction.",
+          "Find the main action, purpose signal, subject, and subjunctive. A new subject may appear in the purpose clause. Compare διδάσκω ἵνα ὁ παῖς μάθῃ: I teach, but the child learns. We meet systematic general clauses in Lesson 39 and the full condition system in Lesson 44; do not label every subjunctive clause a purpose clause."
+        ],
+        "table": {
+          "title": "4. Purpose and clause reading",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἐρωτῶ ἵνα μάθω.",
+              "I ask so that I may learn."
+            ],
+            [
+              "διδάσκω ἵνα ὁ παῖς μάθῃ.",
+              "I teach so that the child may learn."
+            ],
+            [
+              "φυλάττω ἵνα μὴ ἀπόληται.",
+              "I guard it so that it may not be lost."
+            ],
+            [
+              "κρίνωμεν ἵνα τὸ δίκαιον φανῇ.",
+              "Let us judge so that what is just may become clear."
+            ],
+            [
+              "ἵνα + subjunctive",
+              "purpose envisaged, not proof of achievement"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἐρωτῶ ἵνα μάθω.",
+            "english": "I ask so that I may learn."
+          },
+          {
+            "greek": "διδάσκω ἵνα ὁ παῖς μάθῃ.",
+            "english": "I teach so that the child may learn."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who learns in διδάσκω ἵνα ὁ παῖς μάθῃ?",
+            "answer": "the child"
+          },
+          {
+            "prompt": "Does a purpose clause prove the purpose succeeded?",
+            "answer": "No; it expresses an aim."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Present and aorist active subjunctives: Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context.",
+        "2. Middle, passive, and contracted forms: The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself.",
+        "3. Deliberation, exhortation, and prohibition: A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal.",
+        "4. Purpose and clause reading: A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Who owns the better-fitting coat?",
+    "banner": {
+      "image": "assets/lesson-37-culture-banner.png",
+      "alt": "Educational reconstruction: A separate Persian textile and clothing scene, with garments and weaving tools; no duplicate of the judgment scene.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Cyropaedia",
+        "body": [
+          "The coat dispute introduces the work’s larger problem: how does someone learn to govern fairly? Read the childhood episode as a test of judgment that may later matter on an imperial scale. Mandane’s questions expose the difference between confidence and understanding. The useful arrangement of possessions does not itself establish a right to take them.",
+          "Its eight books follow Cyrus the Great from education to conquest, imperial organization, and death. This Cyrus is the sixth-century founder of Persian power, not Cyrus the Younger of the Anabasis. The opening question is striking: why do people so often resist rulers, and how could Cyrus secure obedience across so many peoples? Childhood training becomes the starting point for a much larger inquiry into power.",
+          "Xenophon combines campaigns, speeches, friendships, rivalries, and domestic stories to explore leadership. Rewards and persuasion stand beside military force; admiration for the ruler sits beside questions about dependence on him. The final account of decline after Cyrus complicates an uncomplicated success story. Read this as a crafted political and educational narrative, not a reliable transcript of sixth-century Persian court life.",
+          "Reading invitation: compare the opening discussion of obedience in Book 1 with Araspas’s confidence about desire in Book 5 and its consequences in Book 6. Panthea’s story makes the problem personal: can someone entrusted with power govern himself? Then glance at the close of Book 8. What can a leader build that will survive him? The whole-work link opens Henry Graham Dakyns’s English translation, revised by F. M. Stawell."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Cyropaedia — English translation",
+            "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+          },
+          {
+            "title": "Wikipedia: Cyropaedia",
+            "url": "https://en.wikipedia.org/wiki/Cyropaedia"
+          }
+        ]
+      },
+      {
+        "title": "A judgment with two different questions",
+        "body": [
+          "Imagine seeing only the boys and the sizes of their tunics. Giving each the garment that fits seems sensible. Now add the fact that the larger boy took the smaller boy’s property without consent. A useful allocation and a rightful transfer are no longer the same question. Cyrus’ teacher corrects the question he has answered, not merely his ability to notice size. The story lets a beginner’s mistake become a lesson about the limits of benevolent power.",
+          "A tunic also represents labor and resources. Cloth must be produced, maintained, and replaced. The Culture/History banner suggests that material world, but its workshop details are a modern reconstruction. Neither the illustration nor the literary story establishes the precise appearance of a Persian school or garment exchange."
+        ]
+      },
+      {
+        "title": "Mandane and the education of a ruler",
+        "body": [
+          "Mandane questions Cyrus about what he has learned and about the difference between Persian and Median rule. She is an active participant in the educational argument, rather than a decorative family connection. Yet her voice is presented by a male Greek author writing a shaped account of Cyrus the Great. Keep the literary role and the limits of the evidence together.",
+          "Timeline: this story concerns Cyrus the Great in the sixth century BCE. The Cyrus whom Xenophon accompanied in 401 BCE was Cyrus the Younger, a different person. A shared name does not turn the Cyropaedia into a memoir of the Anabasis expedition."
+        ]
+      },
+      {
+        "title": "Try the judgment twice",
+        "body": [
+          "First allocate the two coats by fit and explain your reason. Then make a second judgment after learning who owned each coat and whether the exchange was voluntary. Write two sentences explaining what changed. You may propose a voluntary exchange, but identify it as your solution rather than an event recorded in the passage.",
+          "Translation workshop: translate paragraphs 1–2 with glosses; bracket the subjunctives in paragraphs 3–4; then translate paragraph 5 continuously. In your final version distinguish the source-based episode from the course’s questions about power. What evidence would you still need before declaring an exchange fair?"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Which Cyrus appears here?",
+        "answer": "Cyrus the Great, sixth century BCE."
+      },
+      {
+        "prompt": "What kind of source is the Cyropaedia?",
+        "answer": "A crafted educational and political portrait."
+      },
+      {
+        "prompt": "Why repeat the coat judgment with ownership revealed?",
+        "answer": "The relevant question changes when consent and ownership are known."
+      },
+      {
+        "prompt": "How is Mandane represented?",
+        "answer": "As an active questioner whose voice is mediated by Xenophon."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Cyropaedia.",
+        "Parse and interpret subjunctives, rewrite a factual sentence as a deliberative question, and defend a judgment using evidence from the passage. Score the reasoning, not agreement with a preferred answer.",
+        "Explain the lesson’s grammar using an example from your 253-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Cyropaedia 1.3.16–18",
+        "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+      },
+      {
+        "title": "Read the complete Cyropaedia — English translation",
+        "url": "https://www.gutenberg.org/files/2085/2085-h/2085-h.htm"
+      },
+      {
+        "title": "Wikipedia: Cyropaedia",
+        "url": "https://en.wikipedia.org/wiki/Cyropaedia"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 37 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ χιτών",
+          "answer": "tunic — χιτών, χιτῶνος, ὁ"
+        },
+        {
+          "prompt": "ὁ κύριος",
+          "answer": "owner — κύριος, κυρίου, ὁ"
+        },
+        {
+          "prompt": "ἡ κρίσις",
+          "answer": "judgment — κρίσις, κρίσεως, ἡ"
+        },
+        {
+          "prompt": "ὁ δικαστής",
+          "answer": "judge (person) — δικαστής, δικαστοῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ βία",
+          "answer": "force — βία, βίας, ἡ"
+        },
+        {
+          "prompt": "τὸ κτῆμα",
+          "answer": "possession — κτῆμα, κτήματος, τό"
+        },
+        {
+          "prompt": "ἡ ἀλλαγή",
+          "answer": "exchange — ἀλλαγή, ἀλλαγῆς, ἡ"
+        },
+        {
+          "prompt": "ἡ ἐξουσία",
+          "answer": "authority — ἐξουσία, ἐξουσίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ζήτησις",
+          "answer": "inquiry — ζήτησις, ζητήσεως, ἡ"
+        },
+        {
+          "prompt": "τὸ μέγεθος",
+          "answer": "size — μέγεθος, μεγέθους, τό"
+        },
+        {
+          "prompt": "κρίνω",
+          "answer": "judge — κρίνω"
+        },
+        {
+          "prompt": "ἁρμόττω",
+          "answer": "fit — ἁρμόττω"
+        },
+        {
+          "prompt": "ἀδικέω",
+          "answer": "wrong someone — ἀδικέω"
+        },
+        {
+          "prompt": "ὠφελέω",
+          "answer": "benefit — ὠφελέω"
+        },
+        {
+          "prompt": "σκοπέω",
+          "answer": "consider — σκοπέω"
+        },
+        {
+          "prompt": "ἐξετάζω",
+          "answer": "examine — ἐξετάζω"
+        },
+        {
+          "prompt": "χρήσιμος",
+          "answer": "useful — χρήσιμος, χρησίμη, χρήσιμον"
+        },
+        {
+          "prompt": "ἑκών",
+          "answer": "willing — ἑκών, ἑκοῦσα, ἑκόν"
+        },
+        {
+          "prompt": "ἀμφότεροι",
+          "answer": "both — ἀμφότεροι, ἀμφότεραι, ἀμφότερα"
+        },
+        {
+          "prompt": "πανταχοῦ",
+          "answer": "everywhere — πανταχοῦ"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 37 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l37-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ χιτών mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": true,
+              "feedback": "Correct. χιτών, χιτῶνος, ὁ"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: tunic"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: tunic"
+            },
+            {
+              "text": "judge (person)",
+              "correct": false,
+              "feedback": "Review: tunic"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “tunic”?",
+          "choices": [
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ὁ χιτών"
+            },
+            {
+              "text": "ὁ χιτών",
+              "correct": true,
+              "feedback": "Correct. χιτών, χιτῶνος, ὁ"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ὁ χιτών"
+            },
+            {
+              "text": "ὁ δικαστής",
+              "correct": false,
+              "feedback": "Review: ὁ χιτών"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κύριος mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: owner"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: owner"
+            },
+            {
+              "text": "owner",
+              "correct": true,
+              "feedback": "Correct. κύριος, κυρίου, ὁ"
+            },
+            {
+              "text": "judge (person)",
+              "correct": false,
+              "feedback": "Review: owner"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “owner”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ὁ κύριος"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ὁ κύριος"
+            },
+            {
+              "text": "ὁ δικαστής",
+              "correct": false,
+              "feedback": "Review: ὁ κύριος"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": true,
+              "feedback": "Correct. κύριος, κυρίου, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ κρίσις mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": true,
+              "feedback": "Correct. κρίσις, κρίσεως, ἡ"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: judgment"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: judgment"
+            },
+            {
+              "text": "judge (person)",
+              "correct": false,
+              "feedback": "Review: judgment"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “judgment”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἡ κρίσις"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": true,
+              "feedback": "Correct. κρίσις, κρίσεως, ἡ"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἡ κρίσις"
+            },
+            {
+              "text": "ὁ δικαστής",
+              "correct": false,
+              "feedback": "Review: ἡ κρίσις"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ δικαστής mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: judge (person)"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: judge (person)"
+            },
+            {
+              "text": "judge (person)",
+              "correct": true,
+              "feedback": "Correct. δικαστής, δικαστοῦ, ὁ"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: judge (person)"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “judge (person)”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ὁ δικαστής"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ὁ δικαστής"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ὁ δικαστής"
+            },
+            {
+              "text": "ὁ δικαστής",
+              "correct": true,
+              "feedback": "Correct. δικαστής, δικαστοῦ, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βία mean?",
+          "choices": [
+            {
+              "text": "force",
+              "correct": true,
+              "feedback": "Correct. βία, βίας, ἡ"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: force"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: force"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: force"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “force”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἡ βία"
+            },
+            {
+              "text": "ἡ βία",
+              "correct": true,
+              "feedback": "Correct. βία, βίας, ἡ"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἡ βία"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἡ βία"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ κτῆμα mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: possession"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: possession"
+            },
+            {
+              "text": "possession",
+              "correct": true,
+              "feedback": "Correct. κτῆμα, κτήματος, τό"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: possession"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “possession”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: τὸ κτῆμα"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: τὸ κτῆμα"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: τὸ κτῆμα"
+            },
+            {
+              "text": "τὸ κτῆμα",
+              "correct": true,
+              "feedback": "Correct. κτῆμα, κτήματος, τό"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀλλαγή mean?",
+          "choices": [
+            {
+              "text": "exchange",
+              "correct": true,
+              "feedback": "Correct. ἀλλαγή, ἀλλαγῆς, ἡ"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: exchange"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: exchange"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: exchange"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “exchange”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἡ ἀλλαγή"
+            },
+            {
+              "text": "ἡ ἀλλαγή",
+              "correct": true,
+              "feedback": "Correct. ἀλλαγή, ἀλλαγῆς, ἡ"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἡ ἀλλαγή"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἡ ἀλλαγή"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐξουσία mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: authority"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: authority"
+            },
+            {
+              "text": "authority",
+              "correct": true,
+              "feedback": "Correct. ἐξουσία, ἐξουσίας, ἡ"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: authority"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “authority”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἡ ἐξουσία"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἡ ἐξουσία"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἡ ἐξουσία"
+            },
+            {
+              "text": "ἡ ἐξουσία",
+              "correct": true,
+              "feedback": "Correct. ἐξουσία, ἐξουσίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ζήτησις mean?",
+          "choices": [
+            {
+              "text": "inquiry",
+              "correct": true,
+              "feedback": "Correct. ζήτησις, ζητήσεως, ἡ"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: inquiry"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: inquiry"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: inquiry"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “inquiry”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἡ ζήτησις"
+            },
+            {
+              "text": "ἡ ζήτησις",
+              "correct": true,
+              "feedback": "Correct. ζήτησις, ζητήσεως, ἡ"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἡ ζήτησις"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἡ ζήτησις"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ μέγεθος mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: size"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: size"
+            },
+            {
+              "text": "size",
+              "correct": true,
+              "feedback": "Correct. μέγεθος, μεγέθους, τό"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: size"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “size”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: τὸ μέγεθος"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: τὸ μέγεθος"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: τὸ μέγεθος"
+            },
+            {
+              "text": "τὸ μέγεθος",
+              "correct": true,
+              "feedback": "Correct. μέγεθος, μεγέθους, τό"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κρίνω mean?",
+          "choices": [
+            {
+              "text": "judge",
+              "correct": true,
+              "feedback": "Correct. κρίνω"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: judge"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: judge"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: judge"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “judge”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: κρίνω"
+            },
+            {
+              "text": "κρίνω",
+              "correct": true,
+              "feedback": "Correct. κρίνω"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: κρίνω"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: κρίνω"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἁρμόττω mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: fit"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: fit"
+            },
+            {
+              "text": "fit",
+              "correct": true,
+              "feedback": "Correct. ἁρμόττω"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: fit"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “fit”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἁρμόττω"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἁρμόττω"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἁρμόττω"
+            },
+            {
+              "text": "ἁρμόττω",
+              "correct": true,
+              "feedback": "Correct. ἁρμόττω"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀδικέω mean?",
+          "choices": [
+            {
+              "text": "wrong someone",
+              "correct": true,
+              "feedback": "Correct. ἀδικέω"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: wrong someone"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: wrong someone"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: wrong someone"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “wrong someone”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἀδικέω"
+            },
+            {
+              "text": "ἀδικέω",
+              "correct": true,
+              "feedback": "Correct. ἀδικέω"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἀδικέω"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἀδικέω"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὠφελέω mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: benefit"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: benefit"
+            },
+            {
+              "text": "benefit",
+              "correct": true,
+              "feedback": "Correct. ὠφελέω"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: benefit"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “benefit”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ὠφελέω"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ὠφελέω"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ὠφελέω"
+            },
+            {
+              "text": "ὠφελέω",
+              "correct": true,
+              "feedback": "Correct. ὠφελέω"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does σκοπέω mean?",
+          "choices": [
+            {
+              "text": "consider",
+              "correct": true,
+              "feedback": "Correct. σκοπέω"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: consider"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: consider"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: consider"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “consider”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: σκοπέω"
+            },
+            {
+              "text": "σκοπέω",
+              "correct": true,
+              "feedback": "Correct. σκοπέω"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: σκοπέω"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: σκοπέω"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐξετάζω mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: examine"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: examine"
+            },
+            {
+              "text": "examine",
+              "correct": true,
+              "feedback": "Correct. ἐξετάζω"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: examine"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “examine”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἐξετάζω"
+            },
+            {
+              "text": "ἐξετάζω",
+              "correct": true,
+              "feedback": "Correct. ἐξετάζω"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does χρήσιμος mean?",
+          "choices": [
+            {
+              "text": "useful",
+              "correct": true,
+              "feedback": "Correct. χρήσιμος, χρησίμη, χρήσιμον"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: useful"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: useful"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: useful"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “useful”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: χρήσιμος"
+            },
+            {
+              "text": "χρήσιμος",
+              "correct": true,
+              "feedback": "Correct. χρήσιμος, χρησίμη, χρήσιμον"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: χρήσιμος"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: χρήσιμος"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἑκών mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: willing"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: willing"
+            },
+            {
+              "text": "willing",
+              "correct": true,
+              "feedback": "Correct. ἑκών, ἑκοῦσα, ἑκόν"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: willing"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “willing”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἑκών"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἑκών"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἑκών"
+            },
+            {
+              "text": "ἑκών",
+              "correct": true,
+              "feedback": "Correct. ἑκών, ἑκοῦσα, ἑκόν"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀμφότεροι mean?",
+          "choices": [
+            {
+              "text": "both",
+              "correct": true,
+              "feedback": "Correct. ἀμφότεροι, ἀμφότεραι, ἀμφότερα"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: both"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: both"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: both"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “both”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: ἀμφότεροι"
+            },
+            {
+              "text": "ἀμφότεροι",
+              "correct": true,
+              "feedback": "Correct. ἀμφότεροι, ἀμφότεραι, ἀμφότερα"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: ἀμφότεροι"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: ἀμφότεροι"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πανταχοῦ mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: everywhere"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: everywhere"
+            },
+            {
+              "text": "everywhere",
+              "correct": true,
+              "feedback": "Correct. πανταχοῦ"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: everywhere"
+            }
+          ]
+        },
+        {
+          "id": "l37-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “everywhere”?",
+          "choices": [
+            {
+              "text": "ὁ χιτών",
+              "correct": false,
+              "feedback": "Review: πανταχοῦ"
+            },
+            {
+              "text": "ὁ κύριος",
+              "correct": false,
+              "feedback": "Review: πανταχοῦ"
+            },
+            {
+              "text": "ἡ κρίσις",
+              "correct": false,
+              "feedback": "Review: πανταχοῦ"
+            },
+            {
+              "text": "πανταχοῦ",
+              "correct": true,
+              "feedback": "Correct. πανταχοῦ"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 37 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "λύωμεν",
+          "answer": "present active subjunctive, first plural: we may release — 1. Present and aorist active subjunctives"
+        },
+        {
+          "prompt": "λύσητε",
+          "answer": "aorist active subjunctive, second plural: you may release — 1. Present and aorist active subjunctives"
+        },
+        {
+          "prompt": "λάβῃ",
+          "answer": "second aorist active subjunctive, third singular: he or she may take — 1. Present and aorist active subjunctives"
+        },
+        {
+          "prompt": "λύῃς",
+          "answer": "present active subjunctive, second singular: you may release — 1. Present and aorist active subjunctives"
+        },
+        {
+          "prompt": "λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν)",
+          "answer": "complete present active paradigm — 1. Present and aorist active subjunctives"
+        },
+        {
+          "prompt": "λύσω, λύσῃς, λύσῃ, λύσωμεν, λύσητε, λύσωσι(ν)",
+          "answer": "complete first aorist active paradigm — 1. Present and aorist active subjunctives"
+        },
+        {
+          "prompt": "λύηται",
+          "answer": "present middle/passive subjunctive, third singular — 2. Middle, passive, and contracted forms"
+        },
+        {
+          "prompt": "λύσηται",
+          "answer": "aorist middle subjunctive, third singular — 2. Middle, passive, and contracted forms"
+        },
+        {
+          "prompt": "λυθῇ",
+          "answer": "aorist passive subjunctive, third singular — 2. Middle, passive, and contracted forms"
+        },
+        {
+          "prompt": "τιμῶμεν",
+          "answer": "present active subjunctive, first plural of τιμάω — 2. Middle, passive, and contracted forms"
+        },
+        {
+          "prompt": "λυθῶ, λυθῇς, λυθῇ, λυθῶμεν, λυθῆτε, λυθῶσι(ν)",
+          "answer": "aorist passive paradigm — 2. Middle, passive, and contracted forms"
+        },
+        {
+          "prompt": "ποιῶ / ποιῇς / ποιῇ / ποιῶμεν / ποιῆτε / ποιῶσι(ν)",
+          "answer": "present active subjunctive of ποιέω — 2. Middle, passive, and contracted forms"
+        },
+        {
+          "prompt": "τί ποιήσω;",
+          "answer": "What should I do? Deliberative subjunctive. — 3. Deliberation, exhortation, and prohibition"
+        },
+        {
+          "prompt": "ἀκούσωμεν.",
+          "answer": "Let us listen. Aorist exhortation. — 3. Deliberation, exhortation, and prohibition"
+        },
+        {
+          "prompt": "μὴ κλέψῃς.",
+          "answer": "Do not steal. Aorist subjunctive prohibition. — 3. Deliberation, exhortation, and prohibition"
+        },
+        {
+          "prompt": "μὴ κλέπτε.",
+          "answer": "Do not steal / stop stealing, as context requires. Present imperative. — 3. Deliberation, exhortation, and prohibition"
+        },
+        {
+          "prompt": "μὴ ἀδικήσωμεν.",
+          "answer": "Let us not do wrong. — 3. Deliberation, exhortation, and prohibition"
+        },
+        {
+          "prompt": "ποῦ τὸν χιτῶνα φέρω;",
+          "answer": "Where should I carry the tunic? Deliberation in context. — 3. Deliberation, exhortation, and prohibition"
+        },
+        {
+          "prompt": "ἐρωτῶ ἵνα μάθω.",
+          "answer": "I ask so that I may learn. — 4. Purpose and clause reading"
+        },
+        {
+          "prompt": "διδάσκω ἵνα ὁ παῖς μάθῃ.",
+          "answer": "I teach so that the child may learn. — 4. Purpose and clause reading"
+        },
+        {
+          "prompt": "φυλάττω ἵνα μὴ ἀπόληται.",
+          "answer": "I guard it so that it may not be lost. — 4. Purpose and clause reading"
+        },
+        {
+          "prompt": "κρίνωμεν ἵνα τὸ δίκαιον φανῇ.",
+          "answer": "Let us judge so that what is just may become clear. — 4. Purpose and clause reading"
+        },
+        {
+          "prompt": "ἵνα + subjunctive",
+          "answer": "purpose envisaged, not proof of achievement — 4. Purpose and clause reading"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 37 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l37-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does δίκη mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": true,
+              "feedback": "Correct. judgment, justice"
+            },
+            {
+              "text": "give",
+              "correct": false,
+              "feedback": "Review: judgment, justice"
+            },
+            {
+              "text": "hand over",
+              "correct": false,
+              "feedback": "Review: judgment, justice"
+            },
+            {
+              "text": "give an account",
+              "correct": false,
+              "feedback": "Review: judgment, justice"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “judgment, justice”?",
+          "choices": [
+            {
+              "text": "δίδωμι",
+              "correct": false,
+              "feedback": "Review: δίκη"
+            },
+            {
+              "text": "δίκη",
+              "correct": true,
+              "feedback": "Correct. δίκη"
+            },
+            {
+              "text": "παραδίδωμι",
+              "correct": false,
+              "feedback": "Review: δίκη"
+            },
+            {
+              "text": "λόγον διδόναι",
+              "correct": false,
+              "feedback": "Review: δίκη"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does δίκαιος mean?",
+          "choices": [
+            {
+              "text": "give",
+              "correct": false,
+              "feedback": "Review: just"
+            },
+            {
+              "text": "hand over",
+              "correct": false,
+              "feedback": "Review: just"
+            },
+            {
+              "text": "just",
+              "correct": true,
+              "feedback": "Correct. just"
+            },
+            {
+              "text": "give an account",
+              "correct": false,
+              "feedback": "Review: just"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “just”?",
+          "choices": [
+            {
+              "text": "δίδωμι",
+              "correct": false,
+              "feedback": "Review: δίκαιος"
+            },
+            {
+              "text": "παραδίδωμι",
+              "correct": false,
+              "feedback": "Review: δίκαιος"
+            },
+            {
+              "text": "λόγον διδόναι",
+              "correct": false,
+              "feedback": "Review: δίκαιος"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": true,
+              "feedback": "Correct. δίκαιος"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does δικαστής mean?",
+          "choices": [
+            {
+              "text": "judge",
+              "correct": true,
+              "feedback": "Correct. judge"
+            },
+            {
+              "text": "give",
+              "correct": false,
+              "feedback": "Review: judge"
+            },
+            {
+              "text": "hand over",
+              "correct": false,
+              "feedback": "Review: judge"
+            },
+            {
+              "text": "give an account",
+              "correct": false,
+              "feedback": "Review: judge"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “judge”?",
+          "choices": [
+            {
+              "text": "δίδωμι",
+              "correct": false,
+              "feedback": "Review: δικαστής"
+            },
+            {
+              "text": "δικαστής",
+              "correct": true,
+              "feedback": "Correct. δικαστής"
+            },
+            {
+              "text": "παραδίδωμι",
+              "correct": false,
+              "feedback": "Review: δικαστής"
+            },
+            {
+              "text": "λόγον διδόναι",
+              "correct": false,
+              "feedback": "Review: δικαστής"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύωμεν",
+          "choices": [
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύσητε",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive, second plural: you may release"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive, second plural: you may release"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive, second plural: you may release"
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λάβῃ",
+          "choices": [
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive, third singular: he or she may take"
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive, third singular: he or she may take"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive, third singular: he or she may take"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύῃς",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, second singular: you may release"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, second singular: you may release"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, second singular: you may release"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Why is there no augment in λάβω?",
+          "choices": [
+            {
+              "text": "All second aorists lack augments even in the indicative.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "It is a present indicative.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "The augment marks past indicative time, not this subjunctive.",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "The initial vowel is always deleted.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "What difference matters between ἵνα λύῃ and ἵνα λύσῃ?",
+          "choices": [
+            {
+              "text": "The second clause must refer to yesterday.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "One is always a question.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "The subjects must differ.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "Present versus aorist aspect, not present versus past time.",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λύηται",
+          "choices": [
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λύσηται",
+          "choices": [
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third singular"
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third singular"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λυθῇ",
+          "choices": [
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive subjunctive, third singular"
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive subjunctive, third singular"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: aorist passive subjunctive, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: τιμῶμεν",
+          "choices": [
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural of τιμάω"
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural of τιμάω"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural of τιμάω"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Translate ἵνα ὁ παῖς παιδευθῇ.",
+          "choices": [
+            {
+              "text": "so that the child may be educated",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "because the child educated someone yesterday",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            },
+            {
+              "text": "if only the child had money",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            },
+            {
+              "text": "the educated child alone",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "What is the voice of ἕληται from αἱρέω?",
+          "choices": [
+            {
+              "text": "Passive: was chosen.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "Middle: may choose.",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "Active future: will destroy.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "There is no verb here.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: τί ποιήσω;",
+          "choices": [
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: ἀκούσωμεν.",
+          "choices": [
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": false,
+              "feedback": "Review: Let us listen. Aorist exhortation."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: Let us listen. Aorist exhortation."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: Let us listen. Aorist exhortation."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: μὴ κλέψῃς.",
+          "choices": [
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": false,
+              "feedback": "Review: Do not steal. Aorist subjunctive prohibition."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: Do not steal. Aorist subjunctive prohibition."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: Do not steal. Aorist subjunctive prohibition."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: μὴ κλέπτε.",
+          "choices": [
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": false,
+              "feedback": "Review: Do not steal / stop stealing, as context requires. Present imperative."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: Do not steal / stop stealing, as context requires. Present imperative."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: Do not steal / stop stealing, as context requires. Present imperative."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Which proposal includes the speaker?",
+          "choices": [
+            {
+              "text": "κρῖνε, judge!",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            },
+            {
+              "text": "κρίνει, he judges",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            },
+            {
+              "text": "κρίνωμεν, let us judge",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "ἔκρινε, he judged",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Which negative belongs in a normal prohibition?",
+          "choices": [
+            {
+              "text": "οὐ exclusively",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "καί",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "γάρ",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "μή",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: ἐρωτῶ ἵνα μάθω.",
+          "choices": [
+            {
+              "text": "I ask so that I may learn.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: διδάσκω ἵνα ὁ παῖς μάθῃ.",
+          "choices": [
+            {
+              "text": "I ask so that I may learn.",
+              "correct": false,
+              "feedback": "Review: I teach so that the child may learn."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: I teach so that the child may learn."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I teach so that the child may learn."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: φυλάττω ἵνα μὴ ἀπόληται.",
+          "choices": [
+            {
+              "text": "I ask so that I may learn.",
+              "correct": false,
+              "feedback": "Review: I guard it so that it may not be lost."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: I guard it so that it may not be lost."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I guard it so that it may not be lost."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: κρίνωμεν ἵνα τὸ δίκαιον φανῇ.",
+          "choices": [
+            {
+              "text": "I ask so that I may learn.",
+              "correct": false,
+              "feedback": "Review: Let us judge so that what is just may become clear."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: Let us judge so that what is just may become clear."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: Let us judge so that what is just may become clear."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Who learns in διδάσκω ἵνα ὁ παῖς μάθῃ?",
+          "choices": [
+            {
+              "text": "the child",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "the speaker necessarily",
+              "correct": false,
+              "feedback": "Review: the child"
+            },
+            {
+              "text": "the judge necessarily",
+              "correct": false,
+              "feedback": "Review: the child"
+            },
+            {
+              "text": "no one can be identified",
+              "correct": false,
+              "feedback": "Review: the child"
+            }
+          ]
+        },
+        {
+          "id": "l37-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Does a purpose clause prove the purpose succeeded?",
+          "choices": [
+            {
+              "text": "Yes, always.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "No; it expresses an aim.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "Only with a present stem.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "Only when the subject changes.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 37 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-37-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l37-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύωμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύσητε",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive, second plural: you may release"
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive, second plural: you may release"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive, second plural: you may release"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λάβῃ",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive, third singular: he or she may take"
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive, third singular: he or she may take"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive, third singular: he or she may take"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύῃς",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, second singular: you may release"
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, second singular: you may release"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, second singular: you may release"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Why is there no augment in λάβω?",
+          "choices": [
+            {
+              "text": "The augment marks past indicative time, not this subjunctive.",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "All second aorists lack augments even in the indicative.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "It is a present indicative.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "The initial vowel is always deleted.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "What difference matters between ἵνα λύῃ and ἵνα λύσῃ?",
+          "choices": [
+            {
+              "text": "The second clause must refer to yesterday.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "Present versus aorist aspect, not present versus past time.",
+              "correct": true,
+              "feedback": "Correct. Mood tells us how a clause presents its action. The subjunctive commonly marks an action envisaged, proposed, or dependent on a purpose or other condition. It is not simply a future tense. In regular active forms, the characteristic vowels are ω and η: λύω, λύῃς, λύῃ, λύωμεν, λύητε, λύωσι(ν). The first singular looks like the indicative, so use context."
+            },
+            {
+              "text": "One is always a question.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "The subjects must differ.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λύηται",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λύσηται",
+          "choices": [
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third singular"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third singular"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third singular"
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λυθῇ",
+          "choices": [
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive subjunctive, third singular"
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: aorist passive subjunctive, third singular"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: aorist passive subjunctive, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: τιμῶμεν",
+          "choices": [
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural of τιμάω"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural of τιμάω"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural of τιμάω"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Translate ἵνα ὁ παῖς παιδευθῇ.",
+          "choices": [
+            {
+              "text": "because the child educated someone yesterday",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            },
+            {
+              "text": "if only the child had money",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            },
+            {
+              "text": "so that the child may be educated",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            },
+            {
+              "text": "the educated child alone",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "What is the voice of ἕληται from αἱρέω?",
+          "choices": [
+            {
+              "text": "Passive: was chosen.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "Active future: will destroy.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "There is no verb here.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "Middle: may choose.",
+              "correct": true,
+              "feedback": "Correct. The present middle/passive subjunctive has λύωμαι, λύῃ, λύηται, λυώμεθα, λύησθε, λύωνται. The first aorist middle has λύσωμαι, λύσῃ, λύσηται, λυσώμεθα, λύσησθε, λύσωνται. Middle voice is interpreted from the verb and context; it does not always mean an action done to oneself."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: τί ποιήσω;",
+          "choices": [
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: ἀκούσωμεν.",
+          "choices": [
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": false,
+              "feedback": "Review: Let us listen. Aorist exhortation."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: Let us listen. Aorist exhortation."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: Let us listen. Aorist exhortation."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: μὴ κλέψῃς.",
+          "choices": [
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": false,
+              "feedback": "Review: Do not steal. Aorist subjunctive prohibition."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: Do not steal. Aorist subjunctive prohibition."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: Do not steal. Aorist subjunctive prohibition."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: μὴ κλέπτε.",
+          "choices": [
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": false,
+              "feedback": "Review: Do not steal / stop stealing, as context requires. Present imperative."
+            },
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: Do not steal / stop stealing, as context requires. Present imperative."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: Do not steal / stop stealing, as context requires. Present imperative."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Which proposal includes the speaker?",
+          "choices": [
+            {
+              "text": "κρίνωμεν, let us judge",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "κρῖνε, judge!",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            },
+            {
+              "text": "κρίνει, he judges",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            },
+            {
+              "text": "ἔκρινε, he judged",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Which negative belongs in a normal prohibition?",
+          "choices": [
+            {
+              "text": "οὐ exclusively",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "μή",
+              "correct": true,
+              "feedback": "Correct. A deliberative subjunctive asks what one should do: τί ποιήσω; means “What should I do?” rather than a request for a fact already established. First-person plural exhortations invite a shared action: ἀκούσωμεν, “Let us listen.” The subject is included in the proposal."
+            },
+            {
+              "text": "καί",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "γάρ",
+              "correct": false,
+              "feedback": "Review: μή"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: ἐρωτῶ ἵνα μάθω.",
+          "choices": [
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "I ask so that I may learn.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: διδάσκω ἵνα ὁ παῖς μάθῃ.",
+          "choices": [
+            {
+              "text": "I ask so that I may learn.",
+              "correct": false,
+              "feedback": "Review: I teach so that the child may learn."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: I teach so that the child may learn."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I teach so that the child may learn."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: φυλάττω ἵνα μὴ ἀπόληται.",
+          "choices": [
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "I ask so that I may learn.",
+              "correct": false,
+              "feedback": "Review: I guard it so that it may not be lost."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: I guard it so that it may not be lost."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I guard it so that it may not be lost."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: κρίνωμεν ἵνα τὸ δίκαιον φανῇ.",
+          "choices": [
+            {
+              "text": "I ask so that I may learn.",
+              "correct": false,
+              "feedback": "Review: Let us judge so that what is just may become clear."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: Let us judge so that what is just may become clear."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: Let us judge so that what is just may become clear."
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Who learns in διδάσκω ἵνα ὁ παῖς μάθῃ?",
+          "choices": [
+            {
+              "text": "the speaker necessarily",
+              "correct": false,
+              "feedback": "Review: the child"
+            },
+            {
+              "text": "the judge necessarily",
+              "correct": false,
+              "feedback": "Review: the child"
+            },
+            {
+              "text": "the child",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            },
+            {
+              "text": "no one can be identified",
+              "correct": false,
+              "feedback": "Review: the child"
+            }
+          ]
+        },
+        {
+          "id": "l37-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Does a purpose clause prove the purpose succeeded?",
+          "choices": [
+            {
+              "text": "Yes, always.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "Only with a present stem.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "Only when the subject changes.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "No; it expresses an aim.",
+              "correct": true,
+              "feedback": "Correct. A purpose clause explains what an action aims to achieve. In primary sequence, ἵνα, ὅπως, or ὡς can introduce a subjunctive: ἐρωτῶ ἵνα μάθω, “I ask so that I may learn.” The intended result need not actually happen. Negative purpose normally has μή after the purpose conjunction."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 37 Final Quiz — Learning to Judge Fairly",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-37-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l37-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What question does Cyrus initially prioritize?",
+          "choices": [
+            {
+              "text": "Which coat fits each boy.",
+              "correct": true,
+              "feedback": "Correct. Which coat fits each boy."
+            },
+            {
+              "text": "Who wove the cloth first.",
+              "correct": false,
+              "feedback": "Review: Which coat fits each boy."
+            },
+            {
+              "text": "Which boy can run faster.",
+              "correct": false,
+              "feedback": "Review: Which coat fits each boy."
+            },
+            {
+              "text": "Which coat belongs to Mandane.",
+              "correct": false,
+              "feedback": "Review: Which coat fits each boy."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why does the smaller boy object?",
+          "choices": [
+            {
+              "text": "Both coats were destroyed.",
+              "correct": false,
+              "feedback": "Review: The exchange was not voluntary."
+            },
+            {
+              "text": "The exchange was not voluntary.",
+              "correct": true,
+              "feedback": "Correct. The exchange was not voluntary."
+            },
+            {
+              "text": "He had been given money.",
+              "correct": false,
+              "feedback": "Review: The exchange was not voluntary."
+            },
+            {
+              "text": "He was the teacher.",
+              "correct": false,
+              "feedback": "Review: The exchange was not voluntary."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What distinction does the teacher introduce?",
+          "choices": [
+            {
+              "text": "Summer and winter weather.",
+              "correct": false,
+              "feedback": "Review: Fit and rightful ownership."
+            },
+            {
+              "text": "Greek and Latin writing.",
+              "correct": false,
+              "feedback": "Review: Fit and rightful ownership."
+            },
+            {
+              "text": "Fit and rightful ownership.",
+              "correct": true,
+              "feedback": "Correct. Fit and rightful ownership."
+            },
+            {
+              "text": "Infantry and cavalry.",
+              "correct": false,
+              "feedback": "Review: Fit and rightful ownership."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who questions Cyrus about education?",
+          "choices": [
+            {
+              "text": "Hiero.",
+              "correct": false,
+              "feedback": "Review: Mandane."
+            },
+            {
+              "text": "Hermogenes.",
+              "correct": false,
+              "feedback": "Review: Mandane."
+            },
+            {
+              "text": "Critias.",
+              "correct": false,
+              "feedback": "Review: Mandane."
+            },
+            {
+              "text": "Mandane.",
+              "correct": true,
+              "feedback": "Correct. Mandane."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What is the force of κρίνωμεν in the course reflection?",
+          "choices": [
+            {
+              "text": "Let us judge.",
+              "correct": true,
+              "feedback": "Correct. Let us judge."
+            },
+            {
+              "text": "We judged yesterday.",
+              "correct": false,
+              "feedback": "Review: Let us judge."
+            },
+            {
+              "text": "They will judge.",
+              "correct": false,
+              "feedback": "Review: Let us judge."
+            },
+            {
+              "text": "You were judged.",
+              "correct": false,
+              "feedback": "Review: Let us judge."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why hear the weaker person too?",
+          "choices": [
+            {
+              "text": "The weaker person must always win.",
+              "correct": false,
+              "feedback": "Review: Power should not replace examination of justice."
+            },
+            {
+              "text": "Power should not replace examination of justice.",
+              "correct": true,
+              "feedback": "Correct. Power should not replace examination of justice."
+            },
+            {
+              "text": "The larger coat proves ownership.",
+              "correct": false,
+              "feedback": "Review: Power should not replace examination of justice."
+            },
+            {
+              "text": "The teacher has no role.",
+              "correct": false,
+              "feedback": "Review: Power should not replace examination of justice."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ χιτών mean?",
+          "choices": [
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: tunic"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: tunic"
+            },
+            {
+              "text": "tunic",
+              "correct": true,
+              "feedback": "Correct. χιτών, χιτῶνος, ὁ"
+            },
+            {
+              "text": "judge (person)",
+              "correct": false,
+              "feedback": "Review: tunic"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κύριος mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: owner"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: owner"
+            },
+            {
+              "text": "judge (person)",
+              "correct": false,
+              "feedback": "Review: owner"
+            },
+            {
+              "text": "owner",
+              "correct": true,
+              "feedback": "Correct. κύριος, κυρίου, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ κρίσις mean?",
+          "choices": [
+            {
+              "text": "judgment",
+              "correct": true,
+              "feedback": "Correct. κρίσις, κρίσεως, ἡ"
+            },
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: judgment"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: judgment"
+            },
+            {
+              "text": "judge (person)",
+              "correct": false,
+              "feedback": "Review: judgment"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ δικαστής mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: judge (person)"
+            },
+            {
+              "text": "judge (person)",
+              "correct": true,
+              "feedback": "Correct. δικαστής, δικαστοῦ, ὁ"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: judge (person)"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: judge (person)"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βία mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: force"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: force"
+            },
+            {
+              "text": "force",
+              "correct": true,
+              "feedback": "Correct. βία, βίας, ἡ"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: force"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ κτῆμα mean?",
+          "choices": [
+            {
+              "text": "tunic",
+              "correct": false,
+              "feedback": "Review: possession"
+            },
+            {
+              "text": "owner",
+              "correct": false,
+              "feedback": "Review: possession"
+            },
+            {
+              "text": "judgment",
+              "correct": false,
+              "feedback": "Review: possession"
+            },
+            {
+              "text": "possession",
+              "correct": true,
+              "feedback": "Correct. κτῆμα, κτήματος, τό"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Why is there no augment in λάβω?",
+          "choices": [
+            {
+              "text": "The augment marks past indicative time, not this subjunctive.",
+              "correct": true,
+              "feedback": "Correct. The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "All second aorists lack augments even in the indicative.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "It is a present indicative.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            },
+            {
+              "text": "The initial vowel is always deleted.",
+              "correct": false,
+              "feedback": "Review: The augment marks past indicative time, not this subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "What difference matters between ἵνα λύῃ and ἵνα λύσῃ?",
+          "choices": [
+            {
+              "text": "The second clause must refer to yesterday.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "Present versus aorist aspect, not present versus past time.",
+              "correct": true,
+              "feedback": "Correct. Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "One is always a question.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            },
+            {
+              "text": "The subjects must differ.",
+              "correct": false,
+              "feedback": "Review: Present versus aorist aspect, not present versus past time."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Translate ἵνα ὁ παῖς παιδευθῇ.",
+          "choices": [
+            {
+              "text": "because the child educated someone yesterday",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            },
+            {
+              "text": "if only the child had money",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            },
+            {
+              "text": "so that the child may be educated",
+              "correct": true,
+              "feedback": "Correct. so that the child may be educated"
+            },
+            {
+              "text": "the educated child alone",
+              "correct": false,
+              "feedback": "Review: so that the child may be educated"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "What is the voice of ἕληται from αἱρέω?",
+          "choices": [
+            {
+              "text": "Passive: was chosen.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "Active future: will destroy.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "There is no verb here.",
+              "correct": false,
+              "feedback": "Review: Middle: may choose."
+            },
+            {
+              "text": "Middle: may choose.",
+              "correct": true,
+              "feedback": "Correct. Middle: may choose."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Which proposal includes the speaker?",
+          "choices": [
+            {
+              "text": "κρίνωμεν, let us judge",
+              "correct": true,
+              "feedback": "Correct. κρίνωμεν, let us judge"
+            },
+            {
+              "text": "κρῖνε, judge!",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            },
+            {
+              "text": "κρίνει, he judges",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            },
+            {
+              "text": "ἔκρινε, he judged",
+              "correct": false,
+              "feedback": "Review: κρίνωμεν, let us judge"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Which negative belongs in a normal prohibition?",
+          "choices": [
+            {
+              "text": "οὐ exclusively",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "μή",
+              "correct": true,
+              "feedback": "Correct. μή"
+            },
+            {
+              "text": "καί",
+              "correct": false,
+              "feedback": "Review: μή"
+            },
+            {
+              "text": "γάρ",
+              "correct": false,
+              "feedback": "Review: μή"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Who learns in διδάσκω ἵνα ὁ παῖς μάθῃ?",
+          "choices": [
+            {
+              "text": "the speaker necessarily",
+              "correct": false,
+              "feedback": "Review: the child"
+            },
+            {
+              "text": "the judge necessarily",
+              "correct": false,
+              "feedback": "Review: the child"
+            },
+            {
+              "text": "the child",
+              "correct": true,
+              "feedback": "Correct. the child"
+            },
+            {
+              "text": "no one can be identified",
+              "correct": false,
+              "feedback": "Review: the child"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Does a purpose clause prove the purpose succeeded?",
+          "choices": [
+            {
+              "text": "Yes, always.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "Only with a present stem.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "Only when the subject changes.",
+              "correct": false,
+              "feedback": "Review: No; it expresses an aim."
+            },
+            {
+              "text": "No; it expresses an aim.",
+              "correct": true,
+              "feedback": "Correct. No; it expresses an aim."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-active",
+          "prompt": "Analyze or translate: λύωμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive, first plural: we may release",
+              "correct": true,
+              "feedback": "Correct. present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "aorist active subjunctive, second plural: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "second aorist active subjunctive, third singular: he or she may take",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            },
+            {
+              "text": "present active subjunctive, second singular: you may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive, first plural: we may release"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "subjunctive-middle",
+          "prompt": "Analyze or translate: λύηται",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "present middle/passive subjunctive, third singular",
+              "correct": true,
+              "feedback": "Correct. present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "aorist passive subjunctive, third singular",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            },
+            {
+              "text": "present active subjunctive, first plural of τιμάω",
+              "correct": false,
+              "feedback": "Review: present middle/passive subjunctive, third singular"
+            }
+          ]
+        },
+        {
+          "id": "l37-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "deliberation-exhortation",
+          "prompt": "Analyze or translate: τί ποιήσω;",
+          "choices": [
+            {
+              "text": "Let us listen. Aorist exhortation.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "Do not steal. Aorist subjunctive prohibition.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "What should I do? Deliberative subjunctive.",
+              "correct": true,
+              "feedback": "Correct. What should I do? Deliberative subjunctive."
+            },
+            {
+              "text": "Do not steal / stop stealing, as context requires. Present imperative.",
+              "correct": false,
+              "feedback": "Review: What should I do? Deliberative subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "purpose",
+          "prompt": "Analyze or translate: ἐρωτῶ ἵνα μάθω.",
+          "choices": [
+            {
+              "text": "I teach so that the child may learn.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "I guard it so that it may not be lost.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "Let us judge so that what is just may become clear.",
+              "correct": false,
+              "feedback": "Review: I ask so that I may learn."
+            },
+            {
+              "text": "I ask so that I may learn.",
+              "correct": true,
+              "feedback": "Correct. I ask so that I may learn."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which Cyrus appears here?",
+          "choices": [
+            {
+              "text": "Cyrus the Great, sixth century BCE.",
+              "correct": true,
+              "feedback": "Correct. Cyrus the Great, sixth century BCE."
+            },
+            {
+              "text": "Cyrus the Younger, expedition of 401 BCE.",
+              "correct": false,
+              "feedback": "Review: Cyrus the Great, sixth century BCE."
+            },
+            {
+              "text": "Athenian general at Arginusae.",
+              "correct": false,
+              "feedback": "Review: Cyrus the Great, sixth century BCE."
+            },
+            {
+              "text": "Ruler of Syracuse.",
+              "correct": false,
+              "feedback": "Review: Cyrus the Great, sixth century BCE."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What kind of source is the Cyropaedia?",
+          "choices": [
+            {
+              "text": "A verbatim Persian classroom transcript.",
+              "correct": false,
+              "feedback": "Review: A crafted educational and political portrait."
+            },
+            {
+              "text": "A crafted educational and political portrait.",
+              "correct": true,
+              "feedback": "Correct. A crafted educational and political portrait."
+            },
+            {
+              "text": "A modern archaeological inventory.",
+              "correct": false,
+              "feedback": "Review: A crafted educational and political portrait."
+            },
+            {
+              "text": "A surviving court recording.",
+              "correct": false,
+              "feedback": "Review: A crafted educational and political portrait."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why repeat the coat judgment with ownership revealed?",
+          "choices": [
+            {
+              "text": "Size becomes impossible to observe.",
+              "correct": false,
+              "feedback": "Review: The relevant question changes when consent and ownership are known."
+            },
+            {
+              "text": "All exchanges become illegal.",
+              "correct": false,
+              "feedback": "Review: The relevant question changes when consent and ownership are known."
+            },
+            {
+              "text": "The relevant question changes when consent and ownership are known.",
+              "correct": true,
+              "feedback": "Correct. The relevant question changes when consent and ownership are known."
+            },
+            {
+              "text": "The teacher must be ignored.",
+              "correct": false,
+              "feedback": "Review: The relevant question changes when consent and ownership are known."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How is Mandane represented?",
+          "choices": [
+            {
+              "text": "As the author of the surviving text.",
+              "correct": false,
+              "feedback": "Review: As an active questioner whose voice is mediated by Xenophon."
+            },
+            {
+              "text": "As an eyewitness source independent of Xenophon.",
+              "correct": false,
+              "feedback": "Review: As an active questioner whose voice is mediated by Xenophon."
+            },
+            {
+              "text": "As a citizen juror at Athens.",
+              "correct": false,
+              "feedback": "Review: As an active questioner whose voice is mediated by Xenophon."
+            },
+            {
+              "text": "As an active questioner whose voice is mediated by Xenophon.",
+              "correct": true,
+              "feedback": "Correct. As an active questioner whose voice is mediated by Xenophon."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What status does the banner have?",
+          "choices": [
+            {
+              "text": "Modern educational reconstruction.",
+              "correct": true,
+              "feedback": "Correct. Modern educational reconstruction."
+            },
+            {
+              "text": "Excavated Persian painting.",
+              "correct": false,
+              "feedback": "Review: Modern educational reconstruction."
+            },
+            {
+              "text": "Photograph of the ancient school.",
+              "correct": false,
+              "feedback": "Review: Modern educational reconstruction."
+            },
+            {
+              "text": "Independent confirmation of every detail.",
+              "correct": false,
+              "feedback": "Review: Modern educational reconstruction."
+            }
+          ]
+        },
+        {
+          "id": "l37-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What must a proposed voluntary exchange be labeled?",
+          "choices": [
+            {
+              "text": "A direct quotation from Mandane.",
+              "correct": false,
+              "feedback": "Review: A learner’s solution, not an event added to the source."
+            },
+            {
+              "text": "A learner’s solution, not an event added to the source.",
+              "correct": true,
+              "feedback": "Correct. A learner’s solution, not an event added to the source."
+            },
+            {
+              "text": "A new law enacted by Cyrus.",
+              "correct": false,
+              "feedback": "Review: A learner’s solution, not an event added to the source."
+            },
+            {
+              "text": "An established historical outcome.",
+              "correct": false,
+              "feedback": "Review: A learner’s solution, not an event added to the source."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-36",
+    "title": "The Disciplined Life",
+    "fallbackUrl": "lesson.html?lesson=36&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-38",
+    "title": "Justice in the Household",
+    "fallbackUrl": "lesson.html?lesson=38&page=1"
+  },
+  "contentRevision": "lesson-37-module-4-v1"
+}

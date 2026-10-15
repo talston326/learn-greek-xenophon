@@ -1,0 +1,4636 @@
+{
+  "id": "lesson-47",
+  "number": 47,
+  "title": "The Trial of Socrates",
+  "greekTitle": "Τί φησιν ὁ Σωκράτης;",
+  "scope": "Mapping a sustained primary-sequence report; Relative time in nonfinite reports; Pronouns and the scope of negation; Subordinate clauses inside reports",
+  "theme": "The trial, the death, and the remembered Socrates",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 29",
+  "banner": {
+    "image": "assets/lesson-47-banner.png",
+    "alt": "Educational reconstruction: Socrates addresses citizen jurors in a historically cautious courtroom reconstruction.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-47-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-47-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-47-page-3",
+      "title": "The trial, the death, and the remembered Socrates",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ἡ κατηγορία",
+          "english": "accusation",
+          "dictionaryForm": "κατηγορία, κατηγορίας, ἡ",
+          "lemma": "κατηγορία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ βλάβη",
+          "english": "harm",
+          "dictionaryForm": "βλάβη, βλάβης, ἡ",
+          "lemma": "βλάβη",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μαντική",
+          "english": "divination",
+          "dictionaryForm": "μαντική, μαντικῆς, ἡ",
+          "lemma": "μαντική",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἰατρός",
+          "english": "doctor",
+          "dictionaryForm": "ἰατρός, ἰατροῦ, ὁ",
+          "lemma": "ἰατρός",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὑγίεια",
+          "english": "health",
+          "dictionaryForm": "ὑγίεια, ὑγιείας, ἡ",
+          "lemma": "ὑγίεια",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ὁμολογία",
+          "english": "admission",
+          "dictionaryForm": "ὁμολογία, ὁμολογίας, ἡ",
+          "lemma": "ὁμολογία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἐπιστήμη",
+          "english": "expertise",
+          "dictionaryForm": "ἐπιστήμη, ἐπιστήμης, ἡ",
+          "lemma": "ἐπιστήμη",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "διαφθείρω",
+          "english": "corrupt",
+          "dictionaryForm": "διαφθείρω",
+          "lemma": "διαφθείρω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "εἰσφέρω",
+          "english": "introduce",
+          "dictionaryForm": "εἰσφέρω",
+          "lemma": "εἰσφέρω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "σημαίνω",
+          "english": "give a sign",
+          "dictionaryForm": "σημαίνω",
+          "lemma": "σημαίνω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀτιμάζω",
+          "english": "dishonor",
+          "dictionaryForm": "ἀτιμάζω",
+          "lemma": "ἀτιμάζω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "συγχωρέω",
+          "english": "concede",
+          "dictionaryForm": "συγχωρέω",
+          "lemma": "συγχωρέω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀναφέρω",
+          "english": "report",
+          "dictionaryForm": "ἀναφέρω",
+          "lemma": "ἀναφέρω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "λυπέομαι",
+          "english": "grieve",
+          "dictionaryForm": "λυπέομαι",
+          "lemma": "λυπέομαι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "χρηστός",
+          "english": "good, upright",
+          "dictionaryForm": "χρηστός, χρηστή, χρηστόν",
+          "lemma": "χρηστός",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πονηρός",
+          "english": "bad",
+          "dictionaryForm": "πονηρός, πονηρά, πονηρόν",
+          "lemma": "πονηρός",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πιστῶς",
+          "english": "faithfully",
+          "dictionaryForm": "πιστῶς",
+          "lemma": "πιστῶς",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐνταῦθα",
+          "english": "here",
+          "dictionaryForm": "ἐνταῦθα",
+          "lemma": "ἐνταῦθα",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "τὸ ἱερόν",
+          "english": "sanctuary",
+          "dictionaryForm": "ἱερόν, ἱεροῦ, τό",
+          "lemma": "ἱερόν",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "θύω",
+          "english": "sacrifice",
+          "dictionaryForm": "θύω",
+          "lemma": "θύω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τί φησιν ὁ Σωκράτης;",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Apology 10–26, selected connected passages. 369 Greek words in 7 paragraphs.",
+      "A connected teaching adaptation of Xenophon’s Apology 10–26. Present reporting frames and transitions are composed for instruction. Plato’s courtroom speeches and proposed penalties are not inserted. The death scene belongs to the separate Culture/History discussion of Plato’s Phaedo.",
+      "Read once for the argument, then translate paragraph by paragraph. Attempt a complete first translation with uncertainties marked, consult glosses, then revise the sustained passage. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Ξενοφῶν τὴν τοῦ Σωκράτους ἀπολογίαν διηγεῖται καὶ τὰς αἰτίας προτίθησιν. ὁ κατήγορος φησὶ τὸν Σωκράτη τοὺς μὲν τῆς πόλεως θεοὺς οὐ νομίζειν, καινὰ δὲ δαιμόνια εἰσφέρειν καὶ τοὺς νέους διαφθείρειν. ταῦτα κατηγορίαι εἰσίν, οὐχ ὑπὸ τοῦ ἀναγνώστου ἤδη ὁμολογούμενα. πρῶτον οὖν ἀκριβῶς ἀκούσωμεν τί ἕκαστος λέγει, ἔπειτα δὲ πῶς ἀποκρίνεται ὁ Σωκράτης.",
+        "gloss": [
+          {
+            "greek": "προτίθησιν",
+            "english": "sets out"
+          },
+          {
+            "greek": "νομίζειν",
+            "english": "to acknowledge, recognize here"
+          },
+          {
+            "greek": "δαιμόνια",
+            "english": "divine things"
+          },
+          {
+            "greek": "εἰσφέρειν",
+            "english": "to introduce"
+          },
+          {
+            "greek": "διαφθείρειν",
+            "english": "to corrupt"
+          },
+          {
+            "greek": "ὁμολογούμενα",
+            "english": "accepted"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σωκράτης ἀποκρίνεται ὅτι τοῖς θεοῖς θύει καὶ ἐν τοῖς κοινοῖς ἱεροῖς. λέγει δὲ πολλοὺς αὐτὸν θύοντα ἑωρακέναι. οὐκ ἀρκεῖ μόνον φάναι «θεοὺς νομίζω», ἀλλὰ τὰ ἔργα μάρτυρας παρέχει. περὶ δὲ τοῦ δαιμονίου σημεῖου τὴν μαντικὴν παραβάλλει. καὶ οἱ ἄλλοι γὰρ διὰ φωνῶν καὶ ὀρνίθων σημεῖα παρὰ τῶν θεῶν ζητοῦσιν.",
+        "gloss": [
+          {
+            "greek": "θύει",
+            "english": "sacrifices"
+          },
+          {
+            "greek": "ἱεροῖς",
+            "english": "sanctuaries"
+          },
+          {
+            "greek": "θύοντα",
+            "english": "sacrificing; participle after perception"
+          },
+          {
+            "greek": "ἑωρακέναι",
+            "english": "to have seen; perfect infinitive"
+          },
+          {
+            "greek": "μαντικὴν",
+            "english": "divination"
+          },
+          {
+            "greek": "ὀρνίθων",
+            "english": "birds"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ μὲν κατήγορος καινὰ εἰσφέρειν αὐτὸν λέγει, ὁ δὲ Σωκράτης τὴν ἑαυτοῦ πρᾶξιν ταῖς τῶν ἄλλων συγκρίνει. ἐνταῦθα δεῖ τὸν ἀναγνώστην δύο φωνὰς διακρίνειν. ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς αὐτῷ σημαίνειν. ὁ συγγραφεὺς τὸν λόγον παραδίδωσιν· ὁ Σωκράτης τὴν ἀπόκρισιν ποιεῖται· οἱ θεοὶ τῆς ἐν τῇ ἀποκρίσει πράξεως ὑποκείμενόν εἰσιν.",
+        "gloss": [
+          {
+            "greek": "ἐνταῦθα",
+            "english": "here"
+          },
+          {
+            "greek": "σημαίνειν",
+            "english": "to give signs"
+          },
+          {
+            "greek": "παραδίδωσιν",
+            "english": "transmits"
+          },
+          {
+            "greek": "ὑποκείμενόν",
+            "english": "subject; supported grammatical term"
+          },
+          {
+            "greek": "ἀποκρίσει",
+            "english": "response"
+          }
+        ]
+      },
+      {
+        "greek": "Περὶ δὲ τῶν νέων ὁ Σωκράτης τὸν Μέλητον ἐρωτᾷ. φησὶ δεῖν δηλοῦν τίνα αὐτὸς ἐκ χρηστοῦ πονηρὸν πεποίηκεν. οὐ γὰρ τὴν συνουσίαν μόνον ἀλλὰ τὴν βλάβην ἀποδεικτέον εἶναι. ὁ δὲ Μέλητος λέγει τοὺς νέους αὐτῷ μᾶλλον πείθεσθαι ἢ τοῖς γονεῦσιν. ὁ Σωκράτης οὖν περὶ παιδείας καὶ ἐπιστήμης ἀποκρίνεται, οὐ τὴν ἐρώτησιν σιωπῇ παρέρχεται.",
+        "gloss": [
+          {
+            "greek": "Μέλητον",
+            "english": "Meletus"
+          },
+          {
+            "greek": "χρηστοῦ",
+            "english": "good"
+          },
+          {
+            "greek": "πονηρὸν",
+            "english": "bad"
+          },
+          {
+            "greek": "πεποίηκεν",
+            "english": "has made"
+          },
+          {
+            "greek": "βλάβην",
+            "english": "harm"
+          },
+          {
+            "greek": "ἀποδεικτέον",
+            "english": "must be demonstrated"
+          }
+        ]
+      },
+      {
+        "greek": "Ὅταν γὰρ περὶ ὑγιείας ζητῶμεν, τῷ ἰατρῷ πειθόμεθα· περὶ δὲ πορείας τῷ τὴν ὁδὸν ἐπισταμένῳ. οὐ διὰ τοῦτο τοὺς γονέας ἀτιμάζομεν. οὕτως ὁ Σωκράτης ἀξιοῖ τὴν παιδείαν κρίνεσθαι. ὁ δὲ ἀναγνώστης ἐξετάζει εἰ τὸ παράδειγμα πάντα τὰ περὶ τῶν νέων λύει. τὸν λόγον πιστῶς ἀναφέρειν δεῖ, καὶ ὅταν μὴ πάντα αὐτῷ συγχωρῶμεν.",
+        "gloss": [
+          {
+            "greek": "ὑγιείας",
+            "english": "health"
+          },
+          {
+            "greek": "ἰατρῷ",
+            "english": "doctor"
+          },
+          {
+            "greek": "ἐπισταμένῳ",
+            "english": "knowing"
+          },
+          {
+            "greek": "ἀτιμάζομεν",
+            "english": "dishonor"
+          },
+          {
+            "greek": "πιστῶς",
+            "english": "faithfully"
+          },
+          {
+            "greek": "συγχωρῶμεν",
+            "english": "concede; subjunctive"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ δικασταὶ οὐ πάντες πείθονται, καὶ ὁ Σωκράτης κατακρίνεται. ὁ Ξενοφῶν διηγεῖται ὅτι ὁ ἀνὴρ οὐκ ἐθέλει τιμὴν ἑαυτῷ θανάτου ἀντιτιμᾶσθαι· νομίζει γὰρ τοῦτο ὁμολογίαν ἀδικίας εἶναι. τὸν τοῦ Ξενοφῶντος λόγον ἐνταῦθα ἀναγινώσκομεν. ἄλλα βιβλία ἄλλους λόγους παραδίδωσιν, καὶ οὐ δεῖ αὐτοὺς εἰς μίαν ἀπολογίαν ἄνευ σημείου συνάπτειν.",
+        "gloss": [
+          {
+            "greek": "κατακρίνεται",
+            "english": "is convicted"
+          },
+          {
+            "greek": "τιμὴν",
+            "english": "penalty assessment here"
+          },
+          {
+            "greek": "ἀντιτιμᾶσθαι",
+            "english": "to propose a counterpenalty"
+          },
+          {
+            "greek": "ὁμολογίαν",
+            "english": "admission"
+          },
+          {
+            "greek": "ἀδικίας",
+            "english": "wrongdoing"
+          },
+          {
+            "greek": "συνάπτειν",
+            "english": "to join"
+          }
+        ]
+      },
+      {
+        "greek": "Οἱ φίλοι λυποῦνται, ὁ δὲ Σωκράτης τὴν ἑαυτοῦ γνώμην διαφυλάττει. ὁ συγγραφεὺς δείκνυσιν αὐτὸν οὐ τὸ ζῆν μόνον ἀλλὰ τὸ καλῶς ζῆν προτιμῶντα. ἡμεῖς δὲ τὸν λόγον ἀναφέροντες μὴ λανθάνωμεν τὸν ἀκούοντα περὶ τοῦ τίς λέγει. ὁ κατήγορος αἰτιᾶται, ὁ Σωκράτης ἀποκρίνεται, ὁ Ξενοφῶν ἐξηγεῖται, ὁ δὲ ἀναγνώστης κρίνει. ἐν τούτῳ καὶ ἡ γραμματικὴ καὶ ἡ δικαιοσύνη ἀκρίβειαν αἰτοῦσιν.",
+        "gloss": [
+          {
+            "greek": "λυποῦνται",
+            "english": "grieve"
+          },
+          {
+            "greek": "διαφυλάττει",
+            "english": "maintains"
+          },
+          {
+            "greek": "προτιμῶντα",
+            "english": "preferring"
+          },
+          {
+            "greek": "λανθάνωμεν",
+            "english": "escape notice; subjunctive"
+          },
+          {
+            "greek": "αἰτιᾶται",
+            "english": "alleges"
+          },
+          {
+            "greek": "αἰτοῦσιν",
+            "english": "demand"
+          }
+        ]
+      }
+    ],
+    "translation": "Xenophon narrates Socrates’ defense and sets out the accusations. The accuser says that Socrates does not acknowledge the city’s gods, introduces new divine things, and corrupts the young. These are accusations, not matters already accepted by the reader. Let us therefore first hear precisely what each person says, and then how Socrates replies.\n\nSocrates replies that he sacrifices to the gods, including at public sanctuaries. He says that many have seen him sacrificing. He does not merely say “I acknowledge gods,” but supplies deeds as witnesses. Concerning the divine sign, he draws a comparison with divination. Other people too seek signs from the gods through voices and birds.\n\nThe accuser says that he introduces novelties, while Socrates compares his own practice with that of others. Here the reader must distinguish two voices. Xenophon writes that Socrates says that the gods give him signs. The writer transmits the account; Socrates makes the response; the gods are the subject of the action within that response.\n\nConcerning the young, Socrates questions Meletus. He says that it must be made clear whom he has turned from good to bad. The harm, not simply the association, must be demonstrated. Meletus says that the young obey Socrates more than their parents. Socrates therefore responds about education and expertise; he does not pass over the question in silence.\n\nWhenever we investigate health, we obey the doctor; concerning a journey, we follow someone who knows the road. We do not thereby dishonor our parents. Socrates asks that education be judged in this way. The reader examines whether the example resolves every question concerning the young. We must report the argument faithfully even when we do not concede everything to it.\n\nNot all the jurors are persuaded, and Socrates is convicted. Xenophon relates that Socrates is unwilling to propose a counterpenalty in place of death: he considers this an admission of wrongdoing. We are reading Xenophon’s account here. Other works transmit other speeches, and we should not join them into a single defense without indicating the change.\n\nThe friends grieve, but Socrates maintains his own judgment. The writer depicts him as preferring not merely living but living well. When we report the argument, let us not leave the listener unaware of who is speaking. The accuser alleges, Socrates replies, Xenophon explains, and the reader judges. Here both grammar and justice demand precision.\n",
+    "sourceCitation": "Xenophon, Apology 10–26, selected connected passages. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1171/1171-h/1171-h.htm",
+    "notesMarkdown": "A connected teaching adaptation of Xenophon’s Apology 10–26. Present reporting frames and transitions are composed for instruction. Plato’s courtroom speeches and proposed penalties are not inserted. The death scene belongs to the separate Culture/History discussion of Plato’s Phaedo."
+  },
+  "wordStudy": {
+    "label": "Word Study — Judgment and defense",
+    "blocks": [
+      {
+        "title": "Judgment and defense",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. κρίνω means “judge”; κατακρίνω means “condemn”; ἀπολογέομαι means “defend oneself”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "κρίνω",
+            "english": "judge"
+          },
+          {
+            "greek": "κατακρίνω",
+            "english": "condemn"
+          },
+          {
+            "greek": "ἀπολογέομαι",
+            "english": "defend oneself"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 29. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Complex indirect statement in primary sequence: organize the constructions already learned into sustained reporting.",
+      "Track relative time and aspect in infinitives and participles; distinguish these from finite ὅτι/ὡς clauses.",
+      "Resolve nested subjects, pronouns, negatives, and subordinate clauses while preserving the force of the original claim.",
+      "Practice reporting verbs in present or future contexts without mechanically changing the whole passage’s tense."
+    ],
+    "sections": [
+      {
+        "id": "primary-report-map",
+        "title": "1. Mapping a sustained primary-sequence report",
+        "practiceTopic": "primary-report-map",
+        "body": [
+          "Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject.",
+          "Primary sequence normally preserves the indicative in a finite statement and the subjunctive in an original deliberative or appropriate subordinate clause. The reporting verb’s present tense does not make every embedded action present: λέγει ὅτι ἔθυσεν reports a prior sacrifice. Work from the outer frame inward, then translate the whole thought in natural English."
+        ],
+        "table": {
+          "title": "1. Mapping a sustained primary-sequence report",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λέγει ὅτι ἔθυσεν.",
+              "He says that he sacrificed; present report, past embedded action."
+            ],
+            [
+              "φησὶ τοὺς θεοὺς σημαίνειν.",
+              "He says that the gods give signs; accusative subject."
+            ],
+            [
+              "γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν.",
+              "He writes that Socrates says the gods give signs; nested report."
+            ],
+            [
+              "ἐρωτᾷ τί ποιήσῃ.",
+              "He asks what he should do; indirect deliberation."
+            ],
+            [
+              "γράψει ὅτι ἔθυσεν.",
+              "He will write that he sacrificed; future report, prior event."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "λέγει ὅτι ἔθυσεν.",
+            "english": "He says that he sacrificed; present report, past embedded action."
+          },
+          {
+            "greek": "φησὶ τοὺς θεοὺς σημαίνειν.",
+            "english": "He says that the gods give signs; accusative subject."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who gives signs in the nested example?",
+            "answer": "the gods"
+          },
+          {
+            "prompt": "Should λέγει force ἔθυσεν into a present translation?",
+            "answer": "No; the embedded aorist retains its prior event."
+          }
+        ]
+      },
+      {
+        "id": "primary-relative-time",
+        "title": "2. Relative time in nonfinite reports",
+        "practiceTopic": "primary-relative-time",
+        "body": [
+          "Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now.",
+          "A perception participle follows its own governing construction. πολλοὺς αὐτὸν θύοντα ἑωρακέναι means that many have seen him sacrificing: πολλούς is the subject of “have seen,” αὐτόν the person seen, and θύοντα agrees with αὐτόν. Do not flatten all accusatives into objects of the outermost verb."
+        ],
+        "table": {
+          "title": "2. Relative time in nonfinite reports",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "φησὶ θύειν.",
+              "He says that he is sacrificing; simultaneous."
+            ],
+            [
+              "φησὶ θῦσαι.",
+              "He says that he sacrificed; prior."
+            ],
+            [
+              "φησὶ θύσειν.",
+              "He says that he will sacrifice; subsequent."
+            ],
+            [
+              "φησὶ τεθυκέναι.",
+              "He says that he has sacrificed; perfect result/relevance."
+            ],
+            [
+              "φησὶ πολλοὺς αὐτὸν θύοντα ἑωρακέναι.",
+              "He says that many have seen him sacrificing."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "φησὶ θύειν.",
+            "english": "He says that he is sacrificing; simultaneous."
+          },
+          {
+            "greek": "φησὶ θῦσαι.",
+            "english": "He says that he sacrificed; prior."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "In πολλοὺς αὐτὸν θύοντα ἑωρακέναι, who has seen?",
+            "answer": "many people"
+          },
+          {
+            "prompt": "What does θύοντα agree with in that phrase?",
+            "answer": "αὐτόν, the person seen"
+          }
+        ]
+      },
+      {
+        "id": "primary-pronouns-negatives",
+        "title": "3. Pronouns and the scope of negation",
+        "practiceTopic": "primary-pronouns-negatives",
+        "body": [
+          "A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution.",
+          "Negation also has scope. οὐ λέγει ὅτι ἀδικεῖ denies that he makes the statement; λέγει ὅτι οὐκ ἀδικεῖ reports a denial of wrongdoing. οὔ φησιν ἀδικεῖν commonly has the latter sense through negative raising. Read the governing construction and the argument rather than moving οὐ mechanically."
+        ],
+        "table": {
+          "title": "3. Pronouns and the scope of negation",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λέγει ὅτι οὐκ ἀδικεῖ.",
+              "He says that he does not do wrong; embedded denial."
+            ],
+            [
+              "οὐ λέγει ὅτι ἀδικεῖ.",
+              "He does not say that he does wrong; denial of reporting."
+            ],
+            [
+              "οὔ φησιν ἀδικεῖν.",
+              "He denies doing wrong; normal negative-raising reading."
+            ],
+            [
+              "ὁ Σωκράτης λέγει ὅτι αὐτὸς θύει.",
+              "Socrates says that he himself sacrifices; explicit reference."
+            ],
+            [
+              "αὐτός / ἑαυτόν",
+              "ordinary intensive/pronominal form / reflexive accusative"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "λέγει ὅτι οὐκ ἀδικεῖ.",
+            "english": "He says that he does not do wrong; embedded denial."
+          },
+          {
+            "greek": "οὐ λέγει ὅτι ἀδικεῖ.",
+            "english": "He does not say that he does wrong; denial of reporting."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Why might you repeat “Socrates” in an English report?",
+            "answer": "To remove ambiguous speaker reference."
+          },
+          {
+            "prompt": "Which sentence explicitly places οὐ inside the reported assertion?",
+            "answer": "λέγει ὅτι οὐκ ἀδικεῖ"
+          }
+        ]
+      },
+      {
+        "id": "primary-nested-clauses",
+        "title": "4. Subordinate clauses inside reports",
+        "practiceTopic": "primary-nested-clauses",
+        "body": [
+          "A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει.",
+          "Build an annotation with four fields: speaker, governing verb, clause type, and time/aspect. Then produce a faithful connected translation. In a longer passage, follow repeated nouns and pronouns across paragraph boundaries. A fair report can be followed by criticism; do not rewrite a speaker’s position merely to make it easier to reject."
+        ],
+        "table": {
+          "title": "4. Subordinate clauses inside reports",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λέγει ὅτι ἐὰν μανθάνωσιν, βελτίους ἔσονται.",
+              "He says that if they learn, they will be better; embedded condition."
+            ],
+            [
+              "λέγει ὅτι διδάσκει ἵνα μανθάνωσιν.",
+              "He says that he teaches so that they may learn; embedded purpose."
+            ],
+            [
+              "λέγει ὅτι οἱ νέοι οὓς διδάσκει ἀκούουσιν.",
+              "He says that the young people whom he teaches listen; embedded relative."
+            ],
+            [
+              "ἐρωτᾷ εἰ οἱ νέοι μανθάνουσιν.",
+              "He asks whether the young people learn; indirect question."
+            ],
+            [
+              "ἐάν → μανθάνωσιν",
+              "the conditional conjunction licenses the subjunctive"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "λέγει ὅτι ἐὰν μανθάνωσιν, βελτίους ἔσονται.",
+            "english": "He says that if they learn, they will be better; embedded condition."
+          },
+          {
+            "greek": "λέγει ὅτι διδάσκει ἵνα μανθάνωσιν.",
+            "english": "He says that he teaches so that they may learn; embedded purpose."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What licenses μανθάνωσιν in the conditional report?",
+            "answer": "ἐάν inside the reported claim"
+          },
+          {
+            "prompt": "What is the best first step in a three-level report?",
+            "answer": "Mark clause boundaries and identify each subject."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Mapping a sustained primary-sequence report: Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject.",
+        "2. Relative time in nonfinite reports: Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now.",
+        "3. Pronouns and the scope of negation: A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution.",
+        "4. Subordinate clauses inside reports: A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+      ]
+    }
+  },
+  "culture": {
+    "title": "The trial, the death, and the remembered Socrates",
+    "banner": {
+      "image": "assets/lesson-47-culture-banner.png",
+      "alt": "Educational reconstruction: A separate view of voting equipment and a water clock, based on verified museum references at image-authoring time.",
+      "caption": "Modern teaching reconstruction of Athenian court equipment. Surviving water clocks and bronze ballots illuminate courtroom practice; this image does not document the precise equipment used at Socrates’ trial."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Apology",
+        "body": [
+          "Xenophon’s Apology of Socrates is a short defense of the philosopher’s conduct at his trial in Athens in 399 BCE. “Apology” here means a defense, not an expression of regret. The work opens by asking why Socrates spoke with such elevated self-confidence. Xenophon wants the reader to understand the intention behind that manner, including Socrates’ judgment about his age, life, and approaching death. The choice of opening question shapes everything that follows.",
+          "The work moves from a conversation with Hermogenes before the trial to selected courtroom exchanges, reactions, the verdict, and Socrates’ response. It does not attempt to reproduce every procedural stage or every word spoken. Xenophon explicitly names Hermogenes as an informant in section 2. That is valuable evidence about a chain of testimony, but it does not turn the finished literary work into a transcript. Ask when the narrator summarizes, when Socrates answers an objection, and when a friend’s report supplies the connection.",
+          "Plato wrote a different Apology, and the two works should be read as distinct presentations. Do not silently import Plato’s famous phrases or penalty proposals into Xenophon’s account. Xenophon also defends Socrates across the four books of the Memorabilia, where conversations and habits provide a broader portrait. Read sections 1–9 for the preparation, 10–26 for the selected trial account, and the closing sections for the remembered aftermath. The complete translation linked here makes it possible to see the lesson’s excerpt in its argumentative setting. Across Lessons 45–47, notice how preparation, reputation, and courtroom reporting each illuminate a different part of Xenophon’s purpose."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Apology — English translation",
+            "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+          },
+          {
+            "title": "Wikipedia: Apology",
+            "url": "https://en.wikipedia.org/wiki/Apology_(Xenophon)"
+          }
+        ]
+      },
+      {
+        "title": "A literary defense and a civic trial",
+        "body": [
+          "Separate prosecution, defense, verdict, and penalty. Xenophon selects exchanges that support his interpretation of Socrates’ manner. A literary defense is not a verbatim transcript, even when it presents direct speech. Keep Xenophon’s account internally consistent before comparing it with Plato’s different Apology.",
+          "Athenian citizen jurors heard speeches and voted. The institutions differed from a modern courtroom; do not supply a modern judge, jury deliberation scene, or gavel merely because they are familiar. The banner is a cautious reconstruction rather than evidence for the exact arrangement of Socrates’ trial."
+        ]
+      },
+      {
+        "title": "The death of Socrates: what happened",
+        "body": [
+          "Socrates was executed at Athens in 399 BCE after his conviction. Plato’s Phaedo supplies the principal detailed literary account of his final day. Its opening explains that execution was delayed during Athens’ sacred mission to Delos. Friends then spend the final day with him in prison, discussing philosophy and the soul.",
+          "At the end, Socrates drinks the poison traditionally identified as hemlock, walks as instructed, and lies down when his legs grow heavy. The attendant examines the loss of sensation and the spreading coldness. Socrates’ final request concerns a cock owed to Asclepius; Crito closes his eyes and mouth after death. The meaning of that offering remains debated. Read the scene as Plato’s carefully shaped account, not a modern clinical report."
+        ]
+      },
+      {
+        "title": "Where it is recorded",
+        "body": [
+          "Read Phaedo 57a–59c for the narrative frame, delay, and companions, and 115a–118a for the preparations and death. Phaedo recounts the day to Echecrates; at 59b, Plato is said to have been ill and absent. The dialogue presents eyewitness testimony through a literary frame rather than claiming that Plato himself watched the event.",
+          "Plato’s Apology concerns the trial, while the Crito stages the argument about escaping from prison. The Phaedo is the work to consult for the final conversation and death. Xenophon’s Apology and Memorabilia provide a different defense and remembrance of Socrates; do not transfer Plato’s arguments for immortality to Xenophon."
+        ],
+        "links": [
+          {
+            "title": "Plato, Phaedo — text and translation (57a–59c; 115a–118a)",
+            "url": "https://www-current.chs.harvard.edu/primary-source/platos-phaedo-trans-gwenda-lin-grewal/"
+          },
+          {
+            "title": "Wikipedia: Phaedo",
+            "url": "https://en.wikipedia.org/wiki/Phaedo"
+          }
+        ]
+      },
+      {
+        "title": "How Xenophon might have learned",
+        "body": [
+          "Xenophon was away from Athens and did not witness the execution. In Apology 2 and Memorabilia 4.8.4 he explicitly identifies Hermogenes as an informant about Socrates’ attitude and preparation. Plato also lists Hermogenes among the companions present on the final day at Phaedo 59b. This gives us a documented connection to someone represented as close to the events.",
+          "We do not know who first brought Xenophon news of the death, precisely where he received it, or when that first report reached him. Travelers, fellow soldiers, letters, and conversations with friends are plausible channels, but no particular messenger, letter, or scene should be narrated as established fact. Distinguish the attested informant from the uncertain first arrival of the news."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Apology — English translation",
+            "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+          },
+          {
+            "title": "Xenophon, Memorabilia 4.8.4 — Hermogenes",
+            "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+          }
+        ]
+      },
+      {
+        "title": "Looking closely: David’s The Death of Socrates",
+        "body": [
+          "Jacques-Louis David painted The Death of Socrates in 1787, more than two thousand years after the execution. Socrates reaches for the cup while raising his other hand; he is not shown already drinking. His composure contrasts with the grief around him. The full painting is reproduced below so that these relationships remain visible.",
+          "The seated Plato at the foot of the bed represents the author who preserved the story. His inclusion is an artistic choice, not proof of his attendance: the Phaedo itself says he was absent. Compare two details with the text and identify one departure or interpretive choice. Treat the painting as an eighteenth-century interpretation of philosophical courage, not an ancient eyewitness image."
+        ],
+        "image": "assets/lesson-47-death-of-socrates.jpg",
+        "imageAlt": "Jacques-Louis David’s The Death of Socrates: Socrates reaches for the poison cup while raising his other hand, surrounded by grieving companions.",
+        "imageCaption": "Jacques-Louis David, The Death of Socrates, 1787. Oil on canvas. The Metropolitan Museum of Art, Catharine Lorillard Wolfe Collection, Wolfe Fund, 1931; accession 31.45. Public domain.",
+        "imagePlacement": "full-width",
+        "links": [
+          {
+            "title": "The Metropolitan Museum of Art: The Death of Socrates, 1787",
+            "url": "https://www.metmuseum.org/art/collection/search/436105"
+          }
+        ]
+      },
+      {
+        "title": "Translate, attribute, and compare",
+        "body": [
+          "Translate the complete Greek reading in connected English, marking where the accuser’s allegation ends and Socrates’ answer begins. In one nested sentence, label the writer, reported speaker, and actor. Then explain why reporting a claim accurately does not require agreeing with it.",
+          "For the Culture/History response, write three labeled statements: what Plato narrates, what Xenophon documents about an informant, and what remains inference. Use the painting to explain how later remembrance can add meaning without adding historical evidence. This prepares the final lesson’s comparison of a remembered life and civic justice."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Which work gives the principal detailed final-day account?",
+        "answer": "Plato’s Phaedo."
+      },
+      {
+        "prompt": "What delays the execution in the Phaedo’s opening?",
+        "answer": "The sacred mission to Delos."
+      },
+      {
+        "prompt": "What do we know about Xenophon’s informant?",
+        "answer": "He names Hermogenes, but the first news’s precise route remains unknown."
+      },
+      {
+        "prompt": "What does David’s painting show Socrates doing?",
+        "answer": "Reaching for the cup while gesturing upward."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Apology.",
+        "Produce a short report in primary sequence, annotate two levels of speaker reference, and explain one point on which the accuser’s claim differs from the narrator’s judgment.",
+        "Explain the lesson’s grammar using an example from your 369-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Apology 10–26, selected connected passages",
+        "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+      },
+      {
+        "title": "Read the complete Apology — English translation",
+        "url": "https://www.gutenberg.org/files/1171/1171-h/1171-h.htm"
+      },
+      {
+        "title": "Wikipedia: Apology",
+        "url": "https://en.wikipedia.org/wiki/Apology_(Xenophon)"
+      },
+      {
+        "title": "Plato, Phaedo — text and translation (57a–59c; 115a–118a)",
+        "url": "https://www-current.chs.harvard.edu/primary-source/platos-phaedo-trans-gwenda-lin-grewal/"
+      },
+      {
+        "title": "Wikipedia: Phaedo",
+        "url": "https://en.wikipedia.org/wiki/Phaedo"
+      },
+      {
+        "title": "Xenophon, Memorabilia 4.8.4 — Hermogenes",
+        "url": "https://www.gutenberg.org/files/1177/1177-h/1177-h.htm"
+      },
+      {
+        "title": "The Metropolitan Museum of Art: The Death of Socrates, 1787",
+        "url": "https://www.metmuseum.org/art/collection/search/436105"
+      },
+      {
+        "title": "Athenian Agora Museum: court equipment and civic institutions",
+        "url": "https://agorakerameikos.gr/en/ancient-agora-identity/"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 47 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ κατηγορία",
+          "answer": "accusation — κατηγορία, κατηγορίας, ἡ"
+        },
+        {
+          "prompt": "ἡ βλάβη",
+          "answer": "harm — βλάβη, βλάβης, ἡ"
+        },
+        {
+          "prompt": "ἡ μαντική",
+          "answer": "divination — μαντική, μαντικῆς, ἡ"
+        },
+        {
+          "prompt": "τὸ ἱερόν",
+          "answer": "sanctuary — ἱερόν, ἱεροῦ, τό"
+        },
+        {
+          "prompt": "ὁ ἰατρός",
+          "answer": "doctor — ἰατρός, ἰατροῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ ὑγίεια",
+          "answer": "health — ὑγίεια, ὑγιείας, ἡ"
+        },
+        {
+          "prompt": "ἡ ὁμολογία",
+          "answer": "admission — ὁμολογία, ὁμολογίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ἐπιστήμη",
+          "answer": "expertise — ἐπιστήμη, ἐπιστήμης, ἡ"
+        },
+        {
+          "prompt": "διαφθείρω",
+          "answer": "corrupt — διαφθείρω"
+        },
+        {
+          "prompt": "εἰσφέρω",
+          "answer": "introduce — εἰσφέρω"
+        },
+        {
+          "prompt": "σημαίνω",
+          "answer": "give a sign — σημαίνω"
+        },
+        {
+          "prompt": "θύω",
+          "answer": "sacrifice — θύω"
+        },
+        {
+          "prompt": "ἀτιμάζω",
+          "answer": "dishonor — ἀτιμάζω"
+        },
+        {
+          "prompt": "συγχωρέω",
+          "answer": "concede — συγχωρέω"
+        },
+        {
+          "prompt": "ἀναφέρω",
+          "answer": "report — ἀναφέρω"
+        },
+        {
+          "prompt": "λυπέομαι",
+          "answer": "grieve — λυπέομαι"
+        },
+        {
+          "prompt": "χρηστός",
+          "answer": "good, upright — χρηστός, χρηστή, χρηστόν"
+        },
+        {
+          "prompt": "πονηρός",
+          "answer": "bad — πονηρός, πονηρά, πονηρόν"
+        },
+        {
+          "prompt": "πιστῶς",
+          "answer": "faithfully — πιστῶς"
+        },
+        {
+          "prompt": "ἐνταῦθα",
+          "answer": "here — ἐνταῦθα"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 47 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l47-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ κατηγορία mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": true,
+              "feedback": "Correct. κατηγορία, κατηγορίας, ἡ"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: accusation"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: accusation"
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Review: accusation"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “accusation”?",
+          "choices": [
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἡ κατηγορία"
+            },
+            {
+              "text": "ἡ κατηγορία",
+              "correct": true,
+              "feedback": "Correct. κατηγορία, κατηγορίας, ἡ"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἡ κατηγορία"
+            },
+            {
+              "text": "τὸ ἱερόν",
+              "correct": false,
+              "feedback": "Review: ἡ κατηγορία"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βλάβη mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "harm",
+              "correct": true,
+              "feedback": "Correct. βλάβη, βλάβης, ἡ"
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Review: harm"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “harm”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἡ βλάβη"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἡ βλάβη"
+            },
+            {
+              "text": "τὸ ἱερόν",
+              "correct": false,
+              "feedback": "Review: ἡ βλάβη"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": true,
+              "feedback": "Correct. βλάβη, βλάβης, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μαντική mean?",
+          "choices": [
+            {
+              "text": "divination",
+              "correct": true,
+              "feedback": "Correct. μαντική, μαντικῆς, ἡ"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: divination"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: divination"
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Review: divination"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “divination”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἡ μαντική"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": true,
+              "feedback": "Correct. μαντική, μαντικῆς, ἡ"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἡ μαντική"
+            },
+            {
+              "text": "τὸ ἱερόν",
+              "correct": false,
+              "feedback": "Review: ἡ μαντική"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ ἱερόν mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: sanctuary"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: sanctuary"
+            },
+            {
+              "text": "sanctuary",
+              "correct": true,
+              "feedback": "Correct. ἱερόν, ἱεροῦ, τό"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: sanctuary"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “sanctuary”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: τὸ ἱερόν"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: τὸ ἱερόν"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: τὸ ἱερόν"
+            },
+            {
+              "text": "τὸ ἱερόν",
+              "correct": true,
+              "feedback": "Correct. ἱερόν, ἱεροῦ, τό"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἰατρός mean?",
+          "choices": [
+            {
+              "text": "doctor",
+              "correct": true,
+              "feedback": "Correct. ἰατρός, ἰατροῦ, ὁ"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: doctor"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: doctor"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: doctor"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “doctor”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ὁ ἰατρός"
+            },
+            {
+              "text": "ὁ ἰατρός",
+              "correct": true,
+              "feedback": "Correct. ἰατρός, ἰατροῦ, ὁ"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ὁ ἰατρός"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ὁ ἰατρός"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὑγίεια mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: health"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: health"
+            },
+            {
+              "text": "health",
+              "correct": true,
+              "feedback": "Correct. ὑγίεια, ὑγιείας, ἡ"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: health"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “health”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἡ ὑγίεια"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἡ ὑγίεια"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἡ ὑγίεια"
+            },
+            {
+              "text": "ἡ ὑγίεια",
+              "correct": true,
+              "feedback": "Correct. ὑγίεια, ὑγιείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὁμολογία mean?",
+          "choices": [
+            {
+              "text": "admission",
+              "correct": true,
+              "feedback": "Correct. ὁμολογία, ὁμολογίας, ἡ"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: admission"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: admission"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: admission"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “admission”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἡ ὁμολογία"
+            },
+            {
+              "text": "ἡ ὁμολογία",
+              "correct": true,
+              "feedback": "Correct. ὁμολογία, ὁμολογίας, ἡ"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἡ ὁμολογία"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἡ ὁμολογία"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐπιστήμη mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: expertise"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: expertise"
+            },
+            {
+              "text": "expertise",
+              "correct": true,
+              "feedback": "Correct. ἐπιστήμη, ἐπιστήμης, ἡ"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: expertise"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “expertise”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἡ ἐπιστήμη"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἡ ἐπιστήμη"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἡ ἐπιστήμη"
+            },
+            {
+              "text": "ἡ ἐπιστήμη",
+              "correct": true,
+              "feedback": "Correct. ἐπιστήμη, ἐπιστήμης, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does διαφθείρω mean?",
+          "choices": [
+            {
+              "text": "corrupt",
+              "correct": true,
+              "feedback": "Correct. διαφθείρω"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: corrupt"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: corrupt"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: corrupt"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “corrupt”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: διαφθείρω"
+            },
+            {
+              "text": "διαφθείρω",
+              "correct": true,
+              "feedback": "Correct. διαφθείρω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: διαφθείρω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: διαφθείρω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does εἰσφέρω mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: introduce"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: introduce"
+            },
+            {
+              "text": "introduce",
+              "correct": true,
+              "feedback": "Correct. εἰσφέρω"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: introduce"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “introduce”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: εἰσφέρω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: εἰσφέρω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: εἰσφέρω"
+            },
+            {
+              "text": "εἰσφέρω",
+              "correct": true,
+              "feedback": "Correct. εἰσφέρω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does σημαίνω mean?",
+          "choices": [
+            {
+              "text": "give a sign",
+              "correct": true,
+              "feedback": "Correct. σημαίνω"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: give a sign"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: give a sign"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: give a sign"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “give a sign”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: σημαίνω"
+            },
+            {
+              "text": "σημαίνω",
+              "correct": true,
+              "feedback": "Correct. σημαίνω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: σημαίνω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: σημαίνω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does θύω mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: sacrifice"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: sacrifice"
+            },
+            {
+              "text": "sacrifice",
+              "correct": true,
+              "feedback": "Correct. θύω"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: sacrifice"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “sacrifice”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: θύω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: θύω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: θύω"
+            },
+            {
+              "text": "θύω",
+              "correct": true,
+              "feedback": "Correct. θύω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀτιμάζω mean?",
+          "choices": [
+            {
+              "text": "dishonor",
+              "correct": true,
+              "feedback": "Correct. ἀτιμάζω"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: dishonor"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: dishonor"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: dishonor"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “dishonor”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἀτιμάζω"
+            },
+            {
+              "text": "ἀτιμάζω",
+              "correct": true,
+              "feedback": "Correct. ἀτιμάζω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἀτιμάζω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἀτιμάζω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does συγχωρέω mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: concede"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: concede"
+            },
+            {
+              "text": "concede",
+              "correct": true,
+              "feedback": "Correct. συγχωρέω"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: concede"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “concede”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: συγχωρέω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: συγχωρέω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: συγχωρέω"
+            },
+            {
+              "text": "συγχωρέω",
+              "correct": true,
+              "feedback": "Correct. συγχωρέω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀναφέρω mean?",
+          "choices": [
+            {
+              "text": "report",
+              "correct": true,
+              "feedback": "Correct. ἀναφέρω"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: report"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: report"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: report"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “report”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἀναφέρω"
+            },
+            {
+              "text": "ἀναφέρω",
+              "correct": true,
+              "feedback": "Correct. ἀναφέρω"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἀναφέρω"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἀναφέρω"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does λυπέομαι mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: grieve"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: grieve"
+            },
+            {
+              "text": "grieve",
+              "correct": true,
+              "feedback": "Correct. λυπέομαι"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: grieve"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “grieve”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: λυπέομαι"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: λυπέομαι"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: λυπέομαι"
+            },
+            {
+              "text": "λυπέομαι",
+              "correct": true,
+              "feedback": "Correct. λυπέομαι"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does χρηστός mean?",
+          "choices": [
+            {
+              "text": "good, upright",
+              "correct": true,
+              "feedback": "Correct. χρηστός, χρηστή, χρηστόν"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: good, upright"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: good, upright"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: good, upright"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “good, upright”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: χρηστός"
+            },
+            {
+              "text": "χρηστός",
+              "correct": true,
+              "feedback": "Correct. χρηστός, χρηστή, χρηστόν"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: χρηστός"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: χρηστός"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πονηρός mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: bad"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: bad"
+            },
+            {
+              "text": "bad",
+              "correct": true,
+              "feedback": "Correct. πονηρός, πονηρά, πονηρόν"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: bad"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “bad”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: πονηρός"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: πονηρός"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: πονηρός"
+            },
+            {
+              "text": "πονηρός",
+              "correct": true,
+              "feedback": "Correct. πονηρός, πονηρά, πονηρόν"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πιστῶς mean?",
+          "choices": [
+            {
+              "text": "faithfully",
+              "correct": true,
+              "feedback": "Correct. πιστῶς"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: faithfully"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: faithfully"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: faithfully"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “faithfully”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: πιστῶς"
+            },
+            {
+              "text": "πιστῶς",
+              "correct": true,
+              "feedback": "Correct. πιστῶς"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: πιστῶς"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: πιστῶς"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐνταῦθα mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: here"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: here"
+            },
+            {
+              "text": "here",
+              "correct": true,
+              "feedback": "Correct. ἐνταῦθα"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: here"
+            }
+          ]
+        },
+        {
+          "id": "l47-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “here”?",
+          "choices": [
+            {
+              "text": "ἡ κατηγορία",
+              "correct": false,
+              "feedback": "Review: ἐνταῦθα"
+            },
+            {
+              "text": "ἡ βλάβη",
+              "correct": false,
+              "feedback": "Review: ἐνταῦθα"
+            },
+            {
+              "text": "ἡ μαντική",
+              "correct": false,
+              "feedback": "Review: ἐνταῦθα"
+            },
+            {
+              "text": "ἐνταῦθα",
+              "correct": true,
+              "feedback": "Correct. ἐνταῦθα"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 47 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "λέγει ὅτι ἔθυσεν.",
+          "answer": "He says that he sacrificed; present report, past embedded action. — 1. Mapping a sustained primary-sequence report"
+        },
+        {
+          "prompt": "φησὶ τοὺς θεοὺς σημαίνειν.",
+          "answer": "He says that the gods give signs; accusative subject. — 1. Mapping a sustained primary-sequence report"
+        },
+        {
+          "prompt": "γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν.",
+          "answer": "He writes that Socrates says the gods give signs; nested report. — 1. Mapping a sustained primary-sequence report"
+        },
+        {
+          "prompt": "ἐρωτᾷ τί ποιήσῃ.",
+          "answer": "He asks what he should do; indirect deliberation. — 1. Mapping a sustained primary-sequence report"
+        },
+        {
+          "prompt": "γράψει ὅτι ἔθυσεν.",
+          "answer": "He will write that he sacrificed; future report, prior event. — 1. Mapping a sustained primary-sequence report"
+        },
+        {
+          "prompt": "φησὶ θύειν.",
+          "answer": "He says that he is sacrificing; simultaneous. — 2. Relative time in nonfinite reports"
+        },
+        {
+          "prompt": "φησὶ θῦσαι.",
+          "answer": "He says that he sacrificed; prior. — 2. Relative time in nonfinite reports"
+        },
+        {
+          "prompt": "φησὶ θύσειν.",
+          "answer": "He says that he will sacrifice; subsequent. — 2. Relative time in nonfinite reports"
+        },
+        {
+          "prompt": "φησὶ τεθυκέναι.",
+          "answer": "He says that he has sacrificed; perfect result/relevance. — 2. Relative time in nonfinite reports"
+        },
+        {
+          "prompt": "φησὶ πολλοὺς αὐτὸν θύοντα ἑωρακέναι.",
+          "answer": "He says that many have seen him sacrificing. — 2. Relative time in nonfinite reports"
+        },
+        {
+          "prompt": "λέγει ὅτι οὐκ ἀδικεῖ.",
+          "answer": "He says that he does not do wrong; embedded denial. — 3. Pronouns and the scope of negation"
+        },
+        {
+          "prompt": "οὐ λέγει ὅτι ἀδικεῖ.",
+          "answer": "He does not say that he does wrong; denial of reporting. — 3. Pronouns and the scope of negation"
+        },
+        {
+          "prompt": "οὔ φησιν ἀδικεῖν.",
+          "answer": "He denies doing wrong; normal negative-raising reading. — 3. Pronouns and the scope of negation"
+        },
+        {
+          "prompt": "ὁ Σωκράτης λέγει ὅτι αὐτὸς θύει.",
+          "answer": "Socrates says that he himself sacrifices; explicit reference. — 3. Pronouns and the scope of negation"
+        },
+        {
+          "prompt": "αὐτός / ἑαυτόν",
+          "answer": "ordinary intensive/pronominal form / reflexive accusative — 3. Pronouns and the scope of negation"
+        },
+        {
+          "prompt": "λέγει ὅτι ἐὰν μανθάνωσιν, βελτίους ἔσονται.",
+          "answer": "He says that if they learn, they will be better; embedded condition. — 4. Subordinate clauses inside reports"
+        },
+        {
+          "prompt": "λέγει ὅτι διδάσκει ἵνα μανθάνωσιν.",
+          "answer": "He says that he teaches so that they may learn; embedded purpose. — 4. Subordinate clauses inside reports"
+        },
+        {
+          "prompt": "λέγει ὅτι οἱ νέοι οὓς διδάσκει ἀκούουσιν.",
+          "answer": "He says that the young people whom he teaches listen; embedded relative. — 4. Subordinate clauses inside reports"
+        },
+        {
+          "prompt": "ἐρωτᾷ εἰ οἱ νέοι μανθάνουσιν.",
+          "answer": "He asks whether the young people learn; indirect question. — 4. Subordinate clauses inside reports"
+        },
+        {
+          "prompt": "ἐάν → μανθάνωσιν",
+          "answer": "the conditional conjunction licenses the subjunctive — 4. Subordinate clauses inside reports"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 47 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l47-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does κρίνω mean?",
+          "choices": [
+            {
+              "text": "judge",
+              "correct": true,
+              "feedback": "Correct. judge"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: judge"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: judge"
+            },
+            {
+              "text": "give",
+              "correct": false,
+              "feedback": "Review: judge"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “judge”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: κρίνω"
+            },
+            {
+              "text": "κρίνω",
+              "correct": true,
+              "feedback": "Correct. κρίνω"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: κρίνω"
+            },
+            {
+              "text": "δίδωμι",
+              "correct": false,
+              "feedback": "Review: κρίνω"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does κατακρίνω mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: condemn"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: condemn"
+            },
+            {
+              "text": "condemn",
+              "correct": true,
+              "feedback": "Correct. condemn"
+            },
+            {
+              "text": "give",
+              "correct": false,
+              "feedback": "Review: condemn"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “condemn”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: κατακρίνω"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: κατακρίνω"
+            },
+            {
+              "text": "δίδωμι",
+              "correct": false,
+              "feedback": "Review: κατακρίνω"
+            },
+            {
+              "text": "κατακρίνω",
+              "correct": true,
+              "feedback": "Correct. κατακρίνω"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does ἀπολογέομαι mean?",
+          "choices": [
+            {
+              "text": "defend oneself",
+              "correct": true,
+              "feedback": "Correct. defend oneself"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: defend oneself"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: defend oneself"
+            },
+            {
+              "text": "give",
+              "correct": false,
+              "feedback": "Review: defend oneself"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “defend oneself”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: ἀπολογέομαι"
+            },
+            {
+              "text": "ἀπολογέομαι",
+              "correct": true,
+              "feedback": "Correct. ἀπολογέομαι"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: ἀπολογέομαι"
+            },
+            {
+              "text": "δίδωμι",
+              "correct": false,
+              "feedback": "Review: ἀπολογέομαι"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: λέγει ὅτι ἔθυσεν.",
+          "choices": [
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: φησὶ τοὺς θεοὺς σημαίνειν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": false,
+              "feedback": "Review: He says that the gods give signs; accusative subject."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He says that the gods give signs; accusative subject."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He says that the gods give signs; accusative subject."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν.",
+          "choices": [
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": false,
+              "feedback": "Review: He writes that Socrates says the gods give signs; nested report."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He writes that Socrates says the gods give signs; nested report."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He writes that Socrates says the gods give signs; nested report."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: ἐρωτᾷ τί ποιήσῃ.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": false,
+              "feedback": "Review: He asks what he should do; indirect deliberation."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He asks what he should do; indirect deliberation."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He asks what he should do; indirect deliberation."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Who gives signs in the nested example?",
+          "choices": [
+            {
+              "text": "Xenophon as writer",
+              "correct": false,
+              "feedback": "Review: the gods"
+            },
+            {
+              "text": "Socrates as reporting speaker",
+              "correct": false,
+              "feedback": "Review: the gods"
+            },
+            {
+              "text": "the gods",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "the accuser necessarily",
+              "correct": false,
+              "feedback": "Review: the gods"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Should λέγει force ἔθυσεν into a present translation?",
+          "choices": [
+            {
+              "text": "Yes, all verbs must share the main tense.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "Only if there is a comma.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "Only if the sentence has three levels.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "No; the embedded aorist retains its prior event.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θύειν.",
+          "choices": [
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θῦσαι.",
+          "choices": [
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; prior."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; prior."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; prior."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θύσειν.",
+          "choices": [
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he will sacrifice; subsequent."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he will sacrifice; subsequent."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he will sacrifice; subsequent."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ τεθυκέναι.",
+          "choices": [
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he has sacrificed; perfect result/relevance."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he has sacrificed; perfect result/relevance."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he has sacrificed; perfect result/relevance."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "In πολλοὺς αὐτὸν θύοντα ἑωρακέναι, who has seen?",
+          "choices": [
+            {
+              "text": "many people",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "the sacrificial animal",
+              "correct": false,
+              "feedback": "Review: many people"
+            },
+            {
+              "text": "the verb φησί",
+              "correct": false,
+              "feedback": "Review: many people"
+            },
+            {
+              "text": "the infinitive itself",
+              "correct": false,
+              "feedback": "Review: many people"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "What does θύοντα agree with in that phrase?",
+          "choices": [
+            {
+              "text": "πολλούς, the observers",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "αὐτόν, the person seen",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "an unstated neuter plural",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "the nominative writer",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: λέγει ὅτι οὐκ ἀδικεῖ.",
+          "choices": [
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: οὐ λέγει ὅτι ἀδικεῖ.",
+          "choices": [
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": false,
+              "feedback": "Review: He does not say that he does wrong; denial of reporting."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: He does not say that he does wrong; denial of reporting."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He does not say that he does wrong; denial of reporting."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: οὔ φησιν ἀδικεῖν.",
+          "choices": [
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": false,
+              "feedback": "Review: He denies doing wrong; normal negative-raising reading."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: He denies doing wrong; normal negative-raising reading."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He denies doing wrong; normal negative-raising reading."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: ὁ Σωκράτης λέγει ὅτι αὐτὸς θύει.",
+          "choices": [
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": false,
+              "feedback": "Review: Socrates says that he himself sacrifices; explicit reference."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: Socrates says that he himself sacrifices; explicit reference."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: Socrates says that he himself sacrifices; explicit reference."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Why might you repeat “Socrates” in an English report?",
+          "choices": [
+            {
+              "text": "Because Greek never uses pronouns.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            },
+            {
+              "text": "To change the historical claim.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            },
+            {
+              "text": "To remove ambiguous speaker reference.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "Because an infinitive requires a proper name.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Which sentence explicitly places οὐ inside the reported assertion?",
+          "choices": [
+            {
+              "text": "οὐ λέγει ὅτι ἀδικεῖ",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "ἐρωτᾷ τίς ἀδικεῖ",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "εἴθε μὴ ἀδικοίη",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "λέγει ὅτι οὐκ ἀδικεῖ",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι ἐὰν μανθάνωσιν, βελτίους ἔσονται.",
+          "choices": [
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι διδάσκει ἵνα μανθάνωσιν.",
+          "choices": [
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": false,
+              "feedback": "Review: He says that he teaches so that they may learn; embedded purpose."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He says that he teaches so that they may learn; embedded purpose."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that he teaches so that they may learn; embedded purpose."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι οἱ νέοι οὓς διδάσκει ἀκούουσιν.",
+          "choices": [
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": false,
+              "feedback": "Review: He says that the young people whom he teaches listen; embedded relative."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He says that the young people whom he teaches listen; embedded relative."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that the young people whom he teaches listen; embedded relative."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: ἐρωτᾷ εἰ οἱ νέοι μανθάνουσιν.",
+          "choices": [
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": false,
+              "feedback": "Review: He asks whether the young people learn; indirect question."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He asks whether the young people learn; indirect question."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He asks whether the young people learn; indirect question."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "What licenses μανθάνωσιν in the conditional report?",
+          "choices": [
+            {
+              "text": "ἐάν inside the reported claim",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "the title of the work",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            },
+            {
+              "text": "the noun νέοι by itself",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            },
+            {
+              "text": "the author’s historical distance",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            }
+          ]
+        },
+        {
+          "id": "l47-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "What is the best first step in a three-level report?",
+          "choices": [
+            {
+              "text": "Translate every accusative as “him.”",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Mark clause boundaries and identify each subject.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "Replace all finite verbs with infinitives.",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Decide whether the speaker is right before parsing.",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 47 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-47-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l47-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: λέγει ὅτι ἔθυσεν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: φησὶ τοὺς θεοὺς σημαίνειν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": false,
+              "feedback": "Review: He says that the gods give signs; accusative subject."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He says that the gods give signs; accusative subject."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He says that the gods give signs; accusative subject."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": false,
+              "feedback": "Review: He writes that Socrates says the gods give signs; nested report."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He writes that Socrates says the gods give signs; nested report."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He writes that Socrates says the gods give signs; nested report."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: ἐρωτᾷ τί ποιήσῃ.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": false,
+              "feedback": "Review: He asks what he should do; indirect deliberation."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He asks what he should do; indirect deliberation."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He asks what he should do; indirect deliberation."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Who gives signs in the nested example?",
+          "choices": [
+            {
+              "text": "the gods",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "Xenophon as writer",
+              "correct": false,
+              "feedback": "Review: the gods"
+            },
+            {
+              "text": "Socrates as reporting speaker",
+              "correct": false,
+              "feedback": "Review: the gods"
+            },
+            {
+              "text": "the accuser necessarily",
+              "correct": false,
+              "feedback": "Review: the gods"
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Should λέγει force ἔθυσεν into a present translation?",
+          "choices": [
+            {
+              "text": "Yes, all verbs must share the main tense.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "No; the embedded aorist retains its prior event.",
+              "correct": true,
+              "feedback": "Correct. Begin with the governing verb: λέγει, φησί, γράφει, or a future reporting verb. Mark the boundary of each report before translating. In ὁ Ξενοφῶν γράφει ὅτι ὁ Σωκράτης φησὶ τοὺς θεοὺς σημαίνειν, there are three levels: Xenophon writes; Socrates says; the gods give signs. Each verb has its own subject."
+            },
+            {
+              "text": "Only if there is a comma.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "Only if the sentence has three levels.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θύειν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θῦσαι.",
+          "choices": [
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; prior."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; prior."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; prior."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θύσειν.",
+          "choices": [
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he will sacrifice; subsequent."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he will sacrifice; subsequent."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he will sacrifice; subsequent."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ τεθυκέναι.",
+          "choices": [
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": false,
+              "feedback": "Review: He says that he has sacrificed; perfect result/relevance."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he has sacrificed; perfect result/relevance."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he has sacrificed; perfect result/relevance."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "In πολλοὺς αὐτὸν θύοντα ἑωρακέναι, who has seen?",
+          "choices": [
+            {
+              "text": "the sacrificial animal",
+              "correct": false,
+              "feedback": "Review: many people"
+            },
+            {
+              "text": "the verb φησί",
+              "correct": false,
+              "feedback": "Review: many people"
+            },
+            {
+              "text": "many people",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            },
+            {
+              "text": "the infinitive itself",
+              "correct": false,
+              "feedback": "Review: many people"
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "What does θύοντα agree with in that phrase?",
+          "choices": [
+            {
+              "text": "πολλούς, the observers",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "an unstated neuter plural",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "the nominative writer",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "αὐτόν, the person seen",
+              "correct": true,
+              "feedback": "Correct. Under a reporting verb, distinguish simultaneous, prior, subsequent, and perfect-result relations. φησὶ θύειν, θῦσαι, θύσειν, τεθυκέναι can report “is sacrificing,” “sacrificed,” “will sacrifice,” and “has sacrificed.” The future infinitive retains its future relation even if the report is made now."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: λέγει ὅτι οὐκ ἀδικεῖ.",
+          "choices": [
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: οὐ λέγει ὅτι ἀδικεῖ.",
+          "choices": [
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": false,
+              "feedback": "Review: He does not say that he does wrong; denial of reporting."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: He does not say that he does wrong; denial of reporting."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He does not say that he does wrong; denial of reporting."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: οὔ φησιν ἀδικεῖν.",
+          "choices": [
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": false,
+              "feedback": "Review: He denies doing wrong; normal negative-raising reading."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: He denies doing wrong; normal negative-raising reading."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He denies doing wrong; normal negative-raising reading."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: ὁ Σωκράτης λέγει ὅτι αὐτὸς θύει.",
+          "choices": [
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": false,
+              "feedback": "Review: Socrates says that he himself sacrifices; explicit reference."
+            },
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: Socrates says that he himself sacrifices; explicit reference."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: Socrates says that he himself sacrifices; explicit reference."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Why might you repeat “Socrates” in an English report?",
+          "choices": [
+            {
+              "text": "To remove ambiguous speaker reference.",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "Because Greek never uses pronouns.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            },
+            {
+              "text": "To change the historical claim.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            },
+            {
+              "text": "Because an infinitive requires a proper name.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Which sentence explicitly places οὐ inside the reported assertion?",
+          "choices": [
+            {
+              "text": "οὐ λέγει ὅτι ἀδικεῖ",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "λέγει ὅτι οὐκ ἀδικεῖ",
+              "correct": true,
+              "feedback": "Correct. A report can change the person of pronouns while retaining the identity of their referents. Direct “I acknowledge gods” may become “Socrates says that he acknowledges gods.” If several men are present, English “he” may be less clear than a repeated name. Greek reflexives can point back to the reporting subject; ordinary pronouns require contextual resolution."
+            },
+            {
+              "text": "ἐρωτᾷ τίς ἀδικεῖ",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "εἴθε μὴ ἀδικοίη",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι ἐὰν μανθάνωσιν, βελτίους ἔσονται.",
+          "choices": [
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι διδάσκει ἵνα μανθάνωσιν.",
+          "choices": [
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": false,
+              "feedback": "Review: He says that he teaches so that they may learn; embedded purpose."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He says that he teaches so that they may learn; embedded purpose."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that he teaches so that they may learn; embedded purpose."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι οἱ νέοι οὓς διδάσκει ἀκούουσιν.",
+          "choices": [
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": false,
+              "feedback": "Review: He says that the young people whom he teaches listen; embedded relative."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He says that the young people whom he teaches listen; embedded relative."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that the young people whom he teaches listen; embedded relative."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: ἐρωτᾷ εἰ οἱ νέοι μανθάνουσιν.",
+          "choices": [
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": false,
+              "feedback": "Review: He asks whether the young people learn; indirect question."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He asks whether the young people learn; indirect question."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He asks whether the young people learn; indirect question."
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "What licenses μανθάνωσιν in the conditional report?",
+          "choices": [
+            {
+              "text": "the title of the work",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            },
+            {
+              "text": "the noun νέοι by itself",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            },
+            {
+              "text": "ἐάν inside the reported claim",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            },
+            {
+              "text": "the author’s historical distance",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            }
+          ]
+        },
+        {
+          "id": "l47-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "What is the best first step in a three-level report?",
+          "choices": [
+            {
+              "text": "Translate every accusative as “him.”",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Replace all finite verbs with infinitives.",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Decide whether the speaker is right before parsing.",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Mark clause boundaries and identify each subject.",
+              "correct": true,
+              "feedback": "Correct. A report may contain a purpose, condition, relative, or question. Bracket it before translating: λέγει ὅτι, ἐὰν οἱ νέοι μανθάνωσιν, βελτίους ἔσονται. The condition belongs to the reported claim, while the outer ὅτι introduces that claim. Its subjunctive is licensed by ἐάν, not by the outer verb λέγει."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 47 Final Quiz — The Trial of Socrates",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-47-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l47-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What are the opening allegations?",
+          "choices": [
+            {
+              "text": "Religious wrongdoing and corrupting the young.",
+              "correct": true,
+              "feedback": "Correct. Religious wrongdoing and corrupting the young."
+            },
+            {
+              "text": "Theft of two coats.",
+              "correct": false,
+              "feedback": "Review: Religious wrongdoing and corrupting the young."
+            },
+            {
+              "text": "Failure to reward farmers.",
+              "correct": false,
+              "feedback": "Review: Religious wrongdoing and corrupting the young."
+            },
+            {
+              "text": "Erasing Theramenes’ name.",
+              "correct": false,
+              "feedback": "Review: Religious wrongdoing and corrupting the young."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What evidence does Socrates offer concerning religious practice?",
+          "choices": [
+            {
+              "text": "A modern medical report.",
+              "correct": false,
+              "feedback": "Review: Public sacrifice observed by others."
+            },
+            {
+              "text": "Public sacrifice observed by others.",
+              "correct": true,
+              "feedback": "Correct. Public sacrifice observed by others."
+            },
+            {
+              "text": "A royal Persian letter.",
+              "correct": false,
+              "feedback": "Review: Public sacrifice observed by others."
+            },
+            {
+              "text": "A painting made in 1787.",
+              "correct": false,
+              "feedback": "Review: Public sacrifice observed by others."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "In the nested report, who gives signs?",
+          "choices": [
+            {
+              "text": "Xenophon necessarily as eyewitness.",
+              "correct": false,
+              "feedback": "Review: The gods, within Socrates’ reported claim."
+            },
+            {
+              "text": "Meletus as narrator.",
+              "correct": false,
+              "feedback": "Review: The gods, within Socrates’ reported claim."
+            },
+            {
+              "text": "The gods, within Socrates’ reported claim.",
+              "correct": true,
+              "feedback": "Correct. The gods, within Socrates’ reported claim."
+            },
+            {
+              "text": "The jurors as painters.",
+              "correct": false,
+              "feedback": "Review: The gods, within Socrates’ reported claim."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Meletus say about the young?",
+          "choices": [
+            {
+              "text": "They all became sailors.",
+              "correct": false,
+              "feedback": "Review: They obey Socrates more than their parents."
+            },
+            {
+              "text": "They stole the sacred ship.",
+              "correct": false,
+              "feedback": "Review: They obey Socrates more than their parents."
+            },
+            {
+              "text": "They never heard Socrates.",
+              "correct": false,
+              "feedback": "Review: They obey Socrates more than their parents."
+            },
+            {
+              "text": "They obey Socrates more than their parents.",
+              "correct": true,
+              "feedback": "Correct. They obey Socrates more than their parents."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What comparison does Socrates use in replying?",
+          "choices": [
+            {
+              "text": "Following expertise in medicine and a journey.",
+              "correct": true,
+              "feedback": "Correct. Following expertise in medicine and a journey."
+            },
+            {
+              "text": "Choosing the larger tunic by force.",
+              "correct": false,
+              "feedback": "Review: Following expertise in medicine and a journey."
+            },
+            {
+              "text": "Painting a prison scene.",
+              "correct": false,
+              "feedback": "Review: Following expertise in medicine and a journey."
+            },
+            {
+              "text": "Erasing names from a list.",
+              "correct": false,
+              "feedback": "Review: Following expertise in medicine and a journey."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Which source governs this Greek courtroom reading?",
+          "choices": [
+            {
+              "text": "A merged transcript of all ancient works.",
+              "correct": false,
+              "feedback": "Review: Xenophon’s Apology, without silently inserting Plato’s account."
+            },
+            {
+              "text": "Xenophon’s Apology, without silently inserting Plato’s account.",
+              "correct": true,
+              "feedback": "Correct. Xenophon’s Apology, without silently inserting Plato’s account."
+            },
+            {
+              "text": "David’s painting alone.",
+              "correct": false,
+              "feedback": "Review: Xenophon’s Apology, without silently inserting Plato’s account."
+            },
+            {
+              "text": "The Phaedo’s death scene.",
+              "correct": false,
+              "feedback": "Review: Xenophon’s Apology, without silently inserting Plato’s account."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ κατηγορία mean?",
+          "choices": [
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: accusation"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: accusation"
+            },
+            {
+              "text": "accusation",
+              "correct": true,
+              "feedback": "Correct. κατηγορία, κατηγορίας, ἡ"
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Review: accusation"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ βλάβη mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "harm",
+              "correct": true,
+              "feedback": "Correct. βλάβη, βλάβης, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μαντική mean?",
+          "choices": [
+            {
+              "text": "divination",
+              "correct": true,
+              "feedback": "Correct. μαντική, μαντικῆς, ἡ"
+            },
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: divination"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: divination"
+            },
+            {
+              "text": "sanctuary",
+              "correct": false,
+              "feedback": "Review: divination"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ ἱερόν mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: sanctuary"
+            },
+            {
+              "text": "sanctuary",
+              "correct": true,
+              "feedback": "Correct. ἱερόν, ἱεροῦ, τό"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: sanctuary"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: sanctuary"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἰατρός mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: doctor"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: doctor"
+            },
+            {
+              "text": "doctor",
+              "correct": true,
+              "feedback": "Correct. ἰατρός, ἰατροῦ, ὁ"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: doctor"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ὑγίεια mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": false,
+              "feedback": "Review: health"
+            },
+            {
+              "text": "harm",
+              "correct": false,
+              "feedback": "Review: health"
+            },
+            {
+              "text": "divination",
+              "correct": false,
+              "feedback": "Review: health"
+            },
+            {
+              "text": "health",
+              "correct": true,
+              "feedback": "Correct. ὑγίεια, ὑγιείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Who gives signs in the nested example?",
+          "choices": [
+            {
+              "text": "the gods",
+              "correct": true,
+              "feedback": "Correct. the gods"
+            },
+            {
+              "text": "Xenophon as writer",
+              "correct": false,
+              "feedback": "Review: the gods"
+            },
+            {
+              "text": "Socrates as reporting speaker",
+              "correct": false,
+              "feedback": "Review: the gods"
+            },
+            {
+              "text": "the accuser necessarily",
+              "correct": false,
+              "feedback": "Review: the gods"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Should λέγει force ἔθυσεν into a present translation?",
+          "choices": [
+            {
+              "text": "Yes, all verbs must share the main tense.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "No; the embedded aorist retains its prior event.",
+              "correct": true,
+              "feedback": "Correct. No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "Only if there is a comma.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            },
+            {
+              "text": "Only if the sentence has three levels.",
+              "correct": false,
+              "feedback": "Review: No; the embedded aorist retains its prior event."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "In πολλοὺς αὐτὸν θύοντα ἑωρακέναι, who has seen?",
+          "choices": [
+            {
+              "text": "the sacrificial animal",
+              "correct": false,
+              "feedback": "Review: many people"
+            },
+            {
+              "text": "the verb φησί",
+              "correct": false,
+              "feedback": "Review: many people"
+            },
+            {
+              "text": "many people",
+              "correct": true,
+              "feedback": "Correct. many people"
+            },
+            {
+              "text": "the infinitive itself",
+              "correct": false,
+              "feedback": "Review: many people"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "What does θύοντα agree with in that phrase?",
+          "choices": [
+            {
+              "text": "πολλούς, the observers",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "an unstated neuter plural",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "the nominative writer",
+              "correct": false,
+              "feedback": "Review: αὐτόν, the person seen"
+            },
+            {
+              "text": "αὐτόν, the person seen",
+              "correct": true,
+              "feedback": "Correct. αὐτόν, the person seen"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Why might you repeat “Socrates” in an English report?",
+          "choices": [
+            {
+              "text": "To remove ambiguous speaker reference.",
+              "correct": true,
+              "feedback": "Correct. To remove ambiguous speaker reference."
+            },
+            {
+              "text": "Because Greek never uses pronouns.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            },
+            {
+              "text": "To change the historical claim.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            },
+            {
+              "text": "Because an infinitive requires a proper name.",
+              "correct": false,
+              "feedback": "Review: To remove ambiguous speaker reference."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Which sentence explicitly places οὐ inside the reported assertion?",
+          "choices": [
+            {
+              "text": "οὐ λέγει ὅτι ἀδικεῖ",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "λέγει ὅτι οὐκ ἀδικεῖ",
+              "correct": true,
+              "feedback": "Correct. λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "ἐρωτᾷ τίς ἀδικεῖ",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            },
+            {
+              "text": "εἴθε μὴ ἀδικοίη",
+              "correct": false,
+              "feedback": "Review: λέγει ὅτι οὐκ ἀδικεῖ"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "What licenses μανθάνωσιν in the conditional report?",
+          "choices": [
+            {
+              "text": "the title of the work",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            },
+            {
+              "text": "the noun νέοι by itself",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            },
+            {
+              "text": "ἐάν inside the reported claim",
+              "correct": true,
+              "feedback": "Correct. ἐάν inside the reported claim"
+            },
+            {
+              "text": "the author’s historical distance",
+              "correct": false,
+              "feedback": "Review: ἐάν inside the reported claim"
+            }
+          ]
+        },
+        {
+          "id": "l47-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "What is the best first step in a three-level report?",
+          "choices": [
+            {
+              "text": "Translate every accusative as “him.”",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Replace all finite verbs with infinitives.",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Decide whether the speaker is right before parsing.",
+              "correct": false,
+              "feedback": "Review: Mark clause boundaries and identify each subject."
+            },
+            {
+              "text": "Mark clause boundaries and identify each subject.",
+              "correct": true,
+              "feedback": "Correct. Mark clause boundaries and identify each subject."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-report-map",
+          "prompt": "Analyze or translate: λέγει ὅτι ἔθυσεν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; present report, past embedded action.",
+              "correct": true,
+              "feedback": "Correct. He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He says that the gods give signs; accusative subject.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He writes that Socrates says the gods give signs; nested report.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            },
+            {
+              "text": "He asks what he should do; indirect deliberation.",
+              "correct": false,
+              "feedback": "Review: He says that he sacrificed; present report, past embedded action."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-relative-time",
+          "prompt": "Analyze or translate: φησὶ θύειν.",
+          "choices": [
+            {
+              "text": "He says that he sacrificed; prior.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he is sacrificing; simultaneous.",
+              "correct": true,
+              "feedback": "Correct. He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he will sacrifice; subsequent.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            },
+            {
+              "text": "He says that he has sacrificed; perfect result/relevance.",
+              "correct": false,
+              "feedback": "Review: He says that he is sacrificing; simultaneous."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-pronouns-negatives",
+          "prompt": "Analyze or translate: λέγει ὅτι οὐκ ἀδικεῖ.",
+          "choices": [
+            {
+              "text": "He does not say that he does wrong; denial of reporting.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "He denies doing wrong; normal negative-raising reading.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "He says that he does not do wrong; embedded denial.",
+              "correct": true,
+              "feedback": "Correct. He says that he does not do wrong; embedded denial."
+            },
+            {
+              "text": "Socrates says that he himself sacrifices; explicit reference.",
+              "correct": false,
+              "feedback": "Review: He says that he does not do wrong; embedded denial."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "primary-nested-clauses",
+          "prompt": "Analyze or translate: λέγει ὅτι ἐὰν μανθάνωσιν, βελτίους ἔσονται.",
+          "choices": [
+            {
+              "text": "He says that he teaches so that they may learn; embedded purpose.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He says that the young people whom he teaches listen; embedded relative.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He asks whether the young people learn; indirect question.",
+              "correct": false,
+              "feedback": "Review: He says that if they learn, they will be better; embedded condition."
+            },
+            {
+              "text": "He says that if they learn, they will be better; embedded condition.",
+              "correct": true,
+              "feedback": "Correct. He says that if they learn, they will be better; embedded condition."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Which work gives the principal detailed final-day account?",
+          "choices": [
+            {
+              "text": "Plato’s Phaedo.",
+              "correct": true,
+              "feedback": "Correct. Plato’s Phaedo."
+            },
+            {
+              "text": "Xenophon’s Hiero.",
+              "correct": false,
+              "feedback": "Review: Plato’s Phaedo."
+            },
+            {
+              "text": "Xenophon’s Oeconomicus.",
+              "correct": false,
+              "feedback": "Review: Plato’s Phaedo."
+            },
+            {
+              "text": "Plato’s Apology alone.",
+              "correct": false,
+              "feedback": "Review: Plato’s Phaedo."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What delays the execution in the Phaedo’s opening?",
+          "choices": [
+            {
+              "text": "An appeal to a modern higher court.",
+              "correct": false,
+              "feedback": "Review: The sacred mission to Delos."
+            },
+            {
+              "text": "The sacred mission to Delos.",
+              "correct": true,
+              "feedback": "Correct. The sacred mission to Delos."
+            },
+            {
+              "text": "A Persian invasion of the prison.",
+              "correct": false,
+              "feedback": "Review: The sacred mission to Delos."
+            },
+            {
+              "text": "A request from David.",
+              "correct": false,
+              "feedback": "Review: The sacred mission to Delos."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What do we know about Xenophon’s informant?",
+          "choices": [
+            {
+              "text": "A surviving dated letter identifies the first messenger.",
+              "correct": false,
+              "feedback": "Review: He names Hermogenes, but the first news’s precise route remains unknown."
+            },
+            {
+              "text": "He watched the execution himself.",
+              "correct": false,
+              "feedback": "Review: He names Hermogenes, but the first news’s precise route remains unknown."
+            },
+            {
+              "text": "He names Hermogenes, but the first news’s precise route remains unknown.",
+              "correct": true,
+              "feedback": "Correct. He names Hermogenes, but the first news’s precise route remains unknown."
+            },
+            {
+              "text": "Plato records Xenophon beside the bed.",
+              "correct": false,
+              "feedback": "Review: He names Hermogenes, but the first news’s precise route remains unknown."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does David’s painting show Socrates doing?",
+          "choices": [
+            {
+              "text": "Already lying dead beneath the bed.",
+              "correct": false,
+              "feedback": "Review: Reaching for the cup while gesturing upward."
+            },
+            {
+              "text": "Escaping with Crito.",
+              "correct": false,
+              "feedback": "Review: Reaching for the cup while gesturing upward."
+            },
+            {
+              "text": "Delivering the Arginusae verdict.",
+              "correct": false,
+              "feedback": "Review: Reaching for the cup while gesturing upward."
+            },
+            {
+              "text": "Reaching for the cup while gesturing upward.",
+              "correct": true,
+              "feedback": "Correct. Reaching for the cup while gesturing upward."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why is the painted Plato not evidence of attendance?",
+          "choices": [
+            {
+              "text": "The Phaedo says Plato was absent; David makes an artistic choice.",
+              "correct": true,
+              "feedback": "Correct. The Phaedo says Plato was absent; David makes an artistic choice."
+            },
+            {
+              "text": "All paintings are ancient photographs.",
+              "correct": false,
+              "feedback": "Review: The Phaedo says Plato was absent; David makes an artistic choice."
+            },
+            {
+              "text": "Plato wrote no account.",
+              "correct": false,
+              "feedback": "Review: The Phaedo says Plato was absent; David makes an artistic choice."
+            },
+            {
+              "text": "The painting predates the trial.",
+              "correct": false,
+              "feedback": "Review: The Phaedo says Plato was absent; David makes an artistic choice."
+            }
+          ]
+        },
+        {
+          "id": "l47-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the proper evidentiary status of the 1787 painting?",
+          "choices": [
+            {
+              "text": "An ancient eyewitness image.",
+              "correct": false,
+              "feedback": "Review: A later interpretation of philosophical courage."
+            },
+            {
+              "text": "A later interpretation of philosophical courage.",
+              "correct": true,
+              "feedback": "Correct. A later interpretation of philosophical courage."
+            },
+            {
+              "text": "A clinical record of poisoning.",
+              "correct": false,
+              "feedback": "Review: A later interpretation of philosophical courage."
+            },
+            {
+              "text": "A transcript of Hermogenes’ report.",
+              "correct": false,
+              "feedback": "Review: A later interpretation of philosophical courage."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-46",
+    "title": "Why They Are Angry",
+    "fallbackUrl": "lesson.html?lesson=46&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-48",
+    "title": "Justice and the Soul",
+    "fallbackUrl": "lesson.html?lesson=48&page=1"
+  },
+  "contentRevision": "lesson-47-module-4-v1"
+}

@@ -668,7 +668,7 @@
       </section>` : ""}
       ${Array.isArray(culture.sections) ? culture.sections.map((section) => `<section class="lesson-section enrichment-panel culture-panel">
         <h2>${escapeHtml(section.title || "Culture and History")}</h2>
-        <div class="lesson-rich-text">${renderParagraphsWithImage(section.body)}</div>
+        <div class="lesson-rich-text">${renderParagraphsWithImage(section.body, section.image || section.imageUrl, section.imageAlt, section.imagePlacement, section.imageCaption)}</div>
         ${Array.isArray(section.links) && section.links.length ? `<ul class="culture-work-links">${section.links.filter(link => /^https:\/\//.test(link.url || "")).map(link => `<li><a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.title)}</a></li>`).join("")}</ul>` : ""}
       </section>`).join("") : ""}
       ${culture.sources?.length ? `<section class="lesson-section"><details class="culture-sources"><summary>Sources and Further Reading</summary><ul>${culture.sources.filter((source) => /^https:\/\//.test(source.url)).map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a></li>`).join("")}</ul></details></section>` : ""}
@@ -1235,6 +1235,10 @@
                   ${renderRemoveButton("Remove Section")}
                 </div>
                 ${renderTextarea("Section paragraphs", "culture-section-body", joinParagraphs(section.body), 6)}
+                ${renderInput("Section image", "culture-section-image", section.image || "")}
+                ${renderInput("Image alt text", "culture-section-image-alt", section.imageAlt || "")}
+                ${renderInput("Image caption", "culture-section-image-caption", section.imageCaption || "")}
+                ${renderSelect("Image placement", "culture-section-image-placement", normalizeImagePlacement(section.imagePlacement), IMAGE_PLACEMENT_OPTIONS)}
                 ${renderTextarea("Reading links (one title | https URL per line)", "culture-section-links", (section.links || []).map(link => `${link.title} | ${link.url}`).join("\n"), 3)}
               </div>
             `).join("")}
@@ -1459,6 +1463,10 @@
       draft.culture.body = splitParagraphs(fieldValue("culture-body"));
       draft.culture.sections = Array.from(shell.querySelectorAll('[data-editor-row="culture-section"]')).map((section) => ({
         title: fieldValue("culture-section-title", section),
+        image: fieldValue("culture-section-image", section),
+        imageAlt: fieldValue("culture-section-image-alt", section),
+        imageCaption: fieldValue("culture-section-image-caption", section),
+        imagePlacement: fieldValue("culture-section-image-placement", section) || "full-width",
         body: splitParagraphs(fieldValue("culture-section-body", section)),
         links: fieldValue("culture-section-links", section).split("\n").map(line => { const divider = line.indexOf("|"); return { title: line.slice(0, divider).trim(), url: line.slice(divider + 1).trim() }; }).filter(link => link.title && /^https:\/\//.test(link.url)),
       }));

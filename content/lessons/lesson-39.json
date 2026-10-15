@@ -1,0 +1,4503 @@
+{
+  "id": "lesson-39",
+  "number": 39,
+  "title": "The Accusation",
+  "greekTitle": "Ὁ στρατηγὸς λόγον δίδωσιν",
+  "scope": "Fear clauses: μή and μή οὐ; Indefinite relatives and general time clauses; A claim and a report of that claim; Reporting questions without losing the question",
+  "theme": "An army holds its leaders to account",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 22α–β",
+  "banner": {
+    "image": "assets/lesson-39-banner.png",
+    "alt": "Educational reconstruction: An accuser addresses Xenophon before assembled soldiers, with enough space to show the hearing rather than a fight.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-39-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-39-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-39-page-3",
+      "title": "An army holds its leaders to account",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ὁ κατήγορος",
+          "english": "accuser",
+          "dictionaryForm": "κατήγορος, κατηγόρου, ὁ",
+          "lemma": "κατήγορος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἑταῖρος",
+          "english": "companion",
+          "dictionaryForm": "ἑταῖρος, ἑταίρου, ὁ",
+          "lemma": "ἑταῖρος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ διήγησις",
+          "english": "narrative",
+          "dictionaryForm": "διήγησις, διηγήσεως, ἡ",
+          "lemma": "διήγησις",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "παίω",
+          "english": "strike",
+          "dictionaryForm": "παίω",
+          "lemma": "παίω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κάμνω",
+          "english": "be exhausted",
+          "dictionaryForm": "κάμνω",
+          "lemma": "κάμνω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φοβέομαι",
+          "english": "fear",
+          "dictionaryForm": "φοβέομαι",
+          "lemma": "φοβέομαι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "καταλείπω",
+          "english": "leave behind",
+          "dictionaryForm": "καταλείπω",
+          "lemma": "καταλείπω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀπολογέομαι",
+          "english": "defend oneself",
+          "dictionaryForm": "ἀπολογέομαι",
+          "lemma": "ἀπολογέομαι",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀληθής",
+          "english": "true",
+          "dictionaryForm": "ἀληθής, ἀληθές",
+          "lemma": "ἀληθής",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ψευδής",
+          "english": "false",
+          "dictionaryForm": "ψευδής, ψευδές",
+          "lemma": "ψευδής",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὄπισθεν",
+          "english": "behind",
+          "dictionaryForm": "ὄπισθεν",
+          "lemma": "ὄπισθεν",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "ἡ αἰτία",
+          "english": "charge, cause",
+          "dictionaryForm": "αἰτία, αἰτίας, ἡ",
+          "lemma": "αἰτία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀπόκρισις",
+          "english": "response",
+          "dictionaryForm": "ἀπόκρισις, ἀποκρίσεως, ἡ",
+          "lemma": "ἀπόκρισις",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ μισθός",
+          "english": "pay",
+          "dictionaryForm": "μισθός, μισθοῦ, ὁ",
+          "lemma": "μισθός",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ τροφή",
+          "english": "food supply",
+          "dictionaryForm": "τροφή, τροφῆς, ἡ",
+          "lemma": "τροφή",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ πορεία",
+          "english": "march",
+          "dictionaryForm": "πορεία, πορείας, ἡ",
+          "lemma": "πορεία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ σωτηρία",
+          "english": "safety",
+          "dictionaryForm": "σωτηρία, σωτηρίας, ἡ",
+          "lemma": "σωτηρία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ κέρδος",
+          "english": "gain",
+          "dictionaryForm": "κέρδος, κέρδους, τό",
+          "lemma": "κέρδος",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "βλάπτω",
+          "english": "harm",
+          "dictionaryForm": "βλάπτω",
+          "lemma": "βλάπτω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δηλόω",
+          "english": "make clear",
+          "dictionaryForm": "δηλόω",
+          "lemma": "δηλόω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Ὁ στρατηγὸς λόγον δίδωσιν",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Anabasis 5.8.1–12 and selected 5.8.13–26. 254 Greek words in 5 paragraphs.",
+      "Based on Anabasis 5.8.1–26. Xenophon narrates accusations against himself and his own defense. The condensed dialogue and general clauses are teaching adaptations; his explanation is presented as his claim, not an independently established verdict.",
+      "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Οἱ στρατιῶται, ἐκ πολλῶν κινδύνων σωθέντες, οὐ πάντων τῶν κακῶν ἐπαύσαντο. ἔτι γὰρ περὶ μισθοῦ καὶ τροφῆς καὶ τῶν στρατηγῶν ἔργων διεφέροντο. ἐν τῇ ἐκκλησίᾳ τινὲς τὸν Ξενοφῶντα ᾐτιῶντο ὅτι ἄνδρας ἔπαισεν. ὁ δὲ οὐκ ἀπῆλθεν, ἀλλὰ λόγον δοῦναι ἤθελεν. ἐρωτᾷ οὖν τίς ἐστιν ὁ κατηγορῶν καὶ πότε ἔπαθεν ἃ λέγει.",
+        "gloss": [
+          {
+            "greek": "σωθέντες",
+            "english": "having been saved"
+          },
+          {
+            "greek": "μισθοῦ",
+            "english": "pay"
+          },
+          {
+            "greek": "ᾐτιῶντο",
+            "english": "were accusing"
+          },
+          {
+            "greek": "ἔπαισεν",
+            "english": "struck"
+          },
+          {
+            "greek": "λόγον δοῦναι",
+            "english": "to give an account"
+          },
+          {
+            "greek": "κατηγορῶν",
+            "english": "accusing"
+          }
+        ]
+      },
+      {
+        "greek": "Εἷς τῶν ἀνδρῶν ἀναστὰς λέγει ὅτι ὑπὸ τοῦ στρατηγοῦ ἐπλήγη. ὁ Ξενοφῶν ἐρωτᾷ διὰ τί. οὐ γὰρ ἀρκεῖ, φησίν, εἰπεῖν ὅτι ἔπαθές τι· δεῖ καὶ τὰ πρὸ τοῦ ἔργου δηλοῦν. οἱ δὲ παρόντες ἀκούουσιν ἀμφοτέρων. ἡ μὲν αἰτία χαλεπή ἐστιν, ἡ δὲ ἀπόκρισις οὐ πᾶσαν ἀπορίαν εὐθὺς λύει. δεῖ οὖν ἀκριβῶς ἐξετάζειν τὰ λεγόμενα.",
+        "gloss": [
+          {
+            "greek": "ἀναστὰς",
+            "english": "having stood up"
+          },
+          {
+            "greek": "ἐπλήγη",
+            "english": "was struck"
+          },
+          {
+            "greek": "ἀρκεῖ",
+            "english": "it is enough"
+          },
+          {
+            "greek": "ἔπαθές",
+            "english": "you suffered"
+          },
+          {
+            "greek": "δηλοῦν",
+            "english": "to make clear"
+          },
+          {
+            "greek": "ἀπόκρισις",
+            "english": "response"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ξενοφῶν τὴν πορείαν ἀναμιμνῄσκει τοὺς στρατιώτας. ἐν γὰρ τῷ χειμῶνι πολλοὶ ἔκαμνον, καὶ οἱ πολέμιοι ἐγγὺς ἦσαν. ὁ μένων ὄπισθεν ἐκινδύνευεν. ὁ στρατηγὸς οὖν φοβεῖται μὴ οἱ ἄνδρες ἀπόλωνται· δέδοικε δὲ μὴ οὐ βούλωνται ἀναστῆναι. ἔλεγεν ὅτι πρὸς σωτηρίαν ἐκέλευε βαδίζειν, οὐ πρὸς ἑαυτοῦ κέρδος.",
+        "gloss": [
+          {
+            "greek": "ἀναμιμνῄσκει",
+            "english": "reminds"
+          },
+          {
+            "greek": "ἔκαμνον",
+            "english": "were exhausted"
+          },
+          {
+            "greek": "ὄπισθεν",
+            "english": "behind"
+          },
+          {
+            "greek": "ἀπόλωνται",
+            "english": "may perish"
+          },
+          {
+            "greek": "δέδοικε",
+            "english": "is afraid; supported perfect with present meaning"
+          },
+          {
+            "greek": "μὴ οὐ βούλωνται",
+            "english": "that they may not be willing"
+          }
+        ]
+      },
+      {
+        "greek": "Ὅταν ὁ στρατιώτης κάμνῃ, βοηθείας δεῖται. ὃς ἂν τὸν ἑταῖρον καταλίπῃ, οὐ μόνον ἐκεῖνον ἀλλὰ καὶ τὸ κοινὸν βλάπτει. ταῦτα ὁ στρατηγὸς λέγει, ἵνα οἱ ἀκούοντες τὴν χρείαν ἐξετάζωσιν. οὐ μέντοι πᾶν ἔργον δίκαιόν ἐστιν ὅτι ὁ ποιῶν χρήσιμον αὐτὸ νομίζει. ζητῶμεν οὖν καὶ τὸν τρόπον καὶ τὴν αἰτίαν.",
+        "gloss": [
+          {
+            "greek": "Ὅταν",
+            "english": "whenever; with subjunctive"
+          },
+          {
+            "greek": "κάμνῃ",
+            "english": "is exhausted; general clause"
+          },
+          {
+            "greek": "ὃς ἂν",
+            "english": "whoever"
+          },
+          {
+            "greek": "καταλίπῃ",
+            "english": "abandons; aorist subjunctive"
+          },
+          {
+            "greek": "βλάπτει",
+            "english": "harms"
+          },
+          {
+            "greek": "μέντοι",
+            "english": "however"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐν τῇ διηγήσει οἱ στρατιῶται τῶν παλαιῶν πόνων μνημονεύουσιν, καὶ ὁ Ξενοφῶν τὴν ἑαυτοῦ γνώμην ἀπολογεῖται. ἡμεῖς δὲ δύο ἐρωτήσεις ποιούμεθα. τί φησιν ὁ κατήγορος, καὶ τί ἀποκρίνεται ὁ στρατηγός; ἔπειτα ἐρωτῶμεν τίς τὴν διήγησιν γράφει. ὁ γὰρ κρινόμενος καὶ ὁ γράφων ὁ αὐτός ἐστιν. τοῦτο οὔτε πάντα ψευδῆ ποιεῖ οὔτε πάντα ἀληθῆ ἀποδείκνυσιν.",
+        "gloss": [
+          {
+            "greek": "μνημονεύουσιν",
+            "english": "remember"
+          },
+          {
+            "greek": "ἀπολογεῖται",
+            "english": "defends himself"
+          },
+          {
+            "greek": "κατήγορος",
+            "english": "accuser"
+          },
+          {
+            "greek": "κρινόμενος",
+            "english": "being judged"
+          },
+          {
+            "greek": "ψευδῆ",
+            "english": "false"
+          },
+          {
+            "greek": "ἀποδείκνυσιν",
+            "english": "proves"
+          }
+        ]
+      }
+    ],
+    "translation": "The soldiers, saved from many dangers, had not escaped all their troubles. They still disputed about pay, food, and the generals’ actions. In the assembly some accused Xenophon of striking men. He did not leave, but wished to give an account. He therefore asks who the accuser is and when he suffered what he alleges.\n\nOne of the men stands up and says that he was struck by the general. Xenophon asks why. For it is not enough, he says, to say that you suffered something; one must also make clear what preceded the act. Those present listen to both. The charge is serious, but the response does not immediately resolve every difficulty. One must therefore examine carefully what is said.\n\nXenophon reminds the soldiers of the march. In winter many were exhausted, and the enemy were nearby. Anyone remaining behind was in danger. The general therefore fears that the men may perish; he is afraid that they may be unwilling to get up. He said that he ordered them to march for their safety, not for his own gain.\n\nWhenever a soldier is exhausted, he needs help. Whoever abandons his companion harms not only him but also the community. The general says these things so that the listeners may examine the need. Yet not every action is just because its doer considers it useful. Let us therefore investigate both the manner and the cause.\n\nIn the narrative the soldiers remember their former hardships, and Xenophon defends his own intention. We ask two questions: what does the accuser say, and what does the general reply? Then we ask who writes the account. For the man being judged and the writer are the same. This neither makes everything false nor proves everything true.\n",
+    "sourceCitation": "Xenophon, Anabasis 5.8.1–12 and selected 5.8.13–26. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1170/1170-h/1170-h.htm",
+    "notesMarkdown": "Based on Anabasis 5.8.1–26. Xenophon narrates accusations against himself and his own defense. The condensed dialogue and general clauses are teaching adaptations; his explanation is presented as his claim, not an independently established verdict."
+  },
+  "wordStudy": {
+    "label": "Word Study — Accusation and response",
+    "blocks": [
+      {
+        "title": "Accusation and response",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. κατηγορία means “accusation”; ἀπολογία means “defense”; μαρτυρία means “testimony”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "κατηγορία",
+            "english": "accusation"
+          },
+          {
+            "greek": "ἀπολογία",
+            "english": "defense"
+          },
+          {
+            "greek": "μαρτυρία",
+            "english": "testimony"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 22α–β. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Clauses of fearing, including μή and μή οὐ, with mood and sequence handled at the chapter’s level.",
+      "Indefinite and general clauses: recognize relative or temporal signals, ἄν where appropriate, and the force of the subjunctive.",
+      "Introduce the chapter’s indirect statements and indirect questions; preserve the original speaker, pronouns, and question word.",
+      "Compare a direct claim, a reported claim, and a fear. Gloss any secondary-sequence optatives retained in an original extract until Lesson 43."
+    ],
+    "sections": [
+      {
+        "id": "fear-clauses",
+        "title": "1. Fear clauses: μή and μή οὐ",
+        "practiceTopic": "fear-clauses",
+        "body": [
+          "After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation.",
+          "Primary sequence normally takes the subjunctive for a prospective event. After a historical main verb, an optative may appear, or the subjunctive may be retained. We support the optative in reading here and teach it fully in Lessons 42–43. Fear about a fact already treated as actual can use an indicative; do not force every fear into an imagined future."
+        ],
+        "table": {
+          "title": "1. Fear clauses: μή and μή οὐ",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "φοβοῦμαι μὴ ἔλθῃ.",
+              "I fear that he may come."
+            ],
+            [
+              "φοβοῦμαι μὴ οὐ ἔλθῃ.",
+              "I fear that he may not come."
+            ],
+            [
+              "φοβοῦμαι μὴ ἀπόλωνται.",
+              "I fear that they may perish."
+            ],
+            [
+              "ἐφοβεῖτο μὴ ἔλθοι.",
+              "He feared that he might come; supported oblique optative."
+            ],
+            [
+              "δέδοικα μή...",
+              "I am afraid that...; a perfect form with present force"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "φοβοῦμαι μὴ ἔλθῃ.",
+            "english": "I fear that he may come."
+          },
+          {
+            "greek": "φοβοῦμαι μὴ οὐ ἔλθῃ.",
+            "english": "I fear that he may not come."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "What does οὐ negate in μὴ οὐ βούλωνται?",
+            "answer": "Their willingness: the fear is that they will not be willing."
+          },
+          {
+            "prompt": "What should you do with a retained subjunctive after a past fear verb?",
+            "answer": "Interpret it in context; retention is possible."
+          }
+        ]
+      },
+      {
+        "id": "general-clauses",
+        "title": "2. Indefinite relatives and general time clauses",
+        "practiceTopic": "general-clauses",
+        "body": [
+          "An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event.",
+          "Relative pronouns still take their case from their role inside the clause. In ᾧ ἂν βοηθῇς, the dative is required by βοηθέω. Distinguish a definite temporal ὅτε with indicative from a general ὅταν with subjunctive. Past general conditions with optative will be treated systematically later."
+        ],
+        "table": {
+          "title": "2. Indefinite relatives and general time clauses",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ὃς ἂν βοηθῇ",
+              "whoever helps; indefinite relative subject"
+            ],
+            [
+              "ᾧ ἂν βοηθῇς",
+              "whomever you help; dative with βοηθέω"
+            ],
+            [
+              "ὅταν κάμνῃ",
+              "whenever he is exhausted; general temporal clause"
+            ],
+            [
+              "ὅτε ἔκαμνεν",
+              "when he was exhausted; definite past temporal clause"
+            ],
+            [
+              "ὅταν + subjunctive",
+              "general or prospective occasion, interpreted from context"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Why is ᾧ dative in ᾧ ἂν βοηθῇς?",
+            "answer": "βοηθέω governs the dative inside the relative clause."
+          },
+          {
+            "prompt": "Which wording generalizes across occasions?",
+            "answer": "ὅταν ὁ στρατιώτης κάμνῃ"
+          }
+        ]
+      },
+      {
+        "id": "reporting-introduction",
+        "title": "3. A claim and a report of that claim",
+        "practiceTopic": "reporting-introduction",
+        "body": [
+          "Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth.",
+          "With ὅτι or ὡς, the embedded clause remains finite. An infinitive construction is also common after suitable verbs: φησὶ τὸν στρατηγὸν παίειν. Its expressed subject is accusative; the general, not the reporting speaker, strikes. We develop the governing-verb patterns and relative tense in Lesson 40."
+        ],
+        "table": {
+          "title": "3. A claim and a report of that claim",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "λέγει· ἐπλήγην.",
+              "He says, “I was struck.” Direct speech."
+            ],
+            [
+              "λέγει ὅτι ἐπλήγη.",
+              "He says that he was struck. Finite indirect statement."
+            ],
+            [
+              "φησὶ τὸν στρατηγὸν παίειν.",
+              "He says that the general strikes. Accusative and infinitive."
+            ],
+            [
+              "λέγει ὅτι οὐκ ἔπαισεν.",
+              "He says that he did not strike. Negative embedded claim."
+            ],
+            [
+              "ὅτι / ὡς + finite verb",
+              "two common introductions to an indirect assertion"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "λέγει· ἐπλήγην.",
+            "english": "He says, “I was struck.” Direct speech."
+          },
+          {
+            "greek": "λέγει ὅτι ἐπλήγη.",
+            "english": "He says that he was struck. Finite indirect statement."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who is the subject of παίειν in φησὶ τὸν στρατηγὸν παίειν?",
+            "answer": "the general"
+          },
+          {
+            "prompt": "Does λέγει ὅτι make the embedded claim a proven fact?",
+            "answer": "No; it marks attribution."
+          }
+        ]
+      },
+      {
+        "id": "indirect-questions",
+        "title": "4. Reporting questions without losing the question",
+        "practiceTopic": "indirect-questions",
+        "body": [
+          "An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”",
+          "Track person and reference when shifting from direct speech. “Why did you strike me?” becomes “He asks why the general struck him.” The original “you” and “me” cannot both remain unchanged in a narrator’s report. At this stage use primary reporting frames; historical sequence is supported until formal instruction in Lesson 43."
+        ],
+        "table": {
+          "title": "4. Reporting questions without losing the question",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἐρωτᾷ τίς ἔπαισεν.",
+              "He asks who struck."
+            ],
+            [
+              "ἐρωτᾷ πότε ἔπαθεν.",
+              "He asks when he suffered."
+            ],
+            [
+              "ἐρωτᾷ εἰ ὁ στρατηγὸς ἔπαισεν.",
+              "He asks whether the general struck."
+            ],
+            [
+              "ἐρωτᾷ διὰ τί ὁ στρατηγὸς αὐτὸν ἔπαισεν.",
+              "He asks why the general struck him."
+            ],
+            [
+              "τί ποιήσω; → ἐρωτᾷ τί ποιήσῃ.",
+              "What should I do? → He asks what he should do."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἐρωτᾷ τίς ἔπαισεν.",
+            "english": "He asks who struck."
+          },
+          {
+            "greek": "ἐρωτᾷ πότε ἔπαθεν.",
+            "english": "He asks when he suffered."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "How is εἰ translated in ἐρωτᾷ εἰ ἦλθεν?",
+            "answer": "whether"
+          },
+          {
+            "prompt": "What must be checked when reporting “you struck me”?",
+            "answer": "The identities represented by both pronouns."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Fear clauses: μή and μή οὐ: After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation.",
+        "2. Indefinite relatives and general time clauses: An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event.",
+        "3. A claim and a report of that claim: Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth.",
+        "4. Reporting questions without losing the question: An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+      ]
+    }
+  },
+  "culture": {
+    "title": "An army holds its leaders to account",
+    "banner": {
+      "image": "assets/lesson-39-culture-banner.png",
+      "alt": "Educational reconstruction: A separate camp assembly layout showing listeners, officers, and the speaker’s position.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Anabasis",
+        "body": [
+          "This lesson returns to Book 5, after the sight of the sea, when accusations expose strains inside the army. The commander’s defense is also part of his self-presentation as author. Follow the complaint, the explanation, and the reaction separately. The question of how a group survives must remain connected with the question of how its members are treated.",
+          "The seven-book narrative begins with an expedition inland: in 401 BCE Cyrus the Younger challenges his brother, the Persian king Artaxerxes II. Cyrus dies at Cunaxa, leaving his Greek mercenaries in danger. After the loss of their senior commanders, the soldiers must reorganize, negotiate, find supplies, and fight their way toward the Black Sea. Xenophon emerges as one of their leaders.",
+          "The famous sight of the sea in Book 4 does not end the book—or solve every problem. Books 5–7 continue through disputes over leadership, dealings with Greek cities, and service in Thrace before the remaining troops join a Spartan commander. Survival is an extended political and logistical task. A triumphant moment can coexist with unpaid wages, competing interests, and an uncertain destination.",
+          "Reading invitation: begin Book 3, chapter 1, where Xenophon enters the leadership crisis, and compare his speeches with the practical decisions in Book 4, chapter 5. He is both participant and author, often describing himself in the third person. Ask what his narrative helps us see about leadership and how it presents his own reputation. The linked complete translation lets you follow the story beyond the celebrated mountain crossing."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Anabasis — English translation",
+            "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+          },
+          {
+            "title": "Wikipedia: Anabasis",
+            "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"
+          }
+        ]
+      },
+      {
+        "title": "The retreat does not end at the sea",
+        "body": [
+          "The celebrated sight of the Black Sea occurs in Book 4 of the Anabasis, but the narrative continues through Book 7. Food, pay, service, and command remain contested. In Book 5, soldiers bring accusations concerning their leaders’ behavior. Survival has not removed the need to ask whether power was used justly.",
+          "The charge against Xenophon concerns striking men. He responds by asking about the circumstances and presenting acts of coercion as connected with the army’s needs. That explanation must be heard as a defense. It does not automatically prove that every act was necessary or proportionate."
+        ]
+      },
+      {
+        "title": "Participant and author",
+        "body": [
+          "Xenophon is both a participant in the hearing and the author through whom we hear it. His narrative gives the commander’s reasoning and the soldiers’ reactions, but it is not an independent record from the accuser’s perspective. This does not make it useless or entirely false. It means that interpretation must account for the author’s position.",
+          "Separate four categories in your notes: accusation, response, supporting detail, and information still missing. A claim about intention belongs to the response unless other evidence supports it. An audience’s approval is evidence about reception; it does not substitute for examining the action."
+        ]
+      },
+      {
+        "title": "Evidence hearing",
+        "body": [
+          "Assign one reader the accusation and another the defense. Each must summarize the other’s claim accurately before responding. A third reader identifies where the text reports fear, what event is feared, and whether the feared event is positive or negative. Confusing μή with μή οὐ can reverse the commander’s stated concern.",
+          "Translate the opening hearing with support, then translate the general clauses and final reflection as connected prose. End with a short account beginning “Xenophon says...” and a separate sentence beginning “The narrative leaves uncertain...”. Keep the two claims visibly distinct."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Does seeing the sea end the Anabasis?",
+        "answer": "No; Books 5–7 continue the problems of return and service."
+      },
+      {
+        "prompt": "Why examine Xenophon’s dual role?",
+        "answer": "He narrates a hearing in which he was the accused leader."
+      },
+      {
+        "prompt": "What does audience approval establish most directly?",
+        "answer": "Reception of the defense."
+      },
+      {
+        "prompt": "Where should a claimed intention first be categorized?",
+        "answer": "Under the speaker’s response, pending support."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Anabasis.",
+        "Translate a fear clause without reversing its meaning, classify general clauses, and convert a short question into an indirect question using taught constructions.",
+        "Explain the lesson’s grammar using an example from your 254-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Anabasis 5.8.1–12 and selected 5.8.13–26",
+        "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+      },
+      {
+        "title": "Read the complete Anabasis — English translation",
+        "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+      },
+      {
+        "title": "Wikipedia: Anabasis",
+        "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 39 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ κατήγορος",
+          "answer": "accuser — κατήγορος, κατηγόρου, ὁ"
+        },
+        {
+          "prompt": "ἡ αἰτία",
+          "answer": "charge, cause — αἰτία, αἰτίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ἀπόκρισις",
+          "answer": "response — ἀπόκρισις, ἀποκρίσεως, ἡ"
+        },
+        {
+          "prompt": "ὁ μισθός",
+          "answer": "pay — μισθός, μισθοῦ, ὁ"
+        },
+        {
+          "prompt": "ἡ τροφή",
+          "answer": "food supply — τροφή, τροφῆς, ἡ"
+        },
+        {
+          "prompt": "ἡ πορεία",
+          "answer": "march — πορεία, πορείας, ἡ"
+        },
+        {
+          "prompt": "ἡ σωτηρία",
+          "answer": "safety — σωτηρία, σωτηρίας, ἡ"
+        },
+        {
+          "prompt": "τὸ κέρδος",
+          "answer": "gain — κέρδος, κέρδους, τό"
+        },
+        {
+          "prompt": "ὁ ἑταῖρος",
+          "answer": "companion — ἑταῖρος, ἑταίρου, ὁ"
+        },
+        {
+          "prompt": "ἡ διήγησις",
+          "answer": "narrative — διήγησις, διηγήσεως, ἡ"
+        },
+        {
+          "prompt": "παίω",
+          "answer": "strike — παίω"
+        },
+        {
+          "prompt": "κάμνω",
+          "answer": "be exhausted — κάμνω"
+        },
+        {
+          "prompt": "φοβέομαι",
+          "answer": "fear — φοβέομαι"
+        },
+        {
+          "prompt": "βλάπτω",
+          "answer": "harm — βλάπτω"
+        },
+        {
+          "prompt": "καταλείπω",
+          "answer": "leave behind — καταλείπω"
+        },
+        {
+          "prompt": "ἀπολογέομαι",
+          "answer": "defend oneself — ἀπολογέομαι"
+        },
+        {
+          "prompt": "δηλόω",
+          "answer": "make clear — δηλόω"
+        },
+        {
+          "prompt": "ἀληθής",
+          "answer": "true — ἀληθής, ἀληθές"
+        },
+        {
+          "prompt": "ψευδής",
+          "answer": "false — ψευδής, ψευδές"
+        },
+        {
+          "prompt": "ὄπισθεν",
+          "answer": "behind — ὄπισθεν"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 39 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l39-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κατήγορος mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": true,
+              "feedback": "Correct. κατήγορος, κατηγόρου, ὁ"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: accuser"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: accuser"
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: accuser"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “accuser”?",
+          "choices": [
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ὁ κατήγορος"
+            },
+            {
+              "text": "ὁ κατήγορος",
+              "correct": true,
+              "feedback": "Correct. κατήγορος, κατηγόρου, ὁ"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ὁ κατήγορος"
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ὁ κατήγορος"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ αἰτία mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: charge, cause"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: charge, cause"
+            },
+            {
+              "text": "charge, cause",
+              "correct": true,
+              "feedback": "Correct. αἰτία, αἰτίας, ἡ"
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: charge, cause"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “charge, cause”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἡ αἰτία"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἡ αἰτία"
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ αἰτία"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": true,
+              "feedback": "Correct. αἰτία, αἰτίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀπόκρισις mean?",
+          "choices": [
+            {
+              "text": "response",
+              "correct": true,
+              "feedback": "Correct. ἀπόκρισις, ἀποκρίσεως, ἡ"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: response"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: response"
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: response"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “response”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἡ ἀπόκρισις"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": true,
+              "feedback": "Correct. ἀπόκρισις, ἀποκρίσεως, ἡ"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἡ ἀπόκρισις"
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": false,
+              "feedback": "Review: ἡ ἀπόκρισις"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ μισθός mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: pay"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: pay"
+            },
+            {
+              "text": "pay",
+              "correct": true,
+              "feedback": "Correct. μισθός, μισθοῦ, ὁ"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: pay"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “pay”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ὁ μισθός"
+            },
+            {
+              "text": "ὁ μισθός",
+              "correct": true,
+              "feedback": "Correct. μισθός, μισθοῦ, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τροφή mean?",
+          "choices": [
+            {
+              "text": "food supply",
+              "correct": true,
+              "feedback": "Correct. τροφή, τροφῆς, ἡ"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: food supply"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: food supply"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: food supply"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “food supply”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή"
+            },
+            {
+              "text": "ἡ τροφή",
+              "correct": true,
+              "feedback": "Correct. τροφή, τροφῆς, ἡ"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἡ τροφή"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πορεία mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: march"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: march"
+            },
+            {
+              "text": "march",
+              "correct": true,
+              "feedback": "Correct. πορεία, πορείας, ἡ"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: march"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “march”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἡ πορεία"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἡ πορεία"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἡ πορεία"
+            },
+            {
+              "text": "ἡ πορεία",
+              "correct": true,
+              "feedback": "Correct. πορεία, πορείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ σωτηρία mean?",
+          "choices": [
+            {
+              "text": "safety",
+              "correct": true,
+              "feedback": "Correct. σωτηρία, σωτηρίας, ἡ"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: safety"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: safety"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: safety"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “safety”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἡ σωτηρία"
+            },
+            {
+              "text": "ἡ σωτηρία",
+              "correct": true,
+              "feedback": "Correct. σωτηρία, σωτηρίας, ἡ"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἡ σωτηρία"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἡ σωτηρία"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ κέρδος mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: gain"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: gain"
+            },
+            {
+              "text": "gain",
+              "correct": true,
+              "feedback": "Correct. κέρδος, κέρδους, τό"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: gain"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “gain”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: τὸ κέρδος"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: τὸ κέρδος"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: τὸ κέρδος"
+            },
+            {
+              "text": "τὸ κέρδος",
+              "correct": true,
+              "feedback": "Correct. κέρδος, κέρδους, τό"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἑταῖρος mean?",
+          "choices": [
+            {
+              "text": "companion",
+              "correct": true,
+              "feedback": "Correct. ἑταῖρος, ἑταίρου, ὁ"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: companion"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: companion"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: companion"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “companion”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ὁ ἑταῖρος"
+            },
+            {
+              "text": "ὁ ἑταῖρος",
+              "correct": true,
+              "feedback": "Correct. ἑταῖρος, ἑταίρου, ὁ"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ὁ ἑταῖρος"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ὁ ἑταῖρος"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ διήγησις mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: narrative"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: narrative"
+            },
+            {
+              "text": "narrative",
+              "correct": true,
+              "feedback": "Correct. διήγησις, διηγήσεως, ἡ"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: narrative"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “narrative”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἡ διήγησις"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἡ διήγησις"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἡ διήγησις"
+            },
+            {
+              "text": "ἡ διήγησις",
+              "correct": true,
+              "feedback": "Correct. διήγησις, διηγήσεως, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does παίω mean?",
+          "choices": [
+            {
+              "text": "strike",
+              "correct": true,
+              "feedback": "Correct. παίω"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: strike"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: strike"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: strike"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “strike”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: παίω"
+            },
+            {
+              "text": "παίω",
+              "correct": true,
+              "feedback": "Correct. παίω"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: παίω"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: παίω"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κάμνω mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: be exhausted"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: be exhausted"
+            },
+            {
+              "text": "be exhausted",
+              "correct": true,
+              "feedback": "Correct. κάμνω"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: be exhausted"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “be exhausted”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: κάμνω"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: κάμνω"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: κάμνω"
+            },
+            {
+              "text": "κάμνω",
+              "correct": true,
+              "feedback": "Correct. κάμνω"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does φοβέομαι mean?",
+          "choices": [
+            {
+              "text": "fear",
+              "correct": true,
+              "feedback": "Correct. φοβέομαι"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: fear"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: fear"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: fear"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “fear”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: φοβέομαι"
+            },
+            {
+              "text": "φοβέομαι",
+              "correct": true,
+              "feedback": "Correct. φοβέομαι"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: φοβέομαι"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: φοβέομαι"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does βλάπτω mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: harm"
+            },
+            {
+              "text": "harm",
+              "correct": true,
+              "feedback": "Correct. βλάπτω"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: harm"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “harm”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: βλάπτω"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: βλάπτω"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: βλάπτω"
+            },
+            {
+              "text": "βλάπτω",
+              "correct": true,
+              "feedback": "Correct. βλάπτω"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does καταλείπω mean?",
+          "choices": [
+            {
+              "text": "leave behind",
+              "correct": true,
+              "feedback": "Correct. καταλείπω"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: leave behind"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: leave behind"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: leave behind"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “leave behind”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: καταλείπω"
+            },
+            {
+              "text": "καταλείπω",
+              "correct": true,
+              "feedback": "Correct. καταλείπω"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: καταλείπω"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: καταλείπω"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀπολογέομαι mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: defend oneself"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: defend oneself"
+            },
+            {
+              "text": "defend oneself",
+              "correct": true,
+              "feedback": "Correct. ἀπολογέομαι"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: defend oneself"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “defend oneself”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἀπολογέομαι"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἀπολογέομαι"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἀπολογέομαι"
+            },
+            {
+              "text": "ἀπολογέομαι",
+              "correct": true,
+              "feedback": "Correct. ἀπολογέομαι"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does δηλόω mean?",
+          "choices": [
+            {
+              "text": "make clear",
+              "correct": true,
+              "feedback": "Correct. δηλόω"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: make clear"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: make clear"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: make clear"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “make clear”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: δηλόω"
+            },
+            {
+              "text": "δηλόω",
+              "correct": true,
+              "feedback": "Correct. δηλόω"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: δηλόω"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: δηλόω"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀληθής mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: true"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: true"
+            },
+            {
+              "text": "true",
+              "correct": true,
+              "feedback": "Correct. ἀληθής, ἀληθές"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: true"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “true”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ἀληθής"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ἀληθής"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ἀληθής"
+            },
+            {
+              "text": "ἀληθής",
+              "correct": true,
+              "feedback": "Correct. ἀληθής, ἀληθές"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ψευδής mean?",
+          "choices": [
+            {
+              "text": "false",
+              "correct": true,
+              "feedback": "Correct. ψευδής, ψευδές"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: false"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: false"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: false"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “false”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ψευδής"
+            },
+            {
+              "text": "ψευδής",
+              "correct": true,
+              "feedback": "Correct. ψευδής, ψευδές"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ψευδής"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ψευδής"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὄπισθεν mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: behind"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: behind"
+            },
+            {
+              "text": "behind",
+              "correct": true,
+              "feedback": "Correct. ὄπισθεν"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: behind"
+            }
+          ]
+        },
+        {
+          "id": "l39-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “behind”?",
+          "choices": [
+            {
+              "text": "ὁ κατήγορος",
+              "correct": false,
+              "feedback": "Review: ὄπισθεν"
+            },
+            {
+              "text": "ἡ αἰτία",
+              "correct": false,
+              "feedback": "Review: ὄπισθεν"
+            },
+            {
+              "text": "ἡ ἀπόκρισις",
+              "correct": false,
+              "feedback": "Review: ὄπισθεν"
+            },
+            {
+              "text": "ὄπισθεν",
+              "correct": true,
+              "feedback": "Correct. ὄπισθεν"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 39 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "φοβοῦμαι μὴ ἔλθῃ.",
+          "answer": "I fear that he may come. — 1. Fear clauses: μή and μή οὐ"
+        },
+        {
+          "prompt": "φοβοῦμαι μὴ οὐ ἔλθῃ.",
+          "answer": "I fear that he may not come. — 1. Fear clauses: μή and μή οὐ"
+        },
+        {
+          "prompt": "φοβοῦμαι μὴ ἀπόλωνται.",
+          "answer": "I fear that they may perish. — 1. Fear clauses: μή and μή οὐ"
+        },
+        {
+          "prompt": "ἐφοβεῖτο μὴ ἔλθοι.",
+          "answer": "He feared that he might come; supported oblique optative. — 1. Fear clauses: μή and μή οὐ"
+        },
+        {
+          "prompt": "δέδοικα μή...",
+          "answer": "I am afraid that...; a perfect form with present force — 1. Fear clauses: μή and μή οὐ"
+        },
+        {
+          "prompt": "ὃς ἂν βοηθῇ",
+          "answer": "whoever helps; indefinite relative subject — 2. Indefinite relatives and general time clauses"
+        },
+        {
+          "prompt": "ᾧ ἂν βοηθῇς",
+          "answer": "whomever you help; dative with βοηθέω — 2. Indefinite relatives and general time clauses"
+        },
+        {
+          "prompt": "ὅταν κάμνῃ",
+          "answer": "whenever he is exhausted; general temporal clause — 2. Indefinite relatives and general time clauses"
+        },
+        {
+          "prompt": "ὅτε ἔκαμνεν",
+          "answer": "when he was exhausted; definite past temporal clause — 2. Indefinite relatives and general time clauses"
+        },
+        {
+          "prompt": "ὅταν + subjunctive",
+          "answer": "general or prospective occasion, interpreted from context — 2. Indefinite relatives and general time clauses"
+        },
+        {
+          "prompt": "λέγει· ἐπλήγην.",
+          "answer": "He says, “I was struck.” Direct speech. — 3. A claim and a report of that claim"
+        },
+        {
+          "prompt": "λέγει ὅτι ἐπλήγη.",
+          "answer": "He says that he was struck. Finite indirect statement. — 3. A claim and a report of that claim"
+        },
+        {
+          "prompt": "φησὶ τὸν στρατηγὸν παίειν.",
+          "answer": "He says that the general strikes. Accusative and infinitive. — 3. A claim and a report of that claim"
+        },
+        {
+          "prompt": "λέγει ὅτι οὐκ ἔπαισεν.",
+          "answer": "He says that he did not strike. Negative embedded claim. — 3. A claim and a report of that claim"
+        },
+        {
+          "prompt": "ὅτι / ὡς + finite verb",
+          "answer": "two common introductions to an indirect assertion — 3. A claim and a report of that claim"
+        },
+        {
+          "prompt": "ἐρωτᾷ τίς ἔπαισεν.",
+          "answer": "He asks who struck. — 4. Reporting questions without losing the question"
+        },
+        {
+          "prompt": "ἐρωτᾷ πότε ἔπαθεν.",
+          "answer": "He asks when he suffered. — 4. Reporting questions without losing the question"
+        },
+        {
+          "prompt": "ἐρωτᾷ εἰ ὁ στρατηγὸς ἔπαισεν.",
+          "answer": "He asks whether the general struck. — 4. Reporting questions without losing the question"
+        },
+        {
+          "prompt": "ἐρωτᾷ διὰ τί ὁ στρατηγὸς αὐτὸν ἔπαισεν.",
+          "answer": "He asks why the general struck him. — 4. Reporting questions without losing the question"
+        },
+        {
+          "prompt": "τί ποιήσω; → ἐρωτᾷ τί ποιήσῃ.",
+          "answer": "What should I do? → He asks what he should do. — 4. Reporting questions without losing the question"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 39 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l39-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does κατηγορία mean?",
+          "choices": [
+            {
+              "text": "accusation",
+              "correct": true,
+              "feedback": "Correct. accusation"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: accusation"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: accusation"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: accusation"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “accusation”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: κατηγορία"
+            },
+            {
+              "text": "κατηγορία",
+              "correct": true,
+              "feedback": "Correct. κατηγορία"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: κατηγορία"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: κατηγορία"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does ἀπολογία mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: defense"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: defense"
+            },
+            {
+              "text": "defense",
+              "correct": true,
+              "feedback": "Correct. defense"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: defense"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “defense”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: ἀπολογία"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: ἀπολογία"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: ἀπολογία"
+            },
+            {
+              "text": "ἀπολογία",
+              "correct": true,
+              "feedback": "Correct. ἀπολογία"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does μαρτυρία mean?",
+          "choices": [
+            {
+              "text": "testimony",
+              "correct": true,
+              "feedback": "Correct. testimony"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: testimony"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: testimony"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: testimony"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “testimony”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: μαρτυρία"
+            },
+            {
+              "text": "μαρτυρία",
+              "correct": true,
+              "feedback": "Correct. μαρτυρία"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: μαρτυρία"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: μαρτυρία"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ ἔλθῃ.",
+          "choices": [
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            },
+            {
+              "text": "I fear that he may come.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ οὐ ἔλθῃ.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": false,
+              "feedback": "Review: I fear that he may not come."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: I fear that he may not come."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that he may not come."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ ἀπόλωνται.",
+          "choices": [
+            {
+              "text": "I fear that they may perish.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "I fear that he may come.",
+              "correct": false,
+              "feedback": "Review: I fear that they may perish."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: I fear that they may perish."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that they may perish."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: ἐφοβεῖτο μὴ ἔλθοι.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; supported oblique optative."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; supported oblique optative."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; supported oblique optative."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "What does οὐ negate in μὴ οὐ βούλωνται?",
+          "choices": [
+            {
+              "text": "The main verb of fearing.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "The existence of a clause.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "Their willingness: the fear is that they will not be willing.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "The subject’s plurality.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "What should you do with a retained subjunctive after a past fear verb?",
+          "choices": [
+            {
+              "text": "Declare the sentence ungrammatical.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Translate it as an imperative.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Remove the negative.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Interpret it in context; retention is possible.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὃς ἂν βοηθῇ",
+          "choices": [
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ᾧ ἂν βοηθῇς",
+          "choices": [
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": false,
+              "feedback": "Review: whomever you help; dative with βοηθέω"
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: whomever you help; dative with βοηθέω"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whomever you help; dative with βοηθέω"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὅταν κάμνῃ",
+          "choices": [
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": false,
+              "feedback": "Review: whenever he is exhausted; general temporal clause"
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: whenever he is exhausted; general temporal clause"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whenever he is exhausted; general temporal clause"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὅτε ἔκαμνεν",
+          "choices": [
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": false,
+              "feedback": "Review: when he was exhausted; definite past temporal clause"
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: when he was exhausted; definite past temporal clause"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: when he was exhausted; definite past temporal clause"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Why is ᾧ dative in ᾧ ἂν βοηθῇς?",
+          "choices": [
+            {
+              "text": "βοηθέω governs the dative inside the relative clause.",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "It copies every antecedent’s case.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "ἄν always requires a dative.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "The clause is passive.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Which wording generalizes across occasions?",
+          "choices": [
+            {
+              "text": "ὅτε χθὲς ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ὅταν ὁ στρατιώτης κάμνῃ",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "ἐχθὲς ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ὁ στρατιώτης τότε ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει· ἐπλήγην.",
+          "choices": [
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει ὅτι ἐπλήγη.",
+          "choices": [
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": false,
+              "feedback": "Review: He says that he was struck. Finite indirect statement."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says that he was struck. Finite indirect statement."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says that he was struck. Finite indirect statement."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: φησὶ τὸν στρατηγὸν παίειν.",
+          "choices": [
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": false,
+              "feedback": "Review: He says that the general strikes. Accusative and infinitive."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says that the general strikes. Accusative and infinitive."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says that the general strikes. Accusative and infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει ὅτι οὐκ ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": false,
+              "feedback": "Review: He says that he did not strike. Negative embedded claim."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says that he did not strike. Negative embedded claim."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says that he did not strike. Negative embedded claim."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Who is the subject of παίειν in φησὶ τὸν στρατηγὸν παίειν?",
+          "choices": [
+            {
+              "text": "necessarily the reporting speaker",
+              "correct": false,
+              "feedback": "Review: the general"
+            },
+            {
+              "text": "the accuser’s father",
+              "correct": false,
+              "feedback": "Review: the general"
+            },
+            {
+              "text": "the general",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "no subject is possible",
+              "correct": false,
+              "feedback": "Review: the general"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Does λέγει ὅτι make the embedded claim a proven fact?",
+          "choices": [
+            {
+              "text": "Yes, automatically.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "Only if the verb is aorist.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "Only if there is a negative.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "No; it marks attribution.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ τίς ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks who struck.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ πότε ἔπαθεν.",
+          "choices": [
+            {
+              "text": "He asks who struck.",
+              "correct": false,
+              "feedback": "Review: He asks when he suffered."
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks when he suffered."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks when he suffered."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ εἰ ὁ στρατηγὸς ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks who struck.",
+              "correct": false,
+              "feedback": "Review: He asks whether the general struck."
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks whether the general struck."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks whether the general struck."
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ διὰ τί ὁ στρατηγὸς αὐτὸν ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks who struck.",
+              "correct": false,
+              "feedback": "Review: He asks why the general struck him."
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks why the general struck him."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks why the general struck him."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "How is εἰ translated in ἐρωτᾷ εἰ ἦλθεν?",
+          "choices": [
+            {
+              "text": "whether",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "if only",
+              "correct": false,
+              "feedback": "Review: whether"
+            },
+            {
+              "text": "whenever",
+              "correct": false,
+              "feedback": "Review: whether"
+            },
+            {
+              "text": "so that",
+              "correct": false,
+              "feedback": "Review: whether"
+            }
+          ]
+        },
+        {
+          "id": "l39-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "What must be checked when reporting “you struck me”?",
+          "choices": [
+            {
+              "text": "Only the number of syllables.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "The identities represented by both pronouns.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "Only the main verb’s accent.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "Whether the accusation is popular.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 39 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-39-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l39-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ ἔλθῃ.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ οὐ ἔλθῃ.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": false,
+              "feedback": "Review: I fear that he may not come."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: I fear that he may not come."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that he may not come."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ ἀπόλωνται.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": false,
+              "feedback": "Review: I fear that they may perish."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: I fear that they may perish."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that they may perish."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: ἐφοβεῖτο μὴ ἔλθοι.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; supported oblique optative."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; supported oblique optative."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: He feared that he might come; supported oblique optative."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "What does οὐ negate in μὴ οὐ βούλωνται?",
+          "choices": [
+            {
+              "text": "Their willingness: the fear is that they will not be willing.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "The main verb of fearing.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "The existence of a clause.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "The subject’s plurality.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "What should you do with a retained subjunctive after a past fear verb?",
+          "choices": [
+            {
+              "text": "Declare the sentence ungrammatical.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Interpret it in context; retention is possible.",
+              "correct": true,
+              "feedback": "Correct. After a verb of fearing, μή introduces the feared event: φοβοῦμαι μὴ ἀπόληται, “I fear that he may perish.” It is not translated “I fear that he may not perish.” To fear that something will not happen, use μή οὐ: φοβοῦμαι μὴ οὐ ἔλθῃ, “I fear that he may not come.” Separate the clause introducer from the negation."
+            },
+            {
+              "text": "Translate it as an imperative.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Remove the negative.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὃς ἂν βοηθῇ",
+          "choices": [
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ᾧ ἂν βοηθῇς",
+          "choices": [
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": false,
+              "feedback": "Review: whomever you help; dative with βοηθέω"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: whomever you help; dative with βοηθέω"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whomever you help; dative with βοηθέω"
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὅταν κάμνῃ",
+          "choices": [
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": false,
+              "feedback": "Review: whenever he is exhausted; general temporal clause"
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: whenever he is exhausted; general temporal clause"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whenever he is exhausted; general temporal clause"
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὅτε ἔκαμνεν",
+          "choices": [
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": false,
+              "feedback": "Review: when he was exhausted; definite past temporal clause"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: when he was exhausted; definite past temporal clause"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: when he was exhausted; definite past temporal clause"
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Why is ᾧ dative in ᾧ ἂν βοηθῇς?",
+          "choices": [
+            {
+              "text": "It copies every antecedent’s case.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "ἄν always requires a dative.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "βοηθέω governs the dative inside the relative clause.",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            },
+            {
+              "text": "The clause is passive.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Which wording generalizes across occasions?",
+          "choices": [
+            {
+              "text": "ὅτε χθὲς ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ἐχθὲς ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ὁ στρατιώτης τότε ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ὅταν ὁ στρατιώτης κάμνῃ",
+              "correct": true,
+              "feedback": "Correct. An indefinite relative clause can use ἄν with a subjunctive: ὃς ἂν βοηθῇ, “whoever helps.” A general temporal clause uses combinations such as ὅταν (ὅτε + ἄν), “whenever,” and ἐπειδάν, “whenever/when.” The construction envisages any occasion or person meeting the description, rather than identifying one completed event."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει· ἐπλήγην.",
+          "choices": [
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει ὅτι ἐπλήγη.",
+          "choices": [
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": false,
+              "feedback": "Review: He says that he was struck. Finite indirect statement."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says that he was struck. Finite indirect statement."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says that he was struck. Finite indirect statement."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: φησὶ τὸν στρατηγὸν παίειν.",
+          "choices": [
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": false,
+              "feedback": "Review: He says that the general strikes. Accusative and infinitive."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says that the general strikes. Accusative and infinitive."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says that the general strikes. Accusative and infinitive."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει ὅτι οὐκ ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": false,
+              "feedback": "Review: He says that he did not strike. Negative embedded claim."
+            },
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says that he did not strike. Negative embedded claim."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says that he did not strike. Negative embedded claim."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Who is the subject of παίειν in φησὶ τὸν στρατηγὸν παίειν?",
+          "choices": [
+            {
+              "text": "the general",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "necessarily the reporting speaker",
+              "correct": false,
+              "feedback": "Review: the general"
+            },
+            {
+              "text": "the accuser’s father",
+              "correct": false,
+              "feedback": "Review: the general"
+            },
+            {
+              "text": "no subject is possible",
+              "correct": false,
+              "feedback": "Review: the general"
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Does λέγει ὅτι make the embedded claim a proven fact?",
+          "choices": [
+            {
+              "text": "Yes, automatically.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "No; it marks attribution.",
+              "correct": true,
+              "feedback": "Correct. Direct speech gives a speaker’s words as an utterance. Indirect statement embeds their claim under a reporting verb. λέγει ὅτι ἐπλήγη means “He says that he was struck”: the passive aorist belongs to the claim, not to the act of reporting. Identifying the report does not certify its truth."
+            },
+            {
+              "text": "Only if the verb is aorist.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "Only if there is a negative.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ τίς ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks who struck.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ πότε ἔπαθεν.",
+          "choices": [
+            {
+              "text": "He asks who struck.",
+              "correct": false,
+              "feedback": "Review: He asks when he suffered."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks when he suffered."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks when he suffered."
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ εἰ ὁ στρατηγὸς ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks whether the general struck.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "He asks who struck.",
+              "correct": false,
+              "feedback": "Review: He asks whether the general struck."
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks whether the general struck."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks whether the general struck."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ διὰ τί ὁ στρατηγὸς αὐτὸν ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks who struck.",
+              "correct": false,
+              "feedback": "Review: He asks why the general struck him."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks why the general struck him."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks why the general struck him."
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "How is εἰ translated in ἐρωτᾷ εἰ ἦλθεν?",
+          "choices": [
+            {
+              "text": "if only",
+              "correct": false,
+              "feedback": "Review: whether"
+            },
+            {
+              "text": "whenever",
+              "correct": false,
+              "feedback": "Review: whether"
+            },
+            {
+              "text": "whether",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            },
+            {
+              "text": "so that",
+              "correct": false,
+              "feedback": "Review: whether"
+            }
+          ]
+        },
+        {
+          "id": "l39-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "What must be checked when reporting “you struck me”?",
+          "choices": [
+            {
+              "text": "Only the number of syllables.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "Only the main verb’s accent.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "Whether the accusation is popular.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "The identities represented by both pronouns.",
+              "correct": true,
+              "feedback": "Correct. An indirect question preserves what is being asked: ἐρωτᾷ τίς ἔπαισεν, “He asks who struck.” A question word such as τίς, πῶς, or πότε does not become a relative merely because the question is embedded. A yes/no question can use εἰ, “whether.”"
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 39 Final Quiz — The Accusation",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-39-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l39-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What accusation is brought against Xenophon?",
+          "choices": [
+            {
+              "text": "That he struck men.",
+              "correct": true,
+              "feedback": "Correct. That he struck men."
+            },
+            {
+              "text": "That he was Socrates’ prosecutor.",
+              "correct": false,
+              "feedback": "Review: That he struck men."
+            },
+            {
+              "text": "That he stole Cyrus’ coats.",
+              "correct": false,
+              "feedback": "Review: That he struck men."
+            },
+            {
+              "text": "That he ruled Syracuse.",
+              "correct": false,
+              "feedback": "Review: That he struck men."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Xenophon ask the accuser to explain?",
+          "choices": [
+            {
+              "text": "The price of a statue.",
+              "correct": false,
+              "feedback": "Review: The circumstances before the act."
+            },
+            {
+              "text": "The circumstances before the act.",
+              "correct": true,
+              "feedback": "Correct. The circumstances before the act."
+            },
+            {
+              "text": "The route to Delos.",
+              "correct": false,
+              "feedback": "Review: The circumstances before the act."
+            },
+            {
+              "text": "The laws of Sparta only.",
+              "correct": false,
+              "feedback": "Review: The circumstances before the act."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What danger does the commander invoke?",
+          "choices": [
+            {
+              "text": "A theater competition.",
+              "correct": false,
+              "feedback": "Review: Exhaustion and being left behind near enemies."
+            },
+            {
+              "text": "A peaceful harvest.",
+              "correct": false,
+              "feedback": "Review: Exhaustion and being left behind near enemies."
+            },
+            {
+              "text": "Exhaustion and being left behind near enemies.",
+              "correct": true,
+              "feedback": "Correct. Exhaustion and being left behind near enemies."
+            },
+            {
+              "text": "A dispute over tunic size.",
+              "correct": false,
+              "feedback": "Review: Exhaustion and being left behind near enemies."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does μὴ οὐ βούλωνται express?",
+          "choices": [
+            {
+              "text": "Fear that they will be willing.",
+              "correct": false,
+              "feedback": "Review: Fear that they will not be willing."
+            },
+            {
+              "text": "Certainty that they were willing.",
+              "correct": false,
+              "feedback": "Review: Fear that they will not be willing."
+            },
+            {
+              "text": "A command to stop fearing.",
+              "correct": false,
+              "feedback": "Review: Fear that they will not be willing."
+            },
+            {
+              "text": "Fear that they will not be willing.",
+              "correct": true,
+              "feedback": "Correct. Fear that they will not be willing."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who writes the account of the hearing?",
+          "choices": [
+            {
+              "text": "Xenophon, also the accused commander.",
+              "correct": true,
+              "feedback": "Correct. Xenophon, also the accused commander."
+            },
+            {
+              "text": "The unnamed accuser alone.",
+              "correct": false,
+              "feedback": "Review: Xenophon, also the accused commander."
+            },
+            {
+              "text": "Plato as an eyewitness.",
+              "correct": false,
+              "feedback": "Review: Xenophon, also the accused commander."
+            },
+            {
+              "text": "Hiero.",
+              "correct": false,
+              "feedback": "Review: Xenophon, also the accused commander."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the closing reflection require?",
+          "choices": [
+            {
+              "text": "Accept the commander’s intention as conclusive proof.",
+              "correct": false,
+              "feedback": "Review: Examine the account without assuming it wholly true or wholly false."
+            },
+            {
+              "text": "Examine the account without assuming it wholly true or wholly false.",
+              "correct": true,
+              "feedback": "Correct. Examine the account without assuming it wholly true or wholly false."
+            },
+            {
+              "text": "Ignore every soldier’s complaint.",
+              "correct": false,
+              "feedback": "Review: Examine the account without assuming it wholly true or wholly false."
+            },
+            {
+              "text": "Treat audience approval as the only evidence.",
+              "correct": false,
+              "feedback": "Review: Examine the account without assuming it wholly true or wholly false."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κατήγορος mean?",
+          "choices": [
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: accuser"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: accuser"
+            },
+            {
+              "text": "accuser",
+              "correct": true,
+              "feedback": "Correct. κατήγορος, κατηγόρου, ὁ"
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: accuser"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ αἰτία mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: charge, cause"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: charge, cause"
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: charge, cause"
+            },
+            {
+              "text": "charge, cause",
+              "correct": true,
+              "feedback": "Correct. αἰτία, αἰτίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀπόκρισις mean?",
+          "choices": [
+            {
+              "text": "response",
+              "correct": true,
+              "feedback": "Correct. ἀπόκρισις, ἀποκρίσεως, ἡ"
+            },
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: response"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: response"
+            },
+            {
+              "text": "pay",
+              "correct": false,
+              "feedback": "Review: response"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ μισθός mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: pay"
+            },
+            {
+              "text": "pay",
+              "correct": true,
+              "feedback": "Correct. μισθός, μισθοῦ, ὁ"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: pay"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: pay"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τροφή mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: food supply"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: food supply"
+            },
+            {
+              "text": "food supply",
+              "correct": true,
+              "feedback": "Correct. τροφή, τροφῆς, ἡ"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: food supply"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ πορεία mean?",
+          "choices": [
+            {
+              "text": "accuser",
+              "correct": false,
+              "feedback": "Review: march"
+            },
+            {
+              "text": "charge, cause",
+              "correct": false,
+              "feedback": "Review: march"
+            },
+            {
+              "text": "response",
+              "correct": false,
+              "feedback": "Review: march"
+            },
+            {
+              "text": "march",
+              "correct": true,
+              "feedback": "Correct. πορεία, πορείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "What does οὐ negate in μὴ οὐ βούλωνται?",
+          "choices": [
+            {
+              "text": "Their willingness: the fear is that they will not be willing.",
+              "correct": true,
+              "feedback": "Correct. Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "The main verb of fearing.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "The existence of a clause.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            },
+            {
+              "text": "The subject’s plurality.",
+              "correct": false,
+              "feedback": "Review: Their willingness: the fear is that they will not be willing."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "What should you do with a retained subjunctive after a past fear verb?",
+          "choices": [
+            {
+              "text": "Declare the sentence ungrammatical.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Interpret it in context; retention is possible.",
+              "correct": true,
+              "feedback": "Correct. Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Translate it as an imperative.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            },
+            {
+              "text": "Remove the negative.",
+              "correct": false,
+              "feedback": "Review: Interpret it in context; retention is possible."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Why is ᾧ dative in ᾧ ἂν βοηθῇς?",
+          "choices": [
+            {
+              "text": "It copies every antecedent’s case.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "ἄν always requires a dative.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "βοηθέω governs the dative inside the relative clause.",
+              "correct": true,
+              "feedback": "Correct. βοηθέω governs the dative inside the relative clause."
+            },
+            {
+              "text": "The clause is passive.",
+              "correct": false,
+              "feedback": "Review: βοηθέω governs the dative inside the relative clause."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Which wording generalizes across occasions?",
+          "choices": [
+            {
+              "text": "ὅτε χθὲς ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ἐχθὲς ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ὁ στρατιώτης τότε ἔκαμεν",
+              "correct": false,
+              "feedback": "Review: ὅταν ὁ στρατιώτης κάμνῃ"
+            },
+            {
+              "text": "ὅταν ὁ στρατιώτης κάμνῃ",
+              "correct": true,
+              "feedback": "Correct. ὅταν ὁ στρατιώτης κάμνῃ"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Who is the subject of παίειν in φησὶ τὸν στρατηγὸν παίειν?",
+          "choices": [
+            {
+              "text": "the general",
+              "correct": true,
+              "feedback": "Correct. the general"
+            },
+            {
+              "text": "necessarily the reporting speaker",
+              "correct": false,
+              "feedback": "Review: the general"
+            },
+            {
+              "text": "the accuser’s father",
+              "correct": false,
+              "feedback": "Review: the general"
+            },
+            {
+              "text": "no subject is possible",
+              "correct": false,
+              "feedback": "Review: the general"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Does λέγει ὅτι make the embedded claim a proven fact?",
+          "choices": [
+            {
+              "text": "Yes, automatically.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "No; it marks attribution.",
+              "correct": true,
+              "feedback": "Correct. No; it marks attribution."
+            },
+            {
+              "text": "Only if the verb is aorist.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            },
+            {
+              "text": "Only if there is a negative.",
+              "correct": false,
+              "feedback": "Review: No; it marks attribution."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "How is εἰ translated in ἐρωτᾷ εἰ ἦλθεν?",
+          "choices": [
+            {
+              "text": "if only",
+              "correct": false,
+              "feedback": "Review: whether"
+            },
+            {
+              "text": "whenever",
+              "correct": false,
+              "feedback": "Review: whether"
+            },
+            {
+              "text": "whether",
+              "correct": true,
+              "feedback": "Correct. whether"
+            },
+            {
+              "text": "so that",
+              "correct": false,
+              "feedback": "Review: whether"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "What must be checked when reporting “you struck me”?",
+          "choices": [
+            {
+              "text": "Only the number of syllables.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "Only the main verb’s accent.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "Whether the accusation is popular.",
+              "correct": false,
+              "feedback": "Review: The identities represented by both pronouns."
+            },
+            {
+              "text": "The identities represented by both pronouns.",
+              "correct": true,
+              "feedback": "Correct. The identities represented by both pronouns."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "fear-clauses",
+          "prompt": "Analyze or translate: φοβοῦμαι μὴ ἔλθῃ.",
+          "choices": [
+            {
+              "text": "I fear that he may come.",
+              "correct": true,
+              "feedback": "Correct. I fear that he may come."
+            },
+            {
+              "text": "I fear that he may not come.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            },
+            {
+              "text": "I fear that they may perish.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            },
+            {
+              "text": "He feared that he might come; supported oblique optative.",
+              "correct": false,
+              "feedback": "Review: I fear that he may come."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "general-clauses",
+          "prompt": "Analyze or translate: ὃς ἂν βοηθῇ",
+          "choices": [
+            {
+              "text": "whomever you help; dative with βοηθέω",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "whoever helps; indefinite relative subject",
+              "correct": true,
+              "feedback": "Correct. whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "whenever he is exhausted; general temporal clause",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            },
+            {
+              "text": "when he was exhausted; definite past temporal clause",
+              "correct": false,
+              "feedback": "Review: whoever helps; indefinite relative subject"
+            }
+          ]
+        },
+        {
+          "id": "l39-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "reporting-introduction",
+          "prompt": "Analyze or translate: λέγει· ἐπλήγην.",
+          "choices": [
+            {
+              "text": "He says that he was struck. Finite indirect statement.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says that the general strikes. Accusative and infinitive.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says, “I was struck.” Direct speech.",
+              "correct": true,
+              "feedback": "Correct. He says, “I was struck.” Direct speech."
+            },
+            {
+              "text": "He says that he did not strike. Negative embedded claim.",
+              "correct": false,
+              "feedback": "Review: He says, “I was struck.” Direct speech."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "indirect-questions",
+          "prompt": "Analyze or translate: ἐρωτᾷ τίς ἔπαισεν.",
+          "choices": [
+            {
+              "text": "He asks when he suffered.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks whether the general struck.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks why the general struck him.",
+              "correct": false,
+              "feedback": "Review: He asks who struck."
+            },
+            {
+              "text": "He asks who struck.",
+              "correct": true,
+              "feedback": "Correct. He asks who struck."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Does seeing the sea end the Anabasis?",
+          "choices": [
+            {
+              "text": "No; Books 5–7 continue the problems of return and service.",
+              "correct": true,
+              "feedback": "Correct. No; Books 5–7 continue the problems of return and service."
+            },
+            {
+              "text": "Yes; the narrative ends in Book 4.",
+              "correct": false,
+              "feedback": "Review: No; Books 5–7 continue the problems of return and service."
+            },
+            {
+              "text": "Yes; all troops immediately return home.",
+              "correct": false,
+              "feedback": "Review: No; Books 5–7 continue the problems of return and service."
+            },
+            {
+              "text": "The sea is never mentioned.",
+              "correct": false,
+              "feedback": "Review: No; Books 5–7 continue the problems of return and service."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why examine Xenophon’s dual role?",
+          "choices": [
+            {
+              "text": "He was the only soldier in the army.",
+              "correct": false,
+              "feedback": "Review: He narrates a hearing in which he was the accused leader."
+            },
+            {
+              "text": "He narrates a hearing in which he was the accused leader.",
+              "correct": true,
+              "feedback": "Correct. He narrates a hearing in which he was the accused leader."
+            },
+            {
+              "text": "He wrote an independent judicial transcript.",
+              "correct": false,
+              "feedback": "Review: He narrates a hearing in which he was the accused leader."
+            },
+            {
+              "text": "He had no personal stake.",
+              "correct": false,
+              "feedback": "Review: He narrates a hearing in which he was the accused leader."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does audience approval establish most directly?",
+          "choices": [
+            {
+              "text": "Proof that every coercive act was justified.",
+              "correct": false,
+              "feedback": "Review: Reception of the defense."
+            },
+            {
+              "text": "The accuser’s private motives.",
+              "correct": false,
+              "feedback": "Review: Reception of the defense."
+            },
+            {
+              "text": "Reception of the defense.",
+              "correct": true,
+              "feedback": "Correct. Reception of the defense."
+            },
+            {
+              "text": "A complete medical account.",
+              "correct": false,
+              "feedback": "Review: Reception of the defense."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Where should a claimed intention first be categorized?",
+          "choices": [
+            {
+              "text": "As independently proved fact automatically.",
+              "correct": false,
+              "feedback": "Review: Under the speaker’s response, pending support."
+            },
+            {
+              "text": "As irrelevant to interpretation.",
+              "correct": false,
+              "feedback": "Review: Under the speaker’s response, pending support."
+            },
+            {
+              "text": "As a modern invention necessarily.",
+              "correct": false,
+              "feedback": "Review: Under the speaker’s response, pending support."
+            },
+            {
+              "text": "Under the speaker’s response, pending support.",
+              "correct": true,
+              "feedback": "Correct. Under the speaker’s response, pending support."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does a fair evidence hearing require?",
+          "choices": [
+            {
+              "text": "Accurate summary of the other side before evaluation.",
+              "correct": true,
+              "feedback": "Correct. Accurate summary of the other side before evaluation."
+            },
+            {
+              "text": "Assuming the commander always wins.",
+              "correct": false,
+              "feedback": "Review: Accurate summary of the other side before evaluation."
+            },
+            {
+              "text": "Ignoring missing information.",
+              "correct": false,
+              "feedback": "Review: Accurate summary of the other side before evaluation."
+            },
+            {
+              "text": "Replacing the source with a vote.",
+              "correct": false,
+              "feedback": "Review: Accurate summary of the other side before evaluation."
+            }
+          ]
+        },
+        {
+          "id": "l39-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the reading’s source status?",
+          "choices": [
+            {
+              "text": "A word-for-word court transcript.",
+              "correct": false,
+              "feedback": "Review: A labeled adaptation of a participant’s narrative."
+            },
+            {
+              "text": "A labeled adaptation of a participant’s narrative.",
+              "correct": true,
+              "feedback": "Correct. A labeled adaptation of a participant’s narrative."
+            },
+            {
+              "text": "An anonymous archaeological report.",
+              "correct": false,
+              "feedback": "Review: A labeled adaptation of a participant’s narrative."
+            },
+            {
+              "text": "An account by the accuser alone.",
+              "correct": false,
+              "feedback": "Review: A labeled adaptation of a participant’s narrative."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-38",
+    "title": "Justice in the Household",
+    "fallbackUrl": "lesson.html?lesson=38&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-40",
+    "title": "Speaking the Truth",
+    "fallbackUrl": "lesson.html?lesson=40&page=1"
+  },
+  "contentRevision": "lesson-39-module-4-v1"
+}

@@ -319,9 +319,9 @@ export default async (request: Request) => {
       scope: lesson.grammar_focus || undefined,
       module: `${lesson.module_label} · ${lesson.module_title}`,
       pages,
-      vocabulary: /^lesson-(1[3-9]|2[0-9]|3[0-6])$/.test(lesson.slug)
+      vocabulary: /^lesson-(1[3-9]|[23][0-9]|4[0-8])$/.test(lesson.slug)
         && Array.isArray(legacyContent?.vocabulary)
-        && new RegExp(`^${lesson.slug}-module-${Number(lesson.slug.slice(7)) <= 24 ? 2 : 3}-v\\d+$`).test(legacyContent?.contentRevision || "")
+        && new RegExp(`^${lesson.slug}-module-${Number(lesson.slug.slice(7)) <= 24 ? 2 : Number(lesson.slug.slice(7)) <= 36 ? 3 : 4}-v\\d+$`).test(legacyContent?.contentRevision || "")
         ? legacyContent.vocabulary
         : vocabulary.length ? vocabulary : undefined,
       reading: legacyReading || publishedBlocks.get("reading") || reading || undefined,

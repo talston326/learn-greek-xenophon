@@ -1,0 +1,4537 @@
+{
+  "id": "lesson-41",
+  "number": 41,
+  "title": "A Ruler and the Common Good",
+  "greekTitle": "Πλούσιος ἄρχων ἢ εὐδαίμων πόλις;",
+  "scope": "Regular and irregular comparison; Comparatives in -ων and -ον; Standards of comparison and adverbs; Care and effort: ὅπως with future indicative",
+  "theme": "Who benefits from a ruler’s prizes?",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 24α–β",
+  "banner": {
+    "image": "assets/lesson-41-banner.png",
+    "alt": "Educational reconstruction: Simonides and Hiero converse in a restrained Sicilian palace setting, with civic activity beyond.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-41-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-41-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-41-page-3",
+      "title": "Who benefits from a ruler’s prizes?",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ὁ τύραννος",
+          "english": "tyrant, sole ruler",
+          "dictionaryForm": "τύραννος, τυράννου, ὁ",
+          "lemma": "τύραννος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ εὔνοια",
+          "english": "goodwill",
+          "dictionaryForm": "εὔνοια, εὐνοίας, ἡ",
+          "lemma": "εὔνοια",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ δαπάνη",
+          "english": "expense",
+          "dictionaryForm": "δαπάνη, δαπάνης, ἡ",
+          "lemma": "δαπάνη",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ φιλοτιμία",
+          "english": "ambition for honor",
+          "dictionaryForm": "φιλοτιμία, φιλοτιμίας, ἡ",
+          "lemma": "φιλοτιμία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ εὐεργεσία",
+          "english": "benefaction",
+          "dictionaryForm": "εὐεργεσία, εὐεργεσίας, ἡ",
+          "lemma": "εὐεργεσία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ συμβουλή",
+          "english": "advice",
+          "dictionaryForm": "συμβουλή, συμβουλῆς, ἡ",
+          "lemma": "συμβουλή",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μαρτυρία",
+          "english": "testimony",
+          "dictionaryForm": "μαρτυρία, μαρτυρίας, ἡ",
+          "lemma": "μαρτυρία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "συμβουλεύω",
+          "english": "advise",
+          "dictionaryForm": "συμβουλεύω",
+          "lemma": "συμβουλεύω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "κοσμέω",
+          "english": "adorn",
+          "dictionaryForm": "κοσμέω",
+          "lemma": "κοσμέω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "συγκρίνω",
+          "english": "compare",
+          "dictionaryForm": "συγκρίνω",
+          "lemma": "συγκρίνω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μείζων",
+          "english": "greater",
+          "dictionaryForm": "μείζων, μεῖζον",
+          "lemma": "μείζων",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἧττον",
+          "english": "less",
+          "dictionaryForm": "ἧττον",
+          "lemma": "ἧττον",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "τὸ ἆθλον",
+          "english": "prize",
+          "dictionaryForm": "ἆθλον, ἄθλου, τό",
+          "lemma": "ἆθλον",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ ἰδιώτης",
+          "english": "private person",
+          "dictionaryForm": "ἰδιώτης, ἰδιώτου, ὁ",
+          "lemma": "ἰδιώτης",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ εὐδαιμονία",
+          "english": "well-being",
+          "dictionaryForm": "εὐδαιμονία, εὐδαιμονίας, ἡ",
+          "lemma": "εὐδαιμονία",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐπιμελέομαι",
+          "english": "take care",
+          "dictionaryForm": "ἐπιμελέομαι",
+          "lemma": "ἐπιμελέομαι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀγωνίζομαι",
+          "english": "compete",
+          "dictionaryForm": "ἀγωνίζομαι",
+          "lemma": "ἀγωνίζομαι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἀμείνων",
+          "english": "better",
+          "dictionaryForm": "ἀμείνων, ἄμεινον",
+          "lemma": "ἀμείνων",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "πλείων",
+          "english": "more",
+          "dictionaryForm": "πλείων, πλεῖον",
+          "lemma": "πλείων",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἴδιος",
+          "english": "private, one's own",
+          "dictionaryForm": "ἴδιος, ἰδία, ἴδιον",
+          "lemma": "ἴδιος",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Πλούσιος ἄρχων ἢ εὐδαίμων πόλις;",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Hiero 9.1–11 and 11.1–15. 307 Greek words in 6 paragraphs.",
+      "Based on Hiero 9 and 11. Simonides’ recommendations are adapted into a connected argument. The dialogue does not establish that the historical Hiero implemented them; the final questions are course reflection.",
+      "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Σιμωνίδης τῷ Ἱέρωνι περὶ ἀρχῆς διαλέγεται. ὁ μὲν Ἱέρων τύραννός ἐστιν, ὁ δὲ Σιμωνίδης ποιητής. οὐ μέντοι περὶ ᾠδῆς μόνον λέγουσιν, ἀλλὰ περὶ τοῦ βίου τοῦ ἄρχοντος. ὁ Ἱέρων πολλὰ κτήματα ἔχει, ἀλλὰ φοβεῖται καὶ οὐ πάντας τοὺς πλησίον πιστοὺς νομίζει. τὸ πλείω ἔχειν οὐ πάντως τὸ ἥδιον ζῆν παρέχει.",
+        "gloss": [
+          {
+            "greek": "τύραννός",
+            "english": "sole ruler, tyrant"
+          },
+          {
+            "greek": "ᾠδῆς",
+            "english": "song"
+          },
+          {
+            "greek": "πλησίον",
+            "english": "nearby"
+          },
+          {
+            "greek": "πλείω",
+            "english": "more things; alternative accusative plural"
+          },
+          {
+            "greek": "πάντως",
+            "english": "necessarily here"
+          },
+          {
+            "greek": "ἥδιον",
+            "english": "more pleasantly"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Σιμωνίδης ἄλλην ὁδὸν δείκνυσιν. ὁ ἄρχων μὴ μόνον τὸν ἴδιον οἶκον πλουσιώτερον ποιείτω, ἀλλὰ τὴν πόλιν ἀμείνω. ὅταν οἱ πολῖται καλῶς πράττωσιν, ὁ ἄρχων μείζονα τιμὴν λαμβάνει. τὰ γὰρ κοινὰ ἔργα πλείοσιν ἀνθρώποις ὠφέλιμά ἐστιν ἢ τὰ ἴδια κτήματα. οὐ τὸ μέγιστον ἀργύριον μόνον ἀλλὰ καὶ ἡ εὔνοια δύναμιν παρέχει.",
+        "gloss": [
+          {
+            "greek": "πλουσιώτερον",
+            "english": "wealthier"
+          },
+          {
+            "greek": "ἀμείνω",
+            "english": "better; contracted comparative accusative"
+          },
+          {
+            "greek": "μείζονα",
+            "english": "greater"
+          },
+          {
+            "greek": "πλείοσιν",
+            "english": "to more; comparative dative plural"
+          },
+          {
+            "greek": "ὠφέλιμά",
+            "english": "beneficial"
+          },
+          {
+            "greek": "εὔνοια",
+            "english": "goodwill"
+          }
+        ]
+      },
+      {
+        "greek": "Ἐπιμελοῦ οὖν ὅπως οἱ πολῖται ἐργάσονται καὶ τὰς τέχνας ἀσκήσουσιν. ἆθλα δίδου τοῖς εὖ ποιοῦσιν, ἵνα καὶ οἱ ἄλλοι πονεῖν ἐθέλωσιν. οἱ μὲν γεωργοὶ τὴν γῆν βελτίω ποιήσουσιν, οἱ δὲ τὰ κοινὰ ἔργα κοσμήσουσιν. τὸ γὰρ ἆθλον πολλάκις μικρότερόν ἐστι τῆς δαπάνης ἣν οἱ ἀγωνιζόμενοι ἑκόντες ποιοῦνται. οὕτως ἡ φιλοτιμία πρὸς τὸ κοινὸν συμφέρον ἄγει.",
+        "gloss": [
+          {
+            "greek": "Ἐπιμελοῦ",
+            "english": "take care; imperative"
+          },
+          {
+            "greek": "ἐργάσονται",
+            "english": "will work; future in object clause"
+          },
+          {
+            "greek": "ἆθλα",
+            "english": "prizes"
+          },
+          {
+            "greek": "βελτίω",
+            "english": "better; comparative accusative feminine"
+          },
+          {
+            "greek": "δαπάνης",
+            "english": "expense"
+          },
+          {
+            "greek": "φιλοτιμία",
+            "english": "ambition for honor"
+          }
+        ]
+      },
+      {
+        "greek": "Σκόπει δὲ ὅπως οἱ φύλακες τοὺς πολίτας φυλάξουσιν, οὐ μόνον σέ. ὁ γὰρ φόβος οὐχ ὁμοῖός ἐστι τῇ φιλίᾳ. ὅταν οἱ ἄνθρωποι τὴν δύναμιν πρὸς αὑτοὺς ὠφέλιμον ὁρῶσιν, ἧττον αὐτὴν φοβοῦνται. ὁ ἄριστος ἄρχων οὐ τῷ ἰδιώτῃ περὶ πλούτου ἀγωνίζεται, ἀλλὰ ταῖς ἄλλαις πόλεσι περὶ τῆς τῶν πολιτῶν εὐδαιμονίας.",
+        "gloss": [
+          {
+            "greek": "Σκόπει",
+            "english": "see to it"
+          },
+          {
+            "greek": "φυλάξουσιν",
+            "english": "will protect"
+          },
+          {
+            "greek": "αὑτοὺς",
+            "english": "themselves"
+          },
+          {
+            "greek": "ἧττον",
+            "english": "less"
+          },
+          {
+            "greek": "ἰδιώτῃ",
+            "english": "private individual"
+          },
+          {
+            "greek": "εὐδαιμονίας",
+            "english": "well-being"
+          }
+        ]
+      },
+      {
+        "greek": "Ταῦτα ὁ Σιμωνίδης συμβουλεύει. ὁ δὲ ἀναγνώστης ζητεῖ τίς τῶν προτάσεων ὠφελεῖται. ὁ γεωργὸς λαμβάνει τιμήν, ἡ πόλις πλείονα ἔργα, ὁ δὲ ἄρχων ἀσφαλεστέραν ἀρχήν. ἀλλὰ τίς κρίνει τὸν ἄρχοντα; τίς τῷ ἀδικούμενῳ βοηθεῖ; ταῦτα δεῖ ἐξετάζειν πρὶν τὴν εὐεργεσίαν τῇ δικαιοσύνῃ ταὐτὴν νομίζειν. ἡ γὰρ τῶν κτημάτων αὔξησις οὐ πᾶσαν περὶ τοῦ δικαίου ἐρώτησιν λύει.",
+        "gloss": [
+          {
+            "greek": "συμβουλεύει",
+            "english": "advises"
+          },
+          {
+            "greek": "προτάσεων",
+            "english": "proposals"
+          },
+          {
+            "greek": "ἀσφαλεστέραν",
+            "english": "safer"
+          },
+          {
+            "greek": "ἀδικούμενῳ",
+            "english": "person being wronged"
+          },
+          {
+            "greek": "εὐεργεσίαν",
+            "english": "benefaction"
+          },
+          {
+            "greek": "αὔξησις",
+            "english": "increase"
+          }
+        ]
+      },
+      {
+        "greek": "Τὸν λόγον οὖν ὡς συμβουλὴν ἀναγινώσκωμεν, οὐχ ὡς μαρτυρίαν ὅτι πάντα οὕτως ἐγένετο. ὁ συγγραφεὺς δύο φωνὰς ἡμῖν παρέχει, ἵνα συγκρίνωμεν τὸ φοβεῖσθαι καὶ τὸ φιλεῖσθαι. ἡ τοῦ ἄρχοντος εὐδαιμονία πρὸς τὴν τῆς πόλεως εὐδαιμονίαν ἀναφέρεται· ἀλλὰ καὶ τὸ τῆς ἐξουσίας μέτρον ἔτι ζητητέον ἐστίν.",
+        "gloss": [
+          {
+            "greek": "συμβουλὴν",
+            "english": "advice"
+          },
+          {
+            "greek": "μαρτυρίαν",
+            "english": "testimony"
+          },
+          {
+            "greek": "συγκρίνωμεν",
+            "english": "may compare"
+          },
+          {
+            "greek": "φιλεῖσθαι",
+            "english": "to be loved"
+          },
+          {
+            "greek": "ἀναφέρεται",
+            "english": "is related"
+          },
+          {
+            "greek": "ζητητέον",
+            "english": "requiring inquiry; supported verbal adjective"
+          }
+        ]
+      }
+    ],
+    "translation": "Simonides discusses rule with Hiero. Hiero is a tyrant, Simonides a poet. Yet they speak not only about song but about the ruler’s life. Hiero has many possessions, but he is afraid and does not consider everyone nearby trustworthy. Having more does not necessarily provide a more pleasant life.\n\nSimonides points out another path. Let the ruler make not only his own household wealthier but the city better. Whenever the citizens prosper, the ruler receives greater honor. For public works benefit more people than private possessions do. Not only the greatest amount of silver but also goodwill provides power.\n\nTake care, then, that the citizens will work and practice their crafts. Give prizes to those doing well, so that others too may be willing to labor. Farmers will improve the land, while others will adorn public works. For the prize is often smaller than the expense that competitors willingly incur. In this way ambition leads toward the common advantage.\n\nSee that the guards will protect the citizens, not only you. Fear is not the same as friendship. Whenever people see power as beneficial to themselves, they fear it less. The best ruler does not compete with a private individual in wealth, but with other cities over the well-being of his citizens.\n\nSimonides gives this advice. The reader asks who benefits from the proposals. The farmer receives honor, the city more works, and the ruler a safer rule. But who judges the ruler? Who helps the person wronged? We must examine these questions before treating benefaction as identical with justice. For an increase in possessions does not resolve every question about what is just.\n\nLet us therefore read the argument as advice, not as testimony that everything happened in this way. The author supplies two voices so that we may compare being feared and being loved. The ruler’s well-being is related to the city’s well-being; but the measure of his authority still requires examination.\n",
+    "sourceCitation": "Xenophon, Hiero 9.1–11 and 11.1–15. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1175/1175-h/1175-h.htm",
+    "notesMarkdown": "Based on Hiero 9 and 11. Simonides’ recommendations are adapted into a connected argument. The dialogue does not establish that the historical Hiero implemented them; the final questions are course reflection."
+  },
+  "wordStudy": {
+    "label": "Word Study — Shared and private benefit",
+    "blocks": [
+      {
+        "title": "Shared and private benefit",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. κοινός means “common, shared”; ἴδιος means “private, one’s own”; συμφέρον means “advantage”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "κοινός",
+            "english": "common, shared"
+          },
+          {
+            "greek": "ἴδιος",
+            "english": "private, one’s own"
+          },
+          {
+            "greek": "συμφέρον",
+            "english": "advantage"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 24α–β. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Further regular and irregular comparison: stems and the assigned comparative and superlative forms.",
+      "Declension of comparatives and recognition of alternative forms where assigned.",
+      "Comparative constructions and distinctions among comparative, superlative, and contextual intensive meanings.",
+      "Object clauses after verbs of care or effort using ὅπως with future indicative; distinguish these from purpose clauses using a subjunctive."
+    ],
+    "sections": [
+      {
+        "id": "comparison-stems",
+        "title": "1. Regular and irregular comparison",
+        "practiceTopic": "comparison-stems",
+        "body": [
+          "Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context.",
+          "A comparative can compare with an explicit standard, imply “rather/too,” or contrast two alternatives. A superlative can mean the highest in a group or intensively “very.” Thus σοφώτατος need not always assert that someone is the wisest person in the world."
+        ],
+        "table": {
+          "title": "1. Regular and irregular comparison",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "σοφώτερος / σοφώτατος",
+              "wiser / wisest or very wise; regular comparison"
+            ],
+            [
+              "ἀμείνων / ἄριστος",
+              "better / best; irregular comparison of ἀγαθός"
+            ],
+            [
+              "μείζων / μέγιστος",
+              "greater / greatest; comparison of μέγας"
+            ],
+            [
+              "πλείων / πλεῖστος",
+              "more / most; comparison of πολύς"
+            ],
+            [
+              "βελτίων / βέλτιστος",
+              "better / best; another comparison of ἀγαθός"
+            ],
+            [
+              "ἥττων / ἥκιστος",
+              "less or inferior / least"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Translate ἀνὴρ σοφώτατος where no comparison group is asserted.",
+            "answer": "a very wise man"
+          },
+          {
+            "prompt": "Which pair compares μέγας?",
+            "answer": "μείζων, μέγιστος"
+          }
+        ]
+      },
+      {
+        "id": "comparative-declension",
+        "title": "2. Comparatives in -ων and -ον",
+        "practiceTopic": "comparative-declension",
+        "body": [
+          "Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form.",
+          "Contracted alternatives coexist with n-stem forms: accusative singular μείζω alongside μείζονα, plural masculine/feminine μείζους alongside μείζονες/μείζονας, and neuter plural μείζω alongside μείζονα. A form such as ἀμείνω can therefore be accusative singular masculine/feminine or neuter plural. Agreement and context resolve it."
+        ],
+        "table": {
+          "title": "2. Comparatives in -ων and -ον",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "μείζονος",
+              "genitive singular comparative, all genders"
+            ],
+            [
+              "μείζονι",
+              "dative singular comparative, all genders"
+            ],
+            [
+              "μείζονα / μείζω",
+              "accusative singular masculine/feminine, or neuter plural in context"
+            ],
+            [
+              "μείζονες / μείζους",
+              "masculine/feminine nominative plural alternatives"
+            ],
+            [
+              "μείζονας / μείζους",
+              "masculine/feminine accusative plural alternatives"
+            ],
+            [
+              "μειζόνων / μείζοσι(ν)",
+              "genitive plural / dative plural"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Parse ἀμείνω in τὴν πόλιν ἀμείνω ποιεῖ.",
+            "answer": "accusative feminine singular agreeing with πόλιν"
+          },
+          {
+            "prompt": "Why must you inspect agreement when reading μείζω?",
+            "answer": "The contracted form can serve more than one case/number pattern."
+          }
+        ]
+      },
+      {
+        "id": "comparison-constructions",
+        "title": "3. Standards of comparison and adverbs",
+        "practiceTopic": "comparison-constructions",
+        "body": [
+          "A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence.",
+          "Adverbs commonly use neuter singular comparative and neuter plural superlative: σοφῶς, σοφώτερον, σοφώτατα. Common irregular forms include εὖ, ἄμεινον/βέλτιον, ἄριστα/βέλτιστα, and μάλα, μᾶλλον, μάλιστα. Comparison can express degree of an action as well as a quality of a noun."
+        ],
+        "table": {
+          "title": "3. Standards of comparison and adverbs",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "μείζων τῆς οἰκίας",
+              "larger than the house; genitive standard"
+            ],
+            [
+              "σοφώτερος ἢ ὁ ἀδελφός",
+              "wiser than the brother; ἤ comparison"
+            ],
+            [
+              "σοφώτερον πράττει",
+              "he acts more wisely; comparative adverb"
+            ],
+            [
+              "σοφώτατα πράττει",
+              "he acts most wisely; superlative adverb"
+            ],
+            [
+              "μάλα / μᾶλλον / μάλιστα",
+              "very / more / most"
+            ],
+            [
+              "εὖ / βέλτιον / βέλτιστα",
+              "well / better / best"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "What does τῆς δαπάνης express after μικρότερον?",
+            "answer": "The standard: smaller than the expense."
+          },
+          {
+            "prompt": "Which is an adverb modifying an action?",
+            "answer": "σοφώτερον πράττει"
+          }
+        ]
+      },
+      {
+        "id": "care-object-clauses",
+        "title": "4. Care and effort: ὅπως with future indicative",
+        "practiceTopic": "care-object-clauses",
+        "body": [
+          "Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears.",
+          "Compare a purpose clause: ἆθλα δίδωσιν ἵνα οἱ πολῖται πονῶσιν, “He gives prizes so that the citizens may work.” First identify the governing verb and clause function, then the form. A ruler’s intention, a plan requiring effort, and an achieved result remain three different claims."
+        ],
+        "table": {
+          "title": "4. Care and effort: ὅπως with future indicative",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἐπιμελοῦ ὅπως φυλάξουσιν.",
+              "Take care that they will protect; future indicative object clause."
+            ],
+            [
+              "σκόπει ὅπως ἐργάσονται.",
+              "See that they will work; future middle object clause."
+            ],
+            [
+              "δίδωσιν ἵνα πονῶσιν.",
+              "He gives so that they may work; subjunctive purpose."
+            ],
+            [
+              "ἐπιμελοῦ ὅπως μὴ ἀδικήσουσιν.",
+              "Take care that they will not do wrong; negative object clause."
+            ],
+            [
+              "φυλάξουσιν / φυλάξωσιν",
+              "future indicative / aorist subjunctive, third plural"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "ἐπιμελοῦ ὅπως φυλάξουσιν.",
+            "english": "Take care that they will protect; future indicative object clause."
+          },
+          {
+            "greek": "σκόπει ὅπως ἐργάσονται.",
+            "english": "See that they will work; future middle object clause."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Which form fits a care clause specifying “they will guard”?",
+            "answer": "φυλάξουσιν"
+          },
+          {
+            "prompt": "Does the presence of ὅπως prove the verb is subjunctive?",
+            "answer": "No; inspect the form and governing construction."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. Regular and irregular comparison: Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context.",
+        "2. Comparatives in -ων and -ον: Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form.",
+        "3. Standards of comparison and adverbs: A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence.",
+        "4. Care and effort: ὅπως with future indicative: Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+      ]
+    }
+  },
+  "culture": {
+    "title": "Who benefits from a ruler’s prizes?",
+    "banner": {
+      "image": "assets/lesson-41-culture-banner.png",
+      "alt": "Educational reconstruction: A separate public festival or agricultural-prize scene emphasizing the community rather than the ruler.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Hiero",
+        "body": [
+          "Hiero is a compact dialogue in eleven chapters between Hiero, ruler of Syracuse in Sicily, and the poet Simonides. It begins with an apparently enviable position: a ruler possesses wealth, servants, and power. Simonides asks how that life compares with private life. Hiero’s answers expose the anxieties behind the privilege—distrust, danger, distorted relationships, and uncertainty about whether praise is sincere. The conversation asks what it would take for power to produce happiness rather than fear.",
+          "The later chapters change direction. Simonides proposes ways to connect the ruler’s interests with the community’s prosperity: reward useful achievement, promote productive work, and make public success a source of honor. The argument does not simply equate wealth with justice. It invites the reader to test whether a ruler can win willing support by benefiting others and whether such benefits resolve the deeper problem of unaccountable authority. The ruler and the community remain distinct parties whose interests may overlap without becoming identical.",
+          "Read the work as a crafted inquiry into tyranny and leadership. The historical Hiero I belongs to fifth-century Syracuse; Xenophon wrote later. The dialogue is not a transcript of a recoverable meeting and does not prove that Hiero adopted Simonides’ program. Begin with the complaints in chapters 1–7, then compare the proposals in chapters 8–11. Ask who speaks at each turn, what assumptions each speaker challenges, and why the work ends with advice rather than a narrative showing the advice put into practice. In this lesson, chapters 9 and 11 supply the selected proposals, while the complete English translation lets you examine the argument that leads to them."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Hiero — English translation",
+            "url": "https://www.gutenberg.org/files/1175/1175-h/1175-h.htm"
+          },
+          {
+            "title": "Wikipedia: Hiero",
+            "url": "https://en.wikipedia.org/wiki/Hiero_(Xenophon)"
+          }
+        ]
+      },
+      {
+        "title": "A tyrant’s prosperity problem",
+        "body": [
+          "In the Hiero, Simonides redirects attention from the ruler’s private possessions to the community’s prosperity. Prizes, productive work, and public benefit become ways to seek honor. The question is not merely whether a ruler can afford generous gifts, but whether the conditions of rule can produce trust.",
+          "A prize can induce people to spend effort far beyond the value of the reward. That insight makes the proposals practical, but also invites scrutiny. Who chooses the winning activity? Who can compete? Who provides labor while someone else receives honor? The dialogue’s advice leaves room for these questions."
+        ]
+      },
+      {
+        "title": "Syracuse and the literary setting",
+        "body": [
+          "Hiero I ruled Syracuse in the fifth century BCE. Xenophon’s dialogue was written later and uses a conversation with Simonides to explore tyranny. It is not a record proving that the ruler implemented a public program. Keep the historical setting separate from the dialogue’s imagined argumentative occasion.",
+          "“Tyrant” in Greek political vocabulary identifies a kind of sole rule; the ethical evaluation still requires attention to the actual argument. The work examines fear and dependence even while proposing reform. Benefaction can improve a community without answering every question about accountability."
+        ]
+      },
+      {
+        "title": "Allocate a civic budget",
+        "body": [
+          "Imagine a small fund that can support agriculture, a festival, or a public amenity. Allocate it and name the beneficiaries, the workers, and the people excluded from the decision. This is a classroom simulation, not a reconstruction of Syracusan accounts. Compare your allocation with Simonides’ priorities.",
+          "Translate the comparative claims and the ὅπως clauses, then give a continuous version of the last two paragraphs. Explain the difference between “take care that they will...” and “do this so that they may...”. End with one question that a satisfied beneficiary might still ask a powerful ruler."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "Who are the dialogue’s speakers?",
+        "answer": "Hiero and Simonides."
+      },
+      {
+        "prompt": "What does the work’s ending provide?",
+        "answer": "Advice, not a narrated implementation record."
+      },
+      {
+        "prompt": "Why can a prize be economically effective?",
+        "answer": "It may encourage effort beyond its own cost."
+      },
+      {
+        "prompt": "What question can remain despite public benefit?",
+        "answer": "Who holds the ruler accountable?"
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Hiero.",
+        "Decline selected comparatives, interpret the standard of comparison, and contrast ὅπως + future indicative with an earlier purpose construction.",
+        "Explain the lesson’s grammar using an example from your 307-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Hiero 9.1–11 and 11.1–15",
+        "url": "https://www.gutenberg.org/files/1175/1175-h/1175-h.htm"
+      },
+      {
+        "title": "Read the complete Hiero — English translation",
+        "url": "https://www.gutenberg.org/files/1175/1175-h/1175-h.htm"
+      },
+      {
+        "title": "Wikipedia: Hiero",
+        "url": "https://en.wikipedia.org/wiki/Hiero_(Xenophon)"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 41 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ὁ τύραννος",
+          "answer": "tyrant, sole ruler — τύραννος, τυράννου, ὁ"
+        },
+        {
+          "prompt": "ἡ εὔνοια",
+          "answer": "goodwill — εὔνοια, εὐνοίας, ἡ"
+        },
+        {
+          "prompt": "τὸ ἆθλον",
+          "answer": "prize — ἆθλον, ἄθλου, τό"
+        },
+        {
+          "prompt": "ἡ δαπάνη",
+          "answer": "expense — δαπάνη, δαπάνης, ἡ"
+        },
+        {
+          "prompt": "ἡ φιλοτιμία",
+          "answer": "ambition for honor — φιλοτιμία, φιλοτιμίας, ἡ"
+        },
+        {
+          "prompt": "ὁ ἰδιώτης",
+          "answer": "private person — ἰδιώτης, ἰδιώτου, ὁ"
+        },
+        {
+          "prompt": "ἡ εὐδαιμονία",
+          "answer": "well-being — εὐδαιμονία, εὐδαιμονίας, ἡ"
+        },
+        {
+          "prompt": "ἡ εὐεργεσία",
+          "answer": "benefaction — εὐεργεσία, εὐεργεσίας, ἡ"
+        },
+        {
+          "prompt": "ἡ συμβουλή",
+          "answer": "advice — συμβουλή, συμβουλῆς, ἡ"
+        },
+        {
+          "prompt": "ἡ μαρτυρία",
+          "answer": "testimony — μαρτυρία, μαρτυρίας, ἡ"
+        },
+        {
+          "prompt": "ἐπιμελέομαι",
+          "answer": "take care — ἐπιμελέομαι"
+        },
+        {
+          "prompt": "συμβουλεύω",
+          "answer": "advise — συμβουλεύω"
+        },
+        {
+          "prompt": "ἀγωνίζομαι",
+          "answer": "compete — ἀγωνίζομαι"
+        },
+        {
+          "prompt": "κοσμέω",
+          "answer": "adorn — κοσμέω"
+        },
+        {
+          "prompt": "συγκρίνω",
+          "answer": "compare — συγκρίνω"
+        },
+        {
+          "prompt": "ἀμείνων",
+          "answer": "better — ἀμείνων, ἄμεινον"
+        },
+        {
+          "prompt": "μείζων",
+          "answer": "greater — μείζων, μεῖζον"
+        },
+        {
+          "prompt": "πλείων",
+          "answer": "more — πλείων, πλεῖον"
+        },
+        {
+          "prompt": "ἧττον",
+          "answer": "less — ἧττον"
+        },
+        {
+          "prompt": "ἴδιος",
+          "answer": "private, one's own — ἴδιος, ἰδία, ἴδιον"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 41 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l41-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ τύραννος mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": true,
+              "feedback": "Correct. τύραννος, τυράννου, ὁ"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: tyrant, sole ruler"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: tyrant, sole ruler"
+            },
+            {
+              "text": "expense",
+              "correct": false,
+              "feedback": "Review: tyrant, sole ruler"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “tyrant, sole ruler”?",
+          "choices": [
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ὁ τύραννος"
+            },
+            {
+              "text": "ὁ τύραννος",
+              "correct": true,
+              "feedback": "Correct. τύραννος, τυράννου, ὁ"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ὁ τύραννος"
+            },
+            {
+              "text": "ἡ δαπάνη",
+              "correct": false,
+              "feedback": "Review: ὁ τύραννος"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ εὔνοια mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: goodwill"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: goodwill"
+            },
+            {
+              "text": "goodwill",
+              "correct": true,
+              "feedback": "Correct. εὔνοια, εὐνοίας, ἡ"
+            },
+            {
+              "text": "expense",
+              "correct": false,
+              "feedback": "Review: goodwill"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “goodwill”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ εὔνοια"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ εὔνοια"
+            },
+            {
+              "text": "ἡ δαπάνη",
+              "correct": false,
+              "feedback": "Review: ἡ εὔνοια"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": true,
+              "feedback": "Correct. εὔνοια, εὐνοίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ ἆθλον mean?",
+          "choices": [
+            {
+              "text": "prize",
+              "correct": true,
+              "feedback": "Correct. ἆθλον, ἄθλου, τό"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: prize"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: prize"
+            },
+            {
+              "text": "expense",
+              "correct": false,
+              "feedback": "Review: prize"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “prize”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": true,
+              "feedback": "Correct. ἆθλον, ἄθλου, τό"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον"
+            },
+            {
+              "text": "ἡ δαπάνη",
+              "correct": false,
+              "feedback": "Review: τὸ ἆθλον"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ δαπάνη mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: expense"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: expense"
+            },
+            {
+              "text": "expense",
+              "correct": true,
+              "feedback": "Correct. δαπάνη, δαπάνης, ἡ"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: expense"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “expense”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ δαπάνη"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἡ δαπάνη"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ δαπάνη"
+            },
+            {
+              "text": "ἡ δαπάνη",
+              "correct": true,
+              "feedback": "Correct. δαπάνη, δαπάνης, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ φιλοτιμία mean?",
+          "choices": [
+            {
+              "text": "ambition for honor",
+              "correct": true,
+              "feedback": "Correct. φιλοτιμία, φιλοτιμίας, ἡ"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: ambition for honor"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: ambition for honor"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: ambition for honor"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “ambition for honor”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ φιλοτιμία"
+            },
+            {
+              "text": "ἡ φιλοτιμία",
+              "correct": true,
+              "feedback": "Correct. φιλοτιμία, φιλοτιμίας, ἡ"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἡ φιλοτιμία"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ φιλοτιμία"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἰδιώτης mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: private person"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: private person"
+            },
+            {
+              "text": "private person",
+              "correct": true,
+              "feedback": "Correct. ἰδιώτης, ἰδιώτου, ὁ"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: private person"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “private person”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ὁ ἰδιώτης"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ὁ ἰδιώτης"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ὁ ἰδιώτης"
+            },
+            {
+              "text": "ὁ ἰδιώτης",
+              "correct": true,
+              "feedback": "Correct. ἰδιώτης, ἰδιώτου, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ εὐδαιμονία mean?",
+          "choices": [
+            {
+              "text": "well-being",
+              "correct": true,
+              "feedback": "Correct. εὐδαιμονία, εὐδαιμονίας, ἡ"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: well-being"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: well-being"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: well-being"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “well-being”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ εὐδαιμονία"
+            },
+            {
+              "text": "ἡ εὐδαιμονία",
+              "correct": true,
+              "feedback": "Correct. εὐδαιμονία, εὐδαιμονίας, ἡ"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἡ εὐδαιμονία"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ εὐδαιμονία"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ εὐεργεσία mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: benefaction"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: benefaction"
+            },
+            {
+              "text": "benefaction",
+              "correct": true,
+              "feedback": "Correct. εὐεργεσία, εὐεργεσίας, ἡ"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: benefaction"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “benefaction”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ εὐεργεσία"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἡ εὐεργεσία"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ εὐεργεσία"
+            },
+            {
+              "text": "ἡ εὐεργεσία",
+              "correct": true,
+              "feedback": "Correct. εὐεργεσία, εὐεργεσίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ συμβουλή mean?",
+          "choices": [
+            {
+              "text": "advice",
+              "correct": true,
+              "feedback": "Correct. συμβουλή, συμβουλῆς, ἡ"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: advice"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: advice"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: advice"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “advice”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ συμβουλή"
+            },
+            {
+              "text": "ἡ συμβουλή",
+              "correct": true,
+              "feedback": "Correct. συμβουλή, συμβουλῆς, ἡ"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἡ συμβουλή"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ συμβουλή"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μαρτυρία mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: testimony"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: testimony"
+            },
+            {
+              "text": "testimony",
+              "correct": true,
+              "feedback": "Correct. μαρτυρία, μαρτυρίας, ἡ"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: testimony"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “testimony”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἡ μαρτυρία"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἡ μαρτυρία"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἡ μαρτυρία"
+            },
+            {
+              "text": "ἡ μαρτυρία",
+              "correct": true,
+              "feedback": "Correct. μαρτυρία, μαρτυρίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐπιμελέομαι mean?",
+          "choices": [
+            {
+              "text": "take care",
+              "correct": true,
+              "feedback": "Correct. ἐπιμελέομαι"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: take care"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: take care"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: take care"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “take care”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι"
+            },
+            {
+              "text": "ἐπιμελέομαι",
+              "correct": true,
+              "feedback": "Correct. ἐπιμελέομαι"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἐπιμελέομαι"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does συμβουλεύω mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: advise"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: advise"
+            },
+            {
+              "text": "advise",
+              "correct": true,
+              "feedback": "Correct. συμβουλεύω"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: advise"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “advise”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: συμβουλεύω"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: συμβουλεύω"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: συμβουλεύω"
+            },
+            {
+              "text": "συμβουλεύω",
+              "correct": true,
+              "feedback": "Correct. συμβουλεύω"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀγωνίζομαι mean?",
+          "choices": [
+            {
+              "text": "compete",
+              "correct": true,
+              "feedback": "Correct. ἀγωνίζομαι"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: compete"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: compete"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: compete"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “compete”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι"
+            },
+            {
+              "text": "ἀγωνίζομαι",
+              "correct": true,
+              "feedback": "Correct. ἀγωνίζομαι"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἀγωνίζομαι"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does κοσμέω mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: adorn"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: adorn"
+            },
+            {
+              "text": "adorn",
+              "correct": true,
+              "feedback": "Correct. κοσμέω"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: adorn"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “adorn”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: κοσμέω"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: κοσμέω"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: κοσμέω"
+            },
+            {
+              "text": "κοσμέω",
+              "correct": true,
+              "feedback": "Correct. κοσμέω"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does συγκρίνω mean?",
+          "choices": [
+            {
+              "text": "compare",
+              "correct": true,
+              "feedback": "Correct. συγκρίνω"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: compare"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: compare"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: compare"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “compare”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: συγκρίνω"
+            },
+            {
+              "text": "συγκρίνω",
+              "correct": true,
+              "feedback": "Correct. συγκρίνω"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: συγκρίνω"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: συγκρίνω"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἀμείνων mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: better"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: better"
+            },
+            {
+              "text": "better",
+              "correct": true,
+              "feedback": "Correct. ἀμείνων, ἄμεινον"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: better"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “better”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἀμείνων"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἀμείνων"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἀμείνων"
+            },
+            {
+              "text": "ἀμείνων",
+              "correct": true,
+              "feedback": "Correct. ἀμείνων, ἄμεινον"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does μείζων mean?",
+          "choices": [
+            {
+              "text": "greater",
+              "correct": true,
+              "feedback": "Correct. μείζων, μεῖζον"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: greater"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: greater"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: greater"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “greater”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: μείζων"
+            },
+            {
+              "text": "μείζων",
+              "correct": true,
+              "feedback": "Correct. μείζων, μεῖζον"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: μείζων"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: μείζων"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does πλείων mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: more"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: more"
+            },
+            {
+              "text": "more",
+              "correct": true,
+              "feedback": "Correct. πλείων, πλεῖον"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: more"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “more”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: πλείων"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: πλείων"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: πλείων"
+            },
+            {
+              "text": "πλείων",
+              "correct": true,
+              "feedback": "Correct. πλείων, πλεῖον"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἧττον mean?",
+          "choices": [
+            {
+              "text": "less",
+              "correct": true,
+              "feedback": "Correct. ἧττον"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: less"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: less"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: less"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “less”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἧττον"
+            },
+            {
+              "text": "ἧττον",
+              "correct": true,
+              "feedback": "Correct. ἧττον"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἧττον"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἧττον"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἴδιος mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: private, one's own"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: private, one's own"
+            },
+            {
+              "text": "private, one's own",
+              "correct": true,
+              "feedback": "Correct. ἴδιος, ἰδία, ἴδιον"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: private, one's own"
+            }
+          ]
+        },
+        {
+          "id": "l41-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “private, one's own”?",
+          "choices": [
+            {
+              "text": "ὁ τύραννος",
+              "correct": false,
+              "feedback": "Review: ἴδιος"
+            },
+            {
+              "text": "ἡ εὔνοια",
+              "correct": false,
+              "feedback": "Review: ἴδιος"
+            },
+            {
+              "text": "τὸ ἆθλον",
+              "correct": false,
+              "feedback": "Review: ἴδιος"
+            },
+            {
+              "text": "ἴδιος",
+              "correct": true,
+              "feedback": "Correct. ἴδιος, ἰδία, ἴδιον"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 41 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "σοφώτερος / σοφώτατος",
+          "answer": "wiser / wisest or very wise; regular comparison — 1. Regular and irregular comparison"
+        },
+        {
+          "prompt": "ἀμείνων / ἄριστος",
+          "answer": "better / best; irregular comparison of ἀγαθός — 1. Regular and irregular comparison"
+        },
+        {
+          "prompt": "μείζων / μέγιστος",
+          "answer": "greater / greatest; comparison of μέγας — 1. Regular and irregular comparison"
+        },
+        {
+          "prompt": "πλείων / πλεῖστος",
+          "answer": "more / most; comparison of πολύς — 1. Regular and irregular comparison"
+        },
+        {
+          "prompt": "βελτίων / βέλτιστος",
+          "answer": "better / best; another comparison of ἀγαθός — 1. Regular and irregular comparison"
+        },
+        {
+          "prompt": "ἥττων / ἥκιστος",
+          "answer": "less or inferior / least — 1. Regular and irregular comparison"
+        },
+        {
+          "prompt": "μείζονος",
+          "answer": "genitive singular comparative, all genders — 2. Comparatives in -ων and -ον"
+        },
+        {
+          "prompt": "μείζονι",
+          "answer": "dative singular comparative, all genders — 2. Comparatives in -ων and -ον"
+        },
+        {
+          "prompt": "μείζονα / μείζω",
+          "answer": "accusative singular masculine/feminine, or neuter plural in context — 2. Comparatives in -ων and -ον"
+        },
+        {
+          "prompt": "μείζονες / μείζους",
+          "answer": "masculine/feminine nominative plural alternatives — 2. Comparatives in -ων and -ον"
+        },
+        {
+          "prompt": "μείζονας / μείζους",
+          "answer": "masculine/feminine accusative plural alternatives — 2. Comparatives in -ων and -ον"
+        },
+        {
+          "prompt": "μειζόνων / μείζοσι(ν)",
+          "answer": "genitive plural / dative plural — 2. Comparatives in -ων and -ον"
+        },
+        {
+          "prompt": "μείζων τῆς οἰκίας",
+          "answer": "larger than the house; genitive standard — 3. Standards of comparison and adverbs"
+        },
+        {
+          "prompt": "σοφώτερος ἢ ὁ ἀδελφός",
+          "answer": "wiser than the brother; ἤ comparison — 3. Standards of comparison and adverbs"
+        },
+        {
+          "prompt": "σοφώτερον πράττει",
+          "answer": "he acts more wisely; comparative adverb — 3. Standards of comparison and adverbs"
+        },
+        {
+          "prompt": "σοφώτατα πράττει",
+          "answer": "he acts most wisely; superlative adverb — 3. Standards of comparison and adverbs"
+        },
+        {
+          "prompt": "μάλα / μᾶλλον / μάλιστα",
+          "answer": "very / more / most — 3. Standards of comparison and adverbs"
+        },
+        {
+          "prompt": "εὖ / βέλτιον / βέλτιστα",
+          "answer": "well / better / best — 3. Standards of comparison and adverbs"
+        },
+        {
+          "prompt": "ἐπιμελοῦ ὅπως φυλάξουσιν.",
+          "answer": "Take care that they will protect; future indicative object clause. — 4. Care and effort: ὅπως with future indicative"
+        },
+        {
+          "prompt": "σκόπει ὅπως ἐργάσονται.",
+          "answer": "See that they will work; future middle object clause. — 4. Care and effort: ὅπως with future indicative"
+        },
+        {
+          "prompt": "δίδωσιν ἵνα πονῶσιν.",
+          "answer": "He gives so that they may work; subjunctive purpose. — 4. Care and effort: ὅπως with future indicative"
+        },
+        {
+          "prompt": "ἐπιμελοῦ ὅπως μὴ ἀδικήσουσιν.",
+          "answer": "Take care that they will not do wrong; negative object clause. — 4. Care and effort: ὅπως with future indicative"
+        },
+        {
+          "prompt": "φυλάξουσιν / φυλάξωσιν",
+          "answer": "future indicative / aorist subjunctive, third plural — 4. Care and effort: ὅπως with future indicative"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 41 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l41-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does κοινός mean?",
+          "choices": [
+            {
+              "text": "common, shared",
+              "correct": true,
+              "feedback": "Correct. common, shared"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: common, shared"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: common, shared"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: common, shared"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “common, shared”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: κοινός"
+            },
+            {
+              "text": "κοινός",
+              "correct": true,
+              "feedback": "Correct. κοινός"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: κοινός"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: κοινός"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does ἴδιος mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: private, one’s own"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: private, one’s own"
+            },
+            {
+              "text": "private, one’s own",
+              "correct": true,
+              "feedback": "Correct. private, one’s own"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: private, one’s own"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “private, one’s own”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: ἴδιος"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: ἴδιος"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: ἴδιος"
+            },
+            {
+              "text": "ἴδιος",
+              "correct": true,
+              "feedback": "Correct. ἴδιος"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does συμφέρον mean?",
+          "choices": [
+            {
+              "text": "advantage",
+              "correct": true,
+              "feedback": "Correct. advantage"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: advantage"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: advantage"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: advantage"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “advantage”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: συμφέρον"
+            },
+            {
+              "text": "συμφέρον",
+              "correct": true,
+              "feedback": "Correct. συμφέρον"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: συμφέρον"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: συμφέρον"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: σοφώτερος / σοφώτατος",
+          "choices": [
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: ἀμείνων / ἄριστος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": false,
+              "feedback": "Review: better / best; irregular comparison of ἀγαθός"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: better / best; irregular comparison of ἀγαθός"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: better / best; irregular comparison of ἀγαθός"
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: μείζων / μέγιστος",
+          "choices": [
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": false,
+              "feedback": "Review: greater / greatest; comparison of μέγας"
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: greater / greatest; comparison of μέγας"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: greater / greatest; comparison of μέγας"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: πλείων / πλεῖστος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": false,
+              "feedback": "Review: more / most; comparison of πολύς"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: more / most; comparison of πολύς"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: more / most; comparison of πολύς"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Translate ἀνὴρ σοφώτατος where no comparison group is asserted.",
+          "choices": [
+            {
+              "text": "a man who will become wise",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            },
+            {
+              "text": "the only wise man in history",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            },
+            {
+              "text": "a very wise man",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "a less wise man",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Which pair compares μέγας?",
+          "choices": [
+            {
+              "text": "πλείων, πλεῖστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "βελτίων, βέλτιστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "ἥττων, ἥκιστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "μείζων, μέγιστος",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονος",
+          "choices": [
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονι",
+          "choices": [
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: dative singular comparative, all genders"
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: dative singular comparative, all genders"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: dative singular comparative, all genders"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονα / μείζω",
+          "choices": [
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: accusative singular masculine/feminine, or neuter plural in context"
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: accusative singular masculine/feminine, or neuter plural in context"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: accusative singular masculine/feminine, or neuter plural in context"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονες / μείζους",
+          "choices": [
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: masculine/feminine nominative plural alternatives"
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: masculine/feminine nominative plural alternatives"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: masculine/feminine nominative plural alternatives"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Parse ἀμείνω in τὴν πόλιν ἀμείνω ποιεῖ.",
+          "choices": [
+            {
+              "text": "accusative feminine singular agreeing with πόλιν",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "nominative masculine singular",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "genitive plural",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "a future verb",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Why must you inspect agreement when reading μείζω?",
+          "choices": [
+            {
+              "text": "It is always an indeclinable adverb.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "The contracted form can serve more than one case/number pattern.",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "Its gender is always masculine.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "It never modifies a noun.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: μείζων τῆς οἰκίας",
+          "choices": [
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            },
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: σοφώτερος ἢ ὁ ἀδελφός",
+          "choices": [
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": false,
+              "feedback": "Review: wiser than the brother; ἤ comparison"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: wiser than the brother; ἤ comparison"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: wiser than the brother; ἤ comparison"
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: σοφώτερον πράττει",
+          "choices": [
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": false,
+              "feedback": "Review: he acts more wisely; comparative adverb"
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: he acts more wisely; comparative adverb"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: he acts more wisely; comparative adverb"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: σοφώτατα πράττει",
+          "choices": [
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": false,
+              "feedback": "Review: he acts most wisely; superlative adverb"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: he acts most wisely; superlative adverb"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: he acts most wisely; superlative adverb"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "What does τῆς δαπάνης express after μικρότερον?",
+          "choices": [
+            {
+              "text": "The speaker of indirect speech.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            },
+            {
+              "text": "Purpose.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            },
+            {
+              "text": "The standard: smaller than the expense.",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "An accusative absolute.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Which is an adverb modifying an action?",
+          "choices": [
+            {
+              "text": "σοφώτερος ἀνήρ",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφωτέρα γυνή",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφώτερον τέκνον",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφώτερον πράττει",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: ἐπιμελοῦ ὅπως φυλάξουσιν.",
+          "choices": [
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: σκόπει ὅπως ἐργάσονται.",
+          "choices": [
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": false,
+              "feedback": "Review: See that they will work; future middle object clause."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: See that they will work; future middle object clause."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: See that they will work; future middle object clause."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: δίδωσιν ἵνα πονῶσιν.",
+          "choices": [
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": false,
+              "feedback": "Review: He gives so that they may work; subjunctive purpose."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: He gives so that they may work; subjunctive purpose."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: He gives so that they may work; subjunctive purpose."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: ἐπιμελοῦ ὅπως μὴ ἀδικήσουσιν.",
+          "choices": [
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will not do wrong; negative object clause."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will not do wrong; negative object clause."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: Take care that they will not do wrong; negative object clause."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Which form fits a care clause specifying “they will guard”?",
+          "choices": [
+            {
+              "text": "φυλάξουσιν",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "φυλάξωσιν as the future indicative",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            },
+            {
+              "text": "ἐφύλαξαν",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            },
+            {
+              "text": "φυλάττειν alone",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            }
+          ]
+        },
+        {
+          "id": "l41-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Does the presence of ὅπως prove the verb is subjunctive?",
+          "choices": [
+            {
+              "text": "Yes, in every clause.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "No; inspect the form and governing construction.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "Only with plural subjects.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "It proves the verb is an infinitive.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 41 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-41-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l41-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: σοφώτερος / σοφώτατος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: ἀμείνων / ἄριστος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": false,
+              "feedback": "Review: better / best; irregular comparison of ἀγαθός"
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: better / best; irregular comparison of ἀγαθός"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: better / best; irregular comparison of ἀγαθός"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: μείζων / μέγιστος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": false,
+              "feedback": "Review: greater / greatest; comparison of μέγας"
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: greater / greatest; comparison of μέγας"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: greater / greatest; comparison of μέγας"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: πλείων / πλεῖστος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": false,
+              "feedback": "Review: more / most; comparison of πολύς"
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: more / most; comparison of πολύς"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: more / most; comparison of πολύς"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Translate ἀνὴρ σοφώτατος where no comparison group is asserted.",
+          "choices": [
+            {
+              "text": "a very wise man",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "a man who will become wise",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            },
+            {
+              "text": "the only wise man in history",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            },
+            {
+              "text": "a less wise man",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Which pair compares μέγας?",
+          "choices": [
+            {
+              "text": "πλείων, πλεῖστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "μείζων, μέγιστος",
+              "correct": true,
+              "feedback": "Correct. Regular comparatives commonly use -τερος and superlatives -τατος: σοφός, σοφώτερος, σοφώτατος. Learn the whole adjective and accent. Some frequent comparisons use other stems: ἀγαθός can give ἀμείνων/ἄριστος or βελτίων/βέλτιστος; μέγας gives μείζων/μέγιστος, and πολύς gives πλείων/πλεῖστος. Their shades of meaning depend on context."
+            },
+            {
+              "text": "βελτίων, βέλτιστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "ἥττων, ἥκιστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονος",
+          "choices": [
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            },
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονι",
+          "choices": [
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: dative singular comparative, all genders"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: dative singular comparative, all genders"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: dative singular comparative, all genders"
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονα / μείζω",
+          "choices": [
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: accusative singular masculine/feminine, or neuter plural in context"
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: accusative singular masculine/feminine, or neuter plural in context"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: accusative singular masculine/feminine, or neuter plural in context"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονες / μείζους",
+          "choices": [
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: masculine/feminine nominative plural alternatives"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: masculine/feminine nominative plural alternatives"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: masculine/feminine nominative plural alternatives"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Parse ἀμείνω in τὴν πόλιν ἀμείνω ποιεῖ.",
+          "choices": [
+            {
+              "text": "nominative masculine singular",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "genitive plural",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "accusative feminine singular agreeing with πόλιν",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            },
+            {
+              "text": "a future verb",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Why must you inspect agreement when reading μείζω?",
+          "choices": [
+            {
+              "text": "It is always an indeclinable adverb.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "Its gender is always masculine.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "It never modifies a noun.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "The contracted form can serve more than one case/number pattern.",
+              "correct": true,
+              "feedback": "Correct. Comparatives such as μείζων have masculine/feminine nominative singular -ων and neuter -ον. The n-stem produces genitive μείζονος, dative μείζονι, and accusative masculine/feminine μείζονα. Neuter nominative and accusative agree: μεῖζον. Learn the accent as part of the form."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: μείζων τῆς οἰκίας",
+          "choices": [
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: σοφώτερος ἢ ὁ ἀδελφός",
+          "choices": [
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": false,
+              "feedback": "Review: wiser than the brother; ἤ comparison"
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: wiser than the brother; ἤ comparison"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: wiser than the brother; ἤ comparison"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: σοφώτερον πράττει",
+          "choices": [
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": false,
+              "feedback": "Review: he acts more wisely; comparative adverb"
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: he acts more wisely; comparative adverb"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: he acts more wisely; comparative adverb"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: σοφώτατα πράττει",
+          "choices": [
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": false,
+              "feedback": "Review: he acts most wisely; superlative adverb"
+            },
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: he acts most wisely; superlative adverb"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: he acts most wisely; superlative adverb"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "What does τῆς δαπάνης express after μικρότερον?",
+          "choices": [
+            {
+              "text": "The standard: smaller than the expense.",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "The speaker of indirect speech.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            },
+            {
+              "text": "Purpose.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            },
+            {
+              "text": "An accusative absolute.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Which is an adverb modifying an action?",
+          "choices": [
+            {
+              "text": "σοφώτερος ἀνήρ",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφώτερον πράττει",
+              "correct": true,
+              "feedback": "Correct. A comparative can take a genitive standard: μείζων τῆς οἰκίας, “larger than the house.” With ἤ, keep the compared items parallel in construction: σοφώτερος ἢ ὁ ἀδελφός. Distinguish the comparative’s standard from a possessive genitive elsewhere in the sentence."
+            },
+            {
+              "text": "σοφωτέρα γυνή",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφώτερον τέκνον",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: ἐπιμελοῦ ὅπως φυλάξουσιν.",
+          "choices": [
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: σκόπει ὅπως ἐργάσονται.",
+          "choices": [
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": false,
+              "feedback": "Review: See that they will work; future middle object clause."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: See that they will work; future middle object clause."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: See that they will work; future middle object clause."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: δίδωσιν ἵνα πονῶσιν.",
+          "choices": [
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": false,
+              "feedback": "Review: He gives so that they may work; subjunctive purpose."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: He gives so that they may work; subjunctive purpose."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: He gives so that they may work; subjunctive purpose."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: ἐπιμελοῦ ὅπως μὴ ἀδικήσουσιν.",
+          "choices": [
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will not do wrong; negative object clause."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will not do wrong; negative object clause."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: Take care that they will not do wrong; negative object clause."
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Which form fits a care clause specifying “they will guard”?",
+          "choices": [
+            {
+              "text": "φυλάξωσιν as the future indicative",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            },
+            {
+              "text": "ἐφύλαξαν",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            },
+            {
+              "text": "φυλάξουσιν",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            },
+            {
+              "text": "φυλάττειν alone",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            }
+          ]
+        },
+        {
+          "id": "l41-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Does the presence of ὅπως prove the verb is subjunctive?",
+          "choices": [
+            {
+              "text": "Yes, in every clause.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "Only with plural subjects.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "It proves the verb is an infinitive.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "No; inspect the form and governing construction.",
+              "correct": true,
+              "feedback": "Correct. Verbs of care and effort can take an object clause with ὅπως and future indicative: ἐπιμελοῦ ὅπως οἱ φύλακες φυλάξουσιν, “Take care that the guards will protect.” The clause states the result one is to see to. A negative object clause uses ὅπως μή. The future is a finite indicative, not a subjunctive merely because ὅπως appears."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 41 Final Quiz — A Ruler and the Common Good",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-41-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l41-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What contrast opens the reading?",
+          "choices": [
+            {
+              "text": "Possessing more and living more pleasantly.",
+              "correct": true,
+              "feedback": "Correct. Possessing more and living more pleasantly."
+            },
+            {
+              "text": "Sea and mountain routes.",
+              "correct": false,
+              "feedback": "Review: Possessing more and living more pleasantly."
+            },
+            {
+              "text": "Two different tunics.",
+              "correct": false,
+              "feedback": "Review: Possessing more and living more pleasantly."
+            },
+            {
+              "text": "Voting and writing letters.",
+              "correct": false,
+              "feedback": "Review: Possessing more and living more pleasantly."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does Simonides urge the ruler to improve?",
+          "choices": [
+            {
+              "text": "Only his dining room.",
+              "correct": false,
+              "feedback": "Review: The city’s prosperity, not just his private household."
+            },
+            {
+              "text": "The city’s prosperity, not just his private household.",
+              "correct": true,
+              "feedback": "Correct. The city’s prosperity, not just his private household."
+            },
+            {
+              "text": "Only his guards’ weapons.",
+              "correct": false,
+              "feedback": "Review: The city’s prosperity, not just his private household."
+            },
+            {
+              "text": "The size of his tomb.",
+              "correct": false,
+              "feedback": "Review: The city’s prosperity, not just his private household."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How can prizes influence activity?",
+          "choices": [
+            {
+              "text": "They make labor unnecessary.",
+              "correct": false,
+              "feedback": "Review: They encourage effort beyond the prize’s own value."
+            },
+            {
+              "text": "They remove every disagreement.",
+              "correct": false,
+              "feedback": "Review: They encourage effort beyond the prize’s own value."
+            },
+            {
+              "text": "They encourage effort beyond the prize’s own value.",
+              "correct": true,
+              "feedback": "Correct. They encourage effort beyond the prize’s own value."
+            },
+            {
+              "text": "They prove all rulers just.",
+              "correct": false,
+              "feedback": "Review: They encourage effort beyond the prize’s own value."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Whom should the guards protect in the proposal?",
+          "choices": [
+            {
+              "text": "Only the poet.",
+              "correct": false,
+              "feedback": "Review: The citizens as well as the ruler."
+            },
+            {
+              "text": "Only foreign kings.",
+              "correct": false,
+              "feedback": "Review: The citizens as well as the ruler."
+            },
+            {
+              "text": "No one outside the palace.",
+              "correct": false,
+              "feedback": "Review: The citizens as well as the ruler."
+            },
+            {
+              "text": "The citizens as well as the ruler.",
+              "correct": true,
+              "feedback": "Correct. The citizens as well as the ruler."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What question remains after benefaction?",
+          "choices": [
+            {
+              "text": "Who can judge or hold the ruler accountable?",
+              "correct": true,
+              "feedback": "Correct. Who can judge or hold the ruler accountable?"
+            },
+            {
+              "text": "Whether Cyrus owned a tunic.",
+              "correct": false,
+              "feedback": "Review: Who can judge or hold the ruler accountable?"
+            },
+            {
+              "text": "Whether Socrates attended Arginusae as a sailor.",
+              "correct": false,
+              "feedback": "Review: Who can judge or hold the ruler accountable?"
+            },
+            {
+              "text": "Whether all verbs are aorist.",
+              "correct": false,
+              "feedback": "Review: Who can judge or hold the ruler accountable?"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "How should the dialogue’s proposals be read?",
+          "choices": [
+            {
+              "text": "As a surviving financial ledger.",
+              "correct": false,
+              "feedback": "Review: As advice, not proof that all was implemented."
+            },
+            {
+              "text": "As advice, not proof that all was implemented.",
+              "correct": true,
+              "feedback": "Correct. As advice, not proof that all was implemented."
+            },
+            {
+              "text": "As an eyewitness transcript.",
+              "correct": false,
+              "feedback": "Review: As advice, not proof that all was implemented."
+            },
+            {
+              "text": "As a decree by Athens.",
+              "correct": false,
+              "feedback": "Review: As advice, not proof that all was implemented."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ τύραννος mean?",
+          "choices": [
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: tyrant, sole ruler"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: tyrant, sole ruler"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": true,
+              "feedback": "Correct. τύραννος, τυράννου, ὁ"
+            },
+            {
+              "text": "expense",
+              "correct": false,
+              "feedback": "Review: tyrant, sole ruler"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ εὔνοια mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: goodwill"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: goodwill"
+            },
+            {
+              "text": "expense",
+              "correct": false,
+              "feedback": "Review: goodwill"
+            },
+            {
+              "text": "goodwill",
+              "correct": true,
+              "feedback": "Correct. εὔνοια, εὐνοίας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ ἆθλον mean?",
+          "choices": [
+            {
+              "text": "prize",
+              "correct": true,
+              "feedback": "Correct. ἆθλον, ἄθλου, τό"
+            },
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: prize"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: prize"
+            },
+            {
+              "text": "expense",
+              "correct": false,
+              "feedback": "Review: prize"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ δαπάνη mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: expense"
+            },
+            {
+              "text": "expense",
+              "correct": true,
+              "feedback": "Correct. δαπάνη, δαπάνης, ἡ"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: expense"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: expense"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ φιλοτιμία mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: ambition for honor"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: ambition for honor"
+            },
+            {
+              "text": "ambition for honor",
+              "correct": true,
+              "feedback": "Correct. φιλοτιμία, φιλοτιμίας, ἡ"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: ambition for honor"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ ἰδιώτης mean?",
+          "choices": [
+            {
+              "text": "tyrant, sole ruler",
+              "correct": false,
+              "feedback": "Review: private person"
+            },
+            {
+              "text": "goodwill",
+              "correct": false,
+              "feedback": "Review: private person"
+            },
+            {
+              "text": "prize",
+              "correct": false,
+              "feedback": "Review: private person"
+            },
+            {
+              "text": "private person",
+              "correct": true,
+              "feedback": "Correct. ἰδιώτης, ἰδιώτου, ὁ"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Translate ἀνὴρ σοφώτατος where no comparison group is asserted.",
+          "choices": [
+            {
+              "text": "a very wise man",
+              "correct": true,
+              "feedback": "Correct. a very wise man"
+            },
+            {
+              "text": "a man who will become wise",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            },
+            {
+              "text": "the only wise man in history",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            },
+            {
+              "text": "a less wise man",
+              "correct": false,
+              "feedback": "Review: a very wise man"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Which pair compares μέγας?",
+          "choices": [
+            {
+              "text": "πλείων, πλεῖστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "μείζων, μέγιστος",
+              "correct": true,
+              "feedback": "Correct. μείζων, μέγιστος"
+            },
+            {
+              "text": "βελτίων, βέλτιστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            },
+            {
+              "text": "ἥττων, ἥκιστος",
+              "correct": false,
+              "feedback": "Review: μείζων, μέγιστος"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Parse ἀμείνω in τὴν πόλιν ἀμείνω ποιεῖ.",
+          "choices": [
+            {
+              "text": "nominative masculine singular",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "genitive plural",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "accusative feminine singular agreeing with πόλιν",
+              "correct": true,
+              "feedback": "Correct. accusative feminine singular agreeing with πόλιν"
+            },
+            {
+              "text": "a future verb",
+              "correct": false,
+              "feedback": "Review: accusative feminine singular agreeing with πόλιν"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Why must you inspect agreement when reading μείζω?",
+          "choices": [
+            {
+              "text": "It is always an indeclinable adverb.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "Its gender is always masculine.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "It never modifies a noun.",
+              "correct": false,
+              "feedback": "Review: The contracted form can serve more than one case/number pattern."
+            },
+            {
+              "text": "The contracted form can serve more than one case/number pattern.",
+              "correct": true,
+              "feedback": "Correct. The contracted form can serve more than one case/number pattern."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "What does τῆς δαπάνης express after μικρότερον?",
+          "choices": [
+            {
+              "text": "The standard: smaller than the expense.",
+              "correct": true,
+              "feedback": "Correct. The standard: smaller than the expense."
+            },
+            {
+              "text": "The speaker of indirect speech.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            },
+            {
+              "text": "Purpose.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            },
+            {
+              "text": "An accusative absolute.",
+              "correct": false,
+              "feedback": "Review: The standard: smaller than the expense."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Which is an adverb modifying an action?",
+          "choices": [
+            {
+              "text": "σοφώτερος ἀνήρ",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφώτερον πράττει",
+              "correct": true,
+              "feedback": "Correct. σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφωτέρα γυνή",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            },
+            {
+              "text": "σοφώτερον τέκνον",
+              "correct": false,
+              "feedback": "Review: σοφώτερον πράττει"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Which form fits a care clause specifying “they will guard”?",
+          "choices": [
+            {
+              "text": "φυλάξωσιν as the future indicative",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            },
+            {
+              "text": "ἐφύλαξαν",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            },
+            {
+              "text": "φυλάξουσιν",
+              "correct": true,
+              "feedback": "Correct. φυλάξουσιν"
+            },
+            {
+              "text": "φυλάττειν alone",
+              "correct": false,
+              "feedback": "Review: φυλάξουσιν"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Does the presence of ὅπως prove the verb is subjunctive?",
+          "choices": [
+            {
+              "text": "Yes, in every clause.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "Only with plural subjects.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "It proves the verb is an infinitive.",
+              "correct": false,
+              "feedback": "Review: No; inspect the form and governing construction."
+            },
+            {
+              "text": "No; inspect the form and governing construction.",
+              "correct": true,
+              "feedback": "Correct. No; inspect the form and governing construction."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-stems",
+          "prompt": "Analyze or translate: σοφώτερος / σοφώτατος",
+          "choices": [
+            {
+              "text": "wiser / wisest or very wise; regular comparison",
+              "correct": true,
+              "feedback": "Correct. wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "better / best; irregular comparison of ἀγαθός",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "greater / greatest; comparison of μέγας",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            },
+            {
+              "text": "more / most; comparison of πολύς",
+              "correct": false,
+              "feedback": "Review: wiser / wisest or very wise; regular comparison"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparative-declension",
+          "prompt": "Analyze or translate: μείζονος",
+          "choices": [
+            {
+              "text": "dative singular comparative, all genders",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            },
+            {
+              "text": "genitive singular comparative, all genders",
+              "correct": true,
+              "feedback": "Correct. genitive singular comparative, all genders"
+            },
+            {
+              "text": "accusative singular masculine/feminine, or neuter plural in context",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            },
+            {
+              "text": "masculine/feminine nominative plural alternatives",
+              "correct": false,
+              "feedback": "Review: genitive singular comparative, all genders"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "comparison-constructions",
+          "prompt": "Analyze or translate: μείζων τῆς οἰκίας",
+          "choices": [
+            {
+              "text": "wiser than the brother; ἤ comparison",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            },
+            {
+              "text": "he acts more wisely; comparative adverb",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            },
+            {
+              "text": "larger than the house; genitive standard",
+              "correct": true,
+              "feedback": "Correct. larger than the house; genitive standard"
+            },
+            {
+              "text": "he acts most wisely; superlative adverb",
+              "correct": false,
+              "feedback": "Review: larger than the house; genitive standard"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "care-object-clauses",
+          "prompt": "Analyze or translate: ἐπιμελοῦ ὅπως φυλάξουσιν.",
+          "choices": [
+            {
+              "text": "See that they will work; future middle object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "He gives so that they may work; subjunctive purpose.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "Take care that they will not do wrong; negative object clause.",
+              "correct": false,
+              "feedback": "Review: Take care that they will protect; future indicative object clause."
+            },
+            {
+              "text": "Take care that they will protect; future indicative object clause.",
+              "correct": true,
+              "feedback": "Correct. Take care that they will protect; future indicative object clause."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Who are the dialogue’s speakers?",
+          "choices": [
+            {
+              "text": "Hiero and Simonides.",
+              "correct": true,
+              "feedback": "Correct. Hiero and Simonides."
+            },
+            {
+              "text": "Socrates and Meletus.",
+              "correct": false,
+              "feedback": "Review: Hiero and Simonides."
+            },
+            {
+              "text": "Cyrus and Mandane.",
+              "correct": false,
+              "feedback": "Review: Hiero and Simonides."
+            },
+            {
+              "text": "Critias and Theramenes.",
+              "correct": false,
+              "feedback": "Review: Hiero and Simonides."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does the work’s ending provide?",
+          "choices": [
+            {
+              "text": "A completed public budget audit.",
+              "correct": false,
+              "feedback": "Review: Advice, not a narrated implementation record."
+            },
+            {
+              "text": "Advice, not a narrated implementation record.",
+              "correct": true,
+              "feedback": "Correct. Advice, not a narrated implementation record."
+            },
+            {
+              "text": "A transcript of a later assembly vote.",
+              "correct": false,
+              "feedback": "Review: Advice, not a narrated implementation record."
+            },
+            {
+              "text": "A proof that tyranny became democracy.",
+              "correct": false,
+              "feedback": "Review: Advice, not a narrated implementation record."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why can a prize be economically effective?",
+          "choices": [
+            {
+              "text": "It eliminates all labor costs.",
+              "correct": false,
+              "feedback": "Review: It may encourage effort beyond its own cost."
+            },
+            {
+              "text": "It guarantees equal access.",
+              "correct": false,
+              "feedback": "Review: It may encourage effort beyond its own cost."
+            },
+            {
+              "text": "It may encourage effort beyond its own cost.",
+              "correct": true,
+              "feedback": "Correct. It may encourage effort beyond its own cost."
+            },
+            {
+              "text": "It makes all competition just.",
+              "correct": false,
+              "feedback": "Review: It may encourage effort beyond its own cost."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What question can remain despite public benefit?",
+          "choices": [
+            {
+              "text": "Whether the city has any people.",
+              "correct": false,
+              "feedback": "Review: Who holds the ruler accountable?"
+            },
+            {
+              "text": "Whether gifts have any value.",
+              "correct": false,
+              "feedback": "Review: Who holds the ruler accountable?"
+            },
+            {
+              "text": "Whether the ruler can speak.",
+              "correct": false,
+              "feedback": "Review: Who holds the ruler accountable?"
+            },
+            {
+              "text": "Who holds the ruler accountable?",
+              "correct": true,
+              "feedback": "Correct. Who holds the ruler accountable?"
+            }
+          ]
+        },
+        {
+          "id": "l41-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the budget exercise?",
+          "choices": [
+            {
+              "text": "A fictional classroom allocation.",
+              "correct": true,
+              "feedback": "Correct. A fictional classroom allocation."
+            },
+            {
+              "text": "A reconstructed Syracusan ledger.",
+              "correct": false,
+              "feedback": "Review: A fictional classroom allocation."
+            },
+            {
+              "text": "A decree of Hiero preserved verbatim.",
+              "correct": false,
+              "feedback": "Review: A fictional classroom allocation."
+            },
+            {
+              "text": "A modern legal ruling.",
+              "correct": false,
+              "feedback": "Review: A fictional classroom allocation."
+            }
+          ]
+        },
+        {
+          "id": "l41-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How should “tyrant” be handled?",
+          "choices": [
+            {
+              "text": "As proof that every stated proposal must be false.",
+              "correct": false,
+              "feedback": "Review: As a political category whose ethical implications need analysis."
+            },
+            {
+              "text": "As a political category whose ethical implications need analysis.",
+              "correct": true,
+              "feedback": "Correct. As a political category whose ethical implications need analysis."
+            },
+            {
+              "text": "As a synonym for an elected juror.",
+              "correct": false,
+              "feedback": "Review: As a political category whose ethical implications need analysis."
+            },
+            {
+              "text": "As the title of a Persian child.",
+              "correct": false,
+              "feedback": "Review: As a political category whose ethical implications need analysis."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-40",
+    "title": "Speaking the Truth",
+    "fallbackUrl": "lesson.html?lesson=40&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-42",
+    "title": "What is Justice?",
+    "fallbackUrl": "lesson.html?lesson=42&page=1"
+  },
+  "contentRevision": "lesson-41-module-4-v1"
+}

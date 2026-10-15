@@ -276,18 +276,18 @@ seed_lessons(module_slug, slug, number_label, title, grammar_focus, page_url, so
     ('module-3', 'lesson-34', 'Lesson 34', 'Nothing in Excess', 'δίδωμι in the present and imperfect; τίθημι in the present and imperfect; Aorists: ἔδωκα and ἔθηκα; Commands, infinitives, and future forms', 'lesson.html?lesson=34&page=1', 10),
     ('module-3', 'lesson-35', 'Lesson 35', 'What is Self-Control?', 'The genitive absolute; Participial aspect and shared subjects; ἵστημι: make stand or stand?; καθίστημι and ἀφίστημι', 'lesson.html?lesson=35&page=1', 11),
     ('module-3', 'lesson-36', 'Lesson 36', 'The Disciplined Life', 'δείκνυμι: showing evidence; ἵημι and ἀφίημι; Participles that complete a verb; From self to city: cumulative reading', 'lesson.html?lesson=36&page=1', 12),
-    ('module-4', 'lesson-37', 'Lesson 37', 'Justice is the Greatest Good', 'Predicate nouns, ὅτι clauses', 'lessons.html#lesson-37', 1),
-    ('module-4', 'lesson-38', 'Lesson 38', 'They Say He is Just', 'Indirect statement with ὅτι and ὡς', 'lessons.html#lesson-38', 2),
-    ('module-4', 'lesson-39', 'Lesson 39', 'The Accusation', 'Accusative plus infinitive reported speech', 'lessons.html#lesson-39', 3),
-    ('module-4', 'lesson-40', 'Lesson 40', 'Speaking the Truth', 'Participles in argument', 'lessons.html#lesson-40', 4),
-    ('module-4', 'lesson-41', 'Lesson 41', 'The Just Man', 'Relative clauses', 'lessons.html#lesson-41', 5),
-    ('module-4', 'lesson-42', 'Lesson 42', 'What is Justice?', 'Contrast and comparison structures', 'lessons.html#lesson-42', 6),
-    ('module-4', 'lesson-43', 'Lesson 43', 'Law and Fear', 'Verb complements and reinforcing structures', 'lessons.html#lesson-43', 7),
-    ('module-4', 'lesson-44', 'Lesson 44', 'If They Act Justly', 'Future more vivid conditions', 'lessons.html#lesson-44', 8),
-    ('module-4', 'lesson-45', 'Lesson 45', 'The Defense of Socrates', 'Negation and indirect discourse reinforcement', 'lessons.html#lesson-45', 9),
-    ('module-4', 'lesson-46', 'Lesson 46', 'Why They Are Angry', 'Cause clauses', 'lessons.html#lesson-46', 10),
-    ('module-4', 'lesson-47', 'Lesson 47', 'The Trial of Socrates', 'Infinitives of obligation, complex reasoning', 'lessons.html#lesson-47', 11),
-    ('module-4', 'lesson-48', 'Lesson 48', 'Justice and the Soul', 'Module review: advanced clauses, discourse', 'lessons.html#lesson-48', 12)
+    ('module-4', 'lesson-37', 'Lesson 37', 'Learning to Judge Fairly', 'Present and aorist active subjunctives; Middle, passive, and contracted forms; Deliberation, exhortation, and prohibition; Purpose and clause reading', 'lesson.html?lesson=37&page=1', 1),
+    ('module-4', 'lesson-38', 'Lesson 38', 'Justice in the Household', 'δίδωμι and τίθημι in the subjunctive; ἵστημι and ἵημι; Middle forms and principal parts; Proposals, purposes, and commands', 'lesson.html?lesson=38&page=1', 2),
+    ('module-4', 'lesson-39', 'Lesson 39', 'The Accusation', 'Fear clauses: μή and μή οὐ; Indefinite relatives and general time clauses; A claim and a report of that claim; Reporting questions without losing the question', 'lesson.html?lesson=39&page=1', 3),
+    ('module-4', 'lesson-40', 'Lesson 40', 'Speaking the Truth', 'Infinitive reports and relative time; Perception participles and finite reports; φημί and negation; The articular infinitive; Relative antecedents, attraction, and prefixes', 'lesson.html?lesson=40&page=1', 4),
+    ('module-4', 'lesson-41', 'Lesson 41', 'A Ruler and the Common Good', 'Regular and irregular comparison; Comparatives in -ων and -ον; Standards of comparison and adverbs; Care and effort: ὅπως with future indicative', 'lesson.html?lesson=41&page=1', 5),
+    ('module-4', 'lesson-42', 'Lesson 42', 'What is Justice?', 'Present and aorist active optatives; Middle, passive, and contract optatives; Wishes and potentiality; Optatives in subordinate clauses', 'lesson.html?lesson=42&page=1', 6),
+    ('module-4', 'lesson-43', 'Lesson 43', 'Law and Fear', 'Present optatives of -μι verbs; Aorist optatives and voice; Historical reporting and retained mood; Indirect questions and reconstructing direct speech', 'lesson.html?lesson=43&page=1', 7),
+    ('module-4', 'lesson-44', 'Lesson 44', 'If They Act Justly', 'Conditions: open and future more vivid; Future less vivid and general conditions; Contrary-to-fact conditions; Adverbial accusative and respect; Accusative absolute; Necessity with -τέος', 'lesson.html?lesson=44&page=1', 8),
+    ('module-4', 'lesson-45', 'Lesson 45', 'The Defense of Socrates', 'Perfect middle/passive: formation and state; Reduplication, vowels, and consonant stems; Perfect participles and infinitives; Pluperfect middle/passive; Dative of agent and other datives', 'lesson.html?lesson=45&page=1', 9),
+    ('module-4', 'lesson-46', 'Lesson 46', 'Why They Are Angry', 'Active perfects in -κα and -α; Active perfect participles and infinitives; Active pluperfects; οἶδα: perfect form, present knowledge; Aspect, evidence, and sequence', 'lesson.html?lesson=46&page=1', 10),
+    ('module-4', 'lesson-47', 'Lesson 47', 'The Trial of Socrates', 'Mapping a sustained primary-sequence report; Relative time in nonfinite reports; Pronouns and the scope of negation; Subordinate clauses inside reports', 'lesson.html?lesson=47&page=1', 11),
+    ('module-4', 'lesson-48', 'Lesson 48', 'Justice and the Soul', 'Secondary sequence in connected reporting; Infinitives and participles retain relative time; Nested speakers, questions, and negation; Cumulative translation: form, argument, and evidence', 'lesson.html?lesson=48&page=1', 12)
 )
 INSERT INTO public.lessons (module_id, slug, number_label, title, grammar_focus, page_url, sort_order, is_published)
 SELECT m.id, sl.slug, sl.number_label, sl.title, sl.grammar_focus, sl.page_url, sl.sort_order, true

@@ -1,0 +1,4510 @@
+{
+  "id": "lesson-38",
+  "number": 38,
+  "title": "Justice in the Household",
+  "greekTitle": "Τίς φυλάττει τὰ ἐν τῇ οἰκίᾳ;",
+  "scope": "δίδωμι and τίθημι in the subjunctive; ἵστημι and ἵημι; Middle forms and principal parts; Proposals, purposes, and commands",
+  "theme": "The household as a workplace",
+  "module": "δικαιοσύνη — Justice and the City",
+  "grammarReference": "II 21β",
+  "banner": {
+    "image": "assets/lesson-38-banner.png",
+    "alt": "Educational reconstruction: Ischomachus’ wife and a housekeeper consult an inventory in a courtyard; show skilled work and purposeful action.",
+    "caption": "Modern educational reconstruction, not an ancient eyewitness image."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "slug": "lesson-38-page-1",
+      "title": "Reading",
+      "template": "reading",
+      "showTranslation": false
+    },
+    {
+      "page": 2,
+      "slug": "lesson-38-page-2",
+      "title": "Language Study",
+      "template": "grammar"
+    },
+    {
+      "page": 3,
+      "slug": "lesson-38-page-3",
+      "title": "The household as a workplace",
+      "template": "culture"
+    }
+  ],
+  "vocabulary": [
+    {
+      "category": "New required words",
+      "items": [
+        {
+          "greek": "ἡ ταμία",
+          "english": "housekeeper",
+          "dictionaryForm": "ταμία, ταμίας, ἡ",
+          "lemma": "ταμία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ἀταξία",
+          "english": "disorder",
+          "dictionaryForm": "ἀταξία, ἀταξίας, ἡ",
+          "lemma": "ἀταξία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ ζημία",
+          "english": "penalty",
+          "dictionaryForm": "ζημία, ζημίας, ἡ",
+          "lemma": "ζημία",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ὁ κανών",
+          "english": "standard",
+          "dictionaryForm": "κανών, κανόνος, ὁ",
+          "lemma": "κανών",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ δούλη",
+          "english": "enslaved woman",
+          "dictionaryForm": "δούλη, δούλης, ἡ",
+          "lemma": "δούλη",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "μνημονεύω",
+          "english": "remember",
+          "dictionaryForm": "μνημονεύω",
+          "lemma": "μνημονεύω",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐλεύθερος",
+          "english": "free",
+          "dictionaryForm": "ἐλεύθερος, ἐλευθέρα, ἐλεύθερον",
+          "lemma": "ἐλεύθερος",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἐπιμελής",
+          "english": "careful",
+          "dictionaryForm": "ἐπιμελής, ἐπιμελές",
+          "lemma": "ἐπιμελής",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ῥᾳδίως",
+          "english": "easily",
+          "dictionaryForm": "ῥᾳδίως",
+          "lemma": "ῥᾳδίως",
+          "status": "new required vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    },
+    {
+      "category": "Review words — still required",
+      "items": [
+        {
+          "greek": "ἡ ἐπιμέλεια",
+          "english": "care",
+          "dictionaryForm": "ἐπιμέλεια, ἐπιμελείας, ἡ",
+          "lemma": "ἐπιμέλεια",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ μνήμη",
+          "english": "memory",
+          "dictionaryForm": "μνήμη, μνήμης, ἡ",
+          "lemma": "μνήμη",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ σκεῦος",
+          "english": "implement",
+          "dictionaryForm": "σκεῦος, σκεύους, τό",
+          "lemma": "σκεῦος",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἡ τάξις",
+          "english": "order",
+          "dictionaryForm": "τάξις, τάξεως, ἡ",
+          "lemma": "τάξις",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τὸ δῶρον",
+          "english": "gift",
+          "dictionaryForm": "δῶρον, δώρου, τό",
+          "lemma": "δῶρον",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δέχομαι",
+          "english": "receive",
+          "dictionaryForm": "δέχομαι",
+          "lemma": "δέχομαι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "φυλάττω",
+          "english": "guard",
+          "dictionaryForm": "φυλάττω",
+          "lemma": "φυλάττω",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "τίθημι",
+          "english": "place",
+          "dictionaryForm": "τίθημι",
+          "lemma": "τίθημι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "δίδωμι",
+          "english": "give",
+          "dictionaryForm": "δίδωμι",
+          "lemma": "δίδωμι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἵστημι",
+          "english": "set upright",
+          "dictionaryForm": "ἵστημι",
+          "lemma": "ἵστημι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        },
+        {
+          "greek": "ἵημι",
+          "english": "send forth",
+          "dictionaryForm": "ἵημι",
+          "lemma": "ἵημι",
+          "status": "review vocabulary",
+          "audioPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "Τίς φυλάττει τὰ ἐν τῇ οἰκίᾳ;",
+    "audioPlaceholder": "Reading audio has not yet been recorded.",
+    "introduction": [
+      "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. 253 Greek words in 5 paragraphs.",
+      "The choice, training, and incentives of a housekeeper follow Oeconomicus 9.11–15, with comparison to 14.3–10. Proposals and questions are course compositions. The enslaved housekeeper’s private thoughts are not supplied by Xenophon and are not invented here.",
+      "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
+      "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
+    ],
+    "paragraphs": [
+      {
+        "greek": "Ὁ Ἰσχόμαχος τῷ Σωκράτει περὶ τῆς οἰκίας λέγει. οὐ γὰρ ἀρκεῖ πολλὰ κτήματα κεκτῆσθαι· δεῖ καὶ εἰδέναι ποῦ ἕκαστον κεῖται καὶ τίς αὐτὸ φυλάττει. ἡ γυνὴ καὶ ὁ ἀνὴρ περὶ τῆς ταμίας βουλεύονται. ζητοῦσι γυναῖκα ἥτις τῶν ἐν τῇ οἰκίᾳ ἐπιμελήσεται καὶ τὰ διδόμενα μνημονεύσει.",
+        "gloss": [
+          {
+            "greek": "ἀρκεῖ",
+            "english": "it is enough"
+          },
+          {
+            "greek": "κεκτῆσθαι",
+            "english": "to possess; supported perfect infinitive"
+          },
+          {
+            "greek": "εἰδέναι",
+            "english": "to know; supported form"
+          },
+          {
+            "greek": "ταμίας",
+            "english": "housekeeper"
+          },
+          {
+            "greek": "ἐπιμελήσεται",
+            "english": "will care for"
+          },
+          {
+            "greek": "μνημονεύσει",
+            "english": "will remember"
+          }
+        ]
+      },
+      {
+        "greek": "Ὁ Ἰσχόμαχος τὴν ἐπιμέλειαν καὶ τὴν μνήμην ἐπαινεῖ. τὴν ταμίαν δεῖ τὰ μὲν δέχεσθαι, τὰ δὲ διδόναι, τὰ δὲ φυλάττειν. οὐ πάντας τοὺς ἀνθρώπους ἴσους νομίζει πρὸς ταῦτα. ἀλλὰ ζητεῖ τίς τῶν ἡδονῶν κρατεῖ καὶ τίς ἐθέλει πιστὴ εἶναι. τοιαύτην γυναῖκα αἱροῦνται, ἵνα τὰ χρήματα μὴ ἀπόληται.",
+        "gloss": [
+          {
+            "greek": "ἐπιμέλειαν",
+            "english": "care"
+          },
+          {
+            "greek": "μνήμην",
+            "english": "memory"
+          },
+          {
+            "greek": "δέχεσθαι",
+            "english": "to receive"
+          },
+          {
+            "greek": "διδόναι",
+            "english": "to give"
+          },
+          {
+            "greek": "αἱροῦνται",
+            "english": "they choose"
+          },
+          {
+            "greek": "ἀπόληται",
+            "english": "may perish; aorist middle subjunctive"
+          }
+        ]
+      },
+      {
+        "greek": "Πῶς οὖν παιδεύωμεν τὴν ταμίαν; τί αὐτῇ δῶμεν, καὶ ποῦ τὰ σκεύη θῶμεν; τοιάσδε ἐρωτήσεις ἐν τῷ μαθήματι ποιοῦμεν. ὁ Ἰσχόμαχος διδάσκει τὴν γυναῖκα τὰ χρήματα κατὰ χώραν τιθέναι. ἕκαστον γὰρ τόπον ἔχει, ἵνα ῥᾳδίως εὑρίσκωμεν ὃ ζητοῦμεν. μὴ τὰ χρήσιμα ἐν ἀταξίᾳ κρύπτωμεν.",
+        "gloss": [
+          {
+            "greek": "δῶμεν",
+            "english": "should we give? aorist subjunctive"
+          },
+          {
+            "greek": "θῶμεν",
+            "english": "should we place? aorist subjunctive"
+          },
+          {
+            "greek": "σκεύη",
+            "english": "equipment"
+          },
+          {
+            "greek": "τοιάσδε",
+            "english": "of this kind"
+          },
+          {
+            "greek": "κατὰ χώραν",
+            "english": "in the proper place"
+          },
+          {
+            "greek": "ἀταξίᾳ",
+            "english": "disorder"
+          }
+        ]
+      },
+      {
+        "greek": "Οὐ μόνον δὲ τόπους ἀλλὰ καὶ τρόπους διδάσκουσιν. ὁ κύριος τὴν πιστὴν τιμᾷ καὶ τῇ ἐπιμελεῖ δῶρα δίδωσιν. ἵνα πιστὴ ᾖ, πειρῶνται καὶ εὐνοϊκὴν αὐτὴν ποιεῖν. ἐν δὲ τῇ τοῦ Ἰσχομάχου διηγήσει αἱ τιμαὶ καὶ αἱ ζημίαι πρὸς τὸ τῶν κυρίων συμφέρον βλέπουσιν. οἱ γὰρ κύριοι τὸν κανόνα τίθενται.",
+        "gloss": [
+          {
+            "greek": "ᾖ",
+            "english": "may be; subjunctive of εἰμί"
+          },
+          {
+            "greek": "εὐνοϊκὴν",
+            "english": "well disposed"
+          },
+          {
+            "greek": "διηγήσει",
+            "english": "account"
+          },
+          {
+            "greek": "ζημίαι",
+            "english": "penalties"
+          },
+          {
+            "greek": "συμφέρον",
+            "english": "advantage"
+          },
+          {
+            "greek": "κανόνα",
+            "english": "standard"
+          }
+        ]
+      },
+      {
+        "greek": "Ἡ δὲ ταμία δούλη ἐστίν. ἡ ἐπιμέλεια τῶν χρημάτων οὐκ ἐλευθέραν αὐτὴν ποιεῖ. πολλὴν μὲν ἔχει χρείαν ὁ οἶκος τῆς ἐργασίας αὐτῆς, ἡ δὲ οὐ τὴν αὐτὴν ἐξουσίαν ἔχει τοῖς κυρίοις. μὴ οὖν τὴν τάξιν μόνον θαυμάσωμεν· ἐξετάσωμεν καὶ τίς κελεύει καὶ τίς πείθεται. οὐ γὰρ ἡ αὐτὴ ἐλευθερία πᾶσι τοῖς ἐν τῇ οἰκίᾳ ἐστίν. τίνα νόμον θῶμεν, ἵνα μὴ μόνον τὰ κτήματα ἀλλὰ καὶ τοὺς ἐργαζομένους φυλάττωμεν;",
+        "gloss": [
+          {
+            "greek": "δούλη",
+            "english": "enslaved woman"
+          },
+          {
+            "greek": "ἐλευθέραν",
+            "english": "free"
+          },
+          {
+            "greek": "ἐργασίας",
+            "english": "work"
+          },
+          {
+            "greek": "πείθεται",
+            "english": "obeys"
+          },
+          {
+            "greek": "θῶμεν",
+            "english": "should we establish?"
+          },
+          {
+            "greek": "ἐργαζομένους",
+            "english": "people working"
+          }
+        ]
+      }
+    ],
+    "translation": "Ischomachus speaks to Socrates about the household. For it is not enough to possess many things; one must also know where each lies and who guards it. Wife and husband deliberate about the housekeeper. They seek a woman who will care for the household’s contents and remember what is given.\n\nIschomachus praises care and memory. The housekeeper must receive some things, give others out, and guard others. He does not consider all people equally suited to these tasks. Rather, he asks who controls her pleasures and who is willing to be trustworthy. They choose such a woman so that the property may not be lost.\n\nHow then should we educate the housekeeper? What should we give her, and where should we place the equipment? We pose questions of this kind in the lesson. Ischomachus teaches his wife to place possessions in their proper locations. Each thing has a place, so that we may easily find what we seek. Let us not hide useful things in disorder.\n\nThey teach not only locations but also habits. The owner honors the trustworthy woman and gives gifts to the careful one. So that she may be trustworthy, they also try to make her well disposed. In Ischomachus’s account, however, honors and penalties look toward the owners’ advantage. For the owners set the standard.\n\nThe housekeeper is enslaved. Care of the property does not make her free. The household has great need of her work, but she does not have the same authority as the owners. Let us therefore not admire order alone; let us also examine who commands and who obeys. For not everyone in the household has the same freedom. What rule should we establish so that we may protect not only possessions but also the people who work?\n",
+    "sourceCitation": "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
+    "notesMarkdown": "The choice, training, and incentives of a housekeeper follow Oeconomicus 9.11–15, with comparison to 14.3–10. Proposals and questions are course compositions. The enslaved housekeeper’s private thoughts are not supplied by Xenophon and are not invented here."
+  },
+  "wordStudy": {
+    "label": "Word Study — Giving and accountability",
+    "blocks": [
+      {
+        "title": "Giving and accountability",
+        "practiceTopic": "word-study",
+        "body": [
+          "Read these related expressions in the lesson’s argument. δίδωμι means “give”; παραδίδωμι means “hand over”; λόγον διδόναι means “give an account”.",
+          "Explain which expression fits an action, a person, or an evaluation. A shared root connects meanings but does not make the words interchangeable in a sentence."
+        ],
+        "display": [
+          {
+            "greek": "δίδωμι",
+            "english": "give"
+          },
+          {
+            "greek": "παραδίδωμι",
+            "english": "hand over"
+          },
+          {
+            "greek": "λόγον διδόναι",
+            "english": "give an account"
+          }
+        ]
+      }
+    ]
+  },
+  "grammar": {
+    "intro": "II 21β. Original explanations and exercises follow the course grammar progression. Examples are teaching compositions, not additional ancient testimony. Complete each topic before the required grammar check.",
+    "objectives": [
+      "Form and recognize subjunctives of the assigned -μι verbs, including δίδωμι, τίθημι, ἵστημι, and ἵημι as covered by the chapter.",
+      "Connect each form with its principal parts and distinguish present from aorist stems.",
+      "Extend Chapter 21 uses with controlled purpose, exhortation, and deliberation practice.",
+      "Contrast finite subjunctives with familiar imperatives and infinitives; retain agreement and accent practice."
+    ],
+    "sections": [
+      {
+        "id": "give-place-subjunctive",
+        "title": "1. δίδωμι and τίθημι in the subjunctive",
+        "practiceTopic": "give-place-subjunctive",
+        "body": [
+          "Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex.",
+          "Similarly τίθημι has τιθῶ, τιθῇς, τιθῇ, τιθῶμεν, τιθῆτε, τιθῶσι(ν), while the aorist has θῶ, θῇς, θῇ, θῶμεν, θῆτε, θῶσι(ν). The indicative aorists ἔδωκα and ἔθηκα do not supply a -κ- to these subjunctives. Identify the stem before choosing “give” or “place.”"
+        ],
+        "table": {
+          "title": "1. δίδωμι and τίθημι in the subjunctive",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "διδῶμεν",
+              "present active subjunctive of δίδωμι, first plural"
+            ],
+            [
+              "δῶμεν",
+              "aorist active subjunctive of δίδωμι, first plural"
+            ],
+            [
+              "τιθῆτε",
+              "present active subjunctive of τίθημι, second plural"
+            ],
+            [
+              "θῆτε",
+              "aorist active subjunctive of τίθημι, second plural"
+            ],
+            [
+              "διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν)",
+              "present: give as activity"
+            ],
+            [
+              "θῶ, θῇς, θῇ, θῶμεν, θῆτε, θῶσι(ν)",
+              "aorist: place as a whole"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Choose “What should we give?”",
+            "answer": "τί δῶμεν;"
+          },
+          {
+            "prompt": "What distinguishes διδῷ from δῷ?",
+            "answer": "Present stem with reduplication versus aorist stem."
+          }
+        ]
+      },
+      {
+        "id": "stand-send-subjunctive",
+        "title": "2. ἵστημι and ἵημι",
+        "practiceTopic": "stand-send-subjunctive",
+        "body": [
+          "The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω.",
+          "For ἵημι, learn present ἱῶ, ἱῇς, ἱῇ and aorist ὧ, ᾗς, ᾗ; plural present ἱῶμεν, ἱῆτε, ἱῶσι and aorist ὧμεν, ἧτε, ὧσι. Compounds make the forms easier to recognize: ἀφῶ, “I may release.” Keep rough breathings and iota subscripts in the forms you write."
+        ],
+        "table": {
+          "title": "2. ἵστημι and ἵημι",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "ἱστῶμεν",
+              "present active subjunctive: we may set up"
+            ],
+            [
+              "στῶμεν",
+              "second aorist active subjunctive: we may take a stand"
+            ],
+            [
+              "ἱῇ",
+              "present active subjunctive of ἵημι: he may send forth"
+            ],
+            [
+              "ἀφῇ",
+              "aorist active subjunctive of ἀφίημι: he may release"
+            ],
+            [
+              "ἱστῶ / ἱστῇς / ἱστῇ / ἱστῶμεν / ἱστῆτε / ἱστῶσι(ν)",
+              "present paradigm of ἵστημι"
+            ],
+            [
+              "στῶ / στῇς / στῇ / στῶμεν / στῆτε / στῶσι(ν)",
+              "intransitive aorist paradigm"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Translate ἵνα τὸν δοῦλον ἀφῇ.",
+            "answer": "so that he may release the enslaved man"
+          },
+          {
+            "prompt": "Which form normally means “let us take a stand”?",
+            "answer": "στῶμεν"
+          }
+        ]
+      },
+      {
+        "id": "mi-middle",
+        "title": "3. Middle forms and principal parts",
+        "practiceTopic": "mi-middle",
+        "body": [
+          "Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive.",
+          "Use a principal-part chain to locate the right stem: δίδωμι, δώσω, ἔδωκα; τίθημι, θήσω, ἔθηκα; ἵστημι, στήσω, ἔστησα / ἔστην; ἵημι, ἥσω, ἧκα. These indicative parts guide recognition, but nonindicative forms may use a different stem shape. Compare τίθεσθαι, an infinitive, with τιθώμεθα, a finite first plural subjunctive."
+        ],
+        "table": {
+          "title": "3. Middle forms and principal parts",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "θώμεθα",
+              "aorist middle subjunctive, first plural of τίθημι"
+            ],
+            [
+              "τιθώμεθα",
+              "present middle subjunctive, first plural of τίθημι"
+            ],
+            [
+              "δῶνται",
+              "aorist middle subjunctive, third plural of δίδωμι"
+            ],
+            [
+              "τίθεσθαι",
+              "present middle/passive infinitive of τίθημι"
+            ],
+            [
+              "θῶμαι, θῇ, θῆται, θώμεθα, θῆσθε, θῶνται",
+              "aorist middle paradigm of τίθημι"
+            ],
+            [
+              "δῶμαι, δῷ, δῶται, δώμεθα, δῶσθε, δῶνται",
+              "aorist middle paradigm of δίδωμι"
+            ]
+          ]
+        },
+        "examples": [],
+        "checks": [
+          {
+            "prompt": "Which is a finite proposal “let us establish a rule for ourselves”?",
+            "answer": "νόμον θώμεθα"
+          },
+          {
+            "prompt": "Does middle voice always require “oneself” in English?",
+            "answer": "No; interpret the verb in context."
+          }
+        ]
+      },
+      {
+        "id": "mi-applications",
+        "title": "4. Proposals, purposes, and commands",
+        "practiceTopic": "mi-applications",
+        "body": [
+          "Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive.",
+          "A purpose can have a different subject: δίδωμι τὴν κλεῖδα ἵνα ἡ ταμία φυλάττῃ, “I give the key so that the housekeeper may guard it.” Ask whose purpose the sentence expresses. Describing an owner’s plan does not establish that the person carrying it out chose it freely. Keep historical interpretation distinct from parsing."
+        ],
+        "table": {
+          "title": "4. Proposals, purposes, and commands",
+          "headers": [
+            "Form or construction",
+            "Meaning and analysis"
+          ],
+          "greekColumns": [
+            0
+          ],
+          "rows": [
+            [
+              "τί θῶμεν;",
+              "What should we place? Deliberative question."
+            ],
+            [
+              "δῶμεν τὰ δῶρα.",
+              "Let us give the gifts. Exhortation."
+            ],
+            [
+              "δότε τὰ δῶρα.",
+              "Give the gifts! Plural imperative."
+            ],
+            [
+              "δίδωμι ἵνα ἡ ταμία φυλάττῃ.",
+              "I give it so that the housekeeper may guard it. Purpose."
+            ],
+            [
+              "μὴ τὰ σκεύη ἀφῇς.",
+              "Do not let the implements go. Aorist prohibition."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "greek": "τί θῶμεν;",
+            "english": "What should we place? Deliberative question."
+          },
+          {
+            "greek": "δῶμεν τὰ δῶρα.",
+            "english": "Let us give the gifts. Exhortation."
+          }
+        ],
+        "checks": [
+          {
+            "prompt": "Who is the subject of φυλάττῃ in the purpose example?",
+            "answer": "the housekeeper"
+          },
+          {
+            "prompt": "Which construction is an infinitive rather than a finite proposal?",
+            "answer": "τὰ σκεύη θεῖναι"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "title": "Grammar Summary",
+      "items": [
+        "1. δίδωμι and τίθημι in the subjunctive: Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex.",
+        "2. ἵστημι and ἵημι: The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω.",
+        "3. Middle forms and principal parts: Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive.",
+        "4. Proposals, purposes, and commands: Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+      ]
+    }
+  },
+  "culture": {
+    "title": "The household as a workplace",
+    "banner": {
+      "image": "assets/lesson-38-culture-banner.png",
+      "alt": "Educational reconstruction: A separate storeroom with measured containers, textiles, and an inventory tablet; do not reuse the people-centered Reading composition.",
+      "caption": "Modern educational reconstruction; details are interpretive, not a record of an exact ancient scene."
+    },
+    "body": [],
+    "sections": [
+      {
+        "title": "Meet Xenophon’s Oeconomicus",
+        "body": [
+          "Return to this work with a new question. In Module III, order helped us examine discipline. Here the same household becomes a place to test responsibility and unequal power. Chapter 9 describes the housekeeper’s selection and training; chapter 14 offers a comparison concerning incentives and supervision. Keep the owner’s managerial aims distinct from the interests of everyone whose labor supports the estate.",
+          "The dialogue’s twenty-one chapters move from the meaning of wealth to the organization of an estate. Socrates first questions Critobulus about whether possessions actually benefit their owner. He then recounts an extended conversation with Ischomachus, a prosperous gentleman-farmer, about marriage, household organization, agriculture, and directing other people’s work. The shift lets a philosophical question become a tour of everyday decisions.",
+          "Read with two questions in mind: what makes management effective, and whose interests define success? Ischomachus describes his young wife’s education and the work of enslaved people from the position of a male household head. His account gives access to ideals of cooperation and order while also revealing unequal authority. Socrates’ questions invite scrutiny; a speaker’s confidence is not a reason to accept every assumption.",
+          "Reading invitation: compare chapter 1 on useful possessions with chapters 8–9 on order, then look at chapter 21 on leadership. Could a person have excellent equipment yet manage badly? The English edition linked below calls the work The Economist. Its subject is the oikos—household, estate, and people—rather than economics in the modern national sense.",
+          "Compare a manager’s delegated duties with the authority that the owner retains over the household."
+        ],
+        "links": [
+          {
+            "title": "Read the complete Oeconomicus — English translation",
+            "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+          },
+          {
+            "title": "Wikipedia: Oeconomicus",
+            "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+          }
+        ]
+      },
+      {
+        "title": "Order depends on people",
+        "body": [
+          "The Oeconomicus makes storage, memory, and supervision part of effective household management. An inventory can reveal what belongs where, who receives it, and who is responsible when it is missing. Yet the person keeping the inventory has duties and vulnerabilities that the list itself does not show. Ask who can question a discrepancy and whose account will be believed.",
+          "In chapter 9, Ischomachus describes choosing a housekeeper, cultivating her goodwill, and using rewards and penalties. His account evaluates these practices from the owners’ perspective. An efficient system can still distribute power unequally. Responsibility for valuable property does not by itself grant the worker freedom or a right to challenge the owner."
+        ]
+      },
+      {
+        "title": "Wife, owner, and enslaved housekeeper",
+        "body": [
+          "The wife has an active managerial role in Ischomachus’ description, while the housekeeper is enslaved. These positions must not be collapsed into a generic picture of “women in the home.” The household relies on different kinds of labor and authority, and the dialogue presents them through Ischomachus’ account as reported by Socrates.",
+          "We do not have the housekeeper’s own words here. A modern exercise may ask what questions she might raise, but it must label those questions as inference or invention. The reading does not invent a private conversation for her or portray delegated responsibility as consent to enslavement."
+        ]
+      },
+      {
+        "title": "Read an inventory critically",
+        "body": [
+          "Make a three-column inventory: item, assigned place, person responsible. Add two rules, one protecting property and one protecting the worker from an unsupported accusation. Explain which concerns the ancient owner explicitly voices and which your exercise adds. The inventory is a classroom model, not a recovered document.",
+          "Translate the proposals with δῶμεν and θῶμεν, then identify who acts in each purpose clause. Finish by translating the final paragraph without consulting the glosses on the first attempt. Reopen support only for forms you have marked, and revise your English after checking subject and purpose."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "What does delegated household responsibility establish?",
+        "answer": "A task and authority within an unequal system, not automatic freedom."
+      },
+      {
+        "prompt": "Whose perspective organizes Ischomachus’ account?",
+        "answer": "The household owners’ perspective."
+      },
+      {
+        "prompt": "Why distinguish wife and housekeeper?",
+        "answer": "Their statuses and powers differ."
+      },
+      {
+        "prompt": "What can an inventory omit?",
+        "answer": "Who can challenge blame and whose account is believed."
+      }
+    ],
+    "review": {
+      "title": "Before the Final Quiz",
+      "items": [
+        "Identify the genre, purpose, and source boundary of Oeconomicus.",
+        "Choose and produce appropriate -μι subjunctives, explain the purpose of a proposed rule, and identify one limitation of the owner’s perspective.",
+        "Explain the lesson’s grammar using an example from your 253-word translation."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10",
+        "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+      },
+      {
+        "title": "Read the complete Oeconomicus — English translation",
+        "url": "https://www.gutenberg.org/files/1173/1173-h/1173-h.htm"
+      },
+      {
+        "title": "Wikipedia: Oeconomicus",
+        "url": "https://en.wikipedia.org/wiki/Oeconomicus"
+      }
+    ]
+  },
+  "enrichment": [],
+  "activities": {
+    "vocab-flashcards": {
+      "title": "Lesson 38 Vocabulary Flashcards",
+      "cards": [
+        {
+          "prompt": "ἡ ταμία",
+          "answer": "housekeeper — ταμία, ταμίας, ἡ"
+        },
+        {
+          "prompt": "ἡ ἐπιμέλεια",
+          "answer": "care — ἐπιμέλεια, ἐπιμελείας, ἡ"
+        },
+        {
+          "prompt": "ἡ μνήμη",
+          "answer": "memory — μνήμη, μνήμης, ἡ"
+        },
+        {
+          "prompt": "τὸ σκεῦος",
+          "answer": "implement — σκεῦος, σκεύους, τό"
+        },
+        {
+          "prompt": "ἡ ἀταξία",
+          "answer": "disorder — ἀταξία, ἀταξίας, ἡ"
+        },
+        {
+          "prompt": "ἡ τάξις",
+          "answer": "order — τάξις, τάξεως, ἡ"
+        },
+        {
+          "prompt": "ἡ ζημία",
+          "answer": "penalty — ζημία, ζημίας, ἡ"
+        },
+        {
+          "prompt": "τὸ δῶρον",
+          "answer": "gift — δῶρον, δώρου, τό"
+        },
+        {
+          "prompt": "ὁ κανών",
+          "answer": "standard — κανών, κανόνος, ὁ"
+        },
+        {
+          "prompt": "ἡ δούλη",
+          "answer": "enslaved woman — δούλη, δούλης, ἡ"
+        },
+        {
+          "prompt": "δέχομαι",
+          "answer": "receive — δέχομαι"
+        },
+        {
+          "prompt": "μνημονεύω",
+          "answer": "remember — μνημονεύω"
+        },
+        {
+          "prompt": "φυλάττω",
+          "answer": "guard — φυλάττω"
+        },
+        {
+          "prompt": "τίθημι",
+          "answer": "place — τίθημι"
+        },
+        {
+          "prompt": "δίδωμι",
+          "answer": "give — δίδωμι"
+        },
+        {
+          "prompt": "ἵστημι",
+          "answer": "set upright — ἵστημι"
+        },
+        {
+          "prompt": "ἵημι",
+          "answer": "send forth — ἵημι"
+        },
+        {
+          "prompt": "ἐλεύθερος",
+          "answer": "free — ἐλεύθερος, ἐλευθέρα, ἐλεύθερον"
+        },
+        {
+          "prompt": "ἐπιμελής",
+          "answer": "careful — ἐπιμελής, ἐπιμελές"
+        },
+        {
+          "prompt": "ῥᾳδίως",
+          "answer": "easily — ῥᾳδίως"
+        }
+      ]
+    },
+    "vocab-practice": {
+      "title": "Lesson 38 Vocabulary Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "threshold": 80,
+      "questions": [
+        {
+          "id": "l38-vocab-1",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ταμία mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": true,
+              "feedback": "Correct. ταμία, ταμίας, ἡ"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: housekeeper"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: housekeeper"
+            },
+            {
+              "text": "implement",
+              "correct": false,
+              "feedback": "Review: housekeeper"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-2",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “housekeeper”?",
+          "choices": [
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἡ ταμία"
+            },
+            {
+              "text": "ἡ ταμία",
+              "correct": true,
+              "feedback": "Correct. ταμία, ταμίας, ἡ"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἡ ταμία"
+            },
+            {
+              "text": "τὸ σκεῦος",
+              "correct": false,
+              "feedback": "Review: ἡ ταμία"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-3",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐπιμέλεια mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: care"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: care"
+            },
+            {
+              "text": "care",
+              "correct": true,
+              "feedback": "Correct. ἐπιμέλεια, ἐπιμελείας, ἡ"
+            },
+            {
+              "text": "implement",
+              "correct": false,
+              "feedback": "Review: care"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-4",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “care”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἡ ἐπιμέλεια"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἡ ἐπιμέλεια"
+            },
+            {
+              "text": "τὸ σκεῦος",
+              "correct": false,
+              "feedback": "Review: ἡ ἐπιμέλεια"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": true,
+              "feedback": "Correct. ἐπιμέλεια, ἐπιμελείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-5",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μνήμη mean?",
+          "choices": [
+            {
+              "text": "memory",
+              "correct": true,
+              "feedback": "Correct. μνήμη, μνήμης, ἡ"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: memory"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: memory"
+            },
+            {
+              "text": "implement",
+              "correct": false,
+              "feedback": "Review: memory"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-6",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “memory”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἡ μνήμη"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": true,
+              "feedback": "Correct. μνήμη, μνήμης, ἡ"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἡ μνήμη"
+            },
+            {
+              "text": "τὸ σκεῦος",
+              "correct": false,
+              "feedback": "Review: ἡ μνήμη"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ σκεῦος mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: implement"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: implement"
+            },
+            {
+              "text": "implement",
+              "correct": true,
+              "feedback": "Correct. σκεῦος, σκεύους, τό"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: implement"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “implement”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: τὸ σκεῦος"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: τὸ σκεῦος"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: τὸ σκεῦος"
+            },
+            {
+              "text": "τὸ σκεῦος",
+              "correct": true,
+              "feedback": "Correct. σκεῦος, σκεύους, τό"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀταξία mean?",
+          "choices": [
+            {
+              "text": "disorder",
+              "correct": true,
+              "feedback": "Correct. ἀταξία, ἀταξίας, ἡ"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: disorder"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: disorder"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: disorder"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “disorder”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἡ ἀταξία"
+            },
+            {
+              "text": "ἡ ἀταξία",
+              "correct": true,
+              "feedback": "Correct. ἀταξία, ἀταξίας, ἡ"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἡ ἀταξία"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἡ ἀταξία"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τάξις mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "order",
+              "correct": true,
+              "feedback": "Correct. τάξις, τάξεως, ἡ"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: order"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “order”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἡ τάξις"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἡ τάξις"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἡ τάξις"
+            },
+            {
+              "text": "ἡ τάξις",
+              "correct": true,
+              "feedback": "Correct. τάξις, τάξεως, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-13",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ζημία mean?",
+          "choices": [
+            {
+              "text": "penalty",
+              "correct": true,
+              "feedback": "Correct. ζημία, ζημίας, ἡ"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: penalty"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: penalty"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: penalty"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-14",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “penalty”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἡ ζημία"
+            },
+            {
+              "text": "ἡ ζημία",
+              "correct": true,
+              "feedback": "Correct. ζημία, ζημίας, ἡ"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἡ ζημία"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἡ ζημία"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-15",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ δῶρον mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: gift"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: gift"
+            },
+            {
+              "text": "gift",
+              "correct": true,
+              "feedback": "Correct. δῶρον, δώρου, τό"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: gift"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-16",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “gift”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: τὸ δῶρον"
+            },
+            {
+              "text": "τὸ δῶρον",
+              "correct": true,
+              "feedback": "Correct. δῶρον, δώρου, τό"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-17",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ὁ κανών mean?",
+          "choices": [
+            {
+              "text": "standard",
+              "correct": true,
+              "feedback": "Correct. κανών, κανόνος, ὁ"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: standard"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: standard"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: standard"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-18",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “standard”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ὁ κανών"
+            },
+            {
+              "text": "ὁ κανών",
+              "correct": true,
+              "feedback": "Correct. κανών, κανόνος, ὁ"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ὁ κανών"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ὁ κανών"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-19",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ δούλη mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: enslaved woman"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: enslaved woman"
+            },
+            {
+              "text": "enslaved woman",
+              "correct": true,
+              "feedback": "Correct. δούλη, δούλης, ἡ"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: enslaved woman"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-20",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “enslaved woman”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἡ δούλη"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἡ δούλη"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἡ δούλη"
+            },
+            {
+              "text": "ἡ δούλη",
+              "correct": true,
+              "feedback": "Correct. δούλη, δούλης, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-21",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does δέχομαι mean?",
+          "choices": [
+            {
+              "text": "receive",
+              "correct": true,
+              "feedback": "Correct. δέχομαι"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: receive"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: receive"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: receive"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-22",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “receive”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: δέχομαι"
+            },
+            {
+              "text": "δέχομαι",
+              "correct": true,
+              "feedback": "Correct. δέχομαι"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: δέχομαι"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: δέχομαι"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-23",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does μνημονεύω mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: remember"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: remember"
+            },
+            {
+              "text": "remember",
+              "correct": true,
+              "feedback": "Correct. μνημονεύω"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: remember"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-24",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “remember”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: μνημονεύω"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: μνημονεύω"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: μνημονεύω"
+            },
+            {
+              "text": "μνημονεύω",
+              "correct": true,
+              "feedback": "Correct. μνημονεύω"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-25",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does φυλάττω mean?",
+          "choices": [
+            {
+              "text": "guard",
+              "correct": true,
+              "feedback": "Correct. φυλάττω"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: guard"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: guard"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: guard"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-26",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “guard”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: φυλάττω"
+            },
+            {
+              "text": "φυλάττω",
+              "correct": true,
+              "feedback": "Correct. φυλάττω"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: φυλάττω"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: φυλάττω"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-27",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τίθημι mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: place"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: place"
+            },
+            {
+              "text": "place",
+              "correct": true,
+              "feedback": "Correct. τίθημι"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: place"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-28",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “place”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: τίθημι"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: τίθημι"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: τίθημι"
+            },
+            {
+              "text": "τίθημι",
+              "correct": true,
+              "feedback": "Correct. τίθημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-29",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does δίδωμι mean?",
+          "choices": [
+            {
+              "text": "give",
+              "correct": true,
+              "feedback": "Correct. δίδωμι"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: give"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: give"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: give"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-30",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “give”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: δίδωμι"
+            },
+            {
+              "text": "δίδωμι",
+              "correct": true,
+              "feedback": "Correct. δίδωμι"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: δίδωμι"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: δίδωμι"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-31",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἵστημι mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: set upright"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: set upright"
+            },
+            {
+              "text": "set upright",
+              "correct": true,
+              "feedback": "Correct. ἵστημι"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: set upright"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-32",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “set upright”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἵστημι"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἵστημι"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἵστημι"
+            },
+            {
+              "text": "ἵστημι",
+              "correct": true,
+              "feedback": "Correct. ἵστημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-33",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἵημι mean?",
+          "choices": [
+            {
+              "text": "send forth",
+              "correct": true,
+              "feedback": "Correct. ἵημι"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: send forth"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: send forth"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: send forth"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-34",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “send forth”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἵημι"
+            },
+            {
+              "text": "ἵημι",
+              "correct": true,
+              "feedback": "Correct. ἵημι"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἵημι"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἵημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-35",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐλεύθερος mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: free"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: free"
+            },
+            {
+              "text": "free",
+              "correct": true,
+              "feedback": "Correct. ἐλεύθερος, ἐλευθέρα, ἐλεύθερον"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: free"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-36",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “free”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἐλεύθερος"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἐλεύθερος"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἐλεύθερος"
+            },
+            {
+              "text": "ἐλεύθερος",
+              "correct": true,
+              "feedback": "Correct. ἐλεύθερος, ἐλευθέρα, ἐλεύθερον"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-37",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἐπιμελής mean?",
+          "choices": [
+            {
+              "text": "careful",
+              "correct": true,
+              "feedback": "Correct. ἐπιμελής, ἐπιμελές"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: careful"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: careful"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: careful"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-38",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “careful”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ἐπιμελής"
+            },
+            {
+              "text": "ἐπιμελής",
+              "correct": true,
+              "feedback": "Correct. ἐπιμελής, ἐπιμελές"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ἐπιμελής"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ἐπιμελής"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-39",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ῥᾳδίως mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: easily"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: easily"
+            },
+            {
+              "text": "easily",
+              "correct": true,
+              "feedback": "Correct. ῥᾳδίως"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: easily"
+            }
+          ]
+        },
+        {
+          "id": "l38-vocab-40",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "Which entry means “easily”?",
+          "choices": [
+            {
+              "text": "ἡ ταμία",
+              "correct": false,
+              "feedback": "Review: ῥᾳδίως"
+            },
+            {
+              "text": "ἡ ἐπιμέλεια",
+              "correct": false,
+              "feedback": "Review: ῥᾳδίως"
+            },
+            {
+              "text": "ἡ μνήμη",
+              "correct": false,
+              "feedback": "Review: ῥᾳδίως"
+            },
+            {
+              "text": "ῥᾳδίως",
+              "correct": true,
+              "feedback": "Correct. ῥᾳδίως"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-flashcards": {
+      "title": "Lesson 38 Grammar Flashcards",
+      "cards": [
+        {
+          "prompt": "διδῶμεν",
+          "answer": "present active subjunctive of δίδωμι, first plural — 1. δίδωμι and τίθημι in the subjunctive"
+        },
+        {
+          "prompt": "δῶμεν",
+          "answer": "aorist active subjunctive of δίδωμι, first plural — 1. δίδωμι and τίθημι in the subjunctive"
+        },
+        {
+          "prompt": "τιθῆτε",
+          "answer": "present active subjunctive of τίθημι, second plural — 1. δίδωμι and τίθημι in the subjunctive"
+        },
+        {
+          "prompt": "θῆτε",
+          "answer": "aorist active subjunctive of τίθημι, second plural — 1. δίδωμι and τίθημι in the subjunctive"
+        },
+        {
+          "prompt": "διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν)",
+          "answer": "present: give as activity — 1. δίδωμι and τίθημι in the subjunctive"
+        },
+        {
+          "prompt": "θῶ, θῇς, θῇ, θῶμεν, θῆτε, θῶσι(ν)",
+          "answer": "aorist: place as a whole — 1. δίδωμι and τίθημι in the subjunctive"
+        },
+        {
+          "prompt": "ἱστῶμεν",
+          "answer": "present active subjunctive: we may set up — 2. ἵστημι and ἵημι"
+        },
+        {
+          "prompt": "στῶμεν",
+          "answer": "second aorist active subjunctive: we may take a stand — 2. ἵστημι and ἵημι"
+        },
+        {
+          "prompt": "ἱῇ",
+          "answer": "present active subjunctive of ἵημι: he may send forth — 2. ἵστημι and ἵημι"
+        },
+        {
+          "prompt": "ἀφῇ",
+          "answer": "aorist active subjunctive of ἀφίημι: he may release — 2. ἵστημι and ἵημι"
+        },
+        {
+          "prompt": "ἱστῶ / ἱστῇς / ἱστῇ / ἱστῶμεν / ἱστῆτε / ἱστῶσι(ν)",
+          "answer": "present paradigm of ἵστημι — 2. ἵστημι and ἵημι"
+        },
+        {
+          "prompt": "στῶ / στῇς / στῇ / στῶμεν / στῆτε / στῶσι(ν)",
+          "answer": "intransitive aorist paradigm — 2. ἵστημι and ἵημι"
+        },
+        {
+          "prompt": "θώμεθα",
+          "answer": "aorist middle subjunctive, first plural of τίθημι — 3. Middle forms and principal parts"
+        },
+        {
+          "prompt": "τιθώμεθα",
+          "answer": "present middle subjunctive, first plural of τίθημι — 3. Middle forms and principal parts"
+        },
+        {
+          "prompt": "δῶνται",
+          "answer": "aorist middle subjunctive, third plural of δίδωμι — 3. Middle forms and principal parts"
+        },
+        {
+          "prompt": "τίθεσθαι",
+          "answer": "present middle/passive infinitive of τίθημι — 3. Middle forms and principal parts"
+        },
+        {
+          "prompt": "θῶμαι, θῇ, θῆται, θώμεθα, θῆσθε, θῶνται",
+          "answer": "aorist middle paradigm of τίθημι — 3. Middle forms and principal parts"
+        },
+        {
+          "prompt": "δῶμαι, δῷ, δῶται, δώμεθα, δῶσθε, δῶνται",
+          "answer": "aorist middle paradigm of δίδωμι — 3. Middle forms and principal parts"
+        },
+        {
+          "prompt": "τί θῶμεν;",
+          "answer": "What should we place? Deliberative question. — 4. Proposals, purposes, and commands"
+        },
+        {
+          "prompt": "δῶμεν τὰ δῶρα.",
+          "answer": "Let us give the gifts. Exhortation. — 4. Proposals, purposes, and commands"
+        },
+        {
+          "prompt": "δότε τὰ δῶρα.",
+          "answer": "Give the gifts! Plural imperative. — 4. Proposals, purposes, and commands"
+        },
+        {
+          "prompt": "δίδωμι ἵνα ἡ ταμία φυλάττῃ.",
+          "answer": "I give it so that the housekeeper may guard it. Purpose. — 4. Proposals, purposes, and commands"
+        },
+        {
+          "prompt": "μὴ τὰ σκεύη ἀφῇς.",
+          "answer": "Do not let the implements go. Aorist prohibition. — 4. Proposals, purposes, and commands"
+        }
+      ]
+    },
+    "topic-practice": {
+      "title": "Lesson 38 Topic Practice",
+      "practiceMode": "rounds",
+      "roundSize": 10,
+      "instructions": "Choose Word Study or a grammar topic. Each grammar topic combines form recognition with applied interpretation.",
+      "questions": [
+        {
+          "id": "l38-topic-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does δίδωμι mean?",
+          "choices": [
+            {
+              "text": "give",
+              "correct": true,
+              "feedback": "Correct. give"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: give"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: give"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: give"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “give”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: δίδωμι"
+            },
+            {
+              "text": "δίδωμι",
+              "correct": true,
+              "feedback": "Correct. δίδωμι"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: δίδωμι"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: δίδωμι"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does παραδίδωμι mean?",
+          "choices": [
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: hand over"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: hand over"
+            },
+            {
+              "text": "hand over",
+              "correct": true,
+              "feedback": "Correct. hand over"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: hand over"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “hand over”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: παραδίδωμι"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: παραδίδωμι"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: παραδίδωμι"
+            },
+            {
+              "text": "παραδίδωμι",
+              "correct": true,
+              "feedback": "Correct. παραδίδωμι"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: what does λόγον διδόναι mean?",
+          "choices": [
+            {
+              "text": "give an account",
+              "correct": true,
+              "feedback": "Correct. give an account"
+            },
+            {
+              "text": "judgment, justice",
+              "correct": false,
+              "feedback": "Review: give an account"
+            },
+            {
+              "text": "just",
+              "correct": false,
+              "feedback": "Review: give an account"
+            },
+            {
+              "text": "judge",
+              "correct": false,
+              "feedback": "Review: give an account"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "word-study",
+          "prompt": "Word Study: which expression means “give an account”?",
+          "choices": [
+            {
+              "text": "δίκη",
+              "correct": false,
+              "feedback": "Review: λόγον διδόναι"
+            },
+            {
+              "text": "λόγον διδόναι",
+              "correct": true,
+              "feedback": "Correct. λόγον διδόναι"
+            },
+            {
+              "text": "δίκαιος",
+              "correct": false,
+              "feedback": "Review: λόγον διδόναι"
+            },
+            {
+              "text": "δικαστής",
+              "correct": false,
+              "feedback": "Review: λόγον διδόναι"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: διδῶμεν",
+          "choices": [
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: δῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: τιθῆτε",
+          "choices": [
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of τίθημι, second plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: θῆτε",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of τίθημι, second plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Choose “What should we give?”",
+          "choices": [
+            {
+              "text": "τί ἔδομεν;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            },
+            {
+              "text": "τί δίδοτε;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            },
+            {
+              "text": "τί δῶμεν;",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "τί δώσει;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "What distinguishes διδῷ from δῷ?",
+          "choices": [
+            {
+              "text": "Active versus passive voice.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Singular versus plural.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Past versus future time necessarily.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Present stem with reduplication versus aorist stem.",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἱστῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: στῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive: we may take a stand"
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive: we may take a stand"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive: we may take a stand"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἱῇ",
+          "choices": [
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of ἵημι: he may send forth"
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of ἵημι: he may send forth"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of ἵημι: he may send forth"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἀφῇ",
+          "choices": [
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of ἀφίημι: he may release"
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of ἀφίημι: he may release"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of ἀφίημι: he may release"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Translate ἵνα τὸν δοῦλον ἀφῇ.",
+          "choices": [
+            {
+              "text": "so that he may release the enslaved man",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "because the enslaved man stood yesterday",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            },
+            {
+              "text": "let us place the implements",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            },
+            {
+              "text": "if only the owner had listened",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Which form normally means “let us take a stand”?",
+          "choices": [
+            {
+              "text": "στήσωμεν with an expressed object",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "στῶμεν",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "ἵστατε",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "ἔστησαν",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: θώμεθα",
+          "choices": [
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: τιθώμεθα",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: present middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: δῶνται",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third plural of δίδωμι"
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third plural of δίδωμι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third plural of δίδωμι"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: τίθεσθαι",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle/passive infinitive of τίθημι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle/passive infinitive of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: present middle/passive infinitive of τίθημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Which is a finite proposal “let us establish a rule for ourselves”?",
+          "choices": [
+            {
+              "text": "νόμον τίθεσθαι",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον ἔθεντο",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον θώμεθα",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "νόμον θήσεις",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Does middle voice always require “oneself” in English?",
+          "choices": [
+            {
+              "text": "Yes, in every clause.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "Only if the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "Middle voice is identical to past time.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "No; interpret the verb in context.",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-25",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: τί θῶμεν;",
+          "choices": [
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-26",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: δῶμεν τὰ δῶρα.",
+          "choices": [
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": false,
+              "feedback": "Review: Let us give the gifts. Exhortation."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: Let us give the gifts. Exhortation."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: Let us give the gifts. Exhortation."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-27",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: δότε τὰ δῶρα.",
+          "choices": [
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": false,
+              "feedback": "Review: Give the gifts! Plural imperative."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: Give the gifts! Plural imperative."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: Give the gifts! Plural imperative."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-28",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: δίδωμι ἵνα ἡ ταμία φυλάττῃ.",
+          "choices": [
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": false,
+              "feedback": "Review: I give it so that the housekeeper may guard it. Purpose."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: I give it so that the housekeeper may guard it. Purpose."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: I give it so that the housekeeper may guard it. Purpose."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-29",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Who is the subject of φυλάττῃ in the purpose example?",
+          "choices": [
+            {
+              "text": "the housekeeper",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "the speaker",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            },
+            {
+              "text": "the key",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            },
+            {
+              "text": "the gifts",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            }
+          ]
+        },
+        {
+          "id": "l38-topic-30",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Which construction is an infinitive rather than a finite proposal?",
+          "choices": [
+            {
+              "text": "τὰ σκεύη θῶμεν",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θεῖναι",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "τὰ σκεύη θῆτε",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θῇ",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            }
+          ]
+        }
+      ]
+    },
+    "grammar-exercises": {
+      "title": "Lesson 38 Required Grammar Check",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-38-grammar-module-4-v1",
+      "pointsPossible": 24,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l38-grammar-1",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: διδῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-2",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: δῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of δίδωμι, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-3",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: τιθῆτε",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of τίθημι, second plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-4",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: θῆτε",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of τίθημι, second plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-5",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Choose “What should we give?”",
+          "choices": [
+            {
+              "text": "τί δῶμεν;",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "τί ἔδομεν;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            },
+            {
+              "text": "τί δίδοτε;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            },
+            {
+              "text": "τί δώσει;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-6",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "What distinguishes διδῷ from δῷ?",
+          "choices": [
+            {
+              "text": "Active versus passive voice.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Present stem with reduplication versus aorist stem.",
+              "correct": true,
+              "feedback": "Correct. Athematic verbs do not keep their indicative endings in the subjunctive. The present of δίδωμι retains reduplication: διδῶ, διδῷς, διδῷ, διδῶμεν, διδῶτε, διδῶσι(ν). Its aorist uses the shorter stem: δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν). Do not infer aorist simply from a circumflex."
+            },
+            {
+              "text": "Singular versus plural.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Past versus future time necessarily.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-7",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἱστῶμεν",
+          "choices": [
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            },
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-8",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: στῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive: we may take a stand"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive: we may take a stand"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: second aorist active subjunctive: we may take a stand"
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-9",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἱῇ",
+          "choices": [
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of ἵημι: he may send forth"
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of ἵημι: he may send forth"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of ἵημι: he may send forth"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-10",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἀφῇ",
+          "choices": [
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of ἀφίημι: he may release"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of ἀφίημι: he may release"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: aorist active subjunctive of ἀφίημι: he may release"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-11",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Translate ἵνα τὸν δοῦλον ἀφῇ.",
+          "choices": [
+            {
+              "text": "because the enslaved man stood yesterday",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            },
+            {
+              "text": "let us place the implements",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            },
+            {
+              "text": "so that he may release the enslaved man",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            },
+            {
+              "text": "if only the owner had listened",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-12",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Which form normally means “let us take a stand”?",
+          "choices": [
+            {
+              "text": "στήσωμεν with an expressed object",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "ἵστατε",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "ἔστησαν",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "στῶμεν",
+              "correct": true,
+              "feedback": "Correct. The present subjunctive of ἵστημι is ἱστῶ, ἱστῇς, ἱστῇ, ἱστῶμεν, ἱστῆτε, ἱστῶσι(ν). The intransitive second aorist is στῶ, στῇς, στῇ, στῶμεν, στῆτε, στῶσι(ν), “take a stand.” The transitive first aorist στήσω means “set something up” in the appropriate subjunctive clause; distinguish it by construction from future indicative στήσω."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: θώμεθα",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: τιθώμεθα",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: present middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle subjunctive, first plural of τίθημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: δῶνται",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third plural of δίδωμι"
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third plural of δίδωμι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, third plural of δίδωμι"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: τίθεσθαι",
+          "choices": [
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle/passive infinitive of τίθημι"
+            },
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: present middle/passive infinitive of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: present middle/passive infinitive of τίθημι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Which is a finite proposal “let us establish a rule for ourselves”?",
+          "choices": [
+            {
+              "text": "νόμον θώμεθα",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "νόμον τίθεσθαι",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον ἔθεντο",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον θήσεις",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Does middle voice always require “oneself” in English?",
+          "choices": [
+            {
+              "text": "Yes, in every clause.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "No; interpret the verb in context.",
+              "correct": true,
+              "feedback": "Correct. Middle subjunctives retain middle endings. δίδωμι has present διδῶμαι and aorist δῶμαι; τίθημι has τιθῶμαι and θῶμαι. The aorist middle θῶμαι can mean “establish for myself” or “adopt,” depending on the object. Voice is a relationship between subject and action, not a fixed English reflexive."
+            },
+            {
+              "text": "Only if the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "Middle voice is identical to past time.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: τί θῶμεν;",
+          "choices": [
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: δῶμεν τὰ δῶρα.",
+          "choices": [
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": false,
+              "feedback": "Review: Let us give the gifts. Exhortation."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: Let us give the gifts. Exhortation."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: Let us give the gifts. Exhortation."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: δότε τὰ δῶρα.",
+          "choices": [
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": false,
+              "feedback": "Review: Give the gifts! Plural imperative."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: Give the gifts! Plural imperative."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: Give the gifts! Plural imperative."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: δίδωμι ἵνα ἡ ταμία φυλάττῃ.",
+          "choices": [
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": false,
+              "feedback": "Review: I give it so that the housekeeper may guard it. Purpose."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: I give it so that the housekeeper may guard it. Purpose."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: I give it so that the housekeeper may guard it. Purpose."
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Who is the subject of φυλάττῃ in the purpose example?",
+          "choices": [
+            {
+              "text": "the speaker",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            },
+            {
+              "text": "the key",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            },
+            {
+              "text": "the housekeeper",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            },
+            {
+              "text": "the gifts",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            }
+          ]
+        },
+        {
+          "id": "l38-grammar-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Which construction is an infinitive rather than a finite proposal?",
+          "choices": [
+            {
+              "text": "τὰ σκεύη θῶμεν",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θῆτε",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θῇ",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θεῖναι",
+              "correct": true,
+              "feedback": "Correct. Use the same clause questions as in Lesson 37 with the less familiar stems. τί δῶμεν; deliberates; δῶμεν τὰ δῶρα exhorts; δότε τὰ δῶρα commands a plural audience. δῶμεν is not an infinitive, and δότε is not a subjunctive."
+            }
+          ]
+        }
+      ]
+    },
+    "lesson-quiz": {
+      "title": "Lesson 38 Final Quiz — Justice in the Household",
+      "description": "Answer every question. A score of 80% or higher is required.",
+      "threshold": 80,
+      "required": true,
+      "requireAllAnswers": true,
+      "revision": "lesson-38-final-module-4-v1",
+      "pointsPossible": 30,
+      "instructions": "Answer every question, then check your work. Use the explanations and topic practice before another attempt.",
+      "questions": [
+        {
+          "id": "l38-final-1",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What qualities does Ischomachus seek in a housekeeper?",
+          "choices": [
+            {
+              "text": "Care, memory, and trustworthiness.",
+              "correct": true,
+              "feedback": "Correct. Care, memory, and trustworthiness."
+            },
+            {
+              "text": "Military rank and citizenship.",
+              "correct": false,
+              "feedback": "Review: Care, memory, and trustworthiness."
+            },
+            {
+              "text": "Skill at jury voting alone.",
+              "correct": false,
+              "feedback": "Review: Care, memory, and trustworthiness."
+            },
+            {
+              "text": "A royal ancestry.",
+              "correct": false,
+              "feedback": "Review: Care, memory, and trustworthiness."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-2",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Why assign objects to places?",
+          "choices": [
+            {
+              "text": "So that no one can use them.",
+              "correct": false,
+              "feedback": "Review: So that they can be found readily."
+            },
+            {
+              "text": "So that they can be found readily.",
+              "correct": true,
+              "feedback": "Correct. So that they can be found readily."
+            },
+            {
+              "text": "So that ownership disappears.",
+              "correct": false,
+              "feedback": "Review: So that they can be found readily."
+            },
+            {
+              "text": "So that work becomes unnecessary.",
+              "correct": false,
+              "feedback": "Review: So that they can be found readily."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-3",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Who sets the standard in the owner’s account?",
+          "choices": [
+            {
+              "text": "The objects themselves.",
+              "correct": false,
+              "feedback": "Review: The owners."
+            },
+            {
+              "text": "The Athenian jury.",
+              "correct": false,
+              "feedback": "Review: The owners."
+            },
+            {
+              "text": "The owners.",
+              "correct": true,
+              "feedback": "Correct. The owners."
+            },
+            {
+              "text": "The Persian king.",
+              "correct": false,
+              "feedback": "Review: The owners."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-4",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "Does responsibility for property make the housekeeper free?",
+          "choices": [
+            {
+              "text": "Yes, automatically.",
+              "correct": false,
+              "feedback": "Review: No; she remains enslaved."
+            },
+            {
+              "text": "Only when she remembers an inventory.",
+              "correct": false,
+              "feedback": "Review: No; she remains enslaved."
+            },
+            {
+              "text": "The passage says she owns the household.",
+              "correct": false,
+              "feedback": "Review: No; she remains enslaved."
+            },
+            {
+              "text": "No; she remains enslaved.",
+              "correct": true,
+              "feedback": "Correct. No; she remains enslaved."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-5",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does τί αὐτῇ δῶμεν ask?",
+          "choices": [
+            {
+              "text": "What should we give her?",
+              "correct": true,
+              "feedback": "Correct. What should we give her?"
+            },
+            {
+              "text": "What did she give us?",
+              "correct": false,
+              "feedback": "Review: What should we give her?"
+            },
+            {
+              "text": "Why is she standing?",
+              "correct": false,
+              "feedback": "Review: What should we give her?"
+            },
+            {
+              "text": "Who has written the law?",
+              "correct": false,
+              "feedback": "Review: What should we give her?"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-6",
+          "type": "multiple-choice",
+          "category": "Reading",
+          "prompt": "What does the final proposal add?",
+          "choices": [
+            {
+              "text": "A claim that the ancient housekeeper spoke these words.",
+              "correct": false,
+              "feedback": "Review: Concern for the people who work as well as possessions."
+            },
+            {
+              "text": "Concern for the people who work as well as possessions.",
+              "correct": true,
+              "feedback": "Correct. Concern for the people who work as well as possessions."
+            },
+            {
+              "text": "An order to abolish all inventories.",
+              "correct": false,
+              "feedback": "Review: Concern for the people who work as well as possessions."
+            },
+            {
+              "text": "A report of a Persian trial.",
+              "correct": false,
+              "feedback": "Review: Concern for the people who work as well as possessions."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-7",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ταμία mean?",
+          "choices": [
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: housekeeper"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: housekeeper"
+            },
+            {
+              "text": "housekeeper",
+              "correct": true,
+              "feedback": "Correct. ταμία, ταμίας, ἡ"
+            },
+            {
+              "text": "implement",
+              "correct": false,
+              "feedback": "Review: housekeeper"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-8",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἐπιμέλεια mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: care"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: care"
+            },
+            {
+              "text": "implement",
+              "correct": false,
+              "feedback": "Review: care"
+            },
+            {
+              "text": "care",
+              "correct": true,
+              "feedback": "Correct. ἐπιμέλεια, ἐπιμελείας, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-9",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ μνήμη mean?",
+          "choices": [
+            {
+              "text": "memory",
+              "correct": true,
+              "feedback": "Correct. μνήμη, μνήμης, ἡ"
+            },
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: memory"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: memory"
+            },
+            {
+              "text": "implement",
+              "correct": false,
+              "feedback": "Review: memory"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-10",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does τὸ σκεῦος mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: implement"
+            },
+            {
+              "text": "implement",
+              "correct": true,
+              "feedback": "Correct. σκεῦος, σκεύους, τό"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: implement"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: implement"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-11",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ ἀταξία mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: disorder"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: disorder"
+            },
+            {
+              "text": "disorder",
+              "correct": true,
+              "feedback": "Correct. ἀταξία, ἀταξίας, ἡ"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: disorder"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-12",
+          "type": "multiple-choice",
+          "category": "Vocabulary",
+          "prompt": "What does ἡ τάξις mean?",
+          "choices": [
+            {
+              "text": "housekeeper",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "care",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "memory",
+              "correct": false,
+              "feedback": "Review: order"
+            },
+            {
+              "text": "order",
+              "correct": true,
+              "feedback": "Correct. τάξις, τάξεως, ἡ"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-13",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Choose “What should we give?”",
+          "choices": [
+            {
+              "text": "τί δῶμεν;",
+              "correct": true,
+              "feedback": "Correct. τί δῶμεν;"
+            },
+            {
+              "text": "τί ἔδομεν;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            },
+            {
+              "text": "τί δίδοτε;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            },
+            {
+              "text": "τί δώσει;",
+              "correct": false,
+              "feedback": "Review: τί δῶμεν;"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-14",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "What distinguishes διδῷ from δῷ?",
+          "choices": [
+            {
+              "text": "Active versus passive voice.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Present stem with reduplication versus aorist stem.",
+              "correct": true,
+              "feedback": "Correct. Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Singular versus plural.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            },
+            {
+              "text": "Past versus future time necessarily.",
+              "correct": false,
+              "feedback": "Review: Present stem with reduplication versus aorist stem."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-15",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Translate ἵνα τὸν δοῦλον ἀφῇ.",
+          "choices": [
+            {
+              "text": "because the enslaved man stood yesterday",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            },
+            {
+              "text": "let us place the implements",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            },
+            {
+              "text": "so that he may release the enslaved man",
+              "correct": true,
+              "feedback": "Correct. so that he may release the enslaved man"
+            },
+            {
+              "text": "if only the owner had listened",
+              "correct": false,
+              "feedback": "Review: so that he may release the enslaved man"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-16",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Which form normally means “let us take a stand”?",
+          "choices": [
+            {
+              "text": "στήσωμεν with an expressed object",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "ἵστατε",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "ἔστησαν",
+              "correct": false,
+              "feedback": "Review: στῶμεν"
+            },
+            {
+              "text": "στῶμεν",
+              "correct": true,
+              "feedback": "Correct. στῶμεν"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-17",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Which is a finite proposal “let us establish a rule for ourselves”?",
+          "choices": [
+            {
+              "text": "νόμον θώμεθα",
+              "correct": true,
+              "feedback": "Correct. νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον τίθεσθαι",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον ἔθεντο",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            },
+            {
+              "text": "νόμον θήσεις",
+              "correct": false,
+              "feedback": "Review: νόμον θώμεθα"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-18",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Does middle voice always require “oneself” in English?",
+          "choices": [
+            {
+              "text": "Yes, in every clause.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "No; interpret the verb in context.",
+              "correct": true,
+              "feedback": "Correct. No; interpret the verb in context."
+            },
+            {
+              "text": "Only if the subject is plural.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            },
+            {
+              "text": "Middle voice is identical to past time.",
+              "correct": false,
+              "feedback": "Review: No; interpret the verb in context."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-19",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Who is the subject of φυλάττῃ in the purpose example?",
+          "choices": [
+            {
+              "text": "the speaker",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            },
+            {
+              "text": "the key",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            },
+            {
+              "text": "the housekeeper",
+              "correct": true,
+              "feedback": "Correct. the housekeeper"
+            },
+            {
+              "text": "the gifts",
+              "correct": false,
+              "feedback": "Review: the housekeeper"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-20",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Which construction is an infinitive rather than a finite proposal?",
+          "choices": [
+            {
+              "text": "τὰ σκεύη θῶμεν",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θῆτε",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θῇ",
+              "correct": false,
+              "feedback": "Review: τὰ σκεύη θεῖναι"
+            },
+            {
+              "text": "τὰ σκεύη θεῖναι",
+              "correct": true,
+              "feedback": "Correct. τὰ σκεύη θεῖναι"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-21",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "give-place-subjunctive",
+          "prompt": "Analyze or translate: διδῶμεν",
+          "choices": [
+            {
+              "text": "present active subjunctive of δίδωμι, first plural",
+              "correct": true,
+              "feedback": "Correct. present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of δίδωμι, first plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "present active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            },
+            {
+              "text": "aorist active subjunctive of τίθημι, second plural",
+              "correct": false,
+              "feedback": "Review: present active subjunctive of δίδωμι, first plural"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-22",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "stand-send-subjunctive",
+          "prompt": "Analyze or translate: ἱστῶμεν",
+          "choices": [
+            {
+              "text": "second aorist active subjunctive: we may take a stand",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            },
+            {
+              "text": "present active subjunctive: we may set up",
+              "correct": true,
+              "feedback": "Correct. present active subjunctive: we may set up"
+            },
+            {
+              "text": "present active subjunctive of ἵημι: he may send forth",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            },
+            {
+              "text": "aorist active subjunctive of ἀφίημι: he may release",
+              "correct": false,
+              "feedback": "Review: present active subjunctive: we may set up"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-23",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-middle",
+          "prompt": "Analyze or translate: θώμεθα",
+          "choices": [
+            {
+              "text": "present middle subjunctive, first plural of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, third plural of δίδωμι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "aorist middle subjunctive, first plural of τίθημι",
+              "correct": true,
+              "feedback": "Correct. aorist middle subjunctive, first plural of τίθημι"
+            },
+            {
+              "text": "present middle/passive infinitive of τίθημι",
+              "correct": false,
+              "feedback": "Review: aorist middle subjunctive, first plural of τίθημι"
+            }
+          ]
+        },
+        {
+          "id": "l38-final-24",
+          "type": "multiple-choice",
+          "category": "Grammar",
+          "topic": "mi-applications",
+          "prompt": "Analyze or translate: τί θῶμεν;",
+          "choices": [
+            {
+              "text": "Let us give the gifts. Exhortation.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "Give the gifts! Plural imperative.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "I give it so that the housekeeper may guard it. Purpose.",
+              "correct": false,
+              "feedback": "Review: What should we place? Deliberative question."
+            },
+            {
+              "text": "What should we place? Deliberative question.",
+              "correct": true,
+              "feedback": "Correct. What should we place? Deliberative question."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-25",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What does delegated household responsibility establish?",
+          "choices": [
+            {
+              "text": "A task and authority within an unequal system, not automatic freedom.",
+              "correct": true,
+              "feedback": "Correct. A task and authority within an unequal system, not automatic freedom."
+            },
+            {
+              "text": "Legal emancipation in every case.",
+              "correct": false,
+              "feedback": "Review: A task and authority within an unequal system, not automatic freedom."
+            },
+            {
+              "text": "Equal citizenship for all workers.",
+              "correct": false,
+              "feedback": "Review: A task and authority within an unequal system, not automatic freedom."
+            },
+            {
+              "text": "Consent to every condition.",
+              "correct": false,
+              "feedback": "Review: A task and authority within an unequal system, not automatic freedom."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-26",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Whose perspective organizes Ischomachus’ account?",
+          "choices": [
+            {
+              "text": "The housekeeper’s independent memoir.",
+              "correct": false,
+              "feedback": "Review: The household owners’ perspective."
+            },
+            {
+              "text": "The household owners’ perspective.",
+              "correct": true,
+              "feedback": "Correct. The household owners’ perspective."
+            },
+            {
+              "text": "A modern labor inspector’s report.",
+              "correct": false,
+              "feedback": "Review: The household owners’ perspective."
+            },
+            {
+              "text": "An Athenian jury verdict.",
+              "correct": false,
+              "feedback": "Review: The household owners’ perspective."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-27",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "Why distinguish wife and housekeeper?",
+          "choices": [
+            {
+              "text": "They perform no work.",
+              "correct": false,
+              "feedback": "Review: Their statuses and powers differ."
+            },
+            {
+              "text": "They are interchangeable narrators.",
+              "correct": false,
+              "feedback": "Review: Their statuses and powers differ."
+            },
+            {
+              "text": "Their statuses and powers differ.",
+              "correct": true,
+              "feedback": "Correct. Their statuses and powers differ."
+            },
+            {
+              "text": "Both are Persian rulers.",
+              "correct": false,
+              "feedback": "Review: Their statuses and powers differ."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-28",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What can an inventory omit?",
+          "choices": [
+            {
+              "text": "The existence of objects in principle.",
+              "correct": false,
+              "feedback": "Review: Who can challenge blame and whose account is believed."
+            },
+            {
+              "text": "All assigned locations necessarily.",
+              "correct": false,
+              "feedback": "Review: Who can challenge blame and whose account is believed."
+            },
+            {
+              "text": "Every person’s name necessarily.",
+              "correct": false,
+              "feedback": "Review: Who can challenge blame and whose account is believed."
+            },
+            {
+              "text": "Who can challenge blame and whose account is believed.",
+              "correct": true,
+              "feedback": "Correct. Who can challenge blame and whose account is believed."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-29",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "What is the status of the classroom inventory?",
+          "choices": [
+            {
+              "text": "A model used for analysis.",
+              "correct": true,
+              "feedback": "Correct. A model used for analysis."
+            },
+            {
+              "text": "A recovered ancient document.",
+              "correct": false,
+              "feedback": "Review: A model used for analysis."
+            },
+            {
+              "text": "A quotation from the housekeeper.",
+              "correct": false,
+              "feedback": "Review: A model used for analysis."
+            },
+            {
+              "text": "Proof of her private thoughts.",
+              "correct": false,
+              "feedback": "Review: A model used for analysis."
+            }
+          ]
+        },
+        {
+          "id": "l38-final-30",
+          "type": "multiple-choice",
+          "category": "Greek World",
+          "prompt": "How should invented questions for the housekeeper be treated?",
+          "choices": [
+            {
+              "text": "Documented speech from Xenophon.",
+              "correct": false,
+              "feedback": "Review: Explicitly labeled inference or invention."
+            },
+            {
+              "text": "Explicitly labeled inference or invention.",
+              "correct": true,
+              "feedback": "Correct. Explicitly labeled inference or invention."
+            },
+            {
+              "text": "Proof that she consented.",
+              "correct": false,
+              "feedback": "Review: Explicitly labeled inference or invention."
+            },
+            {
+              "text": "A replacement for the source account.",
+              "correct": false,
+              "feedback": "Review: Explicitly labeled inference or invention."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previousLesson": {
+    "id": "lesson-37",
+    "title": "Learning to Judge Fairly",
+    "fallbackUrl": "lesson.html?lesson=37&page=1"
+  },
+  "nextLesson": {
+    "id": "lesson-39",
+    "title": "The Accusation",
+    "fallbackUrl": "lesson.html?lesson=39&page=1"
+  },
+  "contentRevision": "lesson-38-module-4-v1"
+}
