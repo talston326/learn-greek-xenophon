@@ -54,7 +54,7 @@
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 @media (max-width: 1050px) { .apology-workspace { grid-template-columns: 1fr; } .apology-inspector { position: static; } }
 @media (max-width: 600px) { .apology-authentic-label { display: none; } .apology-modes { width: 100%; } .apology-modes label { flex: 1; justify-content: center; } .apology-interlinear { gap: .85rem .14rem; } .apology-word { white-space: normal; } }
-@media (max-width: 600px) { .apology-hero { --hero-banner-position: 60% 20%; --hero-banner-size: cover; } .apology-hero::after { background: linear-gradient(90deg, rgba(252,251,248,.97) 0%, rgba(252,251,248,.84) 64%, rgba(252,251,248,.45) 100%); } .apology-paragraph { grid-template-columns: 1.6rem minmax(0, 1fr); gap: .15rem; } .apology-section-number { font-size: 1rem; padding-top: .13rem; } }
+@media (max-width: 600px) { .apology-hero { padding-bottom: 205px; } .apology-hero::before { inset: auto 0 0; height: 185px; background-position: 64% 50%; background-size: cover; } .apology-hero::after { background: linear-gradient(180deg, #fcfbf8 0%, rgba(252,251,248,.98) 68%, rgba(252,251,248,0) 83%); } .apology-paragraph { grid-template-columns: 1.6rem minmax(0, 1fr); gap: .15rem; } .apology-section-number { font-size: 1rem; padding-top: .13rem; } }
 
 /* The course's compact layout hides ordinary page panels unless they opt in. */
 @media (max-width: 900px) {
