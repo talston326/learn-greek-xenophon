@@ -1,24 +1,19 @@
-# Xenophon’s Apology — Interactive Interlinear Reader
+# Xenophon’s Apology — Complete Interactive Reader
 
-## Preview scope
+## Published scope
 
-This course resource presents Xenophon’s *Apology* §§1–9 and the opening of §10, ending at `καὶ τοὺς νέους διαφθείροι,`. The complete work has 34 numbered sections. The reader is available from Resources and the optional panel below Lessons without course prerequisites.
+The optional course resource now presents all 34 numbered sections of Xenophon’s *Apology* on one continuous page. It is available from Resources and the optional Lessons panel without course prerequisites.
 
-- Greek retains the printed order. A small gray section number precedes each section; sentence headings and editorial section titles are omitted.
-- Controls offer original Greek, aligned interlinear glosses, a reading-order interlinear trial for §1, and natural English. Translation support can be hidden. The reading-order trial moves the original §1 token-and-gloss pairs into a manually arranged study sequence with short phrase hints; §§2–10 remain in original order in this mode pending editorial review.
-- Clicking a Greek word opens its lemma, gloss, morphology, and syntax note. Related words can be highlighted and selected.
-- The preview has 517 clickable Greek tokens: 67 from the original hand-annotated §1 prototype and 450 across the continuation.
-- Reading progress uses a local, per-account/per-device browser marker with a new key for this scope. It sends no grade or lesson-completion request and does not change XP, awards, or dashboards.
-- The banner is an imaginative, historically informed reconstruction of Socrates before a large Athenian jury, with a single-story stoa in the Agora background. The exact trial venue is uncertain.
+- Greek and Interlinear retain the edition’s printed order. Gray section numbers precede the text; there are no sentence headings or editorial section titles.
+- Reading order shows all the same Greek tokens and glosses in a study sequence with limited, explicit word and phrase moves. §1 has phrase hints, while §§2–34 show an English guide below each section. Switch to Greek or Interlinear for source order.
+- English shows the complete translation, one paragraph per section.
+- Clicking a word opens its lemma, lexical gloss, morphology, syntax note, and related words. On narrow screens the analysis opens as a closable panel near the selected word.
+- The section links are shortcuts within the continuous page. Reading progress stays in this device’s browser storage. The reader makes no grade, XP, or lesson-completion request.
 
-## Text and editorial status
+## Sources and editorial status
 
-Greek follows E. C. Marchant’s 1921 edition of [Xenophon’s *Apology*](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0211). The §§2–10 token and initial morphology data derive from the [Open Greek Corpus annotations](https://huggingface.co/datasets/ciscoriordan/open-greek-corpus-annotations), CC BY-SA 4.0. Interlinear glosses and natural English are course drafts. Syntax links in §1 and the quoted portion of §10 were curated; other continuation links are provisional reading aids. A Greek instructor should review all new morphology, glosses, syntax, and translation before treating the preview as a finished edition. The §10 sentence is intentionally incomplete at the user-requested stopping point.
+The Greek follows [E. C. Marchant’s 1921 edition at Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0211). The token and initial morphology data for §§2–34 derive from [Open Greek Corpus annotations](https://huggingface.co/datasets/ciscoriordan/open-greek-corpus-annotations), CC BY-SA 4.0. Brief lexical definitions for §§11–34 draw on [Perseus and Logeion short definitions](https://github.com/helmadik/shortdefs), edited for this reader. The English for §§11–34 uses [O. J. Todd’s 1923 translation at Perseus](https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0032.tlg005.perseus-eng2/), excluding source footnotes; §§1–10 retain the course draft translation. Marchant’s bracketed editorial supplement in §10 is displayed as such.
 
-## Expansion to the complete work
+§1 remains the hand-annotated prototype. §§2–10 retain their provisional course annotations. The new §§11–34 syntax links and reading-order arrangements are preliminary study aids, and the lexical definitions may need more context-specific revision. An Ancient Greek instructor should review the new morphology, glosses, syntax, and translation before treating this as a scholarly edition.
 
-1. Review the draft token data with an instructor, especially inflected forms, punctuation, and syntactic links. Preserve edition references and stable token IDs.
-2. Divide all 34 sections into manageable reading units with section-range navigation.
-3. If persistent progress is introduced, store it separately from lessons, grades, XP, and course completion.
-4. Keep any comprehension questions optional practice, with no effect on normal grading.
-5. Test keyboard access, screen readers, and phone/tablet layouts before a full Library of Ancient Greek Readings release.
+The banner is an imaginative, historically informed reconstruction of Socrates before a large Athenian jury, with a single-story stoa in the Agora background. The precise trial venue is uncertain.

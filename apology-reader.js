@@ -126,6 +126,9 @@
   const support = document.querySelector("[data-translation-support]");
   const orderNote = document.querySelector("[data-reading-order-note]");
   const authenticLabel = document.querySelector("[data-authentic-label]");
+  const jump = document.querySelector("[data-section-jump]");
+  const inspector = document.querySelector(".apology-inspector");
+  const closeDetails = document.querySelector("[data-close-details]");
   const modeRadios = [...document.querySelectorAll('input[name="reader-mode"]')];
   const complete = document.querySelector("[data-mark-complete]");
   const progress = document.querySelector("[data-reading-progress]");
@@ -134,10 +137,10 @@
   let selected = null;
   const session = window.xenophonAuth?.readSession?.();
   const learner = session?.email?.trim().toLowerCase() || "guest";
-  const progressKey = "xenophon-apology-preview-v2:sections-1-10:" + learner;
+  const progressKey = "xenophon-apology-full-v1:sections-1-34:" + learner;
   try { complete.checked = localStorage.getItem(progressKey) === "read"; } catch (_) {}
   function showProgress() {
-    progress.textContent = complete.checked ? "Preview marked as read" : "Preview not yet marked as read";
+    progress.textContent = complete.checked ? "Reading marked as read" : "Reading not yet marked as read";
   }
   function clearAndAppend(parent, ...children) { parent.replaceChildren(...children); }
   function setMode(next) {
@@ -173,6 +176,7 @@
       related.appendChild(b);
     });
     clearAndAppend(details, heading, dl, relatedTitle, related);
+    inspector?.classList.add("is-open");
     document.querySelectorAll("[data-apology-word]").forEach(el => {
       const id = el.dataset.apologyWord;
       el.classList.toggle("is-selected", id === selected);
@@ -180,9 +184,26 @@
       el.setAttribute("aria-pressed", String(id === selected));
     });
   }
+  function readingOrderForms(p) {
+    const segments = [];
+    const punctuation = new Map();
+    let segment = 0;
+    p.words.forEach((word, i) => {
+      segments[i + 1] = segment;
+      const end = word[0].match(/[.,;·:!?]+$/u);
+      if (end) { punctuation.set(segment, end[0]); segment += 1; }
+    });
+    const lastInSegment = new Map();
+    p.readingOrder.forEach(index => lastInSegment.set(segments[index], index));
+    return new Map(p.readingOrder.map(index => [
+      index,
+      p.words[index - 1][0].replace(/[.,;·:!?]+$/u, "") +
+        (lastInSegment.get(segments[index]) === index ? punctuation.get(segments[index]) || "" : "")
+    ]));
+  }
   function render() {
     if (orderNote) orderNote.hidden = mode !== "reading-order";
-    if (authenticLabel) authenticLabel.textContent = mode === "reading-order" ? "§1 rearranged for study" : "Unadapted Attic Greek";
+    if (authenticLabel) authenticLabel.textContent = mode === "reading-order" ? "Study order · §§1–34" : "Original Greek order";
     function wordButton(w, s, i, displayedForm) {
       const button = document.createElement("button");
       button.type = "button";
@@ -207,6 +228,7 @@
     const elements = passages.map((p, s) => {
       const block = document.createElement("section");
       block.className = "apology-paragraph";
+      block.id = "apology-section-" + p.number;
       const number = document.createElement("span");
       number.className = "apology-section-number";
       number.textContent = p.number;
@@ -247,16 +269,28 @@
       const line = document.createElement("div");
       line.className = mode === "interlinear" || mode === "reading-order" ? "apology-interlinear" : "apology-greek-prose";
       line.lang = "grc";
-      p.words.forEach((w, i) => {
-        line.appendChild(wordButton(w, s, i));
-      });
+      if (mode === "reading-order") {
+        const forms = readingOrderForms(p);
+        p.readingOrder.forEach(index => line.appendChild(wordButton(p.words[index - 1], s, index - 1, forms.get(index))));
+      } else {
+        p.words.forEach((w, i) => line.appendChild(wordButton(w, s, i)));
+      }
       block.appendChild(line);
+      if (mode === "reading-order") {
+        const guide = document.createElement("p");
+        guide.className = "apology-reading-guide";
+        guide.lang = "en";
+        guide.textContent = p.translation;
+        block.appendChild(guide);
+      }
       return block;
     });
     container.replaceChildren(...elements);
-    if (selected) {
+    if (selected && mode !== "english") {
       const [s, i] = selected.split("-").map(Number);
       selectWord(s, i);
+    } else if (mode === "english") {
+      inspector?.classList.remove("is-open");
     }
   }
   modeRadios.forEach(radio => radio.addEventListener("change", () => setMode(radio.value)));
@@ -264,6 +298,19 @@
   complete.addEventListener("change", () => {
     try { complete.checked ? localStorage.setItem(progressKey, "read") : localStorage.removeItem(progressKey); } catch (_) {}
     showProgress();
+  });
+  if (jump) {
+    const stops = [1, 5, 10, 15, 20, 25, 30, 34];
+    stops.forEach(number => {
+      const link = document.createElement("a");
+      link.href = "#apology-section-" + number;
+      link.textContent = "§" + number;
+      jump.appendChild(link);
+    });
+  }
+  closeDetails?.addEventListener("click", () => inspector?.classList.remove("is-open"));
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") inspector?.classList.remove("is-open");
   });
   showProgress();
   render();
