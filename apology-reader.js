@@ -107,7 +107,7 @@
   function clearAndAppend(parent, ...children) { parent.replaceChildren(...children); }
   function setMode(next) {
     mode = next;
-    if (next !== "greek") support.checked = true;
+    support.checked = next !== "greek";
     modeRadios.forEach(radio => { radio.checked = radio.value === next; });
     render();
   }
@@ -169,7 +169,7 @@
         button.className = "apology-word";
         button.dataset.apologyWord = s + "-" + (i + 1);
         button.setAttribute("aria-pressed", "false");
-        button.setAttribute("aria-label", w[0].replace(/[.,;·]$/u, "") + "; show grammatical analysis");
+        button.setAttribute("aria-label", w[0].replace(/[.,;·]$/u, "") + (mode === "interlinear" && support.checked ? "; " + w[1] : "") + "; show grammatical analysis");
         const greek = document.createElement("span");
         greek.className = "apology-greek-token";
         greek.textContent = w[0];
@@ -179,7 +179,6 @@
           gloss.className = "apology-english-gloss";
           gloss.lang = "en";
           gloss.textContent = w[1];
-          gloss.setAttribute("aria-hidden", "true");
           button.appendChild(gloss);
         }
         button.addEventListener("click", () => selectWord(s, i + 1));
@@ -195,11 +194,7 @@
     }
   }
   modeRadios.forEach(radio => radio.addEventListener("change", () => setMode(radio.value)));
-  support.addEventListener("change", () => {
-    if (!support.checked && mode === "english") { setMode("greek"); support.checked = false; }
-    if (!support.checked && mode === "interlinear") { setMode("greek"); support.checked = false; }
-    render();
-  });
+  support.addEventListener("change", () => setMode(support.checked ? "interlinear" : "greek"));
   complete.addEventListener("change", () => {
     try { complete.checked ? localStorage.setItem(progressKey, "read") : localStorage.removeItem(progressKey); } catch (_) {}
     showProgress();
