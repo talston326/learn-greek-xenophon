@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#73000a">
+  <title>Xenophon's Apology — Interactive Reader</title>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css?v=admin-workspace-20261005">
+  <link rel="stylesheet" href="apology-reader.css?v=prototype-1">
+</head>
+<body class="dashboard-active apology-reader-page">
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="usc-badge" role="img" aria-label="University of South Carolina logo"></div>
+        <h1>UNIVERSITY OF<br>South Carolina</h1>
+        <div class="dept">Department of Classics</div>
+        <div class="course-code">GREK 120 J10</div>
+        <div class="course-title">Learn Ancient Greek with Xenophon</div>
+        <div class="term">Fall 2027</div>
+      </div>
+      <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-expanded="true" aria-label="Collapse navigation">
+        <span class="sidebar-toggle-icon" aria-hidden="true">‹</span>
+        <span class="sidebar-toggle-label">Collapse</span>
+      </button>
+      <nav class="nav"></nav>
+      <div class="sidebar-card profile">
+        <div class="avatar" data-profile-avatar></div>
+        <div class="profile-copy">
+          <h3 data-profile-name>Student Profile</h3>
+          <div class="muted" data-profile-summary>Your learner details will appear here after login.</div>
+          <div class="profile-link"><a class="small-link" href="profile.html" data-profile-link>Complete Profile →</a></div>
+          <div class="profile-link"><button class="small-link link-button" type="button" data-logout>Log out</button></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero apology-hero">
+        <div class="hero-copy">
+          <p class="dashboard-context"><a href="resources.html">Resources</a> / Library of Ancient Greek Readings</p>
+          <p class="eyebrow">Optional capstone · Authentic Greek · Prototype</p>
+          <h2>Xenophon's Apology of Socrates</h2>
+          <p lang="grc" class="apology-subtitle">Ἀπολογία Σωκράτους</p>
+          <p>Read Xenophon's own Greek in its original order. Switch reading modes, explore grammar, and trace relationships between words.</p>
+        </div>
+      </section>
+
+      <div class="apology-status-line">
+        <strong>Reading unit 1 of 34 · §1</strong>
+        <span data-reading-progress role="status">Not yet marked complete</span>
+      </div>
+
+      <section class="apology-workspace" aria-label="Interactive Apology reader">
+        <article class="apology-primary">
+          <div class="apology-toolbar">
+            <fieldset class="apology-modes" aria-label="Reading mode">
+              <legend class="visually-hidden">Reading mode</legend>
+              <label><input type="radio" name="reader-mode" value="greek"> Original Greek</label>
+              <label><input type="radio" name="reader-mode" value="interlinear" checked> Interlinear</label>
+              <label><input type="radio" name="reader-mode" value="english"> English</label>
+            </fieldset>
+            <label class="apology-support-toggle">
+              <input type="checkbox" data-translation-support checked>
+              Show translation support
+            </label>
+          </div>
+          <div class="apology-reading-title">
+            <div>
+              <p class="eyebrow">Xenophon · Apology §1</p>
+              <h3>Why Socrates spoke so boldly</h3>
+            </div>
+            <span class="apology-authentic-label">Unadapted Attic Greek</span>
+          </div>
+          <p class="apology-help" id="apology-instructions">Tap or focus any Greek word to see its lemma, morphology, and syntax. Related words are highlighted.</p>
+          <div data-reader-passage aria-describedby="apology-instructions"></div>
+          <div class="apology-completion">
+            <label><input type="checkbox" data-mark-complete> Mark §1 as read</label>
+            <span>Prototype progress is saved on this device only. It does not affect lesson grades or completion.</span>
+          </div>
+        </article>
+
+        <aside class="apology-inspector" aria-label="Greek word analysis">
+          <p class="eyebrow">Word study</p>
+          <div data-word-details aria-live="polite">
+            <h3>Select a Greek word</h3>
+            <p>Lemma, definition, parsing, and the word's role in the sentence will appear here.</p>
+          </div>
+        </aside>
+      </section>
+      <section class="apology-source-note">
+        <h3>About this reading</h3>
+        <p>This prototype covers only <strong>§1</strong>. The complete work contains 34 numbered sections. The Greek follows E. C. Marchant's 1921 edition, available through
+          <a href="https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0032.tlg005.perseus-grc2:1/" target="_blank" rel="noopener noreferrer">Perseus</a>.
+          English glosses, translation, and linguistic annotations are original course materials and should receive a Classics instructor's review before full publication.</p>
+      </section>
+    </main>
+  </div>
+  <script src="auth.js"></script>
+  <script src="profile-data.js"></script>
+  <script src="site-policy.js?v=admin-workspace-20261005"></script>
+  <script src="script.js?v=module3-20261014"></script>
+  <script src="apology-reader.js?v=prototype-1"></script>
+</body>
+</html>
