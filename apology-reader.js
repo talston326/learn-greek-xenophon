@@ -1,8 +1,7 @@
 (function () {
   "use strict";
-  // Xenophon, Apology 1. Greek: E. C. Marchant, ed. (1921), Perseus.
-  // Glosses, morphology and syntax notes: prototype annotations for instructor review.
-  const passages = [
+  // Xenophon, Apology §1. Greek: E. C. Marchant, ed. (1921), Perseus.
+  const sectionOneSentences = [
     {
       translation: "It seems to me worth recalling Socrates, including how, when he was summoned to trial, he considered both his defense and the end of his life.",
       words: [
@@ -86,6 +85,21 @@
       ]
     }
   ];
+  // Preserve the existing hand-annotated §1 words while presenting §1 as a
+  // single numbered section. Related-word indices previously reset at each
+  // sentence, so offset them when joining the three sentence arrays.
+  const sectionOneWords = [];
+  sectionOneSentences.forEach(sentence => {
+    const offset = sectionOneWords.length;
+    sentence.words.forEach(word => sectionOneWords.push([
+      ...word.slice(0, 5), word[5].map(index => index + offset)
+    ]));
+  });
+  const passages = [{
+    number: 1,
+    translation: sectionOneSentences.map(sentence => sentence.translation).join(" "),
+    words: sectionOneWords
+  }, ...(window.apologyContinuation || [])];
   const GreekWordIds = new Set();
   passages.forEach((p, s) => p.words.forEach((w, i) => GreekWordIds.add(s + "-" + (i + 1))));
   const container = document.querySelector("[data-reader-passage]");
@@ -99,10 +113,10 @@
   let selected = null;
   const session = window.xenophonAuth?.readSession?.();
   const learner = session?.email?.trim().toLowerCase() || "guest";
-  const progressKey = "xenophon-apology-prototype-v1:section-1:" + learner;
+  const progressKey = "xenophon-apology-preview-v2:sections-1-10:" + learner;
   try { complete.checked = localStorage.getItem(progressKey) === "read"; } catch (_) {}
   function showProgress() {
-    progress.textContent = complete.checked ? "§1 marked as read (1 of 34 sections)" : "§1 not yet marked complete";
+    progress.textContent = complete.checked ? "Preview marked as read" : "Preview not yet marked as read";
   }
   function clearAndAppend(parent, ...children) { parent.replaceChildren(...children); }
   function setMode(next) {
@@ -117,7 +131,7 @@
     if (!word) return;
     const links = word[5].filter(i => GreekWordIds.has(s + "-" + i));
     const heading = document.createElement("h3");
-    heading.textContent = word[0].replace(/[.,;·]$/u, "");
+    heading.textContent = word[0].replace(/[.,;·:!?]$/u, "");
     heading.lang = "grc";
     const fields = [["Lemma", word[2]], ["Meaning", word[1]], ["Parsing", word[3]], ["Syntax", word[4]]];
     const dl = document.createElement("dl");
@@ -132,7 +146,7 @@
     links.forEach(i => {
       const b = document.createElement("button");
       b.type = "button";
-      b.textContent = passages[s].words[i - 1][0].replace(/[.,;·]$/u, "");
+      b.textContent = passages[s].words[i - 1][0].replace(/[.,;·:!?]$/u, "");
       b.lang = "grc";
       b.addEventListener("click", () => selectWord(s, i));
       related.appendChild(b);
@@ -150,8 +164,9 @@
       const block = document.createElement("section");
       block.className = "apology-paragraph";
       const number = document.createElement("span");
-      number.className = "apology-sentence-number";
-      number.textContent = "Sentence " + (s + 1);
+      number.className = "apology-section-number";
+      number.textContent = p.number;
+      number.setAttribute("aria-label", "Section " + p.number);
       block.appendChild(number);
       if (mode === "english") {
         const english = document.createElement("p");
@@ -169,7 +184,7 @@
         button.className = "apology-word";
         button.dataset.apologyWord = s + "-" + (i + 1);
         button.setAttribute("aria-pressed", "false");
-        button.setAttribute("aria-label", w[0].replace(/[.,;·]$/u, "") + (mode === "interlinear" && support.checked ? "; " + w[1] : "") + "; show grammatical analysis");
+        button.setAttribute("aria-label", w[0].replace(/[.,;·:!?]$/u, "") + (mode === "interlinear" && support.checked ? "; " + w[1] : "") + "; show grammatical analysis");
         const greek = document.createElement("span");
         greek.className = "apology-greek-token";
         greek.textContent = w[0];
