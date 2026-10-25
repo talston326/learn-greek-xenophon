@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css?v=admin-workspace-20261005">
-  <link rel="stylesheet" href="apology-reader.css?v=sections-1-10-stoa-mobile">
+  <link rel="stylesheet" href="apology-reader.css?v=reading-order-1">
 </head>
 <body class="dashboard-active apology-reader-page">
   <div class="app">
@@ -59,8 +59,9 @@
           <div class="apology-toolbar">
             <fieldset class="apology-modes" aria-label="Reading mode">
               <legend class="visually-hidden">Reading mode</legend>
-              <label><input type="radio" name="reader-mode" value="greek"> Original Greek</label>
+              <label><input type="radio" name="reader-mode" value="greek"> Greek</label>
               <label><input type="radio" name="reader-mode" value="interlinear" checked> Interlinear</label>
+              <label><input type="radio" name="reader-mode" value="reading-order"> Reading order</label>
               <label><input type="radio" name="reader-mode" value="english"> English</label>
             </fieldset>
             <label class="apology-support-toggle">
@@ -72,9 +73,10 @@
             <div>
               <p class="eyebrow">Xenophon · Apology §§1–10</p>
             </div>
-            <span class="apology-authentic-label">Unadapted Attic Greek</span>
+            <span class="apology-authentic-label" data-authentic-label>Unadapted Attic Greek</span>
           </div>
           <p class="apology-help" id="apology-instructions">Tap or focus any Greek word to see its lemma, morphology, and syntax. Related words are highlighted.</p>
+          <p class="apology-order-note" data-reading-order-note hidden>The same Greek words and blue glosses are rearranged into English reading order for §1, with short phrase hints below. This is a study arrangement; §§2–10 retain Xenophon's order in this trial.</p>
           <div data-reader-passage aria-describedby="apology-instructions"></div>
           <div class="apology-completion">
             <label><input type="checkbox" data-mark-complete> Mark this preview as read</label>
@@ -94,7 +96,7 @@
         <h3>About this reading</h3>
         <p>This preview covers <strong>§§1–9 and the opening of §10</strong>, ending at <span lang="grc">καὶ τοὺς νέους διαφθείροι,</span> where the source sentence continues. The complete work has 34 numbered sections. The Greek follows E. C. Marchant's 1921 edition at
           <a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0211" target="_blank" rel="noopener noreferrer">Perseus</a>.
-          The new §§2–10 word forms use provisional, machine assisted annotations from the <a href="https://huggingface.co/datasets/ciscoriordan/open-greek-corpus-annotations" target="_blank" rel="noopener noreferrer">Open Greek Corpus annotations</a> (CC BY-SA 4.0). Course glosses, translation, and syntax links are drafts for instructor review. The banner is an interpretive reconstruction of a court setting in the Agora; the precise trial venue is uncertain.</p>
+          The new §§2–10 word forms use provisional, machine assisted annotations from the <a href="https://huggingface.co/datasets/ciscoriordan/open-greek-corpus-annotations" target="_blank" rel="noopener noreferrer">Open Greek Corpus annotations</a> (CC BY-SA 4.0). Course glosses, translation, and syntax links are drafts for instructor review. The reading-order arrangement for §1 is an editorial study aid. The banner is an interpretive reconstruction of a court setting in the Agora; the precise trial venue is uncertain.</p>
       </section>
     </main>
   </div>
@@ -103,6 +105,6 @@
   <script src="site-policy.js?v=admin-workspace-20261005"></script>
   <script src="script.js?v=module3-20261014"></script>
   <script src="apology-reader-data.js?v=sections-1-10"></script>
-  <script src="apology-reader.js?v=sections-1-10"></script>
+  <script src="apology-reader.js?v=reading-order-1"></script>
 </body>
 </html>

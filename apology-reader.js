@@ -100,11 +100,32 @@
     translation: sectionOneSentences.map(sentence => sentence.translation).join(" "),
     words: sectionOneWords
   }, ...(window.apologyContinuation || [])];
+  // A manually arranged study trial for §1. Each original token index appears
+  // once; the other views always use Xenophon's printed order.
+  const sectionOneReadingOrder = [
+    { words: [4, 2, 5], english: "Now it seems to me" },
+    { words: [3, 6], english: "worthwhile" },
+    { words: [7, 1], english: "to recall Socrates" },
+    { words: [8, 9], english: "and how" },
+    { words: [10, 11, 12, 13, 14], english: "when he was summoned to trial" },
+    { words: [15], english: "he considered" },
+    { words: [16, 17, 18, 19, 20, 21, 22, 23, 24], english: "about both his defense and the end of his life", punctuation: "." },
+    { words: [31, 26, 27, 30, 25, 28, 29], english: "Others too, then, have written about this" },
+    { words: [32, 33, 34, 35, 36, 37], english: "and everyone remarked on his lofty speech", punctuation: "·" },
+    { words: [38, 39, 40], english: "from this it is clear" },
+    { words: [41, 42, 43, 44, 45, 46, 47], english: "that Socrates really spoke this way", punctuation: "." },
+    { words: [48, 58, 59, 60], english: "But they did not make this clear", punctuation: "·" },
+    { words: [49, 50, 51, 52], english: "that Socrates already thought for himself" },
+    { words: [57, 54, 53, 55, 56], english: "death to be more desirable than life" },
+    { words: [61, 66, 67, 63, 64, 65, 62], english: "so his lofty speech seems more foolish", punctuation: "." }
+  ];
   const GreekWordIds = new Set();
   passages.forEach((p, s) => p.words.forEach((w, i) => GreekWordIds.add(s + "-" + (i + 1))));
   const container = document.querySelector("[data-reader-passage]");
   const details = document.querySelector("[data-word-details]");
   const support = document.querySelector("[data-translation-support]");
+  const orderNote = document.querySelector("[data-reading-order-note]");
+  const authenticLabel = document.querySelector("[data-authentic-label]");
   const modeRadios = [...document.querySelectorAll('input[name="reader-mode"]')];
   const complete = document.querySelector("[data-mark-complete]");
   const progress = document.querySelector("[data-reading-progress]");
@@ -160,6 +181,29 @@
     });
   }
   function render() {
+    if (orderNote) orderNote.hidden = mode !== "reading-order";
+    if (authenticLabel) authenticLabel.textContent = mode === "reading-order" ? "§1 rearranged for study" : "Unadapted Attic Greek";
+    function wordButton(w, s, i, displayedForm) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "apology-word";
+      button.dataset.apologyWord = s + "-" + (i + 1);
+      button.setAttribute("aria-pressed", "false");
+      button.setAttribute("aria-label", w[0].replace(/[.,;·:!?]$/u, "") + ((mode === "interlinear" || mode === "reading-order") && support.checked ? "; " + w[1] : "") + "; show grammatical analysis");
+      const greek = document.createElement("span");
+      greek.className = "apology-greek-token";
+      greek.textContent = displayedForm ?? w[0];
+      button.appendChild(greek);
+      if ((mode === "interlinear" || mode === "reading-order") && support.checked) {
+        const gloss = document.createElement("span");
+        gloss.className = "apology-english-gloss";
+        gloss.lang = "en";
+        gloss.textContent = w[1];
+        button.appendChild(gloss);
+      }
+      button.addEventListener("click", () => selectWord(s, i + 1));
+      return button;
+    }
     const elements = passages.map((p, s) => {
       const block = document.createElement("section");
       block.className = "apology-paragraph";
@@ -175,29 +219,36 @@
         block.appendChild(english);
         return block;
       }
+      if (mode === "reading-order" && s === 0) {
+        const line = document.createElement("div");
+        line.className = "apology-reading-order";
+        line.lang = "grc";
+        sectionOneReadingOrder.forEach(group => {
+          const phrase = document.createElement("div");
+          phrase.className = "apology-reading-group";
+          const words = document.createElement("div");
+          words.className = "apology-reading-words";
+          group.words.forEach((index, position) => {
+            const w = p.words[index - 1];
+            const clean = w[0].replace(/[.,;·:!?]$/u, "");
+            const display = clean + (position === group.words.length - 1 ? group.punctuation || "" : "");
+            words.appendChild(wordButton(w, s, index - 1, display));
+          });
+          const hint = document.createElement("p");
+          hint.className = "apology-reading-phrase";
+          hint.lang = "en";
+          hint.textContent = group.english;
+          phrase.append(words, hint);
+          line.appendChild(phrase);
+        });
+        block.appendChild(line);
+        return block;
+      }
       const line = document.createElement("div");
-      line.className = mode === "interlinear" ? "apology-interlinear" : "apology-greek-prose";
+      line.className = mode === "interlinear" || mode === "reading-order" ? "apology-interlinear" : "apology-greek-prose";
       line.lang = "grc";
       p.words.forEach((w, i) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "apology-word";
-        button.dataset.apologyWord = s + "-" + (i + 1);
-        button.setAttribute("aria-pressed", "false");
-        button.setAttribute("aria-label", w[0].replace(/[.,;·:!?]$/u, "") + (mode === "interlinear" && support.checked ? "; " + w[1] : "") + "; show grammatical analysis");
-        const greek = document.createElement("span");
-        greek.className = "apology-greek-token";
-        greek.textContent = w[0];
-        button.appendChild(greek);
-        if (mode === "interlinear" && support.checked) {
-          const gloss = document.createElement("span");
-          gloss.className = "apology-english-gloss";
-          gloss.lang = "en";
-          gloss.textContent = w[1];
-          button.appendChild(gloss);
-        }
-        button.addEventListener("click", () => selectWord(s, i + 1));
-        line.appendChild(button);
+        line.appendChild(wordButton(w, s, i));
       });
       block.appendChild(line);
       return block;

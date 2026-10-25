@@ -5,7 +5,7 @@
 This course resource presents Xenophon’s *Apology* §§1–9 and the opening of §10, ending at `καὶ τοὺς νέους διαφθείροι,`. The complete work has 34 numbered sections. The reader is available from Resources and the optional panel below Lessons without course prerequisites.
 
 - Greek retains the printed order. A small gray section number precedes each section; sentence headings and editorial section titles are omitted.
-- Controls offer Greek, aligned Greek and English glosses, and natural English. Translation support can be hidden.
+- Controls offer original Greek, aligned interlinear glosses, a reading-order interlinear trial for §1, and natural English. Translation support can be hidden. The reading-order trial moves the original §1 token-and-gloss pairs into a manually arranged study sequence with short phrase hints; §§2–10 remain in original order in this mode pending editorial review.
 - Clicking a Greek word opens its lemma, gloss, morphology, and syntax note. Related words can be highlighted and selected.
 - The preview has 517 clickable Greek tokens: 67 from the original hand-annotated §1 prototype and 450 across the continuation.
 - Reading progress uses a local, per-account/per-device browser marker with a new key for this scope. It sends no grade or lesson-completion request and does not change XP, awards, or dashboards.
