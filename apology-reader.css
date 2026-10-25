@@ -1,0 +1,53 @@
+/* Xenophon's Apology reader prototype, isolated from lesson and grade styling. */
+.apology-reader-page .main { min-width: 0; }
+.apology-hero .hero-copy { max-width: 74rem; }
+.apology-hero .dashboard-context a { color: inherit; }
+.apology-subtitle { font-family: "Palatino Linotype", "New Athena Unicode", "Times New Roman", serif; font-size: clamp(1.35rem, 2.6vw, 2rem); margin: .25rem 0 .75rem; }
+.apology-status-line { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .65rem; margin: 1rem 0 1.25rem; }
+.apology-status-line span { color: #576475; font-size: .94rem; }
+.apology-workspace { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 330px); align-items: start; gap: 1.15rem; }
+.apology-primary, .apology-inspector, .apology-source-note { background: #fff; border: 1px solid #dfdfe4; border-radius: 16px; padding: clamp(1rem, 2vw, 1.6rem); box-shadow: 0 3px 12px rgb(15 28 50 / 5%); }
+.apology-primary { min-width: 0; }
+.apology-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; border-bottom: 1px solid #e2e4e8; padding-bottom: 1rem; }
+.apology-modes { border: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .35rem; margin: 0; min-width: 0; }
+.apology-modes label { display: flex; align-items: center; gap: .35rem; cursor: pointer; border-radius: 12px; border: 1px solid #d5d7df; padding: .5rem .65rem; font-weight: 600; font-size: .89rem; }
+.apology-modes label:has(input:checked) { border-color: #73000a; background: #f9edf0; color: #73000a; }
+.apology-modes input { accent-color: #73000a; }
+.apology-support-toggle { display: flex; gap: .45rem; align-items: center; cursor: pointer; font-size: .94rem; }
+.apology-support-toggle input, .apology-completion input { accent-color: #73000a; }
+.apology-reading-title { display: flex; align-items: start; justify-content: space-between; gap: .8rem; margin-top: 1.45rem; }
+.apology-reading-title h3 { margin: .15rem 0 0; font-size: clamp(1.25rem, 2vw, 1.65rem); }
+.apology-authentic-label { font-size: .78rem; color: #596675; border: 1px solid #e0e1e5; border-radius: 8px; padding: .35rem .5rem; white-space: nowrap; }
+.apology-help { color: #4d6179; font-size: .9rem; margin: 1rem 0; }
+.apology-paragraph { border-top: 1px solid #e5e7ec; padding: 1.2rem 0 1.35rem; }
+.apology-paragraph:first-child { border-top: 0; }
+.apology-sentence-number { display: block; color: #667184; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 650; margin-bottom: .7rem; }
+.apology-interlinear { display: flex; align-items: end; flex-wrap: wrap; gap: 0.75rem .3rem; }
+.apology-greek-prose { display: flex; align-items: baseline; flex-wrap: wrap; gap: .05rem .1rem; }
+.apology-word { appearance: none; background: transparent; border: 1px solid transparent; color: #181d30; padding: .12rem .22rem; border-radius: 8px; display: inline-flex; flex-direction: column; align-items: center; gap: .08rem; font-family: inherit; cursor: pointer; text-align: center; max-width: 100%; white-space: nowrap; }
+.apology-word:hover, .apology-word:focus-visible { border-color: #b6c9dd; background: #ecf4fe; outline-offset: 3px; }
+.apology-word.is-selected { border-color: #73000a; background: #f9e8e9; }
+.apology-word.is-related:not(.is-selected) { border-color: #b59e39; background: #fff5d2; }
+.apology-greek-token { font-family: "New Athena Unicode", "Palatino Linotype", "Times New Roman", serif; font-size: clamp(1.25rem, 2.15vw, 1.62rem); line-height: 1.4; }
+.apology-english-gloss { color: #2262a5; font-size: clamp(.71rem, 1.2vw, .83rem); line-height: 1.4; font-family: system-ui, sans-serif; }
+.apology-greek-prose .apology-word { padding: .1rem .15rem; }
+.apology-english-text { font-size: 1.08rem; line-height: 1.85; margin: 0; }
+.apology-inspector { position: sticky; top: 1rem; }
+.apology-inspector h3 { font-size: 1.65rem; margin: .6rem 0 .8rem; overflow-wrap: anywhere; }
+.apology-inspector dl { margin: 0; }
+.apology-inspector dt { color: #697381; font-weight: 700; font-size: .78rem; text-transform: uppercase; letter-spacing: .055em; margin-top: .9rem; }
+.apology-inspector dd { margin: .25rem 0 0; line-height: 1.5; overflow-wrap: anywhere; }
+.apology-inspector h4 { margin: 1.25rem 0 .5rem; }
+.apology-related { display: flex; flex-wrap: wrap; gap: .35rem; }
+.apology-related button { border: 1px solid #ded7c3; background: #fff9e9; color: #3b3441; padding: .3rem .45rem; border-radius: 8px; font-family: "Palatino Linotype", serif; font-size: 1.05rem; cursor: pointer; }
+.apology-related button:focus-visible { outline: 2px solid #73000a; }
+.apology-completion { border-top: 1px solid #e5e7ec; padding-top: 1.1rem; display: flex; flex-direction: column; align-items: start; gap: .5rem; }
+.apology-completion label { font-weight: 700; cursor: pointer; }
+.apology-completion span { font-size: .8rem; color: #626e7c; }
+.apology-source-note { margin-top: 1.25rem; font-size: .91rem; line-height: 1.6; }
+.apology-source-note h3 { margin: 0 0 .3rem; }
+.apology-source-note p { margin: 0; }
+.apology-source-note a { color: #0758a4; text-decoration: underline; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 1050px) { .apology-workspace { grid-template-columns: 1fr; } .apology-inspector { position: static; } }
+@media (max-width: 600px) { .apology-authentic-label { display: none; } .apology-modes { width: 100%; } .apology-modes label { flex: 1; justify-content: center; } .apology-interlinear { gap: .85rem .14rem; } .apology-word { white-space: normal; } }
