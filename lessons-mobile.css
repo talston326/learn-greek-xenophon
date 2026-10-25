@@ -1,0 +1,8 @@
+/* Keep the Lessons list and optional capstone accessible in the compact layout. */
+@media (max-width: 900px) {
+  body.dashboard-active.lessons-page .main { padding: 16px; }
+  body.dashboard-active.lessons-page .main > .hero,
+  body.dashboard-active.lessons-page .main > .lessons-shell,
+  body.dashboard-active.lessons-page .main > .lesson-section { display: block !important; }
+  body.dashboard-active.lessons-page .mobile-practice { display: none !important; }
+}
