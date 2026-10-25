@@ -100,8 +100,8 @@
     translation: sectionOneSentences.map(sentence => sentence.translation).join(" "),
     words: sectionOneWords
   }, ...(window.apologyContinuation || [])];
-  // A manually arranged study trial for §1. Each original token index appears
-  // once; the other views always use Xenophon's printed order.
+  // Each Reading order group uses an original token index exactly once;
+  // the other Greek views always use Xenophon's printed order.
   const sectionOneReadingOrder = [
     { words: [4, 2, 5], english: "Now it seems to me" },
     { words: [3, 6], english: "worthwhile" },
@@ -119,6 +119,18 @@
     { words: [57, 54, 53, 55, 56], english: "death to be more desirable than life" },
     { words: [61, 66, 67, 63, 64, 65, 62], english: "so his lofty speech seems more foolish", punctuation: "." }
   ];
+  function expandWordIndices(spec) {
+    return spec.trim().split(/\s+/).flatMap(part => {
+      const [first, last = first] = part.split("-").map(Number);
+      return Array.from({ length: last - first + 1 }, (_, offset) => first + offset);
+    });
+  }
+  const continuationReadingGroups = new Map(passages.slice(1).map(p => [
+    p.number,
+    (window.apologyReadingGroups?.[p.number] || []).map(([spec, english]) => ({
+      words: expandWordIndices(spec), english
+    }))
+  ]));
   const GreekWordIds = new Set();
   passages.forEach((p, s) => p.words.forEach((w, i) => GreekWordIds.add(s + "-" + (i + 1))));
   const container = document.querySelector("[data-reader-passage]");
@@ -184,7 +196,7 @@
       el.setAttribute("aria-pressed", String(id === selected));
     });
   }
-  function readingOrderForms(p) {
+  function readingOrderForms(p, orderedIndices) {
     const segments = [];
     const punctuation = new Map();
     let segment = 0;
@@ -194,8 +206,8 @@
       if (end) { punctuation.set(segment, end[0]); segment += 1; }
     });
     const lastInSegment = new Map();
-    p.readingOrder.forEach(index => lastInSegment.set(segments[index], index));
-    return new Map(p.readingOrder.map(index => [
+    orderedIndices.forEach(index => lastInSegment.set(segments[index], index));
+    return new Map(orderedIndices.map(index => [
       index,
       p.words[index - 1][0].replace(/[.,;·:!?]+$/u, "") +
         (lastInSegment.get(segments[index]) === index ? punctuation.get(segments[index]) || "" : "")
@@ -241,11 +253,13 @@
         block.appendChild(english);
         return block;
       }
-      if (mode === "reading-order" && s === 0) {
+      if (mode === "reading-order") {
         const line = document.createElement("div");
         line.className = "apology-reading-order";
         line.lang = "grc";
-        sectionOneReadingOrder.forEach(group => {
+        const groups = s === 0 ? sectionOneReadingOrder : continuationReadingGroups.get(p.number);
+        const forms = s === 0 ? null : readingOrderForms(p, groups.flatMap(group => group.words));
+        groups.forEach(group => {
           const phrase = document.createElement("div");
           phrase.className = "apology-reading-group";
           const words = document.createElement("div");
@@ -253,7 +267,9 @@
           group.words.forEach((index, position) => {
             const w = p.words[index - 1];
             const clean = w[0].replace(/[.,;·:!?]$/u, "");
-            const display = clean + (position === group.words.length - 1 ? group.punctuation || "" : "");
+            const display = s === 0
+              ? clean + (position === group.words.length - 1 ? group.punctuation || "" : "")
+              : forms.get(index);
             words.appendChild(wordButton(w, s, index - 1, display));
           });
           const hint = document.createElement("p");
@@ -264,25 +280,20 @@
           line.appendChild(phrase);
         });
         block.appendChild(line);
+        if (s > 0) {
+          const guide = document.createElement("p");
+          guide.className = "apology-reading-guide";
+          guide.lang = "en";
+          guide.textContent = p.translation;
+          block.appendChild(guide);
+        }
         return block;
       }
       const line = document.createElement("div");
-      line.className = mode === "interlinear" || mode === "reading-order" ? "apology-interlinear" : "apology-greek-prose";
+      line.className = mode === "interlinear" ? "apology-interlinear" : "apology-greek-prose";
       line.lang = "grc";
-      if (mode === "reading-order") {
-        const forms = readingOrderForms(p);
-        p.readingOrder.forEach(index => line.appendChild(wordButton(p.words[index - 1], s, index - 1, forms.get(index))));
-      } else {
-        p.words.forEach((w, i) => line.appendChild(wordButton(w, s, i)));
-      }
+      p.words.forEach((w, i) => line.appendChild(wordButton(w, s, i)));
       block.appendChild(line);
-      if (mode === "reading-order") {
-        const guide = document.createElement("p");
-        guide.className = "apology-reading-guide";
-        guide.lang = "en";
-        guide.textContent = p.translation;
-        block.appendChild(guide);
-      }
       return block;
     });
     container.replaceChildren(...elements);
