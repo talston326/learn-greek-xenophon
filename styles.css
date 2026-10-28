@@ -1215,22 +1215,27 @@
     }
 
     .reference-document-card a {
-      grid-template-rows: 1fr auto;
+      grid-template-rows: minmax(160px, 1fr) auto auto;
       min-height: 210px;
-      padding: 18px;
+      padding: 0;
+    }
+
+    .reference-document-card img {
+      object-fit: contain;
+      background: #d9e7ed;
     }
 
     .reference-document-card strong {
-      padding: 0;
+      padding: 12px 14px 6px;
       color: var(--usc-garnet);
-      font-size: 1.25rem;
-      align-self: center;
+      font-size: 1.02rem;
     }
 
     .reference-document-card span {
-      padding: 12px 0 0;
+      padding: 0 14px 12px;
       color: var(--muted);
-      border-top: 1px solid rgba(115,0,10,.12);
+      font-size: .85rem;
+      font-weight: 500;
     }
 
     .intro-lesson {
