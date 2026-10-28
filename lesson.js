@@ -659,6 +659,10 @@
         <div class="lesson-rich-text">
           ${renderParagraphsWithImage(culture.body, culture.image || culture.imageUrl, culture.imageAlt, culture.imagePlacement, culture.imageCaption)}
         </div>
+        ${culture.interactiveMap?.src === "maps/ten-thousand.html" ? `<figure class="culture-interactive-map">
+          <iframe src="maps/ten-thousand.html" title="${escapeHtml(culture.interactiveMap.title || "The March of the Ten Thousand animated route")}" loading="lazy" allow="fullscreen" allowfullscreen></iframe>
+          <figcaption>${escapeHtml(culture.interactiveMap.caption || "Animated route; historical locations are approximate.")} <a href="maps/ten-thousand.html" target="_blank" rel="noopener">Open full map ↗</a></figcaption>
+        </figure>` : ""}
         ${culturePlan.title ? `<figure class="culture-plan">
           <h2>${escapeHtml(culturePlan.title)}</h2>
           ${planImage ? `<img src="${escapeHtml(planImage)}" alt="${escapeHtml(culturePlan.alt || culturePlan.title)}">` : `<div class="culture-plan__placeholder" role="note">${escapeHtml(culturePlan.placeholder || "Plan image to be added.")}</div>`}

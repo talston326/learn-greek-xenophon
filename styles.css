@@ -3699,6 +3699,39 @@
       border-color: rgba(49,98,85,.2);
     }
 
+    .culture-interactive-map {
+      margin: 0;
+      min-width: 0;
+    }
+
+    .culture-interactive-map iframe {
+      display: block;
+      width: 100%;
+      height: min(78vh, 760px);
+      min-height: 580px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #c8dadd;
+    }
+
+    .culture-interactive-map figcaption {
+      margin-top: 9px;
+      color: #625e58;
+      font-size: .92rem;
+      line-height: 1.45;
+    }
+
+    .culture-interactive-map figcaption a {
+      white-space: nowrap;
+    }
+
+    @media (max-width: 760px) {
+      .culture-interactive-map iframe {
+        height: 1250px;
+        min-height: 0;
+      }
+    }
+
     .lesson-culture-banner {
       margin: 0;
     }

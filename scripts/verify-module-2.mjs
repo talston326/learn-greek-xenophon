@@ -15,7 +15,7 @@ const report = [];
 for(const lesson of lessons){
   const n=lesson.number, label=`Lesson ${n}`;
   assert.equal(lesson.id,`lesson-${n}`);
-  assert.equal(lesson.contentRevision,`lesson-${n}-module-2-v1`);
+  assert.equal(lesson.contentRevision,`lesson-${n}-module-2-v${n===13?2:1}`);
   assert(curriculum.includes(`Lesson ${n} — ${lesson.title}`),`${label}: curriculum title`);
   assert(outline.includes(`id: "lesson-${n}", title: ${JSON.stringify(lesson.title)}`),`${label}: outline`);
   assert.equal(lesson.pages.length,3,label);

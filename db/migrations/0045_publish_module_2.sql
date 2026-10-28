@@ -32,7 +32,7 @@ DECLARE
     {
       "page": 3,
       "slug": "lesson-13-page-3",
-      "title": "Sardis, Command, and Care",
+      "title": "The March of the Ten Thousand",
       "template": "culture"
     }
   ],
@@ -853,8 +853,16 @@ DECLARE
     }
   },
   "culture": {
-    "title": "Sardis, Command, and Care",
-    "body": [],
+    "title": "The March of the Ten Thousand",
+    "body": [
+      "Xenophon’s Anabasis tells the story of Cyrus the Younger’s expedition and the Greek troops who served him. In 401 BCE Cyrus assembled an army at Sardis, claiming that he meant to campaign against the Pisidians. His real aim was to challenge his brother, Artaxerxes II, for the Persian throne. The army marched deep into Mesopotamia and fought the king’s forces at Cunaxa, where Cyrus was killed.",
+      "After the Greek commanders were seized and killed, the soldiers chose new leaders, including Xenophon. They fought their way north through the mountains of Armenia, reached the Black Sea at Trapezus, and continued west. Xenophon’s account ends in western Asia Minor. Follow the journey on the animated map below; the route is a historical reconstruction, and some locations remain uncertain."
+    ],
+    "interactiveMap": {
+      "src": "maps/ten-thousand.html",
+      "title": "The March of the Ten Thousand animated route",
+      "caption": "Play the expedition from Sardis to Cunaxa, the Black Sea, and Pergamum. Select a stop or change the playback speed to explore the route."
+    },
     "sections": [
       {
         "title": "An army gathered by personal networks",
@@ -916,6 +924,10 @@ DECLARE
       ]
     },
     "sources": [
+      {
+        "title": "Xenophon, Anabasis, Books 1–7",
+        "url": "https://www.gutenberg.org/files/1170/1170-h/1170-h.htm"
+      },
       {
         "title": "Xenophon, Anabasis 1.2.1–5",
         "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Atlg%2C0032%2C006%3A1%3A2"
@@ -4605,7 +4617,7 @@ DECLARE
     "title": "Who Is Fit to Lead?",
     "fallbackUrl": "lesson.html?lesson=14&page=1"
   },
-  "contentRevision": "lesson-13-module-2-v1"
+  "contentRevision": "lesson-13-module-2-v2"
 }$json$::jsonb;
   lesson_id_value uuid;
   segment_id_value uuid;
