@@ -47,11 +47,12 @@ export default async (request: Request) => {
         JOIN public.user_credentials uc ON uc.user_id = u.id
         WHERE u.email = $1::citext
           AND u.status = 'active'
-          AND ur.role_id = 'student'
+          AND (ur.role_id = 'student' OR (ur.role_id = 'professor' AND uc.password_algorithm = 'pgcrypto-bcrypt'))
           AND (
             uc.password_hash = crypt($2, uc.password_hash)
             OR (
               uc.password_algorithm = 'development-class-password'
+              AND ur.role_id = 'student'
               AND $2 = ANY($3::text[])
               AND EXISTS (
                 SELECT 1
