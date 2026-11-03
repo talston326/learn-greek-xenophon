@@ -2786,6 +2786,11 @@
       margin-top: 18px;
     }
 
+    .flashcards-index {
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+      align-items: stretch;
+    }
+
     .lesson-hero {
       position: relative;
       min-height: clamp(300px, 18vw, 360px);
@@ -3098,6 +3103,19 @@
       min-width: 0;
       max-width: 100%;
       overflow-wrap: anywhere;
+    }
+
+    .vocab-entry__dictionary {
+      flex: 1 0 100%;
+      margin: -2px 0 8px;
+      color: var(--muted);
+      font-size: .58em;
+      line-height: 1.35;
+    }
+
+    .vocab-entry__dictionary .greek-text {
+      font-size: 1em;
+      font-weight: 500;
     }
 
     .vocab-audio-button {
@@ -4097,6 +4115,12 @@
 
     .flashcard-card__text:not(.greek-text) {
       font-size: clamp(1.45rem, 3.5vw, 2.75rem);
+    }
+
+    .flashcard-card__standard {
+      color: #65574e;
+      font-size: clamp(.95rem, 2vw, 1.2rem);
+      line-height: 1.4;
     }
 
     .flashcard-card.is-flipped .flashcard-card__label {
@@ -7681,6 +7705,7 @@
       body.dashboard-active.course-introduction-page .main,
       body.dashboard-active.feedback-page .main,
       body.dashboard-active.dictionary-page .main,
+      body.dashboard-active.flashcards-page .main,
       body.dashboard-active.forms-page .main,
       body.dashboard-active.resources-page .main,
       body.dashboard-active.principal-parts-page .main {
@@ -7705,6 +7730,9 @@
         display: block !important;
       }
       body.dashboard-active.dictionary-page .main > :not(.mobile-practice) {
+        display: grid !important;
+      }
+      body.dashboard-active.flashcards-page .main > :not(.mobile-practice) {
         display: grid !important;
       }
       body.dashboard-active.forms-page .main > :not(.mobile-practice),
@@ -7735,7 +7763,8 @@
         display: none;
       }
       body.dashboard-active.lesson-template-page .mobile-practice,
-      body.dashboard-active.activity-template-page .mobile-practice {
+      body.dashboard-active.activity-template-page .mobile-practice,
+      body.dashboard-active.flashcards-page .mobile-practice {
         display: none;
       }
       body.dashboard-active .lesson-header,

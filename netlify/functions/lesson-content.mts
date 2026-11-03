@@ -1,4 +1,5 @@
 import {readSitePolicy} from './_shared/site-policy.mts';
+import {vocabularyByLesson} from '../../content/vocabulary/reconciled.mjs';
 import {
   createDatabaseClient,
   getConnectionString,
@@ -337,6 +338,10 @@ export default async (request: Request) => {
         }) } : activity
       ])) : activities,
     });
+    const lessonNumber = Number(lesson.slug.slice('lesson-'.length));
+    if (Number.isInteger(lessonNumber) && vocabularyByLesson[lessonNumber]) {
+      assembled.vocabulary = vocabularyByLesson[lessonNumber];
+    }
 
     const policy=await readSitePolicy(client,lesson.course_id);
     if(isRecord(assembled.activities))for(const [key,activity] of Object.entries(assembled.activities)){

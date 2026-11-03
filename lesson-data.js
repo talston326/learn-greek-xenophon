@@ -236775,6 +236775,7 @@ Xenophon is young, but he wants to become wise.`;
         answer: item.english,
         greek: item.greek,
         english: item.english,
+        dictionaryForm: item.dictionaryForm || item.lemma || item.greek,
         category: group.category,
         ...(item.audioUrl ? { audioUrl: item.audioUrl } : {}),
         ...(item.audioPlaceholder ? { audioPlaceholder: true } : {}),

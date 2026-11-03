@@ -1,0 +1,8791 @@
+[
+  {
+    "lesson": 1,
+    "lemma": "ἄγω",
+    "old": "ἄγει",
+    "form": "ἄγει",
+    "english": "leads",
+    "issue": "exact",
+    "gloss": "leads"
+  },
+  {
+    "lesson": 1,
+    "lemma": "βαδίζω",
+    "old": "βαδίζει",
+    "form": "βαδίζει",
+    "english": "walks",
+    "issue": "exact",
+    "gloss": "walks"
+  },
+  {
+    "lesson": 1,
+    "lemma": "βλέπω",
+    "old": "βλέπει",
+    "form": "βλέπει",
+    "english": "sees, looks",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "θεραπεύω",
+    "old": "θεραπεύει",
+    "form": "θεραπεύει",
+    "english": "takes care of, tends",
+    "issue": "exact",
+    "gloss": "tends, takes care of"
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἕπομαι",
+    "old": "ἕπεται",
+    "form": "ἕπεται",
+    "english": "follows",
+    "issue": "exact",
+    "gloss": "follows"
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἔχω",
+    "old": "ἔχει",
+    "form": "ἔχει",
+    "english": "has",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "καλέω",
+    "old": "καλεῖ",
+    "form": "καλεῖ",
+    "english": "calls",
+    "issue": "exact",
+    "gloss": "calls"
+  },
+  {
+    "lesson": 1,
+    "lemma": "λέγω",
+    "old": "λέγει",
+    "form": "λέγει",
+    "english": "says",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "μένω",
+    "old": "μένει",
+    "form": "μένει",
+    "english": "remains, stays",
+    "issue": "exact",
+    "gloss": "stays, remains"
+  },
+  {
+    "lesson": 1,
+    "lemma": "οἰκέω",
+    "old": "οἰκεῖ",
+    "form": "οἰκεῖ",
+    "english": "lives",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ποιέω",
+    "old": "ποιεῖ",
+    "form": "ποιεῖς",
+    "english": "does, makes",
+    "issue": "gloss",
+    "gloss": "you are doing well"
+  },
+  {
+    "lesson": 1,
+    "lemma": "φέρω",
+    "old": "φέρει",
+    "form": "φέρει",
+    "english": "carries",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ὑλακτέω",
+    "old": "ὑλακτεῖ",
+    "form": "ὑλακτεῖ",
+    "english": "barks",
+    "issue": "exact",
+    "gloss": "barks"
+  },
+  {
+    "lesson": 1,
+    "lemma": "χαίρω",
+    "old": "χαίρει",
+    "form": "χαίρει",
+    "english": "rejoices, is glad",
+    "issue": "exact",
+    "gloss": "rejoices"
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἀγρός",
+    "old": "ὁ ἀγρός",
+    "form": "ἀγρόν",
+    "english": "field",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἀνήρ",
+    "old": "ὁ ἀνήρ",
+    "form": "ἄνδρα",
+    "english": "man, husband",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "Ἀθῆναι",
+    "old": "αἱ Ἀθῆναι",
+    "form": "Ἀθήναις",
+    "english": "Athens",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "δεσπότης",
+    "old": "ὁ δεσπότης",
+    "issue": "absent"
+  },
+  {
+    "lesson": 1,
+    "lemma": "δεῖπνον",
+    "old": "τὸ δεῖπνον",
+    "form": "δεῖπνον",
+    "english": "meal",
+    "issue": "exact",
+    "gloss": "dinner is ready"
+  },
+  {
+    "lesson": 1,
+    "lemma": "θύρα",
+    "old": "ἡ θύρα",
+    "form": "θύρᾳ",
+    "english": "door",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἵππος",
+    "old": "ὁ ἵππος",
+    "form": "ἵππον",
+    "english": "horse",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἱππεύς",
+    "old": "ὁ ἱππεύς",
+    "form": "ἱππεύς",
+    "english": "cavalryman, horseman",
+    "issue": "exact",
+    "gloss": "Athenian horseman"
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἱππικόν",
+    "old": "τὸ ἱππικόν",
+    "form": "ἱππικῷ",
+    "english": "cavalry",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "κύων",
+    "old": "ὁ κύων",
+    "form": "κύων",
+    "english": "dog",
+    "issue": "exact",
+    "gloss": "dog"
+  },
+  {
+    "lesson": 1,
+    "lemma": "λόφος",
+    "old": "ὁ λόφος",
+    "form": "λόφου",
+    "english": "hill",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "μήτηρ",
+    "old": "ἡ μήτηρ",
+    "form": "μήτηρ",
+    "english": "mother",
+    "issue": "exact",
+    "gloss": "mother"
+  },
+  {
+    "lesson": 1,
+    "lemma": "νεανίας",
+    "old": "ὁ νεανίας",
+    "form": "νεανίας",
+    "english": "young man",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "οἶκος",
+    "old": "ὁ οἶκος",
+    "form": "οἶκος",
+    "english": "house",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "πατήρ",
+    "old": "ὁ πατήρ",
+    "form": "πατὴρ",
+    "english": "father",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "παῖς",
+    "old": "ὁ παῖς",
+    "form": "παῖ",
+    "english": "boy; vocative address",
+    "issue": "manual",
+    "gloss": "O child, boy"
+  },
+  {
+    "lesson": 1,
+    "lemma": "σῖτος",
+    "old": "ὁ σῖτος",
+    "form": "σῖτον",
+    "english": "grain",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "υἱός",
+    "old": "ὁ υἱός",
+    "form": "υἱὸν",
+    "english": "son",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ὕδωρ",
+    "old": "τὸ ὕδωρ",
+    "form": "ὕδωρ",
+    "english": "water",
+    "issue": "exact",
+    "gloss": "water"
+  },
+  {
+    "lesson": 1,
+    "lemma": "Ξενοφῶν",
+    "old": "ὁ Ξενοφῶν",
+    "form": "Ξενοφῶν",
+    "english": "Xenophon",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "Γρύλλος",
+    "old": "ὁ Γρύλλος",
+    "form": "Γρύλλος",
+    "english": "Gryllus",
+    "issue": "exact",
+    "gloss": "Gryllus"
+  },
+  {
+    "lesson": 1,
+    "lemma": "Ἐρχία",
+    "old": "ἡ Ἐρχία",
+    "form": "Ἐρχίᾳ",
+    "english": "Erchia",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἀγαθός",
+    "old": "ἀγαθός",
+    "form": "ἀγαθὸς",
+    "english": "good",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "Ἀθηναῖος",
+    "old": "Ἀθηναῖος",
+    "form": "Ἀθηναῖος",
+    "english": "Athenian",
+    "issue": "exact",
+    "gloss": "Athenian horseman"
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἰσχυρός",
+    "old": "ἰσχυρός",
+    "form": "ἰσχυρόν",
+    "english": "strong",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "καλός",
+    "old": "καλός",
+    "form": "καλός",
+    "english": "beautiful, noble",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "νέος",
+    "old": "νέος",
+    "form": "νέος",
+    "english": "young",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἐν",
+    "old": "ἐν",
+    "form": "ἐν",
+    "english": "in",
+    "issue": "exact",
+    "gloss": "in"
+  },
+  {
+    "lesson": 1,
+    "lemma": "ἐπί",
+    "old": "ἐπί",
+    "form": "ἐπὶ",
+    "english": "on",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "εἶτα",
+    "old": "εἶτα",
+    "form": "εἶτα",
+    "english": "then",
+    "issue": "exact",
+    "gloss": "then"
+  },
+  {
+    "lesson": 1,
+    "lemma": "οὐ",
+    "old": "οὐ",
+    "form": "οὐκ",
+    "english": "not",
+    "issue": "manual",
+    "gloss": "not ... but"
+  },
+  {
+    "lesson": 1,
+    "lemma": "περί",
+    "old": "περί",
+    "form": "περὶ",
+    "english": "around",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 1,
+    "lemma": "πρός",
+    "old": "πρός",
+    "form": "πρὸς",
+    "english": "toward, to",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "Γρύλλος",
+    "old": "Γρύλλος",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἀγρός",
+    "old": "ἀγρός, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἄρτος",
+    "old": "ἄρτος, ὁ",
+    "form": "ἄρτον",
+    "english": "bread",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "γεωργός",
+    "old": "γεωργός, ὁ",
+    "form": "γεωργός",
+    "english": "farmer",
+    "issue": "exact",
+    "gloss": "adjective and noun agree: good farmer"
+  },
+  {
+    "lesson": 2,
+    "lemma": "δεῖπνον",
+    "old": "δεῖπνον, τό",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "δοῦλος",
+    "old": "δοῦλος, ὁ",
+    "form": "δοῦλος",
+    "english": "male slave; male household servant",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "δούλη",
+    "old": "δούλη, ἡ",
+    "form": "δοῦλαι",
+    "english": "female household servants",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἔργον",
+    "old": "ἔργον, τό",
+    "form": "ἔργον",
+    "english": "work; task",
+    "issue": "exact",
+    "gloss": "μετά with the accusative means “after”"
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἵππος",
+    "old": "ἵππος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "κῆπος",
+    "old": "κῆπος, ὁ",
+    "form": "κῆπον",
+    "english": "garden",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "γυνή",
+    "old": "γυνή, ἡ",
+    "form": "γυνή",
+    "english": "woman",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "μήτηρ",
+    "old": "μήτηρ, ἡ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "ὄνος",
+    "old": "ὄνος, ὁ/ἡ",
+    "form": "ὄνον",
+    "english": "donkey",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "οἰκία",
+    "old": "οἰκία, ἡ",
+    "form": "οἰκίᾳ",
+    "english": "house",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "οἶκος",
+    "old": "οἶκος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "παῖς",
+    "old": "παῖς, ὁ/ἡ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "πατήρ",
+    "old": "πατήρ, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "πέπλος",
+    "old": "πέπλος, ὁ",
+    "form": "πέπλους",
+    "english": "robes",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "ὕδωρ",
+    "old": "ὕδωρ, τό",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "ξύλον",
+    "old": "ξύλον, τό",
+    "form": "ξύλα",
+    "english": "pieces of wood",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἀγαθός",
+    "old": "ἀγαθός, -ή, -όν",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "μικρός",
+    "old": "μικρός, -ά, -όν",
+    "form": "μικρά",
+    "english": "small",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "βαδίζω",
+    "old": "βαδίζω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "δειπνέω",
+    "old": "δειπνέω",
+    "form": "δειπνοῦσιν",
+    "english": "they dine",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἐργάζομαι",
+    "old": "ἐργάζομαι",
+    "form": "ἐργάζεται",
+    "english": "he/she works",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "ἔρχομαι",
+    "old": "ἔρχομαι",
+    "form": "ἔρχεται",
+    "english": "he comes",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "κελεύω",
+    "old": "κελεύω",
+    "form": "κελεύει",
+    "english": "he/she orders",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "οἰκέω",
+    "old": "οἰκέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "form": "παρασκευάζουσιν",
+    "english": "they prepare",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "ὑφαίνω",
+    "old": "ὑφαίνω",
+    "form": "ὑφαίνουσιν",
+    "english": "they weave",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "φέρω",
+    "old": "φέρω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 2,
+    "lemma": "φιλέω",
+    "old": "φιλέω",
+    "form": "φιλεῖ",
+    "english": "he/she loves",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 2,
+    "lemma": "φυλάσσω",
+    "old": "φυλάσσω",
+    "form": "φυλάσσει",
+    "english": "he/she guards",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "Ὅμηρος",
+    "old": "Ὅμηρος, ὁ",
+    "form": "Ὅμηρον",
+    "english": "Homer",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἀκούω",
+    "old": "ἀκούω",
+    "form": "ἀκούει",
+    "english": "he/she hears",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἀναγιγνώσκω",
+    "old": "ἀναγιγνώσκω",
+    "form": "ἀναγιγνώσκει",
+    "english": "he/she reads",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "βλέπω",
+    "old": "βλέπω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "βούλομαι",
+    "old": "βούλομαι",
+    "form": "βούλομαι",
+    "english": "I wish",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "γίγνομαι",
+    "old": "γενέσθαι",
+    "form": "γενέσθαι",
+    "english": "to become",
+    "issue": "exact",
+    "gloss": "“He wants to become wise.” Treat γενέσθαι as a vocabulary form here; the aorist system comes later."
+  },
+  {
+    "lesson": 3,
+    "lemma": "γράμμα",
+    "old": "γράμμα, τό",
+    "form": "γράμματα",
+    "english": "letters",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "γράφω",
+    "old": "γράφω",
+    "form": "γράφει",
+    "english": "he/she writes",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "διδάσκαλος",
+    "old": "διδάσκαλος, ὁ",
+    "form": "διδάσκαλος",
+    "english": "teacher",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "διδασκαλεῖον",
+    "old": "διδασκαλεῖον, τό",
+    "form": "διδασκαλεῖον",
+    "english": "school",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "διδάσκω",
+    "old": "διδάσκω",
+    "form": "διδάσκει",
+    "english": "he teaches",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἐκεῖ",
+    "old": "ἐκεῖ",
+    "form": "ἐκεῖ",
+    "english": "there",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἐκεῖνος",
+    "old": "ἐκεῖνος, ἐκείνη, ἐκεῖνο",
+    "form": "ἐκεῖνος",
+    "english": "that",
+    "issue": "exact",
+    "gloss": "“That donkey.” The demonstrative agrees with ὄνος."
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἔπος",
+    "old": "ἔπος, τό",
+    "form": "ἔπη",
+    "english": "verses",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἐσθίω",
+    "old": "ἐσθίω",
+    "form": "ἐσθίει",
+    "english": "he/she eats",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "θεραπεύω",
+    "old": "θεραπεύω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "κομίζω",
+    "old": "κομίζω",
+    "form": "κομίζει",
+    "english": "he/she carries",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "λούομαι",
+    "old": "λούομαι",
+    "form": "λούεται",
+    "english": "he bathes",
+    "issue": "manual",
+    "gloss": "Present middle: “he washes himself” or “he bathes.”"
+  },
+  {
+    "lesson": 3,
+    "lemma": "μανθάνω",
+    "old": "μανθάνω",
+    "form": "μανθάνει",
+    "english": "he/she learns",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "μουσική",
+    "old": "μουσική, ἡ",
+    "form": "μουσικὴν",
+    "english": "music",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "νέος",
+    "old": "νέος, νέα, νέον",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "οὗτος",
+    "old": "οὗτος, αὕτη, τοῦτο",
+    "form": "οὗτος",
+    "english": "this",
+    "issue": "exact",
+    "gloss": "“This horse.” The demonstrative and noun agree in gender, number, and case."
+  },
+  {
+    "lesson": 3,
+    "lemma": "παιδαγωγός",
+    "old": "παιδαγωγός, ὁ",
+    "form": "παιδαγωγὸς",
+    "english": "attendant who escorts and supervises a boy",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "παιδεύω",
+    "old": "παιδεύω",
+    "form": "παιδεύειν",
+    "english": "to educate",
+    "issue": "gloss",
+    "gloss": "“They want to educate.” The infinitive παιδεύειν completes the meaning of βούλονται."
+  },
+  {
+    "lesson": 3,
+    "lemma": "ποιέω",
+    "old": "ποιέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "σκοπέω",
+    "old": "σκοπέω",
+    "form": "σκοπεῖ",
+    "english": "he/she examines",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "σοφός",
+    "old": "σοφός, σοφή, σοφόν",
+    "form": "σοφὸς",
+    "english": "wise",
+    "issue": "exact",
+    "gloss": "“He wants to become wise.” Treat γενέσθαι as a vocabulary form here; the aorist system comes later."
+  },
+  {
+    "lesson": 3,
+    "lemma": "ζῷον",
+    "old": "ζῷον, τό",
+    "form": "ζῷα",
+    "english": "animals",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἀγρός",
+    "old": "ἀγρός, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἄρτος",
+    "old": "ἄρτος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "δοῦλος",
+    "old": "δοῦλος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "δούλη",
+    "old": "δούλη, ἡ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἔργον",
+    "old": "ἔργον, τό",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "ἵππος",
+    "old": "ἵππος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "κελεύω",
+    "old": "κελεύω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "κῆπος",
+    "old": "κῆπος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "μήτηρ",
+    "old": "μήτηρ, ἡ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "οἰκία",
+    "old": "οἰκία, ἡ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "ὄνος",
+    "old": "ὄνος, ὁ/ἡ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "παῖς",
+    "old": "παῖς, ὁ/ἡ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "πατήρ",
+    "old": "πατήρ, ὁ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "πέπλος",
+    "old": "πέπλος, ὁ",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "ὕδωρ",
+    "old": "ὕδωρ, τό",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "ὑφαίνω",
+    "old": "ὑφαίνω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "φέρω",
+    "old": "φέρω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 3,
+    "lemma": "φιλέω",
+    "old": "φιλέω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "φυλάσσω",
+    "old": "φυλάσσω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 3,
+    "lemma": "ξύλον",
+    "old": "ξύλον, τό",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 4,
+    "lemma": "ἱππεύς",
+    "old": "ὁ ἱππεύς",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 4,
+    "lemma": "κράνος",
+    "old": "τὸ κράνος",
+    "form": "κράνος",
+    "english": "helmet",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "θώραξ",
+    "old": "ὁ θώραξ",
+    "form": "θώρακα",
+    "english": "cuirass",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "λόγχη",
+    "old": "ἡ λόγχη",
+    "form": "λόγχην",
+    "english": "spear",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "ἀσπίς",
+    "old": "ἡ ἀσπίς",
+    "form": "ἀσπίδα",
+    "english": "shield",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "αὐλή",
+    "old": "ἡ αὐλή",
+    "form": "αὐλῇ",
+    "english": "courtyard",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "χαλκός",
+    "old": "ὁ χαλκός",
+    "form": "χαλκὸς",
+    "english": "bronze",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "πόλεμος",
+    "old": "ὁ πόλεμος",
+    "form": "πόλεμον",
+    "english": "war",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "θεωρέω",
+    "old": "θεωρέω",
+    "form": "θεωρεῖ",
+    "english": "he/she observes",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "ψήχω",
+    "old": "ψήχω",
+    "form": "ψήχει",
+    "english": "he grooms",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "καθαίρω",
+    "old": "καθαίρω",
+    "form": "καθαίρει",
+    "english": "he/she cleans",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "μέλλω",
+    "old": "μέλλω",
+    "form": "μέλλει",
+    "english": "he/she is about to",
+    "issue": "gloss",
+    "gloss": "is about to go away"
+  },
+  {
+    "lesson": 4,
+    "lemma": "ἀναβαίνω",
+    "old": "ἀναβαίνω",
+    "form": "ἀναβαίνει",
+    "english": "he/she mounts",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "ἐπιμελής",
+    "old": "ἐπιμελής",
+    "form": "ἐπιμελὴς",
+    "english": "careful, diligent",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 4,
+    "lemma": "προθύμως",
+    "old": "προθύμως",
+    "form": "προθύμως",
+    "english": "eagerly, willingly",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "στενωπός",
+    "old": "ὁ στενωπός",
+    "form": "στενωπὸς",
+    "english": "narrow lane",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "βακτηρία",
+    "old": "ἡ βακτηρία",
+    "form": "βακτηρία",
+    "english": "walking stick, staff",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἔμπορος",
+    "old": "ὁ ἔμπορος",
+    "form": "ἔμποροι",
+    "english": "the merchants",
+    "issue": "gloss",
+    "gloss": "the merchants; supplied nominative plural"
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἄρτος",
+    "old": "ὁ ἄρτος",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 5,
+    "lemma": "οἶνος",
+    "old": "ὁ οἶνος",
+    "form": "οἶνον",
+    "english": "wine",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἀγορά",
+    "old": "ἡ ἀγορά",
+    "form": "ἀγορᾷ",
+    "english": "marketplace",
+    "issue": "exact",
+    "gloss": "in the marketplace"
+  },
+  {
+    "lesson": 5,
+    "lemma": "σοφία",
+    "old": "ἡ σοφία",
+    "form": "σοφίαν",
+    "english": "wisdom",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "φίλος",
+    "old": "ὁ φίλος",
+    "form": "φίλοι",
+    "english": "the friends",
+    "issue": "gloss",
+    "gloss": "the friends; supplied nominative plural"
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἐθέλω",
+    "old": "ἐθέλω",
+    "form": "ἐθέλω",
+    "english": "I wish",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "σπεύδω",
+    "old": "σπεύδω",
+    "form": "σπεύδειν",
+    "english": "to hurry",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἐκτείνω",
+    "old": "ἐκτείνω",
+    "form": "ἐκτείνει",
+    "english": "he/she stretches out",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "κωλύω",
+    "old": "κωλύω",
+    "form": "κωλύει",
+    "english": "he/she hinders",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "γιγνώσκω",
+    "old": "γιγνώσκω",
+    "form": "γιγνώσκω",
+    "english": "I know",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "μανθάνω",
+    "old": "μανθάνω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 5,
+    "lemma": "λαμβάνω",
+    "old": "λαμβάνω",
+    "form": "λαμβάνειν",
+    "english": "to take",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "στενός",
+    "old": "στενός",
+    "form": "στενός",
+    "english": "narrow",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "καλός",
+    "old": "καλός",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἀγαθός",
+    "old": "ἀγαθός",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "ποῦ",
+    "old": "ποῦ",
+    "form": "ποῦ",
+    "english": "where?",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἐκεῖ",
+    "old": "ἐκεῖ",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 5,
+    "lemma": "πάλιν",
+    "old": "πάλιν",
+    "form": "πάλιν",
+    "english": "again",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "οὐκέτι",
+    "old": "οὐκέτι",
+    "form": "οὐκέτι",
+    "english": "no longer",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 5,
+    "lemma": "βαδίζω",
+    "old": "βαδίζω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "λέγω",
+    "old": "λέγω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἀκούω",
+    "old": "ἀκούω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 5,
+    "lemma": "βλέπω",
+    "old": "βλέπω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "φέρω",
+    "old": "φέρω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 5,
+    "lemma": "ἔχω",
+    "old": "ἔχω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 6,
+    "lemma": "γυμνάσιον",
+    "old": "τὸ γυμνάσιον",
+    "form": "γυμνάσιον",
+    "english": "gymnasium, place for exercise",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "πάλη",
+    "old": "ἡ πάλη",
+    "form": "πάλην",
+    "english": "wrestling",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "παγκράτιον",
+    "old": "τὸ παγκράτιον",
+    "form": "παγκράτιον",
+    "english": "pankration, a wrestling and striking contest",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "ἄνθρωπος",
+    "old": "ὁ ἄνθρωπος",
+    "form": "ἀνθρώπων",
+    "english": "people",
+    "issue": "manual",
+    "gloss": "of people; genitive plural, with shifting accent"
+  },
+  {
+    "lesson": 6,
+    "lemma": "σῶμα",
+    "old": "τὸ σῶμα",
+    "form": "σῶμα",
+    "english": "body",
+    "issue": "manual",
+    "gloss": "his body"
+  },
+  {
+    "lesson": 6,
+    "lemma": "ἀθλητής",
+    "old": "ὁ ἀθλητής",
+    "form": "ἀθλητής",
+    "english": "athlete, competitor",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "ἰδιώτης",
+    "old": "ὁ ἰδιώτης",
+    "form": "ἰδιώτης",
+    "english": "ordinary private person, non-specialist",
+    "issue": "exact",
+    "gloss": "ordinary private person, not a professional competitor"
+  },
+  {
+    "lesson": 6,
+    "lemma": "γυμνάζω",
+    "old": "γυμνάζω",
+    "form": "γυμνάζουσιν",
+    "english": "they exercise",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "παλαίω",
+    "old": "παλαίω",
+    "form": "παλαίετε",
+    "english": "you wrestle",
+    "issue": "gloss",
+    "gloss": "you are wrestling well; plural you"
+  },
+  {
+    "lesson": 6,
+    "lemma": "ἀσκέω",
+    "old": "ἀσκέω",
+    "form": "ἀσκοῦσιν",
+    "english": "they practice",
+    "issue": "manual",
+    "gloss": "they practice; contract verb form, supplied"
+  },
+  {
+    "lesson": 6,
+    "lemma": "ἄλλος",
+    "old": "ἄλλος, ἄλλη, ἄλλο",
+    "form": "ἄλλοι",
+    "english": "others",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "χρήσιμος",
+    "old": "χρήσιμος, χρησίμη, χρήσιμον",
+    "form": "χρήσιμόν",
+    "english": "is useful",
+    "issue": "gloss",
+    "gloss": "is useful; χρήσιμον gains an extra accent before ἐστι"
+  },
+  {
+    "lesson": 6,
+    "lemma": "πολλάκις",
+    "old": "πολλάκις",
+    "form": "πολλάκις",
+    "english": "often",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 6,
+    "lemma": "ἄριστος",
+    "old": "ἄριστος, ἀρίστη, ἄριστον",
+    "form": "ἄριστοι",
+    "english": "best, very good; here, closest (of friends)",
+    "issue": "gloss",
+    "gloss": "closest, very good; nominative plural of ἄριστος"
+  },
+  {
+    "lesson": 7,
+    "lemma": "πομπή",
+    "old": "ἡ πομπή",
+    "form": "πομπὴ",
+    "english": "procession",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 7,
+    "lemma": "πύλη",
+    "old": "ἡ πύλη",
+    "form": "πύλην",
+    "english": "gate",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 7,
+    "lemma": "ἀδελφή",
+    "old": "ἡ ἀδελφή",
+    "form": "ἀδελφὴ",
+    "english": "sister",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 7,
+    "lemma": "θεά",
+    "old": "ἡ θεά",
+    "form": "θεᾷ",
+    "english": "goddess",
+    "issue": "exact",
+    "gloss": "to the goddess; dative singular of θεά"
+  },
+  {
+    "lesson": 7,
+    "lemma": "χώρα",
+    "old": "ἡ χώρα",
+    "form": "χώρᾳ",
+    "english": "countryside, land",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 7,
+    "lemma": "γῆ",
+    "old": "ἡ γῆ",
+    "form": "γῆ",
+    "english": "the earth or land",
+    "issue": "exact",
+    "gloss": "the earth or land"
+  },
+  {
+    "lesson": 7,
+    "lemma": "σῖτος",
+    "old": "ὁ σῖτος",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 7,
+    "lemma": "δῶρον",
+    "old": "τὸ δῶρον",
+    "form": "δῶρα",
+    "english": "gifts",
+    "issue": "manual",
+    "gloss": "gifts; neuter plural"
+  },
+  {
+    "lesson": 7,
+    "lemma": "ὁδός",
+    "old": "ἡ ὁδός",
+    "form": "ὁδὸς",
+    "english": "road (feminine second-declension noun; full pattern in Lesson 8)",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 7,
+    "lemma": "βαδίζω",
+    "old": "βαδίζω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 7,
+    "lemma": "βλέπω",
+    "old": "βλέπω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 7,
+    "lemma": "φέρω",
+    "old": "φέρω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 7,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 7,
+    "lemma": "ἄγω",
+    "old": "ἄγω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 7,
+    "lemma": "ζητέω",
+    "old": "ζητέω",
+    "form": "ζητεῖ",
+    "english": "he/she seeks",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 7,
+    "lemma": "ἐγώ",
+    "old": "ἐγώ",
+    "form": "ἐγὼ",
+    "english": "I",
+    "issue": "exact",
+    "gloss": "I see; first-person singular"
+  },
+  {
+    "lesson": 7,
+    "lemma": "σύ",
+    "old": "σύ",
+    "form": "σὺ",
+    "english": "you (singular)",
+    "issue": "exact",
+    "gloss": "you see; second-person singular"
+  },
+  {
+    "lesson": 7,
+    "lemma": "ἡμεῖς",
+    "old": "ἡμεῖς",
+    "form": "ἡμεῖς",
+    "english": "we",
+    "issue": "exact",
+    "gloss": "we walk; first-person plural"
+  },
+  {
+    "lesson": 7,
+    "lemma": "ὑμεῖς",
+    "old": "ὑμεῖς",
+    "form": "ὑμεῖς",
+    "english": "you (plural)",
+    "issue": "exact",
+    "gloss": "you all walk; second-person plural statement/question"
+  },
+  {
+    "lesson": 7,
+    "lemma": "μετά",
+    "old": "μετά + genitive",
+    "form": "μετὰ",
+    "english": "with",
+    "issue": "exact",
+    "gloss": "with the others; μετά takes the genitive here"
+  },
+  {
+    "lesson": 7,
+    "lemma": "πρός + accusative",
+    "old": "πρός + accusative",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "οἰκία",
+    "old": "ἡ οἰκία",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 8,
+    "lemma": "ἀδελφή",
+    "old": "ἡ ἀδελφή",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 8,
+    "lemma": "ἔριον",
+    "old": "τὸ ἔριον",
+    "form": "ἔριον",
+    "english": "wool",
+    "issue": "exact",
+    "gloss": "wool"
+  },
+  {
+    "lesson": 8,
+    "lemma": "ἔργον",
+    "old": "τὸ ἔργον",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 8,
+    "lemma": "ἱμάτιον",
+    "old": "τὸ ἱμάτιον",
+    "form": "ἱμάτιον",
+    "english": "garment, clothing",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 8,
+    "lemma": "σῖτος",
+    "old": "ὁ σῖτος",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "ὁδός",
+    "old": "ἡ ὁδός",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 8,
+    "lemma": "νεανίας",
+    "old": "ὁ νεανίας",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "πολίτης",
+    "old": "ὁ πολίτης",
+    "issue": "absent"
+  },
+  {
+    "lesson": 8,
+    "lemma": "ποιέω",
+    "old": "ποιέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "νήθω",
+    "old": "νήθω",
+    "form": "νήθω",
+    "english": "I spin wool",
+    "issue": "exact",
+    "gloss": "I spin wool"
+  },
+  {
+    "lesson": 8,
+    "lemma": "ὑφαίνω",
+    "old": "ὑφαίνω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 8,
+    "lemma": "φέρω",
+    "old": "φέρω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "βλέπω",
+    "old": "βλέπω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "καλός",
+    "old": "καλός, καλή, καλόν",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 8,
+    "lemma": "μέγας",
+    "old": "μέγας, μεγάλη, μέγα",
+    "form": "μεγάλα",
+    "english": "large, great",
+    "issue": "gloss",
+    "gloss": "the small and large garments; note irregular μεγάλα"
+  },
+  {
+    "lesson": 8,
+    "lemma": "πολύς",
+    "old": "πολύς, πολλή, πολύ",
+    "form": "πολλὰ",
+    "english": "much, many",
+    "issue": "gloss",
+    "gloss": "many garments; irregular πολύς in the neuter plural"
+  },
+  {
+    "lesson": 8,
+    "lemma": "ὀλίγος",
+    "old": "ὀλίγος, ὀλίγη, ὀλίγον",
+    "form": "ὀλίγος",
+    "english": "little, few",
+    "issue": "exact",
+    "gloss": "but little grain; δέ marks contrast"
+  },
+  {
+    "lesson": 8,
+    "lemma": "καλῶς",
+    "old": "καλῶς",
+    "form": "καλῶς",
+    "english": "well",
+    "issue": "exact",
+    "gloss": "well; adverb describing how they work"
+  },
+  {
+    "lesson": 8,
+    "lemma": "ταχέως",
+    "old": "ταχέως",
+    "form": "ταχέως",
+    "english": "quickly",
+    "issue": "exact",
+    "gloss": "quickly; adverb, supplied as a whole word"
+  },
+  {
+    "lesson": 8,
+    "lemma": "ὕστερον",
+    "old": "ὕστερον",
+    "form": "ὕστερον",
+    "english": "later",
+    "issue": "exact",
+    "gloss": "later; this marks a time jump after the Eleusis reading"
+  },
+  {
+    "lesson": 8,
+    "lemma": "νῦν",
+    "old": "νῦν",
+    "form": "νῦν",
+    "english": "now",
+    "issue": "exact",
+    "gloss": "now"
+  },
+  {
+    "lesson": 9,
+    "lemma": "φίλος",
+    "old": "ὁ φίλος",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 9,
+    "lemma": "φιλία",
+    "old": "ἡ φιλία",
+    "issue": "absent"
+  },
+  {
+    "lesson": 9,
+    "lemma": "πίστις",
+    "old": "ἡ πίστις",
+    "form": "πίστις",
+    "english": "loyalty, trust",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἀρετή",
+    "old": "ἡ ἀρετή",
+    "form": "ἀρετῆς",
+    "english": "good character, excellence",
+    "issue": "gloss",
+    "gloss": "without good character; supplied phrase"
+  },
+  {
+    "lesson": 9,
+    "lemma": "χρεία",
+    "old": "ἡ χρεία",
+    "form": "χρεία",
+    "english": "need, use",
+    "issue": "exact",
+    "gloss": "need, practical usefulness; supplied noun"
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἔργον",
+    "old": "τὸ ἔργον",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 9,
+    "lemma": "οἰκία",
+    "old": "ἡ οἰκία",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 9,
+    "lemma": "δεῖπνον",
+    "old": "τὸ δεῖπνον",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 9,
+    "lemma": "κλίνη",
+    "old": "ἡ κλίνη",
+    "form": "κλινῶν",
+    "english": "couches",
+    "issue": "manual",
+    "gloss": "they recline on couches; supplied forms"
+  },
+  {
+    "lesson": 9,
+    "lemma": "τιμάω",
+    "old": "τιμάω",
+    "form": "τιμᾷς",
+    "english": "you honor",
+    "issue": "gloss",
+    "gloss": "you honor; from τιμάω"
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἐρωτάω",
+    "old": "ἐρωτάω",
+    "form": "ἐρωτᾷ",
+    "english": "he asks",
+    "issue": "gloss",
+    "gloss": "he asks; from ἐρωτάω"
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἀγαπάω",
+    "old": "ἀγαπάω",
+    "form": "ἀγαπῶ",
+    "english": "I care for",
+    "issue": "gloss",
+    "gloss": "I care for; from ἀγαπάω"
+  },
+  {
+    "lesson": 9,
+    "lemma": "γελάω",
+    "old": "γελάω",
+    "form": "γελᾷ",
+    "english": "he laughs",
+    "issue": "gloss",
+    "gloss": "he laughs; from γελάω"
+  },
+  {
+    "lesson": 9,
+    "lemma": "ζητέω",
+    "old": "ζητέω",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 9,
+    "lemma": "λέγω",
+    "old": "λέγω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἀκούω",
+    "old": "ἀκούω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 9,
+    "lemma": "ὠφελέω",
+    "old": "ὠφελέω",
+    "form": "ὠφελεῖ",
+    "english": "helps or benefits",
+    "issue": "gloss",
+    "gloss": "helps or benefits; supplied verb"
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἀγαθός",
+    "old": "ἀγαθός, ἀγαθή, ἀγαθόν",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 9,
+    "lemma": "ἀλλά / ἀλλ᾽",
+    "old": "ἀλλά / ἀλλ᾽",
+    "form": "ἀλλὰ",
+    "english": "but",
+    "issue": "manual",
+    "gloss": "but also"
+  },
+  {
+    "lesson": 9,
+    "lemma": "πρῶτον",
+    "old": "πρῶτον",
+    "form": "πρῶτον",
+    "english": "first",
+    "issue": "exact",
+    "gloss": "first"
+  },
+  {
+    "lesson": 9,
+    "lemma": "μόνον",
+    "old": "μόνον",
+    "form": "μόνον",
+    "english": "only, alone",
+    "issue": "exact",
+    "gloss": "usefulness alone; adjective used as a noun"
+  },
+  {
+    "lesson": 9,
+    "lemma": "χρήσιμος",
+    "old": "χρήσιμος, χρησίμη, χρήσιμον",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 10,
+    "lemma": "φίλος",
+    "old": "ὁ φίλος",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 10,
+    "lemma": "ξένος",
+    "old": "ὁ ξένος",
+    "form": "ξένος",
+    "english": "guest friend",
+    "issue": "exact",
+    "gloss": "guest friend"
+  },
+  {
+    "lesson": 10,
+    "lemma": "πόλις",
+    "old": "ἡ πόλις",
+    "form": "πόλις",
+    "english": "city, city-state",
+    "issue": "exact",
+    "gloss": "my city"
+  },
+  {
+    "lesson": 10,
+    "lemma": "πατρίς",
+    "old": "ἡ πατρίς",
+    "form": "πατρίδος",
+    "english": "homeland",
+    "issue": "gloss",
+    "gloss": "than my homeland; comparative genitive"
+  },
+  {
+    "lesson": 10,
+    "lemma": "Κῦρος",
+    "old": "ὁ Κῦρος",
+    "form": "Κῦρος",
+    "english": "Cyrus the Younger",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 10,
+    "lemma": "Προξένος",
+    "old": "ὁ Προξένος",
+    "form": "Προξένος",
+    "english": "Proxenus",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 10,
+    "lemma": "Θηβαῖος",
+    "old": "ὁ Θηβαῖος",
+    "form": "Θηβαίου",
+    "english": "Theban",
+    "issue": "gloss",
+    "gloss": "from Proxenus the Theban"
+  },
+  {
+    "lesson": 10,
+    "lemma": "βούλευμα",
+    "old": "τὸ βούλευμα",
+    "form": "βούλευμά",
+    "english": "decision",
+    "issue": "exact",
+    "gloss": "your decision is no small matter"
+  },
+  {
+    "lesson": 10,
+    "lemma": "πόλεμος",
+    "old": "ὁ πόλεμος",
+    "issue": "repeat",
+    "firstLesson": 4
+  },
+  {
+    "lesson": 10,
+    "lemma": "γράμμα",
+    "old": "τὸ γράμμα",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 10,
+    "lemma": "ὁδός",
+    "old": "ἡ ὁδός",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 10,
+    "lemma": "γράφω",
+    "old": "γράφω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 10,
+    "lemma": "καλέω",
+    "old": "καλέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 10,
+    "lemma": "ἐρωτάω",
+    "old": "ἐρωτάω",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 10,
+    "lemma": "πορεύομαι",
+    "old": "πορεύομαι",
+    "form": "πορεύου",
+    "english": "go",
+    "issue": "gloss",
+    "gloss": "go; middle command"
+  },
+  {
+    "lesson": 10,
+    "lemma": "ἀναγιγνώσκω",
+    "old": "ἀναγιγνώσκω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 10,
+    "lemma": "ἀποκρίνομαι",
+    "old": "ἀποκρίνομαι",
+    "form": "ἀποκρίνεται",
+    "english": "replies",
+    "issue": "gloss",
+    "gloss": "replies; middle form"
+  },
+  {
+    "lesson": 10,
+    "lemma": "ἐγώ",
+    "old": "ἐγώ / με / μου",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 10,
+    "lemma": "σύ",
+    "old": "σύ / σε / σου",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 10,
+    "lemma": "ἐμός",
+    "old": "ἐμός, ἐμή, ἐμόν",
+    "form": "ἐμὸς",
+    "english": "my",
+    "issue": "exact",
+    "gloss": "my friend; possessive adjective"
+  },
+  {
+    "lesson": 10,
+    "lemma": "σός",
+    "old": "σός, σή, σόν",
+    "form": "σός",
+    "english": "your",
+    "issue": "exact",
+    "gloss": "is your friend; predicate possessive adjective"
+  },
+  {
+    "lesson": 10,
+    "lemma": "οὗτος",
+    "old": "οὗτος, αὕτη, τοῦτο",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 10,
+    "lemma": "παλαιός",
+    "old": "παλαιός, παλαιά, παλαιόν",
+    "form": "παλαιὸς",
+    "english": "old, longstanding",
+    "issue": "exact",
+    "gloss": "my old friend; postposed μου"
+  },
+  {
+    "lesson": 10,
+    "lemma": "πιστός",
+    "old": "πιστός, πιστή, πιστόν",
+    "form": "πιστὸς",
+    "english": "loyal",
+    "issue": "exact",
+    "gloss": "will I be loyal?; future form"
+  },
+  {
+    "lesson": 11,
+    "lemma": "πορεύομαι",
+    "old": "πορεύομαι",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 11,
+    "lemma": "ἀφικνέομαι",
+    "old": "ἀφικνέομαι",
+    "form": "ἀφικνεῖται",
+    "english": "arrive",
+    "issue": "gloss",
+    "gloss": "arrives at Delphi; contracted deponent"
+  },
+  {
+    "lesson": 11,
+    "lemma": "ἔρχομαι",
+    "old": "ἔρχομαι",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 11,
+    "lemma": "ἀπέρχομαι",
+    "old": "ἀπέρχομαι",
+    "form": "ἀπέρχεται",
+    "english": "departs",
+    "issue": "gloss",
+    "gloss": "departs; deponent"
+  },
+  {
+    "lesson": 11,
+    "lemma": "ὁδός",
+    "old": "ἡ ὁδός",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 11,
+    "lemma": "ἱερόν",
+    "old": "τὸ ἱερόν",
+    "form": "ἱερὸν",
+    "english": "the sanctuary",
+    "issue": "exact",
+    "gloss": "the sanctuary"
+  },
+  {
+    "lesson": 11,
+    "lemma": "ναός",
+    "old": "ὁ ναός",
+    "form": "ναόν",
+    "english": "temple",
+    "issue": "manual",
+    "gloss": "Apollo’s temple"
+  },
+  {
+    "lesson": 11,
+    "lemma": "Δελφοί",
+    "old": "αἱ Δελφοί",
+    "form": "Δελφοὺς",
+    "english": "Delphi",
+    "issue": "gloss",
+    "gloss": "toward Delphi"
+  },
+  {
+    "lesson": 11,
+    "lemma": "Παρνασσός",
+    "old": "ὁ Παρνασσός",
+    "form": "Παρνασσὸς",
+    "english": "Mount Parnassus",
+    "issue": "exact",
+    "gloss": "Mount Parnassus"
+  },
+  {
+    "lesson": 11,
+    "lemma": "βούλομαι",
+    "old": "βούλομαι",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 11,
+    "lemma": "σκέπτομαι",
+    "old": "σκέπτομαι",
+    "form": "σκέπτεται",
+    "english": "considers",
+    "issue": "gloss",
+    "gloss": "considers; deponent"
+  },
+  {
+    "lesson": 11,
+    "lemma": "μαντεύομαι",
+    "old": "μαντεύομαι",
+    "form": "μαντεύονται",
+    "english": "consult an oracle",
+    "issue": "gloss",
+    "gloss": "consult an oracle; deponent"
+  },
+  {
+    "lesson": 11,
+    "lemma": "ἐρωτάω",
+    "old": "ἐρωτάω",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 11,
+    "lemma": "μαντεῖον",
+    "old": "τὸ μαντεῖον",
+    "form": "μαντεῖον",
+    "english": "the oracle",
+    "issue": "exact",
+    "gloss": "the oracle"
+  },
+  {
+    "lesson": 11,
+    "lemma": "ἀπόκρισις",
+    "old": "ἡ ἀπόκρισις",
+    "form": "ἀπόκρισις",
+    "english": "the response",
+    "issue": "exact",
+    "gloss": "the response"
+  },
+  {
+    "lesson": 11,
+    "lemma": "Ἀπόλλων",
+    "old": "ὁ Ἀπόλλων",
+    "form": "Ἀπόλλων",
+    "english": "Apollo",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 11,
+    "lemma": "θύω",
+    "old": "θύω",
+    "form": "θύειν",
+    "english": "to sacrifice",
+    "issue": "manual",
+    "gloss": "to sacrifice; active infinitive"
+  },
+  {
+    "lesson": 11,
+    "lemma": "εὔχομαι",
+    "old": "εὔχομαι",
+    "form": "εὔχεσθαι",
+    "english": "to pray",
+    "issue": "manual",
+    "gloss": "to pray; middle infinitive"
+  },
+  {
+    "lesson": 11,
+    "lemma": "δέχομαι",
+    "old": "δέχομαι",
+    "form": "δέχεται",
+    "english": "he receives",
+    "issue": "manual",
+    "gloss": "receives; deponent"
+  },
+  {
+    "lesson": 11,
+    "lemma": "θεός",
+    "old": "ὁ θεός",
+    "form": "θεὸν",
+    "english": "god",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 11,
+    "lemma": "οἴκαδε",
+    "old": "οἴκαδε",
+    "form": "οἴκαδε",
+    "english": "homeward, home",
+    "issue": "exact",
+    "gloss": "homeward, home"
+  },
+  {
+    "lesson": 11,
+    "lemma": "σῷος",
+    "old": "σῷος",
+    "form": "σῷος",
+    "english": "safe",
+    "issue": "exact",
+    "gloss": "safe"
+  },
+  {
+    "lesson": 12,
+    "lemma": "πότερον",
+    "old": "πότερον",
+    "form": "πότερον",
+    "english": "whether",
+    "issue": "exact",
+    "gloss": "whether"
+  },
+  {
+    "lesson": 12,
+    "lemma": "λῷον",
+    "old": "λῷον",
+    "form": "λῷον",
+    "english": "better, more advantageous",
+    "issue": "exact",
+    "gloss": "it would be better; optative"
+  },
+  {
+    "lesson": 12,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 12,
+    "lemma": "πυνθάνομαι",
+    "old": "πυνθάνομαι",
+    "form": "ἐπυνθάνετο",
+    "english": "he was asking",
+    "issue": "manual",
+    "gloss": "he asked this; past middle form"
+  },
+  {
+    "lesson": 12,
+    "lemma": "κρίνω",
+    "old": "κρίνω",
+    "form": "κρίνας",
+    "english": "decide, judge",
+    "issue": "gloss",
+    "gloss": "having decided himself; aorist participle"
+  },
+  {
+    "lesson": 12,
+    "lemma": "ὅπως",
+    "old": "ὅπως",
+    "form": "ὅπως",
+    "english": "how",
+    "issue": "exact",
+    "gloss": "how he might; introduces an indirect question"
+  },
+  {
+    "lesson": 12,
+    "lemma": "κάλλιστα",
+    "old": "κάλλιστα",
+    "form": "κάλλιστα",
+    "english": "as well as possible",
+    "issue": "exact",
+    "gloss": "as well as possible"
+  },
+  {
+    "lesson": 12,
+    "lemma": "μαντεία",
+    "old": "ἡ μαντεία",
+    "form": "μαντείας",
+    "english": "oracular response",
+    "issue": "gloss",
+    "gloss": "about the oracle’s response"
+  },
+  {
+    "lesson": 12,
+    "lemma": "χρή",
+    "old": "χρή",
+    "form": "χρὴ",
+    "english": "one must",
+    "issue": "exact",
+    "gloss": "one must do"
+  },
+  {
+    "lesson": 12,
+    "lemma": "ποιέω",
+    "old": "ποιέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 12,
+    "lemma": "κελεύω",
+    "old": "κελεύω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 12,
+    "lemma": "θύω",
+    "old": "θύω",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 12,
+    "lemma": "πορεύομαι",
+    "old": "πορεύομαι",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 12,
+    "lemma": "σύν",
+    "old": "σύν",
+    "form": "σὺν",
+    "english": "with (+ dative)",
+    "issue": "exact",
+    "gloss": "with Proxenus; σύν + dative"
+  },
+  {
+    "lesson": 12,
+    "lemma": "πρός",
+    "old": "πρός",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 12,
+    "lemma": "ὁδός",
+    "old": "ἡ ὁδός",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 12,
+    "lemma": "Σάρδεις",
+    "old": "αἱ Σάρδεις",
+    "form": "Σάρδεσι",
+    "english": "Sardis",
+    "issue": "gloss",
+    "gloss": "at Sardis; place dative"
+  },
+  {
+    "lesson": 12,
+    "lemma": "ὁρμάω",
+    "old": "ὁρμάω",
+    "form": "ὁρμᾶν",
+    "english": "set out",
+    "issue": "gloss",
+    "gloss": "already about to set out"
+  },
+  {
+    "lesson": 13,
+    "lemma": "στρατηγός",
+    "old": "ὁ στρατηγός",
+    "form": "στρατηγὸς",
+    "english": "general",
+    "issue": "exact",
+    "gloss": "the good general"
+  },
+  {
+    "lesson": 13,
+    "lemma": "λοχαγός",
+    "old": "ὁ λοχαγός",
+    "form": "λοχαγὸς",
+    "english": "captain",
+    "issue": "exact",
+    "gloss": "captain; commander of a company"
+  },
+  {
+    "lesson": 13,
+    "lemma": "στρατιώτης",
+    "old": "ὁ στρατιώτης",
+    "form": "στρατιώτης",
+    "english": "soldier",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 13,
+    "lemma": "φύλαξ",
+    "old": "ὁ φύλαξ",
+    "form": "φύλαξ",
+    "english": "guard",
+    "issue": "exact",
+    "gloss": "guardian"
+  },
+  {
+    "lesson": 13,
+    "lemma": "ἀνδρεῖος",
+    "old": "ἀνδρεῖος",
+    "form": "ἀνδρεῖοι",
+    "english": "brave men",
+    "issue": "manual",
+    "gloss": "the brave; substantive adjective"
+  },
+  {
+    "lesson": 13,
+    "lemma": "ψιλός",
+    "old": "οἱ ψιλοί",
+    "form": "ψιλοὺς",
+    "english": "light-armed men",
+    "issue": "manual",
+    "gloss": "light-armed men; substantive adjective"
+  },
+  {
+    "lesson": 13,
+    "lemma": "ποιμήν",
+    "old": "ὁ ποιμήν",
+    "form": "ποιμὴν",
+    "english": "the shepherd",
+    "issue": "exact",
+    "gloss": "the shepherd; nasal stem, glossed"
+  },
+  {
+    "lesson": 13,
+    "lemma": "σῶμα",
+    "old": "τὸ σῶμα",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 13,
+    "lemma": "πρᾶγμα",
+    "old": "τὸ πρᾶγμα",
+    "form": "πράγματα",
+    "english": "things; affairs",
+    "issue": "manual",
+    "gloss": "the camp’s possessions"
+  },
+  {
+    "lesson": 13,
+    "lemma": "στρατόπεδον",
+    "old": "τὸ στρατόπεδον",
+    "form": "στρατοπέδου",
+    "english": "camp",
+    "issue": "gloss",
+    "gloss": "the camp’s possessions"
+  },
+  {
+    "lesson": 13,
+    "lemma": "ὅπλον",
+    "old": "τὰ ὅπλα",
+    "form": "ὅπλα",
+    "english": "weapons",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 13,
+    "lemma": "τροφή",
+    "old": "ἡ τροφή",
+    "form": "τροφὴν",
+    "english": "food",
+    "issue": "manual",
+    "gloss": "provides food"
+  },
+  {
+    "lesson": 13,
+    "lemma": "στράτευμα",
+    "old": "τὸ στράτευμα",
+    "form": "στρατεύματα",
+    "english": "contingents",
+    "issue": "manual",
+    "gloss": "their own contingents"
+  },
+  {
+    "lesson": 13,
+    "lemma": "φυλάττω",
+    "old": "φυλάττω",
+    "form": "φυλάττουσιν",
+    "english": "protect",
+    "issue": "gloss",
+    "gloss": "protect"
+  },
+  {
+    "lesson": 13,
+    "lemma": "σῴζω",
+    "old": "σῴζω",
+    "form": "σῴζει",
+    "english": "he saves",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 13,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 13,
+    "lemma": "ἐπιμελέομαι",
+    "old": "ἐπιμελέομαι",
+    "form": "ἐπιμελεῖται",
+    "english": "care for",
+    "issue": "gloss",
+    "gloss": "looks after himself; ἐπιμελέομαι takes genitive"
+  },
+  {
+    "lesson": 13,
+    "lemma": "ἑαυτοῦ",
+    "old": "ἑαυτοῦ",
+    "form": "ἑαυτοῦ",
+    "english": "of himself",
+    "issue": "exact",
+    "gloss": "looks after himself; ἐπιμελέομαι takes genitive"
+  },
+  {
+    "lesson": 13,
+    "lemma": "ἐμαυτοῦ",
+    "old": "ἐμαυτοῦ",
+    "form": "ἐμαυτὸν",
+    "english": "of myself",
+    "issue": "gloss",
+    "gloss": "myself"
+  },
+  {
+    "lesson": 13,
+    "lemma": "φιλία",
+    "old": "ἡ φιλία",
+    "form": "φιλία",
+    "english": "friendship",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 13,
+    "lemma": "σκοπός",
+    "old": "ὁ σκοπός",
+    "form": "σκοπὸν",
+    "english": "objective",
+    "issue": "gloss",
+    "gloss": "the true objective; untaught adjective form"
+  },
+  {
+    "lesson": 13,
+    "lemma": "Σάρδεις",
+    "old": "αἱ Σάρδεις",
+    "issue": "repeat",
+    "firstLesson": 12
+  },
+  {
+    "lesson": 14,
+    "lemma": "ἡγεμών",
+    "old": "ὁ ἡγεμών",
+    "form": "ἡγεμὼν",
+    "english": "the guide",
+    "issue": "exact",
+    "gloss": "the guide; nasal stem"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ἄρχων",
+    "old": "ὁ ἄρχων",
+    "form": "ἄρχων",
+    "english": "leader; ruler",
+    "issue": "exact",
+    "gloss": "the prudent leader; ἄρχων is used here as a noun"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ἐμπειρία",
+    "old": "ἡ ἐμπειρία",
+    "form": "ἐμπειρίαν",
+    "english": "experience",
+    "issue": "gloss",
+    "gloss": "experience"
+  },
+  {
+    "lesson": 14,
+    "lemma": "γνώμη",
+    "old": "ἡ γνώμη",
+    "form": "γνώμη",
+    "english": "judgment",
+    "issue": "exact",
+    "gloss": "judgment"
+  },
+  {
+    "lesson": 14,
+    "lemma": "σώφρων",
+    "old": "σώφρων",
+    "form": "σώφρων",
+    "english": "prudent; self-controlled",
+    "issue": "exact",
+    "gloss": "the prudent leader; ἄρχων is used here as a noun"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ἱκανός",
+    "old": "ἱκανός",
+    "form": "ἱκανός",
+    "english": "capable",
+    "issue": "exact",
+    "gloss": "capable"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ἀρχαιρεσία",
+    "old": "ἡ ἀρχαιρεσία",
+    "form": "ἀρχαιρεσιῶν",
+    "english": "elections",
+    "issue": "manual",
+    "gloss": "from the elections"
+  },
+  {
+    "lesson": 14,
+    "lemma": "χορός",
+    "old": "ὁ χορός",
+    "form": "χορός",
+    "english": "a certain chorus",
+    "issue": "exact",
+    "gloss": "a certain chorus"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ἔμπορος",
+    "old": "ὁ ἔμπορος",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 14,
+    "lemma": "τραῦμα",
+    "old": "τὸ τραῦμα",
+    "form": "τραύματα",
+    "english": "wounds",
+    "issue": "gloss",
+    "gloss": "wounds"
+  },
+  {
+    "lesson": 14,
+    "lemma": "πόνος",
+    "old": "ὁ πόνος",
+    "form": "πόνος",
+    "english": "effort",
+    "issue": "exact",
+    "gloss": "effort"
+  },
+  {
+    "lesson": 14,
+    "lemma": "βοηθός",
+    "old": "ὁ βοηθός",
+    "form": "βοηθοὺς",
+    "english": "helpers",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 14,
+    "lemma": "χρῆμα",
+    "old": "τὰ χρήματα",
+    "form": "χρήματα",
+    "english": "money; resources",
+    "issue": "exact",
+    "gloss": "money; neuter plural"
+  },
+  {
+    "lesson": 14,
+    "lemma": "παρασκευή",
+    "old": "ἡ παρασκευή",
+    "form": "παρασκευῆς",
+    "english": "preparation",
+    "issue": "gloss",
+    "gloss": "about preparation"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ῥήτωρ",
+    "old": "ὁ ῥήτωρ",
+    "issue": "absent"
+  },
+  {
+    "lesson": 14,
+    "lemma": "Κύκλωψ",
+    "old": "ὁ Κύκλωψ",
+    "issue": "absent"
+  },
+  {
+    "lesson": 14,
+    "lemma": "τίς, τί",
+    "old": "τίς, τί",
+    "form": "τίς",
+    "english": "who?",
+    "issue": "manual",
+    "gloss": "who?; interrogative"
+  },
+  {
+    "lesson": 14,
+    "lemma": "τις, τι",
+    "old": "τις, τι",
+    "form": "τις",
+    "english": "a certain; someone",
+    "issue": "manual",
+    "gloss": "some merchant; indefinite τις"
+  },
+  {
+    "lesson": 14,
+    "lemma": "ζητέω",
+    "old": "ζητέω",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 14,
+    "lemma": "αἱρέομαι",
+    "old": "αἱρέομαι",
+    "form": "αἱρεῖται",
+    "english": "chooses",
+    "issue": "gloss",
+    "gloss": "chooses; contracted middle"
+  },
+  {
+    "lesson": 14,
+    "lemma": "χρήσιμος",
+    "old": "χρήσιμος",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 14,
+    "lemma": "τάξις",
+    "old": "ἡ τάξις",
+    "form": "τάξιν",
+    "english": "formation",
+    "issue": "gloss",
+    "gloss": "to know the formation; infinitive"
+  },
+  {
+    "lesson": 15,
+    "lemma": "πορεύομαι",
+    "old": "πορεύομαι",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 15,
+    "lemma": "ποταμός",
+    "old": "ὁ ποταμός",
+    "form": "ποταμοῦ",
+    "english": "river",
+    "issue": "gloss",
+    "gloss": "over the river"
+  },
+  {
+    "lesson": 15,
+    "lemma": "γέφυρα",
+    "old": "ἡ γέφυρα",
+    "form": "γέφυρα",
+    "english": "bridge",
+    "issue": "exact",
+    "gloss": "a bridge made of boats"
+  },
+  {
+    "lesson": 15,
+    "lemma": "πλοῖον",
+    "old": "τὸ πλοῖον",
+    "form": "πλοίων",
+    "english": "boats",
+    "issue": "manual",
+    "gloss": "a bridge made of boats"
+  },
+  {
+    "lesson": 15,
+    "lemma": "παράδεισος",
+    "old": "ὁ παράδεισος",
+    "form": "παράδεισον",
+    "english": "royal park",
+    "issue": "gloss",
+    "gloss": "royal park"
+  },
+  {
+    "lesson": 15,
+    "lemma": "Κελαιναί",
+    "old": "αἱ Κελαιναί",
+    "form": "Κελαινὰς",
+    "english": "Celaenae",
+    "issue": "gloss",
+    "gloss": "at Celaenae"
+  },
+  {
+    "lesson": 15,
+    "lemma": "Φρυγία",
+    "old": "ἡ Φρυγία",
+    "form": "Φρυγίᾳ",
+    "english": "in Phrygia",
+    "issue": "exact",
+    "gloss": "in Phrygia"
+  },
+  {
+    "lesson": 15,
+    "lemma": "παρασκευάζομαι",
+    "old": "παρασκευάζομαι",
+    "form": "παρασκευαζόμενοι",
+    "english": "prepare for oneself",
+    "issue": "gloss",
+    "gloss": "those preparing; middle participle"
+  },
+  {
+    "lesson": 15,
+    "lemma": "διαλέγομαι",
+    "old": "διαλέγομαι",
+    "form": "διαλέγονται",
+    "english": "converse",
+    "issue": "gloss",
+    "gloss": "converse; deponent"
+  },
+  {
+    "lesson": 15,
+    "lemma": "πελταστής",
+    "old": "ὁ πελταστής",
+    "form": "πελταστὰς",
+    "english": "peltasts",
+    "issue": "gloss",
+    "gloss": "peltasts; light infantry with small shields"
+  },
+  {
+    "lesson": 15,
+    "lemma": "τοξότης",
+    "old": "ὁ τοξότης",
+    "form": "τοξότας",
+    "english": "archers",
+    "issue": "gloss",
+    "gloss": "archers"
+  },
+  {
+    "lesson": 15,
+    "lemma": "ἐξετάζω",
+    "old": "ἐξετάζω",
+    "form": "ἐξετάζει",
+    "english": "reviews",
+    "issue": "gloss",
+    "gloss": "reviews; inspects"
+  },
+  {
+    "lesson": 15,
+    "lemma": "παρασκευή",
+    "old": "ἡ παρασκευή",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 15,
+    "lemma": "μισθός",
+    "old": "ὁ μισθός",
+    "form": "μισθοῦ",
+    "english": "pay",
+    "issue": "gloss",
+    "gloss": "need food and pay; χρῄζω with genitive"
+  },
+  {
+    "lesson": 15,
+    "lemma": "ὀφείλω",
+    "old": "ὀφείλω",
+    "form": "ὀφείλει",
+    "english": "owes",
+    "issue": "gloss",
+    "gloss": "owes"
+  },
+  {
+    "lesson": 15,
+    "lemma": "ἀγών",
+    "old": "ὁ ἀγών",
+    "form": "ἀγῶνας",
+    "english": "contests",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 15,
+    "lemma": "ἀγωνίζομαι",
+    "old": "ἀγωνίζομαι",
+    "form": "ἀγωνίζονται",
+    "english": "compete",
+    "issue": "gloss",
+    "gloss": "compete; middle/deponent form"
+  },
+  {
+    "lesson": 15,
+    "lemma": "θεάομαι",
+    "old": "θεάομαι",
+    "form": "θεᾶται",
+    "english": "he watches",
+    "issue": "manual",
+    "gloss": "watches; alpha-contract middle"
+  },
+  {
+    "lesson": 15,
+    "lemma": "ἆθλον",
+    "old": "τὸ ἆθλον",
+    "form": "ἆθλά",
+    "english": "prizes",
+    "issue": "manual",
+    "gloss": "prizes; accent before enclitic εἰσιν"
+  },
+  {
+    "lesson": 15,
+    "lemma": "στλεγγίς",
+    "old": "ἡ στλεγγίς",
+    "form": "στλεγγίδες",
+    "english": "strigils",
+    "issue": "manual",
+    "gloss": "golden strigils; feminine noun and adjective; rare noun glossed"
+  },
+  {
+    "lesson": 15,
+    "lemma": "θυσία",
+    "old": "ἡ θυσία",
+    "form": "θυσίαν",
+    "english": "sacrifice",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 15,
+    "lemma": "αἰτέω",
+    "old": "αἰτέω",
+    "form": "αἰτοῦσιν",
+    "english": "they ask for",
+    "issue": "manual",
+    "gloss": "ask for; contracted active"
+  },
+  {
+    "lesson": 15,
+    "lemma": "πολλάκις",
+    "old": "πολλάκις",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 16,
+    "lemma": "γυνή",
+    "old": "ἡ γυνή",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 16,
+    "lemma": "πατήρ",
+    "old": "ὁ πατήρ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 16,
+    "lemma": "μήτηρ",
+    "old": "ἡ μήτηρ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 16,
+    "lemma": "θυγάτηρ",
+    "old": "ἡ θυγάτηρ",
+    "issue": "absent"
+  },
+  {
+    "lesson": 16,
+    "lemma": "χείρ",
+    "old": "ἡ χείρ",
+    "form": "χεῖρες",
+    "english": "the hands",
+    "issue": "gloss",
+    "gloss": "the hands; irregular noun plural"
+  },
+  {
+    "lesson": 16,
+    "lemma": "Ἐπύαξα",
+    "old": "ἡ Ἐπύαξα",
+    "form": "Ἐπύαξα",
+    "english": "Epyaxa",
+    "issue": "exact",
+    "gloss": "Epyaxa"
+  },
+  {
+    "lesson": 16,
+    "lemma": "Συέννεσις",
+    "old": "ὁ Συέννεσις",
+    "form": "Συέννεσις",
+    "english": "Syennesis",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 16,
+    "lemma": "μισθός",
+    "old": "ὁ μισθός",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 16,
+    "lemma": "μήν",
+    "old": "ὁ μήν",
+    "form": "μηνῶν",
+    "english": "months",
+    "issue": "manual",
+    "gloss": "of four months; genitive quantity"
+  },
+  {
+    "lesson": 16,
+    "lemma": "ἡμέρα",
+    "old": "ἡ ἡμέρα",
+    "form": "ἡμέρας",
+    "english": "days",
+    "issue": "manual",
+    "gloss": "for three days; accusative duration"
+  },
+  {
+    "lesson": 16,
+    "lemma": "πᾶς",
+    "old": "πᾶς",
+    "form": "πᾶς",
+    "english": "all; every",
+    "issue": "exact",
+    "gloss": "every hoplite; heavy infantryman"
+  },
+  {
+    "lesson": 16,
+    "lemma": "τέτταρες",
+    "old": "τέτταρες",
+    "form": "τεττάρων",
+    "english": "of four months",
+    "issue": "gloss",
+    "gloss": "of four months; genitive quantity"
+  },
+  {
+    "lesson": 16,
+    "lemma": "τρεῖς",
+    "old": "τρεῖς",
+    "form": "τρεῖς",
+    "english": "for three days",
+    "issue": "exact",
+    "gloss": "for three days; accusative duration"
+  },
+  {
+    "lesson": 16,
+    "lemma": "πέντε",
+    "old": "πέντε",
+    "issue": "absent"
+  },
+  {
+    "lesson": 16,
+    "lemma": "ὀφείλω",
+    "old": "ὀφείλω",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 16,
+    "lemma": "ἅμαξα",
+    "old": "ἡ ἅμαξα",
+    "form": "ἁμάξαις",
+    "english": "carriages",
+    "issue": "manual",
+    "gloss": "in vehicles; the source distinguishes Cyrus’s chariot and Epyaxa’s carriage"
+  },
+  {
+    "lesson": 16,
+    "lemma": "ἀγορά",
+    "old": "ἡ ἀγορά",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 16,
+    "lemma": "ἀσπίς",
+    "old": "ἡ ἀσπίς",
+    "issue": "repeat",
+    "firstLesson": 4
+  },
+  {
+    "lesson": 16,
+    "lemma": "φόβος",
+    "old": "ὁ φόβος",
+    "form": "φόβον",
+    "english": "fear",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 16,
+    "lemma": "πείθω",
+    "old": "πείθω",
+    "form": "πείθει",
+    "english": "he/she persuades",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 16,
+    "lemma": "παρέχω",
+    "old": "παρέχω",
+    "form": "παρέχει",
+    "english": "provides",
+    "issue": "gloss",
+    "gloss": "provides"
+  },
+  {
+    "lesson": 16,
+    "lemma": "δῶρον",
+    "old": "τὸ δῶρον",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 16,
+    "lemma": "συνουσία",
+    "old": "ἡ συνουσία",
+    "form": "συνουσίαν",
+    "english": "meeting",
+    "issue": "gloss",
+    "gloss": "helps toward the meeting"
+  },
+  {
+    "lesson": 17,
+    "lemma": "ἀνδρεία",
+    "old": "ἡ ἀνδρεία",
+    "form": "ἀνδρεία",
+    "english": "courage",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 17,
+    "lemma": "ἀνδρεῖος",
+    "old": "ἀνδρεῖος",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 17,
+    "lemma": "δειλός",
+    "old": "δειλός",
+    "form": "δειλοί",
+    "english": "cowardly",
+    "issue": "gloss",
+    "gloss": "cowardly"
+  },
+  {
+    "lesson": 17,
+    "lemma": "καρτερία",
+    "old": "ἡ καρτερία",
+    "form": "καρτερία",
+    "english": "a kind of endurance",
+    "issue": "exact",
+    "gloss": "a kind of endurance; indefinite enclitic τις"
+  },
+  {
+    "lesson": 17,
+    "lemma": "φρόνησις",
+    "old": "ἡ φρόνησις",
+    "form": "φρονήσεως",
+    "english": "judgment",
+    "issue": "gloss",
+    "gloss": "with judgment"
+  },
+  {
+    "lesson": 17,
+    "lemma": "καλός",
+    "old": "καλός",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 17,
+    "lemma": "κοινός",
+    "old": "κοινός",
+    "form": "κοινὸν",
+    "english": "shared, common",
+    "issue": "gloss",
+    "gloss": "what in common"
+  },
+  {
+    "lesson": 17,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 17,
+    "lemma": "φεύγω",
+    "old": "φεύγω",
+    "form": "φεύγοντες",
+    "english": "flee",
+    "issue": "gloss",
+    "gloss": "those fleeing; nominative plural"
+  },
+  {
+    "lesson": 17,
+    "lemma": "διώκω",
+    "old": "διώκω",
+    "form": "διώκοντες",
+    "english": "pursuing",
+    "issue": "gloss",
+    "gloss": "pursuing; nominative plural"
+  },
+  {
+    "lesson": 17,
+    "lemma": "ὑποχωρέω",
+    "old": "ὑποχωρέω",
+    "form": "ὑποχωροῦντες",
+    "english": "retreating",
+    "issue": "gloss",
+    "gloss": "retreating; contracted participle"
+  },
+  {
+    "lesson": 17,
+    "lemma": "καρτερέω",
+    "old": "καρτερέω",
+    "form": "καρτερῶν",
+    "english": "persevering",
+    "issue": "manual",
+    "gloss": "persisting; contracted active participle"
+  },
+  {
+    "lesson": 17,
+    "lemma": "ἐξετάζω",
+    "old": "ἐξετάζω",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 17,
+    "lemma": "ὁμολογέω",
+    "old": "ὁμολογέω",
+    "form": "ὁμολογεῖ",
+    "english": "agrees",
+    "issue": "gloss",
+    "gloss": "agrees"
+  },
+  {
+    "lesson": 17,
+    "lemma": "παράδειγμα",
+    "old": "τὸ παράδειγμα",
+    "form": "παράδειγμα",
+    "english": "the example",
+    "issue": "exact",
+    "gloss": "the example"
+  },
+  {
+    "lesson": 17,
+    "lemma": "νόσος",
+    "old": "ἡ νόσος",
+    "form": "νόσον",
+    "english": "illness",
+    "issue": "gloss",
+    "gloss": "bearing illness"
+  },
+  {
+    "lesson": 17,
+    "lemma": "πενία",
+    "old": "ἡ πενία",
+    "form": "πενίᾳ",
+    "english": "in poverty",
+    "issue": "exact",
+    "gloss": "in poverty"
+  },
+  {
+    "lesson": 17,
+    "lemma": "τάξις",
+    "old": "ἡ τάξις",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 17,
+    "lemma": "Λάχης",
+    "old": "ὁ Λάχης",
+    "form": "Λάχης",
+    "english": "Laches",
+    "issue": "exact",
+    "gloss": "Laches"
+  },
+  {
+    "lesson": 17,
+    "lemma": "Νικίας",
+    "old": "ὁ Νικίας",
+    "form": "Νικίας",
+    "english": "Nicias",
+    "issue": "exact",
+    "gloss": "Nicias"
+  },
+  {
+    "lesson": 17,
+    "lemma": "Σκύθαι",
+    "old": "οἱ Σκύθαι",
+    "form": "Σκύθαι",
+    "english": "the Scythians",
+    "issue": "exact",
+    "gloss": "the Scythians"
+  },
+  {
+    "lesson": 18,
+    "lemma": "πόλις",
+    "old": "ἡ πόλις",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἄστυ",
+    "old": "τὸ ἄστυ",
+    "issue": "absent"
+  },
+  {
+    "lesson": 18,
+    "lemma": "βασιλεύς",
+    "old": "ὁ βασιλεύς",
+    "form": "βασιλέα",
+    "english": "king",
+    "issue": "gloss",
+    "gloss": "against the Great King"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ναῦς",
+    "old": "ἡ ναῦς",
+    "issue": "absent"
+  },
+  {
+    "lesson": 18,
+    "lemma": "βοῦς",
+    "old": "ὁ βοῦς",
+    "issue": "absent"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἡγεμών",
+    "old": "ὁ ἡγεμών",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 18,
+    "lemma": "ὑποζύγιον",
+    "old": "τὸ ὑποζύγιον",
+    "form": "ὑποζύγια",
+    "english": "the pack animals",
+    "issue": "gloss",
+    "gloss": "the pack animals"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἐκκλησία",
+    "old": "ἡ ἐκκλησία",
+    "form": "ἐκκλησίᾳ",
+    "english": "assembly",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 18,
+    "lemma": "βία",
+    "old": "ἡ βία",
+    "form": "βίᾳ",
+    "english": "force, violence",
+    "issue": "exact",
+    "gloss": "by force; dative of means"
+  },
+  {
+    "lesson": 18,
+    "lemma": "λίθος",
+    "old": "ὁ λίθος",
+    "form": "λίθους",
+    "english": "stones",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 18,
+    "lemma": "μισθός",
+    "old": "ὁ μισθός",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 18,
+    "lemma": "ὑποπτεύω",
+    "old": "ὑποπτεύω",
+    "form": "ὑποπτεύουσι",
+    "english": "suspect",
+    "issue": "gloss",
+    "gloss": "suspect"
+  },
+  {
+    "lesson": 18,
+    "lemma": "δακρύω",
+    "old": "δακρύω",
+    "form": "δακρύει",
+    "english": "weeps",
+    "issue": "gloss",
+    "gloss": "weeps"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἐπαινέω",
+    "old": "ἐπαινέω",
+    "form": "ἐπαινοῦσι",
+    "english": "praise",
+    "issue": "gloss",
+    "gloss": "praise; contracted present"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἄγγελος",
+    "old": "ὁ ἄγγελος",
+    "form": "ἄγγελον",
+    "english": "a messenger",
+    "issue": "gloss",
+    "gloss": "a messenger"
+  },
+  {
+    "lesson": 18,
+    "lemma": "πρέσβεις",
+    "old": "οἱ πρέσβεις",
+    "form": "πρέσβεις",
+    "english": "envoys",
+    "issue": "manual",
+    "gloss": "representatives, envoys"
+  },
+  {
+    "lesson": 18,
+    "lemma": "αἰτέω",
+    "old": "αἰτέω",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἐπιτήδεια",
+    "old": "τὰ ἐπιτήδεια",
+    "form": "ἐπιτήδεια",
+    "english": "the supplies",
+    "issue": "exact",
+    "gloss": "the supplies; substantival adjective"
+  },
+  {
+    "lesson": 18,
+    "lemma": "λάθρᾳ",
+    "old": "λάθρᾳ",
+    "form": "λάθρᾳ",
+    "english": "secretly",
+    "issue": "exact",
+    "gloss": "secretly"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ὅμως",
+    "old": "ὅμως",
+    "form": "ὅμως",
+    "english": "nevertheless",
+    "issue": "exact",
+    "gloss": "nevertheless"
+  },
+  {
+    "lesson": 18,
+    "lemma": "ἡμιόλιος",
+    "old": "ἡμιόλιος",
+    "form": "ἡμιόλιον",
+    "english": "half as large again",
+    "issue": "gloss",
+    "gloss": "half as large again; one and a half times"
+  },
+  {
+    "lesson": 18,
+    "lemma": "Ἀβροκόμας",
+    "old": "Ἀβροκόμας",
+    "form": "Ἀβροκόμας",
+    "english": "Abrocomas",
+    "issue": "exact",
+    "gloss": "Abrocomas"
+  },
+  {
+    "lesson": 19,
+    "lemma": "ὑπόσχεσις",
+    "old": "ἡ ὑπόσχεσις",
+    "form": "ὑπόσχεσιν",
+    "english": "the promise",
+    "issue": "gloss",
+    "gloss": "the promise"
+  },
+  {
+    "lesson": 19,
+    "lemma": "ὑπισχνέομαι",
+    "old": "ὑπισχνέομαι",
+    "form": "ὑπισχνεῖται",
+    "english": "promise (verb)",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 19,
+    "lemma": "μνᾶ",
+    "old": "ἡ μνᾶ",
+    "form": "μνᾶς",
+    "english": "minas",
+    "issue": "manual",
+    "gloss": "five minas; units of silver"
+  },
+  {
+    "lesson": 19,
+    "lemma": "στέφανος",
+    "old": "ὁ στέφανος",
+    "form": "στεφάνους",
+    "english": "crowns",
+    "issue": "manual",
+    "gloss": "golden crowns"
+  },
+  {
+    "lesson": 19,
+    "lemma": "πλούσιος",
+    "old": "πλούσιος",
+    "form": "πλουσίους",
+    "english": "wealthy",
+    "issue": "gloss",
+    "gloss": "wealthy"
+  },
+  {
+    "lesson": 19,
+    "lemma": "νίκη",
+    "old": "ἡ νίκη",
+    "form": "νίκῃ",
+    "english": "victory",
+    "issue": "exact",
+    "gloss": "upon victory; the rewards depend on success"
+  },
+  {
+    "lesson": 19,
+    "lemma": "βέβαιος",
+    "old": "βέβαιος",
+    "form": "βεβαία",
+    "english": "certain, secure",
+    "issue": "gloss",
+    "gloss": "not yet certain"
+  },
+  {
+    "lesson": 19,
+    "lemma": "ἀκολουθέω",
+    "old": "ἀκολουθέω",
+    "form": "ἀκολουθήσομεν",
+    "english": "we shall follow",
+    "issue": "gloss",
+    "gloss": "we shall follow; sigmatic future of contract verb"
+  },
+  {
+    "lesson": 19,
+    "lemma": "βουλεύομαι",
+    "old": "βουλεύομαι",
+    "form": "βουλευσόμεθα",
+    "english": "we shall deliberate",
+    "issue": "gloss",
+    "gloss": "we shall deliberate; middle future"
+  },
+  {
+    "lesson": 19,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 19,
+    "lemma": "νομίζω",
+    "old": "νομίζω",
+    "issue": "absent"
+  },
+  {
+    "lesson": 19,
+    "lemma": "τιμάω",
+    "old": "τιμάω",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 19,
+    "lemma": "ποιέω",
+    "old": "ποιέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 19,
+    "lemma": "πορεύομαι",
+    "old": "πορεύομαι",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 19,
+    "lemma": "διάβασις",
+    "old": "ἡ διάβασις",
+    "form": "διάβασιν",
+    "english": "the crossing",
+    "issue": "gloss",
+    "gloss": "the crossing"
+  },
+  {
+    "lesson": 19,
+    "lemma": "ἐλευθερία",
+    "old": "ἡ ἐλευθερία",
+    "form": "ἐλευθερίαν",
+    "english": "freedom",
+    "issue": "gloss",
+    "gloss": "your freedom"
+  },
+  {
+    "lesson": 19,
+    "lemma": "λοχαγός",
+    "old": "ὁ λοχαγός",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 19,
+    "lemma": "κραυγή",
+    "old": "ἡ κραυγή",
+    "form": "κραυγῆς",
+    "english": "shouting, cry",
+    "issue": "gloss",
+    "gloss": "with much shouting"
+  },
+  {
+    "lesson": 19,
+    "lemma": "Θάψακος",
+    "old": "ἡ Θάψακος",
+    "form": "Θάψακον",
+    "english": "Thapsacus",
+    "issue": "gloss",
+    "gloss": "to Thapsacus"
+  },
+  {
+    "lesson": 19,
+    "lemma": "Εὐφράτης",
+    "old": "ὁ Εὐφράτης",
+    "form": "Εὐφράτῃ",
+    "english": "Euphrates",
+    "issue": "gloss",
+    "gloss": "beside the Euphrates River"
+  },
+  {
+    "lesson": 19,
+    "lemma": "Βαβυλών",
+    "old": "ἡ Βαβυλών",
+    "form": "Βαβυλῶνι",
+    "english": "Babylon",
+    "issue": "gloss",
+    "gloss": "at Babylon"
+  },
+  {
+    "lesson": 19,
+    "lemma": "Ἰωνία",
+    "old": "ἡ Ἰωνία",
+    "form": "Ἰωνίαν",
+    "english": "Ionia",
+    "issue": "gloss",
+    "gloss": "until the arrival back in Ionia"
+  },
+  {
+    "lesson": 20,
+    "lemma": "πολίτης",
+    "old": "ὁ πολίτης",
+    "form": "πολῖται",
+    "english": "fellow citizens",
+    "issue": "manual",
+    "gloss": "fellow citizens; vocative"
+  },
+  {
+    "lesson": 20,
+    "lemma": "κῆρυξ",
+    "old": "ὁ κῆρυξ",
+    "form": "κῆρυξ",
+    "english": "herald",
+    "issue": "exact",
+    "gloss": "the herald of the initiates; religious office"
+  },
+  {
+    "lesson": 20,
+    "lemma": "συγγένεια",
+    "old": "ἡ συγγένεια",
+    "form": "συγγένεια",
+    "english": "kinship",
+    "issue": "exact",
+    "gloss": "kinship"
+  },
+  {
+    "lesson": 20,
+    "lemma": "παιδεία",
+    "old": "ἡ παιδεία",
+    "form": "παιδείαν",
+    "english": "education",
+    "issue": "gloss",
+    "gloss": "the same education"
+  },
+  {
+    "lesson": 20,
+    "lemma": "ἑορτή",
+    "old": "ἡ ἑορτή",
+    "form": "ἑορτάς",
+    "english": "festivals",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 20,
+    "lemma": "πατρίς",
+    "old": "ἡ πατρίς",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 20,
+    "lemma": "σωτηρία",
+    "old": "ἡ σωτηρία",
+    "form": "σωτηρίαν",
+    "english": "safety, preservation",
+    "issue": "gloss",
+    "gloss": "our common safety"
+  },
+  {
+    "lesson": 20,
+    "lemma": "ἀγγέλλω",
+    "old": "ἀγγέλλω",
+    "form": "ἀγγελῶν",
+    "english": "to announce",
+    "issue": "gloss",
+    "gloss": "to announce; future participle of purpose, adapted wording"
+  },
+  {
+    "lesson": 20,
+    "lemma": "κρίνω",
+    "old": "κρίνω",
+    "issue": "repeat",
+    "firstLesson": 12
+  },
+  {
+    "lesson": 20,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 20,
+    "lemma": "ἀμύνω",
+    "old": "ἀμύνω",
+    "issue": "absent"
+  },
+  {
+    "lesson": 20,
+    "lemma": "εἶμι",
+    "old": "εἶμι",
+    "form": "εἶμι",
+    "english": "I shall go",
+    "issue": "exact",
+    "gloss": "I shall go; future sense in this adapted example"
+  },
+  {
+    "lesson": 20,
+    "lemma": "δεῖ",
+    "old": "δεῖ",
+    "form": "Δεῖ",
+    "english": "it is necessary",
+    "issue": "exact",
+    "gloss": "it is necessary; impersonal"
+  },
+  {
+    "lesson": 20,
+    "lemma": "χρή",
+    "old": "χρή",
+    "issue": "repeat",
+    "firstLesson": 12
+  },
+  {
+    "lesson": 20,
+    "lemma": "σκοπός",
+    "old": "ὁ σκοπός",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 20,
+    "lemma": "νεκρός",
+    "old": "νεκρός",
+    "form": "νεκροὺς",
+    "english": "the dead",
+    "issue": "gloss",
+    "gloss": "the dead; substantival adjective"
+  },
+  {
+    "lesson": 20,
+    "lemma": "ἴδιος",
+    "old": "ἴδιος",
+    "form": "ἰδίαν",
+    "english": "private",
+    "issue": "manual",
+    "gloss": "their private advantage"
+  },
+  {
+    "lesson": 20,
+    "lemma": "ὠφέλεια",
+    "old": "ἡ ὠφέλεια",
+    "form": "ὠφέλειαν",
+    "english": "advantage, benefit",
+    "issue": "gloss",
+    "gloss": "their private advantage"
+  },
+  {
+    "lesson": 20,
+    "lemma": "φωνή",
+    "old": "ἡ φωνή",
+    "form": "φωνὴν",
+    "english": "a fine voice",
+    "issue": "gloss",
+    "gloss": "a fine voice"
+  },
+  {
+    "lesson": 20,
+    "lemma": "Κλεόκριτος",
+    "old": "ὁ Κλεόκριτος",
+    "form": "Κλεόκριτος",
+    "english": "Cleocritus",
+    "issue": "exact",
+    "gloss": "Cleocritus"
+  },
+  {
+    "lesson": 20,
+    "lemma": "μύστης",
+    "old": "ὁ μύστης",
+    "form": "μυστῶν",
+    "english": "initiates",
+    "issue": "manual",
+    "gloss": "the herald of the initiates; religious office"
+  },
+  {
+    "lesson": 20,
+    "lemma": "Μουνυχία",
+    "old": "ἡ Μουνυχία",
+    "form": "Μουνυχίᾳ",
+    "english": "Munychia",
+    "issue": "exact",
+    "gloss": "at Munychia"
+  },
+  {
+    "lesson": 21,
+    "lemma": "μάχη",
+    "old": "ἡ μάχη",
+    "form": "μάχην",
+    "english": "battle",
+    "issue": "gloss",
+    "gloss": "not the whole battle"
+  },
+  {
+    "lesson": 21,
+    "lemma": "νίκη",
+    "old": "ἡ νίκη",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 21,
+    "lemma": "συμφορά",
+    "old": "ἡ συμφορά",
+    "form": "συμφορὰν",
+    "english": "the disaster",
+    "issue": "gloss",
+    "gloss": "the disaster"
+  },
+  {
+    "lesson": 21,
+    "lemma": "τάξις",
+    "old": "ἡ τάξις",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 21,
+    "lemma": "πολέμιος",
+    "old": "ὁ πολέμιος",
+    "form": "πολεμίους",
+    "english": "enemies",
+    "issue": "manual",
+    "gloss": "the opponents in front"
+  },
+  {
+    "lesson": 21,
+    "lemma": "ἀγών",
+    "old": "ὁ ἀγών",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 21,
+    "lemma": "βασιλεύς",
+    "old": "ὁ βασιλεύς",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 21,
+    "lemma": "ἔρχομαι",
+    "old": "ἔρχομαι",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 21,
+    "lemma": "φεύγω",
+    "old": "φεύγω",
+    "issue": "repeat",
+    "firstLesson": 17
+  },
+  {
+    "lesson": 21,
+    "lemma": "λαμβάνω",
+    "old": "λαμβάνω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 21,
+    "lemma": "μανθάνω",
+    "old": "μανθάνω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 21,
+    "lemma": "πίπτω",
+    "old": "πίπτω",
+    "form": "ἔπεσεν",
+    "english": "he fell",
+    "issue": "manual",
+    "gloss": "fell; second aorist of πίπτω"
+  },
+  {
+    "lesson": 21,
+    "lemma": "τρέχω",
+    "old": "τρέχω",
+    "form": "ἔδραμεν",
+    "english": "he ran",
+    "issue": "manual",
+    "gloss": "ran; second aorist of τρέχω"
+  },
+  {
+    "lesson": 21,
+    "lemma": "ἀποθνῄσκω",
+    "old": "ἀποθνῄσκω",
+    "form": "ἀποθνῄσκοντα",
+    "english": "dying",
+    "issue": "gloss",
+    "gloss": "dying; present participle, agrees with Cyrus"
+  },
+  {
+    "lesson": 21,
+    "lemma": "ἄγγελος",
+    "old": "ὁ ἄγγελος",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 21,
+    "lemma": "ἀγγελία",
+    "old": "ἡ ἀγγελία",
+    "form": "ἀγγελίαν",
+    "english": "the news",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 21,
+    "lemma": "σωτηρία",
+    "old": "ἡ σωτηρία",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 21,
+    "lemma": "βουλή",
+    "old": "ἡ βουλή",
+    "form": "βουλὴν",
+    "english": "counsel",
+    "issue": "gloss",
+    "gloss": "took counsel; second aorist of λαμβάνω"
+  },
+  {
+    "lesson": 21,
+    "lemma": "νεκρός",
+    "old": "νεκρός",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 21,
+    "lemma": "οὔπω",
+    "old": "οὔπω",
+    "form": "οὔπω",
+    "english": "not yet",
+    "issue": "exact",
+    "gloss": "did not yet learn; second aorist of μανθάνω"
+  },
+  {
+    "lesson": 21,
+    "lemma": "Κῦρος",
+    "old": "ὁ Κῦρος",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 22,
+    "lemma": "λέγω",
+    "old": "λέγω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 22,
+    "lemma": "ὁράω",
+    "old": "ὁράω",
+    "form": "εἶδον",
+    "english": "they saw",
+    "issue": "manual",
+    "gloss": "saw; second aorist of ὁράω"
+  },
+  {
+    "lesson": 22,
+    "lemma": "πίστις",
+    "old": "ἡ πίστις",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 22,
+    "lemma": "δόλος",
+    "old": "ὁ δόλος",
+    "issue": "absent"
+  },
+  {
+    "lesson": 22,
+    "lemma": "πιστεύω",
+    "old": "πιστεύω",
+    "form": "ἐπίστευσεν",
+    "english": "he trusted",
+    "issue": "manual",
+    "gloss": "trusted; first aorist, supported exposure"
+  },
+  {
+    "lesson": 22,
+    "lemma": "καλέω",
+    "old": "καλέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 22,
+    "lemma": "σῆμα",
+    "old": "τὸ σῆμα",
+    "issue": "absent"
+  },
+  {
+    "lesson": 22,
+    "lemma": "στρατηγός",
+    "old": "ὁ στρατηγός",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 22,
+    "lemma": "λοχαγός",
+    "old": "ὁ λοχαγός",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 22,
+    "lemma": "ἡγεμών",
+    "old": "ὁ ἡγεμών",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 22,
+    "lemma": "θύρα",
+    "old": "ἡ θύρα",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 22,
+    "lemma": "στρατόπεδον",
+    "old": "τὸ στρατόπεδον",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 22,
+    "lemma": "ἱππεύς",
+    "old": "ὁ ἱππεύς",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 22,
+    "lemma": "κίνδυνος",
+    "old": "ὁ κίνδυνος",
+    "form": "κίνδυνον",
+    "english": "danger",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 22,
+    "lemma": "τελευτή",
+    "old": "ἡ τελευτή",
+    "form": "τελευτὴν",
+    "english": "death",
+    "issue": "gloss",
+    "gloss": "Cyrus’s death"
+  },
+  {
+    "lesson": 22,
+    "lemma": "πρᾶγμα",
+    "old": "τὸ πρᾶγμα",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 22,
+    "lemma": "ἅμα",
+    "old": "ἅμα",
+    "form": "ἅμα",
+    "english": "together",
+    "issue": "exact",
+    "gloss": "to go together; infinitive of εἶμι"
+  },
+  {
+    "lesson": 22,
+    "lemma": "εὐθύς",
+    "old": "εὐθύς",
+    "form": "εὐθύς",
+    "english": "immediately",
+    "issue": "exact",
+    "gloss": "immediately"
+  },
+  {
+    "lesson": 22,
+    "lemma": "οὐκέτι",
+    "old": "οὐκέτι",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 22,
+    "lemma": "ἄλλοθι",
+    "old": "ἄλλοθι",
+    "form": "ἄλλοθι",
+    "english": "elsewhere",
+    "issue": "exact",
+    "gloss": "elsewhere"
+  },
+  {
+    "lesson": 22,
+    "lemma": "Νίκαρχος",
+    "old": "ὁ Νίκαρχος",
+    "form": "Νίκαρχος",
+    "english": "Nicarchus, the wounded survivor",
+    "issue": "exact",
+    "gloss": "Nicarchus, the wounded survivor"
+  },
+  {
+    "lesson": 22,
+    "lemma": "Τισσαφέρνης",
+    "old": "ὁ Τισσαφέρνης",
+    "form": "Τισσαφέρνης",
+    "english": "Tissaphernes",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 23,
+    "lemma": "καλέω",
+    "old": "καλέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 23,
+    "lemma": "σκέπτομαι",
+    "old": "σκέπτομαι",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 23,
+    "lemma": "λογίζομαι",
+    "old": "λογίζομαι",
+    "form": "ἐλογίσατο",
+    "english": "he reasoned",
+    "issue": "manual",
+    "gloss": "reasoned; first aorist middle of λογίζομαι"
+  },
+  {
+    "lesson": 23,
+    "lemma": "δέχομαι",
+    "old": "δέχομαι",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 23,
+    "lemma": "βουλεύομαι",
+    "old": "βουλεύομαι",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 23,
+    "lemma": "φροντίζω",
+    "old": "φροντίζω",
+    "form": "ἐφρόντισεν",
+    "english": "he considered",
+    "issue": "manual",
+    "gloss": "took thought; first aorist of φροντίζω"
+  },
+  {
+    "lesson": 23,
+    "lemma": "πράττω",
+    "old": "πράττω",
+    "form": "ἔπραξεν",
+    "english": "he acted",
+    "issue": "manual",
+    "gloss": "acted; first aorist of πράττω"
+  },
+  {
+    "lesson": 23,
+    "lemma": "πῦρ",
+    "old": "τὸ πῦρ",
+    "form": "πῦρ",
+    "english": "fire",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 23,
+    "lemma": "Τὸ μὲν φῶς",
+    "old": "Τὸ μὲν φῶς",
+    "form": "φῶς",
+    "english": "light",
+    "issue": "manual",
+    "gloss": "the light"
+  },
+  {
+    "lesson": 23,
+    "lemma": "ἐλπίς",
+    "old": "ἡ ἐλπίς",
+    "form": "ἐλπίδα",
+    "english": "hope",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 23,
+    "lemma": "φόβος",
+    "old": "ὁ φόβος",
+    "issue": "repeat",
+    "firstLesson": 16
+  },
+  {
+    "lesson": 23,
+    "lemma": "οἰκία",
+    "old": "ἡ οἰκία",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 23,
+    "lemma": "λόγος",
+    "old": "ὁ λόγος",
+    "form": "λόγῳ",
+    "english": "word; speech",
+    "issue": "manual",
+    "gloss": "in a separate account: Memorabilia, not the expedition"
+  },
+  {
+    "lesson": 23,
+    "lemma": "ἀρχή",
+    "old": "ἡ ἀρχή",
+    "form": "ἀρχὴν",
+    "english": "the command",
+    "issue": "gloss",
+    "gloss": "the command"
+  },
+  {
+    "lesson": 23,
+    "lemma": "κοινός",
+    "old": "κοινός",
+    "issue": "repeat",
+    "firstLesson": 17
+  },
+  {
+    "lesson": 23,
+    "lemma": "μόνος",
+    "old": "μόνος",
+    "form": "μόνος",
+    "english": "alone",
+    "issue": "exact",
+    "gloss": "not alone"
+  },
+  {
+    "lesson": 23,
+    "lemma": "ἀγνοέω",
+    "old": "ἀγνοέω",
+    "form": "ἀγνοῶν",
+    "english": "be ignorant",
+    "issue": "gloss",
+    "gloss": "the person ignorant of danger; present participle"
+  },
+  {
+    "lesson": 23,
+    "lemma": "γιγνώσκω",
+    "old": "γιγνώσκω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 23,
+    "lemma": "ἀνδρεία",
+    "old": "ἡ ἀνδρεία",
+    "issue": "repeat",
+    "firstLesson": 17
+  },
+  {
+    "lesson": 23,
+    "lemma": "ὄναρ",
+    "old": "τὸ ὄναρ",
+    "form": "ὄναρ",
+    "english": "a dream",
+    "issue": "exact",
+    "gloss": "a dream; irregular neuter, genitive ὀνείρατος"
+  },
+  {
+    "lesson": 23,
+    "lemma": "Εὐθύδημος",
+    "old": "ὁ Εὐθύδημος",
+    "form": "Εὐθύδημον",
+    "english": "Euthydemus",
+    "issue": "gloss",
+    "gloss": "Euthydemus, Socrates’s interlocutor"
+  },
+  {
+    "lesson": 23,
+    "lemma": "βέβαιος",
+    "old": "βέβαιος",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 24,
+    "lemma": "σφενδονήτης",
+    "old": "ὁ σφενδονήτης",
+    "form": "σφενδονῆται",
+    "english": "slingers",
+    "issue": "manual",
+    "gloss": "two hundred slingers"
+  },
+  {
+    "lesson": 24,
+    "lemma": "σφενδόνη",
+    "old": "ἡ σφενδόνη",
+    "form": "σφενδόνας",
+    "english": "slings",
+    "issue": "gloss",
+    "gloss": "slings"
+  },
+  {
+    "lesson": 24,
+    "lemma": "τοξότης",
+    "old": "ὁ τοξότης",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 24,
+    "lemma": "ἵππος",
+    "old": "ὁ ἵππος",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 24,
+    "lemma": "μόλυβδος",
+    "old": "ὁ μόλυβδος",
+    "form": "μολύβδῳ",
+    "english": "lead metal",
+    "issue": "gloss",
+    "gloss": "use lead; dative with contracted middle χράομαι"
+  },
+  {
+    "lesson": 24,
+    "lemma": "παρασκευή",
+    "old": "ἡ παρασκευή",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 24,
+    "lemma": "δίωξις",
+    "old": "ἡ δίωξις",
+    "form": "δίωξις",
+    "english": "the pursuit",
+    "issue": "exact",
+    "gloss": "the pursuit"
+  },
+  {
+    "lesson": 24,
+    "lemma": "μένω",
+    "old": "μένω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 24,
+    "lemma": "κρίνω",
+    "old": "κρίνω",
+    "issue": "repeat",
+    "firstLesson": 12
+  },
+  {
+    "lesson": 24,
+    "lemma": "νέμω",
+    "old": "νέμω",
+    "form": "ἔνειμαν",
+    "english": "they allocated",
+    "issue": "manual",
+    "gloss": "allocated; liquid/nasal first aorist of νέμω"
+  },
+  {
+    "lesson": 24,
+    "lemma": "συλλέγω",
+    "old": "συλλέγω",
+    "form": "συνέλεξαν",
+    "english": "they gathered",
+    "issue": "manual",
+    "gloss": "gathered; compound first aorist"
+  },
+  {
+    "lesson": 24,
+    "lemma": "παρασκευάζομαι",
+    "old": "παρασκευάζομαι",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 24,
+    "lemma": "σῴζω",
+    "old": "σῴζω",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 24,
+    "lemma": "αἰτία",
+    "old": "ἡ αἰτία",
+    "form": "αἰτίαν",
+    "english": "the criticism",
+    "issue": "gloss",
+    "gloss": "the criticism"
+  },
+  {
+    "lesson": 24,
+    "lemma": "πορεία",
+    "old": "ἡ πορεία",
+    "form": "πορείας",
+    "english": "march",
+    "issue": "gloss",
+    "gloss": "began the march; genitive with first-aorist middle ἄρχομαι"
+  },
+  {
+    "lesson": 24,
+    "lemma": "θάλαττα",
+    "old": "ἡ θάλαττα",
+    "form": "θάλατταν",
+    "english": "sea",
+    "issue": "gloss",
+    "gloss": "the sea"
+  },
+  {
+    "lesson": 24,
+    "lemma": "ἐπιμελέομαι",
+    "old": "ἐπιμελέομαι",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 24,
+    "lemma": "μακρόθεν",
+    "old": "μακρόθεν",
+    "form": "μακρόθεν",
+    "english": "from a distance",
+    "issue": "exact",
+    "gloss": "from a distance"
+  },
+  {
+    "lesson": 24,
+    "lemma": "πάλιν",
+    "old": "πάλιν",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 24,
+    "lemma": "Ῥόδιος",
+    "old": "ὁ Ῥόδιος",
+    "form": "Ῥοδίων",
+    "english": "the Rhodians",
+    "issue": "gloss",
+    "gloss": "the Rhodians"
+  },
+  {
+    "lesson": 24,
+    "lemma": "Λύκιος",
+    "old": "ὁ Λύκιος",
+    "form": "Λύκιος",
+    "english": "Lycius",
+    "issue": "exact",
+    "gloss": "Lycius, son of Polystratus, Athenian cavalry commander"
+  },
+  {
+    "lesson": 24,
+    "lemma": "σκευοφόρον",
+    "old": "τὰ σκευοφόρα",
+    "form": "σκευοφόρα",
+    "english": "the baggage animals",
+    "issue": "exact",
+    "gloss": "the baggage animals"
+  },
+  {
+    "lesson": 25,
+    "lemma": "βίος",
+    "old": "ὁ βίος",
+    "form": "βίου",
+    "english": "life",
+    "issue": "manual",
+    "gloss": "life"
+  },
+  {
+    "lesson": 25,
+    "lemma": "ἐπιθυμία",
+    "old": "ἡ ἐπιθυμία",
+    "form": "ἐπιθυμιῶν",
+    "english": "desires",
+    "issue": "gloss",
+    "gloss": "desires"
+  },
+  {
+    "lesson": 25,
+    "lemma": "ἐγκράτεια",
+    "old": "ἡ ἐγκράτεια",
+    "form": "ἐγκράτεια",
+    "english": "self-mastery",
+    "issue": "exact",
+    "gloss": "self-mastery"
+  },
+  {
+    "lesson": 25,
+    "lemma": "σῖτος",
+    "old": "ὁ σῖτος",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 25,
+    "lemma": "ποτόν",
+    "old": "τὸ ποτόν",
+    "form": "ποτὸν",
+    "english": "beverage",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 25,
+    "lemma": "πεῖνα",
+    "old": "ἡ πεῖνα",
+    "form": "πεῖνα",
+    "english": "hunger",
+    "issue": "exact",
+    "gloss": "hunger"
+  },
+  {
+    "lesson": 25,
+    "lemma": "ἡδονή",
+    "old": "ἡ ἡδονή",
+    "form": "ἡδονὴν",
+    "english": "pleasure",
+    "issue": "gloss",
+    "gloss": "pleasure"
+  },
+  {
+    "lesson": 25,
+    "lemma": "βοήθεια",
+    "old": "ἡ βοήθεια",
+    "form": "βοήθειαν",
+    "english": "help",
+    "issue": "gloss",
+    "gloss": "help"
+  },
+  {
+    "lesson": 25,
+    "lemma": "χρεία",
+    "old": "ἡ χρεία",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 25,
+    "lemma": "παράδειγμα",
+    "old": "τὸ παράδειγμα",
+    "issue": "repeat",
+    "firstLesson": 17
+  },
+  {
+    "lesson": 25,
+    "lemma": "πιστός",
+    "old": "πιστός",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 25,
+    "lemma": "ὀλίγος",
+    "old": "ὀλίγος",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 25,
+    "lemma": "ἐσθίω",
+    "old": "ἐσθίω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 25,
+    "lemma": "πίνω",
+    "old": "πίνω",
+    "form": "ἔπινεν",
+    "english": "he used to drink",
+    "issue": "manual",
+    "gloss": "used to drink"
+  },
+  {
+    "lesson": 25,
+    "lemma": "ζητέω",
+    "old": "ζητέω",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 25,
+    "lemma": "πράττω",
+    "old": "πράττω",
+    "issue": "repeat",
+    "firstLesson": 23
+  },
+  {
+    "lesson": 25,
+    "lemma": "διδάσκω",
+    "old": "διδάσκω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 25,
+    "lemma": "ἀκούω",
+    "old": "ἀκούω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 25,
+    "lemma": "κρατέω",
+    "old": "κρατέω",
+    "form": "κρατῶν",
+    "english": "mastering",
+    "issue": "manual",
+    "gloss": "mastering himself; κρατέω with genitive"
+  },
+  {
+    "lesson": 25,
+    "lemma": "πολλάκις",
+    "old": "πολλάκις",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 26,
+    "lemma": "παιδεία",
+    "old": "ἡ παιδεία",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 26,
+    "lemma": "νέος",
+    "old": "ὁ νέος",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἀρχή",
+    "old": "ἡ ἀρχή",
+    "issue": "repeat",
+    "firstLesson": 23
+  },
+  {
+    "lesson": 26,
+    "lemma": "ὕπνος",
+    "old": "ὁ ὕπνος",
+    "form": "ὕπνου",
+    "english": "sleep",
+    "issue": "gloss",
+    "gloss": "sleep"
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἐργασία",
+    "old": "ἡ ἐργασία",
+    "form": "ἐργασία",
+    "english": "work",
+    "issue": "exact",
+    "gloss": "work"
+  },
+  {
+    "lesson": 26,
+    "lemma": "πόνος",
+    "old": "ὁ πόνος",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 26,
+    "lemma": "ψῦχος",
+    "old": "τὸ ψῦχος",
+    "form": "ψύχους",
+    "english": "the cold",
+    "issue": "gloss",
+    "gloss": "the cold; -εσ- noun"
+  },
+  {
+    "lesson": 26,
+    "lemma": "θέρος",
+    "old": "τὸ θέρος",
+    "form": "θέρους",
+    "english": "summer",
+    "issue": "gloss",
+    "gloss": "summer heat; -εσ- noun"
+  },
+  {
+    "lesson": 26,
+    "lemma": "χαράδρα",
+    "old": "ἡ χαράδρα",
+    "form": "χαράδραν",
+    "english": "ravine",
+    "issue": "gloss",
+    "gloss": "ravine"
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἀπορία",
+    "old": "ἡ ἀπορία",
+    "form": "ἀπορίαν",
+    "english": "difficulty",
+    "issue": "gloss",
+    "gloss": "difficulty"
+  },
+  {
+    "lesson": 26,
+    "lemma": "βαθύς",
+    "old": "βαθύς",
+    "form": "βαθεῖαν",
+    "english": "deep",
+    "issue": "gloss",
+    "gloss": "deep; feminine accusative"
+  },
+  {
+    "lesson": 26,
+    "lemma": "βαρύς",
+    "old": "βαρύς",
+    "form": "βαρὺς",
+    "english": "heavy",
+    "issue": "exact",
+    "gloss": "heavy"
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἡδύς",
+    "old": "ἡδύς",
+    "issue": "absent"
+  },
+  {
+    "lesson": 26,
+    "lemma": "ὅς",
+    "old": "ὅς",
+    "form": "ὃς",
+    "english": "who, which (relative)",
+    "issue": "exact",
+    "gloss": "who; relative subject"
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἄρχω",
+    "old": "ἄρχω",
+    "form": "ἄρξει",
+    "english": "he will rule",
+    "issue": "manual",
+    "gloss": "will rule"
+  },
+  {
+    "lesson": 26,
+    "lemma": "πονέω",
+    "old": "πονέω",
+    "form": "ἐπόνει",
+    "english": "he was working",
+    "issue": "manual",
+    "gloss": "was working"
+  },
+  {
+    "lesson": 26,
+    "lemma": "καλέω",
+    "old": "καλέω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἐξετάζω",
+    "old": "ἐξετάζω",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 26,
+    "lemma": "ἔξω",
+    "old": "ἔξω",
+    "form": "Ἔξω",
+    "english": "outside",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 26,
+    "lemma": "πάντοτε",
+    "old": "πάντοτε",
+    "form": "πάντοτε",
+    "english": "always",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 27,
+    "lemma": "χρῆμα",
+    "old": "τὰ χρήματα",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 27,
+    "lemma": "οἰκία",
+    "old": "ἡ οἰκία",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 27,
+    "lemma": "ξένος",
+    "old": "ὁ ξένος",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 27,
+    "lemma": "πολίτης",
+    "old": "ὁ πολίτης",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 27,
+    "lemma": "πλούσιος",
+    "old": "πλούσιος",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 27,
+    "lemma": "πένης",
+    "old": "πένης",
+    "form": "πενήτων",
+    "english": "poor people",
+    "issue": "manual",
+    "gloss": "poor people; genitive"
+  },
+  {
+    "lesson": 27,
+    "lemma": "ἱκανός",
+    "old": "ἱκανός",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 27,
+    "lemma": "μέγας",
+    "old": "μέγας",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 27,
+    "lemma": "πολύς",
+    "old": "πολύς",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 27,
+    "lemma": "ἡσύχιος",
+    "old": "ἡσύχιος",
+    "form": "ἡσυχώτερον",
+    "english": "quiet",
+    "issue": "gloss",
+    "gloss": "more peacefully; comparative adverb"
+  },
+  {
+    "lesson": 27,
+    "lemma": "εὐδαίμων",
+    "old": "εὐδαίμων",
+    "form": "εὐδαιμονέστατός",
+    "english": "happy, flourishing",
+    "issue": "gloss",
+    "gloss": "happiest"
+  },
+  {
+    "lesson": 27,
+    "lemma": "πλείων",
+    "old": "πλείων",
+    "form": "πλείω",
+    "english": "more",
+    "issue": "gloss",
+    "gloss": "more; neuter plural comparative"
+  },
+  {
+    "lesson": 27,
+    "lemma": "ἐλάττων",
+    "old": "ἐλάττων",
+    "form": "ἐλάττονα",
+    "english": "less",
+    "issue": "gloss",
+    "gloss": "less; neuter plural"
+  },
+  {
+    "lesson": 27,
+    "lemma": "ἀμείνων",
+    "old": "ἀμείνων",
+    "form": "ἄμεινόν",
+    "english": "better",
+    "issue": "gloss",
+    "gloss": "better; neuter"
+  },
+  {
+    "lesson": 27,
+    "lemma": "γελάω",
+    "old": "γελάω",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 27,
+    "lemma": "δέχομαι",
+    "old": "δέχομαι",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 27,
+    "lemma": "αἰτέω",
+    "old": "αἰτέω",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 27,
+    "lemma": "σκοπέω",
+    "old": "σκοπέω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 27,
+    "lemma": "θεραπεύω",
+    "old": "θεραπεύω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 27,
+    "lemma": "ὅμως",
+    "old": "ὅμως",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 28,
+    "lemma": "μῦθος",
+    "old": "ὁ μῦθος",
+    "form": "μῦθος",
+    "english": "tale",
+    "issue": "exact",
+    "gloss": "this tale"
+  },
+  {
+    "lesson": 28,
+    "lemma": "ἀρετή",
+    "old": "ἡ ἀρετή",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 28,
+    "lemma": "κακία",
+    "old": "ἡ κακία",
+    "form": "Κακία",
+    "english": "vice",
+    "issue": "exact",
+    "gloss": "Vice; personification"
+  },
+  {
+    "lesson": 28,
+    "lemma": "ὁδός",
+    "old": "ἡ ὁδός",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 28,
+    "lemma": "ἐλπίς",
+    "old": "ἡ ἐλπίς",
+    "issue": "repeat",
+    "firstLesson": 23
+  },
+  {
+    "lesson": 28,
+    "lemma": "ἐπαγγελία",
+    "old": "ἡ ἐπαγγελία",
+    "form": "ἐπαγγελία",
+    "english": "promise",
+    "issue": "exact",
+    "gloss": "promise"
+  },
+  {
+    "lesson": 28,
+    "lemma": "εὐδαιμονία",
+    "old": "ἡ εὐδαιμονία",
+    "form": "εὐδαιμονίας",
+    "english": "happiness",
+    "issue": "gloss",
+    "gloss": "happiness"
+  },
+  {
+    "lesson": 28,
+    "lemma": "ὄψις",
+    "old": "ἡ ὄψις",
+    "form": "ὄψις",
+    "english": "appearance",
+    "issue": "exact",
+    "gloss": "appearance"
+  },
+  {
+    "lesson": 28,
+    "lemma": "ἀλήθεια",
+    "old": "ἡ ἀλήθεια",
+    "form": "ἀλήθειαν",
+    "english": "truth",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 28,
+    "lemma": "ὅδε",
+    "old": "ὅδε",
+    "form": "ἥδε",
+    "english": "this here (feminine)",
+    "issue": "manual",
+    "gloss": "this road here"
+  },
+  {
+    "lesson": 28,
+    "lemma": "οὗτος",
+    "old": "οὗτος",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 28,
+    "lemma": "ἐκεῖνος",
+    "old": "ἐκεῖνος",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 28,
+    "lemma": "ποῖος",
+    "old": "ποῖος",
+    "issue": "absent"
+  },
+  {
+    "lesson": 28,
+    "lemma": "πότερος",
+    "old": "πότερος",
+    "form": "ποτέραν",
+    "english": "which of two",
+    "issue": "gloss",
+    "gloss": "which of two; feminine accusative"
+  },
+  {
+    "lesson": 28,
+    "lemma": "κρίνω",
+    "old": "κρίνω",
+    "issue": "repeat",
+    "firstLesson": 12
+  },
+  {
+    "lesson": 28,
+    "lemma": "θαυμάζω",
+    "old": "θαυμάζω",
+    "form": "θαυμάζεις",
+    "english": "you admire",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 28,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 28,
+    "lemma": "πόθεν",
+    "old": "πόθεν",
+    "form": "πόθεν",
+    "english": "from where",
+    "issue": "exact",
+    "gloss": "from where?"
+  },
+  {
+    "lesson": 28,
+    "lemma": "πῶς",
+    "old": "πῶς",
+    "form": "πῶς",
+    "english": "how",
+    "issue": "exact",
+    "gloss": "how?"
+  },
+  {
+    "lesson": 28,
+    "lemma": "δεῦρο",
+    "old": "δεῦρο",
+    "form": "δεῦρο",
+    "english": "here, hither",
+    "issue": "exact",
+    "gloss": "here, hither"
+  },
+  {
+    "lesson": 29,
+    "lemma": "χιών",
+    "old": "ἡ χιών",
+    "form": "χιὼν",
+    "english": "snow",
+    "issue": "exact",
+    "gloss": "snow"
+  },
+  {
+    "lesson": 29,
+    "lemma": "πῦρ",
+    "old": "τὸ πῦρ",
+    "issue": "repeat",
+    "firstLesson": 23
+  },
+  {
+    "lesson": 29,
+    "lemma": "ὑποζύγιον",
+    "old": "τὸ ὑποζύγιον",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 29,
+    "lemma": "δοῦλος",
+    "old": "ὁ δοῦλος",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 29,
+    "lemma": "δύναμις",
+    "old": "ἡ δύναμις",
+    "form": "δύναμις",
+    "english": "strength, ability",
+    "issue": "exact",
+    "gloss": "strength"
+  },
+  {
+    "lesson": 29,
+    "lemma": "πάθος",
+    "old": "τὸ πάθος",
+    "form": "πάθος",
+    "english": "suffering, condition",
+    "issue": "exact",
+    "gloss": "condition, suffering"
+  },
+  {
+    "lesson": 29,
+    "lemma": "κέρδος",
+    "old": "τὸ κέρδος",
+    "form": "κέρδος",
+    "english": "gain, benefit",
+    "issue": "exact",
+    "gloss": "benefit"
+  },
+  {
+    "lesson": 29,
+    "lemma": "τροφή",
+    "old": "ἡ τροφή",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 29,
+    "lemma": "ἐπιμέλεια",
+    "old": "ἡ ἐπιμέλεια",
+    "form": "ἐπιμέλεια",
+    "english": "care",
+    "issue": "exact",
+    "gloss": "care"
+  },
+  {
+    "lesson": 29,
+    "lemma": "ἀσθενής",
+    "old": "ἀσθενής",
+    "form": "ἀσθενέσιν",
+    "english": "the weak men",
+    "issue": "gloss",
+    "gloss": "the weak men"
+  },
+  {
+    "lesson": 29,
+    "lemma": "δυνατός",
+    "old": "δυνατός",
+    "form": "δυνατοὶ",
+    "english": "those who were able",
+    "issue": "manual",
+    "gloss": "those able, the strong"
+  },
+  {
+    "lesson": 29,
+    "lemma": "ἴσος",
+    "old": "ἴσος",
+    "form": "ἴση",
+    "english": "equal (feminine)",
+    "issue": "manual",
+    "gloss": "equal"
+  },
+  {
+    "lesson": 29,
+    "lemma": "βαίνω",
+    "old": "βαίνω",
+    "form": "ἔβη",
+    "english": "he went",
+    "issue": "manual",
+    "gloss": "went; athematic aorist of βαίνω"
+  },
+  {
+    "lesson": 29,
+    "lemma": "γιγνώσκω",
+    "old": "γιγνώσκω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 29,
+    "lemma": "ἵστημι",
+    "old": "ἵστημι",
+    "form": "ἔστη",
+    "english": "he stood",
+    "issue": "manual",
+    "gloss": "stood, stopped; athematic aorist"
+  },
+  {
+    "lesson": 29,
+    "lemma": "πίπτω",
+    "old": "πίπτω",
+    "issue": "repeat",
+    "firstLesson": 21
+  },
+  {
+    "lesson": 29,
+    "lemma": "καίω",
+    "old": "καίω",
+    "form": "ἔκαιον",
+    "english": "they were burning",
+    "issue": "manual",
+    "gloss": "were burning"
+  },
+  {
+    "lesson": 29,
+    "lemma": "ἀποθνῄσκω",
+    "old": "ἀποθνῄσκω",
+    "issue": "repeat",
+    "firstLesson": 21
+  },
+  {
+    "lesson": 29,
+    "lemma": "ὕστερον",
+    "old": "ὕστερον",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 29,
+    "lemma": "εἶτα",
+    "old": "εἶτα",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 30,
+    "lemma": "βιβλίον",
+    "old": "τὸ βιβλίον",
+    "form": "βιβλία",
+    "english": "books, scrolls",
+    "issue": "gloss",
+    "gloss": "books, scrolls"
+  },
+  {
+    "lesson": 30,
+    "lemma": "γράμμα",
+    "old": "τὸ γράμμα",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 30,
+    "lemma": "ὄνομα",
+    "old": "τὸ ὄνομα",
+    "form": "ὄνομα",
+    "english": "name",
+    "issue": "exact",
+    "gloss": "name"
+  },
+  {
+    "lesson": 30,
+    "lemma": "πίναξ",
+    "old": "ὁ πίναξ",
+    "form": "πίναξ",
+    "english": "tablet",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 30,
+    "lemma": "τεκμήριον",
+    "old": "τὸ τεκμήριον",
+    "form": "τεκμήρια",
+    "english": "evidence",
+    "issue": "gloss",
+    "gloss": "evidence"
+  },
+  {
+    "lesson": 30,
+    "lemma": "ἄσκησις",
+    "old": "ἡ ἄσκησις",
+    "form": "ἀσκήσει",
+    "english": "practice, exercise",
+    "issue": "gloss",
+    "gloss": "in the course exercise"
+  },
+  {
+    "lesson": 30,
+    "lemma": "χρήσιμος",
+    "old": "χρήσιμος",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 30,
+    "lemma": "ταχύς",
+    "old": "ταχύς",
+    "form": "ταχὺς",
+    "english": "fast",
+    "issue": "exact",
+    "gloss": "fast"
+  },
+  {
+    "lesson": 30,
+    "lemma": "βραδύς",
+    "old": "βραδύς",
+    "form": "βραδύς",
+    "english": "slow",
+    "issue": "exact",
+    "gloss": "slow"
+  },
+  {
+    "lesson": 30,
+    "lemma": "χρυσοῦς",
+    "old": "χρυσοῦς",
+    "form": "χρυσοῦς",
+    "english": "golden",
+    "issue": "exact",
+    "gloss": "golden; contract adjective"
+  },
+  {
+    "lesson": 30,
+    "lemma": "πρῶτος",
+    "old": "πρῶτος",
+    "form": "πρώτῳ",
+    "english": "first",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 30,
+    "lemma": "δεύτερος",
+    "old": "δεύτερος",
+    "form": "δευτέρῳ",
+    "english": "the second",
+    "issue": "gloss",
+    "gloss": "the second"
+  },
+  {
+    "lesson": 30,
+    "lemma": "δηλόω",
+    "old": "δηλόω",
+    "form": "δηλοῖ",
+    "english": "makes clear",
+    "issue": "gloss",
+    "gloss": "makes clear; -όω contract"
+  },
+  {
+    "lesson": 30,
+    "lemma": "πληρόω",
+    "old": "πληρόω",
+    "form": "πληροῦμεν",
+    "english": "we fill",
+    "issue": "gloss",
+    "gloss": "we fill; -όω contract"
+  },
+  {
+    "lesson": 30,
+    "lemma": "κατορθόω",
+    "old": "κατορθόω",
+    "form": "κατορθοῖ",
+    "english": "makes successful",
+    "issue": "gloss",
+    "gloss": "makes successful; -όω contract"
+  },
+  {
+    "lesson": 30,
+    "lemma": "νομίζω",
+    "old": "νομίζω",
+    "form": "νομίζω",
+    "english": "I think",
+    "issue": "exact",
+    "gloss": "I think"
+  },
+  {
+    "lesson": 30,
+    "lemma": "ἁμαρτάνω",
+    "old": "ἁμαρτάνω",
+    "form": "ἁμαρτάνει",
+    "english": "makes mistakes",
+    "issue": "gloss",
+    "gloss": "makes mistakes"
+  },
+  {
+    "lesson": 30,
+    "lemma": "γιγνώσκω",
+    "old": "γιγνώσκω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 30,
+    "lemma": "ὡς",
+    "old": "ὡς",
+    "form": "Ὡς",
+    "english": "as; how; that (context-dependent)",
+    "issue": "exact",
+    "gloss": "as"
+  },
+  {
+    "lesson": 30,
+    "lemma": "ὀρθῶς",
+    "old": "ὀρθῶς",
+    "form": "ὀρθῶς",
+    "english": "correctly",
+    "issue": "exact",
+    "gloss": "correctly"
+  },
+  {
+    "lesson": 31,
+    "lemma": "φύλαξ",
+    "old": "ὁ φύλαξ",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 31,
+    "lemma": "ἄγγελος",
+    "old": "ὁ ἄγγελος",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 31,
+    "lemma": "ἀπειλή",
+    "old": "ἡ ἀπειλή",
+    "form": "ἀπειλαῖς",
+    "english": "threats",
+    "issue": "manual",
+    "gloss": "with threats; means"
+  },
+  {
+    "lesson": 31,
+    "lemma": "βία",
+    "old": "ἡ βία",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 31,
+    "lemma": "ἀδικία",
+    "old": "ἡ ἀδικία",
+    "form": "ἀδικίαν",
+    "english": "wrongdoing",
+    "issue": "gloss",
+    "gloss": "wrongdoing"
+  },
+  {
+    "lesson": 31,
+    "lemma": "φωνή",
+    "old": "ἡ φωνή",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 31,
+    "lemma": "χρόνος",
+    "old": "ὁ χρόνος",
+    "form": "χρόνος",
+    "english": "time",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 31,
+    "lemma": "αἰχμάλωτος",
+    "old": "αἰχμάλωτος",
+    "form": "αἰχμάλωτός",
+    "english": "captive",
+    "issue": "exact",
+    "gloss": "captive"
+  },
+  {
+    "lesson": 31,
+    "lemma": "παλαιός",
+    "old": "παλαιός",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 31,
+    "lemma": "τάττω",
+    "old": "τάττω",
+    "form": "τάττεται",
+    "english": "is appointed",
+    "issue": "gloss",
+    "gloss": "is appointed; passive"
+  },
+  {
+    "lesson": 31,
+    "lemma": "πιστεύω",
+    "old": "πιστεύω",
+    "issue": "repeat",
+    "firstLesson": 22
+  },
+  {
+    "lesson": 31,
+    "lemma": "ἐράω",
+    "old": "ἐράω",
+    "form": "ἐρᾷ",
+    "english": "he desires",
+    "issue": "manual",
+    "gloss": "desires, is in love with; takes genitive"
+  },
+  {
+    "lesson": 31,
+    "lemma": "πείθω",
+    "old": "πείθω",
+    "issue": "repeat",
+    "firstLesson": 16
+  },
+  {
+    "lesson": 31,
+    "lemma": "φοβέω",
+    "old": "φοβέω",
+    "form": "φοβεῖται",
+    "english": "is frightened",
+    "issue": "gloss",
+    "gloss": "is frightened"
+  },
+  {
+    "lesson": 31,
+    "lemma": "σιωπάω",
+    "old": "σιωπάω",
+    "form": "σιωπᾷ",
+    "english": "be silent",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 31,
+    "lemma": "πέμπω",
+    "old": "πέμπω",
+    "form": "πέμπει",
+    "english": "he/she sends",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 31,
+    "lemma": "ἐλέγχω",
+    "old": "ἐλέγχω",
+    "form": "ἐλέγχεται",
+    "english": "is rebuked",
+    "issue": "gloss",
+    "gloss": "is rebuked"
+  },
+  {
+    "lesson": 31,
+    "lemma": "φυλάττω",
+    "old": "φυλάττω",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 31,
+    "lemma": "ἀδικέω",
+    "old": "ἀδικέω",
+    "form": "ἀδικεῖ",
+    "english": "he does wrong",
+    "issue": "manual",
+    "gloss": "does wrong"
+  },
+  {
+    "lesson": 31,
+    "lemma": "αἰσχύνομαι",
+    "old": "αἰσχύνομαι",
+    "form": "αἰσχύνεται",
+    "english": "is ashamed",
+    "issue": "gloss",
+    "gloss": "is ashamed; middle form"
+  },
+  {
+    "lesson": 32,
+    "lemma": "σκεῦος",
+    "old": "τὸ σκεῦος",
+    "form": "σκεύη",
+    "english": "piece of equipment",
+    "issue": "gloss",
+    "gloss": "equipment, objects"
+  },
+  {
+    "lesson": 32,
+    "lemma": "ναῦς",
+    "old": "ἡ ναῦς",
+    "form": "ναῦς",
+    "english": "ship",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 32,
+    "lemma": "ναύτης",
+    "old": "ὁ ναύτης",
+    "form": "ναῦται",
+    "english": "sailors",
+    "issue": "gloss",
+    "gloss": "sailors"
+  },
+  {
+    "lesson": 32,
+    "lemma": "τάξις",
+    "old": "ἡ τάξις",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 32,
+    "lemma": "χώρα",
+    "old": "ἡ χώρα",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 32,
+    "lemma": "οἴκημα",
+    "old": "τὸ οἴκημα",
+    "form": "οἰκήματα",
+    "english": "rooms",
+    "issue": "gloss",
+    "gloss": "rooms"
+  },
+  {
+    "lesson": 32,
+    "lemma": "ἱμάτιον",
+    "old": "τὸ ἱμάτιον",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 32,
+    "lemma": "οἶνος",
+    "old": "ὁ οἶνος",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 32,
+    "lemma": "μνήμη",
+    "old": "ἡ μνήμη",
+    "form": "μνήμης",
+    "english": "memory",
+    "issue": "gloss",
+    "gloss": "memory; genitive"
+  },
+  {
+    "lesson": 32,
+    "lemma": "ξηρός",
+    "old": "ξηρός",
+    "form": "ξηρῷ",
+    "english": "dry (dative)",
+    "issue": "manual",
+    "gloss": "dry place; substantival adjective"
+  },
+  {
+    "lesson": 32,
+    "lemma": "ψυχρός",
+    "old": "ψυχρός",
+    "form": "ψυχρῷ",
+    "english": "cool, cold",
+    "issue": "gloss",
+    "gloss": "cool place"
+  },
+  {
+    "lesson": 32,
+    "lemma": "ἕκαστος",
+    "old": "ἕκαστος",
+    "form": "ἕκαστον",
+    "english": "each",
+    "issue": "gloss",
+    "gloss": "each item"
+  },
+  {
+    "lesson": 32,
+    "lemma": "δύναμαι",
+    "old": "δύναμαι",
+    "form": "δύναμαι",
+    "english": "be able",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 32,
+    "lemma": "κεῖμαι",
+    "old": "κεῖμαι",
+    "form": "κεῖται",
+    "english": "it lies",
+    "issue": "manual",
+    "gloss": "lie, are situated; neuter plural subject"
+  },
+  {
+    "lesson": 32,
+    "lemma": "ἐπίσταμαι",
+    "old": "ἐπίσταμαι",
+    "form": "ἐπίσταμαι",
+    "english": "know, understand how",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 32,
+    "lemma": "εὑρίσκω",
+    "old": "εὑρίσκω",
+    "form": "εὑρίσκειν",
+    "english": "to find",
+    "issue": "gloss",
+    "gloss": "to find"
+  },
+  {
+    "lesson": 32,
+    "lemma": "κινέω",
+    "old": "κινέω",
+    "form": "κινεῖται",
+    "english": "moves",
+    "issue": "gloss",
+    "gloss": "moves; middle/passive"
+  },
+  {
+    "lesson": 32,
+    "lemma": "κομίζω",
+    "old": "κομίζω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 32,
+    "lemma": "κωλύω",
+    "old": "κωλύω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 32,
+    "lemma": "κελεύω",
+    "old": "κελεύω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 33,
+    "lemma": "παιδεία",
+    "old": "ἡ παιδεία",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 33,
+    "lemma": "παιδονόμος",
+    "old": "ὁ παιδονόμος",
+    "form": "παιδονόμου",
+    "english": "supervisor of boys",
+    "issue": "gloss",
+    "gloss": "by the supervisor of boys"
+  },
+  {
+    "lesson": 33,
+    "lemma": "παῖς",
+    "old": "ὁ παῖς",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 33,
+    "lemma": "ἐξουσία",
+    "old": "ἡ ἐξουσία",
+    "form": "ἐξουσίαν",
+    "english": "authority",
+    "issue": "gloss",
+    "gloss": "authority"
+  },
+  {
+    "lesson": 33,
+    "lemma": "ὑπόδημα",
+    "old": "τὸ ὑπόδημα",
+    "form": "ὑποδήματα",
+    "english": "shoes",
+    "issue": "gloss",
+    "gloss": "shoes"
+  },
+  {
+    "lesson": 33,
+    "lemma": "πούς",
+    "old": "ὁ πούς",
+    "form": "ποσὶν",
+    "english": "feet",
+    "issue": "manual",
+    "gloss": "with bare feet"
+  },
+  {
+    "lesson": 33,
+    "lemma": "ἐνιαυτός",
+    "old": "ὁ ἐνιαυτός",
+    "form": "ἐνιαυτοῦ",
+    "english": "the year",
+    "issue": "gloss",
+    "gloss": "the year"
+  },
+  {
+    "lesson": 33,
+    "lemma": "κλοπή",
+    "old": "ἡ κλοπή",
+    "form": "κλοπὴ",
+    "english": "theft",
+    "issue": "exact",
+    "gloss": "theft"
+  },
+  {
+    "lesson": 33,
+    "lemma": "τροφή",
+    "old": "ἡ τροφή",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 33,
+    "lemma": "καρτερία",
+    "old": "ἡ καρτερία",
+    "issue": "repeat",
+    "firstLesson": 17
+  },
+  {
+    "lesson": 33,
+    "lemma": "πάθος",
+    "old": "τὸ πάθος",
+    "issue": "repeat",
+    "firstLesson": 29
+  },
+  {
+    "lesson": 33,
+    "lemma": "σωτηρία",
+    "old": "ἡ σωτηρία",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 33,
+    "lemma": "γυμνός",
+    "old": "γυμνός",
+    "form": "γυμνοῖς",
+    "english": "bare",
+    "issue": "gloss",
+    "gloss": "with bare feet"
+  },
+  {
+    "lesson": 33,
+    "lemma": "παιδεύω",
+    "old": "παιδεύω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 33,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 33,
+    "lemma": "κολάζω",
+    "old": "κολάζω",
+    "form": "ἐκολάσθη",
+    "english": "he was punished",
+    "issue": "manual",
+    "gloss": "was punished"
+  },
+  {
+    "lesson": 33,
+    "lemma": "ἐπαινέω",
+    "old": "ἐπαινέω",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 33,
+    "lemma": "ἀποκρίνομαι",
+    "old": "ἀποκρίνομαι",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 33,
+    "lemma": "δοκιμάζω",
+    "old": "δοκιμάζω",
+    "form": "δοκιμασθήσεται",
+    "english": "will be tested",
+    "issue": "gloss",
+    "gloss": "will be tested"
+  },
+  {
+    "lesson": 33,
+    "lemma": "λάθρᾳ",
+    "old": "λάθρᾳ",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 34,
+    "lemma": "δεῖπνον",
+    "old": "τὸ δεῖπνον",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 34,
+    "lemma": "οἶνος",
+    "old": "ὁ οἶνος",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 34,
+    "lemma": "φυτόν",
+    "old": "τὸ φυτόν",
+    "form": "φυτὰ",
+    "english": "plants",
+    "issue": "manual",
+    "gloss": "plants"
+  },
+  {
+    "lesson": 34,
+    "lemma": "ὕδωρ",
+    "old": "τὸ ὕδωρ",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 34,
+    "lemma": "μέτρον",
+    "old": "τὸ μέτρον",
+    "form": "μέτρου",
+    "english": "measure",
+    "issue": "gloss",
+    "gloss": "need measure; genitive"
+  },
+  {
+    "lesson": 34,
+    "lemma": "ποτήριον",
+    "old": "τὸ ποτήριον",
+    "form": "ποτήριον",
+    "english": "drinking cup",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 34,
+    "lemma": "κρατήρ",
+    "old": "ὁ κρατήρ",
+    "form": "κρατῆρα",
+    "english": "the mixing bowl",
+    "issue": "gloss",
+    "gloss": "the mixing bowl"
+  },
+  {
+    "lesson": 34,
+    "lemma": "ἑσπέρα",
+    "old": "ἡ ἑσπέρα",
+    "form": "ἑσπέραν",
+    "english": "the evening",
+    "issue": "gloss",
+    "gloss": "the evening"
+  },
+  {
+    "lesson": 34,
+    "lemma": "συμπότης",
+    "old": "ὁ συμπότης",
+    "form": "συμπόται",
+    "english": "fellow drinkers",
+    "issue": "manual",
+    "gloss": "fellow drinkers"
+  },
+  {
+    "lesson": 34,
+    "lemma": "κραυγή",
+    "old": "ἡ κραυγή",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 34,
+    "lemma": "συνουσία",
+    "old": "ἡ συνουσία",
+    "issue": "repeat",
+    "firstLesson": 16
+  },
+  {
+    "lesson": 34,
+    "lemma": "πλῆθος",
+    "old": "τὸ πλῆθος",
+    "form": "πλήθει",
+    "english": "quantity, multitude",
+    "issue": "gloss",
+    "gloss": "by the quantity"
+  },
+  {
+    "lesson": 34,
+    "lemma": "προσοχή",
+    "old": "ἡ προσοχή",
+    "form": "προσοχήν",
+    "english": "attention",
+    "issue": "gloss",
+    "gloss": "attention"
+  },
+  {
+    "lesson": 34,
+    "lemma": "δίδωμι",
+    "old": "δίδωμι",
+    "form": "δίδωσιν",
+    "english": "gives",
+    "issue": "gloss",
+    "gloss": "gives; present of δίδωμι"
+  },
+  {
+    "lesson": 34,
+    "lemma": "τίθημι",
+    "old": "τίθημι",
+    "form": "τίθησιν",
+    "english": "sets out",
+    "issue": "gloss",
+    "gloss": "sets out; present of τίθημι"
+  },
+  {
+    "lesson": 34,
+    "lemma": "βλάπτω",
+    "old": "βλάπτω",
+    "form": "βλάπτει",
+    "english": "he/she harms",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 34,
+    "lemma": "σιωπάω",
+    "old": "σιωπάω",
+    "issue": "repeat",
+    "firstLesson": 31
+  },
+  {
+    "lesson": 34,
+    "lemma": "αὔξω",
+    "old": "αὔξω",
+    "form": "αὔξει",
+    "english": "it makes grow",
+    "issue": "manual",
+    "gloss": "makes grow"
+  },
+  {
+    "lesson": 34,
+    "lemma": "διάγω",
+    "old": "διάγω",
+    "form": "διάγουσιν",
+    "english": "spend",
+    "issue": "gloss",
+    "gloss": "spend"
+  },
+  {
+    "lesson": 34,
+    "lemma": "ἡδέως",
+    "old": "ἡδέως",
+    "form": "ἡδέως",
+    "english": "pleasantly",
+    "issue": "exact",
+    "gloss": "pleasantly"
+  },
+  {
+    "lesson": 35,
+    "lemma": "σοφία",
+    "old": "ἡ σοφία",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 35,
+    "lemma": "σωφροσύνη",
+    "old": "ἡ σωφροσύνη",
+    "form": "σωφροσύνης",
+    "english": "sound self-control",
+    "issue": "gloss",
+    "gloss": "sound self-control"
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἐλευθερία",
+    "old": "ἡ ἐλευθερία",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 35,
+    "lemma": "δοῦλος",
+    "old": "ὁ δοῦλος",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 35,
+    "lemma": "ὥρα",
+    "old": "ἡ ὥρα",
+    "form": "ὥραν",
+    "english": "the right time",
+    "issue": "manual",
+    "gloss": "the right time"
+  },
+  {
+    "lesson": 35,
+    "lemma": "δύναμις",
+    "old": "ἡ δύναμις",
+    "issue": "repeat",
+    "firstLesson": 29
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἡσυχία",
+    "old": "ἡ ἡσυχία",
+    "form": "ἡσυχία",
+    "english": "quietness",
+    "issue": "exact",
+    "gloss": "quietness"
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἀπόκρισις",
+    "old": "ἡ ἀπόκρισις",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 35,
+    "lemma": "διδάσκαλος",
+    "old": "ὁ διδάσκαλος",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἐγκρατής",
+    "old": "ἐγκρατής",
+    "form": "ἐγκρατὴς",
+    "english": "the self-controlled person",
+    "issue": "exact",
+    "gloss": "the self-controlled person"
+  },
+  {
+    "lesson": 35,
+    "lemma": "κύριος",
+    "old": "κύριος",
+    "form": "κύριος",
+    "english": "in command, master",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἵστημι",
+    "old": "ἵστημι",
+    "issue": "repeat",
+    "firstLesson": 29
+  },
+  {
+    "lesson": 35,
+    "lemma": "καθίστημι",
+    "old": "καθίστημι",
+    "form": "καθιστᾶσιν",
+    "english": "they appoint",
+    "issue": "manual",
+    "gloss": "appoint; present of καθίστημι"
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἀφίστημι",
+    "old": "ἀφίστημι",
+    "form": "ἀπέστη",
+    "english": "he withdrew",
+    "issue": "manual",
+    "gloss": "withdrew; second aorist"
+  },
+  {
+    "lesson": 35,
+    "lemma": "μανθάνω",
+    "old": "μανθάνω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 35,
+    "lemma": "σκοπέω",
+    "old": "σκοπέω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 35,
+    "lemma": "παύομαι",
+    "old": "παύομαι",
+    "form": "παύεται",
+    "english": "it ceases",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἀρκέω",
+    "old": "ἀρκέω",
+    "form": "ἀρκεῖ",
+    "english": "is enough",
+    "issue": "gloss",
+    "gloss": "is enough"
+  },
+  {
+    "lesson": 35,
+    "lemma": "ἀφαιρέω",
+    "old": "ἀφαιρέω",
+    "form": "ἀφαιρεῖται",
+    "english": "takes away",
+    "issue": "gloss",
+    "gloss": "takes away; middle"
+  },
+  {
+    "lesson": 35,
+    "lemma": "καλῶς",
+    "old": "καλῶς",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 36,
+    "lemma": "πρέσβυς",
+    "old": "ὁ πρέσβυς",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 36,
+    "lemma": "διαλλαγή",
+    "old": "ἡ διαλλαγή",
+    "form": "διαλλαγή",
+    "english": "reconciliation",
+    "issue": "exact",
+    "gloss": "reconciliation"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ἄστυ",
+    "old": "τὸ ἄστυ",
+    "form": "ἄστεως",
+    "english": "the city",
+    "issue": "gloss",
+    "gloss": "the city"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ἀκρόπολις",
+    "old": "ἡ ἀκρόπολις",
+    "form": "ἀκρόπολιν",
+    "english": "the Acropolis",
+    "issue": "gloss",
+    "gloss": "the Acropolis"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ὅπλον",
+    "old": "τὰ ὅπλα",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 36,
+    "lemma": "βέλος",
+    "old": "τὸ βέλος",
+    "form": "βέλος",
+    "english": "missile",
+    "issue": "exact",
+    "gloss": "missile"
+  },
+  {
+    "lesson": 36,
+    "lemma": "λίθος",
+    "old": "ὁ λίθος",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 36,
+    "lemma": "κρίσις",
+    "old": "ἡ κρίσις",
+    "form": "κρίσιν",
+    "english": "judgment, decision",
+    "issue": "gloss",
+    "gloss": "a decision"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ὀργή",
+    "old": "ἡ ὀργή",
+    "form": "ὀργὴν",
+    "english": "anger",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 36,
+    "lemma": "παλαιός",
+    "old": "παλαιός",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 36,
+    "lemma": "δείκνυμι",
+    "old": "δείκνυμι",
+    "form": "δείκνυσιν",
+    "english": "points out",
+    "issue": "gloss",
+    "gloss": "points out; present of δείκνυμι"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ἵημι",
+    "old": "ἵημι",
+    "form": "ἵησι",
+    "english": "he sends",
+    "issue": "manual",
+    "gloss": "sends; present of ἵημι"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ἀφίημι",
+    "old": "ἀφίημι",
+    "form": "ἀφίησι",
+    "english": "lets go of",
+    "issue": "gloss",
+    "gloss": "lets go of; present of ἀφίημι"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ὄμνυμι",
+    "old": "ὄμνυμι",
+    "form": "ὤμοσαν",
+    "english": "they swore",
+    "issue": "manual",
+    "gloss": "swore; aorist of ὄμνυμι"
+  },
+  {
+    "lesson": 36,
+    "lemma": "μνησικακέω",
+    "old": "μνησικακέω",
+    "form": "μνησικακήσειν",
+    "english": "to bear grudges",
+    "issue": "gloss",
+    "gloss": "not to bear grudges; future infinitive in the oath"
+  },
+  {
+    "lesson": 36,
+    "lemma": "θύω",
+    "old": "θύω",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 36,
+    "lemma": "βουλεύομαι",
+    "old": "βουλεύομαι",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 36,
+    "lemma": "βάλλω",
+    "old": "βάλλω",
+    "form": "βάλλειν",
+    "english": "to throw",
+    "issue": "gloss",
+    "gloss": "not throwing; articular infinitive"
+  },
+  {
+    "lesson": 36,
+    "lemma": "αὔριον",
+    "old": "αὔριον",
+    "form": "αὔριον",
+    "english": "tomorrow",
+    "issue": "exact",
+    "gloss": "tomorrow"
+  },
+  {
+    "lesson": 36,
+    "lemma": "ὕστερον",
+    "old": "ὕστερον",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 37,
+    "lemma": "χιτών",
+    "old": "ὁ χιτών",
+    "form": "χιτὼν",
+    "english": "tunic",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 37,
+    "lemma": "δικαστής",
+    "old": "ὁ δικαστής",
+    "form": "δικαστὴν",
+    "english": "a judge",
+    "issue": "gloss",
+    "gloss": "a judge"
+  },
+  {
+    "lesson": 37,
+    "lemma": "κτῆμα",
+    "old": "τὸ κτῆμα",
+    "form": "κτῆμα",
+    "english": "possession",
+    "issue": "exact",
+    "gloss": "possession"
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἀλλαγή",
+    "old": "ἡ ἀλλαγή",
+    "form": "ἀλλαγὴν",
+    "english": "exchange",
+    "issue": "gloss",
+    "gloss": "exchange"
+  },
+  {
+    "lesson": 37,
+    "lemma": "ζήτησις",
+    "old": "ἡ ζήτησις",
+    "form": "ζήτησις",
+    "english": "inquiry",
+    "issue": "exact",
+    "gloss": "inquiry"
+  },
+  {
+    "lesson": 37,
+    "lemma": "μέγεθος",
+    "old": "τὸ μέγεθος",
+    "form": "μέγεθος",
+    "english": "size",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἁρμόττω",
+    "old": "ἁρμόττω",
+    "form": "ἁρμόττοντα",
+    "english": "fitting",
+    "issue": "gloss",
+    "gloss": "fitting"
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἑκών",
+    "old": "ἑκών",
+    "form": "ἑκὼν",
+    "english": "willing",
+    "issue": "exact",
+    "gloss": "willingly"
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἀμφότεροι",
+    "old": "ἀμφότεροι",
+    "form": "ἀμφοτέρους",
+    "english": "both",
+    "issue": "gloss",
+    "gloss": "both"
+  },
+  {
+    "lesson": 37,
+    "lemma": "πανταχοῦ",
+    "old": "πανταχοῦ",
+    "form": "πανταχοῦ",
+    "english": "everywhere",
+    "issue": "exact",
+    "gloss": "everywhere"
+  },
+  {
+    "lesson": 37,
+    "lemma": "κύριος",
+    "old": "ὁ κύριος",
+    "issue": "repeat",
+    "firstLesson": 35
+  },
+  {
+    "lesson": 37,
+    "lemma": "κρίσις",
+    "old": "ἡ κρίσις",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 37,
+    "lemma": "βία",
+    "old": "ἡ βία",
+    "issue": "repeat",
+    "firstLesson": 18
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἐξουσία",
+    "old": "ἡ ἐξουσία",
+    "issue": "repeat",
+    "firstLesson": 33
+  },
+  {
+    "lesson": 37,
+    "lemma": "κρίνω",
+    "old": "κρίνω",
+    "issue": "repeat",
+    "firstLesson": 12
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἀδικέω",
+    "old": "ἀδικέω",
+    "issue": "repeat",
+    "firstLesson": 31
+  },
+  {
+    "lesson": 37,
+    "lemma": "ὠφελέω",
+    "old": "ὠφελέω",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 37,
+    "lemma": "σκοπέω",
+    "old": "σκοπέω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 37,
+    "lemma": "ἐξετάζω",
+    "old": "ἐξετάζω",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 37,
+    "lemma": "χρήσιμος",
+    "old": "χρήσιμος",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 38,
+    "lemma": "ταμία",
+    "old": "ἡ ταμία",
+    "form": "ταμία",
+    "english": "housekeeper",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 38,
+    "lemma": "ἀταξία",
+    "old": "ἡ ἀταξία",
+    "form": "ἀταξίᾳ",
+    "english": "disorder",
+    "issue": "exact",
+    "gloss": "disorder"
+  },
+  {
+    "lesson": 38,
+    "lemma": "ζημία",
+    "old": "ἡ ζημία",
+    "form": "ζημίαι",
+    "english": "penalties",
+    "issue": "gloss",
+    "gloss": "penalties"
+  },
+  {
+    "lesson": 38,
+    "lemma": "κανών",
+    "old": "ὁ κανών",
+    "form": "κανόνα",
+    "english": "standard",
+    "issue": "gloss",
+    "gloss": "standard"
+  },
+  {
+    "lesson": 38,
+    "lemma": "δούλη",
+    "old": "ἡ δούλη",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 38,
+    "lemma": "μνημονεύω",
+    "old": "μνημονεύω",
+    "form": "μνημονεύσει",
+    "english": "will remember",
+    "issue": "gloss",
+    "gloss": "will remember"
+  },
+  {
+    "lesson": 38,
+    "lemma": "ἐλεύθερος",
+    "old": "ἐλεύθερος",
+    "form": "ἐλευθέραν",
+    "english": "free",
+    "issue": "gloss",
+    "gloss": "free"
+  },
+  {
+    "lesson": 38,
+    "lemma": "ἐπιμελής",
+    "old": "ἐπιμελής",
+    "issue": "repeat",
+    "firstLesson": 4
+  },
+  {
+    "lesson": 38,
+    "lemma": "ῥᾳδίως",
+    "old": "ῥᾳδίως",
+    "form": "ῥᾳδίως",
+    "english": "easily",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 38,
+    "lemma": "ἐπιμέλεια",
+    "old": "ἡ ἐπιμέλεια",
+    "issue": "repeat",
+    "firstLesson": 29
+  },
+  {
+    "lesson": 38,
+    "lemma": "μνήμη",
+    "old": "ἡ μνήμη",
+    "issue": "repeat",
+    "firstLesson": 32
+  },
+  {
+    "lesson": 38,
+    "lemma": "σκεῦος",
+    "old": "τὸ σκεῦος",
+    "issue": "repeat",
+    "firstLesson": 32
+  },
+  {
+    "lesson": 38,
+    "lemma": "τάξις",
+    "old": "ἡ τάξις",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 38,
+    "lemma": "δῶρον",
+    "old": "τὸ δῶρον",
+    "issue": "repeat",
+    "firstLesson": 7
+  },
+  {
+    "lesson": 38,
+    "lemma": "δέχομαι",
+    "old": "δέχομαι",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 38,
+    "lemma": "φυλάττω",
+    "old": "φυλάττω",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 38,
+    "lemma": "τίθημι",
+    "old": "τίθημι",
+    "issue": "repeat",
+    "firstLesson": 34
+  },
+  {
+    "lesson": 38,
+    "lemma": "δίδωμι",
+    "old": "δίδωμι",
+    "issue": "repeat",
+    "firstLesson": 34
+  },
+  {
+    "lesson": 38,
+    "lemma": "ἵστημι",
+    "old": "ἵστημι",
+    "issue": "repeat",
+    "firstLesson": 29
+  },
+  {
+    "lesson": 38,
+    "lemma": "ἵημι",
+    "old": "ἵημι",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 39,
+    "lemma": "κατήγορος",
+    "old": "ὁ κατήγορος",
+    "form": "κατήγορος",
+    "english": "accuser",
+    "issue": "exact",
+    "gloss": "accuser"
+  },
+  {
+    "lesson": 39,
+    "lemma": "ἑταῖρος",
+    "old": "ὁ ἑταῖρος",
+    "form": "ἑταῖρον",
+    "english": "companion",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 39,
+    "lemma": "διήγησις",
+    "old": "ἡ διήγησις",
+    "form": "διηγήσει",
+    "english": "narrative",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 39,
+    "lemma": "παίω",
+    "old": "παίω",
+    "form": "ἔπαισεν",
+    "english": "he struck",
+    "issue": "manual",
+    "gloss": "struck"
+  },
+  {
+    "lesson": 39,
+    "lemma": "κάμνω",
+    "old": "κάμνω",
+    "form": "κάμνῃ",
+    "english": "is exhausted",
+    "issue": "gloss",
+    "gloss": "is exhausted; general clause"
+  },
+  {
+    "lesson": 39,
+    "lemma": "φοβέομαι",
+    "old": "φοβέομαι",
+    "form": "φοβεῖται",
+    "english": "fear",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 39,
+    "lemma": "καταλείπω",
+    "old": "καταλείπω",
+    "form": "καταλίπῃ",
+    "english": "he leaves behind",
+    "issue": "manual",
+    "gloss": "abandons; aorist subjunctive"
+  },
+  {
+    "lesson": 39,
+    "lemma": "ἀπολογέομαι",
+    "old": "ἀπολογέομαι",
+    "form": "ἀπολογεῖται",
+    "english": "defends himself",
+    "issue": "gloss",
+    "gloss": "defends himself"
+  },
+  {
+    "lesson": 39,
+    "lemma": "ἀληθής",
+    "old": "ἀληθής",
+    "form": "ἀληθῆ",
+    "english": "true",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 39,
+    "lemma": "ψευδής",
+    "old": "ψευδής",
+    "form": "ψευδῆ",
+    "english": "false",
+    "issue": "gloss",
+    "gloss": "false"
+  },
+  {
+    "lesson": 39,
+    "lemma": "ὄπισθεν",
+    "old": "ὄπισθεν",
+    "form": "ὄπισθεν",
+    "english": "behind",
+    "issue": "exact",
+    "gloss": "behind"
+  },
+  {
+    "lesson": 39,
+    "lemma": "αἰτία",
+    "old": "ἡ αἰτία",
+    "issue": "repeat",
+    "firstLesson": 24
+  },
+  {
+    "lesson": 39,
+    "lemma": "ἀπόκρισις",
+    "old": "ἡ ἀπόκρισις",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 39,
+    "lemma": "μισθός",
+    "old": "ὁ μισθός",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 39,
+    "lemma": "τροφή",
+    "old": "ἡ τροφή",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 39,
+    "lemma": "πορεία",
+    "old": "ἡ πορεία",
+    "issue": "repeat",
+    "firstLesson": 24
+  },
+  {
+    "lesson": 39,
+    "lemma": "σωτηρία",
+    "old": "ἡ σωτηρία",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 39,
+    "lemma": "κέρδος",
+    "old": "τὸ κέρδος",
+    "issue": "repeat",
+    "firstLesson": 29
+  },
+  {
+    "lesson": 39,
+    "lemma": "βλάπτω",
+    "old": "βλάπτω",
+    "issue": "repeat",
+    "firstLesson": 34
+  },
+  {
+    "lesson": 39,
+    "lemma": "δηλόω",
+    "old": "δηλόω",
+    "issue": "repeat",
+    "firstLesson": 30
+  },
+  {
+    "lesson": 40,
+    "lemma": "ναυμαχία",
+    "old": "ἡ ναυμαχία",
+    "form": "ναυμαχίαν",
+    "english": "naval battle",
+    "issue": "gloss",
+    "gloss": "naval battle"
+  },
+  {
+    "lesson": 40,
+    "lemma": "χειμών",
+    "old": "ὁ χειμών",
+    "form": "χειμὼν",
+    "english": "storm, winter",
+    "issue": "exact",
+    "gloss": "storm"
+  },
+  {
+    "lesson": 40,
+    "lemma": "ναυάγιον",
+    "old": "τὸ ναυάγιον",
+    "form": "ναυάγια",
+    "english": "wrecks",
+    "issue": "gloss",
+    "gloss": "wrecks"
+  },
+  {
+    "lesson": 40,
+    "lemma": "μάρτυς",
+    "old": "ὁ μάρτυς",
+    "form": "μάρτυρας",
+    "english": "witnesses",
+    "issue": "gloss",
+    "gloss": "witnesses"
+  },
+  {
+    "lesson": 40,
+    "lemma": "ψῆφος",
+    "old": "ἡ ψῆφος",
+    "form": "ψῆφον",
+    "english": "vote",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 40,
+    "lemma": "πρύτανις",
+    "old": "ὁ πρύτανις",
+    "form": "πρυτάνεις",
+    "english": "presiding official",
+    "issue": "gloss",
+    "gloss": "presiding officials"
+  },
+  {
+    "lesson": 40,
+    "lemma": "ἀντίρρησις",
+    "old": "ἡ ἀντίρρησις",
+    "form": "ἀντίρρησις",
+    "english": "objection",
+    "issue": "exact",
+    "gloss": "objection"
+  },
+  {
+    "lesson": 40,
+    "lemma": "μεταμέλεια",
+    "old": "ἡ μεταμέλεια",
+    "form": "μεταμέλειαν",
+    "english": "regret",
+    "issue": "gloss",
+    "gloss": "regret"
+  },
+  {
+    "lesson": 40,
+    "lemma": "ἀπόδειξις",
+    "old": "ἡ ἀπόδειξις",
+    "form": "ἀποδείξεως",
+    "english": "proof",
+    "issue": "gloss",
+    "gloss": "proof"
+  },
+  {
+    "lesson": 40,
+    "lemma": "φημί",
+    "old": "φημί",
+    "form": "φησίν",
+    "english": "he says",
+    "issue": "manual",
+    "gloss": "he says"
+  },
+  {
+    "lesson": 40,
+    "lemma": "προστάττω",
+    "old": "προστάττω",
+    "form": "προστάξαι",
+    "english": "to have ordered",
+    "issue": "manual",
+    "gloss": "to have ordered; aorist infinitive in reporting"
+  },
+  {
+    "lesson": 40,
+    "lemma": "συναινέω",
+    "old": "συναινέω",
+    "form": "συναινέσειν",
+    "english": "to agree",
+    "issue": "gloss",
+    "gloss": "to agree; future infinitive"
+  },
+  {
+    "lesson": 40,
+    "lemma": "διακρίνω",
+    "old": "διακρίνω",
+    "form": "διακρίνωμεν",
+    "english": "let us distinguish",
+    "issue": "gloss",
+    "gloss": "let us distinguish"
+  },
+  {
+    "lesson": 40,
+    "lemma": "ὀργίζομαι",
+    "old": "ὀργίζομαι",
+    "form": "ὀργιζόμενον",
+    "english": "be angry",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 40,
+    "lemma": "κατακρίνω",
+    "old": "κατακρίνω",
+    "form": "κατεκρίθησαν",
+    "english": "they were condemned",
+    "issue": "manual",
+    "gloss": "were condemned"
+  },
+  {
+    "lesson": 40,
+    "lemma": "αἴτιος",
+    "old": "αἴτιος",
+    "form": "αἴτιός",
+    "english": "responsible",
+    "issue": "exact",
+    "gloss": "responsible"
+  },
+  {
+    "lesson": 40,
+    "lemma": "χωρίς",
+    "old": "χωρίς",
+    "form": "χωρὶς",
+    "english": "separately",
+    "issue": "exact",
+    "gloss": "separately"
+  },
+  {
+    "lesson": 40,
+    "lemma": "ῥήτωρ",
+    "old": "ὁ ῥήτωρ",
+    "form": "ῥήτορας",
+    "english": "speakers",
+    "issue": "gloss",
+    "gloss": "speakers"
+  },
+  {
+    "lesson": 40,
+    "lemma": "κωλύω",
+    "old": "κωλύω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 40,
+    "lemma": "ὕστερον",
+    "old": "ὕστερον",
+    "issue": "repeat",
+    "firstLesson": 8
+  },
+  {
+    "lesson": 41,
+    "lemma": "τύραννος",
+    "old": "ὁ τύραννος",
+    "form": "τύραννός",
+    "english": "tyrant, sole ruler",
+    "issue": "exact",
+    "gloss": "sole ruler, tyrant"
+  },
+  {
+    "lesson": 41,
+    "lemma": "εὔνοια",
+    "old": "ἡ εὔνοια",
+    "form": "εὔνοια",
+    "english": "goodwill",
+    "issue": "exact",
+    "gloss": "goodwill"
+  },
+  {
+    "lesson": 41,
+    "lemma": "δαπάνη",
+    "old": "ἡ δαπάνη",
+    "form": "δαπάνης",
+    "english": "expense",
+    "issue": "gloss",
+    "gloss": "expense"
+  },
+  {
+    "lesson": 41,
+    "lemma": "φιλοτιμία",
+    "old": "ἡ φιλοτιμία",
+    "form": "φιλοτιμία",
+    "english": "ambition for honor",
+    "issue": "exact",
+    "gloss": "ambition for honor"
+  },
+  {
+    "lesson": 41,
+    "lemma": "εὐεργεσία",
+    "old": "ἡ εὐεργεσία",
+    "form": "εὐεργεσίαν",
+    "english": "benefaction",
+    "issue": "gloss",
+    "gloss": "benefaction"
+  },
+  {
+    "lesson": 41,
+    "lemma": "συμβουλή",
+    "old": "ἡ συμβουλή",
+    "form": "συμβουλὴν",
+    "english": "advice",
+    "issue": "manual",
+    "gloss": "advice"
+  },
+  {
+    "lesson": 41,
+    "lemma": "μαρτυρία",
+    "old": "ἡ μαρτυρία",
+    "form": "μαρτυρίαν",
+    "english": "testimony",
+    "issue": "gloss",
+    "gloss": "testimony"
+  },
+  {
+    "lesson": 41,
+    "lemma": "συμβουλεύω",
+    "old": "συμβουλεύω",
+    "form": "συμβουλεύει",
+    "english": "advises",
+    "issue": "gloss",
+    "gloss": "advises"
+  },
+  {
+    "lesson": 41,
+    "lemma": "κοσμέω",
+    "old": "κοσμέω",
+    "form": "κοσμήσουσιν",
+    "english": "they adorn",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 41,
+    "lemma": "συγκρίνω",
+    "old": "συγκρίνω",
+    "form": "συγκρίνωμεν",
+    "english": "may compare",
+    "issue": "gloss",
+    "gloss": "may compare"
+  },
+  {
+    "lesson": 41,
+    "lemma": "μείζων",
+    "old": "μείζων",
+    "form": "μείζονα",
+    "english": "greater",
+    "issue": "gloss",
+    "gloss": "greater"
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἧττον",
+    "old": "ἧττον",
+    "form": "ἧττον",
+    "english": "less",
+    "issue": "exact",
+    "gloss": "less"
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἆθλον",
+    "old": "τὸ ἆθλον",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἰδιώτης",
+    "old": "ὁ ἰδιώτης",
+    "issue": "repeat",
+    "firstLesson": 6
+  },
+  {
+    "lesson": 41,
+    "lemma": "εὐδαιμονία",
+    "old": "ἡ εὐδαιμονία",
+    "issue": "repeat",
+    "firstLesson": 28
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἐπιμελέομαι",
+    "old": "ἐπιμελέομαι",
+    "issue": "repeat",
+    "firstLesson": 13
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἀγωνίζομαι",
+    "old": "ἀγωνίζομαι",
+    "issue": "repeat",
+    "firstLesson": 15
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἀμείνων",
+    "old": "ἀμείνων",
+    "issue": "repeat",
+    "firstLesson": 27
+  },
+  {
+    "lesson": 41,
+    "lemma": "πλείων",
+    "old": "πλείων",
+    "issue": "repeat",
+    "firstLesson": 27
+  },
+  {
+    "lesson": 41,
+    "lemma": "ἴδιος",
+    "old": "ἴδιος",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 42,
+    "lemma": "δικαιοσύνη",
+    "old": "ἡ δικαιοσύνη",
+    "form": "δικαιοσύνης",
+    "english": "justice",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 42,
+    "lemma": "ὁρισμός",
+    "old": "ὁ ὁρισμός",
+    "form": "ὁρισμὸν",
+    "english": "definition",
+    "issue": "gloss",
+    "gloss": "definition"
+  },
+  {
+    "lesson": 42,
+    "lemma": "διαφορά",
+    "old": "ἡ διαφορά",
+    "form": "διαφορὰν",
+    "english": "distinction",
+    "issue": "gloss",
+    "gloss": "distinction"
+  },
+  {
+    "lesson": 42,
+    "lemma": "εὐνομία",
+    "old": "ἡ εὐνομία",
+    "form": "εὐνομίαν",
+    "english": "good legal order",
+    "issue": "gloss",
+    "gloss": "good order under law"
+  },
+  {
+    "lesson": 42,
+    "lemma": "ὁμόνοια",
+    "old": "ἡ ὁμόνοια",
+    "form": "ὁμόνοια",
+    "english": "concord",
+    "issue": "exact",
+    "gloss": "concord"
+  },
+  {
+    "lesson": 42,
+    "lemma": "χάρις",
+    "old": "ἡ χάρις",
+    "form": "χάριν",
+    "english": "kindness, gratitude",
+    "issue": "gloss",
+    "gloss": "to return kindness"
+  },
+  {
+    "lesson": 42,
+    "lemma": "στάσις",
+    "old": "ἡ στάσις",
+    "form": "στάσιν",
+    "english": "faction, civil conflict",
+    "issue": "gloss",
+    "gloss": "faction"
+  },
+  {
+    "lesson": 42,
+    "lemma": "νόμιμος",
+    "old": "νόμιμος",
+    "form": "νόμιμον",
+    "english": "lawful",
+    "issue": "gloss",
+    "gloss": "lawful"
+  },
+  {
+    "lesson": 42,
+    "lemma": "ἄγραφος",
+    "old": "ἄγραφος",
+    "form": "ἀγράφων",
+    "english": "unwritten",
+    "issue": "gloss",
+    "gloss": "unwritten"
+  },
+  {
+    "lesson": 42,
+    "lemma": "ἄνομος",
+    "old": "ἄνομος",
+    "form": "ἄνομον",
+    "english": "unlawful",
+    "issue": "gloss",
+    "gloss": "unlawful"
+  },
+  {
+    "lesson": 42,
+    "lemma": "καινός",
+    "old": "καινός",
+    "form": "καινὸν",
+    "english": "new",
+    "issue": "gloss",
+    "gloss": "new thing"
+  },
+  {
+    "lesson": 42,
+    "lemma": "σαφής",
+    "old": "σαφής",
+    "form": "σαφέστερον",
+    "english": "clear",
+    "issue": "gloss",
+    "gloss": "clearer"
+  },
+  {
+    "lesson": 42,
+    "lemma": "μαρτυρέω",
+    "old": "μαρτυρέω",
+    "form": "μαρτυρεῖ",
+    "english": "bears witness",
+    "issue": "gloss",
+    "gloss": "bears witness"
+  },
+  {
+    "lesson": 42,
+    "lemma": "μεταβάλλω",
+    "old": "μεταβάλλω",
+    "form": "μεταβάλλουσιν",
+    "english": "change",
+    "issue": "gloss",
+    "gloss": "change"
+  },
+  {
+    "lesson": 42,
+    "lemma": "προτιμάω",
+    "old": "προτιμάω",
+    "form": "προτιμῷεν",
+    "english": "may they prefer",
+    "issue": "gloss",
+    "gloss": "may they prefer; contract optative"
+  },
+  {
+    "lesson": 42,
+    "lemma": "ἀντιλέγω",
+    "old": "ἀντιλέγω",
+    "form": "ἀντειπόντος",
+    "english": "having objected",
+    "issue": "manual",
+    "gloss": "having objected"
+  },
+  {
+    "lesson": 42,
+    "lemma": "ἀξιόω",
+    "old": "ἀξιόω",
+    "form": "ἀξιοῖ",
+    "english": "asks, expects",
+    "issue": "gloss",
+    "gloss": "asks, expects"
+  },
+  {
+    "lesson": 42,
+    "lemma": "εἴθε",
+    "old": "εἴθε",
+    "form": "εἴθε",
+    "english": "if only",
+    "issue": "exact",
+    "gloss": "if only, may"
+  },
+  {
+    "lesson": 42,
+    "lemma": "ἄνευ",
+    "old": "ἄνευ",
+    "form": "ἄνευ",
+    "english": "without",
+    "issue": "exact",
+    "gloss": "without; with genitive"
+  },
+  {
+    "lesson": 42,
+    "lemma": "εὔχομαι",
+    "old": "εὔχομαι",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 43,
+    "lemma": "κατάλογος",
+    "old": "ὁ κατάλογος",
+    "form": "Κατάλογος",
+    "english": "list",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "βουλευτής",
+    "old": "ὁ βουλευτής",
+    "form": "βουλευταὶ",
+    "english": "councilors",
+    "issue": "gloss",
+    "gloss": "councilors"
+  },
+  {
+    "lesson": 43,
+    "lemma": "βωμός",
+    "old": "ὁ βωμός",
+    "form": "βωμὸν",
+    "english": "altar",
+    "issue": "gloss",
+    "gloss": "altar"
+  },
+  {
+    "lesson": 43,
+    "lemma": "ὀλιγαρχία",
+    "old": "ἡ ὀλιγαρχία",
+    "form": "ὀλιγαρχίᾳ",
+    "english": "oligarchy",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἀσφάλεια",
+    "old": "ἡ ἀσφάλεια",
+    "form": "ἀσφάλειαν",
+    "english": "security",
+    "issue": "gloss",
+    "gloss": "safety"
+  },
+  {
+    "lesson": 43,
+    "lemma": "σιωπή",
+    "old": "ἡ σιωπή",
+    "form": "σιωπῇ",
+    "english": "silence",
+    "issue": "exact",
+    "gloss": "silence"
+  },
+  {
+    "lesson": 43,
+    "lemma": "ὑπηρέτης",
+    "old": "ὁ ὑπηρέτης",
+    "form": "ὑπηρέται",
+    "english": "attendants",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἧττα",
+    "old": "ἡ ἧττα",
+    "form": "ἧτταν",
+    "english": "defeat",
+    "issue": "manual",
+    "gloss": "defeat"
+  },
+  {
+    "lesson": 43,
+    "lemma": "φυλακή",
+    "old": "ἡ φυλακή",
+    "form": "φυλακῆς",
+    "english": "protection",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἐξαλείφω",
+    "old": "ἐξαλείφω",
+    "form": "ἐξήλειψεν",
+    "english": "he erased",
+    "issue": "manual",
+    "gloss": "erased"
+  },
+  {
+    "lesson": 43,
+    "lemma": "καταφεύγω",
+    "old": "καταφεύγω",
+    "form": "κατέφυγεν",
+    "english": "he fled for refuge",
+    "issue": "manual",
+    "gloss": "fled for refuge"
+  },
+  {
+    "lesson": 43,
+    "lemma": "παραδίδωμι",
+    "old": "παραδίδωμι",
+    "form": "παρέδωκεν",
+    "english": "he handed over",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἀποσπάω",
+    "old": "ἀποσπάω",
+    "form": "ἀπέσπων",
+    "english": "they were dragging away",
+    "issue": "manual",
+    "gloss": "were dragging away"
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἡσυχάζω",
+    "old": "ἡσυχάζω",
+    "form": "ἡσύχαζον",
+    "english": "remain quiet",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἔνοπλος",
+    "old": "ἔνοπλος",
+    "form": "ἔνοπλοι",
+    "english": "armed",
+    "issue": "gloss",
+    "gloss": "armed"
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἐναντίος",
+    "old": "ἐναντίος",
+    "form": "ἐναντίους",
+    "english": "opposed",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 43,
+    "lemma": "ἐξαίφνης",
+    "old": "ἐξαίφνης",
+    "form": "ἐξαίφνης",
+    "english": "suddenly",
+    "issue": "exact",
+    "gloss": "suddenly"
+  },
+  {
+    "lesson": 43,
+    "lemma": "εὐμενῶς",
+    "old": "εὐμενῶς",
+    "form": "εὐμενῶς",
+    "english": "favorably",
+    "issue": "exact",
+    "gloss": "favorably"
+  },
+  {
+    "lesson": 43,
+    "lemma": "βουλή",
+    "old": "ἡ βουλή",
+    "issue": "repeat",
+    "firstLesson": 21
+  },
+  {
+    "lesson": 43,
+    "lemma": "κολάζω",
+    "old": "κολάζω",
+    "issue": "repeat",
+    "firstLesson": 33
+  },
+  {
+    "lesson": 44,
+    "lemma": "σπονδαί",
+    "old": "αἱ σπονδαί",
+    "form": "Σπονδαὶ",
+    "english": "truce, agreement",
+    "issue": "exact",
+    "gloss": "agreement, truce"
+  },
+  {
+    "lesson": 44,
+    "lemma": "ὅρκος",
+    "old": "ὁ ὅρκος",
+    "form": "ὅρκοις",
+    "english": "oaths",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "πολιτεία",
+    "old": "ἡ πολιτεία",
+    "form": "πολιτεία",
+    "english": "constitution",
+    "issue": "exact",
+    "gloss": "constitution"
+  },
+  {
+    "lesson": 44,
+    "lemma": "συμφωνία",
+    "old": "ἡ συμφωνία",
+    "form": "συμφωνία",
+    "english": "agreement",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "τιμωρία",
+    "old": "ἡ τιμωρία",
+    "form": "τιμωρίαν",
+    "english": "punishment",
+    "issue": "gloss",
+    "gloss": "punishment"
+  },
+  {
+    "lesson": 44,
+    "lemma": "μῖσος",
+    "old": "τὸ μῖσος",
+    "form": "μῖσος",
+    "english": "hatred",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "ἐμμένω",
+    "old": "ἐμμένω",
+    "form": "ἐμμένωμεν",
+    "english": "abide",
+    "issue": "gloss",
+    "gloss": "abide; subjunctive"
+  },
+  {
+    "lesson": 44,
+    "lemma": "ἐπανέρχομαι",
+    "old": "ἐπανέρχομαι",
+    "form": "ἐπανέρχονται",
+    "english": "return",
+    "issue": "gloss",
+    "gloss": "return"
+  },
+  {
+    "lesson": 44,
+    "lemma": "περιλαμβάνω",
+    "old": "περιλαμβάνω",
+    "form": "περιλαμβάνει",
+    "english": "includes",
+    "issue": "gloss",
+    "gloss": "includes"
+  },
+  {
+    "lesson": 44,
+    "lemma": "παραλείπω",
+    "old": "παραλείπω",
+    "form": "παραλείπωμεν",
+    "english": "omit",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "αὐξάνω",
+    "old": "αὐξάνω",
+    "form": "αὔξειν",
+    "english": "to increase",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "ἀναγκαῖος",
+    "old": "ἀναγκαῖος",
+    "form": "ἀναγκαῖα",
+    "english": "necessary",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "ὕποπτος",
+    "old": "ὕποπτος",
+    "form": "ὑπόπτους",
+    "english": "suspect",
+    "issue": "gloss",
+    "gloss": "suspect"
+  },
+  {
+    "lesson": 44,
+    "lemma": "κοινῇ",
+    "old": "κοινῇ",
+    "form": "κοινὴ",
+    "english": "in common",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 44,
+    "lemma": "ὠφέλεια",
+    "old": "ἡ ὠφέλεια",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 44,
+    "lemma": "ἀκρόπολις",
+    "old": "ἡ ἀκρόπολις",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 44,
+    "lemma": "ὄμνυμι",
+    "old": "ὄμνυμι",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 44,
+    "lemma": "μνησικακέω",
+    "old": "μνησικακέω",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 44,
+    "lemma": "πιστός",
+    "old": "πιστός",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 44,
+    "lemma": "πάλιν",
+    "old": "πάλιν",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἀπολογία",
+    "old": "ἡ ἀπολογία",
+    "form": "ἀπολογία",
+    "english": "defense speech",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 45,
+    "lemma": "δικαστήριον",
+    "old": "τὸ δικαστήριον",
+    "form": "δικαστηρίῳ",
+    "english": "court",
+    "issue": "gloss",
+    "gloss": "court"
+  },
+  {
+    "lesson": 45,
+    "lemma": "μεγαληγορία",
+    "old": "ἡ μεγαληγορία",
+    "form": "μεγαληγορία",
+    "english": "lofty speech",
+    "issue": "exact",
+    "gloss": "lofty speech"
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἀφροσύνη",
+    "old": "ἡ ἀφροσύνη",
+    "form": "ἀφροσύνη",
+    "english": "foolishness",
+    "issue": "exact",
+    "gloss": "foolishness"
+  },
+  {
+    "lesson": 45,
+    "lemma": "σημεῖον",
+    "old": "τὸ σημεῖον",
+    "form": "σημεῖον",
+    "english": "sign",
+    "issue": "exact",
+    "gloss": "sign"
+  },
+  {
+    "lesson": 45,
+    "lemma": "γῆρας",
+    "old": "τὸ γῆρας",
+    "form": "γῆρας",
+    "english": "old age",
+    "issue": "exact",
+    "gloss": "old age"
+  },
+  {
+    "lesson": 45,
+    "lemma": "διάνοια",
+    "old": "ἡ διάνοια",
+    "form": "διάνοιαν",
+    "english": "understanding",
+    "issue": "gloss",
+    "gloss": "understanding"
+  },
+  {
+    "lesson": 45,
+    "lemma": "κατάστασις",
+    "old": "ἡ κατάστασις",
+    "form": "κατάστασιν",
+    "english": "state, condition",
+    "issue": "gloss",
+    "gloss": "state"
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἀκροατής",
+    "old": "ὁ ἀκροατής",
+    "form": "ἀκροατὴν",
+    "english": "listener",
+    "issue": "gloss",
+    "gloss": "listener"
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἑρμηνεύω",
+    "old": "ἑρμηνεύω",
+    "form": "ἑρμηνεύει",
+    "english": "interprets",
+    "issue": "gloss",
+    "gloss": "interprets"
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἀποφεύγω",
+    "old": "ἀποφεύγω",
+    "form": "ἀποφεύγουσιν",
+    "english": "are acquitted",
+    "issue": "gloss",
+    "gloss": "are acquitted"
+  },
+  {
+    "lesson": 45,
+    "lemma": "τεκμήριον",
+    "old": "τὸ τεκμήριον",
+    "issue": "repeat",
+    "firstLesson": 30
+  },
+  {
+    "lesson": 45,
+    "lemma": "παρασκευάζω",
+    "old": "παρασκευάζω",
+    "issue": "repeat",
+    "firstLesson": 2
+  },
+  {
+    "lesson": 45,
+    "lemma": "πείθω",
+    "old": "πείθω",
+    "issue": "repeat",
+    "firstLesson": 16
+  },
+  {
+    "lesson": 45,
+    "lemma": "γράφω",
+    "old": "γράφω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 45,
+    "lemma": "κοσμέω",
+    "old": "κοσμέω",
+    "issue": "repeat",
+    "firstLesson": 41
+  },
+  {
+    "lesson": 45,
+    "lemma": "φροντίζω",
+    "old": "φροντίζω",
+    "issue": "repeat",
+    "firstLesson": 23
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἱκανός",
+    "old": "ἱκανός",
+    "issue": "repeat",
+    "firstLesson": 14
+  },
+  {
+    "lesson": 45,
+    "lemma": "πιστός",
+    "old": "πιστός",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 45,
+    "lemma": "ἅμα",
+    "old": "ἅμα",
+    "issue": "repeat",
+    "firstLesson": 22
+  },
+  {
+    "lesson": 46,
+    "lemma": "γνῶσις",
+    "old": "ἡ γνῶσις",
+    "form": "γνῶσιν",
+    "english": "knowledge",
+    "issue": "gloss",
+    "gloss": "knowledge"
+  },
+  {
+    "lesson": 46,
+    "lemma": "ἀκρίβεια",
+    "old": "ἡ ἀκρίβεια",
+    "form": "ἀκρίβειαν",
+    "english": "precision",
+    "issue": "gloss",
+    "gloss": "precision"
+  },
+  {
+    "lesson": 46,
+    "lemma": "οἶδα",
+    "old": "οἶδα",
+    "form": "οἶδα",
+    "english": "know",
+    "issue": "exact",
+    "gloss": "I know"
+  },
+  {
+    "lesson": 46,
+    "lemma": "θορυβέω",
+    "old": "θορυβέω",
+    "form": "θορυβοῦσιν",
+    "english": "make an uproar",
+    "issue": "gloss",
+    "gloss": "make an uproar"
+  },
+  {
+    "lesson": 46,
+    "lemma": "μέμφομαι",
+    "old": "μέμφομαι",
+    "form": "μέμφεται",
+    "english": "criticizes",
+    "issue": "gloss",
+    "gloss": "criticizes; with dative"
+  },
+  {
+    "lesson": 46,
+    "lemma": "πάσχω",
+    "old": "πάσχω",
+    "form": "πεπόνθει",
+    "english": "he had suffered",
+    "issue": "manual",
+    "gloss": "had suffered; pluperfect"
+  },
+  {
+    "lesson": 46,
+    "lemma": "συνάπτω",
+    "old": "συνάπτω",
+    "form": "συνάπτει",
+    "english": "connects",
+    "issue": "gloss",
+    "gloss": "connects"
+  },
+  {
+    "lesson": 46,
+    "lemma": "οἴομαι",
+    "old": "οἴομαι",
+    "form": "οἰόμεθα",
+    "english": "suppose",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 46,
+    "lemma": "διάφορος",
+    "old": "διάφορος",
+    "form": "διαφόρους",
+    "english": "different",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 46,
+    "lemma": "ὁμοίως",
+    "old": "ὁμοίως",
+    "form": "ὁμοίως",
+    "english": "similarly",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 46,
+    "lemma": "συνουσία",
+    "old": "ἡ συνουσία",
+    "issue": "repeat",
+    "firstLesson": 16
+  },
+  {
+    "lesson": 46,
+    "lemma": "πατρίς",
+    "old": "ἡ πατρίς",
+    "issue": "repeat",
+    "firstLesson": 10
+  },
+  {
+    "lesson": 46,
+    "lemma": "φωνή",
+    "old": "ἡ φωνή",
+    "issue": "repeat",
+    "firstLesson": 20
+  },
+  {
+    "lesson": 46,
+    "lemma": "ἐλευθερία",
+    "old": "ἡ ἐλευθερία",
+    "issue": "repeat",
+    "firstLesson": 19
+  },
+  {
+    "lesson": 46,
+    "lemma": "ὀργή",
+    "old": "ἡ ὀργή",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 46,
+    "lemma": "τεκμήριον",
+    "old": "τὸ τεκμήριον",
+    "issue": "repeat",
+    "firstLesson": 30
+  },
+  {
+    "lesson": 46,
+    "lemma": "κρατέω",
+    "old": "κρατέω",
+    "issue": "repeat",
+    "firstLesson": 25
+  },
+  {
+    "lesson": 46,
+    "lemma": "λαμβάνω",
+    "old": "λαμβάνω",
+    "issue": "repeat",
+    "firstLesson": 5
+  },
+  {
+    "lesson": 46,
+    "lemma": "διδάσκω",
+    "old": "διδάσκω",
+    "issue": "repeat",
+    "firstLesson": 3
+  },
+  {
+    "lesson": 46,
+    "lemma": "λέγω",
+    "old": "λέγω",
+    "issue": "repeat",
+    "firstLesson": 1
+  },
+  {
+    "lesson": 47,
+    "lemma": "κατηγορία",
+    "old": "ἡ κατηγορία",
+    "form": "κατηγορίαι",
+    "english": "accusations",
+    "issue": "manual",
+    "gloss": ""
+  },
+  {
+    "lesson": 47,
+    "lemma": "βλάβη",
+    "old": "ἡ βλάβη",
+    "form": "βλάβην",
+    "english": "harm",
+    "issue": "gloss",
+    "gloss": "harm"
+  },
+  {
+    "lesson": 47,
+    "lemma": "μαντική",
+    "old": "ἡ μαντική",
+    "form": "μαντικὴν",
+    "english": "divination",
+    "issue": "gloss",
+    "gloss": "divination"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ἰατρός",
+    "old": "ὁ ἰατρός",
+    "form": "ἰατρῷ",
+    "english": "doctor",
+    "issue": "gloss",
+    "gloss": "doctor"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ὑγίεια",
+    "old": "ἡ ὑγίεια",
+    "form": "ὑγιείας",
+    "english": "health",
+    "issue": "gloss",
+    "gloss": "health"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ὁμολογία",
+    "old": "ἡ ὁμολογία",
+    "form": "ὁμολογίαν",
+    "english": "agreement",
+    "issue": "manual",
+    "gloss": "admission"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ἐπιστήμη",
+    "old": "ἡ ἐπιστήμη",
+    "form": "ἐπιστήμης",
+    "english": "expertise",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 47,
+    "lemma": "διαφθείρω",
+    "old": "διαφθείρω",
+    "form": "διαφθείρειν",
+    "english": "to corrupt",
+    "issue": "gloss",
+    "gloss": "to corrupt"
+  },
+  {
+    "lesson": 47,
+    "lemma": "εἰσφέρω",
+    "old": "εἰσφέρω",
+    "form": "εἰσφέρειν",
+    "english": "to introduce",
+    "issue": "gloss",
+    "gloss": "to introduce"
+  },
+  {
+    "lesson": 47,
+    "lemma": "σημαίνω",
+    "old": "σημαίνω",
+    "form": "σημαίνειν",
+    "english": "to give signs",
+    "issue": "gloss",
+    "gloss": "to give signs"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ἀτιμάζω",
+    "old": "ἀτιμάζω",
+    "form": "ἀτιμάζομεν",
+    "english": "dishonor",
+    "issue": "gloss",
+    "gloss": "dishonor"
+  },
+  {
+    "lesson": 47,
+    "lemma": "συγχωρέω",
+    "old": "συγχωρέω",
+    "form": "συγχωρῶμεν",
+    "english": "concede",
+    "issue": "gloss",
+    "gloss": "concede; subjunctive"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ἀναφέρω",
+    "old": "ἀναφέρω",
+    "form": "ἀναφέρειν",
+    "english": "to report",
+    "issue": "stem",
+    "gloss": ""
+  },
+  {
+    "lesson": 47,
+    "lemma": "λυπέομαι",
+    "old": "λυπέομαι",
+    "form": "λυποῦνται",
+    "english": "they grieve",
+    "issue": "manual",
+    "gloss": "grieve"
+  },
+  {
+    "lesson": 47,
+    "lemma": "χρηστός",
+    "old": "χρηστός",
+    "form": "χρηστοῦ",
+    "english": "good, upright",
+    "issue": "gloss",
+    "gloss": "good"
+  },
+  {
+    "lesson": 47,
+    "lemma": "πονηρός",
+    "old": "πονηρός",
+    "form": "πονηρὸν",
+    "english": "bad",
+    "issue": "gloss",
+    "gloss": "bad"
+  },
+  {
+    "lesson": 47,
+    "lemma": "πιστῶς",
+    "old": "πιστῶς",
+    "form": "πιστῶς",
+    "english": "faithfully",
+    "issue": "exact",
+    "gloss": "faithfully"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ἐνταῦθα",
+    "old": "ἐνταῦθα",
+    "form": "ἐνταῦθα",
+    "english": "here",
+    "issue": "exact",
+    "gloss": "here"
+  },
+  {
+    "lesson": 47,
+    "lemma": "ἱερόν",
+    "old": "τὸ ἱερόν",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 47,
+    "lemma": "θύω",
+    "old": "θύω",
+    "issue": "repeat",
+    "firstLesson": 11
+  },
+  {
+    "lesson": 48,
+    "lemma": "ψυχή",
+    "old": "ἡ ψυχή",
+    "form": "ψυχὴ",
+    "english": "soul, character",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 48,
+    "lemma": "προαίρεσις",
+    "old": "ἡ προαίρεσις",
+    "form": "προαίρεσιν",
+    "english": "choice",
+    "issue": "gloss",
+    "gloss": "choice"
+  },
+  {
+    "lesson": 48,
+    "lemma": "μάθησις",
+    "old": "ἡ μάθησις",
+    "form": "μάθησις",
+    "english": "learning",
+    "issue": "exact",
+    "gloss": "learning"
+  },
+  {
+    "lesson": 48,
+    "lemma": "γλῶττα",
+    "old": "ἡ γλῶττα",
+    "form": "γλώττης",
+    "english": "language, tongue",
+    "issue": "gloss",
+    "gloss": "language"
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἀθανασία",
+    "old": "ἡ ἀθανασία",
+    "form": "ἀθανασίας",
+    "english": "immortality",
+    "issue": "gloss",
+    "gloss": "immortality"
+  },
+  {
+    "lesson": 48,
+    "lemma": "κατάληξις",
+    "old": "ἡ κατάληξις",
+    "form": "καταλήξεις",
+    "english": "endings",
+    "issue": "gloss",
+    "gloss": "endings"
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἀναμιμνῄσκομαι",
+    "old": "ἀναμιμνῄσκομαι",
+    "form": "ἀναμιμνῄσκεσθαι",
+    "english": "to recall",
+    "issue": "gloss",
+    "gloss": "to recall"
+  },
+  {
+    "lesson": 48,
+    "lemma": "βεβαιόω",
+    "old": "βεβαιόω",
+    "form": "βεβαιοῖ",
+    "english": "confirms",
+    "issue": "gloss",
+    "gloss": "confirms"
+  },
+  {
+    "lesson": 48,
+    "lemma": "συγχέω",
+    "old": "συγχέω",
+    "form": "συνέχεεν",
+    "english": "he confused",
+    "issue": "manual",
+    "gloss": "confused"
+  },
+  {
+    "lesson": 48,
+    "lemma": "προστίθημι",
+    "old": "προστίθημι",
+    "form": "προστίθεμεν",
+    "english": "we attribute",
+    "issue": "manual",
+    "gloss": "we add"
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἀλλάττω",
+    "old": "ἀλλάττω",
+    "form": "ἀλλάττειν",
+    "english": "to change",
+    "issue": "gloss",
+    "gloss": "to change"
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἀριθμέω",
+    "old": "ἀριθμέω",
+    "form": "ἀριθμεῖ",
+    "english": "counts",
+    "issue": "gloss",
+    "gloss": "counts"
+  },
+  {
+    "lesson": 48,
+    "lemma": "εὐσεβής",
+    "old": "εὐσεβής",
+    "form": "εὐσεβὴς",
+    "english": "pious",
+    "issue": "exact",
+    "gloss": "pious"
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἀκριβής",
+    "old": "ἀκριβής",
+    "form": "ἀκριβὴς",
+    "english": "precise",
+    "issue": "exact",
+    "gloss": ""
+  },
+  {
+    "lesson": 48,
+    "lemma": "εὐπρεπής",
+    "old": "εὐπρεπής",
+    "form": "εὐπρεπεῖς",
+    "english": "plausible, attractive",
+    "issue": "gloss",
+    "gloss": "plausible, attractive"
+  },
+  {
+    "lesson": 48,
+    "lemma": "διαλλαγή",
+    "old": "ἡ διαλλαγή",
+    "issue": "repeat",
+    "firstLesson": 36
+  },
+  {
+    "lesson": 48,
+    "lemma": "πίστις",
+    "old": "ἡ πίστις",
+    "issue": "repeat",
+    "firstLesson": 9
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἀγνοέω",
+    "old": "ἀγνοέω",
+    "issue": "repeat",
+    "firstLesson": 23
+  },
+  {
+    "lesson": 48,
+    "lemma": "ἐγκρατής",
+    "old": "ἐγκρατής",
+    "issue": "repeat",
+    "firstLesson": 35
+  },
+  {
+    "lesson": 48,
+    "lemma": "κοινῇ",
+    "old": "κοινῇ",
+    "issue": "repeat",
+    "firstLesson": 44
+  }
+]

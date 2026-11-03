@@ -53,3 +53,4 @@ delete pkg.scripts['verify:module4:browser']; // Rendered checks use the browser
 if (!pkg.scripts['db:migrate'].includes('0047_publish_module_4.sql')) pkg.scripts['db:migrate'] += ' && node db/run-sql.mjs db/migrations/0047_publish_module_4.sql';
 write('package.json', JSON.stringify(pkg,null,2)+'\n');
 console.log('Module IV JSON, fallback, outline, seed, and atomic publication migration synchronized.');
+execFileSync(process.execPath, ['scripts/reconcile-vocabulary.mjs'], { stdio: 'inherit' });

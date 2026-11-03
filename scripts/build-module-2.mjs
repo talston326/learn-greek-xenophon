@@ -55,3 +55,4 @@ pkg.scripts['verify:module2:browser'] = 'node scripts/verify-module-2-browser.mj
 if (!pkg.scripts['db:migrate'].includes('0045_publish_module_2.sql')) pkg.scripts['db:migrate'] += ' && node db/run-sql.mjs db/migrations/0045_publish_module_2.sql';
 write('package.json', JSON.stringify(pkg,null,2)+'\n');
 console.log('Module II JSON, fallback, outline, seed, and atomic publication migration synchronized.');
+execFileSync(process.execPath, ['scripts/reconcile-vocabulary.mjs'], { stdio: 'inherit' });

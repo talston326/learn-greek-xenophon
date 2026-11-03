@@ -34,7 +34,7 @@
   }
 
   function setActiveLesson(nextLesson) {
-    lesson = nextLesson || null;
+    lesson = window.xenophonVocabulary?.apply(nextLesson) || nextLesson || null;
     const maxPage = lesson?.pages?.length || 1;
     const requestedPage = Math.max(1, Math.min(maxPage, Number(params.get("page") || "1")));
     page = lesson?.pages?.find((item) => item.page === requestedPage) || lesson?.pages?.[0] || null;
@@ -405,6 +405,7 @@
                     </span>
                     <span class="vocab-entry__dash" aria-hidden="true">—</span>
                     <span class="vocab-entry__gloss">${escapeHtml(item.english)}</span>
+                    <span class="vocab-entry__dictionary">Dictionary: <span class="greek-text" lang="grc">${escapeHtml(item.dictionaryForm || item.lemma || item.greek)}</span></span>
                   </li>
                 `).join("")}
               </ul>

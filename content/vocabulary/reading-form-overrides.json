@@ -1,0 +1,616 @@
+{
+  "1": {
+    "δεσποτησ": null,
+    "παισ": {
+      "form": "παῖ",
+      "english": "boy; vocative address"
+    },
+    "υιοσ": {
+      "form": "υἱὸν",
+      "english": "son"
+    },
+    "ου": {
+      "form": "οὐκ",
+      "english": "not"
+    },
+    "αθηναι": {
+      "form": "Ἀθήναις",
+      "english": "Athens"
+    }
+  },
+  "2": {
+    "ονοσ": {
+      "form": "ὄνον",
+      "english": "donkey"
+    },
+    "ξυλον": {
+      "form": "ξύλα",
+      "english": "pieces of wood"
+    },
+    "ερχομαι": {
+      "form": "ἔρχεται",
+      "english": "he comes"
+    },
+    "δουλη": {
+      "form": "δοῦλαι",
+      "english": "female household servants"
+    },
+    "δειπνεω": {
+      "form": "δειπνοῦσιν",
+      "english": "they dine"
+    },
+    "πεπλοσ": {
+      "form": "πέπλους",
+      "english": "robes"
+    }
+  },
+  "3": {
+    "εποσ": {
+      "form": "ἔπη",
+      "english": "verses"
+    },
+    "λουομαι": {
+      "form": "λούεται",
+      "english": "he bathes"
+    },
+    "ζωον": {
+      "form": "ζῷα",
+      "english": "animals"
+    },
+    "διδασκω": {
+      "form": "διδάσκει",
+      "english": "he teaches"
+    },
+    "γραμμα": {
+      "form": "γράμματα",
+      "english": "letters"
+    }
+  },
+  "4": {
+    "ψηχω": {
+      "form": "ψήχει",
+      "english": "he grooms"
+    }
+  },
+  "6": {
+    "ασκεω": {
+      "form": "ἀσκοῦσιν",
+      "english": "they practice"
+    },
+    "γυμναζω": {
+      "form": "γυμνάζουσιν",
+      "english": "they exercise"
+    },
+    "ανθρωποσ": {
+      "form": "ἀνθρώπων",
+      "english": "people"
+    },
+    "σωμα": {
+      "form": "σῶμα",
+      "english": "body"
+    },
+    "αλλοσ": {
+      "form": "ἄλλοι",
+      "english": "others"
+    }
+  },
+  "7": {
+    "δωρον": {
+      "form": "δῶρα",
+      "english": "gifts"
+    },
+    "πυλη": {
+      "form": "πύλην",
+      "english": "gate"
+    }
+  },
+  "8": {
+    "πολιτησ": null
+  },
+  "9": {
+    "φιλια": null,
+    "αλλααλλ": {
+      "form": "ἀλλὰ",
+      "english": "but",
+      "lemma": "ἀλλά",
+      "dictionaryForm": "ἀλλά"
+    },
+    "κλινη": {
+      "form": "κλινῶν",
+      "english": "couches"
+    }
+  },
+  "10": {
+    "εγωμεμου": {
+      "form": "ἐγὼ",
+      "english": "I",
+      "lemma": "ἐγώ",
+      "dictionaryForm": "ἐγώ, ἐμοῦ"
+    },
+    "συσεσου": {
+      "form": "σε",
+      "english": "you (object)",
+      "lemma": "σύ",
+      "dictionaryForm": "σύ, σοῦ"
+    }
+  },
+  "11": {
+    "ναοσ": {
+      "form": "ναόν",
+      "english": "temple"
+    },
+    "θυω": {
+      "form": "θύειν",
+      "english": "to sacrifice"
+    },
+    "ευχομαι": {
+      "form": "εὔχεσθαι",
+      "english": "to pray"
+    },
+    "δεχομαι": {
+      "form": "δέχεται",
+      "english": "he receives"
+    },
+    "θεοσ": {
+      "form": "θεὸν",
+      "english": "god"
+    }
+  },
+  "12": {
+    "πυνθανομαι": {
+      "form": "ἐπυνθάνετο",
+      "english": "he was asking"
+    }
+  },
+  "13": {
+    "σωζω": {
+      "form": "σῴζει",
+      "english": "he saves"
+    },
+    "ψιλοι": {
+      "form": "ψιλοὺς",
+      "english": "light-armed men",
+      "lemma": "ψιλός",
+      "dictionaryForm": "ψιλός, ψιλή, ψιλόν"
+    },
+    "πραγμα": {
+      "form": "πράγματα",
+      "english": "things; affairs"
+    },
+    "τροφη": {
+      "form": "τροφὴν",
+      "english": "food"
+    },
+    "στρατευμα": {
+      "form": "στρατεύματα",
+      "english": "contingents"
+    },
+    "ανδρειοσ": {
+      "form": "ἀνδρεῖοι",
+      "english": "brave men"
+    }
+  },
+  "14": {
+    "ρητωρ": null,
+    "κυκλωψ": null,
+    "τίς": {
+      "form": "τίς",
+      "english": "who?",
+      "lemma": "τίς",
+      "dictionaryForm": "τίς, τί, τίνος"
+    },
+    "τις": {
+      "form": "τις",
+      "english": "a certain; someone",
+      "lemma": "τις",
+      "dictionaryForm": "τις, τι, τινός"
+    },
+    "αρχαιρεσια": {
+      "form": "ἀρχαιρεσιῶν",
+      "english": "elections"
+    },
+    "βοηθοσ": {
+      "form": "βοηθοὺς",
+      "english": "helpers"
+    }
+  },
+  "15": {
+    "θεαομαι": {
+      "form": "θεᾶται",
+      "english": "he watches"
+    },
+    "αθλον": {
+      "form": "ἆθλά",
+      "english": "prizes"
+    },
+    "αιτεω": {
+      "form": "αἰτοῦσιν",
+      "english": "they ask for"
+    },
+    "αγων": {
+      "form": "ἀγῶνας",
+      "english": "contests"
+    },
+    "πλοιον": {
+      "form": "πλοίων",
+      "english": "boats"
+    },
+    "στλεγγισ": {
+      "form": "στλεγγίδες",
+      "english": "strigils"
+    }
+  },
+  "16": {
+    "θυγατηρ": null,
+    "μην": {
+      "form": "μηνῶν",
+      "english": "months"
+    },
+    "πεντε": null,
+    "ημερα": {
+      "form": "ἡμέρας",
+      "english": "days"
+    },
+    "αμαξα": {
+      "form": "ἁμάξαις",
+      "english": "carriages"
+    }
+  },
+  "17": {
+    "καρτερεω": {
+      "form": "καρτερῶν",
+      "english": "persevering"
+    }
+  },
+  "18": {
+    "αστυ": null,
+    "ναυσ": null,
+    "βουσ": null,
+    "πρεσβεισ": {
+      "form": "πρέσβεις",
+      "english": "envoys",
+      "lemma": "πρέσβυς",
+      "dictionaryForm": "πρέσβυς, πρέσβεως, ὁ"
+    },
+    "λιθοσ": {
+      "form": "λίθους",
+      "english": "stones"
+    }
+  },
+  "19": {
+    "μνα": {
+      "form": "μνᾶς",
+      "english": "minas"
+    },
+    "νομιζω": null,
+    "στεφανοσ": {
+      "form": "στεφάνους",
+      "english": "crowns"
+    }
+  },
+  "20": {
+    "αμυνω": null,
+    "ιδιοσ": {
+      "form": "ἰδίαν",
+      "english": "private"
+    },
+    "πολιτησ": {
+      "form": "πολῖται",
+      "english": "fellow citizens"
+    },
+    "εορτη": {
+      "form": "ἑορτάς",
+      "english": "festivals"
+    },
+    "μυστησ": {
+      "form": "μυστῶν",
+      "english": "initiates"
+    }
+  },
+  "21": {
+    "πιπτω": {
+      "form": "ἔπεσεν",
+      "english": "he fell"
+    },
+    "τρεχω": {
+      "form": "ἔδραμεν",
+      "english": "he ran"
+    },
+    "αγγελια": {
+      "form": "ἀγγελίαν",
+      "english": "the news"
+    },
+    "πολεμιοσ": {
+      "form": "πολεμίους",
+      "english": "enemies"
+    }
+  },
+  "22": {
+    "οραω": {
+      "form": "εἶδον",
+      "english": "they saw"
+    },
+    "δολοσ": null,
+    "σημα": null,
+    "πιστευω": {
+      "form": "ἐπίστευσεν",
+      "english": "he trusted"
+    }
+  },
+  "23": {
+    "λογιζομαι": {
+      "form": "ἐλογίσατο",
+      "english": "he reasoned"
+    },
+    "φροντιζω": {
+      "form": "ἐφρόντισεν",
+      "english": "he considered"
+    },
+    "πραττω": {
+      "form": "ἔπραξεν",
+      "english": "he acted"
+    },
+    "λογοσ": {
+      "form": "λόγῳ",
+      "english": "word; speech"
+    },
+    "μενφωσ": {
+      "form": "φῶς",
+      "english": "light",
+      "lemma": "φῶς",
+      "dictionaryForm": "φῶς, φωτός, τό"
+    }
+  },
+  "24": {
+    "νεμω": {
+      "form": "ἔνειμαν",
+      "english": "they allocated"
+    },
+    "συλλεγω": {
+      "form": "συνέλεξαν",
+      "english": "they gathered"
+    },
+    "σφενδονητησ": {
+      "form": "σφενδονῆται",
+      "english": "slingers"
+    }
+  },
+  "25": {
+    "βιοσ": {
+      "form": "βίου",
+      "english": "life"
+    },
+    "πινω": {
+      "form": "ἔπινεν",
+      "english": "he used to drink"
+    },
+    "κρατεω": {
+      "form": "κρατῶν",
+      "english": "mastering"
+    }
+  },
+  "26": {
+    "ηδυσ": null,
+    "αρχω": {
+      "form": "ἄρξει",
+      "english": "he will rule"
+    },
+    "πονεω": {
+      "form": "ἐπόνει",
+      "english": "he was working"
+    }
+  },
+  "27": {
+    "πενησ": {
+      "form": "πενήτων",
+      "english": "poor people"
+    }
+  },
+  "28": {
+    "οδε": {
+      "form": "ἥδε",
+      "english": "this here (feminine)"
+    },
+    "ποιοσ": null
+  },
+  "29": {
+    "ισοσ": {
+      "form": "ἴση",
+      "english": "equal (feminine)"
+    },
+    "βαινω": {
+      "form": "ἔβη",
+      "english": "he went"
+    },
+    "ιστημι": {
+      "form": "ἔστη",
+      "english": "he stood"
+    },
+    "καιω": {
+      "form": "ἔκαιον",
+      "english": "they were burning"
+    },
+    "δυνατοσ": {
+      "form": "δυνατοὶ",
+      "english": "those who were able"
+    }
+  },
+  "31": {
+    "εραω": {
+      "form": "ἐρᾷ",
+      "english": "he desires"
+    },
+    "αδικεω": {
+      "form": "ἀδικεῖ",
+      "english": "he does wrong"
+    },
+    "απειλη": {
+      "form": "ἀπειλαῖς",
+      "english": "threats"
+    }
+  },
+  "32": {
+    "ξηροσ": {
+      "form": "ξηρῷ",
+      "english": "dry (dative)"
+    },
+    "κειμαι": {
+      "form": "κεῖται",
+      "english": "it lies"
+    }
+  },
+  "33": {
+    "πουσ": {
+      "form": "ποσὶν",
+      "english": "feet"
+    },
+    "κολαζω": {
+      "form": "ἐκολάσθη",
+      "english": "he was punished"
+    }
+  },
+  "34": {
+    "φυτον": {
+      "form": "φυτὰ",
+      "english": "plants"
+    },
+    "αυξω": {
+      "form": "αὔξει",
+      "english": "it makes grow"
+    },
+    "συμποτησ": {
+      "form": "συμπόται",
+      "english": "fellow drinkers"
+    }
+  },
+  "35": {
+    "ωρα": {
+      "form": "ὥραν",
+      "english": "the right time"
+    },
+    "καθιστημι": {
+      "form": "καθιστᾶσιν",
+      "english": "they appoint"
+    },
+    "αφιστημι": {
+      "form": "ἀπέστη",
+      "english": "he withdrew"
+    },
+    "παυομαι": {
+      "form": "παύεται",
+      "english": "it ceases"
+    }
+  },
+  "36": {
+    "ιημι": {
+      "form": "ἵησι",
+      "english": "he sends"
+    },
+    "ομνυμι": {
+      "form": "ὤμοσαν",
+      "english": "they swore"
+    }
+  },
+  "39": {
+    "παιω": {
+      "form": "ἔπαισεν",
+      "english": "he struck"
+    },
+    "καταλειπω": {
+      "form": "καταλίπῃ",
+      "english": "he leaves behind"
+    }
+  },
+  "40": {
+    "φημι": {
+      "form": "φησίν",
+      "english": "he says"
+    },
+    "προσταττω": {
+      "form": "προστάξαι",
+      "english": "to have ordered"
+    },
+    "κατακρινω": {
+      "form": "κατεκρίθησαν",
+      "english": "they were condemned"
+    }
+  },
+  "41": {
+    "συμβουλη": {
+      "form": "συμβουλὴν",
+      "english": "advice"
+    }
+  },
+  "42": {
+    "αντιλεγω": {
+      "form": "ἀντειπόντος",
+      "english": "having objected"
+    }
+  },
+  "43": {
+    "ηττα": {
+      "form": "ἧτταν",
+      "english": "defeat"
+    },
+    "εξαλειφω": {
+      "form": "ἐξήλειψεν",
+      "english": "he erased"
+    },
+    "καταφευγω": {
+      "form": "κατέφυγεν",
+      "english": "he fled for refuge"
+    },
+    "παραδιδωμι": {
+      "form": "παρέδωκεν",
+      "english": "he handed over"
+    },
+    "αποσπαω": {
+      "form": "ἀπέσπων",
+      "english": "they were dragging away"
+    },
+    "υπηρετησ": {
+      "form": "ὑπηρέται",
+      "english": "attendants"
+    }
+  },
+  "44": {
+    "αυξανω": {
+      "form": "αὔξειν",
+      "english": "to increase"
+    },
+    "ορκοσ": {
+      "form": "ὅρκοις",
+      "english": "oaths"
+    }
+  },
+  "46": {
+    "πασχω": {
+      "form": "πεπόνθει",
+      "english": "he had suffered"
+    }
+  },
+  "47": {
+    "λυπεομαι": {
+      "form": "λυποῦνται",
+      "english": "they grieve"
+    },
+    "κατηγορια": {
+      "form": "κατηγορίαι",
+      "english": "accusations"
+    },
+    "ομολογια": {
+      "form": "ὁμολογίαν",
+      "english": "agreement"
+    }
+  },
+  "48": {
+    "προστιθημι": {
+      "form": "προστίθεμεν",
+      "english": "we attribute"
+    },
+    "συγχεω": {
+      "form": "συνέχεεν",
+      "english": "he confused"
+    }
+  }
+}

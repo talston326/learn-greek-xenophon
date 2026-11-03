@@ -118,7 +118,8 @@
       }
 
       if (data.content) {
-        lesson = mergeLessonContent(staticLesson, data.content);
+        lesson = window.xenophonVocabulary?.apply(mergeLessonContent(staticLesson, data.content))
+          || mergeLessonContent(staticLesson, data.content);
       }
     } catch (error) {
       console.warn("Using static lesson-data.js fallback for activity content.", error);
@@ -240,10 +241,10 @@
     const mode = card.direction;
 
     if (mode === "english-greek") {
-      return { prompt: card.english, answer: card.greek, promptGreek: false, answerGreek: true };
+      return { prompt: card.english, answer: card.greek, promptGreek: false, answerGreek: true, dictionaryForm: card.dictionaryForm };
     }
 
-    return { prompt: card.greek, answer: card.english, promptGreek: true, answerGreek: false };
+    return { prompt: card.greek, answer: card.english, promptGreek: true, answerGreek: false, dictionaryForm: card.dictionaryForm };
   }
 
   function renderFlashcardStudy(flipped = false) {
@@ -280,6 +281,7 @@
           <span class="flashcard-card__text ${flipped && sides.answerGreek ? "greek-text" : !flipped && sides.promptGreek ? "greek-text" : ""}" ${flipped && sides.answerGreek || !flipped && sides.promptGreek ? 'lang="grc"' : ""}>
             ${renderStudyText(flipped ? sides.answer : sides.prompt, flipped ? sides.answerGreek : sides.promptGreek)}
           </span>
+          ${flipped && activityType === "vocab-flashcards" && sides.dictionaryForm ? `<span class="flashcard-card__standard">Dictionary form: <span class="greek-text" lang="grc">${escapeHtml(sides.dictionaryForm)}</span></span>` : ""}
           <span class="flashcard-card__hint">${flipped ? "Mark this card below." : "Click or tap to reveal the answer."}</span>
         </button>
         ${flipped ? `

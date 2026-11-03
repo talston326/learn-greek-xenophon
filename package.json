@@ -49,6 +49,8 @@
     "verify:module3:browser": "node scripts/verify-module-3-browser.mjs",
     "build:module4": "node scripts/build-module-4.mjs",
     "verify:module4": "node scripts/verify-module-4.mjs",
-    "verify:module4:live": "node scripts/verify-module-4-live.mjs"
+    "verify:module4:live": "node scripts/verify-module-4-live.mjs",
+    "build:vocabulary": "node scripts/reconcile-vocabulary.mjs",
+    "verify:vocabulary": "node scripts/verify-vocabulary.mjs"
   }
 }
