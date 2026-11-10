@@ -280,6 +280,10 @@
           {
             "greek": "ἔπαθον",
             "english": "suffered"
+          },
+          {
+            "greek": "ὤμοσαν μὴ μνησικακήσειν",
+            "english": "they swore not to hold past wrongs against one another; future infinitive after swearing; compare Lesson 40"
           }
         ]
       },
@@ -309,27 +313,39 @@
         ]
       },
       {
-        "greek": "Ἄλλο παράδειγμα· ὁ ἀνὴρ ἵησι τὸ βέλος, ὁ δὲ φίλος ἀφίησι τὸν λίθον. τὸ δὲ μὴ βάλλειν καὶ μὴ βλάπτειν κρίσιν ἔχει. οὐ πᾶσα δύναμις εὐθὺς εἰς ἔργον ἔρχεται.",
+        "greek": "Ἐν ἀσκήσει περὶ τοῦ τὰ ὅπλα θεῖναι συγκρίνομεν· ὁ μὲν ἀνὴρ ἵησι τὸ βέλος, ὁ δὲ φίλος ἀφίησι τὸν λίθον καὶ παύεται μαχόμενος. τίς ἀφίησι πρᾶγμα, τίς δὲ παύεται πράττων; τὸ δὲ μὴ βάλλειν καὶ μὴ βλάπτειν κρίσιν ἔχει. οὐ πᾶσα δύναμις εὐθὺς εἰς ἔργον ἔρχεται.",
         "gloss": [
+          {
+            "greek": "θεῖναι",
+            "english": "to lay down; aorist infinitive of τίθημι"
+          },
           {
             "greek": "ἵησι",
             "english": "sends; present of ἵημι"
           },
           {
-            "greek": "τὸ βέλος",
-            "english": "missile"
-          },
-          {
             "greek": "ἀφίησι",
-            "english": "lets go of; present of ἀφίημι"
+            "english": "lets go of; present of ἀφίημι with an object"
           },
           {
-            "greek": "μὴ βάλλειν",
-            "english": "not throwing; articular infinitive"
+            "greek": "παύεται μαχόμενος",
+            "english": "ceases fighting; παύομαι with supplementary participle"
+          },
+          {
+            "greek": "πράττων",
+            "english": "doing; present participle"
+          },
+          {
+            "greek": "βέλος",
+            "english": "missile"
           },
           {
             "greek": "κρίσιν",
             "english": "a decision"
+          },
+          {
+            "greek": "μὴ βάλλειν",
+            "english": "not throwing; articular infinitive"
           }
         ]
       },
@@ -363,7 +379,7 @@
         ]
       }
     ],
-    "translation": "The men from Piraeus and the men from the city had been fighting. Pausanias and the envoys negotiated reconciliation. At last the men stopped fighting.\n\nThe men from Piraeus went up into the city. They had their arms and came to the Acropolis. There they sacrificed to Athena. Then the citizens deliberated.\n\nThe citizens swore not to bear grudges. They were not going to keep bringing old wrongs against one another. But the task was difficult, for the people had suffered much.\n\nIn the teaching example the citizen points out the Acropolis. His friend sees the men going up. “These men are now ceasing to fight; but what will they do tomorrow?”\n\nAnother example: the man sends a missile, and his companion lets go of a stone. But refraining from throwing and harming involves a decision. Not every power immediately passes into action.\n\nXenophon later also writes about those at Eleusis: their generals died. Reconciliation was not easy. What, then, is the citizen’s self-control? To hold power and anger with judgment.\n",
+    "translation": "The men from Piraeus and the men from the city had been fighting. Pausanias and the envoys negotiated reconciliation. At last the men stopped fighting.\n\nThe men from Piraeus went up into the city. They had their arms and came to the Acropolis. There they sacrificed to Athena. Then the citizens deliberated.\n\nThe citizens swore not to bear grudges. They were not going to keep bringing old wrongs against one another. But the task was difficult, for the people had suffered much.\n\nIn the teaching example the citizen points out the Acropolis. His friend sees the men going up. “These men are now ceasing to fight; but what will they do tomorrow?”\n\nIn an exercise about laying down arms we compare: one man sends a missile, while his companion lets go of the stone and ceases fighting. Who lets go of an object, and who ceases doing an action? Not throwing and not harming involves a decision. Not every power immediately passes into action.\n\nXenophon later also writes about those at Eleusis: their generals died. Reconciliation was not easy. What, then, is the citizen’s self-control? To hold power and anger with judgment.\n",
     "sourceCitation": "Xenophon, Hellenica 2.4.38–43. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm https://en.wikipedia.org/wiki/Hellenica https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4",
     "notesMarkdown": "The settlement, return, sacrifice, and oath follow Hellenica 2.4.38–42. The δείκνυμι/ἵημι examples and interpretive questions are course composition. Section 43 describes a later killing of leaders at Eleusis and subsequent reconciliation; it is not the same event as the first return in 403 BCE."
   },

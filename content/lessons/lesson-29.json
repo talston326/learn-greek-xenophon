@@ -350,7 +350,7 @@
         ]
       },
       {
-        "greek": "Οἱ ἀσθενεῖς ἔφαγον, εἶτα ἀνέστησαν καὶ ἐπορεύοντο. οὐ λόγος μόνον αὐτοὺς ἔσωσεν. τροφῆς γὰρ ἐδέοντο. ἐνταῦθα ἡ ἐπιμέλεια τοῖς φίλοις κέρδος ἔφερεν.",
+        "greek": "Οἱ ἀσθενεῖς ἔφαγον, εἶτα ἀνέστησαν καὶ ἐπορεύοντο. οὐ λόγος μόνον αὐτοὺς ἔσωσεν. τροφῆς γὰρ ἐδέοντο. ἐνταῦθα ἡ ἐπιμέλεια τοῖς φίλοις κέρδος ἔφερεν. Ἐν τῇ ἀσκήσει συγκρίνομεν· οἱ ἄνδρες ἀνέστησαν· μετὰ τὸ φαγεῖν δυνατὸν ἦν ἀναστῆναι· ἀναστάντες ἐπορεύοντο.",
         "gloss": [
           {
             "greek": "ἔφαγον",
@@ -375,11 +375,23 @@
           {
             "greek": "κέρδος",
             "english": "benefit"
+          },
+          {
+            "greek": "μετὰ τὸ φαγεῖν",
+            "english": "after eating; articulated aorist infinitive"
+          },
+          {
+            "greek": "ἀναστῆναι",
+            "english": "to get up; athematic aorist infinitive of ἀνίστημι"
+          },
+          {
+            "greek": "ἀναστάντες",
+            "english": "having got up; athematic aorist active participle, nominative masculine plural"
           }
         ]
       }
     ],
-    "translation": "The Greeks were marching through Armenia. There was much snow, and the cold was severe. The soldiers and pack animals struggled; not all endured the hardship.\n\nMany of the pack animals died, and people died too. Not only soldiers but also enslaved people were in the snow. The hardship was shared, but their strength was not equal.\n\nThose who arrived first were keeping a fire burning. Those who came later approached the fire. The first arrivals demanded food and only then admitted the others.\n\nOn the next day the men were marching again. Some fell and remained behind. Xenophon stopped beside the weak men; he did not immediately recognize their condition.\n\nA man recognized the condition and told Xenophon. Xenophon went to the pack animals and looked for food. Those who were strong carried the food to the weak.\n\nThe weak men ate, then got up and continued marching. Words alone did not save them. For they needed nourishment. Here care brought benefit to their companions.\n",
+    "translation": "The Greeks were marching through Armenia. There was much snow, and the cold was severe. The soldiers and pack animals struggled; not all endured the hardship.\n\nMany of the pack animals died, and people died too. Not only soldiers but also enslaved people were in the snow. The hardship was shared, but their strength was not equal.\n\nThose who arrived first were keeping a fire burning. Those who came later approached the fire. The first arrivals demanded food and only then admitted the others.\n\nOn the next day the men were marching again. Some fell and remained behind. Xenophon stopped beside the weak men; he did not immediately recognize their condition.\n\nA man recognized the condition and told Xenophon. Xenophon went to the pack animals and looked for food. Those who were strong carried the food to the weak.\n\nThe weak men ate, then got up and continued marching. Words alone did not save them. For they needed nourishment. Here care brought benefit to their companions. In the exercise we compare: the men got up; after eating it was possible to get up; having got up, they continued marching.\n",
     "sourceCitation": "Xenophon, Anabasis 4.5.3–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1170/1170-h/1170-h.htm https://en.wikipedia.org/wiki/Anabasis_(Xenophon) https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5",
     "notesMarkdown": "The snow, unequal access to fires, hunger-collapse, and distribution of food follow Xenophon. The compact sequence and closing judgment are adapted. A soldier’s command in the grammar workshop is invented practice, not a quotation."
   },

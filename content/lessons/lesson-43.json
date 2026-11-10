@@ -209,7 +209,7 @@
     "title": "Ὅταν ὁ φόβος τὸν νόμον λύῃ",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. 307 Greek words in 6 paragraphs.",
+      "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. 339 Greek words in 6 paragraphs.",
       "Based on Hellenica 2.3.50–56, with context from 2.3.15–20. The indirect questions and reporting frames are teaching compositions. Theramenes was himself an oligarch; scrutiny of his seizure does not absolve his earlier political conduct.",
       "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -357,11 +357,15 @@
           {
             "greek": "σιωπῇ",
             "english": "silence"
+          },
+          {
+            "greek": "γεγραμμένῳ",
+            "english": "written; perfect passive participle, dative singular; supported reading vocabulary"
           }
         ]
       },
       {
-        "greek": "Ἐν τῇ ἡμετέρᾳ ἀσκήσει ἐρωτῶμεν τίς τὴν ψῆφον δοίη, τίς τὸν νόμον θείη, καὶ τίς τὸν φυλακῆς δεόμενον ἀφείη. ταῦτα οὐ νέαι μαρτυρίαι εἰσίν, ἀλλὰ τῆς διηγήσεως ἐξέτασις. ἡ γὰρ ὀρθὴ γραμματικὴ δεῖ καὶ τοὺς ποιοῦντας σαφεῖς ποιεῖν. μὴ τὸ «ἐκρίθη» λέγωμεν οὕτως, ὥστε κρύπτειν τίς ἔκρινεν καὶ τίς τὴν κρίσιν ἐκώλυσεν.",
+        "greek": "Ἐν τῇ ἡμετέρᾳ ἀσκήσει ἐρωτῶμεν τίς τὴν ψῆφον δοίη, τίς τὸν νόμον θείη, καὶ τίς τὸν φυλακῆς δεόμενον ἀφείη. ταῦτα οὐ νέαι μαρτυρίαι εἰσίν, ἀλλὰ τῆς διηγήσεως ἐξέτασις. ἡ γὰρ ὀρθὴ γραμματικὴ δεῖ καὶ τοὺς ποιοῦντας σαφεῖς ποιεῖν. μὴ τὸ «ἐκρίθη» λέγωμεν οὕτως, ὥστε κρύπτειν τίς ἔκρινεν καὶ τίς τὴν κρίσιν ἐκώλυσεν. Συγκρίνομεν δὲ δύο ἐρωτήσεις· τίς ἂν τοὺς νόμους τιθείη; τίς ἂν τόνδε τὸν νόμον θείη; ἡ μὲν πρώτη περὶ τοῦ νόμους τιθέναι πολλάκις ἐρωτᾷ, ἡ δὲ δευτέρα μίαν πρᾶξιν ὡς ὅλην σκοπεῖ.",
         "gloss": [
           {
             "greek": "δοίη",
@@ -386,11 +390,23 @@
           {
             "greek": "ἐκώλυσεν",
             "english": "prevented"
+          },
+          {
+            "greek": "τιθείη",
+            "english": "might be setting; present active optative of τίθημι with ἄν"
+          },
+          {
+            "greek": "θείη",
+            "english": "might establish; aorist active optative of τίθημι"
+          },
+          {
+            "greek": "τόνδε",
+            "english": "this particular; demonstrative accusative"
           }
         ]
       }
     ],
-    "translation": "After the Athenians’ defeat the Thirty ruled the city. Critias and Theramenes were among them. They did not agree about everything: Theramenes thought the government narrower than it should be, while Critias considered him an obstacle. The rulers sought more power, and the citizens feared that each might be the next to perish.\n\nThere was a list of three thousand citizens. Those on the list had to be judged by the council before execution, while the Thirty could kill those outside it. The list was therefore not merely a record of names: it made a difference to safety. Theramenes was among those on it and claimed judgment by the council.\n\nCritias, seeing the council favorably disposed toward Theramenes, did not wish to risk the vote. Armed men were present. He said that it was the rulers’ duty to punish opponents of the oligarchy. The councilors considered what they should do and how they might help the man. They heard the argument, but saw the power of weapons.\n\nCritias therefore erased Theramenes’ name from the list. He then said that the Thirty were permitted to kill him. Thus the man who previously enjoyed a right to judgment suddenly lacked the same protection. The record was changed, but the act did not thereby become more just. For the accuser himself was removing the protection.\n\nTheramenes fled to the altar and called on gods and humans. Critias handed him over to the Eleven. The attendants dragged him from the altar, while the councilors remained quiet out of fear. The writer shows injustice not only through a written rule but also through the bodies and silence of those present.\n\nIn our exercise we ask who might give the vote, who might establish the rule, and who might release the person needing protection. These are not new testimonies but an examination of the narrative. For accurate grammar should also make the agents clear. Let us not say “he was judged” in a way that conceals who judged and who prevented judgment.\n",
+    "translation": "After the Athenians’ defeat the Thirty ruled the city. Critias and Theramenes were among them. They did not agree about everything: Theramenes thought the government narrower than it should be, while Critias considered him an obstacle. The rulers sought more power, and the citizens feared that each might be the next to perish.\n\nThere was a list of three thousand citizens. Those on the list had to be judged by the council before execution, while the Thirty could kill those outside it. The list was therefore not merely a record of names: it made a difference to safety. Theramenes was among those on it and claimed judgment by the council.\n\nCritias, seeing the council favorably disposed toward Theramenes, did not wish to risk the vote. Armed men were present. He said that it was the rulers’ duty to punish opponents of the oligarchy. The councilors considered what they should do and how they might help the man. They heard the argument, but saw the power of weapons.\n\nCritias therefore erased Theramenes’ name from the list. He then said that the Thirty were permitted to kill him. Thus the man who previously enjoyed a right to judgment suddenly lacked the same protection. The record was changed, but the act did not thereby become more just. For the accuser himself was removing the protection.\n\nTheramenes fled to the altar and called on gods and humans. Critias handed him over to the Eleven. The attendants dragged him from the altar, while the councilors remained quiet out of fear. The writer shows injustice not only through a written rule but also through the bodies and silence of those present.\n\nIn our exercise we ask who might give the vote, who might establish the rule, and who might release the person needing protection. These are not new testimonies but an examination of the narrative. For accurate grammar should also make the agents clear. Let us not say “he was judged” in a way that conceals who judged and who prevented judgment. We compare two questions: who might regularly set the rules? Who might establish this particular rule? The first asks about repeatedly setting rules; the second views a single action as a whole.\n",
     "sourceCitation": "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
     "notesMarkdown": "Based on Hellenica 2.3.50–56, with context from 2.3.15–20. The indirect questions and reporting frames are teaching compositions. Theramenes was himself an oligarch; scrutiny of his seizure does not absolve his earlier political conduct."
   },

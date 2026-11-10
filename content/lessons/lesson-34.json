@@ -288,7 +288,7 @@
         ]
       },
       {
-        "greek": "Ἐν τῷ ἡμετέρῳ παραδείγματι ὁ φίλος λέγει· «δὸς τὸ ποτήριον, θὲς δὲ τὸν κρατῆρα ἐν μέσῳ.» ὁ ἕτερος τὸ ποτήριον δίδωσι καὶ τὸν κρατῆρα τίθησιν.",
+        "greek": "Ἐν τῷ ἡμετέρῳ παραδείγματι ὁ φίλος λέγει· «δὸς τὸ ποτήριον, θὲς δὲ τὸν κρατῆρα ἐν μέσῳ.» ὁ ἕτερος τὸ ποτήριον δίδωσι καὶ τὸν κρατῆρα τίθησιν. Ὁ οἰνοχόος πολλάκις ἐδίδου τὰ ποτήρια καὶ ἐτίθει αὐτὰ παρὰ τοῖς συμπόταις· ἔπειτα ἓν ποτήριον ἔδωκε καὶ ἔθηκε.",
         "gloss": [
           {
             "greek": "Ἐν τῷ ἡμετέρῳ παραδείγματι",
@@ -309,6 +309,26 @@
           {
             "greek": "ἐν μέσῳ",
             "english": "in the middle"
+          },
+          {
+            "greek": "Ὁ οἰνοχόος",
+            "english": "the cupbearer"
+          },
+          {
+            "greek": "ἐδίδου",
+            "english": "was giving; imperfect of δίδωμι"
+          },
+          {
+            "greek": "ἐτίθει",
+            "english": "was setting down; imperfect of τίθημι"
+          },
+          {
+            "greek": "ἔδωκε",
+            "english": "gave; aorist of δίδωμι"
+          },
+          {
+            "greek": "ἔθηκε",
+            "english": "set down; aorist of τίθημι"
           }
         ]
       },
@@ -367,7 +387,7 @@
         ]
       }
     ],
-    "translation": "Callias invites friends to dinner. After dinner the friends drink and converse. Socrates is present; he does not remain silent but speaks about wine.\n\nWine gives pleasure, but excess harms. Socrates sets out plants as an example. A little water makes plants grow; too much water causes harm.\n\nPeople too need measure. Socrates does not urge everyone to drink a great deal. Small cups, and frequently: in this way the friends spend the evening pleasantly.\n\nIn our teaching example the friend says, “Give the cup, and put the mixing bowl in the middle.” The other gives the cup and places the mixing bowl.\n\nThey gave the wine and placed the cups. Now the fellow drinkers hear conversation instead of shouting. The gathering of friends is not judged by the quantity of wine alone.\n\nWhat do we give our friends? What do we place in the middle? Not only drink, but also conversation and attention. The person in command of his body also listens to the other person.\n",
+    "translation": "Callias invites friends to dinner. After dinner the friends drink and converse. Socrates is present; he does not remain silent but speaks about wine.\n\nWine gives pleasure, but excess harms. Socrates sets out plants as an example. A little water makes plants grow; too much water causes harm.\n\nPeople too need measure. Socrates does not urge everyone to drink a great deal. Small cups, and frequently: in this way the friends spend the evening pleasantly.\n\nIn our teaching example the friend says, “Give the cup, and put the mixing bowl in the middle.” The other gives the cup and places the mixing bowl. The cupbearer repeatedly handed out the cups and set them beside the guests; then he gave and set down one cup.\n\nThey gave the wine and placed the cups. Now the fellow drinkers hear conversation instead of shouting. The gathering of friends is not judged by the quantity of wine alone.\n\nWhat do we give our friends? What do we place in the middle? Not only drink, but also conversation and attention. The person in command of his body also listens to the other person.\n",
     "sourceCitation": "Xenophon, Symposium 2.24–27. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1181/1181-h/1181-h.htm https://en.wikipedia.org/wiki/Symposium_(Xenophon) https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original https://www.metmuseum.org/art/collection/search/253349",
     "notesMarkdown": "The comparison of wine to water nourishing plants follows Socrates in the Symposium. The serving instructions and -μι practice sentences are reconstructed teaching dialogue, not a transcript. The lesson title is a traditional maxim, not a quotation assigned here to Xenophon."
   },

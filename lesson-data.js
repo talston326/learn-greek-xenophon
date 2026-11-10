@@ -139080,7 +139080,7 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "διδόασιν",
-            "english": "give; supported -μι form"
+            "english": "they give; present active of δίδωμι; read as a supported form before Lesson 34"
           },
           {
             "greek": "βοήθει",
@@ -139101,7 +139101,7 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "δεικνύει",
-            "english": "shows; supported verb"
+            "english": "shows; present active of δείκνυμι; supported reading form before Lesson 36"
           },
           {
             "greek": "ἔπειτα",
@@ -143641,7 +143641,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Οἱ ἀσθενεῖς ἔφαγον, εἶτα ἀνέστησαν καὶ ἐπορεύοντο. οὐ λόγος μόνον αὐτοὺς ἔσωσεν. τροφῆς γὰρ ἐδέοντο. ἐνταῦθα ἡ ἐπιμέλεια τοῖς φίλοις κέρδος ἔφερεν.",
+        "greek": "Οἱ ἀσθενεῖς ἔφαγον, εἶτα ἀνέστησαν καὶ ἐπορεύοντο. οὐ λόγος μόνον αὐτοὺς ἔσωσεν. τροφῆς γὰρ ἐδέοντο. ἐνταῦθα ἡ ἐπιμέλεια τοῖς φίλοις κέρδος ἔφερεν. Ἐν τῇ ἀσκήσει συγκρίνομεν· οἱ ἄνδρες ἀνέστησαν· μετὰ τὸ φαγεῖν δυνατὸν ἦν ἀναστῆναι· ἀναστάντες ἐπορεύοντο.",
         "gloss": [
           {
             "greek": "ἔφαγον",
@@ -143666,11 +143666,23 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "κέρδος",
             "english": "benefit"
+          },
+          {
+            "greek": "μετὰ τὸ φαγεῖν",
+            "english": "after eating; articulated aorist infinitive"
+          },
+          {
+            "greek": "ἀναστῆναι",
+            "english": "to get up; athematic aorist infinitive of ἀνίστημι"
+          },
+          {
+            "greek": "ἀναστάντες",
+            "english": "having got up; athematic aorist active participle, nominative masculine plural"
           }
         ]
       }
     ],
-    "translation": "The Greeks were marching through Armenia. There was much snow, and the cold was severe. The soldiers and pack animals struggled; not all endured the hardship.\n\nMany of the pack animals died, and people died too. Not only soldiers but also enslaved people were in the snow. The hardship was shared, but their strength was not equal.\n\nThose who arrived first were keeping a fire burning. Those who came later approached the fire. The first arrivals demanded food and only then admitted the others.\n\nOn the next day the men were marching again. Some fell and remained behind. Xenophon stopped beside the weak men; he did not immediately recognize their condition.\n\nA man recognized the condition and told Xenophon. Xenophon went to the pack animals and looked for food. Those who were strong carried the food to the weak.\n\nThe weak men ate, then got up and continued marching. Words alone did not save them. For they needed nourishment. Here care brought benefit to their companions.\n",
+    "translation": "The Greeks were marching through Armenia. There was much snow, and the cold was severe. The soldiers and pack animals struggled; not all endured the hardship.\n\nMany of the pack animals died, and people died too. Not only soldiers but also enslaved people were in the snow. The hardship was shared, but their strength was not equal.\n\nThose who arrived first were keeping a fire burning. Those who came later approached the fire. The first arrivals demanded food and only then admitted the others.\n\nOn the next day the men were marching again. Some fell and remained behind. Xenophon stopped beside the weak men; he did not immediately recognize their condition.\n\nA man recognized the condition and told Xenophon. Xenophon went to the pack animals and looked for food. Those who were strong carried the food to the weak.\n\nThe weak men ate, then got up and continued marching. Words alone did not save them. For they needed nourishment. Here care brought benefit to their companions. In the exercise we compare: the men got up; after eating it was possible to get up; having got up, they continued marching.\n",
     "sourceCitation": "Xenophon, Anabasis 4.5.3–9. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1170/1170-h/1170-h.htm https://en.wikipedia.org/wiki/Anabasis_(Xenophon) https://en.wikisource.org/wiki/Anabasis_(Dakyns)/Book_4/Chapter_5",
     "notesMarkdown": "The snow, unequal access to fires, hunger-collapse, and distribution of food follow Xenophon. The compact sequence and closing judgment are adapted. A soldier’s command in the grammar workshop is invented practice, not a quotation."
   },
@@ -152659,6 +152671,10 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἄγγελον",
             "english": "messenger"
+          },
+          {
+            "greek": "βίᾳ χρήσεσθαι λέγει",
+            "english": "he says he will use force; χρήσεσθαι is a future infinitive in reported speech, studied in Lesson 40"
           }
         ]
       },
@@ -157101,7 +157117,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Ὁ Ἰσχόμαχος ναῦν Φοινικικὴν εἶδεν. ἐν τῇ νηὶ πολλὰ σκεύη ἔκειτο· ἕκαστον δὲ τὴν ἑαυτοῦ χώραν εἶχεν. ὁ τῶν σκευῶν φύλαξ ἠπίστατο τὰς χώρας.",
+        "greek": "Ὁ Ἰσχόμαχος ναῦν Φοινικικὴν εἶδεν. ἐν τῇ νηὶ πολλὰ σκεύη ἔκειτο· ἕκαστον δὲ τὴν ἑαυτοῦ χώραν εἶχεν. ὁ τῶν σκευῶν φύλαξ ἠπίστατο τὰς χώρας. Ὁ μὲν φύλαξ ἠπίστατο τὰ σκεύη εὑρίσκειν, οἱ δὲ ναῦται καὶ ἐν χαλεπῇ θαλάττῃ ἐδύναντο αὐτὰ λαμβάνειν.",
         "gloss": [
           {
             "greek": "ναῦν Φοινικικὴν",
@@ -157126,6 +157142,14 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἠπίστατο",
             "english": "knew; imperfect"
+          },
+          {
+            "greek": "ἠπίστατο τὰ σκεύη εὑρίσκειν",
+            "english": "knew how to find; imperfect of ἐπίσταμαι with infinitive"
+          },
+          {
+            "greek": "ἐδύναντο αὐτὰ λαμβάνειν",
+            "english": "were able to retrieve; imperfect of δύναμαι with infinitive"
           }
         ]
       },
@@ -157171,7 +157195,7 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "δεικνύει",
-            "english": "shows; supported verb"
+            "english": "shows; present active of δείκνυμι; supported reading form before Lesson 36"
           },
           {
             "greek": "ξηρῷ",
@@ -157242,7 +157266,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       }
     ],
-    "translation": "Ischomachus speaks with Socrates about the household. “Where are the objects?” This is not a small question. For someone searching often cannot find them.\n\nIschomachus saw a Phoenician ship. Much equipment lay in the ship, and each item had its own place. The keeper of the equipment knew the places.\n\nThe ship moves on the sea. Nevertheless the sailors can get useful things. But the house stays still; what then prevents order here too?\n\nHis wife asks for the arrangement. Ischomachus shows her the rooms. Grain lies in a dry place, wine in a cool place. Clothing has another place.\n\nNot everyone in the house knows the same things. The wife oversees the work, while enslaved workers labor. Order requires both memory and work.\n\nNow we examine the arrangement. Who finds the objects? Who carries them? Who gives orders? “I am able” and “I know how” do not mean the same thing.\n",
+    "translation": "Ischomachus speaks with Socrates about the household. “Where are the objects?” This is not a small question. For someone searching often cannot find them.\n\nIschomachus saw a Phoenician ship. Much equipment lay in the ship, and each item had its own place. The keeper of the equipment knew the places. The keeper knew how to find the equipment, and the sailors could retrieve it even in rough seas.\n\nThe ship moves on the sea. Nevertheless the sailors can get useful things. But the house stays still; what then prevents order here too?\n\nHis wife asks for the arrangement. Ischomachus shows her the rooms. Grain lies in a dry place, wine in a cool place. Clothing has another place.\n\nNot everyone in the house knows the same things. The wife oversees the work, while enslaved workers labor. Order requires both memory and work.\n\nNow we examine the arrangement. Who finds the objects? Who carries them? Who gives orders? “I am able” and “I know how” do not mean the same thing.\n",
     "sourceCitation": "Xenophon, Oeconomicus 8.11–20 and 9.2–10. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm https://en.wikipedia.org/wiki/Oeconomicus https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "Ischomachus’ ship comparison and household organization are adapted from his report to Socrates. The concise questions about objects are course wording. His wife’s views reach us through a male speaker and author, not an independent transcript."
   },
@@ -166182,7 +166206,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Ἐν τῷ ἡμετέρῳ παραδείγματι ὁ φίλος λέγει· «δὸς τὸ ποτήριον, θὲς δὲ τὸν κρατῆρα ἐν μέσῳ.» ὁ ἕτερος τὸ ποτήριον δίδωσι καὶ τὸν κρατῆρα τίθησιν.",
+        "greek": "Ἐν τῷ ἡμετέρῳ παραδείγματι ὁ φίλος λέγει· «δὸς τὸ ποτήριον, θὲς δὲ τὸν κρατῆρα ἐν μέσῳ.» ὁ ἕτερος τὸ ποτήριον δίδωσι καὶ τὸν κρατῆρα τίθησιν. Ὁ οἰνοχόος πολλάκις ἐδίδου τὰ ποτήρια καὶ ἐτίθει αὐτὰ παρὰ τοῖς συμπόταις· ἔπειτα ἓν ποτήριον ἔδωκε καὶ ἔθηκε.",
         "gloss": [
           {
             "greek": "Ἐν τῷ ἡμετέρῳ παραδείγματι",
@@ -166203,6 +166227,26 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἐν μέσῳ",
             "english": "in the middle"
+          },
+          {
+            "greek": "Ὁ οἰνοχόος",
+            "english": "the cupbearer"
+          },
+          {
+            "greek": "ἐδίδου",
+            "english": "was giving; imperfect of δίδωμι"
+          },
+          {
+            "greek": "ἐτίθει",
+            "english": "was setting down; imperfect of τίθημι"
+          },
+          {
+            "greek": "ἔδωκε",
+            "english": "gave; aorist of δίδωμι"
+          },
+          {
+            "greek": "ἔθηκε",
+            "english": "set down; aorist of τίθημι"
           }
         ]
       },
@@ -166261,7 +166305,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       }
     ],
-    "translation": "Callias invites friends to dinner. After dinner the friends drink and converse. Socrates is present; he does not remain silent but speaks about wine.\n\nWine gives pleasure, but excess harms. Socrates sets out plants as an example. A little water makes plants grow; too much water causes harm.\n\nPeople too need measure. Socrates does not urge everyone to drink a great deal. Small cups, and frequently: in this way the friends spend the evening pleasantly.\n\nIn our teaching example the friend says, “Give the cup, and put the mixing bowl in the middle.” The other gives the cup and places the mixing bowl.\n\nThey gave the wine and placed the cups. Now the fellow drinkers hear conversation instead of shouting. The gathering of friends is not judged by the quantity of wine alone.\n\nWhat do we give our friends? What do we place in the middle? Not only drink, but also conversation and attention. The person in command of his body also listens to the other person.\n",
+    "translation": "Callias invites friends to dinner. After dinner the friends drink and converse. Socrates is present; he does not remain silent but speaks about wine.\n\nWine gives pleasure, but excess harms. Socrates sets out plants as an example. A little water makes plants grow; too much water causes harm.\n\nPeople too need measure. Socrates does not urge everyone to drink a great deal. Small cups, and frequently: in this way the friends spend the evening pleasantly.\n\nIn our teaching example the friend says, “Give the cup, and put the mixing bowl in the middle.” The other gives the cup and places the mixing bowl. The cupbearer repeatedly handed out the cups and set them beside the guests; then he gave and set down one cup.\n\nThey gave the wine and placed the cups. Now the fellow drinkers hear conversation instead of shouting. The gathering of friends is not judged by the quantity of wine alone.\n\nWhat do we give our friends? What do we place in the middle? Not only drink, but also conversation and attention. The person in command of his body also listens to the other person.\n",
     "sourceCitation": "Xenophon, Symposium 2.24–27. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1181/1181-h/1181-h.htm https://en.wikipedia.org/wiki/Symposium_(Xenophon) https://www.perseus.tufts.edu/hopper/text?doc=Xen.+Sym.+2&lang=original https://www.metmuseum.org/art/collection/search/253349",
     "notesMarkdown": "The comparison of wine to water nourishing plants follows Socrates in the Symposium. The serving instructions and -μι practice sentences are reconstructed teaching dialogue, not a transcript. The lesson title is a traditional maxim, not a quotation assigned here to Xenophon."
   },
@@ -170636,7 +170680,7 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "εἰδέναι",
-            "english": "to know; perfect infinitive with present sense"
+            "english": "to know; perfect infinitive of οἶδα with present meaning; supported reading vocabulary"
           },
           {
             "greek": "τὸ κακὸν",
@@ -175213,6 +175257,10 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἔπαθον",
             "english": "suffered"
+          },
+          {
+            "greek": "ὤμοσαν μὴ μνησικακήσειν",
+            "english": "they swore not to hold past wrongs against one another; future infinitive after swearing; compare Lesson 40"
           }
         ]
       },
@@ -175242,27 +175290,39 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Ἄλλο παράδειγμα· ὁ ἀνὴρ ἵησι τὸ βέλος, ὁ δὲ φίλος ἀφίησι τὸν λίθον. τὸ δὲ μὴ βάλλειν καὶ μὴ βλάπτειν κρίσιν ἔχει. οὐ πᾶσα δύναμις εὐθὺς εἰς ἔργον ἔρχεται.",
+        "greek": "Ἐν ἀσκήσει περὶ τοῦ τὰ ὅπλα θεῖναι συγκρίνομεν· ὁ μὲν ἀνὴρ ἵησι τὸ βέλος, ὁ δὲ φίλος ἀφίησι τὸν λίθον καὶ παύεται μαχόμενος. τίς ἀφίησι πρᾶγμα, τίς δὲ παύεται πράττων; τὸ δὲ μὴ βάλλειν καὶ μὴ βλάπτειν κρίσιν ἔχει. οὐ πᾶσα δύναμις εὐθὺς εἰς ἔργον ἔρχεται.",
         "gloss": [
+          {
+            "greek": "θεῖναι",
+            "english": "to lay down; aorist infinitive of τίθημι"
+          },
           {
             "greek": "ἵησι",
             "english": "sends; present of ἵημι"
           },
           {
-            "greek": "τὸ βέλος",
-            "english": "missile"
-          },
-          {
             "greek": "ἀφίησι",
-            "english": "lets go of; present of ἀφίημι"
+            "english": "lets go of; present of ἀφίημι with an object"
           },
           {
-            "greek": "μὴ βάλλειν",
-            "english": "not throwing; articular infinitive"
+            "greek": "παύεται μαχόμενος",
+            "english": "ceases fighting; παύομαι with supplementary participle"
+          },
+          {
+            "greek": "πράττων",
+            "english": "doing; present participle"
+          },
+          {
+            "greek": "βέλος",
+            "english": "missile"
           },
           {
             "greek": "κρίσιν",
             "english": "a decision"
+          },
+          {
+            "greek": "μὴ βάλλειν",
+            "english": "not throwing; articular infinitive"
           }
         ]
       },
@@ -175296,7 +175356,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       }
     ],
-    "translation": "The men from Piraeus and the men from the city had been fighting. Pausanias and the envoys negotiated reconciliation. At last the men stopped fighting.\n\nThe men from Piraeus went up into the city. They had their arms and came to the Acropolis. There they sacrificed to Athena. Then the citizens deliberated.\n\nThe citizens swore not to bear grudges. They were not going to keep bringing old wrongs against one another. But the task was difficult, for the people had suffered much.\n\nIn the teaching example the citizen points out the Acropolis. His friend sees the men going up. “These men are now ceasing to fight; but what will they do tomorrow?”\n\nAnother example: the man sends a missile, and his companion lets go of a stone. But refraining from throwing and harming involves a decision. Not every power immediately passes into action.\n\nXenophon later also writes about those at Eleusis: their generals died. Reconciliation was not easy. What, then, is the citizen’s self-control? To hold power and anger with judgment.\n",
+    "translation": "The men from Piraeus and the men from the city had been fighting. Pausanias and the envoys negotiated reconciliation. At last the men stopped fighting.\n\nThe men from Piraeus went up into the city. They had their arms and came to the Acropolis. There they sacrificed to Athena. Then the citizens deliberated.\n\nThe citizens swore not to bear grudges. They were not going to keep bringing old wrongs against one another. But the task was difficult, for the people had suffered much.\n\nIn the teaching example the citizen points out the Acropolis. His friend sees the men going up. “These men are now ceasing to fight; but what will they do tomorrow?”\n\nIn an exercise about laying down arms we compare: one man sends a missile, while his companion lets go of the stone and ceases fighting. Who lets go of an object, and who ceases doing an action? Not throwing and not harming involves a decision. Not every power immediately passes into action.\n\nXenophon later also writes about those at Eleusis: their generals died. Reconciliation was not easy. What, then, is the citizen’s self-control? To hold power and anger with judgment.\n",
     "sourceCitation": "Xenophon, Hellenica 2.4.38–43. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm https://en.wikipedia.org/wiki/Hellenica https://en.wikisource.org/wiki/Hellenica_(Dakyns)/Book_2/Chapter_4",
     "notesMarkdown": "The settlement, return, sacrifice, and oath follow Hellenica 2.4.38–42. The δείκνυμι/ἵημι examples and interpretive questions are course composition. Section 43 describes a later killing of leaders at Eleusis and subsequent reconciliation; it is not the same event as the first return in 403 BCE."
   },
@@ -179660,7 +179720,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "Τί δίκαιόν ἐστιν;",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Cyropaedia 1.3.16–18. 253 Greek words in 5 paragraphs.",
+      "Xenophon, Cyropaedia 1.3.16–18. 265 Greek words in 5 paragraphs.",
       "The coat dispute and Cyrus’s conversation with Mandane follow Cyropaedia 1.3.16–18. The deliberative questions and closing reflection are composed for this course; neither these speeches nor the scene is an independent record of Persian schooling.",
       "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -179750,7 +179810,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Ὁ δὲ διδάσκαλος οὐκ ἐπῄνεσε τὴν κρίσιν. ἄλλο γάρ ἐστι τὸ ἁρμόττον, ἄλλο δὲ τὸ δίκαιον. οὐ τοῦτο μόνον ζητῶμεν, τίς χιτὼν καλῶς ἔχει, ἀλλὰ καὶ τίνος ἐστίν. μὴ τὸν κύριον ἀδικήσωμεν, ἵνα τὸν ἕτερον ὠφελήσωμεν. ὁ λαβὼν βίᾳ οὐ διὰ τοῦτο κύριος γίγνεται, ὅτι αὐτῷ τὸ κτῆμα χρήσιμόν ἐστιν.",
+        "greek": "Ὁ δὲ διδάσκαλος οὐκ ἐπῄνεσε τὴν κρίσιν. ἄλλο γάρ ἐστι τὸ ἁρμόττον, ἄλλο δὲ τὸ δίκαιον. οὐ τοῦτο μόνον ζητῶμεν, τίς χιτὼν καλῶς ἔχει, ἀλλὰ καὶ τίνος ἐστίν. μὴ τὸν κύριον ἀδικήσωμεν, ἵνα τὸν ἕτερον ὠφελήσωμεν. ὁ λαβὼν βίᾳ οὐ διὰ τοῦτο κύριος γίγνεται, ὅτι αὐτῷ τὸ κτῆμα χρήσιμόν ἐστιν. Ἐν τῇ ἀσκήσει λέγωμεν· ἐξετάζωμεν τὴν ἀλλαγήν, ἵνα μηδέτερος τῶν παίδων ἀδικηθῇ.",
         "gloss": [
           {
             "greek": "ἐπῄνεσε",
@@ -179775,6 +179835,18 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "κτῆμα",
             "english": "possession"
+          },
+          {
+            "greek": "ἐξετάζωμεν",
+            "english": "let us examine; present active subjunctive"
+          },
+          {
+            "greek": "μηδέτερος",
+            "english": "neither of the two"
+          },
+          {
+            "greek": "ἀδικηθῇ",
+            "english": "may be wronged; aorist passive subjunctive of ἀδικέω in a purpose clause"
           }
         ]
       },
@@ -179808,7 +179880,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       }
     ],
-    "translation": "While still a boy, Cyrus was staying with his grandfather. His mother Mandane asked about his education. For the boy needed not only to train his body but also to learn what was just. Cyrus said that among the Persians he learned to judge and that the teacher often made him a judge.\n\nTwo boys were disputing about tunics. The large boy had a small tunic, and the small boy a large one. The large boy took the small boy’s tunic and gave him his own. Each thus had a tunic fitting his body; but the small boy did not wish to lose his own. For he had not made the exchange willingly.\n\nCyrus examined the matter. What should I do? Should I consider the size of the tunics or their owners? One tunic fits the large boy well, the other the small boy. Let us therefore judge by usefulness, so that each may have what fits. He made this judgment, thinking that he was benefiting both.\n\nThe teacher did not praise the judgment. What fits is one thing, what is just another. Let us investigate not only which tunic fits well, but also whose it is. Let us not wrong the owner in order to benefit the other person. Someone who takes by force does not thereby become the owner because the possession is useful to him.\n\nMandane listened to the account and discussed laws. For a ruler does not have the same authority everywhere. Let the boy therefore not merely admire the deeds of the powerful, but examine what is just. Let us listen also to the weaker person, so that power may not judge in place of law. Thus the inquiry about two tunics leads into education about rule.\n",
+    "translation": "While still a boy, Cyrus was staying with his grandfather. His mother Mandane asked about his education. For the boy needed not only to train his body but also to learn what was just. Cyrus said that among the Persians he learned to judge and that the teacher often made him a judge.\n\nTwo boys were disputing about tunics. The large boy had a small tunic, and the small boy a large one. The large boy took the small boy’s tunic and gave him his own. Each thus had a tunic fitting his body; but the small boy did not wish to lose his own. For he had not made the exchange willingly.\n\nCyrus examined the matter. What should I do? Should I consider the size of the tunics or their owners? One tunic fits the large boy well, the other the small boy. Let us therefore judge by usefulness, so that each may have what fits. He made this judgment, thinking that he was benefiting both.\n\nThe teacher did not praise the judgment. What fits is one thing, what is just another. Let us investigate not only which tunic fits well, but also whose it is. Let us not wrong the owner in order to benefit the other person. Someone who takes by force does not thereby become the owner because the possession is useful to him. In the exercise let us say: let us examine the exchange so that neither boy is wronged.\n\nMandane listened to the account and discussed laws. For a ruler does not have the same authority everywhere. Let the boy therefore not merely admire the deeds of the powerful, but examine what is just. Let us listen also to the weaker person, so that power may not judge in place of law. Thus the inquiry about two tunics leads into education about rule.\n",
     "sourceCitation": "Xenophon, Cyropaedia 1.3.16–18. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/2085/2085-h/2085-h.htm",
     "notesMarkdown": "The coat dispute and Cyrus’s conversation with Mandane follow Cyropaedia 1.3.16–18. The deliberative questions and closing reflection are composed for this course; neither these speeches nor the scene is an independent record of Persian schooling."
   },
@@ -184177,7 +184249,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "Τίς φυλάττει τὰ ἐν τῇ οἰκίᾳ;",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. 253 Greek words in 5 paragraphs.",
+      "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. 279 Greek words in 5 paragraphs.",
       "The choice, training, and incentives of a housekeeper follow Oeconomicus 9.11–15, with comparison to 14.3–10. Proposals and questions are course compositions. The enslaved housekeeper’s private thoughts are not supplied by Xenophon and are not invented here.",
       "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -184192,11 +184264,11 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "κεκτῆσθαι",
-            "english": "to possess; supported perfect infinitive"
+            "english": "to possess; perfect middle infinitive of κτάομαι with present sense; supported reading vocabulary"
           },
           {
             "greek": "εἰδέναι",
-            "english": "to know; supported form"
+            "english": "to know; perfect infinitive of οἶδα with present meaning; supported reading vocabulary"
           },
           {
             "greek": "ταμίας",
@@ -184300,7 +184372,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Ἡ δὲ ταμία δούλη ἐστίν. ἡ ἐπιμέλεια τῶν χρημάτων οὐκ ἐλευθέραν αὐτὴν ποιεῖ. πολλὴν μὲν ἔχει χρείαν ὁ οἶκος τῆς ἐργασίας αὐτῆς, ἡ δὲ οὐ τὴν αὐτὴν ἐξουσίαν ἔχει τοῖς κυρίοις. μὴ οὖν τὴν τάξιν μόνον θαυμάσωμεν· ἐξετάσωμεν καὶ τίς κελεύει καὶ τίς πείθεται. οὐ γὰρ ἡ αὐτὴ ἐλευθερία πᾶσι τοῖς ἐν τῇ οἰκίᾳ ἐστίν. τίνα νόμον θῶμεν, ἵνα μὴ μόνον τὰ κτήματα ἀλλὰ καὶ τοὺς ἐργαζομένους φυλάττωμεν;",
+        "greek": "Ἡ δὲ ταμία δούλη ἐστίν. ἡ ἐπιμέλεια τῶν χρημάτων οὐκ ἐλευθέραν αὐτὴν ποιεῖ. πολλὴν μὲν ἔχει χρείαν ὁ οἶκος τῆς ἐργασίας αὐτῆς, ἡ δὲ οὐ τὴν αὐτὴν ἐξουσίαν ἔχει τοῖς κυρίοις. μὴ οὖν τὴν τάξιν μόνον θαυμάσωμεν· ἐξετάσωμεν καὶ τίς κελεύει καὶ τίς πείθεται. οὐ γὰρ ἡ αὐτὴ ἐλευθερία πᾶσι τοῖς ἐν τῇ οἰκίᾳ ἐστίν. τίνα νόμον θῶμεν, ἵνα μὴ μόνον τὰ κτήματα ἀλλὰ καὶ τοὺς ἐργαζομένους φυλάττωμεν; Ἐν διδακτικῷ διαλόγῳ οἱ κύριοι λέγουσι· «τίνα κανόνα θώμεθα; ἀφῶμεν τὴν ταμίαν τοῦ ἔργου, ἵνα ἀναπαύηται.» οὗτος ὁ λόγος ἄσκησίς ἐστιν, οὐ μαρτυρία περὶ νέας ἐλευθερίας.",
         "gloss": [
           {
             "greek": "δούλη",
@@ -184325,11 +184397,27 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἐργαζομένους",
             "english": "people working"
+          },
+          {
+            "greek": "θώμεθα",
+            "english": "shall we establish for ourselves? aorist middle subjunctive of τίθημι"
+          },
+          {
+            "greek": "ἀφῶμεν",
+            "english": "let us release; aorist active subjunctive of ἀφίημι"
+          },
+          {
+            "greek": "τοῦ ἔργου",
+            "english": "from the task; genitive of separation"
+          },
+          {
+            "greek": "ἀναπαύηται",
+            "english": "may rest; present middle subjunctive"
           }
         ]
       }
     ],
-    "translation": "Ischomachus speaks to Socrates about the household. For it is not enough to possess many things; one must also know where each lies and who guards it. Wife and husband deliberate about the housekeeper. They seek a woman who will care for the household’s contents and remember what is given.\n\nIschomachus praises care and memory. The housekeeper must receive some things, give others out, and guard others. He does not consider all people equally suited to these tasks. Rather, he asks who controls her pleasures and who is willing to be trustworthy. They choose such a woman so that the property may not be lost.\n\nHow then should we educate the housekeeper? What should we give her, and where should we place the equipment? We pose questions of this kind in the lesson. Ischomachus teaches his wife to place possessions in their proper locations. Each thing has a place, so that we may easily find what we seek. Let us not hide useful things in disorder.\n\nThey teach not only locations but also habits. The owner honors the trustworthy woman and gives gifts to the careful one. So that she may be trustworthy, they also try to make her well disposed. In Ischomachus’s account, however, honors and penalties look toward the owners’ advantage. For the owners set the standard.\n\nThe housekeeper is enslaved. Care of the property does not make her free. The household has great need of her work, but she does not have the same authority as the owners. Let us therefore not admire order alone; let us also examine who commands and who obeys. For not everyone in the household has the same freedom. What rule should we establish so that we may protect not only possessions but also the people who work?\n",
+    "translation": "Ischomachus speaks to Socrates about the household. For it is not enough to possess many things; one must also know where each lies and who guards it. Wife and husband deliberate about the housekeeper. They seek a woman who will care for the household’s contents and remember what is given.\n\nIschomachus praises care and memory. The housekeeper must receive some things, give others out, and guard others. He does not consider all people equally suited to these tasks. Rather, he asks who controls her pleasures and who is willing to be trustworthy. They choose such a woman so that the property may not be lost.\n\nHow then should we educate the housekeeper? What should we give her, and where should we place the equipment? We pose questions of this kind in the lesson. Ischomachus teaches his wife to place possessions in their proper locations. Each thing has a place, so that we may easily find what we seek. Let us not hide useful things in disorder.\n\nThey teach not only locations but also habits. The owner honors the trustworthy woman and gives gifts to the careful one. So that she may be trustworthy, they also try to make her well disposed. In Ischomachus’s account, however, honors and penalties look toward the owners’ advantage. For the owners set the standard.\n\nThe housekeeper is enslaved. Care of the property does not make her free. The household has great need of her work, but she does not have the same authority as the owners. Let us therefore not admire order alone; let us also examine who commands and who obeys. For not everyone in the household has the same freedom. What rule should we establish so that we may protect not only possessions but also the people who work? In a teaching dialogue the owners say: “What rule shall we establish for ourselves? Let us release the housekeeper from the task so that she may rest.” This speech is an exercise, not testimony to a new freedom.\n",
     "sourceCitation": "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "The choice, training, and incentives of a housekeeper follow Oeconomicus 9.11–15, with comparison to 14.3–10. Proposals and questions are course compositions. The enslaved housekeeper’s private thoughts are not supplied by Xenophon and are not invented here."
   },
@@ -188775,7 +188863,7 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "δέδοικε",
-            "english": "is afraid; supported perfect with present meaning"
+            "english": "he fears; perfect of δείδω with present meaning; read as a unit before perfect-system study"
           },
           {
             "greek": "μὴ οὐ βούλωνται",
@@ -193196,7 +193284,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "Ἡ νίκη καὶ ἡ κρίσις",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. 258 Greek words in 5 paragraphs.",
+      "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. 280 Greek words in 5 paragraphs.",
       "A connected adaptation of Hellenica 1.7.1–15 with the outcome summarized from 1.7.34–35. The present reporting frame is composed for instruction. The generals’ explanation is identified as their account; Socrates’ procedural objection did not prevent the executions.",
       "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -193228,6 +193316,10 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "πεπραγμένα",
             "english": "things done; supported perfect participle"
+          },
+          {
+            "greek": "τὰ πεπραγμένα",
+            "english": "what has been done; perfect passive participle used as a noun; supported reading vocabulary"
           }
         ]
       },
@@ -193277,7 +193369,7 @@ Xenophon is young, but he wants to become wise.`;
           },
           {
             "greek": "εἰδέναι",
-            "english": "to know; supported form"
+            "english": "to know; perfect infinitive with present meaning; supported reading vocabulary"
           },
           {
             "greek": "μάρτυρας",
@@ -193319,7 +193411,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Οὐ μὴν ἡ τοῦ Σωκράτους ἀντίρρησις ἔσωσε τοὺς στρατηγούς. ὕστερον οἱ παρόντες ἓξ κατεκρίθησαν καὶ ἀπέθανον. ὁ δὲ Ξενοφῶν καὶ τὴν μεταμέλειαν τοῦ δήμου διηγεῖται. ἡμεῖς οὖν διακρίνωμεν τὴν ναυμαχίαν, τὴν κατηγορίαν καὶ τὴν κρίσιν. ὁ περὶ τῆς νίκης λόγος οὐ λύει πάντα τὰ περὶ τῶν ἀπολομένων· ἡ δὲ ὀργὴ οὐκ ἀντὶ τῆς ἀποδείξεως ἐστίν.",
+        "greek": "Οὐ μὴν ἡ τοῦ Σωκράτους ἀντίρρησις ἔσωσε τοὺς στρατηγούς. ὕστερον οἱ παρόντες ἓξ κατεκρίθησαν καὶ ἀπέθανον. ὁ δὲ Ξενοφῶν καὶ τὴν μεταμέλειαν τοῦ δήμου διηγεῖται. ἡμεῖς οὖν διακρίνωμεν τὴν ναυμαχίαν, τὴν κατηγορίαν καὶ τὴν κρίσιν. ὁ περὶ τῆς νίκης λόγος οὐ λύει πάντα τὰ περὶ τῶν ἀπολομένων· ἡ δὲ ὀργὴ οὐκ ἀντὶ τῆς ἀποδείξεως ἐστίν. Συγκρίνωμεν τὸν ἐν τῷ προτέρῳ μαθήματι ὅρκον· «ὤμοσαν μὴ μνησικακήσειν.» ἐκεῖ μὲν τὸ ἀπαρέμφατον μέλλον δηλοῖ, ἐνθάδε δὲ τὸ «προστάξαι» προτέραν πρᾶξιν.",
         "gloss": [
           {
             "greek": "ἀντίρρησις",
@@ -193344,11 +193436,23 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἀποδείξεως",
             "english": "proof"
+          },
+          {
+            "greek": "ὤμοσαν μὴ μνησικακήσειν",
+            "english": "they swore not to hold past wrongs against one another; compare Lesson 36"
+          },
+          {
+            "greek": "μνησικακήσειν",
+            "english": "future infinitive: action subsequent to the oath"
+          },
+          {
+            "greek": "προστάξαι",
+            "english": "aorist infinitive: the generals claim they had issued orders"
           }
         ]
       }
     ],
-    "translation": "After the naval battle near Arginusae the Athenians have victory, yet they do not simply rejoice. Many soldiers have perished, and anger arises over those not rescued. Relatives ask who is responsible. The generals come to the city and give an account. Victory does not remove the need to examine what has been done.\n\nThe generals say that a storm prevented the rescue. They say that they ordered others to recover the wrecks, while they themselves sailed toward the enemy. The sea was rough, and it was not easy to carry out the orders. The accusers do not say the same things. Each tries to make his own account credible to the citizens.\n\nThe reader hears some saying one thing and others something else. The writer shows the people becoming angry and the speakers disagreeing. Hearing an account is not the same as knowing the truth. Who therefore examines the witnesses? How much time is given to the accused? Trying each person separately has significance for justice.\n\nA proposal is made to judge all the generals by a single vote. Some say that this is contrary to the laws. The presiding officials at first refuse to put the vote; then most give way out of fear. Socrates says that he will not agree. He is willing to act only according to law. Xenophon writes this account about him.\n\nSocrates’ objection nevertheless did not save the generals. Later the six who were present were condemned and died. Xenophon also narrates the people’s regret. Let us therefore distinguish the battle, the accusation, and the judgment. An account of victory does not resolve everything concerning those who perished; anger is not a substitute for proof.\n",
+    "translation": "After the naval battle near Arginusae the Athenians have victory, yet they do not simply rejoice. Many soldiers have perished, and anger arises over those not rescued. Relatives ask who is responsible. The generals come to the city and give an account. Victory does not remove the need to examine what has been done.\n\nThe generals say that a storm prevented the rescue. They say that they ordered others to recover the wrecks, while they themselves sailed toward the enemy. The sea was rough, and it was not easy to carry out the orders. The accusers do not say the same things. Each tries to make his own account credible to the citizens.\n\nThe reader hears some saying one thing and others something else. The writer shows the people becoming angry and the speakers disagreeing. Hearing an account is not the same as knowing the truth. Who therefore examines the witnesses? How much time is given to the accused? Trying each person separately has significance for justice.\n\nA proposal is made to judge all the generals by a single vote. Some say that this is contrary to the laws. The presiding officials at first refuse to put the vote; then most give way out of fear. Socrates says that he will not agree. He is willing to act only according to law. Xenophon writes this account about him.\n\nSocrates’ objection nevertheless did not save the generals. Later the six who were present were condemned and died. Xenophon also narrates the people’s regret. Let us therefore distinguish the battle, the accusation, and the judgment. An account of victory does not resolve everything concerning those who perished; anger is not a substitute for proof. Let us compare the oath in the earlier lesson: “They swore not to hold past wrongs against one another.” There the infinitive denotes a future action, whereas here “to have ordered” denotes an earlier action.\n",
     "sourceCitation": "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
     "notesMarkdown": "A connected adaptation of Hellenica 1.7.1–15 with the outcome summarized from 1.7.34–35. The present reporting frame is composed for instruction. The generals’ explanation is identified as their account; Socrates’ procedural objection did not prevent the executions."
   },
@@ -198309,6 +198413,10 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ζητητέον",
             "english": "requiring inquiry; supported verbal adjective"
+          },
+          {
+            "greek": "ζητητέον ἐστίν",
+            "english": "must be examined; whole-phrase preview of the verbal adjective in -τέος, studied in Lesson 44"
           }
         ]
       }
@@ -202672,7 +202780,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "Ὁ νόμος καὶ τὸ δίκαιον",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. 305 Greek words in 6 paragraphs.",
+      "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. 328 Greek words in 6 paragraphs.",
       "Based on Memorabilia 4.4.5–25. The sequence of challenge, lawful conduct, changing laws, and unwritten obligations follows the source. Wishes and potential statements in the final paragraphs are explicitly course reflection, not quotations from Hippias or Socrates.",
       "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -202787,6 +202895,10 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "χάριν ἀποδιδόναι",
             "english": "to return kindness"
+          },
+          {
+            "greek": "τῶν γεγραμμένων",
+            "english": "the written laws; perfect passive participle; supported reading vocabulary"
           }
         ]
       },
@@ -202820,7 +202932,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       },
       {
-        "greek": "Ἡ περὶ δικαιοσύνης ζήτησις οὐ τελευτᾷ ἑνὶ λόγῳ. ὁ ἀναγνώστης μνημονεύει τοῦ Σωκράτους πρὸς τὴν ἄνομον ψῆφον ἀντειπόντος. ἐκεῖνος νόμῳ βοηθεῖν ἐβούλετο, οὐ τῇ τῶν πολλῶν ὀργῇ. νόμος δὲ καὶ τὸ ὑπὸ δυνατοῦ ἀνδρὸς κελευόμενον οὐκ ἀεὶ ταὐτόν ἐστιν. τοῦτο σκοποῖμεν ἄν, ἵνα μὴ τὴν τῆς πόλεως δύναμιν ἄνευ κρίσεως ἐπαινῶμεν.",
+        "greek": "Ἡ περὶ δικαιοσύνης ζήτησις οὐ τελευτᾷ ἑνὶ λόγῳ. ὁ ἀναγνώστης μνημονεύει τοῦ Σωκράτους πρὸς τὴν ἄνομον ψῆφον ἀντειπόντος. ἐκεῖνος νόμῳ βοηθεῖν ἐβούλετο, οὐ τῇ τῶν πολλῶν ὀργῇ. νόμος δὲ καὶ τὸ ὑπὸ δυνατοῦ ἀνδρὸς κελευόμενον οὐκ ἀεὶ ταὐτόν ἐστιν. τοῦτο σκοποῖμεν ἄν, ἵνα μὴ τὴν τῆς πόλεως δύναμιν ἄνευ κρίσεως ἐπαινῶμεν. Ἐν ἀσκήσει συγκρίνομεν· ὁ Σωκράτης τὸ κελευόμενον ἐξετάζει, ἵνα οἱ πολῖται δικαίως κρίνωσιν· ὁ Σωκράτης τὸ κελευόμενον ἐξήταζεν, ἵνα οἱ πολῖται δικαίως κρίνοιεν.",
         "gloss": [
           {
             "greek": "τελευτᾷ",
@@ -202845,11 +202957,23 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἄνευ",
             "english": "without; with genitive"
+          },
+          {
+            "greek": "κρίνωσιν",
+            "english": "may judge; present subjunctive in purpose after a present main verb"
+          },
+          {
+            "greek": "ἐξήταζεν",
+            "english": "was examining; imperfect"
+          },
+          {
+            "greek": "κρίνοιεν",
+            "english": "might judge; present optative in purpose after a past main verb; the subjunctive could also be retained"
           }
         ]
       }
     ],
-    "translation": "Hippias arrives in Athens and converses with Socrates. He is surprised that Socrates still speaks about the same things. Socrates is not ashamed of investigating the same matters; he considers not only what is new but what is true. Hippias asks him not merely to question others but to state his own view about justice.\n\nSocrates first offers his own life as an example. He does not give false testimony or lead friends into faction. Hippias seeks a clearer explanation: it is not enough to say what the just person does not do. What, then, does he do? Socrates says that what is lawful is just. Thus the argument moves from actions to a definition.\n\nHippias asks how he can say this. Citizens establish laws and then change them. How, then, should we trust laws whenever those who established them do not themselves remain with the same rules? The question is substantial. Obeying a law is one thing, considering it always the best another. The reader examines this distinction.\n\nSocrates praises good order under law. Laws bring citizens together for common tasks, and concord makes the city stronger. He speaks not only about written rules; he also asks about unwritten laws. He offers honoring parents and returning kindness as examples. He refers these laws to the gods.\n\nNow, in examining the argument, we express wishes and possibilities. May the citizens judge justly. May they not prefer gain to justice. A just person might not simply obey the powerful; he might first examine the command. We are not saying that all this happens, but what we wish and what we consider possible.\n\nThe inquiry about justice does not end with a single statement. The reader remembers Socrates objecting to the unlawful vote. He wished to defend law, not the anger of the majority. Law and what a powerful man commands are not always the same. We might examine this so that we do not praise the city’s power without judgment.\n",
+    "translation": "Hippias arrives in Athens and converses with Socrates. He is surprised that Socrates still speaks about the same things. Socrates is not ashamed of investigating the same matters; he considers not only what is new but what is true. Hippias asks him not merely to question others but to state his own view about justice.\n\nSocrates first offers his own life as an example. He does not give false testimony or lead friends into faction. Hippias seeks a clearer explanation: it is not enough to say what the just person does not do. What, then, does he do? Socrates says that what is lawful is just. Thus the argument moves from actions to a definition.\n\nHippias asks how he can say this. Citizens establish laws and then change them. How, then, should we trust laws whenever those who established them do not themselves remain with the same rules? The question is substantial. Obeying a law is one thing, considering it always the best another. The reader examines this distinction.\n\nSocrates praises good order under law. Laws bring citizens together for common tasks, and concord makes the city stronger. He speaks not only about written rules; he also asks about unwritten laws. He offers honoring parents and returning kindness as examples. He refers these laws to the gods.\n\nNow, in examining the argument, we express wishes and possibilities. May the citizens judge justly. May they not prefer gain to justice. A just person might not simply obey the powerful; he might first examine the command. We are not saying that all this happens, but what we wish and what we consider possible.\n\nThe inquiry about justice does not end with a single statement. The reader remembers Socrates objecting to the unlawful vote. He wished to defend law, not the anger of the majority. Law and what a powerful man commands are not always the same. We might examine this so that we do not praise the city’s power without judgment. In an exercise we compare: Socrates examines the command so that the citizens may judge fairly; Socrates was examining the command so that the citizens might judge fairly.\n",
     "sourceCitation": "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm",
     "notesMarkdown": "Based on Memorabilia 4.4.5–25. The sequence of challenge, lawful conduct, changing laws, and unwritten obligations follows the source. Wishes and potential statements in the final paragraphs are explicitly course reflection, not quotations from Hippias or Socrates."
   },
@@ -207211,7 +207335,7 @@ Xenophon is young, but he wants to become wise.`;
     "title": "Ὅταν ὁ φόβος τὸν νόμον λύῃ",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. 307 Greek words in 6 paragraphs.",
+      "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. 339 Greek words in 6 paragraphs.",
       "Based on Hellenica 2.3.50–56, with context from 2.3.15–20. The indirect questions and reporting frames are teaching compositions. Theramenes was himself an oligarch; scrutiny of his seizure does not absolve his earlier political conduct.",
       "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -207359,11 +207483,15 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "σιωπῇ",
             "english": "silence"
+          },
+          {
+            "greek": "γεγραμμένῳ",
+            "english": "written; perfect passive participle, dative singular; supported reading vocabulary"
           }
         ]
       },
       {
-        "greek": "Ἐν τῇ ἡμετέρᾳ ἀσκήσει ἐρωτῶμεν τίς τὴν ψῆφον δοίη, τίς τὸν νόμον θείη, καὶ τίς τὸν φυλακῆς δεόμενον ἀφείη. ταῦτα οὐ νέαι μαρτυρίαι εἰσίν, ἀλλὰ τῆς διηγήσεως ἐξέτασις. ἡ γὰρ ὀρθὴ γραμματικὴ δεῖ καὶ τοὺς ποιοῦντας σαφεῖς ποιεῖν. μὴ τὸ «ἐκρίθη» λέγωμεν οὕτως, ὥστε κρύπτειν τίς ἔκρινεν καὶ τίς τὴν κρίσιν ἐκώλυσεν.",
+        "greek": "Ἐν τῇ ἡμετέρᾳ ἀσκήσει ἐρωτῶμεν τίς τὴν ψῆφον δοίη, τίς τὸν νόμον θείη, καὶ τίς τὸν φυλακῆς δεόμενον ἀφείη. ταῦτα οὐ νέαι μαρτυρίαι εἰσίν, ἀλλὰ τῆς διηγήσεως ἐξέτασις. ἡ γὰρ ὀρθὴ γραμματικὴ δεῖ καὶ τοὺς ποιοῦντας σαφεῖς ποιεῖν. μὴ τὸ «ἐκρίθη» λέγωμεν οὕτως, ὥστε κρύπτειν τίς ἔκρινεν καὶ τίς τὴν κρίσιν ἐκώλυσεν. Συγκρίνομεν δὲ δύο ἐρωτήσεις· τίς ἂν τοὺς νόμους τιθείη; τίς ἂν τόνδε τὸν νόμον θείη; ἡ μὲν πρώτη περὶ τοῦ νόμους τιθέναι πολλάκις ἐρωτᾷ, ἡ δὲ δευτέρα μίαν πρᾶξιν ὡς ὅλην σκοπεῖ.",
         "gloss": [
           {
             "greek": "δοίη",
@@ -207388,11 +207516,23 @@ Xenophon is young, but he wants to become wise.`;
           {
             "greek": "ἐκώλυσεν",
             "english": "prevented"
+          },
+          {
+            "greek": "τιθείη",
+            "english": "might be setting; present active optative of τίθημι with ἄν"
+          },
+          {
+            "greek": "θείη",
+            "english": "might establish; aorist active optative of τίθημι"
+          },
+          {
+            "greek": "τόνδε",
+            "english": "this particular; demonstrative accusative"
           }
         ]
       }
     ],
-    "translation": "After the Athenians’ defeat the Thirty ruled the city. Critias and Theramenes were among them. They did not agree about everything: Theramenes thought the government narrower than it should be, while Critias considered him an obstacle. The rulers sought more power, and the citizens feared that each might be the next to perish.\n\nThere was a list of three thousand citizens. Those on the list had to be judged by the council before execution, while the Thirty could kill those outside it. The list was therefore not merely a record of names: it made a difference to safety. Theramenes was among those on it and claimed judgment by the council.\n\nCritias, seeing the council favorably disposed toward Theramenes, did not wish to risk the vote. Armed men were present. He said that it was the rulers’ duty to punish opponents of the oligarchy. The councilors considered what they should do and how they might help the man. They heard the argument, but saw the power of weapons.\n\nCritias therefore erased Theramenes’ name from the list. He then said that the Thirty were permitted to kill him. Thus the man who previously enjoyed a right to judgment suddenly lacked the same protection. The record was changed, but the act did not thereby become more just. For the accuser himself was removing the protection.\n\nTheramenes fled to the altar and called on gods and humans. Critias handed him over to the Eleven. The attendants dragged him from the altar, while the councilors remained quiet out of fear. The writer shows injustice not only through a written rule but also through the bodies and silence of those present.\n\nIn our exercise we ask who might give the vote, who might establish the rule, and who might release the person needing protection. These are not new testimonies but an examination of the narrative. For accurate grammar should also make the agents clear. Let us not say “he was judged” in a way that conceals who judged and who prevented judgment.\n",
+    "translation": "After the Athenians’ defeat the Thirty ruled the city. Critias and Theramenes were among them. They did not agree about everything: Theramenes thought the government narrower than it should be, while Critias considered him an obstacle. The rulers sought more power, and the citizens feared that each might be the next to perish.\n\nThere was a list of three thousand citizens. Those on the list had to be judged by the council before execution, while the Thirty could kill those outside it. The list was therefore not merely a record of names: it made a difference to safety. Theramenes was among those on it and claimed judgment by the council.\n\nCritias, seeing the council favorably disposed toward Theramenes, did not wish to risk the vote. Armed men were present. He said that it was the rulers’ duty to punish opponents of the oligarchy. The councilors considered what they should do and how they might help the man. They heard the argument, but saw the power of weapons.\n\nCritias therefore erased Theramenes’ name from the list. He then said that the Thirty were permitted to kill him. Thus the man who previously enjoyed a right to judgment suddenly lacked the same protection. The record was changed, but the act did not thereby become more just. For the accuser himself was removing the protection.\n\nTheramenes fled to the altar and called on gods and humans. Critias handed him over to the Eleven. The attendants dragged him from the altar, while the councilors remained quiet out of fear. The writer shows injustice not only through a written rule but also through the bodies and silence of those present.\n\nIn our exercise we ask who might give the vote, who might establish the rule, and who might release the person needing protection. These are not new testimonies but an examination of the narrative. For accurate grammar should also make the agents clear. Let us not say “he was judged” in a way that conceals who judged and who prevented judgment. We compare two questions: who might regularly set the rules? Who might establish this particular rule? The first asks about repeatedly setting rules; the second views a single action as a whole.\n",
     "sourceCitation": "Xenophon, Hellenica 2.3.50–56, with context summarized from 2.3.15–20. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
     "notesMarkdown": "Based on Hellenica 2.3.50–56, with context from 2.3.15–20. The indirect questions and reporting frames are teaching compositions. Theramenes was himself an oligarch; scrutiny of his seizure does not absolve his earlier political conduct."
   },
@@ -217167,7 +217307,7 @@ Xenophon is young, but he wants to become wise.`;
     ],
     "paragraphs": [
       {
-        "greek": "Ὁ Ξενοφῶν περὶ τῆς Σωκράτους ἀπολογίας γράφει. οὐκ ἐν τῷ δικαστηρίῳ παρῆν, ἀλλὰ τὸν Ἑρμογένην μάρτυρα τοῦ λόγου παρέχει. ζητεῖ δὲ διὰ τί ὁ Σωκράτης μεγαληγόρως εἶπεν. καὶ ἄλλοι περὶ αὐτοῦ γεγράφασιν· ὁ Ξενοφῶν δὲ οἴεται δεῖν τὴν γνώμην τοῦ ἀνδρὸς δηλοῦν, ἵνα μὴ ἡ μεγαληγορία ἀφροσύνη δοκῇ εἶναι. ἡ οὖν διήγησις ἔχει σκοπόν.",
+        "greek": "Ὁ Ξενοφῶν περὶ τῆς Σωκράτους ἀπολογίας γράφει. οὐκ ἐν τῷ δικαστηρίῳ παρῆν, ἀλλὰ τὸν Ἑρμογένην μάρτυρα τοῦ λόγου παρέχει. ζητεῖ δὲ διὰ τί ὁ Σωκράτης μεγαληγόρως εἶπεν. καὶ ἄλλοι περὶ αὐτοῦ ἔγραψαν· ὁ Ξενοφῶν δὲ οἴεται δεῖν τὴν γνώμην τοῦ ἀνδρὸς δηλοῦν, ἵνα μὴ ἡ μεγαληγορία ἀφροσύνη δοκῇ εἶναι. ἡ οὖν διήγησις ἔχει σκοπόν.",
         "gloss": [
           {
             "greek": "δικαστηρίῳ",
@@ -217178,8 +217318,8 @@ Xenophon is young, but he wants to become wise.`;
             "english": "loftily, with high claims"
           },
           {
-            "greek": "γεγράφασιν",
-            "english": "have written; supported active perfect"
+            "greek": "ἔγραψαν",
+            "english": "wrote; aorist active of γράφω"
           },
           {
             "greek": "μεγαληγορία",
@@ -217362,7 +217502,7 @@ Xenophon is young, but he wants to become wise.`;
         ]
       }
     ],
-    "translation": "Xenophon writes about Socrates’ defense. He was not present in the court, but offers Hermogenes as a witness to the account. He asks why Socrates spoke so loftily. Others too have written about him; Xenophon thinks that the man’s intention must be made clear, so that the lofty speech may not appear foolishness. The narrative therefore has a purpose.\n\nHermogenes was surprised to see Socrates discussing other matters. The trial was being prepared, and the accusers were not idle. The accusers’ names were being heard in the city, while the friend worried about Socrates’ safety. He therefore asked whether Socrates ought also to consider his defense. He thought that justice would not suffice if the jurors were not persuaded.\n\nSocrates replied that his life had been prepared by him as a defense. For he had lived not by doing wrong but by acting justly. The deeds that his friends have observed provide substantial testimony. A defense is not merely a speech adorned in a single day, but also a life examined over a long time. In this way he interprets preparation.\n\nHermogenes is not immediately convinced. In the courts the unjust are sometimes acquitted and the just condemned. One must therefore speak with the listeners’ judgment in mind. Socrates, however, tells of the divine sign. When he turned to preparing his defense, the sign opposed him. Hermogenes communicated this response to Xenophon.\n\nSocrates also considers old age. He fears that time may damage memory and understanding. His present life seems sufficient to him, and he does not regard death as the greatest of all evils. Xenophon does not teach here that every person makes the same judgment; he explains Socrates’ view, in accordance with which Socrates approaches the trial.\n\nIn our exercise we distinguish what happened from what now holds. The speech was written; now it stands written. The friend was persuaded; now he is convinced. Before the other person arrived, he had already been persuaded. The first verbs present actions as wholes, while the others present the state arising from the actions. Let us not translate everything in the same way.\n\nFinally we ask what kind of defense appears more credible to a judge. An adorned speech can help, but the deeds must also be examined. A praised life does not release the listener from judging. We listen to the friend, examine the writer, and compare the account with the evidence. In this way friendship and judgment remain together.\n",
+    "translation": "Xenophon writes about Socrates’ defense. He was not present in the court, but offers Hermogenes as a witness to the account. He asks why Socrates spoke so loftily. Others too wrote about him; Xenophon thinks that the man’s intention must be made clear, so that the lofty speech may not appear foolishness. The narrative therefore has a purpose.\n\nHermogenes was surprised to see Socrates discussing other matters. The trial was being prepared, and the accusers were not idle. The accusers’ names were being heard in the city, while the friend worried about Socrates’ safety. He therefore asked whether Socrates ought also to consider his defense. He thought that justice would not suffice if the jurors were not persuaded.\n\nSocrates replied that his life had been prepared by him as a defense. For he had lived not by doing wrong but by acting justly. The deeds that his friends have observed provide substantial testimony. A defense is not merely a speech adorned in a single day, but also a life examined over a long time. In this way he interprets preparation.\n\nHermogenes is not immediately convinced. In the courts the unjust are sometimes acquitted and the just condemned. One must therefore speak with the listeners’ judgment in mind. Socrates, however, tells of the divine sign. When he turned to preparing his defense, the sign opposed him. Hermogenes communicated this response to Xenophon.\n\nSocrates also considers old age. He fears that time may damage memory and understanding. His present life seems sufficient to him, and he does not regard death as the greatest of all evils. Xenophon does not teach here that every person makes the same judgment; he explains Socrates’ view, in accordance with which Socrates approaches the trial.\n\nIn our exercise we distinguish what happened from what now holds. The speech was written; now it stands written. The friend was persuaded; now he is convinced. Before the other person arrived, he had already been persuaded. The first verbs present actions as wholes, while the others present the state arising from the actions. Let us not translate everything in the same way.\n\nFinally we ask what kind of defense appears more credible to a judge. An adorned speech can help, but the deeds must also be examined. A praised life does not release the listener from judging. We listen to the friend, examine the writer, and compare the account with the evidence. In this way friendship and judgment remain together.\n",
     "sourceCitation": "Xenophon, Apology 1–9. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1171/1171-h/1171-h.htm",
     "notesMarkdown": "Adapted from Xenophon’s Apology 1–9. Xenophon identifies Hermogenes as his informant. Perfect and pluperfect descriptions and the concluding discussion are course compositions. This lesson concerns preparation, not the entire trial."
   },

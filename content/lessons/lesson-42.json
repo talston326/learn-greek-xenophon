@@ -209,7 +209,7 @@
     "title": "Ὁ νόμος καὶ τὸ δίκαιον",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. 305 Greek words in 6 paragraphs.",
+      "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. 328 Greek words in 6 paragraphs.",
       "Based on Memorabilia 4.4.5–25. The sequence of challenge, lawful conduct, changing laws, and unwritten obligations follows the source. Wishes and potential statements in the final paragraphs are explicitly course reflection, not quotations from Hippias or Socrates.",
       "Read once for the argument, then translate paragraph by paragraph. Try each paragraph before opening glosses; finish the final two paragraphs as connected prose. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -324,6 +324,10 @@
           {
             "greek": "χάριν ἀποδιδόναι",
             "english": "to return kindness"
+          },
+          {
+            "greek": "τῶν γεγραμμένων",
+            "english": "the written laws; perfect passive participle; supported reading vocabulary"
           }
         ]
       },
@@ -357,7 +361,7 @@
         ]
       },
       {
-        "greek": "Ἡ περὶ δικαιοσύνης ζήτησις οὐ τελευτᾷ ἑνὶ λόγῳ. ὁ ἀναγνώστης μνημονεύει τοῦ Σωκράτους πρὸς τὴν ἄνομον ψῆφον ἀντειπόντος. ἐκεῖνος νόμῳ βοηθεῖν ἐβούλετο, οὐ τῇ τῶν πολλῶν ὀργῇ. νόμος δὲ καὶ τὸ ὑπὸ δυνατοῦ ἀνδρὸς κελευόμενον οὐκ ἀεὶ ταὐτόν ἐστιν. τοῦτο σκοποῖμεν ἄν, ἵνα μὴ τὴν τῆς πόλεως δύναμιν ἄνευ κρίσεως ἐπαινῶμεν.",
+        "greek": "Ἡ περὶ δικαιοσύνης ζήτησις οὐ τελευτᾷ ἑνὶ λόγῳ. ὁ ἀναγνώστης μνημονεύει τοῦ Σωκράτους πρὸς τὴν ἄνομον ψῆφον ἀντειπόντος. ἐκεῖνος νόμῳ βοηθεῖν ἐβούλετο, οὐ τῇ τῶν πολλῶν ὀργῇ. νόμος δὲ καὶ τὸ ὑπὸ δυνατοῦ ἀνδρὸς κελευόμενον οὐκ ἀεὶ ταὐτόν ἐστιν. τοῦτο σκοποῖμεν ἄν, ἵνα μὴ τὴν τῆς πόλεως δύναμιν ἄνευ κρίσεως ἐπαινῶμεν. Ἐν ἀσκήσει συγκρίνομεν· ὁ Σωκράτης τὸ κελευόμενον ἐξετάζει, ἵνα οἱ πολῖται δικαίως κρίνωσιν· ὁ Σωκράτης τὸ κελευόμενον ἐξήταζεν, ἵνα οἱ πολῖται δικαίως κρίνοιεν.",
         "gloss": [
           {
             "greek": "τελευτᾷ",
@@ -382,11 +386,23 @@
           {
             "greek": "ἄνευ",
             "english": "without; with genitive"
+          },
+          {
+            "greek": "κρίνωσιν",
+            "english": "may judge; present subjunctive in purpose after a present main verb"
+          },
+          {
+            "greek": "ἐξήταζεν",
+            "english": "was examining; imperfect"
+          },
+          {
+            "greek": "κρίνοιεν",
+            "english": "might judge; present optative in purpose after a past main verb; the subjunctive could also be retained"
           }
         ]
       }
     ],
-    "translation": "Hippias arrives in Athens and converses with Socrates. He is surprised that Socrates still speaks about the same things. Socrates is not ashamed of investigating the same matters; he considers not only what is new but what is true. Hippias asks him not merely to question others but to state his own view about justice.\n\nSocrates first offers his own life as an example. He does not give false testimony or lead friends into faction. Hippias seeks a clearer explanation: it is not enough to say what the just person does not do. What, then, does he do? Socrates says that what is lawful is just. Thus the argument moves from actions to a definition.\n\nHippias asks how he can say this. Citizens establish laws and then change them. How, then, should we trust laws whenever those who established them do not themselves remain with the same rules? The question is substantial. Obeying a law is one thing, considering it always the best another. The reader examines this distinction.\n\nSocrates praises good order under law. Laws bring citizens together for common tasks, and concord makes the city stronger. He speaks not only about written rules; he also asks about unwritten laws. He offers honoring parents and returning kindness as examples. He refers these laws to the gods.\n\nNow, in examining the argument, we express wishes and possibilities. May the citizens judge justly. May they not prefer gain to justice. A just person might not simply obey the powerful; he might first examine the command. We are not saying that all this happens, but what we wish and what we consider possible.\n\nThe inquiry about justice does not end with a single statement. The reader remembers Socrates objecting to the unlawful vote. He wished to defend law, not the anger of the majority. Law and what a powerful man commands are not always the same. We might examine this so that we do not praise the city’s power without judgment.\n",
+    "translation": "Hippias arrives in Athens and converses with Socrates. He is surprised that Socrates still speaks about the same things. Socrates is not ashamed of investigating the same matters; he considers not only what is new but what is true. Hippias asks him not merely to question others but to state his own view about justice.\n\nSocrates first offers his own life as an example. He does not give false testimony or lead friends into faction. Hippias seeks a clearer explanation: it is not enough to say what the just person does not do. What, then, does he do? Socrates says that what is lawful is just. Thus the argument moves from actions to a definition.\n\nHippias asks how he can say this. Citizens establish laws and then change them. How, then, should we trust laws whenever those who established them do not themselves remain with the same rules? The question is substantial. Obeying a law is one thing, considering it always the best another. The reader examines this distinction.\n\nSocrates praises good order under law. Laws bring citizens together for common tasks, and concord makes the city stronger. He speaks not only about written rules; he also asks about unwritten laws. He offers honoring parents and returning kindness as examples. He refers these laws to the gods.\n\nNow, in examining the argument, we express wishes and possibilities. May the citizens judge justly. May they not prefer gain to justice. A just person might not simply obey the powerful; he might first examine the command. We are not saying that all this happens, but what we wish and what we consider possible.\n\nThe inquiry about justice does not end with a single statement. The reader remembers Socrates objecting to the unlawful vote. He wished to defend law, not the anger of the majority. Law and what a powerful man commands are not always the same. We might examine this so that we do not praise the city’s power without judgment. In an exercise we compare: Socrates examines the command so that the citizens may judge fairly; Socrates was examining the command so that the citizens might judge fairly.\n",
     "sourceCitation": "Xenophon, Memorabilia 4.4.5–18; brief extension from 4.4.19–25. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1177/1177-h/1177-h.htm",
     "notesMarkdown": "Based on Memorabilia 4.4.5–25. The sequence of challenge, lawful conduct, changing laws, and unwritten obligations follows the source. Wishes and potential statements in the final paragraphs are explicitly course reflection, not quotations from Hippias or Socrates."
   },

@@ -234,7 +234,7 @@
         ]
       },
       {
-        "greek": "Ὁ Ἰσχόμαχος ναῦν Φοινικικὴν εἶδεν. ἐν τῇ νηὶ πολλὰ σκεύη ἔκειτο· ἕκαστον δὲ τὴν ἑαυτοῦ χώραν εἶχεν. ὁ τῶν σκευῶν φύλαξ ἠπίστατο τὰς χώρας.",
+        "greek": "Ὁ Ἰσχόμαχος ναῦν Φοινικικὴν εἶδεν. ἐν τῇ νηὶ πολλὰ σκεύη ἔκειτο· ἕκαστον δὲ τὴν ἑαυτοῦ χώραν εἶχεν. ὁ τῶν σκευῶν φύλαξ ἠπίστατο τὰς χώρας. Ὁ μὲν φύλαξ ἠπίστατο τὰ σκεύη εὑρίσκειν, οἱ δὲ ναῦται καὶ ἐν χαλεπῇ θαλάττῃ ἐδύναντο αὐτὰ λαμβάνειν.",
         "gloss": [
           {
             "greek": "ναῦν Φοινικικὴν",
@@ -259,6 +259,14 @@
           {
             "greek": "ἠπίστατο",
             "english": "knew; imperfect"
+          },
+          {
+            "greek": "ἠπίστατο τὰ σκεύη εὑρίσκειν",
+            "english": "knew how to find; imperfect of ἐπίσταμαι with infinitive"
+          },
+          {
+            "greek": "ἐδύναντο αὐτὰ λαμβάνειν",
+            "english": "were able to retrieve; imperfect of δύναμαι with infinitive"
           }
         ]
       },
@@ -304,7 +312,7 @@
           },
           {
             "greek": "δεικνύει",
-            "english": "shows; supported verb"
+            "english": "shows; present active of δείκνυμι; supported reading form before Lesson 36"
           },
           {
             "greek": "ξηρῷ",
@@ -375,7 +383,7 @@
         ]
       }
     ],
-    "translation": "Ischomachus speaks with Socrates about the household. “Where are the objects?” This is not a small question. For someone searching often cannot find them.\n\nIschomachus saw a Phoenician ship. Much equipment lay in the ship, and each item had its own place. The keeper of the equipment knew the places.\n\nThe ship moves on the sea. Nevertheless the sailors can get useful things. But the house stays still; what then prevents order here too?\n\nHis wife asks for the arrangement. Ischomachus shows her the rooms. Grain lies in a dry place, wine in a cool place. Clothing has another place.\n\nNot everyone in the house knows the same things. The wife oversees the work, while enslaved workers labor. Order requires both memory and work.\n\nNow we examine the arrangement. Who finds the objects? Who carries them? Who gives orders? “I am able” and “I know how” do not mean the same thing.\n",
+    "translation": "Ischomachus speaks with Socrates about the household. “Where are the objects?” This is not a small question. For someone searching often cannot find them.\n\nIschomachus saw a Phoenician ship. Much equipment lay in the ship, and each item had its own place. The keeper of the equipment knew the places. The keeper knew how to find the equipment, and the sailors could retrieve it even in rough seas.\n\nThe ship moves on the sea. Nevertheless the sailors can get useful things. But the house stays still; what then prevents order here too?\n\nHis wife asks for the arrangement. Ischomachus shows her the rooms. Grain lies in a dry place, wine in a cool place. Clothing has another place.\n\nNot everyone in the house knows the same things. The wife oversees the work, while enslaved workers labor. Order requires both memory and work.\n\nNow we examine the arrangement. Who finds the objects? Who carries them? Who gives orders? “I am able” and “I know how” do not mean the same thing.\n",
     "sourceCitation": "Xenophon, Oeconomicus 8.11–20 and 9.2–10. Newly composed controlled Greek adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm https://en.wikipedia.org/wiki/Oeconomicus https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "Ischomachus’ ship comparison and household organization are adapted from his report to Socrates. The concise questions about objects are course wording. His wife’s views reach us through a male speaker and author, not an independent transcript."
   },

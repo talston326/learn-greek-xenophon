@@ -209,7 +209,7 @@
     "title": "Τί δίκαιόν ἐστιν;",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Cyropaedia 1.3.16–18. 253 Greek words in 5 paragraphs.",
+      "Xenophon, Cyropaedia 1.3.16–18. 265 Greek words in 5 paragraphs.",
       "The coat dispute and Cyrus’s conversation with Mandane follow Cyropaedia 1.3.16–18. The deliberative questions and closing reflection are composed for this course; neither these speeches nor the scene is an independent record of Persian schooling.",
       "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -299,7 +299,7 @@
         ]
       },
       {
-        "greek": "Ὁ δὲ διδάσκαλος οὐκ ἐπῄνεσε τὴν κρίσιν. ἄλλο γάρ ἐστι τὸ ἁρμόττον, ἄλλο δὲ τὸ δίκαιον. οὐ τοῦτο μόνον ζητῶμεν, τίς χιτὼν καλῶς ἔχει, ἀλλὰ καὶ τίνος ἐστίν. μὴ τὸν κύριον ἀδικήσωμεν, ἵνα τὸν ἕτερον ὠφελήσωμεν. ὁ λαβὼν βίᾳ οὐ διὰ τοῦτο κύριος γίγνεται, ὅτι αὐτῷ τὸ κτῆμα χρήσιμόν ἐστιν.",
+        "greek": "Ὁ δὲ διδάσκαλος οὐκ ἐπῄνεσε τὴν κρίσιν. ἄλλο γάρ ἐστι τὸ ἁρμόττον, ἄλλο δὲ τὸ δίκαιον. οὐ τοῦτο μόνον ζητῶμεν, τίς χιτὼν καλῶς ἔχει, ἀλλὰ καὶ τίνος ἐστίν. μὴ τὸν κύριον ἀδικήσωμεν, ἵνα τὸν ἕτερον ὠφελήσωμεν. ὁ λαβὼν βίᾳ οὐ διὰ τοῦτο κύριος γίγνεται, ὅτι αὐτῷ τὸ κτῆμα χρήσιμόν ἐστιν. Ἐν τῇ ἀσκήσει λέγωμεν· ἐξετάζωμεν τὴν ἀλλαγήν, ἵνα μηδέτερος τῶν παίδων ἀδικηθῇ.",
         "gloss": [
           {
             "greek": "ἐπῄνεσε",
@@ -324,6 +324,18 @@
           {
             "greek": "κτῆμα",
             "english": "possession"
+          },
+          {
+            "greek": "ἐξετάζωμεν",
+            "english": "let us examine; present active subjunctive"
+          },
+          {
+            "greek": "μηδέτερος",
+            "english": "neither of the two"
+          },
+          {
+            "greek": "ἀδικηθῇ",
+            "english": "may be wronged; aorist passive subjunctive of ἀδικέω in a purpose clause"
           }
         ]
       },
@@ -357,7 +369,7 @@
         ]
       }
     ],
-    "translation": "While still a boy, Cyrus was staying with his grandfather. His mother Mandane asked about his education. For the boy needed not only to train his body but also to learn what was just. Cyrus said that among the Persians he learned to judge and that the teacher often made him a judge.\n\nTwo boys were disputing about tunics. The large boy had a small tunic, and the small boy a large one. The large boy took the small boy’s tunic and gave him his own. Each thus had a tunic fitting his body; but the small boy did not wish to lose his own. For he had not made the exchange willingly.\n\nCyrus examined the matter. What should I do? Should I consider the size of the tunics or their owners? One tunic fits the large boy well, the other the small boy. Let us therefore judge by usefulness, so that each may have what fits. He made this judgment, thinking that he was benefiting both.\n\nThe teacher did not praise the judgment. What fits is one thing, what is just another. Let us investigate not only which tunic fits well, but also whose it is. Let us not wrong the owner in order to benefit the other person. Someone who takes by force does not thereby become the owner because the possession is useful to him.\n\nMandane listened to the account and discussed laws. For a ruler does not have the same authority everywhere. Let the boy therefore not merely admire the deeds of the powerful, but examine what is just. Let us listen also to the weaker person, so that power may not judge in place of law. Thus the inquiry about two tunics leads into education about rule.\n",
+    "translation": "While still a boy, Cyrus was staying with his grandfather. His mother Mandane asked about his education. For the boy needed not only to train his body but also to learn what was just. Cyrus said that among the Persians he learned to judge and that the teacher often made him a judge.\n\nTwo boys were disputing about tunics. The large boy had a small tunic, and the small boy a large one. The large boy took the small boy’s tunic and gave him his own. Each thus had a tunic fitting his body; but the small boy did not wish to lose his own. For he had not made the exchange willingly.\n\nCyrus examined the matter. What should I do? Should I consider the size of the tunics or their owners? One tunic fits the large boy well, the other the small boy. Let us therefore judge by usefulness, so that each may have what fits. He made this judgment, thinking that he was benefiting both.\n\nThe teacher did not praise the judgment. What fits is one thing, what is just another. Let us investigate not only which tunic fits well, but also whose it is. Let us not wrong the owner in order to benefit the other person. Someone who takes by force does not thereby become the owner because the possession is useful to him. In the exercise let us say: let us examine the exchange so that neither boy is wronged.\n\nMandane listened to the account and discussed laws. For a ruler does not have the same authority everywhere. Let the boy therefore not merely admire the deeds of the powerful, but examine what is just. Let us listen also to the weaker person, so that power may not judge in place of law. Thus the inquiry about two tunics leads into education about rule.\n",
     "sourceCitation": "Xenophon, Cyropaedia 1.3.16–18. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/2085/2085-h/2085-h.htm",
     "notesMarkdown": "The coat dispute and Cyrus’s conversation with Mandane follow Cyropaedia 1.3.16–18. The deliberative questions and closing reflection are composed for this course; neither these speeches nor the scene is an independent record of Persian schooling."
   },

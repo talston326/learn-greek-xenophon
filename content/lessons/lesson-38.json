@@ -209,7 +209,7 @@
     "title": "Τίς φυλάττει τὰ ἐν τῇ οἰκίᾳ;",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. 253 Greek words in 5 paragraphs.",
+      "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. 279 Greek words in 5 paragraphs.",
       "The choice, training, and incentives of a housekeeper follow Oeconomicus 9.11–15, with comparison to 14.3–10. Proposals and questions are course compositions. The enslaved housekeeper’s private thoughts are not supplied by Xenophon and are not invented here.",
       "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -224,11 +224,11 @@
           },
           {
             "greek": "κεκτῆσθαι",
-            "english": "to possess; supported perfect infinitive"
+            "english": "to possess; perfect middle infinitive of κτάομαι with present sense; supported reading vocabulary"
           },
           {
             "greek": "εἰδέναι",
-            "english": "to know; supported form"
+            "english": "to know; perfect infinitive of οἶδα with present meaning; supported reading vocabulary"
           },
           {
             "greek": "ταμίας",
@@ -332,7 +332,7 @@
         ]
       },
       {
-        "greek": "Ἡ δὲ ταμία δούλη ἐστίν. ἡ ἐπιμέλεια τῶν χρημάτων οὐκ ἐλευθέραν αὐτὴν ποιεῖ. πολλὴν μὲν ἔχει χρείαν ὁ οἶκος τῆς ἐργασίας αὐτῆς, ἡ δὲ οὐ τὴν αὐτὴν ἐξουσίαν ἔχει τοῖς κυρίοις. μὴ οὖν τὴν τάξιν μόνον θαυμάσωμεν· ἐξετάσωμεν καὶ τίς κελεύει καὶ τίς πείθεται. οὐ γὰρ ἡ αὐτὴ ἐλευθερία πᾶσι τοῖς ἐν τῇ οἰκίᾳ ἐστίν. τίνα νόμον θῶμεν, ἵνα μὴ μόνον τὰ κτήματα ἀλλὰ καὶ τοὺς ἐργαζομένους φυλάττωμεν;",
+        "greek": "Ἡ δὲ ταμία δούλη ἐστίν. ἡ ἐπιμέλεια τῶν χρημάτων οὐκ ἐλευθέραν αὐτὴν ποιεῖ. πολλὴν μὲν ἔχει χρείαν ὁ οἶκος τῆς ἐργασίας αὐτῆς, ἡ δὲ οὐ τὴν αὐτὴν ἐξουσίαν ἔχει τοῖς κυρίοις. μὴ οὖν τὴν τάξιν μόνον θαυμάσωμεν· ἐξετάσωμεν καὶ τίς κελεύει καὶ τίς πείθεται. οὐ γὰρ ἡ αὐτὴ ἐλευθερία πᾶσι τοῖς ἐν τῇ οἰκίᾳ ἐστίν. τίνα νόμον θῶμεν, ἵνα μὴ μόνον τὰ κτήματα ἀλλὰ καὶ τοὺς ἐργαζομένους φυλάττωμεν; Ἐν διδακτικῷ διαλόγῳ οἱ κύριοι λέγουσι· «τίνα κανόνα θώμεθα; ἀφῶμεν τὴν ταμίαν τοῦ ἔργου, ἵνα ἀναπαύηται.» οὗτος ὁ λόγος ἄσκησίς ἐστιν, οὐ μαρτυρία περὶ νέας ἐλευθερίας.",
         "gloss": [
           {
             "greek": "δούλη",
@@ -357,11 +357,27 @@
           {
             "greek": "ἐργαζομένους",
             "english": "people working"
+          },
+          {
+            "greek": "θώμεθα",
+            "english": "shall we establish for ourselves? aorist middle subjunctive of τίθημι"
+          },
+          {
+            "greek": "ἀφῶμεν",
+            "english": "let us release; aorist active subjunctive of ἀφίημι"
+          },
+          {
+            "greek": "τοῦ ἔργου",
+            "english": "from the task; genitive of separation"
+          },
+          {
+            "greek": "ἀναπαύηται",
+            "english": "may rest; present middle subjunctive"
           }
         ]
       }
     ],
-    "translation": "Ischomachus speaks to Socrates about the household. For it is not enough to possess many things; one must also know where each lies and who guards it. Wife and husband deliberate about the housekeeper. They seek a woman who will care for the household’s contents and remember what is given.\n\nIschomachus praises care and memory. The housekeeper must receive some things, give others out, and guard others. He does not consider all people equally suited to these tasks. Rather, he asks who controls her pleasures and who is willing to be trustworthy. They choose such a woman so that the property may not be lost.\n\nHow then should we educate the housekeeper? What should we give her, and where should we place the equipment? We pose questions of this kind in the lesson. Ischomachus teaches his wife to place possessions in their proper locations. Each thing has a place, so that we may easily find what we seek. Let us not hide useful things in disorder.\n\nThey teach not only locations but also habits. The owner honors the trustworthy woman and gives gifts to the careful one. So that she may be trustworthy, they also try to make her well disposed. In Ischomachus’s account, however, honors and penalties look toward the owners’ advantage. For the owners set the standard.\n\nThe housekeeper is enslaved. Care of the property does not make her free. The household has great need of her work, but she does not have the same authority as the owners. Let us therefore not admire order alone; let us also examine who commands and who obeys. For not everyone in the household has the same freedom. What rule should we establish so that we may protect not only possessions but also the people who work?\n",
+    "translation": "Ischomachus speaks to Socrates about the household. For it is not enough to possess many things; one must also know where each lies and who guards it. Wife and husband deliberate about the housekeeper. They seek a woman who will care for the household’s contents and remember what is given.\n\nIschomachus praises care and memory. The housekeeper must receive some things, give others out, and guard others. He does not consider all people equally suited to these tasks. Rather, he asks who controls her pleasures and who is willing to be trustworthy. They choose such a woman so that the property may not be lost.\n\nHow then should we educate the housekeeper? What should we give her, and where should we place the equipment? We pose questions of this kind in the lesson. Ischomachus teaches his wife to place possessions in their proper locations. Each thing has a place, so that we may easily find what we seek. Let us not hide useful things in disorder.\n\nThey teach not only locations but also habits. The owner honors the trustworthy woman and gives gifts to the careful one. So that she may be trustworthy, they also try to make her well disposed. In Ischomachus’s account, however, honors and penalties look toward the owners’ advantage. For the owners set the standard.\n\nThe housekeeper is enslaved. Care of the property does not make her free. The household has great need of her work, but she does not have the same authority as the owners. Let us therefore not admire order alone; let us also examine who commands and who obeys. For not everyone in the household has the same freedom. What rule should we establish so that we may protect not only possessions but also the people who work? In a teaching dialogue the owners say: “What rule shall we establish for ourselves? Let us release the housekeeper from the task so that she may rest.” This speech is an exercise, not testimony to a new freedom.\n",
     "sourceCitation": "Xenophon, Oeconomicus 9.11–15; brief comparison with 14.3–10. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1173/1173-h/1173-h.htm",
     "notesMarkdown": "The choice, training, and incentives of a housekeeper follow Oeconomicus 9.11–15, with comparison to 14.3–10. Proposals and questions are course compositions. The enslaved housekeeper’s private thoughts are not supplied by Xenophon and are not invented here."
   },

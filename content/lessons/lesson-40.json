@@ -209,7 +209,7 @@
     "title": "Ἡ νίκη καὶ ἡ κρίσις",
     "audioPlaceholder": "Reading audio has not yet been recorded.",
     "introduction": [
-      "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. 258 Greek words in 5 paragraphs.",
+      "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. 280 Greek words in 5 paragraphs.",
       "A connected adaptation of Hellenica 1.7.1–15 with the outcome summarized from 1.7.34–35. The present reporting frame is composed for instruction. The generals’ explanation is identified as their account; Socrates’ procedural objection did not prevent the executions.",
       "Read once for the argument, then translate paragraph by paragraph. Use the glosses during the first pass; translate the closing paragraph continuously. Submit your connected English translation using the reading submission box.",
       "The vocabulary panel separates new required entries from review words. Paragraph glosses supply additional reading support; a gloss alone does not make a word or an advanced construction a production requirement."
@@ -241,6 +241,10 @@
           {
             "greek": "πεπραγμένα",
             "english": "things done; supported perfect participle"
+          },
+          {
+            "greek": "τὰ πεπραγμένα",
+            "english": "what has been done; perfect passive participle used as a noun; supported reading vocabulary"
           }
         ]
       },
@@ -290,7 +294,7 @@
           },
           {
             "greek": "εἰδέναι",
-            "english": "to know; supported form"
+            "english": "to know; perfect infinitive with present meaning; supported reading vocabulary"
           },
           {
             "greek": "μάρτυρας",
@@ -332,7 +336,7 @@
         ]
       },
       {
-        "greek": "Οὐ μὴν ἡ τοῦ Σωκράτους ἀντίρρησις ἔσωσε τοὺς στρατηγούς. ὕστερον οἱ παρόντες ἓξ κατεκρίθησαν καὶ ἀπέθανον. ὁ δὲ Ξενοφῶν καὶ τὴν μεταμέλειαν τοῦ δήμου διηγεῖται. ἡμεῖς οὖν διακρίνωμεν τὴν ναυμαχίαν, τὴν κατηγορίαν καὶ τὴν κρίσιν. ὁ περὶ τῆς νίκης λόγος οὐ λύει πάντα τὰ περὶ τῶν ἀπολομένων· ἡ δὲ ὀργὴ οὐκ ἀντὶ τῆς ἀποδείξεως ἐστίν.",
+        "greek": "Οὐ μὴν ἡ τοῦ Σωκράτους ἀντίρρησις ἔσωσε τοὺς στρατηγούς. ὕστερον οἱ παρόντες ἓξ κατεκρίθησαν καὶ ἀπέθανον. ὁ δὲ Ξενοφῶν καὶ τὴν μεταμέλειαν τοῦ δήμου διηγεῖται. ἡμεῖς οὖν διακρίνωμεν τὴν ναυμαχίαν, τὴν κατηγορίαν καὶ τὴν κρίσιν. ὁ περὶ τῆς νίκης λόγος οὐ λύει πάντα τὰ περὶ τῶν ἀπολομένων· ἡ δὲ ὀργὴ οὐκ ἀντὶ τῆς ἀποδείξεως ἐστίν. Συγκρίνωμεν τὸν ἐν τῷ προτέρῳ μαθήματι ὅρκον· «ὤμοσαν μὴ μνησικακήσειν.» ἐκεῖ μὲν τὸ ἀπαρέμφατον μέλλον δηλοῖ, ἐνθάδε δὲ τὸ «προστάξαι» προτέραν πρᾶξιν.",
         "gloss": [
           {
             "greek": "ἀντίρρησις",
@@ -357,11 +361,23 @@
           {
             "greek": "ἀποδείξεως",
             "english": "proof"
+          },
+          {
+            "greek": "ὤμοσαν μὴ μνησικακήσειν",
+            "english": "they swore not to hold past wrongs against one another; compare Lesson 36"
+          },
+          {
+            "greek": "μνησικακήσειν",
+            "english": "future infinitive: action subsequent to the oath"
+          },
+          {
+            "greek": "προστάξαι",
+            "english": "aorist infinitive: the generals claim they had issued orders"
           }
         ]
       }
     ],
-    "translation": "After the naval battle near Arginusae the Athenians have victory, yet they do not simply rejoice. Many soldiers have perished, and anger arises over those not rescued. Relatives ask who is responsible. The generals come to the city and give an account. Victory does not remove the need to examine what has been done.\n\nThe generals say that a storm prevented the rescue. They say that they ordered others to recover the wrecks, while they themselves sailed toward the enemy. The sea was rough, and it was not easy to carry out the orders. The accusers do not say the same things. Each tries to make his own account credible to the citizens.\n\nThe reader hears some saying one thing and others something else. The writer shows the people becoming angry and the speakers disagreeing. Hearing an account is not the same as knowing the truth. Who therefore examines the witnesses? How much time is given to the accused? Trying each person separately has significance for justice.\n\nA proposal is made to judge all the generals by a single vote. Some say that this is contrary to the laws. The presiding officials at first refuse to put the vote; then most give way out of fear. Socrates says that he will not agree. He is willing to act only according to law. Xenophon writes this account about him.\n\nSocrates’ objection nevertheless did not save the generals. Later the six who were present were condemned and died. Xenophon also narrates the people’s regret. Let us therefore distinguish the battle, the accusation, and the judgment. An account of victory does not resolve everything concerning those who perished; anger is not a substitute for proof.\n",
+    "translation": "After the naval battle near Arginusae the Athenians have victory, yet they do not simply rejoice. Many soldiers have perished, and anger arises over those not rescued. Relatives ask who is responsible. The generals come to the city and give an account. Victory does not remove the need to examine what has been done.\n\nThe generals say that a storm prevented the rescue. They say that they ordered others to recover the wrecks, while they themselves sailed toward the enemy. The sea was rough, and it was not easy to carry out the orders. The accusers do not say the same things. Each tries to make his own account credible to the citizens.\n\nThe reader hears some saying one thing and others something else. The writer shows the people becoming angry and the speakers disagreeing. Hearing an account is not the same as knowing the truth. Who therefore examines the witnesses? How much time is given to the accused? Trying each person separately has significance for justice.\n\nA proposal is made to judge all the generals by a single vote. Some say that this is contrary to the laws. The presiding officials at first refuse to put the vote; then most give way out of fear. Socrates says that he will not agree. He is willing to act only according to law. Xenophon writes this account about him.\n\nSocrates’ objection nevertheless did not save the generals. Later the six who were present were condemned and died. Xenophon also narrates the people’s regret. Let us therefore distinguish the battle, the accusation, and the judgment. An account of victory does not resolve everything concerning those who perished; anger is not a substitute for proof. Let us compare the oath in the earlier lesson: “They swore not to hold past wrongs against one another.” There the infinitive denotes a future action, whereas here “to have ordered” denotes an earlier action.\n",
     "sourceCitation": "Xenophon, Hellenica 1.7.1–15; outcome summarized from 1.7.34–35. Independently composed course adaptation, not a verbatim quotation. https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
     "notesMarkdown": "A connected adaptation of Hellenica 1.7.1–15 with the outcome summarized from 1.7.34–35. The present reporting frame is composed for instruction. The generals’ explanation is identified as their account; Socrates’ procedural objection did not prevent the executions."
   },
