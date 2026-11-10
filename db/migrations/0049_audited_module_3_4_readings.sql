@@ -12,7 +12,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 28 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -39,7 +39,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 29 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -66,7 +66,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 31 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -93,7 +93,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 32 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -120,7 +120,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 34 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -147,7 +147,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 35 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -174,7 +174,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 36 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -201,7 +201,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 37 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -228,7 +228,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 38 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -255,7 +255,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 39 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -282,7 +282,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 40 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -309,7 +309,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 41 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -336,7 +336,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 42 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -363,7 +363,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 43 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
@@ -390,7 +390,7 @@ BEGIN
   IF current_reading IS DISTINCT FROM old_reading THEN RAISE EXCEPTION 'Lesson 45 reading changed since audit baseline; refusing overwrite'; END IF;
   SELECT id INTO STRICT rid FROM public.readings WHERE lesson_id=lid ORDER BY sort_order,id LIMIT 1 FOR UPDATE;
   UPDATE public.lesson_content_overrides SET content=jsonb_set(content,'{reading}',new_reading),version=version+1,updated_at=now() WHERE lesson_id=lid;
-  UPDATE public.readings SET greek_text=(SELECT string_agg(p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
+  UPDATE public.readings SET greek_text=(SELECT string_agg(t.p->>'greek',E'\n\n' ORDER BY n) FROM jsonb_array_elements(new_reading->'paragraphs') WITH ORDINALITY t(p,n)),translation=new_reading->>'translation',notes_markdown=new_reading->>'notesMarkdown',source_citation=new_reading->>'sourceCitation' WHERE id=rid;
   DELETE FROM public.reading_glosses WHERE lesson_id=lid AND reading_id=rid;
   FOR p IN SELECT value FROM jsonb_array_elements(new_reading->'paragraphs') LOOP
     gi:=0;
